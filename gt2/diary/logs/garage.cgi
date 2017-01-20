@@ -380,10 +380,10 @@ fillin {
 		$valname = "";
 	}
 	elsif ($line =~ /^<\/select/) {
-		shift @types if defined(@types) && ($selname eq "t");
-		shift @queries if defined(@queries) && ($selname eq "q");
-		shift @nots if defined(@nots) && ($selname eq "n");
-		shift @ops if defined(@ops) && ($selname eq "op");
+		shift @types if @types && ($selname eq "t");
+		shift @queries if @queries && ($selname eq "q");
+		shift @nots if @nots && ($selname eq "n");
+		shift @ops if @ops && ($selname eq "op");
 		$selname = "";
 	}
 	elsif ($line =~ /^<input .* name="([^"]*)/ ) {

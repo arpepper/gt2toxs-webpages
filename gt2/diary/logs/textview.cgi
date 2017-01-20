@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 {
 $loaded_web ? return 1 : ($loaded_web = 1);
@@ -253,13 +253,14 @@ $title = 'View File: ' . $filename ;
 
 $public_html = "/u/arpepper/public_html";
 $realfilename = "$public_html/$filename";
+$realfilename = "$filename";
 
 $headerfilename = "$filename";
 $headerfilename =~ s:[^/]*$:: ;
-$headerfilename = "$public_html/${headerfilename}texthead.html";
+$headerfilename = "${headerfilename}texthead.html";
 $footerfilename = "$filename";
 $footerfilename =~ s:[^/]*$:: ;
-$footerfilename = "$public_html/${footerfilename}textfoot.html";
+$footerfilename = "${footerfilename}textfoot.html";
 
 #$realurl = "http://www.math.uwaterloo.ca/~arpepper/$filename";
 $realurl = "$filename";
@@ -283,6 +284,14 @@ print "<h1> $title </h1>\n";
 #print "<br>";
 
 print "<form action=\"/cgi-bin/dummy_does_not_exist\">\n";
+if (&mayview("$filename") ) {
+	;
+}
+else {
+	system("/bin/pwd");
+	print "mayview failed\n";
+	print "PERMISSION DENIED\n";
+}
 if ( $grep ne "" ) {
 	print "<h3> Search for: $grep </h3>\n";
 	print "<textarea rows=10 cols=82 readonly>\n";
@@ -294,6 +303,7 @@ if ( $grep ne "" ) {
 		}
 	}
 	else {
+	system("/bin/pwd");
 		print "PERMISSION DENIED\n";
 	}
 }
@@ -305,9 +315,11 @@ if (&mayview("$filename") && open(FILE,"<$realfilename")){
 	while (<FILE>) {
 		print;     # should do HTML fixup...
 	}
+	system("/bin/pwd");
 }
 else {
-	print "PERMISSION DENIED\n";
+	system("/bin/pwd");
+	print "PERMISSION DENIED $realfilename\n";
 }
 
 print "</textarea>\n";
