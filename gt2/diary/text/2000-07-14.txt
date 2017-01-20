@@ -1,0 +1,83 @@
+Friday July 14, 2000
+
+
+(GT2)  Evolution of a GameShark Code, Part I
+
+Threads:
+ Gran Turismo 2
+ Game Shark Hints
+
+I wanted to create a GameShark Code for <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html> which
+would cause you to win as prize cars hybrids constructed from your garage.
+These codes will only possibly work for <html><b>GameShark Version 3.00</b></html>
+or higher.
+
+Here is the first step, a code to cause you to win as a prize-car a new
+copy of the first car in your garage.  The first version is for the
+original 1.0 North American version of <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html>:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CCFB8 00A4 -- copies garage slot #1 to prize location (1.0)
+ 101D502C 0000
+</pre></font></tt>
+</HTML>
+
+I have worked extensively with later derived versions of the 1.0 code.
+I have not actually test any of the other versions, yet.  I would expect
+them to work, and would not be greatly afraid to try them--I just have
+not got around to it.
+
+For North American Version 1.1:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD328 00A4 -- copies garage slot #1 to prize location (1.1)
+ 101D539C 0000
+</pre></font></tt>
+</HTML>
+
+For North American Version 1.2:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD558 00A4 -- copies garage slot #1 to prize location (1.2)
+ 101D55CC 0000
+</pre></font></tt>
+</HTML>
+
+For PAL version (should work, based on the known offset):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD588 00A4 -- copies garage slot #1 to prize location (PAL)
+ 101D55FC 0000
+</pre></font></tt>
+</HTML>
+
+For Japanese version (I've seen this offset, but it would be nice if
+someone could test it--be warned):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD9B8 00A4 -- copies garage slot #1 to prize location (Japanese?)
+ 101D5A2C 0000
+</pre></font></tt>
+</HTML>
+
+So, after developing this code principle, I later went on to arrange
+to copy different pieces of different garage slots into the prize car
+location, so that the car to be won would be a hybrid.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

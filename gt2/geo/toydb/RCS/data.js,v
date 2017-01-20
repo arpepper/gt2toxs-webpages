@@ -1,0 +1,72 @@
+head	1.2;
+access;
+symbols;
+locks
+	arpepper:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2005.02.09.00.42.21;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.02.08.23.02.33;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Start with empty dummy.
+@
+
+
+1.2
+log
+@useable sample.
+@
+text
+@// Original content copyright (c) 2005 Adrian Pepper, all rights reserved.
+// Contact arpepper at math.uwaterloo.ca  for more information.
+
+var fieldnames =
+new Array( "Driver","Game","Manufacturer","Model","Track","Best Time","Comments","Settings","Notes" );
+var colnames =
+new Array( "Driver Name","Game Name","Manufacturer","Model Name","Track Name","Best Lap Time","Time Comments","Settings","Setting Notes" );
+
+var cardata = new Array(
+new Array( "SportWagon","GT1","Subaru","Impreza'96SD STi III","SSR11ii","1:46.657",
+"&nbsp;",
+"<table> <tr><th align=\"left\">Spring Rate</th><td align=\"right\">5.0</td><td>4.1</td></tr> <tr><th>Ride Height</th><td align=\"right\">110</td><td>110</td></tr> <tr><th>Dampers</th><td align=\"right\">5</td><td>5</td></tr> <tr><th>Camber</th><td align=\"right\">1.0</td><td>1.3</td></tr> <tr><th>Stabilizers</th><td align=\"right\">3</td><td>3</td></tr> <tr><th>Brake Balance</th><td align=\"right\">12</td><td>9</td></tr> <tr><th>Turbo</th><td colspan=\"2\" align=\"center\">7</td></tr> <tr><th>Gears</th><td>1st</td><td align=\"right\">3.700</td></tr> <tr><th align=\"left\"> </th><td>2nd</td><td  align=\"right\">2.190</td></tr> <tr><th align=\"left\"> </th><td>3rd</td><td  align=\"right\">1.424</td></tr> <tr><th align=\"left\"> </th><td>4th</td><td  align=\"right\">1.052</td></tr> <tr><th align=\"left\"> </th><td>5th</td><td  align=\"right\">0.828</td></tr> <tr><th align=\"left\"> </th><td> </td><td  align=\"right\">-----</td></tr> <tr><th align=\"left\"> </th><td>FD</td><td align=\"right\">3.550</td></tr> <tr><th align=\"left\">Aero</th><td>(0.17)</td><td>(0.21)</td></tr> </table>",
+"&nbsp;" ),
+new Array( "GT2toXS","GT1","Subaru","Impreza'96SD STi III","SSR11ii","1:47.568",
+"&nbsp;",
+"<table> <tr><th align=\"left\">Spring Rate</th><td align=\"right\">5.0</td><td>4.1</td></tr> <tr><th>Ride Height</th><td align=\"right\">110</td><td>110</td></tr> <tr><th>Dampers</th><td align=\"right\">5</td><td>5</td></tr> <tr><th>Camber</th><td align=\"right\">1.0</td><td>1.3</td></tr> <tr><th>Stabilizers</th><td align=\"right\">3</td><td>3</td></tr> <tr><th>Brake Balance</th><td align=\"right\">12</td><td>9</td></tr> <tr><th>Turbo</th><td colspan=\"2\" align=\"center\">7</td></tr> <tr><th>Gears</th><td>1st</td><td align=\"right\">3.700</td></tr> <tr><th align=\"left\"> </th><td>2nd</td><td  align=\"right\">2.190</td></tr> <tr><th align=\"left\"> </th><td>3rd</td><td  align=\"right\">1.424</td></tr> <tr><th align=\"left\"> </th><td>4th</td><td  align=\"right\">1.052</td></tr> <tr><th align=\"left\"> </th><td>5th</td><td  align=\"right\">0.828</td></tr> <tr><th align=\"left\"> </th><td> </td><td  align=\"right\">-----</td></tr> <tr><th align=\"left\"> </th><td>FD</td><td align=\"right\">3.550</td></tr> <tr><th align=\"left\">Aero</th><td>(0.17)</td><td>(0.21)</td></tr> </table>",
+"&nbsp;" )
+);
+
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+// Original content copyright (c) 2001 Adrian Pepper, all rights reserved.
+d5 1
+a5 1
+new Array( "Type","Day","Slot","Manufacturer","Model Name","","# Gears","Stk HP","Max HP","Stk Wt","Tuned Wt","Race Wt","Stk PWR","Tuned PWR","Race PWR","Rating","Colour","Price" );
+d7 1
+a7 1
+new Array( "Sale Type","Simulation Day","Used Car Slot","Manufacturer","Model Name","Drive Train","Stock # Gears","Stock BHP","Max BHP","Stock Weight in lbs","Tuned Weight in lbs","Racing Weight in lbs","Stock P/W Ratio","Tuned P/W Ratio","Racing P/W Ratio","Evaluation","Colour","Price" );
+d10 8
+a17 2
+new Array("N","0000","00","Aston Martin","DB7 Coupe","FR","5","328","424","3802","3231","2738",".086",".131",".155","Poor","silver","150000"),
+new Array("P","0000","00","TVR","*[R]Cerbera LM Edition","FR","6","-","581","-","-","1984","-","-",".293","Great","gray with green trim","0")
+d19 2
+@

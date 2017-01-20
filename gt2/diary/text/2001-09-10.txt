@@ -1,0 +1,160 @@
+Monday September 10, 2001
+
+tuned GTO'92 Comes Close to SSR11 All-Night II in Mitsu game
+
+Threads:
+  All-Night II Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/mitsu">mitsu</a> game
+(Maybe <a href="../logs/mitsu.txt">here</a>),
+I used Mitsubishi cars for as many races as possible,
+and used the GTO'92 (twinturbo, not SR) for most races.
+So I decided to enter the tuned version in
+the All-Night II,
+hoping to set a new record, and maybe to break 50 minutes total
+time for the event.  Sadly, I didn't quite manage it.
+
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: mitsu
+   Day: 89
+   Date: Sep 10, 2001
+   Car: tuned Passion Red Mitsubishi GTO'92 twinturbo
+   Race: SSR11 All-Night II  Endurance Race
+   Qualified: 1st 1:44.712new  (+16.157) Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: silver NISMO GT-R LM
+
+   Results:
+
+   1st:* GTO'92 twinturbo       50:53.957<--new mitsu time
+   2nd:  Supra RZ                +492.128  (59:06.085) 4 laps
+   3rd:  FDRX7 TypeRZ            +499.834  (59:13.791) 4 laps
+   4th:  Lancer EvoIII GSR       +526.800  (59:40.757) 4 laps
+   5th:  R33GT-R Vspec           +541.650  (59:55.607) 5? laps
+   6th:  Civic 3 door            +679.060  (62:13.017) 6? laps
+   Pits: 8,16,23
+   fl(11): 1:36.274new
+
+   lap 1   1:44.489
+   slowest  non-pit   (5)  1:44.746
+             next     (6)  1:41.236
+   fastest pit laps    (8in)  1:43.519
+                      (17out) 1:58.877
+   slowest pit laps   (23in)  1:44.793
+                      (24out) 2:04.501
+
+</pre></font></tt>
+</HTML>
+
+I started from pole position, got a good start, and never lost the lead.
+
+I lapped the entire field by my first pitstop on lap 8, although one
+of the cars went by me during the stop.
+
+Traffic held me up only slightly in this car.  I probably lapped the
+field for the fourth time close to the end, and continued to lap a few
+cars another time after that.
+
+I had one messy spin on lap 5, going into the first chicane.
+
+My time was 15 seconds slower than the Skyline GT-R'89, so perhaps I should
+try the GTO'95MR again soon for more direct comparison.
+On the other hand, the 15 seconds could have been gained by taking only
+two pitstops, as the Skyline did, although I'm not 100% confident I would
+not have lost more time with slow laps.
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:41.835      1:41.835
+ 2   1:37.172      3:19.007
+ 3   1:39.313      4:58.320
+ 4   1:37.857      6:36.177
+ 5   1:44.746      8:20.923
+ 6   1:41.236     10:02.159
+ 7   1:39.152     11:41.311
+ 8   1:43.519     13:24.830
+ 9   2:00.452     15:25.282
+10   1:38.306     17:03.588
+11   1:36.274     18:39.862
+12   1:37.960     20:17.822
+13   1:39.298     21:57.120
+14   1:40.550     23:37.670
+15   1:40.935     25:18.605
+16   1:44.150     27:02.755
+17   1:58.877     29:01.632
+18   1:38.232     30:39.864
+19   1:37.439     32:17.303
+20   1:37.344     33:54.647
+21   1:39.962     35:34.609
+22   1:39.461     37:14.070
+23   1:44.793     38:58.863
+24   2:04.501     41:03.364
+25   1:37.903     42:41.267
+26   1:39.208     44:20.475
+27   1:38.087     45:58.562
+28   1:37.342     47:35.904
+29   1:38.590     49:14.494
+30   1:39.463     50:53.957
+
+</pre></font></tt>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are my settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+           My Settings
+
+
+Tires            S     S
+    all parts maxed (TS4)
+
+Spring Rate     7.1   4.1
+Ride Height     100   115  (min, not min)
+Dampers          5     5
+Camber          1.8   1.8
+Stabilizers      4     4
+Brake Balance   12     9
+Turbo               7
+        1st       3.800
+        2nd       2.046
+        3rd       1.266
+        4th       0.930
+        5th       0.744
+        6th       0.633
+                  -----
+        FD        4.000
+
+Aero    (0.17,0.21)  (stock)
+
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

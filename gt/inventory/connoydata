@@ -1,0 +1,307 @@
+Nissan (38 entries, 33 distinct)
+======
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Primera '90 2.0Te                 FF  5 142   324   2667  2078  1785   Poor
+
+Primera '95 2.0Te                 FF  5 142   321   2601  2028  1741   Fair
+
+S13 Silvia '88 Q's 1800cc         FR  5 129   237   2403  1873  1609   Poor
+*S13 Silvia Q's 1800cc            FR  5 129   237   2403  1873  1609   Poor
+S13 Silvia '91 Q's 2000cc         FR  5 133   318   2447  1906  1638   Fair
+S13 Silvia '88 K's 1800cc         FR  5 168   492   2469  2098  1776   Fair
+S13 Silvia '91 K's 2000cc         FR  5 198   479   2579  2191  1856   Fair
+*Sil Eighty                       FR  5 198   479   2579  2191  1856   Fair
+
+180SX Type S                      FR  5 133   318   2645  2063  1772   Fair
+180SX '94 Type X                  FR  5 192   479   2667  2266  1920   Fair
+180SX Type X                      FR  5 198   479   2689  2286  1935   Fair
+
+S14 Silvia '95 Q's                FR  5 154   321   2601  2028  1741   Poor
+S14 Silvia Q's                    FR  5 152   321   2623  2045  1757   Poor
+S14 Silvia '95 K's                FR  5 208   480   2733  2323  1966   Fair
+S14 Silvia K's                    FR  5 208   480   2755  2341  1984   Fair
+
+R32 Skyline GTS25 Type S          FR  5 181   336   2777  2164  1860   Fair
+R32 Skyline GTS-t Type M          FR  5 208   323   2777  2361  1999   Fair
+R32 Skyline GTS-4                 4WD 5 208   333   3130  2660  2253   Poor
+R33 Skyline GTS25t Type M         FR  5 237   483   2998  2548  2158   Fair
+
+Fairlady Z Version S 2by2         FR  5 225   314   3240  2526  2169   Poor
+Fairlady Z Version S 2seater      FR  5 225   314   3152  2458  2112   Poor
+Fairlady Z TwinTurbo 2by2         FR  5 272   670   3461  2940  2491   Fair
+Fairlady Z TwinTurbo 2seater      FR  5 272   670   3373  2865  2427   Fair
+
+Pulsar '91 GTi-R                  4WD 5 222   381   2689  2286  1935   Fair
+
+R32 Skyline '89 GT-R              4WD 5 303   913   3152  2678  2268   Great
+R32 Skyline '91 GT-R              4WD 5 303   913   3262  2773  2347   Great
+*R32 Skyline '91 GT-R             4WD 5 303   913   3262  2773  2347   Great
+R32 Skyline GT-R Vspec            4WD 5 303   913   3306  2810  2380   Great
+R32 Skyline GT-R Vspec II         4WD 5 303   854   3306  2810  2380   Great
+R32 Skyline GT-R Nismo            4WD 5 303   854   3306  2810  2380   Great
+
+R33 Skyline '95 GT-R              4WD 5 310   937   3373  2865  2427   Great
+R33 Skyline GT-R                  4WD 5 310   937   3373  2865  2427   Great
+R33 Skyline '95 GT-R Vspec        4WD 5 310   937   3395  2885  2442   Great
+R33 Skyline GT-R Vspec            4WD 5 310   941   3395  2885  2442   Great
+
+*Nismo GT-R LM                    FR  5 311   860   3483  2960  2506   Good
+
+*Nismo 400R                       4WD 5 411   860   3417  2903  2460   Great
+
+[R]Nismo GT-R LM                  FR  6       653               2513   Great
+*[R]S14 Silvia LM Edition         FR  6       536               2116   Great
+
+
+Honda (17 entries, 16 distinct)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+del Sol '93 S                     FF  5 123   204   2286  1781  1529   Poor
+del Sol '93 Si                    FF  5 159   262   2286  1781  1529   Poor
+
+Civic '91 CR-X Si                 FF  5 152   259   2173  1695  1455   Poor
+
+*CR-X EF-8 Si-R                   FF  5 152   259   2138  1666  1430   Poor
+
+Civic '93 Sedan                   FF  5 151   266   2275  1772  1523   Poor
+Civic '93 3Door Si                FF  5 164   286   2094  1633  1402   Poor
+
+Prelude '93 Si                    FF  5 152   323   2865  2235  1920   Fair
+Prelude '94 VTEC                  FF  5 205   377   2932  2286  1964   Fair
+
+Civic Sedan                       FF  5 164   265   2517  1962  1686   Poor
+Civic 3Door                       FF  5 164   265   2253  1757  1507   Poor
+
+Civic (Racer)                     FF  5 175   265   2314  1805  1549   Poor
+*EK Civic Type R                  FF  5 175   265   2314  1805  1549   Poor
+
+Accord Sedan                      FF  5 181   326   3284  2561  2200   Poor
+Accord Wagon                      FF  4 181   326   3196  2493  2140   Poor
+
+Prelude                           FF  5 188   378   2954  2303  1977   Fair
+Prelude Type SH                   FF  5 208   374   3042  2372  2037   Fair
+
+*[R]del Sol LM Edition            MR  6       563               1962   Great
+
+
+Acura (8 entries)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Integra GS-R                      FF  5 171   303   2667  2078  1785   Poor
+
+Integra Type R                    FF  5 189   361   2594  2023  1737   Fair
+
+NSX '91                           MR  5 268   490   3009  2345  2015   Fair
+NSX '93                           MR  5 268   490   3020  2354  2021   Fair
+
+NSX                               MR  6 285   534   3068  2391  2054   Good
+
+NSX Type S                        MR  6 285   534   2910  2268  1948   Great
+NSX Type S Zero                   MR  6 285   534   2799  2182  1873   Great
+
+[R]NSX-R LM GT2                   MR  6       541               2314   Great
+
+
+Mazda (23 entries, 18 distinct)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Demio LX G Package                FF  5 77    202   2006  1563  1342
+Demio GL                          FF  5 94    211   2116  1649  1417
+Demio GL-X                        FF  5 94    211   2116  1649  1417
+
+*Demio A spec                     FF  5 94    211   1807  1408  1210
+
+Lantis Coupe 2000 Type R          FF  5 169   326   2733  2131  1829
+
+Eunos Roadster '89 Normal         FR  5 114   194   2160  1684  1446
+Eunos Roadster '90 V-Special      FR  5 114   194   2182  1701  1461
+Eunos Roadster '92 S-Special      FR  5 114   194   2182  1701  1461
+Eunos Roadster Normal             FR  5 127   233   2160  1684  1446
+Eunos Roadster S-Special          FR  5 127   233   2182  1701  1461
+Eunos Roadster V-Special          FR  5 127   233   2182  1701  1461
+*Eunos Roadster                   FR  5 127   233   2182  1701  1461
+
+FC Savanna RX-7 GT-X              FR  5 199   429   2755  2341  1984
+FC Savanna RX-7 Efini III         FR  5 204   432   2645  2248  1904
+
+Eunos Cosmo 13B Type S CCS        FR  4 220   506   3350  2848  2411
+Eunos Cosmo 20B Type E CCS        FR  4 270   673   3615  3073  2601
+
+FD Efini RX-7 '91 Type R          FR  5 256   527   2777  2361  1999
+
+FD Efini RX-7 Touring X           FR  4 256   527   2932  2491  2109
+FD Efini RX-7 Type RB             FR  5 256   527   2777  2361  1999
+FD Efini RX-7 Type RZ             FR  5 256   527   2755  2341  1984
+FD Efini RX-7 A spec              FR  5 256   527   2689  2286  1935
+
+[R]RX-7 LM Edition                FR  6       588               2116
+
+*[R]RX-7 A spec LM Edition        FR  6       570               2314
+
+
+Mitsubishi (22 entries, 18 distinct)
+==========
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Galant VR-G Touring               FF  5 142   168   2733  2131  1829   Worst
+
+Mirage '92 Cyborg R               FF  5 167   265   2292  1787  1534   Poor
+
+Mirage Asti RX                    FF  5 167   265   2358  1838  1578   Poor
+
+FTO '94 GR                        FF  5 161   328   2535  1977  1697   Fair
+FTO GR                            FF  5 171   326   2535  1977  1697   Fair
+FTO '94 GPX                       FF  5 189   364   2579  2010  1726   Fair
+FTO GPX                           FF  5 189   364   2579  2010  1726   Fair
+FTO GP Version R                  FF  5 189   364   2535  1977  1697   Fair
+
+Eclipse GT                        FF  5 216   378   2932  2491  2109   Fair
+
+Lancer EvolutionIII GSR           4WD 5 259   477   2777  2361  1999   Good
+
+Lancer EvolutionIV GSR            4WD 5 268   492   2976  2528  2142   Good
+*Lancer EvolutionIV GSR           4WD 5 268   492   2976  2528  2142   Good
+
+Galant VR-4                       4WD 5 272   783   3262  2773  2347   Great
+
+GTO '92                           4WD 5 214   381   3637  2837  2436   Fair
+GTO '95 SR                        4WD 5 214   381   3637  2837  2436   Fair
+GTO SR                            4WD 5 214   381   3549  2766  2376   Fair
+
+GTO '92 Twin Turbo                4WD 5 310   928   3769  3203  2713   Great
+GTO '95 Twin Turbo                4WD 6 311   930   3769  3203  2713   Great
+GTO Twin Turbo                    4WD 6 311   930   3769  3203  2713   Great
+GTO '95 MR                        4WD 6 311   930   3703  3148  2665   Great
+
+[R]GTO LM Edition                 4WD 7       604               2821   Great
+
+*[R]FTO LM Edition                4WD 6       541               2050   Great
+
+
+Toyota (30 entries, 24 distinct)
+======
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Starlet Glanza V                  FF  5 131   217   2028  1723  1459
+
+AE86 Corolla Levin GT-APEX        FR  5 133   226   2039  1589  1364
+AE86 Sprinter Trueno GT-APEX      FR  5 133   226   2039  1589  1364
+*AE86 Sprinter Trueno GT-APEX     FR  5 133   226   2039  1589  1364
+
+Corolla Levin BZ-G                FF  5 158   237   2270  1770  1521
+Sprinter Trueno BZ-G              FF  5 158   237   2270  1770  1521
+
+Corona Exiv 200GT                 FF  5 177   326   2645  2063  1772
+Celica SS-II                      FF  5 177   326   2645  2063  1772
+*Celica SS-II                     FF  5 177   326   2689  2096  1801
+
+MR2 G-Limited                     MR  5 167   331   2733  2131  1829
+MR2 GT-S                          MR  5 243   477   2821  2398  2030
+
+Celica GT-Four                    4WD 5 245   479   3042  2585  2189
+
+Mark II '92 Tourer S              FR  4 175   262   3020  2354  2021
+Mark II '92 Tourer V              FR  5 266   611   3196  2716  2301
+
+MA70 Supra GT Turbo Limited       FR  5 230   585   3417  2903  2460
+JZA70 Supra Twin Turbo-R          FR  5 268   669   3350  2848  2411
+
+Chaser Tourer S                   FR  4 192   285   3086  2407  2067
+Chaser Tourer V                   FR  5 286   728   3240  2753  2332
+
+Soarer '95 2.5GT-T                FR  5 266   760   3461  2940  2491
+Soarer 2.5GT-T VVT-i              FR  5 269   789   3439  2923  2475
+*Soarer 2.5GT-T VVT-i             FR  5 269   789   3439  2923  2475
+
+Supra '95 SZ-R                    FR  6 213   377   3152  2458  2112
+Supra SZ-R                        FR  6 213   377   3196  2493  2140
+Supra '95 RZ                      FR  6 291   883   3284  2791  2363
+Supra RZ                          FR  6 300   910   3328  2828  2396
+*Supra RZ                         FR  6 300   897   3328  2828  2396
+
+*TRD 3000GT                       FR  6 291   869   3328  2828  2396
+
+[R]Castrol Supra GT               FR  7       646               2535
+*[R]Castrol Supra GT              FR  7       646               2535
+*[R]Chaser LM Edition             FR  6       655               2777
+
+
+Subaru (18 entries)
+======
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Alcyone SVX Version L             4WD 5 227   452   3571  2784  2391  
+Alcyone SVX S4                    4WD 5 227   452   3505  2733  2347
+*Alcyone SVX S4                   4WD 5 227   447   3505  2733  2347
+
+Legacy '93 Touring Wagon GT       4WD 5 239   494   3064  2603  2204
+Legacy Touring Wagon GT-B         4WD 5 270   492   3152  2678  2268
+
+Legacy '93 Touring Sport RS       4WD 5 239   494   3020  2566  2173
+Legacy Touring Sedan RS           4WD 5 270   492   3042  2585  2189
+
+Impreza '94 Wagon WRX             4WD 5 250   567   2821  2398  2030
+Impreza '95 Wagon WRX-STi ver.II  4WD 5 250   477   2821  2398  2030
+Impreza '96 Wagon WRX             4WD 5 236   494   2843  2416  2045
+Impreza '96 Wagon WRX-STi ver.III 4WD 5 270   494   2865  2436  2063
+
+Impreza '94 Sedan WRX             4WD 5 211   404   2799  2378  2015
+Impreza '95 Sedan WRX-STi ver.II  4WD 5 266   506   2733  2323  1966
+Impreza '96 Sedan WRX             4WD 5 268   494   2755  2341  1984
+Impreza '96 Sedan WRX-STi ver.III 4WD 5 270   494   2755  2341  1984
+
+*Impreza Sedan WRX-STi ver.III    4WD 5 270   494   2689  2286  1935
+
+Impreza WRX-STi Type R            4WD 5 270   494   2733  2323  1966
+
+[R]Impreza Rally Edition          4WD 6       575               2160
+
+
+Chevrolet (4 entries, 2 distinct)
+=========
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Camaro Z28                        FR  4 279   415   3461  2698  2317   Fair
+*Camaro Z28 30th Anniversary      FR  4 279   415   3461  2698  2317   Fair
+
+Corvette '96 Coupe                FR  6 323   479   3218  2508  2156   Good
+Corvette '96 Grand Sport          FR  6 323   479   3218  2508  2156   Good
+
+
+Dodge (5 entries)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+*Concept Car                      FR  5 213   249   2160  1684         Poor
+
+Viper RT/10                       FR  6 440   572   3187  2484  2134   Great
+Viper GTS                         FR  6 440   578   3240  2526  2169   Great
+
+*[R]Concept Car                   FR  6       560               1329   Best
+
+*[R]Viper GTS-R                   FR  7       680               2753   Great
+
+
+Aston Martin (3 entries, 2 distinct)
+============
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+DB7 Coupe                         FR  5 328   424   3802  3231  2738   Poor
+*DB7 Coupe                        FR  5 328   424   3802  3231  2738   Poor
+DB7 Volante                       FR  5 328   424   4133  3511  2976   Poor
+
+
+TVR (4 entries)
+===
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+-----------------------------------------------------------------------------
+Griffith 4.0                      FR  5 327   430   2336  1820  1565   Great
+Griffith 500                      FR  5 333   430   2336  1820  1565   Great
+
+Cerbera                           FR  5 343   436   2425  1891  1624   Great
+
+*[R]Cerbera LM Edition            FR  6       581               1984   Great

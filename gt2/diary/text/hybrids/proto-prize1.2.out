@@ -1,0 +1,31 @@
+C21CD558 0008 -- copies most things
+101D55CC 0000
+C21CD564 0006
+101D55D8 0000
+C21CD56E 000C
+101D55E2 0000
+C21CD59A 001A
+101D560E 0000
+C21CD5B8 0044
+101D562C 0000
+
+C21CD56C 0002 -- copies engine separately
+101D55E0 0000
+
+C21CD56A 0002 -- copies weight reduction separately
+101D55DE 0000
+C21CD57A 0004
+101D55EE 0000
+
+C21CD57E 000A -- copies engine mods separately
+101D55F2 0000
+
+C21CD588 0010 -- copies turbo and some other stuff separately
+101D55FC 0000
+C21CD5B4 0004 -- copies turbo gauge separately
+101D5628 0000
+
+C21CD560 0004 -- copies rims separately
+101D55D4 0000
+C21CD598 0002
+101D560C 0000

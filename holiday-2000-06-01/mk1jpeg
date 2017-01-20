@@ -1,0 +1,6 @@
+#!/bin/csh -f
+foreach g ( $* )
+	set j = `echo $g | sed 's/[.].*/.jpg/'`
+	echo cjpeg -optimize -smooth 10 -quality 80 $g '>' $j
+	cjpeg -optimize -smooth 10 -quality 80 $g > $j
+end

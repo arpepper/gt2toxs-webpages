@@ -1,0 +1,136 @@
+Wednesday January 19, 2000
+
+Cr10,000 Starter Cars Do Well in Trial Mountain 30 Race of Gran Turismo 2
+
+Threads:
+  Race Results
+  Enduro Results
+  Gran Turismo 2
+  Gameplay Hints
+
+I've done a lot of Enduros in Gran Turismo 2, and I am not going to
+report on all of them in the detail I did the Grand Valley 300
+in GT1.  But I think I will file several reports on Trial Mountain
+30 results, in particular using cars having a total value of
+Cr10,000  (i.e. "starter" cars).
+
+I'm convinced one can quite easily buy the Cr120,000 or so gold 1968
+Toyota 2000GT available in Gran Turismo until day 9, and I think the
+Trial Mountain 30 Race can be used to achieve this.  So last night I
+raced that race in a 1993 Toyota Supra (turbo).  Having only Weight
+Reduction Stage 1, and Turbo Spec 1, and no other fitted parts, this
+car has a total value less than Cr10,000.
+
+Here were the results:
+
+   1. [R]Vector M12 LM Edition         44:09.006
+==>2. Toyota Supra (Turbo) '93         +8:29.931  (52:38.937)
+   3. Peugeot 306 S16                  +8:53.724  (53:02.730)
+   4. Volkswagen Golf GTI 1.8T         +9:17.376  (53:26.382)
+   5. Renault Megan 2.0 16V            +9:27.367  (53:36.373)
+   6. Opel Vectra GSi 2.5 V6           +9:45.231  (53:54.237)
+
+      Pit Stops: 10, 20
+      Lap 1:           1:50.002
+      Fastest Lap(23): 1:41.731
+
+I got off to a slowish start, but appeared to be about to settle into
+4th place for a while, but a mishap negotiating the final esses on the
+second lap cost me two or three seconds or more, and I dropped to 6th,
+regaining 5th by the end of that lap.
+
+A first-place finish was out of the question in this race, as the
+(probably cheating) AI Vector lapped me on lap 5.
+
+I had climbed to 3rd by my first pit stop, on lap 10.  In testing the
+normal tires seemed to last that long; lap 11 was a little tricky and
+by lap 12 significant time was being lost, so pit stops every 10
+appeared optimal.  The pit stop dropped me to 5th, but on my new tires
+I settled into a rhythm and, as the AI cars pitted, had gained 2nd
+by my second stop.
+
+The second stop dropped me only to 3rd, and I regained 2nd on the road,
+and that AI car pitted after that, finishing almost 24 seconds behind
+me.
+
+Here are the lap times I was able to record.
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:50.002      1:50.002   4th
+ 2   1:47.983      3:37.985   5th
+ 3   1:45.019      5:23.004   5th
+ 4   1:45.188      7:08.192   5th
+
+ ...
+20 +35:10.037
+21   1:55.876     37:05.913
+22   1:42.895     38:48.808
+23   1:41.731     40:30.539
+24   1:42.669     42:13.208
+25   1:43.710     43:56.918
+26   1:44.830     45:41.748
+27   1:44.208     47:25.956
+28   1:44.778     49:10.734
+29   1:43.386     50:54.120
+30   1:44.817     52:38.937
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+There were no settable settings.   8-)
+
+I won the Cr100,000 second prize, and no car.   This field was about
+medium for this race, as far as I can tell.  My time was good enough to
+avoid coming last in any field I've seen so far, if I recall correctly.
+
+If you were starting from day 5 (the earliest you could have your
+necessary IB license), Cr20,000 (5th place) would be enough to make
+a useful upgrade--namely to soft racing slicks, and leave enough
+for the racing exhaust upgrade which will also just squeak under
+the bhp limit.  If you happen to finish last and win only Cr10,000
+it's a tough call.  It's not clear sports tires are worth the money;
+you might be better just to enter the race again, and hope for a
+better finish--in any case, after a second entry you will then
+have the Cr20,000 for tires and exhaust.
+
+If you won the Cr100,000 upgrades to consider in order probably
+include WR2, brakes and controller, and driveshaft.  With this course,
+driveshaft seems to make a noticeable difference, and a racing flywheel
+either makes no difference, or perhaps hurts a bit.  If you have enough
+to do WR3, you will need to tune the suspension, so do not buy WR3
+unless you also have enough for a modifiable suspension of some
+variety.  If you have money to spare, consider the racing transmission
+and clutch.
+
+The best strategy if you win Cr100,000 is probably to leave Cr20,000
+and hope the modifications you make allow you to win at least Cr100,000.
+At that point you will have enough to buy the coveted gold 1968 Toyota
+2000GT.  It does eventually come back, but I will probably still try
+and start a game from game 1 to buy it early.   8-)
+
+If you win the Cr150,000 first prize, of course, you have enough to
+buy the 2000GT, and still have some money left over, and will in
+addition have the Denso Sard Supra GT--a perfectly reasonable car
+with which to begin winning many of the "free" events.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

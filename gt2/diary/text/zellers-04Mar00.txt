@@ -1,0 +1,73 @@
+
+March 04, 2000, Zeller's Arcade Disk...
+
+15:36:31 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is 9253-E55A
+ Directory of G:\
+
+GT2      OVL       290,184  10-12-99 10:34p GT2.OVL
+GT2      VOL   213,753,856  10-12-99 10:35p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:36p MUSIC.DAT
+SCUS_944 55        628,736  10-12-99 10:37p SCUS_944.55
+STREAM   DAT   384,740,204  10-26-99  9:48a STREAM.DAT
+SYSTEM   CNF            68  10-12-99 10:34p SYSTEM.CNF
+         6 file(s)    697,331,556 bytes
+         0 dir(s)               0 bytes free
+
+15:36:34 G:\>
+15:36:34 G:\>ls -al
+total 51258
+-r--r--r--   1 N:       anonymou   290184 Oct 12 22:34 gt2.ovl
+-r--r--r--   1 N:       anonymou 213753856 Oct 12 22:35 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12 22:36 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12 22:37 scus_944.55
+-r--r--r--   1 N:       anonymou 384740204 Oct 26 09:48 stream.dat
+-r--r--r--   1 N:       anonymou       68 Oct 12 22:34 system.cnf
+
+15:37:25 G:\>
+15:37:25 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.55;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+15:37:55 G:\>
+
+
+March 04, 2000, Zeller's Sim Disk...
+
+15:29:46 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is 0202-94CA
+ Directory of G:\
+
+FAULTY   PSX    27,648,000  10-12-99 10:43p FAULTY.PSX
+GT2      OVL       287,084  10-12-99 10:39p GT2.OVL
+GT2      VOL   478,357,504  10-12-99 10:41p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:42p MUSIC.DAT
+SCUS_944 88        628,736  10-12-99 10:43p SCUS_944.88
+SYSTEM   CNF            68  10-12-99 10:39p SYSTEM.CNF
+         6 file(s)    604,839,900 bytes
+         0 dir(s)               0 bytes free
+
+15:29:49 G:\>ls -al
+total 1682
+-r--r--r--   1 N:       anonymou 27648000 Oct 12 22:43 faulty.psx
+-r--r--r--   1 N:       anonymou   287084 Oct 12 22:39 gt2.ovl
+-r--r--r--   1 N:       anonymou 478357504 Oct 12 22:41 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12 22:42 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12 22:43 scus_944.88
+-r--r--r--   1 N:       anonymou       68 Oct 12 22:39 system.cnf
+
+15:29:56 G:\>
+15:29:56 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.88;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+15:33:10 G:\>
+

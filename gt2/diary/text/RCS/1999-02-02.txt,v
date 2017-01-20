@@ -1,0 +1,199 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.02.12.18.16.02;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.06.01.42.47;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@changes.
+@
+text
+@Tue Feb  2, 1999
+
+Figures for Maxed Demio A spec
+
+Based on mail to Nick.
+
+Threads:
+  Tuning Advice
+  Car Information
+  Race Results
+
+I determined the max figures for the Demio A spec prize car  211bhp, 1210lb.
+
+I got:
+   12.755 400m
+   22.500 1000m
+   163mph max speed (using my clockwise running technique)
+latter with gears of
+                      4.400
+                      1.810
+                      1.155
+                      0.900
+                      0.800
+                    fd3.200
+
+At one point I overgeared it so badly that shifting to fifth slowed
+it down.  8-)
+
+160mph is the practical maximum; you can eek above that with a close
+pair of top gears, and run out of power and straight about the same
+time.  I could believe someone could coax 165 to 167 out of it.
+
+Anyway, I took this baby to the Sunday Cup.
+
+Autumn Mini
+              pole:  1st 43.900 (-2.208)
+              race:  1st 1:21.025 (-1.x)  0:40.893 0:40.132
+
+Not sure what drugs I was on for that first lap, wish I could ingest
+them for my IA time trials.  I think I stayed on the track all
+the time, but, of course, a lot of time was spent on two wheels.
+This Demio really wishes to be a motorcycle.
+
+
+HS Ring
+             pole: 1st 1:10.221 (-4.561)
+                            (I lost 3 secs not paying attention at start!!!)
+             race: 1st 2:04.627 (-5.518) 1:06.710  0:57.917
+                            (See I told you I lost 3 seconds)
+
+GVE
+             pole: 1st 1:12.288 (-11.128)
+             race: 1st 2:16.329 (-9.933)  1:11.252 1:05.077
+
+I used "-S.XXX" to indicate the distance to next competitor, similar
+to TT ghost reporting.  Er, no.  Maybe I do have it backwards.
+Doesn't matter, I think you know what I mean.
+
+So the Demio went out and won itself another Demio!!!  (Which, of
+course, I promptly sold).
+
+For the souped-up Demio, even though it had relatively poor low-speed
+torque, the handbrake would not keep the clutch out.  Strange.
+
+The trick works flawlessly with other cars.  They actually won't
+go anywhere until you release the handbrake.  But not with the
+Demio.  It hops forward against the handbrake, and then comes
+close to stalling.
+
+I finally got silver in B-3 license test.  I never fail that test
+now unless I make a gross mistake, or a bad experiment.  I can't
+reproduce the silver, but when I did it, I braked entirely with tire
+action and engine, and I stayed in the middle of the track approaching
+the turn so I could turn outwards to rock the car into it.  The action
+seems to work.  It's interesting being able to make repeated runs,
+try slightly different lines and actions, see times vary, but nearly
+always come in under the required bronze 30 seconds.  Staying in the
+middle of the track, of course, avoids losing acceleration, as well.
+
+I got 28.466 (silver was 28.500).  I notice the demo did slightly
+better at 28,448, but, unlike most demos, that demo is not a gold medal
+run.  (Gold is 28.150)
+
+It's interesting to speculate how much of one's improvement relative to
+the past is due to learning the PSX interface (I'm not sure when I
+switched to my Barracuda 2 controller, for instance), and how much
+is due to learning driving techniques.  (And a little comes from
+learning somewhat silly nuances of the game).
+
+The Barracuda 2 is nice and adult-sized, and has a noticeable dead
+zone in the centre of the analog sticks.  That has advantages and
+disadvantages, of course.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@fixed date format, simplifying
+@
+text
+@d7 5
+@
+
+
+1.3
+log
+@fix up title for index
+@
+text
+@d1 1
+a1 1
+Tue Feb  2 15:45:02 1999
+@
+
+
+1.2
+log
+@changes
+@
+text
+@d2 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d7 5
+a11 4
+12.755 400m
+22.500 1000m
+163mph max speed (using my clockwise running technique)
+latter with gears of  4.400
+d27 2
+a28 1
+Autumn Mini   pole:  1st 43.900 (-2.208)
+d37 2
+a38 1
+HS Ring      pole: 1st 1:10.221 (-4.561)
+d43 2
+a44 1
+GVE          pole: 1st 1:12.288 (-11.128)
+@

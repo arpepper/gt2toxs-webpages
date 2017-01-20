@@ -1,0 +1,90 @@
+Wednesday September 1, 1999
+
+GTO LM grinds to a better finish against an easy Grand Valley 300 field
+
+Threads:
+  Special Model Information
+  Grand Valley 300 Results
+  Race Results
+
+I managed to win the GT-I Cup with the Mitsubishi GTO LM, though
+only barely.  I came 3rd at High Speed Ring, and 4th at DFRW,
+giving me only 43 points, the minimum needed to guarantee
+victory in the six-race series if you win four races.  The
+AI field was relatively strong, so they did trade positions
+and points as well, so I actually beat the GTO twinturbo
+43 to 36.
+
+So I entered the car in the Grand Valley 300.  Previously, it had
+only barely managed a "good" winning time.  It did quite a bit
+better this time.
+
+The car was easy to drive, but this time I knew more about making
+it go faster, and did have fewer mishaps.
+
+   "real game" day 4214
+   Wednesday September 1, 1999
+   [R]Mitsubishi GTO LM (special edition)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:41.730not     Cr20,000
+
+   Results:
+
+   1st  [R]GTO LM Edition      1-39:07.1<--
+   2nd  [R]Impreza Rly Edition  +279.703   (1-43:46.8)
+   3rd  [R]Primera'90 2.0Te     +282.026   (1-43:49.1)
+   4th  [R]Celica GT-Four       +400.715   (1-45:47.8)
+   5th  [R]Lantis TypeR         +541.640   (1-48:08.7)
+   6th  [R]Accord Sedan         +586.555   (1-48:53.7)
+   
+   lap 1   1:41.410
+   pits   10,20,30,40,50
+   fl  (12)  1:34.943
+   slowest  non-pit   (47)  1:40.372
+             next      (8)  1:39.884
+   fastest pit laps   (40in)  1:51.695
+                      (21out) 1:41.871
+   slowest pit laps   (50in)  1:55.074
+                      (51out) 1:43.924
+
+I was disappointed to face such a weak field, but did set a time
+which should constitute a win against any field, so I have improved
+with this car as well.
+
+I got the lead by the end of lap 1, and kept it.  By lap 20 I had
+lapped the three slowest cars, and I had lapped the (slow) field
+for the first time by lap 25.  I had a bit of a fight getting past
+the Impreza for the second time.  That accounted for the slow lap
+time on lap 47.  I finally got by in laps 48 and 49, but the pass
+didn't stick when I went in for my pitstop on lap 50.
+
+I finally lapped that car again by lap 53.
+
+After I finished, the Impreza and the Primera jostled for the lead.
+(Look at how close their times were).  This was interesting because
+their positions in the on-screen listing kept changing.
+
+I had no major disasters, and only a couple of minor ones.
+
+Most laps were 1:35 to 1:38; the lap times seemed to vary more than
+with some other cars.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+This makes this car once again appear to be the second-slowest
+Special Model car, although it was 1:20 faster than the NSX-R
+LM GT2, and beat its own old time by almost three minutes.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

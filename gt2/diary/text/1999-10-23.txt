@@ -1,0 +1,165 @@
+Sat Oct 23, 1999
+
+tuned GTO'95MR Wins SSR11 All-Night I Again, in alternate game
+
+Threads:
+  All-Night I Results
+  Used Car Information
+  Tuning Advice
+
+I have started another game ("silver" game, after the approximate
+colour of its memory card).  This time I just want to see how
+quickly and cheaply I can win all the race gold cups.  I am now
+well on my way, but needed to enter the Sunday Cup twice to
+get started.  Some other day I would like to see if I can win
+all the cups but avoid entering any event twice.  The early
+strategy of my game is to win the Cr68800 needed to buy a Dodge
+Viper RT/10.  Once I've got that I can get close to sweeping the
+(this time I did sweep) the Normal Series, and win close to
+Cr400,000.  It's possible then to tune the Supra prize (if you
+get it) and use that for various tuned events, and possibly some
+non-tuned events as well.
+
+I bought the passion red GTO'95MR just before winning the Normal (with
+the proceeds of the RT/10 winning the FR series), because the red one
+was soon to disappear from the Mitsubishi inventory.  I did win the
+SupraRZ in the Normal, but decided to continue with the GTO'95MR
+because it's easier to drive.  I had started with the GTO'92, but it
+will cost just as much to get that ready for the 4WD series as to tune
+the '95MR, so I sort of think that is not a good starting car after
+all.  Although one possible objective to state is to not buy more than
+one car, (well, two--you sort of need to buy a Normal competitor) and,
+in that case, the 4wd series is the only series for which you cannot
+guarantee to win a competitor.  In short, this game is a little short
+of a minimal Gran Turismo solution.
+
+I've made good use of the tuned GTO'95MR so far in this game.  It
+seemed the easiest way to win the UKvsJP--unfortunately it won the
+delSol LM so as of yet I have no car eligible and capable of winning
+the UKvsUS.
+
+I didn't take a lot of practice runs, or analyse the tire wear much, but
+went with a 7,15,23 strategy which allows a short first shift,
+compensating for the extra tire wear which seems to result from
+a fast start.  I sort of think this car might suit a four stop
+strategy (every 6 laps), however.
+
+
+   silver day 93
+   Octoer 23, 1999
+   tuned GTO'95MR
+   SSR11 All-Night I
+
+   q1st 1:49.895new     Cr20,000
+
+   Results:
+
+   1st  GTO'95MR             54:10.180<--new silver time
+   2nd  [R]R32GT-R'91         +180.480  (57:10.660)
+   3rd  [R]CASTROL SUPRA GT   +184.415  (57:14.595)
+   4th  [R]NSX-R LM GT2       +198.837  (57:29.017)
+   5th  [R]IMPREZA RLY Ed     +260.628  (58:30.808)
+   6th  [R]LANTIS TypeR       +334.771  (59:44.951)
+   
+   pits   7,15,23
+   lap 1   1:50.879
+   fl  (9)  1:41,845new
+   slowest  non-pit   (30)  1:51.979
+             next     (29)  1:49.838
+   fastest pit laps   (23in)  2:05.709
+                      (16out) 1:46.669
+   slowest pit laps   (15in)  2:06.901
+                      (24out) 1:49.409
+
+I led from stat to finish, lapping the entire field at least once.  I
+lapped the first car on lap 10, and was just beginning to lap the field
+just before my second pit stop, but I did not have to re-pass to many
+of them.
+
+By my second pit-stop on lap 23 I had lapped the entire field, and it
+stuck, and I lapped the Impreza (curiously the game decided to enter a
+black Impreza--rather difficult to see) a second time close to
+the end.  (The Lantis I had lapped three times).
+
+I had a couple of minor mishaps which slowed down my last two laps.
+
+I won Cr150,000, and a red Silvia LM.   8-(   I like the green one...
+
+For your analytical enjoyment, I here present all 30 lap times...
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+ 1   1:50.879      1:50.879
+ 2   1:42.017      3:32.896
+ 3   1:43.907      5:16.803
+ 4   1:45.286      7:02.089
+ 5   1:43.792      8:45.881
+ 6   1:47.665     10:33.546
+ 7   2:06.022     12:39.568
+ 8   1:48.355     14:27.923
+ 9   1:41.845     16:09.768
+10   1:46.075     17:55.843
+11   1:47.236     19:43.079
+12   1:48.607     21:31.686
+13   1:46.310     23:17.996
+14   1:46.108     25:04.104
+15   2:06.901     27:11.005
+16   1:46.669     28:57.674
+17   1:44.387     30:42.061
+18   1:46.554     32:28.615
+19   1:44.090     34:12.705
+20   1:46.735     35:59.440
+21   1:46.690     37:46.130
+22   1:47.424     39:33.554
+23   2:05.709     41:39.263
+24   1:49.409     43:28.672
+25   1:44.351     45:13.023
+26   1:44.774     46:57.797
+27   1:46.651     48:44.448
+28   1:43.915     50:28.363
+29   1:49.838     52:18.201
+30   1:51.979     54:10.180
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.  All parts were maxed.
+
+           My Settings
+
+Spring Rate     6.6   3.6
+Ride Height     105   105  (min is 100)
+Dampers          4     4
+Camber          1.2   1.2
+Stabilizers      5     4
+Brake Balance   12     9
+Turbo               7
+        1st       3.266
+        2nd       1.904
+        3rd       1.241
+        4th       0.918
+        5th       0.733
+        6th       0.605
+                  -----
+        FD        4.200
+
+Aero           (0.17  0.21)
+                (stock)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

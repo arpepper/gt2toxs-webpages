@@ -1,0 +1,272 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Thursday December 07, 2000
+ -- (GT1 Version 1.1) More Explanation of the  Race Parameters
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Thursday December 07, 2000
+</h3>
+</font>
+<font color="white">
+<h4>(GT1 Version 1.1) More Explanation of the  Race Parameters
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-12-06.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-12-08.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-12-05.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-12-08.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-12-06.html#Gameplay_Hints">&lt;&lt;--</a>
+<a name="Gameplay_Hints">Gameplay Hints
+</a><a href="2000-12-08.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Thursday December 07, 2000
+</h3>
+<h4>(GT1 Version 1.1) More Explanation of the  Race Parameters
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Well, you probably managed to figure out what most of the stuff
+in my lists of the race parameters meant, but perhaps some of
+it was fuzzy.  So here I attempt to explain them in more detail. 
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Sunday Cup Event (8008F544) - address of main table (6 x 4 bytes)
+</th></tr>
+</table>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E0C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80091004</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F4E4</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090B50</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090D0C</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Each of the four-byte quantities is the address of another table, except
+for the number of laps which is simply a four-byte quantity.  Thus every
+race in a series must have the same number of laps.  Each four-byte
+quantity comes right after the previous--that is their addresses
+(locations) increase by 4.  In the case of spot races, which have
+no prize cars, the four-byte pointer quantity to the prize cars list
+is in fact zero.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The addresses in this table always point to the start a list of
+four-byte quantities.  In the case of the track list, entrant list, and
+prize-car list, those lists are in turn composed of 4-byte pointers,
+stored contiguously, and terminated by 4-byte zero pointer.  Successive
+elements of those lists will, once again, be stored at addresses (locations)
+increasing by 4.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+In the case of the poletimes, however, the table (composed of four-byte
+quantities representing the number of thousandths of seconds for each
+pole position time) is not zero-terminated.  The number of elements is
+inferred by the number of elements in the track table.  Similarly, the
+number of elements in the prize-money list is known and constant (although
+the Championship element is zero in the case of Spot Race or Enduro).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+You can actually patch the zero pointer which terminates the track list
+to be non-zero (preferably a valid pointer to a valid track name)
+and extend the number of races in a series.  (A Spot Race or Enduro is
+actually, in some sense, a series of only 1 race, so you can turn a Spot
+Races or Enduro into a series).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Similarly, you can extend the prize car list, or terminate it at fewer
+entries by putting in a zero pointer.  It is also quite easy to shorten
+the number of possible AI entrants in the same way.  You can shorten
+the number of possible entrants to one, in which case the field you
+race against will consist of several copies of that same car (although
+they will be different colours, if the car has multiple colour choices).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Most patches can be done while in the pre-race screen for the first race,
+but the AI field must be patched using a boot code so that it will take
+effect before the first race starts.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E0C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C77C</td><td>&nbsp;"mini"&nbsp;</td><td>Autumn Mini</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C760</td><td>&nbsp;"testline"&nbsp;</td><td>High Speed Ring</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6B0</td><td>&nbsp;"short"&nbsp;</td><td>Grand Valley East</td></tr>
+</table>
+
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Here, 80090E0C is tha address of the first pointer to a track string
+(value 8008C77C which points to the string "mini"), 80090E10 is the address of the pointer
+to the second, 80090E14 the third, and 80090E18 contains a four-byte zero
+quantity, indicating that there are three races in this event.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80091004 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q1500, 1st5000, champ15000)</td></tr>
+</table>
+
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090B50 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C408</td><td>&nbsp;"tstln"&nbsp;</td><td>Starlet Glanza V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C250</td><td>&nbsp;"mecln"&nbsp;</td><td>Eclipse GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C410</td><td>&nbsp;"hcfon"&nbsp;</td><td>Civic'93 Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C418</td><td>&nbsp;"tlevn"&nbsp;</td><td>Corolla Levin BZ-G</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C378</td><td>&nbsp;"ademn"&nbsp;</td><td>Demio GL-X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C490</td><td>&nbsp;"mmgon"&nbsp;</td><td>Mirage Cyborg R'92</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>&nbsp;"hcvnn"&nbsp;</td><td>Civic 3 door</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C458</td><td>&nbsp;"mmgrn"&nbsp;</td><td>Mirage Asti RX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C470</td><td>&nbsp;"nq15n"&nbsp;</td><td>Silvia Q's Aero (S14)</td></tr>
+</table>
+
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Here, 80090B50 is tha address of the first pointer to a car string
+(value 8008C408 which points to the string "tstln"), location 80090B54 contains the pointer
+to the second, 80090B58 the third, etc.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D0C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C678</td><td>&nbsp;"a-emn"&nbsp;</td><td>Demio Aspec</td></tr>
+</table>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Here, 80090D0C is tha address of the pointer to a car string
+(8008C678 which points to the string "a-emn"), while location 80090D10
+contains a four-byte zero quantity, indicating that there is only one
+possible prize car for this race.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F4E4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000B2C0</td><td>&nbsp;0:45.769&nbsp;</td><td>(Autumn Mini)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>000122C2</td><td>&nbsp;1:14.434&nbsp;</td><td>(High Speed Ring)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001447C</td><td>&nbsp;1:23.068&nbsp;</td><td>(Grand Valley East)</td></tr>
+</table>
+
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Here, 8008F4E4 is tha address of the first four-byte qualifying time
+(0000B2C0 or 45769, representing 45.769 seconds), 8008F4E8 is the address
+of the second, and 8008F4EC the third.  8008F4F0 is actually the address
+of the first element of the qualifying table for the next event (Clubman).
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-12-05.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-12-08.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-12-06.html#Gameplay_Hints">&lt;&lt;--</a>
+<a href="#Gameplay_Hints">Gameplay Hints
+</a><a href="2000-12-08.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-12-06.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-12-08.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+Once you've filled your garage, you can use a Gameshark to "morph" desired cars into your garage slots, but some of the original caar's characteristics remain...
+
+Say, you start out with a $6995 Toyota Supra MA70 (example only).  You can Gameshark a '67 Vette on top of this car.  You now have a '67 Vette in your garage.  It will be worth $6995.
+
+If you added the Racing Suspension to the Toyota before Gamesharking the Vette, your Vette would have the Toyota's Racing Suspension.  etc.
+
+Through experimenting, I've created a 712HP Lancer Evolution IV, with it's Racing Tires & Muffler, Racing Suspension & Tranny from the Subaru Rally Edition, Displacement Increase, Turbo-4 upgrade from the R33 Skyline, etc.  It almost cannot lose a race.  Other morph's, or "Hybrid's", as I called them, include:
+
+650HP Mitsu. Eclipse
+500HP Corvette
+670HP '67 Vette (w/ Viper RT/10 tranny & tires)
+381HP Eunos Roadster racer
+284HP Mazda Demio
+805HP JZA70 Supra
+
+(list goes on..)
+
+I also installed the Nismo 400R & Toyota TRD3000GT into my garage.
+
+Most Gamesharked cars are white (w/ few exceptions) [unless you set a correct colour code]
+
+I used my spec's page to work around tire sizes, to match or slightly upgrade tire sizes.  If the front tires are too big, turning problems tend to exist.  I've not finished spec'ing out Suspension characteristics, such as different ride height's & spring ratio's, but that will come sometime in future.  I actually started to burn out on GT, but am pondering more experimentation.  (takes patience, as each code must be entered via gamepad, 1 hexidecimal at a time!)
+
+BTW> my son wants a Low-Rider type set up, like a big Mitsu GTO with Demio tires, just to see what it'll look like.
+
+About pondering buying a gameshark, it comes with hundreds of cheat codes for many games.  Surf to www.gameshark.com...
+
+===============================================================================
+
+http://members.xoom.com/jlirish/psx/gran_turismo/gt_cars_master_table.htm
+
+>> Wow, that's an impressive amount of work.
+
+Thnx.. it did take quite a while to compile the info, 1 screen at a time.  I use the spreadsheet to compare features (tire diameters & width, Turbo/NA Tune, etc.) for creating my hybrids. (something I've not done in a while).
+
+I have a few more spreadsheets, dealing with gear ratios, factory/garage settings, etc., but they're not complete, the reason they're not published.
+
+>> The "Skyline GT-R Nismo" is a somewhat elusive used car, but, nope, no six-speed transmission!!!
+
+With a Gameshark, could morph a 6 or 7 speed tranny, but I've found that if the car is very powerful, & the gear ratios too close together, Auto tranny has problems shifting, especially in my 940HP Viper GTS-R that peaks 280MpH on the test track.
+
+I tried a 6 speed in the 941HP R33 Skyline 4WD, it did the same with shifting.
+
+===============================================================================
+
+>> 940bhp 1329lb Concept Car?
+
+The 940HP power plant cannot be moved around..  The end result HP depends on the power plant.  I cranked out a 1300+ HP Accura NSX, but it wouldn't even move, because it took so long to wind up the rpm's.  I think GT may have limitations.  Using the Gameshark, I applied a weight reduction before dropping the GTS-R in, Weight Reduction holds when morphing an LM edition car onto the project, so my Hybrid GTS-R is much lighter than the normal one.
+
+Also, I did try making a hybrid Concept car, that had so much power (forgot now), that the rear end just shook so much (drove my Analog controller nuts) that it barely moved.
+
+Am still pondering future hybrids.  I saw an adapter in Best Buy that allows saving memory card info to PC's...  may be interesting...  offer garages full of hybrids on my website??  hmm..  [This is, of course, the infamous Dex Drive]
+
+

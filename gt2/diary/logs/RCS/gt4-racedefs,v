@@ -1,0 +1,805 @@
+head	1.28;
+access;
+symbols;
+locks
+	arpepper:1.28; strict;
+comment	@# @;
+
+
+1.28
+date	2006.02.25.05.30.26;	author arpepper;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.02.04.03.08.56;	author arpepper;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.01.22.19.58.25;	author arpepper;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.11.20.04.09.58;	author arpepper;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.09.11.03.31.28;	author arpepper;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.09.10.06.28.01;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.08.14.20.57.41;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.08.06.06.31.23;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.07.31.19.45.41;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.07.24.22.21.57;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.07.17.20.47.18;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.07.09.04.42.22;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.07.08.03.19.52;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.07.01.04.11.26;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.06.18.07.18.35;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.06.09.03.28.51;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.05.29.03.51.45;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.05.27.02.53.14;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.05.22.04.10.44;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.05.21.06.34.59;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.05.19.02.58.47;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.05.18.02.38.57;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.04.28.03.48.11;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.04.24.18.07.30;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.04.21.03.36.25;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.04.20.03.01.40;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.04.19.03.28.10;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.04.19.01.58.45;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@League/Series/Race definitions for GT4.
+Develop incrementally.
+@
+
+
+1.28
+log
+@Added CathedralI&II, Chamonix and reverse tracks.
+@
+text
+@pragma gt4
+
+define league B
+define league P
+Note: E - Enduro, Eu - Europe, Ex - Extreme
+define league E
+define league Ex
+define league Eu
+define league SC
+define league US
+define league J
+
+define league Mfr
+
+define league City
+define league Dirt
+define league Original
+define league Park
+define league World
+
+define series B/4WD
+define series B/FF
+define series B/FR
+define series B/Lwt
+define series B/MR
+define series B/Spider
+define series B/Sunday
+define series B/Trk
+
+define series E/ElCapitan
+define series E/Fuji90
+define series E/GV300
+define series E/Infineon
+define series E/Laguna
+define series E/Motegi8
+define series E/Nurb4
+define series E/Nurb24
+define series E/NY
+define series E/Roadster4
+define series E/SartheI
+define series E/SartheII
+define series E/Super
+define series E/Suzuka
+define series E/Tsukuba9
+define series E/Tokyo
+
+define series Eu/B
+define series Eu/BGT       5
+define series Eu/BLW
+define series Eu/DTM       5
+define series Eu/ECCL      5
+define series Eu/Fr        5
+define series Eu/Ita       5
+define series Eu/HotHatch  5
+define series Eu/MM        4
+define series Eu/Pan       5
+define series Eu/RaceA
+
+define series Ex/Dream     10
+define series Ex/FGT       15
+define series Ex/LTW
+define series Ex/Polyphony 10
+define series Ex/Prem
+define series Ex/Stars     10
+define series Ex/WC
+
+define series J/70s
+define series J/80s
+define series J/90s
+define series J/Compact    5
+define series J/JC         5
+define series J/JGT        10
+
+define series Mfr/206
+define series Mfr/2CV      5
+define series Mfr/Alpine   5
+define series Mfr/Altezza
+define series Mfr/Aston
+define series Mfr/A3
+define series Mfr/Beetle   5
+define series Mfr/Blackpool
+define series Mfr/BMW1
+define series Mfr/Camaro
+define series Mfr/Civic
+define series Mfr/Clio     5
+define series Mfr/Concept
+define series Mfr/Copen
+define series Mfr/Crossfire
+define series Mfr/Elise    5
+define series Mfr/Evo
+define series Mfr/GTA
+define series Mfr/GTI
+define series Mfr/Hyundai
+define series Mfr/Isuzu
+define series Mfr/K
+define series Mfr/Lotus    5
+define series Mfr/Lupo     5
+define series Mfr/M        5
+define series Mfr/MG
+define series Mfr/March
+define series Mfr/Megane   5
+define series Mfr/Midget
+define series Mfr/Mini
+define series Mfr/Mirage   5
+define series Mfr/Pleiades 5
+define series Mfr/Red
+define series Mfr/Roadster 5
+define series Mfr/RE
+define series Mfr/RX8      5
+define series Mfr/S7
+define series Mfr/Shelby
+define series Mfr/Silvia
+define series Mfr/Silver
+define series Mfr/SL
+define series Mfr/Speedster
+define series Mfr/Spitfire
+define series Mfr/Sub360
+define series Mfr/TT       3
+define series Mfr/TypeR
+define series Mfr/Vette
+define series Mfr/Vitz
+define series Mfr/Z        5
+
+define series City/Family
+define series City/Meet
+define series City/TT
+
+define series Dirt/Family
+define series Dirt/Meet
+define series Dirt/TT
+
+define series Original/Family
+define series Original/Meet
+define series Original/TT
+
+define series Park/Family
+define series Park/Meet
+define series Park/TT
+
+define series World/Family
+define series World/Meet
+define series World/TT
+
+define series P/Boxer
+define series P/Clubman
+define series P/Compact  5
+define series P/GTW      10
+define series P/NA
+define series P/SC
+define series P/Tuning   5
+define series P/Turbo
+define series P/WC       5
+
+define series SC/Easy
+define series SC/Normal
+define series SC/Hard
+
+define series US/AA      5
+define series US/Hot
+define series US/Muscle
+define series US/Stripes
+
+define track Alps
+define track AlpsR
+define track Amalfi
+define track AmalfiR
+define track AM
+define track AMii
+define track Apricot
+define track ApricotR
+define track AR
+define track ARii
+define track Autumn
+define track AutumnR
+define track Beginner
+define track BeginnerR
+define track CathedralI
+define track CathedralIii
+define track CathedralII
+define track CathedralIIii
+define track Chamonix
+define track ChamonixR
+define track Cote
+define track CR5
+define track CR5ii
+define track DFRW
+define track DFRWii
+define track ElC
+define track ElCii
+define track ElCapitan
+define track ElCapitanR
+define track Fuji80
+define track Fuji90
+define track Fuji05
+define track Fuji05GT
+define track George
+define track GeorgeR
+define track Grand
+define track GrandR
+define track GVE
+define track GVEii
+define track GV
+define track GVii
+define track GVS
+define track GVSii
+define track HK
+define track HKii
+define track HongKong
+define track HongKongR
+define track HSR
+define track HSRii
+define track IceArena
+define track IceArenaR
+define track Infineon
+define track InfineonStock
+define track Laguna
+define track Midfield
+define track MidfieldR
+define track Motegi
+define track MotegiE
+define track MotegiW
+define track Motorland
+define track MotorlandR
+define track MSL
+define track MSLii
+define track NY
+define track NYii
+define track NewYork
+define track NewYorkR
+define track Nurb
+define track Nurburg
+define track Nurburgring
+define track Opera
+define track OperaR
+define track SartheI
+define track SartheII
+define track Seattle
+define track SeattleR
+define track Seoul
+define track SeoulR
+define track Super
+define track Suzuka
+define track SuzukaE
+define track SuzukaW
+define track SSR5
+define track SSR5ii
+define track TM
+define track TMii
+define track Tahiti
+define track TahitiR
+define track Tokyo
+define track TokyoR
+define track Tsukuba
+define track TsukubaWet
+define track TT
+define track Umbria
+define track UmbriaR
+
+
+@
+
+
+1.27
+log
+@Added Ex/FGT
+@
+text
+@d177 6
+@
+
+
+1.26
+log
+@Ex/{Polyphony,Prem,Star}
+Mfr/Speedster
+@
+text
+@d60 1
+@
+
+
+1.25
+log
+@Finally needed a new series; Ex/Dream
+@
+text
+@d59 1
+a59 1
+define series Ex/Dream    10
+d61 3
+d114 1
+@
+
+
+1.24
+log
+@Added 4 more Mfr series.
+@
+text
+@d59 1
+@
+
+
+1.23
+log
+@4 more Manufacturer's Series.
+@
+text
+@d72 1
+d81 2
+d88 1
+@
+
+
+1.22
+log
+@E/Infineon and Mfr/MG.
+@
+text
+@d80 1
+d86 1
+d101 2
+@
+
+
+1.21
+log
+@Added Mfr/Mini
+@
+text
+@d33 1
+d88 1
+@
+
+
+1.20
+log
+@Add Fuji05GT. Is all.
+@
+text
+@d90 1
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d172 1
+@
+
+
+1.18
+log
+@A couple of additions.
+@
+text
+@d43 1
+d159 1
+@
+
+
+1.17
+log
+@Added a few new series, also City "League".
+@
+text
+@d70 1
+d215 1
+@
+
+
+1.16
+log
+@A few more tracks.
+Odd Suzuka and Motegi tracks.
+A couple more Enduros.
+@
+text
+@d15 1
+d34 1
+d79 1
+d97 1
+d105 4
+d213 1
+@
+
+
+1.15
+log
+@Added several US things.
+@
+text
+@d30 1
+d40 2
+d186 1
+d207 1
+@
+
+
+1.14
+log
+@Just a few new things.
+@
+text
+@d40 1
+d69 1
+d94 2
+d129 3
+d152 1
+d173 1
+d177 1
+d198 1
+@
+
+
+1.13
+log
+@Added a few more series, plus synonyms for Autumn.
+@
+text
+@d51 3
+d68 1
+d124 2
+d202 1
+@
+
+
+1.12
+log
+@Added Grand.
+@
+text
+@d53 1
+d78 1
+d80 2
+d87 1
+d128 2
+@
+
+
+1.11
+log
+@Added Dirt "series" (track tests).
+@
+text
+@d139 2
+@
+
+
+1.10
+log
+@Added things, and rearranged a few things.
+@
+text
+@d15 1
+d59 1
+d66 1
+d83 5
+d137 2
+d141 2
+d150 2
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d35 2
+d50 2
+a54 1
+define series J/80s
+d56 1
+d59 1
+d62 1
+d64 1
+d85 8
+a102 3
+define series Park/TT
+define series World/TT
+
+d157 2
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d32 1
+d42 1
+d44 1
+d50 1
+d59 2
+d62 1
+d81 1
+d83 1
+d106 1
+d118 1
+d120 1
+@
+
+
+1.7
+log
+@Added a few series, etc.
+@
+text
+@d60 1
+d71 1
+d76 1
+d100 1
+d125 1
+a125 1
+define track NYR
+d143 2
+d147 2
+@
+
+
+1.6
+log
+@A couple of days' worth of additions.
+@
+text
+@d30 4
+d51 1
+d54 1
+d57 1
+d63 2
+d72 1
+d102 1
+d114 1
+d134 1
+d141 1
+@
+
+
+1.5
+log
+@A few more added.
+@
+text
+@d5 1
+d20 1
+d22 3
+d28 12
+a39 3
+define series Eu/BGT     5
+define series Eu/DTM     5
+define series Eu/ECCL    5
+d41 2
+a42 1
+define series J/JC
+d45 2
+d48 5
+d55 1
+d62 2
+d80 3
+d90 1
+d94 4
+d101 2
+d104 2
+d108 4
+d116 1
+d122 2
+d127 1
+@
+
+
+1.4
+log
+@More.
+@
+text
+@d18 2
+d21 1
+a21 1
+define series B/FR
+d23 3
+a25 2
+define series Eu/BGT  5
+define series Eu/DTM  5
+d39 1
+d48 2
+d61 1
+d78 1
+d80 2
+@
+
+
+1.3
+log
+@Adding as I need them.
+@
+text
+@d8 1
+d21 4
+d27 1
+d29 1
+d32 2
+d35 1
+a35 1
+define series Original/Meet
+a36 1
+define series Original/TT
+d40 6
+d52 1
+d57 1
+d59 1
+d64 4
+d69 1
+a72 2
+
+
+@
+
+
+1.2
+log
+@Starting.
+@
+text
+@d9 7
+a15 1
+define league Jp
+d18 13
+d34 1
+d37 5
+d43 1
+d45 8
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d14 6
+@

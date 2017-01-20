@@ -1,0 +1,1689 @@
+:::Schema::Type:Day:Slot:Manufacturer:Model Name:,# Gears,Stk HP,Max HP,Stk Wt,Tuned Wt,Race Wt,Stk PWR,Tuned PWR,Race PWR,Rating:Colour:Price
+:::Schema:98:Count
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:silver:150000
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:dark gray:150000
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:black:150000
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:red:150000
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:crimson:150000
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:yellow:150000
+N:0000:00:Aston Martin:DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:dark green:150000
+P:0000:00:Aston Martin:*DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:white:0
+P:0000:00:Aston Martin:*DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:orange-red:0
+P:0000:00:Aston Martin:*DB7 Coupe:FR,5,328,424,3802,3231,2738,.086,.131,.155,Poor:purple:0
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:silver:164000
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:dark gray:164000
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:black:164000
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:red:164000
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:crimson:164000
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:yellow:164000
+N:0000:00:Aston Martin:DB7 Volante:FR,5,328,424,4133,3511,2976,.079,.121,.142,Poor:dark green:164000
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:arctic white:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:sebring silver metallic:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:black:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:bright red:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:cayenne red metallic:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:bright green metallic:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:polo green metallic:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:mystic teal metallic:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:medium quasar blue metallic:24700
+N:0000:00:Chevrolet:Camaro Z28:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:bright purple metallic:24700
+P:0000:00:Chevrolet:*Camaro Z28 30th Anniversary:FR,4,279,415,3461,2698,2317,.081,.154,.179,Fair:white with red stripes:0
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:arctic white:45350
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:black:45350
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:torch red:45350
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:competition yellow:45350
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:polo green ii metallic:45350
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:bright aqua metallic:45350
+N:0000:00:Chevrolet:Corvette '96 Coupe:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:dark purple metallic:45350
+N:0000:00:Chevrolet:Corvette '96 Grand Sport:FR,6,323,479,3218,2508,2156,.100,.191,.222,Good:admiral blue metallic:49250
+P:0000:00:Dodge:*Concept Car:FR,5,213,249,2160,1684,-,.099,.148,-,Poor:orange-red:0
+N:0000:00:Dodge:Viper RT/10:FR,6,440,572,3187,2484,2134,.138,.230,.268,Great:blue with white painted stripes:68800
+N:0000:00:Dodge:Viper RT/10:FR,6,440,572,3187,2484,2134,.138,.230,.268,Great:red:68800
+N:0000:00:Dodge:Viper GTS:FR,6,440,578,3240,2526,2169,.136,.229,.266,Great:blue with white painted stripes:80040
+N:0000:00:Dodge:Viper GTS:FR,6,440,578,3240,2526,2169,.136,.229,.266,Great:red:80040
+P:0000:00:Dodge:*[R]Concept Car:FR,6,-,560,-,-,1329,-,-,.421,Best:yellow:0
+P:0000:00:Dodge:*[R]Concept Car:FR,6,-,560,-,-,1329,-,-,.421,Best:purple:0
+P:0000:00:Dodge:*[R]Viper GTS-R:FR,7,-,680,-,-,2753,-,-,.247,Great:white with blue stripes:0
+P:0000:00:Dodge:*[R]Viper GTS-R:FR,7,-,680,-,-,2753,-,-,.247,Great:white with green stripes:0
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:taffetas white:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:sapphire silver metallic:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:sebring silver metallic:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:starlight black pearl:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:san marino red:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:cypress green pearl:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:super marine blue pearl:23540
+N:0000:00:Honda/Acura:Accord Sedan:FF,5,181,326,3284,2561,2200,.055,.127,.148,Poor:pacific blue pearl:23540
+N:0000:00:Honda/Acura:Accord Wagon:FF,4,181,326,3196,2493,2140,.057,.131,.152,Poor:frost white:26980
+N:0000:00:Honda/Acura:Accord Wagon:FF,4,181,326,3196,2493,2140,.057,.131,.152,Poor:solaris silver metallic:26980
+N:0000:00:Honda/Acura:Accord Wagon:FF,4,181,326,3196,2493,2140,.057,.131,.152,Poor:starlight black pearl:26980
+N:0000:00:Honda/Acura:Accord Wagon:FF,4,181,326,3196,2493,2140,.057,.131,.152,Poor:bordeaux red pearl:26980
+N:0000:00:Honda/Acura:Accord Wagon:FF,4,181,326,3196,2493,2140,.057,.131,.152,Poor:sherwood green pearl:26980
+N:0000:00:Honda/Acura:Civic (Racer):FF,5,175,265,2314,1805,1549,.076,.147,.171,Poor:championship white:19980
+N:0000:00:Honda/Acura:Civic (Racer):FF,5,175,265,2314,1805,1549,.076,.147,.171,Poor:vogue silver metallic:19980
+N:0000:00:Honda/Acura:Civic (Racer):FF,5,175,265,2314,1805,1549,.076,.147,.171,Poor:star light black pearl:19980
+N:0000:00:Honda/Acura:Civic 3Door:FF,5,164,265,2253,1757,1507,.073,.151,.176,Poor:frost white:17280
+N:0000:00:Honda/Acura:Civic 3Door:FF,5,164,265,2253,1757,1507,.073,.151,.176,Poor:vogue silver metallic:17280
+N:0000:00:Honda/Acura:Civic 3Door:FF,5,164,265,2253,1757,1507,.073,.151,.176,Poor:granada black pearl:17280
+N:0000:00:Honda/Acura:Civic 3Door:FF,5,164,265,2253,1757,1507,.073,.151,.176,Poor:milano red:17280
+N:0000:00:Honda/Acura:Civic 3Door:FF,5,164,265,2253,1757,1507,.073,.151,.176,Poor:dark amethyst pearl:17280
+N:0000:00:Honda/Acura:Civic Sedan:FF,5,164,265,2517,1962,1686,.065,.135,.157,Poor:frost white:18280
+N:0000:00:Honda/Acura:Civic Sedan:FF,5,164,265,2517,1962,1686,.065,.135,.157,Poor:vogue silver metallic:18280
+N:0000:00:Honda/Acura:Civic Sedan:FF,5,164,265,2517,1962,1686,.065,.135,.157,Poor:phantom gray pearl:18280
+N:0000:00:Honda/Acura:Civic Sedan:FF,5,164,265,2517,1962,1686,.065,.135,.157,Poor:matador red pearl:18280
+N:0000:00:Honda/Acura:Civic Sedan:FF,5,164,265,2517,1962,1686,.065,.135,.157,Poor:cypress green pearl:18280
+N:0000:00:Honda/Acura:Civic Sedan:FF,5,164,265,2517,1962,1686,.065,.135,.157,Poor:cyclone blue metallic:18280
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:frost white:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:vogue silver metallic:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:star light black pearl:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:milano red:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:matador red pearl:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:cypress green pearl:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:adriatic blue pearl:19580
+N:0000:00:Honda/Acura:Integra GS-R:FF,5,171,303,2667,2078,1785,.064,.146,.170,Poor:dark currant pearl:19580
+N:0000:00:Honda/Acura:Integra Type R:FF,5,189,361,2594,2023,1737,.073,.178,.208,Fair:championship white:22280
+N:0000:00:Honda/Acura:Integra Type R:FF,5,189,361,2594,2023,1737,.073,.178,.208,Fair:vogue silver metallic:22280
+N:0000:00:Honda/Acura:Integra Type R:FF,5,189,361,2594,2023,1737,.073,.178,.208,Fair:star light black pearl:22280
+N:0000:00:Honda/Acura:Integra Type R:FF,5,189,361,2594,2023,1737,.073,.178,.208,Fair:milano red:22280
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:grandprix white:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:neutron white pearl:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:platinum white pearl:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:sebring silver metallic:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:kaiser silver metallic:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:magnum gray pearl:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:berlina black:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:grandprix red:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:formula red:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:indy yellow pearl:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:estoril turquoise pearl:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:phoenix blue:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:monte carlo blue pearl:91070
+N:0000:00:Honda/Acura:NSX:MR,6,285,534,3068,2391,2054,.093,.223,.260,Good:midnight pearl:91070
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:grandprix white:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:neutron white pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:platinum white pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:sebring silver metallic:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:kaiser silver metallic:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:magnum gray pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:berlina black:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:grandprix red:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:formula red:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:imola orange pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:indy yellow pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:estoril turquoise pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:phoenix blue:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:monte carlo blue pearl:103570
+N:0000:00:Honda/Acura:NSX Type S:MR,6,285,534,2910,2268,1948,.098,.235,.274,Great:midnight pearl:103570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:grandprix white:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:neutron white pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:platinum white pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:sebring silver metallic:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:kaiser silver metallic:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:magnum gray pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:berlina black:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:grandprix red:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:formula red:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:imola orange pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:indy yellow pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:estoril turquoise pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:phoenix blue:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:monte carlo blue pearl:98570
+N:0000:00:Honda/Acura:NSX Type S Zero:MR,6,285,534,2799,2182,1873,.102,.245,.285,Great:midnight pearl:98570
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:taffetas white:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:white diamond pearl:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:iceberg silver metallic:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:starlight black pearl:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:san marino red:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:rust red pearl:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:eucalyptus green pearl:18830
+N:0000:00:Honda/Acura:Prelude:FF,5,188,378,2954,2303,1977,.064,.164,.191,Fair:super marine blue pearl:18830
+N:0000:00:Honda/Acura:Prelude Type SH:FF,5,208,374,3042,2372,2037,.068,.158,.184,Fair:taffetas white:26530
+N:0000:00:Honda/Acura:Prelude Type SH:FF,5,208,374,3042,2372,2037,.068,.158,.184,Fair:white diamond pearl:26530
+N:0000:00:Honda/Acura:Prelude Type SH:FF,5,208,374,3042,2372,2037,.068,.158,.184,Fair:iceberg silver metallic:26530
+N:0000:00:Honda/Acura:Prelude Type SH:FF,5,208,374,3042,2372,2037,.068,.158,.184,Fair:starlight black pearl:26530
+N:0000:00:Honda/Acura:Prelude Type SH:FF,5,208,374,3042,2372,2037,.068,.158,.184,Fair:san marino red:26530
+N:0000:00:Honda/Acura:Prelude Type SH:FF,5,208,374,3042,2372,2037,.068,.158,.184,Fair:rust red pearl:26530
+P:0000:00:Honda/Acura:*CR-X EF-8 Si-R:FF,5,152,259,2138,1666,1430,.071,.155,.181,Poor:black:0
+P:0000:00:Honda/Acura:*CR-X EF-8 Si-R:FF,5,152,259,2138,1666,1430,.071,.155,.181,Poor:yellow:0
+P:0000:00:Honda/Acura:*CR-X EF-8 Si-R:FF,5,152,259,2138,1666,1430,.071,.155,.181,Poor:purple:0
+P:0000:00:Honda/Acura:*EK Civic Type R:FF,5,175,265,2314,1805,1549,.076,.147,.171,Poor:pink:0
+P:0000:00:Honda/Acura:*EK Civic Type R:FF,5,175,265,2314,1805,1549,.076,.147,.171,Poor:yellow:0
+P:0000:00:Honda/Acura:*EK Civic Type R:FF,5,175,265,2314,1805,1549,.076,.147,.171,Poor:blue:0
+P:0000:00:Honda/Acura:*[R]del Sol LM Edition:MR,6,-,563,-,-,1962,-,-,.287,Great:red:0
+P:0000:00:Honda/Acura:*[R]del Sol LM Edition:MR,6,-,563,-,-,1962,-,-,.287,Great:black:0
+S:0000:00:Honda/Acura:[R]NSX-R LM GT2:MR,6,-,541,-,-,2314,-,-,.234,Great:red:500000
+S:0000:00:Honda/Acura:[R]NSX-R LM GT2:MR,6,-,541,-,-,2314,-,-,.234,Great:orange:500000
+U:0001:01:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:milano red:8580
+U:0001:02:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:milano red:7220
+U:0001:03:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:flint black metallic:7850
+U:0001:04:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cobalt blue pearl:7250
+U:0001:05:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8980
+U:0001:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:sebring silver metallic:10760
+U:0001:07:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:brittany blue green metallic:10530
+U:0001:08:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:phantom gray pearl:9840
+U:0001:09:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:milano red:10270
+U:0001:10:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11900
+U:0001:11:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cobalt blue pearl:11180
+U:0001:12:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:milano red:10670
+U:0001:13:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:granada black pearl:9230
+U:0001:14:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:13520
+U:0001:15:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:frost white:12990
+U:0001:16:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:bayleaf green:41370
+U:0001:17:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:formula red:49350
+U:0001:18:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:sebring silver metallic:52810
+U:0001:19:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:quasar gray pearl:56970
+U:0001:20:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:cranberry red pearl:54340
+U:0001:21:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:sebring silver metallic:62260
+U:0001:22:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:monte carlo blue pearl:67030
+U:0001:23:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:grandprix white:73430
+U:0001:24:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:championship white:74250
+U:0010:01:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:vogue silver metallic:7820
+U:0010:02:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:samba green pearl:8460
+U:0010:03:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8870
+U:0010:04:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:sebring silver metallic:9710
+U:0010:05:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:phantom gray pearl:8890
+U:0010:06:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:herbert blue pearl:10400
+U:0010:07:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11570
+U:0010:08:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:granada black pearl:10220
+U:0010:09:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:10920
+U:0010:10:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:bayleaf green:41610
+U:0010:11:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:kaiser silver metallic:47440
+U:0010:12:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:quasar gray pearl:51180
+U:0010:13:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:berlina black:56790
+U:0010:14:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:kaiser silver metallic:67130
+U:0020:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:torino red pearl:6220
+U:0020:02:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cobalt blue pearl:8670
+U:0020:03:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:samba green pearl:7400
+U:0020:04:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:flint black metallic:8450
+U:0020:05:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:sebring silver metallic:10830
+U:0020:06:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:phantom gray pearl:10670
+U:0020:07:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:tahitian green pearl:10160
+U:0020:08:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11410
+U:0020:09:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:milano red:11020
+U:0020:10:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:granada black pearl:11050
+U:0020:11:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:brittany blue green metallic:13460
+U:0020:12:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:11830
+U:0020:13:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:cranberry red pearl:53050
+U:0020:14:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:estoril turquoise pearl:61250
+U:0020:15:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:formula red:63050
+U:0020:16:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:shallot green pearl:67900
+U:0030:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:torino red pearl:6340
+U:0030:02:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:frost white:6150
+U:0030:03:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:milano red:6630
+U:0030:04:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:milano red:8010
+U:0030:05:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:flint black metallic:7970
+U:0030:06:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8680
+U:0030:07:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:phantom gray pearl:9730
+U:0030:08:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:tahitian green pearl:9760
+U:0030:09:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cobalt blue pearl:10830
+U:0030:10:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11800
+U:0030:11:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:13960
+U:0030:12:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:bayleaf green:43830
+U:0030:13:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:cranberry red pearl:66640
+U:0040:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:barcelona green pearl:5740
+U:0040:02:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:frost white:5680
+U:0040:03:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:milano red:6970
+U:0040:04:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cobalt blue pearl:8400
+U:0040:05:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cobalt blue pearl:11310
+U:0040:06:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:vogue silver metallic:10910
+U:0040:07:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11820
+U:0040:08:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:granada black pearl:12310
+U:0040:09:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:14330
+U:0040:10:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:cranberry red pearl:52700
+U:0040:11:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:sebring silver metallic:63390
+U:0040:12:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:cranberry red pearl:67580
+U:0050:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:barcelona green pearl:5540
+U:0050:02:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:flint black metallic:8160
+U:0050:03:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:phantom gray pearl:8860
+U:0050:04:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cassis red pearl:8790
+U:0050:05:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:milano red:9510
+U:0050:06:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cobalt blue pearl:11370
+U:0050:07:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:10160
+U:0050:08:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:milano red:11180
+U:0050:09:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:11630
+U:0050:10:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:sebring silver metallic:57260
+U:0050:11:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:berlina black:50570
+U:0050:12:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:neutron white pearl:53250
+U:0050:13:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:kaiser silver metallic:65530
+U:0050:14:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:berlina black:67550
+U:0050:15:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:monte carlo blue pearl:66250
+U:0050:16:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:estoril turquoise pearl:70920
+U:0050:17:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:grandprix white:73730
+U:0060:01:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:milano red:7610
+U:0060:02:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:samba green pearl:7590
+U:0060:03:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:flint black metallic:7780
+U:0060:04:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8800
+U:0060:05:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:sebring silver metallic:8700
+U:0060:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cassis red pearl:7770
+U:0060:07:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:brittany blue green metallic:9140
+U:0060:08:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:milano red:10230
+U:0060:09:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:granada black pearl:10370
+U:0060:10:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:10560
+U:0060:11:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:vogue silver metallic:10750
+U:0060:12:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:brittany blue green metallic:12070
+U:0060:13:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cassis red pearl:10710
+U:0060:14:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:14270
+U:0060:15:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:bayleaf green:41530
+U:0060:16:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:formula red:52330
+U:0060:17:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:shallot green pearl:69480
+U:0070:01:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:milano red:8250
+U:0070:02:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:captiva blue pearl:7380
+U:0070:03:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:vogue silver metallic:7930
+U:0070:04:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:9060
+U:0070:05:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:milano red:9790
+U:0070:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:granada black pearl:11880
+U:0070:07:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:lausanne green pearl:10210
+U:0070:08:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:phantom gray pearl:11240
+U:0070:09:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11370
+U:0070:10:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cassis red pearl:12690
+U:0070:11:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:10810
+U:0070:12:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:frost white:15160
+U:0070:13:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:bayleaf green:43300
+U:0070:14:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:kaiser silver metallic:48880
+U:0070:15:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:berlina black:56500
+U:0070:16:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:estoril turquoise pearl:51860
+U:0070:17:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:grandprix white:75030
+U:0070:18:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:championship white:78850
+U:0080:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:flint black metallic:4760
+U:0080:02:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:vogue silver metallic:8440
+U:0080:03:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cobalt blue pearl:7580
+U:0080:04:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:flint black metallic:8590
+U:0080:05:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8820
+U:0080:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:phantom gray pearl:10770
+U:0080:07:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cassis red pearl:9120
+U:0080:08:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:phantom gray pearl:10000
+U:0080:09:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:milano red:9390
+U:0080:10:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:lausanne green pearl:10200
+U:0080:11:Honda/Acura:Civic '93 Sedan:FF,5,151,266,2275,1772,1523,.066,.150,.175,Poor:phantom gray pearl:10540
+U:0080:12:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11540
+U:0080:13:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:13610
+U:0080:14:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:frost white:13910
+U:0080:15:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:bayleaf green:44250
+U:0080:16:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:sebring silver metallic:46180
+U:0080:17:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:berlina black:54840
+U:0080:18:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:estoril turquoise pearl:51630
+U:0080:19:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:indy yellow pearl:55310
+U:0080:20:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:formula red:60080
+U:0080:21:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:neutron white pearl:66110
+U:0080:22:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:shallot green pearl:65570
+U:0080:23:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:grandprix white:78910
+U:0090:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:flint black metallic:4950
+U:0090:02:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:torino red pearl:5290
+U:0090:03:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:milano red:8160
+U:0090:04:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:captiva blue pearl:7920
+U:0090:05:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:flint black metallic:7680
+U:0090:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cobalt blue pearl:8430
+U:0090:07:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:flint black metallic:7780
+U:0090:08:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8710
+U:0090:09:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:sebring silver metallic:8720
+U:0090:10:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:milano red:9600
+U:0090:11:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:brittany blue green metallic:9430
+U:0090:12:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:11520
+U:0090:13:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:milano red:10330
+U:0090:14:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:granada black pearl:13190
+U:0090:15:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:12120
+U:0090:16:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:monte carlo blue pearl:44790
+U:0090:17:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:quasar gray pearl:49830
+U:0090:18:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:berlina black:56430
+U:0090:19:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:sebring silver metallic:62830
+U:0090:20:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:bayleaf green:71030
+U:0090:21:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:championship white:79070
+U:0100:01:Honda/Acura:Civic '91 CR-X Si:FF,5,152,259,2173,1695,1455,.070,.153,.178,Poor:flint black metallic:4880
+U:0100:02:Honda/Acura:del Sol '93 S:FF,5,123,204,2286,1781,1529,.054,.115,.133,Poor:milano red:7470
+U:0100:03:Honda/Acura:del Sol '93 Si:FF,5,159,262,2286,1781,1529,.070,.147,.171,Poor:captiva blue pearl:7540
+U:0100:04:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cobalt blue pearl:8680
+U:0100:05:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:captiva blue pearl:8500
+U:0100:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:cassis red pearl:10930
+U:0100:07:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:brittany blue green metallic:9000
+U:0100:08:Honda/Acura:Civic '93 3Door Si:FF,5,164,286,2094,1633,1402,.078,.175,.204,Poor:granada black pearl:9980
+U:0100:09:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:milano red:12410
+U:0100:10:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:granada black pearl:13450
+U:0100:11:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:cassis red pearl:11580
+U:0100:12:Honda/Acura:Prelude '94 VTEC:FF,5,205,377,2932,2286,1964,.070,.165,.192,Fair:sebring silver metallic:11010
+U:0100:13:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:berlina black:55990
+U:0100:14:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:indy yellow pearl:59360
+U:0100:15:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:quasar gray pearl:65430
+U:0110:14:Honda/Acura:NSX '91:MR,5,268,490,3009,2345,2015,.089,.209,.243,Fair:shallot green pearl:41400
+U:0120:06:Honda/Acura:Prelude '93 Si:FF,5,152,323,2865,2235,1920,.053,.145,.168,Fair:frost white:10230
+U:0120:15:Honda/Acura:NSX '93:MR,5,268,490,3020,2354,2021,.089,.208,.242,Fair:indy yellow pearl:66500
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:chaste white:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:silver stone metallic:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:classic red:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:passion rose mica:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:sparkle green metallic:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:excellent green mica:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:aquarius blue mica:13430
+N:0000:00:Mazda:Demio GL:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:indigo blue metallic:13430
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:chaste white:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:chaste white--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:silver stone metallic:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:silver stone metallic--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:classic red:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:classic red--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:passion rose mica:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:passion rose mica--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:sparkle green metallic:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:sparkle green metallic--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:excellent green mica:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:excellent green mica--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:aquarius blue mica:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:aquarius blue mica--black bumper:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:indigo blue metallic:14560
+N:0000:00:Mazda:Demio GL-X:FF,5,94,211,2116,1649,1417,.044,.128,.149,-:indigo blue metallic--black bumper:14560
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:chaste white:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:silver stone metallic:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:classic red:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:passion rose mica:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:sparkle green metallic:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:excellent green mica:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:aquarius blue mica:10530
+N:0000:00:Mazda:Demio LX G Package:FF,5,77,202,2006,1563,1342,.038,.129,.151,-:indigo blue metallic:10530
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:chaste white:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:silver stone metallic:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:brilliant black:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:classic red:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:british racing green:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:sr limited--sparkle green metallic:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:g limited--satellite blue mica:17400
+N:0000:00:Mazda:Eunos Roadster Normal:FR,5,127,233,2160,1684,1446,.059,.138,.161,-:b2 limited--twilight blue mica:17400
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:chaste white:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:brilliant black:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:classic red:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:vr limited a--mica melrot:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:vr limited b--excellent green mica:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:laguna blue mica:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:r limited--satellite blue mica:22250
+N:0000:00:Mazda:Eunos Roadster S-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:montego blue mica:22250
+N:0000:00:Mazda:Eunos Roadster V-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:chaste white:24400
+N:0000:00:Mazda:Eunos Roadster V-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:type ii--chaste white:24400
+N:0000:00:Mazda:Eunos Roadster V-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:brilliant black:24400
+N:0000:00:Mazda:Eunos Roadster V-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:type ii--brilliant black:24400
+N:0000:00:Mazda:Eunos Roadster V-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:british racing green:24400
+N:0000:00:Mazda:Eunos Roadster V-Special:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:type ii--british racing green:24400
+N:0000:00:Mazda:FD Efini RX-7 A spec:FR,5,256,527,2689,2286,1935,.095,.231,.272,-:chaste white:45150
+N:0000:00:Mazda:FD Efini RX-7 A spec:FR,5,256,527,2689,2286,1935,.095,.231,.272,-:silver stone metallic:45150
+N:0000:00:Mazda:FD Efini RX-7 A spec:FR,5,256,527,2689,2286,1935,.095,.231,.272,-:brilliant black:45150
+N:0000:00:Mazda:FD Efini RX-7 A spec:FR,5,256,527,2689,2286,1935,.095,.231,.272,-:vintage red:45150
+N:0000:00:Mazda:FD Efini RX-7 A spec:FR,5,256,527,2689,2286,1935,.095,.231,.272,-:competition yellow mica:45150
+N:0000:00:Mazda:FD Efini RX-7 Touring X:FR,4,256,527,2932,2491,2109,.087,.212,.250,-:chaste white:38150
+N:0000:00:Mazda:FD Efini RX-7 Touring X:FR,4,256,527,2932,2491,2109,.087,.212,.250,-:silver stone metallic:38150
+N:0000:00:Mazda:FD Efini RX-7 Touring X:FR,4,256,527,2932,2491,2109,.087,.212,.250,-:brilliant black:38150
+N:0000:00:Mazda:FD Efini RX-7 Touring X:FR,4,256,527,2932,2491,2109,.087,.212,.250,-:vintage red:38150
+N:0000:00:Mazda:FD Efini RX-7 Type RB:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:32400
+N:0000:00:Mazda:FD Efini RX-7 Type RB:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:silver stone metallic:32400
+N:0000:00:Mazda:FD Efini RX-7 Type RB:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:32400
+N:0000:00:Mazda:FD Efini RX-7 Type RB:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:32400
+N:0000:00:Mazda:FD Efini RX-7 Type RZ:FR,5,256,527,2755,2341,1984,.093,.225,.266,-:brilliant black:40150
+N:0000:00:Mazda:Lantis Coupe 2000 Type R:FF,5,169,326,2733,2131,1829,.062,.153,.178,-:silver stone metallic:20750
+N:0000:00:Mazda:Lantis Coupe 2000 Type R:FF,5,169,326,2733,2131,1829,.062,.153,.178,-:brilliant black:20750
+N:0000:00:Mazda:Lantis Coupe 2000 Type R:FF,5,169,326,2733,2131,1829,.062,.153,.178,-:classic red:20750
+N:0000:00:Mazda:Lantis Coupe 2000 Type R:FF,5,169,326,2733,2131,1829,.062,.153,.178,-:sparkle green metallic:20750
+N:0000:00:Mazda:Lantis Coupe 2000 Type R:FF,5,169,326,2733,2131,1829,.062,.153,.178,-:indigo blue metallic:20750
+P:0000:00:Mazda:*Demio A spec:FF,5,94,211,1807,1408,1210,.052,.150,.174,-:silver:0
+P:0000:00:Mazda:*Eunos Roadster:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:yellow:0
+P:0000:00:Mazda:*Eunos Roadster:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:gold:0
+P:0000:00:Mazda:*Eunos Roadster:FR,5,127,233,2182,1701,1461,.058,.137,.159,-:lavender:0
+S:0000:00:Mazda:[R]RX-7 LM Edition:FR,6,-,588,-,-,2116,-,-,.278,-:green:500000
+S:0000:00:Mazda:[R]RX-7 LM Edition:FR,6,-,588,-,-,2116,-,-,.278,-:red:500000
+P:0000:00:Mazda:*[R]RX-7 A spec LM Edition:FR,6,-,570,-,-,2314,-,-,.246,-:green:0
+P:0000:00:Mazda:*[R]RX-7 A spec LM Edition:FR,6,-,570,-,-,2314,-,-,.246,-:purple:0
+U:0001:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brave blue mica:9300
+U:0001:02:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:8740
+U:0001:03:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9650
+U:0001:04:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:8350
+U:0001:05:Mazda:FC Savanna RX-7 Efini III:FR,5,204,432,2645,2248,1904,.077,.192,.227,-:brave blue mica:12040
+U:0001:06:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brilliant black:10950
+U:0001:07:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:silver stone metallic:15910
+U:0001:08:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:19000
+U:0001:09:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:17380
+U:0001:10:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:black forest mica:20870
+U:0010:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brave blue mica:8550
+U:0010:02:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9310
+U:0010:03:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:10850
+U:0010:04:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:passion rose mica:11630
+U:0010:05:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:11510
+U:0010:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:silver stone metallic:12930
+U:0010:07:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:17320
+U:0010:08:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:17680
+U:0010:09:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:silver stone metallic:23520
+U:0020:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:8110
+U:0020:02:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:crystal white:9670
+U:0020:03:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:7970
+U:0020:04:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:shadow silver mica:9370
+U:0020:05:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:creek blue mica:9710
+U:0020:06:Mazda:FC Savanna RX-7 Efini III:FR,5,204,432,2645,2248,1904,.077,.192,.227,-:brave blue mica:11670
+U:0020:07:Mazda:Eunos Roadster '92 S-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:11880
+U:0020:08:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brilliant black:11660
+U:0020:09:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:passion rose mica:11730
+U:0020:10:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:13970
+U:0020:11:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:black forest mica:16600
+U:0020:12:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:16910
+U:0020:13:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:21820
+U:0020:14:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:silver stone metallic:22490
+U:0030:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:8050
+U:0030:02:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9230
+U:0030:03:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:mariner blue:9660
+U:0030:04:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:shadow silver mica:9370
+U:0030:05:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:9680
+U:0030:06:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:16510
+U:0030:07:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:19910
+U:0030:08:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:silver stone metallic:22520
+U:0030:09:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:20890
+U:0040:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:10680
+U:0040:02:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9390
+U:0040:03:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:classic red:9990
+U:0040:04:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:10690
+U:0040:05:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:passion rose mica:12670
+U:0040:06:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:creek blue mica:16490
+U:0040:07:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:19520
+U:0040:08:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:21650
+U:0040:09:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:20740
+U:0050:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brave blue mica:9470
+U:0050:02:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:10210
+U:0050:03:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9770
+U:0050:04:Mazda:Eunos Roadster '92 S-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:classic red:10780
+U:0050:05:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:classic red:9890
+U:0050:06:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:8460
+U:0050:07:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brilliant black:12830
+U:0050:08:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:14130
+U:0050:09:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:16370
+U:0050:10:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:19840
+U:0060:01:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9760
+U:0060:02:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:9000
+U:0060:03:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:crystal white:9720
+U:0060:04:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:10640
+U:0060:05:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brilliant black:13320
+U:0060:06:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:12790
+U:0060:07:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:19280
+U:0060:08:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:silver stone metallic:25590
+U:0060:09:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:22840
+U:0070:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brave blue mica:9000
+U:0070:02:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:8820
+U:0070:03:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9270
+U:0070:04:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:crystal white:9660
+U:0070:05:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:classic red:9560
+U:0070:06:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:11670
+U:0070:07:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:creek blue mica:9730
+U:0070:08:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:passion rose mica:10640
+U:0070:09:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:10100
+U:0070:10:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brilliant black:12900
+U:0070:11:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:11580
+U:0070:12:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:silver stone metallic:12380
+U:0070:13:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:17770
+U:0070:14:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:22230
+U:0070:15:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:silver stone metallic:21640
+U:0070:16:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:20210
+U:0080:01:Mazda:Eunos Roadster '92 S-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:classic red:9850
+U:0080:02:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9460
+U:0080:03:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:10690
+U:0080:04:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:classic red:9790
+U:0080:05:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:crystal white:9720
+U:0080:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:creek blue mica:9790
+U:0080:07:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:j limited-sunburst yellow:11170
+U:0080:08:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:passion rose mica:10640
+U:0080:09:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:12420
+U:0080:10:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:brilliant black:12060
+U:0080:11:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:13050
+U:0080:12:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:creek blue mica:16370
+U:0080:13:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:21210
+U:0080:14:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:19440
+U:0090:01:Mazda:Eunos Roadster '92 S-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:classic red:8120
+U:0090:02:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:silver stone metallic:9610
+U:0090:03:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:shadow silver mica:9250
+U:0090:04:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:8260
+U:0090:05:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:classic red:9500
+U:0090:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:creek blue mica:9830
+U:0090:07:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:j limited-sunburst yellow:10830
+U:0090:08:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:10210
+U:0090:09:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:crystal white:14670
+U:0090:10:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:creek blue mica:16960
+U:0090:11:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:vintage red:16970
+U:0090:12:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:silver stone metallic:22890
+U:0090:13:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:competition yellow mica:20550
+U:0090:14:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:25620
+U:0100:01:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:blaze red:9480
+U:0100:02:Mazda:FC Savanna RX-7 GT-X:FR,5,199,429,2755,2341,1984,.072,.183,.216,-:shadow silver mica:10670
+U:0100:03:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:british racing green:11660
+U:0100:04:Mazda:Eunos Roadster '89 Normal:FR,5,114,194,2160,1684,1446,.053,.115,.134,-:classic red:9830
+U:0100:05:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:creek blue mica:9970
+U:0100:06:Mazda:Eunos Cosmo 20B Type E CCS:FR,4,270,673,3615,3073,2601,.075,.219,.259,-:passion rose mica:10530
+U:0100:07:Mazda:Eunos Roadster '90 V-Special:FR,5,114,194,2182,1701,1461,.052,.114,.133,-:brilliant black:12260
+U:0100:08:Mazda:Eunos Cosmo 13B Type S CCS:FR,4,220,506,3350,2848,2411,.066,.178,.210,-:silver stone metallic:12670
+U:0100:09:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:brilliant black:18330
+U:0100:10:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:silver stone metallic:24560
+U:0100:11:Mazda:FD Efini RX-7 '91 Type R:FR,5,256,527,2777,2361,1999,.092,.223,.264,-:chaste white:24160
+U:0120:04:Mazda:FC Savanna RX-7 Efini III:FR,5,204,432,2645,2248,1904,.077,.192,.227,-:brilliant black:11010
+U:0120:07:Mazda:FC Savanna RX-7 Efini III:FR,5,204,432,2645,2248,1904,.077,.192,.227,-:crystal white:13060
+U:0190:08:Mazda:FC Savanna RX-7 Efini III:FR,5,204,432,2645,2248,1904,.077,.192,.227,-:shadow silver mica:12510
+U:0220:06:Mazda:FC Savanna RX-7 Efini III:FR,5,204,432,2645,2248,1904,.077,.192,.227,-:blaze red:11760
+N:0000:00:Mitsubishi:Eclipse GT:FF,5,216,378,2932,2491,2109,.074,.152,.179,Fair:appalachian black:23600
+N:0000:00:Mitsubishi:Eclipse GT:FF,5,216,378,2932,2491,2109,.074,.152,.179,Fair:pasadena red:23600
+N:0000:00:Mitsubishi:FTO GP Version R:FF,5,189,364,2535,1977,1697,.075,.184,.214,Fair:scotia white:21600
+N:0000:00:Mitsubishi:FTO GP Version R:FF,5,189,364,2535,1977,1697,.075,.184,.214,Fair:pyrenees black:21600
+N:0000:00:Mitsubishi:FTO GP Version R:FF,5,189,364,2535,1977,1697,.075,.184,.214,Fair:passion red:21600
+N:0000:00:Mitsubishi:FTO GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:scotia white:23330
+N:0000:00:Mitsubishi:FTO GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:symphonic silver:23330
+N:0000:00:Mitsubishi:FTO GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:pyrenees black:23330
+N:0000:00:Mitsubishi:FTO GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:passion red:23330
+N:0000:00:Mitsubishi:FTO GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:kilder green:23330
+N:0000:00:Mitsubishi:FTO GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:ijssel blue:23330
+N:0000:00:Mitsubishi:FTO GR:FF,5,171,326,2535,1977,1697,.067,.165,.192,Fair:scotia white:18870
+N:0000:00:Mitsubishi:FTO GR:FF,5,171,326,2535,1977,1697,.067,.165,.192,Fair:symphonic silver:18870
+N:0000:00:Mitsubishi:FTO GR:FF,5,171,326,2535,1977,1697,.067,.165,.192,Fair:pyrenees black:18870
+N:0000:00:Mitsubishi:FTO GR:FF,5,171,326,2535,1977,1697,.067,.165,.192,Fair:passion red:18870
+N:0000:00:Mitsubishi:FTO GR:FF,5,171,326,2535,1977,1697,.067,.165,.192,Fair:kilder green:18870
+N:0000:00:Mitsubishi:FTO GR:FF,5,171,326,2535,1977,1697,.067,.165,.192,Fair:ijssel blue:18870
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:sofia white:20900
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:hamilton silver:20900
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:pyrenees black:20900
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:palma red:20900
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:roanne red:20900
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:finesse green:20900
+N:0000:00:Mitsubishi:Galant VR-G Touring:FF,5,142,168,2733,2131,1829,.052,.079,.092,Worst:trigger mauve:20900
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:sofia white:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:hamilton silver--thurston gray 2tone:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:hamilton silver:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:pyrenees black--thurston gray 2tone:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:pyrenees black:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:palma red:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:palma red--thurston gray 2tone:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:roanne red:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:finesse green:29800
+N:0000:00:Mitsubishi:Galant VR-4:4WD,5,272,783,3262,2773,2347,.083,.282,.334,Great:trigger mauve:29800
+N:0000:00:Mitsubishi:GTO SR:4WD,5,214,381,3549,2766,2376,.060,.138,.160,Fair:galaxy white:29980
+N:0000:00:Mitsubishi:GTO SR:4WD,5,214,381,3549,2766,2376,.060,.138,.160,Fair:hamilton silver:29980
+N:0000:00:Mitsubishi:GTO SR:4WD,5,214,381,3549,2766,2376,.060,.138,.160,Fair:pyrenees black:29980
+N:0000:00:Mitsubishi:GTO SR:4WD,5,214,381,3549,2766,2376,.060,.138,.160,Fair:passion red:29980
+N:0000:00:Mitsubishi:GTO SR:4WD,5,214,381,3549,2766,2376,.060,.138,.160,Fair:timber green:29980
+N:0000:00:Mitsubishi:GTO SR:4WD,5,214,381,3549,2766,2376,.060,.138,.160,Fair:mariana blue:29980
+N:0000:00:Mitsubishi:GTO Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:galaxy white:43230
+N:0000:00:Mitsubishi:GTO Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:hamilton silver:43230
+N:0000:00:Mitsubishi:GTO Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:pyrenees black:43230
+N:0000:00:Mitsubishi:GTO Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:passion red:43230
+N:0000:00:Mitsubishi:GTO Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:timber green:43230
+N:0000:00:Mitsubishi:GTO Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:mariana blue:43230
+N:0000:00:Mitsubishi:Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:scotia white:23940
+N:0000:00:Mitsubishi:Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:steel silver:23940
+N:0000:00:Mitsubishi:Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:pyrenees black:23940
+N:0000:00:Mitsubishi:Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:palma red:23940
+N:0000:00:Mitsubishi:Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:ijssel blue:23940
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:scotia white:17630
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:steel silver:17630
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:pyrenees black:17630
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:palma red:17630
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:roanne red:17630
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:kilder green:17630
+N:0000:00:Mitsubishi:Mirage Asti RX:FF,5,167,265,2358,1838,1578,.071,.144,.168,Poor:ijssel blue:17630
+P:0000:00:Mitsubishi:*Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:yellow:0
+P:0000:00:Mitsubishi:*Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:blue-green:0
+P:0000:00:Mitsubishi:*Lancer EvolutionIV GSR:4WD,5,268,492,2976,2528,2142,.090,.195,.230,Good:purple:0
+S:0000:00:Mitsubishi:[R]GTO LM Edition:4WD,7,-,604,-,-,2821,-,-,.214,Great:silver:500000
+S:0000:00:Mitsubishi:[R]GTO LM Edition:4WD,7,-,604,-,-,2821,-,-,.214,Great:yellow:500000
+P:0000:00:Mitsubishi:*[R]FTO LM Edition:4WD,6,-,541,-,-,2050,-,-,.264,Great:black:0
+P:0000:00:Mitsubishi:*[R]FTO LM Edition:4WD,6,-,541,-,-,2050,-,-,.264,Great:green:0
+U:0001:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:8750
+U:0001:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:colton red:8850
+U:0001:03:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:corse gray:10140
+U:0001:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:pyrenees black:11010
+U:0001:05:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:12650
+U:0001:06:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:15420
+U:0001:07:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:moon light blue:13710
+U:0001:08:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:fiji blue:8860
+U:0001:09:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:scotia white:14570
+U:0001:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:kutani red:16530
+U:0001:11:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:16270
+U:0001:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:17540
+U:0001:13:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:19250
+U:0001:14:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:galaxy white:16520
+U:0001:15:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:mariana blue:20070
+U:0001:16:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:fiji blue:20730
+U:0001:17:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:22320
+U:0001:18:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:mariana blue:26760
+U:0010:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:loire green:8500
+U:0010:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:8830
+U:0010:03:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:steel silver:12210
+U:0010:04:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:imperial red:12580
+U:0010:05:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:pyrenees black:11830
+U:0010:06:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:dandelion yellow:13670
+U:0010:07:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:12790
+U:0010:08:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:12010
+U:0010:09:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:pyrenees black:14650
+U:0010:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:kutani red:16500
+U:0010:11:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:18180
+U:0010:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:15470
+U:0010:13:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:15070
+U:0010:14:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:galaxy white:18540
+U:0010:15:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:pyrenees black:17890
+U:0010:16:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:mariana blue:19300
+U:0010:17:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:fiji blue:18930
+U:0010:18:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:20550
+U:0010:19:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:passion red:22670
+U:0010:20:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:pyrenees black:23970
+U:0010:21:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:mariana blue:26270
+U:0010:22:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:galaxy white:28190
+U:0010:23:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:passion red:29850
+U:0020:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:8570
+U:0020:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:colton red:10110
+U:0020:03:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:passion red:11150
+U:0020:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:pyrenees black:11470
+U:0020:05:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:moon light blue:13250
+U:0020:06:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:12940
+U:0020:07:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:13860
+U:0020:08:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:pyrenees black:15080
+U:0020:09:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:18290
+U:0020:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:15900
+U:0020:11:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:pyrenees black:19420
+U:0020:12:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:mariana blue:18710
+U:0020:13:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:22210
+U:0020:14:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:passion red:23570
+U:0020:15:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:pyrenees black:23200
+U:0020:16:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:mariana blue:25130
+U:0020:17:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:galaxy white:27260
+U:0020:18:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:passion red:29280
+U:0030:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:twilight blue:8440
+U:0030:02:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:steel silver:11920
+U:0030:03:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:pyrenees black:10900
+U:0030:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:scotia white:13210
+U:0030:05:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:12160
+U:0030:06:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:12730
+U:0030:07:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:moon light blue:14100
+U:0030:08:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:pyrenees black:15270
+U:0030:09:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:toscana black:16520
+U:0030:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:17470
+U:0030:11:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:mariana blue:21000
+U:0030:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:fiji blue:20800
+U:0030:13:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:21100
+U:0030:14:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:mariana blue:24800
+U:0030:15:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:symphonic silver:27360
+U:0030:16:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:passion red:29080
+U:0030:17:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:symphonic silver:29980
+U:0040:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:loire green:8390
+U:0040:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:8650
+U:0040:03:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:imperial red:11020
+U:0040:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:passion red:11960
+U:0040:05:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:15590
+U:0040:06:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:12670
+U:0040:07:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:moon light blue:14220
+U:0040:08:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:fiji blue:20420
+U:0040:09:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:toscana black:12770
+U:0040:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:kutani red:17590
+U:0040:11:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:15160
+U:0040:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:18580
+U:0040:13:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:mariana blue:20470
+U:0040:14:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:galaxy white:21230
+U:0040:15:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:20350
+U:0040:16:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:dandelion yellow:24530
+U:0040:17:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:mariana blue:27000
+U:0040:18:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:symphonic silver:27740
+U:0050:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:grace silver:7240
+U:0050:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:twilight blue:8800
+U:0050:03:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:9050
+U:0050:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:scotia white:13620
+U:0050:05:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:passion red:13860
+U:0050:06:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:13410
+U:0050:07:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:13890
+U:0050:08:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:fiji blue:8790
+U:0050:09:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:kutani red:14610
+U:0050:10:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:scotia white:14310
+U:0050:11:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:grace silver:13810
+U:0050:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:14840
+U:0050:13:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:galaxy white:21120
+U:0050:14:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:21140
+U:0050:15:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:dandelion yellow:23760
+U:0060:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:grace silver:7210
+U:0060:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:loire green:9090
+U:0060:03:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:pyrenees black:10290
+U:0060:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:steel silver:12590
+U:0060:05:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:pyrenees black:11540
+U:0060:06:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:scotia white:13240
+U:0060:07:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:11920
+U:0060:08:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:steel silver:12810
+U:0060:09:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:kutani red:14760
+U:0060:10:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:toscana black:16650
+U:0060:11:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:grace silver:13970
+U:0060:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:kutani red:16050
+U:0060:13:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:17750
+U:0060:14:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:15460
+U:0060:15:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:16370
+U:0060:16:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:fiji blue:19310
+U:0060:17:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:21160
+U:0060:18:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:galaxy white:25690
+U:0060:19:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:symphonic silver:26820
+U:0060:20:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:passion red:28060
+U:0060:21:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:symphonic silver:30210
+U:0070:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:9480
+U:0070:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:pyrenees black:9430
+U:0070:03:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:corse gray:9800
+U:0070:04:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:pyrenees black:12480
+U:0070:05:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:13260
+U:0070:06:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:grace silver:14280
+U:0070:07:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:14760
+U:0070:08:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:18710
+U:0070:09:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:19140
+U:0070:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:galaxy white:20400
+U:0070:11:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:mariana blue:19170
+U:0070:12:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:21900
+U:0070:13:Mitsubishi:GTO '95 Twin Turbo:4WD,6,311,930,3769,3203,2713,.083,.290,.343,Great:passion red:22270
+U:0070:14:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:queens silver:24980
+U:0070:15:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:symphonic silver:29470
+U:0080:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:twilight blue:8750
+U:0080:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:pyrenees black:10060
+U:0080:03:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:imperial red:13040
+U:0080:04:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:moon light blue:13500
+U:0080:05:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:moon light blue:14020
+U:0080:06:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:kutani red:13850
+U:0080:07:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:15620
+U:0080:08:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:15500
+U:0080:09:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:symphonic silver:20440
+U:0080:10:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:fiji blue:21800
+U:0080:11:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:monaco silver:23880
+U:0080:12:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:passion red:27900
+U:0090:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:9490
+U:0090:02:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:imperial red:10990
+U:0090:03:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:steel silver:11820
+U:0090:04:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:passion red:11530
+U:0090:05:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:imperial red:12250
+U:0090:06:Mitsubishi:FTO '94 GR:FF,5,161,328,2535,1977,1697,.064,.166,.193,Fair:scotia white:12330
+U:0090:07:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:13510
+U:0090:08:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:fiji blue:15370
+U:0090:09:Mitsubishi:FTO '94 GPX:FF,5,189,364,2579,2010,1726,.073,.181,.211,Fair:scotia white:14100
+U:0090:10:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:toscana black:15530
+U:0090:11:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:17590
+U:0090:12:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:grace silver:17700
+U:0090:13:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:toscana black:17960
+U:0090:14:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:dandelion yellow:23830
+U:0090:15:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:mariana blue:29320
+U:0090:16:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:symphonic silver:28960
+U:0100:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:grace silver:8590
+U:0100:02:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:scotia white:9180
+U:0100:03:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:kutani red:14000
+U:0100:04:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:passion red:14040
+U:0100:05:Mitsubishi:GTO '92 Twin Turbo:4WD,5,310,928,3769,3203,2713,.082,.290,.342,Great:fiji blue:19970
+U:0100:06:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:scotia white:20330
+U:0100:07:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:queens silver:21280
+U:0100:08:Mitsubishi:Lancer EvolutionIII GSR:4WD,5,259,477,2777,2361,1999,.093,.202,.239,Good:pyrenees black:23210
+U:0100:09:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:passion red:27610
+U:0100:10:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:symphonic silver:27910
+U:0130:03:Mitsubishi:GTO '92:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:galaxy white:13870
+U:0190:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:champagnish yellow:8440
+U:0190:16:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:galaxy white:29800
+U:0200:18:Mitsubishi:GTO '95 SR:4WD,5,214,381,3637,2837,2436,.059,.134,.156,Fair:passion red:20250
+U:0200:23:Mitsubishi:GTO '95 MR:4WD,6,311,930,3703,3148,2665,.084,.295,.349,Great:pyrenees black:28000
+U:0290:01:Mitsubishi:Mirage '92 Cyborg R:FF,5,167,265,2292,1787,1534,.073,.148,.173,Poor:sainto amour green:8850
+N:0000:00:Nissan:180SX Type S:FR,5,133,318,2645,2063,1772,.050,.154,.179,Fair:white:19400
+N:0000:00:Nissan:180SX Type S:FR,5,133,318,2645,2063,1772,.050,.154,.179,Fair:spark silver metallic:19400
+N:0000:00:Nissan:180SX Type S:FR,5,133,318,2645,2063,1772,.050,.154,.179,Fair:super black:19400
+N:0000:00:Nissan:180SX Type S:FR,5,133,318,2645,2063,1772,.050,.154,.179,Fair:super red:19400
+N:0000:00:Nissan:180SX Type S:FR,5,133,318,2645,2063,1772,.050,.154,.179,Fair:midnight purple pearl:19400
+N:0000:00:Nissan:180SX Type X:FR,5,198,479,2689,2286,1935,.074,.210,.248,Fair:white:24980
+N:0000:00:Nissan:180SX Type X:FR,5,198,479,2689,2286,1935,.074,.210,.248,Fair:spark silver metallic:24980
+N:0000:00:Nissan:180SX Type X:FR,5,198,479,2689,2286,1935,.074,.210,.248,Fair:super black:24980
+N:0000:00:Nissan:180SX Type X:FR,5,198,479,2689,2286,1935,.074,.210,.248,Fair:super red:24980
+N:0000:00:Nissan:180SX Type X:FR,5,198,479,2689,2286,1935,.074,.210,.248,Fair:midnight purple pearl:24980
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:white pearl:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:silver metallic:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:black:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:red:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:green pearl:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:dark blue graphite pearl:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2by2:FR,5,272,670,3461,2940,2491,.079,.228,.269,Fair:midnight purple pearl:42300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:white pearl:39300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:silver metallic:39300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:black:39300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:red:39300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:green pearl:39300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:dark blue graphite pearl:39300
+N:0000:00:Nissan:Fairlady Z TwinTurbo 2seater:FR,5,272,670,3373,2865,2427,.081,.234,.276,Fair:midnight purple pearl:39300
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:white pearl:32500
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:silver metallic:32500
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:black:32500
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:red:32500
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:green pearl:32500
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:dark blue graphite pearl:32500
+N:0000:00:Nissan:Fairlady Z Version S 2by2:FR,5,225,314,3240,2526,2169,.069,.124,.145,Poor:midnight purple pearl:32500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:white pearl:30500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:silver metallic:30500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:black:30500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:red:30500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:green pearl:30500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:dark blue graphite pearl:30500
+N:0000:00:Nissan:Fairlady Z Version S 2seater:FR,5,225,314,3152,2458,2112,.071,.128,.149,Poor:midnight purple pearl:30500
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:white:24020
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:silver metallic:24020
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:gray metallic:24020
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:super black:24020
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:wine red pearl metallic:24020
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:green pearl:24020
+N:0000:00:Nissan:Primera 2.0Te:FF,5,142,321,2601,2028,1741,.055,.158,.184,Fair:dark blue:24020
+N:0000:00:Nissan:R33 Skyline GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:white:48850
+N:0000:00:Nissan:R33 Skyline GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:sonic silver metallic:48850
+N:0000:00:Nissan:R33 Skyline GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:dark gray pearl:48850
+N:0000:00:Nissan:R33 Skyline GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:black:48850
+N:0000:00:Nissan:R33 Skyline GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:super clear red ii:48850
+N:0000:00:Nissan:R33 Skyline GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:deep marine blue pearl:48850
+N:0000:00:Nissan:R33 Skyline GT-R Vspec:4WD,5,310,941,3395,2885,2442,.091,.326,.385,Great:white:53900
+N:0000:00:Nissan:R33 Skyline GT-R Vspec:4WD,5,310,941,3395,2885,2442,.091,.326,.385,Great:sonic silver metallic:53900
+N:0000:00:Nissan:R33 Skyline GT-R Vspec:4WD,5,310,941,3395,2885,2442,.091,.326,.385,Great:dark gray pearl:53900
+N:0000:00:Nissan:R33 Skyline GT-R Vspec:4WD,5,310,941,3395,2885,2442,.091,.326,.385,Great:black:53900
+N:0000:00:Nissan:R33 Skyline GT-R Vspec:4WD,5,310,941,3395,2885,2442,.091,.326,.385,Great:super clear red ii:53900
+N:0000:00:Nissan:R33 Skyline GT-R Vspec:4WD,5,310,941,3395,2885,2442,.091,.326,.385,Great:deep marine blue pearl:53900
+N:0000:00:Nissan:R33 Skyline GTS25t Type M:FR,5,237,483,2998,2548,2158,.079,.190,.224,Fair:white:28180
+N:0000:00:Nissan:R33 Skyline GTS25t Type M:FR,5,237,483,2998,2548,2158,.079,.190,.224,Fair:sonic silver metallic:28180
+N:0000:00:Nissan:R33 Skyline GTS25t Type M:FR,5,237,483,2998,2548,2158,.079,.190,.224,Fair:dark gray pearl:28180
+N:0000:00:Nissan:R33 Skyline GTS25t Type M:FR,5,237,483,2998,2548,2158,.079,.190,.224,Fair:black:28180
+N:0000:00:Nissan:R33 Skyline GTS25t Type M:FR,5,237,483,2998,2548,2158,.079,.190,.224,Fair:super clear red ii:28180
+N:0000:00:Nissan:R33 Skyline GTS25t Type M:FR,5,237,483,2998,2548,2158,.079,.190,.224,Fair:deep marine blue pearl:28180
+N:0000:00:Nissan:S14 Silvia K's:FR,5,208,480,2755,2341,1984,.075,.205,.242,Fair:pearl white:23950
+N:0000:00:Nissan:S14 Silvia K's:FR,5,208,480,2755,2341,1984,.075,.205,.242,Fair:clear silver:23950
+N:0000:00:Nissan:S14 Silvia K's:FR,5,208,480,2755,2341,1984,.075,.205,.242,Fair:super black:23950
+N:0000:00:Nissan:S14 Silvia K's:FR,5,208,480,2755,2341,1984,.075,.205,.242,Fair:super red:23950
+N:0000:00:Nissan:S14 Silvia K's:FR,5,208,480,2755,2341,1984,.075,.205,.242,Fair:green pearl:23950
+N:0000:00:Nissan:S14 Silvia K's:FR,5,208,480,2755,2341,1984,.075,.205,.242,Fair:deep marine blue:23950
+N:0000:00:Nissan:S14 Silvia Q's:FR,5,152,321,2623,2045,1757,.058,.157,.183,Poor:pearl white:17950
+N:0000:00:Nissan:S14 Silvia Q's:FR,5,152,321,2623,2045,1757,.058,.157,.183,Poor:clear silver:17950
+N:0000:00:Nissan:S14 Silvia Q's:FR,5,152,321,2623,2045,1757,.058,.157,.183,Poor:super black:17950
+N:0000:00:Nissan:S14 Silvia Q's:FR,5,152,321,2623,2045,1757,.058,.157,.183,Poor:super red:17950
+N:0000:00:Nissan:S14 Silvia Q's:FR,5,152,321,2623,2045,1757,.058,.157,.183,Poor:green pearl:17950
+N:0000:00:Nissan:S14 Silvia Q's:FR,5,152,321,2623,2045,1757,.058,.157,.183,Poor:deep marine blue:17950
+P:0000:00:Nissan:*S13 Silvia Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:yellow:0
+P:0000:00:Nissan:*S13 Silvia Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:brown:0
+P:0000:00:Nissan:*S13 Silvia Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:blue-green:0
+P:0000:00:Nissan:*Sil Eighty:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:yellow:0
+P:0000:00:Nissan:*Sil Eighty:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:blue:0
+P:0000:00:Nissan:*Sil Eighty:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:purple:0
+P:0000:00:Nissan:*R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:red:0
+P:0000:00:Nissan:*R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:yellow:0
+P:0000:00:Nissan:*R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:blue:0
+P:0000:00:Nissan:*Nismo GT-R LM:FR,5,311,860,3483,2960,2506,.089,.291,.343,Good:silver:0
+P:0000:00:Nissan:*Nismo 400R:4WD,5,411,860,3417,2903,2460,.120,.296,.350,Great:silver:0
+P:0000:00:Nissan:*Nismo 400R:4WD,5,411,860,3417,2903,2460,.120,.296,.350,Great:gray:0
+P:0000:00:Nissan:*Nismo 400R:4WD,5,411,860,3417,2903,2460,.120,.296,.350,Great:red:0
+P:0000:00:Nissan:*Nismo 400R:4WD,5,411,860,3417,2903,2460,.120,.296,.350,Great:yellow:0
+S:0000:00:Nissan:[R]Nismo GT-R LM:FR,6,-,653,-,-,2513,-,-,.260,Great:white and pink:500000
+S:0000:00:Nissan:[R]Nismo GT-R LM:FR,6,-,653,-,-,2513,-,-,.260,Great:white and blue:500000
+P:0000:00:Nissan:*[R]S14 Silvia LM Edition:FR,6,-,536,-,-,2116,-,-,.253,Great:red:0
+P:0000:00:Nissan:*[R]S14 Silvia LM Edition:FR,6,-,536,-,-,2116,-,-,.253,Great:ectoplasm green:0
+U:0001:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:bluish silver 2tone:4260
+U:0001:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:super black:5050
+U:0001:03:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super black:5500
+U:0001:04:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:velvet blue:6760
+U:0001:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:lime green 2tone:7160
+U:0001:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:lime green 2tone:7360
+U:0001:07:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark gray pearl metallic:6620
+U:0001:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark gray:7820
+U:0001:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark green:7170
+U:0001:10:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:citrus yellow 2tone:8970
+U:0001:11:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:silver metallic:7620
+U:0001:12:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark green pearl:8670
+U:0001:13:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:gun gray metallic:9840
+U:0001:14:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:citrus yellow 2tone:11610
+U:0001:15:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:purplish silver 2tone:10830
+U:0001:16:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:dark blue pearl:11650
+U:0001:17:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:10990
+U:0001:18:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:grayish blue pearl:13670
+U:0001:19:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:11720
+U:0001:20:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:spark silver metallic:13910
+U:0001:21:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:12660
+U:0001:22:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super clear red:16730
+U:0001:23:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:pearl white:17660
+U:0001:24:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:24310
+U:0001:25:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:black pearl metallic:24590
+U:0001:26:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:dark blue pearl:26590
+U:0001:27:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:black:34530
+U:0001:28:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:dark gray pearl:34250
+U:0001:29:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:sonic silver metallic:38640
+U:0001:30:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:white:39050
+U:0001:31:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:crystal white:47540
+U:0010:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:lime green 2tone:3450
+U:0010:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:bluish silver 2tone:4670
+U:0010:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:warm white 2tone:4680
+U:0010:04:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super black:5010
+U:0010:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:lime green 2tone:6500
+U:0010:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:pearl white:7850
+U:0010:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super black:7130
+U:0010:08:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:dark blue pearl:11460
+U:0010:09:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:active red:10500
+U:0010:10:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:blue gray graphite pearl:10100
+U:0010:11:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:greenish blue:12370
+U:0010:12:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:12870
+U:0010:13:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:pearl white:11640
+U:0010:14:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:grayish blue pearl:11430
+U:0010:15:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:10500
+U:0010:16:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:spark silver metallic:14380
+U:0010:17:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:16390
+U:0010:18:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:red pearl metallic:23470
+U:0010:19:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:gun gray metallic:29920
+U:0010:20:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:grayish blue pearl:27390
+U:0010:21:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:super clear red:34210
+U:0010:22:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:crystal white:39590
+U:0010:23:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:red pearl:40330
+U:0010:24:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:dark blue pearl:39680
+U:0020:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:dark green:4520
+U:0020:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:warm white 2tone:4580
+U:0020:03:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:lime green 2tone:6080
+U:0020:04:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super red:6910
+U:0020:05:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:raspberry red pearl:6630
+U:0020:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:lime green 2tone:6780
+U:0020:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark green:7250
+U:0020:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:pearl white:8460
+U:0020:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super black:8580
+U:0020:10:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:super black:7870
+U:0020:11:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:grayish blue pearl:8160
+U:0020:12:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:red pearl:8080
+U:0020:13:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:active red:10060
+U:0020:14:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:11840
+U:0020:15:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:grayish blue pearl:14180
+U:0020:16:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:gun gray metallic:14530
+U:0020:17:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:13730
+U:0020:18:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:grayish blue pearl:15920
+U:0020:19:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:purplish gray:14040
+U:0020:20:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:11590
+U:0020:21:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:white:13470
+U:0020:22:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super clear red:17860
+U:0020:23:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:28590
+U:0020:24:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:red pearl:32460
+U:0020:25:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:32320
+U:0020:26:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:white:33930
+U:0020:27:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:crystal white:38090
+U:0030:01:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super red:6040
+U:0030:02:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark blue:6530
+U:0030:03:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:purplish silver 2tone:6890
+U:0030:04:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark gray pearl metallic:8020
+U:0030:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:warm white 2tone:7540
+U:0030:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark green:7380
+U:0030:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:pearl white:7320
+U:0030:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super red:7600
+U:0030:09:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:super clear red:9150
+U:0030:10:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:spark silver metallic:10770
+U:0030:11:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:black pearl metallic:10840
+U:0030:12:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:dark blue pearl:9310
+U:0030:13:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:citrus yellow 2tone:10890
+U:0030:14:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:super black:9560
+U:0030:15:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:marble white:10020
+U:0030:16:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:warm white 2tone:9730
+U:0030:17:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:dark blue pearl:12060
+U:0030:18:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:super black:13670
+U:0030:19:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:13180
+U:0030:20:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:gun gray metallic:12790
+U:0030:21:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:red pearl:14240
+U:0030:22:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:deep marine blue:14620
+U:0030:23:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:15160
+U:0030:24:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:dark blue pearl:30670
+U:0030:25:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:red pearl:35270
+U:0030:26:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:dark gray pearl:35260
+U:0030:27:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:sonic silver metallic:38870
+U:0030:28:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:crystal white:42740
+U:0040:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:lime green 2tone:4460
+U:0040:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:velvet blue:3780
+U:0040:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:bluish silver 2tone:4890
+U:0040:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:super black:4570
+U:0040:05:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:warm white 2tone:4930
+U:0040:06:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super black:6100
+U:0040:07:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:raspberry red pearl:6330
+U:0040:08:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark gray pearl metallic:6350
+U:0040:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark green:8140
+U:0040:10:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super black:7710
+U:0040:11:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:silver metallic:8520
+U:0040:12:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark green pearl:8760
+U:0040:13:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:dark blue pearl:9320
+U:0040:14:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:black pearl metallic:9660
+U:0040:15:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:dark blue pearl:9810
+U:0040:16:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:active red:10560
+U:0040:17:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:velvet blue:10260
+U:0040:18:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:marble white:13500
+U:0040:19:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:super black:10820
+U:0040:20:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:super black:11440
+U:0040:21:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:red pearl:15110
+U:0040:22:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:13860
+U:0040:23:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:pearl white:13400
+U:0040:24:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:13830
+U:0040:25:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:purplish blue:13290
+U:0040:26:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:black pearl metallic:11510
+U:0040:27:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:13510
+U:0040:28:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:super red:14130
+U:0040:29:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:greenish blue:17020
+U:0040:30:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:black pearl metallic:21680
+U:0040:31:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:red pearl metallic:20800
+U:0040:32:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:gun gray metallic:26260
+U:0040:33:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:32870
+U:0040:34:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:super clear red:34120
+U:0040:35:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:red pearl:35610
+U:0040:36:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:deep marine blue pearl:36890
+U:0040:37:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:black pearl metallic:40310
+U:0050:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:velvet blue:4770
+U:0050:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:bluish silver 2tone:3790
+U:0050:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:warm white 2tone:5150
+U:0050:04:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super black:5540
+U:0050:05:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:lime green 2tone:6790
+U:0050:06:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark gray pearl metallic:7090
+U:0050:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:velvet blue:7040
+U:0050:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:warm white 2tone:7660
+U:0050:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:yellowish silver 2tone:7500
+U:0050:10:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:warm white 2tone:7990
+U:0050:11:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark green:6870
+U:0050:12:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super red:8580
+U:0050:13:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:pearl white:6820
+U:0050:14:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super black:6900
+U:0050:15:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:grayish blue pearl:9250
+U:0050:16:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:super clear red:9800
+U:0050:17:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:active red:11660
+U:0050:18:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:warm white 2tone:12740
+U:0050:19:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:pearl white:10570
+U:0050:20:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:13510
+U:0050:21:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:crystal white:12130
+U:0050:22:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:black pearl metallic:15300
+U:0050:23:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:deep marine blue:11990
+U:0050:24:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:purplish gray:11920
+U:0050:25:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:white:16920
+U:0050:26:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super black:13860
+U:0050:27:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:23460
+U:0050:28:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:grayish blue pearl:27970
+U:0050:29:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:32450
+U:0050:30:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:crystal white:33200
+U:0050:31:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:midnight purple pearl:35700
+U:0050:32:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:deep marine blue pearl:38690
+U:0050:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:white:39610
+U:0060:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:lime green 2tone:3450
+U:0060:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:cranberry red:4630
+U:0060:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:super black:4830
+U:0060:04:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:velvet blue:7620
+U:0060:05:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:yellowish silver 2tone:8140
+U:0060:06:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:warm white 2tone:8800
+U:0060:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:pearl white:7870
+U:0060:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super black:7510
+U:0060:09:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:grayish blue pearl:9910
+U:0060:10:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:red pearl:7860
+U:0060:11:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:spark silver metallic:10730
+U:0060:12:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:purplish silver 2tone:11500
+U:0060:13:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:dark blue pearl:9670
+U:0060:14:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:15250
+U:0060:15:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:crystal white:14260
+U:0060:16:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:purplish blue:13830
+U:0060:17:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:black pearl metallic:15650
+U:0060:18:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:12570
+U:0060:19:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:white pearl:14430
+U:0060:20:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super black:18410
+U:0060:21:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:black pearl metallic:25730
+U:0060:22:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:gun gray metallic:27530
+U:0060:23:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:31460
+U:0060:24:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:crystal white:28540
+U:0060:25:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:gun gray metallic:35770
+U:0060:26:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:dark gray pearl:34770
+U:0060:27:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:dark blue pearl:37960
+U:0060:28:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:midnight purple pearl:35790
+U:0060:29:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:dark gray pearl:38380
+U:0060:30:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:white:39700
+U:0070:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:super red:4990
+U:0070:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:super black:4830
+U:0070:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:dark green:5220
+U:0070:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:warm white 2tone:4530
+U:0070:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:velvet blue:6830
+U:0070:06:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:cranberry red:7260
+U:0070:07:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super red:7790
+U:0070:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:yellowish silver 2tone:7600
+U:0070:09:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:warm white 2tone:8480
+U:0070:10:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:silver metallic:7270
+U:0070:11:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark green pearl:8810
+U:0070:12:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:greenish blue:12210
+U:0070:13:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:dark gray:10940
+U:0070:14:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:super black:13870
+U:0070:15:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:pearl white:11590
+U:0070:16:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:red pearl:11620
+U:0070:17:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:12980
+U:0070:18:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:grayish blue pearl:10810
+U:0070:19:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:15050
+U:0070:20:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:spark silver metallic:10740
+U:0070:21:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:black pearl metallic:11630
+U:0070:22:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:white:15010
+U:0070:23:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:white pearl:12940
+U:0070:24:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super black:14370
+U:0070:25:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:pearl white:19750
+U:0070:26:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:26080
+U:0070:27:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:gun gray metallic:25670
+U:0070:28:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:30690
+U:0070:29:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:crystal white:29200
+U:0070:30:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:dark gray pearl:34600
+U:0070:31:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:deep marine blue pearl:40060
+U:0070:32:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:red pearl:42660
+U:0080:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:lime green 2tone:3720
+U:0080:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:velvet blue:4400
+U:0080:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:dark green:5040
+U:0080:04:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super black:6180
+U:0080:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:velvet blue:5420
+U:0080:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:lime green 2tone:7300
+U:0080:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:warm white 2tone:7200
+U:0080:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:pearl white:8260
+U:0080:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:super black:8570
+U:0080:10:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:silver metallic:7610
+U:0080:11:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:crystal white:10700
+U:0080:12:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:black pearl metallic:11290
+U:0080:13:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:dark blue pearl:10480
+U:0080:14:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:bluish sliver:11650
+U:0080:15:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:14400
+U:0080:16:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:gun gray metallic:14590
+U:0080:17:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:pearl white:11210
+U:0080:18:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:spark silver metallic:14460
+U:0080:19:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:crystal white:13300
+U:0080:20:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:black pearl metallic:11020
+U:0080:21:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:crystal white:11960
+U:0080:22:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:white:12750
+U:0080:23:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:super red:14810
+U:0080:24:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super black:17810
+U:0080:25:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:jet silver metallic:20960
+U:0080:26:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:27310
+U:0080:27:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:gun gray metallic:25640
+U:0080:28:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:grayish blue pearl:27410
+U:0080:29:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:28360
+U:0080:30:Nissan:R32 Skyline GT-R Nismo:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:gun gray metallic:34930
+U:0080:31:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:deep marine blue pearl:39130
+U:0080:32:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:sonic silver metallic:36660
+U:0080:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:white:40240
+U:0090:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:lime green 2tone:4060
+U:0090:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:velvet blue:4260
+U:0090:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:dark green:4700
+U:0090:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:super black:5320
+U:0090:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super red:6520
+U:0090:06:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:dark blue:8010
+U:0090:07:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:bluish silver 2tone:6780
+U:0090:08:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:warm white 2tone:7450
+U:0090:09:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:silver metallic:9520
+U:0090:10:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:spark silver metallic:11860
+U:0090:11:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:gun gray metallic:10600
+U:0090:12:Nissan:R32 Skyline GTS25 Type S:FR,5,181,336,2777,2164,1860,.065,.155,.181,Fair:black pearl metallic:9960
+U:0090:13:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:velvet blue:10390
+U:0090:14:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:yellowish silver 2tone:10170
+U:0090:15:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:dark blue pearl:12640
+U:0090:16:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:bluish sliver:13080
+U:0090:17:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:pearl white:14020
+U:0090:18:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:red pearl:12440
+U:0090:19:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:super black:12360
+U:0090:20:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:gun gray metallic:14290
+U:0090:21:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:black pearl metallic:11010
+U:0090:22:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:spark silver metallic:12750
+U:0090:23:Nissan:S14 Silvia '95 Q's:FR,5,154,321,2601,2028,1741,.059,.158,.184,Poor:purplish blue:12600
+U:0090:24:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:black pearl metallic:13440
+U:0090:25:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:white pearl:13750
+U:0090:26:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:22590
+U:0090:27:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:red pearl:31990
+U:0090:28:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:spark silver metallic:29840
+U:0090:29:Nissan:R32 Skyline GT-R Nismo:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:gun gray metallic:35390
+U:0090:30:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:dark gray pearl:34420
+U:0090:31:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:gun gray metallic:39650
+U:0090:32:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:black pearl metallic:43030
+U:0090:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:white:39310
+U:0100:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:lime green 2tone:4260
+U:0100:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:velvet blue:3730
+U:0100:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:bluish silver 2tone:4660
+U:0100:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,5,129,237,2403,1873,1609,.054,.127,.147,Poor:warm white 2tone:5160
+U:0100:05:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:super red:7070
+U:0100:06:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:raspberry red pearl:7380
+U:0100:07:Nissan:S13 Silvia '88 K's 1800cc:FR,5,168,492,2469,2098,1776,.068,.235,.277,Fair:dark green:7890
+U:0100:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,5,133,318,2447,1906,1638,.054,.167,.194,Fair:dark green:8700
+U:0100:09:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:super black:7100
+U:0100:10:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:crystal white:10740
+U:0100:11:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:super red:10780
+U:0100:12:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:dark blue pearl:9660
+U:0100:13:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:super black:11750
+U:0100:14:Nissan:Pulsar '91 GTi-R:4WD,5,222,381,2689,2286,1935,.083,.167,.197,Fair:marble white:12650
+U:0100:15:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:dark gray:12860
+U:0100:16:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:super black:11770
+U:0100:17:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:red pearl:10190
+U:0100:18:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:grayish blue pearl:12710
+U:0100:19:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:gun gray metallic:12640
+U:0100:20:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:pearl white:11320
+U:0100:21:Nissan:R32 Skyline GTS-t Type M:FR,5,208,323,2777,2361,1999,.075,.137,.162,Fair:spark silver metallic:11760
+U:0100:22:Nissan:R32 Skyline GTS-4:4WD,5,208,333,3130,2660,2253,.066,.125,.148,Poor:red pearl:12280
+U:0100:23:Nissan:180SX '94 Type X:FR,5,192,479,2667,2266,1920,.072,.211,.249,Fair:white:14220
+U:0100:24:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:super black:14610
+U:0100:25:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:red pearl metallic:23070
+U:0100:26:Nissan:R32 Skyline '89 GT-R:4WD,5,303,913,3152,2678,2268,.096,.341,.403,Great:gun gray metallic:28310
+U:0100:27:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:dark blue pearl:25380
+U:0100:28:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:grayish blue pearl:28260
+U:0100:29:Nissan:R32 Skyline '91 GT-R:4WD,5,303,913,3262,2773,2347,.093,.329,.389,Great:crystal white:35910
+U:0100:30:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:black:33970
+U:0100:31:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:midnight purple pearl:38000
+U:0100:32:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:super clear red:40850
+U:0110:12:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:dark green:10740
+U:0120:24:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:purplish blue:15850
+U:0120:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:midnight purple pearl:38100
+U:0120:35:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:deep marine blue pearl:41130
+U:0120:39:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:spark silver metallic:46520
+U:0130:10:Nissan:S13 Silvia '91 K's 2000cc:FR,5,198,479,2579,2191,1856,.077,.219,.258,Fair:lime green 2tone:10650
+U:0130:24:Nissan:R33 Skyline '95 GT-R:4WD,5,310,937,3373,2865,2427,.092,.327,.386,Great:sonic silver metallic:37100
+U:0140:09:Nissan:Primera '90 2.0Te:FF,5,142,324,2667,2078,1785,.053,.156,.182,Poor:white:8020
+U:0140:21:Nissan:S14 Silvia '95 K's:FR,5,208,480,2733,2323,1966,.076,.207,.244,Fair:bluish sliver:16310
+U:0140:30:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:black pearl metallic:37440
+U:0160:20:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:grayish blue pearl:35310
+U:0160:24:Nissan:R33 Skyline '95 GT-R Vspec:4WD,5,310,937,3395,2885,2442,.091,.325,.384,Great:black:38070
+U:0200:30:Nissan:R32 Skyline GT-R Vspec:4WD,5,303,913,3306,2810,2380,.092,.325,.384,Great:spark silver metallic:38830
+U:0310:37:Nissan:R32 Skyline GT-R Vspec II:4WD,5,303,854,3306,2810,2380,.092,.304,.359,Great:grayish blue pearl:43470
+N:0000:00:Subaru:Impreza '96 Sedan WRX:4WD,5,268,494,2755,2341,1984,.097,.211,.249,-:feather white:25550
+N:0000:00:Subaru:Impreza '96 Sedan WRX:4WD,5,268,494,2755,2341,1984,.097,.211,.249,-:light silver metallic:25550
+N:0000:00:Subaru:Impreza '96 Sedan WRX:4WD,5,268,494,2755,2341,1984,.097,.211,.249,-:black mica:25550
+N:0000:00:Subaru:Impreza '96 Sedan WRX:4WD,5,268,494,2755,2341,1984,.097,.211,.249,-:active red:25550
+N:0000:00:Subaru:Impreza '96 Sedan WRX:4WD,5,268,494,2755,2341,1984,.097,.211,.249,-:royal blue mica:25550
+N:0000:00:Subaru:Impreza '96 Sedan WRX-STi ver.III:4WD,5,270,494,2755,2341,1984,.098,.211,.249,-:feather white:28850
+N:0000:00:Subaru:Impreza '96 Sedan WRX-STi ver.III:4WD,5,270,494,2755,2341,1984,.098,.211,.249,-:light silver metallic:28850
+N:0000:00:Subaru:Impreza '96 Sedan WRX-STi ver.III:4WD,5,270,494,2755,2341,1984,.098,.211,.249,-:black mica:28850
+N:0000:00:Subaru:Impreza '96 Sedan WRX-STi ver.III:4WD,5,270,494,2755,2341,1984,.098,.211,.249,-:sports blue:28850
+N:0000:00:Subaru:Impreza '96 Wagon WRX:4WD,5,236,494,2843,2416,2045,.083,.204,.242,-:light silver metallic:25220
+N:0000:00:Subaru:Impreza '96 Wagon WRX:4WD,5,236,494,2843,2416,2045,.083,.204,.242,-:black mica:25220
+N:0000:00:Subaru:Impreza '96 Wagon WRX:4WD,5,236,494,2843,2416,2045,.083,.204,.242,-:active red:25220
+N:0000:00:Subaru:Impreza '96 Wagon WRX:4WD,5,236,494,2843,2416,2045,.083,.204,.242,-:royal blue mica:25220
+N:0000:00:Subaru:Impreza '96 Wagon WRX-STi ver.III:4WD,5,270,494,2865,2436,2063,.094,.203,.239,-:feather white:28850
+N:0000:00:Subaru:Impreza '96 Wagon WRX-STi ver.III:4WD,5,270,494,2865,2436,2063,.094,.203,.239,-:light silver metallic:28850
+N:0000:00:Subaru:Impreza '96 Wagon WRX-STi ver.III:4WD,5,270,494,2865,2436,2063,.094,.203,.239,-:black mica:28850
+N:0000:00:Subaru:Impreza '96 Wagon WRX-STi ver.III:4WD,5,270,494,2865,2436,2063,.094,.203,.239,-:sports blue:28850
+N:0000:00:Subaru:Impreza '96 Wagon WRX-STi ver.III:4WD,5,270,494,2865,2436,2063,.094,.203,.239,-:royal blue mica:28850
+N:0000:00:Subaru:Impreza WRX-STi Type R:4WD,5,270,494,2733,2323,1966,.099,.213,.251,-:feather white:30000
+N:0000:00:Subaru:Impreza WRX-STi Type R:4WD,5,270,494,2733,2323,1966,.099,.213,.251,-:chase yellow:30000
+N:0000:00:Subaru:Impreza WRX-STi Type R:4WD,5,270,494,2733,2323,1966,.099,.213,.251,-:sonic blue mica:30000
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:pure white:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:light silver metallic:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:gray opal:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:black mica:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:deep red mica:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:cashmere yellow:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:vintage green mica:27330
+N:0000:00:Subaru:Legacy Touring Sedan RS:4WD,5,270,492,3042,2585,2189,.089,.190,.225,-:royal blue mica:27330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:pure white:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:light silver metallic:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:gray opal:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:black mica:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:deep red mica:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:cashmere yellow:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:vintage green mica:29330
+N:0000:00:Subaru:Legacy Touring Wagon GT-B:4WD,5,270,492,3152,2678,2268,.086,.184,.217,-:royal blue mica:29330
+P:0000:00:Subaru:*Alcyone SVX S4:4WD,5,227,447,3505,2733,2347,.065,.164,.190,-:blue:0
+P:0000:00:Subaru:*Alcyone SVX S4:4WD,5,227,447,3505,2733,2347,.065,.164,.190,-:white:0
+P:0000:00:Subaru:*Alcyone SVX S4:4WD,5,227,447,3505,2733,2347,.065,.164,.190,-:purple:0
+P:0000:00:Subaru:*Impreza Sedan WRX-STi ver.III:4WD,5,270,494,2689,2286,1935,.100,.216,.255,-:yellow:0
+P:0000:00:Subaru:*Impreza Sedan WRX-STi ver.III:4WD,5,270,494,2689,2286,1935,.100,.216,.255,-:orange:0
+P:0000:00:Subaru:*Impreza Sedan WRX-STi ver.III:4WD,5,270,494,2689,2286,1935,.100,.216,.255,-:blue:0
+S:0000:00:Subaru:[R]Impreza Rally Edition:4WD,6,-,575,-,-,2160,-,-,.266,-:blue:500000
+S:0000:00:Subaru:[R]Impreza Rally Edition:4WD,6,-,575,-,-,2160,-,-,.266,-:black:500000
+U:0001:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:feather white:13940
+U:0001:02:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:13820
+U:0001:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:14440
+U:0001:04:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:cosmic blue mica:15490
+U:0001:05:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:light silver metallic:14630
+U:0001:06:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:black mica:15190
+U:0001:07:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:14640
+U:0001:08:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:cosmic blue mica:14320
+U:0001:09:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:18580
+U:0001:10:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:white mica:17550
+U:0001:11:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:red mica:22460
+U:0010:01:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:17230
+U:0010:02:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:13760
+U:0010:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:cosmic blue mica:16460
+U:0010:04:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:18780
+U:0010:05:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:15600
+U:0010:06:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:light silver metallic:22590
+U:0020:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:cosmic blue mica:13290
+U:0020:02:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:feather white:14460
+U:0020:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:13710
+U:0020:04:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:14980
+U:0020:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:14290
+U:0020:06:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:cosmic blue mica:14360
+U:0020:07:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:black mica:18570
+U:0020:08:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:15310
+U:0020:09:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:17930
+U:0020:10:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,5,266,506,2733,2323,1966,.097,.218,.257,-:light silver metallic:18390
+U:0030:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:light silver metallic:13250
+U:0030:02:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:active red:14920
+U:0030:03:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:13860
+U:0030:04:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:16600
+U:0030:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:15130
+U:0030:06:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:cosmic blue mica:15550
+U:0030:07:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:black mica:15790
+U:0030:08:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:15520
+U:0030:09:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:feather white:22220
+U:0030:10:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:light silver metallic:21710
+U:0030:11:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:red mica:22470
+U:0040:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:black mica:13030
+U:0040:02:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:14540
+U:0040:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:17640
+U:0040:04:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:black mica:17600
+U:0040:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:15960
+U:0040:06:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:17850
+U:0040:07:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,5,266,506,2733,2323,1966,.097,.218,.257,-:feather white:19150
+U:0040:08:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:feather white:21840
+U:0040:09:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:light silver metallic:21860
+U:0040:10:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:red mica:21600
+U:0040:11:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:crimson mica:22410
+U:0050:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:matador red:13440
+U:0050:02:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:17580
+U:0050:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:black mica:16170
+U:0050:04:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:16780
+U:0050:05:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:red mica:21530
+U:0060:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:matador red:13530
+U:0060:02:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:crimson mica:13340
+U:0060:03:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:feather white:13980
+U:0060:04:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:feather white:16240
+U:0060:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:16710
+U:0060:06:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:13710
+U:0060:07:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:15630
+U:0060:08:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:light silver metallic:15840
+U:0060:09:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:18600
+U:0060:10:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:black mica:18490
+U:0060:11:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:red mica:21820
+U:0060:12:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:active red:21980
+U:0070:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:crimson mica:13140
+U:0070:02:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:16070
+U:0070:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:15460
+U:0070:04:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:17520
+U:0070:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:cosmic blue mica:18090
+U:0070:06:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:black mica:15280
+U:0070:07:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:15880
+U:0070:08:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:white mica:17920
+U:0070:09:Subaru:Alcyone SVX S4:4WD,5,227,452,3505,2733,2347,.065,.165,.193,-:light silver metallic:22250
+U:0080:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:active red:13290
+U:0080:02:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:15450
+U:0080:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:14190
+U:0080:04:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:cosmic blue mica:14370
+U:0080:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:black mica:17430
+U:0080:06:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:16390
+U:0080:07:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:17410
+U:0080:08:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:crimson mica:25650
+U:0090:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,5,250,477,2821,2398,2030,.089,.199,.235,-:active red:14020
+U:0090:02:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:crimson mica:16290
+U:0090:03:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:16760
+U:0090:04:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:active red:14470
+U:0090:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:17170
+U:0090:06:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:cosmic blue mica:17140
+U:0090:07:Subaru:Impreza '94 Sedan WRX:4WD,5,211,404,2799,2378,2015,.075,.170,.200,-:light silver metallic:21370
+U:0100:01:Subaru:Legacy '93 Touring Sport RS:4WD,5,239,494,3020,2566,2173,.079,.193,.227,-:cosmic blue mica:13210
+U:0100:02:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:light silver metallic:14290
+U:0100:03:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:active red:17500
+U:0100:04:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:black mica:15810
+U:0100:05:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:forest green mica:15250
+U:0100:06:Subaru:Legacy '93 Touring Wagon GT:4WD,5,239,494,3064,2603,2204,.078,.190,.224,-:black mica:15950
+U:0100:07:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:cosmic blue mica:15830
+U:0100:08:Subaru:Impreza '94 Wagon WRX:4WD,5,250,567,2821,2398,2030,.089,.236,.279,-:light silver metallic:17250
+U:0100:09:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,5,266,506,2733,2323,1966,.097,.218,.257,-:feather white:18530
+U:0100:10:Subaru:Alcyone SVX S4:4WD,5,227,452,3505,2733,2347,.065,.165,.193,-:light silver metallic:22940
+U:0110:09:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:dark gray metallic:21730
+U:0110:10:Subaru:Alcyone SVX S4:4WD,5,227,452,3505,2733,2347,.065,.165,.193,-:bordeaux red mica:23590
+U:0120:07:Subaru:Alcyone SVX Version L:4WD,5,227,452,3571,2784,2391,.064,.162,.189,-:silver metallic--gray metallic 2tone:18730
+U:0170:07:Subaru:Alcyone SVX S4:4WD,5,227,452,3505,2733,2347,.065,.165,.193,-:bright green mica:19140
+U:0210:09:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,5,266,506,2733,2323,1966,.097,.218,.257,-:active red:20390
+N:0000:00:Toyota:Corolla Levin BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:super white ii:16900
+N:0000:00:Toyota:Corolla Levin BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:silver pearl metallic:16900
+N:0000:00:Toyota:Corolla Levin BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:black metallic:16900
+N:0000:00:Toyota:Corolla Levin BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:red mica metallic:16900
+N:0000:00:Toyota:Corolla Levin BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:medium green mica metallic:16900
+N:0000:00:Toyota:Corolla Levin BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:dark blue mica:16900
+N:0000:00:Toyota:Celica GT-Four:4WD,5,245,479,3042,2585,2189,.081,.185,.219,-:super white ii:32660
+N:0000:00:Toyota:Celica GT-Four:4WD,5,245,479,3042,2585,2189,.081,.185,.219,-:silver metallic:32660
+N:0000:00:Toyota:Celica GT-Four:4WD,5,245,479,3042,2585,2189,.081,.185,.219,-:dark bluish gray metallic:32660
+N:0000:00:Toyota:Celica GT-Four:4WD,5,245,479,3042,2585,2189,.081,.185,.219,-:black:32660
+N:0000:00:Toyota:Celica GT-Four:4WD,5,245,479,3042,2585,2189,.081,.185,.219,-:super red iv:32660
+N:0000:00:Toyota:Celica GT-Four:4WD,5,245,479,3042,2585,2189,.081,.185,.219,-:dark green mica:32660
+N:0000:00:Toyota:Celica SS-II:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:super white ii:21360
+N:0000:00:Toyota:Celica SS-II:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:silver metallic:21360
+N:0000:00:Toyota:Celica SS-II:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:dark bluish gray metallic:21360
+N:0000:00:Toyota:Celica SS-II:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:black:21360
+N:0000:00:Toyota:Celica SS-II:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:super red iv:21360
+N:0000:00:Toyota:Celica SS-II:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:dark green mica:21360
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:super white ii:27500
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:silver metallic:27500
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:grayish green mica metallic:27500
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:white pearl mica:27500
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:wine red mica:27500
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:dark green mica p.i.o:27500
+N:0000:00:Toyota:Chaser Tourer S:FR,4,192,285,3086,2407,2067,.062,.118,.138,-:dark blue mica:27500
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:super white ii:32220
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:silver metallic:32220
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:grayish green mica metallic:32220
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:white pearl mica:32220
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:wine red mica:32220
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:dark green mica p.i.o:32220
+N:0000:00:Toyota:Chaser Tourer V:FR,5,286,728,3240,2753,2332,.088,.264,.312,-:dark blue mica:32220
+N:0000:00:Toyota:Corona Exiv 200GT:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:white pearl mica:22290
+N:0000:00:Toyota:Corona Exiv 200GT:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:silver metallic:22290
+N:0000:00:Toyota:Corona Exiv 200GT:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:black:22290
+N:0000:00:Toyota:Corona Exiv 200GT:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:red mica metallic:22290
+N:0000:00:Toyota:Corona Exiv 200GT:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:dark green mica:22290
+N:0000:00:Toyota:Corona Exiv 200GT:FF,5,177,326,2645,2063,1772,.067,.158,.184,-:dark blue mica metallic:22290
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:super white ii:23600
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:sonic shadow toning:23600
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:black:23600
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:super red ii:23600
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:super bright yellow:23600
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:dark green mica:23600
+N:0000:00:Toyota:MR2 G-Limited:MR,5,167,331,2733,2131,1829,.061,.155,.181,-:purplish blue mica metallic:23600
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:super white ii:27130
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:bluish silver toning:27130
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:black:27130
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:super red ii:27130
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:super bright yellow:27130
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:dark green mica:27130
+N:0000:00:Toyota:MR2 GT-S:MR,5,243,477,2821,2398,2030,.086,.199,.235,-:purplish blue mica metallic:27130
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:super white pearl mica:34800
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:bluish silver metallic:34800
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:black:34800
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:super red iv:34800
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:wine red mica:34800
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:dark green mica metallic:34800
+N:0000:00:Toyota:Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:blue mica metallic:34800
+N:0000:00:Toyota:Sprinter Trueno BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:super white ii:16900
+N:0000:00:Toyota:Sprinter Trueno BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:silver pearl metallic:16900
+N:0000:00:Toyota:Sprinter Trueno BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:black metallic:16900
+N:0000:00:Toyota:Sprinter Trueno BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:red mica metallic:16900
+N:0000:00:Toyota:Sprinter Trueno BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:medium green mica metallic:16900
+N:0000:00:Toyota:Sprinter Trueno BZ-G:FF,5,158,237,2270,1770,1521,.070,.134,.156,-:dark blue mica:16900
+N:0000:00:Toyota:Starlet Glanza V:FF,5,131,217,2028,1723,1459,.065,.126,.149,-:super white ii:14300
+N:0000:00:Toyota:Starlet Glanza V:FF,5,131,217,2028,1723,1459,.065,.126,.149,-:bluish silver metallic:14300
+N:0000:00:Toyota:Starlet Glanza V:FF,5,131,217,2028,1723,1459,.065,.126,.149,-:black metallic:14300
+N:0000:00:Toyota:Starlet Glanza V:FF,5,131,217,2028,1723,1459,.065,.126,.149,-:super red ii:14300
+N:0000:00:Toyota:Starlet Glanza V:FF,5,131,217,2028,1723,1459,.065,.126,.149,-:purplish blue mica metallic:14300
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:super white ii:43900
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:silver metallic graphite:43900
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:grayish green mica metallic:43900
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:black:43900
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:super red iv:43900
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:dark green mica metallic:43900
+N:0000:00:Toyota:Supra RZ:FR,6,300,910,3328,2828,2396,.090,.322,.380,-:blue mica metallic:43900
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:super white ii:34000
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:silver metallic graphite:34000
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:grayish green mica metallic:34000
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:black:34000
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:super red iv:34000
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:dark green mica metallic:34000
+N:0000:00:Toyota:Supra SZ-R:FR,6,213,377,3196,2493,2140,.067,.151,.176,-:blue mica metallic:34000
+P:0000:00:Toyota:*AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:white:0
+P:0000:00:Toyota:*AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:pink:0
+P:0000:00:Toyota:*AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:blue:0
+P:0000:00:Toyota:*Celica SS-II:FF,5,177,326,2689,2096,1801,.066,.156,.181,-:yellow:0
+P:0000:00:Toyota:*Celica SS-II:FF,5,177,326,2689,2096,1801,.066,.156,.181,-:blue-green:0
+P:0000:00:Toyota:*Celica SS-II:FF,5,177,326,2689,2096,1801,.066,.156,.181,-:purple:0
+P:0000:00:Toyota:*Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:yellow:0
+P:0000:00:Toyota:*Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:red-orange:0
+P:0000:00:Toyota:*Soarer 2.5GT-T VVT-i:FR,5,269,789,3439,2923,2475,.078,.270,.319,-:purple:0
+P:0000:00:Toyota:*Supra RZ:FR,6,300,897,3328,2828,2396,.090,.317,.374,-:dark orange:0
+P:0000:00:Toyota:*Supra RZ:FR,6,300,897,3328,2828,2396,.090,.317,.374,-:light blue:0
+P:0000:00:Toyota:*Supra RZ:FR,6,300,897,3328,2828,2396,.090,.317,.374,-:purple:0
+P:0000:00:Toyota:*TRD 3000GT:FR,6,291,869,3328,2828,2396,.087,.307,.363,-:silver:0
+S:0000:00:Toyota:[R]Castrol Supra GT:FR,7,-,646,-,-,2535,-,-,.255,-:white with red and green trim:500000
+S:0000:00:Toyota:[R]Castrol Supra GT:FR,7,-,646,-,-,2535,-,-,.255,-:white with red and blue trim:500000
+P:0000:00:Toyota:*[R]Castrol Supra GT:FR,7,-,646,-,-,2535,-,-,.255,-:black with red and green trim:0
+P:0000:00:Toyota:*[R]Castrol Supra GT:FR,7,-,646,-,-,2535,-,-,.255,-:black with red and blue trim:0
+P:0000:00:Toyota:*[R]Chaser LM Edition:FR,6,-,655,-,-,2777,-,-,.236,-:black:0
+U:0001:01:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:white pearl mica:7250
+U:0001:02:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7800
+U:0001:03:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7900
+U:0001:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:6740
+U:0001:05:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:red mica:8000
+U:0001:06:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:dark green mica:14030
+U:0001:07:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:13900
+U:0001:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:red mica:13020
+U:0001:09:Toyota:Mark II '92 Tourer S:FR,4,175,262,3020,2354,2021,.058,.111,.130,-:silver metallic:15270
+U:0001:10:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white iv:15870
+U:0001:11:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:wine red mica:16250
+U:0001:12:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:black:29330
+U:0001:13:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:super red iv:28810
+U:0010:01:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-flash two-tone(red):5940
+U:0010:02:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:white pearl mica:6370
+U:0010:03:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):8220
+U:0010:04:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7020
+U:0010:05:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:8840
+U:0010:06:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:blue mica:8270
+U:0010:07:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:gray metallic:9020
+U:0010:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:blue metallic:13120
+U:0010:09:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:dark green mica:15870
+U:0010:10:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:13270
+U:0010:11:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white pearl mica:16930
+U:0010:12:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:wine red mica:19610
+U:0010:13:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish green m.i.o:17470
+U:0010:14:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:black:21430
+U:0010:15:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:super red:21190
+U:0010:16:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:dark green m.i.o:22500
+U:0010:17:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:deep teal mica metallic:22850
+U:0010:18:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:deep green mica metallic:28530
+U:0020:01:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):6600
+U:0020:02:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:8830
+U:0020:03:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:red mica:8090
+U:0020:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:super white iii:7840
+U:0020:05:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:gray metallic:8310
+U:0020:06:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:blue metallic:13660
+U:0020:07:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:dark green mica:12290
+U:0020:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:13590
+U:0020:09:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white pearl mica:17350
+U:0020:10:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish green m.i.o:19870
+U:0020:11:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:super white ii:19240
+U:0020:12:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:silver metallic:21680
+U:0020:13:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:super red iv:25630
+U:0030:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high sonic toning(black):7450
+U:0030:02:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7150
+U:0030:03:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):6900
+U:0030:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:7490
+U:0030:05:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:red mica:7200
+U:0030:06:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:blue mica:7500
+U:0030:07:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:dark green mica:13440
+U:0030:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:15420
+U:0030:09:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish green m.i.o:18480
+U:0030:10:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:super white ii:18660
+U:0030:11:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:super red iv:20840
+U:0030:12:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:22080
+U:0030:13:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:silver metallic:22450
+U:0030:14:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:super red iv:27890
+U:0040:01:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-flash two-tone(red):7330
+U:0040:02:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7750
+U:0040:03:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:red mica:7940
+U:0040:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:8080
+U:0040:05:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:super white iii:7580
+U:0040:06:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:15640
+U:0040:07:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:red mica:15030
+U:0040:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white pearl mica:16920
+U:0040:09:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish green m.i.o:17830
+U:0040:10:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:super white pearl mica:19240
+U:0040:11:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:super white ii:21130
+U:0040:12:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:super red iv:21260
+U:0040:13:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:silver metallic:21610
+U:0040:14:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:21630
+U:0040:15:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:silver metallic:22700
+U:0050:01:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7000
+U:0050:02:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:7190
+U:0050:03:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:12400
+U:0050:04:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:red mica:15230
+U:0050:05:Toyota:Mark II '92 Tourer S:FR,4,175,262,3020,2354,2021,.058,.111,.130,-:silver metallic:16750
+U:0050:06:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:super white pearl mica:17650
+U:0050:07:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:20820
+U:0050:08:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:super white ii:29650
+U:0060:01:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):8380
+U:0060:02:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:7920
+U:0060:03:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:red mica:8420
+U:0060:04:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:15840
+U:0060:05:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:red mica:14660
+U:0060:06:Toyota:Mark II '92 Tourer S:FR,4,175,262,3020,2354,2021,.058,.111,.130,-:super white ii:15790
+U:0060:07:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white iv:16300
+U:0060:08:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:wine red mica:17840
+U:0060:09:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:black:20970
+U:0060:10:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:21600
+U:0060:11:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:warm gray pearl mica:23010
+U:0070:01:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-flash two-tone(red):7450
+U:0070:02:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:white pearl mica:6290
+U:0070:03:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7420
+U:0070:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:8580
+U:0070:05:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:dark green mica:15970
+U:0070:06:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:14960
+U:0070:07:Toyota:Mark II '92 Tourer S:FR,4,175,262,3020,2354,2021,.058,.111,.130,-:warm gray pearl mica:16290
+U:0070:08:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:wine red mica:19790
+U:0070:09:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish green m.i.o:16340
+U:0070:10:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish silver metallic:21490
+U:0070:11:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:20900
+U:0080:01:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:white pearl mica:6970
+U:0080:02:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high sonic toning(black):7010
+U:0080:03:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7100
+U:0080:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:8580
+U:0080:05:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:14830
+U:0080:06:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:red mica:14160
+U:0080:07:Toyota:Mark II '92 Tourer S:FR,4,175,262,3020,2354,2021,.058,.111,.130,-:super white ii:13330
+U:0080:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white iv:15520
+U:0080:09:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish green m.i.o:20080
+U:0080:10:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:23140
+U:0080:11:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:dark green m.i.o:23060
+U:0080:12:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:black:24610
+U:0090:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high flash two-tone(red):6970
+U:0090:02:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high sonic toning(black):6550
+U:0090:03:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):6630
+U:0090:04:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7460
+U:0090:05:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:7150
+U:0090:06:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:super white iii:8760
+U:0090:07:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:dark green mica:12360
+U:0090:08:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:13260
+U:0090:09:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:super white iv:16240
+U:0090:10:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish silver metallic:20440
+U:0090:11:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:22470
+U:0090:12:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:silver metallic:22510
+U:0090:13:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:dark green m.i.o:22860
+U:0090:14:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:silver metallic:29010
+U:0090:15:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:black:27370
+U:0100:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high flash two-tone(red):6230
+U:0100:02:Toyota:AE86 Sprinter Trueno GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high sonic toning(black):7390
+U:0100:03:Toyota:AE86 Corolla Levin GT-APEX:FR,5,133,226,2039,1589,1364,.065,.142,.166,-:high-tech two-tone(white):7850
+U:0100:04:Toyota:MA70 Supra GT Turbo Limited:FR,5,230,585,3417,2903,2460,.067,.202,.238,-:black mica:6980
+U:0100:05:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:blue metallic:15580
+U:0100:06:Toyota:JZA70 Supra Twin Turbo-R:FR,5,268,669,3350,2848,2411,.080,.235,.277,-:black:12420
+U:0100:07:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:dark blue mica phtalocyanine:13730
+U:0100:08:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:super white pearl mica:20600
+U:0100:09:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:deep green mica metallic:21090
+U:0100:10:Toyota:Soarer '95 2.5GT-T:FR,5,266,760,3461,2940,2491,.077,.259,.305,-:bluish silver metallic:21010
+U:0100:11:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:super white ii:24310
+U:0100:12:Toyota:Mark II '92 Tourer V:FR,5,266,611,3196,2716,2301,.083,.225,.266,-:dark green m.i.o:23480
+U:0100:13:Toyota:Supra '95 RZ:FR,6,291,883,3284,2791,2363,.089,.316,.374,-:super white ii:29420
+U:0120:04:Toyota:Mark II '92 Tourer S:FR,4,175,262,3020,2354,2021,.058,.111,.130,-:dark green m.i.o:14290
+U:0270:09:Toyota:Supra '95 SZ-R:FR,6,213,377,3152,2458,2112,.068,.153,.179,-:deep teal mica metallic:22310
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:opal white:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:silverstone metallic:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:green black pearl:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:moon raker black metallic:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:formula red pearl:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:pearl gold:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:crimson starmist:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:macao yellow:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:midas yellow pearl:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:cooper green metallic:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:british racing green:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:cobalt blue:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:space blue pearl:79800
+N:0000:00:TVR:Griffith 4.0:FR,5,327,430,2336,1820,1565,.140,.236,.275,Great:raspberry metallic:79800
+N:0000:00:TVR:Griffith 500:FR,5,333,430,2336,1820,1565,.143,.236,.275,Great:moon raker black metallic:83200
+N:0000:00:TVR:Griffith 500:FR,5,333,430,2336,1820,1565,.143,.236,.275,Great:macao yellow:83200
+N:0000:00:TVR:Griffith 500:FR,5,333,430,2336,1820,1565,.143,.236,.275,Great:cooper green metallic:83200
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:opal white:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:silverstone metallic:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:green black pearl:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:moon raker black metallic:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:formula red pearl:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:pearl gold:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:crimson starmist:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:macao yellow:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:midas yellow pearl:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:aston sage green pearl:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:cooper green metallic:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:british racing green:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:cobalt blue:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:space blue pearl:84800
+N:0000:00:TVR:Cerbera:FR,5,343,436,2425,1891,1624,.141,.231,.268,Great:raspberry metallic:84800
+P:0000:00:TVR:*[R]Cerbera LM Edition:FR,6,-,581,-,-,1984,-,-,.293,Great:gray with red trim:0
+P:0000:00:TVR:*[R]Cerbera LM Edition:FR,6,-,581,-,-,1984,-,-,.293,Great:gray with green trim:0

@@ -1,0 +1,146 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.14.22.39.03;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.16.00.23.23;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix heading, etc.
+@
+
+
+1.5
+log
+@changes.
+@
+text
+@Wed Jan 13, 1999
+
+More success!
+
+Based on mail to Nick.
+
+I'll try to keep this brief.  8-)
+
+Finished all Normal and got the Credits yesterday!
+So I guess I shouldn't give up.  8-)
+Trial Mountain "C" was the last "normal" I got.
+Lots of subtle places on that course to wring speed out of the Civic.
+Game doesn't let you save the replay of the win, because it goes
+straight to the credits then back to the menu.  8-(   8-)
+
+Done some Difficult.  A-B-C on High Speed Ring and Clubman R5. And a
+couple of others "A" only (where Viper works well  8-) I finally
+realized that position relative to #1 is more important at all times
+than your position #.  E.g. expecially on Arcade Grand Valley full
+circuit where that HUGE bump before second hairpin means other cars are
+likely to knock you out of control.  At "normal" level, at least,
+deliberately staying behind (or fifth) before each navigation of that
+bump seemed to help.  Computer cars seem to be expert jumpers.
+
+Impreza in general seems urealistically easy to control.
+
+Oh.  And I finally completed A-3.  Using automatic. 8-( Qualified
+by only .006 seconds; closest I came without qualifying was .008
+over.  Don't know whether my skill level will ever get to where
+cost/benefit analysis would justify drifting all such corners
+habitually, although the exercise has probably reduced my time
+for that stretch by 3 seconds even without totally drifting the
+corner.
+
+Thread: Driving Advice
+
+Handbrake helps all starts with engines with low low-speed torque,
+e.g. for a second practice run where they don't operate your "clutch"
+for you, or if you spin to a stop anywhere, not just up hills.
+
+Like two identical purchased cars, two identical prizes can share parts
+(e.g. two Demios  8-), but a prize, e.g. Civic(Racer) cannot share
+parts with a purchased Civic(Racer).
+
+But Gran Turismo knows that you need to purchase separate e.g. port
+polishing and weight reduction for each, and allows it.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@more threading
+@
+text
+@a6 3
+Threads:
+  Driving Advice
+
+d34 2
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d7 3
+@
+
+
+1.2
+log
+@fix up title for index
+@
+text
+@d1 1
+a1 1
+Wed Jan 13 14:35:56 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 3
+a5 1
+More success!
+@

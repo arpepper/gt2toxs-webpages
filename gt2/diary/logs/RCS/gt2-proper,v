@@ -1,0 +1,119 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.22.03.05.21;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.12.09.21.01.47;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Created this attempt at a "proper" gt2 game.
+I'm not sure if I'll play any more of it.
+@
+
+
+1.2
+log
+@Finished playing this game, for now.
+@
+text
+@Note: gt2-proper is a v1.2 game I started in GT2, attempting to do in license
+Note: order, while observing all proper race restrictions.
+
+November 30, 2001
+   1   buy car Supra'93   red mica Toyota Supra (turbo)'93 (Cr4,225)
+   1   Cr5,775
+   1      Supra'93     Sunday/Tahiti     1st            none
+   2   Cr8,775
+   2      Supra'93     Sunday/HSR        1st            none
+   3   Cr12,775
+   3      Supra'93     Sunday/RedRock    1st            none
+   4   Cr17,775
+   4      Supra'93    Clubman/RomeS      1st      none
+   5   Cr22,775
+   5      Supra'93    Clubman/Grindevald    1st      none
+   6   Cr28,775
+   6   buy car delSol  Vogue Silver Metallic Honda del Sol S'93 (Cr5,866)
+   6   Cr22,909
+   6      delSol       LwtK/RomeS    1st             silverMugenBeat(new)
+   7   Cr27,909
+   7   power off
+
+December 01, 2001
+   7      license obtain B license   5G, 5S, 1 extra try
+Notes: delSol S not easy in LwtK, difficult in FF, Compact
+Notes: DemioGL can win Sunday/Tahiti (depends on field?)
+Notes: DemioGL, valid for all LwtK, can win RomeS (147bhp) (depends on field?)
+Notes: DemioGL-X difficult at Sunday/Tahiti (depends on field?)
+   8      delSol       Japan/MidfieldI      1st            none
+   9   Cr31,909  5B 5S
+
+   9   buy car ImprezaWG'96  Active Red Subaru Impreza WG WRX '96 (Cr13,843)
+   9   Cr18,066
+   9      ImprezaWG'96 WG/RomeS  1st RoseRedMicaImprezaWagonWRXSTiVersionV
+  10   Cr23,066
+Note: my own Impreza Wagon looks very compact to me
+Note: Yeah, the Impreza Wagon definitely qualifies as a "Compact Car".  8-)
+  10      ImprezaWG'96 Compact/RomeS  1st DarkBlueMicaToyotaVitzF'99
+  11   Cr27,066
+  11      ImprezaWG'96 Compact/SeattleS 1st PacificBlueRenaultClio16V(new)
+  12   Cr31,066
+  12      ImprezaWG'96 Compact/Autumn  1st       CandyWhiteVWLupo1.4
+  13   Cr35,066
+Note: Saved on C1
+  13   power off
+
+December 02, 2001
+  13   mod car ImprezaWG'98 (alias RoseRedMicaImprezaWagonWRXSTiVersionV)
+  13      ImprezaWG'96  Clubman/RomeL     1st      none
+  14   Cr42,066
+  14   buy car DemioGL   Excellent Green Mica Mazda Demio GL'97 (Cr8,016)
+  14   Cr34,050
+  14      DemioGL      LwtK/SeattleS  1st                 DemioAspec
+  15   Cr40,050   10 cars
+  15   buy car Prelude  Cobalt Blue Pearl Honda Prelude VTEC '94 (Cr5,793)
+  15   Cr34,257
+  15      Prelude    FF/Tahiti  1st SebringSilverMetallicMugenAccordSir-T
+  16   Cr39,257
+Note: Saved on C2
+  16      license obtain A license   1S, 9B  5 extra tries
+  17   Cr39,257   6S 14B
+  17      Supra'93        FR/Clubman  1st            dkBlueSilEighty(new)
+  18   Cr44,257   13 cars
+  18      ImprezaWG'98 WG/Super 1st MoonstoneSilverMetallicMugenAccordWagon
+  19   Cr50,257   14 cars
+  19   buy car GT4'88  Medium Gray Metallic Toyota Celica GT-Four'88(Cr7,811)
+  19   Cr42,646   15 cars
+  19      ImprezaWG'98 4WD/SeattleS  1st  PureWhiteLegacyTouringWagonGT-B(new)
+  20   Cr47,646   16 cars
+  20   power off
+
+Note: (remove these lines eventually)
+Note: must verify and/or copy dkBlueSilEighty to gt2-normpr 
+Note: must verify and/or copy whiteLegacyWG to gt2-normpr 
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d62 1
+a62 1
+  17      Supra'93        FR/Clubman  1st            dkBlueSilEighty
+d68 1
+a68 1
+  19      ImprezaWG'98 4WD/SeattleS  1st  PureWhiteLegacyTouringWagonGT-B
+d71 4
+@

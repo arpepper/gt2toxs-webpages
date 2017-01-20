@@ -1,0 +1,30 @@
+Buy Code Car From Toyota New Car Lineup, Page 1
+For NTSC Version 1.2 (garage 558, offset 5A0, tested)
+
+If you activate this code, then when you go to the Toyota dealer, New
+Cars, page 1, the first car actually available will be the
+Spoon S2000 (B license prize).
+
+
+<tt><font face="Courier"><pre>
+D01C353C  D5D8
+801C3328  D758 \
+D01C353C  D5D8 |-  Spoon S2000
+801C332A  120D /
+</pre></font></tt>
+
+You can put any car code you want in place of the S2000 code.
+
+You can extend this code to display 7 code cars at once by replicating
+the above, but replacing 801C3328/801C332A with
+
+<tt><font face="Courier"><pre>
+801C32DC/801C32DE
+801C3374/801C3376
+801C33C0/801C33C2
+801C340C/801C340E
+801C3458/801C345A
+801C34A4/801C34A6
+</pre></font></tt>
+
+along with more corresponding car codes.

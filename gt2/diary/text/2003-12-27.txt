@@ -1,0 +1,103 @@
+Saturday December 27, 2003
+
+I Finally Manage To Get a GT1 Version 1.0 Disk!
+
+Threads:
+  Game Shark Hints
+  Real Life
+
+<CODES>
+Every time I entered a store with used PlayStation games I tended to
+hover around looking at the copies of 
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+wondering if I could spot something to tell me that the corresponding disk
+was likely to be version 1.0, as opposed to the version 1.1 I have several
+copies of.
+
+Well, about a week ago I had done exactly that at an <b>EB Games</b> (a
+variation of <b>Electronics Boutique</b>) in the mall where we like to
+go grocery shopping.  They actually had six cases in total--three with
+<b>Greatest Hits</b> labels, and three more without--only $9.99 each.
+Now, the <b>Greatest Hits</b> versions never will be version 1.0, but
+older versions might.
+
+So today I went back and actually decided to buy one of the games.
+I got to the store about ten minutes before closing.  I brought the
+case to the front, and said I'd definitely buy the game if the CD had
+a coloured top, trying to explain that I wanted an old version for
+<b>Game Shark</b> purposes.  But the clerk thought, and I subsequently
+came to agree, that <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+never came with coloured-top disks--only silver.
+
+So there were two possible sets of disks for the 
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+case I had.  (Since, a week later, there were still two <b>Greatest
+Hits</b> and two plain cases, it seems that <b>EB</b> must distinguish
+between <b>Greatest Hits</b> and plain versions in their inventory).
+Neither had coloured graphics on the top.  But I agreed to buy one anyway.
+The clerk went to give me the better copy, but I said, "No, give me the
+scratched copy.  It's likely to be older, and I'm looking for an old
+version".  She agreed to sell me that disk.
+
+When I got home and looked at the disk I agreed that it did not look like
+a preferable copy to sell,  It looked almost like someone had scratched
+it with a knife--I don't know how someone lets their disks get like that.
+It was all the more surprising since the manuals were impeccable.
+
+So I loaded the disk into my <b>GS Pro</b>-equipped <b>PlayStation One</b>,
+and started the game, thinking "Oh well, I hope this works".
+And somewhat to my surprise, it did.
+
+I grabbed my <b>PDA</b> and found the <a href="../diary/2000-11-01.html">Nov 1, 2000 page</a>
+in this diary where I noted 
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+garage structure.  I then went into simulation mode, and
+then into the <b>Game Shark Memory Editor</b> and found the indicated
+location for money.  And it was zeroes!!!
+
+Scanning upward I found the hex <b>10 27</b> pattern (i.e. <b>2710</b>
+which represents your initial <b>Cr10,000</b>).  Checking with a
+hard-copy of <b>Game Shark version 1.0</b> codes confirmed that, indeed
+I was now looking at version 1.0.
+
+Later I discovered that the disk will not work in <b>Arcade Mode</b>.
+The mini-replays in the track selection screen do not get loaded, and
+the game locks up when try to select your track.  Oh well.
+
+Sometimes certain options in simulation mode seem to take an enormously
+long time to complete in simulation mode, too--as if the game is
+retrying some loads many many times before they succeed.
+
+I found no difference on the top side of the disk, and no difference in
+the printing on the case or manuals to distinguish this disk from the
+others I already had.  But I did find one minor difference which I may be
+able to use to determine that a particular copy is likely to be version
+1.0.  All other <font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font> copies I had came in a
+custom double CD sized case which had a mounting point for only one CD.
+This game had mounting points for not only the two you might expect,
+but three!  (It not only had the usual CD mount on the outside bottom
+panel of the case, but also ones on both sides of the inside divider--in fact,
+this made it rather difficult to fit the sizable manuals inside the case).
+There were no obvious signs that this case had been substituted for
+the original, but that is, I suppose, a possibility.
+
+I tried crude techniques to repair the CD, but they didn't help much,
+if at all.  So I now have a copy of version 1.0 which I can use to verify
+some translations of some of my codes, but I will remain on the lookout
+for a better copy.
+
+
+</CODES>
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

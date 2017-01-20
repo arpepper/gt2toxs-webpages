@@ -1,0 +1,42 @@
+#!/xhbin/perl5
+
+while ( <> ) {
+	if ($_ !~ /^=*[0-9]+/ ) {
+		next;
+	}
+	$num = $_;
+	$num =~ s/\n//;
+	$rest = $num;
+	$num =~ s/ .*//;
+	$num =~ s/^=*//;
+	$rest =~ s/^=*[0-9]+//;
+	$rest =~ s/^ +//;
+	#print "$num $_";
+	if ($_ =~ /^===/ ) {
+		$cols = 3;
+		$rcols = 4 - $cols;
+		print "<tr><td colspan=\"$cols\"></td><td align=\"left\">$num</td><td align=\"left\" colspan=\"$rcols\">$rest</td></tr>\n";
+		$threes += $num;
+	}
+	elsif ($_ =~ /^==/ ) {
+		$cols = 2;
+		$rcols = 4 - $cols;
+		print "<tr><td colspan=\"$cols\"></td><td align=\"left\">$num</td><td align=\"left\" colspan=\"$rcols\">$rest</td></tr>\n";
+		$twos += $num;
+	}
+	elsif ($_ =~ /^=/ ) {
+		$cols = 1;
+		$rcols = 4 - $cols;
+		print "<tr><td colspan=\"$cols\"></td><td align=\"left\">$num</td><td align=\"left\" colspan=\"$rcols\">$rest</td></tr>\n";
+		$ones += $num;
+	}
+	else {
+		$cols = 0;
+		$rcols = 4 - $cols;
+		print "<tr><td align=\"left\">$num</td><td align=\"left\" colspan=\"$rcols\">$rest</td></tr>\n";
+		$zeroes += $num;
+	}
+}
+
+print "<tr><td>$zeroes</td><td>$ones</td><td>$twos</td><td>$threes</td></tr>\n";
+

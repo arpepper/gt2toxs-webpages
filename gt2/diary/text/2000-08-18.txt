@@ -1,0 +1,175 @@
+Friday August 18, 2000
+
+In Nismo Game, [R]400R Wins Grand Valley 300, Almost Beating my Cerbera LM!
+
+Threads:
+  Grand Valley 300 Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+
+In the <html><a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nismo">nismo</a></html> game I
+used the Nismo 400R as much as possible, so I entered the
+race-modified version in the Grand Valley 300.  This was
+after playing <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font> almost
+exclusively for about eight months.  I was surprised but
+glad to see that my <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font></html>
+skill seemed to have generally improved.
+
+   nismo day 87
+   Friday August 18, 2000
+   yellow [R]Nismo 400R (memory card trade)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:35.734new   +8.752  Cr20,000
+
+   Results:
+
+   1st  [R]Nismo 400R              1-34:25.4<--new nismo time, very good
+   2nd  [R]CASTROL SUPRA GT         +476.098  (1-42:21.5)
+   3rd  [R]GT-R LM                  +511.806  (1-42:57.2)
+   4th  [R]Impreze Rally Edition    +547.304  (1-43:32.7)
+   5th  [R]Lancer EvoIV GSR         +701.097  (1-46:06.5)
+   6th  [R]Accord Sedan             +869.589  (1-48:55.0)
+   
+   pits   15,30,45
+   lap 1   1:40.295
+   fl  (47) 1:28.919new
+   slowest  non-pit   (48)  1:42.030
+             next     (44)  1:41.648
+   fastest pit laps   (30in)  1:50.480
+                      (46out) 1:37.951
+   slowest pit laps   (15in)  1:52.973
+                      (31out) 1:38.637
+
+I had a bad first corner, but regained the lead soon after that, 
+holding it until the finish, in a fairly uneventful race.
+
+This was only a little slower than the Cerbera LM, and once again I
+lapped the field four, not quite five, times.  I think I would have
+done slightly better with one more pit stop, too.
+
+I lapped the field by lap 14, just before my first pit stop.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+This is slightly slower than my record with the Cerbera LM, and also
+slightly slower than the <html><em>first</em></html> time I managed with
+the Concept Car.  This may, however, be the only car other than the
+Concept Car with which I have done sub 1:30 laps during a Grand Valley
+300.
+
+Once again, for your analytical enjoyment, I here present all 60 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:40.295      1:40.295
+ 2   1:30.354      3:10.649
+ 3   1:30.809      4:41.458
+ 4   1:32.798      6:14.256
+ 5   1:31.377      7:45.633
+ 6   1:32.007      9:17.640
+ 7   1:31.788     10:49.428
+ 8   1:32.377     12:21.805
+ 9   1:36.023     13:57.828
+10   1:33.190     15:31.018
+11   1:36.183     17:07.201
+12   1:32.552     18:39.753
+13   1:36.573     20:16.326
+14   1:35.895     21:52.221
+15   1:52.973     23:45.194
+16   1:38.205     25:23.399
+17   1:30.978     26:54.377
+18   1:30.557     28:24.934
+19   1:30.889     29:55.823
+20   1:31.009     31:26.832
+21   1:30.954     32:57.786
+22   1:32.257     34:30.043
+23   1:31.447     36:01.490
+24   1:33.620     37:35.110
+25   1:35.043     39:10.153
+26   1:34.139     40:44.292
+27   1:32.813     42:17.105
+28   1:34.598     43:51.703
+29   1:33.870     45:25.573
+30   1:50.480     47:16.053
+31   1:38.637     48:54.690
+32   1:30.694     50:25.384
+33   1:35.696     52:01.080
+34   1:31.646     53:32.726
+35   1:30.825     55:03.551
+36   1:33.360     56:36.911
+37   1:32.094     58:09.005
+38   1:33.543     59:42.548
+39   1:33.448   1-01:15.996
+40   1:33.697   1-02:49.693
+41   1:32.012   1-04:21.705
+42   1:36.238   1-05:57.943
+43   1:34.633   1-07:32.576
+44   1:41.648   1-09:14.224
+45   1:50.534   1-11:04.758
+46   1:37.751   1-12:42.509
+47   1:28.919   1-14:11.428
+48   1:42.030   1-15:53.458
+49   1:35.091   1-17:28.549
+50   1:30.362   1-18:58.911
+51   1:29.592   1-20:28.503
+52   1:30.997   1-21:59.500
+53   1:30.836   1-23:30.336
+54   1:32.993   1-25:03.329
+55   1:31.890   1-26:35.219
+56   1:31.914   1-28:07.133
+57   1:33.307   1-29:40.440
+58   1:34.594   1-31:15.034
+59   1:35.273   1-32:50.307
+60   1:35.146   1-34:25.453
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+           My Settings
+
+Tires           S    S
+
+Spring Rate    10.5  12.0
+Ride Height     60    60   (min,min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      2     2
+Brake Balance   12     9
+Turbo               7
+        1st       3.214
+        2nd       1.925
+        3rd       1.302
+        4th       1.000
+        5th       0.804
+                  -----
+        FD        3.700
+
+Aero            0.82  0.86  (max,max)
+
+This tuning was how I found the car after using it in the GTI late
+last year.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

@@ -1,0 +1,154 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Thu Jun 10, 1999
+
+I finally won at Autumn Ring ii, in the Abnormal Series
+
+Threads:
+  Race Results
+  Tuned Series Results
+  Tuning Advice
+  Driving Advice
+  Prize Car Patterns
+
+The Autumn Ring is really bad backwards, I think.  You do not see the
+view where you would be looking when driving in real-life as you go
+past the start/finish to the esse just after it.
+
+But last night I finally won there in the Tuned Series, with a Viper
+RT/10.  Cranked final drive way down (up in number, from 3.8 to 4.5).
+
+Funny thing was I won with 5:58.323, but the next time around I spun on
+lap 2 at the hairpin leading to the start/finish, and only finished
+3rd.  But the winning time was 5:55.xxx (and my time was 5:59.571).
+
+Although I came close, neither time did I match the Cerbera lap record of
+about 1:09.6xx; also I did not get pole either time.
+
+And although I won the Abnormal Series twice, I got a white Trueno
+the first time, and a blue one the second.  I.e. no new prize
+cars.  (I.e. not the remaining one--the yellow Skyline).
+
+Thread: Driving Advice
+
+My favourite course is Grand Valley East ii.  I like to think I use the
+style which is appropriate for each corner.  8-)  If you like throwing
+a car into a corner, you might actually want it to understeer.  You
+want to be able to *provoke* oversteer, to spin it around, but after
+that you might want a nice drift on both ends to carry it sideways
+around the corner.  That can involve final understeer.  (More efficient
+than using lots of opposite lock, and helps prevent spin-outs).
+
+I examine tracks to see where I should go slow to go faster later.  E.g.
+at Grand Valley East ii, although you can go very fast through the first
+corner, the next corner you should pull-up a little early, and hold
+tight, so that you get a wider smoother line for the next turn and
+thereby a faster run into the tunnel.
+
+After the tunnel, it is quite tricky.  You learn just where to brake
+to go around that near-hairpin with a minimum of lost speed, then
+smooth out the next left-hander.  Then comes the really tricky part.
+You clip the next slight right-hander, and turn a little early for the
+left-hander after it, and allow your drift to take you to the outside
+(right-hand side) of the track.  The AI cars nearly always come off on
+this corner!!!  You gain a lot of time in the Normal Series right
+there.  After that, resist the temptation to straighten up early, but
+rather let your car drive across to the left-side of the track and
+smoothly bring it parallel, and then back across to the right-hand
+side.  Ghosts showed me you lose a lot of time if you try to
+"straighten" the corner by pulling right early, because you actually
+sharpen it.  After the straight you throw the car into the hairpin in a
+manner which suits its particular handling (must prepare a lot earlier
+with 4wd cars; they tend to slip entirely sideways, whereas with an FR
+you can use its tendency to spin to send you around the corner), and
+drive off smoothly to the finish line.
+
+Thread: Prize Car Patterns
+
+An e-mail correspondent wrote to tell me he picked up the green RX-7 A
+spec yesterday, and got two more golds in his A licence, leaving just
+test 4 and 8 left for A class gold.
+
+The green RX7 seemed common as nails in my games.  8-)
+
+It seems strange to me that he's got so many golds, but has not won the
+Abnormal Series yet.  Especially since the other cars co-operate so
+much to help you win the series that you can usually win it with 30
+points.  (They don't co-operate to help you win or do well in
+individual races, though, except perhaps the High Speed Ring).  I won
+twice with the Cerbera with only two race wins each time.
+
+The only "real" gold I have is B-7.  B-1,B-2, and A-7 do not count.  8-)
+I have all my license cups, but the following are still bronze:
+A-3,A-8,IA-2,IA-4,IA-5,IA-6 and IA-8.  The rest are silver, except for
+the 4 golds.
+
+Another thing I did today was finally publish on the web my HTML forms
+I print off for recording race results.
+
+http://www.math.uwaterloo.ca/~arpepper/gt/results_forms
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d10 1
+d30 2
+d63 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 6
+d83 12
+@

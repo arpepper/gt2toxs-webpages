@@ -1,0 +1,66 @@
+#!/xhbin/perl -w
+
+$bspec = 0;
+$machine = 0;
+$course = 0;
+$battle = 0;
+
+while (<>) {
+	$warn = "";
+	if ( $_ =~ /B:(\d+)\/(\d+)\/(\d+)\/(\d+)/ ) {
+		$newbspec = $1;
+		$newmachine = $2;
+		$newcourse = $3;
+		$newbattle = $4;
+		if ($_ =~ /B:\d+\/\d+\/\d+\/\d+ *\(n\/c\)/ ) {
+			$incbspec = 0;
+			$incmachine = 0;
+			$inccourse = 0;
+			$incbattle = 0;
+		}
+		elsif ($_ =~
+		  /B:\d+\/\d+\/\d+\/\d+ *\(\+{0,1}(\d+)\/\+{0,1}(\d+)\/\+{0,1}(\d+)\/\+{0,1}(\d+)\)/ ) {
+			$incbspec = $1;
+			$incmachine = $2;
+			$inccourse = $3;
+			$incbattle = $4;
+		}
+		else {
+			$warn .= " NoInc";
+			$incbspec = 0;
+			$incmachine = 0;
+			$inccourse = 0;
+			$incbattle = 0;
+		}
+		$t = $newbspec - $bspec;
+		$c = $newmachine - $machine;
+		$m = $newcourse - $course;
+		$b = $newbattle - $battle;
+print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
+	"($incbspec/$incmachine/$inccourse/$incbattle)" .
+	"  B:$bspec/$machine/$course/$battle" .
+	"  (+$t/+$c/+$m/+$b)" . "\n";
+
+		if ($newbspec != ($bspec + $incbspec) ) {
+			$warn .= " Bspec";
+		}
+		if ($newmachine != ($machine + $incmachine) ) {
+			$warn .= " Mac";
+		}
+		if ($newcourse != ($course + $inccourse) ) {
+			$warn .= " C";
+		}
+		if ($newbattle != ($battle + $incbattle) ) {
+			$warn .= " Bat";
+		}
+		if ($warn ne "") {
+			$warn = " WARN -" . $warn;
+		}
+		$bspec = $newbspec;
+		$machine = $newmachine;
+		$course = $newcourse;
+		$battle = $newbattle;
+	}
+	$_ =~ s/$/$warn/;
+	print $_;
+}

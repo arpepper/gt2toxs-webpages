@@ -1,0 +1,108 @@
+Thursday April 27, 2000
+
+
+(GT2 Version 1.2)  GameShark Code to Get all Colours of All License Test Gold Cars
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+
+Here is my code, altered for Gran Turismo 2, version 1.2
+
+My code for Gran Turismo 2, version 1.2
+Tested with GameShark Pro, version 3.2
+
+If you activate this code, then when you go to the Toyota dealer, New
+Cars, page 1, the first seven cars actually available will be the
+following seven prize cars.  The names on the page will still be
+the regular ones, but you will notice the prices are different.
+When you select a car, the prize car will be available for purchase,
+and, if the car is available in different colours, the correct choice
+of colours will be presented for you.  The only disadvantage is that
+you must buy the car for its full "book value".  Therefore I have
+included a "lotsa cash" code.   8-)
+
+ D01C353C  D5D8
+ 801D156A  05F3 - approximately Cr99,000,000
+
+ D01C353C  D5D8
+ 801C32DC  D758 \
+ D01C353C  D5D8 |- Spoon S2000
+ 801C32DE  120D /
+
+ D01C353C  D5D8
+ 801C3328  A498 \
+ D01C353C  D5D8 |- Concept Car
+ 801C332A  0E35 /
+
+ D01C353C  D5D8
+ 801C3374  E59C \
+ D01C353C  D5D8 |- 3000 GT LM Edition
+ 801C3376  1745 /
+
+ D01C353C  D5D8
+ 801C33C0  F71C \
+ D01C353C  D5D8 |- del Sol LM Edition
+ 801C33C2  1200 /
+
+ D01C353C  D5D8
+ 801C340C  E65C \
+ D01C353C  D5D8 |- FTO LM Edition
+ 801C340E  1701 /
+
+ D01C353C  D5D8
+ 801C3458  129C \
+ D01C353C  D5D8 |- GT-One'99
+ 801C345A  1E0D /
+
+ D01C353C  D5D8
+ 801C34A4  C31C \
+ D01C353C  D5D8 |- Cerbera LM
+ 801C34A6  2001 /
+
+Notes:
+D01C353C D5D8  -  goes before each "8" code
+This makes sure the changes take effect only when
+you are in the "Toyota New Car Lineup, Page 1".
+
+The money code works such that your cash gets topped
+up to about Cr99,000,000 every time you go to the
+Toyota New Car Lineup 1.
+
+The easiest way to enter this code is probably to replicate thirty
+lines of
+
+ D01C353C  D5D8
+
+And afterwards go back and change every second line to be the
+approriate car body code.
+
+Each pair of values for a car body code can be changed to any car you
+want.  I picked the six hard-to-get license test gold cars, plus the
+Cerbera LM which seems to be elusive for a lot of people.  A nice
+line-up, I think.  8-)
+
+While you should be able to play most of the game with these codes on, I
+wouldn't guarantee it, and it makes most sense to me to activate the codes,
+buy and save the cars you want, and then during normal racing gameplay
+have the code deactivated.   (Me, I take my GameShark out most of the
+time, but that could cause excess wear on the connectors, so I won't
+explicitly recommend it).
+
+It is also remotely possible that the locations I have chosen are
+dependent upon previous activity in the game and/or session.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

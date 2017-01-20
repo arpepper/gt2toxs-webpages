@@ -1,0 +1,325 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Wednesday, November 1, 2000
+ -- Gran Turismo 1 Garage Structure (Game Shark Hints)
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Wednesday, November 1, 2000
+</h3>
+</font>
+<font color="white">
+<h4>Gran Turismo 1 Garage Structure (Game Shark Hints)
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-10-31.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-11-03.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-10-31.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-11-03.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Wednesday, November 1, 2000
+</h3>
+<h4>Gran Turismo 1 Garage Structure (Game Shark Hints)
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I suddenly realized I did not have any diary entry describing the
+useful garage and other simulation game related addresses, so I
+created this one here.  It contains lots of address I frequently
+refer to when using a <b>GameShark</b>.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Garage Structure:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<font face="Courier">
+<table width=90%>
+<tr align=top>
+<td valign=top>
+8009B8F0&nbsp;-
+</td>
+<td>
+          a counter of some sort, always increasing in value
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B8F4&nbsp;-
+</td>
+<td>
+        this is your money, in Credits
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B8F8&nbsp;-
+</td>
+<td>
+<p>
+         the current day number
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B908&nbsp;-
+</td>
+<td>
+<p>
+         zero-origin index of the car you are currently using
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B90A&nbsp;-
+</td>
+<td>
+<p>
+         number of cars in your garage
+</p>
+</td>
+</tr>
+
+
+<tr align=top>
+<td valign=top>
+8009B90C&nbsp;-
+</td>
+<td>
+<p>
+          At this point you find 100 4-byte quantities.
+</p>
+<p>
+          Each of these is the base value of the car in the corresponding
+          garage slot (see below).
+</p>
+<p>
+          These values are stored as the amount in credits, times 100.
+          I tend to refer to this measurement as "Yen", since I believe
+          the Japanese version of the game uses credit values which are
+          100 times those in the North American game.  Alternatively,
+          you can think of them as penny values.
+</p>
+<p>
+          When selling a car, you will get 50% of this value from most
+          dealers, and 60% from the matching dealer.  If this value is
+          zero, the car cannot be sold.  This happens with the B license
+          test prize Concept Car.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009BA9C&nbsp;-
+</td>
+<td>
+<p>
+          Immediately after that (100 x 4 is 400, or 190 hex), you find
+          the 100 garage slot entries describing the cars in your garage.
+          I will not attempt to describe the meaning of those in detail
+          here.
+</p>
+<p>
+          Each garage slot is 96 bytes long, or 60 in hex.  Somewhat
+          conveniently, this is exactly the same amount of data you
+          see in each screen of <b>GameShark</b> Memory Editor.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E01C&nbsp;- 
+</td>
+<td>
+<p>
+         This is the start of the space after the garage.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E190&nbsp;- 
+</td>
+<td>
+<p>
+         From about here to 8009E3AF is a bitmap representing all
+         the parts you have purchased.  I have not managed (nor really
+         given a concerted effort) to decode the precise meaning of each entry here.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E444&nbsp;- 
+</td>
+<td>
+<p>
+        Here you can see 24 bytes of 1's, 2's, and 3's which clearly
+        correspond to you bronze, silver and gold license cups, respectively.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E45C&nbsp;- 
+</td>
+<td>
+<p>
+        The license test records are easily observed here.  If you
+        patch <b>G.T.Gold</b>'s time at the right time, you can cheat
+        your way to a gold medal!
+</p>
+<p>
+        These extend until about 8009E730.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E45C&nbsp;- 
+</td>
+<td>
+<p>
+        Start of B license records.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E95C&nbsp;- 
+</td>
+<td>
+<p>
+        End of IA license records.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E95C&nbsp;- 
+</td>
+<td>
+<p>
+        Here you have 22 bytes corresponding to your best place in each of
+        the 22 simulation mode events, including the Spot Races.
+</p>
+<p>
+        After that is a lot of weird stuff I couldn't figure out.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+800A0E74&nbsp;- 
+</td>
+<td>
+<p>
+        It looks like the Simulation Mode Time Trial Records begin here.
+</p>
+</td>
+</tr>
+
+
+
+</table>
+</font>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-10-31.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-11-03.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-10-31.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-11-03.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

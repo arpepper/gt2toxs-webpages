@@ -1,0 +1,8 @@
+#!/bin/csh -f
+./gears reorder=2,4,1,0,3 tire=24.00 rpm=1500-2500x500 final=2.9-3.101x0.1 gear=3.2,2.2,1.8,1.4,1.0
+echo ======
+./gears tire=24.00 final=2.9-3.101x0.1 rpm=1500-2500x500 gear=3.2,2.2,1.8,1.4,1.0
+echo ======
+./gears reorder=4 tire=24.00 rpm=1500-2500x500 final=2.9-3.101x0.1 gear=3.2,2.2,1.8,1.4,1.0
+echo ======
+./gears reorder=final,gears,rpm tire=24.00 rpm=1500-2500x500 final=2.9-3.101x0.1 gear=3.2,2.2,1.8,1.4,1.0

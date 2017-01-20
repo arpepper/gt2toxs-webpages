@@ -1,0 +1,1515 @@
+From arpepper Mon Jan  4 15:33:36 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses/
+Status: RO
+
+So, we decided to get Gran Turismo because we thought my nephew
+might enjoy it.  8-)  Oh, alright, the sales clerk where I bought
+it didn't believe me either.
+
+Anyway, on the page
+
+ http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses/
+
+you list "cars for getting all Golds".
+
+Is this because in versions of Gran Turismo previous to the one I
+purchased they let you use your own car for the license tests?
+
+That doesn't seem possible.
+
+Hmm.  I see I need to track down Bob Chmilnitzky wrt tuning comments.
+
+One thing I find amusing is that if you have multiple instances
+of the same car (a Mazda Demio perhaps  8-)  you can "share"
+tune-up parts without purchasing new ones.  You can even have
+the parts installed in both cars simultaneously.
+Conversely, it's not clear that "one time irreversible" modifications
+can be done to a second car after having been done to a first.
+(E.g. weight reduction).  It does seem possible to keep a racing
+and non-racing version of the same car.  E.g. a pretty raspberry
+near-stock Cerbera and a somewhat ugly mostly grey racing modified
+one.
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/prize/
+
+Hmm.  You do not give the key info I would like to see there.
+Namely, for which events are which cars prizes?
+
+As far as I can tell Demios are a unit of currency within the game.
+8-)  The GT League cars almost wait for you to win the series, and this
+is a good way of getting about cr25000 + a Demio (worth cr12000 at a
+Mazda dealer, cr10000 elsewhere  8-) I wonder if real-life Demios spend
+a lot of their racing time on 3 or even two wheels?  Strange thing is
+you don't get significantly more compensation for winning the more
+difficult FF and FR series.  (Can't really say yet about the 4W or
+lightweight series yet).
+
+It's interesting; simulation mode is like "Test Drive" (is that a dirty
+word?) but using the psychological trick of increasing the perceived
+value of driving a particular car by making you work a little bit for
+it.
+
+Oh well, I guess you've probably forgotten about these pages, and are
+somewhat surprised to be receiving mail about them.
+
+I don't think I'd want to start my own GT pages, but might be persuaded
+to do some updates to other peoples'.  Or perhaps I should find someone
+to do a sort of "trading mirror" with.  I.e. I'd first mirror their
+pages, make some modifications, and then offer them back.
+
+Sigh.  I really don't need motivation which might cause me to spend an
+excessive amount of time doing "research", however.
+
+Are you a student at Ohio University?
+
+I actually work here at Waterloo.
+
+
+Adrian Pepper
+
+From arpepper Mon Jan  4 16:42:13 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Re: http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses/
+Status: RO
+
+> From albrnick@bobcat.ent.ohiou.edu  Mon Jan  4 15:53:51 1999
+> 
+>   Hello!
+> 
+> On Mon, 4 Jan 1999, Adrian Pepper [MFCF] wrote:
+> 
+> 
+> > Anyway, on the page
+> > 
+> >  http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses/
+> > 
+> > you list "cars for getting all Golds".
+> > 
+> > Is this because in versions of Gran Turismo previous to the one I
+> > purchased they let you use your own car for the license tests?
+> 
+>   Nope!  You are, and have always been stuck with what they give you.  :)
+> 
+> > That doesn't seem possible.
+> 
+>   I can't say I've managed to get all golds.  Though, they do get eaiser
+> the more you play.  :)
+
+Duh.  I finally realized that the "cars for getting all Golds" are
+"the cars awarded as prizes for getting all Golds".  Perhaps now you
+can see my confusion.
+
+I'm surprised you replied already.
+
+>   I might be able to be talked into this.  :)  Thought, some of m pages
+> are a bit difficult to do, as I use perl cgi scripts to generate them.
+
+We have cgi facilities available here, but the URL references would
+probably need to be changed.  I've written a few sleazy cgi scripts,
+and perl scripts of various sizes working outside cgi.  Hmm.  HTML etc
+needs a way to refer to "my wrapped cgi bin" symbolically.  I don't
+think that can currently be done.  OTOH, unless you store data,
+I don't suppose the cgis need to be wrapped.
+
+> > I actually work here at Waterloo.
+> 
+>   What'dya do there?
+
+Software support.  Started as system programming years ago, now mostly
+systems administration.
+
+Another thing...
+
+I'm really new to this PlayStation thing.  Is there by any chance
+a "download" of some sort that will allow manipulation of Replay
+files?  E.g. copying existing replays from one file on one card
+to a larger file on another card?
+
+I've only seen the term "memory card download"--never actually loaded
+one and used it, so I can only imagine that they might occasionally be
+such utilities that can be loaded and executed.
+
+Oh well.  The RCA video adapter is plugged into my VCR.  I might start
+storing a different style of Replay.   8-)
+
+
+Adrian.
+
+From arpepper Mon Jan  4 18:13:37 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Re: http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses/
+Status: RO
+
+> From albrnick@bobcat.ent.ohiou.edu  Mon Jan  4 17:23:00 1999
+
+> > I'm really new to this PlayStation thing.  Is there by any chance
+> > a "download" of some sort that will allow manipulation of Replay
+> > files?  E.g. copying existing replays from one file on one card
+> > to a larger file on another card?
+> 
+>   Well, just copying the whole GT file I believe.  As far as GT is
+> concerned, it's all one big file.  (I think...)  If that's the case, then
+> you can't move it from one card to another.  (W/out moving the whole data
+> file)  
+>
+>   Though, if I'm wrong, you'd just need 2 cards, stick them in both slots,
+> and copy the individual files over.  :)  (I honestly can't recall now)
+
+Perhaps it was different, or perhaps you've forgotten.
+(There is no way to get GT to confess any sort of version number
+information, is there?)
+
+Basic GT game state is 5 blocks of card memory.  (The blocks of which
+a standard card has 15).
+
+GT car settings data is separate, and seems to be always 2 of those blocks,
+and is room for 120 separate car settings.
+
+The Replay data is also another separate memory card file, but requires
+you to choose how big to make it.  They refer to the size in sectors,
+and I think you get about 60 of those sectors per memory block, and
+need something over 20 for the average replay.  Yes, you can copy the
+entire Replay file to another card, but you do not seem to be able to
+copy one Replay file on top of an existing one on the other card in any
+way.  The upshot is that on the particular memory card you are stuck
+with your initial choice of file size.  (To add to confusion, the
+replay elements within the memory card "file" are also referred to as
+"files"; what I'd like to be able to do, you see, is copy individual
+replay files from within one replay File and put those replay files
+inside another replay File.  I've used "file" there for the "replay
+elements", and "File" for the entity the main Memory Card editor sees.)
+
+The best thing to do is probably keep all replays on a separate card
+and allocate all 15 blocks.  But it makes me nervous switching cards
+with the power on, especially since you don't seem to be able to view
+contents, etc. of cards from within the game.  (Plus it's just after
+Christmas, and it's hard to find more of the things to buy...)
+
+[Aside: It would be really nice to be able to get to and from the main
+"Options" menu, e.g. just before starting a race, if, e.g. one track
+is better viewed in narrow mode, while others are better in normal or
+wide, or especially to set 2 player settings, e.g. laps, handicap,
+etc.]
+
+> > I've only seen the term "memory card download"--never actually loaded
+> > one and used it, so I can only imagine that they might occasionally be
+> > such utilities that can be loaded and executed.
+> 
+>   Where have you seen this?
+
+I've seen the term "memory card download" on the "Jampack" CDs that
+come with Playstation club subscription and/or are occasionally retailed
+real cheap and in fact was thrown in free with the PlayStation I bought.
+(I bought mine at Canadian Tire; ever heard of them?  Wal-Mart hadn't
+when they conducted phone surveys prior to moving in up here).
+
+I am just speculating that Sony could make extension utilities
+available as memory card downloads.
+
+The downloads on the JamPack CD I have are for some other game, and I
+think do the usual sleazy free life type stuff.  Ah.  I guess that
+would be done by just downloading a file containing a certain game
+state.  E.g. they could make a download for GT with B license and
+a couple of cars and a couple of cr100K.  (And then there's that Shark
+thing I saw referred to at another site; how unsporting...)
+But perhaps pre-configured game configurations is the limit of what
+they do with downloads.  Providing a means to transfer execution to
+within the memory card ROM would open up a whole can of worms which
+Sony probably doesn't want to.
+
+
+Adrian.
+
+From arpepper Tue Jan  5 19:36:47 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Re: http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses/
+Status: RO
+
+>   I think that they actually recommend putting in/removing the card when
+> the playstation is powered on.  As strange as that may seem.  (Read the
+> Sony Card instructions or something?)
+
+Sony Card?  Oh.  Does Sony make Cards for the PlayStation?   8-)
+
+It does seem strange to recommend putting the cards in with the station
+powered on, because GT will eventually check for the presence of a card
+with no intervention needed on your part.  I wonder what happens if it
+checks exactly when you are inserting the card?  Of course maybe they
+don't recommend powering up with a CD in either.  Gee I'm rambling again.
+I guess they would recommend 1) power up  2) insert cards 3) load CD.
+
+I've bought four cards so far, but none of them are Sony's.  8-)
+I don't think there's any documentation with them.  Just a bright green
+piece of paper with a picture of a cartoon wolf on it.
+
+Of course I have had one load error and one save error so far.  Both
+went away on a retry.  I always do a save to each card, and have
+backups as well.  8-)  I've also had apparent CD errors, twice after
+finishing a series 8-(, two other times after doing good qualification
+times for Autumn Ring in Sunday Cup.  You can also lock the animation
+up temporarily, or worse, by holding down "rear view" for too long.
+The errors after finishing a series may be another bug, and I now
+always use "exit" to get to the Dealer map in order to "go race" and
+never "short cut" via the checkered flag in any of the other screens.
+But coincidentally with that I've tried to become good about shutting
+the station off for at least five minutes after a maximum of two
+hours.  The manual expresses concerns that the users' health may suffer
+if they do not take a rest every hour or so, but I wonder if that's
+not a way to try and get users to avoid overheating problems with the
+PlayStation.  I also made little feet out of a toilet roll to improve
+airflow underneath the PlayStation.  Eventually, perhaps, I'll do
+something more permanent.  They stopped it getting so hot, but have
+not prevented all strange errors.
+
+I mentioned Canadian Tire Stores before.  One neat feature of them is
+that if you pay with cash they give you a 3% discount in the form of
+"Canadian Tire Money"; genuine bank notes in denominations of 5, 10,
+25, 50cents or one dollar, useable as cash at their store.  So the
+$5.70 I got for buying the PlayStation plus one $10 memory card,
+together with most of the rest of my at-home "stash" was enough to buy
+a $10 memory card ($11.50 with tax).  (And I still got back 30 cents
+more Canadian Tire money  8-)
+
+
+Adrian.
+
+From arpepper Fri Jan  8 16:28:06 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/comparison.html
+Status: RO
+
+In your comparison form,
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/comparison.html
+
+You should have a "NONE" Option in each "Manufacturer" category box.
+That would allow one to search, say, only Mitsubishis.  Etc.
+
+Ideally, you want to be able to pick multiple cars.  Hmm.  "Shift click"
+seems to do that in Windows Netscape.  Which suggests there may be a 
+non-obvious way to deselect everything, but I can't find it, and it's
+semi-browser-specific, and I *think* it would be easy to add a "NONE"
+which cancelled all entries from that manufacturer.
+
+Ah.  In lynx (on UNIX) it comes up differently, and it is easy to
+toggle each of the boxes for each car independently.
+
+And, thinking some more, I now find that in Windows Netscape
+"CTRL-click" deselects a selection and therefore you can deselect
+everything.  And, yes I was just able to get a table of Mitsubishis
+only.
+
+Again that would be browser-specific, so you can't really add
+documentation to the page.  If it would be easy to add "NONE", I think
+it would be a good idea, even thought it would be technically
+redundant.  Perhaps you could say something like "your browser
+probably has facilities to allow zero, one or multiple selections
+from each box; consult your documentation".
+
+The page is very useful.  All-round, your Gran Turismo site is one of
+the better ones.  What you've got is reasonably complete, as opposed to
+some which have just the start of some portions of them.
+
+Hmm.  "ALL" could be considered redundant, too, but without it your
+post data could get *very* long, couldn't it?
+
+
+Adrian.
+
+You have some obvious typos in the following page, as I've indicated.
+
+lynx -dump http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/
+
+                         The Gran Turismo Pit Stop
+                             Simulation - Cars
+                                      
+   Please note that this is *VERY* preliminary, but I wanted to put up
+   what I had. And all I have I owe to [1]Michael Spann.
+   
+   [2]Click Here for car comparision. New!
+                         ^^^^^^^^^^^
+                         comparison
+   
+   Please select from the folowing manugacturers:
+                          ^^^^^^^^ ^^^^^^^^^^^^^
+                         following manufacturers
+     * [3]Toyota
+     * [4]Mitsubishi
+     * [5]Aston Martin
+     * [6]Nissan
+     * [7]Honda/Acura
+     * [8]Dodge
+     * [9]Subaru
+     * [10]Chevrolet
+     * [11]TVR
+     * [12]Mazda
+     * [13]Prize Cars
+     _________________________________________________________________
+   
+   Last modified: Tue Jun 30 13:53:21 EDT 1998
+   
+   Send any comments or suggestions to: [14]albrnick@bobcat.ent.ohiou.edu
+   
+
+References
+
+   1. mailto:SpannNRoss@worldnet.att.net
+   2. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/comparison.html
+   3. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/toyota/
+   4. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/mitsubishi/
+   5. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/aston_martin/
+   6. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/nissan/
+   7. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/honda/
+   8. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/dodge/
+   9. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/subaru/
+  10. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/chevrolet/
+  11. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/tvr/
+  12. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/mazda/
+  13. http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/prize/
+  14. mailto:albrnick@bobcat.ent.ohiou.edu
+
+
+
+From arpepper Mon Jan 11 12:21:04 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Good weekend.
+Status: RO
+
+Well, at the end of last week, I had all 8 arcade tracks and my
+Toyotas.  During the weekend I finished off the rest of the tracks at
+easy, and got all the cars.
+
+On tracks with good traction and line-of-sight, that Viper ridiculously
+outclasses the competition.  8-)  So I have five tracks done at normal,
+with the A class done at difficult on those five.
+
+I discovered another trick.  I have a racing Subaru Legacy in emulation
+mode (You need to buy at least one four-wheel drive car, and my
+nephew's parents have a Legacy, so I thought it would be fun to race
+one...)  I've tuned the engine fully, but am too cheap to buy subtle
+stuff like a racing clutch  8-), and boy are they serious about that
+low-speed torque problem.  I lost control up the hill in Trial Mountain
+II, and the car would not start moving.  I thought, "in real life, I
+might pop the clutch, but I don't have an explicit clutch, so perhaps
+I'd better pit in and lower(raise) the first gear".  But then I
+realized that in real life, before popping the clutch, I'd have to hold
+the car on the handbrake, and, sure enough, if you rev against the
+handbrake and then release it, it sort of lets you emulate popping the
+clutch, and the car gets enough of a jump to start moving fast enough
+to be in efficient first gear range.  Now, one of those triple plate
+clutches might solve this problem; perhaps I'll try it sometime.  When
+I seem to have an excess of Cr.  (I wonder why the races all pay out in
+Chromium?  8-)
+
+Late last night for fun I dug up the Jam Pack demo disk version of
+Gran Turismo, with a Honda NSX, 90's Corvette, and [R]Subaru Impreza on
+the Clubman Route 5, with choice of easy, normal and difficult.  After
+a little practice it was relatively easy to win with all three cars at
+easy and normal.  Almost startlingly so.  Just don't worry about the
+body panel damage.  8-)  (It's not like I drive right along the wall,
+but on most of the corners at least the tail touches the wall at least
+once; I'm sure they clean that up somewhat in the replays) I won with
+the Corvette at difficult, and kept coming second with the other cars.
+That demo sells the game short.  Grand Valley East would be a much
+better demonstration, with its sand traps around the hairpins.
+
+One funny thing is that the back of the racing Impreza says "SURARU",
+not "SUBARU".  Quite clearly, both while driving it from behind, and
+when it is spinning on the display stand.  It says "SUBARU" on the
+sides, though.
+
+After that I tried the Test Drive 5 Demo.  Test Drive 4 had impressed
+me when my nephew had rented it once when I was over there before I
+got my own Gran Turismo Station, but did the Test Drive 5 demo ever
+seem atrocious.  Not quite as bad as Grand Tour Racing, but it
+seemed mostly easy.  I never used to like slow-moving traffic in race
+games, but it seemed somewhat irrelevant in Test Drive.  My reactions
+had sharpened to accomodate it.  It was difficult to see what would put
+your speeding car out of control.  And while Gran Turismo scenery does
+not seem totally realistic, Test Drive 5 looked like a cartoon.  And
+they don't have proper route maps.  And, if it is like Test Drive 4,
+they don't have circuit races at all.  (Not sure if you can't win the
+demo or if I just kept choosing the wrong forks 8-); if potential
+customers lose a demo game, it is better if they know clearly why).
+
+But based on those two demos, my nephew (and also his mother) seem to
+prefer Test Drive 5 over Gran Turisimo.  One of these days we'll have
+to confess to having Gran Turismo.  8-)  In theory I should be able to
+lend him my disk sometime.  But not until after I, and I, and I...  8-)
+
+Verbosely,
+
+
+Adrian.
+
+From arpepper Mon Jan 11 13:14:14 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: More thoughts...
+Status: RO
+
+Repeatedly failing my A-3 test (I can reliably come within a second
+now...8-) sure helps my high speed straight to low speed cornering
+technique.
+
+When I first tried the GT demo weeks ago the NSX was a pig to drive.
+It seemed to have super excess oversteer.  Drift mode seemed to reduce
+that, but, as far as I can tell, drift mode makes it impossible to win,
+but maybe I should try that again too.  The manual is really vague
+about the purpose of drift mode.  8-)
+
+Similarly I used to have a tendency to induce overcorrection
+oscillation into the Subaru Impreza's movements.   That tendency
+seems to have vanished.
+
+And the Corvette always seemed nice to drive, but now I can hold a
+slide before it turns into a spin and so I actually finish without
+spinning out.  8-)  Actually, I won with it once after I did spin it
+out; it might not even have been easy mode, either.  Those competitors
+are so polite the way they wait for you when you slow down.   8-)  It
+does make it difficult to tell what your target time is for a
+particular course/mode however...  (Though again, that is somewhat
+realistic; Juan Manuel Fangio used to say that to win a race you
+drive just fast enough to win, and no faster).
+
+One interesting game might be to try and set the slowest winning time.
+Try and see how much you can utilize (abuse?) the handicapping
+algorithm and still be able to win with a very fast finish.
+
+Conversely, when I finally did win with a Toyota Soarer in normal on
+the Autumn Ring, it sure seemed like the computer's Eclipse slowed down
+right at the end.  It was right behind me, but dropped from second
+place to fourth place for no apparent reason.  I think perhaps it
+realized it was going to go below the programmed time for normal mode,
+and slowed down because of that.  Usually I botch something after the
+hill climb and cannot stay or get ahead on the finishing straight.  I
+think I saw the same phenomenon with a Civic on Grand Valley East.  I
+had a Civic too, and I was behind at the last corner but passed the
+other Civic into first on the finishing stretch.  It didn't look like
+the other car had botched its exit or anything, and my exit was just
+okay, not great.  It sure looked like the other car slowed down.  That
+might even have been in difficult mode.  But if you've done anything
+wrong and are working on a slow time, the other cars always seem to
+have a strong finish.
+
+Speaking of botching, it is amusing when the competitors try and taunt
+you into a bad turn by braking too late and losing control.  8-)
+(Sometimes a gentle tap from behind can help mess up their calculations,
+but that's not always necessary; they definitely do it all by themselves
+sometimes  8-)
+
+
+Adrian.
+
+From arpepper Wed Jan 13 14:35:56 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: More success!
+Status: RO
+
+I'll try to keep this brief.  8-)
+
+Finished all Normal and got the Credits yesterday!
+So I guess I shouldn't give up.  8-)
+Trial Mountain "C" was the last "normal" I got.
+Lots of subtle places on that course to wring speed out of the Civic.
+Game doesn't let you save the replay of the win, because it goes
+straight to the credits then back to the menu.  8-(   8-)
+
+Done some Difficult.  A-B-C on High Speed Ring and Clubman R5. And a
+couple of others "A" only (where Viper works well  8-) I finally
+realized that position relative to #1 is more important at all times
+than your position #.  E.g. expecially on Arcade Grand Valley full
+circuit where that HUGE bump before second hairpin means other cars are
+likely to knock you out of control.  At "normal" level, at least,
+deliberately staying behind (or fifth) before each navigation of that
+bump seemed to help.  Computer cars seem to be expert jumpers.
+
+Impreza in general seems urealistically easy to control.
+
+Oh.  And I finally completed A-3.  Using automatic. 8-( Qualified
+by only .006 seconds; closest I came without qualifying was .008
+over.  Don't know whether my skill level will ever get to where
+cost/benefit analysis would justify drifting all such corners
+habitually, although the exercise has probably reduced my time
+for that stretch by 3 seconds even without totally drifting the
+corner.
+
+Handbrake helps all starts with engines with low low-speed torque,
+e.g. for a second practice run where they don't operate your "clutch"
+for you, or if you spin to a stop anywhere, not just up hills.
+
+Like two identical purchased cars, two identical prizes can share parts
+(e.g. two Demios  8-), but a prize, e.g. Civic(Racer) cannot share
+parts with a purchased Civic(Racer).
+
+But games knows that you need to purchase separate e.g. port polishing
+and weight reduction for each, and allows it.
+
+
+Adrian.
+
+From arpepper Fri Jan 22 14:31:26 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: I got my A class license!!!
+Status: R
+
+Strange, I had thought I'd manage to get all the Arcade red bonus dots first.
+I've got all but four red dots.  None on Trial Mountain (I have done a
+concerted effort at it yet), and I am having trouble with B class on
+Deep Forest.  C class I won after persisting with a field in which I
+noticed that the car which started second consistently moved up and
+finished first.  That can cause interference which you can take
+advantage of.
+
+A class.
+My wife stayed overnight at her sister's on Wednesday, and so I stayed
+up far too late.  First I went back and reassured myself by redoing all
+my B class tests.  That is a waste of "days" in the simulation, since
+you end up wanting to keep all the records.  8-)  I got lots of silvers,
+and gold for the start/stop tests.  The second start/stop I didn't get
+gold until I accidentally put it in automatic.  So there I learned that
+in automatic you get automatic optimal downshift help.  Can be useful
+on some courses and tests, but in general I find I want to know what
+gear I'm in and don't want the torque at the wheels suddenly changing,
+etc.  E.g. I tested automatic on Arcade Deep Forest B, and seemed to
+lose about 5 or 10 seconds a lap.  Their shifting is reasonably good,
+but can't, e.g. anticipate a hill or bend which makes a marginal
+upshift detrimental.
+
+I guess it does say in the manual, but it's still sort of disappointing
+when you do a silver time not as good as your previous silver time and
+so only get a bronze "prize".  It's sort of fun when G.T. Silver
+disappears from the records...
+
+One of the cornering tests, and the final are still bronze.  Quite quickly
+I got a time on the final about .05 seconds over silver, but never got
+any better.  (Final is Eunos around High Speed Ring).
+
+I realized that the biggest problem in Gran Turismo had helped make it
+difficult to pass the cornering tests the first time.  The corners
+looked like ninety-degree corners, but are almost 180.  (I recognize it
+now, of course, as Deep Forest).  I exacerbated that problem by using
+"wide" view option.  You need to apex a lot later than visual input
+alone suggests.  If I were making up the tests, I would include a
+simple ninety-degree cornering test.  Maybe two; one with long straight
+before, another with long straight afterwards.  I now use "narrow"
+view, and the problem is less severe, but still noticeable.
+
+So things clicked for the A tests.  I finished A-7 before A-6.  I did
+not need to use the handbrake to get bronze in the A-7 test even though
+they say you do.  I just drove conservatively and tight.
+
+A-6, a twiddly section from Deep Forest, stumped me for a while.  It
+was gratifying that I used my head to solve it.  I realized that
+on the second sharp corner, before the short straight into the
+second tunnel, you needed to apex late (go deep) so you got better
+acceleration into what is essentially the finishing straight.
+So, on a time when braking, downshifting, turning and then accelerating
+through the first sharp corner all came together, I concentrated on
+going a bit deep into the second, and sure enough, I got my bronze.
+
+A-8 was weird.  It took me a relatively long time to learn to keep the
+Supra RZ on the road and even get a time.  That was about 4 seconds
+over.  The car tends to understeer a lot and is difficult to provoke
+into oversteer at all.  In fact, I went and checked the specs because I
+began to suspect it was a stupid 4WD.  Anyway, shortly after the
+first run which got a time, I came down to within a second of my
+bronze.  Sometime after that was a run where I 360'd twice in the
+first hairpin but somehow did not "FAIL", so I kept going for the
+practice.  So, I begin remembering A-3 and A-4 and how long they took,
+and I decide "you're not going to get this one tonight", and just
+relaxed and thought of it as educational practice at both conscious and
+subliminal levels.  And so what happens, but a few runs later everything
+comes together reasonably well and I get 1:17.556, almost 1/2 second
+under.  (And I probably hadn't reset the game as recently as I would
+have if I had expected to pass  8-).  I'm up to almost 1000 days now;
+I really think they should announce "New Year's" for you.  Play
+Auld Lang Syne or something).
+
+This is almost like a diary.  I keep all my outgoing mail.  Some of
+this might be synthesizable into Web pages if I can decide on a focus.
+
+So, now it's almost late and really I should to bed, but after saving
+the final replay (it obviously wasn't perfect, and didn't feel so as I
+did the run, and will probably be very good for analysis), and saving
+the game state with the A license, I wanted to make use of it.
+
+I'd read that the "Clubman Series" was a good way to make a bit of
+Chromium (that's what "Cr" stands for, isn't it??? 8-)), and so I
+entered that.  Not knowing what to expect, I used my racing Cerbera.
+
+Comments on the entry screen say "requires advanced racing skills", so
+I felt glad that I had chosen the racing Cerbera.  However, really the
+screen should say "requires advanced racing skills or a car which
+absurdly outclasses the field".  First race, Autumn Ring, I crank up
+the final drive, try some practice, seem pretty smooth, start to
+qualify, and it's a total disaster.  But, I note, that my initial test
+run (from standing start) was 4 seconds faster than the first place
+qualifier.  So that was encouraging.  Race starts, and I tear away in
+front, no problem with the hairpins, but then I lose it completely
+on the 270degree corner after the underpass, forgetting about my
+upshift quick spin recovery technique.  So I'm way back in 6th, and
+think, well they'll wait a little, so maybe I'll salvage 5th or 4th,
+but, no, I easily manage to get back into first just before the
+underpass the second time.  So I take it really easy from there on.
+The section up the hill to the "stadium" part is tricky too.  Each car
+seems to need a different technique,  so, I loaf along.  This turns out
+to be enough to actually anger the handicapping algorithm into sending
+a car past me.  But I just stay behind and power past it on the final
+straight.  Advanced driving techniques, don't you know.
+
+So then on Clubman R5 and Trial Mountain I get pole and win both,
+leading from start to finish.  I really hate that Clubman track, the
+way it's not worth trying to avoid "clipping" the walls.  And portions
+of my drive around Trial Mountain made me think "Nobody needs to buy
+Test Drive Offroad; this is like an off-road test drive".  But with a
+car like the Cerbera you can get away with all that nonsense and win
+anyway.  So I win my first Camaro (of probably many more to come),
+along with all the quite generous associated Chromium.  Oh well,
+sometime when I've got more time I'll enter tougher series and take
+proper amounts of practice time with whatever car I'm using, and try to
+make it all look more elegant.  And I can remember that this series
+exists to finance my bad habits even faster than the Sunday Cup.
+
+And I must admit those A-class tests do help with taking the trickier
+parts of Trial Mountain.
+
+The fact they have only 11 tracks and run them backwards to get more
+indicates they are short of space on the CD.  (Trial Mountain II
+actually has the arrows going the wrong way!!!)  This is unfortunate
+because I think it would be fun if the "game map" actually corresponded
+to a simulated village you needed to drive around.  Portions of the
+village would probably look suspiciously like portions of the R5 and
+R11 courses.  There could be cops who would give you tickets for
+speeding and dangerous driving.  I'm not sure how you'd get around to
+buy your first car, or get back after a sale, however.  8-)  (GTTA?
+Gran Turismo Transit Authority?)  (Gee, maybe they could make you racer
+by day, Leisure Suit Larry by night.  The more races you win, the
+more...)  8-)
+
+Another fantasy enhancement is a 1929 Bentley, but I'm not sure if
+their car drawing routines could handle that, let alone the problem
+with getting a physics model for it.  And licensing.  It would probably
+feel like a pig to drive anyway.
+
+
+Adrian.
+
+From arpepper Fri Jan 22 19:42:56 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Tentative info for your Spot Race charts
+Status: R
+
+This is long again, but it contain one definite web page correction.
+(A-8 time is 1:08), and a tentative statement about another page.
+Again, perhaps I could eventually take some of the rambling out of
+my outgoing mailbox and put it into web pages eventually.
+
+I wonder, what's the youngest age at which children can really
+appreciate Gran Turismo?  When can children understand manual
+transmission?  I vaguely remember understanding it between
+grade 6 and grade 7 (roughly, um, add 5, 11 years old).
+
+Anyway, in the charts for the Spot Races in
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/
+
+E.g.
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/high_speed_ring.html
+
+You still have $XXX for 2nd,3rd,4th,5th
+
+I think it is 500,400,300,200
+
+I'm 80% sure that 2nd is Cr500.
+You can then interpolate the rest, and I'm pretty sure I was never
+surprised at the amount I got.
+Note the big premium for coming 1st, not 2nd.
+
+I'm 95% sure that pole position gets Cr500.
+
+I am making assumptions that all races pay out the same.
+I probably came second on more than one track.
+
+How did you determine the pole times?  Don't they vary?
+Or do they only vary down to some floor, which you list?
+Of course, it gets messy once you get pole, because you have to do
+arithmetic to figure out what the 2nd guy's time actually was.
+
+I have observed that pole times for Spot Races seem to be better than
+ones for the same track in the Sunday Cup.
+
+Is "beginner,intermediate,advanced,professional" a ranking you made up?
+
+If so, it might be nice to indicate somehow that Sunday Cup and
+Clubman Cup are actually easier than Spot Races.  The two series
+seem to be just an easy way to raise Cr (And Demios and Camaros) to
+support your habits.  Not having different values for different
+prize cars is "not a nice touch".  I.e. different values for
+different prize cars would be "a nice touch".
+
+For all races it would be nice to give some winning times, or "time
+needed to win".  Best time is sort of irrelevant.  Worst winning time
+(by a human) would be more relevant.  8-)  Time of computer winner when
+you come close second is probably best indicator of needed time, but
+the handicap algorithm is strange.  More strictly, time of computer
+winner when you drove a clean race and came a close second might
+indicate the time.  (Since if you have a catastrophe, they do seem
+to wait for you).  Time of second place competitor is some indication,
+but in some series they seem to hang just behind you no matter how
+fast you go, or, to a point, how slow you go.
+
+In Sunday Cup, High Speed Ring, the strange handicapping algorithm
+which usually manages to finish a car about 1 second behind you
+fails as you can leave all 5 cars > 10 seconds behind.  8-)
+Of course, once you get to >13 seconds or so, you can't even tell
+how far ahead you were.  8-(  (On other tracks I think I've had
+up to about 5 or 6 seconds before the 2nd place car).
+
+Oh.
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/licenses
+
+You still have a "?" in the bronze time for A-8.  At the beginning of
+the test they tell you the needed time is 1:08.
+
+The A4 tips are confusing-sounding and dubious.
+It takes a while to work out in Duane Laviniere's description that he
+is not counting the initial left-hander through the first tunnel as a
+turn.  And therefore what he calls the "first turn" is actually the
+second turn.
+
+We don't seem to get rec.games.video.sony here.  8-(
+
+Oh well.  Your license advice never did quite flesh out the way you
+hoped, did it?
+
+Although I didn't need it for B-1, I'd suggest to people that they
+use an automatic transmission for B-1 and B-2 if they want to get gold
+quickly, because the computer optimally downshifts (engine brakes) for
+them when they brake.  This seemed sort of counter-intuitive to me,
+but it makes sense when you think about how the cars are emulated and
+the goals of the game designers.
+
+Conversely, attempting to get gold in B-2 using manual transmission
+would be a good way to learn to quickly downshift properly.  I've
+come to the conclusion that if you over-downshift, the emulation
+acts on the assumption that your clutch is out until car speed is low
+enough to match maximum engine speed.  That is, you lose your engine
+braking until the car is slow enough for the new gear.  Do you think
+that is the case?
+
+Another good place to practice proper downshifts is A-3 and A-8.  I
+actually ended up using automatic in A-3, but got my bronze in 
+A-8 with manual.  It is nice to stay in the same gear as you manipulate
+the throttle.  But in A-3 my lack of co-ordination seemed to over-ride
+that concern.  But in arcade mode I tried automatic to see if it would
+help my Mitsubishi Eclipse win Difficult in Deep Forest Racing Way and
+it seemed to drastically reduce my times.  (it is actually "Racing
+Way", isn't, it, not "Raceway"--frustrated Japanese sort of throwing
+our confusing grammar rules back at us, maybe).
+
+Proper downshifting is difficult, of course, because you need, for each
+gear of each car, to determine what tach speed in that gear corresponds
+to the red-line in the next lower gear.  For upshifting, you basically
+just shift when you hit the red-line.  (You may want to shift a little
+later if there is a big jump to the next gear, or earlier if the next
+gear is very close).  Of course, that infinitely-variable "racing
+gearbox" can be used to make the downshift tach speed a constant as
+well.  8-)  Good thing I wasn't in charge of the project, or you'd
+have to choose gears and final-drive from a (large) set of discrete
+integer ratios.  8-)  (I'd express them as decimals, but I think it
+would be more realistic and in someways simpler to limit the
+granularity).  Even when shifting by ear, you don't get a definite
+clue when to downshift, because actual engine speed will be different
+for different downshifts.  In real-life in one's one and only car,
+one learns what each gear sounds like when the engine could stand
+the gear one lower, and also knows the speed ranges (if one has a
+cheap car without a tach; notice how all Japanese cars with automatics
+come with tach because automatic is more luxurious than tach, but
+most Japanese cars with manual do not have a tach because they are
+economy packages?).  Drivers who regularly drive different cars, or
+cars with different gearing setups, must develop strategies for
+remembering these things.
+
+By-the-way, you have surely noticed that one can set the gear ratios in
+GT in inappropriate orders.  I.e. set 3rd to be lower than 2nd.  Or
+does something notice before you try and save it?  I should try that
+sometime.  When I get bored of trying to finish in each position in
+each of the spot races, or something.  8-)
+
+Hey.  That would be good.  A page of silly things like that (try to
+finish in each position in each spot race) to try when you're feeling
+bored or frustrated with Gran Turismo.  I guess "try driving a car
+with badly order-gear ratios" might be another.  Hmm... Perhaps it
+does notice because what would that do to its automatic gear
+shifting algorithms?  Aaa... It woulD probably just end up more-or-less
+skipping the bad gear.
+
+
+Adrian.
+
+From arpepper Mon Jan 25 13:41:55 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: definite prize moneys for High Speed Ring
+Status: R
+
+I did the experiment, and confirmed that, for the High Speed Ring,
+
+Pole:  Cr500      
+                    1st         2nd or me
+1st:  Cr1000      1:52.915      +8.993(2nd)
+2nd:   Cr500      2:12.338      +0.140(me)
+3rd:   Cr400      2:11.062      +2.411(me)
+4th:   Cr300      2:10.961      +1.464(me)
+5th:   Cr200      2:09.457      +1.871(me)
+6th:   Cr100
+
+Note that I waited later and later to lose, that's why the winning times
+get faster and I am closer in time to the winner for 4th than 2nd.
+I think.
+
+I'm pretty sure the prize money is the same for all Spot Races.
+
+Following pole time observations:
+My pole          Runner-up
+58.246            +14.590
+58.342            +14.064
+58.130            +14.284
+58.229            +14.219
+
+Never did deliberately lose the pole and see what times the winner
+got.
+
+I won the Toyota Lancer LM edition.  (Not difficult, but...)
+It has a strange burble in its accelleration.  It doesn't seem to
+occur at a constant engine speed.  Another thing I've noticed is that
+Vipers and Corvettes behave as if they have a first gear rev limiter
+limiting them to 6000rpm.  But in the IA-2 test (SS R5 with a Viper)
+the exact properties of that apparent limit seemed to vary.
+Bah.  IA-1 was fairly easy, but I've got a long way to go for IA-2.
+
+In arcade I'm down to Deep Forest "B" as the only red dot remaining to
+get.  I've switched to the Soarer in my attempts.  I had been leaving
+Trial Mountain till last, but was getting so frustrated with Deep
+Forest that I went to try my luck at Trial Mountain.  The Impreza won A
+after a few warm-up attempts.  Next I tried the trusty Civic, and won C
+after two or three races.  And then the Eclipse won B on my first
+attempt with it.  I think Trial Mountain had seemed so hard at Normal
+that I'd learned where to squeeze speed out in the process.  And there
+was the A-license test which helped set up for the hilly straight,
+too.  The computer cars take completely the wrong line through the
+esses before the finish.  I took advantage of so many sneaky tricks
+that my cornering onto the penultimate straight was still unpracticed
+enough that I often, even usually, ended up going on the grass.  In
+addition to the final esses, and the turns before the uphill straight,
+another place one squeezes speed out of Trial Mountain is the first
+series of corners after the start.  You start turning early into turn 1
+(red/white rumble strip thing on your right side gives a big hint
+when), and can take that series of turns up to the tunnel really fast.
+
+In fact, as general hint to driving Gran Turismo, many corners seem to
+be taken best if you start cornering as soon as you see the
+red-and-white rumble strip on the outside.  And, even if one learns to
+do better, those strips make excellent reference points.  But the
+perspective is such that some corners, e.g. turn 1 at Trial Mountain,
+(also the turn into the tunnel on Grand Valley East) do not visually
+seem relevant as early as they really are, and you can use the rumble
+strips to make up for that.
+
+
+Adrian.
+
+From arpepper Mon Jan 25 19:45:39 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: I just tracked down the FAQs.
+Cc: arpepper
+Status: R
+
+
+E.g.
+
+http://www.gamefaqs.com/console/psx/
+http://www.gamefaqs.com/console/psx/faq/gran_turismo_comp.txt
+
+Lots of info there.  Perhaps you knew that already...
+
+Of course, I forgot to bookmark the pages that listed recommended
+cars for Arcade Mode Races, and am now having no luck getting
+altavista (or my memory) to find them   8-)
+
+Hmm.  Haven't today run across that guy who has his pages set up like
+Simulation Mode, either.  Oh, I just did.
+
+http://pages.prodigy.net/freakyfred/granturismo/
+
+Hmm.  Found a listing of Arcade mode class recommendations...
+
+http://brighton.ncsa.uiuc.edu/~lrajlich/gt/arc_course.html
+
+Unfortunately, I almost completely disagree with it.  8-)
+
+
+Adrian.
+
+From arpepper Wed Jan 27 13:07:36 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: spelling mistake in simulation car info
+Status: R
+
+You spell "Fairlady" "Farilady".
+Strange name for a car, actually.
+
+Along similar lines, I did see somewhere that the "Eunos" is the
+"Miata" in North America.  I guess they (probably rightly) decided
+that "Miata" was more catchy, but the game didn't pick up on the
+North American name.
+
+I tried the Normal Car Race with a Cerbera.  Like starting all over
+again.  The most annoying thing is how the tires don't squeal.  You
+just silently sli-i-i-p off the edge of the road.  It  really
+highlights the differences in road surface they emulate.
+
+
+Adrian.
+
+From arpepper Wed Jan 27 14:51:27 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Re: spelling mistake in simulation car info
+Status: R
+
+> From albrnick@bobcat.ent.ohiou.edu  Wed Jan 27 13:16:05 1999
+
+> > I tried the Normal Car Race with a Cerbera.  Like starting all over
+> > again.  The most annoying thing is how the tires don't squeal.  You
+> > just silently sli-i-i-p off the edge of the road.  It  really
+> 
+>   Oh I hate that!!  I always got the tire upgrades ASAP.
+
+Tire upgrades aren't allowed in the Normal Car Series, are they?
+
+>   <sigh>  I owe you so much email.  Sorry for the delay.  It'll proly be a
+> bit longer too I fear.  I'm in the middle of a break up with the GF, and
+> anotehr business I'm doing is about to go under, unless I put in some
+> superhuman effort.
+
+Don't worry about it.
+
+I tend to rattle on too much.
+
+Some of it borders on rhetorical questions, others I might pore over
+later if I ever decide to create some sort of driving advice pages.
+("Gran Turismo for the Complete Klutz", or something, maybe?  8-)
+
+That use of the handbrake to force a clutch pop suggestion you "hmm'd"
+about works really well, though.  As does upshifting to prevent a
+spinout.  But, by the time you've got the car that close to a spin
+you've already lost a lot of time--probably too much for any advanced
+series.
+
+So, if you do work on replies to my email, concentrate on correcting
+any gross misconceptions you notice.
+
+>   <sigh>  I owe you so much email.  Sorry for the delay.  It'll proly be a
+> bit longer too I fear.  I'm in the middle of a break up with the GF, and
+> anotehr business I'm doing is about to go under, unless I put in some
+> superhuman effort.
+
+It sounds like you have a lot more serious things to worry about.
+Many people would have started silently ignoring me by now.
+(I finally figured out that GF stands for "girl friend"  8-)
+(I might have known sooner if your sentence hadn't implied that "GF" was
+a business venture... 8-) )
+
+
+Adrian.
+
+From arpepper Thu Jan 28 13:06:01 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Finally achieved Hi-Res GT mode
+Status: R
+
+As you may recall, the last red dot I needed to get was Deep Forest Racing
+Way "B".  I finally did it last night (early this morning actually).
+
+I used the Toyota Soarer.  I finally realized that I was shifting it too
+late.  By shifting earlier I could get more speed up that backstretch
+(the curving straight on the varied tarmac through the two tunnels).
+This allowed me to pass computer cars there, and pass the leader on
+the turn coming out of the second tunnel.
+
+The time I won with (1:28.xx) was not my fastest (I did 1:26 a few times
+before changing my shifting strategy). 
+
+But the trouble seems to be that if you are leading, the computer cars
+get really mad and start driving really fast, and bashing past on the
+inside, etc.  Since they do occasionally miscalculate turns and end up
+losing time on the grass, it can be the case that they go by on your
+inside "too fast", and use you to slow themselves down.  In the process,
+of course, your car gets messed up one way or another.  You either slow
+down too much, or go off onto the grass, or both.
+
+So the key to winning in arcade mode seems to be a strong finish.  On
+Deep Forest Racing Way you need to get the last corner just right so
+you exit fast and right on the outside edge.  The time I won the
+second place car actually did rear-end me but did not attempt to pass.
+
+Most other courses have easier ways for a human to achieve a strong
+finish.  Trial Mountain has that esse that the computer cars take
+completely wrong, for instance.  And Grand Valley has the diddly
+hairpin esse where all sorts of fun things can be done.  But the last
+corner on Deep Forest Racing Way seems to suit the computer
+algorithms better than people.
+
+Another observation I've made is that different fields of cars behave
+very differently.  The cars are automatons.  If you keep retrying with
+the same field, if you drive the same line, they will make the same
+movements.  After a few sessions you can use this to determine how to
+get to the front early.  To win, you seem to need to get near to the
+front, but should not lead the entire way.  You need to get to the
+front to keep the cars grouped close together, but they get too vicious
+if you stay out in front, so you want them close together so you can
+drop back and pass towards the finish.  Until I discovered the proper
+shift pattern for the Soarer, however, I did not think I could pass
+close enough to the finish.  But eventually when I won, I pass the
+second place car for the last time just coming out of the last tunnel.
+
+In some fields of cars, one car consistently zooms to the front and
+stays there.  I don't think one should persist with such a field.
+(Or I shouldn't, anyway).  You seem to have a better chance in a
+field where lead among the other cars changes consistently.
+
+Are white computer cars always fastest?  At times it seems so.
+
+
+Adrian.
+
+From arpepper Fri Jan 29 18:44:50 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Re: spelling mistake in simulation car info
+Status: R
+
+I realized you might have actually wanted some responses here.
+
+> From albrnick@bobcat.ent.ohiou.edu  Wed Jan 27 13:16:05 1999
+> From: Nicholas Albright <albrnick@bobcat.ent.ohiou.edu>
+> To: "Adrian Pepper [MFCF]" <arpepper@math.uwaterloo.ca>
+> Subject: Re: spelling mistake in simulation car info
+> 
+> On Wed, 27 Jan 1999, Adrian Pepper [MFCF] wrote:
+> 
+> > You spell "Fairlady" "Farilady".
+> > Strange name for a car, actually.
+> 
+>   My way, or the normal.  ;)  Thanks for pointing that out.  I thin kit's
+> corrected.  :)
+
+And I see that although it now says "Fairlady" at
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/nissan/
+it still says "Farilady" at
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/cars/comparison.html
+
+And yes, "Fairlady" itself is a strange name for a car.  Though
+"Farilady" is stranger, unless perhaps it's a surname.
+
+> > Along similar lines, I did see somewhere that the "Eunos" is the
+> > "Miata" in North America.  I guess they (probably rightly) decided
+> > that "Miata" was more catchy, but the game didn't pick up on the
+> > North American name.
+> 
+>   Heh.. So did I have the wrong one?  :)
+
+Naw.  The connection was that "Eunos" is a name I think they don't and
+wouldn't use in North America, just like "Fairlady".  Anyone who gives
+text descriptions of the cars should mention "Miata" when talking about
+the Eunos.  In fact, that must be where I got the information from.
+
+Actually, searching altavista, I think "Eunos/Miata" is  mentioned in
+the B-class final hints.
+Yup.
+
+   Linkname: Gran Turismo B-Class license
+        URL: http://faqs.simplenet.com/faq/GranTurismo-b.htm
+
+     Test Car: Mazda Eunos (MX-3 Miata)
+     Time Limit: 1'22"00
+     Prerequisite: Must complete the first seven B-Class License Tests
+     first.
+
+
+Adrian.
+
+From arpepper Mon Feb  1 13:31:33 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: data errors and inconsistencies (with solutions)
+Status: R
+
+In the data for http://www.ent.ohiou.edu/~albrnick/gt/cgi-bin/sim-cars.cgi
+there seem to be some inconsistencies.
+
+I used:
+
+#!/bin/csh -f
+lynx -source http://www.ent.ohiou.edu/~albrnick/gt/cgi-bin/sim-cars.cgi -post_da
+ta <<EOF
+show=manu&show=cdt&show=cshp&show=csw&show=csr&show=cmhp&show=cmw&show=cmr&num_cars=1000&order=0&key=cshp&test1=none&min1=&max1=&test2=none&min2=&max2=&Toyota=-1&Mitsubishi=-1&Aston+Martin=-1&Nissan=-1&Honda%2FAcura=-1&Dodge=-1&Subaru=-1&Chevrolet=-1&TVR=-1&Mazda=-1&Prize+Cars=-1
+EOF
+
+to dump data for all the cars, I believe.  I then edited it into
+"lotus form", sort of.
+
+I then ran it through the following Perl script:
+
+===============================================================================
+#!/xhbin/perl5
+while ( <> ) {
+	$_ =~ s/\n//g;
+	@original = split(/,/);
+	@fields = @original;
+	foreach $f (@fields) {
+		if ( $f =~ /---/) {
+			$f = -1;
+		}
+	}
+# printf ( "%s,%s,%s,%s,%s,%s,%s,%s,%s\n", (@fields) );
+# print $#fields, ",";
+	($name,$mfr,$drive,$stockbhp,$stocklb,$stockrat,$maxbhp,$maxlb,$maxrat) =
+		 @fields;
+	$alert1 = "";
+	$alert2 = "";
+	$gsrat = $stockbhp / $stocklb;
+	if ( $stocklb > 0 && abs( $gsrat - $stockrat ) > .001 ) {
+		$alert1 = sprintf(",** stock ratio ** $stockrat should be %0.3f", $gsrat);
+	}
+	$gmrat = $maxbhp / $maxlb;
+	if ( $maxlb > 0 && abs( $gmrat - $maxrat ) > .001 ) {
+		$alert2 = sprintf(",** maxed ratio ** $maxrat should be %0.3f", $gmrat );
+	}
+		
+	printf("%s,%s,%s,%s,%s,%s,%s,%s,%s", (@original) );
+	printf("%s%s\n", $alert1,$alert2 );
+}
+===============================================================================
+
+Here's the lines which get "alerts".
+
+NSX,Honda/Acura,MR,290,3068,.089,534,2054,.259,** stock ratio ** .089 should be 0.095
+GTO Twin Turbo,Mitsubishi,4WD,276,3769,.077,930,2713,.342,** stock ratio ** .077 should be 0.073
+Fairlady Z Ver S Twin Turbo 2 by 2,Nissan,FR,276,3461,.079,670,2491,.296,** maxed ratio ** .296 should be 0.269
+Alcyone  SVX 4,Prize Cars,4WD,236,3505,.075,452,2347,.192,** stock ratio ** .075 should be 0.067
+R32 '91 Skyline GT-R,Prize Cars,4WD,276,3262,.092,913,2347,.389,** stock ratio ** .092 should be 0.085
+Eunos Roadster Normal,Prize Cars,FR,127,2182,.059,233,1461,.161,** maxed ratio ** .161 should be 0.159
+AE86 Sprinter Trueno GT Apex,Prize Cars,FR,128,2039,.062,226,1364,.155,** maxed ratio ** .155 should be 0.166
+Soarer 2.5 GT-T VVT-i,Prize Cars,FR,276,3439,.079,789,2475,.318,** stock ratio ** .079 should be 0.080
+Alcyone Version L,Subaru,4WD,236,2571,.066,452,2391,.189,** stock ratio ** .066 should be 0.092
+Alcyone SVX 4,Subaru,4WD,236,3505,.075,452,2347,.192,** stock ratio ** .075 should be 0.067
+Legacy '93 Touring Wagon GT,Subaru,4WD,236,3505,.075,452,2347,.192,** stock ratio ** .075 should be 0.067
+Griffith Blackpool 4.0,TVR,FR,335,2336,.145,430,1565,.274,** stock ratio ** .145 should be 0.143
+Griffith 500,TVR,FR,340,2336,.101,430,1565,.274,** stock ratio ** .101 should be 0.146
+Cerbera,TVR,FR,350,2452,.145,436,1624,.268,** stock ratio ** .145 should be 0.143
+AE86 Sprinter Trueno GT Apex,Toyota,FR,128,2039,.062,226,1364,.155,** maxed ratio ** .155 should be 0.166
+MA70 Supra GT Twin Turbo,Toyota,FR,230,3417,.047,585,2460,.237,** stock ratio ** .047 should be 0.067
+Soarer '96 2.5 GT-T VVT-i,Toyota,FR,276,3439,.079,789,2475,.318,** stock ratio ** .079 should be 0.080
+===============================================================================
+
+I happened to notice that you give stock weight for the Cerbera as "2452",
+whereas in fact it is "2425".  OTOH, that weight reduction still does
+not give 0.145 ratio (quite; I make .1443).
+One alternative would be to not store the PTW ratios at all.  Just
+calculate them on the fly each time.
+The Griffith error is quite dramatic.  That's what caused me to
+investigate further.
+
+I also notice you don't have the Maxed figures for the Demio Aspec  
+prize car   8-).
+
+As soon as I won my second Demio I started hopping it up.  I'll have
+to max one for you and let you know the results.  Nothing quite as
+funny as a racing Demio.
+
+
+Adrian.
+
+From arpepper Mon Feb  1 14:49:48 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Diary for Jan 29-Feb 1
+Status: R
+
+Well, this weekend I won several of the nifty prize cars, by doing the
+international series.
+
+The first time I tried the UKversusJapan, with my race modified
+(Castrolized?) Cerbera, I lost to an absolutely identical-looking
+Cerbera.  This is the first time I have seen the computer generate
+an identical opponent in a series, although I think occasionally
+back in my days of Spot Races another red Supra MA70 would show up.
+But that's not as distinctive as the two-tone racing Cerbera.
+
+Eventually I got my footing, and the Cerbera won a Cerbera.  (green).
+Winning that car is the object of the game, isn't it?  It sure seems
+like it.  Before driving it, I think I humiliated myself with the
+Viper in the Normal Car series.  I humiliated myself with several
+cars in the Normal Car series last weekend.  But I remember driving
+the Cerbera and thinking "this car is on rails"; I think that was
+partly because of the comparison with the Normal Car series.  I
+managed to get the Viper to third in the Normal Car series, but
+other attempts (Griffith, Impreza Mitsubishi GTO 4WD) failed
+miserably.  Notice how the Mitsubishi GTO twin turbo series of
+cars say "276bhp" on the showroom, but "311bhp" after you've bought
+them?  A nice change from the Subarus which seem to lose about
+6bhp after you buy them.
+
+I wish there was a series with cars of the same caliber as the Normal
+Car Series, but which had shorter races.  One observation of the Normal
+Car series which I did make with the Griffith on the Mini Ring was that
+the cars do not try hard to keep you lapped.  (I spun out early and got
+lapped on lap 4, but got back ahead and the leader stayed behind).
+
+In addition, I wish there was a series of 5 lap races which was not
+as intense as the Normal Car Series.  Doing the Normal Car Series
+can literally give me a headache.
+
+I used the prize Cerbera, I think, to win the UK versus US series,
+winning the green Castrol RX7.  (Seems ironic, since it's neither
+American nor English).  I brought out the 900hp Skyline to win the
+Japan vs US series, winning a white Viper with blue stripes.  It's good
+to have a couple of Vipers in your garage.  To vipe your vindshield.
+
+I think acceleration burbling, noticeable in all LM cars, and large
+American cars, may be the game punishing you for not warming up
+properly before the start.  I now think dutifully doing that warm up
+may be essential to really good license times, etc.  I.e. presumably
+the game punishes you, albeit less dramatically, even with less
+powerful cars.  I did a silver time for B-8, that leaves only B-3 at
+bronze.  I discovered you *can* do a bronze B-3 (Deep Forest Haipin)
+without brakes, but am not sure how that info relates to doing a really
+fast time.  I think B-3 is the hardest B test both to get silver, and
+even to get bronze, and I'm not sure that's great game design, since
+it can make for early discouragement.  I suppose it's a relief when
+the other tests are easier.  And you are allowed to take them early,
+so...
+
+Silly stuff I did included taking the prize Cerbera to put some
+decent records on the Spot Races.  I guess they are easier than
+the Sunday Cup, in terms of times, but I think the other cars
+in the Sunday Cup try a little harder to let you win if you
+are close.  The silliest thing was when I took the 900hp Skyline
+to the High Speed Ring Spot Race, and got the pole even after
+spinning out on the last corner when qualifying.  So I did the
+race over, and demolished the records nicely.  Slightly less
+silly was taking this thoroughbred racing machine to sweep the
+FR series.  It's fun setting decent track records, but I wish
+they were accessible without entering the series.  Also, the info
+from other series should be available in all series.
+
+Speaking of letting you win.  I took the prize Cerbera to the UK/Japan
+series, trying to win for a second time.  I thought I was going to
+lose.  I forgot where I was on Trial Mountain II and wiped out badly on
+the tricky sharp left-hander.  I never recovered, finishing 6th.  I
+cleaned up okay on SS R5 and HSR.  But then I was doing nicely at GVE
+II, but a little worried about the guy right behind me, who wasn't a
+contender anyway, so I lost control on the very last hairpin.  I didn't
+spin, but went off into the gravel, and lost 4 positions finishing
+5th.  So, the series leading RX7 has 22 points to my 21 going into the
+dreaded SS R11.  Even the fact it has so few points is an indication
+they try to help you win.
+
+Anyway, on R11 I have my usual share of minor disasters for that
+course.  Attempting to go slowly through that awful chicane and getting
+spun around by a rear-ending computer car (they have impeccable night
+vision, of course) usually happens at least once.  But I keep
+soldiering on, having learned a reasonable rhythm for the first set of
+twiddlies after turn 2 (the sharpish one with the red barriers) which
+allows me to keep picking off the opposition.  Now I noticed the RX7
+poking around a little near the back of the pack.  That's good, I
+thought.  I just need to finish with one car between him and me, and I
+get two more points and can win the series without even winning the
+race.   I manage to stay calm, and even take second on the finishing
+straight, and sure enough, I win the series.  The RX7 finished 5th
+in the race.
+
+But I win an identical Cerbera.  Not even a purple one.  But, being
+a millionaire now  8-), I don't bother selling the car, but keep it
+for reference.  (I.e. settings).  If I win a purple one, I guess
+I'll sell this second green one.  Or maybe I'll just donate it to
+the Salvation Army.  The tax deduction should be worth more than
+what the TVR dealer will give me.
+
+Probably some weekend I'll take my million and use it to "borrow" the
+$500K Special Models (ie. test drive them, but not save the game).
+
+Actually, one would think you could take cars for a test-drive without
+buying them; perhaps to the test centre and to Autumn Mini time trial.
+(results could be not saved unless you actually own the car).  But
+perhaps that's a North American culture thing.  Perhaps in Japan you
+buy cars without test driving them.  Of course, they'd have to
+decide whether you could test drive cars you didn't have the money
+for.   8-)  Actually I did do some test-driving when trying to
+compare 4wd Normal Cars (in vain, of course), since I didn't want too
+many in my garage and/or to donate too much to the Auto Dealers'
+Charity.  Way back when I first started playing the game I did one set
+of several days using a Toyota Corolla Levin which I never saved.
+After that I bought a Supra MA70 which is apparently one of the good
+choices.  So I guess one does have a test drive option, but it is
+a hassle.
+
+
+Adrian.
+
+From arpepper Mon Feb  1 17:45:25 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: Minor mistake, I think.
+Status: R
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/megaspeed_cup.html
+
+
+You list the pole time for High Speed Ring I as "0:41.731".
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/megaspeed_cup.html
+
+Now, this happens to be identical to the reasonable value you give
+for the Autumn Ring Mini II in
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/normal_car_world_speed_contest.html
+
+So I suspect incorrectly transcribed the former, since it seems about
+10 seconds too fast.  I can believe someone somewhere set such a time
+for this event on High Speed Ring I.  But, as far as I can tell, your
+"Pole times" are an estimate of the time required for the player to be
+guaranteed pole.
+
+Pole times for Megaspeed Cup seem to be easier to get as event
+progresses, so I think required time is somewhere around 51 seconds,
+versus the 56 which is easy enough to beat in the other direction.
+
+Actually, in several of the series the races seem to get easier as you
+move through the series, as if they've tuned the game for "come from
+behind" excitement.  A big exception, right now, seems to be the
+several series which end with SSR11, but it feels like perhaps that
+track is just difficult to learn, and the competition is not
+difficult, per se.  (Except for their night-vision advantage).
+Besides, you've often got the series wrapped up by then, anyway.  8-)
+
+Minor typo in
+
+http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/4wd_challenge.html
+
+Special Stage Roune 5 II
+                 ^
+
+There is an advantage in your small pages for these races, but if they
+were all tags on a large page, one could easily search for patterns,
+scroll up and down, and compare, etc.  This making the table of
+contents
+( http://www.ent.ohiou.edu/~albrnick/gt/simulation/races/index.html
+is essentially a table of contents) a pointer into a single largish
+document, or even the same document, is a fairly standard Web trick
+for allowing tree access and flat-space scanning at the same time.
+
+Each page is only about 5k, so total would be only about 100K or less.
+Maintaining both chopped up and contiguous version would be a pain,
+unless you derived them both from a single source form.
+
+That last thought is probably just something to think about for future
+pages.  I mean, maybe you even thought about it for this one and
+rejected it...
+
+
+Adrian.
+
+From arpepper Tue Feb  2 15:45:02 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: souped up Demio prize car
+Status: R
+
+I made the max figures for the Demio A spec prize car  211bhp, 1210lb.
+
+I got:
+12.755 400m
+22.500 1000m
+163mph max speed (using my clockwise running technique)
+latter with gears of  4.400
+                      1.810
+                      1.155
+                      0.900
+                      0.800
+                    fd3.200
+
+At one point I overgeared it so badly that shifting to fifth slowed
+it down.  8-)
+
+160mph is the practical maximum; you can eek above that with a close
+pair of top gears, and run out of power and straight about the same
+time.  I could believe someone could coax 165 to 167 out of it.
+
+Anyway, I took this baby to the Sunday Cup.
+
+Autumn Mini   pole:  1st 43.900 (-2.208)
+              race:  1st 1:21.025 (-1.x)  0:40.893 0:40.132
+
+Not sure what drugs I was on for that first lap, wish I could ingest
+them for my IA time trials.  I think I stayed on the track all
+the time, but, of course, a lot of time was spent on two wheels.
+This Demio really wishes to be a motorcycle.
+
+
+HS Ring      pole: 1st 1:10.221 (-4.561)
+                            (I lost 3 secs not paying attention at start!!!)
+             race: 1st 2:04.627 (-5.518) 1:06.710  0:57.917
+                            (See I told you I lost 3 seconds)
+
+GVE          pole: 1st 1:12.288 (-11.128)
+             race: 1st 2:16.329 (-9.933)  1:11.252 1:05.077
+
+I used "-S.XXX" to indicate the distance to next competitor, similar
+to TT ghost reporting.  Er, no.  Maybe I do have it backwards.
+Doesn't matter, I think you know what I mean.
+
+So the Demio went out and won itself another Demio!!!  (Which, of
+course, I promptly sold).
+
+I finally got silver in B-3 license test.  I never fail that test
+now unless I make a gross mistake, or a bad experiment.  I can't
+reproduce the silver, but when I did it, I braked entirely with tire
+action and engine, and I stayed in the middle of the track approaching
+the turn so I could turn outwards to rock the car into it.  The action
+seems to work.  It's interesting being able to make repeated runs,
+try slightly different lines and actions, see times vary, but nearly
+always come in under the required bronze 30 seconds.  Staying in the
+middle of the track, of course, avoids losing acceleration, as well.
+
+I got 28.466 (silver was 28.500).  I notice the demo did slightly
+better at 28,448, but, unlike most demos, that demo is not a gold medal
+run.  (Gold is 28.150)
+
+It's interesting to speculate how much of one's improvement relative to
+the past is due to learning the PSX interface (I'm not sure when I
+switched to my Barracuda 2 controller, for instance), and how much
+is due to learning driving techniques.  (And a little comes from
+learning somewhat silly nuances of the game).
+
+The Barracuda 2 is nice and adult-sized, and has a noticeable dead
+zone in the centre of the analog sticks.  That has advantages and
+disadvantages, of course.
+
+
+Adrian.
+
+From arpepper Tue Feb  2 16:23:39 1999
+To: albrnick@bobcat.ent.ohiou.edu
+Subject: another Demio observation
+Status: R
+
+For the souped-up Demio, even though it had relatively poor low-speed
+torque, the handbrake would not keep the clutch out.  Strange.
+
+The trick works flawlessly with other cars.  They actually won't
+go anywhere until you release the handbrake.  But not with the
+Demio.  It hops forward against the handbrake, and then comes
+close to stalling.
+
+
+Adrian.
+

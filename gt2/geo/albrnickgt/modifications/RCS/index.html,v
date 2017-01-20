@@ -1,0 +1,93 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.02.03.22.44.24;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.52.32;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Modifications, Tuning & Terminology</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Modifications, Tuning & Terminology
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+Please select from the folowing sections:
+<DL>
+  <DT><A HREF="terminology.html">Terminology</A></DT>
+    <DD>What do the terms really mean?</DD>
+  <DT><A HREF="tuning.html">Tuning</A></DT>
+    <DD>What the tuning actually does.</DD>
+</DL>
+
+
+<P><BR>
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sat Apr  6 23:53:10 EST 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a4 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+a24 2
+  <DT>Modifications</DT>
+    <DD>What do those modifications really do?</DD>
+d34 1
+a34 1
+Last modified: Tue Jun 16 10:13:44 EDT 1998
+d37 2
+a38 5
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+
+@

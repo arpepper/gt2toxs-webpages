@@ -1,0 +1,120 @@
+Monday February 7, 2000
+
+Start GT2 by Entering the Trail Mountain 30 with my Cr10,000 Starter
+
+Threads:
+  Enduro Results
+  Gameplay Hints
+  Gran Turismo 2
+  Tuning Advice
+  Used Car Information
+
+I started a new GT2 game, trying to be fair but minimal.
+It is difficult though.  Is a Mine's Lancer Evolution V
+a Pure Sports Car, or not, for instance?
+
+The log is here <html><a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-tm30">gt2-tm30</a></html>
+
+
+I started with my previous declarations that you
+should be able to buy a gold 1968 Toyota 2000GT before day 10
+by using the following scheme:
+
+<HTML>
+<table>
+<tr>
+<td width=20%> &nbsp; </td>
+<td>
+<pre>
+
+Start a new game.
+
+days 1-4 get IB license
+day 5    - buy red Toyota Supra (turbo)'93, do WR1 and fit turbo spec 1
+         - enter Trial Mountain 30
+</pre>
+</td>
+</tr>
+</table>
+</HTML>
+
+I did this, and was lucky.  The AI field I got on day 5 was headed by a
+Ford Focus Ghia 2.0i Zetec, and so it was easy to win.  My time was
+almost identical to the time I did in the same car when I lost to a
+Lotus Elise by about 10 seconds.  The Cr150,000 was enough to buy the
+gold 2000GT, and the Denso Sard Supra could make inroads into other
+money-makers and car-getters, such as the SSR5 All-night or the
+All-Stars series.  Not to mention the GT500.
+
+<HTML>
+<table>
+<tr>
+<td width=20%> &nbsp; </td>
+<td>
+<pre>
+day 6    if came > 6th, buy super soft racing tires and whatever else you want
+day 6    if came 1st, buy 2000GT for slightly under Cr111,000
+day 6    else enter Trial Mountain 30
+day 7    if came 1st, buy 2000GT for slightly under Cr111,000
+         else modify Supra some more if you need it, but keep about Cr11,000
+day 7    - enter Trial Mountain 30
+         - by now you should be able to guarantee to come second
+day 8    Assuming you came first or second, you should now be able to
+         buy the Toyota 2000GT, and might have the Denso Sard Supra as well
+</pre>
+</pre>
+</td>
+</tr>
+</HTML>
+
+
+I started at 4:25pm, and bought the 2000GT at 10:45pm.  So that's
+6:20.  But in that time I'd actually got my IA and S licenses saved on
+another card.  S was time-consuming.  I got some of the familiar tracks
+in one try, but took 5 for S5, and lost count of S9 (Rome Night).  I
+got a kiddie prize after about eight tries, which surprised me because
+I had loaded at least one bronze time via "merge records", but I kept
+going until I got bronze.  Getting IA and S took from 5:25 to 7:40pm,
+ie 2:15, so that makes time to get the 2000GT using this strategy and
+having good luck just over 4 hours.  I practice a lot for enduros,
+by-the-way.  Oh, and wait for all AI cars to finish.  8-)
+
+And I also had to do mundane things like eat supper during that time as
+well.  I must admit 3:05 is a long time for just the one TM30, though.
+(Actual race finish time was 52:13.765) So, two hours might get IB and
+first TM30 finish.  Depending upon one's preferences one could redo the
+TM30 race until one has enough money (before day 9, though), or keep
+resetting and restarting until a friendly field shows up.
+
+I discovered some interesting things about "Merge Records" too.
+This is still the original Gran Turismo 2.0
+
+If you "merge records" into an empty game, you get records recorded for
+the license tests, but don't get your licenses or any of the cups.
+This has the strange effect that you can get a cup without setting a
+top five time.  If your last cup of the set *does* set a a top five
+time, then you get the "license acquired" screen, and the opportunity
+to save the game.  However, if you get a new cup, without setting a top
+five time, you don't get notified of the license acquisition, although,
+if you go to your game status, it is there.  And you also don't get the
+chance to save the game from within the license test screens.
+
+There is also a silver and a white 2000GT available days 10 to 20.
+
+There's also a Grand Prix White Datsun 240Z available days 20-29.
+
+I've seen three colours of that car: "Grand Prix White", "Grand Prix
+Red", and "Grand Prix Maroon".  Hmm.  That last one doesn't sound quite
+right.  Sort of like "battleship turquoise" or "army pink".
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

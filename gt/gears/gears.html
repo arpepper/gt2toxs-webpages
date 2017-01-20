@@ -1,0 +1,72 @@
+<html>
+<head><title>Gran Turismo Gear Calculator</title></head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Gear Calculator </h3>
+</font>
+</td>
+</table>
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+</p>
+<p>
+To contact the author by
+<a href="../email.html">email</a>.
+</p>
+<p>
+The video game (videogame) title, "Gran Turismo", and its logos, are trademarks of
+Sony Computer Entertainment Incorporated.
+This site is in no way associated with Sony Computer Entertainment
+Incorporated.
+Any errors or omissions are those of the author, and anyone using this
+facility does so on the condition that they realize the results are not
+infallible.
+</p>
+<p>
+Bewildered by the form?  See if the
+<a href="tutorial.html">tutorial</a> helps.
+</p>
+</center>
+<hr>
+<!-- would be nice to avoid root-relative URL here... -->
+<form method="get" action="/~arpepper/cgi-bin/gears">
+<p>
+Basically, fill in the gear-related values you want, leave blank the
+value you wish to have calculated.
+</p><p>
+Ranges of values can be indicated by e.g. "500-10000x500", which
+might be used for rpm from 500 to 10000 by steps of 500.
+Or sets of values can be used; in particular you can list many
+gears, e.g. "3.3,2.4,1.8,1.4,1.0".
+</p>
+
+<hr>
+<p><input type="submit" value="Submit"> the request when it's complete,
+or <input type="reset" value="reset"> and start over.
+</p>
+<table>
+<tr><th align="right">Final Drive Ratio(s)</th><td>
+<input type="text" name="final" value="3.3" size=20>
+<tr><th align="right">Gear Ratio(s)</th><td>
+<input type="text" name="gear" value="3.3,2.4,1.8,1.4,1.0" size=20>
+<tr><th align="right">Tire size(s)</th><td>
+<input type="text" name="tire" value="26.0" size=20>
+<tr><th align="right">RPM figure(s)</th><td>
+<input type="text" name="rpm" value="500-8500x500" size=20>&nbsp;&nbsp;(usually you want a range here)
+<tr><th align="right">Speed(s) in mph</th><td>
+<input type="text" name="mph" value="" size=20>&nbsp;&nbsp;(usually you want to leave this blank)
+</table>
+<p>
+Reorder calculation elements:
+<input type="text" name="reorder" value="" size=20>&nbsp;&nbsp;(definitely you usually want to leave this blank)<br>
+</p>
+<p><input type="submit" value="Submit"> the request when it's complete.
+</p>
+<hr>
+</form><br>
+
+</body>
+</html>

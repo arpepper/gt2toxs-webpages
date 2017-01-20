@@ -1,0 +1,39 @@
+#!/xhbin/perl5
+
+while ( <> ) {
+	if ($_ !~ /^=*[0-9]+/ ) {
+		print "$tzeroes $tones $ttwos $tthrees\n";
+		print "   $zeroes $ones $twos $threes\n";
+		$tzeroes = 0;
+		$tones = 0;
+		$ttwos = 0;
+		$tthrees = 0;
+		next;
+	}
+	$num = $_;
+	$num =~ s/\n//;
+	$num =~ s/ .*//;
+	$num =~ s/^=*//;
+	#print "$num $_";
+	if ($_ =~ /^===/ ) {
+		$tthrees += $num;
+		$threes += $num;
+	}
+	elsif ($_ =~ /^==/ ) {
+		$ttwos += $num;
+		$twos += $num;
+	}
+	elsif ($_ =~ /^=/ ) {
+		print $_;
+		$tones += $num;
+		$ones += $num;
+	}
+	else {
+		$tzeroes += $num;
+		$zeroes += $num;
+	}
+}
+
+print "   $zeroes $ones $twos $threes\n";
+
+

@@ -1,0 +1,301 @@
+lynx -source http://ubb.granturismo.com/Forum18/HTML/000052-4.html | chophtml
+
+===============================================================================
+
+<b>This is an explanation of how to use the prize car codes...</b>
+
+Thanks to Viper11581 for the 1.2 Version used lot code, and to others as credited.  Oh, and of course, <b>Memnoch The Speed Devil</b> for starting the original version of this list of codes.
+
+The prize car codes themselves are in the first posting of
+[URL=http://ubb.granturismo.com/Forum18/HTML/000052.html]Prize Cars with Car Codes[/URL] at
+[URL]http://ubb.granturismo.com/Forum18/HTML/000052.html[/URL].
+
+A complete list of car body codes (not just prize and hidden cars) can be found at:
+
+[URL]http://www.tznet.com/wagnerl/cars.TXT[/URL]
+
+Or:
+
+[URL]http://www.rogs.dial.pipex.com/index.htm[/URL]
+[URL]http://www.rogs.dial.pipex.com/carsb.htm[/URL]
+
+
+
+=============================================
+Here follows a list of four different ways to make use  of the car codes.  Pick one.   :)  The first is the probably overall the best.
+=============================================
+
+
+Code 1) <B>Buy in Toyota New Car Lineup 1</B>
+
+This code makes the desired car show up in the top left slot of the first page <B>Toyota</B> new  car lot.  You can properly preview the car, and select the color from those actually available.  Statistics in that display are not always shown 100% accurately, but will be correct in the garage.
+
+1.0 disc<tt><font face="Courier"><pre>
+
+D01C322C  D5D8
+801C3018  XXXX
+D01C322C  D5D8
+801C301A  XXXX
+</pre></font></tt>
+
+1.1 disc<tt><font face="Courier"><pre>
+
+D01C32EC  D5D8
+801C30D8  XXXX
+D01C32EC  D5D8
+801C30DA  XXXX
+</pre></font></tt>
+
+1.2 disc<tt><font face="Courier"><pre>
+
+D01C353C  D5D8
+801C3328  XXXX
+D01C353C  D5D8
+801C332A  XXXX
+</pre></font></tt>
+
+PAL disc
+Note this is for the <B>Nissan</B> lot, because <B>Toyota</B> seemed problematic.  Thanks to <B>RogsR34UK</B> for finding this for us.
+<tt><font face="Courier"><pre>
+
+D01c34e4 4758
+801c32d0 XXXX
+D01c34e4 4758
+801c32d2 XXXX
+</pre></font></tt>
+
+(<font color="red">NEW!</font>) Buy cars in Japanese version!
+
+This is the "Buy at Toyota" code for the Japanese version, except you go to Tommy Kaira for the car:
+Buy at Tommy kaira (NTSC J) <tt><font face="Courier"><pre>
+
+D01C33C0  4118 -- Checks spot 4 for modded R33, if found then:
+801C32DC  XXXX ---- copies first half of car code to spot 1
+D01C33C0  4118 -- Again, if R33 in spot 4, then:
+801C32DE  XXXX ---- copies second half of car code to spot 1
+</pre></font></tt>
+
+Thanks to <b>Unsprung Wraith</b> for translating this.
+
+This code does require you to pay full book value for each car, so using some variation of a <B>lotsa cash</B> code may be needed.
+
+<B>GS Pro</B> owners can effectively use this  code in the memory editor by first getting to the <B>Toyota</B> new car lineup 1 screen in the game, and then patching the two locations for the car code.  Get it right, and the price will change--if it changes to zero, a mistake was made in one of the car codes.
+
+<B>GT2toXS</B> came up with this code, by starting with the one which follows, and doing some work with the <B>GS Pro</B> memory  editor.
+
+=============================================
+Code 2) <B>Buy Any Car Anywhere Codes</B>
+
+With this code you can go anywhere and get the car you choose.  It does allow you some choice of the color of the car you buy.  Note that, unlike the first code, the color choice for the car is not properly mapped.  Also note that the car you appear to be buying is not changed by this code.  However, once you get to your garage you will see that the code car was bought.
+
+It has advantages over the used car code (in the next section) because you can race with the code on with no ill effects!!  Plus there is no need to hunt for the car on odd days!
+
+Also, this code should work with enhancement devices which do not have any equivalent to the <b>D0</b> conditional codes required for the new car codes above.
+
+1.0 disc
+801C2D7C XXXX
+801C2D7E XXXX
+
+----
+1.1 disc
+801C2E2C XXXX
+801C2E2E XXXX
+
+----
+1.2 disc
+801C308C XXXX
+801C308E XXXX
+
+All-in-all, I'd recommend using this code only if you cannot get Code 1 to work.
+
+=============================================
+
+Code 3) <B>Put the cars into the Honda Used Car Lot</B>
+
+This code will put the car you choose into the honda used car lot for purchase, after buying the car go back to the main menu and save, don't try to race with this code on--you can't; the game will just lock up.
+
+Note that the code is designed for use on day <b>1</b>.  On different days, the precise location of the <b>Honda</b> lot changes, and so if you use the code on some other day you will probably need to go searching the other lots to try and find your code car.
+
+The code for the regular <B>GS</B> is:
+
+1.0 disc
+800B9320: XXXX
+800B9322: XXXX
+
+1.1 disc(?)
+800B9690: XXXX
+800B9692: XXXX
+
+1.2 disc
+800b98C0 XXXX
+800b98C2 XXXX
+
+<B>GS Pro</B> users can just use the memory editor to change the above locations while the game is at the Honda used car inventory screen.  So, apart from the need to guess at the correct color code, this code is very convenient for <B>Pro</B> users.
+=============================================
+Code 4) <B>Old Hybrid Builders Technique puts car in garage slot 1</B>:
+
+With a <B>GS Pro</B>, using this code, you change the car in slot 1 of your garage to the car you want using the mem editor.  A disadvantage, especially with tuned models is you really should match up all the individual parts too.  This code is probably too clumsy for non-Pro  <B>GS</B> use.
+
+1.0 Disc  (add to the address hex 370 for 1.1, hex 5A0 for 1.2 (hex 5D0 for PAL))
+<tt><font face="Courier"><pre>
+
+-------------name
+801CCFB8: XX XX XX XX CL 00 00 00
+........: ** ** ** ** ** ** ** **
+........: ** ** ** ** ** ** ** **
+........: ** ** ** ** ** ** ** **
+........: ** ** ** ** ** ** ** **
+801CD040: 00 00 00 00 XX XX XX XX
+------------------------body
+XX = where you would put the car codes in
+CL = color
+</pre></font></tt>
+
+---------------------------------------------
+Thanks to Viper11581 for the 1.2 Version used lot code, and to others as credited.
+
+===============================================================================
+
+All this information is for <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> version 1.1.
+
+I wanted to find a method easier to use than the "100 cars in your garage" code you see at various code sites.
+
+The following will make an arbitrary car appear in slot 1 of the Toyota Used Car Lot on days 1 to 9 (and 600 to 609):
+<tt><font face="Courier"><pre>
+D00C4510  60A8
+300C451A  00??
+</pre></font></tt>
+
+?? should be one of the garage codes as available lots of places.
+
+The code overwrites the car normally available in that slot of that used car lot (an MA70 Supra), making it unavailable.  The chosen car is available instead, for the same low price.
+
+Do not use the codes for the Corvette'67 (B0), or the hidden DelSols (6A,6B) or Eunos Roadsters (AF), or the game will lock up.
+
+If you use the codes for the special models the slot disappears entirely.  (So you cannot buy the special models this way, although [R] prize cars are fine).
+
+===============================================================================
+
+Here's a long version of the codes to create an interesting used car lineup for the first nine days of the game.  The first five cars appear in the Toyota lot, and the rest in the Nissan lot.  (These overwrite the cars normally available there).
+<tt><font face="Courier"><pre>
+GREAT-DAY1-USED-LINEUP
+
+D00C4510  60A8
+300C451A  00A2 -- Viper GTS
+D00C4510  60A8
+300C451E  00AD -- [R]Cerbera LM
+D00C4510  60A8
+300C4522  00A3 -- Concept Car (B license prize)
+D00C4510  60A8
+300C4526  00A5 -- "[R]"Concept Car "LM"
+D00C4510  60A8
+800C452A  D858 -- [R]FTO LM (green)
+
+D00C4510  60A8
+800C4552  D642 -- [R]Silvia LM (green)
+D00C4510  60A8
+800C4556  C448 -- GTO'95 MR (red)
+D00C4510  60A8
+800C455A  C422 -- GT-R'89 (red)
+D00C4510  60A8
+300C455E  001C -- TRD 3000GT
+D00C4510  60A8
+300C4562  003F -- Nismo 400R
+D00C4510  60A8
+300C4566  00A4 -- [R]Viper GTS-R
+D00C4510  60A8
+300C456A  001D -- [R]Castrol Supra GT (prize)
+D00C4510  60A8
+800C456E  C45E -- Acura TypeSzero (red)
+</pre></font></tt>
+
+The cars I show are in a sense just examples, although I did test the actual literal examples above.  You can change the car codes to any valid garage values you want, subject to the same caveats as mentioned above.
+
+Note that for the cars with colours shown in parentheses I use an [b]80[/b] code instead of a [b]30[/b], and specify the colour byte, to change it from the often boring default colour for that particular car.  [b]C4[/b] is a nice colour code for lots of cars.  The colour byte is not the same as the colour index nybble in the garage--it is more like the colour codes in <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">2</font>.
+
+===============================================================================
+
+Another thing you could do is change the price associated with each car.  For example:
+<tt><font face="Courier"><pre>
+D00C4510  60A8
+800C4518  0001
+</pre></font></tt>
+would make the price of the first car 10 Credits.
+
+Many thanks to all the people who enabled me to create this code, especially [b]RaysurX[/b] who, as far as I can tell, determined the garage codes originally.
+
+(Not to mention those who helped me even conceive of the idea of putting cars into the used car lots)
+
+===============================================================================
+===============================================================================
+
+All this information is for GT1 version 1.1.
+
+I wanted to find a method easier to use than your "100 cars in your garage" code.
+
+
+The following will make an arbitrary car appear in slot 1 of the Toyota Used Car Lot on days 1 to 9 (and 600 to 609):
+
+D00C4510  60A8
+300C451A  00??
+
+
+?? should be one of the garage codes as in the 100 cars code.
+
+The code overwrites the car normally available in that slot of that used car lot (an MA70 Supra), making it unavailable.  The chosen car is available instead, for the same low price.
+
+Do not use the codes for the Corvette'67 (B0), or the hidden DelSols (6A,6B) or Eunos Roadsters (AF), or the game will lock up.
+
+If you use the codes for the special models the slot disappears entirely.  (So you cannot buy the special models this way, although [R] prize cars are fine).
+
+===============================================================================
+
+Here's a long version of my used car codes to create an interesting used car lineup for the first nine days of the game.  The first five cars appear in the Toyota lot, and the rest in the Nissan lot.  (These overwrite the cars normally available there).
+
+GREAT-DAY1-USED-LINEUP
+
+D00C4510  60A8
+300C451A  00A2 -- Viper GTS
+D00C4510  60A8
+300C451E  00AD -- [R]Cerbera LM
+D00C4510  60A8
+300C4522  00A3 -- Concept Car (B license prize)
+D00C4510  60A8
+300C4526  00A5 -- "[R]"Concept Car "LM"
+D00C4510  60A8
+800C452A  D858 -- [R]FTO LM (green)
+
+D00C4510  60A8
+800C4552  D642 -- [R]Silvia LM (green)
+D00C4510  60A8
+800C4556  C448 -- GTO'95 MR (red)
+D00C4510  60A8
+800C455A  C422 -- GT-R'89 (red)
+D00C4510  60A8
+300C455E  001C -- TRD 3000GT
+D00C4510  60A8
+300C4562  003F -- Nismo 400R
+D00C4510  60A8
+300C4566  00A4 -- [R]Viper GTS-R
+D00C4510  60A8
+300C456A  001D -- [R]Castrol Supra GT (prize)
+D00C4510  60A8
+800C456E  C45E -- Acura TypeSzero (red)
+
+The cars I show are in a sense just examples, although I did test the actual literal examples above.  You can change the car codes to any valid garage values you want, subject to the same caveats as mentioned above.
+
+Note that for the cars with colours shown in parentheses I use an [b]80[/b] code instead of a [b]30[/b], and specify the colour byte, to change it from the often boring default colour for that particular car.  [b]C4[/b] is a nice colour code for lots of cars.  The colour byte is not the same as the colour index nybble in the garage--it is more like the colour codes in GT2.
+
+Another thing you could do is change the price associated with each car.  For example:
+
+D00C4510  60A8
+800C4518  0001
+
+
+would make the price of the first car 10 Credits.
+
+Many thanks to all the people who enabled me to create this code, especially [b]RaysurX[/b] who, as far as I can tell, determined the garage codes originally.
+
+(Not to mention those who helped me even conceive of the idea of putting cars into the used car lots)
+
+===============================================================================

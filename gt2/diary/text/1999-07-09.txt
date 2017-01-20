@@ -1,0 +1,78 @@
+Fri Jul  9, 1999
+
+My GTO Settings
+
+Threads:
+  Tuning Advice
+  Used Car Information
+
+Just in case anyone is interested I, FWIW, dug out my current GTO
+settings.  I'm not a great tuner (nor am I a tuner that tastes great)
+but, well here's what I've been using lately.
+
+The first three cars are from my "real" game, while the last is from my
+current attempt to quickly collect all race prize cars.  (Which did not
+go as quickly as I expected, but is finally down the backstretch at 998
+days, with only 2Mega,2 4wd, 1GV300, 1All-NightI car to go).
+
+As far as I can tell, in Gran Turismo, both high stabilizers and low
+ride height increase your tendency to slide (or at least, to slide
+before visibly rolling).  Assuming that is true, it's presumably
+because the physics model in that case dissipates the force as slide
+rather than roll.  Roll should cause a slide eventually, but it seems
+to be noticeably delayed if the car does roll.  And/or it is a lot
+easier to "read" a rolling car than a sliding one on the screen,
+especially on slow tracks.  (E.g.  Autumn Ring).  (The "never turning
+over" algorithm must come into effect here somewhere, too).
+
+
+               tuned           race-mod         tuned           tuned
+             passion red      green, etc.    mariana blue    passion red
+              GTO'95MR       [R]GTO'95MR     GTOtwinturbo     GTO'95MR
+              --------        --------        --------        --------
+               F    R          F    R          F    R          F    R
+spring rate   6.6  3.6        6.6  3.6        6.6  3.6        6.6  3.6
+ride height   105  105        100  100        105  105        121  121
+damper         4    4          5    5          4    4          4    4
+camber        1.2  1.2        0.8  0.8        1.2  1.2        1.2  1.2
+stabilizer     4    4          3    2          4    4          3    3
+brake balance 12    9         12    9         12    9         12    9
+turbo level      7               7               7               7
+  1st          3.266           3.285           3.400           3.266
+  2nd          1.904           1.904           1.904           1.904
+  3rd          1.241           1.241           1.240           1.241
+  4th          0.918           0.930           0.918           0.918
+  5th          0.733           0.745           0.733           0.733
+  6th          0.589           0.647           0.595           0.619
+               -----           -----           -----           -----
+final drive    4.200           4.200           4.200           4.155
+aero         (0.17 0.21)     0.70 0.72(max)  (0.17 0.21)     (0.17 0.21)
+turbo spec      4               4               4               4
+muffler      semi-racing     semi-racing     semi-racing     semi-racing
+intercooler   racing          racing          racing          racing
+notes                          [1]                             [2]
+
+[1] while idly running a 0-400 test (as the way to find the settings)
+I set a personal best.  But it wasn't a very good time, so I won't tell
+you that it was 8.554 seconds.
+
+[2]This is tuned the way it was when it managed to lap the Civic in
+the last race (SSR11ii) in the Tuned series.  I had used stabilizers
+of 5F/4R for HSRii,GVii, and CR5ii.  For ARii it would use 3/3 stabilizers,
+and turbo spec 3; I might have used "normal" (no) intercooler, but I
+can't remember for sure (and don't have specific notes).
+
+As a last remark, however fast I manage to get with a GTO'95MR, an
+R32SkylineGT-R'89 does seem to end up being faster...
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

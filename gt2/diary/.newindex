@@ -1,0 +1,8 @@
+#!/bin/csh -f
+cd /u/arpepper/public_html/gt2/diary
+mv fullindex.html .backup/ || :
+./.makegrandindex.pl {1999,2[0-9][0-9][0-9]}-*.html > fullindex.html
+mv index.html .backup/ || :
+./.makeindex.pl {1999,2[0-9][0-9][0-9]}-*.html > index.html
+mv threadindex.html .backup/ || :
+./.makethreadindex.pl > threadindex.html

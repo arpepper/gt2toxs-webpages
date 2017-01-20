@@ -1,0 +1,348 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.11.12.19.10.57;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.11.12.18.47.00;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Our first attempt at using <html> to create local tags...
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Wednesday November 3, 1999
+
+Grant Tomaso, a Gran Turismo Legend in his own Time^H^H^H^HMind...
+
+Threads:
+  Car Information
+  Gameplay Hints
+  License Test Progress
+  Prize Car Patterns
+  Used Car Patterns
+
+In the directory <html><a href="logs">logs</a></html> I keep several logs of
+some of my interesting games; the directory now has a sort of
+interesting form on it that lets you find out what the garage
+for each game looked like on different days.
+
+The most recent game I have completed is the <html><a href="logs/gold">gold</a></html>
+game in which I won all the gold race cups in 100 days of simulation
+mode.
+I also posted to the newsgroup rec.games.video.sony a fictionalized
+version of that game, as follows:
+
+<HTML>
+<font face="Comic Sans MS">
+<H5>A Gran Turismo strategy presented as fiction, after trying it out...</H5>
+
+<center>
+<H4>Grant Tomaso, a Gran Turismo Legend in his own Time^H^H^H^HMind...</H4>
+<H5>Or:  All of Gran Turismo in 100 days</H5>
+</center>
+</font>
+</HTML>
+
+It seemed as if Grant Tomaso had appeared from nowhere.  Nobody had
+seen him racing anywhere, not even in low-level Spot events, but he
+just started passing all his B license tests, taking a single attempt
+for each.  Rumours were he made a special deal with the licensing
+officials, and actually took two tests in a single day when passing his
+final test.
+
+He similarly flew through his A license tests, one day each, but the
+rumours were even louder then.  If he was that good, why did he not get
+a single non-bronze time?  (except for A7, a low-speed doughnut test,
+generally regarded by experts as having time limits which are too
+easy).
+
+The day after acquiring his A license, Grant showed up at the Sunday
+Cup event in a stock 1993 Honda Civic 3door si, Captiva blue pearl
+in colour, apparently purchased for Cr8,870--nearly exhausting his
+his limited financial resources.  He opened eyes by capturing the pole
+for his first race at the Autumn Ring Mini, and won all three races in
+the Series, although he qualified only 6th at the High Speed Ring, and
+4th at Grand Valley East.  This accomplishment impressed Mazda Racing
+so much they offered him a chance to race for them in a Demio Aspec,
+but Grant left his options open at that point.
+
+Next he showed up at the Clubman Cup series, having apparently modified
+his car slightly.<html><a name="refer1" href="#note1">[1]</a></html>  He won this event, winning two races, from sixth
+grid position in each case.  He came 3rd in the Clubman race itself, as
+two of his opponents capitalized on slight mistake the second time
+through the sharp corner.  Once again he left his options open after
+receiving an offer to drive a Camaro for Chevrolet--clearly he had
+better things in mind.
+
+He had apparently bought and fitted some more parts when he showed up
+in the same car for the Front-Wheel Drive Challenge.<html><a name="refer2" href="#note2">[2]</a></html>  However,
+experts speculated he was saving some of his resources for something
+bigger.  Nevertheless, Grant won this series cleanly, winning all three
+races, and qualifying 4th at Grand Valley East, and 1st at Special
+Stage Route 11.  He was not willing at the point to drive a
+factory-provided yellow Honda CRX.
+
+Speculation mounted when he made only slight additional modifications
+before showing up for the LightWeight Battle Stage in the same car.<html><a name="refer3" href="#note3">[3]</a></html>
+Grant won this event too, but not without a little luck.  After
+capturing the pole for the Autumn Ring Mini ii, and winning that
+race and the Clubman (qualifying 4th), he suffered the second loss
+of his career, coming only 4th at Deep Forest Racing Way after
+qualifying 5th.  However, this was good enough to win the series
+21 to 19.  Honda tried again to sign him up, but he did not think
+the blue Civic racer model was a good deal, but again left the option
+open.
+
+Yes, he had been saving up for something.  Grant Tomaso showed up next
+at the Normal Car World Speed Contest, in a shiny new red Dodge Viper
+RT/10<html><a name="refer4" href="#note4">[4]</a></html>.  He totally dominated this series, and won the maximum
+possible Cr400,000.  This time he caught the attention of Subaru, but
+left the orange Impreza as an open option.  At this point he was all
+set to dominate Gran Turismo Racing.
+
+Remaining independent for a while longer, he bought another used car--a
+passion red 1995 Mitsubishi GTOMR, and modified it to the max.<html><a name="refer5" href="#note5">[5]</a></html>  He
+was lucky to have found this car; for weeks following his purchase they
+became impossible to find, in any colour.
+
+At this point Grant took a break from racing to obtain his International
+A License.  He did this in the minimal 8 days, but, once again, there
+was speculation he had special deals with the licensing authority to
+allow him to try twice in a day.
+
+Grant next showed up at the 4WD Challenge series, making mincemeat of the
+opposition and sweeping all poles and winning all races.  As before, he
+tabled an opportunity to drive a green Lancer provided by Mitsubishi.
+
+Then, to everyone's shock, he entered the Special Stage Route 11
+All-Night I Event with his GTO'95MR--even though he had not modified
+it for racing.  He ran away with this event, and rumours were he
+would finally take a professional ride and drive a red Silvia LM for
+Nissan in some future event.  However, for the time being he racked
+up wins in his tuned GTO'95MR, sweeping poles and races in each of
+the Mega Speed Event, the GT Cup, and surprisingly the international
+US - Japan Sports Car Championship--once again beating racing-spec
+cars in a car without racing modification.  Team offers from Aston
+Martin, Toyota, and Dodge were all left open but not accepted.
+
+Everyone eagerly watched as he dominated the Hard-Tuned Car Speed
+Contest, winning all poles and all races in this five-race series, even
+the race at the tricky Autumn Ring ii.  At the relatively short Special
+Stage R11 race he even lapped one of the other cars!  Nissan offered
+him a red 1991 Skyline for that achievement, but he did not drive that
+car, although he did drive a factory-supplied Nissan in his next race.
+
+He showed up with a red Nissan Silvia LM racing machine for the Grand
+Valley 300km Endurance Race.  He won the pole (just) and ran away with
+the race, beating the Honda/Acura NSX-R LM GT2 by over two laps,
+clawing his way back from a fairly bad start and a disastrous second
+lap.
+
+He seriously considered an offer to drive a black Castrol Supra GT in
+the Anglo-Japanese Sports Car Championship, but elected instead to
+drive the same red Silvia LM for Nissan.  Once again he ran away with
+all poles and races.  Impressed by this, Honda offered him a chance to
+drive a red delSol LM, but, after so much success it almost looked like
+Grant was preparing to retire--people began noticing he never entered
+the same event twice.  There were only a few events he had not won in
+Grand Turismo racing.
+
+He took up on old offer from Dodge, and won the Anglo-American Sports
+Car Championship in a white Viper GTS-R with blue stripes.  Although he
+won all five poles, he won only four races, as a couple of mistakes
+caused him to come second at the Special Stage Route 11 Event to a very
+nimble TVR Griffiths 500.
+
+Dodge still found that performance impressive, however, and Grant next
+accepted a very interesting offer from that company, as he raced the GT
+World Cup in their purple Concept Car.  This car was so good, the
+series was hardly challenging at all, but some records, such as a
+three-lap Grand Valley Race under 4:30, made him quite happy as he won
+all six poles and all six races.  Winning this series earned him the
+coveted right to set night-time time trial records at various tracks.
+
+He had won a lot.  What was there left?  Well, he took his old 
+1995 Mitsubishi GTO MR to the Special Stage All-Night II Event,
+and dominated that, winning the pole and the winning the race in
+under 52 minutes, lapping the field three times.
+
+And then someone observed that the only series he had never entered was
+the Rear-Wheel Drive Challenge.  So, he entered that with his old Dodge
+Viper RT/10--without making any modifications from stock.  He captured
+the pole at the first race, at Grand Valley East ii, but people were
+somewhat disappointed when he only qualified 2nd at both the Deep
+Forest Racing Way and Grand Valley ii events.  However, he did win the
+series by winning all three races.  Nissan offered him a chance to
+drive a yellow S13 Silvia Q's, but he turned it down.
+
+Not only that, but, as quickly as he had appeared on the scene, Grant
+Tomaso vanished from the Grand Turismo racing scene.  Just 100 days
+after he had first appeared, he retired with a small fortune in cash<html><a name="refer6" href="#note6">[6]</a></html>
+and a garage full of cars<html><a name="refer7" href="#note7">[7]</a></html> to a lead a safe and tranquil life.
+
+<HTML>
+<HR>
+</HTML>
+
+Another interesting facility I have created is my
+<html><a href="../inventory/findcar.html">findcar</a></html> facility which allows
+you to search for cars matching desired characteristics.
+
+
+<HTML>
+<HR>
+</HTML>
+
+<html><a name="note1" href="#refer1">[1]</a></html>Turbo1, weight-reduction1+2,
+semi-racing tires S/H total Cr25,200 leaving Cr1,430.
+<html><a href="#refer1">[back]</a></html>
+
+<html><a name="note2"href="#refer2">[2]</a></html>racing exhaust,computer,sport brakes  total Cr11,000 leaving Cr26,430
+<html><a href="#refer2">[back]</a></html>
+
+<html><a name="note3"href="#refer3">[3]</a></html>soft stabilizers, racing flywheel, total Cr1,700 leaving Cr51,230
+<html><a href="#refer3">[back]</a></html>
+
+<html><a name="note4"href="#refer4">[4]</a></html>cost Cr68,800 leaving Cr6,460
+<html><a href="#refer4">[back]</a></html>
+
+<html><a name="note5"href="#refer5">[5]</a></html>passion red GTO'95MR  cost Cr29,110 leaving Cr377,350;
+max parts plus some extras leaves Cr101,850
+<html><a href="#refer5">[back]</a></html>
+
+<html><a name="note6"href="#refer6">[6]</a></html>Cr1,874,850
+<html><a href="#refer6">[back]</a></html>
+
+<html><a name="note7"href="#refer7">[7]</a></html> 19 cars, 3 purchased + 16 won
+<html><a href="#refer7">[back]</a></html>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Use little <html> facility to do the links to logs, and also to
+set up new internal links to and from notes.
+@
+text
+@d171 8
+a205 5
+
+
+Another interesting facility I have created is my
+<html><a href="../inventory/findcar.html">findcar</a></html> facility which allows
+you to search for cars matching desired characteristics.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d12 1
+a12 4
+<HTML>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+In the directory <a href="logs">logs</a> I keep several logs of
+d16 2
+a17 3
+</p>
+<p>
+The most recent game I have completed is the <a href="logs/gold">gold</a>
+d22 2
+a23 2
+</p>
+</font></td></tr></table>
+d58 1
+a58 1
+his car slightly.[1]  He won this event, winning two races, from sixth
+d66 1
+a66 1
+in the same car for the Front-Wheel Drive Challenge.[2]  However,
+d74 1
+a74 1
+before showing up for the LightWeight Battle Stage in the same car.[3]
+d86 1
+a86 1
+RT/10[4].  He totally dominated this series, and won the maximum
+d92 1
+a92 1
+passion red 1995 Mitsubishi GTOMR, and modified it to the max.[5]  He
+d168 2
+a169 2
+after he had first appeared, he retired with a small fortune in cash[6]
+and a garage full of cars[7] to a lead a safe and tranquil life.
+d172 3
+a174 2
+Adrian.
+
+d176 3
+a178 1
+[1]Turbo1, weight-reduction1+2, semi-racing tires S/H total Cr25,200 leaving Cr1,430
+d180 2
+a181 1
+[2]racing exhaust,computer,sport brakes  total Cr11,000 leaving Cr26,430
+d183 2
+a184 1
+[3]soft stabilizers, racing flywheel, total Cr1,700 leaving Cr51,230
+d186 2
+a187 1
+[4]cost Cr68,800 leaving Cr6,460
+d189 3
+a191 2
+[5]passion red GTO'95MR  cost Cr29,110 leaving Cr377,350
+   max parts plus some extras leaves Cr101,850
+d193 2
+a194 1
+[6]Cr1,874,850
+d196 2
+a197 1
+[7] 19 cars, 3 purchased + 16 won
+a199 4
+<HTML>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+<p>
+d201 1
+a201 1
+<a href="../inventory/findcar.html">findcar</a> facility which allows
+d203 1
+a203 2
+</p></font></td></tr></table>
+</HTML>
+@

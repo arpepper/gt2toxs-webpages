@@ -1,0 +1,122 @@
+Friday October 29, 1999
+
+tuned GTO'95MR Wins SSR11 All-Night I Again, in "gold" game
+
+Threads:
+  All-Night I Results
+  Used Car Information
+  Tuning Advice
+
+Continuing in my "gold" (not sure why I called it that), I got to
+the stage where I had purchased and loaded a GTO'95MR, and wanted
+to win the useful Silvia LM by winning with the tuned GTO'95MR against
+the race-modified AI competitors.  This game, as detailed in my
+logs, is an optimization of the "silver" game strategy.
+
+I went with a 6,12,18,24 pit strategy, since it seems that you can
+gain more than you lose by changing tires a little earlier.
+
+   gold day 51
+   Octoer 29, 1999
+   tuned GTO'95MR
+   SSR11 All-Night I
+
+   q1st 1:48,521new     Cr20,000
+
+   Results:
+
+   1st  GTO'95MR             54:01.116<--new gold time
+   2nd  [R]R32GT-R'91         +186.170  (57:07.286)
+   3rd  [R]GTO twinturbo      +188.428  (57:09.544)
+   4th  [R]CASTROL SUPRA GT   +200.126  (57:21.242)
+   5th  [R]NSX-R LM GT2       +205.471  (57:26.587)
+   6th  [R]IMPREZA RLY Ed     +270.664  (58:31.780)
+   
+   pits   6,12,18,24
+   lap 1   1:49.563
+   fl  (27)  1:42.325new
+   slowest  non-pit   (23)  1:48.979
+             next     (11)  1:47.257
+   fastest pit laps   (24in)  2:01.907
+                       (7out) 1:46.507
+   slowest pit laps   (12in)  2:05.637
+                      (19out) 1:50.801
+
+I led from stat to finish, building up a good lead by lap 6, and
+keeping it even with that early pit stop.
+
+With the nice strong field, I did not begin lapping it until lap 15,
+and not all of those stuck after my lap 18 pit stop.  I only lapped
+most of the cars once, but did lap the Impreza a second time right near
+the end.
+
+This time was only slightly faster than my 3-stop race (which was
+54:10.180), and my fastest lap was not quite as fast.
+
+I won Cr150,000, and, once again, a red Silvia LM.   8-(   I like the
+green one...
+
+For your analytical enjoyment, I here present all 30 lap times...
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:49.563      1:49.563
+ 2   1:42.353      3:31.916
+ 3   1:44.005      5:15.921
+ 4   1:44.351      7:00.272
+ 5   1:46.394      8:46.666
+ 6   2:05.470     10:52.136
+ 7   1:46.507     12:38.643
+ 8   1:44.440     14:23.083
+ 9   1:44.222     16:07.305
+10   1:44.903     17:52.208
+11   1:47.257     19:39.465
+12   2:05.637     21:45.102
+13   1:47.171     23:32.273
+14   1:43.942     25:16.215
+15   1:45.400     27:01.615
+16   1:44.796     28:46.411
+17   1:45.313     30:31.724
+18   2:05.550     32:37.274
+19   1:50.801     34:28.075
+20   1:43.685     36:11.760
+21   1:43.570     37:55.330
+22   1:45.047     39:40.377
+23   1:48.077     41:28.454
+24   2:01.907     43:30.361
+25   1:48.533     45:18.894
+26   1:45.511     47:04.405
+27   1:42.325     48:46.730
+28   1:44.169     50:30.899
+29   1:45.894     52:16.793
+30   1:44.323     54:01.116
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+The settings were basically the same as October 23, 1999, but
+I used 4/4 stabilizers instead of 5/4; this seems to reduce that
+annoying pulling to the outside of the corner under braking.
+
+That is to say, the higher setting at the front seems to aggravate
+that tendency.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

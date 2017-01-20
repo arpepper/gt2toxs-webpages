@@ -1,0 +1,106 @@
+Mon Jan 25, 1999
+
+Spot Race Prize Money
+
+Based on mail to Nick.
+
+Thread: Prize Money
+
+I did the experiment, and confirmed that, for the High Speed Ring,
+
+  Pole:  Cr500      
+                    1st         2nd or me
+  1st:  Cr1000      1:52.915      +8.993(2nd)
+  2nd:   Cr500      2:12.338      +0.140(me)
+  3rd:   Cr400      2:11.062      +2.411(me)
+  4th:   Cr300      2:10.961      +1.464(me)
+  5th:   Cr200      2:09.457      +1.871(me)
+  6th:   Cr100
+
+Note that I waited later and later to lose, that's why the winning times
+get faster and I am closer in time to the winner for 4th than 2nd.
+I think.
+
+I'm pretty sure the prize money is the same for all Spot Races.
+
+Following pole time observations:
+  My pole          Runner-up
+  58.246            +14.590
+  58.342            +14.064
+  58.130            +14.284
+  58.229            +14.219
+
+Never did deliberately lose the pole and see what times the winner
+got.
+
+I won the Toyota Chaser LM edition.  (Not difficult, but...)
+It has a strange burble in its acceleration.  It doesn't seem to
+occur at a constant engine speed.  Another thing I've noticed is that
+Vipers and Corvettes behave as if they have a first gear rev limiter
+limiting them to 6000rpm.  But in the IA-2 test (SS R5 with a Viper)
+the exact properties of that apparent limit seemed to vary.
+Bah.  IA-1 was fairly easy, but I've got a long way to go for IA-2.
+
+In arcade I'm down to Deep Forest "B" as the only red dot remaining to
+get.  I've switched to the Soarer in my attempts.  I had been leaving
+Trial Mountain till last, but was getting so frustrated with Deep
+Forest that I went to try my luck at Trial Mountain.  The Impreza won A
+after a few warm-up attempts.  Next I tried the trusty Civic, and won C
+after two or three races.  And then the Eclipse won B on my first
+attempt with it.  I think Trial Mountain had seemed so hard at Normal
+that I'd learned where to squeeze speed out in the process.  And there
+was the A-license test which helped set up for the hilly straight,
+too.  The computer cars take completely the wrong line through the
+esses before the finish.  I took advantage of so many sneaky tricks
+that my cornering onto the penultimate straight was still unpracticed
+enough that I often, even usually, ended up going on the grass.  In
+addition to the final esses, and the turns before the uphill straight,
+another place one squeezes speed out of Trial Mountain is the first
+series of corners after the start.  You start turning early into turn 1
+(red/white rumble strip thing on your right side gives a big hint
+when), and can take that series of turns up to the tunnel really fast.
+
+In fact, as general hint to driving Gran Turismo, many corners seem to
+be taken best if you start cornering as soon as you see the
+red-and-white rumble strip on the outside.  And, even if one learns to
+do better, those strips make excellent reference points.  But the
+perspective is such that some corners, e.g. turn 1 at Trial Mountain,
+(also the turn into the tunnel on Grand Valley East) do not visually
+seem relevant as early as they really are, and you can use the rumble
+strips to make up for that.
+
+I just tracked down the FAQs.
+
+E.g.
+
+  http://www.gamefaqs.com/console/psx/
+  http://www.gamefaqs.com/console/psx/faq/gran_turismo_comp.txt
+
+Lots of info there.  Perhaps you knew that already...
+
+Of course, I forgot to bookmark the pages that listed recommended
+cars for Arcade Mode Races, and am now having no luck getting
+altavista (or my memory) to find them   8-)
+
+Hmm.  Haven't today run across that guy who has his pages set up like
+Simulation Mode, either.  Oh, I just did.
+
+  http://pages.prodigy.net/freakyfred/granturismo/
+
+Hmm.  Found a listing of Arcade mode class recommendations...
+
+  http://brighton.ncsa.uiuc.edu/~lrajlich/gt/arc_course.html
+
+Unfortunately, I almost completely disagree with it.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

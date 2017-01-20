@@ -1,0 +1,173 @@
+Saturday October 21, 2000
+
+Lowish-powered FTO GP Version R Cleanly Wins Grand Valley 300 Against a Strong Field
+
+Threads:
+  Car Information
+  Grand Valley 300 Results
+  Race Results
+
+Well, I am preparing for even more challenging Grand Valley 300
+entrants, but used the Mitsubishi FTO GP Version R as sort of a 
+warm-up, since tests suggested it should be able to win easily.
+
+   "real game" day 5408
+   Friday September 20, 2000
+   [R]FTO GP Version R
+   Grand Valley 300km Endurance Race
+   Qualified: 4th(+0.236) 1:44.758not  8-(
+
+   Results:
+
+   1st:* [R]FTO GPversionR     1-39:48.6not<---
+   2nd:  [R]GTO twinturbo       +134.903  (1-42:03.5)
+   3rd:  [R]NSX-R LM GT2        +140.280  (1-42:08.9)
+   4th:  [R]CASTROL SUPRA GT    +147.563  (1-42:16.2)
+   5th:  [R]GT-R LM             +187.726  (1-42:56.3)
+   6th:  [R]LANTIS Type R       +509.211  (1-48:17.8)
+
+   lap 1: 1:48.278
+   Pits:  20,40
+   fl(3): 1:36.815not
+
+   slowest  non-pit   (60)  1:42.233
+             next     (58)  1:41.355
+   fastest pit laps   (20in)  1:52.658
+                      (21out) 1:45.244
+   slowest pit laps   (40in)  1:54.380
+                      (41out) 1:45.292
+
+I dropped to fifth off the line, but soon began battling the GT-R
+for 4th place, getting clear into 4th place by the end of lap 2.  I
+then began challenging for third place, getting that by the end of lap 4,
+and moving up to the lead by lap 5 or 6.
+
+My tires lasted very well, so I made only two stops, and hardly saw
+the rest of the field after that, except when I began lapping them
+around the time of my last pit stop.
+
+One thing I noticed was that this car can catch a draft and get
+extra speed very well.  That is why I set the fastest lap on lap
+3, while chasing the GT-R LM.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+This time was almost as fast as my time for the same race the first
+time I entered the FTO LM Edition.
+
+Once again I actually recorded all lap times, as follows:
+
+Lucky you!    8-)
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:48.278      1:48.278
+ 2   1:39.223      3:27.501
+ 3   1:36.815      5:04.316
+ 4   1:37.157      6:41.473
+ 5   1:38.616      8:20.089
+ 6   1:39.765      9:59.854
+ 7   1:40.172     11:40.026
+ 8   1:38.551     13:18.577
+ 9   1:38.132     14:56.709
+10   1:37.585     16:34.294
+11   1:37.479     18:11.773
+12   1:38.479     19:50.252
+13   1:38.834     21:29.086
+14   1:38.557     23:07.643
+15   1:40.342     24:47.985
+16   1:39.822     26:27.807
+17   1:40.243     28:08.050
+18   1:39.000     29:47.050
+19   1:39.827     31:26.877
+20   1:52.658     33:19.535
+21   1:45.244     35:04.779
+22   1:37.988     36:42.767
+23   1:38.284     38:21.051
+24   1:38.008     39:59.059
+25   1:38.257     41:37.316
+26   1:38.122     43:15.438
+27   1:38.294     44:53.732
+28   1:37.064     46:30.796
+29   1:37.624     48:08.420
+30   1:38.315     49:46.735
+31   1:38.338     51:25.073
+32   1:38.496     53:03.569
+33   1:39.121     54:42.690
+34   1:40.929     56:23.619
+35   1:39.406     58:03.025
+36   1:39.737     59:42.762
+37   1:40.336   1-01:23.098
+38   1:39.054   1-03:02.152
+39   1:40.669   1-04:42.821
+40   1:54.380   1-06:37.201
+41   1:45.292   1-08:22.493
+42   1:37.014   1-09:59.507
+43   1:37.497   1-11:37.004
+44   1:39.334   1-13:16.338
+45   1:38.355   1-14:54.693
+46   1:39.141   1-16:33.834
+47   1:37.739   1-18:11.573
+48   1:39.018   1-19:50.591
+49   1:38.277   1-21:28.868
+50   1:37.943   1-23:06.811
+51   1:39.067   1-24:45.878
+52   1:39.232   1-26:25.110
+53   1:40.432   1-28:05.542
+54   1:39.310   1-29:44.852
+55   1:39.698   1-31:24.550
+56   1:40.222   1-33:04.772
+57   1:40.634   1-34:45.406
+58   1:41.355   1-36:26.761
+59   1:39.615   1-38:06.376
+60   1:42.233   1-39:48.609
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Here are the settings I used.  They were not very harsh; they were
+probably the same as I had used for this car a long time ago when
+shamelessly entering it in the FF event.  But this car is naturally
+very fast for its power.
+
+           My Settings
+  
+S/S tires
+
+Spring Rate     3.9   2.4  (stock?)
+Ride Height     128   128  (stock?)
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      5     4
+Brake Balance   13     11
+Turbo               0
+        1st       3.462
+        2nd       1.911
+        3rd       1.332
+        4th       0.979
+        5th       0.800
+                  -----
+        FD        4.250
+
+Aero            0.70  0.72 
+                (max, max)
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

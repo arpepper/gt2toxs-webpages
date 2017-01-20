@@ -1,0 +1,234 @@
+Sunday May 12, 2002
+
+[R]Pulsar GTi-R Easily and Convincingly Wins the Grand Valley 300
+
+Threads:
+  Grand Valley 300 Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+I wanted to test a few more close competitors in
+<font color="blue"><b>G</b></font><font color="red"><b>T</b></font><b>1</b>.
+However, since I was running out of garage slots in my
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/main">main</a> game
+(Maybe <a href="../logs/main.txt">here</a>), I decided to continue the
+testing in my
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/mitsu">mitsu</a> game
+(maybe <a href="../logs/mitsu.txt">here</a>).
+
+As documented by others, the
+<b>Nissan Pulsar GTi-R</b> is an amazingly capable little car.
+It easily wins the <b>USvsUS</b> and <b>UKvsUS</b> series, and I came
+close to winning the <b>GT World Cup</b> with it, although I lost.
+With a little more practice I might be able to win, though.
+
+I was amazed that its win at the <b>Grand Valley 300</b> was so easy,
+though.
+The fact it is so light helps let it get away with only three stops,
+however, which helps a lot.
+</CODES>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: mitsu
+   Day: 168
+   Date: May 12, 2002
+   Race: Grand Valley 300KM Endurance Race
+   Car: Nissan [R]Pulsar GTi-R (S/S)
+   Qualified: 4th(+1.382) 1:45.912not
+   Result: 1st
+   Money: Cr300,000
+   Prize-Car: black/green Castrol Supra GT
+
+   Results:
+
+   1st: *[R]Pulsar GTi-R          1-39:44.9
+   2nd:  [R]NSX-R LM GT2           +132.904  (1-41:57.8)
+   3rd:  [R]GT-R LM                +187.275  (1-42:52.2)
+   4th:  [R]IMPREZA RLY Ed         +229.680  (1-43:34.6)
+   5th:  [R]EXIV 200GT             +362.326  (1-45:47.2)
+   6th:  [R]Lantis TypeR           +504.380  (1-48:09.3)
+
+   Pits:  15,30,45
+   fl(49): 1:36.600
+
+   lap 1   1:45.071
+   slowest  non-pit   (59)  1:40.947
+             next     (27)  1:40.938
+   fastest pit laps   (15in)  1:53.661
+                      (31out) 1:44.648
+   slowest pit laps   (30in)  1:55.713
+                      (46out) 1:44.670
+
+</pre></font></tt>
+</HTML>
+
+I got a smooth start, holding my fourth place and passing the GTR-LM
+at the first turn to take 3rd briefly, although it repassed.
+But at the second hairpin I got by permanently.
+I passed the NSX between the tunnels to take second, and the Impreza
+at the final double hairpin to take first before the end of the first
+lap and just began gradually pulling away.
+
+I lapped my first car, the Lantis, on lap 13.
+
+My lap times were mostly below 1:40, except when I had trouble trying to
+pass cars I was lapping.
+
+I lapped the field before my last pit stop, passing the NSX just as it
+left the pits, having passed the GT-R LM shortly before that.
+The NSX and I jostled a bit and stayed pretty even until I took my
+last pit stop and therefore dropped back.  I finally relapped the NSX
+on about lap 53, and lapped the Impreza a couple of laps later.
+
+Thread: Gameplay Hints
+
+<CODES>
+I confirmed a minor bug in the record-keeping in
+<font color="blue"><b>G</b></font><font color="red"><b>T</b></font><b>1</b>
+while running this race.
+I noticed that my own fastest lap was recorded as the record in this
+game, even though the <b>GTO'92 twinturbo</b> must have set a much
+faster lap back on <a href="2001-09-16.html">September 16, 2001</a>.
+
+Well, it seems that if you do a second practice session and set a
+new unofficial fastest lap during it, that lap time remains shown as
+the fastest lap during the main event.
+If you never beat that lap time during the main event, your own actual
+fastest lap will not be recorded as such, but neither does the
+practice lap time get recorded.  Either the previous
+fastest lap remains, or, if there was no fastest lap set for the event,
+the event remains with no fastest lap recorded.
+
+So I must have done that with the <b>GTO'92 twinturbo</b> 
+on <a href="2001-09-16.html">September 16, 2001</a>; I arranged to
+review the game save before this race, and it indeed had no
+fastest lap recorded for the <b>Grand Valley 300</b>, although it
+did have a total event time record; I also managed to artificially
+recreate the situation, and indeed, things work as I say.
+</CODES>
+
+Once again, for your analytical enjoyment, I here present all 60 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:45.071      1:45.071
+ 2   1:37.150      3:22.221
+ 3   1:38.529      5:00.750
+ 4   1:37.345      6:38.095
+ 5   1:37.545      8:15.640
+ 6   1:37.105      9:52.745
+ 7   1:37.114     11:29.859
+ 8   1:37.418     13:07.277
+ 9   1:38.899     14:46.176
+10   1:38.943     16:25.119
+11   1:38.747     18:03.866
+12   1:39.137     19:43.003
+13   1:39.378     21:22.381
+14   1:39.472     23:01.853
+15   1:53.661     24:55.514
+16   1:44.650     26:40.164
+17   1:37.065     28:17.229
+18   1:37.918     29:55.147
+19   1:36.911     31:32.058
+20   1:38.203     33:10.261
+21   1:37.682     34:47.943
+22   1:37.975     36:25.918
+23   1:37.806     38:03.724
+24   1:39.269     39:42.993
+25   1:38.435     41:21.428
+26   1:40.671     43:02.099
+27   1:40.938     44:43.037
+28   1:39.463     46:22.500
+29   1:40.773     48:03.273
+30   1:55.713     49:58.986
+31   1:44.648     51:43.634
+32   1:37.691     53:21.325
+33   1:37.552     54:58.877
+34   1:37.970     56:36.847
+35   1:38.080     58:14.927
+36   1:36.734     59:51.661
+37   1:40.016   1-01:31.677
+38   1:39.927   1-03:11.604
+39   1:39.080   1-04:50.684
+40   1:39.214   1-06:29.898
+41   1:40.203   1-08:10.101
+42   1:39.277   1-09:49.378
+43   1:39.256   1-11:28.634
+44   1:39.344   1-13:07.978
+45   1:54.687   1-15:02.665
+46   1:44.670   1-16:47.335
+47   1:37.191   1-18:24.526
+48   1:36.852   1-20:01.378
+49   1:36.600   1-21:37.978
+50   1:37.406   1-23:15.384
+51   1:37.967   1-24:53.351
+52   1:38.559   1-26:31.910
+53   1:38.101   1-28:10.011
+54   1:38.305   1-29:48.316
+55   1:39.037   1-31:27.353
+56   1:38.339   1-33:05.692
+57   1:38.525   1-34:44.217
+58   1:39.622   1-36:23.839
+59   1:40.947   1-38:04.786
+60   1:40.191   1-39:44.977
+
+</pre></font></tt>
+</HTML>
+
+Actual total count, at 800BDB74, was 005B52D1, or 5984977 thousandths
+of seconds.  So the above is exactly right.
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS3)
+
+Spring Rate     3.9   2.6   (max, max)
+Ride Height     105   105   (min, min)
+Dampers          5     5
+Camber          1.5   1.4
+Stabilizers      3     3
+Brake Balance   13    11
+        1st       3.285
+        2nd       1.850
+        3rd       1.272
+        4th       0.954
+        5th       0.766
+                  -----
+        FD        3.400
+
+Aero           0.49  0.72  (max,max)
+
+</pre></font></tt>
+</HTML>
+
+Basically, most settings are maximized or minimized as appropriate.
+Perhaps careful reduction of the aero will squeeze some extra
+speed out of this car.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

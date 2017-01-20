@@ -1,0 +1,86 @@
+Wed Feb 10, 1999
+
+Thoughts about the InterAct 4x to 24x Memory Card
+
+Threads:
+  Hardware Hints
+
+Well, last night I did not do much Gran Turismo.  I tried the purple
+tuned Concept Car a bit, and discovered it is a little screwy.
+
+Low weight and moderate power is good for acceleration up to a point,
+but after that wind resistance takes over.
+
+But this was mostly as a means of experimenting with the InterAct 24x
+memory card I bought.  I went looking for more memory cards yesterday
+morning, but could only find full-price Sony ones.
+
+So I decided to buy the InterAct card from Maxi's for $37.95 (I nearly
+typed "Cr37.95"  8-).  It's much as I expected, with the additional
+hassle that a flashlight is needed to read the LCD display because the
+PlayStation is permanently under a table right now.
+
+The PlayStation knows nothing about this beast, and just thinks that
+you keep (slowly) changing cards when you operate the buttons to switch
+pages.  The manual suggests that corruption could occur if pages are
+switched while you are running a game, as opposed to in the PlayStation
+memory manager.  This would probably be true for games which do not
+explicitly tell you when they are saving, but in Gran Turismo saving
+and loading are always under your control, so you can wait until
+you know the card is stable.  For loading, Gran Turismo will actually
+notice that a previously inaccessible card is now there and load
+from it when it can.  There is a caveat, however, in that switching
+cards will not occur if the card realizes that it has run out of
+memory.  The manual also suggests that no cards (of any sort) should be
+in the PlayStation when you power it on since a power surge may occur
+and wipe out data.
+
+I actually only did one save to a card last night (that was to create a
+new 14 block Replay file; I promptly deleted the one replay after
+saving it to leave a completely empty file with 800+ "sectors" free).
+I copied (and deleted and recreated) data to three other pages using
+the PlayStation Memory Card Manager.
+
+The card provides for 3 banks (A,B,C, selected by the left button) of
+eight pages each (1-8, selected by the right button).  For Gran Turismo
+purposes, I find it easier to think of this as eight blocks of three.
+So I leave it on page 1 and cycle through the three banks to get three
+pages of GT data.  I have verified that if you  set it to page A5, say,
+you can switch to bank B and be on page B5 not B1.
+
+One page is the main one with game state, car settings and a six block
+Replay file, plus an empty block and one single block Formula 1 game
+save file.  The next page is one 15 block Replay file, while the third
+is the 14 block Replay file plus another single block Formula 1 game
+save file.  The Formula 1 game save files are useful because the
+Formula 1 game allows you to add a personalized identifying portion to
+the file name, so you can use this to identify the page.  The one I
+created last night I named "GTmore01", but now I realize I should
+incorporate the page number into the title.
+
+Even when not using such a device, it's unfortunate that the
+PlayStation Memory Card Manager is not a process which can be called
+from within other games, but it would be exceptionally useful when
+using this 24 page card.
+
+It's sort of amazing.  A regular card, depending on how you interpret
+the figures you read, is either 64 kilobytes or 128 kilobytes.  So this
+24x card can store between 1.5 and 3 meg.  The documentation for the
+card is rather vague as to whether 24x is the maximum you can get on
+the card or not.  But, after careful reading you eventually realize
+that it is, and that, yes, you can run out of space on the card before
+you have filled up all eight pages on each of the three banks.  And
+the actual amount of memory on the card is around either 256K or
+512K.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

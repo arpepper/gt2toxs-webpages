@@ -1,0 +1,166 @@
+Monday September 6, 1999
+
+Maxed Griffith 4.0 Not Quite as Fast as the 500 at Grand Valley
+
+Threads:
+  Car Information
+  Grand Valley 300 Results
+  Race Results
+
+The Griffith 4.0, in the North American game at least, is certainly one
+of the stars of the game, specing the same as its sister the Griffith
+500, although it generally seems a little bit twitchier to handle.
+
+In the warm-up GT-I Cup, it swept all races, and all poles.  Although
+there was no GTO, it beat a '91GT-R and a Castrol Supra.
+
+   "real game" day 4255
+   Tuesday September 7, 1999
+   [R]Griffith 4.0
+   Grand Valley 300km Endurance Race
+
+   q1st 1:39.324not     Cr20,000
+
+   Results:
+
+   1st  [R]Griffith 4.0        1-35:46.0<--
+   2nd  [R]NSX-R LM GT2         +376.702   (1-42:02.7)
+   3rd  [R]GT-R LM              +433.021   (1-42:59.0)
+   4th  [R]Impreza Rally Ed     +464.663   (1-43:30.7)
+   5th  [R]EXIV 200GT           +607.718   (1-45:53.7)
+   6th  [R]Lantis TypeR         +745.353   (1-48:11.4)
+   
+   lap 1   1:40.357
+   pits   15,30,45    
+   fl  (33)  1:32.544
+   slowest  non-pit   (42)  1:45.592
+             next     (10)  1:39.041
+   fastest pit laps   (45in)  1:47.200
+                      (16out) 1:41.826
+   slowest pit laps   (15in)  1:50.807
+                      (31out) 1:44.435
+
+I led from start to finish again.
+
+My first pit stop was once again at the same time as the GT-R.
+
+By lap 30 I had lapped the entire field twice.
+
+I had trouble, a severe mishap even, when trying to lap the EXIV on
+lap 42.
+
+I lapped the GT-R again by lap 45, and, once again, it was just behind
+me going into and out of the pits.  (Although this time I did not
+actually see it in the pit stop).
+
+I lapped the GT-R for a fourth and final time, on the road, on lap 59,
+but did not manage to lap the NSX-R a fourth time.
+
+Once again, this car seemed a little bit twitchier than the 500, and
+my laps times were slightly less consistent.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Once again I actually recorded all lap times, as follows:
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+ 1   1:40.357      1:40.357
+ 2   1:33.603      3:13.960
+ 3   1:33.010      4:46.970
+ 4   1:33.932      6:20.902
+ 5   1:32.747      7:53.649
+ 6   1:33.897      9:27.546
+ 7   1:33.539     11:01.085
+ 8   1:34.545     12:35.630
+ 9   1:34.887     14:10.517
+10   1:39.041     15:49.558
+11   1:35.590     17:25.148
+12   1:34.596     18:59.744
+13   1:34.067     20:33.811
+14   1:37.480     22:11.291
+15   1:50.807     24:02.098
+16   1:41.826     25:43.924
+17   1:34.149     27:18.073
+18   1:33.993     28:52.066
+19   1:33.835     30:25.901
+20   1:33.059     31:58.960
+21   1:34.443     33:33.403
+22   1:34.043     35:07.446
+23   1:35.347     36:42.793
+24   1:34.264     38:17.057
+25   1:33.410     39:50.467
+26   1:33.404     41:23.871
+27   1:34.629     42:58.500
+28   1:33.904     44:32.404
+29   1:34.437     46:06.841
+30   1:48.962     47:55.803
+31   1:44.435     49:40.238
+32   1:34.394     51:14.632
+33   1:32.544     52:47.176
+34   1:32.773     54:19.949
+35   1:33.250     55:53.199
+36   1:33.332     57:26.531
+37   1:33.923     59:00.454
+38   1:32.856   1-00:33.310
+39   1:34.020   1-02:07.330
+40   1:33.016   1-03:40.346
+41   1:33.871   1-05:14.217
+42   1:45.592   1-06:59.809
+43   1:36.190   1-08:35.999
+44   1:35.069   1-10:11.068
+45   1:47.200   1-11:58.268
+46   1:43.014   1-13:41.282
+47   1:34.541   1-15:15.823
+48   1:33.339   1-16:49.162
+49   1:33.041   1-18:22.203
+50   1:32.574   1-19:54.777
+51   1:34.940   1-21:29.717
+52   1:35.244   1-23:04.961
+53   1:35.115   1-24:40.076
+54   1:34.669   1-26:14.745
+55   1:34.850   1-27:49.595
+56   1:35.579   1-29:25.174
+57   1:34.733   1-30:59.907
+58   1:34.469   1-32:34.376
+59   1:35.439   1-34:09.815
+60   1:36.271   1-35:46.086
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+I also recorded my settings:
+
+Spring Rate     5.2   4.1
+Ride Height     110   110
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               0
+        1st       2.950
+        2nd       1.940
+        3rd       1.340
+        4th       1.000
+        5th       0.797   (default settings, except 5th=0.730 for stock)
+                  -----
+        FD        3.310
+
+Aero            0.49  0.72        (max, max)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

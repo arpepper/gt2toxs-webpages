@@ -1,0 +1,59 @@
+Friday June 09, 2000
+
+I Finally Get ALL GOLDS on my B License!
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ License Test Progress
+
+Well, it was generally much easier to get all golds on my B license tests
+in <html><font color="blue" size="+1">G</font><font color="red" size="+1">T</font><font color="silver" size="+1">2</font></html> than
+it had been
+in <html><font color="blue" size="+1">G</font><font color="red" size="+1">T</font><font color="black" size="+1">1</font></html>.
+
+It took me only three days once I put my mind to it.
+Here are my progress notes from my <html><a href="logs/gt2-game1">game log</a>.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+June 07, 2000
+ 643      license B-7 20.729G, B-9 23.532G          12G, 43S, 5B, 0K
+ 644   power off
+
+June 08, 2000
+ 644      license B-8 23.270G
+ 645      license B-6 24.640G  (tried B-10, better S, but no G)
+ 646      license B-1 38.603G (AT) (tried B-4, but no good)
+ 647      license B-2 29.239G (AT)
+ 648      license B-5 32.410G (AT)
+ 649      license ?
+ 650      license B-4 23.655G (AT + digital)
+ 651      license try B-10, records, but no G
+ 652   power off
+
+June 09, 2000
+ 652-654  license B-10 20.269G (AT, tried digital gas, but rejected)
+</pre></font></tt>
+</HTML>
+
+Note that in order to pass B-4 (the small circle pad with the
+econobox) I had to use digital throttle/brake instead of my
+usual analog.  This leads me to wonder quite strongly whether
+the analog throttle is incapable of getting up to 100%.
+
+The Spoon S2000 is, as everyone says, a nice car.  8-)  I won a yellow
+one.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

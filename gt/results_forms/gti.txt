@@ -1,0 +1,61 @@
+
+                      qualifying       race          fastest  
+                     pos   time      pos  time          lap
+High Speed Ring
+Trial Mountain
+Grand Valley
+Special Stage R5
+Deep Forest
+Special Stage R11
+
+Or perhaps:
+
+
+                      qualifying       race          fastest  
+                     pos   time      pos  time          lap
+High Speed Ring       P   M:SS.TTT    P  M:SS.TTT    M:SS.TTT
+Trial Mountain        P   M:SS.TTT    P  M:SS.TTT    M:SS.TTT
+Grand Valley          P   M:SS.TTT    P  M:SS.TTT    M:SS.TTT
+Special Stage R5      P   M:SS.TTT    P  M:SS.TTT    M:SS.TTT
+Deep Forest           P   M:SS.TTT    P  M:SS.TTT    M:SS.TTT
+Special Stage R11     P   M:SS.TTT    P  M:SS.TTT    M:SS.TTT
+
+
++=================================================================+
+|                  |   qualifying   |       race ("finals")       |
+|                  |----------------|-----------------------------|
+|                  |pos|   time     |pos|   time     |fastest lap |
+|=================================================================|
+|High Speed Ring   | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Trial Mountain    | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Grand Valley      | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R5  | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Deep Forest       | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R11 | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
++=================================================================+
+
+
+
++=================================================================+
+|                  |   qualifying   |       race ("finals")       |
+|                  |----------------|-----------------------------|
+|                  |pos|   time     |pos|   time     |fastest lap |
+|=================================================================|
+|High Speed Ring   |   |            |   |            |            |
+|------------------+---+------------+---+------------+------------|
+|Trial Mountain    |   |            |   |            |            |
+|------------------+---+------------+---+------------+------------|
+|Grand Valley      |   |            |   |            |            |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R5  |   |            |   |            |            |
+|------------------+---+------------+---+------------+------------|
+|Deep Forest       |   |            |   |            |            |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R11 |   |            |   |            |            |
++=================================================================+
+

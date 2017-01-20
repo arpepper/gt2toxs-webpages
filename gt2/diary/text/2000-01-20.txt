@@ -1,0 +1,89 @@
+Thursday January 20, 2000
+
+Slumming
+
+Threads:
+  Children
+  License Test Progress
+
+We're set to visit my nephew next Saturday, and, other things being
+equal, a major part of the agenda will be trying to help him learn
+to pass his Gran Turismo 1 A License tests.
+
+So last night I once again  went through my licenses from scratch in
+Gran Turismo 1, to make sure I had not lost the touch.  I was only a
+little bit slower than I expected.  The only thing I noticed was that I
+was often, but not always, a bit over-cautious when braking in Gran
+Turismo now.
+
+I got home last night some time after 8pm, and started doing the tests
+shortly after that, and also ate supper around that time.  In any case,
+by 9:30pm I had acquired my A license.
+
+Here are notes I made.
+
+      B - I got all bronze, on the first try, except for B-2 which 
+          I failed on the first try and got silver on the second try.
+  day 10
+      A-1      2 tries, 1 failure, 1 silver
+      A-2      bronze in 1 try
+      A-3      bronze in 2 tries
+      A-4      bronze in 8(!) tries   38.854
+      A-5      bronze in 1 try   31.411
+      A-6      silver in 3 tries   26.479
+      A-7      gold in 1 try   28.013
+      A-8      bronze in 2 tries, 1:06.993
+
+  day 30
+
+It was now 9:30pm, probably less than one hour after I started
+the B license start.  I had eaten supper by now.
+
+  day 30
+      IA-1     bronze in 1 try     1:06.779
+      IA-3     bronze in 3 tries   2:02.325
+      IA-5     bronze in 1 try     1:23.997(!)
+      IA-7     bronze in 2 tries   2:12.383
+
+      IA-2     bronze in 3 tries   1:29.261
+      IA-4     bronze in 2 tries   1:23.537
+      IA-6     bronze in 2 tries   1:32.699
+      IA-8     bronze in 3 tries   1:58.538
+
+  day 47
+
+It was now 10:05pm.
+
+I then realized I should have kept replays of the A license runs, since
+bronze-level runs will probably be more useful for my nephew to look at
+than the gold-level runs of the Demonstrations in the Replay Theatre.
+Too bad you can't look at them from within the license test screen;
+hmm.  you can't actually do that in GT2 with your own replays, either.
+So anyway, I redid the A tests to save the replays.
+
+   Replays   (I didn't note how many attempts I took to get the following)
+
+      A-1      33.032  Bronze
+      A-2      25.330  Bronze (forgot to record 25.190 silver)
+      A-3      43.577  Bronze
+      A-4      38.833  Bronze
+      A-5      31.159  Bronze
+      A-6      26.832  Bronze
+      A-7      27.789  Gold
+      A-8    1:07.525  Bronze
+
+It's possible I did them all on the first attempt; it certainly never
+got very desperate-feeling.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

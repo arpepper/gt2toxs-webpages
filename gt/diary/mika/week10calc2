@@ -1,0 +1,102 @@
+#!/xhbin/perl5 -w
+
+#
+# elapsed - convert total thousandsths to a readable string
+#
+#   bad name for routine
+#
+	sub
+elapsed {
+	local($thous) = @_;
+	local($ttt,$ss,$mm,$hh);
+
+	$ttt = $thous;
+
+	$hh = int($ttt / (60 * 60 * 1000) );
+	$ttt -= $hh * (60 * 60 * 1000);
+	$mm = int($ttt / (60 * 1000) );
+	$ttt -= $mm * (60 * 1000);
+	$ss = int($ttt / 1000 );
+	$ttt -= $ss * 1000;
+
+	if ($hh > 0) {
+		sprintf("%d-%2.2d:%2.2d.%3.3d",$hh,$mm,$ss,$ttt);
+	}
+	else {
+		sprintf("  %2d:%2.2d.%3.3d",$mm,$ss,$ttt);
+	}
+	
+}
+
+
+
+while (<>) {
+	if ( $_ =~ /^(\d+)(\s+.*)((\d):([0-5]\d)[.](\d{3}))$/ ) {
+		$pointsused = $1;
+		$stuff1 = $2;
+		#$time = $3;
+		$mins = $4;
+		$secs = $5;
+		$thous = $6;
+		$thous += ( 1000 * $secs) + ( 60 * 1000 * $mins);
+		
+		#printf("%d%s%s", $pointsused, $stuff1, &elapsed($thous) );
+		$info{$pointsused} = $stuff1;
+		$raw{$pointsused} = $thous;
+#printf("%s{%s} = %d\n", '$raw', $pointsused, $thous);
+
+	}
+	else {
+		print "Bad line: " . $_;
+	}
+}
+
+sub numerically { $a <=> $b; }
+
+@list  = sort numerically keys %raw;
+
+printf("     ");
+for $pointsused (@list) {
+	printf("%7d      ", $pointsused );
+}
+printf("\n");
+printf("     ");
+for $pointsused (@list) {
+	printf("%13.13s", $info{$pointsused});
+}
+printf("\n");
+printf("   ");
+for $pointsused (@list) {
+	$thous = $raw{$pointsused};
+	printf(" %s ", &elapsed($thous));
+}
+printf("\n\n");
+
+for ($points = 0; $points <= 10; ++$points) {
+	printf("%2d ", $points);
+	$mintime = 99999999;
+	for $pointsused (@list) {
+		$thous = $raw{$pointsused};
+		$penalty = $points - $pointsused;
+		if ($penalty < 0) {
+			$penalty *= 2;
+		}
+		$penalty *= 1000;
+		if ($thous-$penalty < $mintime) {
+			$mintime = $thous - $penalty;
+			$best = $pointsused;
+		}
+	}
+	for $pointsused (@list) {
+		$thous = $raw{$pointsused};
+		$penalty = $points - $pointsused;
+		if ($penalty < 0) {
+			$penalty *= 2;
+		}
+		$penalty *= 1000;
+		printf(" %s", &elapsed($thous-$penalty));
+		printf("%s", $pointsused eq $best ? "*" : " ");
+	}
+	printf("\n");
+}
+printf("\n");

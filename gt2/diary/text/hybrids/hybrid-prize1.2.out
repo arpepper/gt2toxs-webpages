@@ -1,0 +1,31 @@
+C21CD558 0008 -- copies most things from slot #1 (1.2)
+101D55CC 0000
+C21CD564 0006
+101D55D8 0000
+C21CD56E 000C
+101D55E2 0000
+C21CD59A 001A
+101D560E 0000
+C21CD5B8 0044
+101D562C 0000
+
+C21CD610 0002 -- copies engine from slot #2
+101D55E0 0000
+
+C21CD6B2 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+101D55DE 0000
+C21CD6C2 0004 -- copies weight reduction and race-mod from slot #3
+101D55EE 0000
+
+C21CD76A 000A -- copies engine mods from slot #4
+101D55F2 0000
+
+C21CD818 0010 -- copies turbo and some other stuff from slot #5
+101D55FC 0000
+C21CD844 0004 -- copies turbo gauge also from slot #5
+101D5628 0000
+
+C21CD894 0004 -- copies after-market rims from slot #6
+101D55D4 0000
+C21CD8CC 0002
+101D560C 0000

@@ -1,0 +1,109 @@
+Monday November 1, 1999
+
+tuned GTO'95MR Posts New Record at SSR11 All-Night II Again
+
+Threads:
+  All-Night II Results
+  Used Car Information
+  Tuning Advice
+
+Well, one of the gold cups remaining in my "gold" game was the one for
+the All-night II Race (tuned 30 lap race of SSR11).
+
+It went very well again.
+
+   silver day 95
+   November 01, 1999
+   tuned GTO'95MR
+   SSR11 All-Night II
+
+   q1st 1:43.707new     Cr20,000
+
+   Results:
+
+   1st  GTO'95MR             51:42.040<--new silver time
+   2nd  FDRX7 TypeRZ          +446.796  (59:08.836)
+   3rd  SUPRA RZ              +449.102  (59:11.142)
+   4th  NSX'93                +459.290  (59:21.330)
+   5th  Lancer Evo III GSR    +481.770  (59:43.810)
+   6th  R33GT-R Vspec         +499.124  (60:01.164)
+   
+   pits   6,12,18,24
+   lap 1   1:43.148
+   fl  (14) 1:37.288new
+   slowest  non-pit   (15)  1:45.169
+             next      (8)  1:43.027
+   fastest pit laps    (6in)  1:41.346
+                      (19out) 2:00.294
+   slowest pit laps   (18in)  1:46.230
+                      (13out) 2:00.948
+
+I led from start to finish, getting noticeably held up by the traffic
+on laps 8,9,10 as I lapped the field once, repassing some of them on
+my next shift.
+
+I was a total of eight seconds faster than my last attempt, done with
+the same car in the "silver" game.
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:43.148      1:43.148
+ 2   1:42.202      3:25.350
+ 3   1:39.774      5:05.124
+ 4   1:39.766      6:44.890
+ 5   1:38.271      8:23.161
+ 6   1:41.346     10:04.507
+ 7   2:00.431     12:04.938
+ 8   1:43.027     13:47.965
+ 9   1:40.480     15:28.445
+10   1:39.965     17:08.410
+11   1:39.519     18:47.929
+12   1:44.522     20:32.451
+13   2:00.948     22:33.399
+14   1:38.030     24:11.429
+15   1:45.169     25:56.598
+16   1:40.943     27:37.541
+17   1:39.802     29:17.343
+18   1:46.230     31:03.573
+19   2:00.294     33:03.867
+20   1:37.288     34:41.155
+21   1:39.806     36:20.961
+22   1:37.880     37:58.841
+23   1:40.468     39:39.309
+24   1:43.051     41:22.360
+25   2:00.839     43:23.199
+26   1:38.744     45:01.943
+27   1:38.183     46:40.126
+28   1:41.542     48:21.668
+29   1:38.689     50:00.357
+30   1:41.683     51:42.040
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+My settings were the same as the October 25 run, except that I changed
+the final drive from 4.200 to 4.100
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

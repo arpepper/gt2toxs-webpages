@@ -1,0 +1,10 @@
+<b>Win a Hybrid Combination of the First Nine Cars in Your Garage</b>
+
+All of these codes require a <b>GameShark 3.00</b> or higher,  This is because they make extensive use of the <b>C2>/b> copy code.
+
+With these codes active, anytime you win a race with a single prize you will not win the normal prize car.  Instead, you will win a hybrid made up of various parts from the first nine slots of your garage.  Obviously, bad things will happen if you have fewer than nine cars in your garage.  :)
+
+I developed and extensively tested the code using <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font> NTSC version 1.0; the codes for the other versions I generated using a computer program and (remind me to change this) no-one has tested them yet.
+
+Unfortunately, during testing I did run into one problem.  Occasionally, instead of the desired hybrid, I would win a dreaded <b>No Name No Name</b>, which turned out to be a garage entry of mostly zeroes.  Now, all the times I won that car I had active, besides this code, my code to allow me to win prize cars at events which do not normally award them.  Both times it happened, I later won apparently good entries without having to first restart the game.  But this observation does seem to indicate some of the things which can go wrong with a GameShark.
+

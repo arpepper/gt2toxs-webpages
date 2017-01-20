@@ -1,0 +1,22 @@
+#!/xhbin/perl5 -w
+
+
+$pid = open(SELECTION,"-|");
+unless (defined($pid)) {
+	die "Could not fork";
+}
+if ($pid) {   # parent
+	$OldSep = $/;
+	undef($/);
+	$slurpee = <SELECTION>;
+	print "$slurpee\n";
+	$/ = $OldSep;
+}
+else {   # child
+	close(STDIN);
+	unless (open(STDIN,"</u/arpepper/public_html/gt/inventory/total.connoy")){
+		die "cannot open STDIN total.connoy";
+	}
+	exec "/u/arpepper/public_html/gt/inventory/select", (@ARGV);
+	die "exec failed $!";
+}

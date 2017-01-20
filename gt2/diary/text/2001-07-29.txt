@@ -1,0 +1,52 @@
+Sunday July 29, 2001
+
+A "Proper" Game Using Nissans As Much As Possible
+
+Threads:
+  Game Evaluation
+  Gameplay Hints
+
+<CODES>
+
+I finished the <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> 
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> game
+(maybe <a href="../logs/proper.txt">here</a>) but wanted to continue
+playing
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>.
+
+So I decided once again to complete
+simulation mode
+doing all the races in proper license order without entering any race
+twice, but this time I decided to Nissans as much as possible.
+In particular, I decided to use the 1988 Nissan S13Silvia 1800c K's
+as much as possible.
+
+The log of that game is 
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nissan">here</a>
+(maybe <a href="../logs/nissan.txt">here</a>).
+
+Note that Nissan does not have any offerings allowed to enter the
+<b>LightWeight Cup</b>.
+
+But previous tests had indicated to me that, with a little preparation,
+I could win the <b>Normal</b> series with the <b>1989 Nissan Skyline GT-R</b>.
+With just light modifications, too, (soft slicks and turbo-spec 2) the
+same car can win the tough <b>4WD</b> series.  Actually, it can win
+with somewhat cheaper modifications (especially tires), but using soft
+slicks makes them available to you later in the game, without having
+to waste the cost of cheaper tires.
+
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

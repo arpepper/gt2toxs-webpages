@@ -1,0 +1,141 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.05.04.23.15.10;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.04.26.21.15.02;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@experimenting with semi-literal stuff which we want indented only.
+@
+
+
+1.2
+log
+@format twiddles.
+@
+text
+@Wednesday April 26, 2000
+
+
+A GameShark Code to Get all Colours of All License Test Gold Cars
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+
+Finally, working with lots of hints and information from other sources,
+I combined facets of other people's codes to come up with a useful code
+which is, essentially, "my own".   8-)
+
+My code for Gran Turismo 2, version 1.0
+Tested with GameShark Pro, version 3.2
+
+If you activate this code, then when you go to the Toyota dealer, New
+Cars, page 1, the first seven cars actually available will be the
+following seven prize cars.  The names on the page will still be
+the regular ones, but you will notice the prices are different.
+When you select a car, the prize car will be available for purchase,
+and, if the car is available in different colours, the correct choice
+of colours will be presented for you.  The only disadvantage is that
+you must buy the car for its full "book value".  Therefore I have
+included a "lotsa cash" code.   8-)
+
+ D01C322C  D5D8
+ 801C3018  D758 \
+ D01C322C  D5D8 Spoon S2000
+ 801C301A  120D /
+
+ D01C322C  D5D8
+ 801C2FCC  A498 \
+ D01C322C  D5D8 Concept Car
+ 801C2FCE  0E35 /
+
+ D01C322C  D5D8
+ 801C3064  E59C \
+ D01C322C  D5D8 3000 GT LM Edition
+ 801C3066  1745 /
+
+ D01C322C  D5D8
+ 801C30B0  F71C \
+ D01C322C  D5D8 del Sol LM Edition
+ 801C30B2  1200 /
+
+ D01C322C  D5D8
+ 801C30FC  E65C \
+ D01C322C  D5D8 FTO LM Edition
+ 801C30FE  1701 /
+
+ D01C322C  D5D8
+ 801C3148  129C \
+ D01C322C  D5D8 GT-One'99
+ 801C314A  1E0D /
+
+ D01C322C  D5D8
+ 801C3194  C31C \
+ D01C322C  D5D8 Cerbera LM
+ 801C3196  2001 /
+
+ D01C322C  D5D8
+ 801D0FCA  05F5 - approximately Cr99,000,000
+
+Notes:
+D01C322C D5D8  -  goes before each "8" code
+This makes sure the changes take effect only when
+you are in the "Toyota New Car Lineup, Page 1".
+
+The money code works such that your cash gets topped
+up to about Cr99,000,000 every time you go to the
+Toyota New Car Lineup 1.
+
+The easiest way to enter this code is to replicate thirty
+lines of
+
+ D01C322C  D5D8
+
+And afterwards go back and change every second line to be the
+approriate car body code.
+
+Each pair of values for a car body code can be changed to any car you
+want.  I picked the six hard-to-get license test gold cars, plus the
+Cerbera LM which seems to be elusive for a lot of people.  A nice
+line-up, I think.  8-)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+Wednessay April 26, 2000
+d71 4
+@

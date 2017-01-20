@@ -1,0 +1,295 @@
+head	1.6;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2002.04.14.05.03.02;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.04.08.00.45.24;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.04.08.00.40.07;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.04.07.22.34.43;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.07.05.44.55;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.05.26.40;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Added Eligible Cars list, based on Gameshark Pro analysis.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Races - Lightweight Battle Stage</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1>
+The Gran Turismo Pit Stop<BR>
+Simulation - Races <BR>
+Lightweight Battle Stage
+</H1>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+<CENTER>
+<TABLE BORDER>
+  <CAPTION><B>Qualifications</B></CAPTION>
+  <TR>
+    <TH>Class</TH> <TH>Grand Prix Name</TH> <TH>License</TH> <TH>Level</TH>
+    <TH>Eligible Cars</TH> <TH>Other Restrictions</TH>
+  </TR>
+  <TR ALIGN=CENTER>
+    <TD>Special Event</TD> <TD>Lightweight Battle Stage</TD> <TD>B</TD> <TD>Intermediate</TD>
+    <TD>All</TD> <TD>See eligible cars below</TD>
+  </TR>
+</TABLE>
+<P><BR>
+
+<TABLE BORDER>
+  <CAPTION><B>Prizes</B></CAPTION>
+  <TR VALIGN=BOTTOM>
+    <TH></TH> <TH></TH> <TH></TH> <TH COLSPAN=2>Car Value</TH>
+  </TR>
+  <TR>
+    <TH>Prize $</TH> <TH>Prize Car</TH> <TH>Car Colors</TH>
+    <TH>Dealer</TH> <TH>Non-Dealer</TH>
+  </TR>
+  <TR ALIGN=CENTER>
+    <TD ROWSPAN=2>$10,000</TD> <TD>CRX Type R</TD> <TD>Yellow, pink or blue.  All with black hood</TD>
+    <TD>$12,000</TD> <TD>$10,000</TD>
+  </TR>
+  <TR ALIGN=CENTER>
+    <TD>Mazda Eunos</TD> <TD>Yellow, blue or gold</TD>
+    <TD>$12,000</TD> <TD>$10,000</TD>
+  </TR>
+</TABLE>
+<P><BR>
+
+<TABLE BORDER>
+  <CAPTION><B>Track Info</B></CAPTION>
+  <TR>
+    <TH> </TH> <TH> </TH> <TH COLSPAN=7>Position $ / Points</TH>
+    <TH ROWSPAN=2>Pole<BR>Time</TH>
+  </TR>
+  <TR>
+    <TH>Tracks</TH> <TH>Laps</TH>
+<TH>1</TH> <TH>2</TH> <TH>3</TH> <TH>4</TH> <TH>5</TH> <TH>6</TH>
+    <TH>Pole</TH>
+  </TR>
+  <TR ALIGN=CENTER>
+    <TD>Autumn Mini Ring II<BR>
+      Clubman Stage Route 5<BR>
+      Deep Forest Racing Way II
+    </TD>
+    <TD>2</TD>
+    <TD>$5,000<BR> / 9</TD> <TD>$3,000<BR> / 6</TD> <TD>$2,500<BR> / 4</TD> <TD>$2,000<BR> / 3</TD>
+    <TD>$1,000<BR> / 2</TD> <TD>$500<BR> / 1</TD> <TD>$2,000</TD>
+    <TD ALIGN=CENTER>0:40.648<BR>
+      0:57.888<BR>
+      1:24.116</TD>
+  </TR>
+</TABLE>
+<P><BR>
+
+<table border>
+  <CAPTION><B>AI Entrants</B></CAPTION>
+<tr><td align=center valign=center>Integra Type R</td>
+<td align=center valign=center>Civic'93 3door Si</td>
+<td align=center valign=center>Civic(Racer)</td></tr>
+<tr><td align=center valign=center>Corolla Levin GT-Apex</td>
+<td align=center valign=center>Trueno GT-Apex</td>
+<td align=center valign=center>Corolla Levin BZ-G</td></tr>
+<tr><td align=center valign=center>Trueno BZ-G</td>
+<td align=center valign=center>Civic'91 CR-X Si</td>
+<td align=center valign=center>Mirage Asti RX</td></tr>
+<tr><td align=center valign=center>Demio GL-X</td>
+<td align=center valign=center>Mirage'92 Cyborg-R</td>
+<td align=center valign=center>Starlet Glanza V</td></tr>
+</table>
+<P><BR>
+
+
+<table cellpadding="10"><tr><td align="center">
+<table border>
+  <CAPTION><B>Eligible Cars</B></CAPTION>
+<tr><td align=center valign=center>Starlet Glanza V</td>
+<td align=center valign=center>Corolla Levin BZ-G</td>
+<td align=center valign=center>Trueno BZ-G</td></tr>
+<tr><td align=center valign=center>Corolla Levin GT-Apex</td>
+<td align=center valign=center>Trueno GT-Apex</td>
+<td align=center valign=center>FTO'94 GR</td></tr>
+<tr><td align=center valign=center>FTO'94 GPX</td>
+<td align=center valign=center>FTO GR</td>
+<td align=center valign=center>FTO GPX</td></tr>
+<tr><td align=center valign=center>FTO GP version R</td>
+<td align=center valign=center>Mirage Asti RX</td>
+<td align=center valign=center>Mirage'92 Cyborg-R</td></tr>
+<tr><td align=center valign=center>Integra GS-R</td>
+<td align=center valign=center>Integra Type R</td>
+<td align=center valign=center>Civic Sedan</td></tr>
+<tr><td align=center valign=center>Civic 3 door</td>
+<td align=center valign=center>Civic(Racer)</td>
+<td align=center valign=center>del Sol'93 S</td></tr>
+<tr><td align=center valign=center>del Sol'93 Si</td>
+<td align=center valign=center>del Sol VGI (hidden)</td>
+<td align=center valign=center>del Sol SiR (hidden)</td></tr>
+<tr><td align=center valign=center>Civic'93 3door Si</td>
+<td align=center valign=center>Civic'93 Sedan</td>
+<td align=center valign=center>Civic'91 CR-X Si</td></tr>
+<tr><td align=center valign=center>Eunos Roadster'90 1600 V Special</td>
+<td align=center valign=center>Eunos Roadster'92 1600 S Special</td>
+<td align=center valign=center>Eunos Roadster V Special</td></tr>
+<tr><td align=center valign=center>Eunos Roadster S Special</td>
+<td align=center valign=center>Eunos Roadster'89 1600</td>
+<td align=center valign=center>Eunos Roadster</td></tr>
+<tr><td align=center valign=center>*Demio Aspec</td>
+<td align=center valign=center>Demio GL-X</td>
+<td align=center valign=center>Demio GL</td></tr>
+<tr><td align=center valign=center>Demio LX</td>
+<td align=center valign=center>&nbsp;</td>
+<td align=center valign=center>&nbsp;</td></tr>
+</table>
+</td></tr><tr><td width="10">
+<p>
+<em>Note that the above cars can be entered in normal (tuned) or race-mod
+form.  Note that, apart from the Demio Aspec, no other
+prize cars can be entered in this series, not even the prizes you
+win from it!  The above list explicitly includes a few cars which
+were erroneously omitted from the list in the Polyphony manual.</em>
+</p>
+</td></tr>
+</table>
+
+
+</CENTER>
+<P><BR>
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sun Apr 14 01:02:53 EDT 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+</BODY>
+</HTML>
+@
+
+
+1.5
+log
+@Fixed change time.
+@
+text
+@d82 65
+a146 12
+<tr><td align=center valign=center>Integra Type R</td></tr>
+<tr><td align=center valign=center>Civic'93 3door Si</td></tr>
+<tr><td align=center valign=center>Civic(Racer)</td></tr>
+<tr><td align=center valign=center>Corolla Levin GT-Apex</td></tr>
+<tr><td align=center valign=center>Trueno GT-Apex</td></tr>
+<tr><td align=center valign=center>Corolla Levin BZ-G</td></tr>
+<tr><td align=center valign=center>Trueno BZ-G</td></tr>
+<tr><td align=center valign=center>Civic'91 CR-X Si</td></tr>
+<tr><td align=center valign=center>Mirage Asti RX</td></tr>
+<tr><td align=center valign=center>Demio GL-X</td></tr>
+<tr><td align=center valign=center>Mirage'92 Cyborg-R</td></tr>
+<tr><td align=center valign=center>Starlet Glanza V</td></tr>
+d155 1
+a155 1
+Last modified: Sun Apr  7 20:43:35 EDT 2002
+@
+
+
+1.4
+log
+@Added AI Entrants.
+@
+text
+@d102 1
+a102 1
+Last modified: Sun Apr  7 00:27:20 EST 2002
+@
+
+
+1.3
+log
+@Added or corrected all prize money, and pole times.
+@
+text
+@d78 18
+@
+
+
+1.2
+log
+@Removed email address.
+Fixed date.
+A few colour corrections, etc.
+@
+text
+@d73 3
+a75 3
+    <TD ALIGN=CENTER>0:40.863<BR>
+      0:57.889<BR>
+      1:24.117</TD>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a4 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+d44 1
+a44 1
+    <TD ROWSPAN=2>$10,000</TD> <TD>CRX Type R</TD> <TD>Yellow, pink or green.  All with black hood</TD>
+d70 1
+a70 1
+    <TD>?</TD>
+d84 1
+a84 1
+Last modified: Wed Jun  9 14:14:19 EDT 1999
+d87 2
+a88 4
+Send any comments or suggestions to:
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+@

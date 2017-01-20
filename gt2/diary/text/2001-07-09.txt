@@ -1,0 +1,54 @@
+Monday July 09, 2001
+
+JavaScript Pages to Help Compare Cars and Locate Used Cars
+
+Threads:
+  Car Information
+  Gameplay Hints
+  Prize Car Information
+  Used Car Information
+  Used Car Patterns
+
+<CODES>
+
+I spent a couple of weeks working on JavaScript pages to perform selective
+queries of <font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font> car data.
+
+The pages <a href="../gt1stats">gt1stats</a> and <a href="../gt1used">gt1used</a>
+contain JavaScript utilities which, if you have a suitable browser,
+will allow you to search for cars available in 
+<font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font>.
+
+<a href="../gt1stats">gt1stats</a> is generally more useful, since it
+contains more information for each car, and stats for new cars.
+Since it contains information for used cars up to only day 100, the
+table of data is actually smaller than the other page, and so the
+whole thing tends to work faster.  (In fact, I do also include a
+few used cars appearing after day 100, so as to document the first
+appearance of each car of each colour).
+
+<a href="../gt1used">gt1used</a>, however, is the result of my analysis
+of the raw information contained on the game <b>CD</b> and contains
+information for all 60 used car lineups.  (The lineups are for day
+0 (i.e. day 1), up to day 590, each one lasting for 10 days.
+On day 600, the used car inventory repeats with the day 0 cycle,
+and so-on).  For the way this is stored (actually in-line in
+the JavaScript), it is rather a large amount of data, and so the page
+is rather slow, but it is amusing to peruse it every now-and-then.
+
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

@@ -1,0 +1,244 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2008.05.03.02.29.55;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.05.03.02.28.52;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Added a missing word.
+@
+text
+@Saturday October 23, 2004
+
+I Finish Racing Every Used Car in the Hard-Tuned Series
+
+Threads:
+  Car Information
+  Driving Advice
+  Game Evaluation
+  Game Shark Hints
+  Gameplay Hints
+  Tuned Series Results
+  Tuning Advice
+  Used Car Information
+
+<CODES>
+
+In the <font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font> 
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-tuned">gt1-tuned</a> game
+(Maybe <a href="../logs/gt1tuned.txt">here</a>)
+I finished my task of racing every used car in the <b>Hard-Tuned</b>
+series.  (This game is actually an alternate version of
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-mazda">gt1-mazda</a>
+(<a href="../logs/gt1-mazda.txt">gt1-mazda.txt</a>).
+
+
+Of course, I didn't win with every car, but all cars can come fifth if you
+arrange to race against the <b>Civic 3 door</b>, so that allows some racing
+in those cases.  Also, I used my now favourite <b>GameShark Code</b>
+(<a href="2004-04-09.html">2004-04-09.html</a>)
+
+There were, however, actually a few surprise winners.
+
+I think my favourite car for this series is now the <b>Mazda FC RX-7 GTX</b>;
+it's light and nimble, and not over-powered, and allows you to win easily
+without feeling like you're cheating.
+
+Another good car is the <b>Nissan 180SX'94 Type X</b>, but that's beginning
+to feel like too easy a winner now.
+
+One of the earliest surprise winners was the heavyish, somewhat underpowered
+(for its weight) <b>Toyota Supra'95 SZ-R</b>.
+
+The most surprising winner was the low-powered
+<b>Nissan S13 Silvia'91 Q's 2000cc</b>.
+Winning with this car seemed a struggle--winning reliably would probably
+be impossible (for me) since some luck would be required.
+
+A good challenge for me is to use the <b>Mitsubishi FTO'94 GPX</b>.
+
+I can also win with the
+lesser <b>Subaru</b>s--the <b>Legacy</b>s and <b>Alcyone</b>s,
+but it's a bit of a struggle.
+They're sort of one of my favourites, except that their 4WD makes them a
+little boring to drive.
+
+Speaking of four-wheel drive, the real surprise for me was how relatively
+easy it is to win with the <b>Nissan Pulsar '91 GTi-R</b>.  It's not a
+walkover,
+but with practise it gets relatively easy.
+
+</CODES>
+
+===============================================================================
+Copyright (C) 2004, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+=========================================================================
+ 690-695 NSX'93 Tuned  q55166,13151,1st33to28,26,20,12,6  pinkTrueno(dup)(sold)
+ 696-701 NSX'93 Tuned  q26121,12161,1st34to33,20,17,15,6  blueTrueno(dup)(sold)
+ 702-707 NSX'93 Tuned  q26132,13361,2nd28to(27),26,21,17,6        8-(
+ 708-713 tuned180SX'94  Tuned  1st39to30,21,16,13,6    yellowSkyline(6/6)(sold)
+ 714-719 tuned180SX'94  Tuned   q2H,1st45to27,19,16,13,5  blueTrueno(dup)(sold)
+ 721-726 NSX'93 Tuned  q24161,12151,1st35to30,21,21,13,5  pinkTrueno(dup)(sold)
+ 727-732 NSX'93 Tuned  q21161,A3,1st40to27,19,18,16,5  yellowSkyline(dup)(sold)
+ 733-738 Miata'92S  Tuned  q66166,56565,5th37to30,23,20,(8),7     8-(
+ 749-754  GTO'92tt      Tuned   sw45to24,19,18,13,6       pinkTrueno(dup)(sold)
+ 756-761 SZ-R'95 Tuned q66166,14311,1st34to26,23,18,18,6  redSkyline(dup)(sold)
+ 762-767 TourerV'92  Tuned  12131,1st37to30,20,19,14,5   whiteTrueno(dup)(sold)
+ 769-774 redNSX'91 Tuned  q45121,22121,2nd36to(35),20,15,13,5     8-(
+ 776-781 redNSX'91 Tuned   13111,1st40to29,20,16,13,7    whiteTrueno(dup)(sold)
+ 782-787 redCosmo20B   Tuned  q14131,G2,1st42to30,19,16,13,5   pinkTrueno(sold)
+ 789-794 wineSoarer   Tuned  q46166,1st45to22,21,18,14,5 whiteTrueno(dup)(sold)
+ 795-800 Legacy'93WG Tuned  q66161,43321,3rd29to28,(26),22,15,5     8-(
+ 801-806 Legacy'93WG Tuned  21311,1st37to25,23,19,16,5    blueTrueno(dup)(sold)
+ 807-812 FCRX7III    Tuned   q4H,1st45to23,21,16,15,5     pinkTrueno(dup)(sold)
+ 813-818  redGTR'89     Tuned   sw45to24,23,14,14,5       redSkyline(dup)(sold)
+ 819-824  redGTR'89     Tuned   sw45to22,22,19,12,5       blueTrueno(dup)(sold)
+ 825-830 Civic'93SD  Tuned  q66166,55545,5th37to27,26,19,(11),5     8-(
+Note:  Civic'93SD  Tuned  q66166,1st45to22,18,16,13,11   redSkyline(temp)
+ 836-841  Impreza'94WG  Tuned   sw45to25,19,18,13,5       pinkTrueno(dup)(sold)
+ 842-847 CRX'91      Tuned  q66166,55455,5th37to27,23,22,(11),5     8-(
+Note:  CRX'91      Tuned  q66166,1st45to21,18,17,14,10   redSkyline(temp)
+ 854-859 GTS4        Tuned  q66166,55555,5th37to31,24,18,(10),5     8-(
+Note:  GTS4      Tuned  q66166,G2,1st42to25,20,13,13,12  redSkyline(temp)
+ 865-870  red180SX'94 Tuned q34111,1st45to21,21,20,13,5   redSkyline(dup)(sold)
+ 872-877 MkII'92S    Tuned  q66166,65555,5th36to27,25,22,(9),6      8-(
+Note:  MkII'92S  Tuned  q66166,1st45to20,20,18,15,7      redSkyline(temp)
+ 884-889 R32VspecII  Tuned  q2G,1st45to22,22,19,12,5      blueTrueno(dup)(sold)
+ 891-896  red180SX'94 Tuned q23112,C3,1st40to24,22,19,15,5 pinkTrueno(dup)(sold)
+ 897-902  Silvia'88Q  Tuned q6*,56455,5th37to30,23,18,(10),6     8-(
+Note:  Silvia'88Q Tuned  q66166,G3,1st40to22,20,16,15,12    whiteTrueno(temp)
+ 913-918  whiteEvoIII Tuned q46151,A2,1st42to24,23,17,14,5 redSkyline(sold) 
+ 919-924  whiteEvoIII Tuned q36121,1st45to26,17,16,16,5  blueSkyline(dup)(sold) 
+ 925-930  GTO'95tt      Tuned   sw45to23,22,17,13,5       redSkyline(dup)(sold)
+ 936-941 Pulsar Tuned  q66131,34111,1st34to32,25,16,13,5 blueSkyline(dup)(sold)
+ 947-952 FTO'94GR  Tuned  q66156,23233,3rd34to26,(24),22,14,5    8-(
+ 953-958 FTO'94GR  Tuned  q66146,23232,2nd30to(26),24,29,19,6    8-(
+ 959-964 FTO'94GR  Tuned  q66136,43212,3rd33to29,(28),18,13,5    8-(
+ 965-970 FTO'94GR  Tuned  q66146,23345,5th38to25,19,19,(19),5    8-(  8-(
+ 971-976 redLegacy'93 Tuned  q66163,22131,1st34to32,21,20,13,5 pinkTrueno(sold)
+ 977-982  black180SX    Tuned   sw45to25,19,18,13,5       pinkTrueno(dup)(sold)
+ 983-988  yellowRX7'91  Tuned   sw45to23,22,18,12,5      blueSkyline(dup)(sold)
+ 989-994 Legacy'93 Tuned  q66144,22111,1st39to30,20,18,13,5 yellowSkyline(sold)
+1024-1029 Miata'90V  Tuned  q66166,56555,5th37to30,23,20,(9),6     8-(
+Note:  Miata'90V   Tuned  q66166,16131,1st32to26,21,21,13,12   redSkyline(temp)
+1030-1035 NismoGTR    Tuned    sw45to27,16,16,16,5       whiteTrueno(dup)(sold)
+1041-1046 redCivic3dr93 Tuned  q66166,55455,5th37to30,23,19,(11),5  8-(
+Note:  redCivic3dr93 Tuned q66166,1st45to18,18,17,17,10      blueSkyline(temp)
+1047-1052 GTO'92SR   Tuned  q66166,55354,5th34to28,25,20,(13),5    8-(
+Note: GTO'92SR   Tuned  q66166,1st45to25,18,13,13,11      whiteTrueno(temp)
+1062-1067 whiteLevin Tuned  q66166,5*,5th36to30,25,19,(10),5       8-(
+Note: whiteLevin Tuned  q66166,13111,1st40to22,19,18,16,10 redSkyline(temp)
+1081-1086 Silvia'95K Tuned q66121,A4,1st39to28,22,18,18,5     blueSkyline(sold)
+1087-1092 Silvia'95K Tuned q22111,C2,1st42to27,18,18,15,5     blueSkyline(sold)
+1114-1119 delSolS    Tuned  q66166,56555,5th37to27,23,23,(9),6     8-(
+1120-1125 redCRX     Tuned  q66166,55455,5th37to30,23,19,(11),5    8-(
+Note: delSolS    Tuned  q66166,35321,3rd26to25,(25),18,17,14       8-(
+Note: redCRX     Tuned  q66166,1st45to22,19,14,13,12       pinkTrueno(temp)
+Note: To retry: delSolS  Tuned(sharked)
+1131-1136 NSX'91     Tuned  q64146,16263,4th30to27,23,(21),16,7    8-(
+1137-1142 NSX'91  Tuned q36161,14131,1st34to26,24,19,17,5 pinkTrueno(dup)(sold)
+1143-1148 MA70Supra  Tuned  q6G,1st45to24,18,18,14,5      blueTrueno(dup)(sold)
+1149-1154 yellowEvoIII Tuned q22121,1st45to24,20,16,15,5  pinkTrueno(dup)(sold)
+1161-1166 Primera'90 Tuned  q66166,44534,5th37to29,24,15,(15),5    8-(
+Note: Primera'90 Tuned  q66156,1st45to24,20,,12,12,12      pinkTrueno(temp)
+1167-1172 GTR'91       Tuned   sw45to23,22,17,13,5        redSkyline(dup)(sold)
+1180-1185 Cosmo13B  Tuned  q66166,22331,1st29to27,22,22,20,5  blueSkyline(sold)
+1190-1195 GTR'95       Tuned   sw45to24,21,17,13,5       whiteTrueno(dup)(sold)
+1196-1201 yellow'94GPX Tuned  q66166,23221,2nd35to(31),21,18,14,6    8-(
+1202-1207 yellow'94GPX Tuned q66114,24311,1st31to30,23,18,18,5 yellowSkyline(sold)
+1213-1218 Silvia'91Q   Tuned  q66124,34313,3rd32to30,(24),18,16,5    8-(
+1219-1224 Silvia'91Q  Tuned  q66132,43311,1st29to28,25,22,16,5 blueTrueno(sold)
+1226-1231 redPrelude'94 Tuned q66126,13211,1st37to27,21,20,15,5 whiteTrueno(sold)
+1232-1237 GTRVspec     Tuned   sw45to22,21,16,16,5        blueTrueno(dup)(sold)
+1238-1243 Prelude'94   Tuned  q66133,34311,2nd31to(29),27,18,15,5    8-(
+1244-1249 Prelude'94 Tuned q66146,13212,1st34to33,20,20,15,5 yellowSkyline(sold)
+1250-1255 silverWRX'95SD Tuned 13212,1st34to33,20,20,15,5   yellowSkyline(sold)
+1256-1261 SVXL  Tuned  q64122,21311,1st37to25,21,18,18,6 whiteTrueno(dup)(sold)
+1271-1276 Levin Tuned  q66166,55455,5th36to30,23,19,(11),5         8-(
+Note: Levin    Tuned    q66166,12111,1st42to21,18,16,15,13  redSkyline(temp)
+1277-1282 redSilvia'88K Tuned  q6G,1st45to23,22,18,12,5   redSkyline(dup)(sold)
+1283-1288 SVXS4  Tuned  q65111,22311,1st34to30,21,19,16,5 pinkTrueno(dup)(sold)
+1289-1294 Supra'95RZ  Tuned  q4A,1st45to22,22,18,13,5    whiteTrueno(dup)(sold)
+1297-1302 Supra'95RZ  Tuned       sw45to24,21,17,13,5    blueSkyline(dup)(sold)
+1303-1308 redGTR'91    Tuned   sw45to26,18,17,14,5       whiteTrueno(dup)(sold)
+1309-1314 GTO'95MR     Tuned   sw45to27,20,15,13,5        pinkTrueno(dup)(sold)
+1315-1320 GTO'95MR     Tuned   sw45to23,20,16,16,5       blueSkyline(dup)(sold)
+1326-1331 Silvia'95Q   Tuned  q66156,35345,5th34to29,22,20,(15),5    8-(
+Note: Silvia'95Q  Tuned  q66166,1st45to24,22,19,8,7    blueTrueno(temp)
+1332-1337 blueRX7 Tuned q66111,23111,1st37to32,20,16,15,5 blueTrueno(dup)(sold)
+1338-1343 blueRX7 Tuned q43114,G2,1st42to24,22,19,13,5 yellowSkyline(dup)(sold)
+1344-1349 delSolSi  Tuned  q66166,55456,5th37to30,23,19,(10),6     8-(
+1355-1360 WRX'94SD Tuned q66112,22311,1st34to30,22,18,16,5 blueTrueno(dup)(sold)
+Note: delSolSi    Tuned  q66166,1st45to20,17,15,14,14  blueSkyline(temp)
+1366-1371 Trueno Tuned  q66166,56555,5th36to30,24,20,(9),6         8-(
+Note: Trueno      Tuned  q66166,1st45to22,19,16,12,11  blueSkyline(temp)
+1372-1377 redGTO'95SR   Tuned  q66166,55335,5th36to29,21,20,(14),5    8-(
+1383-1388 Civic3dr93  Tuned  q66166,45355,5th36to30,23,18,(13),5         8-(
+Note: Civic3dr93  Tuned  q66166,44111,1st33to28,26,23,8,7    whiteTrueno(temp)
+1389-1394 redWRX'95SD Tuned  sw45to23,20,17,14,6          blueTrueno(dup)(sold)
+1395-1400 JZA70Supra  Tuned   q2H,1st45to23,22,17,13,5    blueTrueno(dup)(sold)
+1401-1406 redPulsar Tuned  22211,1st36to28,22,18,15,6     blueTrueno(dup)(sold)
+1407-1412 Prelude'93 Tuned  q66166,46313,4th34to26,22,(21),16,8    8-(
+Note: Prelude'93  Tuned  q66146,12111,1st42to33,18,17,8,7     redSkyline(temp)
+1423-1428 GTO'95SR   Tuned     q66146,56324,5th39to22,21,20,(16),7    8-(
+Note: GTO'95SR   Tuned  q66166,1st45to28,22,13,9,8           blueTrueno(temp)
+1429-1434 Silvia'88K Tuned  q64121,1st45to25,19,18,13,5  blueSkyline(dup)(sold)
+1435-1440 cheapFCRX7 Tuned  q66111,1st45to24,21,15,14,6   redSkyline(dup)(sold)
+1459-1464 Roadster'89  Tuned  q66166,56555,5th37to30,24,19,(9),6    8-(
+Note: Roadster'89 Tuned  q66166,G4,1st39to24,20,17,16,7   blueSkyline(temp)
+1465-1470 Silvia'91K    Tuned  q6G,1st45to27,20,14,14,5  blueSkyline(dup)(sold)
+1471-1476 whiteSilvia'91K Tuned q63161,1st45to23,22,17,13,5 redSkyline(sold)
+1477-1482 redMA70    Tuned  q25121,1st45to23,21,15,15,6 whiteTrueno(dup)(sold)
+1488-1493 redFTO'94GR  Tuned  q66126,34315,3rd34to26,(24),22,14,5    8-(
+Note: redFTO'94GR  Tuned  q66166,12311,1st37to29,28,13,13,5  blueTrueno(temp)
+1494-1499 cheapRX7'91  Tuned  sw45to24,20,16,15,5         blueTrueno(dup)(sold)
+1513-1518 Cyborg      Tuned  q66166,55335,5th36to29,22,19,(14),5     8-(
+Note: Cyborg       Tuned  q66166,1st45to21,15,15,15,14       redSkyline(temp)
+1529-1534 R32GTS25S   Tuned  q66146,55314,4th31to27,23,(20),19,5     8-(
+Note: R32GTS25S  Tuned  q66166,G4,1st39to30,21,20,9,6        blueTrueno(temp)
+1545-1550 R32GTStM   Tuned  q66166,55355,5th33to31,22,22,(12),5     8-(
+Note: R32GTStM     Tuned  q66166,1st45to23,17,15,14,11       redSkyline(temp)
+1551-1556 GTR'95Vspec  Tuned   sw45to25,19,16,14,6     yellowSkyline(dup)(sold)
+1557-1562 Impreza'95WG Tuned  q2H,1st45to26,20,17,12,5    redSkyline(dup)(sold)
+1568-1573 redPrelude'93 Tuned  q66156,44311,2nd30to(28),24,22,16,5    8-(
+1574-1579 FTO'94GPX  Tuned  q66124,24211,1st33to27,24,17,14,8  blueTrueno(sold)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d59 1
+a61 1
+
+@

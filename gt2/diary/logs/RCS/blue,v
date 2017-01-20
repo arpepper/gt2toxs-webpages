@@ -1,0 +1,498 @@
+head	1.24;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.24
+date	99.10.28.23.50.32;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@blue log
+"fast" game
+@
+
+
+1.24
+log
+@Finally spotted a "sold" instead of "sell" which was the
+basic cause of our major inconsistencies.
+@
+text
+@   1      B4 br
+   2      B3 br
+   3      B5 si
+   4      B6 br
+   5      B7 br
+   6      B1 si
+   7      B2 si
+   8-9    B8 br
+  10     save C1 (day 10)      
+
+  10      A1 br
+  11      A2 br
+  12      A7 si
+  13      A3 br
+  14      A5 br
+  15-16   A4 br
+  17      A6 br (after 5x"warm-up", reset)
+  18-19   A8 br
+  20      save C2 (day 20)
+
+  20      IA1 br
+  21-22   IA3 br
+  23      IA7 br (after 5x"warm-up", reset)
+  24-27   IA5 br
+  28      IA2 br (after 5x"warm-up", reset)
+  29      IA4 br
+  30-31   IA6 br
+  32-33   IA8 br
+  34      save C3 (day 34)
+
+  34   buy car Civic3dr'93si Tahitian green pearl Civic3dr'93si
+
+  34-37   Civic3dr'93si   Sunday  q6thHSRq2GVE 27to18         Demio(1/1*)
+  38-41   Civic3dr'93si   Sunday  q6thHSR 27to16              Demio(dup)
+   42  sell Demio
+   42  buy parts Civic S/S Rtires, turbo
+  42-45   Civic3dr'93si,lt tune, Clubman  2nd 19,(18),16,11,7,4   8-(
+                          q6AR4q6CR5,2q6TM
+  46-49   Civic3dr'93si,lt tune, Sunday  sw27to18             Demio(dup)(sold)
+   50  buy car Cerbera crimson starmist Cerbera
+  50-53   Cerbera         Sunday  q6AM  27to18                Demio(dup)(sold)
+  54-57   Cerbera         FR q6GVEq6DF2q6GV   24to16 greenS13Silvia(1/6)
+  58-63   Cerbera     Normal q5AMq5DF3q5SS11 40to33   orangeImpreza(1/6)
+   64  buy car tunedGTO'95MR  red GTO'95MR
+   64  buy car '94VTEC - cassis red pearl '94VTEC (never used  8-)
+   64  Cr350,170  save A8
+  64-67   Cerbera lttune, Clubman sw27to18                   Camaro(1/1*)
+   68  mod car [R]Cerbera race-max Cerbera
+   68  mod car [R]CerberaNOT (alias)
+  68-72   [R]Cerbera  GTC q2SS5  36to24                    ChaserLM(1/1*)
+   73  mod car [R]ChaserLM  (alias)
+  73-79   [R]Cerbera  GTI q6DF2  51to33,26,20,12,7            credits
+  80-85   [R]Cerbera  UKvsUS sw45to24,20,19,9,8              blueRX7(1/4)i
+   86  mod car blue[R]RX7AspecLM  (alias)
+  86-91   [R]Cerbera  UKvsJP sw45to22,20,19,11,8          red delSol(1/4)a
+   92  mod car [R]delSolLM  (alias)
+  92-97   [R]Cerbera  UKvsJP sw45to27                  purpleCerbera(2/4)a
+   98   mod car [R]CerberaLM (alias)
+  98-103  [R]Cerbera  UKvsJP sw45to28                     red delSol(dup)a
+   104  buy car R32Skyline'89GT-R red R32Skyline'89GT-R
+   104  buy car redR32'89GT-R  red R32Skyline'89GT-R
+   104  leave Cr775,330
+   104  mod car R32Skyline'89GT-R (alias)
+   104  mod car R32'89GT-R (alias)
+ 104-107  R32Skyline'89GT-R Sunday sw27to18                   Demio(dup)i(sold)
+ 108-111  R32'89GT-R lttune  Clubman sw27to18                Camaro(dup)i(sold)
+   112  mod car [R]R32GT-R'89 race-max R32Skyline'89GT-R
+   112  mod car red[R]GT-R'89 (alias)
+ 112-116  [R]R32GT-R'89 GTC sw36to34                       ChaserLM(dup)i(sold)
+ 117-123  [R]R32GT-R'89 GTI sw54to27,26,21,16,6               credits
+ 124-127  [R]R32GT-R'89 4wd sw27to18                    greenLancer(1/6)i
+ 128-133  [R]R32GT-R'89 UKvsJP sw45to30               purpleCerbera(dup)i
+     submit GVEii 2:40.566rec fl0:51.517rec
+ 134-137  [R]R32GT-R'89 Mega sw27to18                  yellowSoarer(1/6)i+a
+   138     Cr1,067,630
+ 138-143  [R]R32GT-R'89 USvsJP q6GVE 1st45to30        ViperWgreenSt(1/4)a
+ 144-149  [R]R32GT-R'89 USvsJP sw45to30                    greenFTO(2/4)a
+ 150-155  [R]R32GT-R'89 USvsJP sw45to30                    greenFTO(dup)a
+ 156-161  [R]R32GT-R'89 USvsJP sw45to30                    blackFTO(3/4)a
+ 162-167  [R]R32GT-R'89 USvsJP sw45to30               ViperWgreenSt(dup)a
+ 168-173  [R]Cerbera  UKvsJP q6TM 1st45to30           purpleCerbera(dup)a
+ 174-177  [R]CerberaLM  Mega q6TT 1st27to18                  redDB7(2/6)i+a
+   178      buy car RT/10 Dodge Viper RT/10
+ 178-183  RT/10 Normal sw45to30                       yellowImpreza(2/6)a
+ 184-187  RT/10 Sunday sw27to18                               Demio(dup)(sold)
+ 188-191  RT/10,tires,exh Clubman sw27to18                   Camaro(dup)(sold)
+ 192-196  RT/10,mod,exc.wt GTC q6GVq6DFq6SS5q5TM 1st36to22 ChaserLM(dup)(sold)
+   197    mod car [R]RT/10  race-max RT/10
+ 197-203  [R]RT/10 GTI q6DF2 1st51to34,28,18,12,7             credits
+ 204-207  [R]RT/10 Mega  q6TT  1st27to14,14,9,6,5      yellowSoarer(dup)a+i
+ 208-211  [R]RT/10 FR  sw27to18                       blueSilEighty(2/6)i
+ 212-217  [R]RT/10  USvsJP  sw45to28                  ViperWgreenSt(dup)i
+ 218-223  [R]RT/10  UKvsUS  sw45to24,21,19,11,5             blueRX7(dup)a
+ 224-229  [R]RT/10  UKvsUS  q6SS11 1st45to25                blueRX7(dup)a
+ 230-235  [R]RT/10  UKvsUS  sw45to23,20,18,13,6             blueRX7(dup)a
+   236      wash [R]RT/10
+ 236-241  [R]RT/10  UKvsUS  sw45to28                        blueRX7(dup)a???
+ 242-247  [R]CerberaLM  UKvsJP sw45to23,20,18,10,9     greenCerbera(3/4)i!!
+ 248-253  [R]CerberaLM  UKvsUS sw45to22,22,20,11,5          blueRX7(dup)i
+ 254-259  [R]R32GT-R'89 USvsJP sw45to30                    greenFTO(dup)a
+ 260-265  [R]R32GT-R'89 USvsJP sw45to30                    greenFTO(dup)a
+ 266-267  [R]R32GT-R'89 All-nightI     1st              redSilviaLM(1/2)a
+   268  mod car green[R]FTOLM (alias)
+ 268-271  green[R]FTOLM  4wd  sw27to18                  greenLancer(dup)a
+   272     power off
+June 21, 1999
+ 272-277  [R]CerberaNOT  UKvsUS  sw45to26                  greenRX7(2/4)i+a
+ 278-283  [R]CerberaNOT  UKvsUS  sw45to28                  greenRX7(dup)a
+ 284-289  green[R]FTOLM  USvsJP  sw45to30                  blackFTO(dup)i+a
+ 290-295  [R]delSolLM  UKvsJP  sw45to21,21,15,15,8     greenCerbera(dup)a
+   296     power off
+ 296-301  [R]RT/10  UKvsUS  sw45to24,24,14,13,5            greenRX7(dup)a
+ 302-308  [R]RT/10  GTI  q2GV SS11,2  1st51to31,23,22,17,6     credits
+ 309-314  [R]RT/10  UKvsUS  sw45to25,19,19,11,6             blueRX7(dup)a
+ 315-320  [R]RT/10  UKvsUS  sw45to24,24,14,13,6            greenRX7(dup)a
+ 321-326  [R]RT/10  UKvsUS  sw45to26,22,14,12,6       yellowConcept(3/4)a
+ 327-332  [R]RT/10  UKvsUS  sw45to28                  yellowConcept(dup)a
+ 333-338  [R]RT/10  UKvsUS  sw45to26,19,18,12,5       yellowConcept(dup)a
+ 339-342  [R]RT/10  FR      sw27to18                  blueSilEighty(dup)a
+ 343-346  [R]ChaserLM  FR   sw27to18                yellowS13Silvia(3/6)a
+   347        52cars,Cr4,348,580  save A7
+   347     power off
+June 22, 1999
+ 347-352  [R]RT/10  UKvsUS  sw45to22,20,17,14,7       purpleConcept(4/4*)a!
+ 353-358  [R]RT/10  USvsJP  SSR11,3  1st40to33         ViperWblueSt(4/4*)a!
+ 359-364  [R]CerberaNOT  UKvsJP  sw45to22,22,18,10,8   greenCerbera(dup)a
+ 365-370  [R]CerberaNOT  UKvsJP  sw45to30              black delSol(4/4*)a!
+   371       collected all International Prize Cars; save A6
+   371       time to sell duplicate prize cars   8-)
+   371       sold all duplicate International Prize Cars
+   371    sell excess ViperWgreen
+   371    sell excess greenFTO, excess blackFTO
+   371    sell excess red.delSol
+   371    sell excess greenCerbera, excess purpleCerbera
+   371    sell excess yellowConcept
+   371    sell excess blueRX7, excess greenRX7
+   371    before 56cars,Cr4,683,580
+   371    after  34cars,Cr4,947,580
+   371    34 cars:  7purchased, 3+12collected prize cars, 12 other prize cars
+ 371-374  blue[R]RX7AspecLM  Sunday sw27to18                  Demio(dup)i(kaw)
+   375   keep Demio a while, as marker
+ 375-378  blue[R]RX7AspecLM  FR  sw27to18           yellowS13Silvia(dup)a
+   379   buy  car red3dr'93si  milano red 3dr'93si, max tune
+   379   N.B.  no Lwt or FF entries before this
+ 379-382  red3dr'93si  Lwt  q6DF  1st27to14               blueCivic(1/6)a
+ 383-386  red3dr'93si  FF   sw27to15                        blueCRX(1/6)a
+   387   power off
+June 23, 1999
+ 387-390  red3dr'93si  Lwt  q4AM  1st27to16               blueCivic(dup)a
+ 391-394  red3dr'93si  FF   sw27to16                   purpleCelica(2/6)a
+   395   power off
+   395  mod car red[R]SilviaLM  (alias)
+ 395-396  red[R]SilviaLM  GV300  1st                black/blueSupra(1/2)a
+   397   power off
+   397   max tune GTO'95MR
+ 397-398  tunedGTO'95MR   All-nightII   1st      silverNismoGT-R LM(1/1*)a
+ 399-402  tunedGTO'95MR   4wd   sw27to18                blueAlcyone(2/6)a+i
+ 403-408  tunedGTO'95MR   Tuned  q6AR4  1st39to2         redSkyline(1/6)a
+   409     N.B.  I now have all my gold race cups
+ 409-412  red3dr'93si  FF  sw27to18                    purpleCelica(dup)a+i
+ 413-416  red3dr'93si  Lwt  q6DF  1st27to18               pinkCivic(2/6)a
+ 417-420  red3dr'93si  Lwt sw27to15,13,11,5,4             blueCivic(dup)i+a
+ 421-424  red3dr'93si  FF  sw27to18                     greenCelica(3/6)a
+   425   power off
+June 24, 1999
+ 425-428 [R]CerberaNOT  FR  sw27to18                 greenS13Silvia(dup)i+a
+ 429-430 [R]CerberaNOT  GV300  1st                  black/blueSupra(dup)a
+   431          8-(
+ 431-434  red3dr'93si  FF  sw27to18                        blackCRX(4/6)a+i
+   435    red3dr'93si  FF  GVE4  controller flakey  reset/power off
+ 435-438  red3dr'93si  FF  sw27to18                       yellowCRX(5/6)a+i
+ 439-442  red3dr'93si  FF  sw27to18                     greenCelica(dup)a+i
+   443   power-cycle; change controller
+ 443-446  red3dr'93si  Lwt  sw27to18                      pinkCivic(dup)a
+   447   power off
+June 25, 1999
+ 447-450  red3dr'93si  Lwt  sw27to18                      blueCivic(dup)a+i
+ 451-454  red3dr'93si  Lwt  sw27to18                    blueEunos!!(3/6)a+i
+ 455-458  red3dr'93si  Lwt  sw27to18                  yellowCivic!!(4/6)a+i
+   459     58cars,Cr6,199,410
+   459   power off  - 1 of all prize models except Trueno and SupraRZ
+   459   new PSX, old dualshock
+ 459-462  red3dr'93si  Sunday  sw27to18                      Demio(dup)i(sold)
+ 463-466  red3dr'93si  Clubman  sw27to18                    Camaro(dup)i(kaw)
+   467   N.B keep Camaro a while as marker
+ 467-470  red3dr'93si  FF  sw27to18                       yellowCRX(dup)a+i
+ 471-474  red3dr'93si  FF  sw27to16,14,9,6,3                blueCRX(dup)a+i
+ 475-478  red3dr'93si  Lwt  sw27to18                    goldEunos!!(5/6)a+i
+   479   power off
+   479   buy car greenGriffith500  Cooper green  Griffith 500
+ 479-484  greenGriffith500  Normal  1st37to36         yellowImpreza(dup)a
+                           q2AMq4DF3q4SS11,2
+ 485-490  greenGriffith500  Normal  1st42to33,q4DF2   orangeImpreza(dup)a
+   491   power off
+ 491-492  tunedGTO'95MR  All-nightI     1st             redSilviaLM(dup)a
+ 493-498  tunedGTO'95MR  Abnormal  q6AR5  1st38to24     blueSkyline(2/6)a
+                                     38to24,24,20,14,5
+ 499-502  tunedGTO'95MR  4wd  sw27to18                  greenLancer(dup)a
+ 503-506  tunedGTO'95MR  4wd  sw27to18                 yellowLancer(3/6)a
+ 507-510  tunedGTO'95MR  Mega  q4Hi  1st27to15             whiteDB7(3/6)a
+   511   power off
+June 26, 1999
+ 511-516  greenGriffith500  Normal q4SS11  1st45to30    blueImpreza(3/6)a
+                             N.B no NSX
+ 517-520  greenGriffith500  FR q4GVEq6DFq6GV 1st27to18 yellowS13Silvia(dup)a
+   521  power off,   71 cars
+June 27, 1999
+   521  buy car redFTOGPvR passion red FTO GPversionR and max tune
+ 521-524  redFTOGPvR  Sunday  sw27to18                        Demio(dup)i(kaw)
+ 525-528  redFTOGPvR  Clubman  q6AR 1st27to16                Camaro(dup)i(kaw)
+ 529-532  redFTOGPvR  Lwt  q2DF 1st27to18                 pinkCivic(dup)a+i
+ 533-536  redFTOGPvR  Lwt  sw27to18                       blueCivic(dup)a+i
+ 537-540  redFTOGPvR  FF  sw27to18                        yellowCRX(dup)a+i
+ 541-544  redFTOGPvR  FF  sw27to18                     purpleCelica(dup)a+i
+ 545-548  redFTOGPvR  Lwt  sw27to18                       blueEunos(dup)a+i
+ 549-552  redFTOGPvR  Lwt  q6DF 1st 27to18              yellowEunos(6/6*)a+i
+   553   rem sell excess Civics and Eunoseses
+   553   sell excess Civics excess Eunoses
+   553      81cars,Cr8,031,110 -> 74cars,Cr8,115,110
+ 553-556  redFTOGPvR  FF  sw27to18                         blackCRX(dup)a
+ 557-560  redFTOGPvR  FF  sw27to18                        yellowCRX(dup)a
+ 561-564  redFTOGPvR  FF  sw27to18                     yellowCelica(6/6*)a
+   565   rem sell excess CRXs and Celicas, also 1 Demio and 1 Camaro
+   565   sell excess CRXs and excess Celicas, also 1 Demio and 1 Camaro
+   565      77cars,Cr8,203,610 -> 67cars,8,323,610
+   565   buy car redRT/10  red Viper RT/10 to keep Normal
+   565   power off (thunder storm)
+ 565-568  redRT/10,normal  Sunday  sw27to18                   Demio(dup)i(sold)
+ 569-572  redRT/10,normal  Clubman q6ARq6CRq6TM 1st27to18    Camaro(dup)i(sold)
+ 573-576  redRT/10,normal  FR  q2GVEq6DFq2GV 1st27to16 greenS13Silvia(dup)i+a
+ 577-582  redRT/10  Normal  q3DF 1st45to30            orangeImpreza(dup)a
+ 583-588  redRT/10  Normal  sw45to30                  orangeSupraRZ(4/6)a
+   589   one of all prize models, except for the Trueno
+ 589-594  redRT/10  Normal  sw45to30                  yellowImpreza(dup)a
+ 595-598  redRT/10,normal  FR  q6DFq5GV 1st27to18      redS13Silvia(4/6)a+i
+ 599-602  redRT/10,normal  FR  q5DFq6GV 1st27to14    greenS13Silvia(dup)a+i
+ 603-608  redRT/10  Normal  sw45to30                    blueImpreza(dup)a
+   609   Cr > 10,000,000  Cr10,016,310
+   609   tired - power off
+June 28, 1999
+ 609-614  redRT/10  Normal  sw45to30                  yellowImpreza(dup)a
+ 615-620  redRT/10  Normal  sw45to30                    blueImpreza(dup)a
+ 621-626  redRT/10  Normal  sw45to30                  yellowImpreza(dup)a
+ 627-630  redRT/10,normal  Sunday  q2AR  1st27to18            Demio(dup)i(kaw)
+ 631-634  redRT/10,tires+stab  Clubman  sw27to18             Camaro(dup)i(kaw)
+ 635-639  redRT/10,nptune  GTC q6GVq6DFq6SSq6TM 1st36to19  ChaserLM(dup)i(kaw)
+   640     81 cars
+ 640-643  redRT/10,normal  FR  q5DFq4GV  1st27to16     redS13Silvia(dup)i+a
+ 644-649  redRT/10  Normal sw45to30                   yellowImpreza(dup)a
+ 650-653  redRT/10,normal  FR  q4DF  1st27to18      dkBlueSilEighty(5/6)a
+   654   wash  redRT/10
+ 654-657  redRT/10  FR  q2DF  1st27to18              greenS13Silvia(dup)a
+   658   power off
+June 29, 1999
+ 658-663  redRT/10  Normal sw45to30                   purpleSupraRZ(5/6)a
+   664   buy car redGTS red ViperGTS, non-perm parts
+ 664-667  redGTS,normal  Sunday  sw27to18                     Demio(dup)i(kaw)
+ 668-671  redGTS,tires+stab  Clubman  sw27to16               Camaro(dup)i(kaw)
+ 672-676  redGTS,nptune  GTC q6GVq6DFq5SSq6TM  1st36to24   ChaserLM(dup)i(kaw)
+ 677-680  redGTS,normal  FR  q6DF2q6GV  1st24to21   yellowS13Silvia(dup)a+i
+   681  sell day 634 Camaro, day 639 ChaserLM  90cars -> 88cars
+ 681-686  redGTS  Normal  sw45to30                      blueImpreza(dup)a
+ 687-692  redGTS  Normal  sw45to30                      blueImpreza(dup)a
+ 693-696  redGTS,normal  FR  q6DFq6GV   1st27to21   yellowS13Silvia(dup)a+i
+ 697-700  redGTS,normal  Sunday  sw27to18                     Demio(dup)i(kaw)
+ 701-706  redGTS  Normal  sw45to30                      blueImpreza(dup)a
+   707   power off
+   707    94cars,Cr13,501,720
+   707   save  A4
+   707   rem sell most excess (12) Imprezas, 2Silvia, 2Demio,1Camaro
+   707   rem too difficult to sell (N) cars by non-recent rule
+   707   sell excess Imprezas, excess S13Silvia, 2Demio,2Camaro,1Chaser
+   707    77cars,Cr13,705,720
+   707   buy car goldCerbera  - pearl gold Cerbera
+ 707-710  goldCerbera,normal  Sunday  sw27to18                Demio(dup)i
+ 711-714  goldCerbera,?  Clubman  q6ARq6CRq6TM  1st27to18    Camaro(dup)i
+ 715-718  goldCerbera,normal FR q4GVE,q6DF,q6GV 1st27to15,14 redS13Silvia(dup)i+a
+ 719-724  goldCerbera  Normal  q2DF2  1st42to33       orangeImpreza(dup)a
+ 725-730  goldCerbera  Normal  sw42to28(!)            yellowImpreza(dup)a
+ 731-736  goldCerbera  Normal  AM2q4DF  1st42to33     orangeImpreza(dup)a
+ 737-742  goldCerbera  Normal  SS11,2  1st42to33      ltBlueSupraRZ(6/6*)a
+   743   save over A4, before selling
+   743   sell excess Imprezas, a Demio
+   743
+   743   85cars,Cr15,165,420 -> 79cars,Cr15,237,420
+   743   sell excess S13Silvias   79cars,Cr15,237,420 -> 71cars,Cr15,333,420
+   743   power off
+June 30, 1999
+ 743-746  goldCerbera,lttune  FR  sw27to18          yellowSilEighty(6/6*)a  
+ 747-750  tunedGTO'95MR  4wd   sw27to18                purpleLancer(4/6)i+a
+ 751-754  tunedGTO'95MR  4wd   sw27to18                purpleLancer(dup)i+a
+ 755-758  tunedGTO'95MR  Mega  q4HR2  1st24to17,12,11,6,5    redDB7(dup)i+a
+   759   power off
+ 759-762  tunedGTO'95MR  Mega  q6HR2 1st24to16,13,10,7,5  purpleDB7(4/6)i+a
+ 763-768  tunedGTO'95MR  Abnormal q6AR3 1st40to27(?)     pinkTrueno(3/6)a
+   769   sell excess SilEighty
+   769   rem Actually, I'm not sure when I sold the extra SilEighties
+   769   now have one of each model of race prize cars
+   769   power off
+ 769-774  tunedGTO'95MR  Abnormal sw!!45to24,23,16,12,5  pinkTrueno(dup)a
+   775   mod car redR32GT-R'89  (alias) max tune second R32GT-R'89
+ 775-778  redR32GT-R'89 (perm tune only)  Sunday  sw27to18    Demio(dup)i
+ 779-782  redR32GT-R'89,tuned  Clubman  sw27to18             Camaro(dup)i
+ 783-787  redR32GT-R'89,tuned  GTC sw36to24                ChaserLM(dup)i
+ 788-791  redR32GT-R'89,tuned  4wd  sw27to18            greenLancer(dup)i+a
+ 792-795  redR32GT-R'89,tuned  Mega  q4Hi  1st27to18      purpleDB7(dup)i+a
+   796   sell most recent Demio, Camaro, Chaser
+ 796-801  redR32GT-R'89  Abnormal q6AR 1st45to23        whiteTrueno(4/6)a
+                                    1st45to23,21,15,15,6
+ 802-807  redR32GT-R'89  Abnormal q3AR3 1st40to26       whiteTrueno(dup)a
+                                    1st40to26,21,17,16,5
+   808   power off
+July 1, 1999
+ 808-811  redR32GT-R'89,tuned  4wd  sw27to18           yellowLancer(dup)i+a
+ 812-817  redR32GT-R'89  Abnormal sw45to24,19,17,15,5   whiteTrueno(dup)a
+   818   power off
+   818   buy car blueViperGTS blue Viper GTS, max-tune
+ 818-821  blueViperGTS,tuned  Sunday  sw27to18                Demio(dup)i
+ 822-825  blueViperGTS,tuned  Clubman  sw27to18              Camaro(dup)i
+ 826-830  blueViperGTS,tuned  GTC  q4DF2q4TM  1st33to27    ChaserLM(dup)i
+ 831-834  blueViperGTS,tuned  FR  sweep27to18          redS13Silvia(dup)i
+   835   power off
+ 835-840  blueViperGTS Abnormal q6GV5CR5,3q6AR2 1st30to27 whiteTrueno(dup)a
+ 841-846  blueViperGTS Abnormal q4GV4q5AR2q4SS11 1st36to27 pinkTrueno(dup)a
+   847   power off
+July 2, 1999
+ 847-852  blueViperGTS  Abnormal  q2GV4AR2 1st36to32     pinkTrueno(dup)a
+   853   sell excess Truenos  91cars,Cr18,752,380->85cars,Cr18,824,380
+ 853-858  blueViperGTS  Abnormal  q4GV3q2AR2 1st37to37  whiteTrueno(dup)a
+   859   power off
+July 3, 1999
+   859   buy car redCerbera - formula red pearl Cerbera, max-tune
+ 859-862  redCerbera,tuned  Sunday  sw27to18                  Demio(dup)a
+ 863-866  redCerbera,tuned  Clubman  sw27to18                Camaro(dup)a
+ 867-871  redCerbera,tuned GTC q2DFq6SSR5 1st36to21,15,14,9,5  ChaserLM(dup)i
+ 872-875  redCerbera,tuned  FR  sw27to18               redS13Silvia(dup)i
+ 876-881  redCerbera  Abnormal  q6GVq2AR  1st45to23      redSkyline(dup)a
+   882   power off
+ 882-887  redCerbera  Abnormal  q2GV,AR2  1st42to28      pinkTrueno(dup)a
+ 888-893  redCerbera  Abnormal  AR2       1st42to30     whiteTrueno(dup)a
+ 894-899  redCerbera  Abnormal q2HRq5GV2CR5,2 1st39to30  pinkTrueno(dup)a
+   900   sell excess Truenos, and 1 Demio,Camaro,Chaser, excess S13Silvia
+   900       95cars,Cr20,666,580 -> 86cars,Cr20,774,580
+   900   buy car blueRT/10 blue Viper RT/10, max-tune
+ 900-903  blueRT/10,tuned  Sunday  sw27to18                   Demio(dup)i
+ 904-907  blueRT/10,tuned  Clubman  sw27to18                 Camaro(dup)i
+   908   reload
+ 908-912  blueRT/10,tuned  GTC  sw36to22,18,12,7,5         ChaserLM(dup)i
+ 913-916  blueRT/10,tuned  FR   sw27to18            yellowS13Silvia(dup)i
+ 917-922  blueRT/10  Abnormal  q6GV2q2ARq6SSR11,2        blueTrueno(5/6)a
+   923   power off
+July 4, 1999
+ 923-928  blueRT/10  Abnormal  q3GVq2AR  1st45to~26      blueTrueno(dup)a
+   929   power off
+ 929-934  blueRT/10  Abnormal  sw45to24,18,17,16,5      blueSkyline(dup)a
+   935   power off
+ 935-940  blueRT/10 Abnormal q3GV 1st45to25,16,16,16,7  blueSkyline(dup)a
+ 941-946  blueRT/10  Abnormal GV2 1st42to28,18,17,15,5   blueTrueno(dup)a
+   947      sell 1Demio,1Camaro,1Chaser,1yellowS13Silvia,2Trueno,1blueSkyline
+   947      96cars,Cr22,722,780 -> 89cars,Cr22,806,780
+   947   buy car yellowGriffith500 macao yellow Griffith 500  and max-tune
+   947                          -> 90cars,Cr22,564,080
+ 947-950  yellowGriffith500,tuned  Sunday  sw27to18           Demio(dup)i
+ 951-954  yellowGriffith500,tuned  Clubman  sw27to18         Camaro(dup)i
+ 955-959  yellowGriffith500,tuned  GTC sw36to21,14,14,8,7  ChaserLM(dup)i
+ 960-963  yellowGriffith500,tuned  FR  sw27to18     yellowS13Silvia(dup)i
+   964   94cars,Cr22,755,580
+   964   power off
+July 5, 1999
+ 964-969  yellowGriffith500 Abnormal 1st42to24,21,10,13,5 pinkTrueno(dup)a
+                                       q2GVCR5,2q2AR 
+ 970-973  green[R]FTOLM  Mega  q4TT  1st27to18             whiteDB7(dup)a+i
+   974       96cars,Cr23,200,580
+   974       sell excess DB7 -> 94cars,Cr23,224,580
+ 974-977  green[R]FTOLM  4wd  sw27to18                 purpleLancer(dup)a+i
+July 6, 1999
+July 7, 1999
+   978       96cars,Cr23,254,080
+   978   power off
+ 978-983  yellowGriffith500 Abnormal q2GVq2AR2 1st42to?? whiteTrueno(dup)a
+ 984-987  red[R]GT-R'89  4wd  sw27to16,13,10,5,4        purpleLancer(dup)a+i
+   988   power off
+July 8, 1999
+ 988-993  yellowGriffith500 Abnormal 1st39to30,19,19,16,5 yellowSkyline(6/6*)a
+                                       q4GV2CR2
+   994   save A3  97cars,Cr24,005,580
+   994   power off
+July 9, 1999
+   994   sell 1blueSkyline,1pinkTrueno,1whiteTrueno,1Demio,1Camaro,1ChaserLM
+   994   91cars,Cr24,077,580
+ 994-997  tunedGTO'95MR  Sunday  sw27to18                      Demio(dup)i
+ 998-1001 tunedGTO'95MR  4wd  sw27to18                   greenLancer(dup)a
+1002-1005 tunedGTO'95MR  Mega  q6HR2  1st24to17,16,9,5,4      redDB7(dup)a
+                                    TT q1 1:00.067rec
+1006-1009 tunedGTO'95MR  Clubman  sw27to18                    Camaro(dup)i
+                   AR 1st 2:20.655rec fl1:09.011rec  CR fl0:45.635rec
+1010-1013 tunedGTO'95MR  4wd  sw27to18                   greenLancer(dup)a
+1014-1017 tunedGTO'95MR  4wd  sw27to15,12,11,5,4         greenLancer(dup)a
+1018-1021 tunedGTO'95MR  Mega  q2HR3 1st22to21,14,9,5,4 purpleSoarer(5/6)a
+                  TTq1 0:59.740rec  1st1:53.238rec  fl0:53.489rec
+1022-1025 tunedGTO'95MR  4wd  sw27to18                  purpleLancer(dup)a
+                  SSR5ii  fl 1:08.294rec
+   1026  99cars,Cr24,427,580
+   1026  sell 3greenLancers,1yellowLancer -> 95cars,Cr24,475,580
+1026-1029 tunedGTO'95MR  Sunday  sw27to18                      Demio(dup)i
+                  q1AM  0:35.422rec
+1030-1033 tunedGTO'95MR  4wd  sw27to18                  purpleLancer(dup)a
+   1034  buy car redWRX'94Wgn active red Subaru Impreza Wagon WRX'94, max tune
+   1034  Cr24,237,420
+1034-1037 redWRX'94Wgn  Sunday  sw27to18                       Demio(dup)i
+1038-1041 redWRX'94Wgn  4wd  sw27to18                   purpleLancer(dup)a
+   1042  power off
+July 10, 1999
+1042-1045 redWRX'94Wgn  4wd  sw27to13,12,12,7,4        garage full
+   1046  100cars,Cr24,324,920
+   1046  rem sell 8Lancers,1yellowSoarer,2DB7,1Demio -> 88cars,Cr24,468,920
+   1046  sell excess Lancers,1yellowSoarer,excess DB7,1Demio
+1046-1049 redWRX'94Wgn  4wd  sw27to16,14,9,6,3         yellowLancer(dup)a(sold)
+1050-1053 redWRX'94Wgn  4wd  sw27to16,12,10,7,3        whiteAlcyone(5/6)a
+1054-1057 redWRX'94Wgn  4wd  sw27to16,12,11,6,3         greenLancer(dup)a(sold)
+1058-1061 redWRX'94Wgn  4wd  TM2 1st24to19,11,10,7,4  dkBlueAlcyone(6/6*)a
+   1062   90cars,Cr24,07,920
+   1062  mod car yellowConceptCar  (alias)
+1062-1065 yellowConceptCar Sunday sw27to18,records             Demio(dup)i
+1066-1069 yellowConceptCar Sunday sw27to18,records             Demio(dup)i
+1070-1073 yellowConceptCar Mega q6TT  1st27to14,14,9,6,5   whiteDB7(dup)a(sold)
+1074-1075 yellowConceptCar  All-nightI   1st          greenSilviaLM(2/2*)a
+   1076    sell redSilviaLM  ->  92Cars,Cr24,943,920
+1076-1079 yellowConceptCar  Mega  sw27to18                   redDB7(dup)a(sold)
+1080-1083 yellowConceptCar  Mega  sw27to14,13,10,7,4   purpleSoarer(dup)a(kaw)
+1084-1087 yellowConceptCar  Mega  sw27to16or less      yellowSoarer(dup)a(kaw)
+1088-1091 yellowConceptCar  Mega  sw27to13,13,11,6,5       whiteDB7(dup)a(sold)
+1092-1095 yellowConceptCar  Mega  sw27to14,13,11,5,5         redDB7(dup)a(sold)
+1096-1099 yellowConceptCar  Mega  sw27to14,14,9,6,5          redDB7(dup)a(sold)
+1100-1104 yellowConceptCar  GTC  sw36to22or less     ChaserLM(dup)i(selloldone)
+   1105   sell ChaserLM,Demio,Camaro  ->  92car,Cr25,652,920
+   1105  power off
+1105-1106 yellowConceptCar  GV300 1st(rec,not PB)  black/greenSupra(2/2*)a
+   1107     93cars,Cr25,972,920
+   1107   rem sell extra black/blueSupraGT,Camaro,2Demio -> 89cars,Cr26,020,920
+   1107   sell black/blueSupra,Camaro,2Demio
+1107-1110 yellowConceptCar  Mega  sw27to14,14,9,6,5    yellowSoarer(dup)a(kaw)
+1111-1114 yellowConceptCar  Mega  sw27to18(?)              whiteDB7(dup)a(sold)
+   1115     90cars,Cr26,212,920
+   1115  power off
+July 12, 1999
+   1115  mod car [R]R32SkylineGT-R'89 (alias)
+1115-1118 [R]R32SkylineGT-R'89  Mega  sw27to18         purpleSoarer(dup)a(kaw)
+1119-1122 [R]R32SkylineGT-R'89  Mega  sw27to18             whiteDB7(dup)a(sold)
+1123-1126 [R]RT/10  Mega  q5TT 1st27to18               purpleSoarer(dup)a(kaw)
+1127-1130 [R]RT/10  Mega  q5TT 1st27to18                   whiteDB7(dup)a(sold)
+1131-1134 [R]Cerbera  Mega  q6TT4  2nd21to21                   none
+1135-1138 [R]Cerbera  Mega  1st22to17,13,11,7,5        purpleSoarer(dup)a(kaw)
+                            q6TT3q2HRii
+   1139  mod car purple[R]CerberaLM (alias)
+1139-1142 purple[R]CerberaLM  Mega  q2TT 1st27to18        purpleDB7(dup)a(sold)
+1143-1146 purple[R]CerberaLM  Mega  q6TT 1st27to18         whiteDB7(dup)a(sold)
+1147-1150 purple[R]CerberaLM Mega q2TT 1st27to14,14,9,6,5 purpleDB7(dup)a(sold)
+   1151     93cars,Cr26,989,920
+   1151  power off
+1151-1154 [R]R32SkylineGT-R'89  Mega  sw27to18         yellowSoarer(dup)a(kaw)
+1155-1158 [R]R32SkylineGT-R'89  Mega  sw27to14,14,9,6,5   purpleDB7(dup)a(sold)
+1159-1162 [R]R32SkylineGT-R'89  Mega  sw27to18             whiteDB7(dup)a(sold)
+1163-1166 [R]R32SkylineGT-R'89  Mega  sw27to18      redOrangeSoarer(6/6*)a
+   1167     95cars,Cr27,373,920
+   1167                   sell excess Soarers -> 88cars,Cr27,457,920
+   1167                   sell excess Demios  -> 84cars,Cr27,505,920
+   1167          sell 1 Camaro, 1 Chaser -> 82cars,Cr27,529,920
+   1167     sell 1 yellowS13Silvia  -> 81cars,Cr27,541,920
+
+   1167     62prizes,18bought,1extra red'91Skyline -> 81cars,Cr27,541,920
+
+@

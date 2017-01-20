@@ -1,0 +1,533 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2016.09.13.22.48.05;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.09.13.22.40.53;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@As used for years in xhier environment.
+@
+
+
+1.2
+log
+@Use real location for perl.
+ 
+Well, I guess we could have instead created /xhbin ...
+@
+text
+@#!/usr/bin/perl -w
+
+require 5.002;
+use strict;
+
+sub
+warn {
+	print @@_;
+}
+
+#
+# This program uses obvious algorithms to fill in the fifth value
+#   when four values are specified.  It works with the following
+#   specific equality...
+#
+#  
+#           rpm       T
+#  mph  = ------- * -----
+#          G * F      W
+#
+#
+# but could be generalized to work with any basic formula which is
+#   a simple quotient of products.
+#
+#
+
+$main::wheel_const = 88;    # 88 for circumference in feet
+$main::wheel_const = 336;    # 336.X for diamter in inches
+
+sub
+give_mph {
+	my($mph,$rpm,$tire,$gear,$final) = @@_;
+
+#print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+	$mph = $rpm / ($gear * $final);
+	$mph *= $tire / $main::wheel_const;
+	return $mph;
+}
+
+sub
+give_final {
+	my($mph,$rpm,$tire,$gear,$final) = @@_;
+
+#print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+	$final = $rpm / ($mph * $gear);
+	$final *= $tire / $main::wheel_const;
+	return $final;
+}
+
+sub
+give_gear {
+	my($mph,$rpm,$tire,$gear,$final) = @@_;
+
+#print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+	$gear = $rpm / ($mph * $final);
+	$gear *= $tire / $main::wheel_const;
+	return $gear;
+}
+
+sub
+give_rpm {
+	my($mph,$rpm,$tire,$gear,$final) = @@_;
+
+#print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+	$rpm = $mph * $final * $gear * $main::wheel_const;
+	$rpm /= $tire;
+	return $rpm;
+}
+
+sub
+give_tire {
+	my($mph,$rpm,$tire,$gear,$final) = @@_;
+
+#printf("give_tire($mph,$rpm,$tire,$gear,$final);\n");
+	$tire = $mph * $final * $gear * $main::wheel_const;
+	$tire /= $rpm;
+	return $tire;
+}
+
+sub
+mytype {
+	my($s) = @@_;
+
+	return 2 if ( $s =~ /[x,\-]/ );   # range
+	return 1 if ( $s =~ /\d/ );   # number
+	return 0 ;   # something else, probably empty
+}
+
+sub
+expand {
+	# expand a range
+	my($which1, $s) = @@_;
+	my($step) = 1;   # need to pass default...
+	my($t,$low,$high,$i);
+	my(@@v) = ();
+	my(@@temp) = split(/,/,$s);
+
+	if (defined($main::defstep[$which1])) {
+		$step = $main::defstep[$which1];
+	}
+	foreach $t (@@temp) {
+		if ($t =~ /x/) {
+			$step = $t;
+			$step =~ s/.*x//;
+			$step =~ s/[^.\d]//;
+			# more syntax checking needed
+			if ($step <= 0) {
+				$step = 1;
+			}
+			$t =~ s/x.*//;
+		}
+		if ($t =~ /\-/) {
+			($low,$high) = split(/\-/,$t);
+			# more syntax checking needed
+			for ($i = 0; $i < 50 && $low <= $high; ++$i) {
+				push @@v,$low;
+				$low += $step;
+			}
+		}
+		else {
+			push @@v,$t;
+		}
+	}
+#print("expand $s to @@v\n");
+	return @@v;
+	
+}
+
+#
+# &print_range($which1,$which2,@@range);
+#
+# print the give range to use as column headings...
+#
+sub
+print_range {
+	my($which1,$which2,@@range) = @@_;
+	my($i,$s);
+	my($title) = $main::names[$which1];
+	my($tformat,$fillpad);
+	my($centrepad) = int((1 + ($#range+1)*7 - length($title))/2);
+	$centrepad = 0 if ($centrepad < 0);
+
+	$tformat = $main::format[$which1];
+	if ($main::output eq "web") {
+		printf("<table>\n");
+		$main::intable = 1;
+		printf("<tr><th>&nbsp;</th><th colspan=%d align=center>%s</tr>\n",
+					$#range+1,$title);
+		$tformat = "<th rowspan=2>" . $tformat . "</th>";
+		printf("<tr><th></th>");
+	}
+	else {
+		printf("%9.9s%*s%s\n","",$centrepad,"",$title);
+		printf("%9.9s","");
+	}
+	for ($i = 0; $i <= $#range; ++$i) {
+		printf($tformat, $range[$i]);
+	}
+	$title = $main::names[$which2];
+
+	if ($main::output eq "web") {
+		printf("</tr>\n");
+		printf("<tr><th>%s</th></tr>",$title);
+	}
+	else {
+		$centrepad = int((1 + 9 - length($title))/2);
+		$centrepad = 0 if ($centrepad < 0);
+		$fillpad = 9-length($title)-$centrepad;
+		$fillpad = 0 if ($fillpad < 0);
+		printf("\n%*s%s%*s",$centrepad,"", $title, $fillpad,"");
+		$s = sprintf($main::format[$which1], 0.0);
+		$s =~ s/./-/g;
+		$s =~ s/^./ /;
+		for ($i = 0; $i <= $#range; ++$i) {
+			printf("%s", $s);
+		}
+	}
+	printf("\n");
+}
+
+# &print_all_const(@@seen,@@values);
+sub
+print_all_const {
+	my(@@vector) = @@_;
+	my(@@myseen) = @@vector[0..$#main::names];
+	my(@@myvalues) = @@vector[$#main::names+1..$#main::names+1+$#main::names];
+	my($rawi,$i,$f,$v,$x);
+
+	if ($main::output eq "web") {
+		if ($main::intable) {
+			printf("</table>\n<hr>\n");
+			$main::intable = 0;
+		}
+		printf("<table>");
+	}
+	printf("\n");
+	for ($rawi = 0; $rawi <= $#main::names; ++$rawi) {
+		$i = $main::reorder[$rawi];
+		if ($myseen[$i] == 1) {
+			if ($main::output eq "web") {
+				printf("<tr><th>%s</th><td>", $main::names[$i]);
+				printf($main::format[$i] . "</td></tr>\n",
+						$myvalues[$i]);
+			}
+			else {
+				printf("%6s= " . $main::format[$i] . "\n",
+					$main::names[$i], $myvalues[$i]);
+			}
+		}
+	}
+	if ($main::output eq "web") {
+		printf("</table>");
+	}
+	printf("\n");
+}
+
+sub
+print_cell {
+	my($ishead,$which, $value) = @@_;
+	my($tformat);
+
+	$tformat = $main::format[$which];
+	if ($main::output eq "web") {
+		if ( $ishead ) {
+			$tformat = "<th>" . $tformat . "</th>";
+		}
+		else {
+			$tformat = "<td>" . $tformat . "</td>";
+		}
+	}
+	else {
+		if ( $ishead ) {
+			$tformat = $tformat . ": ";
+		}
+	}
+	printf($tformat, $value);
+}
+
+# &solve($total,$level,$left,$value,$valuei,@@seen,@@values);
+sub
+solve {
+	my($total,$level,$left,$value,$valuei,@@vector) = @@_;
+	my(@@myseen) = @@vector[0..$#main::names];
+	my(@@myvalues) = @@vector[$#main::names+1..$#main::names+1+$#main::names];
+	my($rawi,$i,$f,$v,$x,$nextwhich);
+
+	#printf ("%d %d %d %d\n", $#myseen, $#myvalues, $myseen[0], $myvalues[4]);
+	if ($left == 2 || ($left == 1 && $total == 1) || $total == 0 ) {
+		print_all_const(@@myseen,@@myvalues);
+	}
+	if ($left == 2 ) {
+		# determine the values we are about to traverse...
+		$nextwhich = 0;
+		for ( $rawi=0; $rawi <= $#main::names; ++$rawi) {
+
+			$i = $main::reorder[$rawi];
+			if ($myseen[$i] == 2) {
+				$nextwhich = $i;
+				last;
+			}
+		}
+		# determine next range, and print it...
+		for ( $rawi=$#main::names; $rawi >= 0; --$rawi) {
+			$i = $main::reorder[$rawi];
+			if ($myseen[$i] == 2) {
+				my(@@myrange) = &expand($i,$myvalues[$i]);
+				print_range($i,$nextwhich,@@myrange);
+				last;
+			}
+		}
+	}
+	for ( $rawi=0; $rawi <= $#main::names; ++$rawi) {
+		$i = $main::reorder[$rawi];
+		if ($myseen[$i] == 2) {
+			my(@@myrange) = &expand($i,$myvalues[$i]);
+			if ($left == 1 && $total >= 2) {
+				printf("<tr>") if $main::output eq "web";
+				print_cell(1,$valuei, $value);
+			}
+			foreach $v (@@myrange) {
+				if ($total == 1 ) {
+					print_cell(1,$i, $v);
+				}
+				$myseen[$i] = 1;
+				$myvalues[$i] = $v;
+				&solve($total,$level+1,$left-1,$v,$i,@@myseen,@@myvalues);
+				if ($total == 1 ) {
+					printf("\n");
+				}
+			}
+			if ($left == 1 && $total >= 2) {
+				printf("</tr>") if $main::output eq "web";
+			}
+			print("\n");
+			return;
+		}
+	}
+	for ( $rawi=0; $rawi <= $#main::names; ++$rawi) {
+		$i = $main::reorder[$rawi];
+		if ($myseen[$i] == 0) {
+			$f = $main::solvers[$i];
+			$x = &{$f}(@@myvalues);
+			print_cell(0,$i,$x);
+			last;
+		}
+	}
+}
+
+#
+# mapname($name)
+#   return the index in $main::names of the given name
+#
+sub
+mapname {
+	my($name) = @@_;
+	my($i);
+
+	$name =~ s/es$//;
+	$name =~ s/s$//;
+	for ( $i=0; $i <= $#main::names; ++$i) {
+		if ($main::names[$i] eq $name) {
+			return $i;
+		}
+	}
+	return -1;
+}
+
+#
+# set_reorder($string)
+#
+#   This interprets a string to represent the way to reorder examination
+#   of the variables.
+#
+#   String should consist of numbers or the names separated by commas
+#
+sub
+set_reorder {
+	my($s) = @@_;
+	my(@@seen) = @@main::reorder;
+	my($i,$old,@@v);
+
+	for ($i = 0; $i <= $#seen; ++$i) {
+		$seen[$i] = 0;
+	}
+	@@v = split(/,/,$s);
+	for ($i = 0; $i <= $#seen; ++$i) {
+		$v[$i] = "0" if (!defined($v[$i]));
+		$v[$i] =~ s/\s*//g;
+		if ( $v[$i] !~ /^\d+$/) {
+			$v[$i] = &mapname($v[$i]);
+		}
+		$v[$i] = 0 if ($v[$i] < 0);
+		$v[$i] = 0 if ($v[$i] > $#seen);
+		$old = $v[$i];
+		while ($seen[$v[$i]]) {
+			# rather than generate diagnostics,
+			# force a bad mapping to be some good mapping
+			++$v[$i];
+			$v[$i] = 0 if ($v[$i] > $#seen);
+			last if ($v[$i] == $old);
+		}
+		$seen[$v[$i]] = 1;	
+	}
+#print "reorder = @@v\n";
+	return @@v;
+}
+	
+	
+
+# main line starts here...
+
+my($x,$i);
+
+
+my(@@vector) = (144, 6000, 24.0, 0.9, 3.3);
+my($f);
+
+my(@@seen) = (0,0,0,0,0);
+
+$main::intable = 0;    # set when we print "<table>"
+
+$main::reorder_set = 0;
+@@main::reorder = (0,1,2,3,4);
+
+@@main::solvers = (\&give_mph,\&give_rpm,\&give_tire,\&give_gear,\&give_final);
+@@main::names =  ("mph",  "rpm",  "tire", "gear", "final");
+@@main::format = ("%7.1f","%7.0f","%7.2f","%7.3f","%7.3f");
+@@main::defstep =  (5,  500,  0.5, 0.2, 0.1);
+$main::output = "text";
+(
+ $main::XMPH,
+ $main::XRPM,
+ $main::XTIRE,
+ $main::XGEAR,
+ $main::XFINAL
+) = ( 0, 1, 2, 3, 4);
+@@vector = (   # dummy use of the symbols...
+ $main::XMPH,
+ $main::XRPM,
+ $main::XTIRE,
+ $main::XGEAR,
+ $main::XFINAL
+) ;
+@@vector = (0,0,0,0,0);
+my(@@values) = (0,0,0,0,0);
+my($reorder_str) = "";
+
+while ( defined($ARGV[0]) ) {
+	my($temp,$param,$value,$i);
+	$temp = $ARGV[0];
+	if ( $temp =~ /^output=/i ) {
+		$temp =~ s/^output=//i;
+		$main::output = $temp;
+	}
+	elsif ( $temp =~ /^reorder=/i ) {
+		$temp =~ s/^reorder=//;
+		@@main::reorder = &set_reorder($temp);
+		$main::reorder_set = 1;
+	}
+	elsif ( $temp =~ /=/ ) {
+		$temp =~ /^([^=]*)=([^=]*)$/;	
+		$param = $1;
+		$value = $2;
+		$i = &mapname($param);
+		if ( $i >= 0 ) {
+			$seen[$i] = &mytype($value);
+			$values[$i] = $value;
+			$vector[$i] = $value;
+			$reorder_str .= "$i,";
+		}
+		else {
+			&warn("Unknown parameter in \"$temp\"\n");
+		}
+	}
+	else {
+		&warn("Bad argument \"$temp\"\n");
+	}
+	shift @@ARGV;
+}
+
+if ($seen[$main::XTIRE]) {
+	my($temp) = $vector[$main::XTIRE];
+	$temp =~ s/,.*//;
+	$temp =~ s/-.*//;    # get first number only
+	if ($temp =~ /^\d[.]/ ) {
+		$main::wheel_const = 88;    # 88 for circumference in feet
+	}
+	if ($temp == 0.0 ) {
+		$seen[$i] = 0;
+		$values[$i] = "";
+		$vector[$i] = "";
+	}
+}
+
+if ($main::reorder_set == 0) {
+	@@main::reorder = &set_reorder($reorder_str);
+}
+
+
+#for ( $i=0; $i <= $#names; ++$i) {
+#	printf("%d:%s:%.3f\n",$seen[$i],$names[$i],$vector[$i]);
+#}
+
+my($count) = 0;
+my($rawi);
+$count = 0;
+for ( $i=0; $i <= $#main::names; ++$i) {
+	if ($seen[$i] == 2) {
+		++$count;
+	}
+}
+#
+# Output, especially Web output, got confused if there were fewer than
+#   two ranges, so let's arrange to force two ranges...
+#
+for ($rawi = $#main::names; $count < 2 && $rawi >= 0; --$rawi) {
+	my($i) = $main::reorder[$rawi];
+	if ($seen[$i] == 1) {
+		$seen[$i] = 2;
+		++$count;
+	}
+}
+
+&solve($count,0,$count, 0,0, @@seen,@@values);
+
+printf("\n");
+if ($main::output eq "web" && $main::intable) {
+	printf("</table>\n");
+	$main::intable = 0;
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+#!/xhbin/perl5 -w
+@

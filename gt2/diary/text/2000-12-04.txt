@@ -1,0 +1,150 @@
+Monday December 04, 2000
+
+
+(GT1 Version 1.1)  Trial Mountain Spot Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>Trial Mountain Spot Race</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Trial Mountain Spot Event (8008F67C)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E8C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;8009116C</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F53C</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090770</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;0</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E8C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C784</td><td>&nbsp;"mountain"&nbsp;</td><td>Trial Mountain</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">8009116C -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q500, 1st1000, champ0)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090770 -> (48!)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C228</td><td>&nbsp;"hnsnn"&nbsp;</td><td>NSX Type S zero</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C220</td><td>&nbsp;"hnsrn"&nbsp;</td><td>NSX '93</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C218</td><td>&nbsp;"hnssn"&nbsp;</td><td>NSX TypeS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C210</td><td>&nbsp;"siprn"&nbsp;</td><td>Impreza WRX type R STi Version</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C208</td><td>&nbsp;"hnsbn"&nbsp;</td><td>NSX (new)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C200</td><td>&nbsp;"nv22n"&nbsp;</td><td>Skyline GT-R V-spec II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F8</td><td>&nbsp;"mlnon"&nbsp;</td><td>Lancer Evolution III GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F0</td><td>&nbsp;"sipbn"&nbsp;</td><td>Impreza'96WRX STi VerIII</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1E8</td><td>&nbsp;"tsonn"&nbsp;</td><td>Supra'95 RZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1E0</td><td>&nbsp;"tspnn"&nbsp;</td><td>Supra RZ</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1D8</td><td>&nbsp;"sipan"&nbsp;</td><td>Impreza'96 WRX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1D0</td><td>&nbsp;"afa7n"&nbsp;</td><td>efini RX-7 Aspec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1C8</td><td>&nbsp;"afd7n"&nbsp;</td><td>FD efini RX-7 TypeRZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1C0</td><td>&nbsp;"afb7n"&nbsp;</td><td>efini RX-7 TypeRB Bathurst</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1B8</td><td>&nbsp;"sipsn"&nbsp;</td><td>Impreza'95 WRX STi Version II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1B0</td><td>&nbsp;"sipdn"&nbsp;</td><td>Impreza'96 Sports Wagon WRX STi Version III</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1A8</td><td>&nbsp;"afo7n"&nbsp;</td><td>efini RX-7 '91 TypeR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1A0</td><td>&nbsp;"hnsxn"&nbsp;</td><td>NSX'91</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C198</td><td>&nbsp;"mgtmn"&nbsp;</td><td>GTO'95 MR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C190</td><td>&nbsp;"mgntn"&nbsp;</td><td>GTO twintrubo</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C188</td><td>&nbsp;"mgotn"&nbsp;</td><td>GTO'92 twinturbo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C180</td><td>&nbsp;"mgttn"&nbsp;</td><td>GTO'95 twinturbo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C178</td><td>&nbsp;"mlnnn"&nbsp;</td><td>Lancer Evolution IV GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C170</td><td>&nbsp;"tcegn"&nbsp;</td><td>Celica GT-Four</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C168</td><td>&nbsp;"tmr2n"&nbsp;</td><td>MR-2 GT-S</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C160</td><td>&nbsp;"sipwn"&nbsp;</td><td>Impreza'94 Wagon WRX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C158</td><td>&nbsp;"siptn"&nbsp;</td><td>Impreza'95 Sports Wagon WRX STi Version II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C150</td><td>&nbsp;"tspon"&nbsp;</td><td>Supra TwinTurbo R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C148</td><td>&nbsp;"nr02n"&nbsp;</td><td>Skyline'89 GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C140</td><td>&nbsp;"tchvn"&nbsp;</td><td>Chaser 25 Tourer V</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C138</td><td>&nbsp;"afx7n"&nbsp;</td><td>efini RX-7 TouringX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C130</td><td>&nbsp;"nv34n"&nbsp;</td><td>Skyline GT-R Vspec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C128</td><td>&nbsp;"slgan"&nbsp;</td><td>Legacy Wagon GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C120</td><td>&nbsp;"slgbn"&nbsp;</td><td>Legacy Touring Sedan RS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C118</td><td>&nbsp;"slgwn"&nbsp;</td><td>Legacy Wagon '93 GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C110</td><td>&nbsp;"nr34n"&nbsp;</td><td>R33 Skyline GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C108</td><td>&nbsp;"nzxsn"&nbsp;</td><td>Fairlady Z 2 seater</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C100</td><td>&nbsp;"nr33n"&nbsp;</td><td>Skyline'95 GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0F8</td><td>&nbsp;"nn32n"&nbsp;</td><td>Skyline GT-R Nismo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0F0</td><td>&nbsp;"nr32n"&nbsp;</td><td>Skyline'91 GT-R</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0E8</td><td>&nbsp;"nv33n"&nbsp;</td><td>Skyline'95 GT-R V-spec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0E0</td><td>&nbsp;"sipcn"&nbsp;</td><td>Impreza'96 WG WRX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0D8</td><td>&nbsp;"nzx2n"&nbsp;</td><td>Fairlady Z Version S twinturbo 2by2</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0D0</td><td>&nbsp;"nv12n"&nbsp;</td><td>Skyline GT-R V-spec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0C8</td><td>&nbsp;"slgnn"&nbsp;</td><td>Legacy'93 SD RS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0C0</td><td>&nbsp;"tm2vn"&nbsp;</td><td>Mark II'92 Tourer V 2.5</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0B8</td><td>&nbsp;"sipzn"&nbsp;</td><td>Impreza'94 WRX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0B0</td><td>&nbsp;"cc67n"&nbsp;</td><td>Corvette'67 427 Coupe</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">0 (none)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F53C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00018BA7</td><td>&nbsp;1:41.287&nbsp;</td><td></td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

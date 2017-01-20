@@ -1,0 +1,142 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.05.04.23.15.10;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.04.23.07.11;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@2000-03-05.txt
+@
+
+
+1.2
+log
+@format twiddles.
+@
+text
+@Sunday March 05, 2000
+
+
+Brief Memory Map of the Intermediate Simulation Mode Disk I have
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+ Gameplay Hints
+
+Here is a brief memory map of locations I found by inspecting the
+simulation mode disk from my "intermediate" copy of Gran Turismo 2.
+
+I bought this from Toys 'R Us in mid-February.
+
+People have observed that most of these locations are merely
+shifted by hex 370 from the locations for Gran Turismo 2 "version 1.0",
+the original very buggy release.
+
+In turn, there seems to be documentation to suggest that a better
+version of Gran Turismo 2, has locations offset by hex 590 from
+the original.
+
+
+This version shows IA only above the Muscle Car Cup on the page
+under Special Events.
+
+This version spells "Normal" correctly for the Event Generator.
+
+But...<html><br></html>
+This version still shows a Cr5,000 car wash.<html><br></html>
+This version still has the garage delete bug (at least when I began
+by using a load of an old game, since I didn't want to build up to
+eight or nine cars.  I might try that sometime...)
+
+<HTML INDENT>
+<pre>
+801C97A8 - A. day counter (as you see in bottom-left corner),4b,391
+801C97B0 - B. total races,4b,435
+801C97B4 - C. total wins,4b,371
+801C97B8 - D. total "positions" or "rankings",4b,541
+801C97BA - E. total races not including abandons(?),4b,433
+     D/E does appear to equal "average ranking"
+801C97C8 - total prize money,4b,15,985,000
+</pre>
+</HTML>
+
+Following this appears to be various "nybble maps" probably
+representing license status, plus various records, probably
+license and maybe Time Trials, ending with the dreaded
+Machine Test records, including the most deadly Max Speed
+records.
+
+<HTML INDENT>
+<pre>
+801CD280 - # of max speed records
+801CD284 - 8 max speed records, 20 bytes each
+              car(4b),speed*100(4b),name(12b)
+         - problem is, sometimes the game thinks there's room for 10  :)
+
+801CD324 - garage count (number of cars)
+801CD328 - first car of 100 car garage
+</pre>
+</HTML>
+
+Soon after the end of the garage is...
+
+<HTML INDENT>
+<pre>
+801D1338 - number of credits in your bank account
+801D133C - zero-origin index of current car in garage
+801D133E - last name used for records, e.g.  ARP17Jan00
+</pre>
+</HTML>
+
+Most, if not all, of these locations are hex 370 greater than the
+version 1.0 locations, I believe.
+
+Coming later...  "Current Race" information...
+Scanning that area of memory with a Game Shark Pro allows you to
+see a "Starting Line-Up" for your race, amongst other things.
+
+Oh yeah, I should try and find the used car lots, too...
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d36 1
+a36 1
+<HTML>
+d54 1
+a54 1
+<HTML>
+d68 1
+a68 1
+<HTML>
+@

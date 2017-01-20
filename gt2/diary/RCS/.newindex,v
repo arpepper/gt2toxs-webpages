@@ -1,0 +1,98 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2001.07.02.02.33.43;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.03.23.23.58.34;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.01.02.21.14.21;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.08.18.22.02.44;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.14.23.36.19;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@create a new index file.
+@
+
+
+1.5
+log
+@Generate complete list as main index, grandindex as full index, and
+old thread index as a sort of afterthought.
+@
+text
+@#!/bin/csh -f
+cd /u/arpepper/public_html/gt2/diary
+mv fullindex.html .backup/ || :
+./.makegrandindex.pl {1999,2[0-9][0-9][0-9]}-*.html > fullindex.html
+mv index.html .backup/ || :
+./.makeindex.pl {1999,2[0-9][0-9][0-9]}-*.html > index.html
+mv threadindex.html .backup/ || :
+./.makethreadindex.pl > threadindex.html
+@
+
+
+1.4
+log
+@cd to the correct new place (maybe)
+@
+text
+@d4 1
+a4 1
+./.makeindex.pl {1999,2[0-9][0-9][0-9]}-*.html > fullindex.html
+d6 3
+a8 1
+./.makethreadindex.pl > index.html
+@
+
+
+1.3
+log
+@Y2K compliance   8-)
+@
+text
+@d2 1
+a2 1
+cd /u/arpepper/public_html/gt/diary
+@
+
+
+1.2
+log
+@We now generate a thread-based index.
+@
+text
+@d4 1
+a4 1
+./.makeindex.pl 1999*.html > fullindex.html
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 2
+@

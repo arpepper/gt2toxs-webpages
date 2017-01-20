@@ -1,0 +1,692 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.08.24.21.45.08;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.08.23.23.44.25;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.08.23.23.30.18;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.08.15.16.03.30;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.08.15.15.55.50;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@I started trying to change the Technical Manual into my own tutorial.
+@
+
+
+1.5
+log
+@More wording.
+detab
+@
+text
+@
+
+A Relatively Complete List of GameShark Code Meanings
+
+PlayStation Action Replay 3,
+GameShark 3 and GameBuster 3
+
+
+The code types listed here apparently work for
+Action Replay (English, Japanese, French),
+GameShark and Game Buster version 3 cartridges.
+They are also supposed to work for some slightly earlier
+versions, namely GameSharks 2.41 and above,
+UK Action Replay, German GameBuster and French
+Action Replay 2.8 and above,  and Japanese Action
+Replay 2.5 and above.
+
+80
+Store word.  This s the most commonly used code. It simply repeatedly writes the
+given 16 bit value to the given memory location.
+
+Example: Cause the 16-bit hex value 55A2 to be repeatedly written to
+memory location 10D102.
+
+8010D102 55A2
+
+Byte 10D102 receives the value A2, while the next byte location,
+10D103, receives 55.
+
+30
+Store byte. Like 80 code but affects only the byte
+at the given address, which address may be odd or even.
+
+Example: The byte value 2C is repeatedly written to
+the memory location 10D507
+
+3010D507 002C
+
+Conditional Codes
+
+These codes allow you to do codes only when certain conditions,
+determined by examining memory locations, are met.
+These code helps prevent memory values from being changed when doing
+so would cause disaster.  By checking for a value which you know
+corresponds to a certain place in the game, you can usually avoid
+the code having adverse effects.
+
+D0
+If word value in the supplied location is the same as the supplied value
+do the next code, otherwise skip it.
+
+Example: If the 16-bit memory location 1C353 has the
+value D5D8 then do the code 801D156A  05F3, otherwise
+skip to the code which follows it.
+
+D01C353C  D5D8
+801D156A  05F3
+
+
+D1
+If the word (16-bit) value in the supplied location is different from the
+supplied value do the next code, otherwise skip it.
+
+
+D2
+If the word (16-bit) value in the supplied location is less than the
+supplied value do the next code, otherwise skip it.
+
+
+D3
+If the word (16-bit) value in the supplied location is greater than the
+supplied value do the next code, otherwise skip it.
+
+
+E0
+If byte value in the supplied location is the same as the supplied value
+do the next code, otherwise skip it.
+
+
+E1
+If byte value in the supplied location is different from
+the supplied value do the next code, otherwise skip it.
+
+
+E2
+If byte value in the supplied location is less than
+the supplied value do the next code, otherwise skip it.
+
+
+E3
+If byte value in the supplied location is greater than
+the supplied value do the next code, otherwise skip it.
+
+
+Increment (add to) and Decrement (subtract from) Codes
+
+10
+Increment (add to) word (16-bit) code.   Only use this code conditionally,
+i.e after a DX or EX code.   It adds the value supplied to the
+16-bit value at the location.  Note this is done repeatedly, and so it,
+and all the other increment/decrement codes, are difficult to make useful.
+
+Example: Add 7 to word location 001FF0 when
+word location 001FF0 is equal less than 000D
+
+        D2001FF0 000D
+        10001FF0 0007
+
+
+11
+Decrement (subtract from) word code.  Only use this code conditionally,
+i.e after a DX or EX code.   It subtracts the value supplied from the
+16-bit value at the location.
+
+Example: Subtract 7 from word location 001FF0 when
+word location 001FF0 is greater than  00B0
+
+        D3001FF0 00B0
+        11001FF0 0007
+
+
+20
+Increment (add to) byte (8-bit) code.  Only use this code conditionally,
+i.e after a DX or EX code.   It adds the value supplied to the
+8-bit value at the location.
+
+Example: Add 7 to byte location 001FF0 when
+word location 001FF0 is less than 000D
+
+        D2001FF0 000D
+        20001FF0 0007
+
+21
+Decrement (subtract from) byte (8-bit) code.  Only use this code
+conditionally, i.e after a DX or EX code.   It subtracts the value
+supplied from the 8-bit value at the location.
+
+Example: Subtract 5 from the byte location 80001231
+when byte location 80001230 is greater than 0006
+
+        E3001231 0006
+        21001231 0005
+
+
+
+50
+Serial code.  You can use with 80/30 codes to avoid lots
+of repetitions of similar codes if you wish to update large
+numbers of consecutive memory locations.
+
+The 50 code itself must precede a normal store code.
+This contains the number of repeats and
+the size of the code to write (1 for byte, 2 for words). You can also
+specify a value to increase by on each repeat.
+
+5000RR0S 0000     ;RR is the number of repeats
+                  ;S is the size. 2 for words, 1 for
+bytes (use 2 with 80 codes and 1 with 30 codes). This
+value is added to the code address each repeat. So if
+the code after the 5 code was an 80000000 and this
+value was 2 - each loop the address would be
+80000000, then 80000002, then 80000004, etc. If this S
+value was 4 the addresses would be 80000000, then
+80000004, then 80000008, etc. Note that with 80000000
+codes this S value must be even (2,4,6,8,A,C), with
+30000000 codes which work on bytes this S value can
+be any number from 1 to F.
+
+50000000 IIII     ; IIII is the value to increase the
+written value by (optional).
+
+eg. 50000502 0000
+801CCFBC 1111
+
+is equivalent to
+
+801CCFBC 1111
+801CCFBE 1111
+801CCFC0 1111
+801CCFC2 1111
+801CCFC4 1111
+
+
+eg. 50000502 0001
+801CCFBC 0001
+
+is equivalent to
+
+801CCFBC 0001
+801CCFBE 0002
+801CCFC0 0003
+801CCFC2 0004
+801CCFC4 0005
+
+
+
+
+New Code Types
+
+
+Several additional conditional codes were made available
+in all versions 3.x.  They are also available in newer version 2
+software (US 2.41+, UK 2.8+, JAP 2.5+).
+
+
+Must Be On / Master Codes
+If a code name starts with the text "(M)" or "(m)" then
+that code is always on.
+
+The user cannot switch it off if they select the codes
+for that game.   See the codes for "Gran Turismo" for an example. This
+has a Must Be On code that disables the JoyPad toggle feature. If the
+JoyPad toggle is not disabled for this game - it won't load (note that
+this is so far the only game that requires this).
+
+
+D4    (No effect in V1.00/V2.00).
+
+Joypad D code. if joypad press equals word value do
+the next code.
+
+Table of JoyPad values
+       Up          (1000)
+       Right       (2000)
+       Down        (4000)
+       Left        (8000)
+       Triangle          (0010)
+       O           (0020)
+       X           (0040)
+       Square            (0080)
+       Select            (0100)
+       Start       (0800)
+
+       L1          (0004)
+       R1          (0008)
+       L2          (0001)
+       R2          (0002)
+Add combinations. E.g. Select+R1 == 0100+0008 == 0108
+
+For example, the code "801CCFBB DE31" will be on
+when the user presses
+Select and Square at the same time:
+        
+        D4000000 0180
+        801CCFB8 DE31
+
+Also note: To combine different button presses, simply add the button
+values together.  Remember these are in Hex, so Square and X would be
+0080+0040 = 00C0.
+
+This does not seem to work with all games.
+
+
+D5    (No effect in V1.00/V2.00).
+All codes on. If joypad press equals word value, all
+codes on.
+
+This "turn codes on/off" feature is permanently
+available in all games and defaults to
+"SELECT+L1+R1" for on and "SELECT+L2+R2" for
+off. The D5 and D6 codes are available if you need to
+change the buttons used or disable them.
+
+If the value given if zero (D5000000 0000 or D6000000
+0000) then joypad functions are disabled (This is the
+same as "joypad toggle disabled" in the options screen).
+This feature is provided because "Gran Turismo" failed to
+load when the joypad features were active.
+
+Example: To make codes turn on when you press
+START and X together. The following code should
+be used:
+
+        D5000000 0840
+
+
+D6    (No effect in V1.00/V2.00).
+All codes off. if joypad press equals word value, all
+codes off.
+
+This does the opposite of the D5 code. See the D5 code
+description for details.
+
+Example: To make codes turn off when you press
+START and X together. The following code should
+be used: (Start = 0800 and X = 0040, 0800+0040=0840).
+
+        D5000000 0840
+
+There are several other interesting extended codes which
+are available in more recent GameSharks.
+
+
+C0    (No effect in V1.00/V2.00).
+If word value in location supplied is the same as
+value, do ALL codes, otherwise don't do any.
+
+A C0 code if the same as a D0 code except it acts on
+ALL codes. This is useful for games that don't load when
+codes are on, or if you want to avoid repeating the
+same D0 code a lot of times.
+
+For example: If you had a game for which you don't
+want any codes on until the memory location
+801CCFB8 contains the value C038 you could have
+the following code:
+
+        "(M) Must be on"
+        C01CCFB8 C038
+        
+Having the text "(M)" at the start of the name of the
+code makes the code default to ON and the user
+cannot turn it off in the code list.  It is inadvisable
+to have more than one C0 code in the set of active codes.
+
+
+C1    (No effect in V1.00/V2.00).
+Code on delay time. Delay codes being turned on for
+a period of time specified by the value part of this
+code. By default this value is set to 1388 hex (5000
+decimal) which waits about 10 seconds before
+activating the cheats. This can be a useful alternative
+to a D code for keeping codes off whilst a game loads.
+
+Example: To delay all codes from being turned on for
+about 30 seconds in most games use the code
+C1000000 4000. The value you use depends on the
+game you are playing--the value 4000 might be 30
+seconds on one game, but may only be 10 seconds on
+another. The only way is to know for sure is to
+experiment. You can tell if codes are on or off when by
+going in to the "In Game Menu" and looking at the
+text "Codes are ON". If it says "Codes are ON" then
+codes are on, if it says "Codes are ON." (with a .' at
+the end of the string) then codes are actually off until
+this timer runs out.
+        
+You might want to put this code in a code that
+can't be turned off (i.e. use the text "(M)" in the
+name). The example code then becomes:
+
+        "(M) Must be on"
+        C1000000 4000
+
+
+C2    (No effect in V1.00/V2.00)
+
+Copy bytes code. This code copy's n bytes from a
+memory location to another.
+The code must be used in pairs of two codes. The
+first code is the source address, the second is the
+destination address. The value part of the first code is
+the number of bytes to copy. The value part of the
+second code is not used.
+
+Example: Copy 6 bytes from memory location 80010000 to 80010010.
+        C2010000 0006
+        10010010 0000
+
+
+
+@
+
+
+1.4
+log
+@More little twiddles.
+@
+text
+@a17 3
+
+Standard Code Types
+
+d19 1
+a19 1
+This s the most commonly used code. It simply repeatedly writes the
+d28 1
+a28 1
+10D103 receives 55.
+d31 1
+a31 1
+Byte code. Like 80 code but affects only the byte
+d41 7
+a50 4
+This code helps prevent memory values from being changed when doing
+so would cause disaster.  By checking for a value which you know
+corresponds to a certain place in the game, you can usually avoid
+the code having adverse effects.
+d148 1
+a148 1
+of repetitions of similar codes to update large
+d151 2
+a152 1
+The 50 code itself comes first. This contains the number of repeats and
+d156 2
+a157 3
+5000RR00 0000	;RR is the number of repeats
+
+5000000S 0000	;S is the size. 2 for words, 1 for
+d169 1
+a169 1
+50000000 IIII	; IIII is the value to increase the
+d217 1
+a217 1
+D4 	(No effect in V1.00/V2.00).
+d223 15
+a237 15
+        	Up		(1000)
+        	Right		(2000)
+        	Down		(4000)
+        	Left		(8000)
+        	Triangle		(0010)
+        	O		(0020)
+        	X		(0040)
+        	Square		(0080)
+        	Select		(0100)
+        	Start		(0800)
+
+        	L1		(0004)
+        	R1		(0008)
+        	L2		(0001)
+        	R2		(0002)
+d254 1
+a254 1
+D5	(No effect in V1.00/V2.00).
+d277 1
+a277 1
+D6	(No effect in V1.00/V2.00).
+d294 1
+a294 1
+C0 	(No effect in V1.00/V2.00).
+d317 1
+a317 1
+C1 	(No effect in V1.00/V2.00).
+d342 1
+a342 1
+        "(M) Must be on"	
+d346 1
+a346 1
+C2 	(No effect in V1.00/V2.00)
+@
+
+
+1.3
+log
+@Many changes, still much plagiarism, though.
+@
+text
+@d12 1
+a12 1
+They are also supposed to work for some earlier
+d138 2
+a139 2
+Example: Subtract 5 from the byte location 80001230
+when word location 80001230 is greater than 0006
+d141 2
+a142 2
+        D3001230 0006
+        21001230 0005
+d147 1
+a147 1
+Serial code use with 80/30 codes. This avoids lots
+d151 3
+a153 4
+The code starts with the 50 code. This contains the
+number of repeats and the size of the code to write (1
+for byte, 2 for words). You can also specify a value to
+increase by on each repeat.
+d217 1
+a217 1
+D4 	(No effect on V1.00/V2.00).
+d238 1
+a238 1
+Add combinations. E.g. Select+L1 == 0100+0004 == 0104
+d240 1
+a240 1
+For example, the code "80000000 1234" will be on
+d242 1
+a242 1
+Select and X at the same time:
+d244 2
+a245 2
+        D4000000 0140
+        80000000 1234
+d247 3
+a249 5
+Also note: To combine different button presses,
+simply add the button values together. The value for
+O and X buttons would be 0020 added with 0040,
+hence 0060. And remember these are in Hex, so
+Square and X would be 0080+0040 = 00C0.
+d254 1
+a254 1
+D5	(No effect on V1.00/V2.00).
+d265 2
+a266 2
+0000) then joypad functions are disabled (same as
+"joypad toggle disabled" in the options screen).
+d271 1
+a271 1
+START and O together. The following code should
+d274 1
+a274 1
+        D5000000 0820
+d277 1
+a277 1
+D6	(No effect on V1.00/V2.00).
+d294 1
+a294 1
+C0 	(No effect on V1.00/V2.00).
+d313 2
+a314 1
+cannot turn it off in the code list.
+d317 1
+a317 1
+C1 	(No effect on V1.00/V2.00).
+d338 1
+a338 1
+Also, it is a good idea to put this code in a code that
+d346 1
+a346 1
+C2 	(No effect on V1.00/V2.00)
+@
+
+
+1.2
+log
+@I made the major edit I wanted to do before. (I -> They).
+A couple of tweaks now.
+@
+text
+@d9 8
+a17 9
+This manual explains all the available code types for
+Action Replay (English, Japanese, French),
+GameShark and Game Buster version 3 cartridges,
+and also versions of GameSharks 2.41 and above
+Versions of UK Action Replay, German GameBuster
+and French Action Replay 2.8 and above support all
+codes in this document.
+Versions of Japanese Action Replay 2.5 above
+support all codes in this document.
+a20 3
+Code types that now exist in Version 2.00 and above
+
+
+d25 1
+a25 1
+Example: The 16-bit hex value 55A2 is repeatedly written to
+d71 1
+a71 1
+If the word (16-bit) value in the supplied location is more than the
+d91 1
+a91 1
+If byte value in the supplied location is less than
+d104 1
+a104 1
+word location 001FF0 is equal to 000D
+d106 1
+a106 1
+        D0001FF0 000D
+d116 1
+a116 1
+word location 001FF0 is equal to 000D
+d118 1
+a118 1
+        D0001FF0 000D
+d128 1
+a128 1
+word location 001FF0 is equal to 000D
+d130 2
+a131 2
+        D0001FF0 000D
+        10001FF0 0007
+d138 2
+a139 2
+Example: Subtract 5 to the byte location 80001230
+when the location 80001230 is equal to 0006
+d141 1
+a141 1
+        D0001230 0006
+d147 3
+a149 2
+Serial code use with 80/30 codes. Saves using 2 or
+more codes to update consecutive memory locations.
+d202 3
+a204 3
+The following codes are new to all versions 3.x. Also
+available in newer version 2 software (US 2.41+, UK
+2.8+, JAP 2.5+).
+d211 5
+a215 6
+The user cannot switch it off. See the codes for "Gran
+Turismo" for an example. This has a Must Be On code
+that disables the JoyPad toggle feature. If the JoyPad
+toggle is not disabled for this game - it won't load
+(note that this is so far the only game that requires
+this).
+d239 1
+a239 2
+        	Add combinations. E.g. Select+L1
+== 0100+0004 == 0104
+d254 2
+a260 3
+Please read the subject "Joypad Toggle" on turning
+codes on and off for more information.
+
+d269 3
+a271 5
+"joypad toggle disabled" in the options screen). They've
+allowed you to disable this as they found the game
+"Gran Turismo" failed to load when this function was
+active. Just in case there is another game that does
+this, this code is available.
+d275 1
+a275 1
+be used: (Start = 0800 and O = 0020, 0800+0020=0820).
+d284 2
+a285 1
+See the description for D5 codes.
+d293 3
+d302 3
+a304 3
+ALL codes. Useful for games that don't load when
+codes are on. This code should be put in a "Must Be
+On" "(M)" so people can't turn it off.
+d308 1
+a308 1
+801AAAAA contains the value 1234 you could have
+d312 1
+a312 1
+        C01AAAAA 1234
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d333 2
+a334 2
+C1000000 4000. The vaule you use depends on the
+game you are playing, the value 4000 might be 30
+d364 1
+a364 1
+        80010010 0000
+@

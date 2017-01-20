@@ -1,0 +1,157 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.14.05.07.13;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.14.05.04.27;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@fixed Volante mistake.
+@
+text
+@Thursday November 23, 2000
+
+
+(GT1 Version 1.1)  UKvsUS Series Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>UKvsUS Series</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+UKvsUS Event (8008F6F4)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090DE4</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80090FBC</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F4C4</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090AF8</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090CF4</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;3</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090DE4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C700</td><td>&nbsp;"rev_mountain"&nbsp;</td><td>Trial Mountain II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C76C</td><td>&nbsp;"highway"&nbsp;</td><td>Special Stage R5</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C760</td><td>&nbsp;"testline"&nbsp;</td><td>High Speed Ring</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6E0</td><td>&nbsp;"rev_short"&nbsp;</td><td>Grand Valley East II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6A8</td><td>&nbsp;"outbahn"&nbsp;</td><td>Special Stage R11</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80090FBC -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q3000, 1st10000, champ20000)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090AF8 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C508</td><td>&nbsp;"dvpgr"&nbsp;</td><td>[R]Viper GTS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C518</td><td>&nbsp;"ccrvr"&nbsp;</td><td>[R]Corvette'96 Grand Sport</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C510</td><td>&nbsp;"ccrcr"&nbsp;</td><td>[R]Corvette'96</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C520</td><td>&nbsp;"dvprr"&nbsp;</td><td>[R]Viper RT/10</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C580</td><td>&nbsp;"vgrfr"&nbsp;</td><td>[R]Griffith 4.0</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C558</td><td>&nbsp;"vcrbr"&nbsp;</td><td>[R]Cerbera</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C548</td><td>&nbsp;"ld7cr"&nbsp;</td><td>[R]DB7 Coupe</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C540</td><td>&nbsp;"ld7vr"&nbsp;</td><td>[R]DB7 Volante</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4F8</td><td>&nbsp;"ccamr"&nbsp;</td><td>[R]Camaro Z28</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C550</td><td>&nbsp;"vgr5r"&nbsp;</td><td>[R]Griffith 500</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4E0</td><td>&nbsp;"dcphn"&nbsp;</td><td>Concept Car</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090CF4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C660</td><td>&nbsp;"a-a7r"&nbsp;</td><td>[R]RX-7 Aspec LM</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C658</td><td>&nbsp;"d-phr"&nbsp;</td><td>"[R]"Concept Car</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F4C4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00014385</td><td>&nbsp;1:22.821&nbsp;</td><td>(Trial Mountain II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001351F</td><td>&nbsp;1:19.135&nbsp;</td><td>(Special Stage R5)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000DE09</td><td>&nbsp;0:56.841&nbsp;</td><td>(High Speed Ring)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000F9F7</td><td>&nbsp;1:03.991&nbsp;</td><td>(Grand Valley East II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001C584</td><td>&nbsp;1:56.100&nbsp;</td><td>(Special Stage R11)</td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d78 1
+a78 1
+<tr><td colspan="2">&nbsp;</td><td>8008C540</td><td>&nbsp;"ld7vr"&nbsp;</td><td>[R]DB7 Coupe</td></tr>
+@

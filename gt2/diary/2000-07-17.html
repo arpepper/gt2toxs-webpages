@@ -1,0 +1,425 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Monday July 17, 2000
+ -- (GT2)  Evolution of a GameShark Code, Conclusion (For Now)
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Monday July 17, 2000
+</h3>
+</font>
+<font color="white">
+<h4>(GT2)  Evolution of a GameShark Code, Conclusion (For Now)
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-07-16.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-08-04.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-07-16.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-08-04.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-07-16.html#Gran_Turismo_2">&lt;&lt;--</a>
+<a name="Gran_Turismo_2">Gran Turismo 2
+</a><a href="2000-08-04.html#Gran_Turismo_2">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Monday July 17, 2000
+</h3>
+<h4>(GT2)  Evolution of a GameShark Code, Conclusion (For Now)
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+As I demonstrated in previous entries,
+I created a GameShark Code for <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font> which
+causes you to win as prize cars hybrids constructed from your garage.
+These codes can only possibly work for <b>GameShark Version 3.00</b>
+or higher, because they depend upon a special instruction implemented
+only those versions of game enhancer cartridges.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+This last version is just a tweak of the previous one.  It uses nine
+garage entries to contribute to the hybrid, rather than just six.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The first version is for the
+original 1.0 North American version of <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font>:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+ C21CCFB8 0008 -- slot #1, most things (car + colour) (1.0)
+ 101D502C 0000
+ C21CCFC4 0008 -- slot #1, brakes,ctlr,L+W+H
+ 101D5038 0000
+ C21CCFCE 0004 -- slot #1, drivetrain, transmission
+ 101D5042 0000
+ C21CCFD4 0002 -- slot #1, differential
+ 101D5048 0000
+ C21CCFFA 0018 -- slot #1, many settings
+ 101D506E 0000
+ C21CD02E 002E -- slot #1, remainder to end
+ 101D50A2 0000
+
+ C21CD070 0002 -- slot #2, engine
+ 101D5040 0000
+
+ C21CD122 0002 -- slot #3, weight reduction
+ 101D504E 0000
+
+ C21CD1C8 0002 -- slot #4, race modification
+ 101D5050 0000
+ C21CD1FE 0002 -- slot #4, down force setting
+ 101D5086 0000
+
+ C21CD26E 000A -- slot #5, engine mods
+ 101D5052 0000
+
+ C21CD31C 0010 -- slot #6, turbo plus some running gear
+ 101D505C 0000
+ C21CD348 0006 -- slot #6, turbo gauge and sound
+ 101D5088 0000
+
+ C21CD3AA 0002 -- slot #7, suspension
+ 101D5046 0000
+ C21CD3F2 0014 -- slot #7, suspension settings
+ 101D508E 0000
+
+ C21CD452 0004 -- slot #8, F+R tires
+ 101D504A 0000
+
+ C21CD4E0 0004 -- slot #9, wheels (rims)
+ 101D5034 0000
+ C21CD518 0002
+ 101D506C 0000
+
+
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I have worked extensively with this 1.0 code.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I have not actually tested any of the other versions, yet.  I would expect
+them to work, and would not be greatly afraid to try them--I just have
+not got around to it.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+For North American Version 1.1:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+ C21CD328 0008 -- slot #1, most things (car + colour) (1.1)
+ 101D539C 0000
+ C21CD334 0008 -- slot #1, brakes,ctlr,L+W+H
+ 101D53A8 0000
+ C21CD33E 0004 -- slot #1, drivetrain, transmission
+ 101D53B2 0000
+ C21CD344 0002 -- slot #1, differential
+ 101D53B8 0000
+ C21CD36A 0018 -- slot #1, many settings
+ 101D53DE 0000
+ C21CD39E 002E -- slot #1, remainder to end
+ 101D5412 0000
+
+ C21CD3E0 0002 -- slot #2, engine
+ 101D53B0 0000
+
+ C21CD492 0002 -- slot #3, weight reduction
+ 101D53BE 0000
+
+ C21CD538 0002 -- slot #4, race modification
+ 101D53C0 0000
+ C21CD56E 0002 -- slot #4, down force setting
+ 101D53F6 0000
+
+ C21CD5DE 000A -- slot #5, engine mods
+ 101D53C2 0000
+
+ C21CD68C 0010 -- slot #6, turbo plus some running gear
+ 101D53CC 0000
+ C21CD6B8 0006 -- slot #6, turbo gauge and sound
+ 101D53F8 0000
+
+ C21CD71A 0002 -- slot #7, suspension
+ 101D53B6 0000
+ C21CD762 0014 -- slot #7, suspension settings
+ 101D53FE 0000
+
+ C21CD7C2 0004 -- slot #8, F+R tires
+ 101D53BA 0000
+
+ C21CD850 0004 -- slot #9, wheels (rims)
+ 101D53A4 0000
+ C21CD888 0002
+ 101D53DC 0000
+
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+For North American Version 1.2:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+ C21CD558 0008 -- slot #1, most things (car + colour) (1.2)
+ 101D55CC 0000
+ C21CD564 0008 -- slot #1, brakes,ctlr,L+W+H
+ 101D55D8 0000
+ C21CD56E 0004 -- slot #1, drivetrain, transmission
+ 101D55E2 0000
+ C21CD574 0002 -- slot #1, differential
+ 101D55E8 0000
+ C21CD59A 0018 -- slot #1, many settings
+ 101D560E 0000
+ C21CD5CE 002E -- slot #1, remainder to end
+ 101D5642 0000
+
+ C21CD610 0002 -- slot #2, engine
+ 101D55E0 0000
+
+ C21CD6C2 0002 -- slot #3, weight reduction
+ 101D55EE 0000
+
+ C21CD768 0002 -- slot #4, race modification
+ 101D55F0 0000
+ C21CD79E 0002 -- slot #4, down force setting
+ 101D5626 0000
+
+ C21CD80E 000A -- slot #5, engine mods
+ 101D55F2 0000
+
+ C21CD8BC 0010 -- slot #6, turbo plus some running gear
+ 101D55FC 0000
+ C21CD8E8 0006 -- slot #6, turbo gauge and sound
+ 101D5628 0000
+
+ C21CD94A 0002 -- slot #7, suspension
+ 101D55E6 0000
+ C21CD992 0014 -- slot #7, suspension settings
+ 101D562E 0000
+
+ C21CD9F2 0004 -- slot #8, F+R tires
+ 101D55EA 0000
+
+ C21CDA80 0004 -- slot #9, wheels (rims)
+ 101D55D4 0000
+ C21CDAB8 0002
+ 101D560C 0000
+
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+For PAL version (should work, based on the known offset):
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+ C21CD588 0008 -- slot #1, most things (car + colour) (PAL)
+ 101D55FC 0000
+ C21CD594 0008 -- slot #1, brakes,ctlr,L+W+H
+ 101D5608 0000
+ C21CD59E 0004 -- slot #1, drivetrain, transmission
+ 101D5612 0000
+ C21CD5A4 0002 -- slot #1, differential
+ 101D5618 0000
+ C21CD5CA 0018 -- slot #1, many settings
+ 101D563E 0000
+ C21CD5FE 002E -- slot #1, remainder to end
+ 101D5672 0000
+
+ C21CD640 0002 -- slot #2, engine
+ 101D5610 0000
+
+ C21CD6F2 0002 -- slot #3, weight reduction
+ 101D561E 0000
+
+ C21CD798 0002 -- slot #4, race modification
+ 101D5620 0000
+ C21CD7CE 0002 -- slot #4, down force setting
+ 101D5656 0000
+
+ C21CD83E 000A -- slot #5, engine mods
+ 101D5622 0000
+
+ C21CD8EC 0010 -- slot #6, turbo plus some running gear
+ 101D562C 0000
+ C21CD918 0006 -- slot #6, turbo gauge and sound
+ 101D5658 0000
+
+ C21CD97A 0002 -- slot #7, suspension
+ 101D5616 0000
+ C21CD9C2 0014 -- slot #7, suspension settings
+ 101D565E 0000
+
+ C21CDA22 0004 -- slot #8, F+R tires
+ 101D561A 0000
+
+ C21CDAB0 0004 -- slot #9, wheels (rims)
+ 101D5604 0000
+ C21CDAE8 0002
+ 101D563C 0000
+
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+For Japanese version (I've seen this offset, but it would be nice if
+someone could test it--be warned) <font color="red">To wit, I actually
+had an incorrect version here for a number of days.  I've corrected it
+now.  Strangely I had used the correct offset for all previous Japanese versions</font>:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+C21CD9B8 0008 -- slot #1, most things (car + colour)
+101D5A2C 0000
+C21CD9C4 0008 -- slot #1, brakes,ctlr,L+W+H
+101D5A38 0000
+C21CD9CE 0004 -- slot #1, drivetrain, transmission
+101D5A42 0000
+C21CD9D4 0002 -- slot #1, differential
+101D5A48 0000
+C21CD9FA 0018 -- slot #1, many settings
+101D5A6E 0000
+C21CDA2E 002E -- slot #1, remainder to end
+101D5AA2 0000
+
+C21CDA70 0002 -- slot #2, engine
+101D5A40 0000
+
+C21CDB22 0002 -- slot #3, weight reduction
+101D5A4E 0000
+
+C21CDBC8 0002 -- slot #4, race modification
+101D5A50 0000
+C21CDBFE 0002 -- slot #4, down force setting
+101D5A86 0000
+
+C21CDC6E 000A -- slot #5, engine mods
+101D5A52 0000
+
+C21CDD1C 0010 -- slot #6, turbo plus some running gear
+101D5A5C 0000
+C21CDD48 0006 -- slot #6, turbo gauge and sound
+101D5A88 0000
+
+C21CDDAA 0002 -- slot #7, suspension
+101D5A46 0000
+C21CDDF2 0014 -- slot #7, suspension settings
+101D5A8E 0000
+
+C21CDE52 0004 -- slot #8, F+R tires
+101D5A4A 0000
+
+C21CDEE0 0004 -- slot #9, wheels (rims)
+101D5A34 0000
+C21CDF18 0002
+101D5A6C 0000
+
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+So this is actually the code I wanted!!!
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+With the code active, arrange that nine cars you want to combine, as
+indicated, are at the top of your garage.  Often you want to have
+duplicate copies of cars if there are only certain things you want
+to combine.  In an extreme case, you might put eight copies of a BMW
+in the first eight slots, and put a car with nice after-market rims
+in the ninth slot, and then your prize will be the BMW fitted with
+the custom rims.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+There are still some common hybrid operations you cannot do with this,
+such as setting your own gear ratios, or changing the drivetrain.
+But this is a good way to try out basic parts and ideas, try to
+debug problems without having to manipulate the shark and hex codes
+in its memory editor.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+A caveat applies to all these codes.  I think they strain the limits
+of the <b>GameShark</b>, and about once every 20 or so attempts,
+I get a dreaded <b>No Name No Name</b> car instead of the
+desired hybrid.  Often this happens twice in a row, and then tends to
+clear up.  I think it is a timing problem, aggravated perhaps by the
+length of my code, or, perhaps, I think I heard once, by the fact I
+have so many codes now for <b>Gran Turismo 2</b>, even though
+most of them are not active.
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-07-16.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-08-04.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-07-16.html#Gran_Turismo_2">&lt;&lt;--</a>
+<a href="#Gran_Turismo_2">Gran Turismo 2
+</a><a href="2000-08-04.html#Gran_Turismo_2">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-07-16.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-08-04.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

@@ -1,0 +1,101 @@
+Thursday March 02, 2000
+
+
+I Finally Finish All of Gran Turismo 2
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+
+
+My game log, <html><a href=/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-tm30">tm-30</a></html> has now been finished.
+
+I did manage
+to win all the GT League and Special Event races without entering
+any event twice, and also without selling non-redundant prize cars.
+Because I had been collecting historical cars as well, I needed to
+sell the Speed 12 in order to get Cr2,000,000 to do Pike's Peak.
+The <html><a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-tm30&simday=">
+garage</a></html> is essentially full.
+
+Anyway, after doing all the GT League, Special Event, Enduros, and
+Rally Events, that left all those stupid little manufacturers' races
+you find under the <html><b>Events</b></html> button at many
+Manufacturers' Dealership screens.  I eventually worked my way
+through them.
+
+Thread: Gameplay Hints
+
+As I previously said,
+I usually found that buying
+merely supersoft tires, and the second level of power improvement for the
+car was more than adequate.  If the car has a racing category as
+well, then I also did Weight Reduction 3 (since that is necessary to
+do Racing Modification in GT2), but if it didn't I didn't bother.
+The hardest AI cars to beat, actually, seemed to be the Peugeot
+106's.  Some of the British race-mods seemed a bit more spirited
+than usual, too, particularly the Aston Martins.  Yet I still beat
+them with turbo spec 2 and super-soft tires only, using no suspension
+tuning.  (But, as one would guess, since I had a 100%/1.00 average,
+I reset over all losses  8-)  )
+
+When I ran out of cash, I won Stars/RedRock with
+the [R]Denso Sard Supra, to bankroll a few more cars.
+I entered that race ten extra times, meaning I needed about
+Cr5,500,000 to finance all the races, which is about half of
+what I had estimated with rough guesses.  In addition, I
+entered the Trial Mountain race of the Pure Sports set one extra
+time, so that I could keep a tuned Tuscan in addition to the one
+I race-modified.  Essentially I could just have done the Cr85,000
+upgrade to my existing car, so, although the one victory, winning
+a Cr500,000 car was equivalent to spending Cr500,000, it was somewhat
+optional.  In fact, I spent a little more money because I had to
+duplicate the weight-reduction and super-soft tires and engine tuning.
+
+When I finished, I had Cr484,960 left.  That was on simulation day 237.
+
+Something really annoyed me.  I had been doing all this racing using
+the original buggy version of Gran Turismo 2 I had bought in December.
+As expected, I only got to 98.20%, even after doing the Event Generator
+events.
+
+So, I booted the "new" version of the Simulation Disk I had purchased a
+couple of weeks ago.  To my surprise, when I went to the Status Screen,
+the percentage completed still said 98.20%
+
+My new copy, does fix the Muscle Car licenses, and the
+"Nomal" Event title in the Event Generator.  Perhaps, just possibly, it does
+not fix the percentage complete bug.  That is, perhaps there are more
+than just two versions of Gran Turismo 2 being distributed in North America.
+
+A more serious incompatibility I noticed with my new version is that
+the location and/or order of the Time Trial and Rally records does
+not seem to be the same.  This means that, in both Arcade and Simulation
+Mode, you get incorrect lap time records shown if you load from
+a save made by the old game.  This is very annoying.  License status
+and records seem okay, as does the general state of the garage, and
+even the few Machine Test records I had set.  But it appears that even
+if you try and merge records from an old game save into a new one, it
+does not know how to translate the location of the records.
+
+I looked at the game disks with a PC, and, indeed, the Arcade Mode
+disk is different.  Indications are that the new Arcade Mode disk will
+create records which the new Simulation Mode Disk will recognize, but
+I haven't actually tested it yet to verify that.  I left my old
+Simulation Mode disk at home.  Some day when I bring it in, I will
+post an entry here with the details of how the different disks I have
+look to a PC.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

@@ -1,0 +1,31 @@
+Tuesday November 2, 1999
+
+My Logs of My Games
+
+Threads:
+  Car Information
+  Gameplay Hints
+  License Test Progress
+  Prize Car Patterns
+  Used Car Patterns
+
+<HTML>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+In the directory <a href="logs">logs</a> I keep several logs of
+some of my interesting games; the directory now has a sort of
+interesting form on it that lets you find out what the garage
+for each game looked like on different days.  This is most
+interesting in the <a href="logs/blue">blue</a> game.
+</p>
+<p>
+The most recent game I have completed is the <a href="logs/gold">gold</a>
+game in which I won all the gold race cups in 100 days of simulation
+mode.
+</p>
+<p>
+Another interesting facility I have created is my
+<a href="../inventory/findcar.html">findcar</a> facility which allows
+you to search for cars matching desired characteristics.
+</p></font></td></tr></table>
+</HTML>

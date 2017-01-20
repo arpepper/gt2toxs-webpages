@@ -1,0 +1,82 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.2
+log
+@changes.
+@
+text
+@Thu Apr 15, EDT 1999
+
+Silly Things with a Viper
+
+Threads:
+  Gameplay Hints
+
+Well, I think a really good driver could win the Clubman Cup with a
+completely stock Viper, but for Cr15,000 plus a bit for stabilizers,
+I think I'd go with just racing tires and stabilizers; it's pretty
+easy like that.
+
+After goofing around with that, I took a fully tuned Viper to
+the GVE Spot Race, and won in 3:10.759
+
+
+total       lap 1      lap 2
+-----       -----      -----
+3:10.759 = 2:07.883 + 1:02.876
+
+The track (in arcade mode) claims to be 1.880 miles.  So I make that
+
+70.96mph    52.92mph   107.64mph   average speeds for the corresponding times.
+
+That was my first and only attempt at slow racing.
+
+A site of "worst (winning) times" might be funny.
+
+Another thing I did with a fairly tuned Viper was attempt to
+recreate the game Demo 1 (GT Cup Grand Valley win with a blue Viper).
+It's not easy to make an exciting looking demo in which you win; if you
+can win a race, you tend to run away with it too soon.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+@

@@ -1,0 +1,200 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	99.12.07.19.44.36;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.11.12.18.24.37;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.11.11.22.46.33;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.11.07.20.33.38;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@a branch off gold
+@
+
+
+1.4
+log
+@finished up.
+@
+text
+@October 26, 1999
+       (November 5, 1999)
+       I was trying to get the gold cups in absolutely as few days as possible.
+       I reloaded the game so as to take only one attempt per license test.
+       I later restarted this game from a day 39 save, to see if I could
+       win it with fewer purchased cars.
+
+   1      B4 pass 0:25.371 silver
+   2      B5 pass 0:24.104 silver
+   3      B3 oass 0:29.014 bronze
+   4      B1 pass 0:35.387 bronze
+   5      B2 pass 0:26.603 silver
+   6      B6 pass 0:27.518 bronze
+   7      B7 pass 0:26.178 silver
+   8      B8 pass 1:21.083 bronze (2 tries)
+   9   B license acquired  4:35.258
+
+   9      A1 pass 0:33.232 bronze
+
+  10   buy car 3dr'93si  captiva blue pearl Civic '93  3dr si
+
+    This is a cheap price for the Civic 3 door, and, with light
+    modification this car can win the Clubman, FF and Lwt races.
+
+  10      Cr10,000 -> Cr1,130
+  10      A2 pass 0:25.311 bronze
+  11      A3 pass 0:43.982 bronze (2 tries)
+  12      A4 pass 0:38.906 bronze (8+ tries)
+  13      A5 pass 0:31.429 bronze
+  14      A6 pass 0:26.717 bronze (10+ times)
+  15      A7 pass 0:30.657 silver
+  16      A8 pass 1:07.705 bronze (2 tries)
+  17   A license  4:57.939
+
+  17-20   3dr'93si  Sunday  q6Hq4G 1st27to18,11,8,6,5         Demio(1/1*)a
+  21   Cr26,630
+  21   buy parts 3dr'93si  Turbo1,WR1+2,semi-tires S/H  -> Cr1,430
+
+  21-24   3dr'93si  Clubman  q6Aq6C3q6TM 1st22to21,13,8,6,5  Camaro(1/1*)a
+  25   Cr37,430
+  25   buy parts 3dr'93si  racing-ex,computer,sport-brakes
+  25-28   3dr'93si  FF  q6DFq4GVE  1st27to18,11,10,5,4    yellowCRX(1/6)a
+ 
+  29   Cr52,930
+  29   buy parts 3dr'93si  soft-stab,racing-flywheel  ->  Cr51,230
+  29-32   3dr'93si  Lwt  q4Cq5DF4  1st21to19,16,9,7,3     blueCivic(1/6)a
+  33   Cr75,230
+  33   buy car RT/10  red Dodger Viper RT/10 -> Cr6,430
+  33   power off
+
+October 27, 1999
+  33-38   RT/10  Normal  sw45to30,20,15,10,5          orangeImpreza(1/6)a
+  39   Cr406,430
+  39   saved game
+
+November 6, 1999
+        This is where this game diverges from the "gold" game.
+  39   mod car Impreza  (alias) max tune, a few extra parts -> 132,730
+  39-42   orangeImpreza  4wd  sw27to18,12,9,6,3        whiteAlcyone(1/6)a
+  43   Cr162,230
+  43-47   orangeImpreza  GTC  sw36to24.15.13,7,5           ChaserLM(1/1*)a
+  48   Cr247,230
+
+  48       IA1 pass 1:05.450 bronze (1 try)
+  49       IA3 pass 2:01.369 bronze (1 try)
+  50       IA5 pass 1:23.301 bronze (1 try)
+  51       IA7 pass 2:12.361 bronze (3 tries)
+  52       IA4 pass 1:22.045 bronze (1 try)
+  53       IA2 pass 1:29.902 bronze (6 tries)
+  54       IA6 pass 1:31.507 bronze (2 tries)
+  55       IA8 pass 1:58.560 bronze (1 try)
+
+  56   IA license  13:04.495
+
+  56-61   Impreza Abnormal GV5CR3 1st33to27,22,19,19,5 yellowSkyline(1/6)a
+  62   Cr572,230
+  62   power off
+
+November 9, 1999
+  62   mod car Skyline max tune yellowSkyline, plus extra parts -> Cr290,530
+  62-65   yellowSkyline  Mega  sw27to18,10,9,6,5           purpleDB7(1/6)a
+  66   Cr380,530
+  66   power off
+
+    It is tempting to use this car if you win it.  But you might win
+    an almost useless Trueno instead.  So I think I must play as much
+    of the rest of the game without using it.  After I finish this game
+    I will evaluate the silver Nismo GT-R LM (All-nightII prize) as a
+    Mega-Speed contender.  The "correct" strategy is arguably to use
+    that car instead of the Skyline.
+
+November 10, 1999
+  66-67   orangeImpreza  All-nightII  q1st1st    silverNismoGT-R LM(1/1*)a
+  68   Cr550,530
+  68-73   ChaserLM  UKvsJP  1st45to26,20,16,10,8       black delSol(1/4)a
+                            q6TMq4HRq4GV
+  74   Cr626,530
+  74   power off
+    
+     Yes, with practice the Chaser LM can be used to start getting the
+     "good" prize cars.
+
+  74   mod car black[R]delSol (alias)
+
+November 11, 1999
+  74-79   black[R]delSol  USvsJP  1st40to33,19,16,9,8  ViperWblueSt(1/4)a
+                                   q2HR,SSR11,3 
+  80   Cr703,530
+  80   mod car normalRT/10 (alias)
+  80-83   normalRT/10  FR q6DF 1st27to18,12,19,5,4  yellowS13Silvia(1/6)a
+  84   Cr731,530
+  84   power off
+  84   mod car ViperGTS-R (alias) ViperWblueSt
+
+November 12, 1999
+  84-89   ViperGTS-R UKvsUS  sw45to25,20,17,13,5   purpleConceptCar(1/4)a
+  90   Cr816,530
+  90   mod car 560bhp[R]ConceptCar (alias) purpleConceptCar
+  90-91   560bhp[R]ConceptCar  All-nightI  q1st1st      redSilviaLM(1/2)a
+  92   Cr986,530
+  92   power off
+
+November 13, 1999
+  92-93   560bhp[R]ConceptCar  GV300  q1st1st      black/greenSupra(1/2)a
+  94   Cr1,306,530
+
+November 14, 1999
+  94-100  560bhp[R]ConceptCar  GTI sw54to34,26,18,12,6   hifi+  credits
+  101  Cr1,536,530
+  101  done
+  101  Cr1,536,530  2 purchased cars + 16 prizes = 18 cars
+@
+
+
+1.3
+log
+@Added comments.
+@
+text
+@d103 29
+@
+
+
+1.2
+log
+@Added Nov 9-10; Skyline for MegaSpeed, and other progress, including
+using ChaserLM to break into good cars.  Unfortunately winning a
+delSol, though.   8-(
+@
+text
+@d85 7
+d99 4
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d78 14
+@

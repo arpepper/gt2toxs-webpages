@@ -1,0 +1,178 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Mon Apr 12, 1999
+
+Better results at GV300
+
+Threads:
+  Grand Valley 300 Results
+  All-Night I Results
+  All-Night II Results
+  Prize Money
+  Race Results
+  Prize Car Information
+
+Thread: Grand Valley 300 Results
+
+Well, I practised a bit last week, and on the weekend won GV300 in
+Cerbera LM in 1-38.03.8  (N.B. Nick, me, and I think others, did not
+realize that "8 means 8/10ths of a second, not .008 seconds with leading
+zero problems  8-) ).  I'm not sure what went wrong on my first try.  I
+think there was a "rabbit" car (ie starting "too fast" and perhaps
+taking too many pit stops) the first time, which did not seem to be
+there the second time.  A GTO or RX7 or something, I think.
+
+I lapped all the other cars at least once.
+
+   q1st 1:4?.???not     Cr20,000
+
+   Results:
+
+   1st  [R]Cerbera LM         1-38:03.8<--
+   2nd  [R]NSX-R LM GT2        Running... (lapped)
+   3rd  [R]Castrol Supra GT    Running... (lapped)
+   4th  [R]Impreza Rally Ed    Running... (lapped)
+   5th  [R]Primera'90 2.0Te    Running... (lapped)
+   6th  [R]Lancer EvolV GSR    Running... (lapped)
+   
+   pits   11,24,36,48
+   fl  (27)  1:33.060
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+
+Thread: All-Night I Results
+
+I did Thirty Laps of Hell I, and won by cheating with the Concept Car.  8-)
+54:19.364; I lapped first three, and lapped last two twice, I believe.  My
+wife likes the "froggy green" Silvia.  8-)  (Apart from that, I seem to have
+won a lot of yellow cars recently; strange the apparent cycles).
+
+Thread: Prize Money
+
+q1st 1:54.187 (-2.293)  pp Cr20,000
+
+1 Concept Car         54:19.364
+2 Castrol Supra GT  }
+3 NSX-R LM GT2       } lapped
+4 Primera '90 2.0Te }
+5 Impreza RLY Edition} lapped twice
+6 Lancer EvolV GSR   }
+
+fl 20 1:44.063, pits 11, 21  (a big advantage)
+1st Cr150,000
+
+Thread: Special Model Information
+
+So I went back and won GV300 with the special Impreza, taking 1-40:24.9,
+which still won by 102.849, i.e. more than a lap (just).  I learned this
+time that if you wait long enough, all the cars *do* seem to report home
+eventually:
+
+1 Impreza RLY Edition   1-40:24.9<---
+2 NSX-R LM GT2           +102.849  (1-42:07.7)
+3 R32GT-R'91             +119.924  (1-42:24.8)
+4 Celica GT-FOUR         +330.667  (1-45:55.6)
+5 Lancer EvolV GSR       +357.438  (1-46:22.3)
+6 Lantis Type R          +466.386  (1-48:11.3)
+
+so I might have lapped the Lantis four times?  It sure did seem like a
+lot, but all three of the last six cars were white with splashy
+colours, making them difficult to tell apart.  This time I was fairly
+certain no-one ever passed me in the pits; something worth keeping track
+of.  The 2nd and 3rd place cars tried to stay unlapped.  That was sort
+of fun.   8-)  Especially since my lap times generally drop throughout
+the race.  Fastest lap was lap 2  8-)
+
+Pits in both GV300 races were 11,24,36,48  (11 by mistake both times!!!).
+
+Thread: All-Night II Results
+
+Don't ask me about SSR11 All-night II, raced with a Cerbera, though.  8-)
+
+1. Supra RZ             59:01.577
+2. FDRX7 Type RZ           +2.157
+3. NSX'93                  +8.957
+4. LANCER EvolIII GSR     +46.373
+5. R33GT-R Vspec          +56.516
+6. Cerbera               +193.182<---
+
+That gets you Cr 10,000.
+
+fl lap 20 1:56.223
+pits 9,16,23--won't quite manage 10 and 20
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d7 1
+d11 3
+d25 19
+d49 2
+d63 2
+d70 6
+a75 6
+1 Impreza RLY Edition   1-40:24.9
+2 NSX-R LM GT2           +102.849
+3 R32GT-R'91             +119.924
+4 Celica GT-FOUR         +330.667
+5 Lancer EvolV GSR       +357.438
+6 Lantis Type R          +466.386
+d86 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 6
+@

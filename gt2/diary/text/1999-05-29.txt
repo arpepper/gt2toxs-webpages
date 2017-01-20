@@ -1,0 +1,93 @@
+Saturday May 29, 1999
+
+I finally used "another" game to win the yellow Concept Car!
+
+Threads:
+  Prize Car Patterns
+
+I took a game saved at day 60 with test A1 to A7 done, but A8 not.
+
+   Day(s)           Car         Event                Prize Car
+   ------           ---         -----                ----- ---
+  60-64                 A-8 completed
+     purchased Silvia K's and won Sunday Cup and sold Demios
+     bought Griffith 500 ASAP, did non-permanent tune
+     won all open GTL events, and FR and all Spot Races
+     Then I race-modded it for the International Serieses.
+     From now on, I kept almost all prize cars from now on.
+            [R]Griffith 500    UKvsUS 45to22         purple ConceptCar
+            [R]Griffith 500    UKvsUS 45to23         purple ConceptCar
+
+[power down, start next day]
+
+            [R]Griffith 500    UKvsUS 45to26         green RX7
+
+   1 day                       IA-1 completed
+   3 days                      IA-3 completed
+   more than 10 days           IA-5 completed
+   1 day                       IA-7 completed
+
+            [R]Griffith 500    UKvsUS 45to22         green RX7
+            [R]Griffith 500    wash
+            [R]Griffith 500    UKvsUS sweep45to24    purple ConceptCar
+[N.B. previous wins were probably "sweep" too]
+            [R]Griffith 500    UKvsUS sweep45to25    purple ConceptCar
+[Note: now >Cr500,000]
+ 158-       [R]Griffith 500    UKvsJP sweep45to24    green Cerbera
+            [R]Griffith 500    wash
+            [R]Griffith 500    UKvsJP sweep45to30    black del Sol
+
+            ConceptCar         USvsJP sweep45to30    white/blue Viper
+            ConceptCar         wash
+            ConceptCar         USvsJP sweep45to30    white/blue Viper
+            RX7                USvsJP sweep45to28    white/blue Viper
+            Cerbera LM         Mega q6thTT, 27to18   purple Soarer
+
+[power down, start next day]
+
+            ConceptCar         USvsJP sweep45to30    white/blue Viper
+
+[buy and prepare [R]Viper GTS]
+
+            [R]Viper GTS       USvsJP sweep45to30    white/blue Viper
+            [R]Viper GTS       wash
+            [R]Viper GTS       USvsJP sweep45to30    white/blue Viper
+            [R]Viper GTS       Sunday sweep27to18    Demio
+            [R]Viper GTS       Clubman sweep27to18   Camaro
+            [R]Viper GTS       GT-Cup sweep36to22    Chaser LM
+            [R]Viper GTS       FR sweep27to18        dark(?) blue Sileighty
+            [R]Viper GTS       USvsJP sweep45to30    black FTO
+
+[buy GTO'95MR, tune but no weight reduction]
+
+            GTO'95MR           Sunday sweep27to18    Demio
+            GTO'95MR           Clubman sweep27to18(just) Camaro
+            GTO'95MR           GT-Cup q5DFRW,q5TM    ChaserLM
+            GTO'95MR           4WD sweep27to18       purple Lancer
+
+[race-mod [R]GTO'95MR ]
+
+            [R]GTO'95MR        USvsJP sweep45to30    black FTO
+
+  256-273                      IA-2 completed
+  274-282                      IA-4 completed
+  283-289                      IA-6 completed
+  290-304                      IA-8 completed
+
+[day 304 saved as A1]
+
+            ConceptCar         USvsJP sweep45to30    white/blue Viper
+            ConceptCar         wash
+            ConceptCar         USvsJP sweep45to30    white/blue Viper
+
+            [R]Viper GTS       GT-I q3DFRW3rdSSR113rd44to36
+            [R]Viper GTS       UKvsUS q2ndSSR5 45to24  green RX7
+            [R]Viper GTS       UKvsUS sweep45to24      purple ConceptCar
+            [R]Viper GTS       UKvsUS sweep45to26      yellow ConceptCar
+
+[day 341 saved as A2]
+
+            [R]Viper GTS       UKvsUS sweep45to24      yellow ConceptCar
+            [R]Viper GTS       Mega q6TT2nd24to21      yellow Soarer
+ 
+ 

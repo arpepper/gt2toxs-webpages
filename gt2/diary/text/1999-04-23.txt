@@ -1,0 +1,102 @@
+Fri Apr 23, 1999
+
+Turn it on, Wind it up, Blow it out, GTO!
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Special Model Information
+
+Well, I had thought that my ability might combine with the Mitsubishi
+special GTO LM Edition's poor power-to-weight ratio to allow me to
+fill in another box in the Grand Valley 300km Endurance Race prize
+money list.  Well, in that effort I was disappointed, but in return
+I was rewarded with a fun, pleasant, and mildly challenging race.
+
+Before racing I dropped the final drive slightly, and that seemed
+to help.  In addtion, I was gradually getting used to the seven
+speed gearbox which necessitates picking higher gears than one
+gets into the habit of.
+
+Anyway, here's the results...
+
+   silver GTO LM Edition
+   Grand Valley 300km Endurance Race
+
+   q1st(just) 1:44.416not        Cr20,000
+
+   Results:
+
+   1st  GTO LM Ed         1-41:54.6
+   2nd  GTO twinturbo       +16.777
+   3rd  IMPREZA RLY Ed     +100.404
+   4th  PRIMERA'90 2.0Te   +119.714
+   5th  EXIV 200GT         +249.467
+   6th  ACCORD Sedan       +422.834
+   
+   lap 1   1:45.792
+   pits   12,24,36,48
+   fl  (26)  1:36.843
+   slowest  non-pit   (60)  1:44.478
+            next      (46)  1:44.047
+   fastest pit laps   (36in)  1:55.961
+                      (49out) 1:44.436
+
+I did not lead the race until after the other GTO's first pitstop,
+which occurred after mine.  I think I had only one minor loss of
+control during the race.
+
+The race was quite exciting because nearly every time I pitted I lost
+the lead, but usually got it back in one or two laps because I had
+fresh tires whereas the "AI" GTO was by then always on very worn
+tires.  For simplicity, the AI cars do no calculations about their
+pitstops, but just pit in when their tires are too worn.  This gives
+you a big advantage, but you need the nerves to relinquish the lead (or
+the immediate chance at the lead), and the discipline to race fast
+against time on your fresh tires, so you can take the lead when the AI
+cars do pit.
+
+Note that my winning margin amounts to only slightly more than a
+quarter second a lap.
+
+I nearly lapped the Impreza, but let it go by on the last lap.
+
+Of course, I won Cr300,000 plus a black/green Castrol Supra GT.
+
+This field was back to being not so competitive.  I almost certainly
+would have placed the special NSX-R LM GT2 fourth in this field.
+Maybe even third.
+
+The next contender will be the special Nissan NISMO GT-R LM Edition,
+a nice racing version of the FR Skylines.  It seems middling competitive,
+nice to drive, although giving hints of rear-end breakaway.  In practice
+last night it won the UKvsJP series 45 to 22, and won a red del Sol.
+It seems sort of strange it did not win a green Cerbera, but I'm not
+positive that I have not raced this car in that series before.  The car
+seemed especially good at SSR5, perhaps because of its somewhat harsh
+settings, and would have set a fastest lap record had the RX-7 not
+copped it last night.
+
+Time trials at Grand Valley suggest this car will be controllable
+enough to do well in the Grand Valley 300.
+
+Thread: Gameplay Hints
+
+This morning I tried an experiment I've been meaning to do for a
+while.  I filled my garage with bargain basement Silvias, and then won
+the Sunday Cup to see what it would do about the prize car it might
+want to give me.  Well, it simply skips that screen entirely.  In other
+words, if you don't have room in your garage, you forfeit the prize
+car, with no announcement.
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

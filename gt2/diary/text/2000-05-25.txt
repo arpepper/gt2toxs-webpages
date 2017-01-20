@@ -1,0 +1,154 @@
+Thursday May 25, 2000
+
+Tired of Typing in Car Codes to Get Prize Cars?
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+Tired of Typing in Car Codes to Get Prize Cars?
+
+These GameShark Codes to let you see and buy all colours of all prize
+cars
+
+This code combines my discovery of the race prize-list with my
+old "view cars in Toyota New Car Lineup Page 1" code, (which I
+must also post here sometime).
+
+This code needs a <b>GS</b> which supports the <b>C2</b> "memory
+copy" code.  That is, as far as I can tell, a <b>GS</b> 3.00 or greater.
+I also rely on the <b>10</b> "add" code with a value of zero working as a
+no-operation.  (i.e. not changing anything).
+
+With these twelve lines you can get access to all the prize cars for
+purchase.  With the code active, simply enter any event (including
+license tests).  After that, if you go to the first page of the Toyota
+New Car Lineup, the first four cars should be the four prize cars
+from that event.  You can view the different colours, and purchase
+them (if you have enough money).
+
+If fewer than four prize cars are awarded for the event, then prize
+cars from earlier events will remain available.  Conversely, if you go
+to the Toyota New Car Lineup Page 1 before having entered an event
+which awards four prize cars, some or all of the changed cars will show
+a price of Cr0.  Do not view those cars.  :)  Doing so will not do
+anything useful, and will probably require resetting the game.
+
+Enjoy!
+
+<HTML INDENT>
+<HR>
+</HTML>
+
+
+Show Race Prizes at Toyota for NTSC 1.0
+(garage FB8, offset 0, tested, not double-checked)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+D01C322C D5D8 -- tests if we are on Toyota New Page 1
+C21D502C 0004 ---- if so, copies  car code from prize list
+101C3018 0000 ---- this has target address for copy, or is no-op
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C D5D8 -- same for second prize car
+C21D50D0 0004
+101C3064 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+
+D01C322C D5D8 -- same for third prize car
+C21D5174 0004
+101C30B0 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+
+D01C322C D5D8 -- same for fourth prize car
+C21D5218 0004
+101C30FC 0000
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<HR>
+</HTML>
+
+Show Race Prizes at Toyota for NTSC 1.1
+(garage 328, offset 370, tested, not double-checked)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- tests if we are on Toyota New Page 1
+C21D539C 0004 ---- if so, copies  car code from prize list
+101C30D8 0000 ---- this has target address for copy, or is  no-op
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- same for second prize car
+C21D5440 0004
+101C3124 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- same for third prize car
+C21D54E4 0004
+101C3170 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- same for fourth prize car
+C21D5588 0004
+101C31BC 0000
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<HR>
+</HTML>
+
+Show Race Prizes at Toyota for NTSC 1.2
+(garage 558, offset 5A0, tested, not double-checked)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- tests if we are on Toyota New Page 1
+C21D55CC 0004 ---- if so, copies car code from prize list
+101C3328 0000 ---- this has target address for copy, or is no-op
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- same for second prize car
+C21D5670 0004
+101C3374 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- same for third prize car
+C21D5714 0004
+101C33C0 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- same for fourth prize car
+C21D57B8 0004
+101C340C 0000
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

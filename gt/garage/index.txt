@@ -1,0 +1,97 @@
+  1 Toyota         MA70 SUPRA GT Turbo Limited           red mica
+  2 Mazda          Demio A spec                          (silver)
+  3 Toyota         CELICA GT-FOUR                        super red iv
+  4 Mitsubishi     ECLIPSE GT                            pasadena red
+  5 Mazda          Demio A spec                          (racing,white/red)
+  6 TVR            Cerbera                               raspberry metallic
+  7 TVR            Cerbera                               (racing,raspberry/grey)
+  8 Nissan         Sil Eighty                            (blue)
+  9 Mitsubishi     ECLIPSE GT                            (racing,red/white)
+ 10 Toyota         CELICA SS-II                          (green)
+ 11 Honda          CIVIC(Racer)                          championship white
+ 12 Subaru         LEGACY Touring Sedan RS               gray opal
+ 13 Subaru         LEGACY Touring Sedan RS               (racing,red/black)
+ 14 Nissan         S13 SILVIA Q's 1800cc                 (green)
+ 15 Mitsubishi     FTO GP version R                      passion red
+ 16 Mitsubishi     FTO GP version R                      (racing,white/blue)
+ 17 Honda          CIVIC(Racer)                          (yellow/black)
+ 18 Mitsubishi     LANCER EvolutionIV GSR                (purple)
+ 19 Chevrolet      Camaro Z28 30th Anniversary           (white/orange)
+ 20 Toyota         CHASER LM Edition                     (black)
+ 21 Nissan         R32SKYLINE '89 GT-R                   red pearl metallic
+ 22 Nissan         R32SKYLINE '89 GT-R                   (racing,red)
+ 23 Aston Martin   DB7 COUPE                             (orange-red)
+ 24 Dodge          VIPER GTS                             red
+ 25 Toyota         SOARER 2.5GT-T VVT-I                  (purple)
+ 26 TVR            Cerbera LM Edition                    (gray/green)
+ 27 Aston Martin   DB7 COUPE                             (white)
+ 28 Mazda          RX-7 A spec LM Edition                (green)
+ 29 Dodge          VIPER GTS-R                           (white/blue)
+ 30 Aston Martin   DB7 COUPE                             (purple)
+ 31 Subaru         IMPREZA WRX-Sti Type R                feather white
+ 32 Mitsubishi     GTO '95 MR                            pyrenees black
+ 33 Mitsubishi     GTO TWINTURBO                         passion red
+ 34 TVR            Griffith 4.0                          pearl gold
+ 35 TVR            Cerbera LM Edition                    (gray/green)
+ 36 Honda          del Sol LM Edition                    (red)
+ 37 Mitsubishi     FTO LM Edition                        (green)
+ 38 Honda          CIVIC(Racer)                          (pink/black)
+ 39 Toyota         MA70 SUPRA GT Turbo Limited           white pearl mica
+ 40 Subaru         ALCYONE SVX S4                        (blue)
+ 41 Toyota         CHASER LM Edition                     (black)
+ 42 Nissan         Sil Eighty                            (dark blue--purple?)
+ 43 Dodge          ConceptCar                            (purple)
+ 44 Subaru         ALCYONE SVX S4                        (white)
+ 45 Toyota         SUPRA RZ                              (dark orange metallic)
+ 46 TVR            Cerbera                               cooper green metallic
+ 47 Nissan         S13 SILVIA Q's 1800cc                 (dark red--brown?)
+ 48 Toyota         CELICA SS-II                          (yellow)
+ 49 Mazda          EUNOS ROADSTER                        (light blue--lavender?)
+ 50 Mazda          EUNOS ROADSTER                        (yellow)
+ 51 Nissan         R32SKYLINE '89 GT-R                   red pearl metallic
+ 52 Mitsubishi     FTO GP version R                      passion red
+ 53 Toyota         MA70 SUPRA GT Turbo Limited           red mica
+ 54 Toyota         SUPRA RZ                              (dark orange metallic)
+ 55 Mitsubishi     GTO TWINTURBO                         mariana blue
+ 56 Mitsubishi     LANCER EvolutionIV GSR                (green)
+ 57 Subaru         ALCYONE SVX S4                        (dark blue)
+ 58 Toyota         STARLET GLANZA V                      purplish blue mica metallic
+ 59 Toyota         STARLET GLANZA V                      purplish blue mica metallic
+ 60 Honda          del Sol LM Edition                    (black)
+ 61 Toyota         SUPRA RZ                              (light blue)
+ 62 Toyota         SUPRA RZ                              (racing,white/blue)
+ 63 Dodge          VIPER GTS                             (racing,red)
+ 64 Mazda          RX-7 A spec LM Edition                (blue--purple?)
+ 65 Dodge          VIPER GTS-R                           (white/blue)
+ 66 Dodge          ConceptCar                            (purple)
+ 67 Subaru         IMPREZA Sedan WRX-Sti version III     (yellow)
+ 68 Honda          NSX-R LM GT2                          (racing,red)
+ 69 Mazda          RX-7 LM Edition                       (racing,red)
+ 70 Mitsubishi     GTO LM Edition                        (racing,silver)
+ 71 Nissan         NISMO GT-R LM                         (racing,white/pink)
+ 72 Subaru         IMPREZA RALLY Edition                 (racing,blue)
+ 73 Toyota         CASTROL SUPRA GT                      (racing,white/green)
+ 74 Mitsubishi     LANCER EvolutionIV GSR                (yellow)
+ 75 Mitsubishi     GTO '95 MR                            (racing,green)
+ 76 Toyota         CASTROL SUPRA GT                      (racing,black/green)
+ 77 Toyota         SOARER 2.5GT-T VVT-I                  (yellow)
+ 78 Nissan         Sil Eighty                            (yellow)
+ 79 Toyota         CASTROL SUPRA GT                      (racing,black/blue)
+ 80 Nissan         S14 SILVIA LM Edition                 (ectoplasm green)
+ 81 Honda          CIVIC '93 3-DOOR Si                   milano red
+ 82 Honda          CIVIC '93 3-DOOR Si                   (racing,white/green/yellow/red)
+ 83 Honda          PRELUDE '94 VTEC                      cassis red pearl
+ 84 Honda          PRELUDE '94 VTEC                      (racing,white/blue)
+ 85 Honda          CIVIC CR-X '91 Si                     (yellow)
+ 86 Honda          CIVIC(Racer)                          (blue/black)
+ 87 Honda          CIVIC CR-X '91 Si                     (blue)
+ 88 Honda          CIVIC CR-X '91 Si                     (black)
+ 89 Toyota         CELICA SS-II                          (purple)
+ 90 Mazda          EUNOS ROADSTER                        (gold)
+ 91 Mitsubishi     GALANT VR-4                           palma red
+ 92 Mitsubishi     GTO '95 MR                            passion red
+ 93 Dodge          VIPER GTS-R                           (white/green)
+ 94 Nissan         NISMO GT-R LM                         (silver)
+ 95 Mitsubishi     FTO LM Edition                        (black)
+ 96 Toyota         AE86 SPRINTER TRUENO GT-APEX          (white/brown)
+ 97 Nissan         S14 SILVIA LM Edition                 (ectoplasm green)

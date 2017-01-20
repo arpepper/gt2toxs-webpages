@@ -1,0 +1,186 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.07.04.45.29;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.36.43;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed obsolete email address.
+@
+text
+@<HTML>
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Licenses - A-3</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Simulation - Licenses<BR>
+A-3
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+<I>Reposted with permission from the author
+<A HREF="mailto:schang@@astro.ocis.temple.edu">schang@@astro.ocis.temple.edu</A>,
+from the rec.games.video.sony
+newsgroup</I>
+<P>
+
+<PRE>
+I just spent much of this afternoon, and about 50 tries, getting
+past A-3.  Based on the demo, here were the "targets" I was shooting
+for:
+
+1) try to exit the first 's' curve in 4th, at 98-101 mph.
+2) I stayed in 4th until about 130 (there's a blue/white box on a pole
+on the right side of the track), and then go to 5th.  It also seemed
+to help (for the next turn) to stay middle or right on the straightaway.
+3) When entering the curve to the left that begins the hairpin,
+try to keep to the outside/left (guess that's kinda obvious).
+4) I tried to give myself about 1/2 sec or so between coming off
+the accelerator and slamming on the brake.  The demo did this and I
+think it allows the car to straighten out so it doesn't go all wobbly
+when you do slam that brake.
+5) Just a bit after you start braking, downshift and then start the
+turn to the right, downshift again.  I seemed to always take this turn in 
+two "steps", once in 3rd and another in 2nd, and it seemed helpful to
+never stray below 50 mph or so.
+6) Accelerate ASAP from 2nd in the inside lane to the end.
+
+For what seemed like forever, I kept getting 1/2 second or less away
+from passing, but eventually it happens.
+
+Hope this helps!  (I'm also getting some sense of closure by posting
+this -- it's like all that time was for more than just passing A-3).
+
+Steve
+</PRE>
+
+<P><BR>
+
+<I>Reposted with permission from the author
+<A HREF="mailto:lavind1@@us.ibm.com">Duane Laviniere</A>,
+from the rec.games.video.sony
+newsgroup</I>
+<P>
+
+<PRE>
+Forget about all the other stuff you posted.  The keys to this test are
+holding the throttle in all the way to the last turn.  You can go flat
+out through the S's without a problem.  Keep a straight track on the
+straight.  As you crest the back hill, release the gas, jam on the brake
+and slide the car sideways.  As soon as you are sideways, jam on the
+accelerator and if need be, lightly tap the brake (w/o letting off the
+gas) to keep from running into the dirt.
+
+[NOTE:  You will want to slide towards the inside part of the turn, not
+the outside.  Doing it on the ouside reduces the amount of track you
+have and always ends up in the dirt]
+
+You should exit the turn with about 37sec on the clock.  That should put
+you about .200 seconds under 44.  In other words, 43:800 or so.  THE CAR
+MUST SLIDE.  
+</PRE>
+<P><BR>
+
+And later he said:
+<P>
+
+<PRE>
+You have to hit the brakes as soon as you crest the hill.  You then
+steer to the inside of the turn and crank the steering wheel so that the
+car gets sideways.  Jump on the gas, and you should drift around the
+corner and pop out without having to brake, and with plenty of time to
+spare.  The drifting takes some time to get used to, especially how far
+sideways to get, and when to jump on the gas.  Also, remember to keep
+full throttle through the first s-turns, no need to brake there.
+</PRE>
+
+
+
+<P><BR>
+
+
+<I>Reposted with permission from the author
+<A HREF="mailto:jbernhard@@crmse.sdsu.edu">Jamal Bernhard</A>, 
+from the rec.games.video.sony
+newsgroup</I>
+<P>
+
+<PRE>
+For A3, I started braking a little sooner. I would tap the brake as I came
+over the hill BEFORE I started turning (so I wouldn't spin out). I found
+that this got me to the right speed so when I turned the wheel and hit the
+brakes a split second later, I could really bury the nose of the car right
+on the inside stripes, and get power back reasonably quickly to get up to
+speed. The key is not to slide too far to the outside of the turn. You
+need to get the momentum of the car going into the turn BEFORE you begin
+to slide, so when you recover you're already through much of the turn and
+can punch it.
+</PRE>
+
+
+
+<P><BR>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sat Apr  6 23:37:54 EST 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a1 1
+
+a3 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+d128 1
+a128 1
+Last modified: Mon Jun  1 15:38:58 EDT 1998
+d131 2
+a132 4
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+@

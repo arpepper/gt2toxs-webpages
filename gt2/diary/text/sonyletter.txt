@@ -1,0 +1,64 @@
+                                      Adrian Pepper
+                                      159 Elgin Crescent
+                                      Waterloo, Ontario, N2J 2S7
+                                      CANADA
+                                      (519)-888-4567x3086
+
+                                      Friday March 10, 2000
+
+SCEA
+Attn: Consumer Services
+P.O.Box 5888
+San Mateo, California  94402-0888
+United States of America
+
+Re: Software Defects in PlayStation game "Gran Turismo 2"
+
+To Whom it may concern:
+
+I initially purchased Gran Turismo 2 on December 16, 1999.  That version
+had a number of bugs.  Since it generally seemed a good product, and I
+had heard that newer versions had the bugs fixed, I actually purchased
+another copy on March 4, 2000, since that seemed more convenient than
+pursuing the warranty replacement I had heard about.
+
+It turned out, though, that even in my new copy of Gran Turismo 2 the
+second disk ("Simulation Mode") still has all the same bugs.
+
+A partial list of problems is:
+   inconsistent license requirements shown for "Muscle Car Cup"
+   "Normal" Event Generator title is mis-spelled as "Nomal"
+   "9th place" 400M Machine Test times can overwrite 1000M records
+   Maximum Speeds with a zero after the decimal place are shown incorrectly
+         e.g. 152.09mph will be shown as 152.9mph
+                 (both in the records and in top right corner)
+   sponsor trade mark "Castrol" is mis-spelled as "Castol"
+        on the Licenser Credits pages
+   "car wash" price is listed as Cr5,000 when in fact it costs Cr50
+
+And, the really serious one:
+   if you run the Maximum Speed Test enough times, your garage
+   full of cars will become corrupted, and quite likely deleted.
+
+If, after this occurs, the game is saved to a Sony memory card (such as
+the model SCPH 1020 I have at home), most of the save information
+remains intact, and reloads properly, but the garage comes back as empty,
+and some of the Machine Test records are also corrupted.
+
+I phoned Sony technical support at 1-800-745-7669, on or about Tuesday
+March 7, 2000, and they advised me that my problems qualify me for a
+free replacement under the warranty terms.  They advised me to return
+the disk to you, together with the a letter containing my name, address
+and phone number, together with the title of the game, and a
+description of the problem.  That is what I have done here--It
+took me a few days to organize letter and packaging.
+
+They said a replacement disk ("Gran Turismo 2--Simulation Disk") would be
+shipped to me by priority mail, and so I look forward to that happening.
+
+
+                                  Yours truly,
+
+
+ 
+                                  Adrian Pepper

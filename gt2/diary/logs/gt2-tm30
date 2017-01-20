@@ -1,0 +1,1198 @@
+ Legend:
+         Name1/Name2 -> usually means Series/Race
+         Stars ->  GT All-Stars Series
+            e.g. Stars/RedRock is Red Rock Valley Speedway race of that series
+         TM -> Trial Mountain course
+         TMI -> first event in "cup" at TM course
+         TMII -> second event in "cup" at TM (reverse course would be TMii)
+             etc...
+         Rally -> A rally course/series
+            e.g.  Rally/GFR-I is race one of Green Forest Raceway series
+         Easy,Norm,Hard,Expert -> Event Generator Events
+
+         80s -> 80's Sports Car Cup
+         Apricot200 -> Apricot Hill 200km Endurance Race
+         Autumn -> Autumn Ring (full)
+         DF -> Deep Forest (Racing Way)
+         DFRW -> Deep Forest Racing Way
+         Euro
+         FR -> FR Series, similarly for FF, MR
+         Fr -> French nationals
+         GFR -> Green Forest Raceway
+         GTW -> GT World Cup  (series)
+         Ger -> German nationals
+         Grind -> Grindevald/GrindelVald
+         Grindevald -> is mispelt, I think, you know what it means   8-)
+         GV300 -> Grand Valley 300km Endurance Race
+         Hist -> Historical Car Cup
+         It -> Italian nationals
+         Japan -> Japanese nationals
+         LwtK -> Lightweight "K" Series (whatever K means)
+         Mini -> can mean Mini special manufacturer's series
+         Name1/Name2 -> usually means Series/Race
+         Pacific
+         PikeDown -> Pike's Peak Hillclimb ("rally") downhill
+         PikeUp -> Pike's Peak Hillclimb ("rally") uphill
+         RedRock -> Red Rock Valley Speedway
+         Rome2hr -> "Millenium in Rome" 2hr Endurance Race
+         RomeL -> Rome long course
+         RomeN -> Rome Night course
+         RomeS -> Rome short course
+         SMS -> Smokey Mountain South
+         SMN -> Smokey Mountain Nouth
+         Speed12 ->  TVR Speed 12
+         Stars ->  GT All-Stars Series
+         SuperT -> Super Touring Car Cup
+         GrandT -> Grand Touring Car Cup
+         TM -> Trial Mountain course
+         Tah -> Tahiti Road course
+         TahR3 -> Tahiti Dirt Route 3
+         TahM -> Tahiti Maze
+         UK -> UK/British nationals
+         US -> US/American nationals
+
+         B1 -> B license test 1
+         A2 -> A license test 2
+         IC3 -> International C license test 3
+         IB4 -> International B license test 4
+         IA5 -> International A license test 5
+         S6 -> Super license test 6
+
+         K,B,S,G -> Kiddie,Bronze,Silver,Gold (as license test result)
+
+         Rmuff -> Racing muffler and exhaust
+         Smuff -> Sports muffler and exhaust
+         SRmuff -> Semi-Racing muffler and exhaust
+         Rtrans -> transmission "for professionals"
+         WR1 -> Weight Reduction 1 (etc)
+         WR0 -> No weight reduction was applied
+         TS1 -> Turbo Spec 1 (etc)
+         TS0 -> remove all turbo
+         3clu -> triple clutch
+         Rfw -> racing flywheel
+         Supra -> Supra('93) (I think)
+
+    In this game I wanted to see how well I could do by entering
+    as my first race the Trial Mountain 30, using my Cr10,000
+    car.  One thing I really wanted to be able to do was buy the
+    gold Toyota 2000GT'68 before it disappeared on day 10.
+
+    I started with the day 5 IB license game I saved to a handy
+    reference card.
+
+    Note that in that game I "merged records" from gt2-game1 day 381
+
+February 5, 2000
+   note: 4:25pm
+   1      license obtain B license
+   note: B6B(1),B7B(1),B8B(1),B4B(1),B5S(1),B1B(1),B2B(2),B3S(1),B9B(1),B10B(1)
+   note: not offers to save game, no "license acquired" screen
+   2      license obtain A license
+   note: A3B(1),A4B(1),A1B(1),A2B(1),A5B(1),A6B(1),A7B(2),A8B(1),A9B(2),A10B(1)
+   note: must have set new A10 top5; it noticed and offered to save game
+   note:  and gave "A license acquired" screen
+   note: 4:50pm
+   3      license obtain IC license
+   note: IC1B(3),IC2B(1),IC3B(1),IC4B(1),IC5B(1)
+   note: IC6B(1),IC7B(2),IC8B(1),IC9B(2),IC10B(1)
+   note: no announcement of license
+   4      license obtain IB license
+   note: IB1B(1),IB2B(1),IB3B(2),IB4B(2),IB5B(1)
+   note: IB6B(1),IB7B(1),IB8B(2),IB9B(2),IB10B(2)
+   note: set time, so got announcement and opportunity to save
+   note: 5:27pm
+
+   note: save as day5 IB (on same card as GT 9 day B)
+
+   5   power off
+
+February 5, 2000
+   5   buy car Supra'93   red mica Toyota Supra (turbo)'93
+   5   Cr5,775
+   5   mod car Supra'93 WR1 -> Cr4,575  TS1 -> Cr75
+   5   Cr75
+   5      Supra'93  TM30        1st  red/white[R]DensoSardSupraGT'99
+   6   Cr150,075
+
+   6   buy car gold2000GT'68                   gold Toyota 2000GT'68
+   6   Cr39,828   10:45pm
+   note: day1  GT4'88, gold2000GT'68, silverGT-R'71
+   6   buy car silverSkyline'71 silver Nissan Skyline GT-R'71(KPGC10)
+   6   Cr2,255   4 cars
+   6
+
+   6      license obtain IA license
+   note: IA1B(1),IA2B(1),IA3B(3),IA4B(1),IA5B(1)
+   note: IA6G(1),IA7B(1),IA8B(2),IA9B(2),IA10B(2)
+   note: did not get announcement or save opportunity
+
+   7   mod car [R]DensoSupra  (alias)
+   7      [R]DensoSupra SSR5All-night 1st red[R]LancerEvo-VIRallyCar
+   8   Cr352,255
+   8   mod car [R]DensoSupra  white/red OZ wheels
+
+   8   buy car whiteGT4'88  Super White ii Toyota Celica GT-Four'88
+   8   Cr342,637    6 cars
+   8      [R]DensoSupra  GT500  1st           white[R]TakataNSXGT'99
+                                     sw40to23,19,17,12,9
+   9   Cr792,637    7 cars
+
+   9   mod car whiteGT4'88  WR3 + max-tune (no perm engine mods)
+   9   Cr581,137
+   9      whiteGT4'88 4WD/SeattleS  1st  blackLegacyTouringWagonGT-B
+  10   Cr586,137    8 cars
+  10      [R]DensoSupra   Stars/Super   1st  whiteMine'sLancerEvol-V
+  11   Cr636,137    9 cars
+  11   mod car Mine'sEvoV   remaing parts, S/S, SS/SS
+
+   note: day10  silver2000GT'68, white2000GT\68, whiteRS-X'84, white360
+  11   buy car  silver2000GT'68 silver Toyota 2000GT'68
+  11   buy car  white2000GT'68 white Toyota 2000GT'68
+  11   buy car whiteSkyline'84 white Nissan Skyline Turbo RS-X (DR30)'84
+  11   Cr213,158
+  11   buy car  white360    beach white Subaru 360 ('69)
+  11   Cr206,162  13 cars
+
+  11      Mine'sEvoV   PureSports/TM   1st      burgundyTuscanSpeed6
+  12   Cr216,162  14 cars
+  12      [R]DensoSupra   Stars/RomeL   1st              blue[R]ZZII
+  13   Cr266,162  15 cars
+  13   power off
+
+February 06, 2000
+  13   mod car Mine'sEvoV   red/white Enkei rims
+  13   Cr264,162
+  13      Mine'sEvoV  Apricot200 1st whiteWgreenStripes[R]ViperGTS-R
+  14   Cr764,162  16 cars
+  14      Mine'sEvoV  4WD/Laguna 1st     whiteMine'sR32.5SkylineGT-R
+  15   Cr779,162  17 cars
+
+  15      blue[R]ZZII  GT300 sw40to24,21,18,10,7 [R]Wed'sCelicaGT'99
+  16   Cr954,162  18 cars
+
+  16      Mine'sEvoV  Turbo/DFRW   1st     whiteMine'sSkylineR33GT-R
+  17   Cr1,004,162  19 cars
+  17      Mine'sEvoV   Turbo/SSR5   1st    whiteMine'sSkylineR33GT-R
+  18   Cr1,054,162  20 cars
+
+  18   mod car  Speed6  WR3, all max parts, all perm power parts, S/S, SS/SS
+  18   Cr819,162
+  18      Speed6  UK/TMIII       1st                      none
+  19   Cr826,162
+  19      Speed6  GrandT/GV        1st   black[R]CastrolMugenNSXGT'98
+  20   Cr846,162  21 cars
+  20      Speed6  GrandT/Midfield  1st white/red[R]UnisiaJecsSkylineGT-RGT'99
+  21   Cr876,162  22 cars
+  21      Speed6  GrandT/RedRock   1st      gold[R]DajshinSilviaGT'99
+  22   Cr886,162  23 cars
+
+   note: day20 GrandPrixWhite240Z'71, Impreza22B'98, that's it
+  22   buy car Impreza22B 555 Sonic Blue Mica Subaru Impreza 22B STi Version'98
+  22   buy car  240Z'71   Grand Prix White Datsun 240Z 240Zg(HS30)'71
+  22   Cr813,253  25 cars
+  22   power off
+
+February 07, 2000
+  22      Speed6  GV300  1st            black[R]SubaruImprezaRallyCar(new)
+  23   Cr1,313,253  26 cars
+  23   power off
+
+February 08, 2000
+  23      whiteGT4'88  80s/SSR5     1st             greenMugenCRXpro3
+  24   Cr1,320,253
+  24      whiteGT4'88  80s/DFRW     1st         silverMugenCivicTypeR
+note: hmm...  field had two RX7'90's and a GT4'91 !!!!  80s???
+  25   Cr1,328,253
+  25      whiteGT4'88  80s/TM        1st        silverMugenCivicFerio
+  26   Cr1,335,253
+  26      whiteGT4'88  80s/SeattleL   1st        redMugenIntegraTypeR
+  27   Cr1,343,253
+  27      whiteGT4'88  80s/Tahiti 1st blue[R]SkylineSilhouetteFormula
+  28   Cr1,353,253    31 cars
+  28      whiteGT4'88  4WD/SeattleL 1st    redNismo400Rprecedingmodel
+  29   Cr1,359,253    32 cars
+  29   power off
+
+February 09, 2000
+February 10, 2000
+  29      whiteGT4'88  Japan/MidfieldIII    1st            none
+  30   Cr1,366,253
+  30      whiteGT4'88  Japan/MidfieldI      1st            none
+  31   Cr1,370,253
+  31      whiteGT4'88  Hist/Tahiti       1st       greenMugenCRXpro3(dup)
+  32   Cr1,377,253    33 cars
+  32      whiteGT4'88  Japan/MidfieldII     1st            none
+  33   Cr1,382,253
+
+   note: day30 GrandPrixMaroon240Z'71, whiteRS-X'84, redRS-X'84
+  33   buy car  240Z'71   Grand Prix White Datsun 240Z 240Zg(HS30)'71
+  33   buy car redSkyline'84 red Nissan Skyline Turbo RS-X (DR30)'84
+  33   -> Cr23,702, Cr7,123
+  33   Cr1,351,428    35 cars
+
+  33      whiteGT4'88   PureSports/Laguna   1st     redTom'sAngelT01
+  34   Cr1,358,428
+  34      whiteGT4'88   PureSports/DFRW     1st            blueZZIII
+  35   Cr1,366,428
+
+  35      Speed6  TunedNA/Autumn  1st   white/blackSpoonIntegraTypeR
+  36   Cr1,416,428
+  36      Speed6  TunedNA/Grind   1st   white/blackSpoonIntegraTypeR(dup)
+  37   Cr1,466,428
+  37      Speed6  TunedNA/Laguna  1st   white/blackSpoonIntegraTypeR(dup)
+  38   Cr1,516,428
+
+  38      Speed6  FR/SSR5       1st              blackNismo270R
+  39   Cr1,522,428
+  39      Speed6   SuperT/Apricot 1st           silverTRD3000GT
+  40   Cr1,537,428
+  40      Speed6  FR/Midfield       1st            blueRX-7GT-C
+  41   Cr1,544,428
+  41      Speed6   SuperT/TM    1st   CamaroZ28-30thAnniversary
+  42   Cr1,559,428
+  42      Speed6   SuperT/Laguna 1st  CamaroZ28-30thAnniversary(dup)
+  43   Cr1,574,428
+  43      Speed6   SuperT/DFRW  1st             whiteTom'sSupra
+  44   Cr1,589,428
+  44      Speed6   SuperT/RomeL  1st            whiteTom'sSupra(dup)
+  45   Cr1,604,428   47cars
+   note: day40 GrandPrixMaroon240Z'71  that's it?
+
+February 11, 2000
+  45   mod car Z28-30th  WR3,SS/SS,S/S,all parts, max-power, not all lesser
+  45   Cr1,392,728
+  45      Z28-30th   FR/Clubman    1st                 blueSilEighty
+  46   Cr1,397,728
+  46      Z28-30th   US/LagunaII   1st                     none
+  47   Cr1,402,728
+  47      Z28-30th   Muscle/SeattleS   1st    silverPlymouthPtSpyder
+  48   Cr1,409,728
+  48      Z28-30th   Muscle/SeattleL   1st          whiteCobra427'67
+  49   Cr1,417,728  50cars
+  49      Z28-30th   Muscle/Laguna   1st  silverChryslerPhaetonConcept
+  50   Cr1,417,728  51cars
+  50      Z28-30th   US/LagunaIII  1st                     none
+  51   Cr1,434,728  51cars
+  51   mod car PTSpyder   WR3,Rmuff,SS/SS,S/S
+  51   Cr1,361,728
+  51      PTSpyder   US/LagunaI    1st                     none
+  52   Cr1,365,728  51cars
+
+  52   sell car whiteTom'sSupra
+  52   sell car CamaroZ28-30thAnniversary
+  52   sell car white/blackSpoonIntegraTypeR
+  52   sell car white/blackSpoonIntegraTypeR
+  52   sell car greenMugenCRXpro3
+  52   Cr1,408,478  46cars
+
+  52      PTSpyder   Conv/Tahiti   1st            whiteMX5MiataAspec
+  53   Cr1,415,478
+  53      PTSpyder   Conv/Grind    1st    silverToyotaMR-SconceptCar
+  54   Cr1,423,478
+
+  54   buy car greenStarlet'82   Starlet 3 door Turbo S'82
+note: colour claims to be "Jetliner silver metallic" but is green  (Cr3,740)
+note: no turbo uprgrades available, only "NA tune",  hmm...
+note: day50 redRX-7'83, redSkyline'84, whiteSkyline'71
+  54   buy car redRX7'83  red Mazda RX-7 GT-turbo'83
+  54   buy car whiteSkyline'71 white Nissan Skyline GT-R'71(KPGC10)
+  54   (Cr5,387) (Cr34,653) Cr1,379,698 (?)
+
+  54   mod car Starlet'82  S/S,SS/SS,WR2
+  54      Starlet'82   LwtK/RomeS    1st             yellowMugenBeat(new)
+  55   Cr1,273,698
+  55      Starlet'82   LwtK/SeattleS  1st                 DemioAspec
+  56   Cr1,279,698
+  56      Starlet'82   LwtK/Tahiti    1st          blackMugenCRXpro2
+  57   Cr1,286,698    54cars
+
+  57   buy car redPunto   red Fiat Punto GT
+  57   mod car Punto   maxtune (perm)
+  57   Cr1,118,318
+
+  57      Punto  It/RomeS        1st                      none
+  58      Punto  FF/Tahiti       1st           whiteMugenAccordSir-T(new)
+  59   Cr1,127,318
+  59      Punto  It/RomeL        1st                      none
+  60   Cr1,132,318
+  60      Punto      Compact/RomeS  1st   DarkBlueMicaToyotaVitzF'99(new)
+  61   Cr1,136,318
+  61      Punto      Compact/SeattleS  1st  LazuliBlueRenaultClio16V(new)
+  62   Cr1,140,318
+  62      Punto      Compact/Autumn  1st           JazzBlueVWLupo1.4(new)
+  63   Cr1,144,318    59cars
+note: day60  whiteRX7'83, silverRX7'83, whiteRS-X'84
+  63   buy car whiteRX7'83  white Mazda RX-7 GT-turbo'83
+  63   buy car silverRX7'83  silver Mazda RX-7 GT-turbo'83
+  63   (Cr6,345) (Cr,5,805)
+  63   power off
+
+February 12, 2000
+  63      Punto  FF/Midfield  1st                    yellowTom'sT111
+  64   Cr1,138,168
+  64      Punto  FF/TM        1st               redMugenPreludeTypeS
+  65   Cr1,145,168
+  65      whiteGT4'88    Hist/RomeL   1st             redLotusEuropa
+note: no GT40 for that race...   8-)
+  66   Cr1,152,168
+  66   mod car Europa  max-tune, non-perm parts -> Cr904,468
+  66      Europa   UK/TMI        1st                      none
+  67   Cr908,468
+  67      Europa   UK/TMII       1st                      none
+  68   Cr913,468
+  68      Europa   MR/GVE        1st                  whiteTRD2000GT
+  69   Cr918,468
+  69      Europa   MR/HSR        1st                  whiteTom'sT020
+  70   Cr924,468   66cars
+note: day70  silverCelica'84, whiteRS-X'84
+  70   buy car silverCelica'84  silver two-tone Celica'84 -> (Cr5,844)
+  70   Cr918,624   67cars
+  70   power off
+  
+February 13, 2000
+  70   buy car redLaguna   Etruscan Red Renault Laguna V6
+  70   Cr886,074   68cars
+  70   mod car Laguna  SS/SS,S/S, a variety of power only
+  70   Cr827,374   68cars
+  70      Laguna   Fr/TahI         1st                     none
+  71   Cr831,374
+  71      Laguna   Fr/TahII        1st                     none
+  72   Cr836,374
+
+  72   buy car AudiS3    Casablanca White Audi S3
+  72   mod car AudiS3    SS/SS,S/S, variety of power only
+  72   Cr687,114   69 cars
+  72      AudiS3    Ger/DFI      1st                      none
+  73   Cr691,114
+  73      AudiS3    Ger/DFII     1st                      none
+  74   Cr696,114
+  74      AudiS3    Ger/DFIII    1st                      none
+note: 365/443bhp, running on max weight...
+  75   Cr703,114
+
+  75      Mine'sEvoV Pacific/Midfield 1st red/blue[R]Nissan300ZX-GTS
+  76   Cr713,114   70 cars
+  76      Mine'sEvoV Pacific/SeattleL 1st      green[R]RX7LMedition
+  77   Cr723,114   71 cars
+  77      Mine'sEvoV Pacific/Laguna   1st           [R]HKSDrag180SX
+  78   Cr733,114   72 cars
+
+  78      Speed6  Euro/Apricot   1st      white[R]CastrolSupraGT'96
+  79   Cr743,114   73 cars
+  79      Speed6  Euro/GV   1st           white[R]ZexelSkylineGT'97
+  80   Cr753,114   74 cars
+  80      Speed6  Euro/RomeL     1st  black[R]KureR33SkylineGT-R'97
+  81   Cr763,114   75 cars
+
+  81   mod car [R]ZexelSkyline'97   blue Ray's wheels
+  81   Cr761,114
+  81      [R]ZexelSkyline'97  GTW  sw40to26     blue[R]R390GT1LM'98
+                                   sw40to26,24,14,11,5
+  82   Cr1,036,114   76 cars
+
+note: day80  silverCelica'84, yellowRX-7'83, whiteRS-X'84
+  82   buy car yellowRX7'83  yellow Mazda RX-7 GT-turbo'83
+  82   Cr1,030,182   77 cars
+  82      license - obtain S license
+note: S1(Tahiti)(2),S2(SeattleL)(1),S3(SmokeyN)(2),S4(Midfield)(1),S5(Grind)(1)
+note: S6(RomeL)(3),S7(Laguna)(2),S8(TahitiM)(1G),S10(Apricot)(3),
+note: S10(RomeN)(Kin6,Bin9)
+
+  83      whiteGT4'88  Sunday/Tahiti     1st            none
+  84   Cr1,033,182
+  84      whiteGT4'88  Sunday/HSR        1st            none
+  85   Cr1,037,182
+  85      whiteGT4'88  Sunday/RedRock    1st            none
+  86   Cr1,042,182    77 cars
+
+  86      whiteGT4'88 Clubman/RomeS      1st      none
+  87   Cr1,047,182
+  87      whiteGT4'88 Clubman/Grindevald    1st      none
+  88   Cr1,053,182
+  88      whiteGT4'88 Clubman/RomeL       1st      none
+  89   Cr1,053,182
+
+  89      [R]DensoSupra   Stars/SSR5  1st  whiteMine'sSkylineR34GT-R
+  90   Cr1,053,182  78 cars
+note: day90 redGT4'88,redCelica'84,blueImpreza22B
+  90   buy car redCelica'84  red two-tone Celica'84 -> (Cr5,844)
+  90   Cr1,103,896  79 cars
+
+  90      [R]DensoSupra   Stars/RedRock  1st         burgundySpeed12
+  91   Cr1,153,896  80 cars
+  91      [R]ZexelSkyline'97 Stars/Laguna 1st  redR390GT1roadCar'97
+  92   Cr1,203,896  81 cars
+
+  92   mod car R390GT1   TS2,comp,S/S,SS/SS  -> Cr1,146,896
+
+  92      R390GT1    MR/RedRock       1st            blue[R]FordGT40
+  93   Cr1,161,896  82 cars
+  93   power off
+
+February 14, 2000
+  93      Z28-30th    Seattle100     1st            white[R]FordGT90
+  94   Cr1,311,896  83 cars
+  94   mod car R390GT1  +Rtrans only (still only 477bhp)
+  94   Cr1,300,986
+  94      R390GT1     Turbo/TT       1st                redNismo400R
+  95   Cr1,350,896  84 cars
+  95   power off
+
+February 15, 2000
+  95   mod car Cobra427'67  NA2,SRmuff,500bhp, SS/SS.S/S.Rtrans,LSD
+  95   Cr1,282,896
+  95      Cobra427'67  Conv/TM 1st silver[R]DodgeConceptCarLMedition
+  96   Cr1,297,896  85 cars
+  96      whiteGT4'88  Hist/Grind    1st             redCelicaXYR'99
+  97   Cr1,305,896  86 cars                     SuperRedV
+  97   mod car LegacyWG   SS/SS *only*!
+  97   Cr1,287,896
+  97      LegacyWG WG/RomeS  1st PureWhiteImprezaWagonWRXSTiVersionV(new)
+  98   Cr1,292,896  87 cars                     SuperRedV
+  98      LegacyWG WG/SSR5  1st lightningYellowStagea260RSNismoWagon
+  99   Cr1,299,896  88 cars   real close 8-), thanks, AI guys  8-)
+  99      LegacyWG WG/Super  1st   premiumWhitePearlMugenAccordWagon
+ 100   Cr1,305,896  89 cars
+note: day100  redGT4'88, redRX-7'83, silverRS-X'84, redRS-X'84
+ 100   buy car silverSkyline'84 silver Nissan Skyline Turbo RS-X (DR30)'84
+ 100   Cr1,296,352  (9,544) 90 cars
+ 100   power off
+ 
+February 16, 2000
+February 17, 2000
+ 100   buy car AMGE55  silver Mercedes-Benz AMG E 55
+ 100   Cr1,143,352
+ 100   mod car AMGE55  SS/SS only
+ 100   Cr1,125,352
+ 100      AMGE55 Luxury/RomeL 1st nighthawkBlackPearlHondaAccordTypeR
+ 101   Cr1,130,352
+ 101      AMGE55 Luxury/SSR5 1st superWhiteiiToyotaChaserTRDSportsX30
+ 102   Cr1,136,352    93 cars
+ 102   mod car AMGE55   Rmuff,comp,NA2 -> 474bhp
+ 102   Cr1,115,852
+ 102      AMGE55 Luxury/HSR  1st                yellowNismoGT-R4door
+ 103   Cr1,125,852    94 cars
+ 103      [R]ZexelSkyline'97  Laguna200  1st       [R]CelicaRallyCar
+ 104   Cr1,475,852    95 cars
+ 104   power off
+
+February 18, 2000
+ 104   mod car  [R]300ZX-GTS  (alias red/blue[R]Nissan300ZX-GTS)
+ 104      [R]300ZX-GTS   Rome2hr   1st   Toyota[R]CorollaRallyCar'97
+ 105   Cr1,775,852    96 cars
+ 105   mod car [R]CelicaRly  (alias Toyota[R]CorollaRallyCar'97)
+
+ 105      [R]CelicaRly  Rally/SMN-I    1st               none
+ 106      [R]CelicaRly  Rally/SMN-II   1st               none
+ 107      [R]CelicaRly  Rally/SMN-III  1st               none
+ 108   Cr1,798,852
+
+ 108      [R]CelicaRly  Rally/SMS-I    1st               none
+ 109      [R]CelicaRly  Rally/SMS-II   1st               none
+ 110      [R]CelicaRly  Rally/SMS-III  1st               none
+ 111   Cr1,821,852
+
+ 111      [R]CelicaRly  Rally/GFR-I    1st               none
+ 112      [R]CelicaRly  Rally/GFR-II   1st               none
+ 113      [R]CelicaRly  Rally/GFR-III  1st               none
+ 114   Cr1,844,852
+
+ 114      [R]CelicaRly  PikeUpI    1st  2:10.293         none
+ 115   Cr1,849,852    96 cars
+note: day110  redGT4'88,medium gray metallic GT4'88,silverRS-X'84
+ 115   power off
+
+February 19, 2000
+ 115      [R]CelicaRly  Rally/TahR3-I    1st             none
+ 116      [R]CelicaRly  Rally/TahR3-II   1st             none
+ 117      [R]CelicaRly  Rally/TahR3-III  1st             none
+ 118   Cr1,872,852    96 cars
+
+ 118      [R]CelicaRly  Rally/TahM-I    1st             none
+ 119      [R]CelicaRly  Rally/TahM-II   1st             none
+ 120      [R]CelicaRly  Rally/TahM-III  1st             none
+ 121   Cr1,897,852
+
+ 121      [R]CelicaRly  Rally/SMNiiI   1st               none
+ 122      [R]CelicaRly  Rally/SMNiiII  1st               none
+ 123      [R]CelicaRly  Rally/SMNiiIII 1st               none
+ 124   Cr1,920,852
+note: day120  whiteRS-X'84,LemonYellowSubaru360
+ 124   buy car yellow360  Lemon Yellow Subaru 360 ('69) -> (Cr6,970)
+ 124   Cr1,913,882  97 cars
+ 124   sell car  whiteMine'sSkylineR33GT-R
+ 124   Cr1,932,632  96 cars
+
+ 124      [R]CelicaRly  Rally/TahR3iiI    1st             none
+ 125      [R]CelicaRly  Rally/TahR3iiII   1st             none
+ 126      [R]CelicaRly  Rally/TahR3iiIII  1st             none
+ 127   Cr1,952,632
+
+ 127      [R]CelicaRly  PikeDownI    won  2:06.908(clean)  none
+ 128      [R]CelicaRly  PikeDownII   1st  2:06.861(clean)  none
+ 129      [R]CelicaRly  PikeDownIII  1st  2:03.418(clean)  none
+ 130   Cr1,975,632
+
+ 130   sell car burgundySpeed12
+ 130   Cr2,475,632  95 cars
+ 130   buy car [R]EscudoPPV   red [R]Suzuki Escudo Pike's Peak Version
+ 130   Cr475,632  96 cars
+
+ 130      [R]EscudoPPV  PikeUpII   won  1:50.069(just)     none
+ 131      [R]EscudoPPV  PikeUpIII  won  1:48.502(okay)     none
+ 132   Cr525,632  96 cars
+note: day 130 redCelica'84,LemonYellow360
+
+ 132   mod car Speed6   gold/white OZ wheels
+ 132   Cr523,632
+
+ 132      Speed6   Tuscan/Autumnii   1st                  none
+ 133   Cr530,632
+ 133      [R]CelicaRly  [R]Celica/Clubmanii   1st         none
+ 134   Cr537,632
+ 134      whiteGT4'88   Celica/Midfieldii     1st         none
+ 135   Cr542,632
+ 135      Starlet'82   Starlet/HSRii          1st         none
+ 136   Cr545,632
+ 136      Impreza22B   Impreza/Tahiti         1st         none
+ 137   Cr555,632
+
+ 137   mod car [R]ViperGTS-R  (alias whiteWgreenStripes[R]ViperGTS-R)
+ 137      [R]ViperGTS-R  [R]Viper/SeattleLii  1st         none
+ 138   Cr565,632
+ 138      [R]ZexelSkyline'97  [R]GT-R/TM      1st         none
+ 139   Cr575,632
+ 139      blueRX-7GT-C   RX7/GVE              1st         none
+ 140   Cr585,632
+
+ 140   mod car  [R]DaisinSilvia  (alias gold[R]DajshinSilviaGT'99)
+ 140      [R]DaisinSilvia    [R]Silvia/Grind  1st         none
+ 141   Cr592,632
+ 141      DemioAspec     Demio/HSR            1st         none
+ 142   Cr595,632
+
+ 142   mod car SpoonIntegra (alias white/blackSpoonIntegraTypeR) SS/SS only
+ 142   Cr577,632
+ 142      SpoonIntegra   TypeR/Clubmanii      1st         none
+ 143   Cr584,632
+
+ 143   mod car MugenBeat  (alias  yellowMugenBeat)  SS/SS, TS1 only
+ 143   Cr561,632
+ 143      yellowMugenBeat  Beat/SeattleSii    1st         none
+ 144   Cr564,632
+
+ 144   mod car MugenCivic  (alias  silverMugenCivicTypeR)  SS/SS, TS1 only
+ 144   Cr541,632
+ 144      silverMugenCivicTypeR  Civic/SeattleL   1st     none
+ 145   Cr546,632
+
+note: day 140 medgmetGT4'88,silverCelica'84,blackRX-7'83
+ 145   buy car  blackRX-7'83 black Mazda RX-7 GT-turbo'83
+ 145   Cr540,903   97 cars
+ 145   power off
+
+February 20, 2000
+ 145   buy car Midget  red Diahatsu Midget II D-type -> (Cr5,940)
+ 145   Cr534,963
+ 145   mod car Midget  SS/SS, TS1
+ 145   Cr513,963
+ 145      Midget   Midget/Autumnii            1st         none
+ 146   Cr516,963
+ 146   sell car red Diahatsu Midget II D-type
+ 146   Cr518,448
+
+ 146   buy car MiraTX  Maple Red Mica Metallic Diahatsu Mira TX'98 4WD -> (Cr9,720)
+ 146   Cr508,728
+ 146   mod car MiraTX  SS/SS, TS1  ->  Cr487,728
+ 146      MiraTX   Mira/Super                 1st         none
+ 147   Cr490,728
+ 147   mod car [R]MiraTX  (needs WR3 as well) -> Cr384,728
+ 147      [R]MiraTX   [R]Mira/Clubman         1st         none
+ 148   Cr389,728
+ 148   sell car Maple Red Mica Metallic Diahatsu Mira TX'98 4WD
+ 148   Cr392,158
+
+ 148   buy car StoriaX4  Pure White Daihatsu Storia X4'98 -> (Cr13,900)
+ 148   Cr378,258
+ 148   mod car StoriaX4  SS/SS, TS1, WR3  ->  Cr327,058
+ 148      StoriaX4   Storia/GVEii                 1st         none
+ 149   Cr330,058
+ 149   mod car [R]StoriaX4  -> Cr384,058
+ 149      [R]StoriaX4   [R]Storia/RomeL           1st         none
+ 150   Cr253,058
+note: day 150  silverRS-X'84
+ 150   power off
+
+February 21, 2000
+ 150   sell car Pure White Daihatsu Storia X4'98
+ 150   buy  car SVXS4'95  Light Silver Metallic Subaru SVX S4'95 -> (Cr21,478)
+ 150   Cr235,055
+ 150   mod car SVXS4'95  WR3, SS/SS, NA1
+ 150   Cr179,555
+ 150      SVXS4'95       Alcyone/DFRW             1st         none
+ 151   Cr186,555
+ 151   mod car [R]SVXS4'95
+ 151   Cr101,555
+ 151      [R]SVXS4'95    [R]Alcyone/TM            1st         none
+ 152   Cr111,555
+ 152   sell car Light Silver Metallic Subaru SVX S4'95
+ 152   Cr116,780
+ 152      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 153   Cr166,780   Cr666,780
+
+ 153   buy car redCivic3dr'95    Milan Red Honda Civic 3 door'95 -> (Cr11,771)
+ 153   Cr655,009
+ 153   mod car [R]Civic3dr'95   SS/SS,TS2(?),WR3
+ 153   Cr521,809
+ 153      [R]Civic3dr'95    [R]Civic/DFRW         1st          none
+ 154   Cr528,809   98 cars, 65.47%
+ 154   sell car Milan Red Honda Civic 3 door'95
+ 154   Cr531,709   97 cars
+
+ 154   buy car  NSXtypeSzero   Grand Prix Red Acura NSX Type S Zero'97 -> (Cr98,570)
+ 154   Cr433,139
+ 154   mod car NSXtypeSzero   NA2, SS/SS
+ 154   Cr401,639
+ 154      NSXtypeSzero   NSX/Apricotii            1st          none
+ 155   Cr411,639
+ 155   sell car  Grand Prix Red Acura NSX Type S Zero'97 -> (Cr24,642)
+ 155   Cr436,261
+
+ 155   buy car S2000   New Formula Red Honda S2000'99 -> (Cr33,800)
+ 155   mod car S2000   WR3,SS/SS,NA2
+ 155   Cr338,481
+ 155      S2000              S2000/RomeN          1st          none
+ 156   Cr345,481
+ 156   mod car [R]S2000
+ 156   Cr260,481
+ 156      [R]S2000        [R]S2000/RomeSii        1st          none
+ 157   Cr270,481
+ 157   sell car New Formula Red Honda S2000'99
+ 157   Cr278,931
+
+ 157   buy car  MX5Aspec white Mazdaspeed MX-5 Miata Aspec(trade)
+ 157   Cr250,931
+ 157   mod car  MX5Aspec   WR3,SS/SS,NA2
+ 157   Cr186,931
+ 157      MX5Aspec      Roadster/GVii             1st          none
+ 158   Cr189,931
+note: cannot [R] this car 8-(
+ 158   sell car white Mazdaspeed MX-5 Miata Aspec(trade) -> 8-(
+ 158   buy car redMX5'98   Classic Red Mazda MX-5 Miata 1.8 RS'98
+ 158   Cr173,981
+ 158   mod car [R]MX5'98   WR3,SS/SS,NA2
+ 158   Cr32,781
+ 158      [R]MX5'98   [R]Roadster/SeattleSii      1st          none
+ 159   Cr37,781
+ 159      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 160   Cr87,781   Cr587,781
+ 160   sell car Classic Red Mazda MX-5 Miata 1.8 RS'98
+ 160   Cr593,518   97 cars    67.71%
+note:  day 160  redCelica'84,redRS-X'84, silverRS-X'84, gpwhite240Z'71
+ 160   power off
+
+February 22, 2000
+ 160   buy car DemioAspec   MazdaSpeed Demio A-spec(trade)
+ 160   Cr578,518
+ 160   mod car [R]DemioAspec   WR3,SS/SS,TS2
+ 160   Cr436,318
+ 160      [R]DemioAspec [R]Demio/SeattleSii       1st          none
+ 161   sell car MazdaSpeed Demio A-spec(trade) -> (Cr3,750)
+ 161   Cr445,068
+
+ 161   buy car AstiRXR   Roanne Red Pearl Mitsubishi Mirage Asti RX-R'98 -> (Cr17,980)
+ 161   Cr427,088
+ 161   mod car AstiRXR   WR3,SS/SS,NA2
+ 161   Cr367,888
+ 161      AstiRXR        Mirage/RomeSii           1st          none
+ 162   Cr372,888
+ 162   mod car [R]AstiRXR  (alias AstiRXR)
+ 162   Cr290,888
+ 162      [R]AstiRXR     [R]Mirage/Autumn         1st          none
+ 163   Cr297,888
+ 163   sell car Roanne Red Pearl Mitsubishi Mirage Asti RX-R'98
+ 163   Cr302,888
+
+ 163   buy car EvoIIIGSR'95   Dandelion Yellow Mitsubishi Lancer Evolution III GSR'95 -> (Cr19,249)
+ 163   Cr283,134
+ 163   mod car EvoIIIGSR'95   SS/SS,TS2
+ 163   Cr252,134
+ 163      EvoIIIGSR'95   Evolution/Laguna         1st          none
+ 164   Cr262,134
+ 164   sell car Dandelion Yellow Mitsubishi Lancer Evolution III GSR'95 -> (Cr4,625)
+ 164   Cr266,759
+
+ 164   buy car SilviaK's'88   Warm White Two-Tone Nissan Silvia K's'88 -> (Cr3,780)
+ 164   Cr262,979
+ 164   mod car SilviaK's'88   SS/SS,TS2
+ 164   Cr231,979
+ 164      SilviaK's'88   Silvia/RomeNii           1st          none
+ 165   Cr236,979     98 cars 69.95%
+ 165   sell car Warm White Two-Tone Nissan Silvia K's'88
+ 165   Cr238,054
+
+ 165   mod car Mine'sR32.5GT-R (alias whiteMine'sR32.5SkylineGT-R) keep stock
+ 165      Mine'sR32.5GT-R   GT-R/HSRii            1st          none
+ 166   Cr245,054     97 cars
+ 166   power off
+
+February 23, 2000
+February 24, 2000
+ 166   buy car PulsarGTi-R'91   Super Black Nissan Pulsar GTi-R'91 -> (Cr7,528)
+ 166   Cr237,526
+ 166   mod car PulsarGTi-R'91  SS/SS only
+note: lost at Tahiti completely stock   8-(
+ 166      PulsarGTi-R'91     Pulsar/HSRii         1st          none
+ 167   Cr223,026
+ 167   sell car Super Black Nissan Pulsar GTi-R'91 -> (Cr7,528)
+ 167   Cr224,926
+
+ 167   buy car  R34-2.5GT'98   Active Red Nissan R34 Skyline GT-turbo'98 -> (Cr29,130)
+ 167   Cr195,796
+ 167   mod car  R34-2.5GT'98   SS/SS TS1
+ 167   Cr172,796
+ 167      R34-2.5GT'98        R34/SSR5ii          1st          none
+ 168   Cr182,726
+ 168   sell car  Active Red Nissan R34 Skyline GT-turbo'98 -> (Cr7,282)
+ 168   Cr190,078    97 cars    71.30%
+
+
+ 168   buy car  March'89   Active Green Nissan March Super Turbo '89  -> (Cr3,337)
+ 168   Cr195,796
+ 168   mod car  March'89   WR3,SS/SS,TS1
+ 168   Cr139,796
+ 168      March'89           March/RomeSii        1st          none
+ 169   Cr142,796
+ 169   mod car  [R]March'89
+ 169      [R]March'89        [R]March/SSR5        1st          none
+ 170   Cr67,741
+
+note: day 170  gold2000GT'68, MediumGrayMetallicGT4'88 (that's about it...)
+
+ 170   buy car  Capcino'95  Antes Red Suzuki Cappuccino'95
+ 170   Cr55,415    99 cars
+ 170   sell car  Active Green Nissan March Super Turbo '89 -> (Cr825)
+ 170   Cr56,240    98 cars
+
+ 170   buy car  AZ-1'91  Classic Red Mazda AZ-1'91 -> (Cr8,198)
+ 170   Cr48,042    99 cars   72.19%
+ 170   mod car AZ-1'91   SS/SS, TS2
+ 170   Cr17,042
+ 170      AZ-1'91           AZ-1/HSR              1st          none
+ 171   Cr20,042    99 cars
+ 171   sell car  Classic Red Mazda AZ-1'91 -> (Cr2,025)
+ 171   Cr22,067    98 cars    72.64%
+ 171      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 172   Cr72,067   Cr572,067    98 cars
+
+ 172   mod car Capcino'95   WR3,SS/SS,TS2
+ 172   Cr516,567
+ 172      Capcino'95        Capcino/SSR5ii        1st          none
+ 173   Cr519,567
+ 173   mod car [R]Capcino'95
+ 173   Cr439,567
+ 173      [R]Capcino'95     [R]Capcino/SeattleLii    1st       none
+ 174   Cr444,567
+ 174   sell car  Antes Red Suzuki Cappuccino'95
+ 174   Cr447,592   97 cars   73.54%
+ 174   power off
+
+February 25, 2000
+ 174   buy car Alto'90   Cordoba Red Suzuki Alto Works RS/X'90 -> (Cr3,461)
+ 174   Cr444,131   98 cars
+ 174   mod car   Alto'90   WR3,SS/SS,TS2
+ 174   Cr388,631
+ 174      Alto'90   Alto/RedRockii                1st          none
+ 175   Cr391,631
+ 175   mod car [R]Alto'90
+ 175      [R]Alto'90   [R]Alto/GVE                1st          none
+ 176   Cr316,631    98 cars    74.43%
+ 176   sell car    Cordoba Red Suzuki Alto Works RS/X'90  -> (Cr900)
+ 176   Cr317,531
+
+ 176   buy car ZZ-S   Red Tommy Kaira ZZ-S -> (Cr59,500)
+ 176   Cr258,031
+ 176   mod car  ZZ-S  WR3,SS/SS,TS2
+ 176   Cr197,831
+ 176      ZZ-S      ZZ-S/Super                    1st          none
+ 177   Cr204,831
+ 177   mod car [R]ZZ-S
+ 177   Cr122,831
+ 177      [R]ZZ-S   [R]ZZ-S/Autumn                1st          none
+ 178   Cr132,831    98 cars    75.33%
+ 178   sell car Red Tommy Kaira ZZ-S -> (Cr14,875)
+ 178   Cr147,706
+
+ 178   buy car MR-S'99  Super Red Toyota MR-S S edition'99 -> (Cr19,800)
+ 178   Cr127,906
+ 178   mod car  MR-S'99  SS/SS,TS2
+ 178   Cr96,906
+ 178      MR-S'99   MR-S/RomeL                    1st          none
+ 179   Cr99,906
+ 179   sell car Super Red Toyota MR-S S edition'99
+ 179   Cr104,856
+
+ 179   buy car Altezza'98   Red Mica Metallic Toyota Altezza RS 200'98 -> (Cr24,000)
+ 179   Cr80,856
+ 179   mod car  Altezza'98  WR3,SS/SS,TS2
+ 179   Cr20,656
+ 179      Altezza'98  Altezza/Midfieldii          1st          none
+ 180   Cr25,656
+note: day 180  no historical cars (except Truenos, Levins, and Starlets)
+ 180      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 181   Cr75,656  Cr575,656   98cars   76.23%
+ 181   mod car [R]Altezza'98
+ 181   Cr493,656
+ 181      [R]Altezza'98  [R]Altezza/Tahiti        1st          none
+ 182   Cr500,656
+ 182   mod car  VitzF (alias DarkBlueMicaToyotaVitzF'99) TS2,WR3,SS/SS
+ 182   Cr445,156
+ 182      VitzF    VitzF/Laguna                   1st          none
+ 183   Cr448,156
+ 183   sell car Red Mica Metallic Toyota Altezza RS 200'98 -> (Cr6,000)
+ 183   Cr454,156
+ 183   buy car  VitzF DarkBlueMicaToyotaVitzF'99(trade) -> (Cr64,780)
+ 183   Cr389,376   98cars  77.13%
+ 183   mod car [R]VitzF
+ 183   Cr309,376
+ 183      [R]VitzF  [R]Vitz/GVE                   1st          none
+ 184   Cr314,376
+ 184   sell car  DarkBlueMicaToyotaVitzF'99(trade) -> (Cr2,320)
+ 184   Cr316,696     97 cars  77.57%
+
+ 184   buy car DB7Coupe   Sutherland Red Aston-Martin DB7 Coupe -> (Cr173,000)
+ 184   Cr143,696
+ 184   mod car DB7Coupe   WR3,TS2,SS/SS  -> Cr78,696
+ 184      DB7Coupe    DB7/Clubman                 1st          none
+ 185   Cr85,696
+ 185   mod car [R]DB7Coupe
+ 185   Cr696
+ 185      [R]DB7Coupe  [R]DB7/DFRW                1st          none
+ 186   Cr10,696     (2 losses at SeattleSi+ii,   8-(  )
+ 186   sell car Sutherland Red Aston-Martin DB7 Coupe -> (Cr43,250)
+ 186   Cr53,946
+
+ 186      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 187   Cr103,946   Cr603,946   97cars   78.47%
+
+ 187   buy car AudiTT   Amulet Red Audi Quattro 1.8T TT -> (Cr46,580)
+ 187   Cr557,366
+ 187   mod car AudiTT   WR3,TS2,SS/SS
+ 187   Cr492,366
+ 187      AudiTT     TT/Autumn                  1st          none
+ 188   Cr499,366
+ 188   mod car [R]AudiTT
+ 188   Cr414,366
+ 188      [R]AudiTT  [R]TT/GVii                 1st          none
+ 189   Cr424,366
+ 189   sell car Amulet Red Audi Quattro 1.8T TT -> (Cr11,645)
+ 189   Cr436,011
+
+ 189   buy car BMW323ti   Hellrot BMW 323ti Compact -> (Cr52,890)
+ 189   Cr383,121
+ 189   mod car BMW323ti   NA2,SS/SS
+ 189      BMW323ti     BMW/Clubman              1st          none
+ 190   Cr358,621   98 cars  79,82%
+note: day190  red2000GT'68,silverCelica'84,mgmGT4'88,silverRX-7'83
+ 190   power off
+
+February 26, 2000
+February 27, 2000
+ 190   sell car Hellrot BMW 323ti Compact -> (Cr13,222)
+ 190   Cr371,843
+
+ 190   buy car Elise190   Calypso Red Lotus Elise 190 -> (Cr58,530)
+ 190   Cr313,313
+ 190   mod car Elise190  WR3,SS/SS,LSD,TS1,SRmuff
+ 190   Cr247,813
+ 190      Elise190   Elise/Clubmanii            1st          none
+ 191   Cr254,813
+ 191   mod car [R]Elise190 +computer
+ 191      [R]Elise190     [R]Elise/Tahiti-ii    1st          none
+ 192   Cr177,813
+ 192   sell car Calypso Red Lotus Elise 190 -> (Cr14,632)
+ 192   Cr192,445
+
+ 192   buy car Elan'71    Red two-tone Lotus Elan S4'71 -> (Cr37,800)
+ 192   Cr154,645
+ 192   mod car Elan'71   WR3,SS/SS,NA2
+ 192   Cr90,645
+ 192      Elan'71    Elan/SeattleL              1st          none
+ 193   Cr95,645
+ 193   mod car [R]Elan'71
+ 193   Cr10,645
+ 193      [R]Elan'71      [R]Elan/SeattleSii    1st          none
+ 194   Cr17,645
+ 194   sell car Red two-tone Lotus Elan S4'71 -> (Cr9,450)
+ 194   Cr27,095    97 cars    81.61%
+
+ 194      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 195   Cr77,095  Cr577,095
+
+ 195   buy car SLK230  Magma Red Mercedes-Benz SLK 230 Kompressor -> (Cr55,380)
+ 195   Cr521,785
+ 195   mod car SLK230   WR3,SS/SS,TS2
+ 195   Cr461,585
+ 195      SLK230      SLK/Laguna                1st          none
+ 196   Cr466,585
+ 196   mod car [R]SLK230
+ 196   Cr384,585
+ 196      [R]SLK230        [R]SLK/RomeN         1st          none
+ 197   Cr391,585
+ 197   sell car Magma Red Mercedes-Benz SLK 230 Kompressor -> (Cr13,827)
+ 197   Cr405,412
+
+ 197   buy car MiniCooper  Flame Red Solid Mini Cooper 1.3i -> (Cr16,830)
+ 197   Cr388,582
+ 197   mod car MiniCooper   WR3,SS/SS,TS2
+ 197   Cr328,382
+ 197      MiniCooper  Mini/Tahiti               1st          none
+ 198   Cr331,382
+ 198   mod car [R]MiniCooper
+ 198   Cr249,382
+ 198      [R]MiniCooper    [R]Mini/Tahiti-ii    1st          none
+ 199   Cr254,382    98 cars   83.40%
+ 199   sell car Flame Red Solid Mini Cooper 1.3i -> (Cr4,207)
+ 199   Cr258,589
+
+ 199   buy car MGF1.8i  Flame Red MGF 1.8i VVC -> (Cr36,710)
+ 199   Cr221,779
+ 199   mod car MGF1.8i   WR3,SS/SS,LSD,NA2
+ 199   Cr156,179
+ 199      MGF1.8i       MGF/SeattleS             1st          none
+ 200   Cr161,179
+ 200   mod car [R]MGF1.8i
+ 200   Cr79,179
+ 200      [R]MGF1.8i    [R]MGF/RomeN             1st          none
+ 201   Cr86,179
+ 201   sell car Flame Red MGF 1.8i VVC -> (Cr9,177)
+ 201   Cr95,356
+
+note: day200  mgmGT4'88,whiteGT4'88,silverRX-7'83,whiteRS-X'84,red360
+note: I quit buying cars now; it's about when I had started in gt2-game1
+
+ 201      Speed6       PureSports/TM   1st      burgundyTuscanSpeed6(kaw)
+ 202   Cr105,356
+ 202      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 203   Cr155,356   Cr655,356   98 cars   84.30%
+ 203   mod car [R]Speed6   WR3,SS/SS,LSD,NA2,[R]
+ 203   Cr499,356
+ 203      [R]Speed6     [R]Tuscan/SeattleL       1st          none
+ 204   Cr509,356   98 cars   84.75%
+ 204   sell car burgundyTuscanSpeed6
+ 204   Cr634,356
+
+ 204   buy car Tigra1.6i  Magmarot Opel Tigra 1.5i -> (Cr25,640)
+ 204   Cr608,716
+ 204   mod car Tigra1.6i   WR3,SS/SS,TS2
+ 204   Cr553,216
+ 204      Tigra1.6i     Tigra/Midfield           1st          none
+ 205   Cr556,216
+ 205   mod car [R]Tigra1.6i
+ 205   Cr474,216
+ 205      [R]Tigra1.6i  [R]Tigra/Tahiti-ii       1st          none
+ 206   Cr479,216
+ 206   sell car   Magmarot Opel Tigra 1.5i -> (Cr6,410)
+ 206   Cr485,626   97cars   85.65%
+
+ 206   buy car GolfV6  Canyon Red VW Golf V6 -> (Cr40,210)
+ 206   Cr445,416
+ 206   mod car GolfV6   WR3,SS/SS,TS3  (3? - prob 2)
+ 206   Cr385,216
+ 206      GolfV6     Golf/Apricotii              1st          none
+ 207   Cr390,216
+ 207   mod car [R]GolfV6 [R],white Enkei  wheels
+ 207   Cr306,216
+ 207      [R]GolfV6  [R]Golf/Midfieldii          1st          none
+ 208   Cr313,216
+ 208   buy car NewBeetle  Rot Uni VW New Beetle GLS 2.0 -> (Cr15,930)
+ 208   Cr297,286
+ 208   mod car NewBeetle   WR3,SS/SS,TS2
+ 208   Cr237,086
+ 208   sell car   Canyon Red VW Golf V6 -> (Cr10,052)
+ 208   Cr247,138
+ 208      NewBeetle  Beetle/SSR5                 1st          none
+ 209   Cr252,138
+ 209   mod car [R]NewBeetle
+ 209   Cr170,138
+ 209      [R]NewBeetle  [R]Beetle/SSR5ii         1st          none
+ 210   Cr177,138    98 cars   87.44%
+ 210   sell car Rot Uni VW New Beetle GLS 2.0 -> (Cr3,982)
+ 210   Cr181,120
+
+note:day210  whiteGT4'88,redGT4'88,silverCelica'84,whiteRS-X'84
+
+ 210   buy car Corvette'69  Monza Red Chevrolet Corvette 427 Stingray'69
+ 210   Cr128,410
+ 210   mod car Corvette'69   WR3,SS/SS
+ 210   Cr77,910
+ 210      Corvette'69   Corvette/Midfieldii      1st          none
+ 211   Cr84,910
+ 211      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 212   Cr134,910  Cr634,910
+ 212   mod car [R]Corvette'69
+ 212   Cr549,910
+ 212      [R]Corvette'69  [R]Corvette/GVE        1st          none
+ 213   Cr559,910
+ 213   sell car  Monza Red Chevrolet Corvette 427 Stingray'69 -> (Cr13,177)
+ 213   Cr573,087   97cars   88.34%
+
+ 213   buy car ViperGTS  Red w Silver Stripes Dodge Viper GTS
+ 213   Cr497,677
+ 213   mod car ViperGTS  SS/SS only
+ 213   Cr479,677
+ 213      ViperGTS      Viper/Autumn             1st          none
+ 214   Cr486,677
+ 214   sell car  Red w Silver Stripes Dodge Viper GTS
+ 214   Cr505,529
+
+ 214   buy car NeonRT  Red Dodge Neon R/T  -> (Cr15,070)
+ 214   Cr490,459
+ 214   mod car NeonRT   WR3,SS/SS,NA2
+ 214   Cr435,959
+ 214      NeonRT           Neon/SSR5             1st          none
+ 215   Cr440,959
+ 215   mod car [R]NeonRT
+ 215   Cr360,959
+ 215      [R]NeonRT        [R]Neon/Super         1st          none
+ 216   Cr367,959
+ 216   sell car  Red Dodge Neon R/T  -> (Cr3,767)
+ 216   Cr371,726   97cars   89.68%
+
+ 216   buy car Ka  Pepper Red Metallic Ford Ka -> (Cr15,000)
+ 216   Cr356,726
+ 216   mod car Ka   WR3,SS/SS,TS2
+ 216   Cr301,226
+ 216      Ka                Ka/GVE               1st          none
+ 217   Cr304,226
+ 217   mod car [R]Ka
+ 217   Cr224,226
+ 217      [R]Ka             [R]Ka/SSR5           1st          none
+ 218   Cr229,226
+ 218   sell car  Pepper Red Metallic Ford Ka -> (Cr3,750)
+ 218   Cr232,976
+
+ 218   buy car Focus2.0  Pepper Red Mica Metallic Ford Focus Ghia 2.0i Zetec -> (Cr27,100)
+ 218   Cr205,876
+ 218   mod car Focus2.0   SS/SS,TS2
+ 218   Cr174,876
+ 218      Focus2.0          Focus2.0/GVE         1st          none
+ 219   Cr179,876
+ 219   sell car Pepper Red Mica Metallic Ford Focus Ghia 2.0i Zetec ->(Cr6,775)
+ 219   Cr186,876       97 cars   91.03%
+ 219   power off
+
+February 28, 2000
+February 29, 2000
+ 219   buy car Alfa156-24V  Alfa Red Alfa-Romeo 156 2.5 V6 24V -> (Cr38,910)
+ 219   Cr147,741
+ 219   mod car Alfa156-24V   WR3,SS/SS,TS2
+ 219   Cr87,541
+ 219      Alfa156-24V        155+156/GVE         1st          none
+ 220   Cr92,541
+ 220   mod car [R]Alfa156-24V
+ 220   Cr10,541
+ 220      [R]Alfa156-24V     [R]155+156/Laguna   1st          none
+ 221   Cr17,541
+note: day220 redCelica'84,redRX7'83,whiteGT-R'71
+ 221   sell car Alfa Red Alfa-Romeo 156 2.5 V6 24V -> (Cr9,727)
+ 221   Cr27,268   97 cars  91.92%
+
+ 221      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 222   Cr77,768   Cr577,768
+
+ 222   buy car Saxo  Venetian Red Citroen Saxo 1.6i VTS -> (Cr21,330)
+ 222   Cr555,938
+ 222   mod car Saxo   WR3,SS/SS,NA2
+ 222   Cr501,438
+ 222      Saxo        Saxo/Grind                 1st          none
+ 223   Cr504,438
+ 223   mod car [R]Saxo
+ 223   Cr424,438
+ 223      [R]Saxo     [R]Saxo/Midfield           1st          none
+ 224   Cr429,438
+ 224   sell car Venetian Red Citroen Saxo 1.6i VTS -> (Cr5,332)
+ 224   Cr434,770   97 cars   92.82%
+
+ 224   buy car 500Sport'98  Starter Red Fiat 500 Sporting(CigneCento) -> (Cr12,500)
+ 224   Cr421,270
+ 224   mod car 500Sport'98   WR3,SS/SS,TS2
+ 224   Cr365,770
+ 224      500Sport'98        500/RedRockii       1st          none
+ 225   Cr368,770
+ 225   mod car [R]500Sport'98
+ 225   Cr288,770
+ 225      [R]500Sport'98     [R]500/RedRockii    1st          none
+ 226   Cr293,770   98 cars   93.72%
+ 226   power off
+
+March 01, 2000
+ 226   sell car Starter Red Fiat 500 Sporting(CigneCento) -> (Cr3,375)
+ 226   Cr297,145
+
+ 226   buy car DeltaHFIE  Monza Red Lancia Delta HF Integrale Evolutione -> (Cr32,000)
+ 226   Cr265,145
+ 226   mod car DeltaHFIE   WR3,SS/SS,TS2
+ 226   Cr200,145
+ 226      DeltaHFIE        Delta/RomeSii         1st          none
+ 227   Cr205,145
+ 227   mod car [R]DeltaHFIE
+ 227   Cr120,145
+ 227      [R]DeltaHFIE     [R]Delta/SSR5ii       1st          none
+ 228   Cr127,145
+ 228   sell car Monza Red Lancia Delta HF Integrale Evolutione -> (Cr8,000)
+ 228   Cr135,145
+
+ 228      [R]DensoSupra    Stars/RedRock      1st    burgundySpeed12(sold)
+ 229   Cr185,145    Cr685,145
+
+ 229   buy car Peugeot106S16  Cherry Red Peugeot 106 1.6 S16 -> (Cr23,500)
+ 229   Cr661,645
+ 229   mod car Peugeot106S16   WR3,SS/SS,NA2
+ 229   Cr602,445
+ 229      Peugeot106S16        106/Autumn        1st          none
+ 230   Cr607,445
+ 230   mod car [R]Peugeot106S16  [R],+Rmuff,comp
+ 230   Cr519,145
+ 230      [R]Peugeot106S16     [R]106/Autumn     1st          none
+ 231   Cr526,145
+ 231   sell car Cherry Red Peugeot 106 1.6 S16 -> (Cr5,875)
+ 231   Cr531,020
+
+note: day230 whiteGT4'88,redCelica'84,yellowRX7'83,red240Z'71,redRSX'84,red360
+
+ 231   buy car ClioSport  silver Renault Clio Sport V6 24V -> (Cr52,440)
+ 231   Cr478,580
+ 231   mod car ClioSport   WR3,SS/SS,TS?2
+ 231   Cr414,580
+ 231      ClioSport        Clio/Midfield         1st          none
+ 232   Cr421,580
+ 232   mod car [R]ClioSport
+ 232   Cr336,580
+ 232      [R]ClioSport     [R]Clio/SSR5ii        1st          none
+ 233   Cr346,580
+ 233   sell car silver Renault Clio Sport V6 24V -> (Cr13,110)
+ 233   Cr359,690    97 cars   96.41%
+
+ 233      [R]DensoSupra   Easy/TMii              1st          none
+ 234   Cr366,690    97 cars   96.86%
+ 234      [R]DensoSupra   Nomal/Super            1st          none
+ 235   Cr376,690
+ 235      [R]DensoSupra   Hard/RomeS             1st          none
+ 236   Cr386,690
+ 236      [R]DensoSupra   Expert 1st40to28,18,14,11,9         none
+ 237   Cr484,690     97 cars  98.20%   total prize Cr5,275,000
+ 237   finito
+
+note:  The Expert Series went...
+note:  Apricotii    1st  2:38.757  +3.300  1:15.857   Cr10,000
+note:  SeattleLii   1st  3:12.603  +1.324  1:33.866   Cr10,000
+note:  Grindevaldii 1st  2:42.831  +0.888  1:17.636   Cr10,000
+note:  Apricotii    1st  2:40.424  +3.010  1:19.003   Cr10,000
+note:  SSR5         1st  2:39.599  +5.244  1:14.949   Cr10,000
+note:                                                +Cr50,000 Champ Bonus
+note:  Nismo270R                 6 + 6 + 6 + 4 + 6  =  28
+note:  RUF CTR Yellowbird        3 + 3 + 2 + 6 + 4  =  18
+note:  Tommy Kaira M30(GTS)'97   4 + 4 + 1 + 3 + 2  =  14
+note:  Tommy Kaira ZZ-S          2 + 2 + 3 + 1 + 3  =  11
+note:  TVR Chimaera 5.0          1 + 1 + 4 + 2 + 1  =   9

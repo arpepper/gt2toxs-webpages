@@ -1,0 +1,255 @@
+
+
+July 22, 1999 (Did not win; does not count)
++=================================================================+
+|                  |   qualifying   |       race ("finals")       |
+|                  |----------------|-----------------------------|
+|                  |pos|   time     |pos|   time     |fastest lap |
+|=================================================================|
+|High Speed Ring   | 3 |  0:55.445  | 3 |  2:36.545  |  0:49.511  |
+|------------------+---+------------+---+------------+------------|
+|Trial Mountain    | 4 |  1:22.374  | 1 |  3:57.561  |  1:16.421  |
+|------------------+---+------------+---+------------+------------|
+|Grand Valley      | 3 |  1:42.839  | 1 |  5:00.809  |  1:37.863  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R5  | 5 |  1:19.244  | 2 |  3:47.043  |  1:13.467  |
+|------------------+---+------------+---+------------+------------|
+|Deep Forest       | 6 |  1:13.463  | 2 |  3:28.168  |  1:07.501  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R11 | 3 |  1:53.742  | 1 |  5:29.169  |  1:46.990  |
++=================================================================+
+2nd 45,[43],25,18,13,6
+GTO twinturbo, GT-R LM
+
+
+
+July 23, 1999   (these times are submittted)
++=================================================================+
+|                  |   qualifying   |       race ("finals")       |
+|                  |----------------|-----------------------------|
+|                  |pos|   time     |pos|   time     |fastest lap |
+|=================================================================|
+|High Speed Ring   | 6 |  0:56.410  | 1 |  2:36.462  |  0:49.515  |
+|------------------+---+------------+---+------------+------------|
+|Trial Mountain    | 1 |  1:20.439  | 1 |  3:55.378  |  1:16.741  |
+|------------------+---+------------+---+------------+------------|
+|Grand Valley      | 6 |  1:44.418  | 1 |  4:58.615  |  1:37.309  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R5  | 6 |  1:20.542  | 1 |  3:48.873  |  1:13.849  |
+|------------------+---+------------+---+------------+------------|
+|Deep Forest       | 6 |  1:12.452  | 2 |  3:29.086  |  1:07.499  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R11 | 6 |  1:54.379  | 1 |  5:29.370  |  1:45.824  |
++=================================================================+
+1st [51],39,23,16,13,8
+Impreza, Lancer EvolV, Celica GT-4
+
+Kazunori Yamauchi
+Castrol Tom's Team
+special thanks - TVR - Ben Samuelson
+
+
+
++=================================================================+
+|                  |   qualifying   |       race ("finals")       |
+|                  |----------------|-----------------------------|
+|                  |pos|   time     |pos|   time     |fastest lap |
+|=================================================================|
+|High Speed Ring   | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Trial Mountain    | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Grand Valley      | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R5  | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Deep Forest       | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
+|------------------+---+------------+---+------------+------------|
+|Special Stage R11 | P |  M:SS.TTT  | P |  M:SS.TTT  |  M:SS.TTT  |
++=================================================================+
+
+
+
+August 2, 1999
+
+
+
+Adrian                  Hard-Tuned Car Speed Contest
++=======================================================================+
+|Date: Aug 2, 1999   |Day: 3979   |Car: tuned NSX TypeSzero             |
++-----------------------------------------------------------------------+
+|Major Opponents:  SupraRZ, FDRX7typeRZ, R33GT-Rvspec                   |
+|                              LancerEvoIII GSR, Civic3dr               |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|High Speed Ring ii  | 1 |  0.56.432  | 1 |  4.18.393  |  0.50.499  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Grand Valley ii     | 3 |  1.46.133  | 1 |  8.29.459  |  1.39.927  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Clubman Stage R5 ii | 1 |  0.48.035  | 1 |  3.42.948  |  0.42.731  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Autumn Ring ii      | 1 |  1.13.557  | 1 |  5.56.777  |  1.09.307  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Special Stage R11 ii| 1 |  1.51.569  | 1 |  9.12.535  |  1.48.352  | 9 |
++=======================================================================+
+|Result: 1st 45to27,20,15,13,5        |Prize car: pink Trueno       |45 |
++=======================================================================+
+me,Supra,GT-R,RX7,Lancer,Civic
+
+Wow.  That was almost easy.  With my settings the car bounced only at
+little, and the NSX TypeSzero has maximal power, and minimum weight for
+any NSX in the game, as well as 6 gears.  On tracks like Grand Valley,
+while the NSX did not put in exceptional times, it was very good at
+those parts of the course that count, allowing it to get ahead and then
+stay ahead (with passive blocking).  Walls were used quite a bit at
+Clubman R5 and Special Stage R11.   8-)
+
+             Settings
+
+Spring rate  9.7   7.6
+Ride height  113   113
+Dampers       4     4
+Camber       0.0   1.0
+Stabilizers   5     0
+BrakeBalance 12     9
+    1st       3.066
+    2nd       1.956
+    3rd       1.428
+    4th       1.085
+    5th       0.866
+    6th       0.717
+              -----
+Final Drive   4.200  (5.000 for Autumn Ring ii)
+Spring rate   2182lb                     Weight Red 3
+Spring rate   534hp@8100rpm              Max NA tune, racing exhaust
+Spring rate   2573.4lbft@8100rpm
+
+Everything was maxed, except rear stabilizer, which was "Normal".
+You'll see the ride height is not as low as it will go; I find it better
+*not* to muck with it; tends to make the car more predictable.
+Unlike some other cars, I did not do a lot of retuning for Autumn
+Ring ii; final drive was all that I changed.
+
+As far as opponents go, I guess the AI NSX didn't show up.  It is sort
+of rare, I find, but it does make things difficult at SSR11 when it
+does show up.  Though a couple of laps of wall-sliding usually shakes
+it off.   8-)
+
+While I was in control of the whole series, I expect other people to
+shatter my fastest laps.  (Especially Mika   8-)
+
+============================================================================
+
+> The third challenge is one at low speed, I don't know if you'll find it
+> hard or easy.
+> Win the Sunday Cup with a Nissan  S13 Silvia '88 Q's 1800 cc.
+> 
+> I'll send you some times compared to yours soon.
+
+Actually, that car is the FR prize car, isn't it?
+Nevertheless, I ferreted out the super red S13'88Q's available on
+day 70, and used that, paying an extortionary Cr4990 for it, but,
+oh well, red things are best.
+
+
+                        Sunday Cup
++=======================================================================+
+|Date: August 2, 1999|Day: 3985   |Car: S13 Silvia'88 Q's 1800cc (stock)|
++-----------------------------------------------------------------------+
+|Major Opponents: CivicSedan'93, LevinBZG, MirageAstiRX,                |
+|                                      S14SilviaQ's, Demio GLX          |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Autumn Ring Mini    | 6 |  0.48.864  | 1 |  1.33.932  |  0.43.521  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|High Speed Ring     | 6 |  1.22.110  | 3 |  2.32.949  |  1.10.148  | 4 |
+|--------------------+---+------------+---+------------+----------------|
+|Grand Valley East   | 6 |  1.30.049  | 1 |  2.51.586  |  1.19.395  | 9 |
++=======================================================================+
+|Result: 1st22to18,16,7,6,6           |Prize car: Demio Aspec   8-) |22 |
++=======================================================================+
+car is 129bhp, 2403lb
+
+AI results:
+Civic Sedan'93    6+6+6 = 18
+Levin BZG         3+9+4 = 16
+Mirage Asti RX    (5)+2 =  7
+S14 Silvia Q's    (5)+1 =  6
+Demio GLX         (3)+3 =  6
+
+Two firsts and a third is actually a "clean" win.  8-)
+I.e. not relying on AI cars trading positions.
+
+
+
+                        Sunday Cup
++=======================================================================+
+|Date: August 3, 1999|Day: 3995   |Car: S13 Silvia'88 Q's 1800cc (stock)|
++-----------------------------------------------------------------------+
+|Major Opponents: StarletGlanzaV, MirageCyborgR, Civic3dr,              |
+|                             S14SilviaQ's,  Demio GL-X                 |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Autumn Ring Mini    | 6 |  0.48.441  | 1 |  1.33.287  |  0.43.365  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|High Speed Ring     | 6 |  1.21.499  | 1 | (2.33.016) |  1.09.988  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Grand Valley East   | 6 | (1.30.298) | 1 | (2.51.951) | (1.20.182) | 9 |
++=======================================================================+
+|Result: 1st27to15,14,10,5,4          |Prize car:                   |27 |
++=======================================================================+
+car is 129bhp, 2403lb
+
+AI results:
+Starlet Glanza V  6+3+6 = 15
+Mirage Cyborg R   4+6+4 = 14
+Civic 3 dr        3+4+3 = 10
+S14 Silvia Q's    2+1+2 =  5
+Demio GL-X        1+2+1 =  4
+
+
+
+
+
+                        Normal Car World Speed Contest
++=======================================================================+
+|Date:  July 18, 1999|Day: 3875   |Car: red NSX TypeSZero               |
++-----------------------------------------------------------------------+
+|Major Opponents:  yellow NSX,  TRD                                     |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Autumn Ring Mini ii | 2 |  0.42.012  | 1 |  3.17.656  |  0.38.621  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Grand Valley East ii| 1 |  1.14.990  | 2 |  5.57.376  |  1.09.096  | 6 |
+|--------------------+---+------------+---+------------+----------------|
+|Clubman Stage R5 ii | 1 |  0.59.719  | 1 |  4.36.292  |  0.53.491  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Deep Forest ii      | 6 |  1.29.362  | 3 |  7.09.669  |  1.24.526  | 4 |
+|--------------------+---+------------+---+------------+----------------|
+|Special Stage R11   | 6 |  2.17.853  | 1 | 11.03.203  |  2.10.098  | 9 |
++=======================================================================+
+|Result: 1st37to36,19,18,10,5         |Prize car: blue Impreza      |37 |
++=======================================================================+
+
+Not only does it look close, but the AI NSX and I were neck-and-neck all
+the way throughout the last race!
+But, still it was a clean win.  (Pretty well has to be in the Normal Series).
+
+As I said, "I bin there, done that", already for the fourth challenge...  8-)
+Hence the date...
+
+Maybe I'll try again later.
+
+

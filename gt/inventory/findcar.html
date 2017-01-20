@@ -1,0 +1,378 @@
+<html>
+<head><title>Gran Turismo Car Finder</title></head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Car Finder</h3>
+</font>
+</td>
+</table>
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+</p>
+<p>
+To contact the author by
+<a href="../email.html">email</a>.
+</p>
+<H4>Note that this service only works outside working hours.</H4>
+<H4>That is, it does not work between 8:30AM and 4:30PM.</H4>
+<p>
+For most browsers, however, the <a href="tutorial.html">tutorial</a> should
+work at any time.
+</p>
+<p>
+Many thanks to the many people who inspired this page, most
+noticeably Nick Albright, and, of course Dave Connoy.
+I am actually using Dave Connoy's model names and statistics
+for this data base, and so am greatly indebted for all his
+work collecting that data.
+The statistics all refer to the North American version of
+the game.
+</p>
+<p>
+The video game (videogame) title, "Gran Turismo", and its logos, are trademarks of
+Sony Computer Entertainment Incorporated.
+This site is in no way associated with Sony Computer Entertainment
+Incorporated.
+Any errors or omissions are those of the author, and anyone using this
+facility does so on the condition that they realize the results are not
+infallible.
+</p>
+<p>
+Bewildered by the form?  See if the
+<a href="tutorial.html">tutorial</a> helps.
+</p>
+</center>
+<hr>
+<!-- would be nice to avoid explicit root-relative reference here... -->
+<form method="post" action="/~arpepper/cgi-bin/findcar">
+<p>
+Basically, at the top of the form, choose the characteristics you want
+to search for, filling in a value and choosing how you want to match
+that value.  If this explanation is confusing, just go down to the
+form and see what some of the menu choices are--any text can be
+entered as the matching value, though not all values are sensible.
+</p><p>
+The tricky part is selecting the fields you want to see in the result.
+This form makes use of "multiple selection" for those selectors, and
+how to do this varies depending upon the version of the browser you are
+using.  The Netscape we have here on UNIX interprets any mouse selection
+in those lists as a "toggle", while Netscape on my PC requires that
+the "control" key be pressed at the same time to work like that.
+IE on my iMac requires that the "apple" key be pressed.
+The "sort" menus work in a similar fashion, but can be ignored for your
+first queries; output will be sorted by the selected fields.
+</p>
+
+<hr>
+<p><input type="submit" value="Submit"> the request when it's complete,
+or <input type="reset" value="reset"> and start over.
+</p>
+<p>
+<b>Show</b> the first
+<input type="text" name="limit" value="20" size=6>
+results where:<br>
+&nbsp;&nbsp;The&nbsp;&nbsp;&nbsp;&nbsp;
+<select name="q">
+	<option value="0">Entire record</option>
+	<option value="1">Sale type</option>
+	<option value="2">Simulation Day</option>
+	<option value="3">Used Car Slot Number</option>
+	<option value="4">Manufacturer</option>
+	<option value="5">Model Name</option>
+	<option value="6.1">Drive Train</option>
+	<option value="6.2">Stock # Gears</option>
+	<option value="6.3">Stock BHP</option>
+	<option value="6.4">Maxed BHP</option>
+	<option value="6.5">Stock Weight in lbs</option>
+	<option value="6.6">Tuned Weight in lbs</option>
+	<option value="6.7">Racing Weight in lbs</option>
+	<option value="6.8">Stock P/W Ratio</option>
+	<option value="6.9">Tuned P/W Ratio</option>
+	<option value="6.10">Racing P/W Ratio</option>
+	<option value="6.11">Evaluation</option>
+	<option value="7">Colour</option>
+	<option value="8">Price in Credits</option>
+</select>
+<select name="n">
+	<option value="0"> </option>
+	<option value="1">NOT</option>
+</select>
+<select name="op">
+	<option value="::">Contains</option>
+	<option value="<">Less Than</option>
+	<option value="=">Equal</option>
+	<option value=">">Greater Than</option>
+</select>
+<input type="text" name="v" value="" size=20>
+<br>
+<select name="t" value="and">
+	<option value="and">and</option>
+	<option value="or">or</option>
+	<option value="butnot">but not</option>
+</select>
+<select name="q">
+	<option value="0">Entire record</option>
+	<option value="1">Sale type</option>
+	<option value="2">Simulation Day</option>
+	<option value="3">Used Car Slot Number</option>
+	<option value="4">Manufacturer</option>
+	<option value="5">Model Name</option>
+	<option value="6.1">Drive Train</option>
+	<option value="6.2">Stock # Gears</option>
+	<option value="6.3">Stock BHP</option>
+	<option value="6.4">Maxed BHP</option>
+	<option value="6.5">Stock Weight in lbs</option>
+	<option value="6.6">Tuned Weight in lbs</option>
+	<option value="6.7">Racing Weight in lbs</option>
+	<option value="6.8">Stock P/W Ratio</option>
+	<option value="6.9">Tuned P/W Ratio</option>
+	<option value="6.10">Racing P/W Ratio</option>
+	<option value="6.11">Evaluation</option>
+	<option value="7">Colour</option>
+	<option value="8">Price in Credits</option>
+</select>
+<select name="n">
+	<option value="0"> </option>
+	<option value="1">NOT</option>
+</select>
+<select name="op">
+	<option value="::">Contains</option>
+	<option value="<">Less Than</option>
+	<option value="=">Equal</option>
+	<option value=">">Greater Than</option>
+</select>
+<input type="text" name="v" value="" size=24>
+<br>
+<select name="t" value="and">
+	<option value="and">and</option>
+	<option value="or">or</option>
+	<option value="butnot">but not</option>
+</select>
+<select name="q">
+	<option value="0">Entire record</option>
+	<option value="1">Sale type</option>
+	<option value="2">Simulation Day</option>
+	<option value="3">Used Car Slot Number</option>
+	<option value="4">Manufacturer</option>
+	<option value="5">Model Name</option>
+	<option value="6.1">Drive Train</option>
+	<option value="6.2">Stock # Gears</option>
+	<option value="6.3">Stock BHP</option>
+	<option value="6.4">Maxed BHP</option>
+	<option value="6.5">Stock Weight in lbs</option>
+	<option value="6.6">Tuned Weight in lbs</option>
+	<option value="6.7">Racing Weight in lbs</option>
+	<option value="6.8">Stock P/W Ratio</option>
+	<option value="6.9">Tuned P/W Ratio</option>
+	<option value="6.10">Racing P/W Ratio</option>
+	<option value="6.11">Evaluation</option>
+	<option value="7">Colour</option>
+	<option value="8">Price in Credits</option>
+</select>
+<select name="n">
+	<option value="0"> </option>
+	<option value="1">NOT</option>
+</select>
+<select name="op">
+	<option value="::">Contains</option>
+	<option value="<">Less Than</option>
+	<option value="=">Equal</option>
+	<option value=">">Greater Than</option>
+</select>
+<input type="text" name="v" value="" size=24>
+<br>
+<select name="t" value="and">
+	<option value="and">and</option>
+	<option value="or">or</option>
+	<option value="butnot">but not</option>
+</select>
+<select name="q">
+	<option value="0">Entire record</option>
+	<option value="1">Sale type</option>
+	<option value="2">Simulation Day</option>
+	<option value="3">Used Car Slot Number</option>
+	<option value="4">Manufacturer</option>
+	<option value="5">Model Name</option>
+	<option value="6.1">Drive Train</option>
+	<option value="6.2">Stock # Gears</option>
+	<option value="6.3">Stock BHP</option>
+	<option value="6.4">Maxed BHP</option>
+	<option value="6.5">Stock Weight in lbs</option>
+	<option value="6.6">Tuned Weight in lbs</option>
+	<option value="6.7">Racing Weight in lbs</option>
+	<option value="6.8">Stock P/W Ratio</option>
+	<option value="6.9">Tuned P/W Ratio</option>
+	<option value="6.10">Racing P/W Ratio</option>
+	<option value="6.11">Evaluation</option>
+	<option value="7">Colour</option>
+	<option value="8">Price in Credits</option>
+</select>
+<select name="n">
+	<option value="0"> </option>
+	<option value="1">NOT</option>
+</select>
+<select name="op">
+	<option value="::">Contains</option>
+	<option value="<">Less Than</option>
+	<option value="=">Equal</option>
+	<option value=">">Greater Than</option>
+</select>
+<input type="text" name="v" value="" size=24>
+<br>
+<select name="t" value="and">
+	<option value="and">and</option>
+	<option value="or">or</option>
+	<option value="butnot">but not</option>
+</select>
+<select name="q">
+	<option value="0">Entire record</option>
+	<option value="1">Sale type</option>
+	<option value="2">Simulation Day</option>
+	<option value="3">Used Car Slot Number</option>
+	<option value="4">Manufacturer</option>
+	<option value="5">Model Name</option>
+	<option value="6.1">Drive Train</option>
+	<option value="6.2">Stock # Gears</option>
+	<option value="6.3">Stock BHP</option>
+	<option value="6.4">Maxed BHP</option>
+	<option value="6.5">Stock Weight in lbs</option>
+	<option value="6.6">Tuned Weight in lbs</option>
+	<option value="6.7">Racing Weight in lbs</option>
+	<option value="6.8">Stock P/W Ratio</option>
+	<option value="6.9">Tuned P/W Ratio</option>
+	<option value="6.10">Racing P/W Ratio</option>
+	<option value="6.11">Evaluation</option>
+	<option value="7">Colour</option>
+	<option value="8">Price in Credits</option>
+</select>
+<select name="n">
+	<option value="0"> </option>
+	<option value="1">NOT</option>
+</select>
+<select name="op">
+	<option value="::">Contains</option>
+	<option value="<">Less Than</option>
+	<option value="=">Equal</option>
+	<option value=">">Greater Than</option>
+</select>
+<input type="text" name="v" value="" size=24>
+<br>
+</p>
+<p>
+For each result <b>display</b>:<br>
+<select name="f" multiple size=5>
+<option value="99" selected>Sequence</option>
+<option value="98" >Count</option>
+<option value="1" >Sale Type</option>
+<option value="2">Simulation Day</option>
+<option value="3">Used Car Slot</option>
+<option value="4" selected>Manufacturer</option>
+<option value="5" selected>Model Name</option>
+<option value="6">Stats</option>
+<option value="6.1">Drive Train</option>
+<option value="6.2">Stock # Gears</option>
+<option value="6.3">Stock BHP</option>
+<option value="6.4">Maxed BHP</option>
+<option value="6.5">Stock Weight in lbs</option>
+<option value="6.6">Tuned Weight in lbs</option>
+<option value="6.7">Racing Weight in lbs</option>
+<option value="6.8">Stock P/W Ratio</option>
+<option value="6.9">Tuned P/W Ratio</option>
+<option value="6.10">Racing P/W Ratio</option>
+<option value="6.11">Evaluation</option>
+<option value="7">Colour</option>
+<option value="8">Price</option>
+<option value="">none</option>
+</select>
+<select name="f" multiple size=5>
+<option value="1">Sale Type</option>
+<option value="2" >Simulation Day</option>
+<option value="3">Used Car Slot</option>
+<option value="4">Manufacturer</option>
+<option value="5">Model Name</option>
+<option value="6">Stats</option>
+<option value="6.1">Drive Train</option>
+<option value="6.2">Stock # Gears</option>
+<option value="6.3">Stock BHP</option>
+<option value="6.4">Maxed BHP</option>
+<option value="6.5">Stock Weight in lbs</option>
+<option value="6.6">Tuned Weight in lbs</option>
+<option value="6.7">Racing Weight in lbs</option>
+<option value="6.8">Stock P/W Ratio</option>
+<option value="6.9">Tuned P/W Ratio</option>
+<option value="6.10">Racing P/W Ratio</option>
+<option value="6.11">Evaluation</option>
+<option value="7">Colour</option>
+<option value="8">Price</option>
+<option value="99">Sequence</option>
+<option value="98" selected>Count</option>
+<option value="">none</option>
+</select>
+<br>
+(Choose zero or several from each list above)<br>
+</p>
+
+<p>
+<b>Sort</b> in
+<select name="r" >
+<option value="0">ascending</option>
+<option value="1" >descending</option>
+</select>
+order by:<br>
+<select name="s" multiple size=5>
+<option value="1">Sale Type</option>
+<option value="2" >Simulation Day</option>
+<option value="3">Used Car Slot</option>
+<option value="4" selected>Manufacturer</option>
+<option value="5">Model Name</option>
+<option value="6">Stats</option>
+<option value="6.1">Drive Train</option>
+<option value="6.2">Stock # Gears</option>
+<option value="6.3">Stock BHP</option>
+<option value="6.4">Maxed BHP</option>
+<option value="6.5">Stock Weight in lbs</option>
+<option value="6.6">Tuned Weight in lbs</option>
+<option value="6.7">Racing Weight in lbs</option>
+<option value="6.8">Stock P/W Ratio</option>
+<option value="6.9">Tuned P/W Ratio</option>
+<option value="6.10">Racing P/W Ratio</option>
+<option value="6.11">Evaluation</option>
+<option value="7">Colour</option>
+<option value="8">Price</option>
+<option value="" >none</option>
+</select>
+<select name="s" multiple size=5>
+<option value="1">Sale Type</option>
+<option value="2" >Simulation Day</option>
+<option value="3">Used Car Slot</option>
+<option value="4" >Manufacturer</option>
+<option value="5" selected>Model Name</option>
+<option value="6">Stats</option>
+<option value="6.1">Drive Train</option>
+<option value="6.2">Stock # Gears</option>
+<option value="6.3">Stock BHP</option>
+<option value="6.4">Maxed BHP</option>
+<option value="6.5">Stock Weight in lbs</option>
+<option value="6.6">Tuned Weight in lbs</option>
+<option value="6.7">Racing Weight in lbs</option>
+<option value="6.8">Stock P/W Ratio</option>
+<option value="6.9">Tuned P/W Ratio</option>
+<option value="6.10">Racing P/W Ratio</option>
+<option value="6.11">Evaluation</option>
+<option value="7">Colour</option>
+<option value="8">Price</option>
+<option value="" >none</option>
+</select>
+<br>
+(Choose zero or several from each list above)<br>
+</p>
+<p><input type="submit" value="Submit"> the request when it's complete.
+</p>
+<hr>
+</form><br>
+
+</body>
+</html>

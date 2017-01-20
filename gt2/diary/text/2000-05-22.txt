@@ -1,0 +1,82 @@
+Monday May 22, 2000
+
+
+A short GameShark Code to let you win license test prize cars
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+I spent a lot of the (long) weekend working out a 2-line GS code to let
+crumby players like me <html><em>easily</em></html> get the license
+test cars they don't deserve.  8-)
+
+<HTML INDENT>
+<b>NTSC 1.0 (offset 0, garage FB8, tested)</b><br>
+<br>
+<tt><font face="Courier"><pre>
+  D01D5028 0000 -- if number of prize cars is zero
+  801D5028 0001 ---- set it to one
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<b>NTSC 1.1 (offset 370, garage 328, tested)</b><br>
+<br>
+<tt><font face="Courier"><pre>
+  D01D5398 0000 -- if number of prize cars is zero
+  801D5398 0001 ---- set it to one
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<b>NTSC 1.2 (offset 5A0, garage 558, tested)</b><br>
+<br>
+<tt><font face="Courier"><pre>
+  D01D55C8 0000 -- if number of prize cars is zero
+  801D55C8 0001 ---- set it to one
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<b>PAL (offset 5D0, garage 588, not tested)</b><br>
+<br>
+<tt><font face="Courier"><pre>
+  D01D55F8 0000 -- if number of prize cars is zero
+  801D55F8 0001 ---- set it to one
+</pre></font></tt>
+</HTML>
+
+You see, prize car info (pretty much an entire garage entry) remains in
+memory and does not get overwritten if you enter an event with no prize
+cars.  Not only this, but the license tests use the info in much the
+same way as races, and do, indeed, put the prize cars in the same
+place.
+
+So, with this code in effect, if you go do a license test, then go back
+and win a Sunday Cup race, then you will be awarded the license car.
+8-)
+
+Caution.  Do not enter any event which awards no prize before you
+enter an event which does.  If you do, you will end up with a
+"No Name No Name" in your garage which may lock the game if you
+look at it.
+
+The usual cautions when using GameShark codes apply, but it looks
+like this area of memory does not get used for anything else, at
+least in simulation mode proper.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

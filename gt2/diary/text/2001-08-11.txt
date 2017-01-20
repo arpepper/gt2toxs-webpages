@@ -1,0 +1,165 @@
+Saturday August 11, 2001
+
+Tuned Silvia '88 K's wins SSR11 All-Night II in Nissan game
+
+Threads:
+  All-Night II Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nissan">nissan</a> game
+(Maybe <a href="../logs/nissan.txt">here</a>)
+
+I am using the Silvia K's 1800cc, in various forms of modification, for
+as many events as possible, and so entered it in the All-Night II,
+partly to practise for the somewhat daunting
+<b>Abnormal Series</b> (<b>Tuned Series</b>) I intend to enter it in next.
+
+Compared to some times I enter this race, I practised quite a lot, and
+it helped a bit, but I still found the car a little bit of a handful.
+It doesn't generally get wildly out of control, but it is difficult to
+keep it going exactly where and how you want.
+One problem is that the suspension is very soft.
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: nissan
+   Day: 82
+   Date: Aug 11, 2001
+   Car: tuned Warm White 2Tone Nissan Silvia K's 1800cc '88 (S/S)
+
+   Race: SSR11 All-Night II  Endurance Race
+   Qualified: 1st 1:54.235new  (+6.415) Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: silver NISMO GT-R LM
+
+   Results:
+
+   1st:* S13Silvia'88 K's       56:18.752<--new nissan time, okay
+   2nd:  Supra RZ                +163.412  (59:02.164) 1 lap
+   3rd:  FDRX7 TypeRZ            +167.459  (59:06.211) 1 lap
+   4th:  Lancer EvoIII GSR       +202.742  (59:41.494) 1 lap
+   5th:  R33GT-R Vspec           +218.613  (59:57.365) 1 lap(2?)
+   6th:  Civic 3door             +352.418  (62:11.170) 2 laps(3?)
+
+   Pits: 10,20
+   fl(12): 1:46.418new
+
+   lap 1   1:58.365
+   slowest  non-pit   (30)  2:00.554
+             next     (18)  1:55.305
+   fastest pit laps   (20in)  1:56.992
+                      (21out) 2:14.545
+   slowest pit laps   (10in)  2:01.160
+                      (11out) 2:17.914
+
+</pre></font></tt>
+</HTML>
+
+I initially lost my lead because of poor acceleration, but gained the lead
+back before the central chicane, and held it through it even though the
+RX-7 was right behind me.
+
+By my first pitstop I had almost, but not quite, lapped the Civic.
+I kept my lead, however, and lapped the Civic soon after that.
+
+Laps 17 and 18 were quite slow as I was attempting to lap two more cars.
+
+I finally lapped the Supra on lap 25.
+
+I had several mishaps in the central chicane, since this car does have some
+peculiar handling characteristics.
+
+My time was not spectacular, but it's pretty good for a starter car,
+don't you think?
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:58.365      1:58.365
+ 2   1:53.205      3:51.570
+ 3   1:50.911      5:42.481
+ 4   1:49.753      7:32.234
+ 5   1:49.485      9:21.719
+ 6   1:48.804     11:10.523
+ 7   1:49.946     13:00.469
+ 8   1:48.573     14:49.042
+ 9   1:49.454     16:38.496
+10   2:01.160     18:39.656
+11   2:17.914     20:57.570
+12   1:46.418     22:43.988
+13   1:47.467     24:31.455
+14   1:47.339     26:18.794
+15   1:49.315     28:08.109
+16   1:50.531     29:58.640
+17   1:52.130     31:50.770
+18   1:55.305     33:46.075
+19   1:50.632     35:36.707
+20   1:56.992     37:33.699
+21   2:14.545     39:48.244
+22   1:46.687     41:34.931
+23   1:47.721     43:22.652
+24   1:49.816     45:12.468
+25   1:49.341     47:01.809
+26   1:49.936     48:51.745
+27   1:47.981     50:39.726
+28   1:48.164     52:27.890
+29   1:51.109     54:18.999
+30   1:59.753     56:18.752
+
+</pre></font></tt>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are my settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+           My Settings
+
+
+Tires            S     S
+    all parts maxed (TS3)
+
+Spring Rate     3.0   3.1
+Ride Height     95    105  (not min)
+Dampers          5     5
+Camber          2.5   1.8
+Stabilizers      3     3
+Brake Balance   13    11
+Turbo               6
+        1st       3.500
+        2nd       1.939
+        3rd       1.330
+        4th       1.000
+        5th       0.839
+                  -----
+        FD        3.300
+
+Aero    (0.12,0.21)  (stock)
+
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

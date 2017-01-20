@@ -1,0 +1,123 @@
+Thu Feb  4, 1999
+
+This is the first real diary entry.
+
+Threads:
+  License Test Progress
+  Race Results
+
+Any previous ones will have been reconstructed from email to Nick.
+
+The night before last I took a "day off" Gran Turismo.  This might be
+the first day I've not played at all since I got the game.
+
+Thread: Race Results
+
+Last night I told myself I would just race the Japan-UK series with the
+prize Cerbera LM.  I assumed I would win easily, but lost on my first
+attempt.  (Came 2nd, actually).
+
+Trial Mountain II was a disaster.  I settled for a distant third(?).
+A computer car taking a kamikaze line through the chicane on SSR5
+knocked me completely out of control in a race I seemed to be leading
+handily, and I took so long recovering I lost.  I recovered to 2nd(?)
+on the finishing straight, however.
+At least High Speed Ring was an easy victory.
+I got pole position on Grand Valley East, but lost the race, having
+a lot of problem judging the hairpin after the tunnel, as well as the
+fast corner after the main straight.  (I'm still way too slow on that
+one at the best of times).  I had trouble with the other hairpin too,
+and went to sixth(?) from a reasonable position on my last negotiation
+of it.  It seems less easy to outbrake the computer cars now.  More
+about that later.
+The result was I had 20 points to leading RX7's 30 going into SSR11.
+That is, I could not possibly win the series.  Let's see.  20 points
+must be 9 + 6 + 4 + 1.  (Confirming earlier statements here...)
+(Actually I might have won SSR5, and it might have been 1+9+9+1; I
+must start writing this stuff down.  (videotape seems excessive)).
+Surprisingly enough, I had a nice clean SSR11.  Starting in sixth, but
+not completely outclassed in pole times I just carefully negotiated the
+track, finishing first in a near-even 6:00.XXX.  The competitors did
+not seem to hassle me too much in the chicane, which was a relief.  I
+almost thing the algorithms let you win the race when you're in tha
+position in the series, to make sure you still like the game.
+
+I thought I read somewhere that the competitors get more experienced as
+the game progresses.  It certainly felt like that in this case.  The
+Cerbera LM no longer seemed to outclass the opposition.  On Trial
+Mountain I could not easily reel them in on the downhill through the
+tunnel.  And coming out the next tunnel after that, on the twisty
+section to the tricky sharp left-hander the other cars seemed to be
+going a lot faster than they used to.  But it could just be that I was
+out of practice.
+
+Addiction.  I wanted to win another car.  I knew the immediate practice
+would help me, and I was a little bouyed by my success at SSR11.  So I
+tried again.  I got pole position for Trial Mountain, but finished
+second.  The first two competitors beat me into the first corner.  I
+really was beginning to suspect the game was changing the parameters.
+Especially when I also only finished second in SSR5.  (This may have been
+the one which was the result of a competitor taking a kamikaze line).
+As I start taking more delicate lines through parts of that course, I'm
+more susceptible to interference from competitors.  I think.
+I won High Speed Ring, and also won Grand Valley East.  I won by
+outdragging the RX7 from the final hairpin, but at least I didn't
+blow it in the tense situation before that.  And that final lap did
+set a new lap record, so I sort of earned my victory.
+So I went into SSR11 leading 30 to 25 over the RX7.  2nd place would
+guarantee me victory, as would finishing within 4 points of the RX7.
+(Though I won't swear no other car had a chance of winning had I come
+sixth).
+
+Anyway, I motored steadily, slightly slower than before, finishing
+second behind the other Cerbera in the series.  The RX7 came next, I
+believe.  As I've seen before, it's almost like the game encourages you
+to win.  Even the fact the RX7 got only 25, and not the possible 30
+(given my two wins), indicates that the game does not take a lethal
+"you must win every race or lose" strategy in these series.  I
+consciously drove conservatively, knowing that it was irrelevant
+whether the Cerbera won or not as long as I came second.
+
+So that was a fairly positive note.  The only downer was that the car
+I won was once again the green Cerbera LM; the third I've won from this
+series.  I wish at least I could win a purple one.  For Cr12000 they don't
+seem worth selling, so I've still got all three in my garage.  I claim
+I will leave one of them unaltered so I can use it for settings
+reference.  I also claim that if I win a blue one I will sell one of
+the green ones.  But, by all rights, I should have sold this one, so...
+Perhaps when tax time rolls around.
+
+Thread: License Test Progress
+
+I was really bad this morning and turned the Gran Turismo Station on
+before coming to work.  I did entirely license sessions, so I didn't
+need to save them.  (Since I won nothing new).  I got on the board
+for B-3 and B-8, but didn't do a silver time on either.  (Actually I
+have silver for both, but neither did I beat G.T. Silver today).  Then
+I frustrated myself with IA-2 (SSR5 TT with a Viper), and also IA-7
+(SSR11 TT with a Griffith).   IA-7 doesn't seem too bad.  You need 2:14
+and I managed a 2:23.XXX  But I have to consistently get in a
+non-erroneous run (which gives me 2:2X.XXX), *and* then find ten
+seconds somewhere.
+I managed a 1:32.XXX on SSR5, so on a good run I still need to find
+three seconds.  I'm beginning to experiment with beginning my
+parabola before braking.  On the B-3 test I'm experimenting with
+counter-steering (I think they call it "fainting" in the manual),
+so as to rock the car into the main turn.  Also somewhat in B-8.
+I also briefly bought a Mazda Special Model and dragged it to a so-so
+400m result.  Just to convince myself that you can spend Cr500,000,
+test the car, and then reset the game and get the money back.   8-)
+Some point soon I should probably make some sort of "reference copy"
+of the game.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

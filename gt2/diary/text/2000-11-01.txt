@@ -1,0 +1,250 @@
+Wednesday, November 1, 2000
+
+Gran Turismo 1 Garage Structure (Game Shark Hints)
+
+Threads:
+  Game Shark Hints
+
+<CODES>
+I suddenly realized I did not have any diary entry describing the
+useful garage and other simulation game related addresses, so I
+created this one here.  It contains lots of address I frequently
+refer to when using a <b>GameShark</b>.
+</CODES>
+
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+
+
+Garage Structure:
+
+<HTML INDENT>
+
+<font face="Courier">
+<table width=90%>
+<tr align=top>
+<td valign=top>
+8009B8F0&nbsp;-
+</td>
+<td>
+          a counter of some sort, always increasing in value
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B8F4&nbsp;-
+</td>
+<td>
+        this is your money, in Credits
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B8F8&nbsp;-
+</td>
+<td>
+<p>
+         the current day number
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B908&nbsp;-
+</td>
+<td>
+<p>
+         zero-origin index of the car you are currently using
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009B90A&nbsp;-
+</td>
+<td>
+<p>
+         number of cars in your garage
+</p>
+</td>
+</tr>
+
+
+<tr align=top>
+<td valign=top>
+8009B90C&nbsp;-
+</td>
+<td>
+<p>
+          At this point you find 100 4-byte quantities.
+</p>
+<p>
+          Each of these is the base value of the car in the corresponding
+          garage slot (see below).
+</p>
+<p>
+          These values are stored as the amount in credits, times 100.
+          I tend to refer to this measurement as "Yen", since I believe
+          the Japanese version of the game uses credit values which are
+          100 times those in the North American game.  Alternatively,
+          you can think of them as penny values.
+</p>
+<p>
+          When selling a car, you will get 50% of this value from most
+          dealers, and 60% from the matching dealer.  If this value is
+          zero, the car cannot be sold.  This happens with the B license
+          test prize Concept Car.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009BA9C&nbsp;-
+</td>
+<td>
+<p>
+          Immediately after that (100 x 4 is 400, or 190 hex), you find
+          the 100 garage slot entries describing the cars in your garage.
+          I will not attempt to describe the meaning of those in detail
+          here.
+</p>
+<p>
+          Each garage slot is 96 bytes long, or 60 in hex.  Somewhat
+          conveniently, this is exactly the same amount of data you
+          see in each screen of <b>GameShark</b> Memory Editor.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E01C&nbsp;- 
+</td>
+<td>
+<p>
+         This is the start of the space after the garage.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E190&nbsp;- 
+</td>
+<td>
+<p>
+         From about here to 8009E3AF is a bitmap representing all
+         the parts you have purchased.  I have not managed (nor really
+         given a concerted effort) to decode the precise meaning of each entry here.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E444&nbsp;- 
+</td>
+<td>
+<p>
+        Here you can see 24 bytes of 1's, 2's, and 3's which clearly
+        correspond to you bronze, silver and gold license cups, respectively.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E45C&nbsp;- 
+</td>
+<td>
+<p>
+        The license test records are easily observed here.  If you
+        patch <b>G.T.Gold</b>'s time at the right time, you can cheat
+        your way to a gold medal!
+</p>
+<p>
+        These extend until about 8009E730.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E45C&nbsp;- 
+</td>
+<td>
+<p>
+        Start of B license records.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E95C&nbsp;- 
+</td>
+<td>
+<p>
+        End of IA license records.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+8009E95C&nbsp;- 
+</td>
+<td>
+<p>
+        Here you have 22 bytes corresponding to your best place in each of
+        the 22 simulation mode events, including the Spot Races.
+</p>
+<p>
+        After that is a lot of weird stuff I couldn't figure out.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+800A0E74&nbsp;- 
+</td>
+<td>
+<p>
+        It looks like the Simulation Mode Time Trial Records begin here.
+</p>
+</td>
+</tr>
+
+
+
+</table>
+</font>
+</HTML>
+
+
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

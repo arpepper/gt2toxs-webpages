@@ -1,0 +1,113 @@
+Sunday November 19, 2000
+
+
+(GT1 Version 1.1)  4WD Series Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>4WD Series</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+4WD Event (8008F61C)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090D64</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80090EE4</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F45C</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;800909F8</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090CAC</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D64 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C700</td><td>&nbsp;"rev_mountain"&nbsp;</td><td>(Trial Mountain II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6F8</td><td>&nbsp;"circuit"&nbsp;</td><td>(Grand Valley Speedway)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6EC</td><td>&nbsp;"rev_highway"&nbsp;</td><td>(Special Stage R5 II)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80090EE4 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q1500, 1st5000, champ10000)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">800909F8 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C198</td><td>&nbsp;"mgtmn"&nbsp;</td><td>GTO'95 MR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C210</td><td>&nbsp;"siprn"&nbsp;</td><td>Impreza WRX type R STi Version</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F8</td><td>&nbsp;"mlnon"&nbsp;</td><td>Lancer Evolution III GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0E0</td><td>&nbsp;"sipcn"&nbsp;</td><td>Impreza'96 WG WRX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C110</td><td>&nbsp;"nr34n"&nbsp;</td><td>R33 Skyline GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C178</td><td>&nbsp;"mlnnn"&nbsp;</td><td>Lancer Evolution IV GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C170</td><td>&nbsp;"tcegn"&nbsp;</td><td>Celica GT-Four</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C340</td><td>&nbsp;"nplon"&nbsp;</td><td>Pulsar'91 GTI-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C128</td><td>&nbsp;"slgan"&nbsp;</td><td>Legacy WC GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C288</td><td>&nbsp;"ssvxn"&nbsp;</td><td>Alcyone SVX Version L</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090CAC -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C600</td><td>&nbsp;"s-v4n"&nbsp;</td><td>Alcyone SVX S4</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5F8</td><td>&nbsp;"m-nnn"&nbsp;</td><td>Lancer Evolution IV GSR</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F45C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00016A7F</td><td>&nbsp;1:32.799&nbsp;</td><td>(Trial Mountain II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001C793</td><td>&nbsp;1:56.627&nbsp;</td><td>(Grand Valley Speedway)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00015342</td><td>&nbsp;1:26.850&nbsp;</td><td>(Special Stage R5 II)</td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

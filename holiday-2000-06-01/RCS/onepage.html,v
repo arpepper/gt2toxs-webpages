@@ -1,0 +1,422 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.10.02.17.49.48;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.10.02.17.27.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.06.21.19.22.56;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.06.20.23.39.49;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Will eventually be the real page.
+@
+
+
+1.4
+log
+@Changes to work better in narrow windows.
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<meta name="robots" content="noindex,nofollow">
+  <TITLE>My Richard Petty Driving Experience, Orlando, plus Daytona</TITLE>
+</HEAD>
+<BODY BGCOLOR="yellow" ALINK="blue" VLINK="red">
+
+<table width="100%" bgcolor="#30b0ff" border="0">
+<tr><td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr color="white">
+<td>
+<center>
+<font color="white">
+<h1>My <font color="red">Richard Petty</font> Driving Experience</h1>
+</font>
+</center>
+</td>
+<tr><td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+In early June of 2000, my wife and I took a trip to Florida.
+One of the cities we visited was Orlando, and while we were there
+I took part in the <em>Richard Petty Driving Experience</em>.
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+Here are some photos which document that part of the trip.
+Click on the pictures to get more explanation of them.
+</font>
+</p>
+</td></tr></table>
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption border="0"><font face="Comic Sans MS, Lucida Sans, Helvetica">Practising Before the Trip</font> <img src="../gifs/smile.gif"></caption>
+<tr><td>
+<a href="notes-tmpl/gt1.html">
+ <img src="xvthird/gt1.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+This first picture, taken shortly before our trip, is mostly for the
+benefit of my
+fellow <font color="blue">Gran</font> <font color="red">Turismo</font>
+afficionados.
+</font>
+</p>
+</td></tr></table>
+<br>
+<hr color="#30b0ff">
+
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+The night before, I decided to shave my beard off, and managed to
+get these two photos of that process.
+</font>
+</p>
+</td></tr></table>
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Race Prep, Step 1: No Beard!</font></caption>
+<tr><td>
+<a href="notes-tmpl/nobeard.html">
+ <img src="xvthird/nobeard.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td>
+
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Race Prep, Step 2: Just a Moustache!</font></caption>
+<tr><td>
+<a href="notes-tmpl/moustache.html">
+ <img src="xvthird/moustache.jpg" border="0">
+</a>
+</td></tr></table> </td>
+</tr></table>
+</td>
+</tr></table>
+<br>
+
+
+<hr color="#30b0ff">
+
+<table width="85%"><tr><td width="10%"></td>
+<td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<h2>The Richard Petty Driving Experience</h2>
+<h2>Walt Disney World Speedway, Orlando, Florida</h2>
+</td></tr></table>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Helmet On, Off We Go!</font></caption>
+<tr><td>
+<a href="notes-tmpl/haton.html">
+ <img src="xvthird/haton.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Getting In.  Oops!  Back to the Camera!</font></caption>
+<tr><td>
+<a href="notes-tmpl/backhead.html">
+ <img src="xvthird/backhead.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Best Shot At Speed.  113mph, Maybe!</font></caption>
+<tr><td>
+<a href="notes-tmpl/drive4.html">
+ <img src="xvhalf/drive4.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">All Done!  Steering Wheel Off!</font></caption>
+<tr><td>
+<a href="notes-tmpl/done.html">
+ <img src="xvthird/done.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Getting Out!</font></caption>
+<tr><td>
+<a href="notes-tmpl/getout.html">
+ <img src="xvthird/getout.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Taking Back My Helmet with a Big Grin!</font></caption>
+<tr><td>
+<a href="notes-tmpl/hatoff.html">
+ <img src="xvthird/hatoff.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Hanging Around.</font></caption>
+<tr><td>
+<a href="notes-tmpl/brazil.html">
+ <img src="xvthird/brazil.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Hey!  Carol Alt did this too!!!</font></caption>
+<tr><td>
+<a href="notes-tmpl/carolalt.html">
+ <img src="xvhalf/carolalt.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<hr color="#30b0ff">
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Back to Driving Our Rental Mitsubishi Mirage</font></caption>
+<tr><td>
+<a href="notes-tmpl/mirage.html">
+ <img src="xvthird/mirage.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Another Shot of the Mirage, and the School Buildings</font></caption>
+<tr><td>
+<a href="notes-tmpl/school.html">
+ <img src="xvthird/school.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<br>
+<hr color="#30b0ff">
+<table width="85%"><tr><td width="10%"></td>
+<td><img src="../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<h2>Just Touring Daytona International Speedway</h2>
+<h2>Daytona Beach, Florida</h2>
+</td></tr></table>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Outside Daytona International Speedway.</font></caption>
+<tr><td>
+<a href="notes-tmpl/oldfield.html">
+ <img src="xvthird/oldfield.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Turn 3 At Daytona--Lucky Passenger Going 165mph...</font></caption>
+<tr><td>
+<a href="notes-tmpl/turn3.html">
+ <img src="xvthird/turn3.jpg" border="0">
+</a>
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+</BODY>
+</HTML>
+@
+
+
+1.3
+log
+@Changes I had forgotten about.
+@
+text
+@d9 3
+a11 2
+<table width="100%" bgcolor="#30b0ff">
+<tr>
+d19 1
+a20 1
+<br>
+d23 2
+d54 2
+d72 2
+d109 4
+a112 1
+<table width="85%"><tr><td width="10%"></td><td>
+d221 4
+a224 1
+<table width="85%"><tr><td width="10%"></td><td>
+a231 1
+<caption><font size="-2" face="Comic Sans MS, Lucida Sans, Helvetica">Oldfield Bleachers <b>not</b> like our director's name...</font></caption>
+@
+
+
+1.2
+log
+@Added some anchors.
+border-0 for img to avoid colors of the anchor state
+@
+text
+@d19 19
+d49 13
+d65 9
+a73 3
+<table width="85%"><tr><td width="10%"></td><td>
+<h2>The Richard Petty Driving Experience</h2>
+<h2>Walt Disney World Speedway, Orlando, Florida</h2>
+d75 1
+d102 5
+d111 1
+d113 1
+d119 1
+d121 1
+d131 1
+d133 1
+d142 1
+d144 1
+d150 1
+d152 1
+d162 1
+d164 1
+d181 1
+d183 1
+d194 1
+d196 1
+d202 1
+d204 1
+d221 1
+d223 1
+d229 1
+d231 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d7 1
+a7 1
+<BODY BGCOLOR="yellow">
+d10 1
+a10 1
+<tr color="white">
+d22 1
+a22 1
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Practising Before the Trip</font> <img src="../gifs/smile.gif"></caption>
+d24 3
+a26 1
+ <IMG SRC="xvthird/gt1.jpg">
+d42 3
+a44 1
+ <IMG SRC="xvthird/nobeard.jpg">
+d46 1
+d48 1
+a48 1
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+d51 7
+a57 3
+ <IMG SRC="xvthird/moustache.jpg">
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+d67 1
+a67 1
+ <IMG SRC="xvthird/haton.jpg">
+d73 1
+a73 1
+ <IMG SRC="xvthird/backhead.jpg">
+d83 1
+a83 1
+ <IMG SRC="xvhalf/drive4.jpg">
+d92 1
+a92 1
+ <IMG SRC="xvthird/done.jpg">
+d98 1
+a98 1
+ <IMG SRC="xvthird/getout.jpg">
+d108 1
+a108 1
+ <IMG SRC="xvthird/hatoff.jpg">
+d114 3
+a116 1
+ <IMG SRC="xvthird/brazil.jpg">
+d125 1
+a125 1
+ <IMG SRC="xvhalf/carolalt.jpg">
+d136 1
+a136 1
+ <IMG SRC="xvthird/mirage.jpg">
+d142 1
+a142 1
+ <IMG SRC="xvthird/school.jpg">
+d159 1
+a159 1
+ <IMG SRC="xvthird/oldfield.jpg">
+d165 1
+a165 1
+ <IMG SRC="xvthird/turn3.jpg">
+@

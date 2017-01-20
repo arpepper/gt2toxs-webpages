@@ -1,0 +1,43 @@
+Wed Jun 16, 1999
+
+Utilized Procedures and Quickly Got All International Prize Cars
+
+Threads:
+  Prize Car Patterns
+
+Last night I played some more of the "alternate" game which previously
+won me the yellow ConceptCar.  Here's what happened.
+
+-------------------------------------------------------------------------
+  Day(s)           Car         Event                        Prize Car
+   382-     [R]Griffith500    USvsUK 45to24                 green RX7
+   388-     [R]Griffith500    GT-I q2HSR q2GV               credits
+                                 1st 54to34
+   395-     [R]Griffith500    UKvsJP sweep45to30            red delSol 8-)
+   401-     [R]Griffith500    UKvsJP sweep45to22,21,20,9,8  red delSol 8-(
+   417-     [R]Griffith500    UKvsJP sweep45to22,21,14,14,9 purple Cerbera 8-)
+                                                              8-)  8-)
+   413-     [R]Viper GTS      UKvsUS sweep45to24,23,25,10,8 blue RX7!!! 8-)
+   419         Cr3,142,460   save A5
+-------------------------------------------------------------------------
+
+So that quite quickly finished up the complete set of International
+prize cars.
+
+There were no real surprises this time, although it was a little
+disconcerting getting two red del Sol's in a row.
+
+So now I need to go back to the save before I did the GT-I and see if not
+running and winning it stops you from getting some of the prizes.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

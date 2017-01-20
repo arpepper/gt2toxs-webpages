@@ -1,0 +1,147 @@
+Monday September 6, 1999
+
+Maxed Griffith 500 beats all the Special Models at Grand Valley!
+
+Threads:
+  Car Information
+  Grand Valley 300 Results
+  Race Results
+
+The Griffith 500, in the North American game at least, is certainly
+one of the stars of the game, and it certainly ran away with
+the Grand Valley 300.
+
+In the warm-up GT-I Cup, it swept all races, and missed only the
+pole at DFRW, beating a GTO twinturbo, a GT-R'91, and an NSX-R.
+
+   "real game" day 4246
+   Monday September 6, 1999
+   [R]Griffith 500
+   Grand Valley 300km Endurance Race
+
+   q1st 1:40.578not     Cr20,000
+
+   Results:
+
+   1st  [R]Griffith 500        1-35:34.0<--
+   2nd  [R]GT-R LM              +437.157   (1-42:51.2)
+   3rd  [R]EXIV 200GT           +616.401   (1-45:50.4)
+   4th  [R]Lancer EvolV GSR     +644.254   (1-46:18.3)
+   5th  [R]Lantis TypeR         +755.998   (1-48:10.0)
+   6th  [R]Accord Sedan         +803.072   (1-48:57.1)
+   
+   lap 1   1:41.091
+   pits   14,30,45    
+   fl   (4)  1:31.807
+   slowest  non-pit    (8)  1:38.759
+             next     (25)  1:38.498
+   fastest pit laps   (45in)  1:48.509
+                      (46out) 1:40.693
+   slowest pit laps   (30in)  1:51.190
+                      (31out) 1:41.597
+
+I got the lead from the start, first lapping a car at lap 9.  I had
+lapped almost the whole field by lap 11, so I did not pit at 12, but
+stayed out to build a lead and avoid traffic.  To avoid having to pass
+the GT-R twice, I pitted at lap 14, but, nonetheless, things looked
+good for a three-stop strategy.
+
+I lapped the GT-R for the second time at lap 30, and, for the first
+time since my first race, it took its pit stop at the same time as me!
+It's quite fun watching it in the pits while you are there too.
+
+I lapped the GT-R again on lap 45, and, once again, we took a common
+pit stop.
+
+I lapped the GT-R for a fourth and final time, on the road, on lap 59.
+
+I had quite a few minor incidents, but still set generally consistent
+times.  The time makes this car third only to Concept Cars and
+GTO'95 MR times.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Once again I actually recorded all lap times, as follows:
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+ 1   1:41.091      1:41.091
+ 2   1:34.166      3:15.257
+ 3   1:36.433      4:51.690
+ 4   1:31.807      6:23.497
+ 5   1:35.251      7:58.748
+ 6   1:33.630      9:32.378
+ 7   1:34.120     11:06.498
+ 8   1:38.759     12:45.257
+ 9   1:35.364     14:20.621
+10   1:33.365     15:53.986
+11   1:35.122     17:29.108
+12   1:34.437     19:03.545
+13   1:34.606     20:38.151
+14   1:49.141     22:27.292
+15   1:40.819     24:08.111
+16   1:32.999     25:41.110
+17   1:32.392     27:13.502
+18   1:32.738     28:46.240
+19   1:35.317     30:21.557
+20   1:33.778     31:55.335
+21   1:33.870     33:29.205
+22   1:33.861     35:03.066
+23   1:33.110     36:36.176
+24   1:33.580     38:09.756
+25   1:38.498     39:48.254
+26   1:35.633     41:23.887
+27   1:34.919     42:58.806
+28   1:35.119     44:33.925
+29   1:35.108     46:09.033
+30   1:51.190     48:00.223
+31   1:41.597     49:41.820
+32   1:34.355     51:16.175
+33   1:34.363     52:50.538
+34   1:33.057     54:23.595
+35   1:33.421     55:57.016
+36   1:34.135     57:31.151
+37   1:34.584     59:05.735
+38   1:33.911   1-00:39.646
+39   1:34.881   1-02:14.527
+40   1:33.613   1-03:48.140
+41   1:34.340   1-05:22.480
+42   1:36.069   1-06:58.549
+43   1:37.552   1-08:36.101
+44   1:34.846   1-10:10.947
+45   1:48.509   1-11:59.456
+46   1:40.693   1-13:40.149
+47   1:33.549   1-15:13.698
+48   1:32.518   1-16:46.216
+49   1:33.136   1-18:19.352
+50   1:32.482   1-19:51.834
+51   1:33.895   1-21:25.729
+52   1:34.368   1-23:00.097
+53   1:34.065   1-24:34.162
+54   1:33.800   1-26:07.962
+55   1:33.596   1-27:41.558
+56   1:34.661   1-29:16.219
+57   1:33.470   1-30:49.689
+58   1:35.527   1-32:25.216
+59   1:34.185   1-33:59.401
+60   1:34.670   1-35:34.071
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

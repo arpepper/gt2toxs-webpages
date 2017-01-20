@@ -1,0 +1,10 @@
+#!/bin/csh -f
+foreach f ( $* )
+	if ( "x$f" =~ x*.in ) then
+		set g = `echo $f | sed 's/.in$/.out/g'`
+		echo ./hpcheck $f '>'  $g
+		./hpcheck.pl $f >  $g
+	else
+		echo "${f}: not input"
+	endif
+end

@@ -1,0 +1,190 @@
+Saturday September 18, 1999
+
+Much Reviled Chaser LM Manages to Win at Grand Valley!!
+
+Threads:
+  Prize Car Information
+  Grand Valley 300 Results
+  Race Results
+
+I had previously lost the Grand Valley 300 with the Chaser LM.
+Nobody seemed particularly suprised; many people seemed suprised
+I bothered to try racing this car at all.  Well, I now figure
+mastering this car sits there as a challenge once someone has
+made most of the rest of the game seem easy.
+
+Once you learn to drive, it is capable of winning the USvsJP
+and UKvsJP series, and represents a cheap way of breaking into
+those series and all the wonderful prizes they give.  It
+seems the car could be part of a "minimal" strategy for
+winning all gold race cups, although actually it seems any
+tuned car capable of winning the Tuned ("Abnormal") can win
+the International Series too...
+
+
+   "real game" day 4302
+   Saturday September 18, 1999
+   [R]Chaser LM
+   Grand Valley 300km Endurance Race
+
+   q6th 1:43.694not     Cr20,000
+
+   Results:
+
+   1st  [R]Chaser LM           1-41:21.9<--
+   2nd  [R]GTO twinturbo         +44.864   (1-42:06.8)
+   3rd  [R]Castrol Supra GT      +59.115   (1-42:21.0)
+   4th  [R]Primera'90 2.0Te     +148.976   (1-43:50.9)
+   5th  [R]Lantis TypeR         +403.798   (1-48:05.7)
+   6th  [R]Accord Sedan         +460.579   (1-49:02.5)
+   
+   lap 1   1:46.052
+   pits   10,20,30,40,50
+   fl  (24)  1:37.253
+   slowest  non-pit   (46)  1:41.975
+             next     (13)  1:41.604
+   fastest pit laps   (10in)  1:53.388
+                      (41out) 1:44.653
+   slowest pit laps   (20in)  2:04.606
+                      (51out) 1:45.846
+
+I had an early fight for the lead, and got the lead by lap 5.  I lost
+it on my first pit stop, but regained it by lap 15.  I lost the lead at
+my second pit stop, too, mostly because a severe mishap entering the
+pit lane cost me about ten seconds.
+
+I got the lead again on lap 24, and retained it after my stop on lap
+30.
+
+When I pitted at lap 40, I had caught the Primera, but not quite passed
+it.  The Primera pitted on my lap 43, so I passed it then.
+
+By laps fifty I had a strong, though not enormous, lead, and I
+motored on to a very pleasant victory.  It was nice to win with a car I
+had previously found so difficult to control, especially against a
+reasonably strong field.
+
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Thread: Tuning Advice
+
+I saved the setting. 
+
+           My Settings                     Default
+
+Spring Rate     9.0   4.5                 9.6   4.5
+Ride Height     105   105  (min, min)     128   128
+Dampers          4     4                   4     4
+Camber          2.0   1.0                 2.0   1.0
+Stabilizers      4     4                   3     3
+Brake Balance   12     9                   7     7
+Turbo               4                         4
+        1st       4.400                     3.724
+        2nd       2.318                     2.246
+        3rd       1.656                     1.541
+        4th       1.296                     1.205
+        5th       1.082                     1.000
+        6th       0.925                     0.818
+                  -----                     -----
+        FD        3.300                     3.769
+
+Aero            0.70  0.94                 ?      ?
+            (max, not quite max)
+
+
+After this, I did a few time trials of Grand Valley with a raced-maxed
+FTO GP Version R.  However, I only managed:
+
+            1:49.523   +   1:41.999   =    3:31.522
+
+So I don't think that car is a contender.  Not if I'm driving,
+anyway.   8-)
+
+I did record all sixty lap times for  the Chaser LM, but will not enter
+them at this time, so I can enter one other set of Grand Valley 300
+Results.
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+These are the Eclipse GT times...
+ 1   1:46.768      1:46.768
+ 2   1:38.791      3:25.559
+ 3   1:39.078      5:04.637
+ 4   1:38.558      6:43.195
+ 5   1:39.270      8:22.465
+ 6   1:39.362     10:01.827
+ 7   1:39.528     11:41.355
+ 8   1:39.607     13:20.962
+ 9   1:40.115     15:01.077
+10   1:40.359     16:41.436
+11   1:39.541     18:20.977
+12   1:54.489     20:15.466
+13   1:46.063     22:01.529
+14   1:39.160     23:40.689
+15   1:37.832     25:18.521
+16   1:41.384     26:59.905
+17   1:39.349     28:39.254
+18   1:39.475     30:18.729
+19   1:40.460     31:59.189
+20   1:40.430     33:39.619
+21   1:41.779     35:21.398
+22   1:40.291     37:01.689
+23   1:40.959     38:42.648
+24   1:55.651     40:38.299
+25   1:46.137     42:24.436
+26   1:39.155     44:03.591
+27   1:38.172     45:41.763
+28   1:38.336     47:20.099
+29   1:37.900     48:57.999
+30   1:39.673     50:37.672
+31   1:40.025     52:17.697
+32   1:39.525     53:57.222
+33   1:39.251     55:36.473
+34   1:40.928     57:17.401
+35   1:41.082     58:58.483
+36   1:56.012   1-00:54.495
+37   1:47.088   1-02:41.583
+38   1:39.267   1-04:20.850
+39   1:40.658   1-06:01.508
+40   1:38.878   1-07:40.386
+41   1:38.538   1-09:18.924
+42   1:39.341   1-10:58.265
+43   1:39.283   1-12:37.548
+44   1:40.039   1-14:17.587
+45   1:41.105   1-15:58.692
+46   1:39.767   1-17:38.459
+47   1:40.198   1-19:18.657
+48   1:54.207   1-21:12.864
+49   1:46.325   1-22:59.189
+50   1:40.746   1-24:39.935
+51   1:40.202   1-26:20.137
+52   1:39.278   1-27:59.415
+53   1:40.278   1-29:39.693
+54   1:38.216   1-31:17.909
+55   1:39.839   1-32:57.748
+56   1:39.855   1-34:37.603
+57   1:40.447   1-36:18.050
+58   1:41.119   1-37:59.169
+59   1:40.080   1-39:39.249
+60   1:40.709   1-41:19.958
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+

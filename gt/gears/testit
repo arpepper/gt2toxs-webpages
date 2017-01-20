@@ -1,0 +1,12 @@
+#!/bin/csh -d
+./gears mph= tire=24 rpm=6500 gear=1.0 final=3.3
+./gears mph= tire=6.9 rpm=6500 gear=1.0 final=3.3
+
+echo ====
+./gears mph= tire=24 rpm=4500,6500 gear=1.0 final=3.3
+echo ====
+./gears mph= tire=24 rpm=1500-6500x500 gear=3.2,2.2,1.8,1.4,1.0 final=3.3
+echo ====
+./gears mph=10-100x10 tire=24 rpm=1500-6500x500 gear=3.2,2.2,1.8,1.4,1.0 final=
+echo ====
+./gears mph=25-100x25 tire=20-30x2 rpm=2500-5500x500 gear=3.2,2.2,1.8,1.4,1.0 final=

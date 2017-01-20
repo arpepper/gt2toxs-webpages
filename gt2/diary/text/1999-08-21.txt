@@ -1,0 +1,76 @@
+Saturday August 21, 1999
+
+Race-modded '94 Impreza Wagon WRX Wins at Grand Valley
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Used Car Information
+
+Well, since I'm contemplating buying an Impreza Wagon, I've been
+test-driving the Gran Turismo versions quite a bit lately, although
+I used Dave Connoy's FAQ to pick the one with the best statistics,
+which happens to be the 1994 WRX.
+
+A nice "active red" tuned version won UKvsJP (although I did quite
+badly at Trial Mountain II), and also the Hard-Tuned Series twice
+(though I lost Autumn Ring II both times, but did nicely control and
+win Grand Valley II).  A race-modded version swept all poles and races
+at the GT World Cup, just barely qualifying first at Deep Forest.
+
+So, I decided to try that car in the Grand Valley 300.
+
+   "real game" day 4167
+   [R]Impreza'94 Wagon WRX
+   Grand Valley 300km Endurance Race
+
+   q1st 1:43.248not     Cr20,000
+
+   Results:
+
+   1st  [R]Impreza'94 Wgn WRX 1-36:47.5<--
+   2nd  [R]NSX-R LM GT2        +309.502   (1-41:57.0)
+   3rd  [R]GTO twinturbo       +321.381   (1-42:08.9)
+   4th  [R]Impreza Rly Ed      +418.959   (1-43:46.5)
+   5th  [R]Primera'90 2.0Te    +432.538   (1-44:00.0)
+   6th  [R]Celica GT-Four      +535.169   (1-45:42.7)
+   
+   lap 1   1:43.217
+   pits   12,25,37,50
+   fl  (15)  1:32.801
+   slowest  non-pit   (21)  1:41.322
+             next     (40)  1:37.938
+   fastest pit laps   (25in)  1:54.485
+                      (26out) 1:40.585
+   slowest pit laps   (37in)  1:59.437
+                      (38out) 1:41.915
+
+So, I got the lead at the end of lap one, after bad negotiation of the
+first two hairpins.  I never lost the lead after that.  This was a
+relatively fast field, so it was lap 12 before I first lapped the
+last-placed car.  I lapped the field by lap 20, and delayed my next
+pitstop by one laps in order to keep my lead (I had lost some time on
+lap 21 on the sharp corner before the first tunnel).  The strategy
+worked.  I ended up in a similar situation on lap 49, and staying out
+until lap 50 kept me ahead of cars I had recently passed, and probably
+helped me to lap the entire field three times just before the end.
+
+Nonetheless, my time was not excessively fast, although it was my
+fastest time with any car except the North American Comcept Car
+or a GTO twinturbo.  My usual laps times were 1:34's and 1:35's.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

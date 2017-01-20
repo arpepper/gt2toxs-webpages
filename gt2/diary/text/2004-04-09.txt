@@ -1,0 +1,111 @@
+Friday April 9, 2004
+
+(GT1 version 1.1)  Favourite GameShark Code -- Tuned All Civics
+
+Threads:
+ Game Shark Hints
+
+<CODES>
+
+My current favourite GameShark Code for <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font></html> is
+one which changes the AI field in the <b>Hard-Tuned Series</b> to always
+be all <b>Honda Civics</b>.
+
+Using the address list in <html><a href="2000-11-26.html">November 26, 2000</a></html> I
+want to arrange that the pointer to the entrant list for the <b>Hard-Tuned
+Series</b> points not to the complete list, but to a list consisting
+only of the <b>Honda Civic 3 door</b>.  Since that car occurs last,
+the easiest way to accomplish that is to simply change the pointer to
+point to the <b>Honda Civic 3 door</b> instead of its normal value which
+points to the <b>NSX'93</b>.  </CODES>
+
+That is:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ 8008F5C8 0A40 -- bump Tuned entrant list to be Civic only
+</pre></font></tt>
+</HTML>
+
+<CODES>
+Actually, how that accomplishes this is not all that obvious.  Even to
+me as I read it a few months after creating it.  8-)  My previous page
+indicates that the table for the event begins at <tt><font face="Courier">8008F5BC</font></tt>.  Now,
+the pointer to the list of entrants occurs 3 full words (12 bytes) after
+that, or <tt><font face="Courier">8008F5C8</font></tt>.  We
+only need to change the low-order 16 bits of the word, which, in the
+<b>PlayStation</b> architecture, occur first.
+
+The original value of that full-word pointer location was <tt><font face="Courier">80090A24</font></tt>.
+
+From my previous page...
+
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090A24 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C220</td><td>&nbsp;"hnsrn"&nbsp;</td><td>NSX '93</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1E0</td><td>&nbsp;"tspnn"&nbsp;</td><td>Supra RZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1C8</td><td>&nbsp;"afd7n"&nbsp;</td><td>FD efini RX-7 TypeRZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C130</td><td>&nbsp;"nv34n"&nbsp;</td><td>Skyline GT-R Vspec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0F8</td><td>&nbsp;"nn32n"&nbsp;</td><td>Skyline GT-R Nismo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F8</td><td>&nbsp;"mlnon"&nbsp;</td><td>Lancer Evolution III GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C140</td><td>&nbsp;"tchvn"&nbsp;</td><td>Chaser 25 Tourer V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>&nbsp;"hcvnn"&nbsp;</td><td>Civic 3 door</td></tr>
+</table>
+
+</HTML>
+
+<CODES>
+So, to bump the pointer all the way until it points to the <b>Civic 3
+door</b> we need to add 7*4, or 28(decimal, i.e. 1C hex), to its original value of
+<tt><font face="Courier">80090A24</font></tt>, giving <tt><font face="Courier">80090A40</font></tt>.
+
+To prevent the code from being in effect during times when it shouldn't
+I need a "guard".  The "guard" I happened to use was <tt><font face="Courier">D008C220 6E68</font></tt>.
+This is in fact testing for the value <b>"hn"</b> in that location, checking
+that the code name of the <b>NSX'93</b>  (<b>"hnsrn"</b>) is at that location,
+where it should be during the game mode of "in a race, but not racing".
+It turns out that is sufficient to make sure the code comes into effect
+only when we want it.
+</CODES>
+
+So the complete code is
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ D008C220 6E68 -- test for "hn" (indicates "before race" mode)
+ 8008F5C8 0A40 -- if true, bump Tuned entrant list to be Civic only
+</pre></font></tt>
+</HTML>
+
+<CODES>
+I really enjoy this code because it lets cars like used <b>Eunos Roadsters</b>
+or the <b>del Sol verion S</b> win the <b>Hard-Tuned Series</b>.
+It's relatively easy to win, but at least some of the <b>Civic</b>s in
+each race are quite aggressive, so the series can be somewhat sporting.
+
+It is cheating, but only somewhat as long as you use only very weak cars
+yourself, since concentration is needed to keep competitive.  Myself,
+I never save a game after having used this code, but race these races in
+"temporary" games only.
+
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

@@ -1,0 +1,131 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Sun Apr 18, 1999
+
+Testing My Own Endurance?
+
+Threads:
+  All-Night I Results
+  Grand Valley 300 Results
+  Race Results
+
+Well, after driving that GTO'95 MR, I wanted to make sure I could still
+drive the FR Cerbera LM.  I didn't encounter much problem; I wasn't
+spinning all over the place, but it did take some getting used to and
+I didn't seem to get close to my record times.
+
+A non-record setting sweep of UKvsJP won another red del Sol  8-(.
+I want that red and gray Cerbera LM...  I just don't seem to be
+able to win it.
+
+Thread: All-Night I Results
+Thread: Prize Car Information
+
+Anyway, I decided to try the SSR11 All-Night i with the Cerbera LM,
+to try winning with a non-cheat car.  I consider the Concept Car so
+good it is essentially a cheat to use it.
+
+  SSR11 All-Night i   Cerbera LM
+
+  q1st 1:53.390rec
+
+  1st Cerbera LM        55:33.679not
+  2nd GTO twinturbo       +93.448
+  3rd GT-R LM            +116.942
+  4th IMPREZA RLY Ed     +180.029
+  5th Celica GT-FOUR     +188.173
+  6th Accord Sedan       +284.399
+
+  pits, end of 8,16,23  I don't think I ever lost the lead
+  fl(4)1:45.171not
+  slowest non-pit lap(30) 1:54.608
+  won: Cr150,000 and *red* S14 Sylvia LM Edition
+
+Thread: Grand Valley 300 Results
+
+Well, that was a bit of endurance testing, but I wanted more.  So I
+took the canonical FTO LM to the GV300.
+
+
+  Grand Valley 300    FTO LM
+
+  q1st 1:42.398not
+
+  1st FTO LM            1-39:37.3not
+  2nd NSX-R LM GT2       +159.673
+  3rd GT-R LM            +208.419
+  4th IMPREZA RLY Ed     +238.110
+  5th LANCER EvolV GSR   +395.832
+  6th LANTIS Type R      +508.864
+
+  pits   end of 12,24,36,48;  I never lost the lead
+  fl (15)  1:35.560not
+  slowest non-1st, non-pit lap(47)   1:41.308
+  won:  Cr300,000  and  black/green Castrol Supra GT
+
+If I can, I'll get a time (and possibly placing other than 1st 8-) for all
+LM prize cars and dealer special models at GV300, and perhaps some other
+interesting cars as well, such a hard-tuned, non-racing GTO'95 MR.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d19 3
+d41 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 5
+@

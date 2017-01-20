@@ -1,0 +1,108 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.07.04.45.29;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.36.43;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed obsolete email address.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Licenses - A-2</TITLE>
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Simulation - Licenses<BR>
+A-2
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+
+<I>Reposted with permission from the author
+<A HREF="mailto:lavind1@@us.ibm.com">Duane Laviniere</A>,
+from the rec.games.video.sony
+newsgroup</I>
+<P>
+
+<PRE>
+> I'm doing my A-2 license now and I'd like some advice on how to do
+> that last RIGHT CORNER in the track.  How did you do it?  What speed
+> were you going after slamming the brakes at that last corner? Did you
+> slam it or pumped the brakes?  Did you use the normal brake or the
+> emergency one?
+
+Keep left on the approach down the straight.  As you near the left side
+curb, release the gas and jump on the brakes.  Don't press too long, but
+long enough that you can crank the wheel full right and skid a bit.  You
+should slide the tail enough to angle past the apex of the turn, then
+you should be coasting.  As you reach the apex of the turn, jump on the
+gas and ride it out.  It's really easy once you try it.  Actually, watch
+the demo to figure it out.  
+</PRE>
+
+
+
+<P><BR>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sat Apr  6 23:37:13 EST 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d54 1
+a54 1
+Last modified: Tue Jun  2 13:15:35 EDT 1998
+d57 2
+a58 5
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+
+@

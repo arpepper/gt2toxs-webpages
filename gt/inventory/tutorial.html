@@ -1,0 +1,123 @@
+<html>
+<head><title>Gran Turismo Car Finder Tutorial</title></head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Car Finder</h3>
+</font>
+</td>
+</tr>
+</table>
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+</p>
+<p>
+To contact the author by
+<a href="../email.html">email</a>.
+</p>
+
+</center>
+<hr>
+<p>
+Clicking one of the following items will execute a Car Finder query as if you
+had filled out the form.
+</p>
+<p>
+The filled-in form will be shown on the generated page, after the
+results of the query.  Study it to learn how the query is done.  You
+can modify it to try a slightly different query.
+Note that both form and results look much better if the window is
+reasonably wide.
+</p>
+<ul>
+<!-- would be nice to avoid all these root-relative references -->
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=4&n=0&op=::&v=Nissan&t=and&q=2&n=0&op=%3D&v=50&f=99&f=2&f=3&f=4&f=5&f=7&f=8&r=0&s=3">
+Show all used Nissans available for days 50 to 59.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=5&n=0&op=::&v=Nismo&t=and&q=2&n=0&op=>&v=0&f=99&f=2&f=3&f=4&f=5&f=7&f=8&r=0&s=2&s=3">
+Find those hard-to-find used Nismos in the available data.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=5&n=0&op=::&v=Silvia&t=and&q=2&n=0&op=>&v=0&f=99&f=2&f=4&f=98&r=0&s=2">
+Give a count all used Silvias available on each day in the available data.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=5&n=0&op=::&v=Silvia&t=and&q=2&n=0&op=>&v=0&f=99&f=2&f=4&f=5&f=98&r=0&s=2">
+Give a count of each model of used Silvias available on each day in the available data.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=1&n=0&op=::&v=.&f=98&r=0">
+Give as the count the total number of distinct records in the available data.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=1&n=0&op=::&v=.&f=98&f=1&r=0&s=1">
+Classify those same records according to Sale Type.
+</a>
+<br>
+Note that it is very important to sort by Sale Type to get the desired
+result.
+<br>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=5&q=6.8&n=0&op=>&v=0&f=99&f=4&f=5&f=6.8&r=1&s=6.8">
+Determine the top 5 cars by stock power-to-weight ratio.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=5&q=6.8&n=0&op=>&v=.130&f=99&f=4&f=5&f=6.8&&f=6.3&f=6.5&r=1&s=6.8">
+Get more information about those cars.
+</a>
+<br>
+For efficiency, a lower bound on the power to weight ration must be chosen.
+<li><a href="/~arpepper/cgi-bin/findcar?limit=5&q=6.9&n=0&op=>&v=0&f=99&f=4&f=5&f=6.9&r=1&s=6.9">
+Determine the top 5 cars by tuned power-to-weight ratio.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=5&q=6.9&n=0&op=>&v=.310&f=99&f=4&f=5&f=6.9&&f=6.4&f=6.6&r=1&s=6.9">
+Get more information about those cars.
+</a>
+<br>
+For efficiency, a lower bound on the power to weight ration must be chosen.
+<li><a href="/~arpepper/cgi-bin/findcar?limit=5&q=6.10&n=0&op=>&v=0&f=99&f=4&f=5&f=6.10&r=1&s=6.10">
+Determine the top 5 cars by racing power-to-weight ratio.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=5&q=6.10&n=0&op=>&v=.310&f=99&f=4&f=5&f=6.10&&f=6.4&f=6.7&r=1&s=6.10">
+Get more information about those cars.
+</a>
+<br>
+For efficiency, a lower bound on the power to weight ration must be chosen.
+<br>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=7&n=0&op=::&v=red&t=or&q=7&n=0&op=::&v=white&t=and&q=1&n=0&op=%3D&v=U&t=and&q=6.9&n=0&op=%3E&v=.25&f=99&f=2&f=4&f=5&f=6.9&f=6.4&f=6.6&f=7&f=8&r=1&s=6.9">
+Find white or red used cars which tune to a power-to-weight ratio of more
+than .25
+</a>
+<br>
+Note that when using "or" you probably want it to put it early.
+<li><a href="/~arpepper/cgi-bin/findcar?limit=200&q=7&n=0&op=::&v=red&t=or&q=7&n=0&op=::&v=white&t=and&q=8&n=1&op=%3E&v=10000&q=8&n=0&op=%3E&v=0&t=and&q=6.10&n=0&op=%3E&v=.18&f=99&f=2&f=4&f=5&f=6.10&f=6.4&f=6.7&f=7&f=8&r=1&s=6.10">
+Find white or red starter cars which tune to a racing power-to-weight ratio of more
+than .18
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=20&q=6.1&n=0&op=%3A%3A&v=4wd&t=and&q=8&n=0&op=%3E&v=0&t=and&q=8&n=1&op=%3E&v=10000&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=2&f=3&f=4&f=5&f=6.4&f=6.9&f=6.10&f=7&f=8&r=0&s=2&s=3&s=4&s=5">
+See what 4wd starter cars are available when, and give some stats for them.
+</a>
+<li><a href="/~arpepper/cgi-bin/findcar?limit=20&q=6.1&n=0&op=%3A%3A&v=4wd&t=or&q=5&n=0&op=%3A%3A&v=skyline&t=and&q=8&n=0&op=%3E&v=0&t=and&q=8&n=1&op=%3E&v=10000&t=and&q=2&n=1&op=%3E&v=100&f=99&f=98&f=2&f=3&f=4&f=5&f=6.1&f=6.4&f=6.9&f=6.10&f=7&f=8&r=0&s=2&s=3&s=4&s=5">
+Extend that search to include FR Skylines as well.
+</a>
+<br>
+
+
+</ul>
+
+<p>
+Sorry, this tutorial is not great, but it was easy to do.
+<img src="../../bitmaps/happyfrog.gif" alt="8-)">
+
+<p>
+When you have a form, basically fill in at the top of the form the characteristics, and
+the value you want them to match how.
+The tricky part is selecting the fields you want to see in the result.
+This form makes use of "multiple selection" for those selectors, and
+how to do this varies depending upon the version of the browser you are
+using.  The Netscape we have here on UNIX interprets any mouse selection
+in those lists as a "toggle", while Netscape on my PC requires that
+the "control" key be pressed at the same time to work like that.
+IE on my iMac requires that the "apple" key be pressed.
+The "sort" menus work in a similar fashion, but can be ignored for your
+first queries; output will be sorted by the selected fields.
+</p>
+
+</body>
+</html>

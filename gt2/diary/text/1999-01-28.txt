@@ -1,0 +1,72 @@
+Thu Jan 28, 1999
+
+Finally achieved Hi-Res GT mode
+
+Based on mail to Nick.
+
+Threads:
+  Driving Advice
+
+As you may recall, the last red dot I needed to get was Deep Forest Racing
+Way "B".  I finally did it last night (early this morning actually).
+
+I used the Toyota Soarer.  I finally realized that I was shifting it too
+late.  By shifting earlier I could get more speed up that backstretch
+(the curving straight on the varied tarmac through the two tunnels).
+This allowed me to pass computer cars there, and pass the leader on
+the turn coming out of the second tunnel.
+
+The time I won with (1:28.xx) was not my fastest (I did 1:26 a few times
+before changing my shifting strategy). 
+
+But the trouble seems to be that if you are leading, the computer cars
+get really mad and start driving really fast, and bashing past on the
+inside, etc.  Since they do occasionally miscalculate turns and end up
+losing time on the grass, it can be the case that they go by on your
+inside "too fast", and use you to slow themselves down.  In the process,
+of course, your car gets messed up one way or another.  You either slow
+down too much, or go off onto the grass, or both.
+
+So the key to winning in arcade mode seems to be a strong finish.  On
+Deep Forest Racing Way you need to get the last corner just right so
+you exit fast and right on the outside edge.  The time I won the
+second place car actually did rear-end me but did not attempt to pass.
+
+Most other courses have easier ways for a human to achieve a strong
+finish.  Trial Mountain has that esse that the computer cars take
+completely wrong, for instance.  And Grand Valley has the diddly
+hairpin esse where all sorts of fun things can be done.  But the last
+corner on Deep Forest Racing Way seems to suit the computer
+algorithms better than people.
+
+Another observation I've made is that different fields of cars behave
+very differently.  The cars are automatons.  If you keep retrying with
+the same field, if you drive the same line, they will make the same
+movements.  After a few sessions you can use this to determine how to
+get to the front early.  To win, you seem to need to get near to the
+front, but should not lead the entire way.  You need to get to the
+front to keep the cars grouped close together, but they get too vicious
+if you stay out in front, so you want them close together so you can
+drop back and pass towards the finish.  Until I discovered the proper
+shift pattern for the Soarer, however, I did not think I could pass
+close enough to the finish.  But eventually when I won, I pass the
+second place car for the last time just coming out of the last tunnel.
+
+In some fields of cars, one car consistently zooms to the front and
+stays there.  I don't think one should persist with such a field.
+(Or I shouldn't, anyway).  You seem to have a better chance in a
+field where lead among the other cars changes consistently.
+
+Are white computer cars always fastest?  At times it seems so.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

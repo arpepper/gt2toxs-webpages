@@ -1,0 +1,108 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.30.22.39.17;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix up title for index
+@
+
+
+1.4
+log
+@changes.
+@
+text
+@Tue Mar  2, 1999
+
+Beginning emphasis on cataloging used car inventory.
+
+Threads:
+  Used Car Patterns
+  Used Car Information
+
+Entries will be brief for the next few days (or weeks) as I begin
+catalogin the used car inventory.  Last night as a side-effect of
+doing that I discovered the cheap 4wd car available at day 1, and
+took it out for a test run.
+
+Thread:  Used Car Information
+
+It is a "Fiji Blue" Mitsubishi GTO '92 SR, for only Cr8860.  With
+221bhp, although 3769lb, I managed to win a spot race at Grand Valley
+East after one loss.  However, the Supra which won the first time did
+not show up the second time.  I have not finessed it onto a card with a
+B license, but I think it would be capable of winning the Sunday Cup
+straight out of the box, since the cars at the Sunday Cup seem to try
+harder to let you win than do the Spot Race competitors.
+
+I believe I have read about this car in other web pages.  It does make
+an interesting strategy.  Fully dressed, it could certainly win the
+4wd series, but figures indicate you cannot hop it up enough to be
+a JPvs series contender.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d5 4
+d13 2
+@
+
+
+1.2
+log
+@minor fixes
+@
+text
+@d1 1
+a1 1
+Tue Mar  2 11:28:59 EST 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+@

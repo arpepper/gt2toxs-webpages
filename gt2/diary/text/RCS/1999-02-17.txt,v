@@ -1,0 +1,329 @@
+head	1.7;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	99.07.14.22.39.03;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.06.12.00.03.44;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.30.22.39.17;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix up title for index
+@
+
+
+1.7
+log
+@changes.
+@
+text
+@Wed Feb 17, 1999
+
+Observations while gathering License Test Criteria for a web page.
+
+Threads:
+  License Test Progress
+  Used Car Patterns
+  Tuning Advice
+  Brake Balance Controller
+
+Gotta love that IA-8 gold criterion, specified to .001 second.  1:55.43
+is not good enough!
+
+Thread: License Test Progress
+
+While gathering that data I needed to try license tests, to get access
+to the records.
+
+I passed B-8 and IA-1 on the first try, but failed A-8.
+
+I inferred the IA Bronze times by rounding up my recorded times.  I
+didn't actually try each one.  8-)
+
+Later in the evening while trying to work out the used car stocking
+algorithm, I kept failing A tests.  But I eventually passed each one in
+fairly short order, A-4,A-5,A-3,A-6,A-7 in that order.  I actually got
+a silver on A-7, but didn't save it.  I think I can do it again.  I
+passed my dreaded A-3 by a reasonable margin with manual transmission
+this time.  I seem to subconsciously get more speed out of the initial
+series of turns.  One problem with Gran Turismo, though, is it seems to
+make me tense and nervous when I am driving my real car at highway
+speeds.  I got down to the right second in A-8, but never persisted to
+passing, since I had stayed up too late already.
+
+By the time you're above 1400 days, used car stock only changes every
+10 days, on the 10 days, and all three manufacturers I checked (Toyota,
+Mazda and Honda) changed on the same day.  I think it changes more
+frequently early in the game.  I got that impression when I did a
+similar experiment from a fresh game, but I didn't take any notes.
+Gee, I think I wish I had a laptop if I'm going to make those sort of
+notes in detail.  Which I am very tempted to start doing.
+
+I could be chintzy and put in some second-place best laps too, but I
+think your rule should be that all times shown as 1st, 2nd, 3rd were
+at one time 1st, if you see what I mean.  That is, you should only
+add 1st place times, rolling down previous 1st times to 2nd and 3rd.
+Which quite likely means you'll invalidate my times based on submitted
+but unprocessed data.
+
+Of course I was using highly unsuitable machinery for the races.  8-)
+I gathered the times last night while testing the prize Supra RZ.
+My wife says it is not really gold, but gold is a good enough
+description until someone comes up with a better concise colour
+description.  It has orange or copper tones to the colour, and my
+wife suggested it is sort of an "iridescent pumpkin" colour.
+
+Have you noticed how in some races, especially on the High-Speed Ring, if
+you leave the action going for a long time after the end of the race,
+eventually almost every car will come up behind you and bump your
+bumper before passing, as if it's some sort of congratulatory ritual?
+
+using AltaVista, looking up +Grand +Valley +Speedway, I found
+
+  http://www01.u-page.so-net.ne.jp/da2/ncsi/GTIDC/GVS.html
+
+8-)
+
+The Gran Turismo manual claims Grand Valley is based on a real track
+somewhere, but this set of pages is obviously Japanese Gran Turismo
+pages.   8-)
+
+Searching for "Grand Valley" turns up
+
+   Linkname: GRAND VALLEY CAR CLUB
+        URL: http://granite.sentex.net/~burkhart/gvcchp.html
+
+And, duh.  It's in Kitchener, right next door to Waterloo here.
+And duh.  Yes I realize that I frequently go bicycling along beside
+the Grand River, ie. arguably in the Grand Valley.
+
+Of course, Grand's a fairly common name for a River, like Rio Grande.
+
+But as far as I know the track does not exist around here anywhere.  8-)
+
+Thread: Tuning Advice
+Thread: Brake Balance Controller
+
+I should do some radical comparison tests with brake balance controller.
+
+I was reading
+
+  http://www.cheatcc.com/psx/sg/gran_turismo_ia_class.txt
+
+and it seems to imply that the "brake balance controller" also affects
+the total power of the brakes.  I.e you are not only affecting the
+ratio, you also affect the power.  If 100% brakes is too much at a
+particular setting, I guess this is not a problem, since whatever
+absolute amount you choose above that, you will need to compensate
+by applying less force.  But if you can actually use more than 100%
+braking, you should raise both settings so as to maintain close to
+the same ratio, I guess.  Default is 7/7 which may be significant.
+
+Of course, the FAQ author could have been mistaken in his
+interpretation, hence the need for some testing.
+
+The section
+
+  http://www.ent.ohiou.edu/~albrnick/gt/simulation/modifications/tuning.html#Brakes
+
+doesn't commit itself one way or another on this issue, but, then
+again, I see it is actually from mailto:chmilnir@@worldnet.att.net
+
+Thread: Used Car Patterns
+
+Last night I conducted some experiments to try and determine the used
+car stocking algorithm.
+
+Day 1420, after about 10days of license failures, I was about to give up
+and think your personal "inventory" (cash+license trophies) needed to
+change, when, after about 10 days, and, hmm, on the even 10 day boundary,
+the Honda/Toyota stock I had been checking changed.
+
+-----------------------------------------------------------------------
+
+1420
+   Toyota stock changed massively
+        + 2 more Levin
+        + a Trueno
+        minus 2 Supra MA70 Turbo Limited Edition
+        minus all Supra RZ's
+        + Mark II '92 Tourer S (looks like a piece of junk)
+   Honda similarly stayed the same but changed on the same day
+             cheapest Prelude VTEC went Cr9990 to Cr8630
+                  (probably not same car)
+             fewer NSX?
+
+   (finally passed A4 on 1422, stock did not seem to change  8-) )
+     So I continued, now also noting Mazda  RX7 Cr9770
+
+1430
+   Mazda RX& Cr8310, Cr8970, no Cr9770
+   Toyota  -1 Levin, +1 Supra MA70, +2 Supra RZ, etc.
+         (still no red MA70  8-( )
+   Honda, no cheap Prelude VTEC, '91 CRXsi Cr4700
+1436 - finally passed A-5, yup, no stock changes
+
+1440, sure enough, changes
+   Mazda top RX7 Cr10760, but cheapest Cr9470
+     also quite cheap Eunos Roadster
+   Toyota - whoa! --didn't even fill screen
+     2 Levins, 1  MA70, all that was < Cr10000
+     2 Supra RZ still there
+   Honda 2 del Sol, and '93 Civic 3dr all that was < Cr10000
+
+1445 finally passed A-3 with manual, cleanly at 43.711
+      - didn't keep this, even though it put my total A time under 5:00  8-(
+
+1450
+  Mazda
+     RX7 FC GT-X top, Cr 8940
+     + 3 Eunos Roadster only 4 cars < Cr10000
+  Toyota
+     - a bunch more
+     - finally a red Supra MA70!  yay!  Cr7750
+  Honda
+     - '91 CRX Cr5310
+     6 cars < Cr10000
+     (including 1 Prelude, but not a VTEC)
+     (aside, watch difference between '93 delSol si and '93 delSol s
+                                        125bhp            102bhp
+
+1462  8-)  (forgot to stop license repeats)
+  Mazda
+     RX7 GT-X Cr8870
+     Eunos Roadster '90 V-special Cr9950 (pretty 8-) )
+     3 RX7 < Cr10000, including lighter 212bhp FC-III (vs 202bhp)
+  Toyota
+     5 Supra RZ
+     only two cheap Supra MA70, none red   8-(
+     also 1 Levin, etc
+  Honda
+     2 del Sol si
+     top is '91 CRX si  Cr5290
+       one more Civic is all that's under Cr10000
+     more NSX ?
+
+1470
+  Mazda
+     Eunos '89 normal x2 and 1 RX7 GT-X all that is < Cr10000
+  Toyota
+     Levin, Trueno and black MA70 is all that is < Cr10000
+     only 2 Supra RZ
+  Honda
+     stock looked low
+     two Civics is all that was < Cr10000
+     a few NSX
+
+-----------------------------------------------------------------------
+
+   
+somewhere here, I got a silver in A-7 (whee!) which I also did not keep
+I should be able to do it again, and should be first silver A
+     
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.6
+log
+@more threading
+@
+text
+@d14 2
+d85 3
+d113 1
+@
+
+
+1.5
+log
+@Added threads.
+@
+text
+@d8 2
+@
+
+
+1.4
+log
+@Take advantage of the new "program" indicators to tidy up the
+charts.
+@
+text
+@d5 4
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d111 2
+d185 3
+@
+
+
+1.2
+log
+@minor fixes
+@
+text
+@d1 1
+a1 1
+Wed Feb 17 14:04:00 EST 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+@

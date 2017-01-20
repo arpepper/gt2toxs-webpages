@@ -1,0 +1,62 @@
+Wednesday August 30, 2000
+
+
+Analysis of Two Versions of Gran Turismo 2 CD's Using a PC
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+
+I realized that I had never shown you what the Warranty Replacement
+Simulation Disk (version 1.2) looked like when inspected on a PC.
+So here it is...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+11:59:58 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is DD15-A7A5
+ Directory of G:\
+
+FAULTY   PSX    27,648,000  10-12-99 10:43p FAULTY.PSX
+GT2      OVL       289,752  10-12-99 10:39p GT2.OVL
+GT2      VOL   488,241,152  10-12-99 10:41p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:42p MUSIC.DAT
+SCUS_944 88        628,736  10-12-99 10:43p SCUS_944.88
+SYSTEM   CNF            68  10-12-99 10:39p SYSTEM.CNF
+         6 file(s)    614,726,216 bytes
+         0 dir(s)               0 bytes free
+
+12:00:00 G:\>
+12:00:42 G:\>ls -al
+total 20991
+-r--r--r--   1 N:       anonymou 27648000 Oct 12  1999 faulty.psx
+-r--r--r--   1 N:       anonymou   289752 Oct 12  1999 gt2.ovl
+-r--r--r--   1 N:       anonymou 488241152 Oct 12  1999 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12  1999 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12  1999 scus_944.88
+-r--r--r--   1 N:       anonymou       68 Oct 12  1999 system.cnf
+
+12:00:45 G:\>
+12:01:18 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.88;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+12:01:31 G:\>
+
+</HTML>
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

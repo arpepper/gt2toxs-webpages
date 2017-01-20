@@ -1,0 +1,319 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2002.04.21.21.45.40;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.21.21.23.32;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.14.06.06.49;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Corrected a mistake and re-edited my editorial note about my time correction.
+@
+text
+@Sunday October 29, 2000
+
+I drive tuned Cerbera to a Win in the Real Grand Valley 300
+
+Threads:
+  Gameplay Hints
+  Car Information
+  Grand Valley 300 Results
+  Race Results
+
+
+<CODES>
+So after setting a reasonable time in my unofficial "tuned" Grand
+Valley 300, I observed that the Cerbera could still do with some more
+tuning, and felt that that, together with the practice obtained from
+the other race, would allow me to win the real Grand Valley 300
+with a tuned Cerbera, making it the second tuned car I did that with.
+<hr>
+
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+
+
+   Game: main
+   Day: 5413
+   Date: October 28, 2000
+   Race: Grand Valley 300KM Endurance Race
+   Car: tuned green Cerbera (S/S, no race-mod)
+   Qualified: 6th(+2.053) 1:46.833not   Cr20,000
+   Result: 1st
+   Money: Cr300,000
+   Prize-Car: black/green Castrol Supra GT
+   1st:* Cerbera                1-40:46.0<--
+   2nd:  [R]NSX-R LM GT2          +81.643  (1-42:07.6)
+   3rd:  [R]GTO twinturbo         +90.042  (1-42:16.0)
+   4th:  [R]CASTROL Supra GT      +90.381  (1-42:16.4)
+   5th:  [R]R32GT-R'91            +98.923  (1-42:24.9)
+   6th:  [R]Impreza Rally Ed     +166.316  (1-43:32.3) 1 lap
+
+   Pits: 15,30,45
+   fl(3): 1:36.888
+
+   lap 1: 1:45.894
+   slowest  non-pit   (42)  1:46.172
+             next     (43)  1:45.580
+   fastest pit laps   (30in)  24  1:54.105
+                      (31out) 1:45.452
+   slowest pit laps   (45in)  1:55.433
+                      (16out) 1:46.300
+</pre></font></tt>
+</HTML>
+
+Whoohoo! Whoohoo! Whooohoo!
+
+What a blast!  I won cleanly.  Compared to the previous race, my tires
+lasted longer, allowing me to take one fewer pitstop, but even without
+that advantage I still should have won.
+
+After the start, I moved cautiously up in the first part of the first
+lap, actually getting to fourth as I went by the NSX which had one of
+its not atypical first-lap spinouts on the run from the first to the
+second hairpin.
+
+I got to 3rd past the Impreza at the final dual hairpins, and then
+2nd on the exit, but jostled a bit, taking advantage of the fact that
+one can corner faster off the side of the AI cars.   8-)
+
+I was then chasing the Skyline, but I got the lead by the end of lap 2,
+and after that drew ahead.
+
+At my first stop I kept my lead, so the race was clear sailing from
+then on.  At the end of my second stop I observed the clock to read 50:20, so
+I was well under the 1-41 pace, let alone 1-42.
+
+Laps 42 and 43 were very bad--on one of them I hit that silly fence as
+I entered the half tunnel near the end.
+
+I had lapped the Impreza before stop 3, but it then stayed close behind
+me and unlapped itself temporarily while I was in the pits.
+
+I had the rest of the field in sight by the finish, but did not lap
+any other cars.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Once again I actually recorded all lap times, as follows:
+
+Lucky you!    8-)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:45.894      1:45.894
+ 2   1:37.125      3:23.019
+ 3   1:36.888      4:59.907
+ 4   1:37.575      6:37.482
+ 5   1:38.590      8:16.072
+ 6   1:37.960      9:54.032
+ 7   1:38.481     11:32.513
+ 8   1:38.844     13:11.357
+ 9   1:38.828     14:50.185
+10   1:40.202     16:30.387
+11   1:40.917     18:11.304
+12   1:41.286     19:52.590
+13   1:40.642     21:33.232
+14   1:43.436     23:16.668
+15   1:55.173     25:11.841
+16   1:46.300     26:58.141
+17   1:37.568     28:35.709
+18   1:38.164     30:13.873
+19   1:36.970     31:50.843
+20   1:39.157     33:30.000
+21   1:40.083     35:10.083
+22   1:38.791     36:48.874
+23   1:38.909     38:27.783
+24   1:39.645     40:07.428
+25   1:39.967     41:47.395
+26   1:39.580     43:26.975
+27   1:39.965     45:06.940
+28   1:40.890     46:47.830
+29   1:42.043     48:29.873
+30   1:54.105     50:23.978
+31   1:45.452     52:09.430
+32   1:38.475     53:47.905
+33   1:37.665     55:25.570
+34   1:38.041     57:03.611
+35   1:38.465     58:42.076
+36   1:37.914   1-00:19.990
+37   1:39.861   1-01:59.851
+38   1:39.505   1-03:39.356
+39   1:40.818   1-05:20.174
+40   1:40.547   1-07:00.721
+41   1:39.488   1-08:40.209
+42   1:46.172   1-10:26.381
+43   1:45.580   1-12:11.961
+44   1:42.121   1-13:54.082
+45   1:55.433   1-15:49.515
+46   1:45.797   1-17:35.312
+47   1:38.395   1-19:13.707
+48   1:37.268   1-20:50.975
+49   1:39.326   1-22:30.301
+50   1:37.303   1-24:07.604
+51   1:38.032   1-25:45.636
+52   1:38.750   1-27:24.386
+53   1:39.253   1-29:03.639
+54   1:39.559   1-30:43.198
+55   1:39.221   1-32:22.419
+56   1:40.795   1-34:03.214
+57   1:40.439   1-35:43.653
+58   1:40.363   1-37:24.016
+59   1:40.832   1-39:04.848
+60   1:41.247   1-40:46.095
+
+</pre></font><tt>
+</HTML>
+
+Actual total count was 005C418F, or 6046095 thousandths of seconds,
+which matches.
+[A year-and-a-half later and I have now found and corrected the mistake which
+had previously made me .090 seconds short; I had recorded lap 40 here as
+1:40.457, but my paper records had the correct 1:40.547--GT2XS 2002Apr21]
+
+Here are the settings I used.  I sure took a long time tweaking them.   8-)
+I find this car almost impossible to spin out, so you might want to consider
+using these settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+          My Settings
+
+max parts, but no race-mod
+  
+          S/S tires
+
+Spring Rate     5.1   4.4
+Ride Height      90   100
+Dampers          6     6
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   13    11
+Turbo               0
+        1st       2.850
+        2nd       1.910
+        3rd       1.360
+        4th       1.050
+        5th       0.846
+                  -----
+        FD        3.200
+
+Aero         (0.21  0.29)
+
+</pre></font><tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+@
+
+
+1.2
+log
+@Corrected the year in the records section, and found and corrected a
+mistake in the lap times.
+@
+text
+@d160 5
+a164 4
+Actual total count was 005C418F, or 6046095 thousandths of seconds.
+[A year-and-a-half after and I have now found the mistake which had made
+me .090 seconds short; I had recorded lap 40 here as 1:40.457, but my
+paper records had the correct 1:50.547]
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d29 1
+a29 1
+   Date: October 28, 1999
+d67 1
+a67 1
+I get to 3rd past the Impreza at the final dual hairpins, and then
+d75 1
+a75 1
+then on.  At the end of stop I observed the clock to read 50:20, so
+d82 1
+a82 15
+me and  unlapped itself temporarily while I was in the pits.
+
+At stop two, the (lapped) car immediately behind me stayed very close
+behind me, and passed me as I pitted.
+
+At the half-way point I observed myself to be 8 seconds over a 1-42
+time.
+
+One hour had passed just before my third stop at the end of lap 36,
+and I had lapped the entire field by then.
+
+Mishaps slowed me down immensely on lap 56.  My final time was good
+enough to beat an AI Impreza in the real GV300, but not a "proper"
+field.  But when I went back to look at my settings, I realized I
+had not done an optimal job--there was much room for improvement.
+d135 21
+a155 21
+40   1:40.457   1-07:00.631
+41   1:39.488   1-08:40.119
+42   1:46.172   1-10:26.291
+43   1:45.580   1-12:11.871
+44   1:42.121   1-13:53.992
+45   1:55.433   1-15:49.425
+46   1:45.797   1-17:35.222
+47   1:38.395   1-19:13.617
+48   1:37.268   1-20:50.885
+49   1:39.326   1-22:30.211
+50   1:37.303   1-24:07.514
+51   1:38.032   1-25:45.546
+52   1:38.750   1-27:24.296
+53   1:39.253   1-29:03.549
+54   1:39.559   1-30:43.108
+55   1:39.221   1-32:22.329
+56   1:40.795   1-34:03.124
+57   1:40.439   1-35:43.563
+58   1:40.363   1-37:23.926
+59   1:40.832   1-39:04.758
+60   1:41.247   1-40:46.005
+d161 3
+a163 2
+
+So I'm .090 seconds short.  I can't find my mistake.  Oh well...
+@

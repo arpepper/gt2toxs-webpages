@@ -1,0 +1,263 @@
+Tuesday December 05, 2000
+
+(GT1 Version 1.1)  I Finally Find the GameShark Addresses for The Used Car Lots!
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Along the way while cataloguing the race parameters, I eventually
+figured out how the <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+used car lots work!
+
+I felt sort of dumb when I finally found them, because, right in
+front of them is the string <b>USEDCAR</b>!  8-)
+
+
+The weird thing was, the organization was not much like I had imagined
+it would be.
+
+Each "car" in the lot is represented by a four-byte structure.
+
+</CODES>
+<HTML INDENT>
+<dl>
+<dd>PP PP GG CC</dd>
+<dd><dl>
+<dd>PP PP - 2 byte price, divided by 10</dd>
+<dd>GG - 1 byte "garage code"</dd>
+<dd>CC - 1 byte colour, but not like in garage</dd>
+</dl>
+</dd>
+</dl>
+</HTML>
+<CODES>
+The colour code is more like that used in <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">2</font>.
+Odd values seem to cause the car to disappear from its lot.
+Valid values seem to be even values from about hex 60 to about E2.
+
+Now, there are 60 inventories in total, since the used-car lots change every
+10 days, repeating the cycle on day 600. For each inventory,
+there are six collections of
+such car information, one for each of the Japanese manufacturers.
+<b>Toyota</b> is always first.  Each collection has a count of the
+number of cars, followed by that many cars.  A rather difficult-to-explain
+structure in front of the lots allows the game to quickly find the six
+correct lots for any given day.
+
+Indeed, using a <b>GS Pro</b>, if you find the lots for the day you are
+dealing with (one easy thing to do is patch the day counter location to a value
+between 1 and 9, so that the game is using the first inventory), you
+can patch one of the car codes to (almost) any car you want.   That
+car will then appear in that slot of that used car lot, and you will be
+able to purchase it for the used price.  You can patch the price, too,
+if you want.  If the colour code is not appropriate for the car, the
+game seems to manage to assume a suitable default colour for each
+particular car.
+
+Special models do not show up if their value is patched into the lot, but
+LM prize cars do, and you seem to be able to purchase a fully-functional
+LM prize car this way.
+
+Several of the hidden cars, such as the <b>Corvette'67</b> can be made visible
+in the lots this way, but they lock the game if you purchase them.  8-(
+
+Here are the garage codes you can use, subject to the above caveats.
+
+</CODES>
+
+<HTML INDENT>
+<table border bgcolor="white">
+<tr><td>00</td><td>Toyota Starlet Glanza V</td></tr>
+<tr><td>01</td><td>Toyota Levin BZ-G</td></tr>
+<tr><td>02</td><td>Toyota Sprinter Trueno BZ-G</td></tr>
+<tr><td>03</td><td>Toyota Corona EXIV 200GT</td></tr>
+<tr><td>04</td><td>Toyota Celica SSII</td></tr>
+<tr><td>05</td><td>Toyota Celica GT Four</td></tr>
+<tr><td>06</td><td>*Toyota 1992 Mark II 2.5 Tourer V</td></tr>
+<tr><td>07</td><td>Toyota 1992 Mark II 2.5 Tourer S</td></tr>
+<tr><td>08</td><td>Toyota Chaser 2.5 Tourer V</td></tr>
+<tr><td>09</td><td>Toyota Chaser 2.5 Tourer S</td></tr>
+<tr><td>0A</td><td>Toyota 1995 Soarer 2.5 GT-T</td></tr>
+<tr><td>0B</td><td>*Toyota Soarer 2.5 GT-T VVT-I</td></tr>
+<tr><td>0C</td><td>Toyota MR2 G-Limited</td></tr>
+<tr><td>0D</td><td>Toyota MR2 GT-S</td></tr>
+<tr><td>0E</td><td>*Toyota 1995 Supra SZ-R</td></tr>
+<tr><td>0F</td><td>Toyota 1995 Supra RZ</td></tr>
+<tr><td>10</td><td>Toyota Supra SZ-R</td></tr>
+<tr><td>11</td><td>Toyota Supra RZ</td></tr>
+<tr><td>12</td><td>Toyota Supra 3.0 GT Limited</td></tr>
+<tr><td>13</td><td>Toyota Supra twinturbo R</td></tr>
+<tr><td>14</td><td>Toyota Corolla Levin 1600GT Apex</td></tr>
+<tr><td>15</td><td>Toyota Sprinter Trueno GT-Apex</td></tr>
+<tr><td>16</td><td>Toyota CASTROL Supra GT</td></tr>
+<tr><td>17</td><td>Toyota Sprinter Trueno GT-Apex (duplicate)</td></tr>
+<tr><td>18</td><td>*Toyota Chaser LM (Black)</td></tr>
+<tr><td>19</td><td>*Toyota Celica SS II (Yellow)</td></tr>
+<tr><td>1A</td><td>*Toyota Soarer 2.5 GT-T VVT-I (Red/Maroon)</td></tr>
+<tr><td>1B</td><td>*Toyota Supra RZ (Brown)</td></tr>
+<tr><td>1C</td><td>*Toyota TRD 3000GT (Silver)</td></tr>
+<tr><td>1D</td><td>*Toyota CASTROL Supra GT (Black)</td></tr>
+<tr><td>1E</td><td>Nissan Fairlady Z Version S 2by2</td></tr>
+<tr><td>1F</td><td>Nissan Fairlady Z Version S twinturbo 2by2</td></tr>
+<tr><td>20</td><td>Nissan Fairlady Z Version S 2 Seater</td></tr>
+<tr><td>21</td><td>Nissan Fairlady Z Version S twinturbo 2 Seater</td></tr>
+<tr><td>22</td><td>Nissan 1989 Skyline GT-R (Silver)</td></tr>
+<tr><td>23</td><td>Nissan 1991 Skyline GT-R</td></tr>
+<tr><td>24</td><td>Nissan Skyline GT-R V-Spec</td></tr>
+<tr><td>25</td><td>Nissan Skyline GT-R V-Spec II</td></tr>
+<tr><td>26</td><td>*Nissan Nismo Skyline GT-R (Black)</td></tr>
+<tr><td>27</td><td>Nissan Skyline GTS-T Type M</td></tr>
+<tr><td>28</td><td>Nissan Skyline GTS25 Type S</td></tr>
+<tr><td>29</td><td>Nissan Skyline GTS-4</td></tr>
+<tr><td>2A</td><td>Nissan Skyline GTS25T Type M</td></tr>
+<tr><td>2B</td><td>Nissan 1995 Skyline GT-R</td></tr>
+<tr><td>2C</td><td>Nissan 1995 Skyline GT-R V-Spec</td></tr>
+<tr><td>2D</td><td>Nissan Skyline GT-R</td></tr>
+<tr><td>2E</td><td>*Nissan Skyline GT-R V-Spec</td></tr>
+<tr><td>2F</td><td>Nissan Silvia Q'S Aero</td></tr>
+<tr><td>30</td><td>Nissan Silvia K'S Aero</td></tr>
+<tr><td>31</td><td>Nissan 1995 Silvia Q'S Aero</td></tr>
+<tr><td>32</td><td>Nissan 1995 Silvia K'S Aero</td></tr>
+<tr><td>33</td><td>Nissan 1991 Silvia Q'S 2000CC</td></tr>
+<tr><td>34</td><td>Nissan 1991 Silvia K'S 2000CC</td></tr>
+<tr><td>35</td><td>Nissan 1988 Silvia Q'S 1800CC (Aqua/Grey)</td></tr>
+<tr><td>36</td><td>Nissan 1988 Silvia K'S 1800CC (Aqua/Grey)</td></tr>
+<tr><td>37</td><td>Nissan 1990 Primera 2.0 TE</td></tr>
+<tr><td>38</td><td>Nissan 1995 Primera 2.0 TE</td></tr>
+<tr><td>39</td><td>*Nissan 1994 180SX Type X</td></tr>
+<tr><td>3A</td><td>Nissan 180SX Type X</td></tr>
+<tr><td>3B</td><td>Nissan 180SX Type S</td></tr>
+<tr><td>3C</td><td>Nissan 1994 Pulsar GTI-R</td></tr>
+<tr><td>3D</td><td>*Nissan Nismo GT-R LM (racing)</td></tr>
+<tr><td>3E</td><td>Nissan Skyline GT-R (Burgundy)</td></tr>
+<tr><td>3F</td><td>*Nissan Nismo 400R (Silver)</td></tr>
+<tr><td>40</td><td>*Nissan Nismo GT-R LM (Silver)</td></tr>
+<tr><td>41</td><td>*Nissan Silvia Q'S 1800CC (Burgundy)</td></tr>
+<tr><td>42</td><td>*Nissan Silvia LM (Red)</td></tr>
+<tr><td>43</td><td>*Nissan SIL Eighty (Yellow)</td></tr>
+<tr><td>44</td><td>Mitsubishi 1992 GTO</td></tr>
+<tr><td>45</td><td>Mitsubishi 1992 GTO twinturbo</td></tr>
+<tr><td>46</td><td>Mitsubishi 1995 GTO SR</td></tr>
+<tr><td>47</td><td>Mitsubishi 1995 GTO twinturbo</td></tr>
+<tr><td>48</td><td>Mitsubishi 1995 GTO twinturbo MR</td></tr>
+<tr><td>49</td><td>Mitsubishi GTO SR</td></tr>
+<tr><td>4A</td><td>Mitsubishi GTO twinturbo</td></tr>
+<tr><td>4B</td><td>Mitsubishi GDI Galant VR-G Touring</td></tr>
+<tr><td>4C</td><td>Mitsubishi VR-4 Galant</td></tr>
+<tr><td>4D</td><td>Mitsubishi Eclipse (Black)</td></tr>
+<tr><td>4E</td><td>Mitsubishi 1994 FTO GR</td></tr>
+<tr><td>4F</td><td>Mitsubishi 1994 FTO GPX</td></tr>
+<tr><td>50</td><td>Mitsubishi FTO GR</td></tr>
+<tr><td>51</td><td>Mitsubishi FTO GPX</td></tr>
+<tr><td>52</td><td>Mitsubishi FTO GP-R Version</td></tr>
+<tr><td>53</td><td>Mitsubishi Lancer Evolution III GSR</td></tr>
+<tr><td>54</td><td>Mitsubishi Lancer Evolution II GSR</td></tr>
+<tr><td>55</td><td>Mitsubishi Mirage Asti RX</td></tr>
+<tr><td>56</td><td>Mitsubishi 1992 3000R Mirage Cyborg-R</td></tr>
+<tr><td>57</td><td>Mitsubishi GTO LM (Grey)</td></tr>
+<tr><td>58</td><td>*Mitsubishi FTO LM (Black)</td></tr>
+<tr><td>59</td><td>*Mitsubishi Lancer Evolution IV GSR(Yellow)</td></tr>
+<tr><td>5A</td><td>Acura 1990 NSX</td></tr>
+<tr><td>5B</td><td>Acura 1992 NSX-R</td></tr>
+<tr><td>5C</td><td>Acura NSX</td></tr>
+<tr><td>5D</td><td>Acura NSX Type S</td></tr>
+<tr><td>5E</td><td>Acura NSX Type S-Zero</td></tr>
+<tr><td>5F</td><td>Honda 1991 Prelude SI</td></tr>
+<tr><td>60</td><td>Honda 1991 Prelude SI VTEC</td></tr>
+<tr><td>61</td><td>Honda Prelude SIR</td></tr>
+<tr><td>62</td><td>Honda Prelude Type S</td></tr>
+<tr><td>63</td><td>Acura Integra SIR-G</td></tr>
+<tr><td>64</td><td>Acura Integra Type R</td></tr>
+<tr><td>65</td><td>Honda Civic Ferio SI-II</td></tr>
+<tr><td>66</td><td>Honda Civic SIR II</td></tr>
+<tr><td>67</td><td>Honda Civic Type R</td></tr>
+<tr><td>68</td><td>Honda 1992 CR-X Del Sol VXI</td></tr>
+<tr><td>69</td><td>Honda 1992 CR-X Del Sol SIR</td></tr>
+<tr><td>6A</td><td>*Honda CR-X Del Sol VGI</td></tr>
+<tr><td>6B</td><td>*Honda CR-X Del Sol SIR</td></tr>
+<tr><td>6C</td><td>Honda 1993 Civic SIR II</td></tr>
+<tr><td>6D</td><td>*Honda 1993 Civic Ferio SIR</td></tr>
+<tr><td>6E</td><td>*Honda CR-X SIR</td></tr>
+<tr><td>6F</td><td>Honda Accord SIR</td></tr>
+<tr><td>70</td><td>Honda Accord Wagon SIR</td></tr>
+<tr><td>71</td><td>Acura NSX-R LM GT2(Red)</td></tr>
+<tr><td>72</td><td>*Honda CR-X Del Sol LM (Black)</td></tr>
+<tr><td>73</td><td>*Honda CR-X SIR (Black)</td></tr>
+<tr><td>74</td><td>*Honda Civic Type R (Yellow/Black)</td></tr>
+<tr><td>75</td><td>Mazda Eunos Cosmo 13B Type-S CCS</td></tr>
+<tr><td>76</td><td>Mazda Eunos Cosmo 20B Type-E CCS</td></tr>
+<tr><td>77</td><td>Mazda Lantis Type R 2000 4 Door Coupe</td></tr>
+<tr><td>78</td><td>Mazda 1989 Eunos Roadster 1600</td></tr>
+<tr><td>79</td><td>Mazda 1990 Eunos Roadster 1600 V-Special</td></tr>
+<tr><td>7A</td><td>Mazda 1992 Eunos Roadster 1600 S-Special</td></tr>
+<tr><td>7B</td><td>Mazda Eunos Roadster</td></tr>
+<tr><td>7C</td><td>Mazda Eunos Roadster V-Special</td></tr>
+<tr><td>7D</td><td>Mazda Eunos Roadster S-Special</td></tr>
+<tr><td>7E</td><td>Mazda 1991 efini RX-7 Type R</td></tr>
+<tr><td>7F</td><td>Mazda efini RX-7 Type RZ (Black)</td></tr>
+<tr><td>80</td><td>Mazda efini RX-7 Type RB Bathhurst</td></tr>
+<tr><td>81</td><td>Mazda efini RX-7 Touring X</td></tr>
+<tr><td>82</td><td>Mazda efini RX-7 A-Spec</td></tr>
+<tr><td>83</td><td>Mazda Savanna RX-7 GT-X</td></tr>
+<tr><td>84</td><td>Mazda Savanna RX-7 Infiniti III</td></tr>
+<tr><td>85</td><td>Mazda Demio GL-X</td></tr>
+<tr><td>86</td><td>Mazda Demio GL</td></tr>
+<tr><td>87</td><td>Mazda Demio LX</td></tr>
+<tr><td>88</td><td>Mazda RX-7 LM (Red)</td></tr>
+<tr><td>89</td><td>Mazda Eunos Roadster (Yellow)</td></tr>
+<tr><td>8A</td><td>*Mazda Demio A-Spec (Silver)</td></tr>
+<tr><td>8B</td><td>*Mazda RX-7 A-Spec LM (Green)</td></tr>
+<tr><td>8C</td><td>Subaru Alcyone SVX Version L</td></tr>
+<tr><td>8D</td><td>Subaru Alcyone SVX S4 (Silver)</td></tr>
+<tr><td>8E</td><td>Subaru Legacy RS Touring Sedan</td></tr>
+<tr><td>8F</td><td>Subaru Legacy GT-B Touring Sedan</td></tr>
+<tr><td>90</td><td>Subaru Legacy RS Touring Sedan</td></tr>
+<tr><td>91</td><td>Subaru 1993 Legacy GT Touring Wagon</td></tr>
+<tr><td>92</td><td>Subaru Impreza WRX Type R STI Version</td></tr>
+<tr><td>93</td><td>Subaru 1996 Impreza WRX</td></tr>
+<tr><td>94</td><td>Subaru 1996 Impreza WRX STI Version III</td></tr>
+<tr><td>95</td><td>Subaru 1996 Impreza WRX Sports Wagon (Silver)</td></tr>
+<tr><td>96</td><td>Subaru 1996 Impreza WRX Sports Wagon WRX STI Version III</td></tr>
+<tr><td>97</td><td>Subaru 1995 Impreza WRX STI Version II</td></tr>
+<tr><td>98</td><td>Subaru 1995 Impreza Sports Wagon WRX STI Version II</td></tr>
+<tr><td>99</td><td>Subaru 1994 Impreza WRX</td></tr>
+<tr><td>9A</td><td>Subaru 1994 Impreza WRX (Silver)</td></tr>
+<tr><td>9B</td><td>Subaru Impreza Rally Edition (Black)</td></tr>
+<tr><td>9C</td><td>*Subaru Alcyone SVX S4</td></tr>
+<tr><td>9D</td><td>*Subaru 1996 Impreza WRX STI Version III (Brown)</td></tr>
+<tr><td>9E</td><td>Aston Martin DB7 Coupe (Silver)</td></tr>
+<tr><td>9F</td><td>Aston Martin Volante (Silver)</td></tr>
+<tr><td>A0</td><td>*Aston Martin DB7 Coupe</td></tr>
+<tr><td>A1</td><td>Chrysler Viper RT/10 (Red)</td></tr>
+<tr><td>A2</td><td>Chrysler Viper GTS (Red)</td></tr>
+<tr><td>A3</td><td>*Chrysler Concept Car (Orange)</td></tr>
+<tr><td>A4</td><td>*Chrysler Viper GTS-R</td></tr>
+<tr><td>A5</td><td>*Chrysler Concept Car (Yellow)</td></tr>
+<tr><td>A6</td><td>Chevrolet 1996 Corvette Grand Sport (Blue)</td></tr>
+<tr><td>A7</td><td>Chevrolet 1996 Corvette Coupe</td></tr>
+<tr><td>A8</td><td>Chevrolet Camaro Z28</td></tr>
+<tr><td>A9</td><td>*Chevrolet Camaro Z28 30th Anniversary Edition</td></tr>
+<tr><td>AA</td><td>TVR Cerbera</td></tr>
+<tr><td>AB</td><td>TVR Griffith 500 (Black)</td></tr>
+<tr><td>AC</td><td>TVR Griffith Blackpool B340</td></tr>
+<tr><td>AD</td><td>*TVR Cerbera LM (Grey/Burgundy)</td></tr>
+<tr><td>AE</td><td>*Mazda Eunos Roadster Arcade</td></tr>
+<tr><td>AF</td><td>*Mazda Eunos Roadster RS</td></tr>
+<tr><td>B0</td><td>*Chevrolet 1967 Corvette 427 Coupe</td></tr>
+</table>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

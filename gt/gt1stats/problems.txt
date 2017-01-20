@@ -1,0 +1,13 @@
+Fri Dec 26 19:39:55 EST 2003
+- "monaco silver" should be "colton red"; fixed Fri Dec 26 20:24:35 EST 2003
+Fri Dec 26 19:39:55 EST 2003
+- colours of new Skylines wrong
+- must add midnight purple pearl to GT-R & GT-R Vspec
+- fixed Fri Dec 26 20:39:33 EST 2003
+
+
+
+JScript(?) problems:
+- need \r in front of every newline
+- cannot create arbitrary property of element of document
+- apparently cannot use a reference?

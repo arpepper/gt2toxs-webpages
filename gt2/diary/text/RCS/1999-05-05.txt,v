@@ -1,0 +1,133 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Wed may 5, 1999
+
+del Sol LM Edition Wins at Grand Valley
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Prize Car Information
+
+Well, the del Sol LM Edition got the job done, but it didn't do as well
+in the Grand Valley 300 as I had thought it might.
+
+   del Sol LM Edition (red)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:42.851not     Cr20,000
+
+   Results:
+
+   1st  del Sol LM Edition 1-40:01.5<--
+   2nd  R32GT-R'91          +130.491   (1-42:12.0)
+   3rd  GTO twinturbo       +139.897
+   4th  CELICA GT-FOUR      +345.332
+   5th  LANTIS TypeR        +494.162
+   6th  ACCORD Sedan        +532.037
+   
+   lap 1   1:48.040
+   pits   12,24,36,48
+   fl  (27)  1:34.000
+   slowest  non-pit    (8)  1:42.643
+             next     (20)  1:41.568
+   fastest pit laps   (48in)  1:54.292
+                      (37out) 1:42.764
+   slowest pit laps   (12in)  1:56.931
+                      (13out) 1:44.960
+
+I got off to a slow start, as you can tell from the first lap time.
+The Skyline appeared to go off very strongly, with the twin turbo
+right behind it.  I was third a lot before the first pit stop,
+although I was jostling strongly for second by lap 3.  I had
+just barely caught up to first place when it was time for my first
+pit stop.
+
+I was clearly in control after the second pit stop, holding the lead
+from then on, and lapping the entire field eventually.
+
+I had no real disasters in the race, but at least one near one.  I'm
+not sure how I managed to turn the one 1:34.000; I had very few laps
+even below 1:36 apart from that.
+
+Afterwards I did a two lap Grand Valley time trial, creating a ghost
+very close (on the same second; 3:11.XXX for two laps) to the Cerbera
+LM.
+
+Essentially, the del Sol LM seems to be a difficult car to drive
+consistently very well, although it is an easy car to drive
+consistently not badly.  So it's strange that it could not come
+closer to the 1-38 time I managed with the Cerbera LM.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+The next Grand Valley 300 entrant will be the race-modded Supra RZ;
+the Normal Car Series prize car.  It turns out that Supra cannot be
+made quite as powerful as one you buy from the dealer!  But even
+so, running between 779 and 897hp, it is a handful to control.
+
+Early tests indicated it might beat my Cerbera LM time, but now I am
+not so sure.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d8 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 4
+@

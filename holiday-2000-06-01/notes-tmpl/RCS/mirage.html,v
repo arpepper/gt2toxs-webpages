@@ -1,0 +1,219 @@
+head	1.6;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2011.11.14.21.09.06;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.10.02.17.26.02;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.10.02.16.19.04;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.10.02.15.49.23;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.10.02.15.14.53;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.02.15.12.39;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Use psfull for image.
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<meta name="robots" content="noindex,nofollow">
+  <TITLE>My Richard Petty Driving Experience, Orlando, plus Daytona</TITLE>
+</HEAD>
+<BODY BGCOLOR="yellow">
+
+<table width="100%" bgcolor="#30b0ff" border="0">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr color="white">
+<td>
+<center>
+<font color="white">
+<h1>My <font color="red">Richard Petty</font> Driving Experience</h1>
+</font>
+</center>
+</td>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td align="left">
+<font size="-1">
+<a href="carolalt.html">&lt;&lt;-- prev photo</a>
+</font>
+</td>
+<td align="center">
+<center>
+<font size="-1">
+<a href="../">[main page]</a>
+</font>
+</center>
+</td>
+<td align="right">
+<font size="-1">
+<a href="school.html">next photo &gt;&gt;</a>
+</font>
+</td>
+</tr>
+</table></td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+<hr>
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+<table bgcolor="white" align="bottom"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Back to Driving Our Rental Mitsubishi Mirage</font></caption>
+<tr><td>
+ <IMG SRC="../psfull/mirage.jpg">
+</td></tr></table> </td></tr></table>
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+No comments yet!
+</font>
+</p>
+</td></tr></table>
+</td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+</table>
+<br>
+
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td align="left">
+<font size="-1">
+<a href="carolalt.html">&lt;&lt;-- prev photo</a>
+</font>
+</td>
+<td align="center">
+<center>
+<font size="-1">
+<a href="../">[main page]</a>
+</font>
+</center>
+</td>
+<td align="right">
+<font size="-1">
+<a href="school.html">next photo &gt;&gt;</a>
+</font>
+</td>
+</tr>
+</table></td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+<hr>
+
+</BODY>
+</HTML>
+@
+
+
+1.5
+log
+@This will do for tolerating narrow windows.
+Only problem is it now seems to put in a left margin even in a
+narrow window.
+@
+text
+@d58 1
+a58 1
+ <IMG SRC="../xvthird/mirage.jpg">
+@
+
+
+1.4
+log
+@Make the navigation gadgets obey my minimum width.
+@
+text
+@d49 3
+a51 1
+<table width="85%"><tr><td width="15%"></td>
+d55 1
+a55 1
+<table bgcolor="white"> <tr><td bgcolor="white"><table>
+d68 3
+@
+
+
+1.3
+log
+@Make the page header obey a minimum width.
+@
+text
+@d23 3
+a25 1
+<table width="85%"><tr><td width="15%"></td>
+d44 2
+d69 3
+a71 1
+<table width="85%"><tr><td width="15%"></td>
+d90 2
+@
+
+
+1.2
+log
+@remove reference to old onepage.html
+@
+text
+@d9 2
+a10 1
+<table width="100%" bgcolor="#30b0ff">
+d19 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d30 1
+a30 1
+<a href="../onepage.html">[main page]</a>
+d72 1
+a72 1
+<a href="../onepage.html">[main page]</a>
+@

@@ -1,0 +1,148 @@
+Mon Mar 1, 1999
+
+Young Children and Gran Turismo
+
+Threads:
+  Other Games
+  Crash Bandicoot
+  License Test Progress
+  Children
+  Used Car Patterns
+  Race Results
+
+Thread: Children
+
+So last Saturday I stayed with my 7-year-old nephew and his younger
+brother and their father while their mother went shopping with my
+wife.  The plan was for my nephew and I to play lots of Gran
+Turismo.  Preferably, for my nephew to play a lot.
+
+First plan, take my saved game with B license and Cr10000 and enter
+Sunday Cup, with me doing the two races and my nephew the High Speed
+Ring.  Went flawlessly at first.  He actually won at the High Speed
+Ring, no racing tires; I had bought but not installed the stabilizers.
+I'm not sure if I'd done any weight reduction or not.
+
+So, we race a little more and get Cr35000, so I buy a Cerbera LM from
+my regular card and, oh dear, he really can't make use of all that
+extra power.  So I demonstrate how you can use it to finish all three
+Sunday Cup races so far ahead all cars are still "Running..." before
+the next screen comes up.  This gives me some more money to try plan B,
+and soup up the Supra a bit, definitely a bit of weight loss, racing
+tires and a racing exhaust, and I installed the stabilizers.  That's
+it.  No extra turbo.  I remember when I was learning, the racing tires
+made the car seem impossible to lose control of.  I tried the car out,
+and, I guess, I ran the Autumn Mini Ring (my nephew probably practised a
+couple of test run laps).  But then the High Speed Ring comes, and he
+now can't keep control of this car either.  Out of curiosity and
+young-type boredom he tried racing Grand Valley East as well.  He used
+some interesting theory of running through the inside of the hairping
+to avoid the gravel.  But, yes, he found the entire course very
+difficult and came last.  And I was perplexed anyway because it did
+not seem that I could soup that car up to be a close to guaranteed
+winner for him.
+
+We switched to trying to get blue dots in arcade mode.  But that didn't
+really work, either.  I ended up doing most of the racing and all of
+the winning.  I actually left some A class for him at one point,
+but he told me to finish them up for us.
+
+Actually, his main contribution was to persuade me to switch rather
+than fight, and stop trying to beat the '67 Corvette at Trial Mountain
+with a Mitsubishi GTO Twin-turbo.  Sure enough, I managed to slide the
+'67 Corvette around to a win.
+
+He actually ended up interested in the license tests.  He thought the
+B-license final must be impossible after trying it, though.  So I
+demonstrated a winning technique, squeaking in with .111 to spare after
+announcing in the esses that I was probably going to fail.
+
+He sort of got into the start/stop tests, and even the cornering tests,
+but could not actually pass any of them.  He actually managed to
+develop some technique of getting around the B-4 corner without using
+his brakes, or squealing his tires.   I.e. he gradually decelerated
+with the throttle.  It looked very tidy, but was about .5 seconds too
+slow.  It's difficult to explain the concept of late braking.
+
+At one point we had tried two-player arcade mode, but I don't know what
+the best way to do that is, without obviously throwing it.  I suppose
+two-player mode might be able to demonstrate late braking, if we ever
+stayed together enough.  I had realized that two-player mode would be a
+problem, but had not thought beyond that to a proper solution to the
+problem.  Pick Eunos Roadster or something like that for myself seems
+like the best idea.  I forget what car pairs we tried.  I think
+"handicap" was set to "low", almost certainly I should have made it
+"high".  Problem is you can't set the handicap to always be against one
+player.  It's always against the leader, so if I do fall behind, I get
+help catching up too...
+
+Thread: Crash Bandicoot
+
+Anyway, sometime during the license tests my wife returned with her
+sister and a brand-new copy of "Crash Bandicoot 3", so no more Gran
+Turismo got played in that house that day.
+
+On Sunday I played some more.
+
+I'm still uncomfortable with Mitsubishi GTO twin turbo, and couldn't
+beat my own GVEii Time Trial with it.
+
+Thread: Used Car Patterns
+
+I bought another mega memory card, and have recorded days 20 to 250 at
+10 day intervals, to examine car stock.
+
+I did license tests to run up the days. To keep track of which day I'm
+on, I flip through a 10-card "deck" of playing cards, just A to 10.
+
+Thread: License Test Progress
+
+I got B in 16days (1&2 are the problems, a little trouble with 8).
+I got A in 61days.
+
+After that picked a test to better for ten days, ending up with
+
+            B GSBSSSSB  4:32.XXX (I think)
+            A SSBBBBSB  4:58.XXX (I think)
+
+I could not get gold on A-7 for some reason.
+
+It looked like there always a Black Mica Supra and a High-Tech Two Tone
+Levin (white).
+
+*But* I later observed that that that Levin went away on day 1610,
+coming back on 1620.
+
+I never saw any '67 Corvette at the Chevy dealer.
+
+I ran a fairly disastrous USvsJP with prize RX7 LM.  I came 6th at
+Trial Mountain ii after losing it at the end while in 2nd.  I was in
+contention at SSR11, but could not get it together.
+
+Thread: Race Results
+
+I took my Celica 4wd to 4wd Championship.  I did win the series, but
+with some help.
+
+I had nice win at Trial Mountain ii, and a nice controlled win at Grand
+Valley i (You can always get back two first in the half-tunnel after
+the bridge).  The competitors had split the points, so I only needed 2
+points to win the series, and, indeed I got the required 5th place at
+SSR5ii--couldn't get enough speed out of car on that circuit, and so
+won 20 to 19.
+
+Oh well, this was a nice consolation prize.  When I first put that car
+together (trade value Cr99,960), it did not seem competitive at all,
+now I can win with it (as you can tell, it is not maxed).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

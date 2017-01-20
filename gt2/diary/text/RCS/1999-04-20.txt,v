@@ -1,0 +1,122 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Tue Apr 20, 1999
+
+Ectoplasm Green S14 Silvia LM Results at Grand Valley 300
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+
+  Grand Valley 300KM Endurance Race
+  Ectoplasm Green [R]S14 Silvia LM
+
+  q1st  1:43.152not  pp Cr20,000
+
+  1st   [R]Silvia LM        1-39.05.0not
+  2nd   [R]R32GT-R'91        +189.994
+  3rd   [R]IMPREZA RLY Ed    +266.319
+  4th   [R]Celica GT-Four    +402.793
+  5th   [R]LANTIS TypeR      +543.009
+  6th   [R]ACCORD SEDAN      +588.613
+
+  Notes: completely spun once
+    therefore        slowest non-pit lap(43)  1:45.669
+    next slowest  (wheels on gravel) lap(33)  1:41.246
+    first lap  1:43.596
+    fl(39)1:34.628not
+
+  Pits  12,24,36,48
+
+  won Cr300,000   plus   black/blue Castrol Supra GT
+
+Thread: Prize Car Information
+
+This Silvia is a delight to drive.  Although the engine sound is
+whiney, acceleration is reasonable, and control through steering and
+throttle is predictable.  I actually posted a slightly better time
+than I did with the FTO LM, which is by many recommended highly for
+this race.
+
+Tomorrow's GV300 entrant will hopefully be  [R]NSX-R LM GT2 (i.e. Honda
+Special Model), so I raced it today in UKvsJP for practice.  I lost TM
+(came 4th), but won the rest, winning 39 to 28.  This is an easy car to
+screw up the settings on.  It seems to contradict Jet Jaguar's
+assertions that the overly "stabilized" end of the car is the one which
+will lift a wheel, too; it seems to lift a rear wheel if you run with
+lower rear than front stabilizer.
+
+The view from behind of this car is not very good.  Even standing
+still, it doesn't look very realistic, and the portrayal of the
+handling reminds one of earlier racing games where your car
+more-or-less rotated, as if on a slot-car peg, when you steered, so
+that it would (or would not) stay on the road which ribboned towards
+it.
+
+However, the car does handle well.  It seems especially sensitive to
+running over obstacles, such as the rumble strips inside turns, but
+on the other hand you can make it avoid them with a precision you
+don't even try to attain with other cars.  (Okay, *I* don't even
+try to attain with other cars).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d31 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 4
+@

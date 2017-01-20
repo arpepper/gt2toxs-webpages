@@ -1,0 +1,538 @@
+  1 Volkswagen Lupo 1.4'02 (yellow; "Fantasiagrun")(prize,BlicenseB)
+  2 Pontiac Sunfire GXP Concept'02 (Shadow Black)(prize,AlicnseB)
+  3 Nike One 2022 (prize,IBlicenseB)
+  4 Nissan Silvia K's '88 (Lime Green Two-tone) (Cr6,600,used)
+  5 Autobianchi A112 Abarth'79 (Metalized Dark Grey)
+  6 Nismo 270R'94 (prize,IAlicenseB)
+  7 Nissan Skyline 2000GT-B (S54A) '67 (Ivory Mist)
+  8 Nissan SilEighty '98
+  9 Toyota RSC Rally Raid Car '02
+ 10 TVR Griffith 500 '94 (Blue Pearlescent) (Cr20,555,used)
+ 11 Fiat 500R '72 (Turquoise Farfala) (Cr5,494,used)
+ 12 Mazdaspeed 6 '05  (Radiant Ebony Mica)
+ 13 BMW 120D  (Sydneyblau) (Cr33,000,new)
+ 14 BMW 2002 Turbo '73  (Taija Metallic (green))
+ 15 TVR V8S '91 (Silver Stardust Metallic) (Cr20,789,used)
+ 16 Jaguar E-Type Coupe '61  (Mist Grey)
+ 17 TVR Cerbera Speed Six '97  (Cosmos Blue Metallic) (Cr51,921,used)
+ 18 Mercedes-Benz SLR McLaren '03 (Crystal Galaxit Silver) (Cr610,000,new)
+ 19 Mercedes-Benz CLK Touring Car '00
+ 20 AMG Mercedes CLK-GTR Race Car '98
+ 21 Peugeot 206 316 '99  (Tangerine) (Cr11,535,used)
+ 22 Mitsubishi Lancer Evo VII GSR '02 (French Blue) (Cr19,486,used)
+ 23 Jaguar E-Type Coupe '61 (Mist Grey) (Cr42,290,trade)
+ 24 Mercedes-Benz Benz Patent Motor Wagen 1886
+ 25 Mitsubishi HSR-II Concept '89
+ 26 Renault 5 Turbo '80 (Olympic Blue)
+ 27 Mercedes-Benz Daimler Motor Carriage 1886
+ 28 Lotus Elise Sport 190 '98 (Mustard Yellow) (Cr32,635,used)
+ 29 Subaru Impreza Sport Wagon STi '00 (Pure White) (Cr19,486,used)
+ 30 Mercedes SL600 (R129) '98 (Malachit(green))  (Cr136,376,used)
+ 31 Dodge RAM 1500 pickup (Deep Molten Red Pearl Coat) (Cr37,930,new)
+ 32 TVR Griffith 500 '94 (Crimson Starmist) (Cr29,365,used)
+ 33 Nissan Skyline GT-R Vspec LM Limited '96 (Champion Blue) (Cr26,950,used)
+ 34 Chevrolet Silverado SST Concept '02 (Nippon Poppy Red)
+ 35 Toyota Motor Triathlon Race Car '04  (Orange Metallic)
+ 36 Mitsubishi CZ-3 Tarmac '01
+ 37 Autobianchi A112 Abarth'79 (Metalized Dark Grey)
+ 38 Mercury Cougar XR-7 '67 (Fawn) (Cr16,547,used)
+ 39 Jensen Interceptor MkIII '74 (Oakland Green) (Cr29,644,used)
+ 40 Mitsubishi Galant (Colt) GTO MR '70 (Himalayan Blue) (Cr7,629,used)
+ 41 Toyota Celica GT-FOUR Rally Car (ST205) '95
+ 42 Lotus Europa Special '71  (Roman Purple)
+ 43 Volvo 240 GLT Estate '88 (Light Blue Metallic)
+ 44 Mercedes-Benz 300SL Coupe '54  (White Grey)
+ 45 Nissan Fairlady 2000 '68 (Red) (Cr19,249,used)
+ 46 Chrylser Prowler '02 (Silver Metallic)
+ 47 Jensen Interceptor MkIII '74 (Garnet) (Cr29,644,used)
+ 48 Renault Megane 2.0IDE Coupe '00 (Vert Vertigo) (Cr13,300,used)
+ 49 Nissan 350Z Concept LM Race Car '02
+ 50 BMW M3 CSL '03  (Silbergrau Metallic)  (Cr113,610,new)
+ 51 BMW M3 GTR '03
+ 52 Lancia DELTA HF Integrale Evoluzione '91 (White)  (Cr23694,used)
+ 53 Honda S800 RSC Race Car '68
+ 54 Subaru 360 '58 (Sand Beige) (Cr36,000,new)
+ 55 Mazda Carol 360 Deluxe '62 (Lyon Blue/Pastor Grey) (Cr13,474,used)
+ 56 Ginetta G4 '64 (Lotus Yellow)
+ 57 Mitsubishi Eclipse GT '95  (Pyrenees Red) (Cr7516,used)
+ 58 DMC DeLorean S2 '04 (prize,Missions1-10)
+ 59 DMC DeLorean S2 '04 (Cr36,073) (prize,Missions1-10,trade)
+ 60 Mitsubishi Mirage Cyborg ZR '97  (Satellite Silver) (Cr9540,used)
+ 61 Mazda Mazda6 Concept '01  (Ultimo Rosso)
+ 62 Mazda RX-8 Concept (Type-I) '01 (Camelia Red)
+ 63 Mazda Mazda 6 Touring Car '02
+ 64 Subaru Impreza Super Touring Car '01
+ 65 Mitsubishi i '03  (i Concept Purple)
+ 66 Renault Avantime '02 (Jaune(special color))
+ 67 Citroen 2CV Type A '54 (Gris Bleu)
+ 68 Lotus Esprit Turbo HC '87
+ 69 Audi Nuvolari quattro '03 (Luna Silver) (prize,25%)
+ 70 Auto Union V16 Type C Streamliner '37
+ 71 Honda Life Step Van '72 (Epoch White)
+ 72 Jaguar XJ220 LM Race Car '01
+ 73 Subaru Impreza Coupe 22B-STi '98  (Sonic Blue Mica) (Cr25,000,used)
+ 74 Lotus Motor Sport Elise '99 (Light Green) (Cr97,180,new)
+ 75 Minolta Toyota 88C-V Race Car '89
+ 76 Honda NSX-R Prototype LM Race Car '02
+ 77 Lotus Elise Type 72 '01 (Starlight Black Metallic)
+ 78 Audi A3 3.2 Turbo (Piedmont Red Pearl Effect) (Cr42,490,new)
+ 79 Audi Pikes Peak quattro '03 (Polar Silver)
+ 80 BMW M3 GTR Race Car '01
+ 81 Citroen 2CV Type A '54 (peche(special color))
+ 82 Nissan Option Stream Z '04
+ 83 Lotus Elise Sport 190 '98 (Titanium Metallic) (Cr32,635,used)
+ 84 Subaru Legacy Touring Wagon GT-B '96 (Deep Red Mica)(Cr15,665,used)
+ 85 Mazda 110S (L10B) '68  (Swan White) (Cr84,079,used)
+ 86 Daihatsu Midget II D-type '98 (Red) (Cr2870,used)
+ 87 Daihatsu Midget '63 (Midget Blue)
+ 88 Audi TT Coupe 3.2 quattro '03 (Berry Pearl Effect) (Cr57,740,new)
+ 89 Audi Le Mans quattro '03  (Jet Blue)
+ 90 Audi Le Mans quattro '03  (Jet Blue)
+ 91 Citroen 2CV Type A '54 (peche(special color))
+ 92 Daihatsu Midget '63 (Midget Green)
+ 93 Jaguar E-Type Coupe '61  (Opalescent Dark Green Metallic)
+ 94 Toyota Celica 1600GT (TA22) '70 (Green Mica Metallic) (Cr8364)
+ 95 Daihatsu Midget '63 (Midget Blue)(dup)
+ 96 Nissan Silvia (CSP311) '65  (Green Altia Metallic) (Cr15,749)
+ 97 Subaru 360 '58  (WR Blue Mica)
+ 98 Subaru 360 '58  (WR Blue Mica)
+ 99 Isuzu Bellett 1600 GT-R '69 (Maple Orange) (Cr14,699)
+100 Isuzu 117 Coupe '68 (Maple Orange(special))
+101 Chaparral 2D Race Car '67
+102 Chaparral 2D Race Car '67
+103 Ford GT40 Race Car '69
+104 Dodge Charger Super Bee 426 Hemi '71 (Willow Green)
+105 TVR Cerbera Speed Six '97  (Chameleon Orange) (Cr39,940,used)
+106 TVR Cerbera Speed 12 '00  (Chameleon (special))
+107 Honda NSX-R Concept '01  (Championship White)
+108 Mazda MX-5 Miata 1800RS (J) '04 (Classic Red) (Cr23,500,new)
+109 Mazda RX-7 LM Race Car '01 (yellow)
+110 Mazda MX-Crossport '05 (K2 Red)
+111 Dodge Charger Super Bee 426 Hemi '71 (Citron Yella)
+112 Subaru Impreza Rally Car Prototype '01
+113 Ford RS200 Rally Car '85
+114 Cadillac Cien '02
+115 Mazda BP Falken RX-7 (D1GP) '03
+116 RUF  CTR2 '96  (Dark Green)   (Cr297,110)
+117 RUF GTR "Yellow Bird" '87
+118 Cizeta V16T '94 (Cizeta Canary)
+119 Ford GT LM Race Car Spec II '04
+120 Formula Gran Turismo '04 (white)
+121 Nissan Motul Pitwork Z (JGTC) '04
+122 Alfa Romeo Guila Sprint Speciale '63 (Bianco Gardenia)
+123 Alfa Romeo 155 2.5 V6 TI '93
+124 Lotus Europa Special '71  (Carnival Red)
+125 Lotus Elan S1 '62   (Carnival Red)
+126 Lotus Elan S1 '62   (Carnival Red)
+127 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Zypressengrun/Togaweiss)
+128 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Chromblau)
+129 Nissan R390 GT1 Race Car '98 (black) (Cr2,924,999,used)
+130 Toyota GT-ONE Race Car '99 (black) (Cr2,924,999,used)
+131 Mazda 787B Race Car '91 (black) (Cr1,224,999,used)
+132 Nissan R92CP Race Car '92 (black) (Cr1,224,999,used)
+133 Renault Clio Sport V6 24V '00 (black) (Cr32,837,used)
+134 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Chromblau)
+135 Nissan March G# '99 (Sparkling Orange)  (Cr8501,used)
+136 Nissan mm-R Cup Car '01  (yellow #25)
+137 Clio Renault Sport Trophy V6 24V Race Car '00 (silver #3)
+138 Audi R8 Race Car '01  (silver/red #1)
+139 Clio Renault Sport Trophy V6 24V Race Car '00 (red #5)
+140 VW New Beetle Cup Car '00 (Chartreuse #23) (Cr50,000,new)
+141 Volkswagen Beetle 1100 Standard (Type-11) '49 (Schwarz)
+142 Volkswagen Golf GTI '05 (Tornadrot Uni) (Cr32,750,new)
+143 Peugeot 206 Rally Car '99 (Cr750,000,new)
+144 Volkswagen Golf GTI '76 (Schwarz)
+145 Jaguar XJR-9 Race Car '88 (prize,50%)
+146 Peugeot 205 Turbo 16 Rally Car '85
+147 Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (White)
+148 Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Metallic Silver)
+149 Bentley Speed 8 Race Car '03
+150 Toyota Prius G (J) '02 (Super White II) (Cr14,819,used)
+151 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Pirolgelb/yellow)
+152 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Sunset)
+153 BMW M3 GTR '03
+154 Nissan 240ZG (HS30) '71  (Grand Prix White)
+155 Alpine A310 1600VE '73 (Bleu Alpine)
+156 Alpine A110 1600S '73 (Bleu Alpine)
+157 Mitsubishi Lancer 1600 GSR Rally Car '74
+158 Toyota RSC '01  (silver)
+159 Renault 5 Maxi Turbo Rally Car '85
+160 Ford GT Concept '02  (yellow)
+161 Lancer Evolution Super Rally Car '03 (Cr1,250,000,new)
+162 Toyota RSC '01  (blue)
+163 BMW M3 GTR '03
+164 Honda NSX'99 (Lime Green Metallic) (Cr46,035,used)
+165 Nismo 400R '96 (Super Clear Red II)
+166 BMW M Coupe '96 (Alpenweiss) (Cr39,450,used)
+167 Honda NSX Type S Zero '99 (Lime Green Metallic) (Cr49,285,used)
+168 Nismo GT-R LM Road Going Version (silver)
+169 Mazda RX-8 Concept LM Race Car '01
+170 Mazda 110S (L10A) '67  (Chamonix White)
+171 Acura HSC '04  (ailver)
+172 Mercury Cougar XR-7 '67 (Jamaican Yellow)(prize,SlicenseB)
+173 Spoon Civic Type R (Sunlight Yellow) (Cr75,000,new)
+174 Honda Mugen Motul Civic Si Race Car '87
+175 Chevrolet Camaro Z28 Coupe '97 (Cayenne Red Metallic) (Cr12,055,new)
+176 Chevrolet Corvette Convertible (C1) '54 (Polo White)
+177 Mazda RX-7 Type R Bathurst R (FD) '01 (Innocent Blue Mica) (Cr22,086,used)
+178 Mercedes-Benz CLK Touring Car '00
+179 Mercedes-Benz 300SL Coupe '54  (Light Blue)
+180 Volkswagen W12 Nardo Concept '01
+181 Pagani Zonda LM Race Car '01
+182 Chevrolet Chevelle SS 454 '70 (Shadow Gray Metallic)
+183 Chevrolet Camaro IROC-Z Concept '88
+184 Chevrolet Camaro IROC-Z Concept '88
+185 Plymouth Super Bird '70 (Sahara Tan Metallic)
+186 Plymouth Super Bird '70 (Lime Light)
+187 AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
+188 Toyota Sprinter Trueno GT-Apex (AE86) Shuichi Shigeno Version '00  (Cr26,250,used)
+189 Toyota Vitz RS Turbo '02 (Super Red V) (Cr8880,new)
+190 Toyota Vitz RS Turbo '02  (Orange Metallic(special color))
+191 Honda Accord Coupe '88 (Graphite Gray Metallic) (Cr9099,used)
+192 Honda Civic 1500 3door 2Si '83 (Greek White) (Cr4161,used)
+193 Chevrolet Corvette Z06 '00 (Torch Red) (Cr53,570,new)
+194 Chevrolet Corvette Z06 (C2) Race Car '63
+195 Chevrolet Camaro LM Race Car '01 (blue)
+196 Honda N360 '67 (Ivory White)  (Cr12,599,used)
+197 Lotus Esprit V8-SE (Racing Green Metallic)(Cr75,965,used)
+198 Mitsubishi FTO Super Touring Car '97 (black)
+199 Lister Storm V12 Race Car '99
+200 Nissan 92CP Race Car '92
+201 Honda N360 '67 (Greek White)  (Cr12,599,used)
+202 Ginetta G4 '64 (Mars Red)
+203 Fiat 500F '67 (Blue Scuro) (Cr7,259,used)
+204 HPA Motorsports Stage II R32 '04  (Cr31,870,tuner)
+205 Nissan Skyline 1500 Deluxe (S500-1) '63 (Light Brown Metallic) (Cr12,879,used)
+206 Honda NSX-R Prototype LM Road Car '02
+207 Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Silver Metallic)
+208 Nissan 350Z Concept LM Race Car '02
+209 Honda CR-X del Sol SiR '92 (Samba Green Pearl) (Cr8550,used)
+210 Volkswagen Beetle 1100 Standard (Type-11) '49 (Perlgrau)
+211 Alfa Romeo 147 GTA '02 (Rosso Alfa)  (Cr48,040,new)
+212 Alfa Romeo Guilia Sport GTA 1600 '65 (Rosso Alfa)
+213 Alfa Romeo Guilia Sport GTA 1600 '65 (Rosso Alfa)
+214 Triumph Spitfire 1500 '74 (Java) (Cr17,200,new)
+215 Triumph Spitfire 1500 '74 (Maroon Metallic(special color))
+216 Aston Martin V8 Vantage '99 (British Racing Green)(Cr224,000,used)
+217 Volkswagen Lupo 1.4'02 (Reflexsilber Metallic) (Cr15,490,new)
+218 Toyota RSC Rally Raid Car '02
+219 Mitsubishi Lancer EX 1800GSR IC Turbo '83 (Atlantic Blue) (Cr9376,used)
+220 Mazda MX-5 Miata 1800RS (J) '04 (Titanium Gray Metallic II) (Cr23,500,new)
+221 Volkswagen Lupo 1.4'02 (yellow; "Fantasiagrun")(Cr13,166,trade)
+222 Toyota Supra 2.5GT Twinturbo R '90 (Red Mica) (Cr11,458,used)
+223 Honda Z Act '70 (Caroline Yellow) (Cr5529,used)
+224 Subaru Impreza Sport Wagon STi (GC,Type-I) '00 (Midnight Black Mica) (Cr14,990,used)
+225 Toyota Starlet Glanza V '97 (Purplish Blue Mica Metallic) (Cr7150,used)
+226 Toyota Supra RZ '97 (Super Red IV) (Cr21,950,used)
+227 Nissan Calsonic Skyline GT-R Race Car '93
+228 MG MGF '97 (Volcano(orange)) (Cr14,283,used)
+229 Mazda 787B Race Car '91 (black) (Cr1,224,999,used)
+230 Nissan R92CP Race Car '92 (black) (Cr1,224,999,used)
+231 Nissan R390 GT1 Race Car '98 (black) (Cr2,924,999,used)
+232 Toyota GT-ONE Race Car '99 (black) (Cr2,924,999,used)
+233 Toyota Vitz U Euro Sport Edition '00 (Black Mica) (Cr8371,used)
+234 Toyota Celica 2000 GT-Four (ST165) '86 (Super Red II) (Cr10,415,used)
+235 Nissan EXA Canopy L.A. Version Type S (N13) '88 (Cranberry Red Pearl) (Cr5183,used)
+236 Toyota Celica GT-Four RC (ST185) '91 (Super Red II) (Cr11,098,used)
+237 Alfa Romeo 156 2.5 V6 24V '98 (Azzurro Novola Iridescente) (Cr20,115,used)
+238 Toyota Celica GT-Four (ST205) '98 (Super Red IV) (Cr16,510,used)
+239 Aston Martin Vanquish '04 (Sutherland Red) (Cr238,750,new)
+240 Aston Martin DB9 Coupe '03 (Super Gold)special color))
+241 Mini Cooper S '02  (Chili Red) (Cr26,790,new)
+242 Mini Marcos GT '70 (British Racing Green)
+243 MG MGF '97  (Yellow(special color))
+244 Citroen 2CV Type A '54 (Gris Bleu)
+245 Ford GT LM Race Car '02
+246 Citroen 2CV Type A '54 (peche(special color))
+247 Renault Avantime '02 (Jaune(special color))
+248 Citroen 2CV Type A '54 (Gris Bleu)
+249 Opel Speedster '00 (British Racing Green)(Cr44,690,new)
+250 Volvo 240 GLT Estate '88 (Beige Metallic)
+251 Mercedes-Benz Benz Patent Motor Wagen 1886
+252 Mercedes-Benz Benz Patent Motor Wagen 1886
+253 Suzuki Cappuccino (EA21R) '95 (Antares Red) (Cr7290,used)
+254 Renault Megane 2.0IDE Coupe '00 (Jaune Tournesol) (Cr17,289,used)
+255 Honda S800 RSC Race Car '68
+256 Honda S800 RSC Race Car '68
+257 Shelby Series 1 Super Charged '03 (silver/red stripes) (Cr184,630,new)
+258 Shelby Mustang G.T. 350R '65
+259 Toyota Sprinter Trueno GT-Apex '83  (Cr5375,used)
+260 Chrysler Crossfire  (Blaze Red Crystal Clear Coat) (Cr35,670,new)
+261 Dodge Viper GTSR Concept '00
+262 Saleen S7 '02  (Speedlab Yellow) (Cr419,130,new)
+263 Nike One 2022
+264 Fiat 500L '69 (Giallo Positano) (Cr6502,used)
+265 Suzuki Alto Works Suzuki Sport Limited '97 (Super White) (Cr5575,used)
+266 Suzuki Concept-S2 '03 (Milan Red Pearl)
+267 Hyundai Tiberon GT '01 (Rally Red) (Cr33,020,new)
+268 Hyundai Clix '01
+269 Daihatsu Midget '63 (Midget Green)(dup)
+270 Daihatsu Copen Active Top '02 (Jonu Yellow)(Cr14,980,new)
+271 Daihatsu Storia X4 '00 (Emerald Green Metallic(special color))
+272 Lexus IS300 Sport Cross '01 (Super Red V)(Cr29,600,new)
+273 Toyota Altezza Touring Car '01 (blue trim)
+274 Mitsubishi Lancer Evolution GSR '92 (Colton Red) (Cr9582,used)
+275 Suzuki GSX-R/4 '01 (GSX-R/4 Red Metallic)
+276 Mercedes-Benz 300SL Coupe '54  (White Grey)(dup)
+277 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Kirshrot)
+278 Daihatsu Move Custom RS Limited  (Champagne Metallic Opal) (Cr15,720,new)
+279 Ginetta G4 '64 (Cirrus White)
+280 Ford GT LM Race Car Spec II '04
+281 Nissan Bluebird 1600 Deluxe (S10) '69 (Jamaican Beige Metallic) (Cr8994,used)
+282 Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Silver Metallic)(dup)
+283 Minolta Toyota 88C-V Race Car '89
+284 Lotus Motor Sport Elise '99 (Light Blue) (Cr97,180,new)
+285 TVR Cerbera Speed 12 '00  (Chameleon (special))
+286 Renault 5 Turbo '80 (Grenade(red)) (Cr26,074,used)
+287 Jaguar E-Type Coupe '61  (Pearl Grey)
+288 Jaguar E-Type Coupe '61  (Opalescent Silver Blue Metallic)
+289 Jaguar E-Type Coupe '61  (Cotswold Blue)
+290 Toyota Celica XX 2800 GT '81 (Super White) (Cr8130,used)
+291 Jaguar E-Type Coupe '61  (Opalescent Dark Blue Metallic)
+292 Peugeot 406 3.0 V6 Coupe '98  (Bleu Hyperion) (Cr29,249,used)
+293 Alfa Romeo 166 2.5 V6 24V '98  (Aurora Nuvola Iridescente) (Cr38,161,used)
+294 Jaguar E-Type Coupe '61  (Opalescent Dark Green Metallic)(dup)
+295 Jaguar E-Type Coupe '61  (Carmen Red)
+296 Jaguar E-Type Coupe '61  (Claret)
+297 Jaguar E-Type Coupe '61  (Opalescent Gunmetal)
+298 Honda S500 '63 (Scarlet)  (Cr21,874,used)
+299 Honda S800 '66 (Golden Yellow)  (Cr20,299,used)
+300 Jaguar E-Type Coupe '61  (Cream)
+301 Opel Tigra 1.6i '99 (Brokatgelb) (Cr14,570,used)
+302 Jaguar E-Type Coupe '61 (Sherwood Green)(Cr43,290,trade)
+303 Jaguar E-Type Coupe '61 (Opalescent Silver Grey Metallic)(Cr43,290,trade)
+304 Jaguar E-Type Coupe '61 (Sherwood Green)(dup)
+305 Honda NSX Type R '92 (Formula Red) (Cr33,974,used)
+306 Jaguar E-Type Coupe '61 (Imperial Maroon)(Cr43,290,trade)
+307 Jaguar E-Type Coupe '61 (Opalescent Bronze Metallic)(Cr43,290,trade)
+308 Jaguar E-Type Coupe '61 (Sherwood Green)(dup)
+309 Peugeot 205 Turbo 16 '85  (silver) (Cr27,439,used)
+310 Jaguar E-Type Coupe '61 (Black)(Cr43,290,trade)
+311 Jaguar E-Type Coupe '61 (Indigo Blue)(Cr43,290,trade)
+312 Jaguar E-Type Coupe '61 (British Racing Green)(Cr43,290,trade)
+313 Subaru Impreza STi Prodrive Style (GD Type-I) '01 (Pure White) (Cr23,587,used)
+314 Citroen 2CV Type A '54 (Gris Clair)
+315 Volvo 240 GLT Estate '88 (Blue)
+316 Mazda RX-7 Infini III (FC,J) (Shade Green) (Cr9463,used)
+317 Peugeot 205 Turbo 16 '85  (white) (Cr27,439,used)
+318 Subaru Impreza STi Prodrive Style (GD Type-I) '01 (WR Blue Mica) (Cr23,587,used)
+319 Alfa Romeo Guila Sprint Speciale '63 (Bluette)
+320 Honda S600 '64 (Scarlet)  (Cr50,999,used)
+321 Alfa Romeo Guila Sprint Speciale '63 (Rosso Alfa) (Cr52,733,trade)
+322 Mazda RX-7 GT-Limited (FC,J) '85 (Dover White) (Cr14,364,used)
+323 Toyota Sprinter Trueno GT-Apex '83  (High-Tech Two-Tone(white)) 6.2mi (Cr13,055,used)
+324 Nissan Sileighty '98  (Spark Silver Metallic) (Cr11,440,used)
+325 Mercedes-Benz Daimler Motor Carriage 1886
+326 Zuzuki Cappuccino (EA21R) '95 (Antares Red) (Cr7290,used)
+327 Jaguar XJ220 LM Race Car '01
+328 BMW 120I '04  (Sonora(gold)) (Cr31,940,new)
+329 BMW 2002 Turbo '73  (Schwarz)
+330 BMW 2002 Turbo '73  (Polaris Metallic)(Cr48,279,trade)
+331 Nissan 240 RS '83 (White) (Cr25,269,used)
+332 BMW 2002 Turbo '73  (Polaris Metallic)(dup)
+333 BMW 2002 Turbo '73  (Chamonix(white))(Cr48,279,trade)
+334 Mercedes-Benz SL65 AMG (R230) '04  (Tellursilber) (Cr190,700)
+335 Mercedes-Benz 300SL Coupe '54  (Fire Engine Red)
+336 Mercedes-Benz 300SL Coupe '54  (Black)(Cr202,036,trade)
+337 Mercedes-Benz 300SL Coupe '54  (Blue Gray)(Cr202,036,trade)
+338 Mercedes SL600 (R129) '98 (Schwartz)  (Cr101,135,used)
+339 Mercedes-Benz 300SL Coupe '54  (Pearl Green)
+340 Mercedes-Benz 300SL Coupe '54  (Ivory)(Cr202,036,trade)
+341 Mercedes-Benz 300SL Coupe '54  (White)(Cr202,036,trade)
+342 Lancia DELTA HF Integrale Evoluzione '91 (Monza Red)  (Cr23,694,used)
+343 Nissan GT-R Concept LM Race Car '02
+344 Mitsubishi Lancer EX 1800GSR IC Turbo '83 (California Red) (Cr9376,used)
+345 Daihatsu Midget II D-type '98 (Emerald Green)(6.2mi) (Cr4878,used)
+346 Alfa Romeo 155 2.5 V6 TI '93
+347 Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+348 Volkswagen Lupo GTi Cup Car (J) '03 (orange) (Cr50,000,new)
+349 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Zypressengrun/Togaweiss)(dup)
+350 Audi Le Mans quattro '03  (Jet Blue)
+351 Daihatsu Midget '63 (Midget Blue)(dup)
+352 Daihatsu Midget '63 (Midget Green)(dup)
+353 Daihatsu Midget '63 (Midget Green)(dup)
+354 Daihatsu Midget '63 (Midget Cream)
+355 Alfa Romeo Guila Sprint Speciale '63 (Bluette)
+356 Nike One 2022 (dup)
+357 Citroen 2CV Type A '54 (peche(special color))(dup)
+358 Triumph Spitfire 1500 '74 (Topaz) (Cr17,200,new)
+359 Triumph Spitfire 1500 '74 (Maroon Metallic(special color)) (dup)
+360 Lotus Europa Special '71  (Lotus Yellow)
+361 Honda S800 RSC Race Car '68
+362 Triumph Spitfire 1500 '74 (Maroon Metallic(special color)) (dup)
+363 Nissan Gran Turismo Skyline GT-R (Pace Car) '01
+364 Nissan Gran Turismo Skyline GT-R (Pace Car) '01 (Cr127,499,trade)
+365 Fiat 500F '67 (Azzurro Acqua Marina) (Cr7,269,used)
+366 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Pirolgelb/yellow) (dup)
+367 BMW McLaren F1 GTR Race Car '97
+368 Mazda RX-7 Type R Bathurst R (FD) '01 (Bathurst Yellow) (Cr25,485,used)
+369 Volkswagen W12 Nardo Concept '01 (dup)
+370 Opera Performance S2000 '04
+371 Nissan Bluebird Hardtop 1800SSS '79 (Red) (Cr4437,used)
+372 Dodge Charger Super Bee 426 Hemi '71 (Gold)
+373 TVR V8S '91 (Sunset Pearlescent) (Cr20,789,used)
+374 Ford GT '05 (Mark IV Red Clearcoat)  (Cr127,397,trade)
+375 Ford GT '05 (Centennial White Clearcoat)
+376 Ford GT '05 (Mark II Black Clearcoat)  (Cr127,397,trade)
+377 Ford GT '05 (Midnight Blue Clearcoat Metallic)  (Cr127,397,trade)
+378 Mazda RX-7 GT-X (FC,J) '90 (Blaze Red) (Cr8700,used)
+379 Mazda 787B Race Car '91 (black) (Cr1,224,999,used)(dup)
+380 Nissan R92CP Race Car '92 (black) (Cr1,224,999,used)(dup)
+381 Nissan R390 GT1 Race Car '98 (black) (Cr2,924,999,used)(dup)
+382 Toyota GT-ONE Race Car '99 (black) (Cr2,924,999,used)(dup)
+383 Nissan Fairlady Z 300ZX (Z31) '83 (Red) (Cr11,199,used)
+384 Honda S2000 Type V '01 (Berlina Black) (Cr27.075,used)
+385 Mitsubishi Lancer Evolution VI GSR T.M.E. '00 (Satellite Silver Metallic) (Cr16,390,used)
+386 Ford GT '05 (Speed Yellow Clearcoat)  (Cr127,397,trade)
+387 Ford GT '05 (Quick Silver Clearcoat Metallic)  (Cr127,397,trade)
+388 Opel Calibra Touring Car '94
+389 Opel Calibra Touring Car '94
+390 Nissan Option Stream Z '04 (dup)
+391 Audi TT Coupe 1.8T quattro '00 (Silver Metallic) (Cr23,850,used)
+392 Sauber Mercedes C9 Race Car '89
+393 Mazda Kusabi '03 (silver) (Cr200,000)(prize,BlicenseS,trade)
+394 TVR V8S '91 (Rosso Pearlescent) (Cr20,700,used)
+395 Acura DN-X '02 (white) (prize,AlicenseS,trade)(Cr200,000)
+396 Acura DN-X '02 (red) (prize,AlicenseS,trade)(Cr200,000)
+397 Nissan GT-R Concept (Tokyo Show) '01 (Titanium Blade) (prize,IAlicenseS,trade)(Cr200,000)
+398 Alfa Romeo Spider 1600 Duetto '66 (Rosso Farina) (Cr35,300,classic)
+399 Infiniti FX45 Concept '02 (Golden Sand Pearl Metallic)
+400 Land Rover Range Stormer Concept '04 (orange)
+401 Hyundai HCD6 '01  (purple)
+402 Subaru Impreza Rally Car '99 (Sonic Blue Mica)
+403 Ford RS200 '84 (white)
+404 Formula Gran Turismo '04 (yellow/black)
+405 Audi TT Coupe 1.8T quattro '00 (Denim Blue Pearl Effect) (Cr35,775,used)
+406 Ford GT LM Race Car '02
+407 Nissan Sileighty '98  (yellow) (Cr11,440,used)
+408 Chaparral 2J Race Car '70 (Cr1,200,000,new)
+409 Nissan Motul Pitwork Z (JGTC) '04
+410 Lister Storm V12 Race Car '99
+411 Toyota Celica XX 2800 GT '81 (Terracotta) (Cr8130,used)
+412 Honda Takata DOME NSX (JGTC) '03
+413 Chevrolet Corvette Convertible (C1) '54 (Sportsman Red)
+414 Pontiac Solstice Coupe Concept '02 (orange) (prize,SlicenseS)
+415 Mazda RX-7 Type RZ (FD) '00 (Snow White Pearl Mica) (Cr25,986,used)
+416 Auto Union V16 Type C Streamliner '37
+417 Mazda Kusabi '03 (silver) (prize,BlicenseS)
+418 Acura DN-X'02 (white) (prize,AlicenseS)
+419 Nissan GT-R Concept (Tokyo Show) '01 (Titanium Blade) (prize,IAlicenseS)
+420 Ford GT40 Race Car '69
+421 Aston Martin V8 Vantage '99 (Sutherland Red)(Cr291,199,used)
+422 Ford GT40 Race Car '69
+423 Chevrolet Corvette Convertible (C1) '54 (Sportsman Red)
+424 Nissan GT-R Concept LM Race Car '02
+425 Citroen 2CV Type A '54 (peche(special color))(dup)
+426 Formula Gran Turismo '04 (blue/white)
+427 Formula Gran Turismo '04 (white)(dup)
+428 Formula Gran Turismo '04 (orange)
+429 Formula Gran Turismo '04 (green/yellow)
+430 Formula Gran Turismo '04 (red)
+431 Formula Gran Turismo '04 (red/white/green)
+432 Formula Gran Turismo '04 (red)(dup)
+433 Formula Gran Turismo '04 (white/purple)
+434 Formula Gran Turismo '04 (red/white/green)(dup)
+435 Ford GT Concept '02  (yellow)(dup)
+436 Audi A4 Touring Car '02 (Cr450,000,new)
+437 Formula Gran Turismo '04 (orange)(dup)
+438 TVR V8S '91 (Rosso Pearlescent) (Cr20,789,used)
+439 Mazda RX-7 Spirit A Type A (FD) '02 (Titanium Gray Metallic) (Cr39,980,new)
+440 TVR Tuscan Speed 6 '00 (Pathfinder Blue Pearlescent) (Cr94,050,new)
+441 Mazda Mazda 6 Touring Car '02  (yellow/blue #82)(dup)
+442 Mazda RX-8 Concept (Type-I) '01 (Camelia Red)
+443 Chaparral 2D Race Car '67
+444 Mazda RX-8 Concept (Type-I) '01 (Camelia Red)
+445 Mazda MX-5 Miata 1.8 RS (J) '98 (Twighlight Blue Mica) (Cr14,917,used)
+446 Mazda MX-5 Miata J-Limited II (J) '93 (Sunburst Yellow) (Cr10,150,used)
+447 Mazda MX-5 Miata S-Special Type I (J) '95 (Classic Red) (Cr6982,used)
+448 Mazda MX-5 Miata VR-Limited (J) '95 (Combination A Artvin Red Mica) (Cr7279,used)
+449 Mazda RX-7 LM Race Car '01 (blue)
+450 Mazda MX-Crossport '05 (K2 Red)(dup)
+451 Mazda MX-5 Miata J-Limited I (J) '91 (Sunburst Yellow) (Cr6649,used,55354.2mi)
+452 Mazda MX-5 Miata '89 (Classic Red) (Cr5949,used,41,596.3mi)
+453 Mazda MX-5 Miata SR-Limited (NA,J) '97 (Sparkle Green Metallic) (Cr9490,trade,33,426.5mi)
+454 Mazda MX-5 Miata 1600 NR-A (J) '04 (Pure White) (Cr20,500,new)
+455 Mazda RX-7 LM Race Car '01 (red)
+456 Mazda MX-5 Miata 1600 NR-A (J) '04 (Strat Blue Mica) (Cr20,500,new)
+457 Subaru 360 '58 (Fresh Blue) (Cr36,000,classic)
+458 Subaru 360 '58  (WR Blue Mica)
+459 Subaru 360 '58  (WR Blue Mica)
+460 Subaru 360 '58  (WR Blue Mica)
+461 Subaru 360 '58  (WR Blue Mica)
+462 Nissan Calsonic Skyline GT-R Race Car '93(dup)
+463 Subaru Impreza Coupe 22B-STi '98  (Sonic Blue Mica) (Cr32,499,trade,20,654.9mi)
+464 Subaru Impreza Coupe 22B-STi '98  (Sonic Blue Mica) (Cr32,499,used,20,654.9mi)
+465 Nismo 400R '96 (Sonic Silver Metallic)
+466 Subaru Impreza Super Touring Car '01 (black#97)
+467 Formula Gran Turismo '04 (white/purple)(dup)
+468 Formula Gran Turismo '04 (white)(dup)
+469 Mercedes-Benz SLR McLaren '03 (Crystal Galaxit Silver) (Cr610,000,new)
+470 Chaparral 2D Race Car '67
+471 Mazda 787B Race Car '91 (Cr3,500,000,classics)
+472 BMW M3 CSL '03  (Silbergrau Metallic) (Cr98,568,trade)
+473 Chaparral 2D Race Car '67
+474 BMW M3 GTR '03
+475 Formula Gran Turismo '04 (blue/white)(dup)
+476 Mercedes-Benz CLK Touring Car '00
+477 Nissan Skyline 2000GT-B (S54A) '67 (Caroline Red)
+478 Mercedes SLK230 Kompressor '98  (Firnweiss) (Cr21,065)
+479 AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
+480 Lancia Delta HF Integrale Rally Car '92
+481 Lancia Delta HF Integrale Rally Car '92
+482 Lancia Delta S4 Rally Car '85
+483 Paugeot 205 Turbo 16 Evolution 2 Rally Car '86
+484 Mitsubishi Lancer Evolution IV Rally Car '97
+485 Ford Escort Rally Car '98
+486 Nissan Bluebird Rally Car (510) '69
+487 Subaru Impreza Rally Car '01
+488 Lancia Stratos Rally Car '77
+489 Toyota Celica GT-FOUR Rally Car (ST185) '95
+490 Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+491 Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+492 Formula Gran Turismo '04 (orange)(dup2)
+493 Formula Gran Turismo '04 (red/white/green)(dup2)
+494 Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+495 Formula Gran Turismo '04 (blue/white)(dup2)
+496 Mercedes SL500 (R129) '98 (Nutria(brown))  (Cr84,045,trade)
+497 RUF RGT'00 (red)  (Cr143,250,new)
+498 Chaparral 2D Race Car '67
+499 Mitsubishi CZ-3 Tarmac Rally Car '02
+500 Nissan 240RS Rally Car '85
+501 Mitsubishi Pajero Rally Raid Car '85
+502 Mitsubishi Pajero Evolution Rally Car '03
+503 Suzuki Escudo Dirt Trial Car '98
+504 Mitsubishi Starion 4WD Rally Car '84
+505 Nissan Skyline HT 2000 Turbo RS '83 (Gun Gray/Black) (Cr8812,used)
+506 Nissan Skyline HT 2000 RS-X Turbo C '84 (48292.8mi,red/black) (Cr9712,used)
+507 Chaparral 2J Race Car '70 (Cr1,200,000,new)
+508 Ford GT LM Race Car '02
+509 Nike One 2022
+510 Mini Cooper S '02  (Chili Red) (Cr26,790,new)
+511 Alpine A310 1600VE '73 (Bleu Alpine)
+512 Renault 5 Maxi Turbo Rally Car '85
+513 Alpine A310 1600VE '73 (Bleu Alpine)
+514 Toyota RSC Rally Raid Car '02
+515 Subaru Impreza Rally Car Prototype '01
+516 Paugeot 205 Turbo 16 Evolution 2 Rally Car '86
+517 Mini Cooper '02 (Silk Green Metallic) (Cr22,190,new)
+518 Mini Marcos GT '70 (Bahama Yellow)
+519 Mini Marcos GT '70 (Mid Chrome Yellow)(Cr21,674,trade)
+520 Mini Marcos GT '70 (Arctic White)(Cr21,674,trade)
+521 Mini Marcos GT '70 (Tartan Red)(Cr21,674,trade)
+522 Mini Marcos GT '70 (Royal Blue)(Cr21,674,trade)
+523 Mazda Mazda6 Concept '01  (Fuoco Giallo)
+524 Mini Cooper '02 (Liquid Yellow) (Cr22,190,new)
+525 Lotus Europa Special '71  (Pistachio)
+526 Infiniti FX45 Concept '02 (Golden Sand Pearl Metallic)
+527 Subaru Impreza Rally Car '01
+528 Peugeot 905 Race Car '92 (Cr3,500,000)
+529 Honda NSX-R Prototype LM Race Car '02
+530 BMW Z4'03 (Merlotrot Metallic) (Cr75,610,new)
+531 BMW M3 GTR Race Car '01
+532 Chrylser Prowler '02 (Silver Metallic)(dup)
+533 Mazda RX-8 Concept (Type II)'01 (RX-8 yellow)(prize,IB silver)(Cr200,000,trade)
+534 Honda NSX-R Concept '01  (Championship White)
+535 Mazda BP Falken RX-7 (D1GP) '03 (Cr169,999,trade)
+536 Nissan Option Stream Z '04(dup)
+537 Volkswagen Karmann Ghia Coupe (Type-1) '68  (Chromblau)' (dup)
+538 Jay Leno Tank Car '03

@@ -1,0 +1,1695 @@
+head	1.36;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.36
+date	2003.08.11.00.08.52;	author arpepper;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2002.04.21.21.04.57;	author arpepper;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2002.04.21.03.07.33;	author arpepper;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2002.04.15.23.25.07;	author arpepper;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2002.04.15.02.27.06;	author arpepper;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2002.04.15.02.23.14;	author arpepper;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2002.04.15.02.17.36;	author arpepper;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2002.04.15.02.15.57;	author arpepper;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2002.04.15.02.07.52;	author arpepper;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2002.04.15.01.56.04;	author arpepper;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2002.04.15.01.40.09;	author arpepper;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2002.04.15.01.31.52;	author arpepper;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2001.07.10.03.31.08;	author arpepper;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2001.07.10.02.46.40;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2001.07.09.22.16.05;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2001.07.06.21.20.31;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2001.07.06.21.00.55;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2001.07.06.20.42.09;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2001.04.02.19.11.53;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2000.10.06.19.30.36;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2000.09.29.21.47.57;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2000.09.29.20.40.16;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2000.09.29.20.02.55;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2000.09.26.22.45.06;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2000.09.26.22.20.23;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2000.09.26.21.53.20;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2000.09.26.00.09.39;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2000.09.26.00.04.56;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2000.09.25.17.51.15;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2000.09.25.17.24.34;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.09.25.17.11.07;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.09.20.23.28.12;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.09.20.23.24.24;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.09.20.23.20.38;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.09.20.23.16.01;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.09.20.22.51.30;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Start with a diary index page.
+@
+
+
+1.36
+log
+@Added link to maps.
+Corrected copyright date.
+@
+text
+@<!doctype html public "-//IETF//DTD HTML//EN//2.0">
+<html>
+<head>
+<title>
+GT2 to Excess!</title>
+</head>
+
+<body bgcolor="#B0FFC0" alink="blue" vlink="red">
+
+<table width="100%" bgcolor="#D0C030" border="0">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr color="white">
+<td>
+<center>
+<font color="white">
+<br>
+<h1>GT2toXS</h1>
+<br>
+<h2>Eclectic Resources for Fans of Sony's Gran Turismo Video Games</h2>
+</font>
+</center>
+</td>
+<tr><td><img src="bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+
+<center>
+<table><tr>
+<td bgcolor="cyan">
+<font size="-2">
+[<a href="index.html">index</a>]
+[<a href="about.html">about</a>]
+[<a href="albums/">photo albums</a>]
+[<a href="gt/results_forms/">results forms</a>]
+[<a href="gt/">GT pages and links</a>]
+[<a href="albrnickgt/">Pit stop</a>]
+[<a href="gt/diary/">diary</a>]
+[<a href="gt/logs/">logs</a>]
+[<a href="gt/gt1maps/">maps</a>]
+[<a href="scripts/">scripts</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+<center>
+<table>
+<tr><td>
+<img src="bitmaps/oneclearbit.gif" height="1" width="100"><br>
+</td>
+<td></td>
+<td>
+<img src="bitmaps/oneclearbit.gif" height="1" width="100"><br>
+</td></tr>
+<tr><td valign="top">
+<table width="100%">
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="gt/">My main</a>]
+</font>
+<font face="Verdana, Helvetica">
+Gran Turismo pages, and links
+to other Gran Turismo sites
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="albrnickgt/">Pit stop</a>]
+</font>
+<font face="Verdana, Helvetica">
+<b>albrnick</b>'s old Pit Stop pages, resuscitated
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="albums/">My albums</a>]
+</font>
+<font face="Verdana, Helvetica">
+of pictures related to
+Gran Turismo 
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="scripts/">My scripts</a>]
+</font>
+<font face="Verdana, Helvetica">
+If you have JavaScript enabled,
+these pages let you do neat things like translate codes,
+or search the game data for cars.
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="gt/results_forms/">Results forms</a>]
+</font>
+<font face="Verdana, Helvetica">
+Print on your printer, and
+fill in your own Gran Turismo and Gran Turismo 2 results.
+</font>
+</td></tr>
+
+</table>
+</td>
+<td align="center" valign="top">
+<!-- second column (picture) -->
+<table bgcolor="white"> <tr><td bgcolor="white"><table>
+<tr><td>
+<a href="gt/"><img src="gt/gtfont-2001-06-10/sw-malk-2.jpg" border="0"></a>
+</td></tr></table> </td></tr></table>
+<table  border="0" bgcolor="cyan">
+<tr><td bgcolor="cyan">
+<font size="-2">[<a href="about.html">about GT2 and me</a>]</font>
+</td></tr>
+</table>
+</td>
+<td valign="top">
+<!-- third column -->
+<table width="100%">
+<tr>
+<td valign="top">
+<font face="Verdana, Helvetica">
+[<a href="gt/diary/">My GT diaries</a>]
+</font>
+<font face="Verdana, Helvetica">tips about game play and GameShark use,
+as well as detailed results of some races for further game analysis.
+All threaded with links by topic.</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="gt/logs/">My game logs</a>]
+</font>
+<font face="Verdana, Helvetica">
+some detailed personal results allow even more detailed analysis--verify
+or debunk your prize-car theories!
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="oldhome.html">My old homepage</a>]
+</font>
+<font face="Verdana, Helvetica">
+was even ickier than this one!
+</font>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</center>
+
+
+<hr>
+
+<script language=javascript src="http://ss.webring.yahoo.com/navbar?f=j&y=gt2toxs&u=99471583610421508"></script>
+
+<table bgcolor="cyan" width="100%" border>
+<tr bgcolor="cyan"><td bgcolor="#D0C030">
+<font size=-1>
+<p>
+Copyright &copy; 1999-2003, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+</p>
+</font>
+<font size=-2>
+<p>
+<a href="gt/email.html">email</a>
+</p>
+<p>
+<a href="gt/diary/disclaimer.html">Disclaimers</a>
+</p>
+<p>
+I'm not sure if geocities requires me to make links to <a href="bitmaps/">bitmaps</a> and <a href="gifs/">gifs</a>, or not.
+</p>
+</font>
+</td></tr>
+</table>
+
+<center>
+<table><tr>
+<td bgcolor="cyan">
+<font size="-2">
+[<a href="index.html">index</a>]
+[<a href="about.html">about</a>]
+[<a href="albums/">photo albums</a>]
+[<a href="gt/results_forms/">results forms</a>]
+[<a href="gt/">GT pages and links</a>]
+[<a href="albrnickgt/">Pit stop</a>]
+[<a href="gt/diary/">diary</a>]
+[<a href="gt/logs/">logs</a>]
+[<a href="gt/gt1maps/">maps</a>]
+[<a href="scripts/">scripts</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+</body>
+</html>
+@
+
+
+1.35
+log
+@Remove Comic Sans MS font.
+Try to indicate that it's a fan page.
+@
+text
+@d38 1
+d168 1
+a168 1
+Copyright &copy; 1999-2002, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+d197 1
+@
+
+
+1.34
+log
+@An explanatory sub-title might help.
+@
+text
+@d19 1
+a19 1
+<h2>Eclectic Resources for Sony's Gran Turismo Video Games</h2>
+d61 1
+a61 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+d71 1
+a71 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+d80 1
+a80 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+d90 1
+a90 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+d101 1
+a101 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+d129 1
+a129 1
+<font face="Comic Sans MS, Verdana, Helvetica">tips about game play and GameShark use,
+d138 1
+a138 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+a141 1
+</font>
+d148 1
+a148 1
+<font face="Comic Sans MS, Verdana, Helvetica">
+a149 1
+</font>
+@
+
+
+1.33
+log
+@Removed unopened </p> and html within comments which might have been
+causing geocities's JavaScript to loop or hang or something.
+@
+text
+@d18 2
+@
+
+
+1.32
+log
+@Extra explanation for logs.
+@
+text
+@a8 3
+<!--
+HI THERE<br><br>
+-->
+a139 1
+</p>
+a149 1
+</p>
+d160 1
+a161 4
+<!--
+</body>
+<body bgcolor="yellow">
+-->
+@
+
+
+1.31
+log
+@Removed a newline to get rid of an anchor glitch.
+@
+text
+@d140 2
+a141 1
+some detailed personal results allow even more detailed analysis
+@
+
+
+1.30
+log
+@Oops...  Switch to oneclearbit.gif
+@
+text
+@d114 1
+a114 3
+<a href="gt/">
+  <img src="gt/gtfont-2001-06-10/sw-malk-2.jpg" border="0">
+</a>
+@
+
+
+1.29
+log
+@Final revision for now.
+@
+text
+@d49 1
+a49 1
+<img src="bitmaps/onebit.gif" height="1" width="100"><br>
+d53 1
+a53 1
+<img src="bitmaps/onebit.gif" height="1" width="100"><br>
+@
+
+
+1.28
+log
+@Removed the old garbage.
+@
+text
+@d120 1
+a120 1
+<font color="white" size="-2">[<a href="about.html">about GT2 and me</a>]</font>
+d144 11
+a154 2
+</dd>
+</dl>
+a163 20
+<center>
+<table><tr>
+<td bgcolor="cyan">
+<font size="-2">
+[<a href="index.html">index</a>]
+[<a href="about.html">about</a>]
+[<a href="albums/">photo albums</a>]
+[<a href="gt/results_forms/">results forms</a>]
+[<a href="gt/">GT pages and links</a>]
+[<a href="albrnickgt/">Pit stop</a>]
+[<a href="gt/diary/">diary</a>]
+[<a href="gt/logs/">logs</a>]
+[<a href="scripts/">scripts</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+</td></tr></table>
+d192 20
+@
+
+
+1.27
+log
+@Last draft before cleanup.
+@
+text
+@d114 1
+d116 1
+d118 2
+a119 2
+<table  border="0" bgcolor="cyan" background="">
+<tr><td bgcolor="cyan" background="">
+a153 123
+=========================================================================
+<center>
+<p>
+<img src="bitmaps/oneclearbit.gif" height="1" width="500"><br>
+<table width="100%" border="0" >
+<tr><td></td><td>
+&nbsp;<br>
+<img src="bitmaps/oneclearbit.gif" height="1" width="500"><br>
+&nbsp;<br>
+</td></tr>
+<tr><td>
+&nbsp;<br>
+&nbsp;<img src="bitmaps/oneclearbit.gif" height="320" width="4"><br>
+&nbsp;<br>
+</td><td>
+<!-- stuff goes here... -->
+
+<table width="100%">
+</td></tr>
+</table>
+
+</table>
+</center>
+
+<center>
+<p>
+<img src="bitmaps/oneclearbit.gif" height="1" width="500"><br>
+<table width="100%" border="0" >
+<tr><td></td><td>
+&nbsp;<br>
+<img src="bitmaps/oneclearbit.gif" height="1" width="500"><br>
+&nbsp;<br>
+</td></tr>
+<tr><td>
+&nbsp;<br>
+&nbsp;<img src="bitmaps/oneclearbit.gif" height="320" width="4"><br>
+&nbsp;<br>
+</td><td>
+<!-- stuff goes here... -->
+
+<table width="100%">
+<tr>
+<td background="">
+<font face="Verdana, Helvetica">
+[<a href="gt/">My main</a>]
+</font>
+<font face="Comic Sans MS, Verdana, Helvetica">
+Gran Turismo pages, and links
+to other Gran Turismo sites
+</font>
+</td></tr>
+
+<td bgcolor="yellow" background="bitmaps/yblinedpaper.gif"  colspan="2">
+<p>
+<img align="left" border="0" width="1" height="90" src="bitmaps/oneclearbit.gif">
+<dl>
+<dt>[<a href="gt/diary/">diary</a>]</dt>
+<dd><font face="Comic Sans MS, Verdana, Helvetica">tips about game play and GameShark use,
+as well as detailed results of some races to help you further analyze the game.
+All threaded with links by topic.</font>
+</p>
+</td>
+</tr>
+<tr>
+<td bgcolor="black" background="gifs/gt2tiny.jpg"><p>
+<img align="left" border="0" width="1" height="90" src="bitmaps/oneclearbit.gif">
+<center>
+<br><br>
+<font color="white" face="Comic Sans MS, Verdana, Helvetica" size="+10">GT2toXS</font><br>
+<table  border="0" bgcolor="cyan" background="">
+<tr><td bgcolor="cyan" background="">
+<font color="white" size="-2">[<a href="about.html">about GT2 and me</a>]</font>
+</td></tr>
+</table>
+</center>
+</td>
+<td background="" bgcolor="tan" width="33%" rowspan="3">
+[<a href="scripts/">my script pages</a>]<br>
+<font face="Comic Sans MS, Verdana, Helvetica">
+If you have JavaScript enabled,
+these pages let you do neat things like translate codes,
+or search the game data for cars.
+</font>
+</td>
+</tr>
+<tr>
+<td background="" bgcolor="white" colspan="2">
+<img align="left" border="0" width="1" height="45" src="bitmaps/oneclearbit.gif">
+<p>
+<dl>
+<dt>[<a href="gt/results_forms/">results_forms</a>]</dt>
+<dd>
+<font face="Comic Sans MS, Verdana, Helvetica">
+Print these forms on your printer, and you can use them
+to keep track of your own Gran Turismo and Gran Turismo 2 records.
+</font><br>
+</dd>
+</dl>
+</p>
+</td>
+</tr>
+<tr>
+<td bgcolor="yellow" background="bitmaps/yblinedpaper.gif" colspan="2">
+<img align="left" border="0" width="1" height="45" src="bitmaps/oneclearbit.gif">
+<p>
+<dl>
+<dt>[<a href="gt/logs/">my game logs</a>]</dt>
+<dd>
+<font face="Comic Sans MS, Verdana, Helvetica">
+some detailed personal results allow even more detailed analysis
+</font><br>
+</dd>
+</dl>
+</p>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</p>
+</center>
+d157 1
+a157 1
+<td background="" bgcolor="cyan">
+d183 2
+a184 2
+<table background="" bgcolor="cyan" width="100%" border>
+<tr bgcolor="cyan"><td bgcolor="yellow">
+a204 136
+=========================================================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<meta name="robots" content="noindex,nofollow">
+  <TITLE>GTF Ontario Party, June 10, 2001</TITLE>
+</HEAD>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<p>
+<font face="Helvetica" size="+1">
+<em>
+On June 10, 2001 a small contingent of Ontario GTF met for an afternoon
+of racing and socializing.
+</em>
+</font>
+</p>
+</td></tr></table>
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><center><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption border="0"><font face="Comic Sans MS, Lucida Sans, Helvetica">SlipZtrEm tests his '71 Skyline</font></caption>
+<tr><td>
+ <img src="slip-skyline-1.jpg" border="0">
+</td></tr></table> </td></tr></table>
+</center>
+</td></tr></table>
+
+<br>
+<hr color="#D0C030">
+
+<br>
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">SportWagon and malkie Race Nissans</font></caption>
+<tr><td>
+ <img src="sw-malk-2.jpg" border="0">
+</td></tr></table> </td></tr></table>
+</td>
+
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">malkie and SportWagon</font></caption>
+<tr><td>
+ <img src="malk-sw-3.jpg" border="0">
+</td></tr></table> </td>
+</tr></table>
+</td>
+</tr></table>
+<br>
+
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">George and dubmode</font></caption>
+<tr><td>
+ <img src="george-dub-4.jpg" border="0">
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">George and SlipZtrEm</font></caption>
+<tr><td>
+ <img src="george-slip-5.jpg" border="0">
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<hr color="#D0C030">
+<br>
+
+
+<table width="85%"><tr><td width="15%"></td>
+<td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">dubmode and SportWagon</font></caption>
+<tr><td>
+ <img src="dub-sw-6.jpg" border="0">
+</td></tr></table> </td></tr></table>
+
+</td><td><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">dubmode Watches Fogelhund and George</font></caption>
+<tr><td>
+ <img src="dub-fog-geo-7.jpg" border="0">
+</td></tr></table> </td></tr></table>
+</td></tr></table>
+<br>
+
+<hr color="#D0C030">
+<br>
+<table width="85%"><tr><td width="15%"></td>
+<td><center><table bgcolor="white"> <tr><td bgcolor="white"><table>
+<caption border="0"><font face="Comic Sans MS, Lucida Sans, Helvetica">SportWagon Presents the Prize to Fogelhund</font></caption>
+<tr><td>
+ <img src="prize-8.jpg" border="0">
+</td></tr></table> </td></tr></table>
+</center>
+</td></tr></table>
+
+<table width="85%"><tr><td width="15%">&nbsp;</td>
+<td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<p>
+<font face="Helvetica" size="+1">
+<em>
+<b>Fogelhund</b> was the winner of the tournament, but unfortunately he
+won yet another Viper GTS-R!!!  <img src="../../gifs/smile.gif">
+</em>
+</font>
+</p>
+</td></tr></table>
+
+<br>
+<hr color="#D0C030">
+
+<table width="85%"><tr><td width="15%">&nbsp;</td>
+<td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td></td>
+<td>
+<font face="Helvetica" size="-2">
+<p>
+Copyright &copy; 2001, <b>gt2toxs</b>, the author/owner of the following ===><a href="../">page</a><=== and <b>Fogelhund</b>.
+</p>
+<p>
+<b>Fogelhund</b> took all of the pictures, except for the two with him in
+them.<br>
+Those were taken by someone else using his camera. <img src="../../gifs/smile.gif">
+</font>
+</p>
+</td></tr></table>
+
+</BODY>
+</HTML>
+@
+
+
+1.26
+log
+@Another stable intermediate version.
+@
+text
+@d36 1
+d70 1
+a70 1
+[<a href="gt/">Pit stop</a>]
+d100 1
+a100 1
+[<a href="gt/result_forms/">Results forms</a>]
+d110 2
+a111 1
+<td align="center">
+d122 2
+a123 2
+<!-- second column -->
+<td>
+d128 1
+a128 5
+[<a href="gt/">My main</a>]
+</font>
+<font face="Comic Sans MS, Verdana, Helvetica">
+Gran Turismo pages, and links
+to other Gran Turismo sites
+d130 3
+d137 1
+a137 1
+[<a href="gt/">Pit stop</a>]
+d140 1
+a140 1
+<b>albrnick</b>'s old Pit Stop pages, resuscitated
+d142 3
+a144 30
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="albums/">My albums</a>]
+</font>
+<font face="Comic Sans MS, Verdana, Helvetica">
+of pictures related to
+Gran Turismo 
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="scripts/">My scripts</a>]
+</font>
+<font face="Comic Sans MS, Verdana, Helvetica">
+If you have JavaScript enabled,
+these pages let you do neat things like translate codes,
+or search the game data for cars.
+</font>
+</td></tr>
+<tr>
+<td>
+<font face="Verdana, Helvetica">
+[<a href="gt/result_forms/">Results forms</a>]
+</font>
+<font face="Comic Sans MS, Verdana, Helvetica">
+Print on your printer, and
+fill in your own Gran Turismo and Gran Turismo 2 results.
+d285 1
+@
+
+
+1.25
+log
+@intermediate transition to "new look" list.
+@
+text
+@d120 14
+d135 8
+a142 1
+</td>
+d144 20
+a163 3
+</table>
+</td>
+<!-- second column -->
+d165 7
+d173 1
+d175 1
+a175 1
+
+d178 1
+a178 1
+
+@
+
+
+1.24
+log
+@Corrected link to scripts pages.  Oops.
+@
+text
+@d8 1
+a8 1
+<body bgcolor="cyan" link="red" vlink="brown" alink="red">
+d13 4
+d18 8
+a25 1
+<table width="100%" border="0"><tr><td background="gifs/gt2tiny.jpg">
+a26 2
+&nbsp;<br>
+&nbsp;<br>
+d29 1
+a29 1
+<td background="" bgcolor="cyan">
+d46 88
+d149 24
+a172 1
+<table width="100%" border>
+d174 1
+a174 1
+<td background="" bgcolor="yellow" width="33%" rowspan="2">
+d182 2
+a183 1
+</td>
+d287 1
+a287 1
+Copyright &copy; 1999-2001, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+d305 136
+@
+
+
+1.23
+log
+@Rearranged navbar.
+Added an extra segment to allow a section for my new scripts "pages".
+@
+text
+@d88 1
+a88 1
+[<a href="gt/logs/">my script pages</a>]<br>
+@
+
+
+1.22
+log
+@Added new style web ring navbar.
+@
+text
+@d24 1
+a24 1
+[<a href="holiday-2000-06-01/">photo album</a>]
+d26 1
+a26 2
+[<a href="gt/translator/">GT2 translator</a>]
+[<a href="gt/">links</a>]
+d29 1
+d55 5
+a59 2
+[<a href="gt/">links</a>]<br>
+<font face="Comic Sans MS">
+d68 1
+a68 1
+<dd><font face="Comic Sans MS">tips about game play and GameShark use,
+d76 1
+d78 2
+a79 1
+<font color="white" face="Comic Sans MS" size="+10">GT2toXS</font><br>
+d87 6
+a92 4
+<td background="" bgcolor="tan" width="33%" rowspan="2">
+[<a href="gt/logs/">my game logs</a>]<br>
+<font face="Comic Sans MS">
+some detailed personal results allow even more detailed analysis
+d98 1
+a98 1
+<img align="left" border="0" width="1" height="90" src="bitmaps/oneclearbit.gif">
+d103 1
+a103 1
+<font face="Comic Sans MS">
+d111 17
+a127 1
+</tr></table>
+d141 1
+a141 1
+[<a href="holiday-2000-06-01/">photo album</a>]
+d143 1
+a143 2
+[<a href="gt/translator/">GT2 translator</a>]
+[<a href="gt/">links</a>]
+d146 1
+@
+
+
+1.21
+log
+@Removed the Web Ring stuff for now.
+
+Must make sure I take this RCS file home.  8-D
+@
+text
+@d133 1
+@
+
+
+1.20
+log
+@Partly personalized (no site id yet), and fixed obvious typo cgibin.
+@
+text
+@a136 21
+<table background="" bgcolor="white" width="100%" border>
+<tr bgcolor="white"><td bgcolor="white">
+<font face="arial, helvetica" size="-2">
+<a href="http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">
+<img src="http://members.aol.com/GrindTeeth/GT/gtw.gif" align="left" width="125" height="80" border="0"></a> 
+<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;next" target="_top">
+<img src=" http://members.aol.com/GrindTeeth/GT/gtl.jpg " align="right" border="0" width="125" height="80"></a>
+This <b> <a href=" http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">Gran Turismo Web Ring</a>site is owned by</b> <a href="mailto:SITE_OWNER_EMAIL"><b>GT2toXS (aka SportWagon)</b></a>. 
+<br>
+<br>
+<b>Want to join the <a href="http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">Gran Turismo Web Ring</a>?</b>
+<br>
+<br>
+<b>
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;sprev" target="_top">Skip Prev</a>] 
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;prev" target="_top">Prev</a>] 
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;next" target="_top">Next</a>] 
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;skip" target="_top">Skip Next</a>] [<a href="http://www.webring.org/cgi-bin/webring?random;ring=grantourismo" target="_top">Random</a>]
+[<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;next5" target="_top">Next 5</a>] [<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;list" target="_top">List Sites</a>]
+</td></tr>
+</table>
+@
+
+
+1.19
+log
+@First added the raw webring template.
+@
+text
+@d144 1
+a144 1
+This <b> <a href=" http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">Gran Turismo Web Ring</a>site is owned by</b> <a href="mailto:SITE_OWNER_EMAIL"><b>Your_Name_Here</b></a>. 
+d151 4
+a154 4
+[<a href= "http://www.webring.org/cgibin/webring?ring=grantourismo;id=_SITE_ID_HERE_;sprev" target="_top">Skip Prev</a>] 
+[<a href= "http://www.webring.org/cgibin/webring?ring=grantourismo;id=_SITE_ID_HERE_;prev" target="_top">Prev</a>] 
+[<a href= "http://www.webring.org/cgibin/webring?ring=grantourismo;id=_SITE_ID_HERE_;next" target="_top">Next</a>] 
+[<a href= "http://www.webring.org/cgibin/webring?ring=grantourismo;id=_SITE_ID_HERE_;skip" target="_top">Skip Next</a>] [<a href="http://www.webring.org/cgi-bin/webring?random;ring=grantourismo" target="_top">Random</a>]
+@
+
+
+1.18
+log
+@Added links to my translator.
+@
+text
+@d137 21
+@
+
+
+1.17
+log
+@Messing with imperfection.
+@
+text
+@d24 3
+a26 2
+[<a href="holiday-2000-06-01">photo album</a>]
+[<a href="gt/results_forms">results forms</a>]
+d118 3
+a120 2
+[<a href="holiday-2000-06-01">photo album</a>]
+[<a href="gt/results_forms">results forms</a>]
+d142 1
+a142 1
+Copyright &copy; 1999,2000, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+@
+
+
+1.16
+log
+@Fixed centering.
+Removed the "soon" for logs, since they are there now.
+Fixed the links to logs, though.
+@
+text
+@d8 1
+a8 1
+<body bgcolor="black" background="gifs/gt2tiny.jpg" link="red" vlink="brown" alink="red">
+d14 5
+d20 1
+a20 1
+<td bgcolor="cyan">
+d35 1
+a35 1
+<center<
+d53 2
+a54 2
+<td bgcolor="yellow" width="33%" rowspan="2">
+[<a href="gt/">links</a>]
+d64 3
+a66 1
+<dd><font face="Comic Sans MS">tips about game play and GameShark use, as well as detailed results of some races to help you further analyze the game.</font>
+d74 1
+a74 1
+<table border="0" bgcolor="cyan" background="">
+d81 2
+a82 2
+<td bgcolor="tan" width="33%" rowspan="2">
+[<a href="gt/logs/">my game logs</a>]
+d84 1
+a84 1
+some even more detailed analysis
+d89 1
+a89 1
+<td bgcolor="white" colspan="2">
+d96 2
+a97 2
+forms for printing on your printer, which can help you keep
+track of your Gran Turismo and Gran Turismo 2 records.
+d113 1
+a113 1
+<td bgcolor="cyan">
+d128 2
+d133 1
+a133 1
+<body bgcolor="yellow>
+d136 2
+a137 2
+<table bgcolor="cyan" width="100%">
+<tr bgcolor="cyan"><td bgcolor="cyan">
+@
+
+
+1.15
+log
+@Added some navigation bars.
+
+Puke my guts out!  in general, though.
+@
+text
+@d23 1
+a23 1
+[<a href="logs/">logs</a>]
+d28 1
+a28 1
+<center>
+d30 1
+d49 1
+a49 1
+[<a href="gt/">links</a>]<br>
+d51 1
+a51 1
+links to other Gran Turismo sites
+d59 1
+a59 1
+<dd><font face="Comic Sans MS">tips about game play and GameShark use, as well as detailed results of some races to further help you analyze the game.</font>
+d77 1
+a77 1
+will soon allow some even more detailed analysis
+d102 2
+d114 1
+a114 1
+[<a href="logs/">logs</a>]
+d119 1
+a119 1
+<center>
+@
+
+
+1.14
+log
+@It will do for now...
+@
+text
+@d12 18
+d66 5
+a70 2
+<font color="white" size="-2">[about me]</font><br>
+<font color="white" size="-2">[<a href="about.html">about me</a>]</font><br>
+d101 17
+@
+
+
+1.13
+log
+@Fixed a typo found by Netscape...
+@
+text
+@d5 1
+a5 1
+My Gran Turismo Pages</title>
+d8 25
+a32 6
+<body background="bitmaps/yblinedpaper.gif" bgcolor="yellow" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img height="121" width="263" src="gifs/gtlogo.jpg" border="0" alt="Gran Turismo"> Pages</h3>
+d34 22
+a55 3
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+<h4>(That's meant light-heartedly, of course...)</h4>
+d58 20
+a78 63
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+<p>
+In the spring of 1998, <b>Sony</b> released in North America a new car-racing game for their
+<b>PlayStation</b> console videogame system.  Entitled
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font>,
+many people consider that this game set new standards in realism of racing
+games, specifically in the modeling of car physics.  I bought this game
+in December 1998 and quite quickly became hooked.  Fans of
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font>,
+tend to refer to it as simply <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>.  When Sony came out with a sequel,
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <font size="+1" color="gray">2</font>, that became similarly known as
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="gray">2</font>.
+I myself bought <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="gray">2</font> on
+the very first day of its North American release.
+</p>
+<p>
+So now I call myself <b>GT2toXS</b>.  Read it aloud, and think about it.
+</p>
+<p>
+Originally, when posting to usenet groups I wanted a little anonymity,
+so I began using <b>GT2XS</b> as my name, but when <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="gray">2</font>
+came out, that began to look ambiguous, so I switched to <b>GT2toXS</b>.
+</p>
+<p>
+So, I seem to have created some <font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <a href="gt/">pages</a>;
+see what you think of them.
+</p>
+<p>
+I do know from looking at logs for the original version of this site that
+the occasional person does come to get copies of my <a href="gt/results_forms/">results forms</a>.  And I have collected a rather lengthy collection
+of other <font size="+1" color="blue">
+G</font><font size="+1" color="red">T</font> <a href="gt/">links</a> as well; many of them
+probably even still work.  <img src="bitmaps/happyfrog.gif"  alt="8-)" width="30" height="18" border="0" >
+</p>
+<p>
+In early 1999, I seemed to have several long email
+conversations talking about <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>,
+and I used these to start a Web page <a href="gt/diary/">diary</a>.  This
+can be interesting reading, as it documents my increase in skill-level
+from truly deplorable to mediocre.  Some of that documentation is
+very self-indulgent--detailed race results, for instance--but in other
+parts I mention game hints I discovered or learned from others, and
+even <b>GameShark</b> codes I wrote down from others, or discovered or
+enhanced myself.  I sort of thought maybe one day I'd mine all that
+information, and rearrange it to create some other <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>
+informational pages, but that happened to only a limited extent.
+The <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>
+pages I did create on my original site made extensive use of CGI's and
+I don't think they can be made to work here.
+</p>
+<p>
+However, please do notice that my diary is arranged as a number of threads,
+allowing you to skip to the next page covering some topic you happen
+to find interesting, rather than forcing you to look at every daily entry.
+(Entries were not made every single day--sometimes I'd only occasionally
+make an entry, and at other times they would be more frequent).
+</p>
+<p>
+Also of interest to people who would be interested in these
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> pages is my small photo album <a href="holiday-2000-06-01/">page</a> featuring
+my trip to the Richard Petty Driving Experience, at his facility in Orlando,
+Florida.
+a79 1
+</font></td></tr></table>
+d81 7
+d104 2
+@
+
+
+1.12
+log
+@Added doctype header.
+@
+text
+@d91 1
+a91 1
+</<font>
+@
+
+
+1.11
+log
+@Added the "light-heartedly" bit...
+Sound less depressing about not producing informational pages.
+@
+text
+@d1 1
+@
+
+
+1.10
+log
+@Fixed a deadly typo.
+@
+text
+@d16 1
+d23 1
+a23 1
+In the spring of 1998, <b>Sony</b> published a new car-racing game for their
+d66 4
+a69 1
+informational pages, but that has not happened.
+d73 2
+a74 2
+allowing you to skip to the next page covering some topic you are
+interested in, rather than having to look at every daily entry.
+@
+
+
+1.9
+log
+@Added a link to my Richard Petty Driving Experience page.
+@
+text
+@d76 1
+a76 1
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> pages is my small photo album <a href="holiday-2000-06-01>page</a> featuring
+@
+
+
+1.8
+log
+@typo.
+@
+text
+@d74 6
+@
+
+
+1.7
+log
+@fixed html errors.
+Use gray rather than silver because of the dark background.
+Rearrange the order to accentuate the positive again.
+@
+text
+@d30 1
+a30 1
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <font size="+1" color="gray">2</font>, that became similarly know as
+@
+
+
+1.6
+log
+@Accentuate the positive...
+@
+text
+@d30 3
+a32 3
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <font size="+1" color="silver">2</font>, that became similarly know as
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font>.
+I myself bought <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font> on
+d40 1
+a40 1
+so I began using <b>GT2XS</b> as my name, but when <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font>
+d48 7
+d57 1
+a57 1
+and I used these to start a <a href="gt/diary/">diary</a>.  This
+d68 7
+a74 8
+I do know from looking at logs for the original version of this site that
+the occasional person does come to get copies of my <a href="gt/results_forms/">results forms</a>, however.  And I have collected a rather lengthy collection
+of other <font size="+1" color="blue">
+G</font><font size="+1" color="red">T</font> <a href="gt/">links</a> as well; many of them
+probably even still work.  <img src="bitmaps/happyfrog.gif"  alt="8-)" width="30" height="18" border="0" >
+</font>
+<p>
+</p></font></td></tr></table>
+@
+
+
+1.5
+log
+@Fixed link to disclaimer.
+@
+text
+@d22 15
+a36 1
+I call myself <b>GT2toXS</b>.  Read it aloud, and think about it.
+d45 14
+a58 3
+see what you think of them.  I'm sorry, the <a href="gt/diary/">diary</a> is
+a little self-indulgent; I sort of thought maybe one day I'd mine all that
+information to create some other pages, but that has not happened.
+@
+
+
+1.4
+log
+@Corrected mistakes.
+@
+text
+@d55 1
+a55 1
+<a href="gt/disclaimer.html">Disclaimers</a>
+@
+
+
+1.3
+log
+@Added links to my gifs so that they are not hidden.
+@
+text
+@d12 1
+a12 1
+<h3>My <img height="121" width="263" src="../../gifs/gtlogo.jpg" border="0" alt="Gran Turismo"> Pages</h3>
+d30 2
+a31 2
+So, I seem to have created some <font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <a href="gt">pages</a>;
+see what you think of them.  I'm sorry, the <a href="gt/diary">diary</a> is
+d36 2
+a37 2
+I do know from looking a logs for the original version of this site that
+the occasional person does come to get copies of my <a href="gt/results_forms">results forms</a>, however.  And I have collected a rather lengthy collection
+@
+
+
+1.2
+log
+@A useable version.
+@
+text
+@d57 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a2 2
+<meta name="robots" content="nofollow">
+
+d4 1
+a4 1
+My Gran Turismo Diaries</title>
+d7 1
+a7 1
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+d12 1
+a12 1
+<h3>My <img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Diaries</h3>
+d19 2
+a20 1
+<font size=-1 color="blue">
+d22 1
+a22 10
+[<a href="1999-01-04.html
+">First Entry</a>&nbsp;]
+[<a href="index.html">Thread Index</a>&nbsp;]
+[<a href="fullindex.html">Full Index</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="../email.html">email</a>&nbsp;]
+[<a href="2000-09-09.html
+">Most Recent Entry</a>&nbsp;]
+a23 3
+</font>
+<H4>Last updated at Mon Sep 18 14:29:07 EDT 2000
+</H4>
+d25 3
+a27 6
+These pages began as an experiment to help me explore some ideas regarding
+using HTML, and, specifically, converting naturalish text documents into
+reasonable HTMl, and linking those pages together in various appropriate
+ways.  Quite clearly, the rate at which I am learning anything by creating
+these pages has diminished a lot.  Or, in other words, they have probably
+got out-of-hand.
+d30 4
+a33 3
+Consequently these pages may soon disappear with little or no notice.
+(Other than this).  Updates have become very sporadic recently.  That
+is not necessarily a totally bad thing.  <img src="../../bitmaps/happyfrog.gif" alt="8-)">
+d36 6
+a41 16
+There is a very slim chance that I would actually manage to go to the
+effort and expense of having these pages hosted professionally somewhere.
+</p>
+<p>
+These pages were created as daily entries, but there are now so many of them
+that
+<a href="fullindex.html">
+that
+</a>
+is not a useful way to present them.
+So here we present a list of "threads" linking entries
+which deal with common subjects.
+You can start a thread from here at either the beginning or the end, and then
+move back and forth through it.
+Many pages also present other threads you can traverse.
+</p>
+d43 1
+a43 115
+Or you can start at the 
+<a href="1999-01-04.html
+">first</a>
+or, more reasonably, the
+<a href="2000-09-09.html
+">most recent</a> entry, and go from there.
+</p>
+<p>
+As another alternative, you can use the new <a href="search.html">search</a>
+facility, (obtained from the Freeware source indicated therein).
+<hr>
+<a href="1999-04-13.html#All-Night_I_Results">All-Night I Results
+</a>
+--&gt;&gt;<a href="2000-08-19.html#All-Night_I_Results">(End)</a>
+<br>
+<a href="1999-04-13.html#All-Night_II_Results">All-Night II Results
+</a>
+--&gt;&gt;<a href="1999-12-05.html#All-Night_II_Results">(End)</a>
+<br>
+<a href="1999-02-17.html#Brake_Balance_Controller">Brake Balance Controller
+</a>
+--&gt;&gt;<a href="1999-04-02.html#Brake_Balance_Controller">(End)</a>
+<br>
+<a href="1999-01-29.html#Car_Information">Car Information
+</a>
+--&gt;&gt;<a href="2000-06-29.html#Car_Information">(End)</a>
+<br>
+<a href="1999-01-11.html#Children">Children
+</a>
+--&gt;&gt;<a href="2000-01-20.html#Children">(End)</a>
+<br>
+<a href="1999-03-01.html#Crash_Bandicoot">Crash Bandicoot
+</a>
+--&gt;&gt;<a href="2000-02-14.html#Crash_Bandicoot">(End)</a>
+<br>
+<a href="1999-01-11.html#Driving_Advice">Driving Advice
+</a>
+--&gt;&gt;<a href="1999-06-13.html#Driving_Advice">(End)</a>
+<br>
+<a href="2000-01-02.html#Enduro_Results">Enduro Results
+</a>
+--&gt;&gt;<a href="2000-03-07.html#Enduro_Results">(End)</a>
+<br>
+<a href="1999-01-04.html#Game_Evaluation">Game Evaluation
+</a>
+--&gt;&gt;<a href="2000-05-23.html#Game_Evaluation">(End)</a>
+<br>
+<a href="1999-11-17.html#Game_Shark_Hints">Game Shark Hints
+</a>
+--&gt;&gt;<a href="2000-08-30.html#Game_Shark_Hints">(End)</a>
+<br>
+<a href="1999-02-11.html#Gameplay_Hints">Gameplay Hints
+</a>
+--&gt;&gt;<a href="2000-08-06.html#Gameplay_Hints">(End)</a>
+<br>
+<a href="1999-12-16.html#Gran_Turismo_2">Gran Turismo 2
+</a>
+--&gt;&gt;<a href="2000-08-30.html#Gran_Turismo_2">(End)</a>
+<br>
+<a href="1999-04-03.html#Grand_Valley_300_Results">Grand Valley 300 Results
+</a>
+--&gt;&gt;<a href="2000-08-18.html#Grand_Valley_300_Results">(End)</a>
+<br>
+<a href="1999-01-05.html#Hardware_Hints">Hardware Hints
+</a>
+--&gt;&gt;<a href="1999-11-17.html#Hardware_Hints">(End)</a>
+<br>
+<a href="1999-01-22.html#License_Test_Progress">License Test Progress
+</a>
+--&gt;&gt;<a href="2000-09-09.html#License_Test_Progress">(End)</a>
+<br>
+<a href="1999-01-18.html#Other_Games">Other Games
+</a>
+--&gt;&gt;<a href="2000-06-01.html#Other_Games">(End)</a>
+<br>
+<a href="1999-02-15.html#Prize_Car_Information">Prize Car Information
+</a>
+--&gt;&gt;<a href="2000-08-19.html#Prize_Car_Information">(End)</a>
+<br>
+<a href="1999-02-01.html#Prize_Car_Patterns">Prize Car Patterns
+</a>
+--&gt;&gt;<a href="2000-01-14.html#Prize_Car_Patterns">(End)</a>
+<br>
+<a href="1999-01-25.html#Prize_Money">Prize Money
+</a>
+--&gt;&gt;<a href="1999-05-17.html#Prize_Money">(End)</a>
+<br>
+<a href="1999-02-02.html#Race_Results">Race Results
+</a>
+--&gt;&gt;<a href="2000-08-19.html#Race_Results">(End)</a>
+<br>
+<a href="2000-06-01.html#Real_Life">Real Life
+</a>
+--&gt;&gt;<a href="2000-06-29.html#Real_Life">(End)</a>
+<br>
+<a href="1999-04-13.html#Special_Model_Information">Special Model Information
+</a>
+--&gt;&gt;<a href="1999-09-03.html#Special_Model_Information">(End)</a>
+<br>
+<a href="1999-04-16.html#Tuned_Series_Results">Tuned Series Results
+</a>
+--&gt;&gt;<a href="1999-06-13.html#Tuned_Series_Results">(End)</a>
+<br>
+<a href="1999-02-02.html#Tuning_Advice">Tuning Advice
+</a>
+--&gt;&gt;<a href="2000-08-19.html#Tuning_Advice">(End)</a>
+<br>
+<a href="1999-03-02.html#Used_Car_Information">Used Car Information
+</a>
+--&gt;&gt;<a href="2000-02-07.html#Used_Car_Information">(End)</a>
+<br>
+<a href="1999-02-15.html#Used_Car_Patterns">Used Car Patterns
+</a>
+--&gt;&gt;<a href="1999-12-04.html#Used_Car_Patterns">(End)</a>
+<br>
+d45 1
+a45 18
+<H4>Last updated at Mon Sep 18 14:29:07 EDT 2000
+</H4>
+<font size=-1 color="blue">
+<p>
+[<a href="1999-01-04.html
+">First Entry</a>&nbsp;]
+[<a href="index.html">Thread Index</a>&nbsp;]
+[<a href="fullindex.html">Full Index</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="../email.html">email</a>&nbsp;]
+[<a href="2000-09-09.html
+">Most Recent Entry</a>&nbsp;]
+</p>
+</font>
+<br>
+</font>
+d49 1
+d52 1
+a52 1
+<a href=email.html>email</a>
+d55 1
+a55 1
+<a href=disclaimer.html>Disclaimers</a>
+@

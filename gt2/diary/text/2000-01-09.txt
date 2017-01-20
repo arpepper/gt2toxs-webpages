@@ -1,0 +1,45 @@
+Sunday January 9, 2000
+
+To Enjoy Gran Turismo 2 More, Use LSD
+
+Threads:
+  Gran Turismo 2
+  Tuning Advice
+
+To increase your enjoyment of Gran Turismo 2, it helps to use LSD.
+Limited-Slip Differential settings, that is.
+
+I had experimented with the expensive Cr50,000 "Traction Control System"
+(TCS), mostly on the monstrous Speed 12, with inconclusive results.
+It seemed to make the car vaguely difficult to control, as opposed
+to impossible to control with out it.
+
+However, with two rear-wheel drive cars LM prize cars, I got much
+better and more noticeable results by tweaking the limited-slip
+differential which comes on all LM cars.
+
+For both the Cerbera LM, and the new Concept Car LM, when I slid the
+"Limited Slip Initial" slider to the max, the cars behaved a lot
+better--accelerating, braking and cornering like in GT1.
+
+I have not yet experimented with the other limited slip settings, but
+left theme where they were.  My guess is that, for rear-wheel drive
+cars, decreasing those settings will increase the induced oversteer
+under the relevant conditions.  The defaults are about half-way,
+allowing some induced oversteer due to acceleration, but not a lot.
+
+Some time I must go back to the Speed 12, and see how well it behaves
+if I use this technique.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

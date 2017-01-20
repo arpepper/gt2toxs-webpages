@@ -1,0 +1,4 @@
+Thu Jan  1 15:54:01 EST 2004
+- add "new"/used/prize category
+- Connoy added two-digit year sometime after the version I used here
+- add prize event?

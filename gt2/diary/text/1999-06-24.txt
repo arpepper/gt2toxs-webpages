@@ -1,0 +1,98 @@
+Thursday June 24, 1999
+
+Race-modded Cerbera Wins at Grand Valley
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+
+Well, a race-modded Cerbera is one of my favourite cars to drive in
+the Grand Valley 300, partly because it is so easy on tires, so I
+decided to use it to try and get the second of the two Supra GT's
+awarded as prizes in the Grand Valley 300.
+
+   "blue" game day 429
+   [R]Cerbera (not LM)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:42.514rec(blue)  Cr20,000
+
+   Results:
+
+   1st  [R]Cerbera            1-37:55.1<--
+   2nd  [R]NSX-R LM GT2        +242.419   (1-41:57.5)
+   3rd  [R]GT-R LM             +302.121   (1-42:57.2)
+   4th  [R]Exiv 200GT          +490.258   (1-46:05.4)
+   5th  [R]Lancer EvoIV GSR    +498.546   (1-46:13.6)
+   6th  [R]Lantis TypeR        +617.054   (1-48:12.2)
+   
+   lap 1   1:44.304
+   pits   15,30,45
+   fl  (32)  1:34.742
+   slowest  non-pit   (22)  1:41.661
+             next     (43)  1:40.188
+   fastest pit laps   (45in)  1:49.903
+                      (31out) 1:42.264
+   slowest pit laps   (15in)  1:50.407
+                      (16out) 1:43.603
+
+I had lapped a few cars by my first pitstop.
+
+I had one unusual mishap, and a couple of minor ones.
+
+I just lapped the GT-R LM one more time in the last lap.
+
+I recorded lots of lap times of 1:35.XXX
+
+I won Cr300,000, and a black/blue  8-(  Castrol Supra GT.
+
+My time was a lot better than I previously managed with this car.
+That somewhat made up for the disappointment of not getting the
+second prize car in the second attempt at this race.
+
+Thread: Tuning Advice
+
+I happened to record  the settings I used:
+
+Spring Rate     4.8   3.9
+Ride Height     108   108
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance    4     3
+Turbo               0
+        1st       2.950
+        2nd       1.950
+        3rd       1.406
+        4th       1.084
+        5th       0.875
+                  -----
+        FD        3.200
+
+Aero            0.49  0.72        (max)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

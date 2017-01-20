@@ -1,0 +1,105 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.05.04.23.15.10;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.04.23.09.03;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@2000-03-14
+@
+
+
+1.2
+log
+@format twiddles.
+@
+text
+@Tuesday March 14, 2000
+
+
+Amazing Game Shark Discovery for Gran Turismo 2, version 1.0
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+ Gameplay Hints
+
+Here is a brief memory map of some locations I found by inspecting the
+simulation mode disk from my original "1.0" copy of Gran Turismo 2.
+
+
+This version shows three licenses above the Muscle Car Cup on the page
+under Special Events.
+
+This version spells "Nomal" incorrectly for the Event Generator.
+
+This version shows a Cr5,000 car wash.<html><br></html>
+This version has the garage delete bug.
+
+<HTML INDENT>
+<pre>
+801C9438 - A. day counter (as you see in bottom-left corner),4b,$ED,237
+801C9440 - B. total races,4b,$F6,246
+801C9444 - C. total wins,4b,$F6,246
+801C9448 - D. total "positions" or "rankings",4b,$F6,246
+801C944A - E. total races not including abandons(?),4b,$F6,246
+     D/E does appear to equal "average ranking"
+</pre>
+</HTML>
+(sample values in this case are not conclusive   8-) )
+
+<HTML INDENT>
+<pre>
+801C9458 - nybble map for game completion
+     each nybble represents a placing in an event (0 means event
+     not entered, or position does not correspond to an event).
+     The number of 1's is dynamically added up and divided by
+     the expected total to give the % complete.  You can actually
+     change a nybble in the memory editor while the game is in
+     the status screen, and, when you exit, that change will be
+     immediately shown in the percentage displayed.
+</pre>
+</HTML>
+
+In version 1.0 you can easily go up to 111.21% complete.   8-)
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d23 1
+a23 1
+<HTML>
+d35 1
+a35 1
+<HTML>
+@

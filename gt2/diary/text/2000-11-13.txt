@@ -1,0 +1,110 @@
+Monday November 13, 2000
+
+
+(GT1 Version 1.1)  Sunday Cup Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+I am now going to list, one event per day, all the tables
+I tracked down in Simulation Race mode.  I start with the
+parameters for the <b>Sunday Cup</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Sunday Cup Event (8008F544)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E0C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80091004</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F4E4</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090B50</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090D0C</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E0C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C77C</td><td>&nbsp;"mini"&nbsp;</td><td>Autumn Mini</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C760</td><td>&nbsp;"testline"&nbsp;</td><td>High Speed Ring</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6B0</td><td>&nbsp;"short"&nbsp;</td><td>Grand Valley East</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80091004 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q1500, 1st5000, champ15000)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090B50 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C408</td><td>&nbsp;"tstln"&nbsp;</td><td>Starlet Glanza V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C250</td><td>&nbsp;"mecln"&nbsp;</td><td>Eclipse GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C410</td><td>&nbsp;"hcfon"&nbsp;</td><td>Civic'93 Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C418</td><td>&nbsp;"tlevn"&nbsp;</td><td>Corolla Levin BZ-G</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C378</td><td>&nbsp;"ademn"&nbsp;</td><td>Demio GL-X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C490</td><td>&nbsp;"mmgon"&nbsp;</td><td>Mirage Cyborg R'92</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>&nbsp;"hcvnn"&nbsp;</td><td>Civic 3 door</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C458</td><td>&nbsp;"mmgrn"&nbsp;</td><td>Mirage Asti RX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C470</td><td>&nbsp;"nq15n"&nbsp;</td><td>Silvia Q's Aero (S14)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D0C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C678</td><td>&nbsp;"a-emn"&nbsp;</td><td>Demio Aspec</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F4E4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000B2C0</td><td>&nbsp;0:45.769&nbsp;</td><td>(Autumn Mini)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>000122C2</td><td>&nbsp;1:14.434&nbsp;</td><td>(High Speed Ring)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001447C</td><td>&nbsp;1:23.068&nbsp;</td><td>(Grand Valley East)</td></tr>
+</table>
+
+</HTML>
+
+===============================================================================

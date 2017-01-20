@@ -1,0 +1,33 @@
+Tuned
+
+Spring Rate         2.4    2.2
+Ride Height         100    100
+Dampers              1      1
+Camber              2.0    1.0
+Stabilizers          1      0
+Brake Balance       12      9
+
+Turbo                    6
+
+
+Race-mod:
+
+Spring Rate         2.0   1.8
+Ride Height         105   105
+Dampers              2     2
+Camber              2.0   1.0
+Stabilizers          0     0
+Brake Balance       15    12
+
+        1st          4.400
+        2nd          2.000
+        3rd          1.400
+        4th          1.056
+        5th          0.872
+                     -----
+   Final Drive       3.600
+
+
+
+Aero                0.40  0.53   (about 1/2F, and max R--pretty strange)
+

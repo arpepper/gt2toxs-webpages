@@ -1,0 +1,117 @@
+Friday January 05, 2001
+
+(GT1 Version 1.1)  A Code to Make Cars Appear in the Used Car Lots
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+All this information is for <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> version 1.1.
+</CODES>
+
+The following will make an arbitrary car appear in slot 1 of the Toyota
+Used Car Lot on days 1 to 9 (and 600 to 609):
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+D00C4510  60A8
+300C451A  00??
+</pre></font></tt>
+</HTML>
+
+<CODES>
+?? should be one of the garage codes as I list in <a href="2000-12-05.html">2000-12-05.html</a>.
+Perhaps read some of my words of advice there, too.
+
+The code overwrites the car normally available in that slot of that used car
+lot (an MA70 Supra), making it unavailable.  The chosen car is available
+instead, for the same low price.  8-)
+
+Do not use the codes for the Corvette'67 (B0), or the hidden DelSols (6A,6B) or Eunos Roadsters (AF),
+or the game will lock up.
+
+If you use the codes for the special models the slot disappears
+entirely.  (So you cannot buy the special models this way, although [R]
+prize cars are fine).
+
+Here's a long version of the codes to create an interesting used car
+lineup for the first nine days of the game.  The first five cars
+appear in the Toyota lot, and the rest in the Nissan lot.  (These
+overwrite the cars normally available there).
+</CODES>
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+GREAT-DAY1-USED-LINEUP
+
+D00C4510  60A8
+300C451A  00A2 -- Viper GTS
+D00C4510  60A8
+300C451E  00AD -- [R]Cerbera LM
+D00C4510  60A8
+300C4522  00A3 -- Concept Car (B license prize)
+D00C4510  60A8
+300C4526  00A5 -- "[R]"Concept Car "LM"
+D00C4510  60A8
+800C452A  D858 -- [R]FTO LM (green)
+
+D00C4510  60A8
+800C4552  D642 -- [R]Silvia LM (green)
+D00C4510  60A8
+800C4556  C448 -- GTO'95 MR (red)
+D00C4510  60A8
+800C455A  C422 -- GT-R'89 (red)
+D00C4510  60A8
+300C455E  001C -- TRD 3000GT
+D00C4510  60A8
+300C4562  003F -- Nismo 400R
+D00C4510  60A8
+300C4566  00A4 -- [R]Viper GTS-R
+D00C4510  60A8
+300C456A  001D -- [R]Castrol Supra GT (prize)
+D00C4510  60A8
+800C456E  C45E -- Acura TypeSzero (red)
+</pre></font></tt>
+</HTML>
+
+<CODES>
+The cars I show are in a sense just examples, although I did test the
+actual literal examples above.  You can change the car codes
+to any valid garage values you want, subject to the same caveats as mentioned
+above.
+
+Note that for the cars with colours shown in parentheses I use an <b>80</b>
+code instead of a <b>30</b>, and specify the colour byte, to change it
+from the often boring default colour for that particular car.
+
+Another thing you could do is change the price associated with each car.
+For example:
+</CODES>
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+D00C4510  60A8
+800C4518  0001
+</pre></font></tt>
+</HTML>
+would make the price of the first car 10 Credits.
+
+<CODES>
+Many thanks to all the people who enabled me to create this code,
+especially <b>RaysurX</b> who determined the garage codes originally.
+
+Not to mention those who helped me even conceive of the idea of
+putting cars into the used car lots.
+</CODES>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

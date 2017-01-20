@@ -1,0 +1,228 @@
+Friday August 6, 1999
+
+Demio Results, Inspired by Newsgroup Postings
+
+Threads:
+  Race Results
+  Tuning Advice
+
+Thread:Tuning Advice
+
+Well, someone mildly maligned the trusty prize Demio Aspec, so I felt
+the need to do a precise re-evaluation of its worth.
+
+Looing through the garage in my "main" game, I discovered, I had
+a maxed race-modded Demio, a stock one (for reference), and one,
+the second car in my garage, which was only lightly modified.
+So I decided to race it like that, and see if I could win the
+Lightweight Battle Stage and/or the FF Challenge with it.
+
+Actually, it had hard stabilizers front and rear, but I removed first
+both of them, but later put only the front one back on.  In that
+form, the "memory card trade" value was Cr108,700.
+
+The car had only weight-reduction stage 2 done.  It also had neither of
+the "permanent" engine modifications done (balancing, and port
+polishing).  Using weight-reduction 2 is a cheap dodge to avoid the
+handling problems that can occur in very light cars with stiffish
+suspension and/or stabilizers.
+
+Apart from that:
+
+Tires               Racing S:S
+Brakes              Racing
+Brake Controller    Yes
+Suspension          *Normal*
+Front Stabilizer    Hard
+Rear Stabilizer     *Normal*
+
+ROM                 Tuned
+Turbine             Spec 3
+Driveshaft          ----
+
+Gear                Racing Support
+Clutch              *Normal*
+Flywheel            *Normal*
+Driveshaft          ----
+
+Muffler             Racing
+Intercooler         ----
+
+The numbers:
+
+Spring Rate         2.0   1.8
+Ride Height         145   145
+Dampers              0     0
+Camber              0.0   0.0
+Stabilizers          1     0
+Brake Balance       12     9
+
+        1st          4.062
+        2nd          2.032
+        3rd          1.426
+        4th          1.058
+        5th          0.800
+                     -----
+   Final Drive       4.500
+
+
+Apart from the stabilizers, I changed no parts from what I found in
+the garage, but I did tweak some settings, principally the stabilizers
+and the intermediate gear ratios (although effective 1st and 5th
+gears, and final drive, I left alone).
+
+The engine tuning gave 204 of a maximum possible 211bhp.
+
+So, here's how I did:
+
+Thread: Race Results
+
+<HTML INDENT>
+<pre>
+
+                        Lightweight Battle Stage
++=======================================================================+
+|Date: August 6, 1999|Day: 4025   |Car: lt-tune Demio Aspec Cr108,700   |
++-----------------------------------------------------------------------+
+|Major Opponents:   IntegraTypeR, DemioGL-X, CivicCRX'91                |
+|                     StarletGlanzaV, MirageCyborgR                     |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Autumn Ring Mini ii | 4 |  0.41.439  | 2 |  1.21.176  |  0.38.431  | 6 |
+|--------------------+---+------------+---+------------+----------------|
+|Clubman Stage R5    | 1 |  0.57.679  | 1 |  1.51.971  |  0.52.650  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Deep Forest ii      | 6 |  1.28.565  | 3 |  2:50.278  |  1.20.701  | 4 |
++=======================================================================+
+|Result: 2nd 21to(19),15,11,5,4       |Prize car:     8-(           |19 |
++=======================================================================+
+
+
+
+
+
+                        Lightweight Battle Stage
++=======================================================================+
+|Date: August 6, 1999|Day: 4029   |Car: lt-tune Demio Aspec Cr108,700   |
++-----------------------------------------------------------------------+
+|Major Opponents:   Civic3dr'91, TruenoBZG, DemioGL-X,                  |
+                     AE86LevinGT-Apex, MirageAstiRX                     |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Autumn Ring Mini ii | 3 |  0.41.021  | 1 |  1.18.712  |  0.37.777  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Clubman Stage R5    | 5 |  0.58.974  | 1 |  1.53.324  |  0.52.441  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Deep Forest ii      | 6 |  1.27.992  | 2 |  2.49.157  |  1.19.593  | 6 |
++=======================================================================+
+|Result: 1st24to21,12,7,6,5           |Prize car: pink Civic (sold) |24 |
++=======================================================================+
+
+
+
+
+                        FF Challenge
++=======================================================================+
+|Date: August 6, 1999|Day: 4033   |Car: lt-tune Demio Aspec Cr108,700   |
++-----------------------------------------------------------------------+
+|Major Opponents:  FTO GPversionR, LevinBZG, delSolSiR,                 |
+|                    Primera'952.0Te, LantisTypeR                       |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Deep Forest ii      | 6 |  1.28.822  | 1 |  2.49.672  |  1.20.729  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Grand Valley East   | 6 |  1.16.284  | 1 |  2.23.156  |  1.07.416  | 9 |
+|--------------------+---+------------+---+------------+----------------|
+|Special Stage R11   | 1 |  2.13.360  | 1 |  4.17.526  |  2.04.392  | 9 |
++=======================================================================+
+|Result: 1st27to15,14,8,8,3           |Prize car: yellow CRX (sold) |27 |
++=======================================================================+
+</pre>
+</HTML>
+
+
+In addition, my garage had a fully-maxed race-modified Demio Aspec.
+It was fitted with all possible parts, I believe, but note that a
+Demio at Deep Forest is one combination where you should use the
+normal flywheel instead of the racing flywheel, as per the warning
+in the write-up for the lighter flywheels.
+
+Here are its numbers:
+
+Spring Rate         2.0   1.8
+Ride Height         105   105
+Dampers              2     2
+Camber              2.0   1.0
+Stabilizers          0     0
+Brake Balance       15    12
+
+        1st          4.400
+        2nd          2.000
+        3rd          1.400
+        4th          1.056
+        5th          0.872
+                     -----
+   Final Drive       3.600
+
+Aero                0.40  0.53   (about 1/2F, and max R--pretty strange)
+
+I should drive this sometime again.  I think I might have been half-way
+through an experiment.  Logic says those dampers should be too stiff
+for the suspension.  (Depending upon what "0" means in the non-modified
+damper settings).  Probably 1/0 stabilizers would help, and fix the
+problem I was trying to solve with the aero settings.  And, although
+the car is light, and those (absolute minimum) spring rates do match
+the stock settings,  I would guess they could be raised, to improve
+response, etc.  But perhaps not.
+
+I should also try tuning and driving a Demio Aspec with weight
+reduction 3.
+
+But there is something else I might try, if I have time.  I think I
+could reduce the value of my car below Cr100,000 by using the normal
+gearbox.   My gears were different, but seemed to be oriented towards
+my early days when I would lose control a lot and need very low gears
+to start the turbo, especially since the "handbrake start" trick does
+*not* work with this Demio.
+
+           My gears                        Stock gears
+     4.062      18.279                  3.416     14.012
+     2.032       9.144                  1.842      7.556
+     1.426       6.417                  1.290      3.990
+     1.058       4.761                  0.972      5.292
+     0.800       3.600                  0.775      3.179
+     -----                              -----
+     4.500                              4.105
+
+The extra columns of numbers are the effective ratio for each gear,
+obtained by multiplying the gear by the final drive.  Note that
+the stock gears are higher (ie lower numbers) than mine.  But,
+if anything, that's what I felt I needed.  I almost ran out of top
+end at Grand Valley East and Special Stage R11, and I was going
+around most hairpins and other sharp corners in third gear.
+A 0-400 test with stock settings suggested, however, that I could
+get a reasonable start with the stock gears, since I can rev-up
+before the start.  (But you cannot do that with the Demio if you
+do wipe out).
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

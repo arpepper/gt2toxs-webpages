@@ -1,0 +1,259 @@
+Sunday July 16, 2000
+
+
+(GT2)  Evolution of a GameShark Code, Part III
+
+Threads:
+ Gran Turismo 2
+ Game Shark Hints
+
+I wanted to create a GameShark Code for <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html> which
+would cause you to win as prize cars hybrids constructed from your garage.
+These codes will only possibly work for <html><b>GameShark Version 3.00</b>
+or higher.
+
+In the first two step, outlined in my previous two entries , I developed codes
+to cause you to win as a prize-car a new copy of the first car in your
+garage--first a single copy, and later as components.
+
+The next step, was to copy different pieces of the car from different
+garage slots.  That, then, would be the first version of this code of
+mine.
+
+The first version is for the
+original 1.0 North American version of <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html>:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CCFB8 0008 -- copies most things from slot #1 (1.0)
+ 101D502C 0000
+ C21CCFC4 0006
+ 101D5038 0000
+ C21CCFCE 000C
+ 101D5042 0000
+ C21CCFFA 001A
+ 101D506E 0000
+ C21CD018 0044
+ 101D508C 0000
+
+ C21CD070 0002 -- copies engine from slot #2
+ 101D5040 0000
+
+ C21CD112 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D503E 0000
+ C21CD122 0004 -- copies weight reduction and race-mod from slot #3
+ 101D504E 0000
+
+ C21CD1CA 000A -- copies engine mods from slot #4
+ 101D5052 0000
+
+ C21CD278 0010 -- copies turbo and some other stuff from slot #5
+ 101D505C 0000
+ C21CD2A4 0004 -- copies turbo gauge also from slot #5
+ 101D5088 0000
+
+ C21CD2F4 0004 -- copies after-market rims from slot #6
+ 101D5034 0000
+ C21CD32C 0002
+ 101D506C 0000
+</pre></font></tt>
+</HTML>
+
+I have worked extensively with this 1.0 code.
+
+I have not actually tested any of the other versions, yet.  I would expect
+them to work, and would not be greatly afraid to try them--I just have
+not got around to it.
+
+For North American Version 1.1:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD328 0008 -- copies most things from slot #1 (1.1)
+ 101D539C 0000
+ C21CD334 0006
+ 101D53A8 0000
+ C21CD33E 000C
+ 101D53B2 0000
+ C21CD36A 001A
+ 101D53DE 0000
+ C21CD388 0044
+ 101D53FC 0000
+
+ C21CD3E0 0002 -- copies engine from slot #2
+ 101D53B0 0000
+
+ C21CD482 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D53AE 0000
+ C21CD492 0004 -- copies weight reduction and race-mod from slot #3
+ 101D53BE 0000
+
+ C21CD53A 000A -- copies engine mods from slot #4
+ 101D53C2 0000
+
+ C21CD5E8 0010 -- copies turbo and some other stuff from slot #5
+ 101D53CC 0000
+ C21CD614 0004 -- copies turbo gauge also from slot #5
+ 101D53F8 0000
+
+ C21CD664 0004 -- copies after-market rims from slot #6
+ 101D53A4 0000
+ C21CD69C 0002
+ 101D53DC 0000
+</pre></font></tt>
+</HTML>
+
+For North American Version 1.2:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD558 0008 -- copies most things from slot #1 (1.2)
+ 101D55CC 0000
+ C21CD564 0006
+ 101D55D8 0000
+ C21CD56E 000C
+ 101D55E2 0000
+ C21CD59A 001A
+ 101D560E 0000
+ C21CD5B8 0044
+ 101D562C 0000
+
+ C21CD610 0002 -- copies engine from slot #2
+ 101D55E0 0000
+
+ C21CD6B2 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D55DE 0000
+ C21CD6C2 0004 -- copies weight reduction and race-mod from slot #3
+ 101D55EE 0000
+
+ C21CD76A 000A -- copies engine mods from slot #4
+ 101D55F2 0000
+
+ C21CD818 0010 -- copies turbo and some other stuff from slot #5
+ 101D55FC 0000
+ C21CD844 0004 -- copies turbo gauge also from slot #5
+ 101D5628 0000
+
+ C21CD894 0004 -- copies after-market rims from slot #6
+ 101D55D4 0000
+ C21CD8CC 0002
+ 101D560C 0000
+</pre></font></tt>
+</HTML>
+
+For PAL version (should work, based on the known offset):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD588 0008 -- copies most things from slot #1 (PAL)
+ 101D55FC 0000
+ C21CD594 0006
+ 101D5608 0000
+ C21CD59E 000C
+ 101D5612 0000
+ C21CD5CA 001A
+ 101D563E 0000
+ C21CD5E8 0044
+ 101D565C 0000
+
+ C21CD640 0002 -- copies engine from slot #2
+ 101D5610 0000
+
+ C21CD6E2 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D560E 0000
+ C21CD6F2 0004 -- copies weight reduction and race-mod from slot #3
+ 101D561E 0000
+
+ C21CD79A 000A -- copies engine mods from slot #4
+ 101D5622 0000
+
+ C21CD848 0010 -- copies turbo and some other stuff from slot #5
+ 101D562C 0000
+ C21CD874 0004 -- copies turbo gauge also from slot #5
+ 101D5658 0000
+
+ C21CD8C4 0004 -- copies after-market rims from slot #6
+ 101D5604 0000
+ C21CD8FC 0002
+ 101D563C 0000
+</pre></font></tt>
+</HTML>
+
+For Japanese version (I've seen this offset, but it would be nice if
+someone could test it--be warned):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD9B8 0008 -- copies most things from slot #1 (Japanese?)
+ 101D5A2C 0000
+ C21CD9C4 0006
+ 101D5A38 0000
+ C21CD9CE 000C
+ 101D5A42 0000
+ C21CD9FA 001A
+ 101D5A6E 0000
+ C21CDA18 0044
+ 101D5A8C 0000
+
+ C21CDA70 0002 -- copies engine from slot #2
+ 101D5A40 0000
+
+ C21CDB12 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D5A3E 0000
+ C21CDB22 0004 -- copies weight reduction and race-mod from slot #3
+ 101D5A4E 0000
+
+ C21CDBCA 000A -- copies engine mods from slot #4
+ 101D5A52 0000
+
+ C21CDC78 0010 -- copies turbo and some other stuff from slot #5
+ 101D5A5C 0000
+ C21CDCA4 0004 -- copies turbo gauge also from slot #5
+ 101D5A88 0000
+
+ C21CDCF4 0004 -- copies after-market rims from slot #6
+ 101D5A34 0000
+ C21CDD2C 0002
+ 101D5A6C 0000
+</pre></font></tt>
+</HTML>
+
+So this is actually the code I wanted!!!
+
+With the code active, arrange that six cars you want to combine, as
+indicated, are at the top of your garage.  Often you want to have
+duplicate copies of cars if there are only certain things you want
+to combine.  In an extreme case, you might put five copies of a BMW
+in the first five slots, and put a car with nice after-market rims
+in the sixth slot, and then your prize will be the BMW fitted with
+the custom rims.
+
+I did not totally like my choice of parts combinations (in particular
+dangerous things happen when you mix the L+W+H code inappropriately, so
+I find it best to keep it with the "base" car; it makes for a more
+realistic hybrid that way, anyway.
+
+So, in my next version, I tweak things a bit, rearranging the parts,
+and actually use nine slots instead of six.
+
+A caveat applies to all these codes.  I think they strain the limits
+of the <html><b>GameShark</b></html>, and about once every 20 or so attempts,
+I get a dreaded <html><b>No Name No Name</b></html> car instead of the
+desired hybrid.  Often this happens twice in a row, and then tends to
+clear up.  I think it is a timing problem, aggravated perhaps by the
+length of my code, or, perhaps, I think I heard once, by the fact I
+have so many codes now for <html><b>Gran Turismo 2</b></html>, even though
+most of them are not active.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

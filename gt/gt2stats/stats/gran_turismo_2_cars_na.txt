@@ -1,0 +1,2449 @@
+Gran Turismo 2: Complete Car List & Info Database
+Version 2.2--19 November 2000
+Compiled by Dave Connoy
+connoy@mailcity.com
+
+
++---------+
+| Preface |
++---------+
+Like my Complete Car List for the original Gran Turismo, this document is
+simply a list of all cars available in the North American version of Gran
+Turismo 2.  Dealer figures on horsepower continue to be inaccurate (even more
+so than in GT), myths on what cars are/are not in the game, and confusion
+about the capabilities of those cars, seem to be running rampant and I think
+this endeavor should facilitate discussion.
+
+Since this list is in a tabular format, nothing except a single-width font
+(such as Courier New) will suffice for displaying it in editors like WordPad.
+The latest version of this list can always be found at www.gamefaqs.com, by
+far the recommended source for video game FAQs and guides on the Web.
+
+I've created a Microsoft Excel version of this list, which is available at
+private.addcom.de/bradley/gt2.  It's up to date with version 2.0 of the text
+FAQ.
+
+
++-------------------+
+| Table of Contents |
++-------------------+
+Version History
+Introduction/Notation
+Car Dealers
+     Acura
+     Alfa Romeo
+     Aston Martin
+     Audi
+     BMW
+     Chevrolet
+     Citroen
+     Daihatsu
+     Dodge
+     Fiat
+     Ford
+     Honda
+     Jaguar
+     Lancia
+     Lister
+     Lotus
+     Mazda
+     Mercedes-Benz
+     MG
+     Mini
+     Mitsubishi
+     Nissan
+     Opel
+     Peugeot
+     Plymouth
+     Renault
+     RUF
+     Shelby
+     Subaru
+     Suzuki
+     Tommy kaira
+     Toyota
+     TVR
+     Vector
+     Venturi
+     Volkswagen
+Prize Car Listing
+     License Tests
+     Gran Turismo League
+     Special Events
+     Endurance
+Statistics: Best/Worst
+Frequently Asked Questions
+Gran Turismo 2's Best Cars
+     Best Bargain Cars
+     Best Stock Cars
+     Best Road Cars
+     Best Rally Cars
+     Best Mid-HP Race Cars
+     Best High-HP Race Cars
+Hidden Cars
+     The Lost Hondas
+     GameShark
+     DexDrive
+Final Rants
+     Mysteries of the GT40
+     Adventures in GameShark Weirdness
+Credits & Copyright Info
+
+
++-----------------+
+| Version History |
++-----------------+
+Version 2.2: Where have I been?  Playing GT2.  Not over-anaylzing and stat-
+     crunching it, but *playing* it.  What a concept!  No new main list
+     material, just revisions to the Best Cars lists and FAQ section.
+Version 2.1: Just when I think I'm out... they PULL ME BACK IN!!!  Hidden car
+     bonanza for this update--new section details how to get the original
+     versions of the Hondas that were Acura-ified for the US version, and a
+     Nissan that was left out.  HUGE thanks to RogsR34UK and his code-
+     deciphering skillz for this info.  Also tuned up a few things--who knew
+     there were two different cars called "240SX Fastback Type X '96"?
+Version 2.0: Front Mission 3 fell through, so I figured I might as well
+     complete *something*.  ALL the car data is here now, the DexDrive save
+     and Excel spreadsheet have a home, and a new statistical best/worst
+     section is added.  Done!  See you come GT2K.
+Version 1.5: More car data added, and some text revisions made.  Added
+     another question to the FAQ section.  2000's game release schedule is
+     pretty dense, and I'm moving on to write a FAQ for Front Mission 3, so
+     this document will most probably not see any more updates.  It's been a
+     fun ride, and thanks to all who helped.
+Version 1.4: Data added for most of the Nissan Skylines, and a Frequently
+     Asked Questions section added.  Further update to the status of the save
+     file associated with this document in the "Hidden Cars" section.  Excel
+     version is still in limbo; status is in the Preface.
+Version 1.3: Dumbass that I am, I didn't include the GameShark code or data
+     for the Honda Integra Type R 98 spec, so that's been added.  A few other
+     touch-ups here and there.
+Version 1.2: Added a little text to "Mysteries of the GT40".  DexDrive save
+     has been uploaded to www.gameshark.com.  Got in about six hours of
+     actual racing, so "GT2's Best Cars" lists now reflect a little more
+     real-game experience.  Honda, Mitsubishi, and Subaru now 100% complete.
+Version 1.1: Small update.  Corrected name of STP Viper GT; added new lists
+     to "GT2's Best Cars" section (let the flame wars commence); added new
+     details on [R]CLK Race Car GameShark code; added babble on GT40.
+Version 1.0: Huge update.  Subaru now complete save stragglers.  All prize
+     cars (including those from Endurance races) are complete.  Added hidden
+     cars to list and new "Hidden Cars" section to explain how to get them.
+     Reorganized lists to follow a stricter ordering scheme.  Since all cars
+     are now listed, even if without statistics, we've hit version 1.0.
+Version 0.7: Honda, Mazda, and Mitsubishi complete except for a few
+     stragglers.  Added Prize Car Listing and a section on GT2's best cars.
+Version 0.5: Added entries for all Hondas and a lot of other missing cars.
+     Put in the (very incomplete) missing manufacturers.
+Version 0.4: First published version.  Still a work in progress; everything
+     except Honda, Mazda, Mitsubishi, Nissan, Subaru, Toyota about 90% done.
+
+
++-----------------------+
+| Introduction/Notation |
++-----------------------+
+Here I'll explain the notations used in the list.
+
+Name: The first column contains the car's name, prefixed with a "*" if it is
+a prize car (obtained by winning a particular event) and/or an "[R]" for full
+race cars.  Finally, Japan-only models are suffixed with (J).  Car names are
+the ones used by the garage listing in the US version, typos and duplicates
+included.
+
+Several entries have a "!" before them.  These cars are not normally
+accessible in the game.  See the "Hidden Cars" section at the end of the FAQ
+for ways of obtaining them.
+
+Yr: This column notes the model year of the car.  It may seem unneccessary,
+but a few cars have identical names and the model year is the easiest way to
+tell them apart.
+
+DrvTrn: This column notes the car's drivetrain (using the conventions in the
+Gran Turismo 2 manual).
+
+A: The aspiration of the car's unmodified engine.  "N" represents normal
+aspiration, and "T" represents turbo.  This isn't a terribly useful fact
+since most cars are best driven highly tuned, but I thought it mentionable.
+
+Tuned MinHP: The minimum peak HP achievable after the car has been fully
+tuned.  Essentially, this is the car's stock peak HP after all permanent
+engine modifications (engine balancing, displacement increase, and port
+polishing) but without any other modifications.  This statistic is important
+to know because it dictates what races the car is eligible for *after* full
+tuning.
+
+NA MaxHP: This is the peak HP after all highest-spec normal aspiration
+parts installed.  Cars with stock turbocharging will not have this figure.
+
+Turbo MaxHP: The peak HP after all highest-spec turbo aspiration parts
+installed.  Normally-aspirated cars that cannot take aftermarket turbo
+modifications will not show this figure.
+
+Tuned Wt.: The car's weight after all three stages of weight reduction.
+
+Racing Wt.: The car's weight with racing modification fitted.
+
+Why no stock figures?  Since there is no "Normal" race in GT2, every car is
+best tuned, and the minimum tuned HP is good to know for race eligibility.
+The stock HP is generally about 5% below the minimum tuned HP, and dealer
+figures on weight are always accurate.
+
+Miscellaneous useful information about a car will occur indented on the line
+below its entry.
+
+
++-------------+
+| Car Dealers |
++-------------+
+The addition of the "lost Hondas" and two Nissans brings the car total up to
+600... exactly.  [cue Twilight Zone music]
+
+Japan:    408
+USA:      67
+Germany:  43
+UK:       40
+Italy:    23
+France:   19
+
+
+Acura
+-----
+Country: USA (South City)             Yr Drv A Tuned NA    Turbo Tuned Racing
+9 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Acura Integra GS-R '95                95 FF  N 178   285   ---   2453  ----
+Acura Integra GS-R                    98 FF  N 178   285   ---   2453  2378
+Acura Integra Type-R '95              95 FF  N 205   284   362   2453  ----
+Acura Integra Type R                  98 FF  N 208   291   370   2453  ----
+
+Acura NSX '91                         91 MR  N 264   395   ---   2768  2656
+Acura NSX '93                         93 MR  N 286   423   ---   2687  ----
+Acura NSX '97                         97 MR  N 303   430   ---   2729  2619
+Acura NSX Type S (J)                  97 MR  N 299   453   ---   2588  ----
+Acura NSX Type S Zero (J)             97 MR  N 299   453   ---   2491  ----
+
+
+Alfa Romeo
+----------
+Country: Italy (West City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+11 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+145 2.0 Cloverleaf                    98 FF  N 157   175   335   2453  ----
+
+155 2.0 TS 16V                        98 FF  N 157   270   ---   2550  2447
+
+156 2.0 TS 16V                        98 FF  N 157   175   351   2451  2352
+156 2.5 V6 24V                        98 FF  N 205   387   463   2588  2484
+
+166 2.0 TS 16V                        98 FF  N 157   175   351   2784  ----
+166 2.5 V6 24V                        98 FF  N 219   384   ---   2923  ----
+166 3.0 V6 24V                        98 FF  N 257   410   ---   2960  ----
+
+GTV 2.0 TS 16V                        98 FF  N 157   175   351   2687  2579
+GTV 3.0 V6 24V                        98 FF  N 257   410   ---   2776  2663
+
+Spider 2.0 TS                         98 FF  N 157   175   351   2687  ----
+
+[R]155 Touring Car                    95 4WD N       544               2336
+
+
+Aston Martin
+------------
+Country: UK (North City)                 Drv A Tuned NA    Turbo Tuned Racing
+4 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+DB6                                      FR  N 343   388   ---   3040  ----
+
+DB7 Coupe                                FR  N 391   429   531   3481  3339
+DB7 Volante                              FR  N 391   429   531   3628  3483
+
+V8 Vantage                               FR  N 598   659   726   3904  ----
+
+
+Audi
+----
+Country: Germany (North City)            Drv A Tuned NA    Turbo Tuned Racing
+6 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+A3                                       FF  T 154         343   2321  ----
+
+A4 2.8 quattro                           4WD N 202   342   ---   2804  2691
+
+S3                                       4WD N 217   234   383   2696  ----
+
+S4                                       4WD T 279         601   2960  2841
+
+TT 1.8T quattro                          4WD T 227         397   2735  2625
+
+[R]TT LM Edition                         4WD T             544         2138
+
+
+BMW
+---
+Country: Germany (North City)            Drv A Tuned NA    Turbo Tuned Racing
+8 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+320Ci                                    FR  N 154   308   ---   2824  2709
+323Ci                                    FR  N 180   367   442   2835  2720
+328Ci                                    FR  N 200   370   473   2872  2755
+
+323ti Compact                            FR  N 175   357   ---   2608  ----
+328i                                     FR  N 200   370   ---   2863  ----
+
+528i                                     FR  N 145   315   ---   3088  ----
+
+740i                                     FR  N 293   421   ---   4030  ----
+
+840Ci                                    FR  N 293   415   ---   3716  ----
+
+
+Chevrolet
+---------
+Country: USA (South City)             Yr Drv A Tuned NA    Turbo Tuned Racing
+10 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Camaro Z28 '69                        69 FR  N 313   432   ---   3020  2899
+Camaro SS '97                         97 FR  N 331   613   ---   3062  2938
+Camaro Z28 Coupe '97                  97 FR  N 303   615   ---   3062  2938
+*Camaro Z28 30th Anniversary '96      96 FR  N 303   615   ---   3062  2938
+     Awarded randomly in Super Touring Car Trophy.
+
+Corvette Sting Ray '67                67 FR  N 463   630   ---   3020  2899
+Corvette 427 Stingray '69             69 FR  N 460   617   ---   2888  2771
+Corvette Stingray '82                 82 FR  N 233   395   ---   2974  2854
+Corvette ZR-1 '95                     95 FR  N 425   642   ---   3119  2993
+Corvette Coupe '96                    96 FR  N 351   667   ---   2934  2815
+Corvette Grand Sport '96              96 FR  N 351   667   ---   2934  2815
+
+
+Citroen
+-------
+Country: France (West City)              Drv A Tuned NA    Turbo Tuned Racing
+4 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Saxo 1.6i VTS                            FF  N 126   264   ---   1895  1838
+
+Xantia 3.0i V6 Exclusive                 FF  N 201   356   ---   2934  ----
+
+Xsara 1.8i 16V Exclusive                 FF  N 115   131   262   2259  ----
+
+[R]Xsara Rally Car                       4WD T             378         2116
+
+
+Daihatsu
+--------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+17 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Midget II D-Type (J)                     FR  N 34    37    82    1155  ----
+
+Mira TR-XX '90 (J)                    90 4WD T 64          182   1499  1452
+Mira TR 4WD '98 (J)                   98 4WD T 63          190   1580  1532
+Mira TX 4WD '98 (J)                   98 4WD T 63          190   1560  1512
+
+Move CX '95 (J)                       95 FF  N 56    63    88    1499  1452
+Move SR-XX 2WD '97 (J)                97 FF  T 63          190   1541  1494
+Move SR-XX 4WD '97 (J)                97 4WD T 63          190   1459  1415
+Move SR-XX 4WD '98 (J)                98 4WD T 63          190   1783  1728
+Move Custom 4WD '98 (J)               98 4WD T 63          190   1803  1748
+
+Opti Club Sport 2WD '97 (J)           97 FF  N 56    63    82    1338  1296
+Opti Club Sport 4WD '97 (J)           97 4WD N 56    63    82    1439  1395
+Opti Aerodown Beex 4WD '98 (J)        98 4WD T 63          190   1662  ----
+
+Storia CX 2WD '98 (J)                 98 FF  N 61    69    174   1701  1649
+Storia CX 4WD '98 (J)                 98 4WD N 61    69    174   1803  1748
+Storia X4 '98 (J)                     98 4WD T 120         195   1701  1649
+
+Terios Kid Aerodown '98 (J)           98 4WD T 63          190   2028  ----
+
+[R]Storia Rally Car                      4WD T             427         1763
+
+
+Dodge
+-----
+Country: USA (South City)             Yr Drv A Tuned NA    Turbo Tuned Racing
+15 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Avenger ES                               FF  N 145   167   335   2665  ----
+
+Challenger                            72 FR  N 303   440   ---   3247  ----
+
+Charger '71                           71 FR  N 404   559   ---   3368  ----
+
+Intrepid ES                              FF  N 237   267   505   3130  3004
+
+Neon ACR                                 FF  N 157   283   ---   2281  2211
+Neon R/T                                 FF  N 157   283   ---   2281  2211
+
+Stratus ES                               FF  N 108   119   371   2674  ----
+
+Viper GTS                                FR  N 486   706   ---   3002  2881
+Viper RT/10                              FR  N 486   706   ---   2954  2835
+
+*Concept Car                             MR  N 227   353   ---   1986  1924
+     Obtain gold medals in all A license tests.
+
+*Phaeton                                 FR  N 526   603   ---   3139  ----
+     Awarded in Muscle Car Cup Race 3.
+
+*[R]Concept Car LM Edition               MR  N       526               1984
+     Awarded in Convertible Car World Cup Race 3.
+
+[R]Viper GTS-R Team Oreca             99 FR  N       690               2535
+*[R]STP Viper GT                      99 FR  N       645               2601
+     Awarded randomly in GT500 Championship.
+*[R]Viper GTS-R                          FR  N       690               2749
+     Awarded in Apricot Hill 200km Endurance.
+
+
+Fiat
+----
+Country: Italy (West City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+6 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+500R                                  75 RR  N 23    26    138   1053  1020
+
+500 Sporting                          98 FF  N 56    63    187   1490  1444
+600 (Seicento) Sporting                  FF  N 56    63    187   1490  ----
+
+Barchetta                                FF  N 131   246   ---   2149  ----
+
+Coupe 2.0 20V Turbo                      FF  T 217         391   2568  2464
+
+Punto GT                                 FF  T 135         214   2028  1986
+
+
+Ford
+----
+Country: USA (South City)             Yr Drv A Tuned NA    Turbo Tuned Racing
+20 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Cougar (Mercury) XR-7 '67             67 FR  N 343   558   ---   3134  ----
+Cougar (Mercury) '99                     FF  N 181   208   512   2727  ----
+Cougar 2.5i 24V                          FF  N 181   208   512   2727  ----
+
+Focus Ghia 2.0i Zetec                    FF  N 131   150   388   2352  ----
+Focus Zetec 1.8i                         FF  N 116   217   256   2281  ----
+
+Ka                                       FF  N 63    70    174   1774  1719
+
+Mondeo Ghia X 2.5i 24V                   FF  N 181   332   ---   2742  2632
+
+Mustang GT '98                        98 FR  N 219   368   ---   2916  ----
+Mustang GT '99                        99 FR  N 219   368   ---   2912  ----
+Mustang SVT Cobra '98                 98 FR  N 319   460   ---   3022  2901
+Mustang SVT Cobra '99                 99 FR  N 336   464   ---   3051  2927
+
+Puma 1.7 Zetec-SE VCT                    FF  N 125   252   ---   2096  2032
+
+RS200 Rally Car                       86 4WD T 393         484   2471  ----
+
+Taurus SHO '99                        99 FF  N 246   364   ---   2960  2841
+
+GT40                                  66 MR  N 305   652   ---         2200
+     Wondering where the [R] went?  See the "Final Rants" section.
+
+*[R]Escort Rally Car                     4WD T             460         2711
+     Awarded in Seattle 100 Mile Endurance.
+
+[R]Focus Rally Car                    99 4WD T             460         2711
+
+*[R]GT40 Race Car                     69 MR  N       492               2200
+     Awarded in Mid-Engine Challenge Race 3.
+
+*[R]GT90                                 MR  T             716         3201
+     Awarded in Seattle 100 Mile Endurance.
+
+[R]SR Widebody                        99 FR  N       640               2601
+
+
+Honda
+-----
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+62 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Accord Sedan '96                      96 FF  N 194   318   ---   2923  2804
+Accord Wagon '96                      96 FF  N 194   276   ---   2843  2729
+Accord SiR-T '97 (J)                  97 FF  N 202   339   ---   2550  2447
+Accord SiR-T '98 (J)                  98 FF  N 202   339   ---   2550  2447
+Accord Wagon SiR '98 (J)              98 FF  N 210   302   ---   2804  2691
+Accord Wagon 2300VTL '97 (J)          97 4WD N 175   282   ---   2843  2729
+*Accord Type-R                           FF  N 219   323   ---   2636  2530
+     Awarded in Luxury Sedan Cup Race 1.
+*Mugen Accord SIR-T (J)                  FF  N 200   301   ---   2550  ----
+     Awarded in FF Car Challenge Race 1.
+*Mugen Accord Wagon (J)                  FF  N 207   279   ---   2804  ----
+     Awarded in Station Wagon Cup Race 2.
+
+Beat '91 (J)                          91 MR  N 64    93    128   1541  1494
+Beat ver.F '92 (J)                    92 MR  N 64    93    128   1541  1494
+Beat ver.Z '94 (J)                    94 MR  N 64    93    128   1541  1494
+*Mugen Beat (J)                          MR  N 64    93    128   1541  ----
+     Awarded in Light-weight "K" Cup Race 1.
+
+Civic Sedan '93                       93 FF  N 167   239   ---   2092  2028
+Civic Sedan '96                       96 FF  N 177   244   ---   2314  2244
+Civic Sedan                           98 FF  N 177   244   ---   2290  2220
+Civic 3 Door Si '93                   93 FF  N 167   239   293   1926  1867
+Civic 3 Door '95                      95 FF  N 177   244   299   2072  2008
+Civic 3 Door Si                       98 FF  N 177   244   326   2231  2162
+Civic Type R '97 (J)                  97 FF  N 192   266   306   2129  2065
+Civic Type R '98 (J)                  98 FF  N 192   266   336   2129  2065
+*Mugen Ferio (J)                         FF  N 175   244   ---   2290  ----
+     Awarded in '80s Sports Car Cup Race 1.
+*Mugen Civic Type-R (J)                  FF  N 188   266   339   2149  ----
+     Awarded in '80s Sports Car Cup Race 3.
+*Spoon Civic Type-R (J)                  FF  N 221   250   ---   1662  ----
+     Awarded randomly in Tuned NA No.1 Cup.
+
+Civic CRX Si '91                      91 FF  N 162   205   ---   1999  1937
+*Mugen CR-X II (J)                       FF  N 162   205   ---   2028  ----
+     Awarded in Light-weight "K" Cup Race 3.
+
+del Sol S '93                         93 FF  N 132   184   ---   2103  2039
+del Sol VGi '95 (J)                   95 FF  N 135   184   ---   2107  2043
+del Sol Si '93                        93 FF  N 172   247   ---   2103  2039
+del Sol SiR '95 (J)                   95 FF  N 174   244   ---   2231  2162
+*Mugen CR-X III (J)                      FF  N 174   244   ---   2310  ----
+     Awarded in Historic Car Trophy Race 1 and '80s Sports Car Cup Race 2.
+
+!Integra SiR-G ('95)                     FF  N 184   247   ---   2453  2378
+!Integra SiR-G ('98)                     FF  N 184   247   ---   2270  2202
+!Integra Type R                          FF  N 205   284   362   2385  2312
+!Integra Type R 98 spec                  FF  N 208   291   370   2189  2123
+     Not normally accessible.  See "Hidden Cars" section for details.
+*Mugen Integra Type-R (J)                FF  N 205   283   358   2189  ----
+     Awarded in '80s Sports Car Cup Race 4.
+*Spoon Integra Type-R (J)                FF  N 274   312   ---   1825  ----
+     Awarded randomly in Tuned NA No.1 Cup.
+
+Life T '97 (J)                        97 FF  N 47    54    119   1600  ----
+Life T '98 (J)                        98 FF  N 50    57    118   1662  ----
+
+Logo TS '98 (J)                       98 FF  N 93    106   191   1986  1924
+
+!NSX '90                                 MR  N 286   414   ---   2676  2568
+!NSX Type R '92                          MR  N 286   423   ---   2411  2314
+!NSX                                     MR  N 305   453   ---   2729  2619
+!NSX Type S                              MR  N 299   444   ---   2588  2484
+!NSX Type S Zero                         MR  N 299   444   ---   2491  2389
+     Not normally accessible.  See "Hidden Cars" section for details.
+
+Prelude Si '93                        93 FF  N 165   279   ---   2550  2447
+Prelude VTEC '94                      94 FF  N 220   302   ---   2608  2502
+Prelude '96                           96 FF  N 202   318   ---   2627  2522
+Prelude                                  FF  N 205   321   ---   2530  2429
+Prelude Type-SH                       96 FF  N 223   333   ---   2707  2597
+Prelude SiR S spec '98 (J)            98 FF  N 223   342   ---   2491  2389
+*Mugen Prelude Type-S (J)                FF  N 223   323   ---   2568  ----
+     Awarded in FF Car Challenge Race 3.
+
+S2000                                 99 FR  N 253   364   ---   2431  2332
+*Spoon S2000 (J)                         FR  N 280   308   ---   2231  ----
+     Obtain gold medals in all B license tests.
+
+Z Turbo '98 (J)                       98 4WD T 64          184   1966  ----
+
+*[R]del Sol LM Edition                   MR  N       617               1962
+     Obtain gold medals in all I-B license tests.
+
+[R]Mobil 1 NSX GT '99 (J)             99 MR  N       608               2601
+[R]Raybrig NSX GT '99 (J)             99 MR  N       608               2601
+*[R]Mugen NSX GT (J)                  98 MR  N       608               2601
+     Awarded in Grand Touring Car Trophy Race 2.
+*[R]Mugen NSX GT '99 (J)              99 MR  N       608               2601
+     Awarded randomly in Gran Turismo World League.
+*[R]Takata NSX GT (J)                 99 MR  N       608               2601
+     Awarded randomly in GT500 Championship.
+
+[R]S2000 GT1                             FR  N       577               2116
+
+
+Jaguar
+------
+Country: UK (North City)                 Drv A Tuned NA    Turbo Tuned Racing
+6 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+XJ Sport 3.2                             FR  N 252   285   509   3353  ----
+XJR XJR Vehicle                          FR  N 405   446   551   3481  ----
+
+XK8 Coupe                                FR  N 302   549   ---   3168  ----
+XKR                                      FR  N 405   446   551   3216  ----
+
+XJ220 GT Race Car                        MR  T 541         945   2696  2588
+
+[R]XJR15 GT Race Car                     MR  N       470               2314
+
+
+Lancia
+------
+Country: Italy (West City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+6 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Delta HF Integrale                       4WD T 188         325   2579  ----
+Delta HF Integrale Collezione            4WD T 220         473   2627  ----
+Delta HF Integrale Evoluzione            4WD T 212         401   2550  2447
+
+Y 1.2 16V                                FF  N 89    105   208   1845  1787
+
+*Stratos                                 MR  N 200   273   355   1986  1924
+     Awarded in Apricot Hill 200km Endurance.
+
+[R]Delta S4                           85 4WD T             387         2645
+
+
+Lister
+------
+Country: UK (North City)                 Drv A Tuned NA    Turbo Tuned Racing
+1 entry                                  Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Storm V12                                FR  N 627   709   ---   2819  2705
+
+
+Lotus
+-----
+Country: UK (North City)              Yr Drv A Tuned NA    Turbo Tuned Racing
+14 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Elan S2 '64                           64 FR  N 109   210   ---   1291  1252
+Elan S4 Sprint '71                    71 FR  N 131   210   ---   1406  1362
+Elan S2 '90                           90 FF  N 139   158   233   2021  ----
+
+Elise                                    MR  N 128   226   262   1397  1353
+Elise 135                                MR  N 139   212   243   1560  1512
+Elise 111S                               MR  N 150   219   254   1560  1512
+Elise 190                                MR  N 197   226   263   1358  1316
+Motorsport Elise                         MR  N 211   253   328   1419  ----
+
+Esprit Sport 350                         MR  T 365         659   2550  ----
+Esprit V8 GT                             MR  T 365         659   2707  ----
+Esprit V8 SE                             MR  T 365         659   2707  ----
+
+*Europa                                  MR  N 131   236   299   1479  1432
+     Awarded in Historic Car Trophy Race 2.
+
+Elise GT1                                MR  T 613         613   1825  1770
+
+[R]Esprit GT1                            MR  T             577         1984
+
+
+Mazda
+-----
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+48 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Mazda 323F Coupe Type-R '93 (J)       93 FF  N 182   311   ---   2431  2332
+Mazda 323F S-Wagon '99 (J)            99 4WD N 177   202   388   2568  2464
+
+Mazda AZ-1 '91 (J)                    91 MR  T 64          177   1459  ----
+Mazda AZ-1 A-spec '91 (J)             91 MR  T 64          177   1459  ----
+
+Mazda Cosmo Type-S '94 (J)            94 FR  T 231         417   2980  2859
+Mazda Cosmo Type-E '94 (J)            94 FR  T 286         634   3216  3086
+
+Demio LX G Package '97 (J)            97 FF  N 85    98    198   1845  1787
+Demio GL '97 (J)                      97 FF  N 103   118   250   1946  1887
+Demio GL-X '97 (J)                    97 FF  N 103   118   250   1946  1887
+Demio GL-X Special '98 (J)            98 FF  N 103   118   250   1946  1887
+Demio GL-X '99 (J)                    99 FF  N 103   118   250   1946  1887
+*Mazda Demio A-spec '97 (J)           97 FF  N 105   120   270   1662  1611
+     Awarded in Light-weight "K" Cup Race 2.
+
+MX-5 Miata '89 (J)                    89 FR  N 123   205   237   1986  1924
+MX-5 Miata V-Special '90 (J)          90 FR  N 123   205   237   2006  1944
+MX-5 Miata S-Special '92 (J)          92 FR  N 123   182   237   2006  1944
+MX-5 Miata '93 (J)                    93 FR  N 135   252   296   1986  1924
+MX-5 Miata S-Special '93 (J)          93 FR  N 135   252   296   2006  1944
+MX-5 Miata V-Special '93 (J)          93 FR  N 135   252   296   2006  1944
+MX-5 Miata 1.6 S Package '98 (J)      98 FR  N 129   147   240   2067  2003
+MX-5 Miata 1.8 RS '98 (J)             98 FR  N 148   270   ---   2087  2023
+MX-5 Miata 1.8 VS '98 (J)             98 FR  N 148   270   ---   2087  2023
+*MX-5 Miata A Spec (J)                   FR  N 148   270   ---   2107  ----
+     Awarded in Convertible Car World Cup Race 1.
+*MX-5 Miata B Spec (J)                   FR  N 177   262   305   1986  ----
+     Awarded randomly in Tuned NA No.1 Cup.
+*MX-5 Miata C Spec (J)                   FR  N 208   239   339   2048  ----
+     Awarded randomly in Tuned NA No.1 Cup.
+
+Mazda Protege 4Door Sedan '89 (J)     89 FF  N 116   132   370   2028  1966
+Mazda Protege GT-X '92 (J)            92 4WD T 181         326   2433  2358
+Mazda Protege GT-R '92 (J)            92 4WD T 214         353   2453  2378
+
+Mazda RX-7 GT-Turbo '83 (J)           83 FR  T 171         433   2067  2003
+Mazda RX-7 Cabriolet '90 (J)          90 FR  T 210         374   2727  2616
+Mazda RX-7 GT-X '90 (J)               90 FR  T 210         374   2451  2352
+Mazda RX-7 Infini III '90 (J)         90 FR  T 214         391   2433  2358
+Mazda RX-7 Type R '91 (J)             91 FR  T 272         433   2471  2372
+Mazda RX-7 Touring X '96 (J)          96 FR  T 272         467   2608  2502
+Mazda RX-7 Type RB '96 (J)            96 FR  T 272         467   2471  2372
+Mazda RX-7 Type RZ '96 (J)            96 FR  T 272         467   2451  2352
+Mazda RX-7 A-spec '96 (J)             96 FR  T 272         493   2473  2398
+Mazda RX-7 Type RB '97 (J)            97 FR  T 269         524   2471  2372
+Mazda RX-7 Type RS '97 (J)            97 FR  T 269         524   2511  2409
+Mazda RX-7 RS-R '97 (J)               97 FR  T 269         524   2511  2409
+Mazda RX-7 Type RZ '97 (J)            97 FR  T 269         524   2451  2352
+Mazda RX-7 Type RB '98 (J)            98 FR  T 269         541   2431  2332
+Mazda RX-7 Type R '98 (J)             98 FR  T 285         610   2471  2372
+Mazda RX-7 Type RS '98 (J)            98 FR  T 296         634   2511  2409
+*Mazda RX-7 GT-C '99 (J)              99 FR  T 305         682   2511  ----
+     Awarded in FR Car Challenge Race 3.
+
+[R]Amemiya RX-7 '99 (J)               99 FR  T             446         2160
+
+[R]Mazda RX-7 A-spec LM Edition          FR  T             541         2314
+[R]Mazda RX-7 GT-C LM Edition            FR  T             558         2116
+*[R]Mazda RX-7 LM Edition                FR  T             551         2116
+     Awarded in GT Pacific League Race 2.
+
+
+Mercedes-Benz
+-------------
+Country: Germany (North City)            Drv A Tuned NA    Turbo Tuned Racing
+7 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+A160 Avantgarde                          FF  N 106   122   247   2259  ----
+
+AMG C 43                                 FR  N 319   522   ---   3079  ----
+
+AMG E 55                                 FR  N 381   497   ---   3353  ----
+
+CLK 200 Sport                            FR  N 141   162   388   2696  ----
+CLK 320 Sport                            FR  N 236   270   462   2932  ----
+
+SLK 230 Kompressor                       FR  N 202   221   424   2599  2493
+
+![R]- - (CLK Race Car)                   4WD N       539               2336
+     Not normally accessible.  See the "Hidden Cars" section for details.
+
+
+MG
+--
+Country: UK (North City)                 Drv A Tuned NA    Turbo Tuned Racing
+1 entry                                  Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+MGF 1.8i VVC                             MR  N 152   244   ---   2250  2182
+
+
+Mini
+----
+Country: UK (North City)                 Drv A Tuned NA    Turbo Tuned Racing
+3 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Mini 1.3                                 FF  N 63    71    142   1459  1415
+Mini Cooper 1.3i                         FF  N 64    72    180   1459  1415
+
+[R]Mini Cooper MK1                       FF  N       239               1543
+
+
+Mitsubishi
+----------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+49 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Eclipse GS-T                          97 FF  T 230         400   2608  2502
+
+FTO GR '94 (J)                        94 FF  N 174   252   ---   2332  2261
+FTO GR '97 (J)                        97 FF  N 184   253   ---   2332  2261
+FTO GPX '94 (J)                       94 FF  N 205   328   ---   2372  2299
+FTO GPX '97 (J)                       97 FF  N 205   322   ---   2372  2299
+FTO GP Version R '97 (J)              97 FF  N 205   322   ---   2332  2261
+
+Galant VR-G Touring '96 (J)           96 FF  N 152   185   ---   2431  2332
+Galant VR-G '99 (J)                   99 FF  N 148   197   ---   2431  2332
+Galant VR-4 '96 (J)                   96 4WD T 280         403   2903  2786
+Galant Super VR4 '98 (J)              98 4WD T 270         469   2980  2859
+Galant VR-4 '99 (J)                   99 4WD T 280         452   2863  2749
+
+3000GT '92 (J)                        92 4WD N 231   391   ---   3236  3106
+3000GT SL                             95 4WD N 231   391   ---   3236  3106
+3000GT SL                             97 4WD N 231   391   ---   3156  3029
+3000GT SL                             99 4WD N 231   391   ---   3139  3013
+3000GT VR-4                           92 4WD T 305         676   3353  3218
+3000GT MR '95 (J)                     95 4WD T 293         649   3295  3163
+3000GT VR-4 Turbo                     95 4WD T 306         676   3353  3218
+3000GT VR-4 Turbo                     97 4WD T 315         695   3353  3218
+3000GT Twin Turbo MR (J)              99 4WD T 315         695   3276  3143
+3000GT VR-4                           99 4WD T 326         719   3295  3163
+
+Lancer Evolution II '94 (J)           94 4WD T 266         434   2451  ----
+Lancer Evolution III GSR '95 (J)      95 4WD T 273         405   2471  2372
+Lancer Evolution IV GSR '96 (J)       96 4WD T 283         454   2647  2539
+Lancer Evolution V GSR '98 (J)        98 4WD T 305         521   2667  2559
+Lancer Evolution V RS '98 (J)         98 4WD T 305         521   2471  2372
+Lancer Evolution VI GSR '99 (J)       99 4WD T 316         593   2667  2559
+Lancer Evolution VI RS '99 (J)        99 4WD T 316         593   2471  2372
+*Mine's Lancer Evolution V (J)           4WD T 413         518   2189  ----
+     Awarded in Gran Turismo All-Stars Race 1.
+
+Legnum ST '97 (J)                     97 FF  N 152   185   ---   2568  2464
+Legnum ST '99 (J)                     99 FF  N 181   216   ---   2960  2841
+Legnum VR-4 type-S '97 (J)            97 4WD T 270         421   3079  2956
+Legnum Super VR4 '98 (J)              98 4WD T 270         434   3079  2956
+Legnum VR-4 type-S '99 (J)            99 4WD T 280         405   3079  2956
+
+Minica Dangan ZZ '90 (J)              90 4WD T 67          174   1459  ----
+Minica Pj '98 (J)                     98 4WD T 50          145   1521  ----
+
+Mirage Cyborg R '92 (J)               92 FF  N 180   229   ---   2107  2043
+Mirage Asti RX '96 (J)                96 FF  N 180   229   ---   2169  2103
+Mirage Asti ZR '97 (J)                97 FF  N 180   229   ---   2189  2123
+Mirage Cyborg-ZR '97 (J)              97 FF  N 180   233   ---   2149  2083
+Mirage Asti RX-R '98 (J)              98 FF  N 180   239   ---   2169  2103
+
+Pajero Mini VR-II '97 (J)             97 4WD T 66          177   1865  ----
+Pajero Mini Sport '98 (J)             98 4WD T 69          172   1904  ----
+
+[R]Taeivon FTO GT '99 (J)             99 FF  T             378         2116
+
+*[R]FTO LM Edition                       4WD T             549         2050
+     Obtain gold medals in all I-A license tests.
+
+*[R]3000GT LM Edition                    4WD T             614         2821
+     Obtain gold medals in all I-C license tests.
+*[R]3000GT LM Edition '99             99 4WD T             689         2865
+     Awarded in Laguna Seca 200 Mile Endurance.
+
+[R]Lancer Evolution V Rally Car '98   98 4WD T             428         2270
+*[R]Lancer Evolution VI Rally Car '99 99 4WD T             460         2270
+     Awarded in S.S. Route 5 All-Night.
+
+
+Nissan
+------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+87 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Cube X '98 (J)                        98 FF  N 83    95    188   1966  1906
+
+Datsun 240Z 240ZG HS30 '71 (J)        71 FR  N 162   319   ---   2048  1986
+
+300ZX 2+2                             95 FR  N 241   393   ---   2883  2766
+300ZX 2-seater                        95 FR  N 241   393   ---   2804  2691
+300ZX Version R 2by2 '98 (J)          98 FR  N 241   393   ---   2903  2786
+300ZX Version S 2seater '98 (J)       98 FR  N 241   393   ---   2824  2709
+!300ZX 2by2 Twin Turbo '94 (J)        94 FR  T 286         634   3079  2956
+300ZX Turbo                           95 FR  T 286         634   3000  2879
+300ZX 2by2 Twin Turbo '98 (J)         98 FR  T 285         659   3099  2974
+300ZX 2seater Twin Turbo '98 (J)      98 FR  T 285         659   2980  2859
+
+March Super Turbo '89 (J)             89 FF  T 112   123   214   1560  1512
+March G# '97 (J)                      97 FF  N 80    90    182   1682  1631
+
+Infiniti G20 2.0Te '91 (J)            91 FF  N 155   292   ---   2453  2378
+Infiniti G20 2.0Te '96 (J)            96 FF  N 155   291   ---   2391  2319
+Infiniti G20 2.0Te-V '98 (J)          98 FF  N 197   328   ---   2530  2429
+Primera Wagon 2.0G-V '98 (J)          98 FF  N 197   328   ---   2627  2522
+
+Pulsar GTi-R '91 (J)                  91 4WD T 237         414   2473  2398
+
+Pulsar Serie VZ-R '97 (J)             97 FF  N 177   247   ---   2270  2202
+Pulsar Serie VZ-R N1 '97 (J)          97 FF  N 205   264   ---   2231  2162
+
+Silvia Q's 1800cc '88 (J)             88 FR  N 138   227   ---   2209  2140
+Silvia Q's 2000cc '91 (J)             91 FR  N 142   160   305   2250  2182
+Silvia K's 1800cc '88 (J)             88 FR  T 177         360   2270  2202
+Silvia K's 2000cc '91 (J)             91 FR  T 208         380   2372  2299
+*Sileighty (J)                           FR  T 208         387   2372  2299
+     Awarded in FR Car Challenge Race 1.
+
+240SX Fastback Type S '96 (J)         96 FR  N 142   160   335   2433  2358
+240SX Q's '95 (J)                     95 FR  N 167   191   351   2391  2319
+240SX Q's Aero '97 (J)                97 FR  N 164   187   338   2411  2339
+240SX Fastback Type X '96 (J)         96 FR  T 204         367   2453  2378
+240SX Fastback Type X '96 (J)         96 FR  T 208         371   2473  2398
+     The second of these listed can be recognized by its rear spoiler.
+240SX K's '95 (J)                     95 FR  T 220         397   2431  2332
+240SX K's Aero '96 (J)                96 FR  T 220         394   2451  2352
+240SX K's Aero '98 (J)                98 FR  T 220         439   2451  2352
+
+Silvia Spec S '99 (J)                 99 FR  N 170   190   351   2433  2358
+Silvia Spec S Aero '99 (J)            99 FR  N 170   190   351   2433  2358
+Silvia Spec R '99 (J)                 99 FR  T 253         467   2431  2332
+Silvia Spec R Aero '99 (J)            99 FR  T 253         467   2431  2332
+*Nismo 270R (J)                          FR  T 276         432   2431  ----
+     Awarded in FR Car Challenge Race 2.
+
+Skyline GT-R KPGC10 '71 (J)           71 FR  N 167   231   339   2231  2162
+Skyline 2000 RS-X DR30 '84 (J)        84 FR  T 190         421   2504  2427
+Skyline GTS-R R31 '87 (J)             87 FR  T 216         421   2627  2522
+Skyline GTS25 Type S R32 '91 (J)      91 FR  N 200   318   ---   2471  2372
+Skyline GTS-t Type M R32 '91 (J)      91 FR  T 220         384   2471  2372
+Skyline GTS4 R32 '91 (J)              91 4WD T 220         384   2784  2671
+Skyline GTS25t Type M R33 '96 (J)     96 FR  T 253         434   2667  2559
+Skyline 25GT Turbo R34 '98 (J)        98 FR  T 285         469   2764  2652
+Skyline 280 Type MR (J)                  4WD T 305         551   2748  2636
+
+Skyline GT-R R32 '89 (J)              89 4WD T 309         637   2804  2691
+SKyline GT-R NISMO R32 '90 (J)        90 4WD T 309         637   2943  2824
+Skyline GT-R R32 '91 (J)              91 4WD T 309         637   2903  2786
+Skyline GT-R Vspec R32 '93 (J)        93 4WD T 309         637   2943  2824
+Skyline GT-R Vspec II R32 '94 (J)     94 4WD T 309         637   2943  2824
+Skyline GT-R R33 '95 (J)              95 4WD T 323         675   3000  2879
+Skyline GT-R Vspec R33 '95 (J)        95 4WD T 323         662   3020  2899
+Skyline GT-R R33 '97 (J)              97 4WD T 323         662   3000  2879
+Skyline GT-R Vspec R33 '97 (J)        97 4WD T 323         662   3020  2899
+Skyline GT-R 4Door R33 '97 (J)        97 4WD T 308         716   3059  ----
+Skyline GT-R R34 '99 (J)              99 4WD T 339         774   3020  2899
+Skyline GT-R V-spec R34 '99 (J)       99 4WD T 339         774   3059  2936
+*GT-R 4Door Tuned by Nismo (J)           4WD T 302         637   3059  ----
+     Awarded in Luxury Sedan Cup Race 3.
+*Mine's R32.5 Skyline GT-R (J)           4WD T 618         677   2943  ----
+     Awarded in 4WD Challenge Race 3.
+*Mine's R33 Skyline GT-R (J)             4WD T 618         683   3020  ----
+     Awarded randomly in Tuned Turbo Car No.1 Cup.
+*Mine's R34 Skyline GT-R (J)             4WD T 618         683   3020  ----
+     Awarded in Gran Turismo All-Stars Race 2.
+*Nismo 400R (J)                          4WD T 408         642   3040  2916
+     Awarded randomly in Tuned Turbo Car No.1 Cup.
+*Nismo 400R Preceiding Model (J)         4WD T 408         640   3040  ----
+     Awarded in 4WD Challenge Race 2.
+
+Stagea RS Four V '97 (J)              97 4WD T 246         439   3176  3048
+Stagea 25t RS Four V '98 (J)          98 4WD T 308         463   3236  3106
+Stagea Autech Ver. 260RS '97 (J)      97 4WD T 298         627   3373  3236
+Stagea Autech Ver. 260RS '98 (J)      98 4WD T 298         627   3373  3236
+*Stagea 260RS Tuned by Nismo (J)         4WD T 355         600   3373  ----
+     Awarded in Station Wagon Cup Race 3.
+
+Sunny VZ-R '98 (J)                    98 FF  N 177   244   ---   2391  2319
+
+Nismo GT-R LM Road Car R33 (J)           FR  T 315         690   3099  2974
+
+R390 GT1 Road Car '98                 98 MR  T 388         837   2391  ----
+*R390 GT1 Road Car '97                97 MR  T 364         833   2028  ----
+     Awarded in Gran Turismo All-Stars Race 5.
+
+*[R]Nissan 300ZX GT '97 (J)           97 FR  T             672         2601
+     Awarded in GT Pacific League Race 1.
+
+*[R]R390 GT1 LM Race Car '97          97 MR  T             633         2204
+     Awarded in Grand Valley 300km Endurance.
+*[R]R390 GT1 LM Race Car '98          98 MR  T             663         2601
+     Awarded randomly in Gran Turismo World League.
+
+*[R]Daisin Silvia GT '99 (J)          99 FR  T             413         2160
+     Awarded in Grand Touring Car Trophy Race 1.
+*[R]Zanavi Silvia GT '99 (J)          99 FR  T             413         2160
+     Awarded randomly in GT300 Championship.
+
+*[R]Drag 180SX (J)                       FR  T             1011        2160
+     Awarded in GT Pacific League Race 3.
+
+*[R]Skyline Silhouette Foumula R30       FR  T             555         2116
+     Awarded in '80s Sports Car Cup Race 5.
+
+*[R]Kure R33 GT '97 (J)               97 4WD T             670         2601
+     Awarded in GT Euro League Race 3.
+*[R]Zexel Skyline GT '97 (J)          97 4WD T             670         2601
+     Awarded in GT Euro League Race 2.
+
+[R]Pennzoil GT-R GT '99 (J)           99 4WD T             702         2601
+*[R]Arta GT-R GT '99 (J)              99 4WD T             702         2601
+     Awarded randomly in GT500 Championship.
+*[R]Calsonic GT-R GT '99 (J)          99 4WD T             702         2601
+     Awarded randomly in Gran Turismo World League.
+*[R]Unisia GT-R GT '99 (J)            99 4WD T             702         2601
+     Awarded in Grand Touring Car Trophy Race 3.
+
+*[R]R33 Drag GT-R (J)                    4WD T             1011        2821
+     Awarded randomly in Tuned Turbo Car No.1 Cup.
+
+
+Opel
+----
+Country: Germany (North City)         Yr Drv A Tuned NA    Turbo Tuned Racing
+6 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Astra SRi 2.0i 16V                       FF  N 142   160   305   2438  2363
+
+Corsa Sport 1.6i 16V                     FF  N 108   122   219   2070  ----
+
+Tigra 1.6i                               FF  N 108   236   236   2092  2028
+
+Vectra GSi 2.5 V6                        FF  N 202   321   ---   2705  2594
+
+[R]Calibra Touring Car                98 4WD N       555               2336
+
+[R]Tigra Ice Race Car                 98 4WD N       524               2094
+
+
+Peugeot
+-------
+Country: France (West City)              Drv A Tuned NA    Turbo Tuned Racing
+7 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+106 1.6 Rallye                           FF  N 106   187   ---   1825  1770
+106 1.6 S16                              FF  N 132   208   ---   1946  1887
+
+206 S16                                  FF  N 142   162   372   2189  2123
+
+306 S16                                  FF  N 180   309   ---   2352  2279
+
+406 3.0 V6 Coupe                         FF  N 202   367   ---   2859  ----
+406 Sedan                                FF  N 145   319   ---   2727  2616
+
+[R]206 Rally Car                         4WD T             460         2711
+
+
+Plymouth
+--------
+Country: USA (South City)             Yr Drv A Tuned NA    Turbo Tuned Racing
+5 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Cuda '70                              70 FR  N 303   440   ---   3194  ----
+
+GTX                                   67 FR  N 447   588   ---   3143  ----
+
+Muscle Car                            71 FR  N 446   588   ---   3238  ----
+
+Superbird                             70 FR  N 447   588   ---   3417  ----
+
+*PT Spyder                               MR  N 231   249   ---   2484  ----
+     Awarded in Muscle Car Cup Race 1.
+
+
+Renault
+-------
+Country: France (West City)              Drv A Tuned NA    Turbo Tuned Racing
+5 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Clio 16V                                 FF  N 112   126   ---   2220  ----
+
+Clio Sport V6                            MR  N 262   295   505   2451  2376
+
+Laguna V6                                FF  N 202   380   ---   2883  2766
+
+Megane 2.0 16V Coupe                     FF  N 151   293   ---   2372  2299
+
+[R]Espace F1                             MR  N       818               2865
+
+
+RUF
+---
+Country: Germany (North City)            Drv A Tuned NA    Turbo Tuned Racing
+8 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+RUF BTR2                                 RR  T 437         536   2843  ----
+
+RUF BTR TypeI                            RR  T 381         628   2411  ----
+
+RUF BTR TypeII                           RR  T 413         512   2431  ----
+
+RUF CTR2                                 4WD T 532         620   2707  ----
+RUF CTR2 Sport                           4WD T 551         656   2687  ----
+
+RUF CTR Yellow Bird                      RR  T 482         598   2433  ----
+
+RUF RCT                                  RR  T 391         655   2746  ----
+
+RUF Turbo-R                              4WD T 551         656   2923  ----
+
+
+Shelby
+------
+Country: USA (South City)             Yr Drv A Tuned NA    Turbo Tuned Racing
+5 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+*Cobra 427 '67                        67 FR  N 449   617   ---   2164  ----
+     Awarded in Muscle Car Cup Race 2.
+
+GT350 '66                             66 FR  N 322   551   ---   2491  2389
+
+GT500 '68                             68 FR  N 378   607   ---   3174  ----
+
+Series 1                                 FR  N 338   571   ---   2436  ----
+
+[R]Cobra Coupe '65                    65 FR  N       388               2299
+
+
+Subaru
+------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+42 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Subaru 360                            69 RR  N 37    43    142   861   ---
+
+Forester S/tb '97 (J)                 97 4WD T 254         383   2647  2539
+
+Impreza Wagon '94 (J)                 94 4WD T 266         393   2511  2409
+Impreza Wagon '96 (J)                 96 4WD T 250         381   2530  2429
+Impreza Wagon '97 (J)                 97 4WD T 276         388   2530  2429
+Impreza Wagon '98 (J)                 98 4WD T 264         401   2550  2447
+Impreza Wagon STi versionII '95 (J)   95 4WD T 264         390   2511  2409
+Impreza Wagon STi versionIII '96 (J)  96 4WD T 279         403   2550  2447
+Impreza Wagon STi Ver.IV '97 (J)      97 4WD T 291         429   2608  2502
+Impreza Wagon STi Ver.V '98 (J)       98 4WD T 293         472   2568  2464
+Impreza Wagon STi Ver.VI '99 (J)      99 4WD T 305         490   2568  2464
+
+Impreza Sedan '94 (J)                 94 4WD T 223         364   2491  2389
+Impreza Sedan WRX '96 (J)             96 4WD T 280         375   2451  2352
+Impreza Sedan '97 (J)                 97 4WD T 273         374   2451  2352
+Impreza Sedan '98 (J)                 98 4WD T 273         383   2491  2389
+Impreza Sedan STi versionII '95 (J)   95 4WD T 273         377   2431  2332
+Impreza Sedan STi versionIII '96 (J)  96 4WD T 279         403   2451  2352
+Impreza Sedan STi Ver.IV '97 (J)      97 4WD T 291         429   2451  2352
+Impreza Sedan STi Ver.V '98 (J)       98 4WD T 293         472   2491  2389
+Impreza typeRA STi Ver.VI '99 (J)     99 4WD T 291         466   2431  2332
+Impreza Sedan STi Ver.VI '99 (J)      99 4WD T 305         490   2491  2389
+
+Impreza typeR STi Ver. '96 (J)        96 4WD T 279         403   2431  2332
+Impreza typeR STi Ver.IV '97 (J)      97 4WD T 291         429   2431  2332
+Impreza typeR STi Ver.V '98 (J)       98 4WD T 293         472   2471  2372
+Impreza typeR STi Ver.VI '99 (J)      99 4WD T 305         490   2471  2372
+Impreza 22B STi Version '98 (J)       98 4WD T 306         531   2491  2389
+
+Legacy Sports RS '93 (J)              93 4WD T 273         417   2687  2579
+Legacy Wagon GT '93 (J)               93 4WD T 273         417   2727  2616
+Legacy Sedan RS '96 (J)               96 4WD T 285         454   2707  2597
+Legacy Wagon GT-B '96 (J)             96 4WD T 285         454   2804  2691
+Legacy Wagon GT-B '97 (J)             97 4WD T 285         454   2804  2691
+Legacy Wagon GT-B '98 (J)             98 4WD T 293         516   2903  2786
+Legacy B4 RSK '98 (J)                 98 4WD T 296         490   2764  2652
+
+Pleo RS '98 (J)                       98 FF  N 64    70    184   1743  ----
+Pleo RM '98 (J)                       98 4WD N 64    69    187   1865  ----
+
+SVX Lsi '95                           95 4WD N 244   383   ---   3176  3048
+SVX S4 '95 (J)                        95 4WD N 244   383   ---   3119  2993
+
+Vivio RX-R '97 (J)                    97 4WD N 64    70    174   1541  1494
+Vivio RX-RA '97 (J)                   97 4WD N 64    70    174   1521  1474
+
+[R]Cusco Impreza GT '99 (J)           99 FR  T             453         2160
+
+[R]Impreza Rally Car '99 (J)          99 4WD T             476         2711
+*[R]Impreza Rally Car                    4WD T             404         2160
+     Awarded in Grand Valley 300km Endurance.
+
+
+Suzuki
+------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+13 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Alto Works RS/X '90 (J)               90 4WD T 64          187   1439  1395
+Alto Works Limited '97 (J)            97 4WD T 64          170   1439  1395
+Alto Works RS/Z '97 (J)               97 4WD T 64          187   1439  1395
+Alto Works RS/Z '98 (J)               98 4WD T 64          182   1459  1415
+
+Capcino '95 (J)                       95 FR  T 64          187   1419  1375
+
+Kei S '98 (J)                         98 4WD T 64          184   1541  ----
+
+Selvo Mode SR-Four '90 (J)            90 4WD N 66    73    115   1397  ----
+
+Wagon R Turbo RT/S '95 (J)            95 4WD T 60          155   1662  1611
+Wagon R Aero RS '97 (J)               97 4WD T 64          187   1622  1571
+Wagon R Column FT '97 (J)             97 4WD T 64          170   1662  1611
+Wagon R RR '98 (J)                    98 4WD T 64          184   1662  1611
+
+[R]Cultus Pikes Peak Version (J)         4WD T             786         1924
+
+[R]Escudo Pikes Peak Version (J)         4WD T             981         1763
+
+
+Tommy kaira
+-----------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+8 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+m13 StageII (J)                          FF  N 92    105   182   1682  ----
+
+M30 GTS '87 (J)                       87 FR  N 263   293   408   2764  ----
+M30 GTS-R '91 (J)                     91 FR  N 292   331   649   2550  ----
+
+Tommykaira R '95 (J)                  95 4WD T 427         655   3000  ----
+Tommykaira R '99 (J)                  99 4WD T 380         665   3020  ----
+
+ZZ-S Coupe (J)                           MR  N 200   229   279   1358  1316
+
+*ZZIII (J)                               MR  N 197   223   276   1358  ----
+     Awarded in Pure Sports Car Cup Race 2.
+
+*[R]ZZII (J)                             MR  T             588         2248
+     Awarded in Gran Turismo All-Stars Race 4.
+
+
+Toyota
+------
+Country: Japan (East City)            Yr Drv A Tuned NA    Turbo Tuned Racing
+82 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+2000GT GT '68                         68 FR  N 162   226   325   2321  2250
+
+Lexus IS                                 FR  N 165   262   355   2568  2464
+Lexus IS 200                             FR  N 168   279   385   2627  2522
+Altezza RS200 '98 (J)                 98 FR  N 216   306   414   2627  2522
+Altezza 280T Tuned by Tom's (J)          FR  T 277         411   2627  2522
+
+*Angel T01 (J)                           MR  N 164   244   ---   1419  ----
+     Awarded in Pure Sports Car Cup Race 1.
+
+Lexus GS 300                          97 FR  N 244   407   ---   3156  3029
+Lexus GS 400                             FR  N 315   421   ---   3284  3152
+Aristo 3.0V '91 (J)                   91 FR  T 296         545   3295  3163
+Aristo V300 '97 (J)                   97 FR  T 316         703   3295  3163
+
+Caldina GT-T '97 (J)                  97 4WD T 267         385   2824  2709
+
+Celica '84                            84 FR  N 175   357   ---   2504  2427
+Celica GT-R '91 (J)                   91 FF  N 174   263   ---   2453  2378
+Celica '96                            96 FF  N 190   285   ---   2433  2358
+Celica '97                            97 FF  N 190   312   ---   2453  2378
+Celica Elegant Version '99 (J)        99 FF  N 195   264   ---   2310  2239
+Celica Mecanical Version '99 (J)      99 FF  N 195   284   ---   2310  2239
+Celica SS-II '99 (J)                  99 FF  N 195   284   ---   2310  2239
+*XYR '99                              99 FF  N 195   221   ---   2310  ----
+     Awarded in Historic Car Trophy Race 3.
+
+Celica GT-Four '88 (J)                88 4WD T 188         346   2647  2539
+Celica GT-Four '91 (J)                91 4WD T 229         374   2746  2636
+Celica GT-Four RC '91 (J)             91 4WD T 241         411   2746  2636
+Celica GT-Four '95 (J)                95 4WD T 259         464   2707  2597
+
+Chaser Tourer S '96 (J)               96 FR  N 207   231   341   2746  2636
+Chaser Tourer V '96 (J)               96 FR  T 286         450   2883  2766
+*Chaser TRD Sports X30 (J)               FR  T 326         677   2883  2766
+     Awarded in Luxury Sedan Cup Race 2.
+
+Levin GT-APEX TypeI '83 (J)           83 FR  N 133   198   260   1876  1818
+Trueno GT-APEX TypeI '83 (J)          83 FR  N 133   198   260   1876  1818
+Levin GT-APEX TypeII '85 (J)          85 FR  N 133   198   260   1876  1818
+Trueno GT-APEX TypeII '85 (J)         85 FR  N 133   198   260   1876  1818
+Levin BZG '96 (J)                     96 FF  N 182   256   ---   2067  2003
+Trueno BZG '96 (J)                    96 FF  N 182   256   ---   2067  2003
+Levin BZR '98 (J)                     98 FF  N 182   256   ---   2189  2123
+Trueno BZR '98 (J)                    98 FF  N 182   256   ---   2189  2123
+*Tom's T111 (J)                          FF  N 182   286   ---   2067  ----
+     Awarded in FF Car Challenge Race 2.
+
+Corona Exiv 200GT '96 (J)             96 FF  N 190   302   ---   2433  2358
+
+Mark II Tourer S '92 (J)              92 FR  N 190   212   346   2687  2579
+Mark II Tourer V '92 (J)              92 FR  T 283         427   2843  2729
+
+MR2 1600G-Limited '86 (J)             86 MR  N 142   152   279   2149  2083
+MR2 G-Limited '96 (J)                 96 MR  N 180   299   ---   2431  2332
+MR2 G-Limited '98 (J)                 98 MR  N 208   315   ---   2473  2398
+MR Spider '96 (J)                     96 MR  N 208   315   ---   2493  ----
+MR2 GT-S '96 (J)                      96 MR  T 259         460   2511  2409
+MR2 GT-S '98 (J)                      98 MR  T 276         506   2491  2389
+*Tom's T020 (J)                          MR  N 244   361   ---   2473  ----
+     Awarded in Mid-Engine Challenge Race 2.
+*TRD2000GT (J)                           MR  T 276         506   2530  ----
+     Awarded in Mid-Engine Challenge Race 1.
+
+MR-S S Edition '99 (J)                99 MR  N 144   162   254   1966  1906
+*MR-S Show Version '97 (J)            97 MR  N 144   162   ---   1966  ----
+     Awarded in Convertible Car World Cup Race 2.
+
+PRIUS '97 (J)                         97 FF  N 63    63    ---   2733  ----
+
+Lexus SC 300                          96 FR  N 244   360   571   3040  2916
+Lexus SC 400                             FR  N 305   417   ---   3251  3121
+Soarer 2.5GT-T '95 (J)                95 FR  T 283         418   3079  2956
+Soarer 2.5GT-T VVT-i '96 (J)          96 FR  T 284         427   3059  2936
+
+Starlet 3 Door Turbo S '82 (J)        82 FF  N 73    174   ---   1439  1395
+Starlet 3 Door Turbo S '87 (J)        87 FF  T 103         223   1600  1552
+Starlet Glanza V '96 (J)              96 FF  T 138         236   1865  1807
+Starlet Glanza V '98 (J)              98 FF  T 138         227   1926  1867
+
+Supra '96                             95 FR  N 229   387   ---   2804  2691
+Supra '97                             97 FR  N 229   387   ---   2843  2729
+Supra SZ-R '97 (J)                    97 FR  N 231   387   ---   2843  2729
+Supra Turbo '93                       93 FR  T 244         423   3040  2916
+Supra Twinturbo-R '91 (J)             91 FR  T 283         443   2980  2859
+Supra Turbo '96                       96 FR  T 306         657   2923  2804
+Supra Turbo '97                       97 FR  T 309         665   2960  2841
+Supra RZ '97 (J)                      97 FR  T 338         741   2960  2841
+*Tom's Supra (J)                         FR  T 322         751   2960  ----
+     Awarded randomly in Super Touring Car Trophy.
+*TRD3000GT (J)                           FR  T 332         710   2960  2841
+     Awarded randomly in Super Touring Car Trophy.
+
+Vitz F '99 (J)                        99 FF  N 71    80    191   1662  1611
+
+GT-ONE Road Car '98                   98 MR  T 593         975   1984  ----
+
+*[R]Altezza LM Edition                   FR  T             590         2270
+     Awarded in "Millenium In Rome" 2hr Endurance.
+
+*[R]Weds Celica GT '99 (J)            99 FF  T             394         3042
+     Awarded randomly in GT300 Championship.
+
+*[R]Celica Rally Car                     4WD T             569         2116
+     Awarded randomly in Laguna Seca 200 Mile Endurance.
+
+[R]Corolla Rally Car '98              98 4WD T             420         2645
+*[R]Corolla Rally Car '97             97 4WD T             397         2645
+     Awarded randomly in "Millenium In Rome" 2hr Endurance.
+
+*[R]GT-ONE Race Car '98               98 MR  T             672         1984
+     Awarded randomly in Gran Turismo World League.
+*[R]GT-ONE Race Car '99               99 MR  T             672         1984
+     Obtain gold medals in all Super License tests.
+
+*[R]Momo MR2 GT '99 (J)               99 MR  T             374         2843
+     Awarded randomly in GT300 Championship.
+
+*[R]Castrol Supra GT '96 (J)          96 FR  T             685         2535
+     Awarded in GT Euro League Race 1.
+
+[R]Castrol Supra GT '99 (J)           99 FR  T             686         2535
+*[R]Cerumo Supra GT '99 (J)           99 FR  T             686         2535
+     Awarded randomly in GT500 Championship.
+*[R]Denso Supra GT '99 (J)            99 FR  T             686         2535
+     Awarded in Trial Mountain 30 Lap Endurance.
+
+*[R]BP Trueno GT '99 (J)              99 FR  T             358         2039
+     Awarded randomly in GT300 Championship.
+
+
+TVR
+---
+Country: UK (North City)                 Drv A Tuned NA    Turbo Tuned Racing
+11 entries                               Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Cerbera Speed 6                          FR  N 367   541   ---   2290  2220
+Cerbera 4.2                              FR  N 378   571   ---   2231  2162
+Cerbera 4.5                              FR  N 453   564   ---   2231  2162
+
+Chimaera 4.0                             FR  N 247   439   ---   2149  ----
+Chimaera 4.5                             FR  N 299   477   ---   2149  ----
+Chimaera 5.0                             FR  N 333   528   ---   2149  ----
+
+Griffith 500                             FR  N 357   564   ---   2149  2083
+Griffith Blackpool B340 (J)              FR  N 351   569   ---   2149  2083
+
+*Tuscan Speed 6                          FR  N 383   551   ---   2149  2083
+     Awarded in Pure Sports Car Cup Race 3.
+
+*Speed 12                                FR  N 807   807         1926  1867
+     Awarded in Gran Turismo All-Stars Race 3.
+
+*[R]Cerbera LM Edition                   FR  N       624               1962
+     Awarded in S.S. Route 5 All-Night.
+
+
+Vector
+------
+Country: USA (South City)                Drv A Tuned NA    Turbo Tuned Racing
+3 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+M12                                      MR  N 516   634   ---   3209  ----
+
+Wiegert Vector W8 Twin Turbo             MR  T 659         758   3040  ----
+
+[R]M12 LM Edition                        MR  N       679               2557
+
+
+Venturi
+-------
+Country: France (West City)           Yr Drv A Tuned NA    Turbo Tuned Racing
+3 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Atlantique 300                           MR  T 216         631   2451  ----
+Atlantique 400GT                         MR  N 423   459   476   2332  2261
+
+[R]Atlantique 600 LM                  95 MR  T             705         2116
+
+
+Volkswagen
+----------
+Country: Germany (North City)            Drv A Tuned NA    Turbo Tuned Racing
+8 entries                                Trn   MinHP MaxHP MaxHP Wt.   Wt.
+=============================================================================
+Golf IV GTI                              FF  N 129   269   305   2491  2389
+Golf IV 2.3 V5                           FF  N 155   175   349   2517  2416
+Golf IV V6                               FF  N 155   175   349   2517  2416
+Golf IV GTI 1.8T                         FF  T 157         384   2506  2429
+
+Lupo 1.4                                 FF  N 78    86    175   1750  1697
+
+New Beetle GLS 2.0L                      FF  N 119   135   370   2462  2363
+
+!- - (Polo 1.4 16V)                      FF  N 103   118   182   2078  ----
+     Not normally accessible.  See the "Hidden Cars" section for details.
+
+[R]New Beetle GT                         4WD T             449         2116
+
+
++-------------------+
+| Prize Car Listing |
++-------------------+
+License Tests
+=============
+B License
+---------
+Honda Spoon S2000
+
+A License
+---------
+Dodge Concept Car
+
+I-C License
+-----------
+[R]Mitsubishi 3000GT LM Edition
+
+I-B License
+-----------
+[R]Honda del Sol LM Edition
+
+I-A License
+-----------
+[R]Mitsubishi FTO LM Edition
+
+Super License
+-------------
+[R]Toyota GT-ONE Race Car '99
+
+
+Gran Turismo League
+===================
+GT Euro League
+--------------
+Race 1: [R]Toyota Castrol Supra GT '96
+Race 2: [R]Nissan Zexel Skyline GT '97
+Race 3: [R]Nissan Kure R33 GT '97
+
+GT Pacific League
+-----------------
+Race 1: [R]Nissan 300ZX GT '97
+Race 2: [R]Mazda RX-7 LM Edition
+Race 3: [R]Nissan Drag 180SX
+
+Gran Turismo World League (prize car awarded randomly)
+-------------------------
+[R]Honda Mugen NSX GT '99
+[R]Nissan Calsonic Skyline GT '97
+[R]Nissan R390 GT1 LM Race Car '98
+[R]Toyota GT-ONE Race Car '98
+
+
+Special Events
+==============
+FF Car Challenge
+----------------
+Race 1: Honda Mugen Accord SIR-T
+Race 2: Toyota Tom's T111
+Race 3: Honda Mugen Prelude Type-S
+
+FR Car Challenge
+----------------
+Race 1: Nissan Sileighty
+Race 2: Nissan Nismo 270R
+Race 3: Mazda RX-7 GT-C '99
+
+Mid-Engine Challenge
+--------------------
+Race 1: Toyota TRD2000GT
+Race 2: Toyota Tom's T020
+Race 3: [R]Ford GT40 Race Car
+
+4WD Challenge
+-------------
+Race 1: Subaru Legacy Wagon GT-B '96
+Race 2: Nissan Nismo 400R Preceiding Model
+Race 3: Nissan Mine's R32.5 Skyline GT-R
+
+Light-Weight "K" Cup
+--------------------
+Race 1: Honda Mugen Beat
+Race 2: Mazda Demio A-spec '97
+Race 3: Honda Mugen CR-X II
+
+Compact Car World Cup
+---------------------
+Race 1: Toyota Vitz F '99
+Race 2: Renault Clio 16V
+Race 3: Volkswagen Lupo 1.4
+
+Luxury Sedan Cup
+----------------
+Race 1: Honda Accord Type-R
+Race 2: Toyota Chaser TRD Sports X30
+Race 3: Nissan GT-R 4Door Tuned by Nismo
+
+Muscle Car Cup
+--------------
+Race 1: Plymouth PT Spyder
+Race 2: Shelby Cobra 427 '67
+Race 3: Dodge Phaeton
+
+Convertible Car World Cup
+-------------------------
+Race 1: Mazda MX-5 Miata A Spec
+Race 2: Toyota MR-S Show Version '97
+Race 3: [R]Dodge Concept Car LM Edition
+
+Historic Car Trophy
+-------------------
+Race 1: Honda Mugen CR-X III
+Race 2: Lotus Europa
+Race 3: Toyota XYR '99
+
+Station Wagon Cup
+-----------------
+Race 1: Subaru Impreza Wagon STi Ver.V '98
+Race 2: Honda Mugen Accord Wagon
+Race 3: Nissan Stagea 260RS Tuned by Nismo
+
+'80s Sports Car Cup
+-------------------
+Race 1: Honda Mugen Ferio
+Race 2: Honda Mugen CR-X III
+Race 3: Honda Mugen Civic Type-R
+Race 4: Honda Mugen Integra Type-R
+Race 5: [R]Nissan Skyline Silhouette Foumula R30
+
+Grand Touring Car Trophy
+------------------------
+Race 1: [R]Nissan Daisin Silvia GT '99
+Race 2: [R]Honda Mugen NSX GT
+Race 3: [R]Nissan Unisia GT-R GT '99
+
+Pure Sports Car Cup
+-------------------
+Race 1: Toyota Angel T01
+Race 2: Tommy kaira ZZIII
+Race 3: TVR Tuscan Speed 6
+
+Tuned NA No.1 Cup (prize car awarded randomly)
+-----------------
+Honda Spoon Civic Type-R
+Honda Spoon Integra Type-R
+Mazda MX-5 Miata B Spec
+Mazda MX-5 Miata C Spec
+
+Tuned Turbo Car No.1 Cup (prize car awarded randomly)
+------------------------
+Nissan Mine's R33 Skyline GT-R
+Nissan Nismo 400R
+[R]Nissan R33 Drag GT-R
+
+Gran Turismo All Stars
+----------------------
+Race 1: Mitsubishi Mine's Lancer Evolution V
+Race 2: Nissan Mine's R34 Skyline GT-R
+Race 3: TVR Speed 12
+Race 4: [R]Tommy kaira ZZII
+Race 5: Nissan R390 Road Car '97
+
+Super Touring Car Trophy (prize car awarded randomly)
+------------------------
+Chevrolet Camaro Z28 30th Anniversary '96
+Toyota Tom's Supra
+Toyota TRD3000GT
+
+GT300 Championship (prize car awarded randomly)
+------------------
+[R]Nissan Zanavi Silvia GT '99
+[R]Toyota BP Trueno GT '99
+[R]Toyota Momo MR2 GT '99
+[R]Toyota Weds Celica GT '99
+
+GT500 Championship (prize car awarded randomly)
+------------------
+[R]Dodge STP Viper GT
+[R]Honda Takata NSX GT
+[R]Nissan Arta GT-R GT '99
+[R]Toyota Cerumo Supra GT '99
+
+
+Endurance (prize cars awarded randomly)
+=========
+Grand Valley 300km Endurance
+----------------------------
+[R]Nissan R390 GT1 LM Race Car '97
+[R]Subaru Impreza Rally Car
+
+Apricot Hill 200km Endurance
+----------------------------
+Lancia Stratos
+[R]Dodge Viper GTS-R
+
+Seattle 100 Mile Endurance
+--------------------------
+[R]Ford Escort Rally Car
+[R]Ford GT90
+
+Laguna Seca 200 Mile Endurance
+------------------------------
+[R]Mitsubishi 3000GT LM Edition '99
+[R]Toyota Celica Rally Car
+
+"Millenium In Rome" 2hr Endurance
+---------------------------------
+[R]Toyota Altezza LM Edition
+[R]Toyota Corolla Rally Car '97
+
+Trial Mountain 30 Lap Endurance
+-------------------------------
+[R]Toyota Denso Supra GT '99
+
+S.S.Route 5 All-Night
+---------------------
+[R]Mitsubishi Lancer Evolution VI Rally Car '99
+[R]TVR Cerbera LM Edition
+
+
++--------------------------+
+| Statistics: Best & Worst |
++--------------------------+
+With all the car data accumulated, it's finally possible to single out the
+cars with the best stats in each area.  These lists are organized first by
+class (normal, special, or race car), then by statistic, and finally by
+drivetrain.  All statistics refer to full tune, with all highest-spec HP
+increases and all three levels of weight reduction performed.
+
+
+Normal Cars
+===========
+Least Power
+-----------
+FF:  Toyota PRIUS '97 (63 HP)
+4WD: Daihatsu Opti Club Sport 4WD '97 (82 HP)
+FR:  Daihatsu Midget II D-Type (82 HP)
+MR:  Honda Beat (128 HP)
+RR:  Fiat 500R (138 HP)
+
+Highest Power: Normal
+---------------------
+FR:  Lister Storm V12 (709 HP)
+MR:  Vector M12 (634 HP)
+FF:  Alfa Romeo GTV 3.0 V6 24V (410 HP)
+4WD: Mitsubishi 3000GT SL (391 HP)
+
+Highest Power: Turbo
+--------------------
+4WD: Nissan Skyline GT-R R34 V-spec '99 (774 HP)
+MR:  Wiegert Vector W8 Twin Turbo (758 HP)
+FR:  Toyota Tom's Supra (751 HP)
+RR:  RUF RCT (655 HP)
+FF:  Ford Cougar '99/Cougar 2.5i 24V (512 HP)
+
+Lightest Weight
+---------------
+RR:  Subaru 360 (861 lb)
+FR:  Daihatsu Midget II D-Type (1155 lb)
+FF:  Daihatsu Opti Club Sport 2WD '97 (1338 lb)
+MR:  Lotus Elise 190 & Tommy kaira ZZ-S Coupe (1358 lb)
+4WD: Suzuki Selvo Mode SR-Four '90 (1397 lb)
+
+Heaviest Weight
+---------------
+FR:  BMW 740i (4030 lb)
+4WD: Nissan Stagea Autech Ver. 260RS (3373 lb)
+MR:  Vector M12 (3209 lb)
+FF:  Dodge Intrepid ES (3130 lb)
+RR:  RUF BTR2 (2833 lb)
+
+Lowest Power-to-Weight Ratio
+----------------------------
+FF:  Toyota PRIUS '97 (.023)
+4WD: Daihatsu Opti Club Sport 4WD '97 (.057)
+FR:  Daihatsu Midget II D-Type (.071)
+MR:  Toyota MR-S Show Version '97 (.082)
+RR:  Fiat 500R (.131)
+
+Highest Power-to-Weight Ratio: Normal
+------------------------------------
+FR:  Shelby Cobra 427 '67 (.285)
+MR:  Vector M12 (.198)
+FF:  Spoon Integra Type-R (.171)
+4WD: Mitsubishi 3000GT SL (.126)
+
+Highest Power-to-Weight Ratio: Turbo
+------------------------------------
+FR:  Mazda RX-7 GT-C '99 (.272)
+RR:  RUF BTR TypeI (.260)
+MR:  Lotus Esprit Sport 350 (.258)
+4WD: Nissan Skyline GT-R R34 '99 (.256)
+FF:  Ford Cougar '99/Cougar 2.5i 24V (.188)
+
+
+Special Models
+==============
+Highest Power
+-------------
+MR:  Toyota GT-ONE Road Car '98 (975 HP)
+FR:  TVR Speed 12 (807 HP)
+
+Lightest Weight
+---------------
+MR:  Tommy kaira ZZIII (1358 lb)
+FR:  TVR Speed 12 (1926 lb)
+
+Highest Power-to-Weight Ratio
+-----------------------------
+MR:  Toyota GT-ONE Road Car '98 (.491)
+FR:  TVR Speed 12 (.419)
+
+
+Race Cars
+=========
+Least Power
+-----------
+FF:  Mini Cooper MK1 (239 HP)
+FR:  Toyota BP Trueno GT '99 (358 HP)
+MR:  Toyota Momo MR2 GT '99 (374 HP)
+4WD: Citroen Xsara Rally Car (378 HP)
+
+Highest Power
+-------------
+FR:  Nissan Drag 180SX (1011 HP)
+4WD: Nissan R33 Drag GT-R (1011 HP)
+MR:  Renault Espace F1 (818 HP)
+FF:  Toyota Weds Celica GT '99 (394 HP)
+
+Lightest Weight
+---------------
+FF:  Mini Cooper MK1 (1543 lb)
+4WD: Daihatsu Storia Rally Car & Suzuki Escudo Pikes Peak Version (1763 lb)
+FR:  TVR Cerbera LM Edition (1962 lb)
+MR:  Honda del Sol LM Edition (1962 lb)
+
+Heaviest Weight
+---------------
+MR:  Ford GT90 (3201 lb)
+FF:  Toyota Weds Celica GT '99 (3042 lb)
+4WD: Mitsubishi 3000GT LM Edition '99 (2865 lb)
+FR:  Dodge Viper GTS-R (2749 lb)
+
+Lowest Power-to-Weight Ratio
+----------------------------
+FF:  Toyota Weds Celica GT '99 (.130)
+MR:  Toyota Momo MR2 GT '99 (.132)
+4WD: Lancia Delta S4 (.146)
+FR:  Shelby Cobra Coupe '65 (.169)
+
+Highest Power-to-Weight Ratio
+-----------------------------
+4WD: Suzuki Escudo Pikes Peak Version (.556)
+FR:  Nissan Drag 180SX (.468)
+MR:  Toyota GT-ONE Race Car (.338)
+FF:  Taeivon FTO GT '99 (.179)
+
+
++----------------------------+
+| Frequently Asked Questions |
++----------------------------+
+I wanted to leave this as the domain of other GT2 FAQs, but I guess their
+coverage is lacking because I keep getting these same questions from readers
+via e-mail.  Hopefully this will help.
+
+Update for Version 2.2: I've let the car list portion of this document be
+added as a companion to the "Ultimate GT2 Information Database", at the
+www.granturismo.com forums.  If you see a question that I haven't answered
+here, try checking it at http://ubb.granturismo.com/Forum16/HTML/005826.html.
+
+How do I get the Datsun 240Z/Impreza 22B/'68 2000GT/etc...?
+-----------------------------------------------------------
+Several of the used cars in the game are extremely rare and only show up in
+their respective dealer's used car lots very infrequently.  They *are*
+available, and not myths or mirages.  The selections of the used car lots
+change (in a pre-scripted fashion) every 10 game days (on day 10, day 20, day
+30, etc.) so that's how often you should check to see if what you're looking
+for has come up.  To the best of my knowledge, these are the used cars that
+could qualify as rare and will take some patience to find (some more than
+others).  I've included the pair of four-character tags to get these cars
+using the GameShark codes in the "Hidden Cars" section.
+
+Mazda AZ-1 A spec '91 (B2D8, 0B0C)
+Mazda RX-7 GT-Turbo '83 (30D8, 0B0C)
+Mazda RX-7 RS-R '97 (C718, 0B0D)
+Mazda RX-7 Type RZ '97 (C918, 0B0D)
+Mitsubishi Lancer Evolution V RS '98 (C198, 170D)
+Datsun 240Z 240ZG HS30 '71 (5918, 180C)
+Nissan Skyline GT-R KPGC10 '71 (8098, 180C)
+Nissan Skyline 2000 RS-X DR30 '84 (4058, 180C)
+Nissan Skyline GTS-R R31 '87 (4098, 180C)
+Nissan Skyline 280 Type MR (9058, 180C)
+Nissan Skyline GT-R NISMO R32 '90 (40D8, 1860)
+Subaru 360 (41D8, 1D0C)
+Subaru Impreza 22B STi Version '98 (30D8, 1D0C)
+Toyota 2000GT GT '68 (3498, 1E0C)
+Toyota Celica '84 (2898, 1E0E)
+
+A few of these are available very early in the game cycle, so you may want to
+try creating a second save at the beginning of Simulation Mode, buying them
+there, and trading them over to your "real" game save.
+
+Finally, if you have a DexDrive, there are many game saves out there for
+download that probably have one or more of these cars.  I'll put saves up at
+www.gamefaqs.com and private.addcom.de/bradley/gt2 with these cars sometime
+soon.
+
+How do I get the game to award me a particular prize car?
+---------------------------------------------------------
+Many people playing GT2 would like to know what factors decide which prize
+car you're awarded in a race that awards more than one (like GT World League
+or the Endurance races).  Countless theories on what influences the prize car
+award have been proposed, from the believable (the car you race, or your lead
+in points) to the outlandish (how many times you pit stop in an endurance
+race or even what laps you choose to pit stop on).
+
+The truth of the matter is that prize cars are awarded completely at random.
+"But I got the same car five times in a row!"  Well, when tossing a coin it's
+entirely possible to get heads five times in a row.  You can change as many
+variables as you want about the way you race and it won't influence GT2's
+decision at all.  How do I know?  Using the GameShark, I raced GT World,
+GT300, GT500, and all of the Endurance races under repeated identical
+conditions--same car, same setup, same lead in points, etc., and I managed to
+get all the cars awarded by the races without there being any difference in
+any (controllable) variable from race to race.
+
+So no, there is nothing I can tell you that will prevent you from getting
+that Escort a third time instead of the GT90.  It's a stupid game mechanic--
+Polyphony should have programmed the game to keep track of how many times
+you've won a particular event to ensure a proper "rotation" of the car
+awarded--but it's the way things work.  If you're fed up with it, like me,
+then get a DexDrive or GameShark and cheat your way into the cars you don't
+have.  Don't feel bad, you're entitled to them--GT2's awards system is silly.
+
+I bought a car and it has more or less HP than the dealer said it did!
+----------------------------------------------------------------------
+I've heard this complaint over and over and over again, and there is no good
+explanation.  Two popular opinions:
+
+1. It's intended to simulate real life--a dealer won't tell you the real
+performance of a car, and if you want to find out for sure you have to test
+it yourself.  Apparently, there are also restrictive automotive laws in Japan
+that require that cars do not have a peak HP greater than 276 HP, which
+dealers apparently sidestep by *claiming* that the car only pushes 276 in
+brochures and the like, even though it does much more when tested.  So if a
+car dealer will fudge the numbers to fool the government, it should come as
+no surprise that they might do it to you.  A dodgy explanation indeed, but
+it's the best one I've seen that doesn't call the phenomenon a bug.
+
+2. It's a bug, yet another example of Polyphony's rushed programming of GT2.
+I'm not sure about the validity of this since the same "bug" existed in the
+original GT and Polyphony did not "fix" it for this release, but there sure
+are bugs and glitches aplenty everywhere else in this game.
+
+Regardless of the reason, the fact of the matter is that you can't trust the
+dealer to give you the correct HP of a car, ever.  Accept it and move on, and
+consult this list before any puchases so you know what you're getting into--
+it's one of the reasons I put the work into creating it.
+
+What are the differences between the Jpn/NA/Euro versions of GT2?
+-----------------------------------------------------------------
+To create an exhaustive listing of these would be too time-consuming, but a
+few important ones:
+
+The GameShark codes I've included here do not work in the Jpn or Euro
+versions of the game.  I don't have the time or inclination to track down
+congruent codes for those versions, but if someone else would like to
+contribute them, it would be much appreciated by the many readers that have
+contacted me asking for them.
+
+Engine power is in "ps" in the Jpn version, and HP in NA and Euro versions.
+I don't know if any actual values were changed between versions or the units
+simply converted.
+
+Car weight is in pounds in the NA version and in kilograms in the Jpn and
+Euro versions.  Again, I'm unsure if any actual values were changed or if the
+relative weights of the cars stay the same.  One of the biggest differences
+between the NA and Jpn/Euro versions of the original GT was a drastic change
+in weight to some of the high-end cars.
+
+Speed is in miles per hour (mph) in the NA version, and in kilometers per
+hour (kph) in the Jpn and Euro versions.  Jay Rogers tells me this is
+irritating to UK users as they use mph in real life. :)
+
+All in all, the Euro version seems to be very, very similar to the Jpn
+version, with few changes attempted--the Opel dealership became Vauxhall, and
+some car names were changed to reflect import model designations (Daihatsu
+Storia becomes Daihatsu Sirion, for instance), but not much else was done.
+
+Update for Version 1.5: I've gotten e-mail from Euro version player Ron
+Rangi, who tells me that the Euro version might have as few as 539 cars in
+it.  Obviously, this means that quite a few got cut.  Which ones those are is
+beyond the scope of this FAQ, but Jesse Katianda points out one somewhat
+significant example in the Nissan Nismo GT-R LM Road Car R33.
+
+Sony Computer Entertainment America, on the other hand, went wild attempting
+to "localize" GT2 for the NA release, adding an Acura dealership to North
+City to handle the Integra and NSX (which are sold under the Acura name in
+the US), changing the names of some cars to reflect their US names (e.g.
+Mazda Eunos Roadster became Mazda MX-5 Miata, and Mitsubishi GTO became
+Mitsubishi 3000GT), changing model years to reflect lag in import car markets
+(e.g. the Acura NSX and Toyota Supra), and changing measurement units in the
+Car Settings screen from SI to English (resulting in some hilarious settings,
+like ride heights of over ten feet).  There Honda cars obviated by the Acura
+dealer are still in the code and can be driven, by the way--see the "Hidden
+Cars" section for details.
+
+If anyone has any informed commentary on differences between the various
+regional versions of GT2, let me know.  Most notable would be any changes in
+actual relative car performance (not just the units) in the highest-end cars.
+
+What car am I supposed to use in Manufacturer Event X?
+------------------------------------------------------
+This is related to the question above--in the NA version, SCEA changed the
+car names without updating the related manufacturer events to reflect the new
+names.  Thus, there's a "Roadster" competition at Mazda and an "Alcyone"
+event at Subaru, when neither of those cars seem to exist in the game.  To
+find out what car you're supposed to be using for these events and any others
+whose names confuse you, choose to see a preview of the race by clicking that
+handy-dandy movie-projector icon, and see what cars the computer puts in.
+
+What's a "hybrid"?
+------------------
+"Mr. P" from the GameFAQs GT2 message board explains hybrids thusly (and
+better than I ever could):
+
+"GT2 is structured in an object-oriented way, with each car in the car garage
+having a listing for each modifiable part, each of which tells the game how
+to affect an element of handling... Each car has different codes for
+different parts, which is part of the grandeur of GT.  By hacking with a
+GameShark, or related equipment, you can put parts from one car into another,
+making a hybrid of the two.  And you can hybridize parts from many cars
+together, too, pulling the best brakes from here and the best engine from
+there, turbo boost... etc.  All this requires a GameShark, of course, or some
+specific software for the DexDrive; if you have one of those, you can then
+make experimental monsters in GT. :-)"
+
+While this FAQ has some GameShark codes in it, they are only for accessing
+complete cars already in the code--not for making hybrids.
+
+Is the McLaren F1 in the game?
+------------------------------
+A few rumors have spread about the availability of the McLaren F1 in GT2.
+The most common one states that you need to buy every single car in the game
+in black, but there are a few other even more ridiculous ones as well.  This
+rumor is completely unfounded, except for a few pieces of circumstantial
+evidence, as its proponents have yet to provide a GameShark code, save file,
+screenshot, statistics, or ANY other details, whatsoever, on the car.
+
+Update for Version 2.1: RogsR34UK (rogsr34uk@dial.pipex.com) has catalogued
+every inch of the GT2 car code and it ain't in there.  Period.  If you
+encounter one (or any other car that's not in this FAQ), it's a hybrid.
+
+
++-----------------+
+| GT2's Best Cars |
++-----------------+
+As in my GT list, I'm including this section to highlight the real gems of
+the game in various classes.  With 600 cars featured in GT2, finding the best
+the game has to offer is an even bigger task (though some, like the Suzuki
+Escudo, jump right out atcha).  Further, the huge number of cars makes it
+more likely that two people won't agree on which could be called the best.
+
+
+Best Bargain Cars
+=================
+Just like in the original GT, Simulation Mode sets you loose with only 10,000
+credits, so unless you're studly enough to get all golds in a license test, a
+trip to the used car lots in East City is required.  Some cars are affordable
+in the sequel that were just out of reach in the original, so here's a new
+list of picks for those who are just starting.
+
+Honda Civic 3 Door Si '93
+     This was a good starter car in GT, and retains that distinction in the
+     sequel.  Its best assets are front-wheel drive and light weight.
+
+Mazda RX-7 Infini III '90
+     No big hyperbole surrounding this one, just a good FR car choice that's
+     available early and not a Nissan.
+
+Nissan Pulsar GTi-R '91
+     Statistically this car is superior to the Celica, but a high center of
+     gravity and narrow tires prevent it from living up to its pedigree.
+
+Nissan Silvia K's 2000cc '91
+     Less power than the Skyline, but also lighter.  Nissan says it's
+     "probably the ideal car for beginners," but I'd favor a FF or 4WD.
+
+Nissan Skyline GTS-t Type M R32 '91
+     Nuff said.  Skyline fans will surely be locking on this one.  Nissan
+     itself even touts it as "just the model to learn the basics of driving".
+
+Toyota Celica GT-Four RC '91
+     This has both high power and high weight, but the 4WD makes these
+     attributes easier to handle.  More "sporty" than the Pulsar, too.
+
+
+Best Stock Cars
+===============
+I had made this kind of list in my FAQ for the first GT, because there was a
+"Normal" race that didn't allow any modifications or racing models.  No such
+event is found in GT2, but I think it's interesting enough to note the new
+supercars and tuner cars that kick butt right out of the box.
+
+Lister Storm V12 (FR; 591HP, 3170lb)
+     You just know when a manufacturer makes it into the game for only ONE
+     car, it's gotta be good.  And is it ever--though a V12 engine in the
+     front of a 3000-pound body sounds like a recipe for disaster, the Storm
+     V12's ride is smooth and stable, thanks to race car-like downforce.
+
+Nissan Mine's R34 Skyline GT-R (4WD; 618HP, 3395lb)
+     I was originally only going to include this so Jpn car fans wouldn't cry
+     foul, but it grew on me.  The numbers speak for themselves--this is the
+     most powerful stock 4WD in the game--but the ride is a little jittery.
+
+RUF CTR2 Sport (4WD; 529HP, 3020lb)
+     All the 4WD RUFs are hardcore cars, but this is by far the pick of the
+     litter.  Though it's not as fast, I prefer it to the Mine's R34 since it
+     sticks to the road better.
+
+Shelby Cobra 427 '67 (FR; 423HP, 2354lb)
+     Shelby's signature roadster may have the aerodynamics of a streamlined
+     house brick, but it sure is fun to drive.  It's best on the twisty
+     tracks, since its top-end is held back by its 4-speed transmission.
+
+TVR Cerbera 4.5 (FR; 428HP, 2425lb)
+     The Cerbera continues to be one of the best stock cars available and has
+     a real selling point in its price.  Not only is performance comparable
+     to any of these, it's a steal at only 80,000 credits.
+
+Wiegert Vector W8 Twin Turbo (MR; 634HP, 3417lb)
+     Vector has gotten a lot of fans with its unique, space-age designs, and
+     the W8 is a perfect example.  It's heavy, and the transmission's kinda
+     weird, but the power of the twin-turbo V8 is unbeatable.
+
+
+Best Road Cars
+==============
+I feel kind of redundant writing out this list since almost all of these are
+the road versions of race cars or else barely street-legal, but a lot of the
+fastest cars don't have an [R] in front of their names and definitely deserve
+mention.  (I know the GT40 has one.  See "Mysteries of the GT40".)
+
+Ford GT40
+     Kicking it old school with this '65 model comes highly recommended.
+     Handling is a little sloppy compared to current-model cars, but with
+     some practice it can be turned into spectacular power-slides.
+
+Jaguar XJ220 GT Race Car
+     This car is a little heavy, but the peak power is astounding and it owns
+     any course with a long straightaway.  Of course, racing modification
+     only helps, and makes this car as dominant as the top-tier race cars.
+
+Lotus Elise GT1
+     The Elise GT1 suffers from the same nervous handling as the Esprit GT1.
+     Stiffening the front springs will help keep it from getting away, and
+     increasing downforce (with racing modification performed) helps too.
+     With race mod this car is the equal of the best full-blown race cars.
+
+Nissan R390 GT1 Road Car
+     Great power, but held back by their sucky suspensions, which can never
+     be upgraded, nor the settings changed.  Challenge yourself with one of
+     these after you're bored with the XJ220 and GT-ONE.
+
+Toyota GT-ONE Road Car '98
+     Highest peak power in the game should draw anyone's attention to this
+     one, and performance matches the statistics.  200+ mph is readily
+     available with the stage 4 turbo, but the suspension has a little
+     trouble handling that kind of punch from the engine.
+
+TVR Speed 12
+     Initially, simply opening the throttle will result in a spin 90% of the
+     time.  To fix this ugliness, invest in a TCS Controller and jack that
+     baby all the way to max.  It'll harm acceleration a bit, but I think
+     "the most powerful road car ever built" has a little extra to spare. ;)
+
+
+Best Rally Cars
+===============
+I've finally gotten around to trying out the rally mode with some
+seriousness, and felt like making a list of what's worked out best for me.
+The Cultus and Escudo have been moved here from the Best Race Cars list,
+since this is the type of racing they were intended to do.
+
+Daihatsu Storia Rally Car (4WD; 427HP, 1763lb)
+     Daihatsu ain't good for much, but their rally car turned out pretty
+     good.  It's disturbingly light, so prepare to be launched into the
+     stratosphere by large jumps.  Sadly, it's hard to justify this car's $1M
+     price when the superior Tigra is half that much.
+
+Honda del Sol LM Edition (MR; 617HP, 1962lb)
+     Pressing the del Sol LM into service as a rally car by softening the
+     springs and raising the ride height results in a surprisingly effective
+     weapon.  It needs a lighter touch than the 4WDs, but at its best it has
+     turned in better times for me than anything save the Pikes Peak cars.
+
+Opel Tigra Ice Race Car (4WD; 524HP, 2094lb)
+     The best buyable rally car (the two degenerates below notwithstanding),
+     and it's only 500K credits.  With it you'll be set for all the rally
+     races except the hill climbs.  Perhaps the best value in all of GT2.
+
+Suzuki Cultus Pikes Peak Version (4WD; 786HP, 1924lb)
+     This can be used in road races, but it obviously belongs here.  Running
+     this in any rally race except the hill climbs, or running it in any road
+     race at all, will take all the challenge out of the game and is commonly
+     considered cheating by GT2 fans.
+
+Suzuki Escudo Pikes Peak Version (4WD; 981HP, 1763lb)
+     See above... times ten.  The Escudo is easily the best car in the game
+     overall, but it's clear the hill climbs are the only events it was
+     intended to do.  Use it, don't abuse it.
+
+Toyota Celica Rally Car (4WD; 569HP, 2116lb)
+     Not much to say about this one except that it's as good as it is hard to
+     get.  Seems like too many of the best cars in this game are tucked away
+     in license tests or endurace races.  (Will we see the Escudo and Cultus
+     become rare prize cars in GT3, perhaps?)
+
+
+Best Mid-HP Race Cars
+=====================
+GT300 Championship limits your car's HP to under 591, and there are quite a
+few cool race cars that qualify.  While not the heaviest hitters, these cars
+are fun to drive and will dominate GT300.  GT World League, GT500, and GT
+All-Stars are also well within their capabilities.
+
+Audi TT LM Edition (4WD; 544HP, 2138lb)
+     Having seen the TT recommended a few times but not expecting much, I was
+     blown away by its hellish the off-the-line kick and responsive steering
+     even with the gas still pressed.  Granted, acceleration tapers off to
+     average quickly, but it's made up for by amazing cornering at full bore.
+
+Dodge Concept Car LM Edition (MR; 526HP, 1984lb)
+     To say that the Concept Car LM has been... um... "castrated" since its
+     complete dominance of the original GT would perhaps be a start.  Fatter,
+     slower, and uglier, it's like the proverbial champ that got too lazy--
+     but it still commands respect with its light weight and stable handling.
+
+Honda S2000 GT1 (FR; 577HP, 2116lb)
+     This new Honda creation not only looks menacing (especially in that
+     elite "stealth black" color), it has the performance to back it up, with
+     a better power-to-weight ratio than even the Viper race cars.  I like to
+     stiffen the rear springs to get rid of that Supra-esque understeer.
+
+Lotus Esprit GT1 (MR; 577HP, 1984lb)
+     While it has as much or more potential than any of these entries, the
+     Esprit's twitchy handling can make it a real handful.  So don't cane the
+     nuts off it--straight line braking only, especially when dealing with a
+     banked curve.
+
+Mazda RX-7 LM Edition & RX-7 GT-C LM Edition (FR; 551/558HP, 2116lb)
+     The crazy cool RX-7 returns, joined by the new RX-7 GT-C.  There are
+     slight differences in handling between the two machines, but both
+     deliver great acceleration at all speeds and pull out of corner drifts
+     with authority.
+
+Mitsubishi FTO LM Edition (4WD; 549HP, 2050lb)
+     The FTO LM was renowned for its tameness in GT, and it continues to make
+     the most of good-not-great performance by mating it with the most
+     predictable, consistent handling in the game.  It's amazing how much not
+     crashing every ten seconds can help your lap times. :)
+
+
+Best High-HP Race Cars
+======================
+In GT, the best race cars were the best cars period, but in GT2 they're often
+outclassed by full-tune road cars.  Still, these are well within the absolute
+best the game has to offer and dwarf the other 99% of the cars in the game.
+The go-to vehicles for GT World, GT500, and GT All-Stars.
+
+Honda del Sol LM Edition (MR; 617HP, 1962lb)
+     Still light, still nimble, still cute and adorable.  (I contend that
+     this car is the most eligible for being made into a plush stuffed doll.)
+     Raise the downforce to keep it from getting too uppity.
+
+Nissan R390 GT1 LM Race Car '97 (MR; 633HP, 2204lb)
+     The one I'm talking about here is the black version awarded in the Grand
+     Valley Endurance--the blue '98 model from GT World League is merely okay
+     (as high-power Le Mans race cars go:).  Pray the game doesn't reward
+     your hour of hard work with the lame Impreza Rally Car instead... :/
+
+Nissan Skyline GT-R GT '99 (4WD; 702HP, 2601lb)
+     The race version of the Skyline comes in four different flavors and is
+     the best way to get accustomed to high-HP LM racing, but it whispers
+     "rookie" when over-relied upon.  Learn to race the MR cars as well to
+     get the most out of GT2.
+
+Toyota GT-ONE Race Car (MR; 672HP, 1984lb)
+     This is either the '98 or '99 model; they're basically the same.
+     Despite being rear-wheel drive, this one will rarely get out of hand and
+     sticks to the road like glue.  The more I drive it, the more I love it.
+
+TVR Cerbera LM Edition (FR; 624HP, 1962lb)
+     Meet the new boss... same as the old boss.  The Cerbera LM continues to
+     dole out spankings with the best of them, and with a hella cool new blue
+     paint job to boot.  Too bad about having to do that freakin' endurance
+     race to get it. :( More downforce helps this one too, by the way.
+
+Venturi Atlantique 600 LM (MR; 705HP, 2116lb)
+     I SWEAR I have not been paid off by the French.  Trust me--this is the
+     most under-rated car in the game.  If you want a challenging car after
+     growing bored with the Skyline, then throw down the cash.  Handling is a
+     little hyper, but there are numerous remedies for that.
+
+
++-------------+
+| Hidden Cars |
++-------------+
+I'm normally not a GameShark user, but in the interest of making this list a
+true clearinghouse of all GT2 car statistics, I'm including the normally
+inaccessible [R]Mercedes-Benz CLK Race Car, Volkswagen Polo 1.4 16V, and
+other cars that were removed for US release in the list, and adding this
+section to help people acquire them.  These cars are in the game code but not
+purchasable or winnable through normal means.  Allegedly the [R]CLK Race Car
+had to be cut because of EA's fascist licensing policies (it appears in one
+or more of the Need For Speed games, I'm told).  Why the ostensibly innocent
+Polo didn't make it in is anyone's guess, and I figure the 300ZX thing was
+just an oversight that occurred when the names were changed from Fairlady Z.
+The Hondas were revised by SCEA for sale at the Acura dealer they added...
+
+The Lost Hondas
+===============
+Why be interested in using the Hondas instead of their readily-available
+Acura equivalents?  A few reasons:
+
+All the Honda versions can take racing modification (only three of the nine
+can in Acura form).
+
+All the Honda versions have functioning Info screens (the "i" icon in the
+garage and showroom view).  The Acuras offer naught but a buzzing noise to
+those who are interested in commentary.
+
+There are some cosmetic differences--the Acura versions of the Integra have
+the American nose, with the two pairs of circular headlights, as opposed to
+the Japanese Integra's more traditional bar-shaped configuration.
+
+There are differences in performance between the Acura and Honda versions:
+the Honda NSX Type R '92 is much lighter than its '93 Acura counterpart, and
+the Honda Integra Type R 98 spec is much lighter than any Acura version of
+the Integra, with no change in power.
+
+Finally, for those purist Honda fans out there that regard SCEA's creation of
+the Acura dealer as anathema, this should be right up your alley.
+
+GameShark
+=========
+One way to get your hands on these cars is with the InterAct GameShark.
+Previous versions of the FAQ had a code that would make the desired car show
+up in a used car lot; RogsR34UK has pointed me to a superior code that lets
+you buy any car from a new car showroom, thus letting you see all the
+available colors and pick whichever you want.  The drawback, however, is that
+you'll have to pay the standard price for the car (i.e., a cool million in
+the case of the CLK).  But, I figure GameShark users won't have problems with
+lack of funds... :)
+
+In this chart are the first eight characters of the two lines:
+
+NTSC Version 1.0    NTSC Version 1.1    NTSC Version 1.2
+--------------------------------------------------------
+801C3018            801C30D8            801C3328
+801C301A            801C30DA            801C332A
+
+The four-character tags on the first and second line follow this chart (or
+the rare cars chart in the FAQ section):
+
+Car Name                                1st Line  2nd Line
+----------------------------------------------------------
+Honda Integra SiR-G ('95)               8758      124D
+Honda Integra SiR-G ('98)               3458      120D
+Honda Integra Type R                    8718      124D
+Honda Integra Type R 98 spec            3718      120D
+Honda NSX '90                           D898      1261
+Honda NSX Type R '92                    D718      1261
+Honda NSX                               D318      1261
+Honda NSX Type S                        D758      1261
+Honda NSX Type S Zero                   D618      1261
+[R]Mercedes-Benz CLK Race Car           E0DC      115C
+Nissan 300ZX 2by2 Twin Turbo '94        20D8      1892
+Volkswagen Polo 1.4 16V                 A1D8      1181
+
+Start the game with a code activated (they only work one at a time) and visit
+the Toyota new car showroom.  The screen will look normal, but if you click
+the first car in the list you'll see the car you identified in the code.  Buy
+it in whatever color you want, then exit all the way out to the main menu and
+save your game.  Restart *without* the code activated to race your new car
+(the game will lock up if you try to enter an event with the code still
+activated).  Keep in mind you'll still need to take the car to the
+appropriate dealer to buy new tuning parts for it.
+
+Experiences of readers attempting to use this code seems to indicate that
+GameShark version 3.x is the minimum necessary.  The codes were originally
+tested (and work perfectly) on my GameShark CDX version 3.3, but I've heard
+from version 2.x users who couldn't get the codes to work.  Please, no more
+mail on this subject--my inbox is already overflowing with "I can't get the
+codes to work!" messages, and my GameShark experience is simply too limited
+to solve everyone's problems.
+
+Finally, those that are interested can find codes to "edit" the other slots
+in the Toyota showroom (to buy multiple cars without having to restart), as
+well as four-character tags for every car in the game (so you can use this
+trick to get that prize car or rare car that's eluding you, or look at some
+of the weird stuff I talk about later) at www.rogs.dial.pipex.com.
+
+DexDrive
+========
+[Previous version's venomous rants about various websites deleted.  I think
+enough people have seen them; they'd just be taking up space at this point.]
+
+Update for Version 2.0: FINALLY someone has come forward with some web space
+to host the save file.  It can now be found on the web at Bradley's GT2 site,
+private.addcom.de/bradley/gt2.  If you have any problems downloading or using
+the file, then let Bradley know.  Any compliments on the useful contents of
+the file, can, of course, be directed to me. :)
+
+Update for Version 2.1: I'll assemble a save with all the hidden cars, as
+well as a few other hard-to-get cars, and upload it to Bradley's site and
+GameFAQs (now that the latter is hosting DexDrive saves).
+
+I hope access to these cars (especially the [R]CLK Race Car, which has been
+asked about since GT2's release) helps everyone enjoy GT2 more.
+
+Use The [R]Alfa Romeo 155 Touring Car or [R]Opel Calibra Touring Car
+====================================================================
+If you don't have either of these periperhals, the closest things to the
+[R]CLK Race Car are the [R]Alfa Romeo 155 Touring Car and [R]Opel Calibra
+Touring Car.  They have the same high-revving engine, power and torque
+curves, suspension and LSD settings, gear ratios, and weight.  So buy one and
+just pretend--the only thing you'll be missing is the CLK's better braking
+ability.
+
+
++-------------+
+| Final Rants |
++-------------+
+As much as it bugs me when I see this kind of stuff in FAQs, I'm going to
+editorialize for a moment here.  However, unlike certain blowhard FAQ
+authors, I'll try to keep it to under 1K.
+
+Yes, GT2 is the best racing game of all time... but I think it could have
+been a lot better.  It's loaded with bugs, which is unacceptable for a PC
+game, let alone an un-patchable console game, and needless changes were made
+to the front-end (I'm especially frustrated at the way the cursor often hangs
+in open space in the menus, instead of defaulting to a clickable spot).
+These factors, plus the load times (which admittedly are unavoidable given
+the game's scope) make playing GT2 more of... well, more of a chore than it
+should be.  The game's graphics are decidedly inferior to the original's,
+bordering on just plain bad by any standard.  It is apparent that texture
+resolution was increased so that stickers would be more readable on race
+cars, but sacrificing everything else to achieve this end was a case of
+fixing what wasn't broken.  All of these things combine to give GT2 a very
+un-polished feel that keeps it from what I would give a "10/10" rating.
+
+We (well, I, and those who agree) can only hope that GT2000 will not only
+preserve the best elements of GT2, but fix all these hiccups... which is not
+guaranteed.  It seems like Sony may very well rush its development to meet
+the holiday season, just like last year; hopefully, this won't happen (or
+won't be necessary), and GT2000 will be one for the record books.
+
+By the way, a reliable source (Magic Box--http://come.to/magicbox) reports
+that GT2000 is now called GT3 (since it won't be out in 2000), and will
+contain "only" 150 or so cars.  I'll resist more editorialization, but I'm
+sure everyone else will have a lot to say...
+
+Okay, rant over.  Now for some miscellaneous stuff.
+
+Mysteries of the GT40
+=====================
+The Ford GT40 has been bugging me for some time.  It's clearly the *road*
+version of the [R]GT40 Race Car (the press blurb says so), but it gets tagged
+with that [R] symbol anyway, at least in the garage listing.  Plus it can
+take engine tuning, which no other "race" car can.  So I've decided that it
+was a programmers' oversight to give it the [R] designation when it bears
+more similarities to, say, the Toyota GT-ONE Road Car '98.  Thus, I'm
+considering the GT40 a road car and not a race car.  Point against is that
+you can adjust the GT40's downforce like a real race car, but the game itself
+agrees with me on a certain level... that [R] disappears when the GT40 is
+listed in race results. :)
+
+Update for Version 1.2: I looked into this phenomenon some more and saw that
+there are three other cars that exhibit the disappearing [R]:
+
+Ford GT90
+Renault Espace F1
+Tommy kaira ZZII
+
+However, these other three behave like race cars; i.e., no tuning except
+TCSC/ASCC.  Since the GT40 can take engine tuning, I stand by my assertion
+that it's an exception (read: "screwup") and should be a road car.
+
+Adventures in GameShark Weirdness
+=================================
+Well, I must say that upon being directed to RogsR34UK's site by "Mr.P" of
+the GameFAQs GT2 message board, I was like a kid in a candy store.  A list of
+every single car in the GT2 code and the GameShark codes to get them?  Yes,
+please!  But, unfortunately, most of the hidden cars are disappointments.
+There's a bunch of new GT40's, a Mugen S2000, a handful of new RUFs, and
+even something called a Rex Supercharger VX... but, sad to say, they're all
+just body style data and not real cars.  Well, they are real cars, but their
+stats are exactly the same as an RX-7 LM Edition, so there's no practical
+reason to check them out unless you're into making hybrids.
+
+The only other stuff of note is the "Esso" (rather than Exxon) versions of
+various Peugeot race cars, which I'm guessing were used for the Euro version,
+and a couple of hidden Shelby cars.  Don't get excited, they're just a GT350
+with its logo written as "GT350" (instead of "G.T.350") and a "GT500KR" with
+stats identical to the in-game GT500.  If you want to see these and the other
+ones above, feel free to visit RogsR34UK's site at www.rogs.dial.pipex.com
+and get the codes; the only hidden cars I've decided to include in this FAQ
+are those that differ in statistics (not just name) from available cars.
+
+
++--------------------------+
+| Credits & Copyright Info |
++--------------------------+
+Hooray for:
+Brad Wright and John Culbert, whose concise and well-organized GT2 FAQs were
+     a great help to me in the initial stages of this project.
+Aric Carney (AChrCar21@aol.com), who uploaded a very useful GT2 save file to
+     InterAct's DexDrive site.
+Paul Thayer (thay@fc.hp.com), who provided stats for the Calsonic GT-R,
+     '98 GT-ONE, and the [R]Vipers.
+Doug "Neil" Crawford (dcrawford@keasd.com) for providing statistics on the
+     rare '83 Mazda RX-7, Datsun 240Z, and Impreza 22B.
+Cliff Chen (fidodido@earthlink.net) for confirming that the R32 Skyline NISMO
+     was indeed in there.  I found one right after he told me :)
+David Tan (dtan88@hotmail.com), who provided a save file with several of the
+     prize cars from the Endurance races.
+Mark Wei (ph_81@hotmail.com), for alerting me to the effects of the [R]CLK
+     Race Car code in the newer GT2 version.
+Jay Rogers (JR@Silverstone-Circuit.co.uk) for contributing useful info on the
+     Euro version of GT2, and for exploring a few mysteries.
+Ron Rangi (ron@robynev.mtx.net) for exploring and explaining other NA/Euro
+     differences.
+"Bradley" (bradley@addcom.de) for hosting this list, the Excel version, and
+     the DexDrive save file at his web site (private.addcom.de/bradley/gt2).
+Jesse Katianda (blackshark21@hotmail.com) for a curious tidbit of info on the
+     Euro version.
+RogsR34UK (rogsr34uk@dial.pipex.com), and the folks who helped him compile
+     it, for his massive list of GT2 car data for use in GameShark codes.  If
+     not for them, there wouldn't have been a version 2.1!  Hybrid makers
+     that don't yet know about his site (www.rogs.dial.pipex.com) will find
+     it a powerful resource.
+"Mr.P" from the GameFAQs message board, for providing a concise explanation
+     of hybrids and pointing me to RogsR34UK's site.
+And last but not least, CJayC at www.gamefaqs.com and the other webmasters
+     I've approved to host this FAQ, for making it available to GT2 players.
+
+Finally, the copyright warning, reprinted with the gracious permission of Kao
+Megura.  Take it seriously or suffer.
+
+Unpublished Work Copyright 2000 Dave Connoy
+
+This FAQ and everything included within this file cannot be reproduced in any
+way, shape or form (physical, electronical, or otherwise) aside from being
+placed on a freely-accessible, non-commercial web page in it's original,
+unedited and unaltered format.  This FAQ cannot be used for profitable
+purposes (even if no money would be made from selling it) or promotional
+purposes.  It cannot be used in any sort of commercial transaction.  It
+cannot be given away as some sort of bonus, gift, etc., with a purchase as
+this creates incentive to buy and is therefore prohibited.  Furthermore, this
+FAQ cannot be used by the publishers, editors, employees or associates, etc.
+of any company, group, business, or association, etc., nor can it be used by
+game sites and the like.  It cannot be used in magazines, guides, books, etc.
+or in any other form of printed or electronic media (including mediums not
+specifically mentioned) in ANY way, shape, or form (including reprinting,
+reference or inclusion), without the express written permission of the
+author, myself.  This FAQ was created and is owned by me, Dave Connoy.  All
+copyrights and trademarks are acknowledged and respected that are not
+specifically mentioned in this FAQ.
+
+To continue, this FAQ and everything included herein is protected by the
+Berne Copyright Convention of 1976, not to mention International Copyright
+Law.  Please remember that plagiarism is against the law.  I will take
+appropriate action against transgressors, period (the same goes for people
+who put this up on web pages claiming it's their FAQ).
+
+That's the end!  Hope everyone who reads this finds it useful.  Send any
+comments to connoy@mailcity.com.
+

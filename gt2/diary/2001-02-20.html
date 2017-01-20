@@ -1,0 +1,176 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Tuesday February 20, 2001
+ -- (GT2 Version 1.2) Brief Memory Map for GameShark Use
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Tuesday February 20, 2001
+</h3>
+</font>
+<font color="white">
+<h4>(GT2 Version 1.2) Brief Memory Map for GameShark Use
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2001-02-18.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2001-02-28.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2001-01-05.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2001-02-28.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2001-01-05.html#Gameplay_Hints">&lt;&lt;--</a>
+<a name="Gameplay_Hints">Gameplay Hints
+</a><a href="2001-02-28.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+<a href="2001-01-30.html#Gran_Turismo_2">&lt;&lt;--</a>
+<a name="Gran_Turismo_2">Gran Turismo 2
+</a><a href="2001-02-28.html#Gran_Turismo_2">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999-2001, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Tuesday February 20, 2001
+</h3>
+<h4>(GT2 Version 1.2) Brief Memory Map for GameShark Use
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Here is a brief memory map of locations I found by inspecting the
+version 1.2 simulation mode disk copy of Gran Turismo 2.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+People have observed that most of these locations are merely
+shifted by hex 5A0 from the locations for Gran Turismo 2 "version 1.0",
+the original very buggy release.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+This version shows IA only above the Muscle Car Cup on the page
+under Special Events.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+This version spells "Normal" correctly for the Event Generator.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+And...<br><br>
+This&nbsp;version&nbsp;shows&nbsp;a&nbsp;Cr50&nbsp;car&nbsp;wash.<br><br>
+And...<br><br>
+This&nbsp;version&nbsp;no&nbsp;longer&nbsp;has&nbsp;the&nbsp;garage&nbsp;delete&nbsp;bug.<br>
+<br></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><pre>
+801C99D8 - A. day counter (as you see in bottom-left corner)
+801C99E0 - B. total races
+801C99E4 - C. total wins
+801C99E8 - D. total "positions" or "rankings"
+801C99EC - E. total races not including abandons
+     D/E does appear to equal "average ranking"
+801C99F4 - total prize money
+</pre>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Following this appears to be various "nybble maps" probably
+representing license status, plus various records, probably
+license and maybe Time Trials.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><pre>
+801CD4B0 - # of max speed records
+801CD4B4 - 8 max speed records, 20 bytes each
+              car(4b),speed*100(4b),name(12b)
+
+801CD554 - garage count (number of cars)
+801CD558 - first car of 100 car garage
+</pre>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Soon after the end of the garage is...
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><pre>
+801D1568 - number of credits in your bank account
+801D156C - zero-origin index of current car in garage
+801D156F - last name used for records, e.g.  ARP20Feb01
+</pre>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Most, if not all, of these locations are hex 5A0 greater than the
+version 1.0 locations, I believe.
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2001-01-05.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2001-02-28.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2001-01-05.html#Gameplay_Hints">&lt;&lt;--</a>
+<a href="#Gameplay_Hints">Gameplay Hints
+</a><a href="2001-02-28.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+<a href="2001-01-30.html#Gran_Turismo_2">&lt;&lt;--</a>
+<a href="#Gran_Turismo_2">Gran Turismo 2
+</a><a href="2001-02-28.html#Gran_Turismo_2">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2001-02-18.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2001-02-28.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999-2001 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

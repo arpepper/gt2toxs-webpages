@@ -1,0 +1,112 @@
+Tuesday November 14, 2000
+
+
+(GT1 Version 1.1)  Clubman Cup Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>Clubman Cup</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Clubman Cup Event (8008F55C)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E1C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80091028</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F4F0</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090B78</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090D14</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E1C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C790</td><td>&nbsp;"autumn"&nbsp;</td><td>Autumn Ring</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C754</td><td>&nbsp;"shortway"&nbsp;</td><td>Clubman Stage R5</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C784</td><td>&nbsp;"mountain"&nbsp;</td><td>Trial Mountain</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80091028 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q2500, 1st7000, champ20000)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090B78 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0E0</td><td>&nbsp;"sipcn"&nbsp;</td><td>Impreza'96 WG WRX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C168</td><td>&nbsp;"tmr2n"&nbsp;</td><td>MR-2 GT-S</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2F0</td><td>&nbsp;"n18nn"&nbsp;</td><td>180SX Type X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C330</td><td>&nbsp;"ns15n"&nbsp;</td><td>Silvia K's Aero (S14)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C338</td><td>&nbsp;"nt33n"&nbsp;</td><td>Skyline GTS25t TypeM</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2B8</td><td>&nbsp;"mftnn"&nbsp;</td><td>FTO GP version R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C350</td><td>&nbsp;"mecln"&nbsp;</td><td>Eclipse GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2E0</td><td>&nbsp;"hinrn"&nbsp;</td><td>Integra Type R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2D0</td><td>&nbsp;"hpnvn"&nbsp;</td><td>Prelude Type SH</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C480</td><td>&nbsp;"hcnrn"&nbsp;</td><td>Civic(Racer)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D14 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C680</td><td>&nbsp;"c-30n"&nbsp;</td><td>Camaro Z28 30th Anniversary</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F4F0 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00013FFE</td><td>&nbsp;1:21.918&nbsp;</td><td>(Autumn Ring)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000DEA4</td><td>&nbsp;0:56.996&nbsp;</td><td>(Clubman Stage R5)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00016BEB</td><td>&nbsp;1:33.163&nbsp;</td><td>(Trial Mountain)</td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

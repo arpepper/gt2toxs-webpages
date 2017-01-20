@@ -1,0 +1,200 @@
+Sunday December 29, 2002
+
+[R]FCRX7 Wins the Grand Valley 300 in 24hour game
+
+Threads:
+  Grand Valley 300 Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-24hour">24hour</a> game
+(Maybe <a href="../logs/gt1-24hour.txt">here</a>),
+I used the FCRX7 for many races.
+So I decided to enter the race-modified version in
+the Grand Valley 300.
+
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: 24hour
+   Day: 114
+   Date: Dec 29, 2002
+   Race: Grand Valley 300KM Endurance Race
+   Car: red/gray Mazda [R]FC RX-7 GT-X
+   Qualified: 4th 1:45.364new  (+0.873) Cr0
+   Result: 1st
+   Money: Cr300,000
+   Prize-Car: black/blue Castrol Supra GT
+
+
+   Results:
+
+   1st: *[R]FCRX7 GT-X            1-40:27.8
+   2nd:  [R]NSX-R LM GT2           +103.178  (1-42:11.0) 1 lap
+   3rd:  [R]R32GT-R'91             +107.646  (1-42:15.4) 1 lap
+   4th:  [R]IMPREZA RLY Ed         +184.657  (1-43:32.5) 1 lap
+   5th:  [R]EXIV 200GT             +317.839  (1-45:45.6) 2 or 3 laps
+   6th:  [R]Lancer EvoIV GSR       +350.864  (1-46:18.7) 3 laps
+
+   Pits:  15,30,45
+   fl(48): 1:37.370
+
+   lap 1   1:46.995
+   slowest  non-pit   (8)  1:44.607
+             next    (57)  1:43.096
+   fastest pit laps   (30in)  1:56.649
+                      (16out) 1:45.966
+   slowest pit laps   (45in)  1:57.186
+                      (31out) 1:46.307
+
+</pre></font></tt>
+</HTML>
+
+Starting from fourth place, I moved relatively quickly into second place
+during the first lap (the NSX had its characteristic wipe-out on the
+run to the second hairpin, and I managed to avoid a collision with it).
+
+I slowly gained on the leading Skyline, and took the lead, but then
+had a mishap on lap 8 at the first hairpin which dropped me back once again.
+But I did actually manage to gain the lead on the road by my first
+pit stop.
+
+My first pit stop dropped me to second place, but I gained the lead
+when the first-place car (probably the NSX?) pitted.
+
+On my other two stop, I kept the lead.
+
+Towards the end of the race I diced with the second and third place car
+as I came up to lap them.  I eventually managed to keep both of them
+lapped at the finish.
+
+This result was slightly slower (17 seconds) than a previous time I ran
+this race with this car.  Considering that was over three years ago,
+that is mildly perplexing!  I was possibly tired because this was the
+culmination of a long day of racing.  Perhaps also significant was the
+fact that last time I took four pit stops instead of three.
+
+
+Thread: Gameplay Hints
+
+Once again, for your analytical enjoyment, I here present all 60 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:46.995      1:46.995
+ 2   1:38.525      3:25.520
+ 3   1:38.262      5:03.782
+ 4   1:38.638      6:42.420
+ 5   1:38.405      8:20.825
+ 6   1:37.819      9:58.644
+ 7   1:38.146     11:36.790
+ 8   1:44.607     13:21.397
+ 9   1:39.575     15:00.972
+10   1:39.654     16:40.626
+11   1:39.844     18:20.470
+12   1:39.860     20:00.330
+13   1:42.108     21:42.438
+14   1:40.108     23:22.546
+15   1:57.158     25:19.704
+16   1:45.966     27:05.670
+17   1:37.472     28:43.142
+18   1:39.177     30:22.319
+19   1:38.801     32:01.120
+20   1:38.835     33:39.955
+21   1:39.254     35:19.209
+22   1:37.764     36:56.973
+23   1:38.752     38:35.725
+24   1:38.197     40:13.922
+25   1:39.280     41:53.202
+26   1:37.986     43:31.188
+27   1:38.220     45:09.408
+28   1:42.990     46:52.398
+29   1:39.656     48:32.054
+30   1:56.649     50:28.703
+31   1:46.307     52:15.010
+32   1:37.508     53:52.518
+33   1:38.114     55:30.632
+34   1:37.375     57:08.007
+35   1:37.814     58:45.821
+36   1:37.804   1-00:23.625
+37   1:37.512   1-02:01.137
+38   1:37.914   1-03:39.051
+39   1:39.337   1-05:18.388
+40   1:40.480   1-06:58.868
+41   1:38.177   1-08:37.045
+42   1:38.986   1-10:16.031
+43   1:39.901   1-11:55.932
+44   1:41.718   1-13:37.650
+45   1:57.186   1-15:34.836
+46   1:46.244   1-17:21.080
+47   1:37.880   1-18:58.960
+48   1:37.370   1-20:36.330
+49   1:37.430   1-22:13.760
+50   1:37.951   1-23:51.711
+51   1:38.723   1-25:30.434
+52   1:38.047   1-27:08.481
+53   1:39.046   1-28:47.527
+54   1:40.402   1-30:27.929
+55   1:39.597   1-32:07.526
+56   1:38.368   1-33:45.894
+57   1:43.096   1-35:28.990
+58   1:38.916   1-37:07.906
+59   1:40.018   1-38:47.924
+60   1:39.913   1-40:27.837
+
+</pre></font></tt>
+</HTML>
+
+Actual total count, at 800BDB74, was 005BFA5B, or 6027837 thousandths
+of seconds.  So the above is exactly right.
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS3)
+
+Spring Rate     3.6   3.4   (max, max)
+Ride Height     105   105   (min, min)
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   14    12
+        1st       4.400
+        2nd       2.282
+        3rd       1.452
+        4th       1.035
+        5th       0.800
+                  -----
+        FD        3.650
+
+Aero           0.70  0.96  (max,max)
+
+</pre></font></tt>
+</HTML>
+
+Basically, most settings are maximized or minimized as appropriate.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

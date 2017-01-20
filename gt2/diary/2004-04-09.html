@@ -1,0 +1,190 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Friday April 9, 2004
+ -- (GT1 version 1.1)  Favourite GameShark Code -- Tuned All Civics
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Friday April 9, 2004
+</h3>
+</font>
+<font color="white">
+<h4>(GT1 version 1.1)  Favourite GameShark Code -- Tuned All Civics
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2004-02-01.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Index</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="../logs/">game logs</a>&nbsp;]
+[<a href="2004-04-24.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2004-02-01.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a>--||<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999-2004, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Friday April 9, 2004
+</h3>
+<h4>(GT1 version 1.1)  Favourite GameShark Code -- Tuned All Civics
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+My current favourite GameShark Code for <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> is
+one which changes the AI field in the <b>Hard-Tuned Series</b> to always
+be all <b>Honda Civics</b>.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Using the address list in <a href="2000-11-26.html">November 26, 2000</a> I
+want to arrange that the pointer to the entrant list for the <b>Hard-Tuned
+Series</b> points not to the complete list, but to a list consisting
+only of the <b>Honda Civic 3 door</b>.  Since that car occurs last,
+the easiest way to accomplish that is to simply change the pointer to
+point to the <b>Honda Civic 3 door</b> instead of its normal value which
+points to the <b>NSX'93</b>.  </CODES>
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+That is:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+ 8008F5C8 0A40 -- bump Tuned entrant list to be Civic only
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Actually, how that accomplishes this is not all that obvious.  Even to
+me as I read it a few months after creating it.  <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">  My previous page
+indicates that the table for the event begins at <tt><font face="Courier">8008F5BC</font></tt>.  Now,
+the pointer to the list of entrants occurs 3 full words (12 bytes) after
+that, or <tt><font face="Courier">8008F5C8</font></tt>.  We
+only need to change the low-order 16 bits of the word, which, in the
+<b>PlayStation</b> architecture, occur first.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The original value of that full-word pointer location was <tt><font face="Courier">80090A24</font></tt>.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+From my previous page...
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090A24 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C220</td><td>&nbsp;"hnsrn"&nbsp;</td><td>NSX '93</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1E0</td><td>&nbsp;"tspnn"&nbsp;</td><td>Supra RZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1C8</td><td>&nbsp;"afd7n"&nbsp;</td><td>FD efini RX-7 TypeRZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C130</td><td>&nbsp;"nv34n"&nbsp;</td><td>Skyline GT-R Vspec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0F8</td><td>&nbsp;"nn32n"&nbsp;</td><td>Skyline GT-R Nismo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F8</td><td>&nbsp;"mlnon"&nbsp;</td><td>Lancer Evolution III GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C140</td><td>&nbsp;"tchvn"&nbsp;</td><td>Chaser 25 Tourer V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>&nbsp;"hcvnn"&nbsp;</td><td>Civic 3 door</td></tr>
+</table>
+
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+So, to bump the pointer all the way until it points to the <b>Civic 3
+door</b> we need to add 7*4, or 28(decimal, i.e. 1C hex), to its original value of
+<tt><font face="Courier">80090A24</font></tt>, giving <tt><font face="Courier">80090A40</font></tt>.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+To prevent the code from being in effect during times when it shouldn't
+I need a "guard".  The "guard" I happened to use was <tt><font face="Courier">D008C220 6E68</font></tt>.
+This is in fact testing for the value <b>"hn"</b> in that location, checking
+that the code name of the <b>NSX'93</b>  (<b>"hnsrn"</b>) is at that location,
+where it should be during the game mode of "in a race, but not racing".
+It turns out that is sufficient to make sure the code comes into effect
+only when we want it.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+So the complete code is
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+ D008C220 6E68 -- test for "hn" (indicates "before race" mode)
+ 8008F5C8 0A40 -- if true, bump Tuned entrant list to be Civic only
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I really enjoy this code because it lets cars like used <b>Eunos Roadsters</b>
+or the <b>del Sol verion S</b> win the <b>Hard-Tuned Series</b>.
+It's relatively easy to win, but at least some of the <b>Civic</b>s in
+each race are quite aggressive, so the series can be somewhat sporting.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+It is cheating, but only somewhat as long as you use only very weak cars
+yourself, since concentration is needed to keep competitive.  Myself,
+I never save a game after having used this code, but race these races in
+"temporary" games only.
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2004-02-01.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a>--||<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2004-02-01.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Index</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="../logs/">game logs</a>&nbsp;]
+[<a href="2004-04-24.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999-2004 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

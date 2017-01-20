@@ -1,0 +1,83 @@
+Wed Jun 9, 1999
+
+Thoughts about tuning, when I was asked about NSX bouncing problems
+
+Threads:
+  Tuning Advice
+
+
+Ahem.  I play a lot, but don't have a lot of talent and have little
+theoretical knowledge behind my tuning.  That's why I qualify a lot
+of the following with "I think".  8-)
+
+You should refer to:
+
+http://home.att.net/~chmilnir/gt/
+
+which features a tuning guide.
+
+The only NSX I have bought is the special model.  I hated it[*] and did
+badly with it.  Yes, lowering the damping usually prevents the bouncing
+you describe.  Increasing damping doesn't usually seem to work
+properly; I think the game simulation is not so accurate wrt to
+dampers, especially with excessively light cars.  This "bouncing"
+is not a realistic phenomenon (although it arises because of a need to
+visually exagerrate car responses, in order to provide sufficient
+feedback).  And, strangely, the bounce seems to occur when the dampers
+are *higher*.  And it seems the game does not provide enough resolution
+for damper settings; if they had reduced your available gear settings
+by a factor of 10, they might have freed up a lot of bits for use in
+such things.  8-)
+
+So, in short, I don't know.   8-)
+
+[*]Actually, I sort of like it in the "International" Series; it seemed
+very good at SSR11, with near-stock settings.  Although it would bounce
+horribly if you did hit the kerbs, the steering was so precise you
+could avoid doing so.
+
+I used to use a lot of stabilizer (e.g. 5of5 hard).  The consensus is
+that the numbers in all three stabilizers types are the same; soft is
+just cheaper, while hard gives you the same choice, and more.  Now I
+use less; this generally seems to give cars more grip, making them
+slide less soon and thereby increases cornering speed, even though more
+body roll on the suspension is visible, especially in replays.  (In
+constrast, a car with high stabilizers is like a go-kart, seeming to
+slide early, but when learning I found this gave extra feedback).
+
+From what I read other places, (e.g. above) it seems that stabilizers
+make suspension "less independent".  But on the other hand, I think
+minor problems with the algorithms for depicting the car motion can
+make the motions caused by too much stabilizer look like those for
+too little.  E.g. with too little stabilizer, you might, in real life,
+get an inside wheel lifting without causing roll of the entire car,
+(although the body may roll a lot on the suspension) but with too much
+stabilizer, an inside wheel lifting will want to make the entire car
+roll (I think).  But I think the game's depiction of both situations is
+pretty similar, making diagnosis difficult.
+
+So my main hint (in addition to the above URL) is that you,
+counter-intuitively, might want to try reducing dampers but leaving the
+springs high.  High spring values do not seem to cause as much
+oscillation as you would in real-life expect.
+
+I now have one last race-series prize car to win.  The yellow '91
+Skyline in the Tuned Series (which I like to refer to as the "Abnormal"
+series).
+
+After that I may investigate NSX's more.  Though the first project
+would probably be trying a TypeSZero in the Normal Series.
+(I don't suppose I'll ever seriously pursue all gold license tests;
+that could be very frustrating experience, I think).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

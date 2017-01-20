@@ -1,0 +1,78 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@Thu May 06, 1999
+
+Race-modded Normal Series prize Supra RZ looks promising
+
+Threads:
+  Prize Car Information
+  Race Results
+
+First UKvsJP series swept, 45 to 25, but setting no records, winning a
+green Cerbera.  8-(
+
+Second UKvsJP series swept, 45 to ??, but setting no records (although
+getting close), winning a red del Sol.  8-(
+
+In the third try, I won 45 to 22, winning another green Cerbera.  8-(
+However, I did set a new total time for SSR5, 3:35.969, and came
+very close to the qualifying record there, and close to the fastest
+lap at SSR5, HSR and SSR11.
+
+In the fourth series, which I won 45 to 26, winning another green
+Cerbera  8-(, I did set a couple of records.
+
+     [R]Supra RZ(norm prize) UKvsJP
+  [...]
+  GVEii   q1st 0:59.402not   1st  2:44.476rec   fl 0:52.894close
+  SSR11   q1st 1:51.800not   1st  5:19.564rec   fl 1:44.561close
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 4
+@

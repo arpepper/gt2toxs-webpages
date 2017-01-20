@@ -1,0 +1,95 @@
+Monday October 23, 2000
+
+(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Prize Money
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+So at <html><a href="http://www.cmgsccc.com/">www.cmgsccc.com</a></html> I
+learned how you can change some of the prize money for Gran Turismo 1 Simulation
+Mode Events.
+
+I investigated, and found an entire set of tables describing all the
+prize  money.
+
+See <html><a href="http://www.cmgsccc.com/psx/grant11.shtml">www.cmgsccc.com/psx/grant11.shtml</a></html> for their versions of these codes.  I use the
+<html><b>GameShark Pro</b></html> to do equivalent patches at the first pre-race
+screen.
+
+Each set of prize money information occupies 36 ($24) bytes.
+
+Here follows the starting location for the prize money table for each
+event.  Following the location are 8 4-byte values representing the
+prize money for the event.  The first value is the qualifying prize,
+and then 1st through 6th prizes.  Last is the Championship prize, which
+is zero in the case of single events.
+
+I have indicated the most useful prize values for each event.
+(In fact, it was by decoding the values that I worked out which event
+each table was for).
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   80090E9C -- FF (q1500, 1st5000, champ10000)
+   80090EC0 -- FR (q1500, 1st5000, champ10000)
+   80090EE4 -- 4WD (q1500, 1st5000, champ10000)
+   
+   80090F08 -- Tuned (q10000, 1st50000, 2nd30000, champ100000)
+   80090F2C -- Normal (q10000, 1st50000, 2nd10000, champ100000)
+
+   80090F50 -- LightWeight (q2000, 1st5000, champ10000)
+   
+   80090F74 -- Intl USvsJP? (q3000, 1st10000, champ20000)
+   80090F98 -- Intl UKvsJP? (q3000, 1st10000, champ20000)
+   80090FBC -- Intl UKvsUS? (q3000, 1st10000, champ20000)
+   
+   80090FE0 -- Mega Speed (q5000, 1st15000, champ30000)
+   
+   80091004 -- Sunday Cup (q1500, 1st5000, champ15000)
+   80091028 -- Clubman Cup (q2500, 1st7000, champ20000)
+   8009104C -- GT Cup (q5000, 1st10000, champ25000)
+   80091070 -- GTI (q10000, 1st20000, champ50000)
+   
+   80091094 -- GV300 Enduro (q20000, 1st300000, champ0)
+   800910B8 -- SSR11 I Enduro (q20000, 1st150000, champ0)
+   800910DC -- SSR11 II Enduro (q20000, 1st150000, champ0)
+   
+   80091100 -- High Speed Ring Spot Race (q500, 1st1000, champ0)
+   80091124 -- Grand Valley East Spot Race (q500, 1st1000, champ0)
+   80091148 -- Autumn Ring Mini Spot Race (q500, 1st1000, champ0)
+   8009116C -- Deep Forest Spot Race (q500, 1st1000, champ0)
+   80091190 -- Trial Mountain Spot Race (q500, 1st1000, champ0)
+</pre></font></tt>
+</HTML>
+
+Following doing this work, I discovered another per-event table.
+I will give more information about that when I have mapped it, but
+it appears to be a list of pointers to the other tables, such as
+the track list and prize money.  One of the pointers points to the
+list of prize cars, and I was able to change that so that I won
+different prizes for different events.  In that same table is
+the number of laps for races in the event.  There are two other
+word pointers in each entry.  I suspect one determines the field
+of AI cars for the event, but haven't proven that, and can't figure
+out what the other one might be.
+
+But I was able to set the pointer to the prize-car list for one of the
+Spot Races, and actually win a prize car for winning the Spot Race.
+Working with only what I have discovered so far, I will have to
+restrict the prizes to race prizes, but I might eventually figure out
+how to win any car I want.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

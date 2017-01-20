@@ -1,0 +1,86 @@
+Sunday November 7, 1999
+
+Oh no.  I finally went and bought a GameShark
+
+Threads:
+  Gameplay Hints
+  Hardware Hints
+
+I finally bought a GameShark yesterday.  Even without many explicit
+hints, but given the way I remembered things working, I quickly
+figured out how to patch myself lots of credits.  (Not that I need
+that).   And I found some sites that tell me more useful information,
+most noticeably the location of the garage.
+
+I was moderately pleased with the GameShark as a product.  When
+advertized it never emphasizes some of the monitor aspects it
+actually does have, and a recommendation that an Xplorer was a
+better product had me worried about whether I would be able to
+do the exploration I wanted with a GameShark.  I never managed to
+find a magazine ad for an Xplorer, so I have bought the readily
+available GameShark instead.
+
+The GameShark does have memory search capabilities, although only for
+16 bit quantities or "strings" string is restricted to case-insensitive
+letters and digits.  It cannot search for 32 bit quantities nor arbitrary
+patterns of bytes.   (Actually, I think if you search for a number less
+than 256 it may do a byte search, which may not be what you want).
+
+I did spot the string "Day %4d" in memory which suggests two things.
+   
+   1) Gran Turismo may be written in C/C++.
+   2) If you get to day 10000, the display may get messed up.
+
+Oh well.  I've got to take the web documents I found home so I can
+begin creating nifty cars that I don't deserve to have.  I might
+some day play a game (I now more-or-less define a simulation game
+as obtaining all 17 gold race cups) where the only non-prize car
+I use is the Nismo 400R.  8-)  I don't think I'll ever get too
+deeply into hybrids.
+
+
+A few days ago I realized something else.  You can apply racing
+modification after weight reduction.  I had not realized that.  I had
+always assumed they were mutually exclusive, but, in fact, although in
+some sense it's a "waste of money", you can max-tune a car and add
+racing modification afterwards.
+
+<HTML>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+A new game I've started now is 
+The most recent game I have completed is the <a href="logs/platinum">platinum</a>
+game.  This started from day 39 of the <a href="logs/gold">gold</a>
+game, as I go with prize cars instead of using GTO'95MR.
+
+</p>
+</font></td></tr></table>
+</HTML>
+
+Lucky for me I've won a Skyline in that game, so it can clean up things
+(principally the Mega) that the Impreza cannot.  I might still try the
+Impreza in the All-night ii, however; my backup plan was to win the
+All-night ii with the Impreza and use the Nismo GT-R LM in the Mega.
+Perhaps I will use the Chaser LM in the All-night i.  Ick.  But I
+find it difficult to imagine I can win that with the Impreza, and
+that's what you need to win to get one of the best LM cars in the
+game, and have a comfortable way of winning the Grand Valley 300
+and another good LM prize car.  Too bad Cerbera LMs don't seem to
+show up in these minimal games.  I wonder if that is because I
+do not enter the UKvsJP with a British car, or even buy any British
+car at all?
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+Wednesday November 3, 1999

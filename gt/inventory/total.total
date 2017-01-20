@@ -1,0 +1,1382 @@
+0001:01:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:milano red:8580
+0001:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:milano red:7220
+0001:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:flint black metallic:7850
+0001:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:7250
+0001:05:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8980
+0001:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:sebring silver metallic:10760
+0001:07:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:brittany blue green metallic:10530
+0001:08:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:phantom gray pearl:9840
+0001:09:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:milano red:10270
+0001:10:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11900
+0001:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cobalt blue pearl:11180
+0001:12:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:milano red:10670
+0001:13:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:9230
+0001:14:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:13520
+0001:15:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:frost white:12990
+0001:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:41370
+0001:17:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:formula red:49350
+0001:18:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:sebring silver metallic:52810
+0001:19:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:quasar gray pearl:56970
+0001:20:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:cranberry red pearl:54340
+0001:21:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:sebring silver metallic:62260
+0001:22:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:monte carlo blue pearl:67030
+0001:23:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:grandprix white:73430
+0001:24:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:championship white:74250
+0010:01:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:vogue silver metallic:7820
+0010:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:samba green pearl:8460
+0010:03:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8870
+0010:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:sebring silver metallic:9710
+0010:05:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:phantom gray pearl:9840
+0010:06:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:herbert blue pearl:10400
+0010:07:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:10400
+0010:08:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:10220
+0010:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:10920
+0010:10:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:41610
+0010:11:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:kaiser silver metallic:47440
+0010:12:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:quasar gray pearl:51180
+0010:13:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:56790
+0010:14:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:kaiser silver metallic:67130
+0020:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:torino red pearl:6220
+0020:02:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:8670
+0020:03:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:samba green pearl:7400
+0020:04:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:8450
+0020:05:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:sebring silver metallic:10830
+0020:06:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:phantom gray pearl:10670
+0020:07:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:tahitian green pearl:10160
+0020:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11410
+0020:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:milano red:11020
+0020:10:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:11050
+0020:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:brittany blue green metallic:13460
+0020:12:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:11830
+0020:13:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:cranberry red pearl:53050
+0020:14:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:estoril turquoise pearl:61250
+0020:15:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:formula red:63050
+0020:16:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:shallot green pearl:67900
+0030:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:torino red pearl:6340
+0030:02:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:frost white:6150
+0030:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:milano red:6630
+0030:04:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:milano red:8010
+0030:05:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:7970
+0030:06:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8680
+0030:07:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:phantom gray pearl:9730
+0030:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:tahitian green pearl:9760
+0030:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cobalt blue pearl:10830
+0030:10:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11800
+0030:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:13960
+0030:12:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:48380
+0030:13:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:cranberry red pearl:68640
+0040:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:barcelona green pearl:5740
+0040:02:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:frost white:5680
+0040:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:milano red:6970
+0040:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:8400
+0040:05:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cobalt blue pearl:11310
+0040:06:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:vogue silver metallic:10910
+0040:07:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11820
+0040:08:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:12310
+0040:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:14330
+0040:10:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:cranberry red pearl:52700
+0040:11:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:sebring silver metallic:63390
+0040:12:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:cranberry red pearl:67580
+0050:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:barcelona green pearl:5540
+0050:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:8160
+0050:03:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:phantom gray pearl:8860
+0050:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cassis red pearl:8790
+0050:05:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:milano red:9510
+0050:06:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cobalt blue pearl:11370
+0050:07:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:10160
+0050:08:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:milano red:11180
+0050:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:11630
+0050:10:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:sebring silver metallic:57260
+0050:11:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:50570
+0050:12:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:neutron white pearl:53250
+0050:13:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:kaiser silver metallic:65530
+0050:14:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:berlina black:67550
+0050:15:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:monte carlo blue pearl:66250
+0050:16:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:estoril turquoise pearl:70920
+0050:17:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:grandprix white:73730
+0060:01:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:milano red:7610
+0060:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:samba green pearl:7590
+0060:03:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:7780
+0060:04:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8800
+0060:05:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:sebring silver metallic:8700
+0060:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cassis red pearl:7770
+0060:07:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:brittany blue green metallic:9140
+0060:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:milano red:10230
+0060:09:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:granada black pearl:10370
+0060:10:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:10560
+0060:11:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:vogue silver metallic:10750
+0060:12:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:brittany blue green metallic:12070
+0060:13:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cassis red pearl:10710
+0060:14:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:14270
+0060:15:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:41530
+0060:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:formula red:52330
+0060:17:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:shallot green pearl:69480
+0070:01:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:milano red:8250
+0070:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:captiva blue pearl:7380
+0070:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:vogue silver metallic:7930
+0070:04:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:9060
+0070:05:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:milano red:9790
+0070:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:granada black pearl:11880
+0070:07:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:lausanne green pearl:10210
+0070:08:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:phantom gray pearl:11240
+0070:09:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11370
+0070:10:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cassis red pearl:12690
+0070:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:10810
+0070:12:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:frost white:15160
+0070:13:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:43300
+0070:14:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:kaiser silver metallic:48880
+0070:15:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:56500
+0070:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:estoril turquoise pearl:51860
+0070:17:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:grandprix white:75030
+0070:18:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:championship white:78850
+0080:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:flint black metallic:4760
+0080:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:vogue silver metallic:8440
+0080:03:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:7580
+0080:04:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:8590
+0080:05:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8820
+0080:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:phantom gray pearl:10770
+0080:07:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cassis red pearl:9120
+0080:08:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:phantom gray pearl:10000
+0080:09:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:milano red:9390
+0080:10:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:lausanne green pearl:10200
+0080:11:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:phantom gray pearl:10540
+0080:12:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11340
+0080:13:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:13610
+0080:14:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:frost white:13910
+0080:15:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:44250
+0080:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:sebring silver metallic:46180
+0080:17:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:54840
+0080:18:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:estoril turquoise pearl:51630
+0080:19:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:indy yellow pearl:55310
+0080:20:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:formula red:60080
+0080:21:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:neutron white pearl:66110
+0080:22:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:shallot green pearl:65570
+0080:23:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:grandprix white:78910
+0090:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:flint black metallic:4950
+0090:02:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:torino red pearl:5290
+0090:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:milano red:8160
+0090:04:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:captiva blue pearl:7920
+0090:05:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:flint black metallic:7680
+0090:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:8430
+0090:07:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:7780
+0090:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8710
+0090:09:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:sebring silver metallic:8720
+0090:10:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:milano red:9600
+0090:11:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:brittany blue green metallic:9430
+0090:12:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11520
+0090:13:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:milano red:10330
+0090:14:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:13190
+0090:15:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:12120
+0090:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:monte carlo blue pearl:44790
+0090:17:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:quasar gray pearl:49830
+0090:18:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:56430
+0090:19:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:sebring silver metallic:62830
+0090:20:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:bayleaf green:71030
+0090:21:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:grandprix white:79070
+0100:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:flint black metallic:4880
+0100:02:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:milano red:7470
+0100:03:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:captiva blue pearl:7540
+0100:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:8680
+0100:05:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8500
+0100:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cassis red pearl:10930
+0100:07:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:brittany blue green metallic:9000
+0100:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:9980
+0100:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:milano red:12410
+0100:10:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:13450
+0100:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cassis red pearl:11580
+0100:12:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:11010
+0100:13:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:55990
+0100:14:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:indy yellow pearl:59360
+0100:15:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:quasar gray pearl:65430
+0400:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:flint black metallic:4880
+0400:02:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:torino red pearl:5410
+0400:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:milano red:6140
+0400:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:7430
+0400:05:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:flint black metallic:8100
+0400:06:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8680
+0400:07:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:tahitian green pearl:10020
+0400:08:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cobalt blue pearl:11060
+0400:09:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:9990
+0400:10:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:brittany blue green metallic:12000
+0400:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cassis red pearl:13040
+0400:12:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:11700
+0400:13:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:frost white:12960
+0400:14:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:shallot green pearl:42640
+0400:15:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:bayleaf green:43970
+0400:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:monte carlo blue pearl:47570
+0400:17:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:formula red:50310
+0400:18:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:kaiser silver metallic:49580
+0400:19:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:56650
+0400:20:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:neutron white pearl:50290
+0400:21:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:indy yellow pearl:56530
+0400:22:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:monte carlo blue pearl:68900
+0410:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:flint black metallic:5180
+0410:02:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:8240
+0410:03:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8840
+0410:04:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:tahitian green pearl:9370
+0410:05:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:phantom gray pearl:10310
+0410:06:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:granada black pearl:10020
+0410:07:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:herbert blue pearl:10750
+0410:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:9370
+0410:09:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:milano red:9850
+0410:10:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:brittany blue green metallic:13010
+0410:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:12450
+0410:12:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:frost white:12510
+0410:13:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:formula red:54890
+0410:14:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:kaiser silver metallic:46630
+0410:15:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:51520
+0410:16:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:grandprix white:77720
+0420:01:Honda/Acura:Civic '91 CR-X Si:FF,152bhp,2173lb,.069,259bhp,1455lb,.178:flint black metallic:5650
+0420:02:Honda/Acura:del Sol '93 Si:FF,125bhp,2286lb,.054,262bhp,1529lb,.171:vogue silver metallic:7200
+0420:03:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:flint black metallic:8610
+0420:04:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cobalt blue pearl:7850
+0420:05:Honda/Acura:del Sol '93 S:FF,102bhp,2286lb,.044,204bhp,1529lb,.133:vogue silver metallic:7250
+0420:06:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:captiva blue pearl:8610
+0420:07:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:cassis red pearl:9550
+0420:08:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:tahitian green pearl:9990
+0420:09:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:granada black pearl:9850
+0420:10:Honda/Acura:Civic '93 Sedan:FF,125bhp,2275lb,.054,266bhp,1523lb,.174:phantom gray pearl:10550
+0420:11:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:cobalt blue pearl:10580
+0420:12:Honda/Acura:Civic '93 3Door Si:FF,125bhp,2094lb,.059,286bhp,1402lb,.203:granada black pearl:11770
+0420:13:Honda/Acura:Prelude '93 Si:FF,160bhp,2865lb,.055,323bhp,1920lb,.168:milano red:10880
+0420:14:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:granada black pearl:12060
+0420:15:Honda/Acura:Prelude '94 VTEC:FF,190bhp,2932lb,.064,377bhp,1964lb,.191:sebring silver metallic:13580
+0420:16:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:shallot green pearl:42280
+0420:17:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:formula red:46040
+0420:18:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:sebring silver metallic:48920
+0420:19:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:berlina black:50830
+0420:20:Honda/Acura:NSX '91:MR,270bhp,3009lb,.089,490bhp,2015lb,.243:estoril turquoise pearl:47250
+0420:21:Honda/Acura:NSX '93:MR,270bhp,3020lb,.089,490bhp,2021lb,.242:monte carlo blue pearl:68470
+0001:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brave blue mica:9300
+0001:02:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:8740
+0001:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9650
+0001:04:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:8350
+0001:05:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:brave blue mica:12040
+0001:06:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brilliant black:10950
+0001:07:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:silver stone metallic:15910
+0001:08:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:19000
+0001:09:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:17380
+0001:10:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:black forest mica:20870
+0010:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brave blue mica:8550
+0010:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9310
+0010:03:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:10850
+0010:04:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:passion rose mica:11630
+0010:05:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:11510
+0010:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:silver stone metallic:12930
+0010:07:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:17320
+0010:08:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:17680
+0010:09:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:silver stone metallic:23520
+0020:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:8110
+0020:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:crystal white:9670
+0020:03:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:7970
+0020:04:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:shadow silver mica:9370
+0020:05:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:creek blue mica:9710
+0020:06:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:brave blue mica:11670
+0020:07:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:11880
+0020:08:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brilliant black:11660
+0020:09:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:passion rose mica:11730
+0020:10:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:13970
+0020:11:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:black forest mica:16600
+0020:12:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:16910
+0020:13:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:21820
+0020:14:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:silver stone metallic:22490
+0030:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:8050
+0030:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9230
+0030:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:mariner blue:9660
+0030:04:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:shadow silver mica:9370
+0030:05:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:9680
+0030:06:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:16510
+0030:07:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:19910
+0030:08:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:silver stone metallic:22520
+0030:09:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:chaste white:20890
+0040:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:10680
+0040:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9390
+0040:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9990
+0040:04:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:10690
+0040:05:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:passion rose mica:12670
+0040:06:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:creek blue mica:16490
+0040:07:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:19520
+0040:08:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:21650
+0040:09:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:chaste white:20740
+0050:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brave blue mica:9470
+0050:02:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:10210
+0050:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9770
+0050:04:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:classic red:10780
+0050:05:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9890
+0050:06:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:8460
+0050:07:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brilliant black:12830
+0050:08:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:14130
+0050:09:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:16370
+0050:10:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:19840
+0060:01:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9760
+0060:02:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:9000
+0060:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:crystal white:9720
+0060:04:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:10640
+0060:05:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:brilliant black:13320
+0060:06:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:crystal white:12790
+0060:07:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:19280
+0060:08:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:silver stone metallic:25590
+0060:09:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:chaste white:22840
+0070:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brave blue mica:9000
+0070:02:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:8820
+0070:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9270
+0070:04:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:crystal white:9660
+0070:05:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9560
+0070:06:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:11670
+0070:07:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:creek blue mica:9730
+0070:08:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:passion rose mica:10640
+0070:09:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:10100
+0070:10:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brilliant black:12900
+0070:11:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:11580
+0070:12:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:silver stone metallic:12380
+0070:13:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:17770
+0070:14:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:22230
+0070:15:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:silver stone metallic:21640
+0070:16:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:chaste white:20210
+0080:01:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:classic red:9850
+0080:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9460
+0080:03:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:10690
+0080:04:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9790
+0080:05:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:crystal white:9720
+0080:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:creek blue mica:9790
+0080:07:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:j limited-sunburst yellow:11170
+0080:08:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:passion rose mica:10640
+0080:09:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:12420
+0080:10:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brilliant black:12060
+0080:11:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:13050
+0080:12:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:creek blue mica:16370
+0080:13:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:21210
+0080:14:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:19440
+0090:01:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:classic red:8120
+0090:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9610
+0090:03:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:shadow silver mica:9230
+0090:04:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:8260
+0090:05:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9500
+0090:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:creek blue mica:9830
+0090:07:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:j limited-sunburst yellow:10830
+0090:08:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:10210
+0090:09:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:14670
+0090:10:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:creek blue mica:16960
+0090:11:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:16970
+0090:12:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:silver stone metallic:22890
+0090:13:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:competition yellow mica:20550
+0090:14:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:chaste white:25620
+0100:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:9480
+0100:02:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:shadow silver mica:10670
+0100:03:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:11660
+0100:04:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9830
+0100:05:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:creek blue mica:9970
+0100:06:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:passion rose mica:10530
+0100:07:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:12260
+0100:08:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:silver stone metallic:12670
+0100:09:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:18330
+0100:10:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:silver stone metallic:24560
+0100:11:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:chaste white:24160
+0400:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brave blue mica:8140
+0400:02:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:8800
+0400:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9410
+0400:04:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:classic red:9860
+0400:05:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:8740
+0400:06:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:creek blue mica:9620
+0400:07:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brilliant black:10590
+0400:08:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:passion rose mica:11990
+0400:09:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:crystal white:15690
+0400:10:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:black forest mica:15740
+0400:11:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:creek blue mica:17180
+0400:12:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:20440
+0400:13:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:21130
+0400:14:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:silver stone metallic:19180
+0400:15:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:black forest mica:20670
+0410:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:10030
+0410:02:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:mariner blue:9940
+0410:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:crystal white:9960
+0410:04:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:7910
+0410:05:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:11160
+0410:06:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:crystal white:11070
+0410:07:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:16710
+0410:08:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:21010
+0410:09:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:silver stone metallic:18420
+0410:10:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:competition yellow mica:20930
+0420:01:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:brave blue mica:8350
+0420:02:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:blaze red:10300
+0420:03:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:silver stone metallic:9740
+0420:04:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:classic red:8790
+0420:05:Mazda:FC Savanna RX-7 GT-X:FR,202bhp,2755lb,.073,429bhp,1964lb,.218:shadow silver mica:10350
+0420:06:Mazda:Eunos Roadster '89 Normal:FR,118bhp,2160lb,.054,194bhp,1446lb,.134:mariner blue:9640
+0420:07:Mazda:Eunos Roadster '90 V-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:british racing green:7990
+0420:08:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:brilliant black:9180
+0420:09:Mazda:Eunos Cosmo 20B Type E CCS:FR,276bhp,3615lb,.076,673bhp,2601lb,.258:passion rose mica:11790
+0420:10:Mazda:Eunos Roadster '92 S-Special:FR,118bhp,2182lb,.054,194bhp,1461lb,.132:brilliant black:9580
+0420:11:Mazda:FC Savanna RX-7 Efini III:FR,212bhp,2645lb,.080,432bhp,1904lb,.226:shadow silver mica:12100
+0420:12:Mazda:Eunos Cosmo 13B Type S CCS:FR,276bhp,3360lb,.082,506bhp,2411lb,.209:silver stone metallic:12780
+0420:13:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:vintage red:17590
+0420:14:Mazda:FD Efini RX-7 '91 Type R:FR,261bhp,2777lb,.093,527bhp,1999lb,.263:brilliant black:21070
+0001:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:8750
+0001:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:colton red:8850
+0001:03:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:corse gray:10140
+0001:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:11010
+0001:05:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:12650
+0001:06:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:15420
+0001:07:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:moon light blue:13710
+0001:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:fiji blue:8860
+0001:09:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:scotia white:12650
+0001:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:kutani red:16530
+0001:11:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:16270
+0001:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:17540
+0001:13:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:19250
+0001:14:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:galaxy white:16520
+0001:15:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:mariana blue:20070
+0001:16:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:20730
+0001:17:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:22320
+0001:18:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:mariana blue:26760
+0010:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:loire green:8500
+0010:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:8830
+0010:03:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:steel silver:12210
+0010:04:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:imperial red:12580
+0010:05:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:11830
+0010:06:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:dandelion yellow:13670
+0010:07:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:12790
+0010:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:12010
+0010:09:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:pyrenees black:14650
+0010:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:kutani red:16500
+0010:11:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:18180
+0010:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:15470
+0010:13:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:15070
+0010:14:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:galaxy white:18540
+0010:15:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:pyrenees black:17890
+0010:16:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:mariana blue:19300
+0010:17:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:18930
+0010:18:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:20550
+0010:19:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:22670
+0010:20:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:pyrenees black:23970
+0010:21:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:mariana blue:26270
+0010:22:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:galaxy white:28190
+0010:23:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:passion red:29850
+0020:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:8570
+0020:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:colton red:10110
+0020:03:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:passion red:11150
+0020:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:11470
+0020:05:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:moon light blue:13250
+0020:06:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:12940
+0020:07:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:13860
+0020:08:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:pyrenees black:15080
+0020:09:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:18290
+0020:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:15900
+0020:11:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:pyrenees black:19420
+0020:12:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:mariana blue:18710
+0020:13:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:22210
+0020:14:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:23570
+0020:15:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:pyrenees black:23200
+0020:16:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:mariana blue:25130
+0020:17:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:galaxy white:27260
+0020:18:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:passion red:29280
+0030:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:twilight blue:8440
+0030:02:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:steel silver:11920
+0030:03:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:10900
+0030:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:scotia white:12310
+0030:05:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:13210
+0030:06:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:12730
+0030:07:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:moon light blue:14100
+0030:08:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:pyrenees black:15270
+0030:09:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:toscana black:16520
+0030:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:17470
+0030:11:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:mariana blue:21000
+0030:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:20800
+0030:13:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:21100
+0030:14:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:mariana blue:24800
+0030:15:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:symphonic silver:27360
+0030:16:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:passion red:29080
+0030:17:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:symphonic silver:29980
+0040:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:loire green:8390
+0040:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:8650
+0040:03:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:imperial red:11020
+0040:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:passion red:11960
+0040:05:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:15590
+0040:06:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:12570
+0040:07:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:moon light blue:14220
+0040:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:fiji blue:20420
+0040:09:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:toscana black:12770
+0040:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:kutani red:17590
+0040:11:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:15160
+0040:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:18580
+0040:13:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:mariana blue:20470
+0040:14:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:galaxy white:21230
+0040:15:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:20350
+0040:16:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:dandelion yellow:24530
+0040:17:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:mariana blue:27000
+0040:18:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:symphonic silver:27740
+0050:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:grace silver:7240
+0050:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:twilight blue:8800
+0050:03:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:9050
+0050:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:scotia white:13620
+0050:05:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:passion red:13860
+0050:06:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:13410
+0050:07:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:13890
+0050:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:fiji blue:8790
+0050:09:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:kutani red:14610
+0050:10:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:scotia white:14310
+0050:11:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:grace silver:13810
+0050:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:14840
+0050:13:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:galaxy white:21120
+0050:14:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:21140
+0050:15:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:dandelion yellow:23760
+0060:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:grace silver:7210
+0060:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:loire green:9090
+0060:03:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:pyrenees black:10290
+0060:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:steel silver:12590
+0060:05:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:11540
+0060:06:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:scotia white:13240
+0060:07:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:11920
+0060:08:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:12810
+0060:09:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:kutani red:14760
+0060:10:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:toscana black:16650
+0060:11:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:grace silver:16050
+0060:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:kutani red:16050
+0060:13:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:17750
+0060:14:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:15460
+0060:15:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:16370
+0060:16:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:19310
+0060:17:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:21160
+0060:18:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:galaxy white:25690
+0060:19:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:symphonic silver:26820
+0060:20:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:passion red:28060
+0060:21:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:symphonic silver:30210
+0070:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:9480
+0070:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:pyrenees black:9430
+0070:03:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:corse gray:9800
+0070:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:12480
+0070:05:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:13260
+0070:06:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:grace silver:14280
+0070:07:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:14760
+0070:08:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:18710
+0070:09:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:19140
+0070:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:galaxy white:20400
+0070:11:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:mariana blue:19170
+0070:12:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:21900
+0070:13:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:22270
+0070:14:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:queens silver:24980
+0070:15:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:symphonic silver:29470
+0080:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:twilight blue:8750
+0080:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:pyrenees black:10060
+0080:03:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:imperial red:13040
+0080:04:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:moon light blue:13500
+0080:05:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:moon light blue:14820
+0080:06:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:kutani red:13850
+0080:07:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:15620
+0080:08:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:15500
+0080:09:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:symphonic silver:20440
+0080:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:21800
+0080:11:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:monaco silver:23880
+0080:12:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:27900
+0090:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:9490
+0090:02:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:imperial red:10990
+0090:03:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:steel silver:11820
+0090:04:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:passion red:11530
+0090:05:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:imperial red:12250
+0090:06:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:scotia white:12330
+0090:07:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:13510
+0090:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:fiji blue:15370
+0090:09:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:scotia white:14100
+0090:10:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:toscana black:15530
+0090:11:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:17590
+0090:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:grace silver:17700
+0090:13:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:17960
+0090:14:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:dandelion yellow:23830
+0090:15:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:mariana blue:29320
+0090:16:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:symphonic silver:28960
+0100:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:grace silver:8590
+0100:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:scotia white:9180
+0100:03:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:kutani red:14000
+0100:04:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:kutani red:14040
+0100:05:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:19970
+0100:06:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:20330
+0100:07:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:queens silver:21280
+0100:08:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:pyrenees black:23210
+0100:09:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:27610
+0100:10:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:symphonic silver:27910
+0400:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:sainte amour green:8830
+0400:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:colton red:9000
+0400:03:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:corse gray:9160
+0400:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:steel silver:12600
+0400:05:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:pyrenees black:13990
+0400:06:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:scotia white:12440
+0400:07:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:dandelion yellow:12920
+0400:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:12940
+0400:09:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:17610
+0400:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:17080
+0400:11:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:20880
+0400:12:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:22340
+0400:13:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:23270
+0400:14:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:symphonic silver:27220
+0400:15:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:passion red:27430
+0410:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:twilight blue:8080
+0410:02:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:colton red:8830
+0410:03:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:steel silver:11480
+0410:04:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:passion red:12570
+0410:05:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:14310
+0410:06:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:moon light blue:13700
+0410:07:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:toscana black:13800
+0410:08:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:grace silver:15920
+0410:09:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:15700
+0410:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:17280
+0410:11:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:pyrenees black:19550
+0410:12:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:19280
+0410:13:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:20470
+0410:14:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:22250
+0410:15:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:pyrenees black:24610
+0410:16:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:mariana blue:24830
+0410:17:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:mariana blue:27420
+0420:01:Mitsubishi:Mirage '92 Cyborg R:FF,172bhp,2292lb,.075,265bhp,1534lb,.172:colton red:9360
+0420:02:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:imperial red:12410
+0420:03:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:imperial red:12200
+0420:04:Mitsubishi:GTO '92:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:passion red:14310
+0420:05:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:steel silver:13060
+0420:06:Mitsubishi:FTO '94 GR:FF,167bhp,2535lb,.065,328bhp,1697lb,.193:moon light blue:12850
+0420:07:Mitsubishi:FTO '94 GPX:FF,197bhp,2579lb,.076,364bhp,1726lb,.210:scotia white:13460
+0420:08:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:passion red:15420
+0420:09:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:toscana black:19570
+0420:10:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:galaxy white:18460
+0420:11:Mitsubishi:GTO '95 SR:4WD,221bhp,3637lb,.060,381bhp,2436lb,.156:pyrenees black:19590
+0420:12:Mitsubishi:GTO '92 Twin Turbo:4WD,276bhp,3769lb,.073,928bhp,2713lb,.342:fiji blue:19030
+0420:13:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:scotia white:23600
+0420:14:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:passion red:22650
+0420:15:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:pyrenees black:23130
+0420:16:Mitsubishi:Lancer EvolutionIII GSR:4WD,266bhp,2777lb,.095,477bhp,1999lb,.238:dandelion yellow:25000
+0420:17:Mitsubishi:GTO '95 Twin Turbo:4WD,276bhp,3769lb,.073,930bhp,2713lb,.342:galaxy white:26070
+0420:18:Mitsubishi:GTO '95 MR:4WD,276bhp,3703lb,.074,930bhp,2665lb,.348:galaxy white:30190
+0001:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:bluish silver 2tone:4260
+0001:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:5050
+0001:03:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:5500
+0001:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:velvet blue:6760
+0001:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:lime green 2tone:7160
+0001:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:lime green 2tone:7360
+0001:07:Nissan:Primera '95 2.0Te:FF,147bhp,2601lb,.056,321bhp,1741lb,.184:dark gray pearl metallic:6620
+0001:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark gray:7820
+0001:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:7170
+0001:10:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:citrus yellow 2tone:8970
+0001:11:Nissan:Primera '95 2.0Te:FF,147bhp,2601lb,.056,321bhp,1741lb,.184:silver metallic:7620
+0001:12:Nissan:Primera '95 2.0Te:FF,147bhp,2601lb,.056,321bhp,1741lb,.184:dark green pearl:8670
+0001:13:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:gun gray metallic:9840
+0001:14:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:citrus yellow 2tone:11610
+0001:15:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:purplish silver 2tone:10830
+0001:16:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:dark blue pearl:11650
+0001:17:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:10990
+0001:18:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:grayish blue pearl:13670
+0001:19:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:11720
+0001:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:13910
+0001:21:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:12660
+0001:22:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super clear red:16730
+0001:23:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:pearl white:17660
+0001:24:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:24310
+0001:25:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:black pearl metallic:24590
+0001:26:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:dark blue pearl:26590
+0001:27:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:black:34530
+0001:28:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:dark gray pearl:34250
+0001:29:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:sonic silver metallic:38640
+0001:30:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:white:39050
+0001:31:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:crystal white:47540
+0010:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:3450
+0010:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:bluish silver 2tone:4670
+0010:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:4680
+0010:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:5010
+0010:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:lime green 2tone:6500
+0010:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:7850
+0010:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super black:7130
+0010:08:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:dark blue pearl:11460
+0010:09:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:active red:10500
+0010:10:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:blue gray graphite pearl:10100
+0010:11:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:greenish blue:12370
+0010:12:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:12870
+0010:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:pearl white:11640
+0010:14:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:grayish blue pearl:11430
+0010:15:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:10500
+0010:16:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:14380
+0010:17:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:16390
+0010:18:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:red pearl metallic:23470
+0010:19:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:29920
+0010:20:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:grayish blue pearl:27390
+0010:21:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:super clear red:34210
+0010:22:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:crystal white:39590
+0010:23:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:red pearl:40330
+0010:24:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:dark blue pearl:39680
+0020:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:dark green:4520
+0020:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:4580
+0020:03:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:lime green 2tone:6080
+0020:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super red:6910
+0020:05:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:raspberry red pearl:6630
+0020:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:lime green 2tone:6780
+0020:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:7250
+0020:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:8460
+0020:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super black:8580
+0020:10:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:super black:7870
+0020:11:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:grayish blue pearl:8160
+0020:12:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:red pearl:8080
+0020:13:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:active red:10060
+0020:14:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:11840
+0020:15:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:grayish blue pearl:14180
+0020:16:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:gun gray metallic:14530
+0020:17:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:13730
+0020:18:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:grayish blue pearl:15920
+0020:19:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:purplish gray:14040
+0020:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:11590
+0020:21:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:white:13470
+0020:22:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super clear red:17860
+0020:23:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:red pearl metallic:23590
+0020:24:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:red pearl:32460
+0020:25:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:32320
+0020:26:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:white:33930
+0020:27:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:crystal white:38090
+0030:01:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super red:6040
+0030:02:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark blue:6530
+0030:03:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:purplish silver 2tone:6890
+0030:04:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark gray pearl metallic:8020
+0030:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:7540
+0030:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:7380
+0030:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:7320
+0030:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super red:7600
+0030:09:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:super clear red:9150
+0030:10:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:spark silver metallic:10770
+0030:11:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:black pearl metallic:10840
+0030:12:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:dark blue pearl:9310
+0030:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:citrus yellow 2tone:10890
+0030:14:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:super black:9560
+0030:15:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:marble white:10020
+0030:16:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:warm white 2tone:9730
+0030:17:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:dark blue pearl:12060
+0030:18:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super black:13670
+0030:19:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:13180
+0030:20:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:gun gray metallic:12790
+0030:21:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:red pearl:14240
+0030:22:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:deep marine blue:14620
+0030:23:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:15160
+0030:24:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:dark blue pearl:30670
+0030:25:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:red pearl:35270
+0030:26:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:dark gray pearl:35260
+0030:27:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:sonic silver metallic:38870
+0030:28:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:crystal white:42740
+0040:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:4460
+0040:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:velvet blue:3780
+0040:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:bluish silver 2tone:4890
+0040:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:4570
+0040:05:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:4930
+0040:06:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:6100
+0040:07:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:raspberry red pearl:6330
+0040:08:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark gray pearl metallic:6350
+0040:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:8140
+0040:10:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super black:7710
+0040:11:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:silver metallic:8520
+0040:12:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark green pearl:8760
+0040:13:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:dark blue pearl:9320
+0040:14:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:black pearl metallic:9660
+0040:15:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:dark blue pearl:9810
+0040:16:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:active red:10560
+0040:17:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:velvet blue:10260
+0040:18:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:marble white:13500
+0040:19:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:super black:10820
+0040:20:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super black:11440
+0040:21:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:red pearl:15110
+0040:22:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:13860
+0040:23:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:pearl white:13400
+0040:24:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:13830
+0040:25:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:purplish blue:13290
+0040:26:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:black pearl metallic:11510
+0040:27:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:13510
+0040:28:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super red:14130
+0040:29:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:greenish blue:17020
+0040:30:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:black pearl metallic:21680
+0040:31:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:red pearl metallic:20800
+0040:32:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:26260
+0040:33:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:32870
+0040:34:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:super clear red:34120
+0040:35:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:red pearl:35610
+0040:36:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:deep marine blue pearl:36890
+0040:37:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:black pearl metallic:40310
+0050:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:velvet blue:4770
+0050:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:bluish silver 2tone:3790
+0050:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:5150
+0050:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:5540
+0050:05:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:lime green 2tone:6790
+0050:06:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark gray pearl metallic:7090
+0050:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:velvet blue:7040
+0050:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:warm white 2tone:7660
+0050:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:yellowish silver 2tone:7500
+0050:10:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:7990
+0050:11:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:6870
+0050:12:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super red:8580
+0050:13:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:8820
+0050:14:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super black:6900
+0050:15:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:grayish blue pearl:9250
+0050:16:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:super clear red:9800
+0050:17:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:active red:11660
+0050:18:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:warm white 2tone:12740
+0050:19:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:pearl white:10570
+0050:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:13510
+0050:21:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:crystal white:12130
+0050:22:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:black pearl metallic:15300
+0050:23:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:deep marine blue:11990
+0050:24:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:purplish gray:11920
+0050:25:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:white:16920
+0050:26:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super black:13860
+0050:27:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:23460
+0050:28:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:grayish blue pearl:27970
+0050:29:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:32450
+0050:30:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:crystal white:33200
+0050:31:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:midnight purple pearl:35700
+0050:32:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:deep marine blue pearl:38690
+0050:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:white:39610
+0060:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:3450
+0060:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:cranberry red:4630
+0060:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:4830
+0060:04:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:velvet blue:7620
+0060:05:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:yellowish green 2tone:8140
+0060:06:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:8800
+0060:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:7870
+0060:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super black:7510
+0060:09:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:grayish blue pearl:9910
+0060:10:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:red pearl:7860
+0060:11:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:spark silver metallic:10730
+0060:12:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:purplish silver 2tone:11500
+0060:13:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:dark blue pearl:9670
+0060:14:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:15250
+0060:15:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:crystal white:14260
+0060:16:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:purplish blue:13830
+0060:17:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:black pearl metallic:15650
+0060:18:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:12570
+0060:19:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:white pearl:14430
+0060:20:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super black:18410
+0060:21:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:black pearl metallic:25730
+0060:22:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:27530
+0060:23:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:31460
+0060:24:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:crystal white:28540
+0060:25:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:gun gray metallic:35770
+0060:26:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:dark gray pearl:34770
+0060:27:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:dark blue pearl:37960
+0060:28:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:midnight purple pearl:35790
+0060:29:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:dark gray pearl:38380
+0060:30:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:white:39700
+0070:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super red:4990
+0070:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:4830
+0070:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:dark green:5220
+0070:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:4530
+0070:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:velvet blue:6830
+0070:06:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:cranberry red:7260
+0070:07:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super red:7790
+0070:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:yellowish silver 2tone:7600
+0070:09:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:8480
+0070:10:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:silver metallic:7270
+0070:11:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark green pearl:8810
+0070:12:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:greenish blue:12210
+0070:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:dark gray:10940
+0070:14:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super black:13870
+0070:15:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:pearl white:11590
+0070:16:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:red pearl:11620
+0070:17:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:12980
+0070:18:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:grayish blue pearl:10810
+0070:19:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:15050
+0070:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:10740
+0070:21:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:black pearl metallic:11630
+0070:22:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:white:15010
+0070:23:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:white pearl:12940
+0070:24:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super black:14370
+0070:25:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:pearl white:19750
+0070:26:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:26080
+0070:27:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:25670
+0070:28:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:30690
+0070:29:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:crystal white:29200
+0070:30:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:dark gray pearl:34600
+0070:31:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:deep marine blue pearl:40060
+0070:32:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:red pearl:42660
+0080:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:3720
+0080:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:velvet blue:4400
+0080:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:dark green:5040
+0080:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:6180
+0080:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:velvet blue:5420
+0080:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:lime green 2tone:7300
+0080:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:warm white 2tone:7200
+0080:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:8260
+0080:09:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:super black:8570
+0080:10:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:silver metallic:7610
+0080:11:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:crystal white:10700
+0080:12:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:black pearl metallic:11290
+0080:13:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:dark blue pearl:10480
+0080:14:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:bluish sliver:11650
+0080:15:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:14400
+0080:16:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:gun gray metallic:14590
+0080:17:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:pearl white:11210
+0080:18:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:14460
+0080:19:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:crystal white:13300
+0080:20:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:black pearl metallic:11820
+0080:21:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:11960
+0080:22:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:white:12750
+0080:23:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super red:14810
+0080:24:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super black:17810
+0080:25:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:jet silver metallic:20960
+0080:26:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:27310
+0080:27:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:25640
+0080:28:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:grayish blue pearl:27410
+0080:29:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:28360
+0080:30:Nissan:R32 Skyline GT-R Nismo:4WD,276bhp,3306lb,.083,854bhp,2380lb,.358:gun gray metallic:34830
+0080:31:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:deep marine blue pearl:39130
+0080:32:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:sonic silver metallic:36660
+0080:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:white:40240
+0090:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:4060
+0090:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:velvet blue:4260
+0090:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:dark green:4700
+0090:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:5320
+0090:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super red:6520
+0090:06:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark blue:8010
+0090:07:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:bluish silver 2tone:6780
+0090:08:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:7450
+0090:09:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:silver metallic:9520
+0090:10:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:spark silver metallic:11860
+0090:11:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:gun gray metallic:10600
+0090:12:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:black pearl metallic:9960
+0090:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:velvet blue:10390
+0090:14:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:yellowish silver 2tone:10170
+0090:15:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:dark blue pearl:12640
+0090:16:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:bluish sliver:13080
+0090:17:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:pearl white:14020
+0090:18:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:red pearl:12440
+0090:19:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:super black:12360
+0090:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:gun gray metallic:14290
+0090:21:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:11010
+0090:22:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:12750
+0090:23:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:purplish blue:12600
+0090:24:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:black pearl metallic:13440
+0090:25:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:white pearl:13750
+0090:26:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:22590
+0090:27:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:red pearl:31990
+0090:28:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:spark silver metallic:29840
+0090:29:Nissan:R32 Skyline GT-R Nismo:4WD,276bhp,3306lb,.083,854bhp,2380lb,.358:gun gray metallic:35390
+0090:30:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:dark gray pearl:34420
+0090:31:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:gun gray metallic:39650
+0090:32:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:black pearl metallic:43030
+0090:33:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:white:39310
+0100:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:4260
+0100:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:velvet blue:3730
+0100:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:bluish silver 2tone:4660
+0100:04:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:5160
+0100:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super red:7070
+0100:06:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:raspberry red pearl:7380
+0100:07:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:dark green:7890
+0100:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:8700
+0100:09:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:super black:7100
+0100:10:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:crystal white:10740
+0100:11:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:super red:10780
+0100:12:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:dark blue pearl:9660
+0100:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:super black:11750
+0100:14:Nissan:Pulsar '91 GTi-R:4WD,226bhp,2689lb,.084,381bhp,1935lb,.196:marble white:12650
+0100:15:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:dark gray:12860
+0100:16:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super black:11770
+0100:17:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:red pearl:10190
+0100:18:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:grayish blue pearl:12710
+0100:19:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:gun gray metallic:12640
+0100:20:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:pearl white:11320
+0100:21:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:11760
+0100:22:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:red pearl:12280
+0100:23:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:white:14220
+0100:24:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:super black:14610
+0100:25:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:red pearl metallic:23070
+0100:26:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:28310
+0100:27:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:dark blue pearl:25380
+0100:28:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:grayish blue pearl:28260
+0100:29:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:crystal white:35910
+0100:30:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:black:33970
+0100:31:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:midnight purple pearl:38000
+0100:32:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:super clear red:40850
+0400:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:4750
+0400:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:4790
+0400:03:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:6550
+0400:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:cranberry red:6310
+0400:05:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:velvet blue:6490
+0400:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:7240
+0400:07:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:7250
+0400:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:8370
+0400:09:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:super black:7610
+0400:10:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:red pearl:9410
+0400:11:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:super clear red:9560
+0400:12:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:crystal white:10250
+0400:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:super red:10870
+0400:14:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:citrus yellow 2tone:10870
+0400:15:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:dark gray:12570
+0400:16:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:super black:13210
+0400:17:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:dark green:12220
+0400:18:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:pearl white:13300
+0400:19:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:10940
+0400:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:15130
+0400:21:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:purplish gray:14280
+0400:22:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:14380
+0400:23:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:white pearl:13000
+0400:24:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:red pearl metallic:21850
+0400:25:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:24710
+0400:26:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:black pearl metallic:25730
+0400:27:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:dark blue pearl:26970
+0400:28:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:27890
+0400:29:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:white:32970
+0400:30:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:crystal white:39400
+0400:31:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:black:37280
+0400:32:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:dark gray pearl:41990
+0400:33:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:crystal white:49310
+0410:01:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:lime green 2tone:4160
+0410:02:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:super black:4530
+0410:03:Nissan:S13 Silvia '88 Q's 1800cc:FR,133bhp,2403lb,.055,237bhp,1609lb,.147:warm white 2tone:5460
+0410:04:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:5050
+0410:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:lime green 2tone:5600
+0410:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:purplish silver 2tone:6320
+0410:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:velvet blue:7130
+0410:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:6770
+0410:09:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:super black:8610
+0410:10:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:dark blue pearl:10310
+0410:11:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:purplish silver 2tone:11060
+0410:12:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:dark gray:11140
+0410:13:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:gun gray metallic:14880
+0410:14:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:10400
+0410:15:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:10900
+0410:16:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:crystal white:13470
+0410:17:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:gun gray metallic:13490
+0410:18:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:deep marine blue:15380
+0410:19:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:purplish gray:14300
+0410:20:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:crystal white:16430
+0410:21:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super red:15980
+0410:22:Nissan:S14 Silvia '95 K's:FR,216bhp,2733lb,.079,480bhp,1966lb,.244:pearl white:18230
+0410:23:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:black pearl metallic:21460
+0410:24:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:21380
+0410:25:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:25620
+0410:26:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:red pearl:29720
+0410:27:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:black:35000
+0410:28:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:white:35970
+0410:29:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:midnight purple pearl:37850
+0410:30:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:deep marine blue pearl:40300
+0410:31:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:spark silver metallic:40900
+0410:32:Nissan:R32 Skyline GT-R Vspec II:4WD,276bhp,3306lb,.083,854bhp,2388lb,.357:crystal white:44640
+0420:01:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super black:5560
+0420:02:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:lime green 2tone:5460
+0420:03:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:super red:7060
+0420:04:Nissan:Primera '90 2.0Te:FF,147bhp,2667lb,.055,324bhp,1785lb,.181:dark blue:6710
+0420:05:Nissan:S13 Silvia '88 K's 1800cc:FR,172bhp,2469lb,.069,492bhp,1776lb,.277:warm white 2tone:8450
+0420:06:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:dark green:8660
+0420:07:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:yellowish green 2tone:7880
+0420:08:Nissan:S13 Silvia '91 Q's 2000cc:FR,138bhp,2447lb,.056,318bhp,1638lb,.194:pearl white:8920
+0420:09:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:dark blue pearl:9060
+0420:10:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:yellowish silver 2tone:9890
+0420:11:Nissan:S14 Silvia '95 Q's:FR,157bhp,2601lb,.060,321bhp,1741lb,.184:super black:10390
+0420:12:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:super black:12040
+0420:13:Nissan:S13 Silvia '91 K's 2000cc:FR,202bhp,2579lb,.078,474bhp,1856lb,.255:pearl white:13350
+0420:14:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:grayish blue pearl:13260
+0420:15:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:black pearl metallic:10610
+0420:16:Nissan:R32 Skyline GTS-t Type M:FR,212bhp,2777lb,.076,325bhp,1999lb,.162:spark silver metallic:13770
+0420:17:Nissan:R32 Skyline GTS25 Type S:FR,187bhp,2777lb,.067,336bhp,1860lb,.180:crystal white:11950
+0420:18:Nissan:R32 Skyline GTS-4:4WD,212bhp,3130lb,.067,333bhp,2253lb,.147:red pearl:11180
+0420:19:Nissan:180SX '94 Type X:FR,202bhp,2667lb,.075,479bhp,1920lb,.249:white:16310
+0420:20:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:jet silver metallic:21610
+0420:21:Nissan:R32 Skyline '89 GT-R:4WD,276bhp,3152lb,.087,913bhp,2268lb,.402:gun gray metallic:21440
+0420:22:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:dark blue pearl:27480
+0420:23:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:gun gray metallic:29070
+0420:24:Nissan:R32 Skyline '91 GT-R:4WD,276bhp,3262lb,.084,913bhp,2347lb,.389:red pearl:29650
+0420:25:Nissan:R32 Skyline GT-R Vspec:4WD,276bhp,3306lb,.083,913bhp,2380lb,.383:red pearl:34210
+0420:26:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:white:27350
+0420:27:Nissan:R33 Skyline '95 GT-R:4WD,276bhp,3373lb,.081,937bhp,2427lb,.386:deep marine blue pearl:37670
+0420:28:Nissan:R33 Skyline '95 GT-R Vspec:4WD,276bhp,3395lb,.081,937bhp,2442lb,.383:sonic silver metallic:39150
+0001:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:feather white:13940
+0001:02:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:13280
+0001:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:14440
+0001:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:15490
+0001:05:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:light silver metallic:14630
+0001:06:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:black mica:15190
+0001:07:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:14640
+0001:08:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:cosmic blue mica:14320
+0001:09:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:18580
+0001:10:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:white mica:17550
+0001:11:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:red mica:22460
+0010:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:light silver metallic:17230
+0010:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:13760
+0010:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:16460
+0010:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:18780
+0010:05:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:15600
+0010:06:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:light silver metallic:22590
+0020:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:cosmic blue mica:13290
+0020:02:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:feather white:14460
+0020:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:13710
+0020:04:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:14980
+0020:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:14290
+0020:06:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:14360
+0020:07:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:18570
+0020:08:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:15310
+0020:09:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:17930
+0020:10:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,271bhp,2733lb,.099,506bhp,1966lb,.257:light silver metallic:18390
+0030:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:light silver metallic:13250
+0030:02:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:active red:14920
+0030:03:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:13860
+0030:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:16600
+0030:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:15130
+0030:06:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:15550
+0030:07:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:15790
+0030:08:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:15520
+0030:09:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:feather white:22220
+0030:10:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:light silver metallic:21710
+0030:11:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:red mica:22470
+0040:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:black mica:13030
+0040:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:14540
+0040:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:17640
+0040:04:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:black mica:17600
+0040:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:15960
+0040:06:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:17850
+0040:07:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,271bhp,2733lb,.099,506bhp,1966lb,.257:feather white:19150
+0040:08:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:feather white:21840
+0040:09:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:light silver metallic:21860
+0040:10:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:red mica:21600
+0040:11:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:crimson mica:22410
+0050:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:matador red:13440
+0050:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:17560
+0050:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:16170
+0050:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:16780
+0050:05:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:red mica:21530
+0060:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:matador red:13530
+0060:02:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:crimson mica:13340
+0060:03:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:feather white:13980
+0060:04:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:feather white:16240
+0060:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:16710
+0060:06:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:13710
+0060:07:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:15630
+0060:08:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:light silver metallic:15840
+0060:09:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:18600
+0060:10:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:black mica:18490
+0060:11:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:red mica:21820
+0060:12:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:active red:21980
+0070:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:crimson mica:13140
+0070:02:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:16070
+0070:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:15460
+0070:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:17520
+0070:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:18090
+0070:06:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:black mica:15280
+0070:07:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:15880
+0070:08:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:white mica:17920
+0070:09:Subaru:Alcyone SVX S4:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:22250
+0080:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:active red:13290
+0080:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:15450
+0080:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:14190
+0080:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:14370
+0080:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:17430
+0080:06:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:16390
+0080:07:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:17410
+0080:08:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:crimson mica:25650
+0090:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:active red:14020
+0090:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:16290
+0090:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:16760
+0090:04:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:active red:14470
+0090:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:17170
+0090:06:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:cosmic blue mica:17140
+0090:07:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:light silver metallic:21370
+0100:01:Subaru:Legacy '93 Touring Sport RS:4WD,246bhp,3020lb,.081,494bhp,2173lb,.227:cosmic blue mica:13210
+0100:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:14290
+0100:03:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:active red:17500
+0100:04:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:black mica:15810
+0100:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:15250
+0100:06:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:15950
+0100:07:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:cosmic blue mica:15830
+0100:08:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:17250
+0100:09:Subaru:Impreza '95 Sedan WRX-STi ver.II:4WD,271bhp,2733lb,.099,506bhp,1966lb,.257:feather white:18530
+0100:10:Subaru:Alcyone SVX S4:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:22940
+0400:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:feather white:15830
+0400:02:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:active red:15810
+0400:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:15320
+0400:04:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:light silver metallic:15330
+0400:05:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:cosmic blue mica:17280
+0400:06:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:16040
+0400:07:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:17270
+0400:08:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:dark gray metallic:20510
+0400:09:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:red mica:21840
+0410:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:light silver metallic:18520
+0410:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:black mica:17290
+0410:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:17160
+0410:04:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:active red:22280
+0410:05:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:crimson mica:24140
+0420:01:Subaru:Impreza '95 Wagon WRX-STi ver.II:4WD,250bhp,2821lb,.088,477bhp,2030lb,.234:active red:14890
+0420:02:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:crimson mica:14430
+0420:03:Subaru:Legacy '93 Touring Wagon GT:4WD,236bhp,3505lb,.075,452bhp,2347lb,.192:forest green mica:15020
+0420:04:Subaru:Impreza '94 Wagon WRX:4WD,256bhp,2821lb,.090,567bhp,2030lb,.279:light silver metallic:16840
+0420:05:Subaru:Alcyone SVX Version L:4WD,236bhp,2571lb,.066,452bhp,2391lb,.189:dark gray metallic:21520
+0420:06:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:feather white:21540
+0420:07:Subaru:Impreza '94 Sedan WRX:4WD,216bhp,2799lb,.077,404bhp,2015lb,.200:light silver metallic:22270
+0001:01:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:white pearl mica:7250
+0001:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7800
+0001:03:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):7900
+0001:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:6740
+0001:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:red mica:8000
+0001:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:14030
+0001:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:13900
+0001:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:red mica:13020
+0001:09:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:silver metallic:15270
+0001:10:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white iv:15870
+0001:11:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:wine red mica:16250
+0001:12:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:black:29330
+0001:13:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:super red iv:28810
+0010:01:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-flash two-tone(red):5940
+0010:02:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:white pearl mica:6370
+0010:03:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):8220
+0010:04:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):7020
+0010:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:8840
+0010:06:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:blue mica:8270
+0010:07:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:gray metallic:9020
+0010:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:blue metallic:13120
+0010:09:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:15870
+0010:10:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:13270
+0010:11:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white pearl mica:16930
+0010:12:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:wine red mica:19610
+0010:13:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish green m.i.o:17470
+0010:14:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:black:21430
+0010:15:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super red:21190
+0010:16:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:dark green m.i.o:22500
+0010:17:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:deep teal mica metallic:22850
+0010:18:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:deep green mica metallic:28530
+0020:01:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):6600
+0020:02:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:8830
+0020:03:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:red mica:8090
+0020:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:super white iii:7840
+0020:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:gray metallic:8310
+0020:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:blue metallic:13660
+0020:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:12290
+0020:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:13590
+0020:09:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white pearl mica:17350
+0020:10:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish green m.i.o:19870
+0020:11:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super white ii:19240
+0020:12:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:silver metallic:21680
+0020:13:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:super red iv:25630
+0030:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high sonic toning(black):7450
+0030:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7150
+0030:03:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):6900
+0030:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:7490
+0030:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:red mica:7200
+0030:06:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:blue mica:7500
+0030:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:13440
+0030:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:15420
+0030:09:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish green m.i.o:18480
+0030:10:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super white ii:18660
+0030:11:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super red iv:20840
+0030:12:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:22080
+0030:13:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:silver metallic:22450
+0030:14:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:super red iv:27890
+0040:01:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-flash two-tone(red):7330
+0040:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7750
+0040:03:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:red mica:7940
+0040:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:8080
+0040:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:super white iii:7580
+0040:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:15640
+0040:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:red mica:15030
+0040:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white pearl mica:16920
+0040:09:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish green m.i.o:17830
+0040:10:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super white pearl mica:19240
+0040:11:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super white ii:21130
+0040:12:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super red iv:21260
+0040:13:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:silver metallic:21610
+0040:14:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:21630
+0040:15:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:silver metallic:22700
+0050:01:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7000
+0050:02:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:7190
+0050:03:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:12400
+0050:04:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:red mica:15230
+0050:05:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:silver metallic:16750
+0050:06:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super white pearl mica:17650
+0050:07:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:20820
+0050:08:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:super white ii:29650
+0060:01:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):8380
+0060:02:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:7920
+0060:03:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:red mica:8420
+0060:04:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:15840
+0060:05:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:red mica:14660
+0060:06:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:super white ii:15790
+0060:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white pearl mica:16300
+0060:08:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:wine red mica:17840
+0060:09:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:black:20970
+0060:10:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:21600
+0060:11:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:warm gray pearl mica:23010
+0070:01:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-flash two-tone(red):7450
+0070:02:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:white pearl mica:6290
+0070:03:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7420
+0070:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:8580
+0070:05:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:15970
+0070:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:14960
+0070:07:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:warm gray pearl mica:16290
+0070:08:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:wine red mica:19790
+0070:09:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish green m.i.o:16340
+0070:10:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish silver metallic:21490
+0070:11:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:20900
+0080:01:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:white pearl mica:9970
+0080:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high sonic toning(black):7910
+0080:03:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7100
+0080:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:8580
+0080:05:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:14830
+0080:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:red mica:14160
+0080:07:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:super white ii:13330
+0080:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white iv:15520
+0080:09:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish green m.i.o:20080
+0080:10:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:23140
+0080:11:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:dark green m.i.o:23060
+0080:12:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:black:24610
+0090:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high flash two-tone(red):6970
+0090:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high sonic toning(black):6550
+0090:03:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):6630
+0090:04:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):7460
+0090:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:7150
+0090:06:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:super white iii:8760
+0090:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:12360
+0090:08:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:13260
+0090:09:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white iv:16240
+0090:10:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish silver metallic:20440
+0090:11:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:22470
+0090:12:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:silver metallic:22510
+0090:13:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:dark green m.i.o:22860
+0090:14:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:silver metallic:29010
+0090:15:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:black:27370
+0100:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high flash two-tone(red):6230
+0100:02:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high sonic toning(black):7390
+0100:03:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7850
+0100:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:6980
+0100:05:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:blue metallic:15580
+0100:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:12420
+0100:07:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:dark blue mica phtalocyanine:13730
+0100:08:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super white pearl mica:20600
+0100:09:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:deep green mica metallic:21090
+0100:10:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:bluish silver metallic:21010
+0100:11:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:24310
+0100:12:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:dark green m.i.o:23480
+0100:13:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:super white ii:29420
+0400:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high sonic toning(black):6930
+0400:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high sonic toning(black):8570
+0400:03:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):6830
+0400:04:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):8330
+0400:05:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:red mica:7780
+0400:06:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:7450
+0400:07:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:blue mica:7410
+0400:08:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:super white iii:7620
+0400:09:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:gray metallic:8540
+0400:10:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:13920
+0400:11:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:14070
+0400:12:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:red mica:15870
+0400:13:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:super white iv:16630
+0400:14:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super red iv:21300
+0400:15:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:black:21880
+0400:16:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:black:20190
+0400:17:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super red:21440
+0410:01:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high sonic toning(black):7600
+0410:02:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):6670
+0410:03:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:7970
+0410:04:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:16000
+0410:05:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:15880
+0410:06:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:super white ii:16220
+0410:07:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:wine red mica:15820
+0410:08:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super white pearl mica:19060
+0410:09:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super white ii:21620
+0410:10:Toyota:Supra '95 SZ-R:FR,221bhp,3152lb,.070,377bhp,2112lb,.178:super red iv:20710
+0420:01:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:white pearl mica:7290
+0420:02:Toyota:AE86 Corolla Levin GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.165:high-tech two-tone(white):7830
+0420:03:Toyota:AE86 Sprinter Trueno GT-APEX:FR,128bhp,2039lb,.062,226bhp,1364lb,.155:high-tech two-tone(white):8620
+0420:04:Toyota:MA70 Supra GT Turbo Limited:FR,230bhp,3417lb,.047,585bhp,2460lb,.237:black mica:8230
+0420:05:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:dark green m.i.o:14750
+0420:06:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:dark green mica:15180
+0420:07:Toyota:JZA70 Supra Twin Turbo-R:FR,276bhp,3350lb,.082,669bhp,2411lb,.277:black:14480
+0420:08:Toyota:Mark II '92 Tourer S:FR,177bhp,3020lb,.058,262bhp,2021lb,.129:super white ii:16340
+0420:09:Toyota:Mark II '92 Tourer V:FR,276bhp,3196lb,.086,611bhp,2301lb,.265:super white ii:22760
+0420:10:Toyota:Soarer '95 2.5GT-T:FR,276bhp,3461lb,.079,760bhp,2491lb,.305:super red:21950
+0420:11:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:deep teal mica metallic:25290
+0420:12:Toyota:Supra '95 RZ:FR,276bhp,3284lb,.084,883bhp,2363lb,.373:deep green mica metallic:26160

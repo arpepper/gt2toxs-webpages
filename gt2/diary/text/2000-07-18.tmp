@@ -1,0 +1,79 @@
+Good news:
+
+Well, now having a better copy of the GameShark Pro manual than I
+originally got, I managed last night to figure out how to clone codes.
+I re-learned about the memory card save capability. I used a similar
+method to separate all my Granturismo2 codes into Granturismo2-1.0,
+Granturismo2-1.1, Granturismo2-arc1.0 and Granturismo2-arc1.1.
+
+You can edit the game name when you edit the codes. When you exit and
+save that code, it changes the game name for all codes in that game--I
+never tried to see what happens if the game name previously existed.
+
+Okay, so to clone a code into a new one for modification, use the
+following method:
+
+Edit any code and change the game name to something temporary. E.g.
+granturismo2-temp. After you exit and save, while you are viewing the
+list of games with this temporary name highlighted, press the select
+key. This brings up a menu that allows you to save the selected games
+GameShark codes to a memory card. Use that option to save the codes for
+the temporary game name to a memory card.
+
+Warning: The GameShark will very happily overwrite previously saved
+codes without telling you. If I get a chance I will see whether or not
+using shorter game names allows multiple code sets to be saved on one
+card. Also, the GameShark has more than usual trouble finding memory
+cards, so you may have to retry, jiggle them, switch them to the other
+slot, etc.
+
+Now, edit a code in the game again, and restore the name, e.g. back to
+granturismo2. Now, after you exit and save back to the game name list,
+press the select key again, and use the Load Codes option. You will now
+have two games with identical codes, but different names.
+(granturismo2 and granturismo2-temp)
+
+Go into the temporary game, delete all codes you do not want to clone,
+and change the name of codes you do want to clone. (Be sure to change
+the names of the codes you do keep). Then save the codes for that
+temporary game name to a memory card. (If at all possible, use a
+different memory card so that the original set you saved will remain
+available in case you make a boo-boo).
+
+After the codes have been saved, delete all codes for the temporary
+game name (granturismo2-temp) from the GameShark, using the triangle
+key while viewing the game list with that name highlighted. Then,
+rename the permanant game name (in our example granturismo2) to the
+temporary name once again (granturismo2-temp) (by editing that name in
+one of its codes). Use the menu obtained by the select key to load
+codes, and you will load the renamed codes you are cloning; they will
+be merged in with the previously existing one.
+
+Finally, rename the game back to its permanent name (granturismo2) and
+you are done!
+
+You can then go and edit the cloned code to do something slightly
+different while still keeping the old one!  8-)
+
+
+Bad News:
+
+
+I vaguely remember reading that a GameShark can get flakey if you have
+too many codes for one game, even if most of them are inactive.
+
+I wondered if this was why every now and then zeroes seem to get copied
+to the prize car locations instead of the desired values.  That is I
+wondered if this could be because I have too many codes (even though
+inactive) for the one game.  Although last night I did split the codes
+up according to game version, I haven't yet tried to see whether
+appears to have helped.
+
+The more I think about it, the more I think that the non-deterministic
+timing problems I observed occur because my active code itself is
+basically too long--either in terms of number of instructions, or in
+terms of number of memory fetches and writes performed, or a
+combination of both.  8-(
+
+It makes sense that that could happen, while my other hypothesis does
+not make a lot of sense.

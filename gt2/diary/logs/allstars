@@ -1,0 +1,96 @@
+   In this game (garage) we purchase "all-stars" from various quick "theme"
+   games.  This will let us keep them handy for reference of tuning
+   information, etc.
+
+   1-5475 IA8
+
+
+   Note: Serious stupidity in garage program means we can only sell cars
+   which have "(prize" in their full name...
+
+   Emulate our garage...
+   5476 buy car ConceptCar  orangeConceptCar(prize, B-license)
+   5476 Cr60,472,542  1 car
+
+April 08, 2001
+   5476 buy car Corvette'67  Rally Red Chevrolet Corvette'67 427 Coupe (Cr23,000)
+   5476 buy car Pulsar  Super Black Nissan Pulsar '91 GTi-R (Cr167,660)
+   5476 buy car LancerIV  yellow Mitsubishi Lancer EvoIV GSR (Cr125,700)
+   5476 buy car tunedLancerIV  green Mitsubishi Lancer EvoIV GSR (Cr221,000)
+   5476 buy car [R]LancerIV   Mitsubishi [R]Lancer EvoIV GSR (Cr281,000)
+   5476 buy car [R]SilEighty   Nissan [R]Sil Eighty (Cr237,800)
+   5476 buy car 400R   red Nismo 400R (Cr162,000)
+   5476 buy car tuned400R   yellow Nismo 400R (Cr209,000)
+   5476 buy car [R]400R   yellow [R]Nismo 400R (Cr269,000)
+   5476 buy car Eunos   blue Mazda Eunos Roadster (Cr148,800)
+   5476 Cr58,627,582  11cars
+
+   5476 buy car Fairlady  Red Nissan Fairlady Z Version S Twin Turbo 2 Seater (Cr192,100)
+   5476 buy car [R]Fairlady   Nissan [R]Fairlady Z Version S Twin Turbo  2 Seater (Cr299,100)
+   5476 buy car tunedFairlady  Pearl Green Nissan Fairlady Z Version S Twin Turbo 2 Seater  (Cr240,100)
+   5476 buy car CivicTypeR   blue Honda Civic Type-R (Racer) (Cr151,800)
+   5476 Cr57,744,282  15cars
+   5476 power off
+
+April 16, 2001
+   5476 buy car tunedSupra'95RZ  Super Red IV Toyota Supra '95 RZ (Cr226,630)
+   5476 buy car [R]Supra'95RZ  Toyota [R]Supra '95 RZ   (Cr283,850)
+   5476 buy car LevinBZG  Red Mica Metallic Toyota Corolla Levin BZ-G  (Cr63,900)
+   5476 Cr57,169.902  18cars
+   5476 power off
+
+May 08, 2001
+   5476 buy car [R]ChaserLM  Toyota [R]Chaser LM (Cr35,000, prize GTC)
+   5476 buy car tunedSupraRZ  orange Toyota Supra RZ (Cr221,000, prize Normal)
+   5476 buy car [R]Camaro30th  Chevrolet [R]Camaro Z28 30th Anniversary Edn (Cr220,000, prize Clubman)
+   5476 Cr56,593,902  21cars             (10 replays)
+   5476 power off
+
+May 19, 2001
+   5476 buy car [R]ImprezaSTi  Subaru [R]Impreza WRX-STi version III (Cr281,000, prize Normal)
+   5476 buy car tunedGrif4.0   Formula Red Pearl  TVR Griffith 4.0  (Cr219,800)
+   5476 Cr56,193,102
+5476-5482 [R]ImprezaSTi   GTI  q2H1st54to34,25,19,12,6          credits
+   5483 Cr56,413,102  23cars             (11 replays)
+   5483 power off
+
+August 14, 2001
+   5483 buy car ltDemio    light-tuned Mazda Demio Aspec (Cr53,200, prize Sunday)
+   5483 buy car ltPrimera'90 Raspberry Red Pearl Nissan Primera'90 2.0Te (Cr39,330)
+   5483 buy car ltSilvia'88K Super Red Nissan Silvia '88 K's 1800cc (Cr35,540)
+   5483 buy car [R]Silvia'88 Nissan [R]Silvia '88 K's 1800cc (Cr202,100)
+   5483 buy car creamSilvia  Warm White 2Tone Nissan Silvia '88 K's 1800cc (Cr144,800)
+   5483 buy car [R]GTS-R  White with Green Stripes Dodge [R]Viper GTS-R (Cr35.000, prize USvsJP)
+   5483 Cr55,903,132  29cars   (14 replays)
+
+August 22, 2001
+   5483 buy car [R]GT-R'89  red Nissan [R]Skyline R32 GT-R'89 (Cr292,070)
+   5483 buy car GT-R'89  Red Pearl Metallic Nissan R32 Skyline GT-R'89 (Cr232,070)
+   5483 Cr55,378,992  31cars   (14 replays)
+
+5483      TT [R]GT-R'89  GVEii  0:55.893 + 0:50.560 = 1:46.453 rec for car
+5484      TT [R]GT-R'89  SSR11  1:38.867 + 1:34.208rec = 3:13.075rec
+5485      TT [R]GT-R'89  GV     1:33.814 + 1:29.402 = 3:03.216 rec for car
+5486      TT GT-R'89  GVEii     0:58.605 + 0:54.076 = 1:52.681 rec for car
+5487      TT GT-R'89  SSR11ii   1:45.092 + 1:37.350 = 3:22.442 rec for car
+5488      TT GT-R'89  ARii      1:08.799 + 1:07.568rec = 2:16.367rec
+   5489 Cr55,378,992  31cars   (14 replays)
+   5489 power off
+   
+October 15, 2001
+   5489 buy car CyborgR  light mod Colton Red Mitsubishi Mirage'92 Cyborg R (Cr38,850)
+   5489 buy car tunedGTO'92tt  tuned Passion Red Mitsubishi GTO'92 twinturbo (Cr216,160)
+   5489 buy car [R]GTO'92tt  red [R]Mitsubishi GTO'92 twinturbo (Cr276,160)
+   5489 buy car [R]ViperGTS-R  white [R]Dodge Viper GTS-R with green stripes (Cr35,000, prize USvsJP)
+   5489 buy car [R]CerberaLM  gray and green [R]TVR Cerbera LM (Cr35,000, prize UKvsJP)
+   5489 buy car TRD  silverTRD3000GT(Cr35,000, prize Alicense)
+   5489 Cr54,757,822  37cars   (14 replays)
+   5489 power off
+   
+April 26, 2003
+   5489 buy car tunedRX7'91  hard-tuned Vintage Red Mazda efini RX-7'91 TypeR (Cr190,510)
+   5489 buy car [R]RX7'91  orange/green [R]Mazda efini RX-7'91 TypeR (Cr250,510)
+   5489 buy car tuned180SX'95 hard-tuned Super Red Nissan 180SX'94 Type X (Cr168,840)
+   5489 Cr54,147,962  40cars   (14 replays)
+   5489 power off
+

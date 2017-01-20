@@ -1,0 +1,45 @@
+Mon Mar 22, 1999
+
+Definitive Discoveries about the Used Car Inventory
+
+Threads:
+  Used Car Patterns
+
+The Gran Turismo used car inventory repeats itself, both content and
+prices, after 600 simulation days.  It changes only every tenth day
+(i.e. on days with a "zero" as their last digit, so actually the first
+time it changes after only nine days, since the game starts at day 1).
+
+I discovered the length of the cycle after I noticed that day 1820(!)
+inventory was identical to day 20.  Actually, the fiji blue Mitsubishi
+'92 GTO at day 1800 for Cr8860 stayed in my mind too.
+
+Having thereby verified that content and prices did cycle in synch, I
+realized the thing to do was look on appropriate days for a milano red
+del Sol '93 S for Cr8580 in Honda slot 1.  I knew the cycle wasn't 100
+or 200, so, starting with my saved 250 day game I tried 300, 360, 450,
+and finally at 600 I found the cycle.  I was glad, because otherwise I
+probably would have stayed up and inspected day 900.   (I would have
+got to there as fast as possible; I'd actually turned attempts before
+that into a semi-reasonable, although slow, A-license game; hopped up a
+Supra, won the Chaser, but couldn't win USvsJP with the Chaser on first
+try, and then my wife began watching television on her set beside mine,
+so I started just doing or abandoning more license tests).
+
+I think the fastest way to run up days is to get into a license test,
+and keep saying "Try again", and "exit" instead of running the test.
+Each abandonment uses a day without needing to do any "Loading..."
+(Amusing note; the game actually stores the in-memory replay data for
+your abandoned try  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

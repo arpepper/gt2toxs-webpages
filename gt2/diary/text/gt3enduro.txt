@@ -1,0 +1,457 @@
+
+Game: gt3-game1
+Day: 111
+Date: May 24, 2002
+Race: Super Speedway 150
+Car: green Mazda Miata (T2/T2)
+Qualified: 3rd   0:41.208(-1.3xx)
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Tickford Falcon XR8
+1st:*  Mazda MX-5 Miata             1-11:24.019
+2nd:   Spoon S2000                     +1 lap    (1-11:28.226)
+3rd:   RUF 3400S                       +4 laps   (1-11:32.809)
+4th:   NISMO GT-R LM Road Car          +5 laps   (1-11:40.275)
+5th:   Celica TRD Sports M             +7 laps   (1-11:50.846)
+6th:   Tom's X540 Chaser               +8 laps   (1-11:31.768)
+fl: 0:40.472
+Pits: 34,67
+
+
+Game: gt3-game1
+Day: 131
+Date: May 26, 2002
+Race: Super Speedway 150
+Car: Celica GT-Four (T2/T2)
+Qualified: 4th
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]F090/S
+1st:*  Celica GT-Four               1-11:26.956
+2nd:   RUF RGT                        +0:32.136  (1-11:59.082)
+3rd:   Mine's Skyline                  +2 laps
+4th:   RUF 3400S                       +4 laps
+5th:   Celica TRD Sports M
+6th:   Tom's X540 Chaser
+fl: 0:40.387
+Pits: 34,67
+
+
+Game: gt3-game1
+Day: 172
+Date: June 07, 2002
+Race: Trial Mountain 2 Hour
+Car: NSX Type R(T2/T2)
+Qualified: 3rd  1:39.253(-2.428)
+Result: 1st
+Money: Cr200,000
+Prize-Car: 8-(
+1st:   NSX Type S Zero              2-00:09.292  72 laps
+2nd:*  NSX Type R                   2-00:14.472  71 laps
+3rd:   Skyline GT-R Vspec II (R34)  2-00:23.375  70 laps
+4th:   Impreza WRX STi              2-01:26.664  69 laps
+5th:   Skyline GT-R Vspec II        2-00:33.828  68 laps
+6th:   Lancer Evolution VII         2-01:36.216  68 laps
+fl: 1:38.311
+Pits: 18,45
+
+
+Game: gt3-game1
+Day: 173
+Date: June 08, 2002
+Race: Trial Mountain 2 Hour
+Car: TVR Tuscan Speed 6  (T2/T2)
+Qualified: 1st  1:34.659(+3.172) (T6/T6)
+Result: 1st
+Money: Cr150,000
+Prize-Car: [R]Lister Storm
+1st:*  Tuscan Speed 6               2-01:01.557  74 laps
+2nd:   Supra RZ                     2-01:08.694  71 laps
+3rd:   Skyline GT-R Vspec II (R34)  2-00:26.634  70 laps
+4th:   Impreza WRX STi              2-01:29.449  69 laps
+5th:   Skyline GT-R Vspec II (R32)  2-00:20.299  68 laps
+6th:   Lancer Evolution VII RS      2-01:37.477  68 laps
+fl: 1:33.866
+Pits: 31,54  (51mins,88mins)
+
+
+Game: gt3-game1
+Day: 177
+Date: June 09, 2002
+Race: Roadster (Apricot)
+Car: yellow Mazda Miata LS (T2/T2)
+Qualified: 2nd  1:46.853(-3.518) (T6/T6)
+Result: 1st
+Money: Cr100,000
+Prize-Car: J Limited/Sunburst Yellow  Mazda MX-5 Miata
+1st:*  Mazda MX-5 Miata LS          1-12:22.113
+2nd:   red Mazda MX-5 Miata LS      1-13:30.840
+3rd:   green Mazda MX-5 Miata       1-13:54.890
+4th:   black Mazda MX-5 Miata 1.8RS 1-13:56.043
+5th:   white Mazda MX-5 Miata       1-14:01.590
+6th:   grey Mazda MX-5 Miata        1-12:53.732  +1 lap
+fl: 1:44.524
+Pits: 14,27
+
+
+Game: gt3-game1
+Day: 187
+Date: June 12, 2002
+Race: Super Speedway 150
+Car: Viper GTS (T2/T2)
+Qualified: 1st  0:39.852(+0.048) (T6/T6)
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Clio Sport Race Car
+1st:*  Viper GTS                    1-08:30.309
+2nd:   Mine's Skyline                  +6 lap    (1-08:52.888)
+3rd:   MUGEN S2000                     +8 laps   (1-08:51.283)
+4th:   NISMO GT-R LM Road Car          +8 laps   (1-08:58.378)
+5th:   NISMO Skyline GT-R R-tune      +11 laps   (1-08:35.671)
+6th:   Tom's X540 Chaser              +14 laps   (1-09:01.650)
+fl: 0:38.670
+Pits: 25,51,77
+
+
+Game: gt3-game1
+Day: 242
+Date: July 10, 2002
+Race: Grand Valley 300km Endurance Race
+Car: [R]ImprezaLM  (T2/T2)
+Qualified: 1st  1:51.203(+4.185) (T4/T4)
+Result: 1st
+Money: Cr400,000
+Prize-Car: blue Nissan R390 GT1 Road Car
+1st:*  [R]Impreza LM Race Car       1-53:24.737
+2nd:   [R]Raybrig NSX                  +1 lap    (1-55:02.009)
+3rd:   [R]Arta NSX                     +1 lap    (1-55:05.083)
+4th:   [R]Denso Sard Supra GT          +2 laps   (1-53:31.169)
+5th:   [R]Pennzoil Nismo GT-R          +2 laps   (1-55:12.704)
+6th:   [R]Loctite Zexel GT-R           +3 laps   (1-53:49.420)
+fl: 1:49.495
+Pits: 15,30,45
+
+
+Game: gt3-game1
+Day: 285
+Date: July 20, 2002
+Race: Seattle 100
+Car: tuned TVR Tuscan Speed 6 (T2/T2)
+Qualified: 1st  1:41.008(+0.096)
+Result: 1st
+Money: Cr150,000
+Prize-Car: Panoz [R]Esperante GTR-1
+1st:*  Tuscan Speed 6               1-07:10.134
+2nd:   Corvette Z06                    +2 lap    (1-08:03.084)
+3rd:   Mustang SVT Cobra R             +2 lap    (1-08:08.024)
+4th:   Camaro Z28                      +3 lap    (1-07:40.773)
+5th:   Camaro SS                       +3 lap    (1-08:07.616)
+6th:   Cobra                                     (1-08:26.089)
+fl: 1:36.064
+Pits: 14,27
+
+
+Game: gt3-game1
+Day: 286
+Date: July 21, 2002
+Race: Laguna 200
+Car: [R]ImprezaLM  (T2/T2)
+Qualified: 2nd  1:19.308(-0.579)
+Result: 1st
+Money: Cr300,000
+Prize-Car: blue Nissan R390 GT1 Road Car
+1st:*  [R]Impreza LM Race Car       2-02:49.438
+2nd:   [R]Viper GTS-R Team Oreca        +32.127  (2-03:21.563)
+3rd:   [R]Vertigo Race Car             +2 laps   (2-03:15.486)
+4th:   [R]Corvette C5R                 +2 laps   (2-04:09.315)
+5th:   [R]GT40 Race Car                +4 laps   (2-02:52.405)
+6th:   [R]CLK Touring Car (D2 AMG)     +4 laps   (2-04:21.380)
+fl: 1:17.981
+Pits: 18,36,54,72
+
+
+Game: gt3-game1
+Day: 326
+Date: August 10, 2002
+Race: Mistral 78 Laps
+Car: Toyota GT-ONE Road Car (T2/T2)
+Qualified: 1st  1:36.819(+0.871)
+Result: 1st
+Money: Cr500,000
+Prize-Car: silver Jaguar XJ220 Road Car
+1st:*  GT-ONE Road Car (TS020)      2-07:20.714
+2nd:   [R]R390 GT1 LM Race Car        +1:21.027  (2-08:41.741)
+3rd:   [R]S2000 LM Race Car            +3 laps   (2-07:43.852)
+4th:   [R]Altezza LM Race Car          +4 laps   (2-07:56.063)
+5th:   [R]RX-7 LM Race Car             +4 laps   (2-08:21.253)
+6th:   [R]Impreza LM Race Car          +6 laps   (2-07:28.288)
+fl: 1:34.212
+Pits: 16,33,48,63
+
+
+Game: gt3-game1
+Day: 330
+Date: August 17, 2002
+Race: SSR11 All-night
+Car: Toyota [R]GT-ONE Race Car (TS2, T2/T3)
+Qualified: nq6th
+Result: 1st
+Money: Cr500,000
+Prize-Car: green F687/S
+1st:*  [R]GT-ONE Race Car (TS020)   1-32:38.196
+2nd:   [R]787B                         +2 laps   (1-33:10.632)
+3rd:   [R]GT-ONE Race Car (TS020)      +2 laps   (1-34:07.153)
+4th:   [R]Zonda Race Car               +3 laps   (1-33:04.091)
+5th:   [R]Corvette C5R                 +4 laps   (1-33:30.567)
+6th:   [R]GT40 Race Car                +6 laps   (1-33:51.401)
+fl: 1:46.720
+Pits: 17,34
+
+
+Game: gt3-game1
+Day: 334
+Date: August 18, 2002
+Race: Tokyo Enduro
+Car: Toyota [R]GT-ONE Race Car (TS2, T2/T3)
+Qualified: nq6th
+Result: 1st
+Money: Cr400,000
+Prize-Car: [R]C-West Razo Silvia JGTC
+1st:*  [R]GT-ONE Race Car (TS020)   2-33:01.857
+2nd:   [R]Castrol Mugen NSX            +9 laps   (2-33:36.839)
+3rd:   [R]ARTA NSX                     +9 laps   (2-33:46.309)
+4th:   [R]Castrol Tom's Supra          +9 laps   (2-34:09.116)
+5th:   [R]Loctite Zexel GT-R          +10 laps   (2-34:30.219)
+6th:   [R]Calsonic Skyline            +10 laps   (2-34:30.995)
+fl: 1:27.593
+Pits: 17,34,51,68,84
+
+
+Game: gt3-game1
+Day: 337
+Date: August 23, 2002
+Race: Passage to Colloseo (Rome 2hr)
+Car: Pagani [R]Zonda Race Car (NA1, T2/T3)
+Qualified: nq6th
+Result: 1st
+Money: Cr300,000
+Prize-Car: Lancia [R]Delta HF Integrale Rally
+1st:*  [R]Zonda Race Car               87 laps   (2-00:38.058)
+2nd:   Clio Sport V6 24V               73 laps   (2-00:56.471)
+3rd:   328ci                           71 laps   (2-00:16.934)
+4th:   S4                              71 laps   (2-00:40.977)
+5th:   TT 1.8T quattro                 69 laps   (2-00:26.684)
+6th:   Coupe Turbo Plus                69 laps   (2-00:45.358)
+fl: 1:18.118
+Pits: 11,22,33,44,55,66,77
+
+
+Game: gt3-game1
+Day: 360
+Date: September 07, 2002
+Race: Seattle 100
+Car: black/yellow F094/S
+Qualified: 1st  1:16.142
+Result: 1st
+Money: Cr150,000
+Prize-Car: silver Nismo GT-R LM Road Car(dup)
+1st:*  F094/S                         54:40.233
+2nd:   Corvette GRAND SPORT            +9 laps   (55:37.107)
+3rd:   Viper GTS                       +9 laps   (55:38.008)
+4th:   Camaro SS                      +10 laps   (55:54.911)
+5th:   Camaro Z28                     +10 laps   (55:03.075)
+6th:   Cobra                          +10 laps?  (55:21.249)
+fl: 1:16.772
+Pits: 10,20,30
+
+
+Game: gt3-game1
+Day: 362
+Date: September 14, 2002
+Race: Mistral 78 Laps
+Car: black/yellow F094/S
+Qualified: 1st  1:25.177(+7.383)
+Result: 1st
+Money: Cr500,000
+Prize-Car: silver Mitsubishi [R]FTO LM
+1st:*  F094/S                       1-54:37.580
+2nd:   [R]787B                         +7 laps   (1-54:45.834)
+3rd:   [R]R390 GT1 LM Race Car         +8 laps   (1-55:56.999)
+4th:   [R]Altezza LM Race Car         +11 laps   (1-56:10.908)
+5th:   [R]Esperante GTR-1             +12 laps   (1-54:56.595)
+6th:   [R]GT40 Race Car               +12 laps   (1-56:38.637)
+fl: 1:22.868
+Pits: 8,15,22,29,36,43,50,57,64,71
+
+
+gt3-game1
+Day: 376
+Date: November 02, 2002
+Race: Super Speedway 150
+Car: orange F686/M
+Qualified: 1st 0:26.583(+13.378)
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Clio Sport Race Car
+1st:*  F686/M                         52:07.037
+2nd:   Spoon S2000                    +27 laps   (52:34.965)
+3rd:   RUF 3400S                      +30 laps   (52:16.268)
+4th:   NISMO GT-R LM Road Car         +30 laps   (52:31.410)
+5th:   Celica TRD Sports M            +30 laps   (52:51.124)
+6th:   Nismo Skyline GT-R R-tune      +32 laps   (52:20.459)
+fl: 0:26.163
+Pits: 10,20,30,40,50,60,70,80,90
+
+
+Game: gt3-game1
+Day: 377
+Date: November 03, 2002
+Race: Trial Mountain 2 Hour
+Car: French Blue TVR Griffith 500  (T2/T2) (ASM 0, TCS 2)
+Qualified: 2nd  1:35.944(+0.639)
+Result: 1st
+Money: Cr150,000
+Prize-Car: black/orange[R]F094/H
+1st:*  Griffith 500                 2-00:35.065  73 laps
+2nd:   NSX Type S Zero              2-01:25.916  73 laps
+3rd:   Supra RZ                     2-01:16.570  71 laps
+4th:   Mazda RX-7 Type RZ           2-01:18.061  71 laps
+5th:   Skyline GT-R Vspec II (R32)  2-00:17.583  68 laps
+6th:   Lancer Evolution VII RS      2-01:28.299  68 laps
+fl: 1:35.973
+Pits: 18,36,55
+
+
+gt3-game1
+Day: 379
+Date: November 06, 2002
+Race: Super Speedway 150
+Car: black F094/S
+Qualified: 1st 0:28.283(+11.246)
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Tickford Falcon XR8
+1st:*  F094/S                         52:09.252
+2nd:   Spoon S2000                    +27 laps   (52:30.846)
+3rd:   Motor Sport Elise              +27 laps   (52:36.580)
+4th:   Mine's Lancer Evo VI           +29 laps   (52:26.051)
+5th:   NISMO Skyline GT-R R-tune      +32 laps   (52:18.933)
+6th:   RUF CTR2                       +32 laps   (52:40.977)
+fl: 0:26.422
+Pits: 10,20,30,39,50,60,70,80,90
+
+
+gt3-game1
+Day: 380
+Date: November 07, 2002
+Race: Super Speedway 150
+Car: black F094/S
+Qualified: 1st 0:28.605(+11.723)
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Tickford Falcon XR8
+1st:*  F094/S                            51:40.049
+2nd:   Mine's Skyline GT-R N1 Vspec R34  +29 laps   (52:17.107)
+3rd:   Mine's Lancer Evo VI              +30 laps   (51:42.086)
+4th:   NISMO Skyline GT-R R-tune                    (52:17.437)
+5th:   RUF CTR2                                     (51:59.839)
+6th:   Tom's X540 Chaser                            (52:16.249)
+fl: 0:26.424
+Pits: 10,20,30,40,50,60,70,80,90
+
+
+Game: gt3-game1
+Day: 382
+Date: November 08, 2002
+Race: SSR11 All-night
+Car: Toyota [R]GT-ONE Race Car (TS2, T2/T3)
+Qualified: 1st 1:46.628 (+4.437)
+Result: 1st
+Money: Cr500,000
+Prize-Car: red F687/S
+1st:*  [R]GT-ONE Race Car (TS020)   1-30:51.446
+2nd:   [R]R390 GT1 LM Race Car         +2 laps   (1-32:08.150)
+3rd:   [R]787B                         +3 laps   (1-31:17.440)
+4th:   [R]Zonda Race Car               +4 laps   (1-31:08.957)
+5th:   [R]Corvette C5R                 +5 laps   (1-31:32.466)
+6th:   [R]XJ220 Race Car               +6 laps   (1-31:32.113)
+fl: 1:43.5xx
+Pits: 17,34
+
+
+Game: gt3-game1
+Day: 384
+Date: November 09, 2002
+Race: Trial Mountain 2 Hour
+Car: Boulder Opal Blue Honda NSX Type S Zero (prize) (T3/T3)
+Qualified: 2nd  1:35.852(+0.205)
+Result: 1st
+Money: Cr150,000
+Prize-Car: black/red [R]S2000 LM Race Car
+1st:*  NSX Type S Zero              2-01:35.285  73 laps
+2nd:   NSX Type S Zero              2-00:09.286  72 laps
+3rd:   Supra RZ                     2-01:01.869  71 laps
+4th:   Mazda RX-7 Type RZ           2-01:18.696  71 laps
+5th:   Skyline GT-R Vspec II (R32)  2-00:26.070  68 laps
+6th:   Lancer Evolution VII RS      2-01:36.757  68 laps
+fl: 1:36.xxx
+Pits: 11,23,35,47,57,65
+
+
+Game: gt3-game1
+Day: 386
+Date: November 09, 2002
+Race: Super Speedway 150
+Car: [R]Escudo Pikes Peak Version (T2/T2)
+Qualified: 1st
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Corvette C5R
+1st:*  ESCUDO Pikes Peak Version      49:29.818
+2nd:   RUF RGT                         +30 laps   (50:02.394)
+3rd:   Mugen S2000(J)                  +33 laps   (50:00.855)
+4th:   NISMO Skyline GT-R R-tune       +35 laps   (50:02.223)
+5th:   RUF CTR2                        +35 laps   (50:06.206)
+6th:   NISMO Skyline GT-R S-tune       +37 laps   (49:41.103)
+fl: 0:32.538
+Pits: 25,50,75
+
+
+Game: gt3-game1
+Day: 387
+Date: November 10, 2002
+Race: Trial Mountain 2 Hour
+Car: Boulder Opal Blue Honda NSX Type S Zero (prize) (T3/T3)
+Qualified: 2nd  1:36.257(+0.822)
+Result: 1st
+Money: Cr150,000
+Prize-Car: [R]Lister Storm
+1st:*  NSX Type S Zero              2-00:31.944  73 laps
+2nd:   NSX Type S Zero              2-01:32.368  73 laps
+3rd:   Mazda RX-7 Type RZ           2-01:09.950  71 laps
+4th:   Supra RZ                     2-01:13.213  71 laps
+5th:   Skyline GT-R Vspec II (R32)  2-00:31.648  68 laps
+6th:   Lancer Evolution VII RS      2-01:35.496  68 laps
+fl: 1:36,230
+Pits: 19,38,56
+
+
+Game: gt3-game1
+Day: 388
+Date: November 10, 2002
+Race: Super Speedway 150
+Car: NSX Type R(T2/T2)
+Qualified: 3rd 0:40.753(+1.983)
+Result: 1st
+Money: Cr200,000
+Prize-Car: [R]Corvette C5R
+1st:*  NSX Type R                   1-10:55.360
+2nd:   RUF RGT                         +1 laps   (1-11:07.703)
+3rd:   NISMO GT-R LM Road Car          +5 laps   (1-10:58.151)
+4th:   Mugen S2000(J)                  +5 laps   (1-10:58.790)
+5th:   RUF CTR2                        +8 laps   (1-11:19.498)
+6th:   Tom's X540 Chaser              +11 laps   (1-11:28.081)
+fl: 0:40.447
+Pits: 25,50,75
+
+

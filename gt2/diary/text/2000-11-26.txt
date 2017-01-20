@@ -1,0 +1,115 @@
+Sunday November 26, 2000
+
+
+(GT1 Version 1.1)  Tuned Series Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>Tuned Series</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Tuned Event (8008F5BC)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090D74</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80090F08</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F468</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090A24</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090CB8</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;5</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D74 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C738</td><td>&nbsp;"rev_testline"&nbsp;</td><td>High Speed Ring II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6C8</td><td>&nbsp;"rev_circuit"&nbsp;</td><td>Grand Valley Speedway II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C728</td><td>&nbsp;"rev_shortway"&nbsp;</td><td>Clubman Stage R5 II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C71C</td><td>&nbsp;"rev_autumn"&nbsp;</td><td>Autumn Ring II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C710</td><td>&nbsp;"rev_outbahn"&nbsp;</td><td>Special Stage R11 II</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80090F08 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q10000, 1st50000, 2nd30000, champ100000)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090A24 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C220</td><td>&nbsp;"hnsrn"&nbsp;</td><td>NSX '93</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1E0</td><td>&nbsp;"tspnn"&nbsp;</td><td>Supra RZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1C8</td><td>&nbsp;"afd7n"&nbsp;</td><td>FD efini RX-7 TypeRZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C130</td><td>&nbsp;"nv34n"&nbsp;</td><td>Skyline GT-R Vspec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C0F8</td><td>&nbsp;"nn32n"&nbsp;</td><td>Skyline GT-R Nismo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F8</td><td>&nbsp;"mlnon"&nbsp;</td><td>Lancer Evolution III GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C140</td><td>&nbsp;"tchvn"&nbsp;</td><td>Chaser 25 Tourer V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>&nbsp;"hcvnn"&nbsp;</td><td>Civic 3 door</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090CB8 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C610</td><td>&nbsp;"n-32n"&nbsp;</td><td>'91 Skyline GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C608</td><td>&nbsp;"t-ron"&nbsp;</td><td>Sprinter Trueno GT-Apex</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F468 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000E053</td><td>&nbsp;0:57.427&nbsp;</td><td>(High Speed Ring II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00019AFC</td><td>&nbsp;1:45.212&nbsp;</td><td>(Grand Valley Speedway II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000DF09</td><td>&nbsp;0:57.097&nbsp;</td><td>(Clubman Stage R5 II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00011FF0</td><td>&nbsp;1:13.712&nbsp;</td><td>(Autumn Ring II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001C808</td><td>&nbsp;1:56.744&nbsp;</td><td>(Special Stage R11 II)</td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

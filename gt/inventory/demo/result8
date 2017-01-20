@@ -1,0 +1,10 @@
+(cached)
+
+<table border bgcolor="white">
+<tr><th></th><th>Manufacturer</th><th>Model Name</th><th>Stk PWR</th><th>Stk HP</th><th>Stk Wt</th></tr>
+<tr><td align=right>1</td><td>TVR</td><td>Griffith 500</td><td>.143</td><td align=right>333</td><td align=right>2336</td></tr>
+<tr><td align=right>2</td><td>TVR</td><td>Cerbera</td><td>.141</td><td align=right>343</td><td align=right>2425</td></tr>
+<tr><td align=right>3</td><td>TVR</td><td>Griffith 4.0</td><td>.140</td><td align=right>327</td><td align=right>2336</td></tr>
+<tr><td align=right>4</td><td>Dodge</td><td>Viper RT/10</td><td>.138</td><td align=right>440</td><td align=right>3187</td></tr>
+<tr><td align=right>5</td><td>Dodge</td><td>Viper GTS</td><td>.136</td><td align=right>440</td><td align=right>3240</td></tr>
+</table>

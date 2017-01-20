@@ -1,0 +1,134 @@
+Saturday July 21, 2001
+
+Comparing Skylines (especially used) in the Normal Series
+
+Threads:
+  Race Results
+  Used Car Information
+  Gameplay Hints
+
+<CODES>
+I decided to keep playing some more days in
+the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> game
+(Maybe <a href="../logs/proper.txt">here</a>) to try out the different
+Nissan cars (Skylines) which seemed they might possibly be able to win
+the Normal series.
+
+I tried several of them.  I'm not a great driver, so I reloaded the game until no NSX was present in the line-up.
+
+After one learning experience, I got so I could beat that field with all
+the <b>Skyline GT-R</b>'s I tried, but only one of them showed the potential
+for beating the <b>NSX</b>.  I'm sad-to-say that that was that old
+clich&eacute;, the <b>1989 Skyline GT-R</b>.
+
+Here are the results of that monumental series.
+
+</CODES>
+
+Thread: Race Results
+
+<HTML INDENT>
+
+<TABLE BORDER BGCOLOR="white">
+  <TR>
+    <TD Colspan=1 ALIGN=left ><B>Date:</B> July 17, 2001</TD>
+    <TD Colspan=2 ALIGN=left ><B>Simday:</B> 153</TD>
+    <TD Colspan=3 ALIGN=left ><B>Car:</B> Nissan Skyline GT-R'89</TD>
+  </TR>
+  <TR>
+    <TH Rowspan=2>Race</TH>
+    <TH Colspan=2 >Qualifying</TH>
+    <TH Colspan=3 >Main Event</TH>
+  </TR>
+  <TR>
+    <TH > Pos</TH>
+    <TH > Time</TH>
+    <TH >Pos</TH>
+    <TH >Total Time</TH>
+    <TH >Fastest Lap</TH>
+  </TR>
+  <TR>
+    <TH>Autumn Ring-Mini ii</TH>
+       <TD align=right width=5%>3rd</TD><TD align=right width=15%>0:41.922</TD> <TD align=right width=5%>1st</TD>
+       <TD align=right width=15%>3:16.895</TD> <TD align=right width=15%>0:37.928</TD> 
+  </TR>
+  <TR>
+    <TH>Grand Valley East ii</TH>
+       <TD align=right width=5%>6th</TD><TD align=right width=15%>1:17.011 </TD> <TD align=right width=5%>2nd</TD>
+       <TD align=right width=15%>5:54.890</TD> <TD align=right width=15%>1:09.263</TD> 
+  </TR>
+  <TR>
+    <TH>Clubman Route 5 ii</TH>
+       <TD align=right width=5%>2nd</TD><TD align=right width=15%>1:00.565 </TD> <TD align=right width=5%>1st</TD>
+       <TD align=right width=15%>4:30.194</TD> <TD align=right width=15%>0:52.433</TD> 
+  </TR>
+  <TR>
+    <TH>Deep Forest ii</TH>
+       <TD align=right width=5%>6th</TD><TD align=right width=15%>1:29.042 </TD> <TD align=right width=5%>3rd</TD>
+       <TD align=right width=15%>7:05.175</TD> <TD align=right width=15%>1:22.695</TD> 
+  </TR>
+  <TR>
+    <TH>Special Stage R11 ii</TH>
+       <TD align=right width=5%>4th</TD><TD align=right width=15%>2:16.524 </TD> <TD align=right width=5%>1st</TD>
+       <TD align=right width=15%>10:52.940</TD> <TD align=right width=15%>2:07.456</TD> 
+  </TR>
+  <TR>
+    <TD COLSPAN=3 ALIGN=left><B>Result:</B> 1st 37 to 36, 22, 14, 10, 6</TD>
+    <TD COLSPAN=3 ALIGN=left><B>Prize Car:</B>&nbsp;&nbsp;blue Supra</TD>
+  </TR>
+</TABLE>
+
+</HTML>
+
+<CODES>
+
+As usual in this series, the <B>NSX</B> always placed the best it could,
+followed by the <B>TRD</B>.  (Actually, the <b>TRD</b> sometimes loses a
+place at one or two races, especially <b>Autumn Ring Mini</b> and
+<b>SSR11</b>).
+I was 5.138 seconds behind the <b>NSX</b> at <b>GVEii</b>,
+and 11.631 seconds behind it at <b>DFRW</b>.
+Both <b>Autumn Mini</b> and <b>SSR11</b> were close too, with me winning
+by only 0.562 and 2.918 seconds, respectively.
+
+The two difficult races for Skylines seem to be <b>GVEii</b> and (surprise!)
+<b>DFRW</b>.  Also, many of the versions fast enough to beat the <b>TRD</b>
+at <b>SSR11</b> probably weren't quite fast enough to beat the <b>NSX</b>
+at that last race.
+
+As I say, the above result was a culmination of effort.  Here's a summary
+of all my Skyline tests.
+
+
+</CODES>
+
+<HTML INDENT>
+
+<TABLE BORDER BGCOLOR="white">
+<tr><td>GT-R '95 </td><td> 2nd </td><td> 2ndGVE, 3rdDFRW, 2ndSSR11 </td><td> 34to34,23,17,11,6 </td><td> noNSX</td></tr>
+<tr><td>GT-R '95 </td><td> 1st </td><td> 2ndDFRW, 2ndSSR11 </td><td> 39to36,19,15,10,6 </td><td> noNSX</td></tr>
+<tr><td>GT-R '95 </td><td> 1st </td><td> 2ndDFRW </td><td> 42to33,18,16,10,6 </td><td> noNSX</td></tr>
+<tr><td>R32 GT-R VspecII </td><td> 1st </td><td> 2ndGVE, 5thDFRW </td><td> 35to34,21,18,11,6 </td><td> noNSX</td></tr>
+<tr><td>R32 GT-R VspecII </td><td> 1st </td><td> 2ndGVE, 2ndDFRW </td><td> 39to36,18,16,11,5 </td><td> noNSX</td></tr>
+<tr><td>R32 GT-R Nismo </td><td> 1st </td><td> 2ndGVE, 3rdDFRW </td><td> 37to36,22,14,11,5 </td><td> noNSX</td></tr>
+<tr><td>GT-R '89 </td><td> 1st </td><td> 4thDFRW </td><td> 39to33,18,17,13,5 </td><td> noNSX</td></tr>
+<tr><td>GT-R '89 </td><td> 1st </td><td> 2ndGVE, 2ndDFRW </td><td> 39to36,19,14,12,5 </td><td> noTRD</td></tr>
+<tr><td>GT-R '89 </td><td> 1st </td><td> 2ndGVE, 3rdDFRW </td><td> 37to36,22,14,10,6 </td><td> noImpreza</td></tr>
+<tr><td>prize GT-R '91 </td><td> 1st </td><td> 2ndDFRW </td><td> 42to33,19,16,10,5 </td><td> noNSX</td></tr>
+
+</TABLE>
+
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

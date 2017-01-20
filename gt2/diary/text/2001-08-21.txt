@@ -1,0 +1,156 @@
+Tuesday August 21, 2001
+
+In Nissan Game, [R]R32GT-R'89 Shatters All-Night I
+
+Threads:
+  All-Night I Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+After finishing the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nissan">nissan</a> game
+(Maybe <a href="../logs/nissan.txt">here</a>)
+I contined it beyond day 101, using the Nissan R32 Skyline GT-R '89 to try and set records,
+and so entered the race-mod version in the <b>SSR11 All-Night I Race</b>.
+</CODES>
+
+It won spectacularly, setting a personal record for this event.
+(Although I think I can better it by about another minute if I
+tune better and practise more).
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: nissan
+   Day: 165
+   Date: Aug 21, 2001
+   Race: SSR11 All-Night I  Endurance Race
+   Car: Nissan [R]R32 Skyline GT-R '89 (S/S)
+   Qualified: 1st(+17.308) 1:39.132new
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: green [R]Silvia LM
+
+   Results:
+
+   1st:* [R]R32GT-R'89          49:09.316<--new nissan time and record
+   2nd:  [R]GTO twinturbo        +471.898  (57:01.214) 4 laps
+   3rd:  [R]GT-R LM              +500.674  (57:29.990) 4 laps
+   4th:  [R]Celica GT-Four       +568.286  (58:37.602) 5 laps
+   5th:  [R]Lantis TypeR         +662.390  (60:11.706) 5 or 6 laps
+   6th:  [R]Accord Sedan         +673.423  (60:22.739) 5 or 6 laps
+
+   Pits:  10,20
+   fl(4): 1:33.586new
+
+   lap 1   1:39.488
+   slowest  non-pit    (9)  1:41.578
+             next     (13)  1:39.071
+   fastest pit laps   (10in)  1:58.757
+                      (21out) 1:36.719
+   slowest pit laps   (20in)  1:58.923
+                      (11out) 1:37.089
+
+</pre></font></tt>
+</HTML>
+
+
+After qualifying first, I never lost the lead.
+
+I lapped my first cars on lap 5, and lapped the entire field by lap 7.
+
+I lapped the field a second time on lap 15, and had some minor mishaps in
+the race, especially in traffic.
+
+On lap 23 I lapped the field a third time, and just barely lapped the
+GTO a fourth time on the final lap.
+
+It was a relatively dull race, notable only for the fact that I could not get
+my lap times down to quite what I wanted.  I seemed to exhibit a lot of
+sloppiness in the central chicane.
+
+I won Cr150,000, and a green Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:39.488      1:39.488
+ 2   1:34.727      3:14.215
+ 3   1:35.045      4:49.260
+ 4   1:33.586      6:22.846
+ 5   1:36.593      7:59.439
+ 6   1:36.101      9:35.540
+ 7   1:36.573     11:12.113
+ 8   1:37.173     12:49.286
+ 9   1:41.578     14:30.864
+10   1:58.757     16:29.621
+11   1:37.089     18:06.710
+12   1:36.136     19:42.846
+13   1:39.071     21:21.917
+14   1:36.591     22:58.508
+15   1:35.780     24:34.288
+16   1:35.615     26:09.903
+17   1:37.023     27:46.926
+18   1:36.047     29:22.973
+19   1:38.592     31:01.565
+20   1:58.923     33:00.488
+21   1:36.719     34:37.207
+22   1:35.059     36:12.266
+23   1:37.212     37:49.478
+24   1:35.009     39:24.487
+25   1:36.225     41:00.712
+26   1:36.820     42:37.532
+27   1:37.567     44:15.099
+28   1:38.751     45:53.850
+29   1:38.090     47:31.940
+30   1:37.376     49:09.316
+
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS4)
+
+Spring Rate     4.0   4.6
+Ride Height     95    105
+Dampers          5     5
+Camber          2.0   2.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               7
+        1st       4.400
+        2nd       2.250
+        3rd       1.412
+        4th       1.034
+        5th       0.796
+                  -----
+        FD        3.500
+
+Aero           0.44  0.72  (nqmax,max)
+
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

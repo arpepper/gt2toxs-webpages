@@ -1,0 +1,77 @@
+
+Code 1) [b]Buy in Toyota New Car Lineup 1[/b]
+
+This code makes the desired car show up in the top left slot of the first page [b]Toyota[/b] new  car lot.  You can properly preview the car, and select the color from those actually available.  Statistics in that display are not always shown 100% accurately, but will be correct in the garage.
+
+1.0 disc<tt><font face="Courier">
+
+D01C322C  D5D8
+801C3018  XXXX
+D01C322C  D5D8
+801C301A  XXXX
+</font></tt>
+
+1.1 disc<tt><font face="Courier">
+
+D01C32EC  D5D8
+801C30D8  XXXX
+D01C32EC  D5D8
+801C30DA  XXXX
+</font></tt>
+
+1.2 disc<tt><font face="Courier">
+
+D01C353C  D5D8
+801C3328  XXXX
+D01C353C  D5D8
+801C332A  XXXX
+</font></tt>
+
+PAL disc
+Note this is for the [b]Nissan[/b] lot, because [b]Toyota[/b] seemed problematic.  Thanks to [b]RogsR34UK[/b] for finding this for us.
+<tt><font face="Courier">
+
+D01c34e4 4758
+801c32d0 XXXX
+D01c34e4 4758
+801c32d2 XXXX
+</font></tt>
+
+(<font color="red">NEW!</font>) Buy cars in Japanese version!
+
+This is the "Buy at Toyota" code for the Japanese version, except you go to Tommy Kaira for the car:
+Buy at Tommy kaira (NTSC J) <tt><font face="Courier">
+
+D01C33C0  4118 -- Checks spot 4 for modded R33, if found then:
+801C32DC  XXXX ---- copies first half of car code to spot 1
+D01C33C0  4118 -- Again, if R33 in spot 4, then:
+801C32DE  XXXX ---- copies second half of car code to spot 1
+</font></tt>
+
+Thanks to [b]Unsprung Wraith[/b] for translating this.
+
+This code does require you to pay full book value for each car, so using some variation of a [b]lotsa cash[/b] code may be needed.
+
+[b]GS Pro[/b] owners can effectively use this  code in the memory editor by first getting to the [b]Toyota[/b] new car lineup 1 screen in the game, and then patching the two locations for the car code.  Get it right, and the price will change--if it changes to zero, a mistake was made in one of the car codes.
+
+[b]GT2toXS[/b] came up with this code, by starting with the one which follows, and doing some work with the [b]GS Pro[/b] memory  editor.
+
+===============================================================================
+
+[b]Used Car Lot Locations on Day 1[/b]
+
+These are the locations of the first used car for each manufacturer for the 1.0 version of <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font>:
+<tt><font face="Courier">
+Daihatsu   800B92D8
+Honda      800B9320
+Mazda      800B9408
+Mitsubishi 800B94D0
+Nissan     800B95C0
+Subaru     800B9748
+Suzuki     800B97F0
+Toyota     800B9838
+</font></tt>
+[b]Memnoch[/b] posted these on page 4 of his [url="http://ubb.granturismo.com/Forum18/HTML/000052-4.html"]Prize Cars with Car Codes[/url] thread.  I have reformatted it, and put them in alphabetical order, which also happens to be location order.
+
+I could be wrong, but I would guess that the first car of the [b]Diahatsu[/b] lot is always at location [b]800B92D8[/b] in this version of <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font>, even though the other lots move around as the simulation day changes (since preceding lots have differing number of cars).  Each used car entry is eight bytes long, with four bytes of car code  being followed by three bytes of price and one byte of colour code.
+

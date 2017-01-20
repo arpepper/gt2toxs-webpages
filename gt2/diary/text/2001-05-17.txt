@@ -1,0 +1,154 @@
+Thursday May 17, 2001
+
+In Proper Game, [R]Impreza STi III Dominates the All-Night I
+
+Threads:
+  All-Night I Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> game
+(Maybe <a href="../logs/proper.txt">here</a>)
+I was using the race-modified version of the <b>Normal</b> prize
+<b>Impreza STi III</b> a lot, since I had never tried it before,
+and it seemed like a very nice car.
+So I entered it in the <b>SSR11 All-Night I Race</b>.
+</CODES>
+
+It won spectacularly, setting a personal record for this event.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: proper
+   Day: 90
+   Date: May 17, 2001
+   Race: SSR11 All-Night I  Endurance Race
+   Car: Subaru [R]Impreza'96 SD STi III
+   Qualified: 1st(+9.956) 1:46.536new
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: red [R]Silvia LM
+
+   Results:
+
+   1st:* [R]Impreza'96SD STiIII 51:13.945new
+   2nd:  [R]Primera'90 2.0Te     +407.105  (58:01.050) 3 laps
+   3rd:  [R]Impreza Rly Edition  +438.562  (58:32.507) 3 laps
+   4th:  [R]Celica GT-FOUR       +455.384  (58:49.329) 4 laps
+   5th:  [R]Lancer EvoIV GSR     +506.094  (59:40.039) 4 laps
+   6th:  [R]Accord Sedan         +546.760  (60:20.705) 4 or 5 laps
+
+   Pits:  10,20
+   fl(12): 1:38.596new
+
+   lap 1   1:46.308
+   slowest  non-pit    (8)  1:42.630
+             next      (7)  1:41.916
+   fastest pit laps   (20in)  2:04.200
+                      (21out) 1:43.407
+   slowest pit laps   (10in)  2:06.075
+                      (11out) 1:43.516
+
+</pre></font></tt>
+</HTML>
+
+
+I had a good start, and drew quickly away from the field.
+
+I lapped the field by lap 8, and stayed barely ahead of the second-place
+car as I came out of my first pit-stop.
+
+On lap 18 I lapped the field twice, and lap 27 I lapped it a third time.
+
+It was another very dull race.  I didn't even have any noteable
+mishaps.  This is actually the fastest I have ever done this race,
+although I should be able to go a lot faster yet if I use a high-powered
+4WD (e.g. GTO) or the Concept Car.
+
+I won Cr150,000, and a red Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:46.308      1:46.308
+ 2   1:38.796      3:25.104
+ 3   1:39.177      5:04.281
+ 4   1:38.714      6:42.995
+ 5   1:39.695      8:22.690
+ 6   1:39.560     10:02.250
+ 7   1:41.916     11:44.166
+ 8   1:42.630     13:26.796
+ 9   1:41.793     15:08.589
+10   2:06.075     17:14.664
+11   1:43.516     18:58.180
+12   1:38.596     20:36.776
+13   1:39.252     22:16.028
+14   1:41.349     23:57.377
+15   1:41.357     25:38.734
+16   1:41.438     27:20.172
+17   1:41.093     29:01.265
+18   1:41.621     30:42.886
+19   1:40.959     32:23.845
+20   2:04.200     34:28.045
+21   1:43.407     36:11.452
+22   1:40.409     37:51.861
+23   1:39.612     39:31.473
+24   1:40.723     41:12.196
+25   1:39.508     42:51.704
+26   1:38.975     44:30.679
+27   1:40.541     46:11.220
+28   1:40.067     47:51.287
+29   1:41.184     49:32.471
+30   1:41.474     51:13.945
+
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS4)
+
+Spring Rate     5.3   4.4
+Ride Height     110   110  (min, min)
+Dampers          4     4
+Camber          2.0   1.6
+Stabilizers      4     3
+Brake Balance   12     9
+Turbo               7
+        1st       3.500
+        2nd       2.039
+        3rd       1.447
+        4th       1.109
+        5th       0.888
+                  -----
+        FD        3.100
+
+Aero           0.70  0.72  (max,max)
+
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

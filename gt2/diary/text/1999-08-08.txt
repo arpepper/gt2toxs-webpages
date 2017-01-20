@@ -1,0 +1,88 @@
+Sunday August 8, 1999
+
+More Demio Racing
+
+Threads:
+  Tuning Advice
+  Race Results
+  
+
+Well, I guess I got bored today.
+
+Thread: Tuning Advice
+
+I put together a max-tuned Demio (weight reduction 3).  I used
+all the most expensive parts, except for no ("normal") rear
+stabilizer.  Sometimes I used a normal flywheel, too, but it
+does not seem critical to do that with this car.  Even at
+Deep Forest Racing Way ii, it seems to be able to climb the hills
+without noticeable speed loss with the racing flywheel.
+
+Numbers were:
+
+Spring Rate         2.4    2.2
+Ride Height         100    100
+Dampers              1      1
+Camber              2.0    1.0
+Stabilizers          1      0
+Brake Balance       12      9
+
+Turbo                    6
+   Although I did fit racing support, I went with the stock gear
+settings, since they are nicely spaced out.
+
+It took me a while to realize this car is more sensitive than some to
+ride height.  It's as if the weight reduction is simulated so as to
+leave most of the remaining weight somewhat high up.  Fortunately,
+it does not seem to give any strange penalties for lowering
+ride height (excessively bumpy ride, or excessive sliding with
+no warning), and minimum ride height works very well for it.
+Along with soft, independent, suspension to keep all four wheels
+on the ground (most of the time).   (I might actually go with
+softer suspension, but you need non-stock to lower the ride
+height, and that means you can't set dampers less than 1.  Now,
+one very important thing in GT is to balance springs and dampers,
+especially with light cars, so I sort of raised the springs to
+match the damping force).
+
+Thread: Race Results
+
+In the above form, the car was able to sweep all events and poles
+at both the FF Challenge and the Lightweight Battle Stage, beating
+a Civic3dr'93si in both cases.
+
+After that, I took my race-modded Demio, gave it identical settings
+(except for, by chance old 15/12 brake controller settings), plus
+maximum aero.  That car swept both those events, and set a few
+personal best times in the process.  (Actually, due to over-enthusiam
+on the last corner, I came 2nd at DFRWii the first time through
+the FF Challenge; I still massacred the tuned version time, but
+you know how Gran Turismo is... 8-)  I guess I should take
+something like an FTO GPversionR back to those events, now 
+that I've learned some of the courses better, courtesy of the
+Normal and Abnormal series.
+
+Following that, I swept all poles and events in the Clubman Cup
+with the race-modded Demio.   After that I entered it in the
+GT Cup, and, somewhat to my surprise, won all four events.
+(I qualified a "solid" sixth in all events, ie 6th, but only about 2
+seconds behind the leader in most cases, as opposed to a "distant
+sixth").
+
+Gears for the race-modded version are different:
+
+   4.400
+   2.000
+   1.400
+   1.056
+   0.872
+   -----
+   3.600
+
+That's how I found them in my garage, and they seemed okay, and so I
+kept them like that.
+
+So, given the price (free) this car is reasonably worth-while.
+
+You could say it's a "Great Little Car", but, actually, that was
+a different model Mazda.   8-)

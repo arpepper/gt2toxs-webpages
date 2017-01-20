@@ -1,0 +1,129 @@
+Friday December 08, 2000
+
+(GT1 Version 1.1)  More Details About the GameShark Addresses for The Used Car Lots!
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+All this information is for <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> version 1.1.
+
+The string <b>USEDCAR</b> occurs at 800C4418.  Then comes the
+following:
+</CODES>
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+800C4420  00 00 06 00  00 01 00 00
+</pre></font></tt>
+</HTML>
+<CODES>
+Following that are 59 more 4-byte quantities representing offsets for
+60 10-days cycles, relative to 800C4414.  The first such offset,
+at 800C4424, above, is 0100 hex, or 256.  Thus the first set of used car
+lots begins at 800C4414 + 0100 hex, or 800C4514:
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+800C4510  A8 60 00 00  0D 00 00 00
+800C4518  D5 02 12 64  0C 03 14 62
+800C4520  16 03 15 62  A2 02 12 6C
+800C4528  20 03 12 C4  7B 05 13 D8
+800C4530  6E 05 13 6C  16 05 13 C4
+800C4538  F7 05 07 68  33 06 13 62
+800C4540  59 06 0A CA  75 0B 0F 6C
+800C4548  41 0B 0F C4  1F 00 00 00
+800C4550  AA 01 35 68  F9 01 35 6C
+</pre></font></tt>
+</HTML>
+<CODES>
+
+Each lot consists of a 4-byte count, followed by that many 4-byte
+structures representing the cars.
+Each 4-byte "car" structure has:
+
+</CODES>
+<HTML INDENT>
+<dl>
+<dd>PP PP GG CC</dd>
+<dd><dl>
+<dd>PP PP - 2 byte price, divided by 10</dd>
+<dd>GG - 1 byte "garage code"</dd>
+<dd>CC - 1 byte colour, but not like in garage</dd>
+</dl>
+</dd>
+</dl>
+</HTML>
+<CODES>
+The colour code is more like that used in <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">2</font>.
+Odd (non-even) values seem to cause the car to disappear from its lot.
+Valid values seem to be even values from about hex 60 to about E2.
+
+In the above fragment from the beginning of the lots, you can see that
+<b>Toyota</b> has 0D, or 13 cars available.  The code 12 is the MA70
+Supra 3.0 GT Limited.  You can see that it occurs above in the colours 64,
+6C, and C4.  Following the last <b>Toyota</b> is the 1F indicating the
+31 cars available in the Nissan lot.
+
+Valid colour codes seem to consist of a first digit of 6, C, D or E,
+and an even second digit (0,2,4,6,8,A,C, or E).  This gives 32 likely
+colour combinations for each car.
+
+Here are some examples.
+
+The <b>FTO LM</b> usually shows up as black in the lots, but the colour
+<b>D8</b> will make it green (so, interestingly enough, will <b>98</b>).
+
+The <b>Silvia LM</b> usually shows up as red in the lots, but the colour
+<b>D6</b> will make it green (so, interestingly enough, will <b>96</b>).
+
+The <b>Cerbera LM</b> usually shows up as burgundy in the lots, but the colour
+<b>DA</b> will make it green.
+
+The 560ho <b>Concept Car</b> usually shows up as yellow in the lots,
+but the colour <b>EA</b> will make it purple.
+
+I looked around, but did not manage to find where the set of valid
+colours for each car is kept in memory.
+
+800586D8 is definitely the index of the current colour being viewed.
+(The number which will be put into the colour nybble in the garage
+entry).
+
+Here are the colours for the <b>MA70 Toyota Supra 3.0 GT Limited</b>.
+
+</CODES>
+<HTML INDENT>
+<table border="0" cellpadding="0">
+<td>62</td><td>&nbsp;&nbsp;  Super White III </td><td>&nbsp;&nbsp;00</td></tr>
+<td>64</td><td>&nbsp;&nbsp;  White Pearl Mica</td><td>&nbsp;&nbsp;10</td></tr>
+<td>6A</td><td>&nbsp;&nbsp;  Gray Metallic   </td><td>&nbsp;&nbsp;20</td></tr>
+<td>6C</td><td>&nbsp;&nbsp;  Black Mica      </td><td>&nbsp;&nbsp;30</td></tr>
+<td>C4</td><td>&nbsp;&nbsp;  Red Mica        </td><td>&nbsp;&nbsp;40</td></tr>
+<td>E2</td><td>&nbsp;&nbsp;  Blue Mica       </td><td>&nbsp;&nbsp;50</td></tr>
+</table>
+</HTML>
+<CODES>
+I determined this by searching visually in later days for the colour
+codes, and trying each of them.
+
+If you view that particular car in the Subaru Special Model Showroom, that
+will tells you that it has exactly six colours.
+
+<font size="+1" color="red">Sorry, the original version of this page had
+the addresses wrong.  I have corrected it now.  I had 8008 all over the
+place where I should have had 800C.</font>
+</CODES>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

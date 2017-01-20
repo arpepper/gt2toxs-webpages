@@ -1,0 +1,178 @@
+Monday November 22, 1999
+
+Fun with a GameShark Pro and GT v1.1
+
+Threads:
+  Game Shark Hints
+
+I told Tom Servo I'd post a few details to rec.games.video.sony about
+using the GameShark Pro to do interesting things with the North
+American version of Gran Turismo.  (More specifically the version known
+as 1.1, to distinguish it from the version originally released).  I
+have not used "cheat codes" for GT 1.1, rather I use the GameShark Pro
+memory editor facility to patch certain values during the middle of the
+game.
+
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+
+
+Race Parameters:
+
+<HTML>
+<font face="Courier">
+<table width=90%>
+<tr align=top>
+<td valign=top width=12% rowspan=5> </td>
+<td valign=top>
+$B63EC&nbsp;-
+</td>
+<td>
+<p>
+         this is generally a code for the course to be used.
+         Many Web sites indicate this is the track for Hi-Res Time Trials,
+         but this location appears to be consistently set to the track
+	 code for all events.   It can be changed with effect (at
+	 appropriate times, usually the "Try Again" screen), for all of
+	 Arcade Races, all types of Time Trials, and both types of 2
+	 player races, but not for Simulation Mode AI races.
+</p><p>
+         Values for this location are from $00 to $2D
+         $2E to $3C are license tests, and cannot be used, since the
+         game gets very confused
+         $3D is the Autumn Mini with bizarre lighting conditions!  Some
+         day I'll see if it demonstrates dirtiness more clearly than
+         other tracks.  ("rogo-test" appears to be this track's name).
+         Of particular interest, $26 is the Test Track, which $27 is
+         the Max Speed Test, see below).
+</p><p>
+         There is an area of memory which appears to list all the names
+	 of all the tracks, in order, and this suggests the game
+	 contains SSR11 and SSR11ii prepared for Arcade Mode, even
+	 though those tracks are not part of Arcade Mode.   As you
+	 might imagine, a Difficult Arcade Mode race at SSR11 is
+	 hectic.
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+$B637C&nbsp;-
+</td>
+<td>
+<p>
+         the number of laps in a race; it can be changed in all events
+         during the countdown screen, and sometimes sooner.
+         (You can even do a qualifying session of more than 1 lap, but
+         that's sort of silly since the total time counts; or you can
+         do a very short Grand Valley 300).
+</p>
+</td>
+</tr>
+
+
+<tr align=top>
+<td valign=top>
+$B68E0&nbsp;-
+</td>
+<td>
+          widely publicized as the player 1 lap counter
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+$B7614&nbsp;-
+</td>
+<td>
+<p>
+          is the corresponding player 2 lap counter
+          These can be used in a number of ways.  You can cheat and
+          have next to no distance to finish to beat the AI cars.  Or,
+          more interestingly, you can set up handicaps of an even
+	  number of laps in two-player races.  I find the most elegant
+	  way to do this is to set one player's lap counter to -1
+	  ($FFFF); this causes that one player to need to do two
+	  complete laps before they get to start lap 2.  These counters
+	  must be changed during the countdown screen for the race.
+</p>
+          To set up sort of a drag strip, do the following:
+          <ol>
+          <li> Run one two-player race normally, so as to get to the "Try Again"
+             screen.
+          <li> Set location $B63EC to $27, ie the Max Speed Text--this
+             is the Test Track, except that the finish line is 1000
+             meters beyond the start line
+          <li> start the race
+          <li> pause the race during the countdown, then go to GameShark
+             Memory Editor
+          <li> set all three of $B637C, $B68E0 and $B7614 to 1
+          <li> return from the GameShark, and unpause the race
+          </ol>
+<p>
+          You are now on lap 1 of a 1 lap race, but the finish line is
+          1000 meters away, so you have a 1000 meter drag race.
+          Unfortunately, player 1 gets a little over a car-length
+          head-start.  You cannot simple set $B637C to 0, since that
+          gets interpreted as a "free session".
+</p><p>
+          For two-player racing, this method of changing the number of
+          laps is much more convenient than going back out to the Option
+          screen, etc, and you can choose any arbitrary number, ie you
+          are not restricted to 1,2,3,5,7,15,20,30 or whatever it is--
+          you can race 6 laps, or 11 laps, or whatever you want.
+</p>
+</td>
+</tr>
+
+
+<tr align=top>
+<td valign=top>
+$8F76C&nbsp;- 
+</td>
+<td>
+<p>
+         It's best not to change this location.  It appears, in some modes
+         to be sort of a reminder of the last track used.
+</p><p>
+         But if you are adventurous, you can change both this location
+         and $B63EC, and get rather a strange effect.  The track used
+         will not be changed, but the distant scenery and certain lighting
+         effects will be those of the new one.
+</p><p>
+         E.g. race at DFRW, and then before starting the next race set
+         both $8F76C and $B63EC to the code for an SSR11 track, and you
+         end up racing at DFRW at night, sort of.  But not really.
+</p><p>
+         *** Do not change this location unless you really know what
+          you're doing***
+</p>
+</td>
+</tr>
+
+</table>
+</font>
+</HTML>
+
+
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

@@ -1,0 +1,300 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2003.08.11.00.39.08;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.10.22.11.58;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.04.08.00.50.03;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.08.00.48.49;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.10.19;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Corrected date.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop </TITLE>
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+</HEAD>
+
+
+<BODY text="#000000" BGCOLOR="white">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<a href="about.html">About</a> these pages.
+<P>
+<BR><BR><BR>
+<P>
+This is my [<b><em>albrnick</em></b>'s] attempt at presenting any and all info about Gran Turismo.
+</P>
+<P>
+
+<P><BR>
+
+Please select from the following sections:
+<DL>
+  <DT><A HREF="arcade/">Arcade</A></DT>
+    <DD>All the info you need on the arcade mode.</DD>
+  <DT><A HREF="simindex.html">Simulation</A></DT>
+    <DD>All the info you need on the simulation mode.</DD>
+  <DT><A HREF="../gt/">Links</A></DT>
+    <DD>Other Gran Turismo pages. </DD>
+</DL>
+
+
+<P><BR><BR><BR>
+
+Special thanks to all those who contributed:  (In order of contributions :)<BR>
+<A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael Spann</A>,
+<A HREF="mailto:chmilnir@@worldnet.att.net">Bob Chmilnitzky/"Jet Jaguar"</A>,
+<A HREF="mailto:jeremiah.d.williamson@@intel.com">Jeremy Williamson</A>,
+<A HREF="mailto:arpepper@@math.uwaterloo.ca">Adrian Pepper</A>,
+<A HREF="mailto:grimstev@@bobcat.ent.ohiou.edu">Steve Grimm</A>.
+<P>
+And to those who allowed me to repost their insights from the news group:<BR>
+<A HREF="mailto:schang@@astro.ocis.temple.edu">Steve Chang</A>,
+<A HREF="mailto:jbernhard@@crmse.sdsu.edu">Jamal Bernhard</A>,
+<A HREF="mailto:djbryant@@cc.memphis.edu">Derek Bryant</A>,
+<A HREF="mailto:lavind1@@us.ibm.com">Duane Laviniere</A>, 
+<A HREF="mailto:gtrshow@@magma.ca">Pete Anderson</A>.
+
+
+
+<!--
+<A HREF="mailto:"></A>,
+-->
+
+<P><BR>
+
+<P>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sun Aug 10 20:39:02 EDT 2003
+<!-- HHMTS END -->
+
+<BR>
+</BODY>
+
+</HTML>
+@
+
+
+1.4
+log
+@Update.
+@
+text
+@d70 1
+a70 1
+Last modified: Sun Apr  7 20:49:41 EDT 2002
+@
+
+
+1.3
+log
+@Set date, for now.
+@
+text
+@d19 2
+a21 2
+
+This is my (<b><em>albrnick</em></b>'s) attempt at presenting any and all info about Gran Turismo.
+d23 3
+a25 6
+<!--
+Well, GT2 is out, and I'd like to start up a GT2 site, as well as update 
+my GT site.  However, all my effort has been going towards moving my sites
+to a new server.  (It'll get rid of this ugly URL :)  I hope to have this
+finished around the first week or two of the new year.
+-->
+d29 1
+a29 2
+
+Please select from the folowing sections:
+@
+
+
+1.2
+log
+@Removed cruft.
+@
+text
+@d74 1
+a74 1
+Last modified: Sat Apr  6 23:13:42 EST 2002
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d21 1
+a21 7
+This is my attempt at presenting any and all info about Gran Turismo.
+Feel free to send me any additions or changes at 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu?subject=GT Info">
+<I>albrnick@@bobcat.ent.ohiou.edu</I></A>.  Let me know what you would like to 
+see here!  :)  As well as feel free to e-mail me any questions you have.
+Until I get more time/this is more complete, I intend to keep this relatively
+simple/quick loading.
+a29 12
+<P>
+OK newest pet project:<BR>
+Looking for the best list of online casinos?   
+Check out <A HREF="http://www.DotComCasinoGuide.com">.com Casino Guide</A><BR>
+(This is the reason this site hasn't been updated  :)
+
+<P>
+Old pet project:<BR>
+Wanna buy Alternative Energy products?  (Solar panels, etc..) 
+Check out <A HREF="http://www.altenergystore.com">The Alternative Energy Store</A><BR>
+(I'm part of the company that is doing this. :)
+
+d37 1
+a37 1
+  <DT><A HREF="simulation/">Simulation</A></DT>
+d39 1
+a39 3
+  <DT>FAQ</DT>
+    <DD>Frequently Asked Questions. <B>Sometime :)</B>
+  <DT><A HREF="links.html">Links</A></DT>
+a40 7
+  <DT><A HREF="needed.html">Needed</A></DT>
+    <DD>What the <I>Pit Stop</I> is looking for. (Last updated: 8/17/98)</DD>
+  <DT><A HREF="whatsnew.html">What's New</A> </DT>
+    <DD>Recent changes. (Last updated: 5/3/99)</DD>
+  <DT><A HREF="status.html">Status</A></DT>
+    <DD>My general commentary on the <I>Pit Stop</I>. (Last updated 6/22/98)
+    </DD>
+a41 34
+<P><BR><BR>
+
+
+<CENTER>
+<TABLE BORDER=1 CELLPADDING=2 WIDTH=400>
+  <TR>
+    <TH VALIGN=MIDDLE><FONT SIZE=2>
+<A HREF="http://www.geocities.com/TimesSquare/9593/" TARGET="_top">
+<IMG SRC="http://www.geocities.com/TimesSquare/9593/webring.jpg"
+  ALT="Gran Turismo Web Circuit" WIDTH=250 HEIGHT=150 BORDER=1 ALIGN="LEFT">
+</A>
+    This <A HREF="http://www.geocities.com/TimesSquare/9593/" TARGET="_top">Gran Turismo Web Circuit</A>
+    site owned by<BR>
+    <A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu"><FONT SIZE=2>Nick Albright</FONT></A>.
+    </TH>
+  </TR>
+  <TR>
+    <TH COLSPAN=2><FONT SIZE=2>
+[<A HREF="HTTP://www.webring.com/cgi-bin/webring?ring=granturismoring;id=12;prev5" TARGET="_top">Prev 5</A>]
+&nbsp 
+[<A HREF="HTTP://www.webring.com/cgi-bin/webring?ring=granturismoring;id=12;prev" TARGET="_top">Previous</A>]
+&nbsp
+[<A HREF="HTTP://www.webring.com/cgi-bin/webring?ring=granturismoring;random" TARGET="_top">Random Site</A>]
+&nbsp
+[<A HREF="HTTP://www.webring.com/cgi-bin/webring?ring=granturismoring;id=12;next" TARGET="_top">Next</A>]
+&nbsp
+[<A HREF="HTTP://www.webring.com/cgi-bin/webring?ring=granturismoring;id=12;next5" TARGET="_top">Next 5</A>]
+    </FONT>
+   </TH>
+  </TR>
+</TABLE>
+
+<P><BR>
+
+a43 41
+<font face="arial, helvetica" size="-2">
+<a href="http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">
+<img src="http://members.aol.com/GrindTeeth/GT/gtw.gif" align="left" width="125" height="80"
+border="0"></a>
+<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=28;next"
+target="_top">
+<img src=" http://members.aol.com/GrindTeeth/GT/gtlogo.jpg " align="right" border="0" width="125"
+height="80"></a>
+
+This <b> <a href=" http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">Gran Turismo
+Web Ring</a>site is owned by</b> <a
+href="mailto:albrnick@@bobcat.ent.ohiou.edu"><b>Nick Albright</b></a>.
+
+<br><br>
+
+<b>Want to join the <a href="http://members.aol.com/GrindTeeth/GT/webring.html"
+target="_top">Gran Turismo Web Ring</a>?</b>
+
+<br><br>
+
+<b>[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=28;sprev"
+target="_top">Skip Prev</a>]
+
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=28;prev"
+target="_top">Prev</a>]
+
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=28;next"
+target="_top">Next</a>]
+
+[<a href= "http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=28;skip"
+target="_top">Skip Next</a>] [<a
+href="http://www.webring.org/cgi-bin/webring?random;ring=grantourismo"
+target="_top">Random</a>]
+
+[<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=28;next5"
+target="_top">Next 5</a>] [<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;list"
+target="_top">List Sites</a>]
+</B>
+</FONT>
+</CENTER>
+
+d74 1
+a74 1
+Last modified: Wed Apr 12 00:00:27 EDT 2000
+a75 5
+<P>
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+a77 2
+<A HREF="http://www.altenergystore.com/cart/university/solar_panels1.html"><FONT COLOR="#FFFFFF">Solar Panels</FONT></A>
+
+@

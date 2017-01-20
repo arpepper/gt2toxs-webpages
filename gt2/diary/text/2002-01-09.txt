@@ -1,0 +1,48 @@
+Wednesday January 09, 2002
+
+Fun With A Game Shark and Ducati World Racing Challenge
+
+Threads:
+  Ducati World Racing Challenge
+  Game Shark Hints
+
+<CODES>
+Last night I had fun with a <B>GameShark Pro</B> and <B>Ducati World Racing
+Challenge</B>.
+
+I've found the event description structures, so I managed to run races
+on different tracks, with different lengths and entrants. Your
+entrance requirements seems tied to the AI entrant list, however, so
+no over-powering them that way. I also won a lot of money for a single
+race. I can patch different bikes into the Vintage lot or the 1-player
+challenges, but haven't quite convinced myself I don't create bad
+garage structures that way sometimes. Patch the length of the 1-player
+challenge to 0 laps and you'll nearly always win. A challenge only
+seems to be accepted if the horsepower of the challenge bike is
+greater than or equal to yours. At least, I think that's how it works.
+In general, the bikes codes are in order of viability (oldest to
+newest, basically; same order as the QuickRace menus) but not
+entirely.
+
+I'll eventually probably get around to posting some details here
+to allow others to do similar stuff.
+
+No hybrids in <B>DWRC</B>. The modifications are indicated by a single bit
+only, with the meaning of those modifications being dependent upon the
+value (code) of the bike itself. Garage entries are only 32 bytes
+long, so you wonder why you're only allowed 5 of them.
+</CODES>
+
+===============================================================================
+Copyright (C) 2002, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+

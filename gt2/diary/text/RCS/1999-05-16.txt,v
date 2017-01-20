@@ -1,0 +1,196 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.05.26.20.28.16;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@backup
+@
+
+
+1.4
+log
+@changes.
+@
+text
+@Sun May 16, 1999
+
+[R]GTO'95 MR  Wins at Grand Valley A Third Time!
+
+Threads:
+  Grand Valley 300 Results
+  Used Car Information
+  Race Results
+
+This time I ran the [R]GTO'95 MR with racing intercooler, and semi-racing
+exhaust, instead of normal intercooler.
+
+
+   Sunday May 16, 1999
+   [R]GTO'95 MR
+   Grand Valley 300km Endurance Race
+
+   q1st 1:36.268rec     Cr20,000
+
+   Results:
+
+   1st  [R]GTO'95 MR         1-35:15.6<--
+   2nd  [R]IMPREZA RLY Ed     +497.316   (1-43:32.9)
+   3rd  [R]PRIMERA'90 2.0Te   +513.698
+   4th  [R]CELICA GT-FOUR     +628.678
+   5th  [R]LANTIS TypeR       +772.801
+   6th  [R]ACCORD Sedan       +819.046
+   
+   lap 1   1:37.299
+   pits   10,20,30,40,50
+   fl  (2)  1:30.840
+   slowest  non-pit   (49)  1:36.584
+             next     (8)   1:35.726
+   fastest pit laps   (20in)  1:48.248
+                      (41out) 1:37.720
+   slowest pit laps   (40in)  1:53.918
+                      (21out) 1:42.685
+
+So, I led from start to finish again.  The first two cars were lapped by
+lap eight, and the third by lap 10, the field by lap 14; some cars
+were lapped for the second time by lap 16.
+
+A little eye irritation slowed me slightly after lap 20, but went
+away after a couple of laps.
+
+You can see this was an absurdly slow field.  In fact, the more I
+try and remember the details, the more I think I must have done
+this race *after* racing the tuned GTO'95 MR.  At times it's like
+the game responds to the calibre of your previous entrant.
+
+I believe I used the tuned car as a model to help with gear settings
+suitable for use with heavier turbocharging.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+I was pleased that I took another 30 seconds off my time with this car.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+@
+
+
+1.3
+log
+@Added threads.
+@
+text
+@d7 1
+@
+
+
+1.2
+log
+@changes prior to adding threads
+@
+text
+@d5 4
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 4
+a6 1
+Tuned GTO'95 MR discovers value of third place at Grand Valley 8-(
+a7 1
+Well,
+d10 1
+a10 1
+   Tuned GTO'95 MR
+d13 1
+a13 1
+   q6th 1:4?.???        Cr0
+d17 6
+a22 6
+   1st  [R]NSX-R LM GT2       1-41:54.7
+   2nd  [R]R32GT-R'91           +25.478
+   3rd  GTO'95 MR               +26.609  (1-42:21.3)<--
+   4th  [R]IMPREZA RLY Ed       +98.266
+   5th  [R]EXIV                +239.951
+   6th  [R]LANCER EvolV GSR    +252.026
+d24 1
+a24 1
+   lap 1   1:44.540
+d26 19
+a44 28
+   fl  (43)  1:38.141
+   slowest  non-pit   (60)  1:46.463
+             next     (19)  1:42.931
+   fastest pit laps   (20in)  1:55.417
+                      (51out) 1:43.670
+   slowest pit laps   (50in)  2:00.329
+                      (41out) 1:47.940
+
+First off, I could have come second, but let the GT-R ahead on the last
+lap in order to confirm what 3rd place prize money was.  No really!!!
+
+I was in a solid second place until my first pit stop.  Then I
+dropped to 4th, got to 1st in the exchange, but was raced into
+2nd.
+
+lap 20 - dropped to 3rd.
+
+lap 30 - dropped from  1st to 3rd again.
+
+On the road, I just barely got 1st by lap 40, but my pit stop put
+me in third.  8-(
+
+My stop at lap 50 put me in a solid 2nd.  8-(  No last-minute stop
+by the leader to put me in the lead this time...
+
+In fact, the third place car did begin challenging me, but I could
+have held him off.  In fact, it was quite difficult letting him
+by for the last time.  (Note my very slow last lap time).
+d46 2
+a47 1
+I had several problems negotiating "the hairpin".
+d49 1
+a49 1
+I won Cr150,000, and no car.
+d51 1
+a51 2
+The next Grand Valley 300 entrant will be an encore performance by
+the ConceptCar.  And, after that, I think I will take a rest.
+@

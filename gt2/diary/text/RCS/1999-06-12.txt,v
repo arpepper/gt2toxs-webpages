@@ -1,0 +1,191 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@Sat Jun 12, 1999
+
+Trying to Express My Thoughts about Race-Series Prize-Cars
+
+Threads:
+  Prize Car Patterns
+
+In the Normal and Tuned Series I think the cars are awarded a bit more
+evenly than true random distribution would give.  It only took me 10
+wins, which would be on the low side of expectations if the cars were
+truly awarded randomly.  (Try rolling a die, and see how long it
+usually takes you to get all six numbers; this morning I took 19,13,13,17).
+
+According to a semi-brute-force program I wrote, you have only the
+following chance of getting all six on or before:
+
+      #     comb      total       prob
+    races   all 6     combs       all 6
+       6         6 / 46656        .0154
+       7     15120 / 279936       .0540
+       8    191520 / 1679616      .1140
+       9   1905120 / 10077696     .1890
+      10  16435440 / 60466176     .2718
+      11 129230640 / 362797056    .3562
+
+And after that, I need to work around an overflow problem before I can
+report further.  8-)  (Or remember some less brute-force probability
+theory).  The above intuitively makes sense to me, but I may have made
+a mistake.  8-(  As you get more prize cars (or die rolls), it actually
+becomes more likely you will get ones you already have, making it quite
+difficult to actually collect all of them.
+
+And I seemed to win the last car after I took the new car I had been
+using (Viper RT/10) and racked up some other series wins for it.
+
+
+In order:
+
+   [A few losses up here...]
+    1. GTO'95 MR     white Trueno
+   [LONG gap in here...]
+    2. GTO'95 MR     blue Trueno
+    3. GTO'95 MR     blue Trueno   8-(
+    4. GTOtwinturbo  blue Skyline
+    5. Cerbera       red Skyline
+    6. Cerbera       blue Trueno   8-(
+    7. R32GT-R'89    pink Trueno
+   [Bought my first Viper RT/10, and entered it in the Tuned Series straight away]
+    8. ViperRT/10    blue Trueno   8-(
+    9. ViperRT/10    white Trueno   8-(
+   [In here, RT/10 won A-level GT-League, plus FR, then I powered off for night]
+   10. ViperRT/10    yellow Skyline   8-) 8-) 8-)
+
+
+Apart from the Viper, all other cars were quite old and had somewhat
+extensive racing histories.
+
+
+A car which has been winningly raced in a lot of other series seems to
+have a better than random chance of getting a new prize car in a
+"target" series.  I suspect records of these wins are stored in the
+"shared" portion of the cars records, ie with the "lifetime" supply
+of parts, since it seems cars in which another "instance" has done
+well will also do well.
+
+The Normal series came off even faster, with 8 wins (i.e only two
+duplicates).  I don't have detailed notes here, but I won with Viper
+GTS several times, then lost with a Griffith 500 at one point, and
+won a duplicate car after that with the Griffith 500, and won the
+final car first time out with a Griffith 4.0, after preparing in
+Sunday Cup and Clubman and FR.  (Race-modded Griffiths of both types
+had previously raced extensively in vain, hunting for the elusive
+yellow ConceptCar).
+
+In contrast, some of the "International Series" prize cars seem really
+"locked out" (or others "locked in"!) for a long time.  In a
+"test" game a prize ConceptCar, not raced in any other series, won a
+white/blue Viper GTS-R in 5 out of 5 (not all consecutive) USvsJP
+entries, while a race-mod Viper and a race-mod GTO'95MR both turned up
+black FTO's first time.  That Viper first won the yellow ConceptCar for
+me, in that game, after I first won all of GT league (including GT-I)
+with it, plus FR, and then won UKvsUS three times, getting three
+different cars.  So, later I tried doing the same thing with a race-mod
+Viper in my "main" game, and, sure enough, a yellow ConceptCar was
+finally won there!
+
+I cannot believe this is all due to faulty use of faulty random number
+generation routines, as is suggested by at least one FAQ.
+
+I know for a fact that racing models are not penalized, prize-car-wise,
+for entering non-racing series.  (This is, however, about the only
+definite fact I can state).
+
+I'll post about this to r.g.v.s soon.
+
+Here is the same table for 4 cars (or 4-sided dice)
+
+    #      comb    total        prob
+  races    all 4   combs        all 4
+    4         24 / 256          0.0938
+    5        240 / 1024         0.2344
+    6       1560 / 4096         0.3809
+    7       8400 / 16384        0.5127
+    8      40824 / 65536        0.6229
+    9     186480 / 262144       0.7114
+   10     818520 / 1048576      0.7806
+   11    3498000 / 4194304      0.8340
+   12   14676024 / 16777216     0.8748
+   13   60780720 / 67108864     0.9057
+   14  249401880 / 268435456    0.9291
+If prize cars were awarded randomly, and you entered an International
+Series 15 times, you would have a 95% chance of getting all four
+cars by that time (and a 5% chance of not doing!)
+
+Here's the numbers for 2 car series.
+
+    2      2 / 4       0.5000
+    3      6 / 8       0.7500
+    4     14 / 16      0.8750
+    5     30 / 32      0.9375
+    6     62 / 64      0.9688
+    7    126 / 128     0.9844
+    8    254 / 256     0.9922
+    9    510 / 512     0.9961
+   10   1022 / 1024    0.9980
+   11   2046 / 2048    0.9990
+   12   4094 / 4096    0.9995
+   13   8190 / 8192    0.9998
+   14  16382 / 16384   0.9999
+   15  32766 / 32768   0.9999
+
+I.e. by 6 or 7 tries, you really should have got both cars.
+But I seemed to get both cars in two tries in all both of
+those races.  Which the above says is somewhat unlikely.
+(Though the probability of it happening is 1 in 4, so it's not very
+unlikely).
+
+(This table's easy; # of combinations is 2^n, and there are only two
+combinations at any n which do not include both, namely all the
+first, or all the second).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+d142 11
+@

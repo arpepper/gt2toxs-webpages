@@ -1,0 +1,127 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.21.01.45.08;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.21.01.41.31;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@corrected Google colours 8-)
+number agreement
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - About</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+About These Pages
+</H1>
+<H3>
+<em>an editorial note by <b>GT2toXS</b></em>
+</H3>
+</CENTER>
+<table width="85%"><tr><td width="5%"></td><td>
+<P>
+I want to make it clear I did not create the <b>Gran Turismo Pit Stop</b>
+myself, but I hope that, by presenting a version of it here, everyone can
+find it as useful as I did.
+</P>
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<P>
+Shortly after I first got <font size="+1" color="blue">Gran</font> <font size="+1" color="red">Turismo</font> <font size="+1">(1)</font>, I discovered
+the <b>Gran Turismo Pit Stop</b> website created by <b>albrnick</b>.
+</P>
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<P>
+The car comparison he provided, written by
+<A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael Spann</A>.
+was particularly useful as I started to attack 
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> seriously.
+I later made a few contributions to the pages myself, tracking down
+details like license test times and obscure prize values.
+</P>
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<P>
+And so, when I noticed <b>albrnick</b>'s pages disappear from his original site,
+I retrieved them from the
+<b><font color="blue">G</font><font color="red">o</font><font color="yellow">o</font><font color="blue">g</font><font color="green">l</font><font color="red">e</font></b> cache and tidied them up so I could present them here.
+Using information from my diaries, I filled in all the missing details, and
+even added complete lists of all AI competitors for each simulation event.
+</P>
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<P>
+<A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael Spann</A>'s CGI-based
+car comparison had previously inspired me to write my own, which I
+later translated into <b>JavaScript</b>, allowing me to host it here,
+hooking it in in place of <A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael</A>'s.
+The statistics I use are, in fact, obtained from <b>David Connoy</b>'s complete
+car list FAQ.  But <A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael Spann</A>
+and <b>albrnick</b> were definitely my primary inspiration.
+</P>
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<P>
+One part I have removed is <b>albrnick</b>'s <em>best times</em> pages.
+They had never totally caught on, and were particularly stale by the end.  It
+would not have been worth the work of retrieving all those records pages,
+and, over all, I think the site at this point in time is better without them.
+</P>
+</td></tr></table>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Thu Apr 18 23:04:52 EDT 2002
+<!-- HHMTS END -->
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d46 1
+a46 1
+<b><font color="red">G</font><font color="yellow">o</font><font color="blue">o</font><font color="green">g</font><font color="yellow">l</font><font color="red">e</font></b> cache and tidied them up so I could present them here.
+d64 2
+a65 2
+One thing I have removed is <b>albrnick</b>'s <em>best times</em> section.
+It had never totally caught on, and was particularly stale by the end.  It
+d67 1
+a67 1
+and, over all, I think the site at this point in time is better without it.
+@

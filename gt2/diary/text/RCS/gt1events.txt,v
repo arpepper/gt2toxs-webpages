@@ -1,0 +1,1363 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2002.04.14.04.15.12;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.14.01.51.35;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.14.01.50.53;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Text form of events info.
+@
+
+
+1.3
+log
+@Added information about the Lightweight competitor list.
+@
+text
+@
+Sunday Cup Event (8008F544)
+  tracks     80090E0C
+  prizemoney 80091004
+  poletimes  8008F4E4
+  entrants   80090B50
+  prizecars  80090D0C
+  laps       2
+
+tracks
+  80090E0C ->
+   8008C77C  mini       Autumn Mini
+   8008C760  testline   High Speed Ring
+   8008C6B0  short      Grand Valley East
+
+prizemoney
+  80091004 ->
+   (q1500, 1st5000, champ15000)
+   
+
+entrants
+  80090B50 ->
+   8008C408  tstln  Starlet Glanza V
+   8008C250  mecln  Eclipse GT
+   8008C410  hcfon  Civic'93 Sedan
+   8008C418  tlevn  Corolla Levin BZ-G
+   8008C378  ademn  Demio GL-X
+   8008C490  mmgon  Mirage Cyborg R'92
+   8008C3D8  hcvnn  Civic 3 door
+   8008C458  mmgrn  Mirage Asti RX
+   8008C470  nq15n  Silvia Q's Aero (S14)
+
+prizecars
+  80090D0C ->
+   8008C678  a-emn  Demio Aspec
+  
+poletimes
+  8008F4E4 ->
+   0000B2C0  0:45.769  (Autumn Mini)
+   000122C2  1:14.434  (High Speed Ring)
+   0001447C  1:23.068  (Grand Valley East)
+
+===============================================================================
+
+
+Clubman Cup Event (8008F55C)
+  tracks     80090E1C
+  prizemoney 80091028
+  poletimes  8008F4F0
+  entrants   80090B78
+  prizecars  80090D14
+  laps       2
+
+tracks
+  80090E1C ->
+   8008C790  autumn     Autumn Ring
+   8008C754  shortway   Clubman Stage R5
+   8008C784  mountain   Trial Mountain
+
+prizemoney
+  80091028 ->
+   (q2500, 1st7000, champ20000)
+   
+
+entrants
+  80090B78 ->
+   8008C0E0  sipcn  Impreza'96 WG WRX
+   8008C168  tmr2n  MR-2 GT-S
+   8008C2F0  n18nn  180SX Type X
+   8008C330  ns15n  Silvia K's Aero (S14)
+   8008C338  nt33n  Skyline GTS25t TypeM
+   8008C2B8  mftnn  FTO GP version R
+   8008C350  mecln  Eclipse GT
+   8008C2E0  hinrn  Integra Type R
+   8008C2D0  hpnvn  Prelude Type SH
+   8008C480  hcnrn  Civic(Racer)
+
+prizecars
+  80090D14 ->
+   8008C680  c-30n   Camaro Z28 30th Anniversary
+  
+poletimes
+  8008F4F0 ->
+   00013FFE  1:21.918  (Autumn Ring)
+   0000DEA4  0:56.996  (Clubman Stage R5)
+   00016BEB  1:33.163  (Trial Mountain)
+
+===============================================================================
+
+
+GT Cup Event (8008F574)
+  tracks     80090E2C
+  prizemoney 8009104C
+  poletimes  8008F4FC
+  entrants   80090BA4
+  prizecars  80090D1C
+  laps       3
+
+tracks
+  80090E2C ->
+   8008C6F8  circuit     Grand Valley Speedway
+   8008C6D4  test_in2    Deep Forest
+   8008C76C  highway     Special Stage R5
+   8008C784  mountain    Trial Mountain
+
+prizemoney
+  8009104C ->
+   (q5000, 1st10000, champ25000)
+   
+
+entrants
+  80090BA4 ->
+   8008C228  hnsnn   NSX Type S zero
+   8008C598  vgr5n   Griffith 500
+   8008C590  dvpgn   Viper GTS
+   8008C198  mgtmn   GTO'95 MR
+   8008C1E0  tspnn   Supra RZ
+   8008C130  nv34n   Skyline GT-R Vspec
+   8008C1F0  sipbn   Impreza'96WRX STi VerIII
+   8008C178  mlnnn   Lancer Evolution IV GSR
+
+prizecars
+  80090D1C ->
+   8008C688  t-hvr   Chaser LM
+  
+poletimes
+  8008F4FC ->
+   0001ADC9  1:50.025  (Grand Valley)
+   00012765  1:15.621  (Deep Forest Racing Way)
+   000143B8  1:22.872  (Special Stage R5)
+   00015345  1:26.853  (Trial Mountain)
+
+===============================================================================
+
+
+GT World Cup Event (8008F58C)
+  tracks     800904E0
+  prizemoney 80091070
+  poletimes  8008F50C
+  entrants   80090BC8
+  prizecars  80090D24
+  laps       3
+
+tracks
+  800904E0 ->
+   8008C760  testline   High Speed Ring
+   8008C784  mountain   Trial Mountain
+   8008C6F8  circuit    Grand Valley Speedway
+   8008C76C  highway    Special Stage R5
+   8008C6D4  test_in2   Deep Forest
+   8008C6A8  outbahn    Special Stage R11
+
+prizemoney
+  80091070 ->
+   (q10000, 1st20000, champ50000)
+   
+
+entrants
+  80090BC8 ->
+   8008C500  mgntr    [R]GTO twinturbo
+   8008C530  sipxr    [R]Impreza Rally Edition
+   8008C528  nr32r    [R]Skyline'91 GT-R
+   8008C5D8  tcegr    [R]Celica GT-4
+   8008C5D0  tsplr    [R]Castrol Supra GT
+   8008C5C8  hnslr    [R]NSX-R LM GT2
+   8008C5C0  nl33r    [R]NISMO GT-R LM (special model)
+   8008C4F0  mlnnr    [R]Lancer Evolution IV GSR
+   8008C5B8  npror    [R]Primera'90 2.0Te
+   8008C5B0  hacsr    [R]Accord Sedan
+   8008C5A8  texvr    [R]Corona Exiv 200GT
+   8008C5A0  altsr    [R]Lantis Type R 4 door
+
+prizecars
+  80090D24 -> 00 00 00 00
+
+   Note patching this into other tables seems to give no prize.
+  
+poletimes
+  8008F50C ->
+   0000D42B  0:54.315  (High Speed Ring)
+   00013BBE  1:20.830  (Trial Mountain)
+   00018CEB  1:41.611  (Grand Valley)
+   00012DB7  1:17.239  (Special Stage R5)
+   000111E2  1:10.114  (Deep Forest Racing Way)
+   0001B7D3  1:52.595  (Special Stage Route 11)
+
+===============================================================================
+
+
+FF Event (8008F5EC)
+  tracks     80090D44
+  prizemoney 800909EC
+  poletimes  8008F444
+  entrants   8009098C
+  prizecars  80090C94
+  laps       2
+
+tracks
+  80090D44 ->
+   8008C6B8  rev_test_in   Deep Forest II
+   8008C6B0  short         Grand Valley East
+   8008C6A8  outbahn       Special Stage R11
+
+prizemoney
+  800990E9C ->
+    (q1500, 1st5000, champ10000)
+   
+
+entrants
+  8009098C ->
+   8008C2E0  hinrn  Integra Type R
+   8008C2D0  hpnvn  Prelude Type SH
+   8008C350  mecln  Eclipse GT
+   8008C488  hcrxn  Civic'91 CR-X Si
+   8008C2B8  mftnn  FTO GP version R
+   8008C4C8  hcvon  Civic'93 3door Si
+   8008C418  tlevn  Corolla Levin BZ-G
+   8008C460  nprin  Primera'95 2.0Te
+   8008C480  hcvrn  Civic(Racer)
+   8008C408  tstln  Starlet Glanza V
+   8008C430  altsn  Lantis Type R 4 door
+   8008C450  hdesn  del Sol SiR (hidden)
+   8008C4A8  tceln  Celica SS-II
+
+prizecars
+  80090C94 ->
+   8008C5E0  t-eln  Celica SS-II
+   8008C4D8  h-rxn  Civic'91 CR-X Si
+  
+poletimes
+  8008F444 ->
+   0001500E  1:26.030  (Deep Forest Racing Way II)
+   00011FC6  1:13.670  (Grand Valley East)
+   00020ED2  2:14.866  (Special Stage R11)
+
+===============================================================================
+
+
+FR Event (8008F604)
+  tracks     80090D54
+  prizemoney 80090EC0
+  poletimes  8008F450
+  entrants   800909C4
+  prizecars  80090CA0
+  laps       2
+
+tracks
+  80090D54 ->
+   8008C6E0  rev_short    Grand Valley East II
+   8008C6D4  test_in2     Deep Forest
+   8008C6C8  rev_circuit  Grand Valley Speedway II
+
+prizemoney
+  80090EC0 ->
+   (q1500, 1st5000, champ10000)
+   
+
+entrants
+  800909C4 ->
+   8008C1E0  tspnn   Supra RZ
+   8008C1C8  afd7n   FD efini RX-7 TypeRZ
+   8008C330  ns15n   Silvia K's Aero (S14)
+   8008C328  ns14n   Silvia'95 K's Aero (S?
+   8008C150  tspon   Supra TwinTurbo R
+   8008C308  ns23n   Silvia'91 K's Aero (S?
+   8008C108  nzxsn   Fairlady Z 2 seater
+   8008C2D8  n180n   180SX'94 Type X
+   8008C2F0  n18nn   180SX Type X
+   8008C310  afc7n   FC savanna RX-7 III
+   8008C3E8  ttron   Trueno GT-Apex
+   8008C3F0  tlvon   Corolla Levin GT Apex
+
+prizecars
+  80090CA0 ->
+   8008C5F0  n-13n  Silvia Q's 1800cc
+   8008C5E8  n-18n  SilEighty
+  
+poletimes
+  8008F450 ->
+   00011B83  1:12.579  (Grand Valley East II)
+   000145C6  1:23.398  (Deep Forest Racing Way)
+   0001D5E4  2:00.292  (Grand Valley II)
+
+===============================================================================
+
+
+4WD Event (8008F61C)
+  tracks     80090D64
+  prizemoney 80090EE4
+  poletimes  8008F45C
+  entrants   800909F8
+  prizecars  80090CAC
+  laps       2
+
+tracks
+  80090D64 ->
+   8008C700  rev_mountain  (Trial Mountain II)
+   8008C6F8  circuit       (Grand Valley Speedway)
+   8008C6EC  rev_highway   (Special Stage R5 II)
+
+prizemoney
+  80090EE4 ->
+   (q1500, 1st5000, champ10000)
+   
+
+entrants
+  800909F8 ->
+   8008C198  mgtmn   GTO'95 MR
+   8008C210  siprn   Impreza WRX type R STi Version
+   8008C1F8  mlnon   Lancer Evolution III GSR
+   8008C0E0  sipcn   Impreza'96 WG WRX
+   8008C110  nr34n   R33 Skyline GT-R
+   8008C178  mlnnn   Lancer Evolution IV GSR
+   8008C170  tcegn   Celica GT-Four
+   8008C340  nplon   Pulsar'91 GTI-R
+   8008C128  slgan   Legacy WC GT-R
+   8008C288  ssvxn   Alcyone SVX Version L
+
+prizecars
+  80090CAC ->
+   8008C600  s-v4n   Alcyone SVX S4
+   8008C5F8  m-nnn   Lancer Evolution IV GSR
+  
+poletimes
+  8008F45C ->
+   00016A7F  1:32.799  (Trial Mountain II)
+   0001C793  1:56.627  (Grand Valley Speedway)
+   00015342  1:26.850  (Special Stage R5 II)
+
+===============================================================================
+
+
+Lightweight Battle Stage (8008F5D4)
+  tracks     80090DA4
+  prizemoney 80090F50
+  poletimes  8008F490
+  entrants   80090A64
+  prizecars  80090CD0
+  laps       2
+
+tracks
+  80090DA4 ->
+   8008C748  rev_mini      Autumn Mini II
+   8008C754  shortway      Clubman Stage R5
+   8008C6B8  rev_test_in2  Deep Forest II
+
+prizemoney
+  80090F50 ->
+   (q2000, 1st5000, champ10000)
+   
+
+entrants
+  80090A64 ->
+   8008C2E0  hinrn   Integra Type R
+   8008C4C8  hcvon   Civic'93 3door Si
+   8008C480  hcvrn   Civic(Racer)
+   8008C3F0  tlvon   Corolla Levin GT-Apex
+   8008C3E8  ttron   Trueno GT-Apex
+   8008C418  tlevn   Corolla Levin BZ-G
+   8008C400  ttrnn   Trueno BZ-G
+   8008C4D8  h-rxn   Civic'91 CR-X Si
+   8008C458  mmgrn   Mirage Asti RX
+   8008C378  ademn   Demio GL-X
+   8008C490  mmgon   Mirage'92 Cyborg-R
+   8008C408  tstln   Starlet Glanza V
+
+prizecars
+  80090CD0 ->
+   8008C630  a-ian   Eunos Roadster
+   8008C628  h-vrn   Civic(Racer)
+  
+poletimes
+  8008F490 ->
+   00009EC8  0:40.648   (Autumn Ring Mini II)
+   0000E220  0:57.888   (Clubman Stage R5)
+   00014894  1:24.116   (Deep Forest Racing Way II)
+
+In shopping mode, the following list is at 800531FC, indicating valid
+entrants.  The addresses shown, rather than being pointers to the car
+code strings are the actually addresses of the strings themselves,
+word-aligned (i.e.  padded with zeroes to eight bytes each):
+
+   80053AFC   adlxr   [R]Demio LX
+   80053B04   adglr   [R]Demio GL
+   80053B0C   ademr   [R]Demio GL-X
+   80053B14   adlxn   Demio LX
+   80053B1C   adgln   Demio GL
+   80053B24   ademn   Demio GL-X
+   80053B2C   a-emr   [R]*Demio Aspec
+   80053B34   a-emn   *Demio Aspec
+   80053B3C   aminr   [R]Eunos Roadster
+   80053B44   an16r   [R]Eunos Roadster'89 1600
+   80053B4C   aminn   Eunos Roadster
+   80053B54   an16n   Eunos Roadster'89 1600
+   80053B5C   amisr   [R]Eunos Roadster S Special
+   80053B64   amivr   [R]Eunos Roadster V Special
+   80053B6C   amisn   Eunos Roadster S Special
+   80053B74   amivn   Eunos Roadster V Special
+   80053B7C   as16r   [R]Eunos Roadster'92 1600 S Special
+   80053B84   av16r   [R]Eunos Roadster'90 1600 V Special
+   80053B8C   as16n   Eunos Roadster'92 1600 S Special
+   80053B94   av16n   Eunos Roadster'90 1600 V Special
+   80053B9C   hcrxr   [R]Civic'91 CR-X Si
+   80053BA4   hcfor   [R]Civic'93 Sedan
+   80053BAC   hcvor   [R]Civic'93 3door Si
+   80053BB4   hdesr   [R]del Sol SiR (hidden)
+   80053BBC   hdegr   [R]del Sol VGI (hidden)
+   80053BC4   hderr   [R]del Sol'93 Si
+   80053BCC   hdelr   [R]del Sol'93 S
+   80053BD4   hcvrr   [R]Civic(Racer)
+   80053BDC   hcvnr   [R]Civic 3 door
+   80053BE4   hcfnr   [R]Civic Sedan
+   80053BEC   hinrr   [R]Integra Type R
+   80053BF4   hinsr   [R]Integra GS-R
+   80053BFC   hcrxn   Civic'91 CR-X Si
+   80053C04   hcfon   Civic'93 Sedan
+   80053C0C   hcvon   Civic'93 3door Si
+   80053C14   hdesn   del Sol SiR (hidden)
+   80053C1C   hdegn   del Sol VGI (hidden)
+   80053C24   hdern   del Sol'93 Si
+   80053C2C   hdeln   del Sol'93 S
+   80053C34   hcvrn   Civic(Racer)
+   80053C3C   hcvnn   Civic 3 door
+   80053C44   hcfnn   Civic Sedan
+   80053C4C   hinrn   Integra Type R
+   80053C54   hinsn   Integra GS-R
+   80053C5C   mmgor   [R]Mirage'92 Cyborg-R
+   80053C64   mmgrr   [R]Mirage Asti RX
+   80053C6C   mmgon   Mirage'92 Cyborg-R
+   80053C74   mmgrn   Mirage Asti RX
+   80053C7C   mftnr   [R]FTO GP version R
+   80053C84   mftxr   [R]FTO GPX
+   80053C8C   mftgr   [R]FTO GR
+   80053C94   mftor   [R]FTO'94 GPX
+   80053C9C   mftrr   [R]FTO'94 GR
+   80053CA4   mftnn   FTO GP version R
+   80053CAC   mftxn   FTO GPX
+   80053CB4   mftgn   FTO GR
+   80053CBC   mfton   FTO'94 GPX
+   80053CC4   mftrn   FTO'94 GR
+   80053CCC   ttror   [R]Trueno GT-Apex
+   80053CD4   tlvor   [R]Corolla Levin GT-Apex
+   80053CDC   ttron   Trueno GT-Apex
+   80053CE4   tlvon   Corolla Levin GT-Apex
+   80053CEC   ttrnr   [R]Trueno BZ-G
+   80053CF4   tlevr   [R]Corolla Levin BZ-G
+   80053CFC   tstlr   [R]Starlet Glanza V
+   80053D04   ttrnn   Trueno BZ-G
+   80053D0C   tlevn   Corolla Levin BZ-G
+   80053D14   tstln   Starlet Glanza V
+
+Note that any car which can be entered in normal form can be entered in
+race-mod form, too.  Note that, apart from the Demio Aspec, no other
+prize cars can be entered in this series, not even the prizes you
+win from it!
+
+At 80058310 there is a table of pointers referring to these strings.
+It begins with the count 38(hex) or 56, followed by the above pointers,
+in reverse order.  Strange fact: the above list has 68 entries, so
+perhaps the count does not refer to it.
+
+
+===============================================================================
+
+
+USvsJP Event (8008F6C4)
+  tracks     80090DB4
+  prizemoney 80090F74
+  poletimes  80080F74
+  entrants   80090A98
+  prizecars  80090CDC
+  laps       3
+
+tracks
+  80090DB4 ->
+   8008C700 rev_mountain    Trial Mountain II
+   8008C76C highway         Special Stage R5
+   8008C760 testline        High Speed Ring
+   8008C6E0 rev_short       Grand Valley East II
+   8008C6A8 outbahn         Special Stage R11
+
+prizemoney
+  80090F74 ->
+   (q3000, 1st10000, champ20000)
+   
+
+entrants
+  80090A98 ->
+   8008C530  sipxr    [R]Impreza Rally Edition
+   8008C528  nr32r    [R]Skyline'91 GT-R
+   8008C520  dvprr    [R]Viper RT/10
+   8008C518  ccrvr    [R]Corvette'96 Grand Sport
+   8008C510  ccrcr    [R]Corvette'96
+   8008C508  dvpgr    [R]Viper GTS
+   8008C500  mgntr    [R]GTO twinturbo
+   8008C4F8  ccamr    [R]Camaro Z28
+   8008C4F0  mlnnr    [R]Lancer Evolution IV GSR
+   8008C4E8  n-00r    [R]Nismo 400R
+   8008C4E0  dcphn    Concept Car
+
+prizecars
+  80090CDC ->
+   8008C640  m-tor    [R]FTO LM Edition
+   8008C638  d-pgr    [R]Viper GTS-R
+  
+poletimes
+  8008F409C ->
+   0001438E  1:22.830  (Trial Mountain II)
+   0001351F  1:19.135  (Special Stage R5)
+   0000DA3E  0:55.870  (High Speed Ring)
+   0000F2B7  1:02.135  (Grand Valley East II)
+   0001C584  1:56.100  (Special Stage R11)
+
+===============================================================================
+
+
+UKvsJP Event (8008F6DC)
+  tracks     80090DCC
+  prizemoney 80090F98
+  poletimes  8008F4B0
+  entrants   80090AC8
+  prizecars  80090CE8
+  laps       3
+
+tracks
+  80090DCC ->
+   8008C700 rev_mountain    Trial Mountain II
+   8008C76C highway         Special Stage R5
+   8008C760 testline        High Speed Ring
+   8008C6E0 rev_short       Grand Valley East II
+   8008C6A8 outbahn         Special Stage R11
+
+prizemoney
+  80090F98 ->
+   (q3000, 1st10000, champ20000)
+   
+
+entrants
+  80090AC8 ->
+   8008C588  afa7r    [R]RX-7 Aspec
+   8008C580  vgrfr    [R]Griffith 4.0
+   8008C578  afd7r    [R]RX-7 TypeRZ
+   8008C570  tspnr    [R]Supra RZ
+   8008C568  hnsnr    [R]NSX TypeSzero
+   8008C560  tspor    [R]Supra twinturbo R
+   8008C558  vcrbr    [R]Cerbera
+   8008C550  vgr5r    [R]Griffith 500
+   8008C548  ld7cr    [R]DB7 Coupe
+   8008C540  ld7vr    [R]DB7 Volante
+   8008C538  acoer    [R]Eunos Cosmo 20B Type-E CCS
+
+prizecars
+  80090CE8 ->
+   8008C650  h-err    [R]del Sol LM Edition
+   8008C648  v-rbr    [R]Cerbera LM
+  
+poletimes
+  8008F4B0 ->
+   00014691  1:23.601  (Trial Mountain II)
+   0001396D  1:20.237  (Special Stage R5)
+   0000DE09  0:56.841  (High Speed Ring)
+   0000F864  1:03.588  (Grand Valley East II)
+   0001C5CB  1:56.171  (Special Stage R11)
+
+===============================================================================
+
+
+UKvsUS Event (8008F6F4)
+  tracks     80090DE4
+  prizemoney 80090FBC
+  poletimes  8008F4C4
+  entrants   80090AF8
+  prizecars  80090CF4
+  laps       3
+
+tracks
+  80090DE4 ->
+   8008C700 rev_mountain    Trial Mountain II
+   8008C76C highway         Special Stage R5
+   8008C760 testline        High Speed Ring
+   8008C6E0 rev_short       Grand Valley East II
+   8008C6A8 outbahn         Special Stage R11
+
+prizemoney
+  80090FBC ->
+   (q3000, 1st10000, champ20000)
+
+entrants
+  80090AF8 ->
+   8008C508  dvpgr    [R]Viper GTS
+   8008C518  ccrvr    [R]Corvette'96 Grand Sport
+   8008C510  ccrcr    [R]Corvette'96
+   8008C520  dvprr    [R]Viper RT/10
+   8008C580  vgrfr    [R]Griffith 4.0
+   8008C558  vcrbr    [R]Cerbera
+   8008C548  ld7cr    [R]DB7 Coupe
+   8008C540  ld7vr    [R]DB7 Volante
+   8008C4F8  ccamr    [R]Camaro Z28
+   8008C550  vgr5r    [R]Griffith 500
+   8008C4E0  dcphn    Concept Car
+
+prizecars
+  80090CF4 ->
+   8008C660  a-a7r    [R]RX-7 Aspec LM
+   8008C658  d-phr    "[R]"Concept Car
+  
+poletimes
+  8008F4C4 ->
+   00014385  1:22.821  (Trial Mountain II)
+   0001351F  1:19.135  (Special Stage R5)
+   0000DE09  0:56.841  (High Speed Ring)
+   0000F9F7  1:03.991  (Grand Valley East II)
+   0001C584  1:56.100  (Special Stage R11)
+
+===============================================================================
+
+
+MegaSpeed Cup Event (8008F6AC)
+  tracks     80090DFC
+  prizemoney 80090FE0
+  poletimes  8008F4D8
+  entrants   80090B28
+  prizecars  80090D00
+  laps       2
+
+tracks
+  80090DFC ->
+   8008C760 testline      High Speed Ring
+   8008C774 test          Test Track
+   8008C738 rev_testline  High Speed Ring II
+
+prizemoney
+  80090FE0 ->
+   (q5000, 1st15000, champ30000)
+   
+
+entrants
+  80090B28 ->
+   8008C130  nv34n   Skyline GT-R Vspec
+   8008C190  mgntn   GTO twintrubo
+   8008C1E0  tspnn   Supra RZ
+   8008C218  hnssn   NSX TypeS
+   8008C358  tsoan   Soarer 2.5GT-T VVT
+   8008C150  tspon   Supra TwinTurbo R
+   8008C168  tmr2n   MR-2 GT-S
+   8008C0D8  nzx2n   Fairlady Z Version S twinturbo 2by2
+   8008C318  acoen   Eunos Cosmo 20B Type-E CCS
+
+prizecars
+  80090D00 ->
+   8008C670  t-oan   Soarer 2.5GT-T VVT
+   8008C668  l-7cn   DB7 Coupe
+  
+poletimes
+  8008F4D8 ->
+   0000D5AC  0:54.700  (High Speed Ring)
+   0000F2A3  1:02.115  (Test Track)
+   0000DAA1  0:55.969  (High Speed Ring II)
+
+===============================================================================
+
+
+Normal Event (8008F5A4)
+  tracks     80090D8C
+  prizemoney 80090F2C
+  poletimes  8008F47C
+  entrants   80090A48
+  prizecars  80090CC4
+  laps       5
+
+tracks
+  80090D8C ->
+   8008C748  rev_mini       Autumn Mini II
+   8008C6E0  rev_short      Grand Valley East II
+   8008C728  rev_shortway   Clubman Stage R5 II
+   8008C6B8  rev_test_in2   Deep Forest II
+   8008C6A8  rev_outbahn    Special Stage R11
+
+prizemoney
+  80090F2C ->
+   (q10000, 1st50000, 2nd10000, champ100000)
+   
+
+entrants
+  80090A48 ->
+   8008C228  hnsnn   NSX Type S zero
+   8008C4D0  t-rdn   TRD 3000GT
+   8008C1F0  sipbn   Impreza'96WRX STi VerIII
+   8008C1D0  afa7n   efini RX-7 Aspec
+   8008C110  nr34n   R33 Skyline GT-R
+   8008C178  mlnnn   Lancer Evolution IV GSR
+
+prizecars
+  80090CC4 ->
+   8008C620  t-pnn   Supra RZ
+   8008C618  s-pbn   Impreza WRX STi Version III
+  
+poletimes
+  8008F47C ->
+   0000A2A2  0:41.634  (Autumn Mini II)
+   0001266F  1:15.375  (Grand Valley East II)
+   0000EBD2  1:00.370  (Clubman Stage R5 II)
+   00015548  1:27.368  (Deep Forest II)
+   000213AE  2:16.110  (Special Stage R11)
+
+===============================================================================
+
+
+Tuned Event (8008F5BC)
+  tracks     80090D74
+  prizemoney 80090F08
+  poletimes  8008F468
+  entrants   80090A24
+  prizecars  80090CB8
+  laps       5
+
+tracks
+  80090D74 ->
+   8008C738  rev_testline   High Speed Ring II
+   8008C6C8  rev_circuit    Grand Valley Speedway II
+   8008C728  rev_shortway   Clubman Stage R5 II
+   8008C71C  rev_autumn     Autumn Ring II
+   8008C710  rev_outbahn    Special Stage R11 II
+
+prizemoney
+  80090F08 ->
+   (q10000, 1st50000, 2nd30000, champ100000)
+   
+
+entrants
+  80090A24 ->
+   8008C220  hnsrn    NSX '93
+   8008C1E0  tspnn    Supra RZ
+   8008C1C8  afd7n    FD efini RX-7 TypeRZ
+   8008C130  nv34n    Skyline GT-R Vspec
+   8008C0F8  nn32n    Skyline GT-R Nismo
+   8008C1F8  mlnon    Lancer Evolution III GSR
+   8008C140  tchvn    Chaser 25 Tourer V
+   8008C3D8  hcvnn    Civic 3 door
+
+prizecars
+  80090CB8 ->
+   8008C610  n-32n    '91 Skyline GT-R
+   8008C608  t-ron    Sprinter Trueno GT-Apex
+  
+poletimes
+  8008F468 ->
+   0000E053  0:57.427 (High Speed Ring II)
+   00019AFC  1:45.212 (Grand Valley Speedway II)
+   0000DF09  0:57.097 (Clubman Stage R5 II)
+   00011FF0  1:13.712 (Autumn Ring II)
+   0001C808  1:56.744 (Special Stage R11 II)
+
+===============================================================================
+
+
+Grand Valley 300 Event (8008F70C)
+  tracks     80090E5C
+  prizemoney 80091094
+  poletimes  8008F524
+  entrants   80090BFC
+  prizecars  80090D28
+  laps       3C = 60
+
+tracks
+  80090E5C ->
+   8008C6F8  circuit       (Grand Valley Speedway)
+
+prizemoney
+  80091094 ->
+   (q20000, 1st300000, champ0)
+   
+
+entrants
+  80090BFC ->
+   8008C528  nr32r    [R]Skyline'91 GT-R
+   8008C500  mgntr    [R]GTO twinturbo
+   8008C5C8  hnslr    [R]NSX-R LM GT2
+   8008C5D0  tsplr    [R]Castrol Supra GT
+   8008C530  sipxr    [R]Impreza Rally Edition
+   8008C5C0  nl33r    [R]NISMO GT-R LM (special model)
+   8008C5D8  tcegr    [R]Celica GT-4
+   8008C4F0  mlnnr    [R]Lancer Evolution IV GSR
+   8008C5B8  npror    [R]Primera'90 2.0Te
+   8008C5A8  texvr    [R]Corona Exiv 200GT
+   8008C5B0  hacsr    [R]Accord Sedan
+   8008C5A0  altsr    [R]Lantis Type R 4 door
+
+prizecars
+  80090D28 ->
+   8008C690  t-plr    (black) [R]Castrol Supra GT (w. green)
+  
+poletimes
+  8008F524 ->
+   0001981D  1:44.477  (Grand Valley Speedway)
+
+===============================================================================
+
+
+All-Night I Event (8008F724)
+  tracks     80090E64
+  prizemoney 800910B8
+  poletimes  8008F528
+  entrants   80090C30
+  prizecars  80090D30
+  laps       1E = 30
+
+tracks
+  80090E64 ->
+   8008C6A8 outbahn         Special Stage R11
+
+prizemoney
+  800910B8 ->
+   (q20000, 1st150000, champ0)
+   
+
+entrants
+  80090C30 ->
+   8008C500  mgntr    [R]GTO twinturbo
+   8008C528  nr32r    [R]Skyline'91 GT-R
+   8008C5D0  tsplr    [R]Castrol Supra GT
+   8008C5C8  hnslr    [R]NSX-R LM GT2
+   8008C5C0  nl33r    [R]NISMO GT-R LM (special model)
+   8008C530  sipxr    [R]Impreza Rally Edition
+   8008C5D8  tcegr    [R]Celica GT-4
+   8008C5B8  npror    [R]Primera'90 2.0Te
+   8008C4F0  mlnnr    [R]Lancer Evolution IV GSR
+   8008C5A8  texvr    [R]Corona Exiv 200GT
+   8008C5B0  hacsr    [R]Accord Sedan
+   8008C5A0  altsr    [R]Lantis Type R 4 door
+
+prizecars
+  80090D30 ->
+   8008C698  n-15r   [R]Silvia LM (shows red)
+  
+poletimes
+  8008F528 ->
+   0001C6D7  1:56.439  (Special Stage R11)
+
+===============================================================================
+
+
+All-Night II Event (8008F73C)
+  tracks     80090E6C
+  prizemoney 800910DC
+  poletimes  8008F52C
+  entrants   80090C64
+  prizecars  80090D38
+  laps       1E = 30
+
+tracks
+  80090E6C ->
+   8008C710  rev_outbahn    Special Stage R11 II
+
+prizemoney
+  800910DC ->
+   (q20000, 1st150000, champ0)
+   
+
+entrants
+  80090C64 ->
+   8008C1E0  tspnn    Supra RZ
+   8008C1C8  afd7n    FD efini RX-7 TypeRZ
+   8008C130  nv34n    Skyline GT-R Vspec
+   8008C220  hnsrn    NSX '93
+   8008C0F8  nn32n    Skyline GT-R Nismo
+   8008C1F8  mlnon    Lancer Evolution III GSR
+   8008C140  tchvn    Chaser 25 Tourer V
+   8008C3D8  hcvnn    Civic 3 door
+
+prizecars
+  80090D38 ->
+   8008C6A0  n-33n   NISMO GT-R LM
+  
+poletimes
+  8008F52C ->
+   0001D680  2:00.448 (Special Stage R11 II)
+
+===============================================================================
+
+
+Autumn Mini Spot Event (8008F664)
+  tracks     80090E84
+  prizemoney 80091148
+  poletimes  8008F538
+  entrants   800908D4
+  prizecars  0
+  laps       2
+
+tracks
+  80090E84 ->
+   8008C77C  mini       Autumn Mini
+
+prizemoney
+  80091148 ->
+   (q500, 1st1000, champ0)
+   
+
+entrants
+  800908D4 ->     (45!)
+   8008C4C8  hcvon   Civic'93 3door Si
+   8008C4C0  nm32n   Skyline GTS25 TypeS
+   8008C4B8  mftgn   FTO GR
+   8008C4B0  texvn   Corona Exiv 200GT
+   8008C4A8  tceln   Celica SS-II
+   8008C4A0  mftrn   FTO'94 GR
+   8008C498  hpren   Prelude'93 Si
+   8008C490  mmgon   Mirage'92 Cyborg-R
+   8008C488  hcrxn   Civic'91 CR-X Si
+   8008C480  hcvrn   Civic(Racer)
+
+   8008C478  nq14n   Silvia'95 Q's Aero
+   8008C470  nq15n   Silvia Q's Aero (S14)
+   8008C468  hacsn   Accord Sedan
+   8008C460  nprin   Primera'95 2.0Te
+   8008C458  mmgrn   Mirage Asti RX
+   8008C450  hdesn   del Sol SiR (hidden)
+   8008C448  arodn   Roadster'98 RS (hidden)
+   8008C440  aminn   Eunos Roadster
+   8008C438  amisn   Eunos Roadster S Special
+   8008C430  altsn   Lantis Type R 4 door
+
+   8008C428  npron   Primera'90 2.0Te
+   8008C420  amivn   Eunos Roadster V Special
+   8008C418  tlevn   Corolla Levin BZ-G
+   8008C410  hcfon   Civic'93 Sedan
+   8008C408  tstln   Starlet Glanza V
+   8008C400  ttrnn   Trueno BZ-G
+   8008C3F8  amian   Eunos Roadster, used, no colour names
+   8008C3F0  tlvon   Corolla Levin GT-Apex
+   8008C3E8  ttron   Trueno GT-Apex
+   8008C3E0  hdern   del Sol'93 Si
+
+   8008C3D8  hcvnn   Civic 3 door
+   8008C3D0  nq23n   Silvia'91 Q's 2000cc
+   8008C3C8  hcfnn   Civic Sedan
+   8008C3C0  hdegn   del Sol VGI (hidden)
+   8008C3B8  mgagn   Galant VR-G Touring
+   8008C3B0  n18sn   180SX TypeS
+   8008C3A8  nq13n   Silvia'88 Q's 1800cc
+   8008C3A0  hacwn   Accord Wagon
+   8008C398  an16n   Eunos Roadster'89 1600
+   8008C390  as16n   Eunos Roadster'92 1600 S Special
+
+   8008C388  av16n   Eunos Roadster'90 1600 V Special
+   8008C380  hdeln   del Sol'93 S
+   8008C378  ademn   Demio GL-X
+   8008C370  adgln   Demio GL
+   8008C368  adlxn   Demio LX
+
+prizecars
+  0 (none)
+  
+poletimes
+  8008F538 ->
+   0000B1F8  0:45.560
+
+===============================================================================
+
+
+High Speed Ring Spot Event (8008F634)
+  tracks     80090E74
+  prizemoney 80091100
+  poletimes  8008F530
+  entrants   80090834
+  prizecars  0
+  laps       2
+
+tracks
+  80090E74 ->
+   8008C760 testline      High Speed Ring
+
+prizemoney
+  80091100 ->
+   (q500, 1st1000, champ0)
+   
+
+entrants
+  80090834 ->     (39!)
+   8008C360  mgaln   Galant VR-4
+   8008C358  tsoan   Soarer 2.5GT-T VVT
+   8008C350  mecln   Eclipse GT
+   8008C348  tsoon   Soarer'95 2.5 GT-T
+   8008C340  nplon   Pulsar'91 GTI-R
+   8008C338  nt33n   Skyline GTS25t TypeM
+   8008C330  ns15n   Silvia K's Aero (S14)
+   8008C328  ns14n   Silvia'95 K's Aero (S?
+   8008C320  tsgtn   Supra 3.0GT Limited (MA70)
+   8008C318  acoen   Eunos Cosmo 20B Type-E CCS
+
+   8008C310  afc7n   FC savanna RX-7 III
+   8008C308  ns23n   Silvia'91 K's Aero (S?
+   8008C300  tsorn   Supra'95 SZ-R
+   8008C2F8  tsprn   Supra SZ-R
+   8008C2F0  n18nn   180SX TypeX
+   8008C2E8  hpnen   Prelude
+   8008C2E0  hinrn   Integra Type R
+   8008C2D8  n180n   180SX'94 Type X
+   8008C2D0  hpnvn   Prelude Type SH
+   8008C2C8  hprvn   Prelude'94 VTEC
+
+   8008C2C0  afr7n   Savanna RX-7 GT-X
+   8008C2B8  mftnn   FTO GP version R
+   8008C2B0  nt32n   Skyline GTS-t TypeM
+   8008C2A8  nzx3n   Fairlady Z Version S 2 seater
+   8008C2A0  nzxvn   Fairlady Z Version S 2by2
+   8008C298  mfton   FTO'94 GPX
+   8008C290  mftxn   FTO GPX
+   8008C288  ssvxn   Alcyone SVX Version L
+   8008C280  ssv4n   Alcyone SVX S4
+   8008C278  ns13n   Silvia'88 K's 1800cc
+
+   8008C270  hinsn   Integra GS-R
+   8008C268  acosn   Eunos Cosmo 13B Type-S CCS
+   8008C260  tchsn   Chaser 2.5 Tourer S
+   8008C258  n432n   Skyline GTS-4
+   8008C250  tmrln   MR2 G-Limited
+   8008C248  mgnon   GTO SR
+   8008C240  mgton   GTO'95 SR
+   8008C238  mgoon   GTO'92
+   8008C230  tm2sn   Mark II'92 Tourer S 2.5
+
+prizecars
+  0 (none)
+  
+poletimes
+  8008F530 ->
+   00011AC9  1:12.393
+
+===============================================================================
+
+
+Grand Valley East Spot Event (8008F64C)
+  tracks     80090E7C
+  prizemoney 80091124
+  poletimes  8008F534
+  entrants   80090834 (same as HSR 8-) )
+  prizecars  0
+  laps       2
+
+tracks
+  80090E7C ->
+   8008C6B0  short      Grand Valley East
+
+prizemoney
+  80091124 ->
+   (q500, 1st1000, champ0)
+   
+
+entrants
+  80090834 -> (same list as HSR 8-) ) (39!)
+   8008C360  mgaln   Galant VR-4
+   8008C358  tsoan   Soarer 2.5GT-T VVT
+   8008C350  mecln   Eclipse GT
+   8008C348  tsoon   Soarer'95 2.5 GT-T
+   8008C340  nplon   Pulsar'91 GTI-R
+   8008C338  nt33n   Skyline GTS25t TypeM
+   8008C330  ns15n   Silvia K's Aero (S14)
+   8008C328  ns14n   Silvia'95 K's Aero (S?
+   8008C320  tsgtn   Supra 3.0GT Limited (MA70)
+   8008C318  acoen   Eunos Cosmo 20B Type-E CCS
+
+   8008C310  afc7n   FC savanna RX-7 III
+   8008C308  ns23n   Silvia'91 K's Aero (S?
+   8008C300  tsorn   Supra'95 SZ-R
+   8008C2F8  tsprn   Supra SZ-R
+   8008C2F0  n18nn   180SX TypeX
+   8008C2E8  hpnen   Prelude
+   8008C2E0  hinrn   Integra Type R
+   8008C2D8  n180n   180SX'94 Type X
+   8008C2D0  hpnvn   Prelude Type SH
+   8008C2C8  hprvn   Prelude'94 VTEC
+
+   8008C2C0  afr7n   Savanna RX-7 GT-X
+   8008C2B8  mftnn   FTO GP version R
+   8008C2B0  nt32n   Skyline GTS-t TypeM
+   8008C2A8  nzx3n   Fairlady Z Version S 2 seater
+   8008C2A0  nzxvn   Fairlady Z Version S 2by2
+   8008C298  mfton   FTO'94 GPX
+   8008C290  mftxn   FTO GPX
+   8008C288  ssvxn   Alcyone SVX Version L
+   8008C280  ssv4n   Alcyone SVX S4
+   8008C278  ns13n   Silvia'88 K's 1800cc
+
+   8008C270  hinsn   Integra GS-R
+   8008C268  acosn   Eunos Cosmo 13B Type-S CCS
+   8008C260  tchsn   Chaser 2.5 Tourer S
+   8008C258  n432n   Skyline GTS-4
+   8008C250  tmrln   MR2 G-Limited
+   8008C248  mgnon   GTO SR
+   8008C240  mgton   GTO'95 SR
+   8008C238  mgoon   GTO'92
+   8008C230  tm2sn   Mark II'92 Tourer S 2.5
+
+prizecars
+  0 (none)
+  
+poletimes
+  8008F534 ->
+   0001339E  1:18.750
+
+===============================================================================
+
+
+Deep Forest Spot Event (8008F694)
+  tracks     80090E94
+  prizemoney 80091190
+  poletimes  8008F540
+  entrants   800908D4 (same as Autumn Mini 8-) )
+  prizecars  0
+  laps       2
+
+tracks
+  80090E94 ->
+   8008C6D4  test_in2    Deep Forest
+
+prizemoney
+  80091190 ->
+   (q500, 1st1000, champ0)
+   
+
+entrants
+  800908D4 -> (same as Autumn Mini 8-) )  (45!)
+   8008C4C8  hcvon   Civic'93 3door Si
+   8008C4C0  nm32n   Skyline GTS25 TypeS
+   8008C4B8  mftgn   FTO GR
+   8008C4B0  texvn   Corona Exiv 200GT
+   8008C4A8  tceln   Celica SS-II
+   8008C4A0  mftrn   FTO'94 GR
+   8008C498  hpren   Prelude'93 Si
+   8008C490  mmgon   Mirage'92 Cyborg-R
+   8008C488  hcrxn   Civic'91 CR-X Si
+   8008C480  hcvrn   Civic(Racer)
+
+   8008C478  nq14n   Silvia'95 Q's Aero
+   8008C470  nq15n   Silvia Q's Aero (S14)
+   8008C468  hacsn   Accord Sedan
+   8008C460  nprin   Primera'95 2.0Te
+   8008C458  mmgrn   Mirage Asti RX
+   8008C450  hdesn   del Sol SiR (hidden)
+   8008C448  arodn   Roadster'98 RS (hidden)
+   8008C440  aminn   Eunos Roadster
+   8008C438  amisn   Eunos Roadster S Special
+   8008C430  altsn   Lantis Type R 4 door
+
+   8008C428  npron   Primera'90 2.0Te
+   8008C420  amivn   Eunos Roadster V Special
+   8008C418  tlevn   Corolla Levin BZ-G
+   8008C410  hcfon   Civic'93 Sedan
+   8008C408  tstln   Starlet Glanza V
+   8008C400  ttrnn   Trueno BZ-G
+   8008C3F8  amian   Eunos Roadster, used, no colour names
+   8008C3F0  tlvon   Corolla Levin GT-Apex
+   8008C3E8  ttron   Trueno GT-Apex
+   8008C3E0  hdern   del Sol'93 Si
+
+   8008C3D8  hcvnn   Civic 3 door
+   8008C3D0  nq23n   Silvia'91 Q's 2000cc
+   8008C3C8  hcfnn   Civic Sedan
+   8008C3C0  hdegn   del Sol VGI (hidden)
+   8008C3B8  mgagn   Galant VR-G Touring
+   8008C3B0  n18sn   180SX TypeS
+   8008C3A8  nq13n   Silvia'88 Q's 1800cc
+   8008C3A0  hacwn   Accord Wagon
+   8008C398  an16n   Eunos Roadster'89 1600
+   8008C390  as16n   Eunos Roadster'92 1600 S Special
+
+   8008C388  av16n   Eunos Roadster'90 1600 V Special
+   8008C380  hdeln   del Sol'93 S
+   8008C378  ademn   Demio GL-X
+   8008C370  adgln   Demio GL
+   8008C368  adlxn   Demio LX
+
+prizecars
+  0 (none)
+  
+poletimes
+  8008F540 ->
+   0001733F  1:35.039
+
+===============================================================================
+
+
+Trial Mountain Spot Event (8008F67C)
+  tracks     80090E8C
+  prizemoney 8009116C
+  poletimes  8008F53C
+  entrants   80090770
+  prizecars  0
+  laps       2
+
+tracks
+  80090E8C ->
+   8008C784  mountain   Trial Mountain
+
+prizemoney
+  8009116C ->
+   (q500, 1st1000, champ0)
+   
+
+entrants
+  80090770 -> (48!)
+   8008C228  hnsnn   NSX Type S zero
+   8008C220  hnsrn   NSX '93
+   8008C218  hnssn   NSX TypeS
+   8008C210  siprn   Impreza WRX type R STi Version
+   8008C208  hnsbn   NSX (new)
+   8008C200  nv22n   Skyline GT-R V-spec II
+   8008C1F8  mlnon   Lancer Evolution III GSR
+   8008C1F0  sipbn   Impreza'96WRX STi VerIII
+   8008C1E8  tsonn   Supra'95 RZ
+   8008C1E0  tspnn   Supra RZ
+
+   8008C1D8  sipan   Impreza'96 WRX
+   8008C1D0  afa7n   efini RX-7 Aspec
+   8008C1C8  afd7n   FD efini RX-7 TypeRZ
+   8008C1C0  afb7n   efini RX-7 TypeRB Bathurst
+   8008C1B8  sipsn   Impreza'95 WRX STi Version II
+   8008C1B0  sipdn   Impreza'96 Sports Wagon WRX STi Version III
+   8008C1A8  afo7n   efini RX-7 '91 TypeR
+   8008C1A0  hnsxn   NSX'91
+   8008C198  mgtmn   GTO'95 MR
+   8008C190  mgntn   GTO twintrubo
+
+   8008C188  mgotn   GTO'92 twinturbo
+   8008C180  mgttn   GTO'95 twinturbo
+   8008C178  mlnnn   Lancer Evolution IV GSR
+   8008C170  tcegn   Celica GT-Four
+   8008C168  tmr2n   MR-2 GT-S
+   8008C160  sipwn   Impreza'94 Wagon WRX
+   8008C158  siptn   Impreza'95 Sports Wagon WRX STi Version II
+   8008C150  tspon   Supra TwinTurbo R
+   8008C148  nr02n   Skyline'89 GT-R
+   8008C140  tchvn   Chaser 25 Tourer V
+
+   8008C138  afx7n   efini RX-7 TouringX
+   8008C130  nv34n   Skyline GT-R Vspec
+   8008C128  slgan   Legacy Wagon GT-R
+   8008C120  slgbn   Legacy Touring Sedan RS
+   8008C118  slgwn   Legacy Wagon '93 GT
+   8008C110  nr34n   R33 Skyline GT-R
+   8008C108  nzxsn   Fairlady Z 2 seater
+   8008C100  nr33n   Skyline'95 GT-R
+   8008C0F8  nn32n   Skyline GT-R Nismo
+   8008C0F0  nr32n   Skyline'91 GT-R
+
+   8008C0E8  nv33n   Skyline'95 GT-R V-spec
+   8008C0E0  sipcn   Impreza'96 WG WRX
+   8008C0D8  nzx2n   Fairlady Z Version S twinturbo 2by2
+   8008C0D0  nv12n   Skyline GT-R V-spec
+   8008C0C8  slgnn   Legacy'93 SD RS
+   8008C0C0  tm2vn   Mark II'92 Tourer V 2.5
+   8008C0B8  sipzn   Impreza'94 WRX
+   8008C0B0  cc67n   Corvette'67 427 Coupe
+
+prizecars
+  0 (none)
+  
+poletimes
+  8008F53C ->
+   00018BA7  1:41.287
+
+===============================================================================
+
+
+XXXXXX Cup Event (8008XXXX)
+  tracks     8009XXXX
+  prizemoney 8009XXXX
+  poletimes  8008XXXX
+  entrants   8009XXXX
+  prizecars  8009XXXX
+  laps       2
+
+tracks
+  8009XXXX ->
+   8008XXXX  circuit
+   8008XXXX  circuit
+   8008XXXX  circuit
+
+prizemoney
+  8009XXXX ->
+   
+
+entrants
+  8009XXXX ->
+   8008XXXX  abcde
+   8008XXXX  abcde
+   8008XXXX  abcde
+   8008XXXX  abcde
+   8008XXXX  abcde
+   8008XXXX  abcde
+   8008XXXX  abcde
+   8008XXXX  abcde
+
+prizecars
+  8009XXXX ->
+   8008XXXX  abcde
+   8008XXXX  abcde
+  
+poletimes
+  8008XXXX ->
+   0000XXXX  0:XX.XXX
+   0000XXXX  0:XX.XXX
+   0000XXXX  0:XX.XXX
+
+===============================================================================
+@
+
+
+1.2
+log
+@Corrected error wrt DB7
+@
+text
+@d378 85
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d464 1
+a464 1
+   8008C540  ld7vr    [R]DB7 Coupe
+d512 1
+a512 1
+   8008C540  ld7vr    [R]DB7 Coupe
+@

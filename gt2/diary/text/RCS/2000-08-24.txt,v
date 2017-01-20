@@ -1,0 +1,461 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.02.03.22.45.19;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.08.25.19.32.44;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@started mucking with it...
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@Thursday August 24, 2000
+
+An Attempted Quick-Reference Guide to GameShark Code Meanings
+
+Threads:
+ Game Shark Hints
+
+I created this abridged guide to PlayStation <html><b>GameShark</b></html> Code Meanings based heavily
+on a longer document found at <html><a href="http://www.codejunkies.com/">www.codejunkies.com</a></html>.
+I reworded it, shortened it, and re-ordered it.
+
+<HTML INDENT>
+<hr><h3>PlayStation Action Replay 3, GameShark 3 and GameBuster 3</h3>
+
+
+<p>
+The code types listed here are documented to work for
+Action Replay (English, Japanese, French),
+GameShark and Game Buster version 3 cartridges.
+They are also supposed to work for some slightly earlier
+versions, namely GameSharks 2.41 and above,
+UK Action Replay, German GameBuster and French
+Action Replay 2.8 and above, and Japanese Action
+Replay 2.5 and above.
+</p>
+
+<dl>
+<dt>80 -- Store Word</dt>
+<dd>
+Repeatedly writes the
+given 16 bit value to the given memory location.
+<br><br>
+</dd>
+<dt>30 -- Store Byte</dt>
+<dd>
+Like 80 code but affects only the byte
+at the given address, which address may be odd or even.
+<br><br>
+</dd>
+
+<dt>50 -- Serial Code</dt>
+<dd>
+<dl>
+<dt>5000RR0S IIII</dt>
+<dl>
+<dt>RR is the number of repeats</dt>
+<dt>S is the size. multiple of 2 for words, 1 for bytes</dt>
+<dt>IIII is options increment for written value</dt>
+</dl>
+</dl>
+<br>
+Use with 80/30 codes to avoid lots
+of repetitions of similar codes if you wish to update a lot
+of consecutive memory locations.
+<br>
+<br>
+The 50 code itself must precede a normal store code.
+The size of the address increment must
+match the type of the store code, since it specifies
+a value by which to increase the target address on each repeat.
+That is, with 80000000 codes this S value must be even (2,4,6,8,A,C),
+but with 30000000 codes (which work on bytes) this S value can be any number
+from 1 to F.
+<br>
+<br>
+Example.
+<tt><font face="Courier"><pre>
+   50000302 0000
+   801CCFBC 1111
+</pre></font></tt>
+is equivalent to
+<tt><font face="Courier"><pre>
+   801CCFBC 1111
+   801CCFBE 1111
+   801CCFC0 1111
+</pre></font></tt>
+<br>
+And
+<tt><font face="Courier"><pre>
+   50000302 0001
+   801CCFBC 0001
+</pre></font></tt>
+is equivalent to
+<tt><font face="Courier"><pre>
+   801CCFBC 0001
+   801CCFBE 0002
+   801CCFC0 0003
+</pre></font></tt>
+<br>
+</dd>
+</dl>
+
+
+ <h4 align="left">Conditional Codes</h4>
+<dl>
+<dt>D0 -- If Equal</dt>
+<dd>
+If word (16-bit) value in the supplied location is the same as the supplied value
+do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>D1 -- If Not Equal</dt>
+<dd>
+If the word value in the supplied location is different from the
+supplied value do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>D2 -- If Less Than</dt>
+<dd>
+If the word value in the supplied location is less than the
+supplied value do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>D3 -- If Greater Than</dt>
+<dd>
+If the word value in the supplied location is greater than the
+supplied value do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>E0 -- If Byte Equal</dt>
+<dd>
+If byte value (8-bit) in the supplied location is the same as the supplied value
+do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>E1 -- If Byte Not Equal</dt>
+<dd>
+If byte value in the supplied location is different from
+the supplied value do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>E2 -- If Byte Less Than</dt>
+<dd>
+If byte value in the supplied location is less than
+the supplied value do the next code, otherwise skip it.
+<br><br>
+</dd>
+
+
+<dt>E3 -- If Byte Greater Than</dt>
+<dd>
+If byte value in the supplied location is greater than
+the supplied value do the next code, otherwise skip it.
+<br><br>
+</dd>
+</dl>
+
+
+ <h4>Increment (add to) and Decrement (subtract from) Codes</h4>
+
+<dl>
+<dt>10 -- Add</dt>
+<dd>
+Adds the value supplied to the word
+(16-bit) value at the location.  Note this is done repeatedly, and so it,
+and all the other increment/decrement codes, are difficult to make
+useful.
+<br><br>
+</dd>
+
+
+<dt>11 -- Subtract</dt>
+<dd>
+Subtracts value supplied from the 16-bit value at the location.
+<br><br>
+</dd>
+
+
+<dt>20 -- Add Byte</dt>
+<dd>
+Adds the value supplied to the 8-bit value at the location.
+<br><br>
+</dd>
+
+<dt>21 -- Subtract Byte</dt>
+<dd>
+Subtracts the value supplied from the 8-bit value at the location.
+<br><br>
+</dd>
+</dl>
+
+
+
+
+
+ <h4 align="left">New Code Types</h4>
+<p>
+Several additional conditional codes were made available
+in all versions 3.x.  They are also available in newer version 2
+software (US 2.41+, UK 2.8+, JAP 2.5+).
+</p>
+
+
+<dl>
+<dt>Must Be On / Master Codes</dt>
+<dd>
+Not a code, but a feature.
+If a code name starts with the text "(M)" or "(m)" then
+that code is always on.
+<br><br>
+</dd>
+
+
+<dt>D4 -- Do Code If Joypad</dt>
+<dd>
+If joypad press equals word value do
+the next code.
+<br><br>
+<dl>
+<dt>Table of JoyPad values</dt>
+<dd><dl>
+    <dt>0001 L2</dt>
+    <dt>0002 R2</dt>
+    <dt>0004 L1</dt>
+    <dt>0008 R1</dt>
+<br><br>
+    <dt>0010 Triangle</dt>
+    <dt>0020 O</dt>
+    <dt>0040 X</dt>
+    <dt>0080 Square</dt>
+<br><br>
+    <dt>0100 Select</dt>
+    <dt>0800 Start</dt>
+<br><br>
+    <dt>1000 Up</dt>
+    <dt>2000 Right</dt>
+    <dt>4000 Down</dt>
+    <dt>8000 Left</dt>
+</dl></dd>
+</dl>
+Add combinations. E.g. Select+L1+R1 = 0100+004+0008 = 010C
+<br><br>
+</dd>
+
+
+<dt>D5 -- Codes ON If Joypad</dt>
+<dd>
+If joypad press equals word value, turn all codes on.
+
+This "turn codes on/off" feature is permanently
+available in all games and defaults to
+"SELECT+L1+R1" for on and "SELECT+L2+R2" for
+off. The D5 and D6 codes are available if you need to
+change the buttons used or disable them.
+
+If the value given is zero (D5000000 0000 or D6000000
+0000) then joypad functions are disabled (This is the
+same as "joypad toggle disabled" in the options screen).
+<br><br>
+</dd>
+
+
+<dt>D6 -- Codes OFF If Joypad</dt>
+<dd>
+If joypad press equals word value, all
+codes off.  This does the opposite of the D5 code.
+<br><br>
+</dd>
+</dl>
+
+
+
+ <h4>More Extended Codes</h4>
+<p>
+There are several other interesting extended codes which
+are available in more recent GameSharks.
+</p>
+
+<dl>
+<dt>C0 -- Enable All Codes If Equal</dt>
+<dd>
+If word value in location supplied is the same as
+value, enable ALL codes, otherwise disable codes, and don't do any.
+
+A C0 code if the same as a D0 code except it acts on
+ALL codes. This is useful for games that don't load when
+codes are on, or if you want to avoid repeating the
+same D0 code a lot of times.  (Beware in that latter case that
+you will disable ALL codes in all selected code sets with the single
+condition).
+<br><br>
+</dd>
+
+
+<dt>C1 -- Code Initial Delay</dt>
+<dd>
+Delay codes being turned on for
+a period of time specified by the value part of this
+code. By default this value is set to 1388 hex (5000
+decimal) which waits about 10 seconds before
+activating codes. This can be a useful alternative
+to a D code for keeping codes off while a game loads.
+<br><br>
+Example: To delay all codes from being turned on for
+about 30 seconds in most games use the code
+C1000000 4000. The value you use depends on the
+game you are playing--the value 4000 might be 30
+seconds on one game, but may only be 10 seconds on
+another. The only way is to know for sure is to
+experiment. You can tell if codes are on or off when by
+going in to the "In Game Menu" and looking at the
+text "Codes are ON". If it says "Codes are ON" then
+codes are on, if it says "Codes are ON." (with a dot (".") at
+the end of the string) then codes are actually off until
+this timer runs out.
+<br><br>
+</dd>
+
+
+<dt>C2 -- Block Move</dt>
+<dd>
+This code copies one or more bytes from one
+memory location to another.
+The code must be used in pairs of two codes. The
+first code--the actual C2 code--contains the source address,
+and its value part is the number of bytes to copy.
+The second code contains the destination address.
+Both the value part and the op-code part of the second code are not used.
+<br><br>
+Example: Copy 164 bytes from memory location 801CCFB8 to 801D502C.<br>
+<tt><font face="Courier"><pre>
+     C21CCFB8 00A4
+     101D502C 0000
+</pre></font></tt>
+<br><br>
+</dd>
+</dl>
+
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+An Attempted Quick-Reference Guide for GameShark Code Meanings
+d8 4
+d13 1
+a13 1
+<h3>PlayStation Action Replay 3, GameShark 3 and GameBuster 3</h3>
+a39 1
+</dl>
+d53 2
+a54 2
+of repetitions of similar codes if you wish to update large
+numbers of consecutive memory locations.
+d61 2
+a62 2
+Note that with 80000000 codes this S value must be even (2,4,6,8,A,C),
+but with 30000000 codes which work on bytes this S value can be any number
+d94 1
+a94 1
+<h4 align="left">Conditional Codes</h4>
+d98 1
+a98 1
+If word value in the supplied location is the same as the supplied value
+d106 1
+a106 1
+If the word (16-bit) value in the supplied location is different from the
+d114 1
+a114 1
+If the word (16-bit) value in the supplied location is less than the
+d122 1
+a122 1
+If the word (16-bit) value in the supplied location is greater than the
+d130 1
+a130 1
+If byte value in the supplied location is the same as the supplied value
+d161 1
+a161 1
+<h4>Increment (add to) and Decrement (subtract from) Codes</h4>
+d192 1
+d198 1
+a198 1
+<h4 align="left">New Code Types</h4>
+d216 1
+a216 1
+<dt>D4 -- Joypad Detect</dt>
+d275 1
+a275 1
+<h4>More Extended Codes</h4>
+d290 3
+a292 1
+same D0 code a lot of times.
+d304 1
+a304 1
+to a D code for keeping codes off whilst a game loads.
+a323 1
+
+d327 4
+a330 4
+first code is the source address, the second is the
+destination address. The value part of the first code is
+the number of bytes to copy. The value part of the
+second code is not used.
+d332 1
+a332 1
+Example: Copy 6 bytes from memory location 80010000 to 80010010.<br>
+d334 2
+a335 2
+     C2010000 0006
+     10010010 0000
+@

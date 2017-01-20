@@ -1,0 +1,19 @@
+(cached)
+
+<table border bgcolor="white">
+<tr><th></th><th>Day</th><th>Manufacturer</th><th>Count</th></tr>
+<tr><td align=right>1</td><td align=right>0001</td><td>Nissan</td><td align=right>13</td></tr>
+<tr><td align=right>2</td><td align=right>0010</td><td>Nissan</td><td align=right>9</td></tr>
+<tr><td align=right>3</td><td align=right>0020</td><td>Nissan</td><td align=right>9</td></tr>
+<tr><td align=right>4</td><td align=right>0030</td><td>Nissan</td><td align=right>10</td></tr>
+<tr><td align=right>5</td><td align=right>0040</td><td>Nissan</td><td align=right>13</td></tr>
+<tr><td align=right>6</td><td align=right>0050</td><td>Nissan</td><td align=right>17</td></tr>
+<tr><td align=right>7</td><td align=right>0060</td><td>Nissan</td><td align=right>11</td></tr>
+<tr><td align=right>8</td><td align=right>0070</td><td>Nissan</td><td align=right>14</td></tr>
+<tr><td align=right>9</td><td align=right>0080</td><td>Nissan</td><td align=right>12</td></tr>
+<tr><td align=right>10</td><td align=right>0090</td><td>Nissan</td><td align=right>12</td></tr>
+<tr><td align=right>11</td><td align=right>0100</td><td>Nissan</td><td align=right>12</td></tr>
+<tr><td align=right>12</td><td align=right>0400</td><td>Nissan</td><td align=right>15</td></tr>
+<tr><td align=right>13</td><td align=right>0410</td><td>Nissan</td><td align=right>11</td></tr>
+<tr><td align=right>14</td><td align=right>0420</td><td>Nissan</td><td align=right>10</td></tr>
+</table>

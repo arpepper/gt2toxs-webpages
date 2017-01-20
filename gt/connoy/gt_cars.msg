@@ -1,0 +1,870 @@
+From connoy@students.uiuc.edu Wed Apr 14 17:44:35 EDT 1999
+Article: 456859 of rec.games.video.sony
+Path: watserv3.uwaterloo.ca!kwon!torn!newsfeed.direct.ca!newsfeed.cwix.com!128.174.5.49!vixen.cso.uiuc.edu!ux11.cso.uiuc.edu!connoy
+From: Dave Connoy <connoy@students.uiuc.edu>
+Newsgroups: rec.games.video.sony
+Subject: [GT] Complete Car List v1.6
+Date: Wed, 14 Apr 1999 15:48:34 -0500
+Organization: University of Illinois at Urbana-Champaign
+Lines: 849
+Message-ID: <Pine.SOL.3.96.990414154237.15888A-100000@ux11.cso.uiuc.edu>
+NNTP-Posting-Host: ux11.cso.uiuc.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Sender: connoy@ux11.cso.uiuc.edu
+Xref: watserv3.uwaterloo.ca rec.games.video.sony:456859
+X-Cache: nntpcache 1.0.7.1 (see ftp://suburbia.net/pub/nntpcache)
+Status: RO
+X-Status: 
+
+Wow, it's been a while, eh?  To be honest, I've been sitting on this
+update for like a month now.  Shame on me.  It's hard to say if this will
+be completely finished before GT2 comes out, but I doubt anyone's losing
+sleep over that.  Enjoy.
+
+--- begin gt_cars.txt ---
+Gran Turismo: Complete Car List
+Version 1.6--14 April 1999
+Compiled by Dave Connoy
+connoy@students.uiuc.edu
+
++---------+
+| Preface |
++---------+
+This document is simply a list of all 172 (148 distinct) cars available in
+the North American version of Gran Turismo.  I've decided to compile it
+because despite a good chunk of literature on tuning and racing technique
+associated with the game, no complete and accurate list of the cars and their
+capabilities has been assembled.  So, here it is.  Because of its tabular
+nature, this document requires a monospace font and five-character tabs--be
+sure the following characters line up.
+
+blah blah blah
+.... .... ....
+
++-------------------+
+| Table of Contents |
++-------------------+
+Version History
+Introduction/Notation
+Car Dealers
+     Nissan
+     Honda
+     Acura
+     Mazda
+     Mitsubishi
+     Toyota
+     Subaru
+     Chevrolet
+     Dodge
+     Aston Martin
+     TVR
+Prize Car Listing
+Gran Turismo's Best Cars
+     Best Bargain Cars
+     Best Front-Wheel Drive Cars
+     Best Normal Cars
+     Best Arcade Mode Cars
+     Best Racing-Spec Cars
+Final Words
+Credits
+
++-----------------+
+| Version History |
++-----------------+
+Version 1.5: 17 Feb 1999.  "Gran Turismo's Best Cars" no longer known as a
+     "Super Special Bonus Section" as it's gotten so big now.  Added "Best
+     Arcade Mode Cars" to "Gran Turismo's Best Cars".  Added cheapo ASCII
+     boxes to section headings.  Overall ratings added to Chevrolet, Dodge,
+     Aston Martin, and TVR cars.  Changed number of gears for each car to the
+     "Normal" number (instead of the "Racing Support" number), and verified
+     each one.  Reorganized the "Introduction/Notation" section to make it
+     a bit more readable.  Other miscellaneous changes here and there.
+Version 1.6: 14 April 1999.  Made major revisions to diversify the "Best
+     Normal Cars" and "Best FF Cars" lists.  Added overall ratings to Honda
+     and Mitsubishi cars.  Cut the "Version History" down to the last two
+     versions.  Added "Prize Car Listing" for a quick reference to the prize
+     cars.
+
++-----------------------+
+| Introduction/Notation |
++-----------------------+
+Name: The first column contains the car's name, prefixed with a "*" if it is
+a prize car (obtained by winning a particular event) and/or an [R] if it is a
+racing-spec car.
+
+DrvTrn: This column notes the car's drivetrain (using the conventions in the
+Gran Turismo manual).
+
+#G: The next column is the number of gears in car's transmission when fitted
+with its normal gearbox.  All 4-speed cars and some 5-speed cars get an extra
+gear when fitted with the "Racing Support" gearbox.
+
+Stock HP: Listed with each car is the stock peak horsepower (this is the real
+value from the garage, NOT the figure quoted by the dealership).
+
+Tuned HP: This is the peak HP after all highest-spec parts installed.
+
+Stock Wt.: This is the unmodified weight of the car.
+
+Tuned Wt.: The car's weight after all three stages of weight reduction.
+
+Racing Wt.: The car's weight with racing modification fitted.
+
+Rating: Under the "Rating" column, I'll give a general rating of the car's
+race-winning potential when fully tuned.  Ratings from lowest to highest are
+Poor, Fair, Good, Great.
+
+I'll also note which race awards a particular prize car, its commonality, and
+what colors it comes in; many cars will have miscellaneous comments after
+their entry describing their rating or other unique characteristics.  I have
+labeled a few things "BUG" or "Mysterious Fact"; if you find anything that's
+similar in nature to them, please let me know.  The "distinct" number of cars
+under each dealer's name is the total after removing cars with identical
+statistics (it's kind of silly to count the 3 identical Eunos Roadsters as 3
+different cars).
+
++-------------+
+| Car Dealers |
++-------------+
+Nissan (38 entries, 33 distinct)
+======
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Primera '90 2.0Te                 FF  5 142   324   2667  2078  1785   Poor
+
+Primera '95 2.0Te                 FF  5 142   321   2601  2028  1741   Fair
+     The '95 Primera has a better suspension than its older brother, which
+     lets it take corners quite a bit faster.
+
+S13 Silvia '88 Q's 1800cc         FR  5 129   237   2403  1873  1609   Poor
+*S13 Silvia Q's 1800cc            FR  5 129   237   2403  1873  1609   Poor
+     Common award in FR Challenge event; yellow, brown, or blue-green.
+S13 Silvia '91 Q's 2000cc         FR  5 133   318   2447  1906  1638   Fair
+S13 Silvia '88 K's 1800cc         FR  5 168   492   2469  2098  1776   Fair
+S13 Silvia '91 K's 2000cc         FR  5 198   479   2579  2191  1856   Fair
+*Sil Eighty                       FR  5 198   479   2579  2191  1856   Fair
+     Rare award in FR Challenge event; yellow, blue, or purple.
+
+180SX Type S                      FR  5 133   318   2645  2063  1772   Fair
+     Worst power-to-weight ratio in a stock rear-wheel drive car.
+180SX '94 Type X                  FR  5 192   479   2667  2266  1920   Fair
+180SX Type X                      FR  5 198   479   2689  2286  1935   Fair
+
+S14 Silvia '95 Q's                FR  5 154   321   2601  2028  1741   Poor
+S14 Silvia Q's                    FR  5 152   321   2623  2045  1757   Poor
+S14 Silvia '95 K's                FR  5 208   480   2733  2323  1966   Fair
+S14 Silvia K's                    FR  5 208   480   2755  2341  1984   Fair
+
+R32 Skyline GTS25 Type S          FR  5 181   336   2777  2164  1860   Fair
+R32 Skyline GTS-t Type M          FR  5 208   323   2777  2361  1999   Fair
+R32 Skyline GTS-4                 4WD 5 208   333   3130  2660  2253   Poor
+     The GTS Type M and Type S have better acceleration than their peak HP   
+     indicates, due to their more gently sloped power curves.  The GTS-4 has
+     the worst power-to-weight ratio in a tuned 4WD, and is the least
+     powerful 4WD overall.
+                                                                        
+R33 Skyline GTS25t Type M         FR  5 237   483   2998  2548  2158   Fair
+
+Fairlady Z Version S 2by2         FR  5 225   314   3240  2526  2169   Poor
+Fairlady Z Version S 2seater      FR  5 225   314   3152  2458  2112   Poor
+Fairlady Z TwinTurbo 2by2         FR  5 272   670   3461  2940  2491   Fair
+Fairlady Z TwinTurbo 2seater      FR  5 272   670   3373  2865  2427   Fair
+     Sadly, the engine redlines (and thus the transmission shifts) far too
+     early on the turbo Zs to fully take advantage of the meaty powerband
+     *after* the 670 HP peak.  Otherwise they might have earned Good.
+
+Pulsar '91 GTi-R                  4WD 5 222   381   2689  2286  1935   Fair
+     Lightest commercially available four-wheel drive car.             
+
+R32 Skyline '89 GT-R              4WD 5 303   913   3152  2678  2268   Great
+     Best power-to-weight ratio in a tuned car!
+R32 Skyline '91 GT-R              4WD 5 303   913   3262  2773  2347   Great
+*R32 Skyline '91 GT-R             4WD 5 303   913   3262  2773  2347   Great
+     Rare award in Hard-Tuned Car event; red, yellow, or blue.
+R32 Skyline GT-R Vspec            4WD 5 303   913   3306  2810  2380   Great
+R32 Skyline GT-R Vspec II         4WD 5 303   854   3306  2810  2380   Great
+R32 Skyline GT-R Nismo            4WD 5 303   854   3306  2810  2380   Great
+     What is there to say?  The Skyline GT-Rs are all absurdly powerful and
+     light, and since they're 4WD, even a monkey could race them.
+
+R33 Skyline '95 GT-R              4WD 5 310   937   3373  2865  2427   Great
+R33 Skyline GT-R                  4WD 5 310   937   3373  2865  2427   Great
+R33 Skyline '95 GT-R Vspec        4WD 5 310   937   3395  2885  2442   Great
+R33 Skyline GT-R Vspec            4WD 5 310   941   3395  2885  2442   Great
+     The Twinkiemobiles strike again!  The R33 GT-R Vspec is the most
+     powerful car.
+
+*Nismo GT-R LM                    FR  5 311   860   3483  2960  2506   Good
+     Awarded in All-Night II event; silver.  Though it has brutal HP, its
+     weight makes the Nismo GT-R a handful to drive on twisty courses.
+
+*Nismo 400R                       4WD 5 411   860   3417  2903  2460   Great
+     Awarded in IA License test; silver, gray, red, or yellow. Most power and
+     best power-to-weight ratio in a stock 4WD.  Demolishes the Normal event.
+
+[R]Nismo GT-R LM                  FR  6       653               2513   Great
+     
+*[R]S14 Silvia LM Edition         FR  6       536               2116   Great
+     Awarded in All-Night I event; red or ectoplasm green.  Least powerful
+     racing-spec car.
+
+
+Honda (17 entries, 16 distinct)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+del Sol '93 S                     FF  5 123   204   2286  1781  1529   Poor
+del Sol '93 Si                    FF  5 159   262   2286  1781  1529   Poor
+
+Civic '91 CR-X Si                 FF  5 152   259   2173  1695  1455   Poor
+
+*CR-X EF-8 Si-R                   FF  5 152   259   2138  1666  1430   Poor
+     Common award in FF Challenge event; black, yellow, or purple.
+
+Civic '93 Sedan                   FF  5 151   266   2275  1772  1523   Poor
+Civic '93 3Door Si                FF  5 164   286   2094  1633  1402   Poor
+     Best power-to-weight ratio in a stock front-wheel drive car.
+
+Prelude '93 Si                    FF  5 152   323   2865  2235  1920   Fair
+Prelude '94 VTEC                  FF  5 205   377   2932  2286  1964   Fair
+
+Civic Sedan                       FF  5 164   265   2517  1962  1686   Poor
+Civic 3Door                       FF  5 164   265   2253  1757  1507   Poor
+
+Civic (Racer)                     FF  5 175   265   2314  1805  1549   Poor
+*EK Civic Type R                  FF  5 175   265   2314  1805  1549   Poor
+     Common award in Lightweight Battle event; pink, yellow, or blue.
+
+Accord Sedan                      FF  5 181   326   3284  2561  2200   Poor
+     Heaviest front-wheel drive car.
+Accord Wagon                      FF  4 181   326   3196  2493  2140   Poor
+
+Prelude                           FF  5 188   378   2954  2303  1977   Fair
+     Tied with Eclipse GT for most powerful tuned front-wheel drive car.
+Prelude Type SH                   FF  5 208   374   3042  2372  2037   Fair
+
+*[R]del Sol LM Edition            MR  6       563               1962   Great
+     Rare award in UK Vs. Japan event; black or red.
+
+
+Acura (8 entries)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Integra GS-R                      FF  5 171   303   2667  2078  1785   Poor
+
+Integra Type R                    FF  5 189   361   2594  2023  1737   Fair
+
+NSX '91                           MR  5 268   490   3009  2345  2015   Fair
+     BUG: The "Info" screen for the '91 NSX references the info for the
+     current NSX rather than the '91-'93. View the '93 NSX for the real info.
+NSX '93                           MR  5 268   490   3020  2354  2021   Fair
+     The problem of the older NSXs' relatively weaker power-to-weight ratio
+     is compounded by their 5-speed transmission.
+
+NSX                               MR  6 285   534   3068  2391  2054   Good
+
+NSX Type S                        MR  6 285   534   2910  2268  1948   Great
+NSX Type S Zero                   MR  6 285   534   2799  2182  1873   Great
+
+[R]NSX-R LM GT2                   MR  6       541               2314   Great
+
+
+Mazda (23 entries, 18 distinct)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Demio LX G Package                FF  5 77    202   2006  1563  1342
+     Least powerful stock car; lightest commercially available car; worst
+     power-to-weight ratio in a stock car.
+Demio GL                          FF  5 94    211   2116  1649  1417
+Demio GL-X                        FF  5 94    211   2116  1649  1417
+
+*Demio A spec                     FF  5 94    211   1807  1408  1210
+     Awarded in Sunday Cup event; silver.  Lightest car.
+
+Lantis Coupe 2000 Type R          FF  5 169   326   2733  2131  1829
+
+Eunos Roadster '89 Normal         FR  5 114   194   2160  1684  1446
+Eunos Roadster '90 V-Special      FR  5 114   194   2182  1701  1461
+Eunos Roadster '92 S-Special      FR  5 114   194   2182  1701  1461
+     Least powerful rear-wheel drive cars.
+Eunos Roadster Normal             FR  5 127   233   2160  1684  1446
+Eunos Roadster S-Special          FR  5 127   233   2182  1701  1461
+Eunos Roadster V-Special          FR  5 127   233   2182  1701  1461
+*Eunos Roadster                   FR  5 127   233   2182  1701  1461
+     Rare award in Lightweight Battle event; yellow, gold, or lavender.
+
+FC Savanna RX-7 GT-X              FR  5 199   429   2755  2341  1984
+FC Savanna RX-7 Efini III         FR  5 204   432   2645  2248  1904
+
+Eunos Cosmo 13B Type S CCS        FR  4 220   506   3350  2848  2411
+Eunos Cosmo 20B Type E CCS        FR  4 270   673   3615  3073  2601
+
+FD Efini RX-7 '91 Type R          FR  5 256   527   2777  2361  1999
+
+FD Efini RX-7 Touring X           FR  4 256   527   2932  2491  2109
+FD Efini RX-7 Type RB             FR  5 256   527   2777  2361  1999
+FD Efini RX-7 Type RZ             FR  5 256   527   2755  2341  1984
+FD Efini RX-7 A spec              FR  5 256   527   2689  2286  1935
+     BUG: The RX-7 A spec seems to have zero downforce (all other cars have
+     at least a little).  This can only be fixed with racing modification.
+
+[R]RX-7 LM Edition                FR  6       588               2116
+
+*[R]RX-7 A spec LM Edition        FR  6       570               2314
+     Rare award in UK Vs. US event; green or purple.
+
+
+Mitsubishi (22 entries, 18 distinct)
+==========
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Galant VR-G Touring               FF  5 142   168   2733  2131  1829   Worst
+     Least powerful tuned car.  Worst power-to-weight ratio in a tuned car.
+
+Mirage '92 Cyborg R               FF  5 167   265   2292  1787  1534   Poor
+
+Mirage Asti RX                    FF  5 167   265   2358  1838  1578   Poor
+
+FTO '94 GR                        FF  5 161   328   2535  1977  1697   Fair
+FTO GR                            FF  5 171   326   2535  1977  1697   Fair
+FTO '94 GPX                       FF  5 189   364   2579  2010  1726   Fair
+FTO GPX                           FF  5 189   364   2579  2010  1726   Fair
+FTO GP Version R                  FF  5 189   364   2535  1977  1697   Fair
+     Best power-to-weight ratio in a tuned front-wheel drive car.
+
+Eclipse GT                        FF  5 216   378   2932  2491  2109   Fair
+     Most powerful front-wheel drive car.
+
+Lancer EvolutionIII GSR           4WD 5 259   477   2777  2361  1999   Good
+     Mysterious Fact: The Lancer III's final gear ratio can be increased to
+     as high as 5.5 (other cars only go to 5.0).
+
+Lancer EvolutionIV GSR            4WD 5 268   492   2976  2528  2142   Good
+*Lancer EvolutionIV GSR           4WD 5 268   492   2976  2528  2142   Good
+     Common award in 4WD Challenge event; yellow, blue-green, or purple.
+
+Galant VR-4                       4WD 5 272   783   3262  2773  2347   Great
+
+GTO '92                           4WD 5 214   381   3637  2837  2436   Fair
+GTO '95 SR                        4WD 5 214   381   3637  2837  2436   Fair
+     Worst power-to-weight ratios in stock four-wheel drive.
+GTO SR                            4WD 5 214   381   3549  2766  2376   Fair
+
+GTO '92 Twin Turbo                4WD 5 310   928   3769  3203  2713   Great
+GTO '95 Twin Turbo                4WD 6 311   930   3769  3203  2713   Great
+GTO Twin Turbo                    4WD 6 311   930   3769  3203  2713   Great
+     Heaviest four-wheel drive cars.
+GTO '95 MR                        4WD 6 311   930   3703  3148  2665   Great
+     Most powerful commercially available stock four-wheel drive cars.
+
+[R]GTO LM Edition                 4WD 7       604               2821   Great
+     Heaviest racing-spec car.
+
+*[R]FTO LM Edition                4WD 6       541               2050   Great
+     Rare award in US Vs. Japan event; black or green.
+
+
+Toyota (30 entries, 24 distinct)
+======
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Starlet Glanza V                  FF  5 131   217   2028  1723  1459
+
+AE86 Corolla Levin GT-APEX        FR  5 133   226   2039  1589  1364
+AE86 Sprinter Trueno GT-APEX      FR  5 133   226   2039  1589  1364
+*AE86 Sprinter Trueno GT-APEX     FR  5 133   226   2039  1589  1364
+     Common award in Hard-Tuned Car event; white, pink, or blue.
+     Lightest rear-wheel drive cars.
+
+Corolla Levin BZ-G                FF  5 158   237   2270  1770  1521
+Sprinter Trueno BZ-G              FF  5 158   237   2270  1770  1521
+
+Corona Exiv 200GT                 FF  5 177   326   2645  2063  1772
+Celica SS-II                      FF  5 177   326   2645  2063  1772
+*Celica SS-II                     FF  5 177   326   2689  2096  1801
+     Rare award in FF Challenge event; yellow, blue-green, or purple.
+
+MR2 G-Limited                     MR  5 167   331   2733  2131  1829
+MR2 GT-S                          MR  5 243   477   2821  2398  2030
+
+Celica GT-Four                    4WD 5 245   479   3042  2585  2189
+
+Mark II '92 Tourer S              FR  4 175   262   3020  2354  2021
+     Worst power-to-weight ratio in a tuned rear-wheel drive car.
+Mark II '92 Tourer V              FR  5 266   611   3196  2716  2301
+
+MA70 Supra GT Turbo Limited       FR  5 230   585   3417  2903  2460
+JZA70 Supra Twin Turbo-R          FR  5 268   669   3350  2848  2411
+
+Chaser Tourer S                   FR  4 192   285   3086  2407  2067
+Chaser Tourer V                   FR  5 286   728   3240  2753  2332
+
+Soarer '95 2.5GT-T                FR  5 266   760   3461  2940  2491
+Soarer 2.5GT-T VVT-i              FR  5 269   789   3439  2923  2475
+*Soarer 2.5GT-T VVT-i             FR  5 269   789   3439  2923  2475
+     Rare award in Megaspeed event; yellow, red-orange, or purple.
+
+Supra '95 SZ-R                    FR  6 213   377   3152  2458  2112
+Supra SZ-R                        FR  6 213   377   3196  2493  2140
+Supra '95 RZ                      FR  6 291   883   3284  2791  2363
+Supra RZ                          FR  6 300   910   3328  2828  2396
+     Most power & best power-to-weight ratio in a tuned rear-wheel drive car.
+*Supra RZ                         FR  6 300   897   3328  2828  2396
+     Rare award in Normal Car event; dark orange, light blue, or purple.
+
+*TRD 3000GT                       FR  6 291   869   3328  2828  2396
+     Awarded in A License test; silver.  Has far better suspension and
+     aerodynamics than the Supra RZ.
+
+[R]Castrol Supra GT               FR  7       646               2535
+*[R]Castrol Supra GT              FR  7       646               2535
+     Awarded in Grand Valley 300 event; black/red with green or blue trim.
+ 
+*[R]Chaser LM Edition             FR  6       655               2777
+     Awarded in GT Cup event; black.
+
+
+Subaru (18 entries)
+======
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Alcyone SVX Version L             4WD 5 227   452   3571  2784  2391  
+Alcyone SVX S4                    4WD 5 227   452   3505  2733  2347
+*Alcyone SVX S4                   4WD 5 227   447   3505  2733  2347
+     Rare award in 4WD Challege event; white, blue, or purple.
+
+Legacy '93 Touring Wagon GT       4WD 5 239   494   3064  2603  2204
+Legacy Touring Wagon GT-B         4WD 5 270   492   3152  2678  2268
+
+Legacy '93 Touring Sport RS       4WD 5 239   494   3020  2566  2173
+Legacy Touring Sedan RS           4WD 5 270   492   3042  2585  2189
+
+Impreza '94 Wagon WRX             4WD 5 250   567   2821  2398  2030
+Impreza '95 Wagon WRX-STi ver.II  4WD 5 250   477   2821  2398  2030
+Impreza '96 Wagon WRX             4WD 5 236   494   2843  2416  2045
+Impreza '96 Wagon WRX-STi ver.III 4WD 5 270   494   2865  2436  2063
+
+Impreza '94 Sedan WRX             4WD 5 211   404   2799  2378  2015
+Impreza '95 Sedan WRX-STi ver.II  4WD 5 266   506   2733  2323  1966
+Impreza '96 Sedan WRX             4WD 5 268   494   2755  2341  1984
+Impreza '96 Sedan WRX-STi ver.III 4WD 5 270   494   2755  2341  1984
+
+*Impreza Sedan WRX-STi ver.III    4WD 5 270   494   2689  2286  1935
+     Common award in Normal Car event; yellow, orange, or blue.  Tied with
+     Pulsar '91 GTi-R for lightest four-wheel drive car.
+
+Impreza WRX-STi Type R            4WD 5 270   494   2733  2323  1966
+     Best power-to-weight ratio in a commercially available stock 4WD.
+
+[R]Impreza Rally Edition          4WD 6       575               2160
+
+
+Chevrolet (4 entries, 2 distinct)
+=========
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Camaro Z28                        FR  4 279   415   3461  2698  2317   Fair
+*Camaro Z28 30th Anniversary      FR  4 279   415   3461  2698  2317   Fair
+     Awarded in Clubman Cup event; white with red stripes.
+
+Corvette '96 Coupe                FR  6 323   479   3218  2508  2156   Good
+Corvette '96 Grand Sport          FR  6 323   479   3218  2508  2156   Good
+
+
+Dodge (5 entries)
+=====
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+*Concept Car                      FR  5 213   249   2160  1684         Poor
+     Awarded in B License test; orange-red.  Inability to fit a racing body
+     lowered this car's fully tuned rating.  Good as a normal car, however.
+
+Viper RT/10                       FR  6 440   572   3187  2484  2134   Great
+Viper GTS                         FR  6 440   578   3240  2526  2169   Great
+     Most powerful stock cars.
+
+*[R]Concept Car                   FR  6       560               1329   Best
+     Common award in UK Vs. US event; yellow or purple.  Lightest racing-spec
+     car; best power-to-weight ratio in the game!
+
+*[R]Viper GTS-R                   FR  7       680               2753   Great
+     Common award in US Vs. Japan event; white with green or blue stripes.
+     Most powerful racing-spec car.
+
+
+Aston Martin (3 entries, 2 distinct)
+============
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+DB7 Coupe                         FR  5 328   424   3802  3231  2738   Poor
+*DB7 Coupe                        FR  5 328   424   3802  3231  2738   Poor
+     Common award in Megaspeed event; white, orange-red, or purple.
+DB7 Volante                       FR  5 328   424   4133  3511  2976   Poor
+     Heaviest car.
+
+
+TVR (4 entries)
+===
+Name                              Drv # Stock Tuned Stock Tuned Racing Rating
+                                  Trn G HP    HP    Wt.   Wt.   Wt.      
+-----------------------------------------------------------------------------
+Griffith 4.0                      FR  5 327   430   2336  1820  1565   Great
+Griffith 500                      FR  5 333   430   2336  1820  1565   Great
+     Best power-to-weight ratio in a stock car!
+
+Cerbera                           FR  5 343   436   2425  1891  1624   Great
+
+*[R]Cerbera LM Edition            FR  6       581               1984   Great
+     Common award in UK Vs. Japan event; gray with red or green trim.
+
++-------------------+
+| Prize Car Listing |
++-------------------+
+This list isn't anything that's not in the big list above, it's just a quick
+reference to the prize cars, sorted by race.  
+
+
+License Test
+============
+B License Test
+*Dodge Concept Car (orange-red)
+
+A License Test
+*TRD 3000GT (silver)
+
+IA License Test
+*Nismo 400R (silver, gray, red, or yellow)
+
+
+GT League
+=========
+Sunday Cup
+*Mazda Demio A spec (silver)
+
+Clubman Cup
+*Chevrolet Camaro Z28 30th Anniversary (white with red stripes)
+
+GT Cup
+*Toyota Chaser LM Edition (black)
+
+GT World Cup
+No car is awarded; the "GT Hi-Fi" mode will appear in the Special Event menu.
+
+
+Special Event
+=============
+FF Challenge
+*Honda CR-X EF-8 Si-R (black, yellow, or purple)
+*Toyota Celica SS-II (yellow, blue-green, or purple)
+
+FR Challenge
+*Nissan S13 Silvia Q's 1800cc (yellow, brown, or blue-green)
+*Nissan Sil Eighty (yellow, blue, or purple)
+
+4WD Challenge
+*Mitsubishi Lancer EvolutionIV GSR (yellow, blue-green, or purple)
+*Subaru Alcyone SVX S4 (white, blue, or purple)
+
+Lightweight Sports Battle Stage
+*Honda EK Civic Type R (pink, yellow, or blue)
+*Mazda Eunos Roadster (yellow, gold, or lavender)
+
+US Vs. Japan
+*[R]Dodge Viper GTS-R (white with green stripes or white with blue stripes)
+*[R]Mitsubishi FTO LM Edition (black or green)
+
+UK Vs. Japan
+*[R]TVR Cerbera LM Edition (gray with red trim or gray with green trim)
+*[R]Honda del Sol LM Edition (black or red)
+
+US Vs. UK
+*[R]Dodge Concept Car (yellow or purple)
+*[R]Mazda RX-7 A spec LM Edition (green or purple)
+
+Megaspeed Cup
+*Aston Martin DB7 Coupe (white, orange-red, or purple)
+*Toyota Soarer 2.5GT-T VVT-i (yellow, red-orange, or purple)
+
+Normal Car World Speed Contest
+*Subaru Impreza Sedan WRX-STi Ver.III (yellow, orange, or blue)
+*Toyota Supra RZ (dark orange, light blue, or purple)
+
+Grand Valley 300 Endurance Race
+*[R]Toyota Castrol Supra GT (black, red, and green, or black, red, and blue)
+
+Hard-Tuned Car Speed Contest
+*Toyota AE86 Sprinter Trueno GT-APEX (white, pink, or blue)
+*Nissan R32 Skyline '91 GT-R (red, yellow, or blue)
+
+All-Night Endurance Race
+*[R]Nissan S14 Silvia LM Edition (red or ectoplasm green)
+
+All-Night II Endurance Race
+*Nismo GT-R LM (silver)
+
++--------------------------+
+| Gran Turismo's Best Cars |
++--------------------------+
+I added this section to help fill out where this list is lacking; it contains
+a few more subjective lists that I hope you'll find useful.  I like these
+more because they let me inject color commentary. :) :) :)
+
+
+Best Bargain Cars
+=================
+First, the "bargain" cars.  When you first start Simulation Mode, you only
+have 10,000 credits to your name, and amongst the various dealers' used car
+lots, about twenty different cars to choose from with which to start your
+career in the Sunday Cup.  Here are my top picks from the El Cheapo
+department.
+
+7. Mitsubishi GTO '92
+     This car makes the list because it's one of only two bargain-priced 4WD
+     cars.  The other cheap 4WD is the R32 Skyline GTS-4, which is a better
+     car in stock form, but I have to give the nod to the GTO for better
+     expandability (it can get as high as 381 HP).  Only buy this car if
+     you're hellbent on starting out with a 4WD, and do it right away--a
+     cheap '92 GTO is only available for the first 9 career days.  And for
+     god's sake, spend your remaining cash on weight reduction! :)
+6. Mazda FC Savanna RX-7 GT-X
+     This RX-7 has a good mix of power and weight for a starting car.  It has
+     better expandability than the front-wheel drive cars on this list, but
+     still not as much as the Supra or Silvia.  No bells and whistles, just a
+     decent turbo-engined FR car.
+5. Mitsubishi Mirage '92 Cyborg R
+     The Mirage Cyborg R is a fairly good FF car with straightforward
+     handling.  It's neither hugely powerful nor very upgradeable, but it's
+     capable of winning the Sunday Cup with no modification and is eligible
+     for the Lightweight Battle down the road.
+4. Toyota MA70 Supra GT Turbo Limited
+     This is the most powerful ride you'll find for under 10K beans.  It's
+     also expandable to a whopping 585 HP!  However, since it is rear-wheel
+     drive and badly in need of some time on the Jenny Craig program, it's a
+     bit tough to handle.  Avoid this car if you're inexperienced, or it'll
+     be, in the words of one Usenet reader, "time to make the donuts!"
+3. Honda Prelude '94 VTEC
+     The '94 Prelude is a superbly powerful, easy to handle front-wheel drive
+     car.  If a heavy chassis doesn't bother you as long as you've got muscle
+     under the hood, then this Prelude is for you.  Though not a turbo, it
+     can still be tuned up to a healthy 377 HP, which is very high for an FF.
+2. Nissan S13 Silvia '88 K's 1800cc
+     Though nothing special in stock form, this car has great expandability
+     (492 HP fully tuned) which, combined with its light(er) weight, makes it
+     a great value for your money.  Not only that, but its purchase price is
+     so low, you can spend your remaining cash on some upgrades right away!
+1. Honda Civic '93 3Door Si
+     This is without a doubt the all-around best front-wheel drive car you
+     can afford with your starting cash.  Its power may be nothing special,
+     but its light weight makes it very speedy and nimble.  This car is also
+     eligible (and awesome) for the Lightweight Battle.
+
+
+Best Front-Wheel Drive Cars
+===========================
+Unfortunately, no front-wheel drive car in the big list earned even a "Good"
+rating.  The front-wheel drive cars simply don't have the potential of the
+other drivetrains, and because they get such a shaft when compared with other
+cars, here's a rundown of the most effective FF cars.  The Civic, Integra,
+and FTO are best bets in the Lightweight event as well.
+
+7. Honda Civic '93 3Door Si
+     Mentioned above as a good car to start with, this Civic just keeps on
+     going and going.  Upgraded to racing-spec parts and turbo aspiration, it
+     can embarrass the Vipers and NSXs in the Sunday Cup easily.  Don't use
+     racing modification on this car unless you like to tip over.
+6. Nissan Primera '95 2.0Te
+     Nissan's only FF car is a solid one, with consistent handling and very
+     good power delivery.  The '90 version is okay at best, because its
+     handling is a little too slippery.
+5. Mitsubishi Eclipse GT
+     A big ol' turbo engine makes this the most powerful front-wheel drive
+     car.  Unfortunately, it also has a big ol' butt, so its cornering 
+     ability is not too spectacular.
+4 & 3. Honda Prelude & Prelude '94 VTEC
+     As powerful as the turbocharged Eclipse but lighter when fully tuned.
+     I hate to include the current-model Preludes in here as I think they're
+     butt-ugly, but they're as good as the older ones in tuned performance.
+2. Acura Integra Type R
+     In addition to its excellent power (for a front-wheel drive) and light
+     weight, the Integra has amazingly responsive steering.  Unlike most FFs,
+     it doesn't need a tap on the brakes at corner entry to avoid understeer.
+1. Mitsubishi FTO GP Version R
+     Though they suffer from more understeer than the Integra, in the end the
+     higher power and lighter weight of the FTOs gives them the advantage.
+     The GP Version R is the best of the many FTO sub-models, though they're
+     all quite good.
+
+Best Normal Cars
+================
+Since the ratings in this list reflect the cars' potential when fully tuned,
+I feel it necessary to give some recognition to the cars that most excel with
+no tuning.  These are, of course, the cars you'll want to go to for the
+Normal Car event (and they're all capable of winning it even when the NSX is
+around).
+
+7. Subaru Impreza WRX-STi Type R
+     This two-door version of the Impreza Sedan is not quite as nice as the
+     prize version awarded by the Normal event, but it's still the best stock
+     4WD car that you can buy in a store.
+6. Subaru Impreza Sedan WRX-STi Ver.III
+     This is the super-light prize version awarded by the Normal event.  Not
+     as good as the Nismo 400R, but it's a lot easier to get.  Too bad you'll
+     still have to win Normal (presumably with something else) to get one.
+5. Acura NSX Type S Zero
+     Fight fire with fire, they say (though RPG players use ice).  The NSX's
+     mid-engine configuration can make it tricky to drive at first, but soon
+     you'll find its well-distributed, light weight lets you catapult through
+     corners without even bothering to brake.
+4. TVR Griffith 500
+     TVR's cute little roadster.  You probably hated the Griffith in the IA
+     license tests, but the fact remains that the Griffith 500 has the best
+     power-to-weight ratio of any normal car in the game--period.  Like the
+     Cerbera, its handling is a little mushy, but practice makes perfect.
+3. TVR Cerbera
+     TVR's hardtop wonder stuffs a 343HP V8 into a tiny tiny 2500-pound body.
+     Don't try to go all the way on the first date with the Cerbera--buy it
+     some flowers, take it out for a few nice dinners.  Then it'll love you
+     forever. :) :) :)
+2. Nismo 400R
+     Though it's absurdly difficult to obtain without a cheat, the Nismo 400R
+     is the most bad-ass stock 4WD in the game.  It doesn't quite have the
+     demonic acceleration of the Vipers, but its 4WD makes it easier to drive.
+1. Dodge Viper RT/10
+     The hellacious 440HP V10 makes this the best stock car in the game (it's
+     a touch lighter than the GTS).  Though it's rear-wheel drive, it's quite
+     easy to keep under control thanks to its mega-wide tires.  Awesome.
+
+
+Best Arcade Mode Cars
+=====================
+GT's Arcade Mode is a neat little addition that's an excellent way to get
+started with the game and handling cars of various drivetrains.  To release
+the various bonus items, you have to win each race three times, with cars
+>from  classes A, B, and C.  Some cars stand out above the rest within their
+class:
+
+7. Honda Civic '93 3Door Si
+     Quite simply, this is the only Class C car you'll ever need.  It totally
+     outshines the other cars in the class.
+6. Mazda FC Savanna RX-7 Efini III
+     Until the Toyota cars are released, this is your best bet for Class B.
+     It doesn't have the high-end power of the Eclipse, though, so be sure to
+     block on the straightaways.
+5. Toyota Soarer 2.5GT-T VVT-i
+     Probably the best Class B car.  A little harder to handle than the RX-7
+     above, but Arcade Mode cars have such forgiving handling in general that
+     this shouldn't be a problem.
+4. Chevrolet Corvette '67 427 Coupe
+     This Arcade Mode exclusive has nosebleed inducing acceleration compared
+     to the imports, but it handles like a... how do you say?  Ah, yes--turd.
+     The NSX is more nimble, and the Skyline more forgiving, but this is the
+     fastest car that the initial selection has to offer.
+3. Subaru Impreza '96 Sedan WRX-STi Version III
+     The best 4-wheel drive car in Arcade Mode, the Impreza has very good
+     acceleration and stupid good handling.
+2. TVR Griffith 500
+     A speedy car indeed, but the transition to Arcade Mode didn't seem to
+     help the TVRs as much as it did the Viper--the Griffith and Cerbera
+     still retain some of the quirks in their handling.
+1. Dodge Viper GTS
+     The Viper is absolutely heinous in Arcade Mode--as if the Simulation
+     version didn't handle well enough considering its huge power delivery,
+     the Arcade Mode version has even better grip characteristics.
+
+
+Best Racing-Spec Cars
+=====================
+I kind of copped out and gave all the racing-spec cars (LMs and Special
+Models) "Great" ratings.  Even the weakest racing-spec cars are a cut above
+racing-modified stock cars because they have far better downforce, gearboxes,
+and powerbands, but there are a half-dozen racing-spec cars that absolutely
+stand out above the rest.  These are the best cars Gran Turismo has to offer,
+and will allow you to win any race and look good doing it.
+
+6. Subaru Impreza Rally Edition
+     The Impreza has nearly flawless handling and is the better 4WD 500K
+     Special Model available.  As its name implies, it smokes on the rally-
+     style Special Stage R11 course, and is a perfect pick for the All-Night
+     I event.  The trademark Subaru close gear ratios give it blistering
+     acceleration at the cost of top speed, so be sure to lower the final
+     gear ratio on tracks with straightaways and long sweeping bends.
+5. Mazda RX-7 LM Edition
+     This is the other 500K Special Model well worth investing in.  It's
+     powerful, light, and extremely nimble, and being a saucy RX-7, it's a
+     helluva lot more fun to drive than the "safer" 4WD cars.  The rush to be
+     had from driving entire races *this close* to spinning out is something
+     unmatched by the conservative handling of 4WD cars.
+4. Mitsubishi FTO LM Edition
+     Though racing US Vs. Japan repeatedly to get this car is time consuming,
+     it is well worth the effort. The FTO LM Edition is a fabulous all-around
+     racer that's absurdly easy to drive.  While it doesn't have the flat-out
+     speed potential of the best rear-wheel drive LM cars, its forgiving
+     handling and 4WD make it a great choice for the endurance races.
+3. Honda del Sol LM Edition
+     Why Honda picked the del Sol to make an LM out of, I have no idea.  But
+     rejoice!  It is far and away the finest mid-engine car in Gran Turismo.
+     The del Sol LM drifts so well that you can hurl it into turns without
+     even hitting the brakes first.  Too bad it's so hard to obtain--you may
+     have to race and win UK Vs. Japan many, many times before it comes up.
+     (So many, in fact, that this car almost obtained "myth" status.:)
+2. TVR Cerbera LM Edition
+     The Cerbera's slutty older sister that you *can* go all the way with on
+     the first date.  This car is just so damned good that I can't even find
+     words for it.  It's the best alternative to the Concept Car if you're
+     looking for a car you can race right out of the box, without having to
+     fiddle with its setup, and still destroy everyone and everything.
+1. Dodge Concept Car
+     The greatest overall car in the game comes with one caveat: it can
+     barely stay on the road under its default suspension settings.  It's
+     necessary to put some time into tweaking this car's suspension and
+     transmission settings before it can be truly competitive, but once it
+     is--look out!  It can go from 0 to 200 and back in the blink of an eye,
+     and in the words of Usenet reader Simon Palko, it "can corner like a
+     bastard".  As good as it gets.
+
+
++-------------+
+| Final Words |
++-------------+
+I hope everyone that reads this finds it a useful reference that helps them
+enjoy Gran Turismo more (and spend less time buying and tuning cars just to
+find out they suck).  For information on car tuning and settings, try Jet
+Jaguar's excellent GT Tuning FAQ, also available at www.gamefaqs.com.  Feel
+free to contact me at connoy@students.uiuc.edu with any comments on this
+list, but please try not to be too hostile if you feel your favorite/least
+favorite car got shafted/praised by my rating system. :)
+
++---------+
+| Credits |
++---------+
+Thanks to:
+
+Simon James Palko for that colorful "corners like a bastard" quote.
+Whoever uploaded "gran_turismo_e.gme" to the DexDrive site at cheatcc.com.
+Matt Ma (matma@home.com) for a few great list suggestions for the "GT's Best
+     Cars" section.
+Jeff "CJayC" Veasey (cjayc@gamefaqs.com) for hosting this list at
+     www.gamefaqs.com (always check there for the latest version!)
+
+All the fine folks on rec.games.video.sony, for keeping Gran Turismo alive
+even almost a year after its release.
+--- end gt_cars.txt ---
+
+Dave Connoy
+connoy@students.uiuc.edu
+
+
+

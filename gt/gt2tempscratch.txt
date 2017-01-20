@@ -1,0 +1,10 @@
+gt2-game1: 174   [R]SpecialMini  Seattle100 +0.847    1st  FordGT90
+gt2-game1: 193   Cuda'70         Seattle100           2nd    :(
+gt2-game1: 211   Cuda'70         Seattle100 +54.944   1st  Escort
+gt2-game1: 392   Phaeton         Seattle100 +1:16.039 1st  Escort
+gt2-game1: 416   [R]SpecialMini  Seattle100 +5:19.867 1st  Escort (2 laps)
+gt2-game1: 417   [R]SpecialMini  Seattle100 +53.884   1st  FordGT90
+gt2-game1: 514   [R]ConceptLM    Seattle100 +7:16.607 1st  FordGT90 (4 laps)
+gt2-game1: 693   [R]Stratos      Seattle100 +51.097   1st  FordGT90
+gt2-tm30:  93    Z28-30th        Seattle100 +4:14.506 1st  FordGT90 (2 laps)
+unofficial:      Phaeton         Seattle100 +1:03.359 1st  FordGT90

@@ -1,0 +1,113 @@
+Saturday November 25, 2000
+
+
+(GT1 Version 1.1)  Normal Series Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>Normal Series</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Normal Event (8008F5A4)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090D8C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80090F2C</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F47C</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090A48</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090CC4</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;5</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D8C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C748</td><td>&nbsp;"rev_mini"&nbsp;</td><td>Autumn Mini II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6E0</td><td>&nbsp;"rev_short"&nbsp;</td><td>Grand Valley East II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C728</td><td>&nbsp;"rev_shortway"&nbsp;</td><td>Clubman Stage R5 II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6B8</td><td>&nbsp;"rev_test_in2"&nbsp;</td><td>Deep Forest II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6A8</td><td>&nbsp;"rev_outbahn"&nbsp;</td><td>Special Stage R11</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80090F2C -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q10000, 1st50000, 2nd10000, champ100000)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090A48 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C228</td><td>&nbsp;"hnsnn"&nbsp;</td><td>NSX Type S zero</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4D0</td><td>&nbsp;"t-rdn"&nbsp;</td><td>TRD 3000GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1F0</td><td>&nbsp;"sipbn"&nbsp;</td><td>Impreza'96WRX STi VerIII</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C1D0</td><td>&nbsp;"afa7n"&nbsp;</td><td>efini RX-7 Aspec</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C110</td><td>&nbsp;"nr34n"&nbsp;</td><td>R33 Skyline GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C178</td><td>&nbsp;"mlnnn"&nbsp;</td><td>Lancer Evolution IV GSR</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090CC4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C620</td><td>&nbsp;"t-pnn"&nbsp;</td><td>Supra RZ</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C618</td><td>&nbsp;"s-pbn"&nbsp;</td><td>Impreza WRX STi Version III</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F47C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000A2A2</td><td>&nbsp;0:41.634&nbsp;</td><td>(Autumn Mini II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001266F</td><td>&nbsp;1:15.375&nbsp;</td><td>(Grand Valley East II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000EBD2</td><td>&nbsp;1:00.370&nbsp;</td><td>(Clubman Stage R5 II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00015548</td><td>&nbsp;1:27.368&nbsp;</td><td>(Deep Forest II)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>000213AE</td><td>&nbsp;2:16.110&nbsp;</td><td>(Special Stage R11)</td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

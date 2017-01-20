@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Thursday October 26, 2000
+ -- (GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Car Purchasing
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Thursday October 26, 2000
+</h3>
+</font>
+<font color="white">
+<h4>(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Car Purchasing
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-10-25.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-10-28.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-10-25.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-10-28.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-10-25.html#Gameplay_Hints">&lt;&lt;--</a>
+<a name="Gameplay_Hints">Gameplay Hints
+</a><a href="2000-10-28.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Thursday October 26, 2000
+</h3>
+<h4>(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Car Purchasing
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Each Special Model has a fairly easy to find and follow set of pointers
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+   80058B74 -> 80054C58 -> "tsplr" (Toyota)
+   80058B7C -> 80054C3C -> "nl33r" (Nissan)
+   80058B84 -> 80054C20 -> "hnslr" (Honda/Acura)
+   80058B8C -> 80054C04 -> "sipxr" (Subaru)
+   80058B94 -> 80054BE8 -> "afn7r" (Mazda)
+   80058B9C -> 80054BC8 -> "mgtlr" (Mitsubishi)
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+With the <b>GS Pro</b>, the easiest way to arrange to
+purchase different cars here is to set the string you find at the
+destination location to be a different value.  For example, change
+"sipxr" at location 80054C04 to "n-00n", and you can go to the Subaru
+special model screen and view purchase a Nismo 400R for Cr20,000.  <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">
+You can even choose from the correct colours.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+When generating boot codes, it is easier to change the value (80054C04)
+at 80058B8C to point to an already available car code, since that can be
+done with four instructions, and often only two.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Interesting car-buying mode addresses are:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+   800540A0 "v-rbr" (Cerbera LM)
+   800540A8 "d-phr" (UKvsUs Concept Car)
+   800540B0 "d-pgr" (Viper GTS-R)
+   800540B8 "sipxr" (Impreza Rally Edition)
+
+   800540C0 "a-a7r" (RX-7 Aspec LM)
+   800540C8 "afn7r" (Mazda Special Model)
+   800540D0 "h-err" (del Sol LM)
+   800540D8 "hnslr" (NSX-R LM GT2)
+
+   800540E0 "m-tor" (FTO LM)
+   800540E8 "mgtlr" (GTO LM Special Model)
+   800540F0 "n-15r" (Silvia LM)
+   800540F8 "nl33r" (GT-R Special Model)
+
+   80054100 "t-plr" (black Castrol Supra GT prize)
+   80054108 "t-hvr" (Chaser LM)
+   80054110 "tsplr" (white Castrol Supra GT Special Model)
+
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The above are particularly nice because they have the same top two bytes
+as the default values for the special models.  Note that it seems to me
+one might prefer to arrange to buy the nice prizes (for Cr20,000) and
+win the Special Models.  The nice thing is that if you win a Special
+Model, you can sell it for Cr300,000!
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I discovered the following interesting strings.  Beccause of their lack
+of an "n" on the end they cannot be used directly, but when I patched
+the actual string value in to the Subaru Special Model string, I
+did confirm the following:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+   80054310 "a-od" (?)
+   80054318 "arod" (Mazda '98 Roadster RS)
+   80054320 "c-67" (?)
+   80054328 "cc67" (Corvette'67)
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I was able to preview these cars in the Special Model "showroom", but
+could not purchase them because the prices are invalid.  (The same
+thing happens with the license test prize Concept Car).  I suspect
+that if I did manage to buy that Corvette it would have magically
+changed into a Toyota Starlet Glanza V by the time I got to my
+garage anyway.   <img src="../../bitmaps/sadfrog.gif" width="30" height="18" border="0" alt="8-(">
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+There are strings for the license test cars, but with a different
+top two bytes.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+    800A95E4 "dcphn"
+    800A9872 "n-00n"
+    800A9B36 "t-rdn"
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Note that if you simply make the Concept Car appear as a Special Model,
+you cannot purchase it.  I assume this is because its "new" price is
+zero.
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-10-25.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-10-28.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-10-25.html#Gameplay_Hints">&lt;&lt;--</a>
+<a href="#Gameplay_Hints">Gameplay Hints
+</a><a href="2000-10-28.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-10-25.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-10-28.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

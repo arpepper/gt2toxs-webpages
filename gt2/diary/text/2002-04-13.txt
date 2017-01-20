@@ -1,0 +1,116 @@
+Saturday April 13, 2002
+
+
+(GT1 Version 1.1)  Lightweight Series Eligibility List, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+When I previously documented the parameters for the <a href="2000-11-20.html"><b>Lightweight Series</b></a>,
+I did not give the list of elgible cars.
+This list is accessible in memory during "shopping mode" at 80053AFC.
+The addresses shown, rather than being addresses of pointers to the car
+code strings are the actual addresses of the strings themselves.
+The strings are all aligned on four-byte boundaries
+(i.e. padded with zeroes to eight bytes each):
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="30"></td><td align="left">80053AFC</td><td align="left">&nbsp;adlxr</td><td align="left">[R]Demio LX</td></tr>
+<tr><td width="30"></td><td width="30"><td align="left">80053B04</td><td align="left">&nbsp;adglr</td><td align="left">[R]Demio GL</td></tr>
+<tr><td width="30"></td><td align="left">80053B0C</td><td align="left">&nbsp;ademr</td><td align="left">[R]Demio GL-X</td></tr>
+<tr><td width="30"></td><td align="left">80053B14</td><td align="left">&nbsp;adlxn</td><td align="left">Demio LX</td></tr>
+<tr><td width="30"></td><td align="left">80053B1C</td><td align="left">&nbsp;adgln</td><td align="left">Demio GL</td></tr>
+<tr><td width="30"></td><td align="left">80053B24</td><td align="left">&nbsp;ademn</td><td align="left">Demio GL-X</td></tr>
+<tr><td width="30"></td><td align="left">80053B2C</td><td align="left">&nbsp;a-emr</td><td align="left">[R]*Demio Aspec</td></tr>
+<tr><td width="30"></td><td align="left">80053B34</td><td align="left">&nbsp;a-emn</td><td align="left">*Demio Aspec</td></tr>
+<tr><td width="30"></td><td align="left">80053B3C</td><td align="left">&nbsp;aminr</td><td align="left">[R]Eunos Roadster</td></tr>
+<tr><td width="30"></td><td align="left">80053B44</td><td align="left">&nbsp;an16r</td><td align="left">[R]Eunos Roadster'89 1600</td></tr>
+<tr><td width="30"></td><td align="left">80053B4C</td><td align="left">&nbsp;aminn</td><td align="left">Eunos Roadster</td></tr>
+<tr><td width="30"></td><td align="left">80053B54</td><td align="left">&nbsp;an16n</td><td align="left">Eunos Roadster'89 1600</td></tr>
+<tr><td width="30"></td><td align="left">80053B5C</td><td align="left">&nbsp;amisr</td><td align="left">[R]Eunos Roadster S Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B64</td><td align="left">&nbsp;amivr</td><td align="left">[R]Eunos Roadster V Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B6C</td><td align="left">&nbsp;amisn</td><td align="left">Eunos Roadster S Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B74</td><td align="left">&nbsp;amivn</td><td align="left">Eunos Roadster V Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B7C</td><td align="left">&nbsp;as16r</td><td align="left">[R]Eunos Roadster'92 1600 S Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B84</td><td align="left">&nbsp;av16r</td><td align="left">[R]Eunos Roadster'90 1600 V Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B8C</td><td align="left">&nbsp;as16n</td><td align="left">Eunos Roadster'92 1600 S Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B94</td><td align="left">&nbsp;av16n</td><td align="left">Eunos Roadster'90 1600 V Special</td></tr>
+<tr><td width="30"></td><td align="left">80053B9C</td><td align="left">&nbsp;hcrxr</td><td align="left">[R]Civic'91 CR-X Si</td></tr>
+<tr><td width="30"></td><td align="left">80053BA4</td><td align="left">&nbsp;hcfor</td><td align="left">[R]Civic'93 Sedan</td></tr>
+<tr><td width="30"></td><td align="left">80053BAC</td><td align="left">&nbsp;hcvor</td><td align="left">[R]Civic'93 3door Si</td></tr>
+<tr><td width="30"></td><td align="left">80053BB4</td><td align="left">&nbsp;hdesr</td><td align="left">[R]del Sol SiR (hidden)</td></tr>
+<tr><td width="30"></td><td align="left">80053BBC</td><td align="left">&nbsp;hdegr</td><td align="left">[R]del Sol VGI (hidden)</td></tr>
+<tr><td width="30"></td><td align="left">80053BC4</td><td align="left">&nbsp;hderr</td><td align="left">[R]del Sol'93 Si</td></tr>
+<tr><td width="30"></td><td align="left">80053BCC</td><td align="left">&nbsp;hdelr</td><td align="left">[R]del Sol'93 S</td></tr>
+<tr><td width="30"></td><td align="left">80053BD4</td><td align="left">&nbsp;hcvrr</td><td align="left">[R]Civic(Racer)</td></tr>
+<tr><td width="30"></td><td align="left">80053BDC</td><td align="left">&nbsp;hcvnr</td><td align="left">[R]Civic 3 door</td></tr>
+<tr><td width="30"></td><td align="left">80053BE4</td><td align="left">&nbsp;hcfnr</td><td align="left">[R]Civic Sedan</td></tr>
+<tr><td width="30"></td><td align="left">80053BEC</td><td align="left">&nbsp;hinrr</td><td align="left">[R]Integra Type R</td></tr>
+<tr><td width="30"></td><td align="left">80053BF4</td><td align="left">&nbsp;hinsr</td><td align="left">[R]Integra GS-R</td></tr>
+<tr><td width="30"></td><td align="left">80053BFC</td><td align="left">&nbsp;hcrxn</td><td align="left">Civic'91 CR-X Si</td></tr>
+<tr><td width="30"></td><td align="left">80053C04</td><td align="left">&nbsp;hcfon</td><td align="left">Civic'93 Sedan</td></tr>
+<tr><td width="30"></td><td align="left">80053C0C</td><td align="left">&nbsp;hcvon</td><td align="left">Civic'93 3door Si</td></tr>
+<tr><td width="30"></td><td align="left">80053C14</td><td align="left">&nbsp;hdesn</td><td align="left">del Sol SiR (hidden)</td></tr>
+<tr><td width="30"></td><td align="left">80053C1C</td><td align="left">&nbsp;hdegn</td><td align="left">del Sol VGI (hidden)</td></tr>
+<tr><td width="30"></td><td align="left">80053C24</td><td align="left">&nbsp;hdern</td><td align="left">del Sol'93 Si</td></tr>
+<tr><td width="30"></td><td align="left">80053C2C</td><td align="left">&nbsp;hdeln</td><td align="left">del Sol'93 S</td></tr>
+<tr><td width="30"></td><td align="left">80053C34</td><td align="left">&nbsp;hcvrn</td><td align="left">Civic(Racer)</td></tr>
+<tr><td width="30"></td><td align="left">80053C3C</td><td align="left">&nbsp;hcvnn</td><td align="left">Civic 3 door</td></tr>
+<tr><td width="30"></td><td align="left">80053C44</td><td align="left">&nbsp;hcfnn</td><td align="left">Civic Sedan</td></tr>
+<tr><td width="30"></td><td align="left">80053C4C</td><td align="left">&nbsp;hinrn</td><td align="left">Integra Type R</td></tr>
+<tr><td width="30"></td><td align="left">80053C54</td><td align="left">&nbsp;hinsn</td><td align="left">Integra GS-R</td></tr>
+<tr><td width="30"></td><td align="left">80053C5C</td><td align="left">&nbsp;mmgor</td><td align="left">[R]Mirage'92 Cyborg-R</td></tr>
+<tr><td width="30"></td><td align="left">80053C64</td><td align="left">&nbsp;mmgrr</td><td align="left">[R]Mirage Asti RX</td></tr>
+<tr><td width="30"></td><td align="left">80053C6C</td><td align="left">&nbsp;mmgon</td><td align="left">Mirage'92 Cyborg-R</td></tr>
+<tr><td width="30"></td><td align="left">80053C74</td><td align="left">&nbsp;mmgrn</td><td align="left">Mirage Asti RX</td></tr>
+<tr><td width="30"></td><td align="left">80053C7C</td><td align="left">&nbsp;mftnr</td><td align="left">[R]FTO GP version R</td></tr>
+<tr><td width="30"></td><td align="left">80053C84</td><td align="left">&nbsp;mftxr</td><td align="left">[R]FTO GPX</td></tr>
+<tr><td width="30"></td><td align="left">80053C8C</td><td align="left">&nbsp;mftgr</td><td align="left">[R]FTO GR</td></tr>
+<tr><td width="30"></td><td align="left">80053C94</td><td align="left">&nbsp;mftor</td><td align="left">[R]FTO'94 GPX</td></tr>
+<tr><td width="30"></td><td align="left">80053C9C</td><td align="left">&nbsp;mftrr</td><td align="left">[R]FTO'94 GR</td></tr>
+<tr><td width="30"></td><td align="left">80053CA4</td><td align="left">&nbsp;mftnn</td><td align="left">FTO GP version R</td></tr>
+<tr><td width="30"></td><td align="left">80053CAC</td><td align="left">&nbsp;mftxn</td><td align="left">FTO GPX</td></tr>
+<tr><td width="30"></td><td align="left">80053CB4</td><td align="left">&nbsp;mftgn</td><td align="left">FTO GR</td></tr>
+<tr><td width="30"></td><td align="left">80053CBC</td><td align="left">&nbsp;mfton</td><td align="left">FTO'94 GPX</td></tr>
+<tr><td width="30"></td><td align="left">80053CC4</td><td align="left">&nbsp;mftrn</td><td align="left">FTO'94 GR</td></tr>
+<tr><td width="30"></td><td align="left">80053CCC</td><td align="left">&nbsp;ttror</td><td align="left">[R]Trueno GT-Apex</td></tr>
+<tr><td width="30"></td><td align="left">80053CD4</td><td align="left">&nbsp;tlvor</td><td align="left">[R]Corolla Levin GT-Apex</td></tr>
+<tr><td width="30"></td><td align="left">80053CDC</td><td align="left">&nbsp;ttron</td><td align="left">Trueno GT-Apex</td></tr>
+<tr><td width="30"></td><td align="left">80053CE4</td><td align="left">&nbsp;tlvon</td><td align="left">Corolla Levin GT-Apex</td></tr>
+<tr><td width="30"></td><td align="left">80053CEC</td><td align="left">&nbsp;ttrnr</td><td align="left">[R]Trueno BZ-G</td></tr>
+<tr><td width="30"></td><td align="left">80053CF4</td><td align="left">&nbsp;tlevr</td><td align="left">[R]Corolla Levin BZ-G</td></tr>
+<tr><td width="30"></td><td align="left">80053CFC</td><td align="left">&nbsp;tstlr</td><td align="left">[R]Starlet Glanza V</td></tr>
+<tr><td width="30"></td><td align="left">80053D04</td><td align="left">&nbsp;ttrnn</td><td align="left">Trueno BZ-G</td></tr>
+<tr><td width="30"></td><td align="left">80053D0C</td><td align="left">&nbsp;tlevn</td><td align="left">Corolla Levin BZ-G</td></tr>
+<tr><td width="30"></td><td align="left">80053D14</td><td align="left">&nbsp;tstln</td><td align="left">Starlet Glanza V</td></tr>
+</table>
+
+</HTML>
+
+
+<CODES>
+Note that any car which can be entered in normal form can be entered in
+race-mod form, too.  Note that, apart from the Demio Aspec, no other
+prize cars can be entered in this series, not even the prizes you
+win from it!  A few of the cars in the above list are not explicitly
+mentioned in the official <b>Gran Turismo</b> Reference Manual from
+Polyphony.
+
+At 80058310 there is a table of pointers referring to these strings.
+It begins with the count 38(hex) or 56, followed by the above pointers,
+in reverse order.  Strange fact: the above list has 68 entries, so
+perhaps the count does not refer to it.
+
+If you use a <b>GameShark Pro</b> to alter one of the above strings,
+that car will no longer be eligible.  If you in fact set the string
+to match some other car, that car can then enter the series.
+</CODES>
+
+
+
+===============================================================================

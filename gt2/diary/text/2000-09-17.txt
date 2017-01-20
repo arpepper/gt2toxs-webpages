@@ -1,0 +1,165 @@
+Sunday September 17, 2000
+
+I cleanly break 1-30 with the ConceptCar in the Grand Valley 300
+
+Threads:
+  Prize Car Information
+  Grand Valley 300 Results
+  Race Results
+
+Using the yellow prize Concept car in my main game,
+I finished in 1-27:28.1, truly breaking 1.5 hours now!
+
+   "main game" day 5377
+   Sunday September 17, 2000
+   560bhp Concept Car (UKvsUS prize)
+   Grand Valley 300km Endurance Race
+
+   q1st        1:332.580rec    Cr20,000
+
+   Results:
+
+   1st  Concept Car            1-27:28.1 <--personal best
+   2nd  [R]GTO twinturbo        +884.747   (1-42:12.8)
+   3rd  [R]GT-R LM              +926.126   (1-42:54.2)
+   4th  [R]Impreza RLY Ed       +972.126   (1-43:40.2)
+   5th  [R]Lantis TypeR        +1237.774   (1-48:05.9)
+   5th  [R]Accord Sedan        +1293.308   (1-49:01.4)
+   
+   lap 1   1:32.404
+   pits   15,30,45    
+   fl  (19)  1:24.890
+   slowest  non-pit   (59)  1:28.739
+             next     (56)  1:28.483
+   fastest pit laps   (30in)  1:39.313
+                      (31out) 1:32.996
+   slowest pit laps   (15in)  1:40.672
+                      (46out) 1:36.094
+
+Wow.  I had lapped the field twice by my first pitstop, and just kept
+charging along.  Every single flying lap was under 1:30!
+
+I suffered hardly any incidents at all--I ran just a little wide on one
+of the hairpins once, on lap 46, just barely touching the gravel.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Once again I actually recorded all lap times, as follows:
+
+Lucky you!    8-)
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:32.404      1:32.404
+ 2   1:26.383      2:58.787
+ 3   1:26.501      4:25.288
+ 4   1:25.190      5:50.478
+ 5   1:25.336      7:15.814
+ 6   1:26.230      8:42.044
+ 7   1:26.904     10:08.948
+ 8   1:27.056     11:36.004
+ 9   1:25.545     13:01.549
+10   1:25.976     14:27.525
+11   1:26.330     15:53.855
+12   1:27.229     17:21.084
+13   1:26.411     18:47.495
+14   1:26.394     20:13.889
+15   1:40.672     21:54.561
+16   1:33.169     23:27.730
+17   1:26.465     24:54.195
+18   1:27.527     26:21.722
+19   1:24.890     27:46.612
+20   1:26.537     29:13.149
+21   1:26.094     30:39.243
+22   1:25.454     32:04.697
+23   1:26.366     33:31.063
+24   1:26.311     34:57.374
+25   1:25.662     36:23.036
+26   1:26.285     37:49.321
+27   1:25.656     39:14.977
+28   1:25.670     40:40.647
+29   1:27.963     42:08.610
+30   1:39.313     43:47.923
+31   1:32.996     45:20.919
+32   1:26.506     46:47.425
+33   1:26.966     48:14.391
+34   1:25.841     49:40.232
+35   1:27.001     51:07.233
+36   1:26.102     52:33.335
+37   1:26.962     54:00.297
+38   1:25.023     55:25.320
+39   1:25.785     56:51.105
+40   1:27.266     58:18.371
+41   1:25.755     59:44.126
+42   1:27.958   1-01:12.084
+43   1:26.109   1-02:38.193
+44   1:25.572   1-04:03.765
+45   1:39.453   1-05:43.218
+46   1:36.094   1-07:19.312
+47   1:25.296   1-08:44.608
+48   1:25.710   1-10:10.318
+49   1:25.496   1-11:35.814
+50   1:26.296   1-13:02.110
+51   1:25.780   1-14:27.890
+52   1:25.044   1-15:52.934
+53   1:26.177   1-17:19.111
+54   1:26.987   1-18:46.098
+55   1:25.324   1-20:11.422
+56   1:28.483   1-21:39.905
+57   1:26.405   1-23:06.310
+58   1:26.002   1-24:32.312
+59   1:28.737   1-26:01.049
+60   1:27.078   1-27:28.127
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+           My Settings
+
+Spring Rate     4.2   3.5
+Ride Height     100   120  (not min)
+Dampers          3     3
+Camber          2.0   1.0
+Stabilizers      2     1
+Brake Balance   12     9
+Turbo               0
+        1st       3.178
+        2nd       2.163
+        3rd       1.584
+        4th       1.241
+        5th       1.010
+        6th       0.878
+                  -----
+        FD        3.200
+
+Aero           0.70  0.96  (max,max)
+
+After this I set a new personal best Grand Valley two-lap time trial
+record:
+
+1:29.558 + 1:24.158 = 2:53.716
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

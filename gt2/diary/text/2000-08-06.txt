@@ -1,0 +1,42 @@
+Sunday August 06, 2000
+
+
+(GT2 Version 1.0)  GameShark Addresses for Lap Counters
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+
+On Thursday night I did the work to create the drag racing
+code for Version 1.1 and 1.2
+
+Along the way I discovered the lap counter locations for all the
+cars in an AI race, in all versions.  Here they are for version
+1.0
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ $A99AC -- player
+ $AA4EC -- AI starting 5th
+ $AB02C -- AI starting 4th
+ $ABB6C -- AI starting 3rd
+ $AC6AC -- AI starting 2nd
+ $AD1EC -- AI starting 1st
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

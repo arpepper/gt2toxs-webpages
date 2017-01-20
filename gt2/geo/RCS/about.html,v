@@ -1,0 +1,224 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.09.29.21.42.54;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.09.29.21.40.27;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.09.29.20.03.04;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Started with the old home page.
+@
+
+
+1.3
+log
+@fixed logs link, and duplicated navigation bar.
+@
+text
+@<!doctype html public "-//IETF//DTD HTML//EN//2.0">
+<html>
+<head>
+<title>
+About GT2 to Excess!</title>
+</head>
+
+<body bgcolor="yellow" link="red" vlink="brown" alink="red">
+<!--
+HI THERE<br><br>
+-->
+<table border=0 width="100%">
+
+<tr color="white">
+<td>
+<img align="left" border="0" width="1" height="124" src="bitmaps/oneclearbit.gif">
+</td>
+<td  valign="middle" bgcolor="black" background="gifs/gt2tiny.jpg">
+<center>
+<font face="Comic Sans MS"  color="white" size="+4">
+About 
+<font  face="Comic Sans MS" color="white" size="+20">
+GT2toXS!
+</font>
+</center>
+</td>
+</table>
+<p>
+<img src="bitmaps/oneclearbit.gif" height="1" width="300"><br>
+<table width="85%"><tr><td width="15%"></td>
+<td>
+<font size="-2">
+[<a href="index.html">index</a>]
+[<a href="about.html">about</a>]
+[<a href="holiday-2000-06-01">photo album</a>]
+[<a href="gt/results_forms">results forms</a>]
+[<a href="gt/">links</a>]
+[<a href="gt/diary/">diary</a>]
+[<a href="gt/logs/">logs</a>]
+</font>
+</td>
+</tr>
+</table>
+
+<table border="0" >
+<tr><td></td><td>
+&nbsp;<br>
+<img src="bitmaps/oneclearbit.gif" height="1" width="300"><br>
+&nbsp;<br>
+</td></tr>
+<tr><td>
+&nbsp;<br>
+&nbsp;<br>
+</td><td>
+<!-- stuff goes here... -->
+
+<table width="85%"><tr><td width="15%"></td>
+<td>
+<font face="Comic Sans MS"><p>
+In the spring of 1998, <b>Sony</b> released in North America a new car-racing game for their
+<b>PlayStation</b> console videogame system.  Entitled
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font>,
+many people consider that this game set new standards in realism of racing
+games, specifically in the modeling of car physics.  I bought this game
+in December 1998 and quite quickly became hooked.  Fans of
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font>,
+tend to refer to it as simply <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>.  When Sony came out with a sequel,
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <font size="+1" color="gray">2</font>, that became similarly known as
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="gray">2</font>.
+I myself bought <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="gray">2</font> on
+the very first day of its North American release.
+</p>
+<p>
+So now I call myself <b>GT2toXS</b>.  Read it aloud, and think about it.
+</p>
+<p>
+Originally, when posting to usenet groups I wanted a little anonymity,
+so I began using <b>GT2XS</b> as my name, but when <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="gray">2</font>
+came out, that began to look ambiguous, so I switched to <b>GT2toXS</b>.
+</p>
+<p>
+So, I seem to have created some <font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> <a href="gt/">pages</a>;
+see what you think of them.
+</p>
+<p>
+I do know from looking at logs for the original version of this site that
+the occasional person does come to get copies of my <a href="gt/results_forms/">results forms</a>.  And I have collected a rather lengthy collection
+of other <font size="+1" color="blue">
+G</font><font size="+1" color="red">T</font> <a href="gt/">links</a> as well; many of them
+probably even still work.  <img src="bitmaps/happyfrog.gif"  alt="8-)" width="30" height="18" border="0" >
+</p>
+<p>
+In early 1999, I seemed to have several long email
+conversations talking about <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>,
+and I used these to start a Web page <a href="gt/diary/">diary</a>.  This
+can be interesting reading, as it documents my increase in skill-level
+from truly deplorable to mediocre.  Some of that documentation is
+very self-indulgent--detailed race results, for instance--but in other
+parts I mention game hints I discovered or learned from others, and
+even <b>GameShark</b> codes I wrote down from others, or discovered or
+enhanced myself.  I sort of thought maybe one day I'd mine all that
+information, and rearrange it to create some other <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>
+informational pages, but that happened to only a limited extent.
+The <font size="+1" color="blue">G</font><font size="+1" color="red">T</font>
+pages I did create on my original site made extensive use of CGI's and
+I don't think they can be made to work here.
+</p>
+<p>
+However, please do notice that my diary is arranged as a number of threads,
+allowing you to skip to the next page covering some topic you happen
+to find interesting, rather than forcing you to look at every daily entry.
+(Entries were not made every single day--sometimes I'd only occasionally
+make an entry, and at other times they would be more frequent).
+</p>
+<p>
+Also of interest to people who would be interested in these
+<font size="+1" color="blue">Gran</font><font size="+1" color="red">Turismo</font> pages is my small photo album <a href="holiday-2000-06-01/">page</a> featuring
+my trip to the Richard Petty Driving Experience, at his facility in Orlando,
+Florida.
+</p>
+</font></td></tr></table>
+
+</tr>
+</table>
+
+</p>
+
+<center>
+<table bgcolor="cyan"><tr>
+<td>
+<font size="-2">
+[<a href="index.html">index</a>]
+[<a href="about.html">about</a>]
+[<a href="holiday-2000-06-01">photo album</a>]
+[<a href="gt/results_forms">results forms</a>]
+[<a href="gt/">links</a>]
+[<a href="gt/diary/">diary</a>]
+[<a href="gt/logs/">logs</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+<hr>
+
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+</p>
+</font>
+<font size=-2>
+<p>
+<a href="gt/email.html">email</a>
+</p>
+<p>
+<a href="gt/diary/disclaimer.html">Disclaimers</a>
+</p>
+<p>
+I'm not sure if geocities requires me to make links to <a href="bitmaps/">bitmaps</a> and <a href="gifs/">gifs</a>, or not.
+</p>
+</font>
+</body>
+</html>
+@
+
+
+1.2
+log
+@More links, and a puke-ish header.
+@
+text
+@d39 1
+a39 1
+[<a href="logs/">logs</a>]
+d127 17
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d12 16
+d30 15
+d58 2
+a59 2
+<td><font face="Comic Sans MS"><p>
+<p>
+@

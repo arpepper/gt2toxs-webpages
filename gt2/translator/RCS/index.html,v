@@ -1,0 +1,140 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2001.04.05.02.53.30;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.05.02.12.53;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.02.19.07.06;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added more explanation.
+@
+text
+@<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>Translate Gran Turismo 2 Codes
+</TITLE>
+</HEAD>
+<BODY BGCOLOR="yellow" TEXT="#000000">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gt2tiny.jpg" alt="Gran Turismo 2"> Code Translator</h3>
+</font>
+<font color="white">
+<h4>An Online Tool for Code Users</h4>
+</font>
+</td>
+</table>
+<font size=-2 color="blue">
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+[<a href="../diary/">Gran Turismo Diaries</a>&nbsp;]
+[<a href="../email.html">email</a>&nbsp;]
+</p>
+</font>
+
+<hr>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS">
+<p>
+The <a href="gt2codetr.html">translator</a> will attempt to translate
+codes (for <b>GameShark</b> and similar devices) between different
+versions of the <font color="blue">Gran</font> <font color="red">Turismo</font>
+<b>2</b> simulation disk.
+It knows about several different areas of memory that the codes may
+work with, and does different translations depending upon the area
+being used.
+</p>
+<p>
+The <a href="gt2codetr.html">translator</a> will take codes you type into
+the top text area, and, after you have selected the conversion to be
+done, attempt to put the translated versions into the bottom text area.
+</p>
+
+<p>
+This <a href="gt2codetr.html">translator</a> will work only if you
+you have JavaScript turned on.
+</p>
+</font></td></tr></table>
+
+<NOSCRIPT>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS">
+<p>
+You do not have JavaScript turned on, so the translator will not
+work for you.
+</p>
+</font></td></tr></table>
+</NOSCRIPT>
+
+<br>
+<hr>
+
+
+<font size=-2 color="blue">
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+[<a href="../diary/">Gran Turismo Diaries</a>&nbsp;]
+[<a href="../email.html">email</a>&nbsp;]
+</p>
+</font>
+<br>
+</font>
+<p>
+Copyright &copy; 2001 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+
+</BODY>
+</HTML>
+@
+
+
+1.2
+log
+@Use GT2 logo, not Gran Turismo logo.
+@
+text
+@d31 9
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d12 1
+a12 1
+<h3>My <img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Code Translator</h3>
+@

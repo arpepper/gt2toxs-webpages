@@ -1,0 +1,101 @@
+Fri Feb  5, 1999
+
+Passed IA-2
+
+Thread: License Test Progress
+
+Well, last night I finally passed test IA-2.  I thought I would just
+practise the license test as something relatively easy to stop.  Once
+again, a key to getting better performance seemed to be changing my
+shifting pattern to shift up sooner.  Previously I had been shifting
+the Viper at almost the red line.  (nearly 7000rpm) But I decided to
+try shifting sooner, at about 5500rpm.  I wait a little longer in first
+gear because there is a big jump to second, but 2nd,3rd and 4th are
+all close together so right at 5500 seemed appropriate.
+
+Anyway, whereas before I had rarely cracked 1:33, almost immediately
+after adopting this new shift pattern I put in a
+
+    1:30.220
+
+I breathed a sigh of relief since now the objective seemed achievable.
+But first, I reset the machine so as to lose all those days wasted with
+failed attempts.   8-)
+
+Now, I put in some slower times with the new strategy too, but the
+standard deviation definitely seemed to be about a lower mean.  A
+few slowish laps resulted from trying to go into 4th in the first
+corner (through the tunnel).  I finally abandoned that idea.
+Every now-and-then, of course, I would loop it at the hairpin
+just past Big Ben.  I also gradually learned that one should
+brake a little after the first zebra crossing you see on the
+straight before the chicane, not immediately at it.  Using the
+new shifting points, I got into 3rd gear before the corner onto that
+straight, and sometimes, though not always, reached 4th along it.
+
+Anyway, in between my other attempts, I got a:
+
+    1:30.9xx
+
+And a little while later, a:
+
+    1:30.149
+
+So I reset the game again!  8-)
+And, a few tries after that I got.
+
+    1:29.555
+
+It was strange, the run didn't seem particularly good.  I seemed to
+graze about every wall possible, except for the ones in the tunnel, and
+the replay verifies this.  I came out of Big Ben hairpin very wide and
+was right up over the rumble strip on my exit.  In fact, I wasn't
+watching the clock on the finishing straight because, having verified
+that I was lined up to cross the finishing line without corrections, I
+had my eyes firmly planted on the tach, waiting to shift if necessary.
+I saw the finish, it flashed to the "Pass" screen, and I was assuming
+it said "Fail" until I reread it.
+
+It was such a relief that I decided to start a whole new card with all
+15 blocks Replays on which to store it.
+
+Thread: Driving Advice
+
+It's interesting that once again I gain speed by moderating my shifting
+algorithm.  In my defence, if you look at the IA-2 Demo, you will see
+that it usually seems to go up to the red line before shifting.  I
+wonder if perhaps rather than improving engine efficiency, my new
+shift pattern improved acceleration by moderating the torque and
+thereby reducing wheelspin.  The Demo dropped to first gear twice;
+in the sharp left hander after the straight after the tunnel, and
+in Big Ben hairpin.  I only hit first gear in the latter place, in
+spite of my vastly different line through that corner.  If first gear
+would have helped in the other corner, I only realized about it too
+late.  But, although first gear improves acceleration, it is easy to
+lose it all to wheel spins and slides.
+
+The other day when I was playing Gran Turismo late into the night, my
+wife came out while I had wandered into the kitchen to get a snack.
+
+After she found me, she said that playing Gran Tursimo generally puts
+me into a very pleasant mood and added that one day she expects to come
+out to the living room, and not see me there playing, but expects
+instead, as she looks closely at the cars on the screen, to see my face
+smiling back through one of the windshields.
+
+She also says I must get rid of all those ugly bronze cups which are
+cluttering up the living room.  She says the couple of gold ones are
+nice, and the silver ones are also okay, but there are too many of them
+too.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

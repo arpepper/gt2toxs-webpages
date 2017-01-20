@@ -1,0 +1,24 @@
+1CCFB8 to 1D502C 0008 370 -- slot #1, most things (car + colour)
+1CCFC4 to 1D5038 0008 000 -- slot #1, brakes,ctlr,L+W+H
+1CCFCE to 1D5042 0004 000 -- slot #1, drivetrain, transmission
+1CCFD4 to 1D5048 0006 000 -- slot #1, differential
+1CCFFA to 1D506E 0018 000 -- slot #1, many settings
+1CD02E to 1D50A2 002E 000 -- slot #1, remainder to end
+
+1CCFCC to 1D5040 0002 0A4 -- slot #2, engine
+
+1CCFDA to 1D504E 0002 148 -- slot #3, weight reduction
+
+1CCFDC to 1D5050 0002 1EC -- slot #4, race modification
+1CD012 to 1D5086 0002 1EC -- slot #4, down force setting
+
+1CCFDE to 1D5052 000A 290 -- slot #5, engine mods
+
+1CCFE8 to 1D505C 0010 334 -- slot #6, turbo plus some running gear
+1CD014 to 1D5088 0006 334 -- slot #6, turbo gauge and sound
+
+1CCFD2 to 1D5046 0002 3D8 -- slot #7, suspension
+1CD01A to 1D508E 0014 3D8 -- slot #7, suspension settings
+
+1CCFC0 to 1D5034 0004 47C -- slot #8, wheels (rims)
+1CCFF8 to 1D506C 0002 47C

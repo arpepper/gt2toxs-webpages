@@ -1,0 +1,321 @@
+Friday October 20, 2000
+
+(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Events
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+So at <html><a href="http://www.cmgsccc.com/">www.cmgsccc.com</a></html> I
+learned how you can change the tracks at which Gran Turismo 1 Simulation
+Mode Events take place.  I worked out by myself how you can use tracks
+other than the Simulation Mode tracks.  This means you can run the
+Enduro on the two-player tracks which have the pits open.  (I've tested
+this, and it works for both your car and the AI cars.
+
+See <html><a href="http://www.cmgsccc.com/psx/grant11.shtml">www.cmgsccc.com/psx/grant11.shtml</a></html> for their versions of these codes.  I use the
+<html><b>GameShark Pro</b></html> to do equivalent patches at the first pre-race
+screen.  (Unfortunately this does not change your test run course,
+but that is alright, and can be got around by using the other set of track
+modifier codes).
+
+Here are the addresses for the per-event track codes, with their initial 4-byte values:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Spot Races</b> (start at $90E74, add 8 per race)
+ $90E74 -- High Speed Ring Spot Race ($8008C760)
+ $90E7C -- Grand Valley East Spot Race ($8008C6B0)
+ $90E84 -- Autumn Mini Spot Race ($8008C77C)
+ $90E8C -- Trial Mountain Spot Race ($8008C784)
+ $90E94 -- Deep Forest Spot Race ($8008C6D4)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Sunday Cup</b> (start at $90E0C, add 4 per track)
+ $90E0C -- Autumn Mini ($8008C77C)
+ $90E10 -- High Speed Ring ($8008C760)
+ $90E14 -- Grand Valley East ($8008C6B0)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Clubman Cup</b> (start at $90E1C, add 4 per track)
+ $90E1C -- Autumn Ring ($8008C790)
+ $90E20 -- Clubman Stage R5 ($8008C754)
+ $90E24 -- Trial Mountain ($8008C784)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>GT Cup</b> (start at $90E2C, add 4 per track)
+ $90E2C -- Grand Valley Speedway ($8008C6F8)
+ $90E30 -- Deep Forest ($8008C6D4)
+ $90E34 -- Special Stage R5 ($8008C76C)
+ $90E38 -- Trial Mountain ($8008C784)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>GT World Cup</b> (start at $90E40, add 4 per track)
+ $90E40 -- High Speed Ring ($8008C760)
+ $90E44 -- Trial Mountain ($8008C784)
+ $90E48 -- Grand Valley Speedway ($8008C6F8)
+ $90E4C -- Special Stage R5 ($8008C76C)
+ $90E50 -- Deep Forest ($8008C6D4)
+ $90E54 -- Special Stage R11 ($8008C6A8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>FF Series</b> (start at $90D44, add 4 per track)
+ $90D44 -- Deep Forest II ($8008C6B8)
+ $90D48 -- Grand Valley East ($8008C6B0)
+ $90D4C -- Special Stage R11 ($8008C6A8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>FR Series</b> (start at $90D54, add 4 per track)
+ $90D54 -- Grand Valley East II ($8008C6E0)
+ $90D58 -- Deep Forest ($8008C6D4)
+ $90D5C -- Grand Valley Speedway II ($8008C6C8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>4WD Series</b> (start at $90D64, add 4 per track)
+ $90D64 -- Trial Mountain II ($8008C700)
+ $90D68 -- Grand Valley Speedway ($8008C6F8)
+ $90D6C -- Special Stage R5 II ($8008C6EC)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Lightweight Battle Stage</b> (start at $90DA4, add 4 per track)
+ $90DA4 -- Autumn Mini II ($8008C748)
+ $90DA8 -- Clubman Stage R5 ($8008C754)
+ $90DAC -- Deep Forest II ($8008C6B8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>USvsJP</b> (start at $90DB4, add 4 per track)
+ $90DB4 -- Trial Mountain II ($8008C700)
+ $90DB8 -- Special Stage R5 ($8008C76C)
+ $90DBC -- High Speed Ring ($8008C760)
+ $90DC0 -- Grand Valley East II ($8008C6E0)
+ $90DC4 -- Special Stage R11 ($8008C6A8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>UKvsJP</b> (start at $90DCC, add 4 per track)
+ $90DCC -- Trial Mountain II ($8008C700)
+ $90DD0 -- Special Stage R5 ($8008C76C)
+ $90DD4 -- High Speed Ring ($8008C760)
+ $90DD8 -- Grand Valley East II ($8008C6E0)
+ $90DDC -- Special Stage R11 ($8008C6A8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>UKvsUS</b> (start at $90DE4, add 4 per track)
+ $90DE4 -- Trial Mountain II ($8008C700)
+ $90DE8 -- Special Stage R5 ($8008C76C)
+ $90DEC -- High Speed Ring ($8008C760)
+ $90DF0 -- Grand Valley East II ($8008C6E0)
+ $90DF4 -- Special Stage R11 ($8008C6A8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Normal Series</b> (start at $90D8C, add 4 per track)
+ $90D8C -- Autumn Mini II ($8008C748)
+ $90D90 -- Grand Valley East II ($8008C6E0)
+ $90D94 -- Clubman Stage R5 II ($8008C728)
+ $90D98 -- Deep Forest II ($8008C6B8)
+ $90D9C -- Special Stage R11 ($8008C6A8)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Hard-Tuned Series</b> (start at $90D74, add 4 per track)
+ $90D74 -- High Speed Ring II ($8008C738)
+ $90D78 -- Grand Valley Speedway II ($8008C6C8)
+ $90D7C -- Clubman Stage R5 II ($8008C728)
+ $90D80 -- Autumn Ring II ($8008C71C)
+ $90D84 -- Special Stage R11 II ($8008C710)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Mega-Speed Series</b> (start at $90DFC, add 4 per track)
+ $90DFC -- High Speed Ring ($8008C760)
+ $90E00 -- Test Track ($8008C774)
+ $90E04 -- High Speed Ring II ($8008C738)
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ <b>Enduros</b> (start at $90E5C, add 8 per race)
+ $90E5C -- Grand Valley 300 ($8008C6F8)
+ $90E64 -- Special Stage R11 All-Night I ($8008C6A8)
+ $90E6C -- Special Stage R11 All-Night II ($8008C710)
+</pre></font></tt>
+</HTML>
+
+
+So, in summary, here are the legitimate values for simulation mode
+tracks.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ $8008C6A8 -- Special Stage R11 (outbahn)
+ $8008C6B0 -- Grand Valley East (short)
+ $8008C6B8 -- Deep Forest II (rev_test_in2)
+ $8008C6C8 -- Grand Valley Speedway II (rev_circuit)
+ $8008C6D4 -- Deep Forest (test_in2)
+ $8008C6E0 -- Grand Valley East II (rev_short)
+ $8008C6EC -- Special Stage R5 II (rev_highway)
+ $8008C6F8 -- Grand Valley Speedway (circuit)
+ $8008C700 -- Trial Mountain II (rev_mountain)
+ $8008C710 -- Special Stage R11 II (rev_outbahn)
+ $8008C71C -- Autumn Ring II (rev_autumn)
+ $8008C728 -- Clubman Stage R5 II (rev_shortway)
+ $8008C738 -- High Speed Ring II (rev_testline)
+ $8008C748 -- Autumn Mini II (rev_mini)
+ $8008C754 -- Clubman Stage R5 (shortway)
+ $8008C760 -- High Speed Ring (testline)
+ $8008C76C -- Special Stage R5 (highway)
+ $8008C774 -- Test Track (speed)
+ $8008C77C -- Autumn Mini (mini)
+ $8008C784 -- Trial Mountain (mountain)
+ $8008C790 -- Autumn Ring (autumn)
+
+</pre></font></tt>
+</HTML>
+
+The track values are actually pointers to other names, which are shown
+in parentheses in the above list.  These names look
+like they might be internal file names of some sort.  So, I looked for
+other lists of names, and finally did discover that, amongst others,
+the following 2 player tracks can be used as tracks at simulation
+mode events.  This allows you to do the enduroes on these tracks, and
+have pits which actually work.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ $800C0C7F -- Grand Valley Speedway (2p_circuit)
+ $800C0CBB -- Grand Valley East (2p_short)
+ $800C0CE8 -- Autumn Ring (2p_autumn)
+ $800C0D10 -- Autumn Mini (2p_mini)
+ $800C0D3F -- Special Stage R5 (2p_highway)
+ $800C0D82 -- Clubman Stage R5 (2p_shortway)
+ $800C0DD8 -- Special Stage R11 (2p_outbahn)
+ $800C0E4B -- High Speed Ring (2p_testline)
+ $800C0E58 -- Deep Forest (2p_test_in2)
+ $800C0E65 -- Trial Mountain (2p_mountain)
+
+ $800C0F68 -- rogo-test (rogotest)
+
+</pre></font></tt>
+</HTML>
+
+The last track. although not a 2-player track, is a hidden track with the
+pits open.  It is basically the Autumn Ring Mini, but with peculiar
+lighting effects on the cars.
+
+Since these values in memory do actually have $80 in the first of the
+four bytes, this is causing me to think that PlayStation memory is
+actually offset by $80000000, and that it is not 100% correct to say
+that $80 in the first two digits of a Game Shark code is really the
+op-code.  But I don't know for sure.
+
+You can use these codes with a <html><b>GameShark Pro</b></html> by changing
+the apppropriate location at the first pre-race screen.
+
+Or you can construct a code to modify the event you want.  For instance,
+to run the <html><b>Grand Valley 300</b></html> on the 2-player
+<html><b>High Speed Ring</b></html> track, the memory patch part
+of the code would be:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ 80090E5C 0E4B
+ 80090E5E 800C
+</pre></font></tt>
+</HTML>
+
+$90E5C (or $800905EC) is the address of
+the <html><b>Grand Valley 300</b></html> track pointer, and
+$800C0E4B is the value required to make that the 2 player
+<html><b>High Speed Ring</b></html>.
+
+It's advisable to guard this code with something.  When you have two values
+to patch, it's tricky--$8008 in the top two bytes looks too general to
+test for, to me.  So perhaps something like the following would be a
+good idea:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ D0090E64 C6A8
+ 80090E5C 0E4B
+ D0090E64 C6A8
+ 80090E5E 800C
+</pre></font></tt>
+</HTML>
+
+This will do the above patches only when the memory pointer for the
+<html><b>All-night I</b></html> endurance race appears to be set to
+its normal value.  That is, when that area of memory appears to be
+being used for the list of tracks for each event.
+
+I tested this exact code, and it seemed to work very well.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

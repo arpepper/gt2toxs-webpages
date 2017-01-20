@@ -1,0 +1,181 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2001.04.16.20.37.42;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.09.01.09.44;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.02.04.30.45;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Oops.  Thought we'd RCS'd it already.  8-)
+@
+
+
+1.3
+log
+@minor notation error
+@
+text
+@March 27, 2001
+       I hoped to do this game in 100 days.
+       But my main intention was to use the Nissan Fairlady Z turbo as much
+       as possible.
+       I reloaded the game so as to take only one attempt per license test.
+       I also did some experiments without saving.
+       E.g. I found it near impossible to win the Mega with the tuned Fairlady.
+       I also reloaded the game to get no NSX so the Supra '95 RZ could win.
+
+   1      B4 pass 0:25.743 B (1 try)
+   2      B5 pass 0:24.225 S (1 try)
+   3      B3 oass 0:28.700 B (1 try)
+   4      B6 pass 0:26.676 S (1 try)
+   5      B7 pass 0:26.140 S (1 try)
+   6      B1 pass 0:35.002 S (1 try)
+   7      B2 pass 0:26.902 B (1 try)
+   8      B8 pass 1:21.442 B (1 try)
+   9   B license acquired  4:34.830
+
+   9   buy car RX7GTX  Blaze Red Mazda FC Savanna RX-7 GT-X (Cr8,740)
+   9   Cr1,260
+   9-12   RX7GTX   Sunday  q5Hq3G 1st27to18,12,8,5,5          Demio(1/1*)a
+  13   Cr26,760
+  13      A6 pass 0:26.914 S (3 tries)
+  14      A1 pass 0:33.041 S (1 try)
+  15      A2 pass 0:25.475 B (1 try)
+  16      A7 pass 0:29.293 S (1 try)
+  17      A3 oass 0:43.325 B (2 tries)
+  18      A4 pass 0:38.974 B (1 try)
+  19      A5 pass 0:31.074 S (1 try)
+  20      A8 pass 1:06.918 B (2 tries)
+  21   A license acquired  4:55.014
+  21   power off
+
+March 28, 2001
+  21   buy car Supra'95  Super Red IV Toyota Supra '95 RZ (Cr25,630)
+  21   Cr1,130
+  21   power off
+
+March 29, 2001
+  21-26   Supra'95  Normal  1st42to33,20,14,11,5      orangeSupraRZ(1/6)a
+  27   Cr311,130
+  27   buy car Fairlady  Red Nissan Fairlady Z Version S Twin Turbo 2 Seater (Cr39,300)
+  27   mod car Fairlady S/S Rmuff SpBr Bctlr comp Rtrans 3clu shaft
+  27   mod car Fairlady Ric TS4 Rsusp stab
+  27   Cr11,530
+  27-30   Fairlady   FR  sw27to18,11,10,5,4           blueSilEighty(1/6)a
+  31   Cr145,030
+  31   buy car [R]Fairlady   White Pearl Nissan Fairlady Z Version S Twin Turbo  2 Seater (for [R]-mod) (Cr39,300)
+  31   mod car [R]Fairlady  [R], pol
+  31-36   [R]Fairlady  USvsJP  q6G1st45to30,17,14,10,9     blackFTO(1/4)a
+  37   Cr96,730
+  37   mod car [R]Fairlady  bal  (Cr16,000)
+  37   Cr80,730
+  37   power off
+
+March 30, 2001
+  37-42   [R]Fairlady UKvsJP  q6G1st45to23,19,18,11,9  greenCerbera(1/4)a
+  43   Cr162,730
+  43-46   Fairlady  Clubman  sw27to18,12,8,7,3               Camaro(1/1*)a
+  47   Cr211,230
+  47   buy car tunedFairlady  Pearl Green Nissan Fairlady Z Version S Twin Turbo 2 Seater  (Cr39,300)
+  47   mod car tunedFairlady WR3, TS3, bal+pol  (add other parts)
+  47   Cr72,430
+  47-51   tunedFairlady  GTC  sw36to20,19,11,7,7           ChaserLM(1/1*)a
+  52   Cr157,430
+  52   mod car tunedFairlady  Rfw
+  52   Cr156,230
+  52   power off
+
+March 31, 2001
+  52       IA1 pass 1:05.492 B (1 try)
+  53       IA3 pass 2:01.320 B (1 try)
+  54       IA5 pass 1:23.147 B (1 try)
+  55       IA7 pass 2:09.986 S (1 try)
+  56       IA2 pass 1:29.021 B (1 try)
+  57       IA4 pass 1:20.510 B (2 tries)
+  58       IA6 pass 1:31.802 B (1 try)
+  59       IA8 pass 1:58.241 B (1 try)
+  60   IA license acquired  12:59.479
+  60-65   tunedFairlady  Abnormal 1st39to24,24,19,12,7  whiteTrueno(1/6)a
+  66   Cr486,230
+  66-72   [R]Fairlady     GTI 1st54to31,27,20,12,6       hifi+  credits
+  73   Cr686,230
+  73   buy car Pulsar  super black Pulsar'91GTI-R (Cr12,980)
+  73   Cr673,250
+  73   mod car Pulsar   max non-perm tune
+  73   Cr562,450
+  73-76   Pulsar  4wd  q6S1st27to13,10,11,8,6          whiteAlcyone(1/6)a
+  77   Cr590,450
+  77   power off
+
+April 01, 2001
+  77-78   tunedFairlady    All-nightII  q6th1st  silverNismoGT-R LM(1/1*)a
+  79   Cr740,450
+  79   power off
+
+April 02, 2001
+April 03, 2001
+April 04, 2001
+April 05, 2001
+  79-80   [R]Fairlady   All-nightI   q1st1st            redSilviaLM(1/2)a
+  81   Cr910,450
+  81   power off
+
+April 06, 2001
+  81-82   [R]Fairlady    GV300  q1st1st             black/blueSupra(1/2)a
+  83   Cr1,230,450
+  83   power off
+
+April 07, 2001
+  83-88   [R]Fairlady   UKvsUS sw45to23,21,19,10,7         greenRX7(1/4)a
+  89   Cr1,315,450
+  89   power off
+  89-92   [R]Fairlady  Mega  q6TT,1st27to14,14,9,6,5         redDB7(1/6)a
+  93   Cr1,400,450
+
+  93   buy car Trueno  High-Tech Two-Tone (white) Toyota Sprinter Trueno GT-Apex (Cr7,460)
+  93   Cr1,392,990
+  93   mod car Trueno  TS1,NA2, max non-perm tune -> Cr1,301,090
+  93-96   Trueno   Lwt  g6Cq4D1st27to18,11,9,5,5          blueCivic(1/6)a
+  97   Cr1,328,090
+
+  97   mod car CivicTypeR   NA3, max non-perm -> Cr1,195,190
+  97-100  CivicTypeR   FF  sw27to18,11,10,6,3           greenCelica(1/6)a
+  101  Cr1,224,690   7 purchased cars + 16 prizes = 23 cars
+  101  power off
+@
+
+
+1.2
+log
+@Finished.
+@
+text
+@d112 1
+a112 1
+  83-88   [R]Fairlady   UKvsUS sw45to23,21,19,10,7         greenRX7(1/4)i
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d97 31
+@

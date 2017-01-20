@@ -1,0 +1,90 @@
+Monday November 13, 2000
+
+
+(GT1 Version 1.1)  Sunday Cup Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+I am now going to list, one event per day, all the tables
+I tracked down in Simulation Race mode.  I start with the
+parameters for the <b>Sunday Cup</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Sunday Cup Event (8008F544)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>     80090E0C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td> 80091004</td>
+<tr><td>&nbsp;</td><td>poletimes</td><td>  8008F4E4</td>
+<tr><td>&nbsp;</td><td>entrants</td><td>   80090B50</td>
+<tr><td>&nbsp;</td><td>prizecars</td><td>  80090D0C</td>
+<tr><td>&nbsp;</td><td>laps</td><td>       2</td>
+</table>
+
+<table>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td><td width="10%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E0C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C77C</td><td>"mini"</td><td>Autumn Mini</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C760C</td><td>"testline"</td><td>High Speed Ring</td><tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6B0</td><td>"short"</td><td>Grand Valley East</td><tr>
+</table>
+
+<table>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td width="3%">&nbsp;</td><td colspan="2" align="left">80091004 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q1500, 1st5000, champ15000)</td></tr>
+</table>
+
+<table>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td><td width="10%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090B50 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C408</td><td>"tstln"</td><td>Starlet Glanza V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C250</td><td>"mecln"</td><td>Eclipse GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C410</td><td>"hcfon"</td><td>Civic'93 Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C418</td><td>"tlevn"</td><td>Corolla Levin BZ-G</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C378</td><td>"ademn"</td><td>Demio GL-X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C490</td><td>"mmgon"</td><td>Mirage Cyborg R'92</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>"hcvnn"</td><td>Civic 3 door</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C458</td><td>"mmgrn"</td><td>Mirage Asti RX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C470</td><td>"nq15n"</td><td>Silvia Q's Aero (S14)</td></tr>
+</table>
+
+<table>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td><td width="10%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D0C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C678</td><td>"a-emn"</td><td>Demio Aspec</td></tr>
+</table>
+  
+<table>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td><td width="10%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F4E4 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0000B2C0</td><td>0:45.769</td><td>(Autumn Mini)
+<tr><td colspan="2">&nbsp;</td><td>000122C2</td><td>1:14.434</td><td>(High Speed Ring)
+<tr><td colspan="2">&nbsp;</td><td>0001447C</td><td>1:23.068</td><td>(Grand Valley East)
+</table>
+
+</HTML>
+
+===============================================================================

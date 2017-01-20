@@ -1,0 +1,140 @@
+Thursday November 30, 2000
+
+
+(GT1 Version 1.1)  High Speed Ring Spot Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>High Speed Ring Spot Race</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+High Speed Ring Spot Event (8008F634)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E74</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80091100</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F530</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090834</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;0</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E74 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C760</td><td>&nbsp;"testline"&nbsp;</td><td>High Speed Ring</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80091100 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q500, 1st1000, champ0)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090834 ->     (39!)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C360</td><td>&nbsp;"mgaln"&nbsp;</td><td>Galant VR-4</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C358</td><td>&nbsp;"tsoan"&nbsp;</td><td>Soarer 2.5GT-T VVT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C350</td><td>&nbsp;"mecln"&nbsp;</td><td>Eclipse GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C348</td><td>&nbsp;"tsoon"&nbsp;</td><td>Soarer'95 2.5 GT-T</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C340</td><td>&nbsp;"nplon"&nbsp;</td><td>Pulsar'91 GTI-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C338</td><td>&nbsp;"nt33n"&nbsp;</td><td>Skyline GTS25t TypeM</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C330</td><td>&nbsp;"ns15n"&nbsp;</td><td>Silvia K's Aero (S14)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C328</td><td>&nbsp;"ns14n"&nbsp;</td><td>Silvia'95 K's Aero (S?</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C320</td><td>&nbsp;"tsgtn"&nbsp;</td><td>Supra 3.0GT Limited (MA70)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C318</td><td>&nbsp;"acoen"&nbsp;</td><td>Eunos Cosmo 20B Type-E CCS</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C310</td><td>&nbsp;"afc7n"&nbsp;</td><td>FC savanna RX-7 III</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C308</td><td>&nbsp;"ns23n"&nbsp;</td><td>Silvia'91 K's Aero (S?</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C300</td><td>&nbsp;"tsorn"&nbsp;</td><td>Supra'95 SZ-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2F8</td><td>&nbsp;"tsprn"&nbsp;</td><td>Supra SZ-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2F0</td><td>&nbsp;"n18nn"&nbsp;</td><td>180SX TypeX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2E8</td><td>&nbsp;"hpnen"&nbsp;</td><td>Prelude</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2E0</td><td>&nbsp;"hinrn"&nbsp;</td><td>Integra Type R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2D8</td><td>&nbsp;"n180n"&nbsp;</td><td>180SX'94 Type X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2D0</td><td>&nbsp;"hpnvn"&nbsp;</td><td>Prelude Type SH</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2C8</td><td>&nbsp;"hprvn"&nbsp;</td><td>Prelude'94 VTEC</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2C0</td><td>&nbsp;"afr7n"&nbsp;</td><td>Savanna RX-7 GT-X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2B8</td><td>&nbsp;"mftnn"&nbsp;</td><td>FTO GP version R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2B0</td><td>&nbsp;"nt32n"&nbsp;</td><td>Skyline GTS-t TypeM</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2A8</td><td>&nbsp;"nzx3n"&nbsp;</td><td>Fairlady Z Version S 2 seater</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C2A0</td><td>&nbsp;"nzxvn"&nbsp;</td><td>Fairlady Z Version S 2by2</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C298</td><td>&nbsp;"mfton"&nbsp;</td><td>FTO'94 GPX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C290</td><td>&nbsp;"mftxn"&nbsp;</td><td>FTO GPX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C288</td><td>&nbsp;"ssvxn"&nbsp;</td><td>Alcyone SVX Version L</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C280</td><td>&nbsp;"ssv4n"&nbsp;</td><td>Alcyone SVX S4</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C278</td><td>&nbsp;"ns13n"&nbsp;</td><td>Silvia'88 K's 1800cc</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C270</td><td>&nbsp;"hinsn"&nbsp;</td><td>Integra GS-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C268</td><td>&nbsp;"acosn"&nbsp;</td><td>Eunos Cosmo 13B Type-S CCS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C260</td><td>&nbsp;"tchsn"&nbsp;</td><td>Chaser 2.5 Tourer S</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C258</td><td>&nbsp;"n432n"&nbsp;</td><td>Skyline GTS-4</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C250</td><td>&nbsp;"tmrln"&nbsp;</td><td>MR2 G-Limited</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C248</td><td>&nbsp;"mgnon"&nbsp;</td><td>GTO SR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C240</td><td>&nbsp;"mgton"&nbsp;</td><td>GTO'95 SR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C238</td><td>&nbsp;"mgoon"&nbsp;</td><td>GTO'92</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C230</td><td>&nbsp;"tm2sn"&nbsp;</td><td>Mark II'92 Tourer S 2.5</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">0 (none)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F530 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>00011AC9</td><td>&nbsp;1:12.393&nbsp;</td><td></td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

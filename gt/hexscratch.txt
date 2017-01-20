@@ -1,0 +1,360 @@
+</FONT><HR>Perhaps this table will make adding a pair of single hexadecimal digits seem simple...<P><tt><font face="Courier"><pre><BR>
++ | 0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F<BR>
+==+================================================<BR>
+0 | 0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F<BR>
+1 | 1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 10<BR>
+2 | 2  3  4  5  6  7  8  9  A  B  C  D  E  F 10 11<BR>
+3 | 3  4  5  6  7  8  9  A  B  C  D  E  F 10 11 12<BR>
+4 | 4  5  6  7  8  9  A  B  C  D  E  F 10 11 12 13<BR>
+5 | 5  6  7  8  9  A  B  C  D  E  F 10 11 12 13 14<BR>
+6 | 6  7  8  9  A  B  C  D  E  F 10 11 12 13 14 15<BR>
+7 | 7  8  9  A  B  C  D  E  F 10 11 12 13 14 15 16<BR>
+8 | 8  9  A  B  C  D  E  F 10 11 12 13 14 15 16 17<BR>
+9 | 9  A  B  C  D  E  F 10 11 12 13 14 15 16 17 18<BR>
+A | A  B  C  D  E  F 10 11 12 13 14 15 16 17 18 19<BR>
+B | B  C  D  E  F 10 11 12 13 14 15 16 17 18 19 1A<BR>
+C | C  D  E  F 10 11 12 13 14 15 16 17 18 19 1A 1B<BR>
+D | D  E  F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C<BR>
+E | E  F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D<BR>
+F | F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E<BR>
+</pre></font></tt>    <IMG SRC="http://ubb.granturismo.com/smile.gif"><P>For example, to add <B>A</B> + <B>C</B>, find <B>A</B> down the left side, and move across to the entry under <B>C</B> to find <B>16</B>, which you will often want to treat  as <B>6</B> with <B>1</B> carry.<P>Or, as a longer example using the table, to add:<BR>
+<tt><font face="Courier"><pre><BR>
+     ABC<BR>
+    +DEF<BR>
+     ===<BR>
+</pre></font></tt><P>Rightmost column:<BR>
+<B>C</B> + <B>F</B> = <B>1B</B> or <B>B</B> with 1 carry<P>Next column:<BR>
+<B>B</B> + <B>1</B>(carry) = <B>C</B><BR>
+<B>C</B> + <B>E</B> = <B>1A</B> or <B>A</B> with 1 carry.<P>Leftmost column:<BR>
+<B>A</B> + <B>1</B>(carry) = <B>B</B><BR>
+<B>B</B> + <B>D</B> = <B>18</B> or <B>8</B> with 1 carry.<P>Therefore:<tt><font face="Courier"><pre><BR>
+     ABC<BR>
+    +DEF<BR>
+     ===<BR>
+    18AB<BR>
+</pre></font></tt><p>
+
+Sorry, that's really a rather complicated way of thinking about it, isn't it? Well, a very young person might be able to memorize that entire table, but an old person (like me) will do the addition by going back to the base 10 that they are familiar with.  You would translate each digit to decimal, add them, and translate the result back.  For example, when adding <B>C</B> + <B>F</B>, you would translate that to <B>12</B> + <B>15</B>, and get <b>27</b>.  Since that is more than <b>16</b>, you know you have a carry of 1, and, subtracting the 16, get <b>11</b> left over, or, in hexadecimal, <b>B</b> with a carry of 1,  as the table does indicate.
+
+I think in grade school my teachers described it as follows.  Suppose you are counting a large quantity of sticks.  You might collect them into bundles of ten, binding them together.  If you had enough of those bundles, you might in turn bundle them together into bundles of ten bundles, or 100 sticks.  When finished, you could count your sticks by counting the number of large bundles, small bundles, and unbundled sticks.  Hexadecimal is just like that, except that you instead start your new bundles when you collect 16 bundles of the previous size.
+================
+<b>The More-Than-Complete Tutorial About Hexadecimal Notation</b>
+
+In order to truly understand Hexadecimal Notation, it is first necessary to go back and learn consciously some of the things you do when using "normal" decimal (base 10) numbers.
+
+</b>Names For Numbers</b>
+
+When people wanted to compare quantities of things, they began to give names to the numbers representing those quantities:  One, two, three, four, five, six, seven, eight, nine.  And we now know those familiarly as 1, 2, 3, 4, 5, 6, 7, 8, 9.  In addition, we should mention zero (0), used to denote a complete absence of objects.  Numbers go on from there, of course.  You have ten, eleven, and people could keep making up arbitrary names for all quantities. A dozen refers to 12 objects, a score (as in "Four score and seven years ago...") refers to 20, a hundred refers to 100, and so-on.  But the problem with that is the numbers never stop.  Without some method to generate a representation for large numbers, people could not talk about them.
+
+I've actually made use of the solution in the above.  It was decided that once you got to ten objects, you would begin talking about the number of groups of ten you had.   So, to count, you write 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13...  and the last four are interpreted as "one group of ten plus none", "one group of ten plus one", "one group of ten plus two", "one group of ten plus three".
+
+
+We don't universally use 10 when grouping objects for counting.  You might have one dozen and four eggs in the fridge.  Or a pound-and-a-half, that is 24 ounces, of butter.  Up until a few decades ago English money was base on the Pound which had twenty shillings, each of which was composed of twelve pence.
+
+And Roman Numerals, which were really rather a bad idea, illustrate the limitations of a representation system which does not extend infinitely.  As you may be aware from reading copyright dates, after <b>MCMXCIX</b> comes <b>MM</b>, but I personally don't even know how to represent 4000  in Roman Numerals; it cannot be derived automatically--rather, it needs a whole new symbol for "5000".
+================
+<b>Using Groups Smaller Than Ten for Counting</b>
+
+Conceptually, a number smaller than 10 could have been used for counting.  Since we have five fingers on each hand, perhaps five would have been a logical number to have picked for this grouping.  If that had been decided on, there would be no digits 5, 6, 7, 8, 9, only 0, 1, 2, 3, and 4.  And, in numerals, you would count as follows:
+<tt><font face="Courier"><pre>
+0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32
+</pre></font></tt>
+This would correspond to:
+<tt><font face="Courier"><pre>
+0, 1, 2, 3, 4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17
+</pre></font></tt>
+Instead of groups of 10, 100, 1000, and so on, you'd use groups of 5, 25, 125, 625 and so-on--each new group being the previous multiplied by five:
+
+And to write what we now normally write as 666 you would write:
+<tt><font face="Courier"><pre>
+     10131
+</pre></font></tt>
+Because it is 1 time 625, plus 0 times 125, plus 1 times 25, plus 3 times 5, plus 1.
+<tt><font face="Courier"><pre>
+1 x 625 = 625
+0 x 125 =   0
+1 x  25 =  25
+3 x   5 =  15
+1 x   1 =   1
+         ----
+          666
+</pre></font></tt>
+Since you collect your objects in groups of five, these numbers are called "base 5" numbers, in contrast to "normal" base 10 numbers.  ("Base 10" being a name equivalent to "decimal").
+================
+<b>More Fun With Base 10 and Base 5 Numbers</b>
+
+You probably know how, just by looking at it, to tell whether a base 10 (decimal) number is even or odd (that is divisible by 2 or not).  You know that if the last digit is 0, 2, 4, 6, 8, the entire number is even, and if it is not (1, 3, 5, 7, 9), the entire number is odd.
+
+Similarly you probably know that if a number ends in 0 or 5, it is divisible by 5.
+
+Things are a bit different for base 5.  Notice that what we usually write as "6" is written "11" in base 5.  It looks sort of odd, doesn't it?  But you can still tell whether numbers are odd or even, First I'm going to tell you something else about "normal" decimal (base 10) notation.
+
+You may not realize how that it is relatively easy tell whether a base 10 number is divisible by 9, or by 3.  Consider the large number:
+<tt><font face="Courier"><pre>
+     158923845
+</pre></font></tt>
+You can tell relatively quickly that that number is divisible by both 3 and 9.  Just add up all the digits:
+<tt><font face="Courier"><pre>
+     1 + 5 + 8 + 9 + 2 + 3 + 8 + 4 + 5 = 45
+</pre></font></tt>
+Keep adding digits together until you get only 1 digit.  Only one more step in this case:
+<tt><font face="Courier"><pre>
+     4 + 5 = 9
+</pre></font></tt>
+When you add the digits in this way, if you end up with 9, you know that the entire number you started with is divisible by 9.
+
+Indeed:
+<tt><font face="Courier"><pre>
+    9 x 17658205 = 158923845
+</pre></font></tt>
+If the single digit number you end up with is not divisible by 9, but is divisible by 3, you know the original number is divisible by 3.  For example, add 3 to the above number, giving:
+<tt><font face="Courier"><pre>
+    158923848
+
+    1 + 5 + 8 + 9 + 2 + 3 + 8 + 4 + 8 = 48
+    4 + 8 = 12
+    1 + 2 = 3
+</pre></font></tt>
+3 is divisible by 3, telling us that 158923848 is divisible by 3.
+
+That is:
+<tt><font face="Courier"><pre>
+    3 x 52974616 = 158923848
+</pre></font></tt>
+But:
+<tt><font face="Courier"><pre>
+    158923848 = 9 x 17658205 + 3
+</pre></font></tt>
+(In fact, when doing the adding of digits, as soon as you get to a number which you know is divisible by 9, or by 3, you know the entire original number was divisible by the same factor).
+
+This trick depends upon two facts.  First, that 9 is one less than the base (10) which we are using to write our numbers. And secondly, 9 is 3 x 3.  The trick will not work for arbitrary other numbers.
+
+So, returning to our base 5 numbers we can use the equivalent trick to determine whether numbers are odd. even, or divisible by four.  (Note, in base 5, any number which ends in 0 is divisible by 5).
+
+So consider the base 5 number:
+<tt><font face="Courier"><pre>
+   10131
+
+   1 + 0 + 1 + 3 + 1 = 11 (base 5)
+   1 + 1             = 2 (base 5)
+</pre></font></tt>
+So we conclude the number is divisible by 2, but not 4.  Since, you may remember, the above number is the same as 666 decimal, you can verify that that is the case.
+================
+<b>A Rather Special Base Less than Ten</b>
+
+So, after playing with base 5 numbers, let's consider another base, even smaller.  Suppose we decided to start a new group or column each time we reached only 2?
+
+Then we'd count like this:
+<tt><font face="Courier"><pre>
+0,1,10, 11, 100, 101, 110, 111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+</pre></font></tt>
+This would correspond to:
+<tt><font face="Courier"><pre>
+0,1,2,  3,   4,   5,   6,   7,    8,    9,   10,   11,   12,   13,    14,   15
+</pre></font></tt>
+Our columns would be:
+<tt><font face="Courier"><pre>
+2, 4, 8, 16, 32, 64, 256, 512, 1024 and so-on
+</pre></font></tt>
+666 (decimal) in base 2 would be written as:
+<tt><font face="Courier"><pre>
+1010011010
+</pre></font></tt>
+<tt><font face="Courier"><pre>
+1 x 512 = 512
+0 x 256 =   0
+1 x 128 = 128
+0 x  64 =   0
+0 x  32 =   0
+1 x  16 =  16
+1 x   8 =   8
+0 x   4 =   0
+1 x   2 =   2
+0 x   1 =   0
+         ----
+          666
+</pre></font></tt>
+This base 2, or binary, system is used a lot in computing applications, and that is, surprisingly enough, the reason why hexadecimal numbers are used by many computer systems, including the <b>GameShark</b>.
+================
+<b>Number Systems with Bases Larger than Ten</b>
+
+So it is relatively easy to see how to count using groups smaller than 10.  Groups larger than 10 present a problem, however, since you need some way to represent the number of items in the "one's column" when it is greater than 10.  Sometimes this is done with additional notation.
+
+For instance, with English money, prior to decimalization, prices would be written as
+
+<tt><font face="Courier"><pre>
+    1/-   1 shilling, even
+    1/6   1 shilling and sixpence
+    1/9   1 shilling and ninepence
+    1/10   1 shilling and tenpence
+    1/11   1 shilling and elevenpence
+    9/11   9 shillings and elevenpence
+   10/-   10 shillings even
+   11/11   11 shillings and elevenpence
+   19/11   19 shillings and elevenpence
+</pre></font></tt>
+
+and so-on.  This is sort of messy.
+================
+Getting back to our original topic, we are supposedly discussing the hexadecimal system which groups numbers by sixteens instead of tens.  Because it groups number by sixteens, it needs convenient symbols to represent 10, 11, 12, 13, 14, and 15 as single digits.  It was chosen to simply use the first six letters of the alphabet.  That is, you count
+<tt><font face="Courier"><pre>
+1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10,
+</pre></font></tt>
+When you see that 10, do not read it as "ten", but as "one-zero".  It is not "ten", it is 1 x 16 plus zero.  In "normal" decimal notation you start a new group when you add one to a "9".  In hexadecimal you don't--you keep going until you reach "F", starting a new group with next number.
+
+That is:
+<tt><font face="Courier"><pre>
+A represents 10 (as a digit value)
+B represents 11 (as a digit value)
+C represents 12 (as a digit value)
+D represents 13 (as a digit value)
+E represents 14 (as a digit value)
+F represents 15 (as a digit value)
+</pre></font></tt>
+And, apart from discussing properties of this representation of numbers, that's about all there is to say about them.
+
+So, remember decimal (base 10) numbers have a 10's column, a 100's column, and so on--all  the previous one multiplied by ten.  We described how base 5 numbers would have a 5's column, a 25's column, a 125's column, and so-on--multiplying by five for each new column we need.  Similarly, for hexadecimal (base 16) numbers, all columns will be multiples of 16, and so you will have a 16's column, a 256's column, a 4096 column, and a 65536 column, and so-on.
+==============
+Sometimes hexadecimal numbers can spell words!  :)
+
+So if I tell you 
+<tt><font face="Courier"><pre>
+BEAD
+</pre></font></tt>
+is a hexadecimal number, you can convert it to decimal.
+<tt><font face="Courier"><pre>
+D x 1     = 13 x 1    =    13
+A x 16    = 10 x 16   =   160
+E x 256   = 14 x 256  =  3584
+B x 4096  = 11 x 4096 = 45056
+                        -----
+                        48813
+</pre></font></tt>
+=============
+I've had this tutorial kicking around for a while now, and decided to post it.  A part that is missing which I should add later is to show how hexadecimal (base 16) relates to binary.
+
+Basically, you can "read" the binary representation of a number if you are given its hexadecimal representation.  That is, you can convert the number one hex digit at a time, using the following conversion from hexadecimal digits to binary numbers.
+<tt><font face="Courier"><pre>
+ 0 = 0
+ 1 = 1
+ 2 = 10
+ 3 = 11
+ 4 = 100
+ 5 = 101
+ 6 = 110
+ 7 = 111
+ 8 = 1000
+ 9 = 1001
+ A = 1010
+ B = 1011
+ C = 1100
+ D = 1101
+ E = 1110
+ F = 1111
+</pre></font></tt>
+For example, the hexadecimal number
+<tt><font face="Courier"><pre>
+BEAD
+</pre></font></tt>
+is
+<tt><font face="Courier"><pre>
+1011 1110 1010 1101
+</pre></font></tt>
+or
+<tt><font face="Courier"><pre>
+1011111010101101
+</pre></font></tt>
+and knowing that sort of thing can sometimes be useful in computer applications,  For instance, in the case of the <b>GameShark</b> it is relatively easy for it to pull of the top eight binary digits (that is, two hexadecimal digits) to use as the <em>operation code</em> for the instruction.
+
+Looking at the same thing in decimal would be very difficult to work with.
+
+Hmm.  Maybe my tutorial is complete, now.
+
+============
+<b>A Property of Hexadecimal Numbers</b>
+
+Earlier I noted how you can determine whether a decimal number is divisible by 2, 3, 5, or 9.  And I showed how you can apply that to the rather peculiar base of 5.  You can do similar things with hexadecimal numbers.
+
+The last digit of a hexadecimal number indicates whether the number is divisible by 16 (digit 0), 8 (digit 0 or 8), 4(0, 4, 8 or C), or 2(0, 2, 4, 6, 8, A, C, E).
+
+But since 16 minus 1 is 15, you can, in a manner analogous to checking decimal numbers for divisibility by 9 (or 3) determine whether hexadecimal numbers are divisible by 15 (also 3 and 5 because 15 is 3 times 5).
+
+Just add, maintaining hexadecimal notation, the digits of the hexadecimal number, repeatedly adding until you get one digit.  If that digit is <b>F</b> then the number is divisible by 15.  If the digit is divisible by 3, the number is divisible by 3, and if the digit is divisible by 5, the number is divisible by 5.
+
+Take our old friend <b>666</b> as an example.  In hexadecimal this would be written as <b>29A</b> since 
+<tt><font face="Courier"><pre>
+2 x 256 = 512
+9 x  16 = 144
+1 x   A =  10
+         ----
+          666
+</pre></font></tt>
+Now: 
+<tt><font face="Courier"><pre>
+2 + 9 + A = B + A = 15 (hexadecimal, remember)
+1 + 5 = 6
+</pre></font></tt>
+So the sum of the digits is 6, which is divisible by 3, but not by 5, and so we can conclude that that hexadecimal number is divisible by 3, which agrees with our knowledge of the decimal number (3 x 222 = 666).
+
+Consider <b>660</b>, hexadecimal  <b>294</b>:
+<tt><font face="Courier"><pre>
+2 x 256 = 512
+9 x  16 = 144
+1 x   4 =   4
+         ----
+          660
+</pre></font></tt>
+<tt><font face="Courier"><pre>
+2 + 9 + 4 = F
+</pre></font></tt>
+This tells us that that number is divisible by <b>F</b> (fifteen), as can be relatively easily seen from the decimal representation.
+
+Now consider <b>650</b>, hexadecimal  <b>28A</b>:
+<tt><font face="Courier"><pre>
+2 x 256 = 512
+8 x  16 = 128
+1 x  10 =  10
+          ----
+          650
+</pre></font></tt>
+<tt><font face="Courier"><pre>
+2 + 8 + A = A + A = 14 (hexadecimal, remember)
+1 + 4 = 5
+</pre></font></tt>
+Now 5 (10 decimal) is divisible by 5, but not by 3.  Note that we can see that 28A is divisible by 2 (since A in hexadecimal is divisible by 2), and so that, combined with the information that the number is divisible by 5, tells us that the number is divisible by 10.
+
+This is analogous to determining, in decimal, that 138 is divisible by 6.
+<tt><font face="Courier"><pre>
+1 + 3 + 8 = 4 + 8 = 12 (decimal, now)
+1 + 2 = 3
+</pre></font></tt>
+So, 138 is divisible by 3, and you can tell that it is divisible by 2, and so it is divisible by 6.  Indeed, 6 x 23 = 138.
+
+Isn't this all marvellous fun?!!  :)
+
+Note that by adding the digits (often called "casting out nines" in decimal, but it would be "casting out fifteen" in hexadecimal) you can only check for divisibility by some numbers, specifically 3 and 9 in decimal, and 3, 5 and 15 in hexadecimal.
+
+
+============
+<b>Acknowledgement of Ignored Pedantry</b>
+
+When I studied arithmetic and other mathematics in grade school, some emphasis was placed on recognizing the differences between <em>numbers</em> and <em>numerals</em>.  Specifically, a <em>numeral</em> was the representation we wrote (with our chalk on our stone slates :) ), while a <em>number</em> was the abstract thing it represented.
+
+That is, to properly follow that convention, there are no decimal numbers or hexadecimal numbers, but rather decimal <em>numerals</em> and hexadecimal <em>numerals</em>.   And so, the decimal <em>numeral</em> <b>11</b> and the hexadecimal <em>numeral</em> <b>B</b> both represent the same <em>number</em>.
+
+But I never see that convention strictly observed anywhere else (the only exception being perhaps that one always says <em>Roman Numerals</em> and not <em>Roman Numbers</em>), and so I have not observed it here.  But a careful realization of when the word <em>number</em> is really used to mean <em>numeral</em>, and when it is really used to refer to an abstract quantity can help in understanding the things I have been discussing.
+
+For all I know, your teachers never made clear any distinction between <em>number</em> and <em>numeral</em>.  Indeed, the study of mathematics often boils down to making up a notation and rules, and determining the natural notational results of those rules.  And an upshot of that is that cross-cultural communication of mathematical concepts can be confused by differing terminology or notation, or even by differing interpretation of the same terminology or notation.
+
+So, I hope no-one was unduly confused by an arguably imprecise use of the word <em>number</em> in the terms <em>decimal number</em> and <em>hexadecimal number</em>, etc.  And I similary hope no-one was overly confused by this apology.  ;)
+
+============
+<b>A Section to be Filled in Later</b>
+
+One thing I have not touched on here is the notion of bytes and words, and that peculiar byte-order problem you run into when using the <b>GameShark</b>.  When  I am later inspired, I will hopefully explain that detail, which results more from computer implementation than pure arithmetic.
+
+(A lot of the confusion goes back to the fact that we stole our decimal number/numeral system from the Arabs, and therefore we write numbers with the digits for the highest values first, instead of the other way around, since the Arabs write words from right to left, but write decimal numbers/numerals in the same order we do).
+
+
+
+

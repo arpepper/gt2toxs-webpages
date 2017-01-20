@@ -1,0 +1,87 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Thu Jun  3, 1999
+
+I finally win a "real" gold medal (for B-7)
+
+Threads:
+  License Test Progress
+
+Last night (early this morning actually) did I get my first "real" gold
+(B-7)  (B-1,B-2 and A-7 do not count as "real" gold).  I also got
+silver on A-3 and A-7; for some reason I do better with the Griffith
+than the Viper.  (And really strangely, the "Normal" series I raced
+before that, with the Viper, was "off" by about a second a lap).
+
+Before getting gold on B-7, I got the time "25.768" *three* times (gold
+is 25.750).  The interesting thing is that exactly matching a silver
+time does seem to give you a "silver prize". (I actually reset the game
+so as to save only one of those times).
+
+As seemed to happen a couple of times before, I got gold after almost
+resigning myself to not meeting the goal that evening.  My time
+was 25.745--it's sort of a strange feeling when you look at the
+pass screen, check the number twice and realize "Yes, that's it!",
+then press a button and really do get that "Gold Prize".
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d24 12
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+@

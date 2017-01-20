@@ -1,0 +1,115 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.07.09.08.13;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.08.14.49;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed email address.
+Changed all pages to be gt1stats query.
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//WC3//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Cars</TITLE>
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1>
+The Gran Turismo Pit Stop<BR>
+Simulation - Cars
+
+</H1>
+</CENTER>
+<BR><BR><BR>
+<P>Thanks to <A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael Spann</A>.
+<P><A HREF="../../gt/gt1stats/">Click Here</A> for car comparision. </B>
+<P>Please select from the following manufacturers:
+<UL>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Toyota&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Toyota</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Mitsubishi&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Mitsubishi</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3A%3A&v=Aston&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Aston Martin</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Nissan&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Nissan</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Honda/Acura&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Honda/Acura</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Dodge&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Dodge</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Subaru&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Subaru</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Chevrolet&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Chevrolet</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=TVR&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">TVR</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=3&n=0&op=%3D&v=Mazda&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Mazda</A>
+  <LI><A HREF="../../gt/gt1stats/selana.html?ls=2000&q=0&n=0&op=%3D&v=P&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=3&f=4&f=5&f=7&f=9&f=12&f=8&f=10&f=13&f=11&f=14&sr=0&ot=HTML&od=newpage&nq=1">Prize Cars</A>
+</UL>
+<P>
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sun Apr  7 04:15:16 EDT 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a5 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+a16 1
+<P>
+d18 3
+a20 4
+
+Please note that this is *VERY* preliminary, but I wanted to put up what I had.
+And all I have I owe to <A HREF="mailto:SpannNRoss@@worldnet.att.net">Michael Spann</A>.
+<P><A HREF="comparison.html">Click Here</A> for car comparision. <B>New!</B><P>Please select from the folowing manufacturers:
+d22 11
+a32 11
+  <LI><A HREF="toyota/">Toyota</A>
+  <LI><A HREF="mitsubishi/">Mitsubishi</A>
+  <LI><A HREF="aston_martin/">Aston Martin</A>
+  <LI><A HREF="nissan/">Nissan</A>
+  <LI><A HREF="honda/">Honda/Acura</A>
+  <LI><A HREF="dodge/">Dodge</A>
+  <LI><A HREF="subaru/">Subaru</A>
+  <LI><A HREF="chevrolet/">Chevrolet</A>
+  <LI><A HREF="tvr/">TVR</A>
+  <LI><A HREF="mazda/">Mazda</A>
+  <LI><A HREF="prize/">Prize Cars</A>
+d38 1
+a38 1
+Last modified: Wed Jan 27 13:12:33 EST 1999
+d41 2
+a42 4
+Send any comments or suggestions to:
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+@

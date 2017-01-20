@@ -1,0 +1,93 @@
+Sat May 08, 1999
+
+[R]Viper GTS far outperforms Viper GTS-R at Grand Valley 300
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Used Car Information
+
+I had expected the race-modded red Viper GTS to be much easier to
+drive and much faster than its supposedly superior cousin, the
+GTS-R, and I was not disappointed.
+
+   [R]Viper GTS(red)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:42.960not     Cr20,000
+
+   Results:
+
+   1st  [R]VIPER GTS         1-38:59.5<--
+   2nd  [R]R32GT-R'91         +194.112   (1-42:13.6)
+   3rd  [R]IMPREZA RLY Ed     +278.867
+   4th  [R]CELICA  GT-FOUR    +422.184
+   5th  [R]LANCER EvolV GSR   +434.703
+   6th  [R]ACCORD Sedan       +519.961
+   
+   lap 1   1:44.106
+   pits   12,24,36,48
+   fl  (39)  1:35.463
+   slowest  non-pit   (45)  1:41.282
+             next     (17)  1:41.037
+   fastest pit laps   (48in)  1:50.718
+                      (25out) 1:43.167
+   slowest pit laps   (12in)  1:52.276
+                      (13out) 1:43.929
+
+Consistency was the key here.  Compare the times to the Supra RZ,
+for instance.  The Supra had some faster lap times, but less
+consistency, and so was slightly slower overall.
+
+I got off to a rasonable start for once, getting the lead by the
+end of the first lap.  I lapped the last-place car just before my
+first pit stop, and never lost the lead at all.
+
+The average lap time (as evidenced by reading the finishing time)
+was a lot closer to the fastest lap time for this car than for any
+other.  As far as I can remember, I had no disasters at all!
+
+I did not do many 1:35 laps, but a lot of 1:36's.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+After the race, I tried a time trial, and managed 3:15.616
+for two laps.  My first lap was almost identical to my qualifying
+time.
+
+I then took the ConceptCar out, and (eventually; it is very difficult
+to get used to) did 1:34.427 + 1:28.998 = 3:03.425; once or twice
+I had done a 1:33.xxx first lap, too.
+
+Thread: Used Car Information
+
+I then took the race-modded GTO'95 MR out, since it is the next
+candidate for the Grand Valley 300.  I tried hard, and eventually
+beat its existing 3:16.xxx ghost record.  Then I switched to the
+normal intercooler, and going fast was much easier and I soon did
+3:13.939; later I was to discover that the top gear needed reducing
+in order to allow acceleration.
+
+Anyway, for a quick warm-up, I tried the 4wd Challenge, which I
+hadn't done in a while.  Here are the results.
+
+     [R]GTO'95 MR              4WD Challenge
+  TMii    q1st badly         1st  2:34.694rec   fl 1:15.548rec
+  GV      q1st 1:38.324rec   1st  3:14.317rec   fl 1:34.393rec
+  SSR5ii  q1st 1:17.658rec   1st  2:27.352rec   fl 1:11.521rec
+
+According to all FAQs, I have all my cars for that event, so, of
+course, the yellow Lancer EvolIV GSR I won was a duplicate.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

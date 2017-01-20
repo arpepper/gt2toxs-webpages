@@ -1,0 +1,1932 @@
+head	1.11;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.11
+date	2005.04.19.01.52.40;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2002.08.27.02.51.32;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2002.07.27.03.06.30;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2002.07.17.17.19.30;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2002.07.08.03.36.33;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.07.08.02.21.42;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.07.07.04.12.20;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.06.15.03.59.55;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.06.09.07.06.33;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.06.03.00.41.29;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.05.20.00.03.55;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Started with gt2garage
+Needs to recognize league.
+Want to add formal buy parts and fit parts.
+@
+
+
+1.11
+log
+@Fairly massive changes to accomodate gt4.
+Some cleaning up.
+Implement "include".
+Implement "pragma", but not using get.
+Implement standard carids based on day of purchase.
+Implement day +inc form of entry.
+cardef/uncardef and "select" should allow more formal checking of car.
+@
+text
+@#!/xhbin/perl5 -w
+
+require 5.002;
+use strict;
+
+sub
+warn {
+	print @@_;
+}
+
+$main::done = 0;
+$main::enddate = "";
+$main::mintoday = 0;
+$main::maxtoday = 1;
+$main::selected = "";
+$main::pragmas = ",";
+
+@@main::cardata = ();   # now we initialize all data via "mod car" in the log
+@@main::prizes = ();
+@@main::events = ();
+
+%main::league = ();
+%main::series = ();
+%main::serieslen = ();
+$main::maxserieslen = 6;
+%main::track = ();
+
+%main::carlist = ();  # now carlist is just an error suppressor
+
+#
+# proposed new scheme would just mark things as sold, not shuffle arrays
+#
+#@@main::newgarage = ();
+#@@main::desc = ();
+#@@main::parts = ();
+#@@main::fitted = ();
+#@@main::sold = ();
+#$main::lastid = 0;
+#%main::aliases = ();     # returns "carid", index into above arrays
+
+		
+my($name);
+while (@@main::cardata) {
+	$name = shift @@main::cardata;
+	$main::carlist{$name} = $name;
+};
+
+sub
+caridsub() {
+	my($n1,$m1, $n2, $m2);
+
+	$n1 = $a;
+	$n1 =~ s/^car//;
+	$m1 = $a;
+	if ($m1 !~ /-/) {
+		$m1 = 1;
+	}
+	else {
+		$m1 =~ s/.*-//;
+		$n1 =~ s/-.*//;
+	}
+
+	$n2 = $b;
+	$n2 =~ s/^car//;
+	$m2 = $b;
+	if ($m2 !~ /-/) {
+		$m2 = 1;
+	}
+	else {
+		$m2 =~ s/.*-//;
+		$n2 =~ s/-.*//;
+	}
+	if ( $n1 == $n2 ) {
+		return $m1 <=> $m2;
+	}
+	else {
+		return $n1 <=> $n2;
+	}
+}
+	
+#
+# checkcar - just check car matches selection
+#
+sub
+checkcar {
+	my($car,$line) = @@_;
+
+	if ($main::selected eq "") {
+		return 1 if (findcarid($car,$line));
+		return 0;
+	}
+	return 1 if ($car eq $main::selected);
+	&warn("Not using selection ${main::selected}: $line\n");
+	return 0;
+}
+
+$main::lastcarday = -1;
+$main::cardaycount = 1;
+sub
+gencarid { # every cars unequivocable ID is carNNN-N where NNN is gameday
+	my($string);
+
+	if ($main::mintoday != $main::lastcarday) {
+		$main::cardaycount = 0;
+	}
+	$main::lastcarday = $main::mintoday;
+	++$main::cardaycount;
+	$string = "car$main::lastcarday";
+	if ($main::cardaycount != 1) {
+		$string = $string . "-" . "$main::cardaycount";
+	}
+	$string;
+}
+
+sub
+getcar {
+	my($shortform,$fullname) = @@_;
+	my($newid);
+
+	$newid = &gencarid();
+	$main::carids{$newid} = $shortform;
+	$main::carnames{$newid} = $fullname;
+	$main::carstates{$newid} = "got";   # s.b. "won" or "new" or "used"?
+	$main::carlist{$shortform} = $shortform;
+}
+
+sub
+carvariants {
+	my($car) = @@_;
+
+	# Hope matching works; only count prizes
+	my($i,$count);
+	my($car1,$car2);
+	my(%hash,@@list);
+
+	$count = 0;
+	$car1 = $car;
+	$car1 =~ s/es$//;
+	$car2 = $car1;
+	$car1 =~ s/s$//;
+	@@list = (reverse sort caridsub keys %main::carids);
+	foreach $i (@@list) {
+		if ($main::carstates{$i} ne "sold" &&
+				$main::carnames{$i} =~ /\(prize/ ) {
+#printf("Maybe got %s /$car/\n", $main::carnames{$i});
+			#  this is a little atrocious
+			if ( $main::carnames{$i} =~ /$car/i ||
+					$main::carnames{$i} =~ /$car1/i ||
+					$main::carnames{$i} =~ /$car2/i ) {
+#printf("Got %s\n", $main::carnames{$i});
+				$hash{$main::carnames{$i}} = 1;
+			}
+		}
+	}
+	@@list = keys %hash;
+	undef(%hash);
+	return @@list;
+
+}
+
+sub
+carcount {
+	my($car,$exact) = @@_;
+
+	# Hope matching works; only count prizes
+	my($i,$count);
+	my($car1,$car2);
+	my(@@list);
+
+	$count = 0;
+	if ($exact) {
+		# suitable for results of carvariants
+		#  avoids blueSilEighty matching dkBlueSileighty -- sheesh
+		@@list = (reverse sort caridsub keys %main::carids);
+		foreach $i (@@list) {
+			if ($main::carstates{$i} ne "sold" &&
+				$main::carnames{$i} eq $car ) {
+				++$count;
+			}
+		}
+	}
+	else {
+		$car =~ s/[()]/\\$&/g;
+		$car1 = $car;
+		$car1 =~ s/es$//;
+		$car2 = $car1;
+		$car1 =~ s/s$//;
+		@@list = (reverse sort caridsub keys %main::carids);
+		foreach $i (@@list) {
+			if ($main::carstates{$i} ne "sold" &&
+				$main::carnames{$i} =~ /\(prize/ ) {
+				#  this is a little atrocious
+				if ( $main::carnames{$i} =~ /$car/i ||
+					$main::carnames{$i} =~ /$car1/i ||
+					$main::carnames{$i} =~ /$car2/i ) {
+					++$count;
+				}
+			}
+		}
+	}
+#print "carcount:$count $car\n";
+	return $count;
+
+}
+
+sub
+sellcarid {
+	my($carid,$match) = @@_;
+	my($what);
+
+	if (!defined($main::carstates{$carid})) {
+		&warn("Attempt to sell bad carid: $carid $match\n");
+		return;
+	}
+	if ($main::carstates{$carid} eq "sold") {
+		&warn("Carid already sold: $carid $match\n");
+		return;
+	}
+	$what = $main::carnames{$carid};
+	if ($what !~ /$match/) {
+		&warn("Carid $carid ($what) does not match /$match/\n");
+		return;
+	}
+	$main::carstates{$carid} = "sold";
+	if ($main::showlist =~ /,sold,/i ) {
+		print "${main::maxtoday}:$match ($what) sold!\n";
+	}
+}
+
+sub
+sellentry {
+	my($num,$car) = @@_;
+	my($i,$k,$what,$temp);
+
+	$i = 0;
+	$what = "";
+	foreach $k (sort caridsub keys %main::carids) {
+		if ($main::carstates{$k} ne "sold") {
+			if (++$i == $num) {
+				$temp = $main::carnames{$k};
+				if ($temp =~ /$car/ ) {
+					$what = $temp;
+					$main::carstates{$k} = "sold";
+					last;
+				}
+			}
+		}
+	}
+	if ($what) {
+		if ($main::showlist =~ /,sold,/i ) {
+			print "${main::maxtoday}:$car ($what) sold!\n";
+		}
+	}
+	else {
+		print "${main::maxtoday}:Entry $num ($temp) doesn't match \/$car\/\n";
+	}
+}
+
+sub
+marksold {
+	my($id) = @@_;
+
+	$main::carstates{$id} = "sold";   # I think that's all we need, now
+}
+
+sub
+sellcar {
+	my($car,$oldest) = @@_;
+	my($i,$what,$temp);
+	my($ix,@@list);
+
+	# if ($oldest) we want to remove oldest car, else most recent
+
+	$car =~ s/^\s*//;
+	$car =~ s/\s*$//;
+	@@list = (sort caridsub keys %main::carids);
+	@@list = reverse @@list if not ($oldest);
+	foreach $ix (@@list) {
+		$temp = $main::carnames{$ix};
+		$temp =~ s/^\s*//;
+		$temp =~ s/\s*$//;
+		if ($temp eq "$car" && $main::carstates{$ix} ne "sold") {
+			$what = $temp;
+			$main::carstates{$ix} = "sold";
+			return $what;
+		}
+	}
+	foreach $ix (@@list) {
+		$temp = $main::carnames{$ix};
+		# this is sort of dumb...
+		# prize annotation should not be part of car name?
+		$temp =~ s/\(prize.*\)$//;
+		if ($temp eq "$car" && $main::carstates{$ix} ne "sold") {
+			$what = $temp;
+			$main::carstates{$ix} = "sold";
+			return $what;
+		}
+	}
+	foreach $ix (@@list) {
+		$temp = $main::carnames{$ix};
+		if ($temp =~ /\(prize/ && $temp =~ /$car/i &&
+				$main::carstates{$ix} ne "sold") {
+			$what = $temp;
+			$main::carstates{$ix} = "sold";
+			return $what;
+		}
+	}
+	while ($car =~ /es$/) {
+		$car =~ s/es$//;
+	}
+	while ($car =~ /s$/) {
+		$car =~ s/s$//;
+	}
+	foreach $ix (@@list) {
+		$temp = $main::carnames{$ix};
+		if ($temp =~ /\(prize/ && $temp =~ /$car/i &&
+				$main::carstates{$ix} ne "sold") {
+			$what = $temp;
+			$main::carstates{$ix} = "sold";
+			return $what;
+		}
+	}
+#print "Could not find $car.\n";
+	return "";
+}
+
+sub
+sell {
+	my($stuff) = @@_;
+	my(@@count,@@name);
+	my(@@variants);
+	my($i,$n,$tname,$oldest,$sold,$var);
+	
+	$oldest = 0; #default always sell youngest
+	@@count = ();
+	@@name = ();
+
+	
+	if ($main::showlist =~ /,sell,/ ) {
+		print "${main::maxtoday}:sell: $stuff\n";
+	}
+	$stuff =~ s/^\s*car //i;
+	$oldest = $stuff =~ /^\s*oldest\b/i;
+	$stuff =~ s/^\s*oldest\b//i;
+	$stuff =~ s/^\s*//;
+	$stuff =~ s/\s*->.*//;
+	if ($sold = &sellcar($stuff, $oldest) ) {
+		# literal sale, usually of purchased car...
+		if ($main::showlist =~ /,sold,/i ) {
+			print "${main::maxtoday}:$stuff ($sold) sold!\n";
+		}
+		return;
+	}
+	$stuff =~ s/\bCr[1-9][0-9,]*//g;
+	$stuff =~ s/\s*$//;
+	if ($stuff =~ /^entry\s+(\d+)\s+(.*)/ && defined($2)) {
+#print "sell entry:$1 $2\n";
+		&sellentry($1,$2);
+		return;
+	}
+	if ($stuff =~ /^carid\s+([\-\w]+)\s+(.*)/ && defined($2)) {
+#print "sell entry:$1 $2\n";
+		&sellcarid($1,$2);
+		return;
+	}
+	$stuff =~ s/\b[1-9][0-9]* {0,1}cars{0,1}//g;
+	$stuff =~ s/\bday {0,1}[1-9][0-9]*//g;
+	$stuff =~ s/\b[1-9][0-9]* {0,1}day//g;
+	$stuff =~ s/\b[1-9][0-9]* {0,1}day//g;
+	$stuff =~ s/\ba\b/1/gi;
+	$stuff =~ s/\(\d+\)//g;
+	$stuff =~ s/\band\b//gi;
+	$stuff =~ s/\bold\b//gi;
+	$stuff =~ s/\balso\b//gi;
+	$stuff =~ s/\bmost\b//gi;
+	$stuff =~ s/\brecent\b//gi;
+	while ($stuff =~ /[\w\[\]\-]/ ) {
+		$stuff =~ s/^[^\w\[\]\-]//;
+#print "stuff:$stuff\n";
+		if ($stuff =~ /^(\d+)/ && defined($1) ) {
+#print "number:$1\n";
+			push @@count,$1;
+			$stuff =~ s/^\d+//;
+		}
+		else {
+			if ($stuff =~ /^excess */) {
+				push @@count,-1;
+				$stuff =~ s/^excess *//;
+			}
+			else {
+				push @@count,1;
+			}
+		}
+		$stuff =~ s/^[^\w\[\]\-]+//;
+		if ($stuff =~ /^([\w'\/\[\]\-#.]+)/ && defined($1) ) {
+			push @@name,$1;
+			$stuff =~ s/^[\w'\/\[\]\-#.]+//;
+		}
+		else {
+			last;
+		}
+	}
+	for ($i = 0; defined($name[$i]); ++$i) {
+		if ($main::showlist =~ /,sales,/ ) {
+			print "${main::maxtoday}:Sell $count[$i] $name[$i].\n";
+		}
+		$tname = $name[$i];
+		$n = $count[$i];
+		for ($n = $count[$i]; $n > 0; --$n) {
+			if ($sold = &sellcar($tname, $oldest)) {
+				if ($main::showlist =~ /,sold,/i ) {
+					print "${main::maxtoday}:$tname ($sold) sold!\n";
+				}
+			}
+			else {
+				print "${main::maxtoday}:Could not sell $tname.\n";
+				last;
+			}
+		}
+		if ($n < 0) {
+			$n = -$n;
+			@@variants = &carvariants($tname);
+			foreach $var (@@variants) {
+#printf("Sell  - $n $var, (%d).\n", &carcount($var,1));
+				while (&carcount($var,1) > $n) {
+#print "Sell $var.\n";
+					if ($sold = &sellcar($var, $oldest)) {
+						if ($main::showlist =~ /,sold,/i ) {
+							print "${main::maxtoday}:$var ($sold) sold!\n";
+						}
+					}
+					else {
+						print "${main::maxtoday}:Could not sell $var.\n";
+						last;
+					}
+				}
+			}
+		}
+	}
+}
+
+sub
+daycheck {
+	my($day) = @@_;
+
+	if ($day < $main::mintoday || $main::maxtoday < $day) {
+		return 0;
+	}
+	return 1;
+}
+
+sub
+dodateline {
+	my($line) = @@_;
+
+	if ($line !~ /1999$/ && $line !~ /200[0-9]$/) {
+		&warn("Bad date line: $_\n");
+	}
+	if ($main::enddate ne "") {
+		$main::done = $line =~ /$main::enddate/i;
+	}
+}
+
+sub
+dopragma {
+	my($line) = @@_;
+	my($what,$value,$league,$length);
+
+	$line =~ /^\s*pragma\s+(\w+)/;
+	$what = $1;
+
+	if ($what =~ /^no/) {
+		$what =~ s/^no//;
+		$main::pragmas =~ s/,$what,/,/;
+	}
+	else {
+		if ($main::pragmas !~ /,$what,/) {
+			$main::pragmas .= "$what,";
+		}
+	}
+
+}
+
+sub
+doselect{
+	my($line,$rest,$r1,$r2) = @@_;
+
+	if ($rest =~ /^select\s*car\s+(\S+)/ && defined($1)) {
+		if ($1 eq "none") {
+			$main::selected = "";
+			return;
+		}
+		if ( findcarid($1,$line) ) {
+			$main::selected = $1;
+			return;
+		}
+	}
+	&warn("Bad select: $line\n");
+}
+
+
+sub
+dolicenseline {
+	my($line,$start,$end) = @@_;
+	my($diff);
+
+#&warn("Good license line:$_\n");
+	if (!&daycheck($start) ) {
+		&warn("Bad license start day(not ${main::maxtoday}): $_\n");
+	}
+	$diff = $end - $start;
+	if ( $diff < 0 ) {
+		&warn("Bad license end day: $_\n");
+	}
+	$main::mintoday = $end + 1;
+	$main::maxtoday = $end + 1;
+
+}
+
+sub
+otherprize {
+	my($prize) = @@_;
+
+	return 1 if ($prize eq "full");
+	return 1 if ($prize eq "none");
+	return 1 if ($prize eq "next");
+	return 1 if ($prize eq "1st");
+	return 1 if ($prize =~ /^2nd/);
+	return 1 if ($prize =~ /^3rd/);
+	return 1 if ($prize =~ /^4th/);
+	return 1 if ($prize =~ /^5th/);
+	return 1 if ($prize =~ /^6th/);
+	return 1 if ($prize =~ /^8-/);   #  8-(
+	return 1 if ($prize =~ /\s8-/);   #  8-(
+                              # but don't match Z28-30th
+	#return 1 if ($prize =~ /credits/);
+	return 0;
+}
+
+sub
+event_length {
+	my($event) = @@_;
+
+	if (defined($main::serieslen{$event})) {
+		return $main::serieslen{$event};
+	}
+	return 0;
+}
+
+sub
+check_event {
+	my($event) = @@_;
+	my($league,$series,$track,$rest);
+
+	$event =~ /([^\/]*)\/(.*)/;
+	($league,$series) = ($1,$2);
+	return 0 if !defined($main::league{$league});
+	if ($series =~ /[\/]/) {
+		$series =~ /([^\/]*)\/(.*)/;
+		($series,$track) = ($1,$2);
+		return 0 if !defined($main::series{"$league/$series"});
+		return 0 if !defined($main::track{$track});
+	}
+	else {
+		return 0 if !defined($main::series{"$league/$series"});
+	}
+	return 1;
+}
+
+sub
+doseriesline {
+	my($line,$rest,$start,$end) = @@_;
+	my($diff);
+	my($i,$none,$pat,$race,$event,$length,$suff,$prev,$after);
+	my($car,$prize,$count,$status,$temp);
+
+	if ($start eq "") {
+		return;		# assume a harmless comment?
+	}
+	if (!&daycheck($start) ) {
+		&warn("Bad start day(not ${main::maxtoday}): $_\n");
+	}
+	# there's sort of an assumption every event takes at least one day
+	#  so daycounter actually becomes $end+1 i.e. $start+$diff+1
+	$diff = $end - $start;
+	if ( $diff < 0 || $main::maxserieslen < $diff) {
+		&warn("Bad end day: $_\n");
+	}
+	$main::mintoday = $end + 1;
+	$main::maxtoday = $end + 1;
+	$none = 1;
+	$rest =~ /(\S+)\s+(\S+)\s+(.*)/;
+	($car,$event,$after) = ($1,$2,$3);
+	if (&check_event($event) == 0) {
+		&warn("Unrecognized race: $event\n");
+		$event = " ";
+		return;
+	}
+	else {
+		$length = &event_length($event);
+		if ($diff != $length) {
+			&warn("Bad end day for series \"$event\": $line\n");
+		}
+		$car =~ s/^\s*//;
+		$car =~ s/[,\s].*//;
+		checkcar($car,$line);
+	
+		
+	}
+	$none = 0;
+	if ( !defined($event) ) {
+		&warn("event not defined: $line\n");
+		return;
+	}
+	if ( $rest =~ m/(\S+.*\s+)(\S+[\/]${event})(\s.*)/ ) {
+		$rest =~ /(\S+.*\s+)(\S+\/${event})(\s.*)/ ;
+		($prev,$race,$after) = ($1,$2,$3);
+	}
+	else {
+		$rest =~ /(\S+.*\s+)(${event})(\s.*)/ ;
+		($prev,$race,$after) = ($1,$2,$3);
+	}
+	if ( !defined($after) ) {
+		&warn("$rest has no after\n");
+		return;
+	}
+	$status = "";
+	$prize = $rest;
+	$prize =~ s/red /red#/g;
+	$prize =~ s/black /black#/g;
+	$prize =~ s/ LM/#LM/g;
+        $prize =~ s/^.* ([\w\[])/$1/;
+        $prize =~ s/[!]//g;
+	if ($prize =~ /([(].*)/ && defined($1)) {
+		$status = $1;
+		$prize =~ s/[(].*//;
+	}
+	if ($prize !~ /ConceptCar/ ) {
+		$prize =~ s/Concept/ConceptCar/;
+	}
+	$prize =~ s/#/ /g;
+	$prize =~ s/ *$//g;
+#	if ( &otherprize($prize) == 0 &&
+#			$main::raceprizes{$event} !~ /,${prize},/ ) {
+#		&warn("Unrecognized prize ($prize) for $race: $line\n");
+#	}
+	if ($status =~ /([(][^)]*[)])(.*)/) {
+		$count = $1;
+		$status = $2;
+		if ($status =~ /([(][^)]*[)])(.*)/) {
+			$status = $1;
+		}
+	}
+	if ($prize !~ /credits/ && &otherprize($prize) == 0) {
+		$temp = $prize;
+		$temp =~ s/\(sold\)//;
+		$temp =~ s/\(dup\)//;
+		push @@main::prizes,"${race}: $prize";
+	}
+	$temp = $prize;
+	$temp =~ s/\(sold\)//;
+	$temp =~ s/\(dup\)//;
+	push @@main::events,"${race}: $prize";
+	if ($status ne "(sold)" && $line !~ /[(]sold[)]/ ) {
+		if ($prize !~ /credits/ && &otherprize($prize) == 0) {
+			getcar($prize,"$prize(prize, $race)");
+		}
+	}
+}
+
+sub
+check_hash {
+	my($old, $new) = @@_;
+
+	if (defined($old) && $old ne "") {
+		&warn("Duplicate definition: $new\n");
+	}
+	return $new;
+}
+
+
+sub
+docardef {
+	my($line) = @@_;
+	my($what,$value,$carid);
+
+	$line =~ /^\s*cardef\s+(\S+)\s+([\S]+)/;
+	$what = $1;
+	$value = $2;
+
+	if (!defined($what) || !defined($value)) {
+		&warn("Bad cardef: $line\n");
+		return;
+	}
+	if (defined($main::cardefs{$what})) {
+		&warn("Already defined: $line\n");
+		return;
+	}
+	$carid = findcarid($value,$line);
+	if (!$carid) {
+		&warn("Bad carid: $line\n");
+		return;
+	}
+	if ($main::carstates{$carid} eq "sold") {
+		&warn("Already sold car: $line\n");
+		return;
+	}
+	$main::cardefs{$what} = $carid;
+}
+
+sub
+douncardef {
+	my($line) = @@_;
+	my($what);
+
+	$line =~ /^\s*uncardef\s+(\w+)/;
+	$what = $1;
+
+	if (!defined($main::cardefs{$what})) {
+		&warn("No such cardef: $line");
+		return;
+	}
+	delete($main::cardefs{$what});
+	if (!defined($main::carlist{$what})) {
+		delete($main::carlist{$what});
+	}
+}
+
+sub
+findcarid { # given explicit cardef or carid, or unique shortform, return carid
+	    # warn (first time) about unresolvable names
+	my($carname,$line) = @@_;
+	my($k,$id);
+
+	if (defined($main::carids{$carname})) {
+		return $carname;
+	}
+	if (defined($main::cardefs{$carname} )) {
+		return $main::cardefs{$carname};
+	}
+	$id = "";
+	foreach $k (sort caridsub keys %main::carids) {
+		if ($main::carids{$k} eq $carname &&
+				$main::carstates{$k} ne "sold") {
+			if ($id eq "") {
+				$id = $k;
+			}
+			else {
+				# should we warn here?
+				&warn("Ambiguous car ($carname): $line\n");
+				return undef;
+			}
+		}
+
+	}
+	if ( $id ne "" ) {
+		return $id;
+	}
+	if (!defined($main::carlist{$carname})) {
+		&warn("Unrecognized car ($carname): $line\n");
+		$main::carlist{$carname} = $carname;
+	}
+	return undef;
+}
+
+sub
+dodefine {
+	my($line) = @@_;
+	my($what,$value,$league,$length);
+
+	$line =~ /^\s*define\s+(\w+)\s+([\S]+)/;
+	$what = $1;
+	$value = $2;
+
+	if ($what =~ /league/i) {
+	   $main::league{$value} = &check_hash($main::league{$value}, $value);
+	}
+	elsif ($what =~ /series/i) {
+	   $league = "";
+	   if ($value !~ /^([^\s\/]+)\/([^\s\/]+)$/) {
+		#Problems: A/S+S E/All-night
+		&warn("Bad series name: $value\n");
+	   }
+	   else {
+		   $league = $1;
+	   }
+	   if (!defined($main::league{$league})) {
+		&warn("Undefined league in series name: $value\n");
+	   }
+	   $main::series{$value} = &check_hash($main::series{$value}, $value);
+	   $length = 1;
+	   if ( $line =~ /^\s*define\s+(\w+)\s+([\S]+)\s+(\d+)/ ) {
+		$length = $3;
+	   }
+	   if ($length > $main::maxserieslen) {
+		$main::maxserieslen = $length;
+	   }
+	   $main::serieslen{$value} = $length-1;
+	}
+	elsif ($what =~ /track/i) {
+	   $main::track{$value} = &check_hash($main::track{$value}, $value);
+	}
+	else {
+		&warn("Bad definition: $line");
+	}
+}
+
+
+$main::fid = 'LOG0';
+sub
+doinclude {
+	no strict 'refs';
+	my($line) = @@_;
+	my($filename, $oldfid, $n);
+
+	$line =~ /^\s*include\s+(\S+)/;
+	$filename = $1;
+	$oldfid = $main::fid;
+	$n = $main::fid;
+	$n =~ s/LOG//;
+	++$n;
+#print "$main::fid $n\n";
+	$main::fid = 'LOG' . "$n";
+	if (!open($main::fid,"<$filename") ) {
+		&warn("Cannot open include \"$filename.\"\n");
+		$main::fid = $oldfid;
+	}
+}
+
+sub
+dodaynote {
+	my($line,$rest,$r1,$r2) = @@_;
+	my($day,$stuff,$sf,$fullname);
+
+	if (!&daycheck($r1) ) {
+		&warn("Bad single day note(not ${main::maxtoday}): $_\n");
+	}
+	# grr... seems difficult to undef $1 ...
+	if ($rest =~ /^buy\s+(.*)/ && defined($1)) {
+		$stuff = $1;
+#print "stuff:$stuff\n";
+		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+			$sf = $1;
+			if ($stuff =~ /^\s*car\s+(\S+)\s+(.+)/ && defined($2) ) {
+				$fullname = $2;
+				$fullname =~ s/^[^\w\[]*//;
+				$fullname =~ s/->\s.*//;
+				$fullname =~ s/\s*$//;
+				$fullname =~ s/^\s*//;
+				&getcar($sf,$fullname);
+				if ($main::showlist =~ /,buy,/i) {
+					print "${main::maxtoday}:buy $fullname.\n";
+				}
+			}
+			else {
+				&getcar($sf,$sf);
+			}
+		}
+		elsif ($stuff =~ /^\s*parts\s+(\S+) /) {
+			checkcar($1,$line);
+		}
+		elsif ($stuff =~ /^\s*wheels\s+/) {
+			;
+		}
+		else {
+			&warn("Bad purchase: $line\n");
+		}
+	}
+	if ($rest =~ /^win\s+(.*)/ && defined($1)) {
+		$stuff = $1;
+#print "stuff:$stuff\n";
+		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+			$sf = $1;
+			if ($stuff =~ /^\s*car\s+(\S+)\s+(.+)/ && defined($2) ) {
+				$fullname = $2;
+				$fullname =~ s/^[^\w\[]*//;
+				$fullname =~ s/->\s.*//;
+				$fullname =~ s/\s*$//;
+				$fullname =~ s/^\s*//;
+				getcar($sf,$fullname);
+				if ($main::showlist =~ /,buy,/i) {
+					print "${main::maxtoday}:win $fullname.\n";
+				}
+			}
+			else {
+				getcar($sf,$sf);
+			}
+		}
+		else {
+			&warn("Bad win: $line\n");
+		}
+	}
+	if ($rest =~ /^mod\s+(.*)/ && defined($1)) {
+		$stuff = $1;
+#print "stuff:$stuff\n";
+# this was cheating; eventually identifier will be checked
+		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+			checkcar($1,$line);
+		}
+		else {
+			&warn("Bad mod: $line\n");
+		}
+	}
+	if ($rest =~ /^sell\s+(.*)/ && defined($1)) {
+		$stuff = $1;
+#print "sell stuff:$stuff\n";
+		&sell($stuff);
+	}
+
+	$main::mintoday = $r2;
+	$main::maxtoday = $r2;
+}
+
+sub
+donote {
+	my($line) = @@_;
+
+}
+
+sub
+getlog {  # get lines, closing includes
+	no strict 'refs';
+	my($line) = @@_;
+	my($n);
+
+
+	for (;;) {
+		$line = <$main::fid>;
+		if (!defined($line)) {
+			close($main::fid);
+			$n = $main::fid;
+			$n =~ s/LOG//;
+			if ( $n == 0 ) {
+				return $line;
+			}
+			--$n;
+			$main::fid = 'LOG' . "$n";
+		}
+		else {
+			return $line;
+		}
+	}
+}
+
+my($log,$daylimit);
+
+while ( defined($ARGV[0]) ) {
+	my($temp);
+	if ( $ARGV[0] =~ /^show=/i ) {
+		$temp = $ARGV[0];
+		$temp =~ s/^show=//i;	
+		$main::showlist .= ",$temp,";
+	}
+	elsif (!defined($log)) {
+		$log = $ARGV[0];
+	}
+	elsif (!defined($daylimit)) {
+		if ($ARGV[0] =~ /^\d+$/) {
+			$daylimit = $ARGV[0];
+		}
+		else {
+			$temp = $ARGV[0];
+			# change something like "Jan 10"
+			#   into a pattern, like...
+			# /^Jan[^0-9]*10/
+			$temp =~ s/,/ /g;
+			$temp =~ s/ +/[^0-9]*/;
+			$temp =~ s/$/\\b/;
+			$temp =~ s/^/^/;
+			$main::enddate = $temp;
+			
+		}
+	}
+	shift @@ARGV;
+}
+if (!defined($log)) {
+	$log = "log";
+}
+if (!defined($daylimit)) {
+	$daylimit = -1;
+}
+if (!defined($main::showlist)) {
+	$main::showlist = ",garage,";
+}
+$main::showlist =~ s/all/pragmas,buy,sell,sales,sold,carids,garage,/;
+
+{
+	no strict 'refs';
+	if (!open($main::fid,"<$log") ) {
+		die "Cannot open log $log.\n";
+	}
+}
+
+
+#while ($main::mintoday <= $daylimit && <LOG>) {
+while (defined($_ = &getlog())) {
+	my($line) = $_;
+	my($license,$r1,$r2,$rest);
+
+	last if ($main::done);
+	last if ($daylimit > 0 && $main::mintoday > $daylimit);
+	$line =~ s/\n//g;
+	$license = $line;
+	$license =~ s/^.{10}//;
+	$license =~ s/(\S+)\s.*/$1/;
+	$r1 = "";
+	$r2 = "";
+	$rest = $line;
+	if ( $line =~ /^[A-Z]/) {
+		;
+	}
+	elsif ( $line =~ /^ {9,9}/ ) {
+		# line beginning with 9 spaces assumed to be comment
+		;
+	}
+	elsif ( $line =~ /^([ \d]{3,3}\d)\-(\d[ \d]{3,3})(.*)/ ) {
+		# day range (numbers max 4 digits)
+		$r1 = $1;
+		$r2 = $2;    # n.b. must grab all $N before doing other subs
+		$rest = $3;
+		$r1 =~ s/\s//g;
+		$r2 =~ s/\s//g;
+	}
+	elsif ( $line =~ /^\s*(\d+)\s*\+(\d+)(.*)/ ) {
+		# new range indication by +increment
+		$r1 = $1;
+		$r2 = $2;    # n.b. must grab all $N before doing other subs
+		$rest = $3;
+		$r2 += $r1;
+	}
+	elsif ( $line =~ /^\s*(\d+)\s+(.*)/ ) {
+		# single day
+		$r1 = $1;
+		$rest = $2;
+		$r2 = $r1;
+	}
+	$rest =~ s/^\s*//;
+
+	if ( $line =~ /\s*note/i ) {
+		&donote($line);
+	}
+	elsif ( $line =~ /\s*pragma/i ) {
+		&dopragma($line);
+	}
+	elsif ( $line =~ /\s*include/i ) {
+		&doinclude($line);
+	}
+	elsif ( $line =~ /\s*define/i ) {
+		&dodefine($line);
+	}
+	elsif ( $line =~ /^[A-Z]/) {
+		&dodateline($line);
+	}
+	elsif ( $line =~ /\s*cardef/i ) {
+		&docardef($line);
+	}
+	elsif ( $line =~ /\s*uncardef/i ) {
+		&douncardef($line);
+	}
+	elsif ( $line =~ /^ {9,9}/ ) {
+		# line beginning with 9 spaces assumed to be comment
+		;
+	}
+	elsif ( $rest =~ /^Cr[0-9]/ ) {
+		&dodaynote($line,$rest,$r1,$r2);
+	}
+	elsif ( $rest =~ /^select\b/ ) {
+		&doselect($line,$rest,$r1,$r2);
+	}
+	elsif ( $rest =~ /^buy\b/ ||
+		$rest =~ /^change\b/ ||
+		$rest =~ /^fit\b/ ||
+		$rest =~ /^mod\b/ ||
+		$rest =~ /^perm\b/ ||
+		$rest =~ /^power\b/ ||
+		$rest =~ /^reset\b/ ||
+		$rest =~ /^sell\b/ ||
+		$rest =~ /^skip\b/ ||
+		$rest =~ /^wash\b/ ||
+		$rest =~ /^win\b/ ) {
+		&dodaynote($line,$rest,$r1,$r2);
+	}
+	elsif ( $r1 ne "" && $rest =~ /^licen[sc]e/ ) {
+		if ($line =~ /^\s*\d+\s+\+\d+/ ) {
+			# for historical reasons, use $r2-1
+			&dolicenseline($line,$r1,$r2-1);
+			# at least until we reason it out
+		}
+		else {
+			&dolicenseline($line,$r1,$r2);
+		}
+	}
+	elsif ( $r1 ne "" && $line =~ /^\s*\d+\-\d+\s+/ ) {
+		&doseriesline($line,$rest,$r1,$r2);
+	}
+	elsif ( $r1 ne "" && $line =~ /^\s*\d+\s+\+\d+/ ) {
+		# for historical reasons, use $r2-1
+		&doseriesline($line,$rest,$r1,$r2-1);
+	}
+	elsif ( $r1 ne "" && $line =~ /^\s*\d+\s+/ ) {
+		&doseriesline($line,$rest,$r1,$r2);
+	}
+	elsif ( $line =~ /^\s{0,20}\d/ ) {
+		&warn("Unrecognized line: $line\n");
+	}
+	else {
+		&donote($line);
+	}
+}
+close ($main::fid);
+
+sub
+expand {
+	my($s) = @@_;
+
+	$s;
+}
+
+if ($main::showlist =~ /,pragmas,/ ) {
+	printf("%s\n", $main::pragmas);
+}
+if ($main::showlist =~ /,rawevents,/ ) {
+	my($i);
+	for ($i = 0; $i <= $#main::events; ++$i) {
+		printf("%s\n", &expand($main::events[$i]) );
+	}
+}
+if ($main::showlist =~ /,events,/ ) {
+	my($i,$prev,@@sorted);
+	@@sorted = sort @@main::events;
+	$prev = "";
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		if ($sorted[$i] ne $prev) {
+			printf("%s\n", &expand($sorted[$i]) );
+			$prev = $sorted[$i];
+		}
+	}
+}
+if ($main::showlist =~ /,prizes,/ ) {
+	my($i,$prev,@@sorted);
+	@@sorted = sort @@main::prizes;
+	$prev = "";
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		if ($sorted[$i] ne $prev) {
+			printf("%s\n", &expand($sorted[$i]) );
+			$prev = $sorted[$i];
+		}
+	}
+}
+if ($main::showlist =~ /,carids,/ ) {
+	my($k);
+	foreach $k (sort caridsub keys %main::carids) {
+		printf("%s %s %s (%s)\n", $k, $main::carids{$k},
+			$main::carnames{$k}, $main::carstates{$k});
+	}
+}
+if ($main::showlist =~ /,garage,/ ) {
+	my($k,$i);
+	$i = 0;
+	foreach $k (sort caridsub keys %main::carids) {
+		if ($main::carstates{$k} ne "sold") {
+			printf("%3d %s\n", $i+1, $main::carnames{$k});
+			++$i;
+		}
+	}
+}
+@
+
+
+1.10
+log
+@Changed so that
+   sell  [R]Esperante
+was not treated as:
+   sell   R Esperante
+@
+text
+@d15 2
+a18 1
+@@main::garage = ();
+d24 2
+d28 2
+d49 79
+d141 5
+a145 2
+	for ($i = $#main::garage; $i >= 0; --$i) {
+		if ($main::garage[$i] =~ /\(prize\)/ ) {
+d147 5
+a151 4
+			if ( $main::garage[$i] =~ /$car/i ||
+					$main::garage[$i] =~ /$car1/i ||
+					$main::garage[$i] =~ /$car2/i ) {
+				$hash{$main::garage[$i]} = 1;
+d168 1
+d174 4
+a177 2
+		for ($i = $#main::garage; $i >= 0; --$i) {
+			if ($main::garage[$i] eq $car ) {
+d188 4
+a191 2
+		for ($i = $#main::garage; $i >= 0; --$i) {
+			if ($main::garage[$i] =~ /\(prize\)/ ) {
+d193 3
+a195 3
+				if ( $main::garage[$i] =~ /$car/i ||
+						$main::garage[$i] =~ /$car1/i ||
+						$main::garage[$i] =~ /$car2/i ) {
+d207 24
+d233 1
+a233 1
+	my($i,$what,$temp);
+d235 1
+a235 1
+	$i = $num - 1;
+d237 11
+a247 3
+	$temp = $main::garage[$i];
+	if ($temp =~ /$car/ ) {
+		($what) = splice @@main::garage,$i,1;
+d251 1
+a251 1
+			print "${main::maxtoday}:$car ($temp) sold!\n";
+d260 7
+d270 1
+a270 1
+	my($ix);
+d276 4
+a279 3
+	for ($i = $#main::garage; $i >= 0; --$i) {
+		$ix = $oldest ? ($#main::garage - $i) : $i;
+		$temp = $main::garage[$ix];
+d282 3
+a284 2
+		if ($temp eq "$car") {
+			($what) = splice @@main::garage,$ix,1;
+d288 2
+a289 1
+	for ($i = $#main::garage; $i >= 0; --$i) {
+a291 2
+		$ix = $oldest ? ($#main::garage - $i) : $i;
+		$temp = $main::garage[$ix];
+d293 3
+a295 2
+		if ($temp eq "$car") {
+			($what) = splice @@main::garage,$ix,1;
+d299 6
+a304 5
+	for ($i = $#main::garage; $i >= 0; --$i) {
+		$ix = $oldest ? ($#main::garage - $i) : $i;
+		if ($main::garage[$ix] =~ /\(prize/ &&
+					$main::garage[$ix] =~ /$car/i ) {
+			($what) = splice @@main::garage,$ix,1;
+d314 6
+a319 5
+	for ($i = $#main::garage; $i >= 0; --$i) {
+		$ix = $oldest ? ($#main::garage - $i) : $i;
+		if ($main::garage[$ix] =~ /\(prize/ &&
+					$main::garage[$ix] =~ /$car/i ) {
+			($what) = splice @@main::garage,$ix,1;
+d361 5
+d424 1
+a424 1
+#print "Sell  - $n $var.\n";
+d465 38
+d526 1
+d541 10
+d561 1
+a561 1
+		return 0 if !defined($main::series{$series});
+d565 1
+a565 1
+		return 0 if !defined($main::series{$series});
+d572 1
+a572 1
+	my($line,$start,$end) = @@_;
+d574 1
+a574 1
+	my($rest,$i,$none,$pat,$race,$event,$length,$suff,$prev,$after);
+d583 2
+d586 1
+a586 1
+	if ( $diff < 0 || 6 < $diff) {
+a590 7
+	$rest = $line;
+	if ($rest =~ /^\s*(\d+)-(\d+)\s*/ ) {
+		$rest =~ s/^\s*(\d+)-(\d+)\s*//;
+	}
+	else {
+		$rest =~ s/^\s*(\d+)\s*//;
+	}
+a591 2
+	$length = 0;
+# print "$rest\n";
+d600 1
+d606 2
+a607 4
+		if (!defined($main::carlist{$car}) ) {
+			&warn("Unrecognized car ($car): $line\n");
+			$main::carlist{$car} = $car;
+		}
+d666 1
+a666 2
+			push @@main::garage,"$prize(prize, $race)";
+			$main::carlist{$prize} = $prize;
+d672 14
+a685 2
+do1dayline {
+	my($line,$day) = @@_;
+d687 7
+a693 3
+	&warn("Unknown single day event: $_\n");
+	if (!&daycheck($day) ) {
+		&warn("Bad single day event(not ${main::maxtoday}): $_\n");
+d695 14
+a708 2
+	$main::mintoday = $day;
+	$main::maxtoday = $day + 1;
+d712 6
+a717 2
+check_hash {
+	my($old, $new) = @@_;
+d719 7
+a725 2
+	if (defined($old) && $old ne "") {
+		&warn("Duplicate definition: $new\n");
+a726 1
+	return $new;
+d729 36
+d769 1
+a769 1
+	my($what,$value);
+d779 11
+d791 8
+a798 1
+		# would be nice to record # of days for other games (GT1)
+d808 2
+d811 2
+a812 1
+dodaynote {
+d814 1
+a814 1
+	my($day,$stuff,$fullname);
+d816 12
+a827 3
+	$line =~ /^\s*(\d+)/;
+if ( !defined($1) ) {
+print $line,"\n";
+d829 7
+a835 2
+	$day = $1;
+	if (!&daycheck($day) ) {
+a837 2
+	$main::mintoday = $day;
+	$main::maxtoday = $day;
+d839 2
+a840 2
+	if ($line =~ /^\s*(\d+)\s+buy\s+(.*)/ && defined($2)) {
+		$stuff = $2;
+d843 1
+a843 1
+			$main::carlist{$1} = $1;
+d850 1
+d854 3
+a856 1
+				push @@main::garage,$fullname;
+d859 2
+a860 2
+		elsif ($stuff =~ /^\s*parts\s+/) {
+			;
+d869 2
+a870 2
+	if ($line =~ /^\s*(\d+)\s+win\s+(.*)/ && defined($2)) {
+		$stuff = $2;
+d873 1
+a873 1
+			$main::carlist{$1} = $1;
+d880 1
+d884 3
+a886 1
+				push @@main::garage,$fullname;
+d893 2
+a894 2
+	if ($line =~ /^\s*(\d+)\s+mod\s+(.*)/ && defined($2)) {
+		$stuff = $2;
+d896 1
+d898 1
+a898 1
+			$main::carlist{$1} = $1;
+d904 2
+a905 2
+	if ($line =~ /^\s*(\d+)\s+sell\s+(.*)/ && defined($2)) {
+		$stuff = $2;
+d909 3
+d920 25
+d985 1
+a985 1
+$main::showlist =~ s/all/,buy,sell,sales,sold,garage,/;
+d987 5
+a991 2
+if (!open(LOG,"<$log")) {
+	die "Cannot open log $log.\n";
+d996 1
+a996 1
+while (<LOG>) {
+d1012 4
+d1017 1
+d1024 9
+a1032 1
+	elsif ( $line =~ /^([ \d]{3,3}\d)[ ]{6,6}(.*)/ ) {
+a1034 1
+		$r1 =~ s/\s//g;
+d1042 6
+d1054 6
+d1061 1
+d1064 2
+a1065 2
+	elsif ( $r1 ne "" && $rest =~ /^licen[sc]e/ ) {
+		&dolicenseline($line,$r1,$r2);
+d1067 2
+a1068 2
+	elsif ( $rest =~ /^Cr[0-9]/ ) {
+		&dodaynote($line);
+d1070 12
+a1081 3
+	elsif ( $r1 ne "" &&
+		( $license =~ /^[AB][1-8]/ || $license =~ /^IA[1-8]/ ) ) {
+		&dolicenseline($line,$r1,$r2);
+d1083 9
+a1091 2
+	elsif ( $line =~ /^[ \d]{3,3}\d-\d[ \d]{3,3}/ ) {
+		&doseriesline($line,$r1,$r2);
+d1093 2
+a1094 2
+	elsif ( $line =~ /^[ \d]{3,3}\d[ ]{5,5}/ ) {
+		&doseriesline($line,$r1,$r2);
+d1096 3
+a1098 3
+	elsif ( $line =~ /^[ \d]{4,4}\d[ ]{6,6}/ ) {
+		# this should not occur any more;  all licenses
+		&do1dayline($line,$r1,$r2);
+d1100 2
+a1101 2
+	elsif ( $line =~ /^[ ]{0,3}\d{1,5}/ ) {
+		&dodaynote($line);
+d1110 1
+a1110 1
+close (LOG);
+d1119 3
+d1150 7
+d1158 7
+a1164 3
+	my($i);
+	for ($i = 0; $i <= $#main::garage; ++$i) {
+		printf("%3d %s\n", $i+1, $main::garage[$i]);
+@
+
+
+1.9
+log
+@accept the purchase of wheels
+@
+text
+@d236 2
+a237 2
+	while ($stuff =~ /\w/ ) {
+		$stuff =~ s/^\W+//;
+d253 2
+a254 2
+		$stuff =~ s/^\W+//;
+		if ($stuff =~ /^([\w'\/#.]+)/ && defined($1) ) {
+d256 1
+a256 1
+			$stuff =~ s/^[\w'\/#.]+//;
+@
+
+
+1.8
+log
+@Just add comments describing a new scheme for storage of garage.
+@
+text
+@d573 3
+@
+
+
+1.7
+log
+@Removed definitions which come from data file now.
+Added stuff to check events against data provided in the log.
+@
+text
+@d25 11
+@
+
+
+1.6
+log
+@Allow "win" instead of "buy".
+Process "define" lines.
+@
+text
+@a20 90
+@@main::racedata = (
+  "Apricot200",      0, 
+  "GV300",       0,
+  "Seattle100",  0,
+  "Laguna200",  0,
+  "Rome2hr",    0,
+  "TM2hr",    0,
+  "SSR5All-night",    0,
+
+  "Dream",  0,
+  "Euro",  0,
+  "JP",  0,
+  "US",  0,
+  "UK",  0,
+  "S+S",  0,
+  "DTM",  0,
+  "Stars",  0,
+  "JGT",  0,
+
+  "Altezza",  0,
+  "Beetle",  0,
+  "TypeR",  0,
+  "Vitz",  0,
+
+  "Autumnii",     0,
+  "Autumn",     0,
+  "Apricotii",     0,
+  "Apricot",     0,
+  "Clubman",     0,
+  "Clubmanii",     0,
+  "GFRii",     0,
+  "GFR",     0,
+  "GVEii",     0,
+  "GVE",     0,
+  "GVii",     0,
+  "GV",     0,
+  "HSRii",     0,
+  "HSR",     0,
+  "Lagunaii",     0,
+  "Laguna",     0,
+  "RomeLii",     0,
+  "RomeNii",     0,
+  "RomeSii",     0,
+  "RomeL",     0,
+  "RomeN",     0,
+  "RomeS",     0,
+  "Rome",      0,
+  "Romeii",      0,
+  "Super",     0,
+  "SMNii",     0,
+  "SMN",     0,
+  "SMSii",     0,
+  "SMS",     0,
+  "Tahiti-ii",     0,
+  "Tahiti",     0,
+  "TahR3ii",     0,
+  "TahR3",     0,
+  "TahM",     0,
+  "Tah-ii",     0,
+  "Tah",     0,
+  "Tokyoii",     0,
+  "Tokyo",     0,
+  "TT",     0,
+  "SeattleLii",     0,
+  "SeattleSii",     0,
+  "SeattleL",     0,
+  "SeattleS",     0,
+  "Seattleii",     0,
+  "Seattle",     0,
+  "Midfield",     0,
+  "Midfieldii",     0,
+  "Midfield",     0,
+  "SSR5ii",     0,
+  "SSR5",     0,
+  "SSR11ii",     0,
+  "SSR11",     0,
+  "DFRWii",     0,
+  "DFRW",     0,
+  "DFii",     0,
+  "DF",     0,
+  "TMii",     0,
+  "TM",     0,
+  "GTW",         0,
+  "GT300",         0,
+  "GT500",         0,
+  "Expert",      0,
+
+);
+@@main::racelist = ();
+
+d26 1
+a26 10
+my($name,$length);
+while (@@main::racedata) {
+	$name = shift @@main::racedata;
+#print "$name\n";
+	$length = shift @@main::racedata;
+	
+	push @@main::racelist , $name;
+	#$main::track{$name} = $name;
+	$main::racelength{$name} = $length;
+};
+d350 20
+d396 1
+a396 1
+	$length = 1;
+d398 4
+a401 21
+look:
+	foreach $i (@@main::racelist) {
+		if ( $rest =~ /[\s\/]${i}\s/ ) {
+			$none = 0;
+			$rest =~ /(.*[\s\/])(${i})(\s.*)/;
+			($prev,$race,$after) = ($1,$2,$3);
+			$length = $main::racelength{$race};
+			$event = $i;
+			last look;
+		}
+		elsif ( $rest =~ /[\s\/]${i}[\-]{0,1}[I]{1,3}/ ) {
+			$none = 0;
+			$rest =~ /(.*[\s\/])(${i})([\-]{0,1}[I]{1,3})(.*)/;
+			($prev,$race,$suff,$after) = ($1,$2,$3,$4);
+			$length = $main::racelength{$race};
+			$event = "$i$suff";
+			last look;
+		}
+	}
+	if ($none) {
+		&warn("Unrecognized race: $_\n");
+d407 1
+a407 1
+			&warn("Bad end day for series \"$race\": $line\n");
+a408 1
+		$car = $prev;
+d507 1
+a507 1
+	$line =~ /^\s*define\s+(\w+)\s+([\w\-]+)/;
+d516 1
+@
+
+
+1.5
+log
+@Added more events.
+@
+text
+@d111 3
+d123 1
+d589 34
+d624 2
+a625 2
+	my($line,$day) = @@_;
+	my($stuff,$fullname);
+d662 21
+d787 3
+@
+
+
+1.4
+log
+@Remove some of the legacy of GT1.
+Must see if we can start over again soon.
+Would be nice to create commands to define new table entries to add.
+Would be nice to do some sort of prize and other consistency checking.
+@
+text
+@d27 1
+a27 1
+  "TM30",    0,
+d29 10
+@
+
+
+1.3
+log
+@Fixed typo DFFW.
+Added some series names.
+@
+text
+@d22 75
+a96 75
+  "Apricot200",      0, "Demio", "", "", "", "", "", "", "",
+  "GV300",       0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "Seattle100",  0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "Laguna200",  0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "Rome2hr",    0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "TM30",    0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "SSR5All-night",    0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+
+  "Altezza",  0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "Beetle",  0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "TypeR",  0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "Vitz",  0, "Supra", "black/blue", "black/green", "", "", "", "", "",
+
+  "Autumnii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Autumn",     0, "Camaro", "", "", "", "", "", "", "",
+  "Apricotii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Apricot",     0, "Camaro", "", "", "", "", "", "", "",
+  "Clubman",     0, "Camaro", "", "", "", "", "", "", "",
+  "Clubmanii",     0, "Camaro", "", "", "", "", "", "", "",
+  "GFRii",     0, "Camaro", "", "", "", "", "", "", "",
+  "GFR",     0, "Camaro", "", "", "", "", "", "", "",
+  "GVEii",     0, "Camaro", "", "", "", "", "", "", "",
+  "GVE",     0, "Camaro", "", "", "", "", "", "", "",
+  "GVii",     0, "Camaro", "", "", "", "", "", "", "",
+  "GV",     0, "Camaro", "", "", "", "", "", "", "",
+  "HSRii",     0, "Camaro", "", "", "", "", "", "", "",
+  "HSR",     0, "Camaro", "", "", "", "", "", "", "",
+  "Lagunaii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Laguna",     0, "Camaro", "", "", "", "", "", "", "",
+  "RomeLii",     0, "Camaro", "", "", "", "", "", "", "",
+  "RomeNii",     0, "Camaro", "", "", "", "", "", "", "",
+  "RomeSii",     0, "Camaro", "", "", "", "", "", "", "",
+  "RomeL",     0, "Camaro", "", "", "", "", "", "", "",
+  "RomeN",     0, "Camaro", "", "", "", "", "", "", "",
+  "RomeS",     0, "Camaro", "", "", "", "", "", "", "",
+  "Rome",      0, "Camaro", "", "", "", "", "", "", "",
+  "Romeii",      0, "Camaro", "", "", "", "", "", "", "",
+  "Super",     0, "Camaro", "", "", "", "", "", "", "",
+  "SMNii",     0, "Camaro", "", "", "", "", "", "", "",
+  "SMN",     0, "Camaro", "", "", "", "", "", "", "",
+  "SMSii",     0, "Camaro", "", "", "", "", "", "", "",
+  "SMS",     0, "Camaro", "", "", "", "", "", "", "",
+  "Tahiti-ii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Tahiti",     0, "Camaro", "", "", "", "", "", "", "",
+  "TahR3ii",     0, "Camaro", "", "", "", "", "", "", "",
+  "TahR3",     0, "Camaro", "", "", "", "", "", "", "",
+  "TahM",     0, "Camaro", "", "", "", "", "", "", "",
+  "Tah-ii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Tah",     0, "Camaro", "", "", "", "", "", "", "",
+  "Tokyoii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Tokyo",     0, "Camaro", "", "", "", "", "", "", "",
+  "TT",     0, "Camaro", "", "", "", "", "", "", "",
+  "SeattleLii",     0, "Camaro", "", "", "", "", "", "", "",
+  "SeattleSii",     0, "Camaro", "", "", "", "", "", "", "",
+  "SeattleL",     0, "Camaro", "", "", "", "", "", "", "",
+  "SeattleS",     0, "Camaro", "", "", "", "", "", "", "",
+  "Seattleii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Seattle",     0, "Camaro", "", "", "", "", "", "", "",
+  "Midfield",     0, "Camaro", "", "", "", "", "", "", "",
+  "Midfieldii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Midfield",     0, "Camaro", "", "", "", "", "", "", "",
+  "SSR5ii",     0, "Camaro", "", "", "", "", "", "", "",
+  "SSR5",     0, "Camaro", "", "", "", "", "", "", "",
+  "SSR11ii",     0, "Camaro", "", "", "", "", "", "", "",
+  "SSR11",     0, "Camaro", "", "", "", "", "", "", "",
+  "DFRWii",     0, "Camaro", "", "", "", "", "", "", "",
+  "DFRW",     0, "Camaro", "", "", "", "", "", "", "",
+  "DFii",     0, "Camaro", "", "", "", "", "", "", "",
+  "DF",     0, "Camaro", "", "", "", "", "", "", "",
+  "TMii",     0, "Camaro", "", "", "", "", "", "", "",
+  "TM",     0, "Camaro", "", "", "", "", "", "", "",
+  "GTW",         0, "ChaserLM", "", "", "", "", "", "", "",
+  "GT300",         0, "ChaserLM", "", "", "", "", "", "", "",
+  "GT500",         0, "ChaserLM", "", "", "", "", "", "", "",
+  "Expert",      0, "Demio", "", "", "", "", "", "", "",
+a100 11
+sub
+cc {
+	my($colour,$car) = @@_;
+
+	if ($colour =~ /^W/) {
+		$car . $colour;
+	}
+	else {
+		$colour . $car;
+	}
+}
+d103 1
+a103 1
+my($name,$length,$car1,$c1,$c2,$c3,$car2,$d1,$d2,$d3,$pstring);
+a107 28
+	$car1 = shift @@main::racedata;
+	$c1 = shift @@main::racedata;
+	$c2 = shift @@main::racedata;
+	$c3 = shift @@main::racedata;
+	$car2 = shift @@main::racedata;
+	$d1 = shift @@main::racedata;
+	$d2 = shift @@main::racedata;
+	$d3 = shift @@main::racedata;
+	if ( $length =~ /\D/ ) {
+		die "sync error in racedata: $name\n";
+	}
+	$pstring = "," . &cc( $c1 , $car1 ) . ",";
+	if ( $c2 ne "" ) {
+		$pstring .= &cc( $c2 , $car1 ) . ",";
+	}
+	if ( $c3 ne "" ) {
+		$pstring .= &cc( $c3 , $car1 ) . ",";
+	}
+	if ( $d1 ne "" ) {
+		$pstring .= &cc( $d1 , $car2 ) . ",";
+	}
+	if ( $d2 ne "" ) {
+		$pstring .= &cc( $d2 , $car2 ) . ",";
+	}
+	if ( $d3 ne "" ) {
+		$pstring .= &cc( $d3 , $car2 ) . ",";
+	}
+#print "${name}:$pstring\n";
+a110 1
+	$main::raceprizes{$name} = $pstring;
+d533 2
+a534 2
+ 	if ( &otherprize($prize) == 0 &&
+ 			$main::raceprizes{$event} !~ /,${prize},/ ) {
+d536 1
+a536 1
+ 	}
+@
+
+
+1.2
+log
+@Added some new tracks.
+@
+text
+@d30 5
+d87 1
+a87 1
+  "DFFWii",     0, "Camaro", "", "", "", "", "", "", "",
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a35 8
+  "Grindevaldii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grindevald",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grindelvaldii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grindelvald",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grindelwaldii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grindelwald",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grindii",     0, "Camaro", "", "", "", "", "", "", "",
+  "Grind",     0, "Camaro", "", "", "", "", "", "", "",
+a45 4
+  "PikeUp",     0, "Camaro", "", "", "", "", "", "", "",
+  "PikeDown",     0, "Camaro", "", "", "", "", "", "", "",
+  "RedRockii",     0, "Camaro", "", "", "", "", "", "", "",
+  "RedRock",     0, "Camaro", "", "", "", "", "", "", "",
+d53 1
+d66 2
+d73 2
+d80 2
+d497 1
+@

@@ -1,0 +1,270 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.16.00.23.23;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix heading, etc.
+@
+
+
+1.5
+log
+@changes.
+@
+text
+@Mon Feb  8, 1999
+
+Passed IA-3,IA-5,IA-7 and IA-4
+
+Thread: License Test Progress
+
+Well, apart from my chest cold, I had another pretty good Gran Turismo
+Weekend.
+
+I got my bronze IA-3,IA-5,IA-7 and IA-4, in that order.
+
+IA-3 (Grand Valley in a Griffith) was straight-forward.  I tried a few times
+and passed by a slim margin.  2:02.986
+
+So I decided to keep driving the same car, and it took a little longer
+to get IA-5 (Autumn Ring in a Griffith), but I passed by almost a full
+second, and there was a nice methodical feel to the progress towards
+passing, which I did by almost a full second.  1:23.061
+
+In fact, I was so confident and comfortable with the course, that,
+since I had forgotten to save the passing replay, I tried a few more
+times until I got a 1:23.940 I could save.  I didn't save the
+game/medal/days for that attempt, however.
+
+After that I must have spent well over ten hours and hundreds of laps
+trying to meet the time limit on SSR11 in the Griffith.  Whereas the
+required time was 2:14, I would typically (after warming up to get down
+from the 2:24 range) get 2:17.xxx, with 2:15.xxx not infrequent, and
+occasionally 2:14.xxx--at one point I got 2:14.016
+Eventually I squeaked in with a 2:13.966
+
+The replay of that attempt is not terribly pretty, containing a fair
+amount of wall-grazing.  Turn 2 was clean, though, as was everything
+up to the underpass with the chicane.  My tail clipped the wall on
+the deceptive corner going into there.  After the long esse
+following the chicane come some twiddly corners.  I clipped the wall on
+both parts of the initial esse.  The run was clean after that, however;
+I got a really nice drift through the last tunnel.  One sub-optimal
+point was that I exited the last hairpin tight, indicating I wasn't
+going fast enough, but on the plus side that meant I was ready for
+full acceleration really soon.
+
+
+I then went pack to IA-4, the Viper at Deep Forest Racing Way, and
+passed with 1:23.829 after not too many attempts.  (In all cases
+here, the pass criterion is the next even second).
+
+When I drove my race-modified cars after this, did they ever feel
+different.  Sort of like the whole car was rotating around a central
+ball-bearing or something.
+
+The practice at SSR11 put me in good stead when I did the International
+series again.  Although in one series I still lost it because I can
+still every now-and-then do something stupid at that barrier chicane in
+the underpass.  As usual, the would-be winner stayed far enough back to
+guarantee me a win.  I decided to use the monster '89 Skyline,
+winning both UKversusJapan and USversusJapan.  I won a Honda
+del Sol LM; what a relief to not get another Cerbera.  I wonder
+if the nationality of your car determines the nationality of
+the prize?   But I'm sure I drove the Skyline before in the
+USversusJapan series, and I won a Viper that time, but a green
+Mitsubishi FTO this recent time.
+
+I have a lot of work to do on Trial Mountain, IA-6, before I get to
+try the dreaded IA-8 final.
+
+Thread: Other Games
+
+Also this weekend my wife rented two other driving games.
+"Nascar '99" and "Need for Speed III", both from Electronic Arts.
+Unfortunately I was in such a license-getting mindset that I
+really didn't get our moneysworth out of the rental.  I did
+make about 2 hours of videotape, and will add reviews here
+when I have more time.
+
+One thing I noted was that Need for Speed had fully configurable
+controls, but Nascar '99 gave you only a very limited selection.
+Controller configuration was less natural than either Gran Turismo
+or the earlier EA game "Andretti Racing".  The strange thing is
+that Nascar '99 in many ways showed itself to have an Andretti
+Racing heritage.  Most noticeable, the route map was nearly
+identical.
+
+I don't understand why all games do not provide totally user
+customizable controls.  As the adage goes, lots of things are simple
+with an extra level of indirection.
+
+In theory the InterAct Barracuda 2 game controller allows you to map
+buttons to one another, but in practice it is not easy to do or to keep
+track of.  It would probably be costly to implement, but it would be
+nice if the Barracuda 2 had an extra switch to allow you to keep
+several different sets of customized controls.  On switch position
+would be the "non-customizable" position, to make it easy to always
+revert to the defaults.  But, of course, you should not need customizable
+controllers, because the games should provide that facility for
+you.  One problem with Gran Turismo is that it is not possible to
+reconfigure controls deep within a session.  It would be nice if
+the entire "Options" menu were accessible from anywhere within the
+game.  Then, for instance, you could switch two-player mode from "free"
+to a number of laps without exiting and re-entering the mode you were
+in.  Other things, such as tire wear and handicap would be nice to
+change closer to the individual race, too.  It would be nice to be
+able to store controller settings apart from the main game, too.
+Perhaps a fake car setting set could have been used for that purpose.
+
+Getting back to the other games, I found Nascar '99 very similar to
+"Andretti Racing", but with significantly improved graphics.  But there
+was one chicane at Watkins Glen you could not see coming at all because
+of the simulation, not really because of natural perspective.  You had
+to brake entirely based on the markers beside the road.  As with
+"Andretti Racing", it was quite easy, using the defaults, to win the
+oval courses, and seemed very difficult to be competitive at all on
+the road courses.  The default settings appear to include a 125%
+horsepower setting (ie. 25% advantage) for you.  Licensing is a sad
+thing when it causes a game called "Nascar '99" not to be able to
+include the Daytona track.
+
+"Need for Speed III" seemed very difficult to play.  The courses
+available all consisted of continuous curves, as opposed to straights
+and curves, and one felt little feedback as to what the correct speeds
+were for them.  A lot of some courses were very difficult to make out
+because of the graphics.  After the second or third time you could sort
+of remember "Oh yes, as I get close to that, I will be able to see
+that the correct road goes between what becomes two pillars while
+off to the side is an awful ditch trap", and things like that.
+
+"Need for Speed III" has a subtitle "Hot Pursuit" which refers to an
+option where you can activate police cars to chase you to give you
+tickets.  I don't really like this idea.  Neither, apparently do
+Ferrari executives; you cannot drive the Ferrari cars in this mode.  When
+the police do catch you and you get "fined" they do not seem to detain
+you for long enough to be realistic, and the game does not give you a
+picture of the ticket depicting the actual offense and location, etc.
+I am sure police boards across North America and the world must be up
+in arms (so as to speak) about this game.
+
+In actual fact, I never tried to outrun the police cars.  I never quite
+figured out at which spots they could trap your speed and detect an
+offense, but, all-in-all, I just didn't like the idea.  One time I
+navigated the course at a speed of 15 to 20mph (trying to stick to
+below 50 outside the city and below 30 inside failed once for me as I
+guess they caught me decelerating after the 30mph sign), and did not
+get fined.  At one interesting point they did stop one of the "traffic"
+cars, a silver pickup truck, and fine it.  It seemed that it might be
+the case that before getting fined you always get stopped once by the
+police to receive a "warning" to stop speeding, whether or not you
+had.  There was another point where your lane trickily moved to the
+right so that I managed the first time to get a "driving on the wrong
+side of a double yellow solid line" offense.  But the time I drove at
+15 to 20mph, I did not get stopped for impeding traffic.  I finished
+the course with no fines.  But at the time the "traffic" pickup truck
+was stopped, it was unclear whether I was being ordered to stop too, or
+what I should have done in the situation.  The AI police do not
+communicate clearly to the user.
+
+The extra traffic was nice; a school bus, some pickup trucks, and what
+looked like a red Volvo station wagon.  (But was probably either
+something else, or something "generic").  It seemed that the occurrence
+of the traffic was such that you did not get a line-up behind you as
+you would when driving very slowly.  When driving slowly, the scenery
+was quite nice, although the trees were nowhere near the quality of
+those in Gran Turismo.  Similarly the buildings had more of a cartoon
+quality.  Gran Turismo has such realistic-looking concrete and (static)
+shading and shadows.  As far as racing action goes, I never really did
+an honest evaluation of "Need for Speed III", but in general it seemed
+quite difficult to match the computer opposition, even when I had a
+grossly outclassing car.  And, at high speeds, all that nice scenery
+became artificially blurred.  Sound effects were nice at slow speeds,
+too--dogs bark, cows mooing, church bells ringing and other authentic
+country sounds.  I think they were there at high speeds, but less
+noticeable, just as they are in real life.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@Added threads.
+@
+text
+@d5 1
+a5 2
+Threads:
+  License Test Progress
+d66 2
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d5 3
+@
+
+
+1.2
+log
+@fix up title for index
+@
+text
+@d1 1
+a1 1
+Mon Feb  8 19:38:31 EST 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+@

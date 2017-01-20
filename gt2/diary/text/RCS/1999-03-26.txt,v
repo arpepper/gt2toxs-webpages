@@ -1,0 +1,265 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.06.12.00.13.36;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.30.22.40.11;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@1999-03-26.txt
+@
+
+
+1.4
+log
+@changes.
+@
+text
+@Fri Mar 26, 1999
+
+A Tale of Two Settings
+
+Threads:
+  Prize Car Information
+  Tuning Advice
+
+Based on email to jjaguar@@worldnet.att.net
+
+
+For the 560bhp prize Concept Car
+
+                      Stock?             Yours                Mine
+                    Front  Rear       Front  Rear        Front  Rear
+Springs kg/mm        4.5   3.8         3.5   2.9          4.7   4.2
+Ride Height mm       108   108         100   100          110   115
+Damper                5     5           4     4            3     3
+Camber degrees       2.0   1.0         2.0   1.0          2.0   1.0
+Stabilizer            3     3           2     2            2     1
+Brakes                7     7          10*    7*          14    12
+
+1st                   3.178             3.200               3.178
+2nd                   2.182             2.191               2.182
+3rd                   1.643             1.643               1.643
+4th                   1.241             1.241               1.241
+5th                   1.010             1.010               1.010
+6th                   0.929             0.875               0.929
+FD                    4.292             3.300               3.200
+
+Downforce           0.57  0.82        0.52  0.75         0.70  0.96
+
+
+Okay, so I put up the springs, to try and prevent bottoming out, and
+also raised ride height for the same reason.  It makes sense to me that
+a light car would require not much less spring force than a massive car
+because most of the effective weight on the springs with these cars is
+due to aerodynamic downforce.  However, the rebound effect will be
+related to mass, so it makes sense to me that much lower damper
+settings would be suitable for less massive cars.  (In fact, I would
+guess that aerodynmaic "weight" itself would be a damping force, since
+it works only in one direction, whereas mass of the chassis, or the
+unsprung mass of the wheel work in both directions).
+
+Do any prototype cars use electronic dynamic suspension adjustment
+these days?   To change the damping or springing as the forces on
+the car change (i.e. basically, as speed changes, but also it
+should react to acceleration/deceleration).
+
+Anyway, in the hands of a slightly biased test driver (me) I ended
+doing both GVE and GVE ii, although I used my brake settings
+with your setup.  (Do you know whether 14/12 is equivalent to
+7/6, by-the-way?)
+
+The first run I did was my settings at GVE ii
+  0:55.569 + 0:52.113(rec) = 1:47.480(rec by about 2 seconds)
+
+After that I (by mistake) ended up at GVE
+
+yours I got down to 1:52.322, and set fl of  0:54.355
+this setup still rumbled on the straight after the first hairpin
+
+My settings (done second) my first run was
+0:57.458 + 0:51.502 = 1:49.785
+
+My wheels still lifted, but the car did not rumble.  From the ghost I
+could see my setup was much faster on the esses getting back to the
+main straight.  Probably due to my aero.
+
+I got down to 0:56.214 + 0:51.755 = 1:47.969; the above remained my fl
+My notes indicated that my setup did still rumble occasionally.
+
+At GVEii, your settings did not fair so badly.  I'm not sure why; you
+get more of a run at that bumpyish straight between the tunnel esses
+and the hairpin, but it would only occasionally rumble there.
+
+I got your setup down to
+
+    0:56.674 + 0:52.886 = 1:49.560 ; pretty far from my records above
+and I did not seem to be able to beat it
+
+So I added nearly full aero to your setup, backing off the front not
+very scientifically just because I had noticed your setup seemed to
+spin more than mine.
+
+This allowed me to get down to 1:48.269, with fl of 0:51.193
+I found that hard to beat.  But as I got better at coming out
+of those esses onto the short straight to the final hairpin,
+the car would rumble badly.  So I gave up since even more confusing (ie
+blurring the distinction between "yours" and "mine") tuning would be
+necessary to compensate for that.
+
+Then, I went back to my own settings (now at GVE ii, remember)
+and finally set a new record, 0:55.335 + 0:52.064 = 1:47.399
+
+I think I came reasonably close to the above fl sometimes, but
+did not beat it.  That is, I managed to set fl with your
+settings (with boosted aero), but not fastest time.
+
+Anyway, your settings with high aero, seem to produce rumbling, and
+without the high aero do not seem to be able to come all that close to
+times with my settings.  My settings still lift wheels occasionally
+(usually just rear, but occasionally just  front, in addition to
+the occasional characteristic GT "Demio Dance").  And my settings do
+get the occasional rumble.  I'll experiment more freely some other day,
+now that I see your settings are not "magic"  8-)  Probably I'll try
+your spring rates with higher ride height and full aero, and (maybe)
+2/1 stabilizer and lower dampers.
+
+So I just thought you *might* be interested.  One future approach which
+could be taken with the Concept Car FAQ item would be to use it as a
+"for instance" to indicate how one applies the tuning processes you
+suggest.
+
+Thread: Race Results
+
+Oh yes, I took my settings to that nice 3-race paid Time Trial Series
+known as the "FR Challenge"  8-), and set convincing personal records
+which actually squeaked into first of what Nick Albright shows on his
+pages.  My settings worked okay at Deep Forest; I didn't observe
+horrible rumbling.
+
+My Cerbera LM is now feeling very dejected.  8-)
+
+FR Challenge Results:
+
+  GVEii  q1st  0:56.594rec  1st 1:47.002rec  fl 0:51.389rec
+  DFRW   q1st  1:07.760rec  1st 2:09.630rec  fl 1:02.491rec
+  GVii   q1st  1:38.099rec  1st 3:09.222rec  fl 1:32.262rec
+
+-------------------------------------------------------------------------
+From usenet:
+
+
+rec.games.video.sony #451922
+From: Dave Connoy <connoy@@students.uiuc.edu>
+Newsgroups: alt.games.video.sony-playstation,rec.games.video.sony
+Subject: Re: Gran Turismo
+Date: Fri Mar 26 16:14:39 EST 1999
+Organization: University of Illinois at Urbana-Champaign
+In-Reply-To: <jyoVVAArO++2Ew2f@@mfevs.freeserve.co.uk>
+
+On Fri, 26 Mar 1999, Mike Fairweather wrote:
+
+> Are there any differences in car content between the US version and the
+> UK version. I know there was between UK and Japan.
+
+Well, there are definitely differences between the Jpn and US versions.
+To go into a complete list would be far too time-consuming, but in the
+"best cars" department it sounds like the [R]Concept Car is far more
+dominant in the US version than any other version.  The [R]Concept Car is
+too heavy to be as good in the Jpn version, which is dominated by its much
+lighter Viper GTS-R.  The Cerbera LM Edition is excellent (and perhaps the
+same?) in both versions.
+
+Judging from what someone else said about the UK version (I forget who),
+the "heavy" versions of both the Viper GTS-R and [R]Concept Car are in the
+UK version, making the Cerbera LM Edition the best car overall, with
+probably a race-modded '89 GT-R coming in second.
+
+Owning only the US version, I don't know any of this for sure.  Heck, why
+don't owners of each version (David Ralphs, you out there?) post the stats
+of the [R]Concept Car, Viper GTS-R, Cerbera LM, and race-modded '89 GT-R,
+and we'll compare?  I'll start...
+
+US VERSION
+---------- 
+Name                            Power   Weight  P/W
+[RM]R32 Skyline '89 GT-R        913     2268    .403
+(Only 5 speeds and a damn narrow powerband though)
+[R]Concept Car                  560     1329    .421
+[R]Viper GTS-R                  680     2753    .247
+[R]Cerbera LM Edition           581     1984    .293
+
+This will doubtless blow up in our faces because the different versions
+use different units of measurement, but at least we can compare
+power-to-weight ratios within each version.
+
+Dave Connoy
+connoy@@students.uiuc.edu
+-------------------------------------------------------------------------
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.3
+log
+@Added threads.
+@
+text
+@d7 1
+d114 2
+@
+
+
+1.2
+log
+@Take advantage of new "semi-literal" sections.
+@
+text
+@d5 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d125 1
+d128 1
+d161 1
+a161 1
+----------
+d175 1
+@

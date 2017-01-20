@@ -1,0 +1,250 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	99.07.14.22.39.03;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.18.17.59.11;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.18.17.52.33;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Oops.  I mistook a Gts-t Type M for a 4wd; it's FR
+@
+
+
+1.5
+log
+@more threading
+@
+text
+@Mon Mar 15, 1999
+
+Passing tests and winning races by 0.000 seconds!
+
+Threads:
+  Used Car Patterns
+  Used Car Information
+
+On the weekend I did a little more inventory, and test drove some of
+the interesting daily picks.
+
+The first of two day 50 picks was the super clear red S14 Silvia '95
+Q's appearing for barely more htan half its more usual value, at
+Cr9800.  216bhp and 2733lb FR, this looked like a promising pick.  And,
+as usual, it won the Sunday Cup easily although its qualifying runs
+were lousy.  The game jumbled the other points around the most I have
+ever seen, and I went into the last race, Grand Valley East, leading 18
+to 9.  That is, I could not lose the series.  But I won the last race
+anyway, after a little bit of a fight with a hard-driven Demio.
+
+After that I took my winnings and bought the other pick, the warm
+white 2tone S13 '88 Silvia K's 1800cc, 172bhp but only 2469lb.
+This car was Cr7990; I could have bought the super black one for
+CR5540, but since I wanted to try it stock, I opted to spend extra
+money for a colour I find easier to see and follow.
+
+Going once again to the Sunday Cup, this one I qualified 4th at the
+Autumn Mini.  I took a long time to get into first place, but I
+did finally win, beating the time of the previous car.  A Starlet
+Glanza was the car giving it a hard time.  It was like no-one had
+told him that his was not supposed to really race in this series.
+At the High Speed Ring, I won, but the Glanza took the lead from
+me at the second time through the esses.  I got the lead back,
+and the Glanza hung behind, waiting for me to make a serious mistake.
+But, since I made only minor mistakes, I won the race.  After these
+challenges in these two races, I was somewhat surprised when I won
+Grand Valley East with ease.  The Glanza challenged once again,
+during the second time through the hairpin.  But that was it.
+
+Both these cars handled well, and encouraged steering with the
+gearshift.  That is, you can set up for the turn, and, when you need
+it, provoke a little oversteering drift by downshifting.
+
+After that I went back to day 30 to try out the < Cr10000 4wd Nissan
+I had previously overlooked.   This is an R32 Skyline GTS 4, in dark
+blue pearl, 212bhp, 3130lb,  for only Cr9310.  It is only Cr9810
+at day 40, too.  I practised less with this car, but it did not
+seem quite as fast as the S13 '88 Silvia K's.  But yup, it qualified
+last but won all three events easily.  I found this car very stable
+under braking, and, yet, for a 4wd, it had delightful tendency to
+skitter its rear end around the corner after it.  (ie. you could
+provoke oversteer).
+
+On day 60, I discovered another good Nissan Skyline, the dark blue
+pearl(?) R32 Skyline GTS-t Type M, 212bhp and only 2777lb, which
+finally dipped below Cr10000 at Cr9670.  Day 60 is a little late to be
+buying a car in a game, but you can always finesse a car back to an
+earlier day via a "Memory Card Trade".  In the Sunday Cup test drive of
+this car, I actually qualified first at the Autumn Mini.  One again it
+won all three races easily although I qualified last in the other two.
+On a good day I think I could qualify it first at Grand Valley East.
+This car was so stable I actually mistook it for 4wd.  (So many
+Skylines, it gets confusing).  This car is essentially a more powerful
+version of the GTS25 Type S, a car readily available for under
+Cr10000 on most days of the game.  Even though it is not 4wd, I
+think it is the "best pick" for days 60-69 (ignoring the usual
+Toyota Supra MA70, etc.--The GTS-t TypeM is the "best unusual pick")
+
+Anyway, I promised to tell you tales about passing and winning by a
+margin of 0.000 seconds, didn't I?
+
+Well, I got exactly 32.000 for A-5 (during a days-wasting session of
+retries) That is a pass.  It says "time limit is 32 seconds", so I
+guess people would be upset if it was not...  The least I've ever
+failed a license run by is .006, I think.
+
+And along similar probabilistic lines, I tied for first place in the
+last race (Grand Valley East) of Sunday Cup.  You see, I took a stock
+prize Civic Racer out, and was leading okay on the last lap, when I
+thought, I haven't seen the brake lights on this car.  So, in that esse
+coming out of the tunnel I dab the brakes for a bit too long just to
+see the lights (they're small and not very bright, perhaps even orange,
+that's why I hadn't noticed them), and shortly after that Mr. Demio
+sneaks by.  So I seem to be gaining on him going to the finish line,
+and I pull up beside him.  I almost get by at the finish line, but, no,
+even after the finish it says "2nd".
+
+Then comes the time screen.  I'm 70% sure it showed me as second at
+"+0'000" (I'm 100% sure it showed +0'000, and I'm 70% sure that was in
+turquoise).  But then it goes to the next screen, the points screen,
+and it had given me the full 9 points!  I don't think it had awarded
+extra points (ie. two 9's) but it was too hard to tell.  Strange, if
+you tie in points in a series, I think you are never awarded the
+championship.  At least, whenever I have tied in points for the first
+place in a series, I have never been awarded the championship.  Anyone
+else seen evidence to the contrary?
+
+When I played the replay, it would show 2nd, even after the finish, but
+then went to the "result <gold>1st</gold>" screen.  Since a saved
+replay shows neither the finishing times, nor the "result" screen, I
+did not save the replay.  (And I had not been recording the race on my
+VCR 8-)
+
+I also discovered that at day 1760(!) the Subaru used car stock *does*
+have not just one, but *two* exact duplicates. (model and colour are
+the same), visible on the same day.  Specically, it has two "feather
+white Impreza '95 Wagon WRX-Sti Ver II", and also two "light silver
+metallic Impreza '94 Wagon WRX".  So perhaps one day I'll catch those
+two red MA70's on the lot at the same time.  8-) It does appear that
+each manufacturer has long list (in Nissan's case a very long list) of
+all cars possibly available, with some function which makes them
+visible or not visible on each day (or actually, each set of 10 days;
+day X0 to X9).
+
+So on Saturday I'm in Canadian Tire, eh, where they no longer carry PSX
+stuff, but they have a huge rack of magazines.  And, like, I sees this
+issue of "Official Playstation Magazine" promising "First Pictures of
+Gran Turismo 2".
+
+And, so I buy, it open it, take it home, read it, look at the pictures.
+And all I have to say is...
+
+  I love my car, I love my Min',
+  It saves me lots of gas.
+  And ev'rywhere I wanna go,
+  It gets there really fast
+
+  Mini, Mini, Mini, Mini,
+  Mini, Mini, Mini, Mini,
+  Mini, Mini, Mini, Mini...
+
+Oh yes.  I also tried the Tuned Car Series again.  8-(  I broke most of
+my records by 10 seconds or so (that is only 2 seconds a lap), but
+still finished fifth overall--the same result as before.  This was in
+an '89 Skyline.  I ran without an intercooler most of the time, using
+it only at the High Speed Ring, and used a semi-racing exhaust.  The
+most disappointing race was SSR11 where I had two time-consuming
+accidents and so finished 2 seconds slower than the time I had set in
+the Cerbera, even though I had demolished the "test run" fastest lap.
+
+I discovered that simulation mode time trials can be somewhat
+addictive.  Right now, I'm trying to use a Cerbera LM to beat a time I
+set with a racing-modified '89 Skyline.  I almost did it.  I was
+leading on the finishing straight, and lost by .077 seconds.  It is
+very hard to beat a ghost replay when it can outdrag it on the final
+straight.  Gee, if you could make Cr doing that, I might not do much
+else.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@Added threads.
+@
+text
+@d7 1
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d5 3
+@
+
+
+1.2
+log
+@Oops.
+@
+text
+@d1 1
+a1 1
+Mon Mar 15 16:30:43 EST 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d50 14
+a63 8
+On day 60, I discovered an even better 4wd car, the dark blue pearl(?)
+R32 Skyline GTS-t Type M, 212bhp and only 2777lb, which finally dipped
+below Cr10000 at Cr9670.  Day 60 is a little late to be buying a car in
+a game, but you can always finesse a car back to an earlier day via a
+"Memory Card Trade".  In the Sunday Cup test drive of this car, I
+actually qualified first at the Autumn Mini.  One again it won all
+three races easily although I qualified last in the other two.  On a
+good day I think I could qualify it first at Grand Valley East.
+@

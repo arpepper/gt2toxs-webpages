@@ -1,0 +1,164 @@
+Sunday April 01, 2001
+
+tuned Fairlady Z 2 seater Turbo wins SSR11 All-Night II in fairlady game
+
+Threads:
+  All-Night II Results
+  Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fairlady">fairlady</a> game
+(Maybe <a href="../logs/fairlady.txt">here</a>)
+I used the Fairlady Z 2 seater Turbo (aka 300ZX) as much as possible, so I entered the
+All-nightII Race.
+</CODES>
+
+This car won the All-nightII, but not very convincingly.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: fairlady
+   Day: 77
+   Date: April 01, 2001
+   Car: tuned Pearl Green Nissan Fairlady Z Version S Twin Turbo 2 Seater
+
+   Race: SSR11 All-Night II  Endurance Race
+   Qualified: 6th 2:02.068new  Cr0  8-(
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: silver NISMO GT-R LM
+
+   Results:
+
+   1st:* Z 2seater turbo        58:02.512<--new fairlady time, fairly bad
+   2nd:  FDRX7 TypeRZ             +59.586  (59:02.098)
+   3rd:  Supra RZ                 +66.996  (59:09.508)
+   4th:  NSX'93                   +67.319  (59:09.831)
+   5th:  Lancer EvoIII GSR        +99.844  (59:42.356)
+   6th:  R33GT-R Nismo           +114.856  (59:57.368)
+
+   Pits: 10,20
+   fl(12): 1:48.858new
+
+   lap 1   2:08.007
+   slowest  non-pit   (18)  2:01.565
+             next     (30)  1:58.972
+   fastest pit laps   (20in)  2:00.088
+                      (21out) 2:15.620
+   slowest pit laps   (10in)  2:00.204
+                      (11out) 2:16.861
+
+</pre></font></tt>
+</HTML>
+
+Well, qualifying 6th was a bad omen, but at least I won.
+
+I had a terrible start and an extraordinarily bad first lap, but clawed
+my way back after that, regaining the lead about lap 3.
+
+At my first stop, I dropped briefly into second place, but not for long.
+I kept my lead at my second stop.
+
+I lapped one car on lap 29, but even it unlapped itself on lap 30.
+
+I had one bad spin, and a couple of other mess-ups.
+
+<CODES>
+But at least I did had cleanly won the <b>Hard-Tuned</b> Series with
+the same car before this.
+</CODES>
+
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   2:08.007      2:08.007
+ 2   1:50.029      3:58.036
+ 3   1:51.750      5:49.786
+ 4   1:52.373      7:42.159
+ 5   1:53.000      9:35.159
+ 6   1:50.456     11:25.615
+ 7   1:52.147     13:17.762
+ 8   1:54.906     15:12.668
+ 9   1:55.318     17:07.986
+10   2:00.704     19:08.690
+11   2:16.861     21:25.551
+12   1:48.858     23:14.409
+13   1:50.993     25:05.402
+14   1:53.383     26:58.785
+15   1:52.771     28:51.556
+16   1:52.918     30:44.474
+17   1:58.680     32:43.154
+18   2:01.565     34:44.719
+19   1:56.588     36:41.307
+20   2:00.088     38:41.395
+21   2:15.610     40:57.005
+22   1:53.960     42:50.965
+23   1:52.622     44:43.587
+24   1:49.237     46:32.824
+25   1:52.959     48:25.783
+26   1:54.073     50:19.856
+27   1:53.731     52:13.587
+28   1:54.426     54:08.013
+29   1:55.527     56:03.540
+30   1:58.972     58:02.512
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are my settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+           My Settings
+
+Tires            S     S
+    all parts maxed (TS4)
+
+Spring Rate     5.1   4.3
+Ride Height      95   100
+Dampers          5     5
+Camber          2.2   1.7
+Stabilizers      3     3
+Brake Balance   13    12
+Turbo               7
+        1st       3.214
+        2nd       1.925
+        3rd       1.302
+        4th       0.983
+        5th       0.793
+                  -----
+        FD        3.500
+
+Aero    (0.12,0.21)  (stock)
+
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+===============================================================================

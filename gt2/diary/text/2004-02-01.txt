@@ -1,0 +1,144 @@
+Sunday February 1, 2004
+
+I Discover Differences between GT1 versions
+
+Threads:
+  Game Shark Hints
+  Gameplay Hints
+  Prize Car Information
+
+<CODES>
+As I mentioned last December, I finally managed to get a copy of
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> version <b>1.0</b>.  Well,
+recently I discovered a way to tell whether your <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+game is version <b>1.0</b> or <b>1.1</b>, and in the process I also solved a
+small mystery regarding published <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>
+car and prize-car lists.
+
+It turns out that the names of the <b>Honda</b> prize cars you win in
+the <b>FF</b> or <b>Lightweight</b> series differ slightly depending upon
+which version of the game you have.
+
+In version <b>1.0</b> there is a prize car awarded in the <b>Lightweight</b>
+which shows in your garage as <b>EK CIVIC Type-R</b>, and <b>EK CIVIC</b>
+in the bottom right-hand corner when you get in it, and shows as <b>CIVIC
+TypeR</b> in race screens.  The same car, if you view the same garage in
+version <b>1.1</b> lists in your garage as simply <b>CIVIC (Racer)</b>
+and <b>CIVIC</b> when you get in it.  In a race, it shows as <b>CIVIC
+TypeR</b>, as in version <b>1.0</b>.
+
+Similarly, in version <b>1.0</b>, there is a prize car awarded in the <b>FF</b>
+series which shows in your garage as <b>CR-X EF-8 Si-R</b>, and as
+<b>CR-X EF-8</b> when you get in it, although in a race it shows as
+<b>CIVIC CRX'91</b>.  In version <b>1.1</b> that same car will show as
+<b>CIVIC CR-X '91 Si</b> when viewed in the garage, and as
+<b>CIVIC CR-X '91</b> when you get in it, although similar to the other
+case, its in-race name of <b>CIVIC CRX'91</b> is unchanged from version <b>1.0</b>.
+
+So, if you have a game save with one or both of those prize cars on it, you can
+use that save to tell which of the two versions of <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> version <b>1.0</b>
+you have by looking at those cars in your garage.
+
+As I implied, it was previously always a mystery to me why published prize-car
+lists would use such a strange-sounding name for these two prize-cars.  I had
+thought perhaps the name had been carried-forward unchanged from prize-car
+lists written for the original <b>Japanese</b> version of the game, or
+something, but, in fact, those two names at least, are how they appeeared
+in the original (<b>v1.0</b>) game.
+
+
+</CODES>
+=========================================================================
+- GT1v1.0
+  - prize car shows as
+      EK CIVIC Type-R  -- (garage)
+      EK CIVIC  -- ("in")
+      CIVIC TypeR  -- (race)
+  - similar new car
+      CIVIC (Racer)  -- (garage)
+      CIVIC  -- ("in")
+      CIVIC (Racer)  -- (race)
+   YES! Definitely a difference
+    v1.1
+      CIVIC (Racer)  -- (garage)
+      CIVIC  -- ("in")
+      CIVIC TypeR  -- (race)
+
+04-02-19
+  - prize car shows as
+      CR-X EF-8 Si-R  -- (garage)
+      CR-X EF-8  -- ("in")
+      CIVIC CRX'91 -- (race)
+   YES! Definitely a difference
+    v1.1
+      CIVIC CR-X '91 Si  -- (garage)
+      CIVIC CR-X '91 -- ("in")
+      CIVIC CRX'91 -- (race)
+
+
+
+
+
+
+
+
+
+
+=========================================================================
+<HTML INDENT>
+<ul>
+<li> easy through first left through tunnel, but no lifting or braking necessary--just try to reduce tire squealing, keeping speed close to 69mph
+<li> slow, and brake, but not too much for the first right
+<li> enter the second right a little wide, and cut in
+  (this is the trickiest corner of the test)
+<li> if you're on track for gold, you must lift off the accelerator before the second tunnel
+<li> want to exit tunnel lodged in groove, over hash marks, accelerating early, but somewhat gradually
+</ul>
+</HTML>
+
+<CODES>
+In my successful run, I hit the split-time at <b>0:28.635</b>, well below demo of <b>0:28.771</b>.
+
+"Stay in groove, ease on gas early--don't blow it", I thought.
+
+I got in the groove, but felt a slight burble on my exit.
+
+"Oh well", I thought, "That probably blew it, but your speed is okay--keep it nailed, and away from the edge of the road, and it looks like the upshift will come well before the exit of the tunnel."
+
+I saw the "42" on the stopped clock, and then the "Gold medal" appeared, much to my relief.  I was amazed that I had made it by so large a margin.
+
+"Remember to save replay".
+
+Then I checked the demo once before exiting (although, in fact, you can come back later to do that).  It showed I got an early lead by cutting over the apron in the first tunnel.  I lost a little in the first right-hander, but perhaps gained it back in the next.  The split time shows I lost a little in the last corner, and finished just barely ahead of the demo (under 1/10 sec).
+
+Then I saved my game, and went downstairs to get another memory card to make a second copy.  8-)
+
+My recorded times
+(I did not save sessions which did not improve my best time...)
+
+ARP2004Jan25 0:42.854 25/01/04
+ARP2004Jan11 0:43.014 25/01/04
+ARP2004Jan25 0:43.044 25/01/04
+ARP2004Jan03 0:43.058 25/01/04
+ARP2003Dec21 0:43.156 25/01/04
+ARP2004Jan25 0:43.175 25/01/04
+
+(Actually my name is saved as ARP2003Jan25, etc...  Duh!)
+
+Final speed: 118mph, just barely.
+I had had better finishes (118 clearly for about a second).
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+

@@ -1,0 +1,121 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.07.27.23.13.09;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.09.25.23.17.30;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.09.25.23.14.38;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Modify search.html to use www.math as a remote search engine...
+Sort of.
+@
+
+
+1.3
+log
+@My uwaterloo.ca home pages moved from www.math to www.cs, and POST data
+doesn't survive a Redirect.
+@
+text
+@<html>
+<head>
+<meta name="robots" content="nofollow">
+
+<title>
+My Gran Turismo Diaries Search Engine</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+<h4>Search Engine</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="1999-01-04.html
+">First Entry</a>&nbsp;]
+[<a href="index.html">Thread Index</a>&nbsp;]
+[<a href="fullindex.html">Full Index</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="../email.html">email</a>&nbsp;]
+[<a href="2000-06-09.html
+">Most Recent Entry</a>&nbsp;]
+</p>
+</font>
+
+<p>
+Use the form below to search through the files in My Gran Turismo Diaries!
+</p>
+<hr>
+<form method=POST action="http://www.cs.uwaterloo.ca/~arpepper/geo/search.cgi?base=http://www.geocities.com/gt2toxs/gt/diary/">
+<center><table bgcolor="white" border>
+<tr>
+<th>Text to Search For: </th><th><input type=text name="terms" size=40><br></th>
+</tr><tr>
+<th>Boolean: <select name="boolean">
+<option>AND
+<option>OR
+</select> </th> <th>Case <select name="case">
+<option>Insensitive
+<option>Sensitive
+</select><br></th>
+</tr><tr>
+<th colspan=2><input type=submit value="Search!"> <input type=reset><br></th>
+</tr></table></form></center>
+<hr>
+<p>
+Simple Search created by Matt Wright and can be found at <a 
+href="http://www.worldwidemart.com/scripts/">Matt's Script Archive</a>. 
+</p>
+</body></html>
+
+@
+
+
+1.2
+log
+@Arrange to use a search engine remote, but give output which sends people
+back to the indicated site.
+@
+text
+@d41 1
+a41 1
+<form method=POST action="http://www.math.uwaterloo.ca/~arpepper/geo/search.cgi?base=http://www.geocities.com/gt2toxs/gt/diary/">
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d41 1
+a41 1
+<form method=POST action="search.cgi">
+@

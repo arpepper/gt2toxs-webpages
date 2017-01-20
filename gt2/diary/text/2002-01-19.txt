@@ -1,0 +1,1238 @@
+Saturday January 19, 2002
+
+Ducati World Racing Challenge Complete Event List
+
+Threads:
+  Ducati World Racing Challenge
+  Gameplay Hints
+  Game Shark Hints
+
+<CODES>
+Using various techniques, I was able to create this complete list
+of all events in <b>Ducati World Racing Challenge</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table>
+<tr><td colspan="2" align="left">Event 1:  (at 0x8019de04) <b>50's LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">None</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 2:  (at 0x8019de6c) <b>50's LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 7000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 3:  (at 0x8019ded4) <b>50's LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 4:  (at 0x8019df3c) <b>50's LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Borealis I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 5:  (at 0x8019dfa4) <b>50's LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 10000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 6:  (at 0x8019e00c) <b>50's LEAGUE6</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of North Star I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 7:  (at 0x8019e074) <b>50's LEAGUE7</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 50's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of North Star II, prize 1500</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Greenrock TT I, prize 1500</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Borealis I, prize 1500</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley II, prize 1500</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, Gransport 100, Gransport 125, Bialbero 125, 175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 8:  (at 0x8019e0dc) <b>50's CUCCIOLO</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Cucciolo.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">None</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">2 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">2 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">2 laps of North Star I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 9:  (at 0x8019e144) <b>50's 100,125</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">100's or 125's.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass II, prize 1500</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Greenrock TT I, prize 1500</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Neon City I, prize 1500</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Gransport 100, Gransport 125, Bialbero 125</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 7500)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 10:  (at 0x8019e1ac) <b>50's 175 F3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">175 F3.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT II, prize 1500</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Highland Drive I, prize 1500</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Arizona Bay I, prize 1500</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">3 laps of North Star II, prize 1500</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">175 F3</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 11:  (at 0x8019e214) <b>60's LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 60's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250, 500 GP Imola, 500 GP, Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 5000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 12:  (at 0x8019e27c) <b>60's LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 60's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250, 500 GP Imola, 500 GP, Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 13:  (at 0x8019e2e4) <b>60's LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 60's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Neon City I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250, 500 GP Imola, 500 GP, Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 14:  (at 0x8019e34c) <b>60's LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 60's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250, 500 GP Imola, 500 GP, Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 15:  (at 0x8019e3b4) <b>60's LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 60's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250, 500 GP Imola, 500 GP, Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 16:  (at 0x8019e41c) <b>60's LEAGUE6</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 60's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250, 500 GP Imola, 500 GP, Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 14000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 17:  (at 0x8019e484) <b>60's DAYTONA</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Daytona 250.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Neon City II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Daytona 250</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 7000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 18:  (at 0x8019e4ec) <b>60's 500GP</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Gp500 or Gp500 Imola.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Borealis II, prize 4000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Highland Drive II, prize 4000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Red Valley I, prize 4000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">500 GP Imola, 500 GP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 18000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 19:  (at 0x8019e554) <b>60's MACH1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Mach1.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Arizona Bay II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Greenrock TT I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Borealis I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Neon City I, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Mach 1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 15000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 20:  (at 0x8019e5bc) <b>70's LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Thunderpass II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 5000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 21:  (at 0x8019e624) <b>70's LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Highland Drive II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 22:  (at 0x8019e68c) <b>70's LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 23:  (at 0x8019e6f4) <b>70's LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 24:  (at 0x8019e75c) <b>70's LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Neon City II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 25:  (at 0x8019e7c4) <b>70's LEAGUE6</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 14000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 26:  (at 0x8019e82c) <b>70's LEAGUE7</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 70's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of North Star II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Greenrock TT I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Borealis I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley I, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 900 SS'70, 900 SS GP, Mille S2 900, Mille S2 1000, NCR900, NCR900 GP, Hailwood TT, TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 18000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 27:  (at 0x8019e894) <b>70's SUPER900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">70's 900 .</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Borealis I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Arizona Bay II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">900 SS'70, 900 SS GP, NCR900, NCR900 GP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 28:  (at 0x8019e8fc) <b>70's TT1F1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">TT1 F1.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">12 laps of Red Valley II, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">TT1 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">14000 (total 14000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 29:  (at 0x8019e964) <b>70's MILLES2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Mille's.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Thunderpass I, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Neon City II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Mille S2 900, Mille S2 1000</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">7000 (total 16000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 30:  (at 0x8019e9cc) <b>80's LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 5000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 31:  (at 0x8019ea34) <b>80's LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 32:  (at 0x8019ea9c) <b>80's LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 33:  (at 0x8019eb04) <b>80's LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 34:  (at 0x8019eb6c) <b>80's LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Greenrock TT II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 35:  (at 0x8019ebd4) <b>80's LEAGUE6</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of North Star II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 14000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 36:  (at 0x8019ec3c) <b>80's LEAGUE7</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 80's bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Greenrock TT I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Borealis I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso, TT2 F1, 851 Strada, 888, 888E, Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 18000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 37:  (at 0x8019eca4) <b>80's PASOs</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Paso 750 or 900.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Highland Drive I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 Paso, 900 Paso</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 38:  (at 0x8019ed0c) <b>80's TT2F1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">TT2 F1.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">15 laps of Borealis II, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">TT2 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">18000 (total 18000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 39:  (at 0x8019ed74) <b>80's 851 v 888</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">851 or 888 or 888E.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Neon City II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">851 Strada, 888, 888E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">15000 (total 23000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 40:  (at 0x8019eddc) <b>80's SUPERMONO</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Supermono.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">20 laps of North Star II, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Supermono</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">20000 (total 20000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 41:  (at 0x8019ee44) <b>THE 750's BATTLE</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Vintage 750.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Greenrock TT I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 750 Paso</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 42:  (at 0x8019eeac) <b>THE 900's BATTLE</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Vintage 900.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of North Star II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Red Valley I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">900 SS'70, 900 SS GP, Mille S2 900, NCR900, NCR900 GP, 900 Paso</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 43:  (at 0x8019ef14) <b>TT1 vs TT2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">TT1 F1 or TT2 F1.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">20 laps of Greenrock TT II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">20 laps of Borealis I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">20 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">20 laps of North Star I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">TT1 F1, TT2 F1</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 13000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 44:  (at 0x8019ef7c) <b>MNSTR TAMED</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">None</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark, M750, M750 City, M750 Dark, M750 City Dark, M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 5000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 45:  (at 0x8019efe4) <b>MNSTR LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Arizona Bay II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark, M750, M750 City, M750 Dark, M750 City Dark, M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 7000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 46:  (at 0x8019f04c) <b>MNSTR LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Greenrock TT II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark, M750, M750 City, M750 Dark, M750 City Dark, M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 47:  (at 0x8019f0b4) <b>MNSTR LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Red Valley I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of North Star II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark, M750, M750 City, M750 Dark, M750 City Dark, M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 10000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 48:  (at 0x8019f11c) <b>MNSTR LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Arizona Bay II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark, M750, M750 City, M750 Dark, M750 City Dark, M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 49:  (at 0x8019f184) <b>MNSTR LEAGUE6</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">10 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">10 laps of North Star I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">10 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark, M750, M750 City, M750 Dark, M750 City Dark, M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">8000 (total 14000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 50:  (at 0x8019f1ec) <b>MNSTR CITYFUN</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster City.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">15 laps of Arizona Bay II, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600 City, M750 City, M900 City, M600 City Dark, M750 City Dark, M900 City Dark</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">10000 (total 10000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 51:  (at 0x8019f254) <b>MNSTR STOCK600</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 600. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive II, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Arizona Bay II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 52:  (at 0x8019f2bc) <b>MNSTR STOCK750</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 750. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M750, M750 City, M750 Dark, M750 City Dark</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 53:  (at 0x8019f324) <b>MNSTR STOCK900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 900. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Borealis I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 54:  (at 0x8019f38c) <b>MNSTR CLUB600</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 600.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Highland Drive I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Arizona Bay II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">4 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 55:  (at 0x8019f3f4) <b>MNSTR CLUB750</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 750.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of North Star II, prize 2500</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Greenrock TT I, prize 2500</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Highland Drive II, prize 2500</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">4 laps of Arizona Bay I, prize 2500</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M750, M750 City, M750 Dark, M750 City Dark</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 14000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 56:  (at 0x8019f45c) <b>MNSTR CLUB900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 900.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Red Valley I, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis II, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Thunderpass II, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Neon City I, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M900, M900 City, M900 Dark, M900 City Dark, M900S</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 16000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 57:  (at 0x8019f4c4) <b>MNSTR PRO TOUR</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Monster 600.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">20 laps of Thunderpass I, prize 5000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">20 laps of Greenrock TT II, prize 5000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">20 laps of Borealis I, prize 5000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">20 laps of Neon City II, prize 5000</td></tr>
+<tr><td align="right">Race 5:</td><td align="left">20 laps of North Star I, prize 5000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">M600, M600 City, M600 Dark, M600 City Dark</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 30000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 58:  (at 0x8019f52c) <b>ST LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Greenrock TT II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 5000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 59:  (at 0x8019f594) <b>ST LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 7000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 60:  (at 0x8019f5fc) <b>ST LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Arizona Bay II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">6000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 61:  (at 0x8019f664) <b>ST LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Red Valley I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of North Star II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">7000 (total 11000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 62:  (at 0x8019f6cc) <b>ST LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of North Star I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">7000 (total 15000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 63:  (at 0x8019f734) <b>ST STOCKST</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Greenrock TT I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 64:  (at 0x8019f79c) <b>ST CLUBST</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of Greenrock TT II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Highland Drive I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of North Star II, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">8000 (total 20000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 65:  (at 0x8019f804) <b>ST GRANDTOUR</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Sports Tourer.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">20 laps of North Star I, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">ST2, ST2 WP, ST4, ST4 WP</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">20000 (total 20000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 66:  (at 0x8019f86c) <b>SS LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Supersport.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF, 900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 67:  (at 0x8019f8d4) <b>SS LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Supersport.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF, 900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 68:  (at 0x8019f93c) <b>SS LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Supersport.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Red Valley I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF, 900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 69:  (at 0x8019f9a4) <b>SS LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Supersport.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of North Star II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF, 900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 70:  (at 0x8019fa0c) <b>SS LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Supersport.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF, 900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 71:  (at 0x8019fa74) <b>SS STOCK750</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any modern Supersport 750. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 10000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 72:  (at 0x8019fadc) <b>SS STOCK900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any modern Supersport 900. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">3 laps of Greenrock TT I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 73:  (at 0x8019fb44) <b>SS CLUB750</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any modern Supersport 750.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of North Star II, prize 2500</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Borealis I, prize 2500</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Greenrock TT II, prize 2500</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">4 laps of Thunderpass II, prize 2500</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 15000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 74:  (at 0x8019fbac) <b>SS CLUB900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any modern Supersport 900.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Neon City II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Highland Drive I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">4 laps of Thunderpass I, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">8000 (total 20000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 75:  (at 0x8019fc14) <b>SS 750V900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Supersport.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Red Valley I, prize 4000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Arizona Bay I, prize 4000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Borealis I, prize 4000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Neon City II, prize 4000</td></tr>
+<tr><td align="right">Race 5:</td><td align="left">5 laps of Arizona Bay II, prize 4000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS HF, 750 SS FF, 900 SS HF, 900 SS FF, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">9000 (total 29000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 76:  (at 0x8019fc7c) <b>SBK 748 LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 77:  (at 0x8019fce4) <b>SBK 748 LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 78:  (at 0x8019fd4c) <b>SBK 748 LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Greenrock TT II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 79:  (at 0x8019fdb4) <b>SBK 748 LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of Neon City II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 80:  (at 0x8019fe1c) <b>SBK 748 LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Borealis II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of North Star II, prize 1000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 81:  (at 0x8019fe84) <b>SBK 996 LEAGUE1</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Highland Drive I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 6000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 82:  (at 0x8019feec) <b>SBK 996 LEAGUE2</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">5000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 83:  (at 0x8019ff54) <b>SBK 996 LEAGUE3</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Borealis II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Greenrock TT II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 84:  (at 0x8019ffbc) <b>SBK 996 LEAGUE4</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of North Star II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">3000 (total 9000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 85:  (at 0x801a0024) <b>SBK 996 LEAGUE5</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of North Star I, prize 1000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Greenrock TT I, prize 1000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Borealis I, prize 1000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Red Valley II, prize 1000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 8000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 86:  (at 0x801a008c) <b>SBK STOCK748</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Greenrock TT I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Thunderpass I, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Highland Drive II, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">4 laps of Neon City II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 87:  (at 0x801a00f4) <b>SBK STOCK996</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996. (no modifications)</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Basic II</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">4 laps of Highland Drive I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">4 laps of Arizona Bay II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">4 laps of Borealis I, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">4 laps of Red Valley II, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">4000 (total 12000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 88:  (at 0x801a015c) <b>SBK CLUB748</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 748.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Arizona Bay I, prize 2000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Thunderpass II, prize 2000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Greenrock TT II, prize 2000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Neon City I, prize 2000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">7000 (total 15000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 89:  (at 0x801a01c4) <b>SBK CLUB900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 996.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of Borealis II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Red Valley I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Highland Drive II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">996, 996R, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">8000 (total 20000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 90:  (at 0x801a022c) <b>SBK RCLASS</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">996R or 748R.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Full</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">5 laps of North Star II, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">5 laps of Arizona Bay I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">5 laps of Borealis I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">5 laps of Red Valley II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748R, 996R</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">7000 (total 19000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 91:  (at 0x801a0294) <b>SBK SPSBATTLE</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">996SPS or 748SPS.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of North Star I, prize 5000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Neon City II, prize 5000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748SPS, 996SPS, Fogarty 996</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">9000 (total 19000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 92:  (at 0x801a02fc) <b>SBK PROTOUR</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Superbike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">8 laps of Borealis I, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">8 laps of Greenrock TT I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">8 laps of Red Valley II, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">8 laps of Arizona Bay II, prize 3000</td></tr>
+<tr><td align="right">Race 5:</td><td align="left">8 laps of Thunderpass II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS, 996, 996R, 996SPS, Fogarty 996, MH900E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">25000 (total 40000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 93:  (at 0x801a0364) <b>ENDURO</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any bike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">50 laps of Neon City I, prize 10000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">50 laps of Red Valley II, prize 10000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">50 laps of North Star I, prize 10000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Any bike</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">20000 (total 50000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 94:  (at 0x801a03cc) <b>SBK CHALLENGE</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Superbike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">6 laps of Thunderpass I, prize 3000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">6 laps of Greenrock TT I, prize 3000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">6 laps of Arizona Bay I, prize 3000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">6 laps of Red Valley I, prize 3000</td></tr>
+<tr><td align="right">Race 5:</td><td align="left">6 laps of North Star I, prize 3000</td></tr>
+<tr><td align="right">Race 6:</td><td align="left">6 laps of Neon City II, prize 3000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">851 Strada, 888, 888E, 748, 748R, 748SPS, 996, 996R, 996SPS, Fogarty 996, MH900E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">22000 (total 40000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 95:  (at 0x801a0434) <b>FORMULA 900</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 900.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Arizona Bay II, prize 5000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of North Star I, prize 5000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Thunderpass II, prize 5000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">3 laps of Borealis I, prize 5000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">900 SS'70, 900 SS GP, NCR900, NCR900 GP, 900 Paso, M900, M900 City, M900 Dark, M900 City Dark, M900S, 900 SS HF, 900 SS FF, MH900E, 900 SS S FE</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">10000 (total 30000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 96:  (at 0x801a049c) <b>750 TROPHY</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any 750.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">3 laps of Greenrock TT I, prize 5000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">3 laps of Red Valley I, prize 5000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">3 laps of Borealis II, prize 5000</td></tr>
+<tr><td align="right">Race 4:</td><td align="left">3 laps of Neon City I, prize 5000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">750 SS'70, 750 Paso, M750, M750 City, M750 Dark, M750 City Dark, 750 SS HF, 750 SS FF</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">10000 (total 30000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 97:  (at 0x801a0504) <b>MH900E</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">MH900E.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">10 laps of Highland Drive II, prize 10000</td></tr>
+<tr><td align="right">Race 2:</td><td align="left">10 laps of Thunderpass I, prize 10000</td></tr>
+<tr><td align="right">Race 3:</td><td align="left">10 laps of Borealis I, prize 10000</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">MH900E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">10000 (total 40000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 98:  (at 0x801a056c) <b>250K MOUNTAIN</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Any Superbike.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">95 laps of North Star I, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">748, 748R, 748SPS, 996, 996R, 996SPS, Fogarty 996, MH900E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">50000 (total 50000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 99:  (at 0x801a05d4) <b>THEN AND NOW</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">Cucciolo or MH900E.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">1 laps of Greenrock TT I, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">Cucciolo, MH900E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">15000 (total 15000)</td></tr>
+</table>
+<br>
+
+<table>
+<tr><td colspan="2" align="left">Event 100:  (at 0x801a063c) <b>MH SPECIAL CUP</b></td></tr>
+<tr><td align="right" valign="top">Requires:</td><td align="left">MH900E or NCR 900 SS.</td></tr>
+<tr><td align="right" valign="top">License:</td><td align="left">Advanced</td></tr>
+<tr><td align="right">Race 1:</td><td align="left">12 laps of Neon City II, prize 0</td></tr>
+<tr><td align="right" valign="top">Eligible Bikes:</td><td align="left">NCR900, NCR900 GP, MH900E</td></tr>
+<tr><td align="right" valign="top">League Prize:</td><td align="left">15000 (total 15000)</td></tr>
+</table>
+<br>
+
+
+</HTML>
+
+
+===============================================================================
+Copyright (C) 2002, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+

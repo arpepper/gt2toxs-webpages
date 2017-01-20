@@ -1,0 +1,148 @@
+Wednesday February 12, 2003
+
+[R]FDRX7'91 Wins SSR11 All-Night I in mazda game
+
+Threads:
+  All-Night I Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/mazda">mazda</a> game
+(Maybe <a href="../logs/mazda.txt">here</a>),
+I used the 1991 FD RX-7 efini Type R for many races.
+So I decided to enter the race-modified version in
+the All-Night I.
+
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: mazda
+   Day: 90
+   Date: Feb 12, 2003
+   Car: orange/green Mazda [R]FD efini RX-7 '91 Type R
+   Race: SSR11 All-Night I  Endurance Race
+   Qualified: 1st 1:47,967new  (-8.539) Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: green [R]Silvia LM
+
+   Results:
+
+   1st:* [R]FDRX7'91 TypeR      51:51.846<--new mazda time
+   2nd:  [R]Castrol Supra GT     +324.626  (57:16.472) 2 or 3 laps
+   3rd:  [R]NSX-R LM GT2         +334.979  (57:26.825) 2 or 3 laps
+   4th:  [R]GT-R LM              +341.169  (57:33.015) 2 or 3 laps
+   5th:  [R]Lancer EvoIV GSR     +468.609  (59:40.455) 3 or 4 laps
+   6th:  [R]Lantis TypeR         +496.554  (60:08.400) 3 or 4 laps
+
+   Pits:  10,20
+   fl(22): 1:39.006new
+
+   lap 1   1:51.559
+   slowest  non-pit   (19) 1:45.789
+             next     (26) 1:44.668
+   fastest pit laps   (20in)  2:02.150
+                      (11out) 1:43.286
+   slowest pit laps   (10in)  2:04.264
+                      (21out) 1:43.722
+
+</pre></font></tt>
+</HTML>
+
+
+I went straight into the lead, and never lost it, winning a rather
+dull, uninteresting race.
+
+I did spin a complete loop in the lighted tunnel on lap 26.
+
+On my final lap I was coming up to lap the the GT-R LM one last time,
+but didn't quite manage to pass it.
+
+I won Cr150,000, and a green Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:51.559      1:51.559
+ 2   1:41.705      3:33.264
+ 3   1:41.921      5:15.185
+ 4   1:40.513      6:55.698
+ 5   1:42.708      8:38.406
+ 6   1:42.669     10:21.075
+ 7   1:41.516     12:02.591
+ 8   1:43.789     13:46.380
+ 9   1:42.257     15:28.637
+10   2:04.264     17:32.901
+11   1:43.286     19:16.187
+12   1:40.319     20:56.506
+13   1:40.129     22:36.635
+14   1:41.443     24:18.078
+15   1:40.979     25:59.057
+16   1:40.918     27:39.975
+17   1:41.088     29:21.063
+18   1:42.564     31:03.627
+19   1:45.789     32:49.416
+20   2:02.150     34:51.566
+21   1:43.722     36:35.288
+22   1:39.006     38:14.294
+23   1:41.695     39:55.989
+24   1:39.767     41:35.756
+25   1:39.998     43:15.754
+26   1:44.668     45:00.422
+27   1:41.890     46:42.312
+28   1:42.629     48:24.941
+29   1:43.114     50:08.055
+30   1:43.791     51:51.846
+
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS3)
+
+Spring Rate     7.9   5.6  (not max)
+Ride Height     109   109  (not min)
+Dampers          4     4
+Camber          1.8   1.0
+Stabilizers      3     2
+Brake Balance   12    12
+Turbo               6
+        1st       3.550
+        2nd       2.027
+        3rd       1.360
+        4th       1.032
+        5th       0.830
+                  -----
+        FD        3.650
+
+Aero           0.70  0.96  (max,max)
+
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

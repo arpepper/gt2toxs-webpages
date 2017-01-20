@@ -1,0 +1,53 @@
+Fri Feb 19, 1999
+
+Used car cycles
+
+Thread: Used Car Patterns
+
+It seems that used car stock does only change every 10 days, on the even
+10th day, at least judging from a couple of different games I played
+last night, and it has nothing to do with whether you have bought any
+cars.
+
+Well, actually the first time it changes after only nine days, since
+you start at day 1.
+
+Thread: License Test Progress
+
+I finished up an A license at 78 days, which I will keep on another
+reference card.  That was a reasonably honest 78 days.  I had trouble
+with A-4 (Trial Mountain segment) this time and at about 45 days I was
+getting tempted to reset the attempt, but got it a couple of days
+later.  I might have practiced it a couple of times last night after
+saving the A-3 at 25 days, but I don't think so.
+
+Anyway, wrt used car stock, I compared the stock of my 17 day B license
+reference card with the result of 11 days (er, 10 days, actually,
+leaving me at day 11) of spot racing a Prelude VTEC (with no real
+success; for a FWD car, it sure tends to spin, sort of like my Toyota
+Tercel Station Wagon does), and the stock I looked at seemed
+identical.  And the stock did not seem to have changed at all prior to
+that.  When I imagined it changed after five days, perhaps it was 10
+or 11.  And I'm also reasonably sure there never is a Supra MA70 for
+< Cr6000.
+
+Total time to get an A license for me seems now to be about 4 hours.
+A marked contrast to the first time I got it.
+
+But I sure am sensitive to controller configuration.  When I try a
+game from day 1, I usually forget to configure the controls before
+starting a license test or spot race.  Wow, major mental confusion.
+I have built neural networks directly from the screen image to
+certain finger movements, or something.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

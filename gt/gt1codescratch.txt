@@ -1,0 +1,166 @@
+Running Enduros <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> on different tracks (for <b>North American Version 1,1</b> only)
+
+So at <a href="http://www.cmgsccc.com/">www.cmgsccc.com</a> I learned how you can change the tracks at which <b>Gran Turismo 1</b> Simulation Mode Events take place.  I worked out by myself how you can use tracks other than the Simulation Mode tracks.  This means you can run the Enduro on the two-player tracks which have the pits open.  (I've tested this, and it works for both your car and the AI cars).
+
+See <a href="http://www.cmgsccc.com/psx/grant11.shtml">www.cmgsccc.com/psx/grant11.shtml</a> for their versions of these codes.  I use the <b>GameShark Pro</b> to do equivalent patches at the first pre-race screen.  (Unfortunately this does not change your first test run course, but I find that tolerable, and it can be got around by using the other set of track modifier codes if you really want, or use an actual boot code, such as I give now).
+
+The following code can be used to run the <b>Grand Valley 300</b> field for a sixty lap Enduro on one of the three tracks which follow.
+
+<tt><font face="Courier"><pre>
+ D0090E64 C6A8
+ 80090E5C XXXX
+</pre></font></tt>
+
+where XXXX is one of:
+
+<tt><font face="Courier"><pre>
+
+ C6A8 -- Special Stage R11 (outbahn)
+ C710 -- Special Stage R11 II (rev_outbahn)
+ C76C -- Special Stage R5 (highway)
+
+</pre></font></tt>
+
+The track values are actually (the lower 16 bits) of pointers to other names, which are shown in parentheses in the above list.  These names look like they might be internal file names of some sort.  So, I looked for other lists of names, and finally did discover that, amongst others, the following 2 player tracks can be used as tracks at simulation mode events.  This allows you to do the enduros on these tracks, and have pits which actually work.
+
+So, use the following code to run the <b>Grand Valley 300</b> field for a sixty lap Enduro on each of the 2 player tracks which follow.
+
+<tt><font face="Courier"><pre>
+ D0090E64 C6A8
+ 80090E5C XXXX
+ D0090E64 C6A8
+ 80090E5E 800C
+</pre></font></tt>
+
+where XXXX is one of:
+
+<tt><font face="Courier"><pre>
+ 0CBB -- Grand Valley East (2p_short)
+ 0CE8 -- Autumn Ring (2p_autumn)
+ 0D10 -- Autumn Mini (2p_mini)
+ 0D82 -- Clubman Stage R5 (2p_shortway)
+ 0E4B -- High Speed Ring (2p_testline)
+ 0E58 -- Deep Forest (2p_test_in2)
+ 0E65 -- Trial Mountain (2p_mountain)
+
+ 0F68 -- rogo-test (rogotest)
+</pre></font></tt>
+
+The last track. although not a 2-player track, is a hidden track with the pits open.  It is basically the Autumn Ring Mini, but with peculiar lighting effects on the cars.  I have omitted the codes for 2-player <b>Grand Valley</b>, <b>Special Stage R11</b>, and <b>Special Stage R5</b>, since each of those regular Simulation Mode tracks is superior.  (Once again, for some strange reason the <b>Special Stage R5</b> track does have the pits open, even though no Enduro is run there in the game).
+
+You can use these codes with a <b>GameShark Pro</b> by changing the appropriate location at the first pre-race screen, with the caveat previously noted.
+
+It's advisable to guard this code with something.  When you have two values to patch, it's tricky--the value in the top two bytes is $8008, and that looks too general to test for, to me.  So my version of the code will do the patches only when the memory pointer for the <b>All-night I</b> endurance race is set to its normal value.  That is, when the general area of memory appears to be being used for the list of tracks for each event.
+
+I tested this exact code with the 2 player High Speed Ring, and it worked very well.  You probably don't want to save any replays or records (i.e. the game in general), though...
+
+===============================================================================
+CMGSCCC
+
+Run the <b>Grand Valley 300</b> field for a sixty lap Enduro on any of the 2 player tracks which follow.
+
+<tt><font face="Courier"><pre>
+ D0090E64 C6A8
+ 80090E5C XXXX
+ D0090E64 C6A8
+ 80090E5E 800C
+</pre></font></tt>
+
+where XXXX is one of:
+
+<tt><font face="Courier"><pre>
+ 0CBB -- Grand Valley East (2p_short)
+ 0CE8 -- Autumn Ring (2p_autumn)
+ 0D10 -- Autumn Mini (2p_mini)
+ 0D82 -- Clubman Stage R5 (2p_shortway)
+ 0E4B -- High Speed Ring (2p_testline)
+ 0E58 -- Deep Forest (2p_test_in2)
+ 0E65 -- Trial Mountain (2p_mountain)
+
+ 0F68 -- rogo-test (rogotest)
+</pre></font></tt>
+
+The last track. although not a 2-player track, is a hidden track with the pits open.  It is basically the Autumn Ring Mini, but with peculiar lighting effects on the cars.  I have omitted the codes for 2-player <b>Grand Valley</b>, <b>Special Stage R11</b>, and <b>Special Stage R5</b>, since each of those regular Simulation Mode tracks is superior.  (For some strange reason the <b>Special Stage R5</b> track does have the pits open, even though no Enduro is run there in the game).
+
+You can use these codes with a <b>GameShark Pro</b> by changing the appropriate location at the first pre-race screen, with the caveat that the first test run will be at the regular track, although you can use another code to change it.
+
+It's advisable to guard this code with something.  When you have two values to patch, it's tricky--the value in the top two bytes is $8008, and that looks too general to test for, to me.  So my version of the code will do the patches only when the memory pointer for the <b>All-night I</b> endurance race is set to its normal value.  That is, when the general area of memory appears to be being used for the list of tracks for each event.
+
+I tested this exact code with the 2 player High Speed Ring, and it worked very well.  You probably don't want to save any replays or records (i.e. the game in general), after using this code, though...
+
+===============================================================================
+
+http://www.velocity.net/~pinewood/ubb/Forum6/HTML/000012.html
+lynx -source http://www.velocity.net/~pinewood/ubb/Forum6/HTML/000012.html | chophtml
+
+There once was this guy.  You musta hearda [B]Gabe[/B].
+
+And he sold this memory card.
+
+On it was one car which was cheap to buy but sold for lots and lots.  I'da bought the card  if I lived in the US, but living in Canada can present shipping problems.
+
+I found the car price addresses, but never could duplicate that trick of his.  Recently I've thought of two possibilities, but I think they must've been what I tried already.   [IMG]http://www.velocity.net/~pinewood/ubb/smilies/cwm14.gif[/IMG]
+
+If car is super expensive, then adding a little for its parts will roll its price over  to a small number.  Or perhaps it can be done with that Cr15,000 license fee.   [IMG]http://www.velocity.net/~pinewood/ubb/smilies/cwm35.gif[/IMG]
+
+Problems are: ending up with negative numbers, and car prices are stored in Yen (or pennies) but mostly manipulated by the game in dollars.  So I seem to remember that the price of my expensive car would start as 2^32-1 divided by 100, and the overflow would never happen.  Which suggests maybe fake parts were installed which would give them really huge values, so that the overflow could occur.  (Hmm.  Fake parts with negative largish negative values might work too...)
+
+Neat thing about this method was that after the garage was made, the money-making would work without a [B]GameShark[/B]
+.
+
+[This message has been edited by GT2toXS (edited 10-30-2000).]
+No [B]HMTL[/B] ...  [IMG]http://www.velocity.net/~pinewood/ubb/smilies/cwm31.gif[/IMG]
+
+===============================================================================
+
+Nobody here, is there?  [IMG]http://www.velocity.net/~pinewood/ubb/smile.gif[/URL]
+
+Well, last night I verified that if you create a car with a very large base price  (base  prices are stored, in "Yen"--ie. credits * 100, as the 100 4-byte quantities immediately before the garage), with parts or license fee to overflow 32 bits, it does not really work.
+
+You go to trade car, and you think it's worked because you get the nice low prices you expect, but when you select it to buy the  price is now about 42 million credits (i.e. something a little more than 4,294,967,296 / 100).
+
+However, I did a code generator search for 1,500,000 (i.e. 15,000 * 100) and got about 200 hits, with lots of them starting in highish memory with an observable granularity  between them of hex 48.  I went and patched some of those to other prices, (FF in the top  of the four bytes).  I didn't manage to get the Starlet Glanza tires I wanted to, but I patched several of these, and then went looking around for a price which might have fewer occurrences, and bingo! I noticed that the Glanza racing suspension now cost something astronomical.
+
+So I patched myself more credits and bought one, then saved the Glanza.  Well now it's memory trade price was negative!  Indeed!  I could buy the car and get more money that way, and afterwards sell it for a paltry Cr8,450 or whatever to empty the garage slot.
+
+So, after resetting the parts values by exiting and re-entering Sim mode, I experimented with patching another part  position in the Glanza garage slot to non-legal values, and, saving each time, was able to get the Glanza to be worth varying middling amounts of money (usually around Cr200,000--correct value was about Cr50,000 for this Glanza), so yes, if I find a part code which reliably pointed to an apparent "part structure" with a negative price, I should be able to duplicate the magic money-making car.  But, especially with Hallowe'en being tonight, it was too late last night to spend the time to think of a way to work out how to do that.
+
+
+===============================================================================
+
+Garage Entry for a Magic Starlet Glanza, Gran Turismo NTSC v1.1
+
+I did it!
+
+[CODE]
+9BA98  XX XX XX XX  00 30 00 00
+9BAA0  00 00 00 00  00 00 00 00
+9BAA8  00 00 00 00  00 00 00 00
+9BAB0  00 00 00 00  00 00 78 0A
+9BAB8  78 0A 00 00  00 00 00 00
+9BAC0  00 00 00 00  00 00 00 00
+9BAC8  00 00 00 00  00 00 00 00
+9BAD0  00 00 00 00  00 00 00 00
+9BAD8  00 00 00 00  00 00 00 00
+9BAE0  00 00 00 00  00 00 00 00
+9BAE8  00 00 00 00  00 00 00 00
+9BAF0  00 00 00 00  00 00 00 00
+9BAF8  00 00 00 00  XX XX XX XX
+[/CODE]
+
+When you save this garage to a card, and then use it for "trade", the price for this car will be about Cr-14,000,000.  Indeed, when you buy the car, you get Cr14,000,000 more, as well as the car.  (You can then sell the car for a paltry Cr8580 more, to free up the garage entry; do not try to drive this car).
+
+The "30" is just because I bought a red one so the start of the garage entry was easier to see (since the Glanza is car code "00", it cannot be differentiated from the other zeroes).  To create the above, I took a fresh game, patched in Cr5,000 extra, bought a red Glanza, and then patched the two "0A78" values into the garage entry with the [b]GameShark Pro[/b] memory editor.
+
+The "78 0A" are illegal part numbers for the exhaust and some other part.  They end up referencing fake "part" structures whose prices add up to such huge amounts that they overflow and become a negative number.
+
+I tried buying the above car as the first action I did after resetting the PlayStation and loading several different game saves, (including loading no game save, ie. a fresh game) and it seemed to work the same way in each case.  Because there is some possibility that when the game updates other information about the fictitious 0A78 parts it stomps on other memory, I would recommend saving the game soon after buying and selling this car, resetting the PlayStation and reloading the game.
+
+As always when experimenting with the [b]GameShark[/b], you should keep as many safety copies of your game as your collection of memory cards allows.
+
+This is really mostly a novelty, but it might be worth keeping around in case in future you want an easy supply of Cr for [b]Gran Turismo[/b], but your [b}GameShark[/b] is lost or broken.
+
+Many thanks to [b]Gabe[/b] whose idea this was.  Since he had done it, I knew it could be done, whereas when he did it, he had to create it without knowing it could be done.
+
+
+

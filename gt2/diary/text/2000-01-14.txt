@@ -1,0 +1,120 @@
+Friday January 14, 2000
+
+I Use LSD in Gran Turismo 2, and Maybe I am a Dope!
+
+Threads:
+  Gran Turismo 2
+  Tuning Advice
+  Gameplay Hints
+  Game Evaluation
+  Race Results
+  Prize Car Information
+  Prize Car Patterns
+
+Well, last night I tried the Gran Turismo World Series with the Arta
+Zexel Skyline, a prize from the GT500 Series.  If you want to see
+how my garage progresses, you can look <html><a href="logs">here</a></html>.
+
+For instance,
+<html><a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-game1&simday=jan+14">here</a></html>
+is my main <html><a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-game1&simday=jan+14">garage</a></html>
+up to but not including January 14th, 2000. And
+<html><a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-game1&simday=">here</a></html>
+it is, as up-to-date as it gets.
+
+The first race was Trial Mountain.  The best AI car seemed to be the
+dreaded Oreca Viper.  I didn't seem to be able to go as fast as I
+expected with the Skyline--I just couldn't get traction, e.g. during
+the initial esses, nor throughout the GT1 "A-4" section.  But I worked
+my way up to second, and, as often happens, the Viper slowed down for
+the very last corner.  I slipped by its side, but then lost control and
+hit the wall.  I was lucky to finish third, but so frustrated, and
+afraid the Oreca Viper would dominate the series, that I reset the game
+and started the series over again without saving the loss.
+
+The second time through, the best AI car was (generally) a GT40.  I
+spent some time tuning my car, reducing the spring rate, and tweaking
+the front and rear LSD (limited-slip differentials), and did seem to
+make it go a bit faster.  In general, I find you want the limited
+slip "initial" setting higher than the default.  But still I did not
+seem to go as fast as I thought I should, and it was a bit of a
+struggle to win the race.
+
+Laguna Seca was a washout.  I never really could catch the first three
+cars, and the Lotus Elise squeaked by me on the last corner.
+
+Apricot Hill was a walkover for me, of course.  As a human you can
+take a short-cut through the esses near the end that saves you about
+two seconds a lap.  The AI cars cut it fairly aggressively, but not
+as aggressively as you can, and seem to slow down more than they ought
+to even for the line they do take.
+
+Then came the dreaded Long Course at Rome.  I tested and tested, but
+could not quite reliably break 1:20.  Then I realized something.  Yes,
+indeed I had been running on "normal" tires.  I switched to super-soft
+and went somewhat faster.  (Though not startling so).  It was enough
+to lead the race from start-to-finish, though.  I even relaxed at the
+end, my lap time going up by 2 seconds, and still won by 2.890 seconds.
+
+When I started the series the second time, I had noticed that I was
+not using maximum aero at Trial Mountain.  That should have clued
+me in.  I now realize I mistakenly thought I had raced this car before
+because I had raced the white "Zexel" Skyline, but not this mostly red
+"Arta Zexel" Skyline.
+
+Anyway, on with the report.
+
+Midfield is a funny track.  Basically easy to beat the AI cars at, but
+with two tricky spots where you can blow it.  The first bad spot is the
+180 after the first tunnel.  It's very bumpy and can exacerbate any
+understeering or oversteering tendencies a car may have.  It's a lot
+easier in a four-wheel-drive car, however.  The second tricky spot
+is the sharp left-hander going into the second tunnel, together with
+the eeses preceding it.  Oh well, the race seemed easy and I must have
+won by a good few seconds.
+
+Once again I was ceremoniously presented with that gold trophy!  And
+then, when I went to check my garage, there, finally, after my sixth
+win in the series, was the funny-looking, yet powerful, and
+powerful-looking 1998 Toyota GT-ONE.  With the red and white (or
+is it white and red?) colour scheme it looks to me like a squished
+eyeball.  It also looks somewhat like a cockroach, somehow.
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td>
+<pre>
++================================================+
+|                  |pos|   time     |fastest lap |
+|================================================|
+|Trial Mountain    | 1 |  6:54.286  |  1:21.174  |
+|------------------+---+------------+------------|
+|Laguna Seca       | 5 |  6:46.892  |  1:18.970  |
+|------------------+---+------------+------------|
+|Apricot Hill      | 1 |  6:21.292  |  1:14.790  |
+|------------------+---+------------+------------|
+|Rome Long Course  | 1 |  6:36.456  |  1:17.334  |
+|------------------+---+------------+------------|
+|Midfield Raceway  | 1 |  5:33.467  |  1:05.012  |
++================================================+
+</pre>
+</td>
+</tr>
+</table>
+</font>
+</HTML>
+
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

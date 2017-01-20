@@ -1,0 +1,173 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.07.19.18.29.20;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.4
+log
+@changes.
+@
+text
+@Fri Apr 16, 1999
+
+I now have all my cups, even if two are not so shiny
+
+Threads:
+  All-Night II Results
+  Tuned Series Results
+  Race Results
+
+Last night I tried the "Hard-Tuned Car Speed Contest" again.  I used a
+GTO twin turbo again, but did better this time, coming third and
+thereby at least getting a trophy (bronze) on the race page.  I
+learned to discern the effects of tweaking camber; this almost
+seems like the non-racing equivalent of aero adjustments, but there
+is no clear maximum, you have to determine the "maximal" setting.
+
+HSRii                       1st 4:13.312rec  fl 0:49.382rec
+GVii    q3rd 1:46.005rec    4th 8:40.636rec  fl 1:39.345rec
+CR5ii   q1st 0:50.498rec    1st 3:46.335rec  fl 0:43.014rec
+ARii    q6th 1:16.263rec    5th 6:21.360rec  fl 1:13.778rec(+27)
+SSR11ii q6th 2:02.184not    4th 9:51.753rec  fl 1:52.163rec(+27)
+
+The other cars shuffled their points around a bit, but, in spite
+of that, I managed to get bronze (third place).
+
+
+The Clubman R5 win was especially encouraging, even though it depended
+heavily upon wall-grazing.  The series was a bit strange in that a
+Civic was entered; I don't remember a car quite that lightweight
+entering before.
+
+Thread: All-Night II Results
+
+Encouraged by this, I went on to try the SSR11 All-Night ii again.
+
+q4th 2:01.165rec
+
+1. FDRX7 type RZ          59:01.377
+2. NSX'93                   +11.010
+3. GTO twinturbo            +12.254<<==
+4. LANCER EvolIII GSR       +34.085
+5. R32GT-R NISMO            +74.178
+6. CHASER V                +106.142
+
+My time was 59:12.631rec, with fl lap 21 1:51.617rec
+
+Pit Stops were 8,16,23; the AI pit strategy was weird.  I did take an
+initial lead, but had to pit when I did and dropped back because of
+it.  The car could do with four pitstops, but then there won't be
+enough laps to make up the time lost.  Eventually the other cars
+pitted, and I did lead again, but my third pitstop dropped me
+back too far.  As you can tell, I "could've" come second--I did
+hold second place occasionally on the last lap--but I didn't manage
+to keep my concentration well enough.  Oh well, it's encouraging,
+because I was not way out of it.  Less than half-a-second a lap,
+as you can see.
+
+Nonetheless, I think I'll try tuning up a Mitsubishi Galant, since
+it is lighter.  This might make it more maneuverable, and should
+be easier on tires.  It won't avoid a pit stop, but might mean
+I the three pit stops will happen when the tires are still in
+good shape, so I'll lose less time to driving on worn tires.
+
+I really should keep more details notes of tuning settings I use.
+It seems you're always better to use turbine Spec 4 without an
+intercooler, rather than going with a reduced turbine Spec.
+I use racing flywheel except at the Autumn Ring.  Stabilizers
+4/4 except 5/5 at High Speed Ring, if I remember.  I settled on
+camber of 0.8/0.8 after testing.
+
+After this, I hoped I could go to the MegaSpeed Cup, and win some
+quick cash and a car (hopefully the last remaining "normal" prize
+car, a red-orange Soarer VVT-i).  Oh well.  It took me three tries
+to win.  And even the win was not decisive.  I kept coming second
+in the first race, putting me at a disadvantage, and I had trouble
+at the Test Track, also coming second.  Eventually I remembered to
+tweak my ratio at the test track, and use stabilizers set at 5.
+And I won the series, but not decisively.  I had a spectacular
+crash at the Test Track, and had to come back to third; a
+disappointment after qualifying fourth.  I had also, because of
+practice, qualified well at the High Speed Ring, winning that.
+A win at High Speed Ring ii gave me 24 points, but, (I think) because I
+had lost the series twice previously I only won an Aston Martin.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.3
+log
+@first pass at threading
+@
+text
+@d32 2
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d3 2
+a8 2
+
+I now have all my cups, even if two are not so shiny
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 5
+d36 1
+a36 1
+1. FDRX& type RZ          59:01.377
+d38 1
+a38 1
+3. GTO twinturbo            +12.254
+d82 12
+a93 1
+
+@

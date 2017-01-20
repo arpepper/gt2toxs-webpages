@@ -1,0 +1,68 @@
+Tuesady March 07, 2000
+
+
+I took an old two-forty, and I played a little dirty,<br>And I beat the bloody Vector at the Tri-al Mountain Thirty!
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+ Race Results
+ Enduro Results
+
+Thanks for all and any websites of Game Shark help!
+
+I managed to hybrid a Diahatsu Midget weight and (more importantly)
+a Cerbera LM motor onto a race-mod 1971 Datsun 240Z, already fitted
+with NA3, displacement increase, balance and polishing (I think it
+was NA3; just squeaks in under 295bhp).  I discovered that if you
+do the engine patch, and then enter the Trial Mountain 30, the "race
+stewards" don't notice that you are over-power.  This is in version 1.0,
+but then that's the only one where the Vector shows up, I think...
+
+While you can certainly feel the power, it goes away if you do settings
+(but strangely comes back if you exit and re-enter another event or
+machine test).  Initially I thought maybe I could put a small motor on
+a Cerbera LM, and patch it back to normal once entered, but that does
+not seem to work.  Even though the garage says 22bhp, and the Cerbera
+has trouble going 60mph, it still is not allowed to enter the Trial
+Mountain 30.  That gave me the hint that doing the opposite sort of mod
+should work.
+
+The garage claimed 1119lb and 1119bhp for the hybrid 240Z.  It felt
+plausible.  I made reasonably heavy use of the LSD settings, but
+patched in no extra aero, and, all-in-all, this must be one very
+well-balanced car.  8-) Initially I tried weight-reduction only, but
+got inconclusive results.  (Perhaps partly because of going to the
+settings menu...)
+
+My time was not great, I was learning the car as I drove, and didn't
+tune it optimally--just verified it was going fast enough.  I did
+41:39.957, and the Vector did 42:37.782
+
+Strange thing is that previous Vector times I observed were 44:07.381
+and 44:09.006--it *does* go faster if you do.  (Not totally
+unrealistic, really, but different, I'm fairly sure, from GT1; it would
+be annoying if it turned out I could beat it with, say, a 43:00 minute
+time, though, and various things suggest to me that would be the case).
+
+I don't suppose I'll do a lot of hybridding, but I probably will try
+and create a 142bhp Impreza Wagon.   8-)  ('cos that's what I drive
+in real life   8-)  And in the back of my mind I'll be trying to
+find if there's another hp evaluation in the garage which could be
+patched on, say, the Cerbera LM to make the race stewards think it
+was below 295bhp, while still feeling like 624 to me.   8-)
+
+
+===============================================================================
+Copyright (C) 1999,2000 the author/owner of
+http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

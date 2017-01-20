@@ -1,0 +1,70 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@Thu Jul  1, 1999
+
+I've been on Holiday for a While
+
+Threads:
+  Prize Car Patterns
+
+I've been on holiday for a while, playing lots of Gran Turismo, but
+not finding a lot of opportunity to add new diary entries.
+
+I started a new game to try and get all prize cars, and it is
+now at about day 850 and I have one colour of all models of
+race prize cars, and have kept a fairly detailed log of the
+game progress, including series results and prize cars won.
+
+I have only Megaspeed, 4wd, Tuned and the two Enduros to finish
+up, but that could all take quite a while!
+
+I'll probably fill in entries for days between June 20th and July 1st
+later if I get a chance.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+@

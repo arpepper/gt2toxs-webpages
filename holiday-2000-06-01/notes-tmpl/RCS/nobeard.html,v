@@ -1,0 +1,229 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2011.11.14.21.09.06;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.10.02.16.19.04;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.10.02.15.49.23;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.09.29.18.48.17;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.09.29.18.42.02;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@need to change for Netscape 4.7
+@
+
+
+1.5
+log
+@Use psfull for image.
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<meta name="robots" content="noindex,nofollow">
+  <TITLE>My Richard Petty Driving Experience, Orlando, plus Daytona</TITLE>
+</HEAD>
+<BODY BGCOLOR="yellow">
+
+<table width="100%" bgcolor="#30b0ff" border="0">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr color="white">
+<td>
+<center>
+<font color="white">
+<h1>My <font color="red">Richard Petty</font> Driving Experience</h1>
+</font>
+</center>
+</td>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td align="left">
+<font size="-1">
+<a href="gt1.html">&lt;&lt;-- prev photo</a>
+</font>
+</td>
+<td align="center">
+<center>
+<font size="-1">
+<a href="../onepage.html">[main page]</a>
+</font>
+</center>
+</td>
+<td align="right">
+<font size="-1">
+<a href="moustache.html">next photo &gt;&gt;</a>
+</font>
+</td>
+</tr>
+</table></td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+<hr>
+
+<table>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%"><tr><td width="15%"></td>
+<img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br>
+</td></tr>
+<tr><td></td><td>
+<img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+<table bgcolor="white" align="right"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Race Prep, Step 1: No Beard!</font></caption>
+<tr><td>
+ <IMG SRC="../psfull/nobeard.jpg">
+</td></tr></table> </td></tr></table>
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+I did the Richard Petty Driving Experience in Florida.  Walt Disney World
+Raceway in Orlando, Florida, to be precise.  It was early June, and was
+rather hot in Florida.
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+So, I shaved my beard off, partly because of the heat, and also
+because the full beard, such as you saw in the previous
+picture can get tangled in a helmet chin strap, especially if someone
+else tightens it.
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+Besides, I eventually reasoned, to have a true
+Richard Petty Driving Experience, one really should have sideburns similar
+to the ones Richard Petty wore at the height of his racing career in the
+mid-1970's.
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+So, after we arrived in Florida, I began shaving my own beard off.
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+This was the first step.  Even though I first cut the beard hair short
+with scissors, I still wore out an amazing number of Trac II blades just
+getting to this stage.
+</font>
+</p>
+</td></tr></table>
+</td></tr></table>
+<br>
+
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td align="left">
+<font size="-1">
+<a href="gt1.html">&lt;&lt;-- prev photo</a>
+</font>
+</td>
+<td align="center">
+<center>
+<font size="-1">
+<a href="../onepage.html">[main page]</a>
+</font>
+</center>
+</td>
+<td align="right">
+<font size="-1">
+<a href="moustache.html">next photo &gt;&gt;</a>
+</font>
+</td>
+</tr>
+</table></td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+<hr>
+
+</BODY>
+</HTML>
+@
+
+
+1.4
+log
+@Make the navigation gadgets obey my minimum width.
+@
+text
+@d61 1
+a61 1
+ <IMG SRC="../xvthird/nobeard.jpg">
+@
+
+
+1.3
+log
+@Make the page header obey a minimum width.
+@
+text
+@d23 3
+a25 1
+<table width="85%"><tr><td width="15%"></td>
+d44 2
+d105 3
+a107 1
+<table width="85%"><tr><td width="15%"></td>
+d126 2
+@
+
+
+1.2
+log
+@Seems to work to get it to display nicely on a narrow Netscape 4.7
+display.
+@
+text
+@d9 2
+a10 1
+<table width="100%" bgcolor="#30b0ff">
+d19 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d43 6
+a48 2
+<table width="85%"><tr><td width="15%"></td>
+<td>
+d94 1
+@

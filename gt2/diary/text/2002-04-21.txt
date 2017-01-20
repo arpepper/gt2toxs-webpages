@@ -1,0 +1,30 @@
+Sunday April 21, 2002
+
+
+I Re-open albrnick's Pit Stop pages, which helped start all this
+
+Threads:
+ Car Information
+ Game Evaluation
+ Gameplay Hints
+ Prize Car Information
+ Prize Money
+ Real Life
+ Tuning Advice
+
+<CODES>
+So early in my pages I referred to <b>Nick</b> (or <b>albrnick</b>)
+and his web pages which helped me in my early days of
+<b><font color="blue">Gran</font> <font color="red">Turismo</font></b>.
+Well, eventually those pages disappeared, so I decided to rescue them
+from the
+<b><font color="blue">G</font><font color="red">o</font><font color="black">o</font><font color="blue">g</font><font color="green">l</font><font color="red">e</font></b> cache and tidy them up and present them <a href="../../albrnickgt/">here</a>.
+Using information from my pages, I filled in all the missing details, and
+even added complete lists of all AI competitors for each simulation event.
+
+I want to make it clear I did not create the <a href="../../albrnickgt/"><b>Gran
+Turismo Pit Stop</b></a> myself, but I hope that, by presenting a version
+of it <a href="../../albrnickgt/">here</a>, everyone can find it as useful as I did.
+</CODES>
+
+===============================================================================

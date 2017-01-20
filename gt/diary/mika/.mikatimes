@@ -1,0 +1,99 @@
+#!/xhbin/perl5 -w
+
+#
+# elapsed - convert total thousandsths to a readable string
+#
+#   bad name for routine
+#
+	sub
+elapsed {
+	local($thous) = @_;
+	local($ttt,$ss,$mm,$hh);
+
+	$ttt = $thous;
+
+	$hh = int($ttt / (60 * 60 * 1000) );
+	$ttt -= $hh * (60 * 60 * 1000);
+	$mm = int($ttt / (60 * 1000) );
+	$ttt -= $mm * (60 * 1000);
+	$ss = int($ttt / 1000 );
+	$ttt -= $ss * 1000;
+
+	if ($hh > 0) {
+		sprintf("%d-%2.2d:%2.2d.%3.3d",$hh,$mm,$ss,$ttt);
+	}
+	else {
+		sprintf("  %2d:%2.2d.%3.3d",$mm,$ss,$ttt);
+	}
+	
+}
+
+#$lapcount = 0;
+$totthous = 0;
+$recordlap = 9999999999;
+$whichlap = 0;
+$recordtot = 9999999999;
+$whichtot = 0;
+$attempt = 1;
+while (<>) {
+	if ( $_ =~ /^(.*)(([0123]):([0-5]\d)[.](\d{3}))(.*)$/ ) {
+		$stuff1 = $1;
+		$time = $2;
+		$mins = $3;
+		$secs = $4;
+		$thous = $5;
+		$stuff2 = $6;
+		$thous += ( 1000 * $secs) + ( 60 * 1000 * $mins);
+		if ($thous < $recordlap) {
+			$recordlap = $thous;
+			$whichlap = $attempt;
+		}
+		$totthous += $thous;
+		
+#printf("%s %d:%2.2d.%3.3d\n", $time, $mins, $secs, $thous);
+		printf("%s%s   %s%s\n", $stuff1, $time, &elapsed($totthous), $stuff2 );
+
+	}
+	elsif ( $_ =~ /^^(.*)(\+([1-9][0-9]):([0-5]\d)[.](\d{3})) *$/ ) {
+		$stuff1 = $1;
+		$time = $2;
+		$mins = $3;
+		$secs = $4;
+		$thous = $5;
+		$stuff2 = $6;
+		$totthous = $thous + ( 1000 * $secs) + ( 60 * 1000 * $mins);
+		
+#printf("%s %d:%2.2d.%3.3d\n", $lap, $time, $mins, $secs, $thous);
+		printf("%s%s%s\n", $stuff1, $time, $stuff2 );
+
+	}
+	else {
+		if ($totthous != 0) {
+			if ($totthous < $recordtot) {
+				$recordtot = $totthous;
+				$whichtot = $attempt;
+			}
+			++$attempt;
+		}
+		$totthous = 0;
+		print $_;
+	}
+}
+
+if ($totthous != 0) {
+	if ($totthous < $recordtot) {
+		$recordtot = $totthous;
+		$whichtot = $attempt;
+	}
+	++$attempt;
+}
+$totthous = 0;
+
+print "\n";
+
+if ( $whichtot > 0 ) {
+	printf( "Fastest total %s in attempt %d\n", &elapsed($recordtot), $whichtot);
+}
+if ( $whichlap > 0 ) {
+	printf( "Fastest lap %s in attempt %d\n", &elapsed($recordlap), $whichlap);
+}

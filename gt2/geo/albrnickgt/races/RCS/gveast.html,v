@@ -1,0 +1,209 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2002.04.08.00.45.24;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.04.08.00.40.07;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.04.07.22.34.43;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.07.05.23.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.05.20.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Fixed change time.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Races - Grand Valley East</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1>
+The Gran Turismo Pit Stop<BR>
+Simulation - Races <BR>
+Grand Valley East
+</H1>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+<CENTER>
+<TABLE BORDER>
+  <CAPTION><B>Qualifications</B></CAPTION>
+  <TR>
+    <TH>Class</TH> <TH>Grand Prix Name</TH> <TH>License</TH> <TH>Level</TH>
+    <TH>Eligible Cars</TH> <TH>Other Restrictions</TH>
+  </TR>
+  <TR ALIGN=CENTER>
+    <TD>Spot Race</TD> <TD>Grand Valley East</TD> <TD>None</TD> <TD>Beginner</TD>
+    <TD>All</TD> <TD>None</TD>
+  </TR>
+</TABLE>
+<P><BR>
+
+<TABLE BORDER>
+  <CAPTION><B>Track Info</B></CAPTION>
+  <TR>
+    <TH> </TH> <TH> </TH> <TH COLSPAN=7>Position $</TH>
+    <TH ROWSPAN=2>Pole<BR>Time</TH>
+  </TR>
+  <TR>
+    <TH>Track</TH> <TH>Laps</TH>
+<TH>1</TH> <TH>2</TH> <TH>3</TH> <TH>4</TH> <TH>5</TH> <TH>6</TH>
+    <TH>Pole</TH>
+  </TR>
+  <TR ALIGN=CENTER>
+    <TD>Grand Valley East
+    </TD>
+    <TD>2</TD>
+    <TD>$1,000</TD> <TD>$500</TD> <TD>$400</TD> <TD>$300</TD>
+    <TD>$200</TD> <TD>$100</TD> <TD>$500</TD>
+    <TD ALIGN=CENTER>1:18.750</TD>
+  </TR>
+</TABLE>
+<P><BR>
+
+<table border>
+  <CAPTION><B>AI Entrants (same as High Speed Ring Spot Race)</B></CAPTION>
+<tr><td align=center valign=center>Galant VR-4</td>
+    <td align=center valign=center>Soarer 2.5GT-T VVT</td>
+    <td align=center valign=center>Eclipse GT</td></tr>
+<tr><td align=center valign=center>Soarer'95 2.5 GT-T</td>
+    <td align=center valign=center>Pulsar'91 GTI-R</td>
+    <td align=center valign=center>Skyline GTS25t TypeM</td></tr>
+<tr><td align=center valign=center>Silvia K's Aero (S14)</td>
+    <td align=center valign=center>Silvia'95 K's Aero (S?</td>
+    <td align=center valign=center>Supra 3.0GT Limited (MA70)</td></tr>
+<tr><td align=center valign=center>Eunos Cosmo 20B Type-E CCS</td>
+    <td align=center valign=center>FC savanna RX-7 III</td>
+    <td align=center valign=center>Silvia'91 K's Aero (S?</td></tr>
+<tr><td align=center valign=center>Supra'95 SZ-R</td>
+    <td align=center valign=center>Supra SZ-R</td>
+    <td align=center valign=center>180SX TypeX</td></tr>
+<tr><td align=center valign=center>Prelude</td>
+    <td align=center valign=center>Integra Type R</td>
+    <td align=center valign=center>180SX'94 Type X</td></tr>
+<tr><td align=center valign=center>Prelude Type SH</td>
+    <td align=center valign=center>Prelude'94 VTEC</td>
+    <td align=center valign=center>Savanna RX-7 GT-X</td></tr>
+<tr><td align=center valign=center>FTO GP version R</td>
+    <td align=center valign=center>Skyline GTS-t TypeM</td>
+    <td align=center valign=center>Fairlady Z Version S 2 seater</td></tr>
+<tr><td align=center valign=center>Fairlady Z Version S 2by2</td>
+    <td align=center valign=center>FTO'94 GPX</td>
+    <td align=center valign=center>FTO GPX</td></tr>
+<tr><td align=center valign=center>Alcyone SVX Version L</td>
+    <td align=center valign=center>Alcyone SVX S4</td>
+    <td align=center valign=center>Silvia'88 K's 1800cc</td></tr>
+<tr><td align=center valign=center>Integra GS-R</td>
+    <td align=center valign=center>Eunos Cosmo 13B Type-S CCS</td>
+    <td align=center valign=center>Chaser 2.5 Tourer S</td></tr>
+<tr><td align=center valign=center>Skyline GTS-4</td>
+    <td align=center valign=center>MR2 G-Limited</td>
+    <td align=center valign=center>GTO SR</td></tr>
+<tr><td align=center valign=center>GTO'95 SR</td>
+    <td align=center valign=center>GTO'92</td>
+    <td align=center valign=center>Mark II'92 Tourer S 2.5</td></tr>
+</table>
+
+</CENTER>
+<P><BR>
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sun Apr  7 20:43:18 EDT 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+</BODY>
+</HTML>
+@
+
+
+1.4
+log
+@Added AI Entrants.
+@
+text
+@d104 1
+a104 1
+Last modified: Sun Apr  7 00:21:49 EST 2002
+@
+
+
+1.3
+log
+@Added or corrected all prize money, and pole times.
+@
+text
+@d54 44
+@
+
+
+1.2
+log
+@Removed email address, and fixed date.
+@
+text
+@d41 1
+a41 1
+    <TH>Tracks</TH> <TH>Laps</TH>
+d49 3
+a51 3
+    <TD>$1,000</TD> <TD>$xxx</TD> <TD>$xxx</TD> <TD>$xxx</TD>
+    <TD>$xxx</TD> <TD>$100</TD> <TD>$xxx</TD>
+    <TD ALIGN=CENTER></TD>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a4 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+d60 1
+a60 1
+Last modified: Wed Jun  9 14:14:19 EDT 1999
+d63 2
+a64 4
+Send any comments or suggestions to:
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+@

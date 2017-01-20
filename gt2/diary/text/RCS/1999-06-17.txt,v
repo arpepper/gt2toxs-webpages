@@ -1,0 +1,289 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.07.15.23.11.33;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.15.22.46.02;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.15.22.40.18;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@1999-06-17.txt, from rec.autos.simulators
+@
+
+
+1.4
+log
+@changes.
+@
+text
+@Thu June 17, 1999
+
+Psychology of Gran Turismo, a Modern Video Game
+
+Threads:
+  Game Evaluation
+  Prize Car Patterns
+
+Newsgroups: rec.games.video.sony
+
+Well, I had quite liked the Gran Turismo Demo in the demo disks which
+came with my Playstation, and so, based almost entirely on that, I
+decided to buy it.
+
+The racing simulator (using the term loosely) I had most frequently
+used most recently prior to that was SuperBike Challenge on the
+Commodore 64.  It was a nice little game.  A joystick used in the
+obvious fashion, although you needed to "change gears" by pushing the
+fire button while leaning the stick forward or back.  You soon learned
+the quirks of controlling the bikes with the stick.  Learning the
+tracks became a case of remembering the speeds you could corner at,
+with a little bit of road positioning.  Gear-changing was useful only
+when restarting after a crash.  You could race two players and two AI
+bikes, or (as I always did) one player and 3 AI bikes.  Twelve tracks
+could be raced as single races, or as a combined season.  I got so I
+could very reliably win the season, though I never swept it--I'd
+usually make a couple of mistakes.  That took about two hours, and was
+a relaxing way to spend an evening.
+
+The graphics were probably not quite up to the 64's potential, but were
+adequate.  Secondary scenery was non-existent; a ribbon of grey road
+with white-and-red markers slithered quickly towards you from the
+horizon, like an agitated serpent.
+
+So, perhaps I did not expect too much more from Gran Turismo.  I mean,
+the Arcade mode is similar to the above with all the well-known
+improvements--better scenery, realistic vehicle handling, excellently
+co-ordinated sounds, etc.  Taking a "new" arcade mode and unlocking
+it entirely is now a somewhat amusing way to spend two hours or so.
+Granted, it originally took me several days to completely unlock all of
+it, but with the training of playing the game a lot, arcade mode now
+seems a manageable game.
+
+But then there's simulation mode.  Days (a few real, many simulation)
+before I got the "License" I needed just to make a reasonable amount of
+money.  But eventually after some absurd late-night (even all-night)
+sessions I got the A-license to unlock the most fun elements of the
+game.  And a while later I really did get the IA license I had at one
+time though unattainable.
+
+So I would race and race and race.  I began winning those prize-cars.
+Then I discovered web sites which would tell me exactly which
+prize-cars I had yet to obtain.
+
+But somehow, some of those prize cars seemed very elusive.  I noticed
+that new prizes from the "specialized Series" (FF, etc.) seemed to
+appear when I raced new cars there, especially if I raced those cars
+in lots of other races first.  (Sunday, Clubman, and maybe GT cups).
+
+But the International Prize Cars.  It seemed in each series I would get
+one of two cars only.  I would keep racing and racing those series,
+and, in the back of my mind, I would be hoping to get a new prize car.
+
+Eventually one day I did.  A tuned (not race-modded) GTO'95MR managed
+to win JPvsUS, and I got a white Viper with not blue, as had become all
+too common, but *green* stripes.  The GTO won the All-Night II I had
+been preparing for, and then the Tuned (aka Abnormal) Car Contest, and
+then went back to JPvsUS and won a black FTO LM--yet another new prize
+car!!!  These extra cars really did exist!
+
+Strange you know.  After that point, I really didn't race JPvsUS much
+any more.  I wanted a grey-and-purple Cerbera LM, and a yellow Concept
+Car.  But they really did not seem to appear until I consciously
+did various things to try and get them.
+
+I bought more cars (at this point I had to save my prize cars in a
+separate game, frozen at day 2855 specifically for that purpose), and
+raced them as much as possible.  Although I read things which said the
+prizes were awarded randomly, it sure seemed to me that cars which had
+won more and lost less (in other series) had a better chance of getting
+more cars than others did.  The purple ConceptCar, for instance, seemed
+to turn up three of four cars in USvsUK.
+
+Yes, eventually, a race-modded Griffith 500, first winning almost
+everything it was eligible for (all of GT League, plus FR), turned up
+the elusive grey-and-purple Cerbera LM after competing in the
+UKvsJP five times.  (Would you believe my garage was full for one
+race--whew!).  But it would not get the yellow ConceptCar from UKvsUS.
+
+To get the yellow ConceptCar, I got really desperate, and started a
+"second" game.  A prize ConceptCar in that game won a white-and-blue
+Viper five times in five USvsJP.  (I entered that car in no other
+races, as a deliberate experiment; two other cars entered in a variety
+of races (but not GT-I) won a black FTO LM).  A race-modded Viper GTS
+which won all of GT League, plus FR, in that game turned it up in three
+UKvsUS, although it did not appear to be about to turn it up before
+that.  (In a fourth UKvsUS it turned up another yellow ConceptCar--have
+you ever heard a PlayStation giggle?)  And soon after that, I followed
+a similar routine with the same car in my "main" game, and sure enough,
+I got a yellow ConceptCar "legitimately".
+
+The "other colours" of the other two cars in question, the del Sol LM,
+and RX7 Aspec LM, both sort of appeared without a lot of conscious
+effort.
+
+All right, it became time to complete my collection.  And, you know, I
+really have not raced any of the International Series Races very much
+since then.
+
+Different cars, with good racing histories, thrown at the various
+series with holdouts (FR, Mega) turned the missing cars up relatively
+easily.  The two colours of the enduro prizes appeared very easily
+without any effort.
+
+This left the two long series, the Normal and the Abnormal (okay, they
+call the second "Tuned", but I think 900+bhp mid-class Japanese sports
+cars are fairly abnormal).  The prize-cars for these appeared in
+better-than-random time, perhaps because I would change the car I
+was using to another one which had a reaonably good history (or else
+create a history for it).  9 wins for the Normal, and 10 for the
+Abnormal.  You think that's not better-than-random?  All right then,
+try rolling a die several times and see how long it takes you to
+"collect" all six numbers.  Try that experiment several times, and
+see how often it usually seems to take you.
+
+Furthermore, to get the last Abnormal prize, I bought my first ever
+Viper RT/10 (I had used only the GTS before).  Now, before I
+raced in a bunch of other races, it got duplicate prizes, but
+after I raced and won with it in A-level GT League, and the FR
+Series, it got the remaining car on the first try.
+
+So I got my yellow Skyline, added it to the collection of cars in
+the "prize car garage", and got rid of some more of the cars in my
+"real" game.
+
+At that point I realized, I would find it somewhat difficult to keep
+racing the races with no new prize cars to get.  The knowledge that
+there were new cars to get had been a more significant motivating
+factor than I had realized.  Sure, I've gone back and won some of the
+series with cars I was a little unsure about using in the serious
+pursuit of prizes, but, after a little of that it's difficult to
+think of interesting things to do.  (Hmm.  Maybe if I win the Normal
+with the right car, that mythical '67 Corvette will appear--not likely).
+
+Allegedly, I can now concentrate on getting my license test cars.  But,
+as an honest personal self-evaluation, I don't think I have the
+consistency of co-ordination for doing that.  And, now, suppose I was
+that good.  Well *then* that would make the rest of the game seem
+even more pointless, as I would be in even more complete control of
+many of the series.  (Presumably).  (Besides, on the weekend I finally
+found and bought the GT download CD  8-)   (From Zeller's, for those
+who might benefit from that information).
+
+When I was in the middle of all this, I began thinking "There is too
+much in Gran Turismo.  Sony is actually marketing a product which
+causes consumers to buy fewer other comparable products than they might
+otherwise."  (though I did buy a lot of memory cards  8-)).
+
+But now I'm beginning to think that the complexity of the game helps to
+create a desire for ever-increasing complexity, and for continually
+new rewards.  Whereas I would pick up Superbike Challenge after a
+few months break for the pleasure of relearning it, and the simulated
+competition, there was never the excitement (okay maybe I have a dull
+life) of acquiring new prizes.
+
+That last paragraph is really the reason for this entire rambling post.
+I'll probably post it as a separate thread.  8-)
+
+Some GT players might be interested in my personally observed "tricks"
+for acquiring the prize cars.  And, FWIW, I do not believe the cars are
+awarded randomly with uniform distribution, under the influence of
+buggy use of buggy pseudo-random number generators, as is implied in
+some FAQs.  In the presence or absence of apparently correlated
+actions, the cars appear either more or less often than random.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.3
+log
+@fixed minor inaccuracy
+@
+text
+@d1 1
+a1 1
+Mon Jun 14, 1999
+@
+
+
+1.2
+log
+@a few tweaks.
+@
+text
+@d94 1
+a94 1
+of races (but not GT-I) won a black FTO LM).  A race-modded Viper RT
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 8
+a8 4
+From arpepper@@math.uwaterloo.ca Mon Jun 14 18:57:25 EDT 1999
+Article: 472555 of rec.games.video.sony
+Path: watserv3.uwaterloo.ca!arpepper
+From: arpepper@@math.uwaterloo.ca (GT2XS)
+a9 11
+Subject: GT - (long) Pychology of Gran Turismo, a Modern Video Game
+Date: 14 Jun 1999 22:48:56 GMT
+Organization: GT2XS
+Lines: 167
+Message-ID: <929400536.774852@@watserv4.uwaterloo.ca>
+NNTP-Posting-Host: watserv4.uwaterloo.ca
+Originator: arpepper@@math.uwaterloo.ca
+Cache-Post-Path: watserv4.uwaterloo.ca!arpepper@@math.uwaterloo.ca
+Xref: watserv3.uwaterloo.ca rec.games.video.sony:472555
+X-Cache: nntpcache 1.0.7.1 (see ftp://suburbia.net/pub/nntpcache)
+Status: R
+d40 3
+a42 3
+Granted, it took me several days to completely unlock all of it, but
+with the training of playing the game a lot, arcade mode now seems
+a manageable game.
+d94 2
+a95 2
+of races (but not GT-I) won a black FTO LM).  A race-modded Viper which
+won all of GT League, plus FR, in that game turned it up in three
+d175 12
+a186 5
+
+
+Adrian.
+
+
+@

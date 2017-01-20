@@ -1,0 +1,155 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Mon May 31, 1999
+
+A Rephrasing of Suggestions for Winning all colours of prize cars
+
+Threads:
+  Prize Car Patterns
+
+I'm not the only person who noticed that they never (well, hardly ever,
+or not until after a very long time) seemed to get certain colour prize
+cars.
+
+One FAQ maintainer complained he tried for a very long time to get
+a green FTO LM, but never managed it.  This article consists of the
+hints I eventually mailed to him.  I'm not entirely sure how much he
+appreciated it, but I believe there is a lot of useful stuff here.
+
+My belief now is you've got to build up American and Japanese
+racing-mods, race and win (and don't lose) just about everything they
+are eligible for (all GT-league, including GT-I, and appropriate
+specialized series, and the other International Series), then they will
+have a more even chance of getting all prize cars in the JPvsUS
+series.
+
+Every car which won one of my "hold-out" cars in those series had won
+the GT-I Cup, and none of those cars were prize cars.  However, neither
+Griffith would win the yellow ConceptCar in UKvsUS.  8-?  In two out
+of three cases I had recently deliberately and consciously "cleaned up"
+all of GT League and the specialized (FR) series before the "hold-out"
+cars appeared.  The fourth cars "held-out" for a long time.  Perhaps
+because I avoided the GT-I series for various reasons.
+
+In order to get the last car (the yellow ConceptCar), I started another
+game.  But shortly after winning it that way, I took my built-up Viper
+GTS in my "real" game, won all GT League races, and FR, and JPvsUS,
+then on its fourth UKvsUS it won a yellow ConceptCar!  (Interestingly
+enough, a built-up Viper GTS is what won the yellow ConceptCar in the
+"alternate" game; it won 3 of 4 cars, but I raced only once more
+(getting another yellow ConceptCar!!!) before leaving that game; in my
+"real" game it won three different cars, and, put together, the Viper
+GTS won all four).
+
+The only inconsistency in my theory is that a GTO'95MR won both 3rd and
+4th cars in USvsJP even though the only US GT-I winner at that time was
+the prize ConceptCar, plus, I believe a racing-mod GTO'95MR.  This
+might be just because of a probabilistic (though non-uniform) nature of
+the prizes.  But another theory I have says; Japanese cars for JPvsUS,
+UK cars for JPvsUK, US cars for UKvsUS.  (Another note is that two
+different instances of the same car (GTO'95MR) did win GT-I and the 3rd
+and 4th cars; racing-mod for GT-I, and a tuned one for 3rd and 4th
+cars; perhaps any "records" are kept in the "car model" portion of the
+game data, not the garage space).
+
+In any case, I believe repeatedly racing the same car in the same
+International series, or even different cars in the same International
+series, is doomed to frustration no matter how many times you try power
+cycling the game with no memory card and reloading.  It seems that the
+game gives more International prize cars to "reward" a particular car
+for winning (and not losing?) some subset of the series I've
+mentioned.  I think I've seen other people say too that the stupid
+Sunday Cup *is* important... 8-)
+
+In fact, it seems you (probably) will not win even a second prize in,
+say USvsJP with a car which has not raced and won any other series.
+In the same "alternate" "test" game mentioned above, neither the
+prize ConceptCar nor the prize RX7 could win the USvsJP FTO, nor
+could a built-up Viper; six white/blue Vipers in a row, with a power
+cycle and several car washes in between.  Clean up A-level GT League
+with the Viper, then the first USvsJP gets a black(ick) FTO.  Buy,
+gradually tune a GTO'95MR, clean up A-level--another black FTO.
+ConceptCar still wins two white/blue Vipers in a row, even with a wash
+in between.  Then I decided to forget about the black/green FTO thing,
+and got my IA, won GT-I with the built-up Viper, after which in four
+UKvsUS that Viper turned up three different prize cars, ending with two
+yellow ConceptCars which I was beginning not to believe in.   8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d8 2
+a9 2
+I'm not the only person who noticed they never (well, hardly ever, or
+not until after a very long time) seemed to get certain colour prize
+d13 3
+a15 3
+a green FTO LM, but never managed it.  This is the hints I eventually
+mailed to him.  I'm not entirely sure how much he appreciated it,
+but I believer there is a lot of useful stuff here.
+d44 8
+a51 7
+the prize ConceptCar.  This might be just because of a probabilistic
+(though non-uniform) nature of the prizes.  But another theory I have
+says; Japanese cars for JPvsUS, UK cars for JPvsUK, US cars for UKvsUS.
+(Another note is that two different instances of the GTO'95MR won GT-I
+and the 3rd and 4th cars; racing-mod for GT-I, and a tuned one for
+3rd and 4th cars; perhaps any "records" are kept in the "car model"
+portion of the game data, not the garage space).
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+@

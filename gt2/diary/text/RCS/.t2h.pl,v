@@ -1,0 +1,1881 @@
+head	1.48;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.48
+date	2004.01.20.05.04.54;	author arpepper;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.01.20.04.57.35;	author arpepper;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.20.04.45.30;	author arpepper;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.12.28.22.05.56;	author arpepper;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2002.01.25.03.28.34;	author arpepper;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2001.10.25.03.24.45;	author arpepper;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2001.02.18.22.59.03;	author arpepper;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2001.02.18.18.52.16;	author arpepper;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2001.02.18.18.19.01;	author arpepper;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2000.06.29.20.43.08;	author arpepper;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2000.06.29.19.25.18;	author arpepper;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2000.06.29.16.59.41;	author arpepper;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2000.06.23.23.35.26;	author arpepper;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2000.04.26.22.07.51;	author arpepper;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2000.04.26.21.07.52;	author arpepper;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2000.03.17.21.22.15;	author arpepper;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2000.03.17.21.17.30;	author arpepper;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2000.02.23.16.57.12;	author arpepper;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2000.02.09.19.27.20;	author arpepper;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	99.11.24.02.11.36;	author arpepper;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	99.11.11.23.33.13;	author arpepper;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	99.11.11.23.27.24;	author arpepper;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	99.10.25.19.37.58;	author arpepper;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	99.08.18.21.44.01;	author arpepper;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	99.08.14.00.48.45;	author arpepper;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	99.08.13.23.47.21;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	99.07.19.18.28.37;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	99.07.14.17.52.13;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	99.07.14.17.44.11;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	99.07.13.23.54.16;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	99.07.13.22.57.54;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	99.07.05.21.41.43;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	99.06.11.23.46.42;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	99.06.11.16.27.45;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	99.03.30.22.38.11;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	99.03.26.23.21.47;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	99.03.26.23.06.21;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	99.03.19.01.59.56;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	99.02.19.23.41.31;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	99.02.19.22.44.26;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	99.02.13.01.32.31;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	99.02.12.18.16.02;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	99.02.11.23.49.28;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.02.11.23.30.03;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.02.11.01.28.52;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.02.10.01.21.16;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.02.06.01.38.44;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.06.00.59.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@primitive text to html translator, but complex enough we don't want
+to lose it.
+@
+
+
+1.48
+log
+@Fix that stupid little bug.
+(Just treat anything containing slashes as myplace, basically).
+@
+text
+@#!/xhbin/perl5
+
+$codes = 0;   # when set to one, we allow internal codes.
+#
+# tranform - prepare given text to be included in html
+#
+sub
+transform {
+	local ($line,$type) = @@_;
+	local ($html);
+
+	$html = "";
+	if ( $line =~ /<html>/ ) {
+		$line =~ s:(<html>.*</html>):#####HTML1#####:s ;
+		$html = $1;
+		$html =~ s/<html>//g;
+		$html =~ s:</html>::g
+	}
+	if ($codes == 0) {
+		$line =~ s/&/&amp;/g;
+		$line =~ s/</&lt;/g;
+	}
+	if ( $line =~ /http:[\/][\/]/ ) {
+		$line =~ s;http://[\w\-~/.]*;<a href="$&">$&</a>;g
+	}
+	$line =~ s,8-\),<img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">,g;
+	$line =~ s,8-\(,<img src="../../bitmaps/sadfrog.gif" width="30" height="18" border="0" alt="8-(">,g;
+	$line =~ s,\(-8,<img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="(-8">,g;
+	$line =~ s,\)-8,<img src="../../bitmaps/sadfrog.gif" width="30" height="18" border="0" alt=")-8">,g;
+	$line =~ s/\([Cc]\)/&copy;/g;
+	if ( $html ne "" ) {
+		$line =~ s:#####HTML1#####:${html}: ;
+	}
+
+	$line;
+}
+
+#
+# process - add appropriate formatting information for the transformed text
+#
+sub
+process {
+	local ($hunk,$type) = @@_;
+	local ($indent,$percent,$filler) = 0;
+
+	if ($type eq "prog") {
+		$hunk = "<pre>\n" . $hunk . "</pre>\n";
+	}
+	if ($type eq "list" ) {
+		if ( $hunk =~ /^\s+-/gm ) {
+			$hunk =~ s/^\s+-/<li>/gm;
+			$hunk =~ s/\n\s+/ /g;
+			$hunk =~ s,$,</li>,gm;
+			return $starter{$type} . "<ul>" . $hunk . "</ul>" . $ender{$type};
+		}
+		else {
+			# problem, doing this renders anchors unrecognizable
+			$hunk =~ s/ /&nbsp;/gm;
+			$hunk =~ s,$,<br>,gm;
+			while ( $hunk =~ /<[^>]*&nbsp;/ ) {
+				$hunk =~ s/(<[^>]*)&nbsp;/\1 /;
+			}
+			return $starter{$type} . $hunk . $ender{$type};
+		}
+	}
+	if ($type eq "prog" ) {
+		$indent = &pcount("^ ",$hunk);
+		$percent = "10%";
+		$filler = "";
+		if ($indent > 0) {
+			$percent = "15%";
+			$filler = "&nbsp;&nbsp;";
+		}
+		# ick.  following is logically $para_start, modified...
+		return &indent_start($percent,$filler) . "<font face=\"Courier\">" . "\n" . $hunk . $ender{$type};
+	}
+	if ($type eq "para" ) {
+		$indent = &pcount("^ ",$hunk);
+		$percent = "10%";
+		$filler = "";
+		if ($indent > 0) {
+			$percent = "15%";
+			$filler = "&nbsp;&nbsp;";
+		}
+		# ick.  following is logically $para_start, modified...
+		return &indent_start($percent,$filler) . $font_start . "<p>\n" . $hunk . $ender{$type};
+	}
+	if ($type eq "table" ) {
+		# problem, doing this renders anchors unrecognizable
+		$hunk =~ s/ /&nbsp;/gm;
+		$hunk =~ s,$,<br>,gm;
+		while ( $hunk =~ /<[^>]*&nbsp;/ ) {
+			$hunk =~ s/(<[^>]*)&nbsp;/\1 /;
+		}
+		# detailed table analysis here, or earlier?
+		$hunk =~ s,^,<tr><td>&nbsp;&nbsp;</td><td><font face="courier">,gm;
+		$hunk =~ s,$,</font></td></tr>,gm;
+		# now remove the first one we added...
+		$hunk =~ s,^<tr><td>&nbsp;&nbsp;</td><td>,,;
+		return "<font face=\"Courier\">" . &indent_start("15%","&nbsp;&nbsp;") . $hunk . $indent_end . "</font>";
+	}
+	return $hunk;
+}
+
+sub
+indent_start {
+	local ($amount,$fill) = @@_;
+	
+	return "<table width=\"85%\"><tr><td width=\"$amount\">$fill</td>\n<td>";
+}
+
+sub
+pcount {
+	local ($pattern,$string) = @@_;
+	local @@junk;
+
+	@@junk = split(/$pattern/gm,$string);
+	return $#junk;
+}
+	
+
+sub
+identify {
+	local ($hunk,$hint) = @@_;
+	local ($thunk,$indent,$nindent);
+	local @@lines;
+
+	if ($hint eq "literal") {
+		return $hint;
+	}
+	if ($hint =~ /^blank/) {
+		return $hint;
+	}
+	if ($hint =~ /^prog/) {
+		return $hint;
+	}
+	# $hint must be "list" or "para"; not sure it's very relevant
+	$thunk = $hunk;
+	$thunk =~ s/^\s+//gm;
+	$mspace_c = &pcount("  ",$thunk);
+	$sentence_c = &pcount("[.?:;!)]  ",$thunk);
+	$sentence_c += 2*&pcount("[8.]-[(]",$thunk);
+	$sentence_c += 2*&pcount("[(]-[8.]",$thunk);
+	$sentence_c += &pcount("[8.]-[)]",$thunk);
+	if ($mspace_c > $sentence_c + 1) {
+		return "table";
+	}
+	$point_c = &pcount("^-",$thunk);
+	if ($point_c > 1) {
+		return "list";
+	}
+	$line_c = &pcount("\n",$thunk);
+	$space_c = &pcount(" ",$thunk);
+	if ( $space_c < $line_c * 4 ) {
+		return "table";
+	}
+	$nindent = 0;
+	$total = 0;
+	$previndent = -1;
+	@@lines = split(/\n/, $hunk);
+	for ($i = 0; $i <= $#lines; ++$i ) {
+		$total += length($lines[$i]);
+		$prefix = $lines[$i];
+		$prefix =~ s/\S.*//;
+	# pcount/split does not work how we want with blanks? null fields?
+	#	$indent = &pcount(" ",$prefix);
+		$indent = length($prefix);     #  Duh
+		if ( $previndent != $indent) {
+			++$nindent;
+		}
+		$previndent = $indent;
+	}
+	if ($nindent > 1) {
+		return "list";
+	}
+	if ( $#lines > 1 && ( $total / ($#lines + 1) ) < 40 ) {
+		return "list";
+	}
+	# it may be indented, but it does not look like a list or table
+	# so assume it is a paragraph
+	return "para";
+}
+
+sub
+display {
+	local ($hunk,$hint) = @@_;
+	local $type;
+
+	if ($hint eq "literal") {
+		print $hunk;
+		return;
+	}
+	if ($hunk eq "" || $hunk eq "\n") {
+		return;
+	}
+	$type = &identify($hunk,$hint);
+	$hunk = &transform($hunk,$type);
+	$hunk = &process($hunk,$type);
+	print $hunk;
+
+
+}
+
+sub
+displaythreads {
+	local($thr,$anchor,$noanchor);
+	#return if ($nthreads <= 0);
+
+
+	#print "<a name=\"threads\"><h4>Threads:</h4></a>","\n";
+	#print "<ul>","\n";
+#print "***nthreads: $nthreads<br>\n";
+#foreach $thr (sort keys %threadlist) {
+#$thrval = $threadlist{$thr};
+#print "***thread: $thr | $thrval<br>\n";
+#}
+	foreach $thr (sort keys %threadlist) {
+#warn "thread $thr\n";
+#warn "prevthreadlist{$thr} ${prevthreadlist{$thr}}\n";
+#warn "nextthreadlist{$thr} ${nextthreadlist{$thr}}\n";
+		#print "<li>";
+		$anchor = $thr;
+		$anchor =~ s/ /_/g;
+		$noanchor = defined($dropped_threads{$thr}) ||
+			$suffixlist{$thr} ne "";
+		if (defined($prevthreadlist{$thr}) &&
+			$prevthreadlist{$thr} ne "" ) {
+			$temp = $prevthreadlist{$thr};
+			$temp =~ s/.txt$/.html/;
+			print "<a href=\"${temp}#${anchor}\">";
+			print "&lt;&lt;--";
+			print "</a>\n";
+		}
+		else {
+			print "||--";
+		}
+		if (!$noanchor) {
+			print "<a name=\"$anchor\">";
+		}
+		else {
+			print "<a href=\"#$anchor\">";
+
+		}
+		print &transform("$thr"),"\n";
+		if (!$noanchor) {
+			print "</a>";
+			$dropped_threads{$thr} = $thr;
+		}
+		else {
+			print "</a>";
+		}
+		if (defined($nextthreadlist{$thr}) &&
+			$nextthreadlist{$thr} ne "" ) {
+			$temp = $nextthreadlist{$thr};
+			$temp =~ s/.txt$/.html/;
+			print "<a href=\"${temp}#${anchor}\">";
+			print "--&gt;&gt;";
+			print "</a>\n";
+		}
+		else {
+			print "--||";
+		}
+		#print "</li>","\n";
+		print "<br>","\n";
+	}
+	#print "</ul>","\n";
+}
+
+
+$title = <>;   # must read to force ARGV to be right?
+
+#
+$me = $ARGV;
+$myplace = $me;
+if ($myplace =~ /\// ) {
+	$myplace =~ s:[^/]*$:: ;
+	$me =~ s:^.*/::;
+}
+else {
+	$myplace = ".";
+}
+#print $me,"\n",$myplace,"\n";
+
+$names = `cd $myplace; ls [12][90][0-9][0-9]-*-*.txt`;
+@@namelist = split(/\n/,$names);
+$prevpage = "";
+$nextpage = "";
+$index = "index.html";
+
+findme:
+for ( $i = 0; $i <= $#namelist; ++$i) {
+#print $namelist[$i],"\n";
+	if ($namelist[$i] eq $me) {
+		last findme;
+	}
+}
+if ($i > 0) {
+	$prevpage = $namelist[$i-1];
+	$prevpage =~ s/.txt$/.html/;
+}
+if ($i <= $#namelist) {
+	$nextpage = $namelist[$i+1];
+	$nextpage =~ s/.txt$/.html/;
+}
+#print $me,"\n",$prevpage,"\n",$nextpage,"\n";
+
+#
+# Interpret the "thread information" stored in the file .thrl.dat
+#   - pick out the threads we belong to
+#
+$nthreads = 0;
+$thread = "";
+$prevthread = "";
+#
+%prevthreadlist = ();
+%threadlist = ();
+%suffixlist = ();
+%nextthreadlist = ();
+if (open(FILE,"<.thrl.dat")) {
+	$thread = "";
+	while (<FILE>) {
+		$_ =~ s/\n//g;
+		$line = $_;
+		$suffix = "";
+		$line =~ s/:(.*)//g;
+		if (defined($1)) {
+			$suffix = $1;
+		}
+		if ($thread ne "") {
+			if ($line eq $me) {
+				++$nthreads;
+				$prevthreadlist{$thread} = $prevthread;
+				$threadlist{$thread} = $me;
+				$suffixlist{$thread} = $suffix;
+				$nextthreadlist{$thread} = "";
+			}
+			elsif ($line =~ /^\s*$/ ) {
+				$thread = "";
+				$prevthread = "";
+			}
+			elsif ( defined($threadlist{$thread}) &&
+					$threadlist{$thread} eq $me &&
+					$nextthreadlist{$thread} eq "" ) {
+				$nextthreadlist{$thread} = $line;
+			}
+			else {
+				$prevthread = $line;
+			}
+		}
+		elsif ($line =~ /\S/) {
+			$thread = $line;
+			$prevthread = "";
+		}
+	}
+	close(FILE);
+}
+
+#
+# dropanchor
+#   - attempt to create a forward/backward annotated thread reference
+#
+sub
+dropanchor {
+	local($threadname) = @@_;
+	local($anchorname,$noanchor,$temp);
+
+	return if ($threadname eq "");
+	$noanchor = defined($dropped_threads{$threadname});
+	$dropped_threads{$threadname} = $threadname;
+	$anchorname = $threadname;
+	$anchorname =~ s/ /_/g;
+	print "<font color=red>\n";
+	if (defined($prevthreadlist{$threadname}) &&
+		$prevthreadlist{$threadname} ne "" ) {
+		$temp = $prevthreadlist{$threadname};
+		$temp =~ s/.txt$/.html/;
+		print "<a href=\"${temp}#${anchorname}\">";
+		print "&lt;&lt;--";
+		print "</a>\n";
+	}
+	else {
+		print "||--";
+	}
+	if (!$noanchor) {
+		print "<a name=\"$anchorname\">";
+	}
+	print &transform("$threadname");
+	if (!$noanchor) {
+		print "</a>";
+	}
+	if (defined($nextthreadlist{$threadname}) &&
+		$nextthreadlist{$threadname} ne "" ) {
+		$temp = $nextthreadlist{$threadname};
+		$temp =~ s/.txt$/.html/;
+		print "<a href=\"${temp}#${anchorname}\">";
+		print "--&gt;&gt;";
+		print "</a>\n";
+	}
+	else {
+		print "--||";
+	}
+	print "</font><br>\n";
+
+	
+}
+
+#warn "nthreads=$nthreads\n";
+
+$font_start = "<font face=\"Comic Sans MS\">";
+$font_end = "</font>";
+$state = "unknown";
+$newstate = "unknown";
+$literal = 0;
+$indented_literal = 0;
+$inthreads = 0;
+$indent_end = "</td></tr></table>\n";
+$starter{"para"} = &indent_start("10%") . $font_start . "<p>\n";
+$ender{"para"} = "</p>" . $font_end . $indent_end;
+$starter{"list"} = &indent_start("10%") . "\n";
+$ender{"list"} = $indent_end;
+$ender{"prog"} = $font_end . $indent_end;
+$starter{"blank1"} = "";
+$ender{"blank1"} = "";
+$starter{"blank2"} = "<br>\n";
+$ender{"blank2"} = "";
+$ender{"unknown"} = "";
+
+while (($subtitle = <>) =~ /^[\s]*$/ ) {
+	;
+}
+
+$chunk = <>;
+if ( $chunk !~ /^[\s]*$/ ) {
+	$chunk = $subtitle . $chunk;
+	$subtitle = "";
+	$state = "para";   # &lineparse($chunk);
+}
+
+
+print "<html>\n<head>\n";
+print "<meta name=\"robots\" content=\"noindex,nofollow\">\n\n";
+print "<title>\n";
+print $title," -- ",$subtitle,"</title>","\n";
+print "</head>\n\n";
+print "<body background=\"../../bitmaps/yblinedpaper.gif\" link=\"red\" vlink=\"brown\" alink=\"red\">","\n";
+print "<table width=\"100%\" bgcolor=\"black\">"."\n";
+print "<tr color=\"white\">","\n";
+print "<td>","\n";
+print "<font color=\"white\">","\n";
+print "<h3>My <img src=\"../../gifs/gtlogo.jpg\" height=\"121\" width=\"263\" border=\"0\" alt=\"Gran Turismo\"> Diaries</h3>","\n";
+print "</font>","\n";
+print "<font color=\"white\">","\n";
+print "<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>","\n";
+print "</font>","\n";
+
+print "<font color=\"white\">","\n";
+print "<h3>",$title,"</h3>\n";
+print "</font>","\n";
+if ($subtitle ne "" ) {
+	print "<font color=\"white\">","\n";
+	print "<h4>",$subtitle,"</h4>\n";
+	print "</font>","\n";
+}
+print "</td>","\n";
+print "</table>","\n";
+print "<font size=-1 color=\"blue\">\n";
+print "<p>","\n";
+if ($prevpage ne "") {
+	print "[<a href=\"$prevpage\">","Previous Entry","</a>","&nbsp;","]\n";
+}
+if ($index ne "") {
+	print "[<a href=$index>","Index","</a>","&nbsp;","]\n";
+}
+print "[<a href=\"search.html\">","Search","</a>","&nbsp;","]\n";
+print "[<a href=\"../logs/\">","game logs","</a>","&nbsp;","]\n";
+if ($nextpage ne "") {
+	print "[<a href=\"$nextpage\">","Next Entry","</a>","&nbsp;","]\n";
+}
+print "[<a href=email.html>email</a>]","\n";
+print "[<a href=disclaimer.html>Disclaimers</a>]","\n";
+print "</p>","\n";
+if ($nthreads > 0) {
+	&displaythreads;
+	#print "<p>","\n";
+	#print "[<a href=#threads>","Threads","</a>","&nbsp;","]\n";
+	#print "</p>","\n";
+}
+print "</font>\n";
+print "<font size=-1>","\n";
+print "<p>","\n";
+print "Copyright &copy; 1999-2004, the author/owner of the following ==>\n";
+print "<a href=\"../..\">page</a> &lt;==.";
+print "</p>","\n";
+print "</font>","\n";
+print "<hr>","\n";
+print $font_start,"\n";
+print "<h3>",$title,"</h3>\n";
+if ($subtitle ne "" ) {
+	print "<h4>",$subtitle,"</h4>\n";
+}
+print $font_end,"\n";
+#print "<table width=\"85%\">","\n";
+#print "<tr>","\n";
+#print "<td width=\"10%\"></td>","\n";
+#print "<td>","\n";
+
+mainloop:
+while ( <> ) {
+	# would be tempting to slurp initially.
+	if ( $literal ) {
+		if ( $_ =~ /^<\/HTML>$/ ) {
+			$literal = 0;
+			$chunk = "";
+			if ( $indented_literal ) {
+				print $indent_end;
+				$indented_literal = 0;
+			}
+			$newstate = "unknown";
+			$state = "unknown";
+		}
+		else {
+			print $_;
+		}
+	}
+	elsif ( $inthreads ) {
+		if ( $_ =~ /^\s*$/ ) {
+			$inthreads = 0;
+			$chunk = "";
+			$newstate = "unknown";
+			$state = "unknown";
+		}
+	}
+	elsif ( $_ =~ /^<HTML>$/ ) {
+		&display($chunk,$state);
+		$chunk = "";
+		$literal = 1;
+	}
+	elsif ( $_ =~ /^<HTML +INDENT>$/ ) {
+		&display($chunk,$state);
+		# later we should maybe accept a value for the indent
+		print &indent_start("10%","");
+		$chunk = "";
+		$literal = 1;
+		$indented_literal = 1;
+	}
+	elsif ( $_ =~ /^<CODES>$/ ) {
+		&display($chunk,$state);
+		$chunk = "";
+		$codes = 1;
+	}
+	elsif ( $_ =~ /^<\/CODES>$/ ) {
+		&display($chunk,$state);
+		$chunk = "";
+		$codes = 0;
+	}
+	elsif ( $_ =~ /^Threads{0,1}:/ ) {
+		&display($chunk,$state);
+		$specthread = $_;
+		$specthread =~ s/\n//g;
+		$specthread =~ s/^[^:]*:\s*//;
+		$specthread =~ s/\s*$//;
+		&dropanchor($specthread);
+		$chunk = "";
+		if ($specthread eq "") {
+			$inthreads = 1;
+		}
+		else {
+			$newstate = "unknown";
+			$state = "unknown";
+		}
+	}
+	elsif ( $_ =~ /^=================*$/ ) {
+		last mainloop;
+	}
+	elsif ( $newstate eq "prog" ) {
+		$chunk .= $_;
+		if ( $_ =~ /^---------*$/ ) {
+			# just hope we never need such a line in a program...
+			&display($chunk,$state);
+			$chunk = "";
+			$newstate = "unknown";
+			$state = "unknown";
+		}
+	}
+	else {
+		# what you really want here is a proper grammar and stack...
+		if ( $state ne "blank1" && $_ =~ /^\s*$/ ) {
+			$newstate = "blank1"
+		}
+		elsif ( $_ =~ /^\s*$/ ) {
+			$newstate = "blank2"
+		}
+		elsif ( $_ =~ /^\s*\#\!/ ) {
+			$newstate = "prog"
+		}
+		elsif ( $_ =~ /^---------*$/ ) {
+			$newstate = "prog"
+		}
+		elsif ( $_ =~ /^\S/ ) {
+			$newstate = "para"
+		}
+		elsif ( $_ =~ /^\s/ ) {
+			$newstate = "list";
+		}
+		if ( $newstate ne $state ) {
+			&display($chunk,$state);
+			$chunk = "";
+		}
+		if ( length($_) > 60 && $_ !~ /\s/ ) {
+			&display($chunk,$state);
+			$chunk = "";
+			$newstate = "unknown";
+		}
+		
+		$chunk .= $_;
+
+		if ( $state eq $newstate && $newstate eq "para" ) {
+			if ( length($_) < 60 ) {
+				if ( $_ =~ /[.]$/ ) {
+					&display($chunk,$state);
+					$chunk = "";
+				}
+			}
+		}
+		$state = $newstate;
+	}
+}
+&display($chunk,$state);
+$chunk = "";
+
+#print "</td>","\n";
+#print "</table>","\n";
+
+if ($nthreads > 0) {
+	print "<hr>","\n";
+	print "<font size=-1 color=\"blue\">\n";
+	&displaythreads;
+	print "</font>\n";
+}
+
+print "<hr>","\n";
+
+print "<font size=-1 color=\"blue\">\n";
+print "<p>","\n";
+if ($prevpage ne "") {
+	print "[<a href=\"$prevpage\">","Previous Entry","</a>","&nbsp;","]\n";
+}
+if ($index ne "") {
+	print "[<a href=$index>","Index","</a>","&nbsp;","]\n";
+}
+print "[<a href=\"search.html\">","Search","</a>","&nbsp;","]\n";
+print "[<a href=\"../logs/\">","game logs","</a>","&nbsp;","]\n";
+if ($nextpage ne "") {
+	print "[<a href=\"$nextpage\">","Next Entry","</a>","&nbsp;","]\n";
+}
+print "[<a href=email.html>email</a>]","\n";
+print "[<a href=disclaimer.html>Disclaimers</a>]","\n";
+print "</p>","\n";
+print "<br>","\n";
+print "</font>\n";
+print "<p>","\n";
+print "Copyright &copy; 1999-2004 the author/owner of the following ==>\n";
+print "<a href=\"../..\">page</a> &lt;==.";
+print "</p>","\n";
+print "<font size=-2>\n";
+print "<p>","\n";
+print "<a href=email.html>email</a>","\n";
+print "</p>","\n";
+print "<p>","\n";
+print "<a href=disclaimer.html>Disclaimers</a>","\n";
+print "</p>","\n";
+print "</font>\n";
+
+print "</body>","\n","</html>","\n";
+@
+
+
+1.47
+log
+@Documented myplace/me ./ bug
+@
+text
+@a272 4
+# A serious bug lives in the region of the myplace/me code...
+#  Namely, ./filename is not recognized as needing massaging.
+#  This makes it difficult to use the output of "find" commands.
+#
+d275 1
+a275 1
+if ($myplace =~ /^\// ) {
+@
+
+
+1.46
+log
+@Create empty hashes properly.
+But it did not seem to be "the problem".
+@
+text
+@d272 5
+@
+
+
+1.45
+log
+@Updated copyright date.
+@
+text
+@d314 4
+a317 7
+# Following used to create empty hashes
+#   Now they do something strange...
+#
+#%prevthreadlist = {};
+#%threadlist = {};
+#%suffixlist = {};
+#%nextthreadlist = {};
+@
+
+
+1.44
+log
+@Change copyright date.
+@
+text
+@d493 1
+a493 1
+print "Copyright &copy; 1999-2002, the author/owner of the following ==>\n";
+d664 1
+a664 1
+print "Copyright &copy; 1999-2002 the author/owner of the following ==>\n";
+@
+
+
+1.43
+log
+@Fixed logs reference to work on geocities.
+Changed name of index to reflect new contents.
+@
+text
+@d493 1
+a493 1
+print "Copyright &copy; 1999-2001, the author/owner of the following ==>\n";
+d664 1
+a664 1
+print "Copyright &copy; 1999-2001 the author/owner of the following ==>\n";
+@
+
+
+1.42
+log
+@Changed the copyright date.
+@
+text
+@d474 1
+a474 1
+	print "[<a href=$index>","Thread List","</a>","&nbsp;","]\n";
+d477 1
+a477 1
+print "[<a href=\"logs/\">","game logs","</a>","&nbsp;","]\n";
+d651 1
+a651 1
+	print "[<a href=$index>","Thread List","</a>","&nbsp;","]\n";
+d654 1
+a654 1
+print "[<a href=\"logs/\">","game logs","</a>","&nbsp;","]\n";
+@
+
+
+1.41
+log
+@Worked around a strange bug(?) where %hash = {} does not create an empty
+hash.
+@
+text
+@d493 1
+a493 1
+print "Copyright &copy; 1999,2000, the author/owner of the following ==>\n";
+d664 1
+a664 1
+print "Copyright &copy; 1999,2000 the author/owner of the following ==>\n";
+@
+
+
+1.40
+log
+@Added <CODES>
+@
+text
+@d207 1
+a207 1
+	return if ($nthreads <= 0);
+d212 5
+d306 4
+d313 8
+a320 4
+%prevthreadlist = {};
+%threadlist = {};
+%suffixlist = {};
+%nextthreadlist = {};
+d331 1
+a331 1
+		if ($thread) {
+@
+
+
+1.39
+log
+@Be less generous about matching filenames assumed to be diary entries.
+@
+text
+@d3 1
+d19 4
+a22 2
+	$line =~ s/&/&amp;/g;
+	$line =~ s/</&lt;/g;
+d534 10
+@
+
+
+1.38
+log
+@Added Search facility, and put identical "text button bar" at bottom as top.
+@
+text
+@d275 1
+a275 1
+$names = `cd $myplace; ls *-*-*.txt`;
+d461 1
+d628 1
+@
+
+
+1.37
+log
+@Add subtitle to the header title; this is because the search cgi
+we found uses the title only to identify the page.
+
+Adding the subtitle gives more meaningful results than just the
+date!   8-)
+@
+text
+@d460 1
+d626 1
+d630 2
+@
+
+
+1.36
+log
+@Add sizes for gifs.
+@
+text
+@d429 1
+a429 1
+print $title,"</title>","\n";
+@
+
+
+1.35
+log
+@Made "prog" indent itself.
+Browsers tend to ignore the indent when it is better ignored anyway.  8-)
+
+Added "HTML INDENT" in addition to "HTML".
+
+Perhaps that should be the default.    8-)
+Except that we have lots of pages where we manually added the indent
+stuff around our included HTML anyway.   8-)
+
+Now I need to go through every page with HTML and decide if
+HTML INDENT would be better.
+@
+text
+@d23 4
+a26 4
+	$line =~ s,8-\),<img src="../../bitmaps/happyfrog.gif" alt="8-)">,g;
+	$line =~ s,8-\(,<img src="../../bitmaps/sadfrog.gif" alt="8-(">,g;
+	$line =~ s,\(-8,<img src="../../bitmaps/happyfrog.gif" alt="(-8">,g;
+	$line =~ s,\)-8,<img src="../../bitmaps/sadfrog.gif" alt=")-8">,g;
+d436 1
+a436 1
+print "<h3>My <img src=\"../../gifs/gtlogo.jpg\" alt=\"Gran Turismo\"> Diaries</h3>","\n";
+@
+
+
+1.34
+log
+@Corrected erroneous "<" being output.
+@
+text
+@d63 11
+d400 1
+d407 1
+d498 4
+d521 8
+@
+
+
+1.33
+log
+@Change the second copyright date, too.   8-)
+@
+text
+@d463 1
+a463 1
+print "<a href=\"../..\">page</a> <==.";
+d608 1
+a608 1
+print "<a href=\"../..\">page</a> <==.";
+@
+
+
+1.32
+log
+@Changed copyright date.
+@
+text
+@d607 1
+a607 1
+print "Copyright &copy; 1999, the author/owner of the following ==>\n";
+@
+
+
+1.31
+log
+@Do noindex as well as nofollow...
+Crawlers essentially shouldn't be getting here, anyway.
+@
+text
+@d462 1
+a462 1
+print "Copyright &copy; 1999, the author/owner of the following ==>\n";
+@
+
+
+1.30
+log
+@Added hopefully correct meta tag to reduce robot traffic.
+@
+text
+@d414 1
+a414 1
+print "<meta name=\"robots\" content=\"nofollow\">\n\n";
+@
+
+
+1.29
+log
+@Now do all of <html>.*</html>, even over multiple lines.
+@
+text
+@d413 3
+a415 1
+print "<html>\n<head>\n<title>\n";
+@
+
+
+1.28
+log
+@Crude implementation of html escape.
+Only one line at a time, and will treat multiple uses
+as one.  Should work okay, though.
+So I should improve it when I need it improved.
+@
+text
+@d13 1
+a13 1
+		$line =~ s:(<html>.*</html>):#####HTML1#####: ;
+@
+
+
+1.27
+log
+@Changed reference to other pages.
+@
+text
+@d9 9
+d28 3
+@
+
+
+1.26
+log
+@Added links colours.
+Changed "Index" to "Thread List"
+@
+text
+@d428 1
+a428 1
+	print "[<a href=$prevpage>","Previous Entry","</a>","&nbsp;","]\n";
+d434 1
+a434 1
+	print "[<a href=$nextpage>","Next Entry","</a>","&nbsp;","]\n";
+d581 1
+a581 1
+	print "[<a href=$prevpage>","Previous Entry","</a>","&nbsp;","]\n";
+d584 1
+a584 1
+	print "[<a href=$index>","Index","</a>","&nbsp;","]\n";
+d587 1
+a587 1
+	print "[<a href=$nextpage>","Next Entry","</a>","&nbsp;","]\n";
+@
+
+
+1.25
+log
+@Arrange to make name of thread a link to the occurrence in the
+current document.
+@
+text
+@d404 1
+a404 1
+print "<body background=\"../../bitmaps/yblinedpaper.gif\">","\n";
+d431 1
+a431 1
+	print "[<a href=$index>","Index","</a>","&nbsp;","]\n";
+@
+
+
+1.24
+log
+@Arrange that each Thread: line is treated individually, properly.
+@
+text
+@d209 4
+d217 3
+@
+
+
+1.23
+log
+@Interpret the :i suffices of .thrl.dat to mean that a page
+does (does not) have an internal thread label, so that we cannot
+(can) add a name to the initial thread table, so that most
+browsers should position themselves nicely as the thread
+is scanned.
+@
+text
+@d492 7
+a498 1
+		$inthreads = 1;
+@
+
+
+1.22
+log
+@Do threads in an almost good way now; will require more
+annotation of pages.
+@
+text
+@d180 1
+a180 1
+	local($thr,$anchor);
+d183 1
+d193 2
+d206 3
+d210 4
+d273 1
+d279 6
+d286 1
+a286 1
+			if ($_ eq $me) {
+d290 1
+d293 1
+a293 1
+			elsif ($_ =~ /^\s*$/ ) {
+d300 1
+a300 1
+				$nextthreadlist{$thread} = $_;
+d303 1
+a303 1
+				$prevthread = $_;
+d306 2
+a307 2
+		elsif ($_ =~ /\S/) {
+			$thread = $_;
+@
+
+
+1.21
+log
+@Make the source thread information disappear from the output.
+@
+text
+@d180 1
+d190 2
+d196 1
+a196 1
+			print "<a href=\"$temp\">";
+d208 1
+a208 1
+			print "<a href=\"$temp\">";
+d296 49
+d466 1
+a466 1
+	elsif ( $_ =~ /^Threads:$/ ) {
+d468 5
+@
+
+
+1.20
+log
+@Dump complete thread lists at start and end of each entry.
+@
+text
+@d300 1
+d393 3
+d401 8
+d410 1
+a410 1
+		&display($chunk,"literal");
+d413 5
+@
+
+
+1.19
+log
+@fixed a silly bug
+Added link to threads from top of page.
+@
+text
+@d178 41
+d362 4
+a365 3
+	print "<p>","\n";
+	print "[<a href=#threads>","Threads","</a>","&nbsp;","]\n";
+	print "</p>","\n";
+d466 3
+a468 33
+	print "<a name=\"threads\"><h4>Threads:</h4></a>","\n";
+	print "<ul>","\n";
+		foreach $thr (sort keys %threadlist) {
+#warn "thread $thr\n";
+#warn "prevthreadlist{$thr} ${prevthreadlist{$thr}}\n";
+#warn "nextthreadlist{$thr} ${nextthreadlist{$thr}}\n";
+			print "<li>";
+			if (defined($prevthreadlist{$thr}) &&
+				$prevthreadlist{$thr} ne "" ) {
+				$temp = $prevthreadlist{$thr};
+				$temp =~ s/.txt$/.html/;
+				print "<a href=\"$temp\">";
+			}
+			print "[prev]";
+			if (defined($prevthreadlist{$thr}) &&
+				$prevthreadlist{$thr} ne "" ) {
+				print "</a>\n";
+			}
+			print &transform("$thr"),"\n";
+			if (defined($nextthreadlist{$thr}) &&
+				$nextthreadlist{$thr} ne "" ) {
+				$temp = $nextthreadlist{$thr};
+				$temp =~ s/.txt$/.html/;
+				print "<a href=\"$temp\">";
+			}
+			print "[next]";
+			if (defined($nextthreadlist{$thr}) &&
+				$nextthreadlist{$thr} ne "" ) {
+				print "</a>\n";
+			}
+			print "</li>","\n";
+		}
+	print "</ul>","\n";
+@
+
+
+1.18
+log
+@initial support for "threads".
+@
+text
+@d229 1
+a229 5
+			}
+			elsif ($threadlist{$thread} eq $me &&
+				(!defined($nextthreadlist{$thread}) ||
+				$nextthreadlist{$thread} eq "") ) {
+				$nextthreadlist{$thread} = $_;
+d233 6
+d246 1
+d320 5
+d424 1
+a424 1
+	print "<h4>Threads:</h4>","\n";
+d427 3
+@
+
+
+1.17
+log
+@Change "The diaries" to "My diaries", since I think there are Web
+diaries documenting the development of GT; those are truly "The" diaries...
+@
+text
+@a177 1
+
+d214 37
+d413 34
+@
+
+
+1.16
+log
+@Arrange that we can end a program chunk with a long line of
+"-------"
+(or begin, for that matter; that allows arbitrary <pre> html,
+which will get < and other characters properly escaped.
+
+Well, arbitrary as long as you don't want a line of "---" in it.
+(Could kludge one in, I think, by putting blanks on the end...)
+@
+text
+@d251 1
+a251 1
+print "<h3>The <img src=\"../../gifs/gtlogo.jpg\" alt=\"Gran Turismo\"> Diaries</h3>","\n";
+@
+
+
+1.15
+log
+@Moved links out of black background, to make them more readable.
+Added more links, and Copyright at top.
+Removed occurrences of "arpepper".
+@
+text
+@d218 1
+a319 1
+		# for now, program only ends with the end
+d321 7
+d340 3
+d373 1
+@
+
+
+1.14
+log
+@Recognize "prog" (sort of).
+Kludge tables for now with &nbsp;
+@
+text
+@d196 1
+a196 1
+$index = "http://www.math.uwaterloo.ca/~arpepper/gt/diary";
+d264 3
+a266 1
+print "<font size=-1 color=\"white\">\n";
+d277 2
+d281 6
+a286 2
+print "</td>","\n";
+print "</table>","\n";
+d369 1
+a369 1
+print "<font size=-2>\n";
+d384 2
+a385 1
+print "Copyright &copy; 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper\n";
+@
+
+
+1.13
+log
+@kludge to make tables look okay until we get it right.
+(like whenever...)
+This seemed to bring out some problem with smileys.
+@
+text
+@d31 3
+d108 3
+d310 4
+d321 3
+@
+
+
+1.12
+log
+@A little modesty.
+@
+text
+@d60 6
+d67 2
+a68 2
+		$hunk =~ s,^,<tr><td>&nbsp;&nbsp;</td><td>,gm;
+		$hunk =~ s,$,</td></tr>,gm;
+d71 1
+a71 1
+		return &indent_start("15%","&nbsp;&nbsp;") . $hunk . $indent_end;
+d110 3
+a112 3
+	$sentence_c += &pcount("[8.]-[(]",$thunk);
+	$sentence_c += &pcount("[(]-[8.]",$thunk);
+	$sentence_c += &pcount("[)]-[8.]",$thunk);
+@
+
+
+1.11
+log
+@changes.
+@
+text
+@d241 1
+a241 1
+print "<h4>A Lurid Tale of Obsession, Depravity, Wits and Wit</h4>","\n";
+@
+
+
+1.10
+log
+@More silly diddling.
+It's time to start detailed analysis to detect tables.
+@
+text
+@d56 2
+a57 1
+		return &indent_start($percent,$filler) ."<p>\n" . $hunk . $ender{$type};
+d103 1
+a103 1
+	$sentence_c = &pcount("[.?:;)]  ",$thunk);
+d203 2
+d208 2
+a209 2
+$starter{"para"} = &indent_start("10%") . "<p>\n";
+$ender{"para"} = "</p>" . $indent_end;
+d268 1
+d273 1
+@
+
+
+1.9
+log
+@More yucky list heuristics, and kludgey html output.
+@
+text
+@d36 1
+a36 1
+			return $starter{$type} . $hunk . $ender{$type};
+d39 1
+d42 3
+d59 1
+d119 1
+d122 2
+a123 1
+	for ($i = 0; $i < $#lines; ++$i ) {
+a125 1
+		$prefix =~ s/ /&,/g;
+d127 2
+a128 1
+		$indent = &pcount(",",$prefix);
+d137 3
+d207 2
+a208 2
+$starter{"list"} = &indent_start("10%") . "<ul>\n";
+$ender{"list"} = "</ul>" . $indent_end;
+@
+
+
+1.8
+log
+@Reasonably good, stable, with a reasonably perlish structure
+and approach, but now some parameters need tweaking, and I
+need to write a proper table heuristic of some sort.
+@
+text
+@d32 11
+a42 4
+		$hunk =~ s/^\s+-/<li>/gm;
+		$hunk =~ s/\n\s+/ /g;
+		$hunk =~ s,$,</li>,gm;
+		return $starter{$type} . $hunk . $ender{$type};
+d84 3
+d112 17
+@
+
+
+1.7
+log
+@Copyright symbol.
+Happy and sad frog emoticons.
+@
+text
+@d3 3
+d8 1
+a8 1
+	($line) = @@_;
+d18 1
+a18 1
+	$line =~ s/\([Cc]C\)/&copy;/g;
+d23 85
+d110 2
+a111 1
+	($hunk) = @@_;
+d113 4
+d120 3
+a122 6
+	$hunk = &transform($hunk);
+	if ($state eq "list" ) {
+		$hunk =~ s/^/<li>/gm;
+		$hunk =~ s;$;</li>;gm;
+	}
+	print $starter{$state};
+a123 1
+	print $ender{$state};
+d167 5
+a171 4
+$starter{"para"} = "<p>\n";
+$ender{"para"} = "</p>\n";
+$starter{"list"} = "<ul>\n";
+$ender{"list"} = "</ul>\n";
+d201 1
+a201 1
+print "<h4>A Sordid Saga of Obsession, Depravity, Wits and Wit</h4>","\n";
+d232 4
+a235 4
+print "<table width=\"85%\">","\n";
+print "<tr>","\n";
+print "<td width=\"10%\"></td>","\n";
+print "<td>","\n";
+d249 1
+a249 1
+		&display($chunk);
+d271 1
+a271 1
+			&display($chunk);
+d275 1
+a275 1
+			&display($chunk);
+d285 1
+a285 1
+					&display($chunk);
+d293 1
+a293 1
+&display($chunk);
+d295 2
+a296 2
+print "</td>","\n";
+print "</table>","\n";
+@
+
+
+1.6
+log
+@Puts out the page header for each page.
+Perhaps it's a bit excessive...  8-)
+@
+text
+@d11 5
+d225 1
+a225 1
+print "Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper\n";
+@
+
+
+1.5
+log
+@quite close
+@
+text
+@d94 1
+d99 11
+d111 1
+d113 1
+d115 1
+d117 1
+a117 1
+print "<font size=-2>\n";
+a128 1
+print "<br>","\n";
+d130 2
+@
+
+
+1.4
+log
+@completely restructured so I can do stuff like included tables in the
+future.
+
+I actually didn't break it for long doing that.
+
+Also added links at the top.
+@
+text
+@d52 1
+d83 11
+d98 5
+a102 1
+print "<h4>",$title,"</h4>\n";
+d105 4
+a108 1
+	print "<a href=$prevpage>","Previous Entry","</a>","&nbsp;","\n";
+d111 1
+a111 1
+	print "<a href=$nextpage>","Next Entry","</a>","&nbsp;","\n";
+d115 1
+d117 4
+d189 1
+d192 4
+a195 1
+	print "<a href=$prevpage>","Previous Entry","</a>","&nbsp;","\n";
+d198 1
+a198 1
+	print "<a href=$nextpage>","Next Entry","</a>","&nbsp;","\n";
+d202 1
+d206 1
+d213 1
+@
+
+
+1.3
+log
+@Added table for formatting.
+Annoying that that is the only way that seems to work.
+Added email and disclaimers links.
+Need Previous and Next at top.
+Also end, and possibly index/start link.
+@
+text
+@d6 2
+d9 1
+a9 1
+		$line =~ s;http://\S*;<a href="$&">$&</a>;g
+d11 15
+a25 3
+	else {
+		$line =~ s/&/&amp;/g;
+		$line =~ s/</&lt;/g;
+d27 4
+a31 1
+	$line;
+a33 9
+$title = <>;
+print "<html>\n<head>\n<title>\n";
+print $title,"</title>","\n";
+print "<h4>",$title,"</h4>\n";
+print "<body>\n";
+print "<table width=\"85%\">","\n";
+print "<tr>","\n";
+print "<td width=\"10%\"></td>","\n";
+print "<td>","\n";
+d35 1
+d82 20
+d114 2
+d136 2
+a137 2
+			print $ender{$state};
+			print $starter{$newstate};
+d139 4
+a142 2
+		if ($newstate eq "list") {
+			print "<li>";
+d144 3
+a146 1
+		print &transform($_);
+d148 5
+a152 7
+			if ( length($_) < 60 && $_ =~ /[.]$/ ) {
+				print $ender{$state};
+				$newstate = "unknown";
+			}
+			elsif ( $_ !~ /\s/ ) {
+				print $ender{$state};
+				$newstate = "unknown";
+a155 3
+		if ($state eq "list") {
+			print "</li>";
+		}
+d158 1
+a158 1
+print $ender{$state};
+d172 1
+a172 1
+print "<\p>","\n";
+d176 1
+a176 1
+print "<\p>","\n";
+d179 1
+a179 1
+print "<\p>","\n";
+d182 1
+a182 1
+print "<\p>","\n";
+@
+
+
+1.2
+log
+@Sort of works, lots of bugs.
+This includes a little fiddling.
+@
+text
+@d21 6
+a26 1
+print "<body>";
+d39 1
+a39 1
+$names = `cd $myplace; ls *-*-*`;
+d130 3
+d146 6
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d41 1
+a41 1
+print $namelist[$i],"\n";
+d48 1
+d52 1
+d62 4
+a65 2
+$starter{"blanks"} = "<br>\n";
+$ender{"blanks"} = "";
+d87 5
+a91 2
+		if ( $_ =~ /^\s*$/ ) {
+			$newstate = "blanks"
+d109 4
+@

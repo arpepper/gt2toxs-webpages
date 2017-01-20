@@ -1,0 +1,48 @@
+Buy Code Car From Toyota New Car Lineup, Page 1
+For NTSC Version 1.0 (garage FB8, offset 0, tested)
+
+Many thanks and acknowledgements to the people who made all the discoveries
+that enabled me to work this code out.  Especially the people who created
+the "used car lot" purchase codes, and the "buy anywhere" codes upon
+which this code is based.
+
+If you activate this code, then when you go to the Toyota dealer, New
+Cars, page 1, the first car actually available will be the
+Spoon S2000 (B license prize).
+
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C3018  D758 \
+D01C322C  D5D8 |-  Spoon S2000
+801C301A  120D /
+</pre></font></tt>
+
+You can put any car code you want in place of the S2000 code.
+
+The names on the page will still be the regular Toyota ones, but you
+will notice that the one price is unusual. When you select it, the
+code car will be available for purchase, and, if the car is available
+in different colours, the correct choice of colours will be presented
+for you.
+
+The only disadvantage is that you must buy the car for its full "book
+value".
+
+You can extend this code to display 7 code cars at once by replicating
+the above, but replacing 801C3328/801C332A with
+
+<tt><font face="Courier"><pre>
+801C2FCC/801C2FCE
+801C3064/801C3066
+801C30B0/801C30B2
+801C30FC/801C30FE
+801C3148/801C314A
+801C3194/801C3196
+</pre></font></tt>
+
+along with more corresponding car codes.
+
+The eighth car location is used in the <b>D0</b> code to guard the
+codes.  The memory is used for other stuff at other times, and you
+really want to avoid overwriting it blindly.

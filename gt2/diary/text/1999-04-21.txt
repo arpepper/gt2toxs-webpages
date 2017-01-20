@@ -1,0 +1,88 @@
+Wed Apr 21, 1999
+
+The Special NSX is not good, but the Special RX-7 seems excellent
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Prize Money
+  Special Model Information
+
+Well, my slight misgivings about the Honda/Acura NSX-R LM GT2, the
+Cr500,000 model offered by Honda/Acura turned into fully realized
+fears.  In early practice for the Grand Valley 300, I realized
+that the suspension was just too harshly tuned for the twisty,
+occasionally bumpy, track.  Perhaps a good driver could get very
+good times, but I found the problem was that if you hit a minor
+obstacle, recovering from rebound action meant you suffered several
+seconds.
+
+I did soften the suspension considerably, and this made the car quite
+driveable, but I could not overcome its poor power to weight ratio.
+Testing was so difficult I never did get in my usual twelve lap run to
+verify tire wear; only during the race did I discover that this car
+seems to need five pitstops, not just four.  (Strategy note: if you
+think a car will last eleven laps, but definitely not twelve, then come
+in at ten laps anyway.  Pit stops every eleven costs you the same time
+as pit stops every ten, plus the extra time lost driving on the worse
+tires).
+
+Anyway, driving this car in this event left me with no good
+impressions.  So here are the gorey details.
+
+   red NSX-R LM GT2
+   Grand Valley 300km Endurance Race
+
+   q6th 1:46.614
+
+   Results:
+
+   1st  GTO twinturbo     1-42:15.9
+   2nd  CASTROL Supra GT     +4.140
+   3rd  R32GT-R'91           +6.649
+   4th  IMPREZA RLY Ed      +94.735
+   5th  NSX-R LM GT2       +114.659<---
+   6th  Accord Sedan       +399.836
+   
+   lap 1   1:47.769
+   pits   10,20,30,40,50
+   fl  (45)  1:38.286
+   slowest  non-pit   (9)  1:51.821
+
+Thread: Prize Money
+
+I had a lot of minor disasters.   I got Cr50,000 for fifth place.
+
+Time was 1-44:20.6; at least this was more than two minutes better than
+I had managed with the Eclipse.  Note that the game still contrived to
+make me finish fifth, not fourth.  Of course, one could legitimately
+interpret this as a slightly stronger field than the Eclipse had
+faced.
+
+Oh well.  The next contender should fare better.  It is the Mazda
+special model RX7 LM.  I was surprised how well it did in UKvsJP,
+with little practice.
+
+     RX7 LM           UKvsJP
+  TM      q1st badly         1st  3:51.117rec   fl 1:14.909not
+  SSR5    q1st 1:16.116close 1st  3:38.586rec   fl 1:11.087rec
+  HSR     q1st 0:53.306not   1st  2:28.487not   fl 0:47.397not
+  GVEii   q1st 1:01.186not   1st  2:49.772not   fl 0:54.708not
+  SSR11   q1st 1:53.381not   1st  5:23.407close fl 1:45.310close
+
+This won the series, 45 to 28, and won a Cerbera  8-(.  Green, of course.  8-(
+
+Clearly this RX7 can always give a Cerbera LM a good run for its
+money, and occasionally, if not frequently, beat it.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

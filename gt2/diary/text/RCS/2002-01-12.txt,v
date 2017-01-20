@@ -1,0 +1,262 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.02.03.22.42.29;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.02.10.19.59.52;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@RCS for a while as I make major additions.
+@
+
+
+1.2
+log
+@Tricky update
+@
+text
+@Saturday January 12, 2002
+
+Ducati World Racing Challenge Garage Memory Map
+
+Threads:
+  Ducati World Racing Challenge
+  Gameplay Hints
+  Game Shark Hints
+
+<CODES>
+Here's a memory map of the garage and related locations in
+<b>Ducati World Racing Challenge</b>.
+</CODES>
+
+<HTML INDENT>
+
+<font face="Courier">
+<table width=90% cellpadding="0">
+<tr align=top>
+<td valign=top>
+801B6FCC&nbsp;-
+</td>
+<td>
+         cash (4 bytes)
+</td>
+</tr>
+<tr align=top>
+<td valign=top>
+801B6CF8&nbsp;-
+</td>
+<td>
+         day counter (4 bytes)
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+801B6CFC&nbsp;-
+</td>
+<td>
+        number of bikes in garage (2 bytes)
+</td>
+</tr>
+<tr align=top>
+<td valign=top>
+801B6CFE&nbsp;-
+</td>
+<td>
+        current selected bike, 0 origin (2 bytes)
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+801B6D00&nbsp;-
+</td>
+<td>
+<p>
+         bike 1 (32 bytes, first byte is code from <a href="2002-01-10.html">2002-01-10.html</a>)
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+801B6D20&nbsp;-
+</td>
+<td>
+<p>
+         bike 2 (32 bytes)
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+801B6D40&nbsp;-
+</td>
+<td>
+<p>
+         bike 3 (32 bytes)
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+801B6D60&nbsp;-
+</td>
+<td>
+<p>
+         bike 4 (32 bytes)
+</p>
+</td>
+</tr>
+
+<tr align=top>
+<td valign=top>
+801B6D80&nbsp;-
+</td>
+<td>
+<p>
+         bike 5 (32 bytes)
+</p>
+</td>
+</tr>
+
+</table>
+</font>
+</HTML>
+
+Setting the first byte of any of the bike entries will change the name
+and basic identity of the bike to the one you choose.
+Part of the entry obviously corresponds to parts fitted, and another
+part is the value of the bike, but there are many other bytes the
+function of which I haven't determined.
+
+Here's the structure of a garage entry (using the first as an example):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+801B6D00  CC 00 00 00  M1 M2 ?? ??
+801B6D08  ?? ?? ?? ??  ?? ?? ?? ??
+801B6D10  ?? ?? ?? ??  PP PP PP PP
+801B6D18  GG 00 00 00  00 00 00 00
+</pre></font></tt>
+Where:<br>
+<list>
+<li>CC - bike code, from <a href="2002-01-10.html">2002-01-10.html</a>
+<li>M1 - bit map 1 indicates modifications
+<li>M2 - bit map 2 indicates modifications
+<li>PP - 4 byte price
+<li>GG - matches number of garage entry
+</list>
+</HTML>
+<CODES>
+As far as I can tell, most of the indicated unknown bytes are not
+relevant, at least for vintage bikes which can't be modified.
+(Although if you use a <b>GameShark</b> to set the modification bits
+on a vintage bike you get noticeably performance improvements.)
+But I bought (legitimately) two different 60's 500GP bikes, and the
+contents of their garage entries were very different.
+</CODES>
+<HTML INDENT>
+<table><tr><td align="left">&nbsp;&nbsp;&nbsp;</td><td><td valign="top">
+<table><tr><td><b>M1 Values; &quot;Or&quot; together (add hex)</b></td></tr>
+<tr><td>
+<table cellpadding="0">
+<tr><td align="right">Engine Kit I (1)</td><td>01</td></tr>
+<tr><td align="right">(2)</td><td>02</td></tr>
+<tr><td align="right">(3)</td><td>03</td></tr>
+<tr><td align="right">Engine Kit II (1)</td><td>04</td></tr>
+<tr><td align="right">(2)</td><td>08</td></tr>
+<tr><td align="right">(3)</td><td>0C</td></tr>
+<tr><td align="right">Exhaust System (1)</td><td>10</td></tr>
+<tr><td align="right">(2)</td><td>20</td></tr>
+<tr><td align="right">(3)</td><td>30</td></tr>
+<tr><td align="right">Brake Kits (1)</td><td>40</td></tr>
+<tr><td align="right">(2)</td><td>80</td></tr>
+<tr><td align="right">(3)</td><td>C0</td></tr>
+</table>
+</tr></td></table>
+</td><td align="left">&nbsp;&nbsp;&nbsp;
+</td><td valign="top">
+<table><tr><td><b>M2 Values; &quot;Or&quot; together (add hex)</b></td></tr>
+<tr><td>
+<table cellpadding="0">
+<tr><td align="right">Body Kit</td><td>01</td></tr>
+<tr><td align="right">Wheel Sets (1)</td><td>02</td></tr>
+<tr><td align="right">(2)</td><td>04</td></tr>
+<tr><td align="right">Flywheel</td><td>08</td></tr>
+<tr><td align="right">Clutch (1)</td><td>10</td></tr>
+<tr><td align="right">(2)</td><td>20</td></tr>
+<tr><td align="right">Tires (1)</td><td>40</td></tr>
+<tr><td align="right">(2)</td><td>80</td></tr>
+</table>
+</tr></td></table>
+</tr></td></table>
+</HTML>
+
+Another interesting location is:
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+801BA400
+</pre></font></tt>
+</HTML>
+
+<CODES>
+That seems to be the first byte of the vintage bike lot on any day, and
+any bike code (from <a href="2002-01-10.html">2002-01-10.html</a>)
+can be placed there, and purchased and used.  The locations are actually
+entire garage entries, so you can modify the price, or fit parts to
+modifiable bikes.
+</CODES>
+
+Disclaimer: Do not use any of this information unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+
+===============================================================================
+Copyright (C) 2002, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d122 1
+a122 1
+801B6D00  CC 00 00 00  MM MM ?? ??
+d130 2
+a131 1
+<li>MM - 2 byte bit map indicates modifications--details later, maybe
+d136 1
+d139 3
+a141 1
+I bought (legitimately) two different 60's 500GP bikes, and the
+d143 37
+@

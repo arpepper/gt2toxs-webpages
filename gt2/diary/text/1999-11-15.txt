@@ -1,0 +1,41 @@
+Monday November 15, 1999
+
+1967 Corvette Wins the Normal Series
+
+Threads:
+  Car Information
+  Gameplay Hints
+  Hardware Hints
+  Race Results
+
+Now that I have a Game Shark, I found it pretty easy to win the
+Normal Series with a Rally Red 1967 Corvette Coupe.
+
+Details will be filled in later...
+
+
+===============================================================================
+
+                        Normal Car World Speed Contest
++=======================================================================+
+|Date:               |Day:        |Car:                                 |
++-----------------------------------------------------------------------+
+|Major Opponents:                                                       |
++=======================================================================+
+|                    |   qualifying   |       race ("finals")           |
+|                    |----------------|---------------------------------|
+|                    |pos|   time     |pos|   time     |fastest lap |pts|
+|=======================================================================|
+|Autumn Ring Mini ii | P |  M.SS.TTT  | P |  M.SS.TTT  |  M.SS.TTT  | P |
+|--------------------+---+------------+---+------------+----------------|
+|Grand Valley East ii| P |  M.SS.TTT  | P |  M.SS.TTT  |  M.SS.TTT  | P |
+|--------------------+---+------------+---+------------+----------------|
+|Clubman Stage R5 ii | P |  M.SS.TTT  | P |  M.SS.TTT  |  M.SS.TTT  | P |
+|--------------------+---+------------+---+------------+----------------|
+|Deep Forest ii      | P |  M.SS.TTT  | P |  M.SS.TTT  |  M.SS.TTT  | P |
+|--------------------+---+------------+---+------------+----------------|
+|Special Stage R11   | P |  M.SS.TTT  | P |  M.SS.TTT  |  M.SS.TTT  | P |
++=======================================================================+
+|Result:                              |Prize car:                   |PP |
++=======================================================================+
+

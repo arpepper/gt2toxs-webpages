@@ -1,0 +1,54 @@
+Tue Mar  9, 1999
+
+Manipulating Temporary Ghost Replays Without Saving
+
+Threads:
+  Gameplay Hints
+  Game Evaluation
+
+
+Last night, apart from correcting some mistakes I'd made in the
+day 30 Nissan data (consistency checks revealed it), all I did was
+go back and do lots of Arcade mode time trials.
+
+I broke several of my records with ease, and demolished others.  I'm
+probably still about 5 to 10 seconds per lap off world class, however.
+Gee, I hate the big bump at the end of the first long straight, the one
+after the hairpin, with the kink in it, in the the Arcade version of
+Grand Valley East.
+
+I had previously discovered that the time trial "ghost" gets remembered
+from one race to the next.  But I've made more detailed observations
+now.
+
+In Arcade Mode, even though exiting from a particular time trial sends
+you to the main Arcade Mode menu, if you go right back and start
+another time trial at the same track the "ghost" will still be there.
+In fact, even if you reload the game from saved data, the ghost will be
+remembered.  This is useful to allow you to set a nice fastest time
+with, say, the Viper, without wiping out slower records for, say, the
+Honda Civic.  You can erase the most recent record attempt, but keep
+its ghost replay to beat.
+
+Of course, once I do the next round of record-beating, the Civic is
+going to drop off the bottom.  8-(  The game really should only record
+one value per car, or let you remove arbitrary records, or something.
+
+Conversely, if you've managed to create a ghost replay which is too
+fast to be of use with the cars you are racing, you could race another
+track to wipe that ghost out.  But you don't actually have to run the
+time trial; just get to the first screen after your car and track
+selection, and then exit.  This will cause the ghost replay for the
+first track to have been forgotten.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

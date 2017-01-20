@@ -1,0 +1,109 @@
+Saturday, September 29, 2001
+
+I Fairly Quickly Get Another A License Gold on A-3 in Gran Turismo 1
+
+Threads:
+  License Test Progress
+
+<CODES>
+Continuing my quest to get all my A License Gold Medals, I continued
+with 
+<b>A-3</b> (RX-7 doing main straight and first hairpin at Grand Valley)
+actually getting gold after much persistence yesterday.
+
+Starting from a personal best silver time of <b>43.177</b> seconds,
+I had to get down to <b>42.800</b> to get gold.
+</CODES>
+
+Here are my final standings for my A-3 license test.
+
+<HTML INDENT>
+<FONT FACE="Helvetica, Lucida Sans, Courier">
+<TABLE WIDTH="80%"><TR><TD ALIGN="center">
+<TABLE>
+<TR><TD>1.</TD><TD>ARP28Sep01</TD><TD>0:42.765</TD></TR>
+<TR><TD>2.</TD><TD>G.T.GOLD</TD><TD>0:42.800</TD></TR>
+<TR><TD>3.</TD><TD>ARP28Sep01</TD><TD>0:42.815</TD></TR>
+<TR><TD>4.</TD><TD>ARP28Sep01</TD><TD>0:42.832</TD></TR>
+<TR><TD>5.</TD><TD>ARP28Sep01</TD><TD>0:42.987</TD></TR>
+<TR><TD>6.</TD><TD>ARP28Sep01</TD><TD>0:43.026</TD></TR>
+<TR><TD>7.</TD><TD>ARP28Sep01</TD><TD>0:43.056</TD></TR>
+<TR><TD>8.</TD><TD>ARP28Sep01</TD><TD>0:43.061</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FONT>
+</HTML>
+
+Note that, to keep a fairly wide variety of results, and avoid using up
+too many game days, I reload my game when I have done too many tries
+which get "on the board" without setting a new personal record (silver)
+time.
+This time, however, I didn't manage to save any time from previous days.
+
+Thread: Driving Advice
+
+When I started this one, I thought it would take a long time to whittle
+away all the time I needed.
+In fact, it happened reasonably quickly mostly through sub-consciously
+learning how to drive the course.
+
+
+You need to warmup, of course, but it's important to minimize wheel-spin
+when starting, too, so let off a little just before the start.
+
+You can keep the throttle pinned through the first set of esses leading
+on to the main straight but you must concentrate on keeping all the
+lines smooth, and avoiding tire squeal.
+The final corner must be apexed late to allow early acceleration,
+and on my gold run I just barely clipped the inside rumble strip,
+exiting well over 100mph with good acceleration.
+After exiting I smoothly curved to head towards the right side of the
+road.
+
+I took a smooth line through the left turn before the hairpin, and then
+headed into the hairpin before braking and downshifting hard and turning
+in sharply.
+I braked well after the outside rumble strip began; this requires lots
+of practice to be able to keep control of the car.
+On my gold run I did a drift around the hairpin, feathering the throttle
+to keep control, running very close to the rumble strip and arranging
+to mash the gas quite early for an exit to maximize speed on the final
+straight.  I technically apexed late, but actually kept quite close to
+the rumble strip for much of the turn, hitting a minimum speed of 55 mph.
+
+My shifting points (mph) were something like:
+<HTML INDENT>
+<FONT FACE="Helvetica, Lucida Sans, Courier">
+<TABLE WIDTH="80%"><TR><TD ALIGN="center">
+<TABLE>
+<TR><TD>38</TD><TD>up to 2nd</TD></TR>
+<TR><TD>66</TD><TD>up to 3rd</TD></TR>
+<TR><TD>94</TD><TD>up to 4th</TD></TR>
+<TR><TD>127</TD><TD>up to 5th</TD></TR>
+<TR><TD>137</TD><TD>down 3x to 2nd (smoothly while braking)</TD></TR>
+<TR><TD>65</TD><TD>up to 3rd</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FONT>
+</HTML>
+
+Note that 137mph was not my maximum speed; I had already lost some speed
+due to initiating the corner.
+Or maybe I even braked just before down-shifting.
+
+===============================================================================
+Copyright (C) 1999, 2000 the author/owner of
+http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+Monday November 22, 1999
+
+

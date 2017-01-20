@@ -1,0 +1,92 @@
+Mon Jun  7, 1999
+
+More about the Abormal Series
+
+Threads:
+  Race Results
+  Tuned Series Results
+  Prize Car Patterns
+  Driving Advice
+
+
+Someone asked me why I call the "Hard-Tuned Car Speed Contest" the
+"Abnormal Series".
+
+Well, it's on the screen there right beside "Normal", and, well a
+900+ bhp mid-range Japanese 4wd sports car does seem somewhat
+"abnormal".  8-)
+
+I also wasn't explicit about "the trap" at the first corner in
+Clubman R5ii.
+
+If you leave that first corner too late, you can end up in the
+blocked-off straight which would lead to SSR5ii.  In addition to facing
+a flat wall of tyres, if you move along the wall there is a ridge on
+the edge where the wall for the corner meets it, but juts out beyond
+it, making it even more difficult to extricate yourself.  To add to the
+confusion, the game's (er, simulator's) drawing routines get a bit
+confused when you're there.  I'm beginning to realize, though, you can
+see this corner coming, even at > 200mph in a GTO by watching for the
+lane markers to appear on the right.
+
+Now talking about the SSR11 circuit, and the deadly chicane near the
+end, in the "Abnormal Car" Contest you're going around the SSR11
+circuit backwards, so that is actually near the beginning of the
+circuit.  In both cases, if you're out on your own, you can gain lots
+of time by braking early, turning early, and thereby making the second
+corner as wide and fast as possible.
+
+If an AI car is near you, it will sometimes try to tempt you into braking
+too late, and/or will obnoxiously knock you off course even if you brake
+properly.  If you take it easy, however, although you might end up
+behind it going through, you just *might* be able to get by again when
+the AI car screws up its exit.  You might need to take it really easy,
+though, so you can smoothly veer far left around a spun-out AI car.
+It's best to be far ahead enough of the AI cars that you can brake
+comfortably.
+
+Talking about regular SSR11 (clockwise), I think if you are ahead of
+the AI cars going into the final chicane they will not bother you
+*unless* you screwed up the previous corner (slipped too much).  There
+are two thresholds in most races, best illustrated by that track, such
+that if you exceed the first but not the second, you might as well not
+try any harder if you don't want to risk an accident.  In particular,
+watch the central barrier chicane.  In the USvsUK series, as long as
+you go through there somewhere close to 100mph, the AI cars will not
+bother you, but go any faster, and they still stay just as close.  In
+USvsJP and UKvsJP, however, you can more easily get way ahead on that
+race, e.g. by negotiating those barriers really fast.
+
+As far as the chicane at the beginning of the reverse-course SSR11 ii
+goes, it seems the AI cars generally give you a lot of room there,
+compared to the normal direction.  You can brake comfortably early in
+the previous corner, speed up only a little for the short straight, and
+then brake early so as to be able to negotiate the chicane smoothly.
+And, if you do it smoothly, the AI cars don't seem to bother you.
+
+Thread: Prize Car Patterns
+
+I did win with the Tuned Cerbera, actually, but I only got 30 points,
+so the game "helped me win".  It didn't help me win at Clubman Stage
+Route 5 ii, though; there it insisted on sneaking by at the last corner
+of the last lap, even though I thought I had everything under control.
+And I spun out at Grand Valley, reducing a certain second or possible
+first to 4th.  And well, then there's the Autumn Ring.  At least I
+posted my best time so far there, and finished 4th.  So I entered SSR11
+needing (barring a miracle) to win, and I did.  The Cerbera was Cooper
+Green Metallic, by the way.
+
+It won a *red* Skyline, so now there's only a yellow Skyline and a
+pink Trueno to go in the race prize cars.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

@@ -1,0 +1,75 @@
+<b>A GameShark Code to Buy all Colours of All License Test Gold Cars at Toyota</b>
+
+<font color="blue>Gran</font> <font color="red">Turismo 2, version 1.0
+Tested with GameShark Pro, version 3.2
+
+If you activate this code, then when you go to the Toyota dealer, New Cars, page 1, the first seven cars actually available will be the following seven prize cars.  The names on the page will still be the regular ones, but you will notice the prices are different.  When you select a car, the prize car will be available for purchase, and, if the car is available in different colours, the correct choice of colours will be presented for you.  The only disadvantage is that you must buy the car for its full "book value".  Therefore I have included a "lotsa cash" code.   :)
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C3018  D758 \
+D01C322C  D5D8 |- Spoon S2000
+801C301A  120D /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C2FCC  A498 \
+D01C322C  D5D8 |- Concept Car
+801C2FCE  0E35 /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C3064  E59C \
+D01C322C  D5D8 |- 3000 GT LM Edition
+801C3066  1745 /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C30B0  F71C \
+D01C322C  D5D8 |- del Sol LM Edition
+801C30B2  1200 /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C30FC  E65C \
+D01C322C  D5D8 |- FTO LM Edition
+801C30FE  1701 /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C3148  129C \
+D01C322C  D5D8 |- GT-One'99
+801C314A  1E0D /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801C3194  C31C \
+D01C322C  D5D8 |- Cerbera LM
+801C3196  2001 /
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+801D0FCA  05F5 - approximately Cr99,000,000
+
+Notes:
+D01C322C D5D8  -  goes before each "8" code
+This makes sure the changes take effect only when you are in the "Toyota New Car Lineup, Page 1".
+
+The money code works such that your cash gets topped up to about Cr99,000,000 every time you go to the Toyota New Car Lineup 1.
+
+The easiest way to enter this code is to replicate thirty lines of
+
+<tt><font face="Courier"><pre>
+D01C322C  D5D8
+</pre></font></tt>
+
+And afterwards go back and change every second line to be the approriate instruction and car body code.
+
+Each pair of values for a car body code can be changed to any car you want.  I picked the six hard-to-get license test gold cars, plus the Cerbera LM which seems to be elusive for a lot of people.  A nice line-up, I think.  :)

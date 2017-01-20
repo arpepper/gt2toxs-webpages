@@ -1,0 +1,602 @@
+#!/xhbin/perl5 -w
+#
+#
+# Wow, this is a simple greppish field,operator,value tool which is not
+#   bad for finding used cars (especially if several are piped into one
+#   another).
+#
+# For the amount of data we currently have, it seems fine.
+#   We do want the following additional fields though:
+#               max tuned weight
+#               max tuned hp/weight
+#
+#   By changing Albright's data to Connoy's data, and then calculating
+#     the hp/lb "ratios", we should be able to get all those
+#
+
+$OP_MAT = 1;    # ::
+$OP_IN = 2;     # :=
+$OP_LE = 3;     # <=
+$OP_LT = 4;     # <
+$OP_EQ = 5;     # ==
+$OP_GT = 6;     # >
+$OP_GE = 7;     # >=
+
+$OP_AND    = 20;   # and
+$OP_OR     = 21;   # or
+$OP_BUTNOT = 22;   # butnot
+
+$output_type = "";
+
+$field_select = "";
+@sel_fields = ();
+@sel_subfields = ();
+
+$sort_string = "";
+@sort_keys = ();
+@sort_subkeys = ();
+@sort_reverse = ();
+
+$line_limit = 200;
+
+
+#print '$#sel_fields=',"$#sel_fields\n";
+
+$prev_oline = "";
+$line_count = 0;
+sub
+flush_output() {
+	return if $line_count >= $line_limit;
+	local($oline) = @_;
+	if ($prev_oline) {
+		++$line_count;
+		$prev_oline =~ s/%%%LC%%%/$line_count/g;
+		$prev_oline =~ s/%%%MC%%%/$match_count/g;
+		if ($output_type eq "web") {
+			# The following could be very expensive...
+			$prev_oline =~ s/[:,](\d+)\b/<\/td><td align=right>$1/g;
+			$prev_oline =~ s/[:,](-)/<\/td><td align=center>$1/g;
+			$prev_oline =~ s/[:,]/<\/td><td>/g;
+			$prev_oline =~ s/^(\d+)\b/<td align=right>$1/;
+			$prev_oline =~ s/^(-)/<td align=center>$1/g;
+			$prev_oline =~ s/^[^<]/<td>$&/;
+			print "<tr>" , $prev_oline, "</td></tr>\n";
+		}
+		else {
+			print $prev_oline,"\n";
+		}
+	}
+	$prev_oline = $oline;
+}
+@obroken = ();
+sub
+do_output {
+	local($line) = @_;
+	local($oline);
+	my(@temp);
+
+	return if $line_count >= $line_limit;
+	if ( $field_select eq "0" ) {
+		$oline = $line;
+	}
+	else {
+		#
+		# using @olist and joining into $oline later was more expensive
+		#
+		local($f,$fs,$i,$str);
+		@obroken = split(/:/,$line);
+		$oline = "";
+		for ($f = 0; $f <= $#sel_fields; ++$f) {
+			if ($sel_subfields[$f] > 0) {
+				$fs = $obroken[$sel_fields[$f]-1];
+				$i = $sel_subfields[$f]-1;
+				# recompiled pattern expensive... ?
+				#if ($fs =~ /([^,]*,){$i}([^,]*)/ ) {
+				#	$str = $2;
+				#}
+				# yes, following is cheapER
+				$str = (split(/,/,$fs))[$i];
+			}
+			# Room for improvement here,
+			#  but adding $obroken[98] and $obroken[99]
+			#  is more expensive
+			elsif ($sel_fields[$f] == 99) {
+				# Do this, or we'd force all lines out
+				$str = '%%%LC%%%';
+			}
+			elsif ($sel_fields[$f] == 98) {
+				$str = '%%%MC%%%';
+			}
+			elsif ($sel_fields[$f] <= 0) {
+				$str = $line;
+			}
+			else {
+				$str = $obroken[$sel_fields[$f]-1];
+			}
+			$str = "" if (!defined($str));
+			$oline .= ":$str";
+		}
+		$oline =~ s/^://;
+	}
+	if ($oline ne $prev_oline) {
+		&flush_output($oline);
+		$match_count = 1;
+	}
+	else {
+		++$match_count;
+	}
+}
+
+#
+# field_uniq - specialized; also knows that "99,98" can't be sorted on...
+#
+sub
+field_uniq {
+	local($string) = @_;
+	local(@broken) = split(/,/,$string);
+	local(%fhash,$ostring);
+
+	undef(%fhash);
+	$ostring = "";
+	foreach (@broken) {
+		if ($_ !~ /9\d$/ && !defined($fhash{$_}) ) {
+			$ostring .= ",$_";
+			$fhash{$_} = 1;
+		}
+	}
+	$ostring =~ s/^,//;
+	$ostring;
+}
+
+@broken1 = ();
+@broken2 = ();
+
+sub
+cmp_recs {
+	if ( $sort_string eq "0" ) {
+		return $a cmp $b;
+	}
+	else {
+		local($f,$fs1,$fs2,$i,$str1,$str2,$cmpres);
+		@broken1 = split(/:/,$a);
+		@broken2 = split(/:/,$b);
+		for ($f = 0; $f <= $#sort_keys; ++$f) {
+			$str1 = " ";
+			$str2 = " ";
+#print "sort_keys[$f] = |$sort_keys[$f]|\n";
+			if ($sort_subkeys[$f] > 0) {
+				$fs1 = $broken1[$sort_keys[$f]-1];
+				$fs2 = $broken2[$sort_keys[$f]-1];
+				$fs1 = "" unless defined($fs1);
+				$fs2 = "" unless defined($fs2);
+				$i = $sort_subkeys[$f]-1;
+				if ($fs1 =~ /([^,]*,){$i}([^,]*)/ ) {
+					$str1 = $2;
+				}
+				if ($fs2 =~ /([^,]*,){$i}([^,]*)/ ) {
+					$str2 = $2;
+				}
+			}
+			elsif ($sort_keys[$f] <= 0) {
+				$str1 = $a;
+				$str2 = $b;
+			}
+			else {
+				$str1 = $broken1[$sort_keys[$f]-1];
+				$str2 = $broken2[$sort_keys[$f]-1];
+			}
+			$str1 = " " unless defined($str1);
+			$str2 = " " unless defined($str2);
+			if ($str1 !~ /[^.\d]/ && $str2 !~ /[^.\d]/) {
+				$cmpres = $str1 <=> $str2;
+			}
+			else {
+				$cmpres = $str1 cmp $str2;
+			}
+			$cmpres = -$cmpres if ($sort_reverse[$f]);
+			return $cmpres if ($cmpres != 0);
+		}
+	}
+	return $a cmp $b;
+}
+
+sub
+good_op {
+	local($operator) = @_;
+
+	$operator =~ s/^!//;
+	return 1 if &token_op($operator) != 0;
+	return 0;
+}
+
+sub
+token_op {
+	local($operator) = @_;
+
+	return $OP_MAT  if $operator eq "::";
+	return $OP_IN   if $operator eq ":=";
+	return $OP_LT if $operator eq "<";
+	return $OP_LE if $operator eq "<=";
+	return $OP_EQ if $operator eq "=";
+	return $OP_EQ if $operator eq "==";
+	return $OP_GE if $operator eq ">=";
+	return $OP_GT if $operator eq ">";
+	return 0;
+}
+
+sub
+is_match {
+	local($field, $not, $operator, $pattern, $numeric, $numarg) = @_;
+	local($nfield);
+
+	if ( $operator == $OP_MAT ) {
+		return $not ^ ($field =~ /$pattern/i);
+	}
+	elsif ( $operator == $OP_IN ) {
+		return $not ^ ($field =~ /$pattern/);
+	}
+	else {
+		$nfield = $field;
+		$nfield =~ s/[^\d.]//g;
+		$nfield =~ s/([.][^.]*)[.].*/$1/g;
+		$nfield = 0 if ($nfield eq "");
+		# should find cheaper way to remember following
+		if ( $numeric  &&
+				("$nfield" eq "$field" || $field eq "-") ) {
+			# numeric comparison suitable
+			if ( $operator == $OP_LT ) {
+				return $not ^ ($nfield < $numarg);
+			}
+			elsif ( $operator == $OP_LE ) {
+				return $not ^ ($nfield <= $numarg);
+			}
+			elsif ( $operator == $OP_EQ ) {
+				return $not ^ ($nfield == $numarg);
+			}
+			elsif ( $operator == $OP_GE ) {
+				return $not ^ ($nfield >= $numarg);
+			}
+			elsif ( $operator == $OP_GT ) {
+				return $not ^ ($nfield > $numarg);
+			}
+			else {
+			}
+		}
+		else {
+			if ( $operator == $OP_LT ) {
+				return $not ^ ($field lt $pattern);
+			}
+			elsif ( $operator == $OP_LE ) {
+				return $not ^ ($field le $pattern);
+			}
+			elsif ( $operator == $OP_EQ ) {
+				return $not ^ ($field eq $pattern);
+			}
+			elsif ( $operator == $OP_GE ) {
+				return $not ^ ($field ge $pattern);
+			}
+			elsif ( $operator == $OP_GT ) {
+				return $not ^ ($field gt $pattern);
+			}
+			else {
+			}
+		}
+	}
+
+	return 0;   # should not happen
+}
+
+sub
+get_field { # calling a routine for this may be too expensive...
+	local($fno,$sno,$full,@splitted) = @_;
+	local($f);
+
+	return $full if ($fno == 0);
+	if ($sno != 0) {
+		#
+		# following cheaper than keeping the array
+		#    suppose we use same field more than once, though?
+#print "dotted $fno.$sno\n";
+		$f = (split(/[,]/,$splitted[$fno-1]))[$sno-1];	
+#print "$f\n";
+	}
+	else {
+		$f = $splitted[$fno-1];
+	}
+#print "return $f\n";
+	return defined($f) ? $f : "";
+}
+
+sub
+save_schema {
+	local($sline) = @_;
+	local($fno,$sno,$title);
+	local(@fields,@subfields,$s);
+
+	$sline =~ s/^:::Schema://;
+	if ($sline =~ /^(\d+):(.*)/) {
+		$fno = $1;
+		$title = $2;
+		$schema{"$fno"} = $title;
+	}
+	else {
+		@fields = split(/:/,$sline);
+		$fno = 0;   # n.b. always an "empty" field...
+		foreach $title (@fields) {
+			$schema{"$fno"} = $title;
+			if ($title =~ /,/) {
+				$sno  = 1;
+				@subfields = split(/,/,$title);
+				foreach $s (@subfields) {
+					$schema{"$fno.$sno"} = $s;
+					++$sno;
+				}
+			}
+			++$fno;
+		}
+	}
+		
+}
+
+# interpret args as field number:pattern
+#   select from standard input
+
+@fields = ();
+@subfields = ();
+@pats = ();
+$npats = 0;
+for $arg (@ARGV) {
+	# used to try i:, but that was difficult to match...
+	#  (couldn't match something beginning with i...)
+	# fix:: use case-insensitive,  := case significant
+	# still have problems if field begins with [:=]
+	if ($arg =~ /^([\d.]+)([!]{0,1}[:><=][:=]{0,1})(.*)/) {
+		#
+		# Bizarre: we tear apart what findcar put together...
+		#
+		($field, $op, $pat) = ($1, $2, $3);
+#print "$field,$op,$pat\n";
+		if ( &good_op($op) ) {
+			$subfield = 0;
+			if ($field =~ /(\d+)[.](\d+)/ ) {
+				$field = ($1) + 0;
+				$subfield = ($2) + 0;
+			}
+			@fields = (@fields, $field);
+			@subfields = (@subfields, $subfield);
+			@nots = (@nots, ($op =~ s/^!//) + 0);
+			@ops = (@ops, &token_op($op));
+			@pats = (@pats, $pat);
+			$num = $pat;
+			$num =~ s/[^\d.]//g;
+			$num =~ s/([.][^.]*)[.].*/$1/g;
+			$num = 0 if ($num eq "");
+			@nums = (@nums, $num);
+			@numics = (@numics, ("$num" eq "$pat") + 0);
+			++$npats;
+		}
+		else {
+		}
+	}
+	elsif ($arg eq "and") {
+			@fields = (@fields, 0);
+			@subfields = (@subfields, 0);
+			@nots = (@nots, 0);
+			@ops = (@ops, $OP_AND);
+			@pats = (@pats, "");
+			@nums = (@nums, 0);
+			@numics = (@numics, 0);
+			++$npats;
+	}
+	elsif ($arg eq "or") {
+			@fields = (@fields, 0);
+			@subfields = (@subfields, 0);
+			@nots = (@nots, 0);
+			@ops = (@ops, $OP_OR);
+			@pats = (@pats, "");
+			@nums = (@nums, 0);
+			@numics = (@numics, 0);
+			++$npats;
+	}
+	elsif ($arg eq "butnot") {
+			@fields = (@fields, 0);
+			@subfields = (@subfields, 0);
+			@nots = (@nots, 0);
+			@ops = (@ops, $OP_BUTNOT);
+			@pats = (@pats, "");
+			@nums = (@nums, 0);
+			@numics = (@numics, 0);
+			++$npats;
+	}
+	elsif ($arg =~ /^fields{0,1}=/) {
+		$temp = $arg;
+		$temp =~ s/^fields{0,1}=//;
+		$field_select .= $field_select ? ",$temp" : "$temp";
+		@tf = split(/,/, $field_select);
+		for ($i = 0; $i <= $#tf; ++$i) {
+			# should validate numericity...
+			if ($tf[$i] =~ /(.*)[.](.*)/) {
+				push @sel_fields, $1;
+				push @sel_subfields, $2;
+			}
+			else {
+				push @sel_fields, $tf[$i];
+				push @sel_subfields, 0;
+			}
+		}
+	}
+	elsif ($arg =~ /^sortby=/) {
+		$temp = $arg;
+		$temp =~ s/^sortby=//;
+		$sort_string .= $sort_string ? ",$temp" : "$temp";
+	}
+	elsif ($arg =~ /^limit=/) {
+		$line_limit = $arg;
+		$line_limit =~ s/^limit=//;
+		$line_limit =~ s/\D//g;
+	}
+	elsif ($arg =~ /^output=/) {
+		if ($arg eq "output=web" ) {
+			$output_type = "web";
+		}
+		else {
+			$output_type = "";
+		}
+	}
+	else {
+	}
+}
+#for ($i = 0; $i < $npats; ++$i) {
+#print "$i:$fields[$i]\n";
+#print "$i:$subfields[$i]\n";
+#print "$i:$nots[$i]\n";
+#print "$i:$ops[$i]\n";
+#print "$i:$pats[$i]\n";
+#print "$i:$nums[$i]\n";
+#print "$i:$numics[$i]\n";
+#}
+$field_select = "0" if ($field_select eq "");
+#
+# After any user specified sorting, always sort by what is to be printed
+#
+# This can be expensive, though
+#
+# Arranging to use only unique fields saves some, but not a lot, of time,
+#   though.
+#
+$sort_string .= $sort_string ? ",$field_select" : "$field_select";
+$sort_string = &field_uniq($sort_string);
+#print "sortby=$sort_string\n";
+
+@tf = split(/,/, $sort_string);
+for ($i = 0; $i <= $#tf; ++$i) {
+	if ($tf[$i] =~ /^-/) {
+		push @sort_reverse, 1;
+		$tf[$i] =~ s/^-//;
+	}
+	else {
+		push @sort_reverse, 0;
+	}
+	# should validate numericity...
+	if ($tf[$i] =~ /(.*)[.](.*)/) {
+		push @sort_keys, $1;
+		push @sort_subkeys, $2;
+	}
+	else {
+		push @sort_keys, $tf[$i];
+		push @sort_subkeys, 0;
+	}
+}
+
+while (<stdin>) {
+	my(@broken);
+	$line = $_;
+	$line =~ s/\n//;
+	@broken = split(/:/,$line);
+	#
+	# If schema line, save schema info, next
+	#
+	if ($line =~ /^:::Schema:/o ) {
+		&save_schema($line);
+		next;
+	}
+	#
+	# -1 - not set
+	#  1 - true
+	#  0 - false
+	#
+	$match = -1;
+	$mode = $OP_AND;
+	for ($i = 0; $i < $npats; ++$i) {
+		$op = $ops[$i];
+		$not = $nots[$i];
+		if ($op >= $OP_AND) {
+			$mode = $op;
+		}
+		else {
+			#$oldmatch = $match;
+			$pat = $pats[$i];
+			$num = $nums[$i];
+			$numic = $numics[$i];
+			#
+			#  Here lies stuff in need of optimization
+			#
+			$field = &get_field($fields[$i],$subfields[$i],$line,@broken);
+			$submatch = &is_match($field, $not, $op, $pat, $numic, $num);
+			if ($mode == $OP_AND) {
+				if ($match != 0) {
+					$match = $submatch;
+				}
+				#last if ($match == 0 && $oldmatch >= 0);
+			}
+			elsif ($mode == $OP_OR) {
+				if ($submatch > $match) {
+					$match = $submatch;
+				}
+				#last if ($match == 1 && $oldmatch >= 0);
+			}
+			elsif ($mode == $OP_BUTNOT) {
+				$submatch = 1 - $submatch;
+				if ($match != 0) {
+					$match = $submatch;
+				}
+				#last if ($match == 0 && $oldmatch >= 0);
+			}
+		}
+	}
+	if ($match > 0) {
+		#print;
+		#
+		#  with our data, this list can be about 300K,
+		#   but from "top", our process does not seem to
+		#   grow to more than 500K
+		# But, um, 3000K virtual...
+		#
+		push @output, $line;
+		
+	}
+}
+
+@output = sort cmp_recs @output;
+
+if ($output_type eq "web") {
+	print "<table border bgcolor=\"white\">\n";
+	#
+	# Here one wants to put column headings, but then this becomes a
+	#   specialized program
+	#
+	# So, we need to accept a data file to map those.
+	#
+}
+
+if (defined(%schema)) {
+	if ($output_type eq "web") {
+		print "<tr>";
+		for ($f = 0; $f <= $#sel_fields; ++$f) {
+			print "<th>";
+			if ($sel_fields[$f] > 0) {
+				$fid = $sel_fields[$f];
+				if ($sel_subfields[$f] > 0) {
+					$fid .= ".$sel_subfields[$f]";
+				}
+			}
+#print "fid=$fid\n";
+			if (defined($schema{$fid})) {
+				$s = "$schema{$fid}";
+				$s =~ s/,/<\/th><th>/g;
+				print "$s";
+			}
+			print "</th>";
+		}
+		print "</tr>\n";
+	}
+}
+
+foreach $line (@output) {
+	&do_output($line);
+}
+&flush_output("");
+
+if ($output_type eq "web") {
+	print "</table>\n";
+}

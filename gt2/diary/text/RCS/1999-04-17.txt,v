@@ -1,0 +1,153 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Sat Apr 17, 1999
+
+I Finally Get a Complete Set of Gold Cups
+
+Threads:
+  All-Night II Results
+  Tuned Series Results
+  Race Results
+  Prize Car Patterns
+
+I think perhaps Jody suggested to me that I try a tuned GTO twinturbo
+in the Japanese International series as practice.  Well, that seemed to
+do the trick.
+
+I finessed myself a red '95 GTO twinturbo MR. By that I mean I went
+back to a day 17 B license card, winning the Sunday Cup with a stock
+'93 Civic 3dr Si, and then buying the available red '95 GTO MR, and
+saving the game temporarily so I could Memory Card Trade it to my
+"real" game.  Red cars are best.
+
+First of all I took that red tuned '95 GTO MR to UKvsJP, won a Cerbera,
+but still green, 2nd time won a black del Sol.
+
+Then with the same car, I did a near sweep of USvsJP with same won by
+lots (45 to 2nd place 22), and finally won a Viper GTS-R with green, as
+opposed to blue, stripes.  Another near sweep of USvsJP, 45 to 27,
+won a green FTO LM  8-(
+
+Thread: All-Night II Results
+
+The I entered the race I had been pracising for:
+
+  SSR11 All-Night ii   GTO'95 MR
+
+  q1st 1:55.342rec
+
+  1st GTO'95 MR         58:18.448rec
+  2nd FDRX7 Type RZ       +48.139
+  3rd NSX'93              +74.339
+  4th LANCER EvolII GSR   +80.152
+  5th R33GT-R Vspec       +98.880
+  6th CHASER V           +154.000
+
+  pits, end of 8,16,23  I lost the lead on lap 8, but strategy worked.
+  1st lap 1:59.578
+  fl(28)1:50.804rec
+  slowest non-pit lap(30) 1:57.431
+  won: Cr150,000 and solver NISMO GT-R LM
+
+I then tried the USvsJP again, and came third at Trial Mountain (tired,
+I guess), but won 40 to 28, and this time I won a black FTO LM!!!
+Yet another new prize car!!!
+
+Thread: Tuned Series Results
+
+So then I got brave and tried the Hard-Tuned Car Speed Contest, hoping
+to get at least silver this time.
+
+  HSRii    q1st 0:55.671not  1st 4:16.417not  fl(4)0:49.219rec
+  GVii     q1st 1:45.213rec  1st 8:28.480rec  fl(3)1:38.950rec
+  CR5ii    q1st 0:47.999rec  1st 3:47.069not  fl(4)0:43.428not
+  ARii     q1st 1:17.602not  5th 6:23.301not  fl(4)1:14.915not
+  SSR11ii  q1st 1:53.502rec  1st 9:13.633rec  fl(2)1:48.764rec
+  
+  1st 38 to 26 points.
+
+In the Hard-Tuned (aka Abnormal Car) Contest, I swept everything
+but the Autumn Ring ii, ie. poles and wins.  Hey, at the Autumn Ring
+that @@!*@@*! two-wheeling Civic nearly beat me!!!!  I had to outdrag it
+on the finishing straight.  The two points meant that, due to other
+cars exchanging points, I could not lose the series, since I was leading
+29 to 20.  (It's difficult in these series to not earn at least one
+point in a race) But, nonetheless I won the SSR11ii and won the series
+cleanly 38 to 26.  Most races I did with turbo spec 4, and semi-racing
+muffler.  It occurred to me halfway through Autumn Ring that I should
+have used less turbo there, but later time trials did not back that
+up.  Sure, I was able to put in a good time with spec 2(3?), but when I
+put spec 4 back I was able to beat it.  So perhaps a good practice
+technique is to gradually build up to maximum power.
+
+I won the Toyota Trueno  8-(; white, even  8-(
+
+I then swept the JPvsUK series, but won another black del Sol  8-(
+
+So now I've got all my gold race trophies.  I don't suppose I'll ever
+get my gold license tests, though.  I *did* think tuned car series
+might be beyond me, but, well...
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d9 1
+d29 2
+d53 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 5
+@

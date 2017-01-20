@@ -1,0 +1,162 @@
+Wednesday May 16, 2001
+
+tuned Griffith 4.0 wins SSR11 All-Night II in Proper game
+
+Threads:
+  All-Night II Results
+  Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> game
+(Maybe <a href="../logs/proper.txt">here</a>)
+I purchased and tuned (no race-mod) a Griffith 4.0 so I could use it
+to win both the <b>Mega Speed Cup</b> and (even without race-mod) the
+<b>UKvsUS Series</b>.
+
+I've not run the <b>All-nightII</b> very often at all--perhaps because
+it has only one prize.
+I decided the Griffith was a type of car I had never entered in this
+event, and so decided to use it.
+It will also make good practice for the <b>Abnormal Series</b> (<b>Tuned
+Series</b>) I intend to enter the same car in next.
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: proper
+   Day: 82
+   Date: May 16, 2001
+   Car: tuned Formula Red Pearl  TVR Griffith 4.0
+
+   Race: SSR11 All-Night II  Endurance Race
+   Qualified: 1st 1:57.534new  (+3.070) Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: silver NISMO GT-R LM
+
+   Results:
+
+   1st:* Griffith 4.0           54:41.795<--new proper time, okay
+   2nd:  FDRX7 TypeRZ            +263.788  (59:05.583) 2 laps
+   3rd:  Supra RZ                +274.511  (59:16.306) 2 laps
+   4th:  Lancer EvoIII GSR       +297.095  (59:38.890) 2 laps
+   5th:  R33GT-R Vspec           +318.680  (60:00.475) 2 laps
+   6th:  Civic 3door             +446.083  (62:07.878) 3 laps
+
+   Pits: 15
+   fl(21): 1:44.181new
+
+   lap 1   1:58.068
+   slowest  non-pit   (27)  2:00.554
+             next     (30)  1:54.934
+   fastest pit laps   (15in)  1:54.303
+                      (16out) 2:05.918
+   slowest pit laps   (15in)  1:54.303
+                      (16out) 2:05.918
+
+</pre></font></tt>
+</HTML>
+
+I had a good start and got away to a good lead right away.
+
+I lapped the poor Civic on lap 9.
+
+I had lapped the field by my one and only pit-stop, although the Supra
+managed to briefly unlap itself.
+
+I had only one complete spin-out, on lap 27, but apart from that I had
+no time-consuming mishaps at all.
+
+<CODES>
+This was a very reasonably time for me in this race, but a full two
+minutes behind what a cheating <b>GTO'95MR</b> can pull off.
+</CODES>
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:54.358      1:54.358
+ 2   1:47.610      3:41.968
+ 3   1:45.379      5:27.347
+ 4   1:47.421      7:14.768
+ 5   1:46.727      9:01.495
+ 6   1:47.806     10:49.301
+ 7   1:48.468     12:37.769
+ 8   1:48.258     14:26.027
+ 9   1:47.566     16:13.593
+10   1:48.718     18:02.311
+11   1:48.599     19:50.910
+12   1:53.697     21:44.607
+13   1:50.466     23:35.073
+14   1:52.968     25:28.041
+15   1:54.303     27:22.344
+16   2:05.918     29:28.262
+17   1:44.248     31:12.510
+18   1:45.631     32:58.141
+19   1:45.841     34:43.982
+20   1:44.953     36:28.935
+21   1:44.181     38:13.116
+22   1:45.672     39:58.788
+23   1:46.524     41:45.312
+24   1:46.279     43:31.591
+25   1:46.509     45:18.100
+26   1:46.052     47:04.152
+27   2:00.554     49:04.706
+28   1:50.054     50:54.760
+29   1:52.101     52:46.861
+30   1:54.934     54:41.795
+
+</pre></font></tt>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are my settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+           My Settings
+
+
+Tires            S     S
+    all parts maxed (NA1)
+
+Spring Rate     5.1   4.2
+Ride Height     101   101  (min, min)
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               0
+        1st       2.950
+        2nd       1.940
+        3rd       1.340
+        4th       1.000
+        5th       0.808
+                  -----
+        FD        3.300
+
+Aero    (0.12,0.21)  (stock)
+
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

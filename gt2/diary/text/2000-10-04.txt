@@ -1,0 +1,143 @@
+Wednesday October 04, 2000
+
+A Few Cheats For V-Rally 2
+
+Threads:
+  Game Evaluation
+  Game Shark Hints
+  Gameplay Hints
+  Other Games
+
+It's strange that I've never managed to mention V-Rally 2 here.
+I played it quite a bit a few months ago, and was really very
+impressed.  All-in-all, I find it more fun than Colin McRae
+Rally.
+
+Anyway, I want to record here a few useful V-Rally 2 cheats for safe-keeping.
+
+Here are some GameShark Codes I found by using the World Wide Web.
+(<html><a href="http://www.altavista.com/">www.altavista.com</a></html>, actually).
+
+<HTML INDENT>
+<p>
+<blockquote>
+<b>North American (NTSC) version</b><br>
+<b>Unlimited checkpoint and lap time:<br>
+<tt><font face="Courier">
+800C52E8 0F0F</b>
+</font></tt>
+</blockquote>
+<blockquote>
+<b>Unlock all cars:<br>
+<tt><font face="Courier">
+800C6A1C FFFF</b>
+</font></tt>
+</blockquote>
+<blockquote>
+<b>Unlock all tracks and modes:<br>
+<tt><font face="Courier">
+800C6A1E FFFF</b>
+</font></tt>
+</blockquote>
+<blockquote>
+<b>Unlimited credits:<br>
+<tt><font face="Courier">
+D00C5314 2F18<br>
+30017C7F 0003</b>
+</font></tt>
+</blockquote>
+<blockquote>
+<b>Maximum championship points:<br>
+<tt><font face="Courier">
+300C6910 00FF</b>
+</font></tt>
+</blockquote>
+<blockquote>
+<b>Unlimited repair time:<br>
+<tt><font face="Courier">
+D00B8540 7EF4<br>
+8001077A 2400<br>
+</font></tt>
+</b>
+</p>
+</HTML>
+All those codes are credited to <html><A HREF="mailto:ellay1@thaimail.com" >Ellay1</A>.</html>
+
+I found them at <html><a href="http://vgstrategies.about.com/">vgstrategies.about.com</a></html>.
+
+The following key press cheats are attributed to
+<html><a href="mailto:fdgdff34304@unomail.com">F. Mackay</a></html>.
+
+All cars and trophies:
+
+<HTML>
+<BLOCKQUOTE>
+</HTML>
+<html>Press <b>L1</b>, <b>R1</b>, <b>Left</b>, <b>Right</b>,
+<b>Left</b>, <b>Right</b>, <b>Up</b>, <b>Down</b>, <b>Up</b>,
+<b>Down</b>, <b>X</b>, <b>X</b> + <b>Select</b> at the game progress
+screen. A sound will confirm correct code entry. Use cursor keys
+to move to an
+unrevealed square and press <b>X</b> to unlock the corresponding car
+and trophy.  In fact, you can select an unlocked square and toggle it
+off the same way.</html>
+<HTML>
+</BLOCKQUOTE>
+</HTML>
+
+Faster acceleration:
+<HTML>
+<BLOCKQUOTE>
+</HTML>
+Enter <html><b>LDN</b></html> as a driver name.
+<HTML>
+</BLOCKQUOTE>
+</HTML>
+
+Higher jumps:
+<HTML>
+<BLOCKQUOTE>
+</HTML>
+Enter <html><b>_FLY_</b></html> as a driver name. Note <html>&quot;_&quot;</html>
+indicates a space.
+<HTML>
+</BLOCKQUOTE>
+</HTML>
+
+Bonus tracks:
+<HTML>
+<BLOCKQUOTE>
+</HTML>
+Enter one of the following driver names, begin a race,
+then quit. Start a new race, select a car, choose time trail mode,
+select <html>&quot;Corsica&quot;</html>, and select any track to drive
+on the hidden track.
+<HTML INDENT>
+<blockquote>
+<b>CBLC<br>
+CBLCA<br>
+CBLCB<br>
+CBLCC<br>
+CBLCD</b>
+</blockquote>
+</HTML>
+<HTML>
+</BLOCKQUOTE>
+</HTML>
+
+I found those at <html><a href="http://www.gamewinners.com/">www.gamewinners.com</a></html>.
+
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

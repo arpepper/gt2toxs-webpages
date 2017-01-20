@@ -1,0 +1,168 @@
+Wednesday October 25, 2000
+
+(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Race Parameters
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+Another table of pointers to race information begins at $8008F544 with
+information for the Sunday Cup
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   8008F544 - 4 bytes points to Sunday Cup track list ($80090E0C)
+   8008F548 - 4 bytes points to Sunday Cup prize money ($80091004)
+   8008F54C - 4 bytes points to other information ($8008F4E4)
+   8008F550 - 4 bytes points to potential car list ($80090B50)
+   8008F554 - 4 bytes points to prize car list ($80090D0C)
+   8008F558 - 4 bytes points containing number of laps per race (2)
+</pre></font></tt>
+</HTML>
+
+Each event appears to have an entry here like this.
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   8008F544 - Sunday Cup parameters
+   8008F55C - Clubman Cup parameters
+   8008F574 - GT Cup parameters
+   8008F58C - GT World Cup parameters
+
+   8008F5A4 - Normal Series parameters
+   8008F5BC - Tuned Series parameters
+
+   8008F5D4 - Lightweight Series parameters
+   8008F5EC - FF Series parameters
+   8008F604 - FR Series parameters
+   8008F61C - 4WD Series parameters
+
+   8008F634 - HSR Spot Race parameters
+   8008F64C - GVE Spot Race parameters
+   8008F664 - Autumn Mini Spot Race parameters
+   8008F67C - Trial Mountain Spot Race parameters
+   8008F694 - DFRW Spot Race parameters
+
+   8008F6AC - Mega-Speed Series parameters
+
+   8008F6C4 - USvsJP(?) parameters
+   8008F6DC - UKvsJP(?) parameters
+   8008F6F4 - UKvsUS(?) parameters
+
+   8008F70C - GV300 Race parameters
+   8008F724 - SSR11 I Race parameters
+   8008F73C - SSR11 II Race parameters
+
+</pre></font></tt>
+</HTML>
+
+Yet another list of car file names appears at 800C17C2.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+    800D7010 to about
+    800D7268  and maybe beyond
+</pre></font></tt>
+</HTML>
+appears to be car file names followed by expansions of those into
+sort of pseudo-garage entries.
+
+At $800FED16 external car name strings appear to start.
+
+Here are some of the prize list values:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+    80090D0C -> 8008C678 "a-emn" (Demio, Sunday Cup)
+    80090D14 -> 8008C680 "c-30n" (Camaro 30th, Clubman Cup)
+    80090D1C -> 8008C688 "t-hvr" (Chaser LM, GT Cup)
+</pre></font></tt>
+</HTML>
+
+So, we can construct a code to win the B, A and IA license test cars
+for winning the Sunday, Clubman and GT Cup respectively:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+    D0090D0C  C678
+    80090D0C  BD10
+    D0090D14  C680
+    80090D14  BD08
+    D0090D1C  C688
+    80090D1C  BD00
+</pre></font></tt>
+</HTML>
+
+<CODES>
+What we do here is change the pointers to the prize car filename strings to
+point to areas containing the license test prize cars.  (Note I suspect
+the prize car strings may need to be word-aligned, and perhaps even on 4 
+or 8-byte boundaries, since the 5-byte strings used are aligned on 8
+byte boundaries).
+
+So far in most of my <b>GameShark Pro</b> experiments I
+patched the actual characters in the strings.  Perhaps I should experiment
+with changing them to point to non-aligned strings and see if the game
+locks up.   8-(
+
+Now, the Grand Valley 300 entry list contains a lot of neat prize-cars and
+special models.
+
+So I tracked that down.
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+    8008F70C - GV300 Race parameters
+
+    entry list -> 80090BFC
+</pre></font></tt>
+
+<font face="Comic Sans MS">
+At 80090BFC I found:
+</font>
+
+<tt><font face="Courier"><pre>
+    8008C528 "nr32r" ([R] R32'91 Skyline)
+    8008C500 "mgntr" ([R] GTO twinturbo)
+    8008C5C8 "hnslr" (NSX-R LM GT2 Special Model)
+    8008C5D0 "tsplr" (white Castrol Supra GT Special Model)
+    8008C530 "sixpr" (Impreza Rally Edition)
+    8008C5C0 "nl33r" (GT-R LM Special Model)
+    8008C5D8 "tcegr" ([R] Celica GT-4)
+    8008C4F0 "mlnnr" ([R] Lancer EvoIV GSR)
+    8008C5B8 "npror" ([R] Primera'90 2.0te)
+    8008C5A8 "texvr" ([R] EXIV 200GT)
+    8008C5B0 "hacsr" ([R] Accord Sedan)
+    8008C5A0 "altsr" ([R] Lantis TypeR)
+</pre></font></tt>
+</HTML>
+
+Now, the [R] mod cars don't work as prizes, but the Special Models work
+very well.  If you arrange to win one of these, you can sell it for
+Cr300,000!
+
+The other two Special Models can be found at:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+    800C1852 "afn7r" (RX-7 LM Edition)
+    800C1B58 "mgtlr" (GTO LM Edition)
+</pre></font></tt>
+</HTML>
+
+These will require more instructions to set as prizes, because the top
+two bytes need changing as well.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

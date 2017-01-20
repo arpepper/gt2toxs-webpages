@@ -1,0 +1,155 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix up title for indecx
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Sun Feb 21, 1999
+
+HiFi TimeTrials do not use up a simulation day
+
+Threads:
+  Race Results
+  License Test Progress
+  Game Evaluation
+
+Hmm.  I verified this weekend that simulation hifi time trials do not use
+up a simulation day.  I guess this underlines the fact that they are
+really considered as just a demo.  I've read some people getting very
+upset at the fact that a better quality of game is locked away for
+winners only.  But the hifi, though clear, lacks the urban character
+of the corresponding tracks, as created by buildings and such.
+
+I was relieved to find out that regular time trials take only 1
+simulation day no matter how many times you "try again".  I wish
+I'd known that when trying my IA license.  The ghost replay is
+good too, for determining whether one line is actually faster
+than another.
+
+Speaking of inferior tracks, is Autumn Ring II ever annoying.  It's
+like old-fashioned inferior racing games where you cannot see stuff
+coming that you logically should.  Very annoying, especially the
+part just after the staring line.
+
+Thread: Race Results
+
+Anyway, as my observation about hifi mode implies, I won GT World Cup,
+with a Cerbera LM.  High Speed Ring and, surprisingly, Trial Mountain
+were walkovers for me.  I qualified first and then thought I was doing
+a time trial after the start.  At Grand Valley, however, the AI cars
+announced they were out to race, but I won.  SSR5 was also a bit of a
+fight, not only because I started second.  Deep Forest was my usual
+nemesis, with a sixth place qualifying and a third place finish, but
+that was enough to clinch the series actually.  There was no Rally
+Impreza this time, and the AI cars shared the points a bit.  So then
+came SSR11 where I qualified and finished first.
+
+Results:
+
+    1. Cerbera LM         49
+    2. Castrol Supra GT   35
+    3. NSX-R LM GT2       26
+    4. Primera '90 2.0Te  20
+    5. Lancer EvolV GSR   14
+    6. Lantis Type R       6
+
+Not a very international field, I must say.
+
+I was mildly surprised when it began running the credits after the finish,
+and it did not announce "You now have hifi mode".
+
+Interesting that the HiFi page seems to have space above its "back"
+button for another "next" button.  Are there more races to be won?
+
+I got wiped in the Tuned Car contest, finishing fifth in a Cerbera.
+The race that really surprised me was the Clubman Race.  I had read
+your page, and verified in time trials that I could easily qualify
+first, which I did.  But then the race began, and the cars were
+going much faster, and I finished way third.  I almost think
+one of the game developers entering the parameters for the AI
+qualifying times typoed and the times are 5X.XXX where they should be
+4X.XXX
+
+The unfamiliar Autumn Ring II was a dismal sixth place; I couldn't even
+pass the turtle Civic, and SSR11 was a fifth place embarassment.
+
+So after that I amused myself by rewinning the Lightweight Battle
+until I won a couple of Eunoses.  I even switched from an [R]FTO
+to a tuned FTO.  Of course, the screwy handicap algorithm means
+I still win by almost the same margins!  Actually that's a disadvantage
+of their handicapping algorithm; you win by using something
+ridiculous, and only win by a slim margin so you think you need to
+use a car like that, but if you use something slower, the other
+cars will go slower too.
+
+I had raced the Cerbera to wins in Clubman and GT Cup for practice.
+I thought I did the FR series too, but don't seem to have notes.
+
+In practice for the GT World Cup I won UKvsJP again with the Cerbera
+LM, and did a time of 2:29.213 on High Speed Ring, which would have
+just barely been a record before Thursday.  8-)  And I won yet
+another green Cerbera LM!!!!  Grrrr!!!!  That one I did sell...
+
+Well, I took some notes about used cars every ten days, but have
+not cracked the algorithm yet.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.2
+log
+@fixed date format, simplifying
+@
+text
+@d5 5
+d27 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+Sun Feb 21 22:39:48 1999
+@

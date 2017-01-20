@@ -1,0 +1,35 @@
+http://www.velocity.net/~pinewood/ubb/Forum6/HTML/000012.html
+lynx -source http://www.velocity.net/~pinewood/ubb/Forum6/HTML/000012.html | chophtml
+
+There once was this guy.  You musta hearda [B]Gabe[/B].
+
+And he sold this memory card.
+
+On it was one car which was cheap to buy but sold for lots and lots.  I'da bought the card  if I lived in the US, but living in Canada can present shipping problems.
+
+I found the car price addresses, but never could duplicate that trick of his.  Recently I've thought of two possibilities, but I think they must've been what I tried already.   [IMG]http://www.velocity.net/~pinewood/ubb/smilies/cwm14.gif[/IMG]
+
+If car is super expensive, then adding a little for its parts will roll its price over  to a small number.  Or perhaps it can be done with that Cr15,000 license fee.   [IMG]http://www.velocity.net/~pinewood/ubb/smilies/cwm35.gif[/IMG]
+
+Problems are: ending up with negative numbers, and car prices are stored in Yen (or pennies) but mostly manipulated by the game in dollars.  So I seem to remember that the price of my expensive car would start as 2^32-1 divided by 100, and the overflow would never happen.  Which suggests maybe fake parts were installed which would give them really huge values, so that the overflow could occur.  (Hmm.  Fake parts with negative largish negative values might work too...)
+
+Neat thing about this method was that after the garage was made, the money-making would work without a [B]GameShark[/B]
+.
+
+[This message has been edited by GT2toXS (edited 10-30-2000).]
+No [B]HMTL[/B] ...  [IMG]http://www.velocity.net/~pinewood/ubb/smilies/cwm31.gif[/IMG]
+
+===============================================================================
+
+Nobody here, is there?  [IMG]http://www.velocity.net/~pinewood/ubb/smile.gif[/URL]
+
+Well, last night I verified that if you create a car with a very large base price  (base  prices are stored, in "Yen"--ie. credits * 100, as the 100 4-byte quantities immediately before the garage), with parts or license fee to overflow 32 bits, it does not really work.
+
+You go to trade car, and you think it's worked because you get the nice low prices you expect, but when you select it to buy the  price is now about 42 million credits (i.e. something a little more than 4,294,967,296 / 100).
+
+However, I did a code generator search for 1,500,000 (i.e. 15,000 * 100) and got about 200 hits, with lots of them starting in highish memory with an observable granularity  between them of hex 48.  I went and patched some of those to other prices, (FF in the top  of the four bytes).  I didn't manage to get the Starlet Glanza tires I wanted to, but I patched several of these, and then went looking around for a price which might have fewer occurrences, and bingo! I noticed that the Glanza racing suspension now cost something astronomical.
+
+So I patched myself more credits and bought one, then saved the Glanza.  Well now it's memory trade price was negative!  Indeed!  I could buy the car and get more money that way, and afterwards sell it for a paltry Cr8,450 or whatever to empty the garage slot.
+
+So, after resetting the parts values by exiting and re-entering Sim mode, I experimented with patching another part  position in the Glanza garage slot to non-legal values, and, saving each time, was able to get the Glanza to be worth varying middling amounts of money (usually around Cr200,000--correct value was about Cr50,000 for this Glanza), so yes, if I find a part code which reliably pointed to an apparent "part structure" with a negative price, I should be able to duplicate the magic money-making car.  But, especially with Hallowe'en being tonight, it was too late last night to spend the time to think of a way to work out how to do that.
+

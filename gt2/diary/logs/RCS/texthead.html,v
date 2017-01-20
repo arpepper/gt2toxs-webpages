@@ -1,0 +1,68 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.03.27.22.47.35;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.15.21.34.44;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@used by the textview cgi.
+@
+
+
+1.2
+log
+@Added a newsline for som reason.
+@
+text
+@<head><title>View Gran Turismo Log Files</title>
+<base href="http://www.math.uwaterloo.ca/~arpepper/gt/diary/logs/">
+</head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3><img src="../../../gifs/gtlogo.jpg" alt="Gran Turismo"> Log Files</h3>
+</font>
+</td>
+</table>
+<p>
+[<a href="../../">Gran Turismo Pages</a>&nbsp;]
+[<a href="index.html">Other Log Files</a>&nbsp;]
+</p>
+<p>
+To contact the author by
+<a href="../email.html">email</a>.
+</p>
+<p>
+The video game (videogame) title, "Gran Turismo", and its logos, are trademarks of
+Sony Computer Entertainment Incorporated.
+This site is in no way associated with Sony Computer Entertainment
+Incorporated.
+</p>
+<hr>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+<head><title>View Gran Turismo Log Files</title></head>
+d3 1
+@

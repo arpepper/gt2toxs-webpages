@@ -1,0 +1,145 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.06.29.18.26.04;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.06.29.17.01.21;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.06.29.16.55.02;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Came with the CGI as indicated.
+@
+
+
+1.3
+log
+@More customization.
+@
+text
+@<html>
+<head>
+<meta name="robots" content="nofollow">
+
+<title>
+My Gran Turismo Diaries Search Engine</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+<h4>Search Engine</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="1999-01-04.html
+">First Entry</a>&nbsp;]
+[<a href="index.html">Thread Index</a>&nbsp;]
+[<a href="fullindex.html">Full Index</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="../email.html">email</a>&nbsp;]
+[<a href="2000-06-09.html
+">Most Recent Entry</a>&nbsp;]
+</p>
+</font>
+
+<p>
+Use the form below to search through the files in My Gran Turismo Diaries!
+</p>
+<hr>
+<form method=POST action="search.cgi">
+<center><table bgcolor="white" border>
+<tr>
+<th>Text to Search For: </th><th><input type=text name="terms" size=40><br></th>
+</tr><tr>
+<th>Boolean: <select name="boolean">
+<option>AND
+<option>OR
+</select> </th> <th>Case <select name="case">
+<option>Insensitive
+<option>Sensitive
+</select><br></th>
+</tr><tr>
+<th colspan=2><input type=submit value="Search!"> <input type=reset><br></th>
+</tr></table></form></center>
+<hr>
+<p>
+Simple Search created by Matt Wright and can be found at <a 
+href="http://www.worldwidemart.com/scripts/">Matt's Script Archive</a>. 
+</p>
+</body></html>
+
+@
+
+
+1.2
+log
+@Simple changes of name.
+@
+text
+@d2 2
+a3 7
+ <head>
+  <title>My Gran Turismo Diaries Search Engine</title>
+ </head>
+ <body bgcolor=#FFFFFF text=#000000>
+  <center>
+   <h1>My Gran Turismo Diaries Search Engine</h1>
+  </center>
+d5 36
+a40 2
+	Use the form below to search through the files in My Gran Turismo Diaries!<p>
+<hr size=7 width=75%><p>
+d42 1
+a42 1
+<center><table border>
+d56 2
+a57 1
+<hr size=7 width=75%><p>
+d60 1
+d62 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+  <title>Matt's Script Archive Search Engine</title>
+d7 1
+a7 1
+   <h1>Matt's Script Archive Search Engine</h1>
+d10 1
+a10 1
+	Use the form below to search through the files at Matt's Script Archive!<p>
+d12 1
+a12 1
+<form method=POST action="http://www.math.uwaterloo.ca/~arpepper/dl/www.worldwidemart.com/search/search.cgi">
+@

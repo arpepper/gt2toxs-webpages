@@ -1,0 +1,313 @@
+December 28, 2001
+Note: Saturday
+       I hoped to do this game in 24 hours elapsed time, but didn't
+       properly prepare to do that, and needed about eight hours
+       sleep and actually took about 32 hours.
+       I allowed myself to sell cars, and did not wait to get licenses
+       but hoped to do events in license order, but was not going to
+       be too finicky.
+       I started with the FC RX-7 since in the back-of-my-mind I want
+       to do some day do a 100-day game using Mazdas as much as possible,
+       and that is (probably) the correct starter car for that game.
+       (Hmm.  A Eunos would be eligible for the LightWeight Series, though).
+
+Note: 4:15pm
+   1      B4 pass 0:25.245 S (1 try)
+   2      B5 pass 0:24.285 S (1 try)
+   3      B3 pass 0:29.352 B (1 try)
+   4      B6 pass 0:26.688 S (1 try)
+   5      B7 oass 0:26.017 S (1 try)
+   6      B1 pass 0:34.651 G (1 try)
+   7      B2 pass 0:26.726 B (1 try)
+   8      B8 pass 1:20.155 S (1 try)
+   9   B license acquired  4:33.119
+Note: 4:29pm - first save game
+
+   9      A1 pass 0:33.047 B (1 try)
+  10      A2 pass 0:25.021 S (1 try)
+  11      A3 FAIL
+  12      A3 pass 0:43.530 B (2 tries)
+  13      A4 pass 0:38.860 B (1 try)
+  14      A5 pass 0:30.790 B (1 try)
+  15      A6 pass 0:26.702 B (1 try)
+  16      A7 pass 0:29.190 G (1 try)
+  17      A8 pass 1:06.298 B (1 try)
+  18   A license acquired  4:53.438
+Note: 4:44pm - save game again
+
+  18       IA1 HSR    pass 1:05.570 B (1 try)
+  19       IA3 GV     pass 2:01.057 B (1 try)
+Note: 4:51pm - save game
+
+  20   buy car FCRX7   Blaze Red Mazda RX-7 GT-X (Savanna) (Cr8,110)
+  20   buy parts  FCRX7  chip  (Cr1,500)
+  20   fit parts  FCRX7  chip
+  20   Cr390
+
+  20-23   FCRX7      Sunday      q4H,1st27to18,12,9,5,4        Demio(1/1)(sold)
+  24   Cr27,390   Cr39,390
+Note: 5:17pm  (saving after most purchases and races now)
+
+  24   buy car FTO'94GPX  Passion Red Mitsubishi FTO'94 GPX (Cr11,150)
+  24   Cr28,240
+  24   buy parts  FTO'94GPX  S/S, NA2  (Cr15,000, Cr12,000)
+  24   fit parts  FTO'94GPX  S/S, NA2
+  24   Cr1,240
+  24-27   FTO'94GPX   FF  q6*D2G2,2nd24to(21),10,9,7,4          8-(
+  28   Cr10,240
+Note: 6:00pm
+  28   buy parts  FTO'94GPX  Rmuff,Fstab,Rstab (Cr4,500, Cr700, Cr600)
+  28   fit parts  FTO'94GPX  Rmuff,Fstab,Rstab
+  28   Cr4,440
+  28-31   FTO'94GPX   FF  q6G1st27to14,11,10,7,6           blackCRX(1/6)(sold)
+  32   Cr32,440   Cr44,440
+
+  32   mod car FTO'94GPX   WR1,WR2  (Cr1.200, Cr5,500)  2579 -> 2191lb
+  32   Cr37,740
+  32-35   FTO'94GPX  Lwt  q4cq4D,1st27to18,12,9,5,4       blueCivic(1/6)(sold)
+  36   Cr64,740   Cr76,740
+  36   Note: 7:24pm
+
+  36   buy car tunedFCRX7  Blaze Red Mazda RX-7 GT-X (Savanna) (Cr8,050)
+  36   Cr68,690
+  36   mod car tunedFCRX7  WR1,WR2  (Cr1,200, Cr5,500)
+  36   buy parts  tunedFCRX7  TS2,Ric,Rmuff (Cr12,000, Cr3,000, Cr4,500)
+  36   buy parts  tunedFCRX7  S/S,Fstab,Rstab (Cr15,000, Cr700, Cr600)
+  36   buy parts  tunedFCRX7  SpBr            (Cr5,000)
+  36   Cr20,690
+  36   fit parts  tunedFCRX7  TS2,Ric,Rmuff,S/S,Fstab,Rstab,SpBr,+chip
+Note: 7:45pm
+  36-39   tunedFCRX7 FR  sw27to18,12,9,5,4            greenS13Silvia(1/6)(sold)
+  40   Cr50,190   Cr62,190
+  40   power off
+Note: 8:08pm break
+Note: 8:37pm
+
+  40   buy car GTO'92tt   Passion Red Mitsubishi GTO '92 twin turbo (Cr15,160)
+  40   Cr47,030
+  40   buy parts  GTO'92tt    TS2,Ric         (Cr14,000, Cr3,500)
+  40   mod car  GTO'92tt   WR1,WR2  (Cr1,500, Cr6,000)
+  40   buy parts  GTO'92tt    S/S,Fstab,Rstab (Cr15,000, Cr700, Cr600)
+  40   Cr5,730
+  40-43   GTO'92tt    4wd   sw27to14,12,10,9,3         whiteAlcyone(1/6)(sold)
+  44   Cr35,230   Cr47,230
+  44-47   tunedFCRX7  Clubman        sw27to14,13,11,7,3      Camaro(1/1)(sold)
+  48   Cr88,230   Cr100,230
+
+  48   buy car  RT/10  Blue with White Stripes Dodge Viper RT/10 (Cr68,800)
+  48   Cr31,430
+Note: 10:02pm
+  48-53   RT/10     Normal  sw45to30,16,16,11,7       orangeImpreza(1/6)
+  54   Cr431,430
+Note: 11:02pm
+
+  54   buy car [R]FCRX7  Brave Blue Mica Mazda RX-7 GT-X (Savanna) for [R]-mod (Cr9,470)
+  54   Cr421,960
+  54   mod car [R]FCRX7  [R]mod    (Cr85,000)
+  54   mod car [R]FCRX7  port,bal  (Cr5,500, Cr13,500)
+  54   buy parts  [R]FCRX7  Rtrans,3clu,Rfw (Cr10,000, Cr5,000, Cr1,000)
+  54   buy parts  [R]FCRX7  shaft,TS3,Rsusp (Cr3,000, Cr36,000, Cr18,000)
+  54   buy parts  [R]FCRX7  bctlr           (Cr10,000)
+  54   Cr234,460
+  54   fit parts  [R]FCRX7  all max  (forgot chip)
+  54-59   [R]FCRX7   UKvsJP    1st45to23,19,18,13,7    greenCerbera(1/4)
+  60   Cr310,460
+Note: 12:21am
+  60-65   [R]FCRX7  USvsJP q2Hq3G,1st45to28,20,17,9,6  ViperWblueSt(1/4)
+  66   Cr389,460
+Note: 1:08am
+  66  mod car [R]CerberaLM (alias greenCerbera)
+  66-71   [R]CerberaLM  UKvsUS   sw45to24,21,18,11,6   purpleConcept(1/4)
+  72   Cr474,460
+Note: 2:02am
+
+  72   buy car tunedGTO'92tt  Passion Red Mitsubishi GTO '92 twin turbo (Cr14,760)
+  72   mod car  tunedGTO'92tt   WR1,WR2,WR3  (Cr1,500, Cr6,000, Cr25,000)
+  72   mod car  tunedGTO'92tt   port,bal  (Cr6,000, Cr16,000)
+  72   buy parts  tunedGTO'92tt  Rmuff,SpBr,Bctlr (Cr5,000, Cr5,000, Cr10,000)
+  72   buy parts  tunedGTO'92tt  chip,Rtrans,3clu (Cr2,000, Cr10,500, Cr5,000)
+  72   buy parts  tunedGTO'92tt  Rfw,shaft        (Cr1,200, Cr3,500)
+  72   buy parts  tunedGTO'92tt  TS3,TS4          (Cr45,000, Cr72,000)
+  72   buy parts  tunedGTO'92tt  Rsusp            (Cr20,000)
+  72   Cr226,000
+Note: 2:15am
+  72-75   tunedGTO'92tt  Mega  sw27to15,14,7,6,6    redOrangeSoarer(1/6)
+  76   Cr316,000
+
+  76       IA5 Autumn FAIL
+  77       IA5 Autumn FAIL
+  78       IA5 Autumn FAIL
+  79       IA5 Autumn pass 1:23.314 B (4 tries)
+  80       IA7 SSR11  FAIL 2:15.094
+  81       IA7 SSR11  pass 2:13.304 B (1 try)
+  82       IA2 SSR5   FAIL 1:32.479
+  83       IA2 SSR5   pass 1:29.423 B (2 tries)
+  84       IA4 DFRW   FAIL 1:25.451
+  85       IA4 DFRW   pass 1:23.276 B (2 tries)
+  86       IA6 TM     pass 1:31.852 B (1 try)
+  87       IA8 GVii   FAIL 2:01.782
+  88       IA8 GVii   pass 1:57.572 B (2 tries)
+  89   IA license acquired  13:05.368
+Note: 3:29am
+
+  89-93   tunedGTO'92tt  GTC  sw36to24,16,10,9,5           ChaserLM(1/1)
+  94   Cr401,000
+Note: 4:12am (12hours) need sleep
+  94   power off
+
+
+December 29, 2002
+Note: 11:52am
+  94-95   tunedGTO'92tt    All-nightII  q1st1st  silverNismoGT-R LM(1/1*)
+  96   Cr571,000
+Note: 1:50pm
+  96-101  tunedGTO'92tt Abnormal sw45to25,20,17,13,5  yellowSkyline(1/6)
+  102  Cr971,000
+Note: 3:25pm
+ 102-103  [R]FCRX7         All-nightI   q1st1st       greenSilviaLM(1/2)
+  104  Cr1,141,000
+Note: 5:37pm
+
+ 104-105  tunedFCRX7 Spot/HSR        q1st1st                   none
+ 106-107  tunedFCRX7 Spot/GVE        q1st1st                   none
+  108  Cr1,144,000
+
+ 108-109  tunedFCRX7 Spot/AM         q1st1st                   none
+ 110-111  tunedFCRX7 Spot/TM         q1st1st                   none
+ 112-113  tunedFCRX7 Spot/DFRW       q1st1st                   none
+  114  Cr1,148,500
+Note: 6:47pm
+
+ 114-115  [R]FCRX7      GV300        q4th1st        black/blueSupra(1/2)
+  116  Cr1,448,500
+Note: 9:46pm
+
+ 116-122  [R]CerberaLM  GTI  sw54to36,21,19,14,6       hifi+  credits
+  123  Cr1,678,500
+Note: 10:47pm
+Note: did Arcade Mode
+Note: Arcade Mode complete a 12:49am
+  123  power off
+  
+January 5, 2003
+  123  buy car FDRX7'91  Competition Yellow Mica Mazda '91 efini RX-7 Type R (Cr20,150)
+  123  buy car tunedFDRX7'91  Competition Yellow Mica Mazda '91 efini RX-7 Type R for hard-tune (Cr20,150)
+  123  buy car [R]FDRX7'91  Competition Yellow Mica Mazda '91 efini RX-7 Type R for race-mod (Cr20,150)
+  123  Cr1,618,050
+  123  mod car [R]FDRX7'91  [R]mod  (Cr85,000)
+  123  mod car [R]FDRX7'91  pol,bal  (Cr6,000 Cr16,000)
+  123  Cr1,511,050
+ 123-126   FDRX7'91  Sunday  sw27to18,11,10,5,4                Demio(dup)(sold)
+  127  Cr1,539,050  Cr1,551,050
+  127  mod car tunedFDRX7'91  WR1,WR2,WR3   (Cr1,500, Cr6,000, Cr25,000)
+  127  mod car tunedFDRX7'91  pol,bal  (Cr6,000 Cr16,000)
+  127  buy parts tunedFDRX7'91  Rmuff,SpBr,Bctlr   (Cr5,000, Cr5,000, Cr10,000)
+  127  buy parts tunedFDRX7'91  chip,Rtrans,3clu   (Cr2,000, Cr10,500, Cr5,000)
+  127  buy parts tunedFDRX7'91  Rfw,shaft,Ric      (Cr1,200, Cr3,500, Cr3,500)
+  127  buy parts tunedFDRX7'91  TS2,TS3,S/S     (Cr14,000, Cr45,000, Cr15,000)
+  127  Cr1,377,350
+  127  buy parts tunedFDRX7'91  Rsusp,Fstab,Rstab  (Cr20,000, Cr700, Cr600)
+  127  fit parts tunedFDRX7'91  max-tune (TS3)
+  127  fit parts [R]FDRX7'91  max-[R] (TS3)
+  127  Cr1,356,050
+ 127-132  [R]FDRX7'91  UKvsJP  sw45to25,18,18,10,9     greenCerbera(dup)(sold)
+  133  Cr1,441,050  Cr1,453,050
+  133  power off
+
+January 9, 2003
+ 133-137  tunedFDRX7'91  GTC  D3,1st31to27,18,11,8,5       ChaserLM(dup)(sold)
+  138  Cr1,531,050  Cr1,543,050
+  138  power off
+
+January 11, 2003
+ 138      TT tunedFDRX7'91  GVEii  1:00.435 + 0:56.465 = 1:56.900  0:55.976fl
+ 139      TT tunedFDRX7'91  GV     1:45.287 + 1:39.778 = 3:25.065  0:55.976fl
+  140  buy car redFDRX7'91  Vintage Red Mazda '91 efini RX-7 TypeR (Cr20,420)
+  140  Cr1,522,630
+  140  mod car  redRX7'91     WR1,WR2,WR3   (Cr1,500, Cr6,000, Cr25,000)
+  140  mod car  redRX7'91     pol,bal  (Cr6,000 Cr16,000)
+  140  Cr1,468,130
+  140  fit parts redRX7'91  max-tune
+ 140-143  redRX7'91  FR  sw27to18,12,8,7,3              redS13Silvia(2/6)
+Note: prize is 1/6 in garage, but 2/6 actually won
+  144  Cr1,497,630
+  144  power off
+
+January 12, 2003
+ 144      TT tunedFDRX7'91  GVEii  1:00.788 + 0:56.901 = 1:57.689  0:55.957fl
+  145  buy car tunedRX7RB  Vintage Red Mazda efini RX-7 TypeRB Bathurst (Cr32,400)
+  145  Cr1,465,230
+  145  mod car  tunedRX7RB    WR1,WR2,WR3   (Cr1,500, Cr6,000, Cr25,000)
+  145  mod car  tunedRX7RB    pol,bal  (Cr6,000 Cr16,000)
+  145  buy parts tunedRX7RB     Rmuff,SpBr,Bctlr   (Cr5,000, Cr5,000, Cr10,000)
+  145  buy parts tunedRX7RB     chip,Rtrans,3clu   (Cr2,000, Cr10,500, Cr5,000)
+  145  buy parts tunedRX7RB     Rfw,shaft,Ric      (Cr1,200, Cr3,500, Cr3,500)
+  145  buy parts tunedRX7RB     TS2,TS3,S/S     (Cr14,000, Cr45,000, Cr15,000)
+  145  buy parts tunedRX7RB     Rsusp,Fstab,Rstab  (Cr20,000, Cr700, Cr600)
+  145  Cr1,269,730
+  145  fit parts tunedFDRX7'91  max-tune (TS3)
+ 145      TT tunedRX7RB     GVEii  n/c
+ 146      TT tunedRX7RB     GV     1:44.271 + 1:39.417 = 3:23.688  1:39.288fl
+  147  buy car  RX7RZ  Brilliant Black Mazda efini RX-7 TypeRZ (Cr40,150)
+  147  Cr1,229,580
+  147  buy car  RX7Aspec  Competition Yellow Mica Mazda efini RX-7 Aspec (Cr45,140)
+  147  Cr1,184,430
+  147  buy car NSXS0  Imola Orange Pearl NSX Type S-Zero  (Cr98,570)
+  147  Cr1,085,860
+ 147-152  NSXS0   Normal C2D2,1st39to36,20,14,11,5    orangeImpreza(dup)(sold)
+  153  Cr1,395,860  Cr1,407,860   Note: no Impreza
+  153  power off
+
+January 17, 2003
+ 153-158  NSXS0   Normal q6D2,1st42to33,19,16,10,5    purpleSupraRZ(2/6)
+  159  Cr1,757,860                Note: no TRD
+  159  power off
+
+January 18, 2003
+ 159-164  NSXS0  Normal q5Dq6S,1st45to30,20,13,11,6     blueImpreza(3/6)
+  165  Cr2,137,860  28 cars        Note: no Lancer
+  165  buy car RX7RB  Vintage Red Mazda efini RX-7 TypeRB Bathurst (Cr32,400)
+  165  Cr2,105,460  29 cars
+  165  power off
+ 165      TT RX7RZ   GVEii  1:15.114 + 1:08.916 = 2:24.030  1:08.528fl
+ 166      TT RX7RZ   AMii   0:41.388 + 0:38.114fl = 1:19.502
+  167  Cr2,105,460
+  167  power off
+
+January 19, 2003
+ 167-172  RX7RZ  Normal q2Aq2Gq6D2,1st42to31,21,15,11,5 blueImpreza(dup)(sold)
+  173  Cr2,435,460  Cr2,447,460  29 cars   Note: no NSX
+ 173      TT RX7Aspec  AMii   0:41.700 + 0:37.761fl = 1:19.461
+ 174      TT RX7Aspec  DFRWii 1:30.319 + 1:22.098 = 2:52.417
+  175  buy car  Cosmo20B  Passion Rose Mica Mazda Eunos Cosmo 20B Type-E CCS (Cr10,250)
+  175  Cr2,437,210  30 cars
+ 175-180  RX7Aspec  Normal q6Gq6D2q6S,1st42to33,18,15,11,5 blueImpreza(dup)(sold)
+  181  Cr2,767,210  Cr2,779,210  30 cars   Note: no NSX
+  181  power off
+
+January 22, 2003
+  181  buy car  tunedCosmo20B  Passion Rose Mica Mazda Eunos Cosmo 20B Type-E CCS (Cr10,250)(trade)
+  181  Cr2,768,960  31 cars
+  181  mod car  tunedCosmo20B  WR1,WR2,WR3   (Cr1,500, Cr6,000, Cr25,000)
+  181  mod car  tunedCosmo20B  pol,bal  (Cr6,000 Cr16,000)
+  181  buy parts tunedCosmo20B   Rmuff,SpBr,Bctlr   (Cr5,000, Cr5,000, Cr10,000)
+  181  buy parts tunedCosmo20B   chip,Rtrans,3clu   (Cr2,000, Cr10,500, Cr5,000)
+  181  buy parts tunedCosmo20B   Rfw,shaft,Ric      (Cr1,200, Cr3,500, Cr3,500)
+  181  buy parts tunedCosmo20B   TS2,TS3,S/S     (Cr14,000, Cr45,000, Cr15,000)
+  181  buy parts tunedCosmo20B   Rsusp,Fstab,Rstab  (Cr20,000, Cr700, Cr600)
+  181  Cr2,593,460
+  181  fit parts tunedCosmo20B   max-tune  673hp  3073lb
+  181  Note: tunedCosmo20B max-speed  229mph
+ 181-184  tunedCosmo20B  Mega  q6*H4,1st21to17,16,11,5,5     redDB7(2/6)
+  185  Cr2,635,460  32 cars
+  185  power off
+
+January 23, 2003
+ 185-188  tunedCosmo20B  FR  sw27to18,11,10,5,4         redS13Silvia(dup)(sold)
+  189  Cr2,664,960   Cr2,676,960   32 cars
+ 189-192  tunedCosmo20B  Mega  q6*H4H2,2nd20to(18),16,11,5,5    8-(
+  193  Cr2,703,960
+January 24, 2003
+  193  Note: tunedCosmo20B   0-400  11.008    0-1000  18.662
+ 193      TT tunedCosmo20B  HSR  0:57.692 + 0:50.931 = 1:48.623
+  194  power off

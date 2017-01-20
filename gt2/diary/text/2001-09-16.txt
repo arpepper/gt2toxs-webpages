@@ -1,0 +1,202 @@
+Sunday September 16, 2001
+
+In Mitsubishi Game, [R]GTO'92 twinturbo Convincingly Wins Grand Valley 300
+
+Threads:
+  Grand Valley 300 Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/mitsu">mitsu</a> game
+(Maybe <a href="../logs/mitsu.txt">here</a>)
+I am using the 1992 Mitsubishi GTO twin turbo as much
+as possible,
+and so entered the race-mod version in the Grand Valley 300.
+
+It was a very easy win.
+</CODES>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: mitsu
+   Day: 99
+   Date: September 16, 2001
+   Race: Grand Valley 300KM Endurance Race
+   Car: Mitsubishi [R]GTO'92 twinturbo (S/S)
+   Qualified: 1st(+9.595) 1:35.270new
+   Result: 1st
+   Money: Cr300,000
+   Prize-Car: black/blue Castrol Supra GT
+
+   Results:
+
+   1st:* [R]GTO'92 twinturbo      1-33:40.7<--new
+   2nd:  [R]GTO twinturbo          +512.144  (1-42:12.8)  4 laps
+   3rd:  [R]NSX-R LM GT2           +522.742  (1-42:23.4)  4 laps
+   4th:  [R]Primera'90 2.0Te       +617.579  (1-43:58.3)  5 laps
+   5th:  [R]Celica GT-Four         +737.109  (1-45:57.8)  6 laps
+   6th:  [R]Lantis TypeR           +869.332  (1-48:10.0)  7 or 8 laps
+
+   Pits:  12,24,36,48
+   fl(15): 1:29.788new
+
+   lap 1   1:36.956
+   slowest  non-pit    (9)  1:37.095
+             next     (21)  1:34.987
+   fastest pit laps   (12in)  1:48.323
+                      (25out) 1:37.016
+   slowest pit laps   (48in)  1:49.827
+                      (37out) 1:38.456
+
+</pre></font></tt>
+</HTML>
+
+I got a good start, and never lost the lead.
+
+I lapped the entire field shortly after my first stop on lap 12.
+
+I kept going at that progress, and had just lapped the GTO a fourth
+time but it did not stick, and, although I lapped it again soon after
+that, I failed to lap either the GTO or the NSX a fifth time.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+I beat my recent Skyline GT-R'89 time by 12 seconds, and my Cerbera LM
+time by 8 seconds, so this is currently my second fastest car.
+However, during this race I did not run into the pitstop bug, so that
+more than accounts for why the Skyline was slower.
+
+Once again, for your analytical enjoyment, I here present all 60 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:36.959      1:36.959
+ 2   1:30.521      3:07.480
+ 3   1:30.382      4:37.862
+ 4   1:30.685      6:08.547
+ 5   1:30.602      7:39.149
+ 6   1:31.510      9:10.659
+ 7   1:31.726     10:42.385
+ 8   1:34.208     12:16.593
+ 9   1:37.095     13:53.688
+10   1:32.662     15:26.350
+11   1:33.771     17:00.121
+12   1:48.323     18:48.444
+13   1:37.186     20:25.630
+14   1:30.913     21:56.543
+15   1:29.788     23:26.331
+16   1:30.970     24:57.301
+17   1:31.024     26:28.325
+18   1:32.180     28:00.505
+19   1:31.488     29:31.993
+20   1:31.723     31:03.716
+21   1:34.987     32:38.703
+22   1:32.641     34:11.344
+23   1:33.800     35:45.144
+24   1:48.735     37:33.879
+25   1:37.016     39:10.895
+26   1:29.981     40:40.876
+27   1:30.486     42:11.362
+28   1:31.161     43:42.523
+29   1:31.700     45:14.223
+30   1:33.281     46:47.504
+31   1:31.787     48:19.291
+32   1:31.782     49:51.073
+33   1:33.583     51:24.656
+34   1:33.696     52:58.352
+35   1:33.889     54:32.241
+36   1:49.285     56:21.526
+37   1:38.456     57:59.982
+38   1:29.983     59:29.965
+39   1:30.826   1-01:00.791
+40   1:31.959   1-02:32.750
+41   1:30.854   1-04:03.604
+42   1:30.470   1-05:34.074
+43   1:32.101   1-07:06.175
+44   1:32.081   1-08:38.256
+45   1:32.622   1-10:10.878
+46   1:33.493   1-11:44.371
+47   1:34.548   1-13:18.919
+48   1:49.827   1-15:08.746
+49   1:37.020   1-16:45.766
+50   1:31.347   1-18:17.113
+51   1:30.400   1-19:47.513
+52   1:31.234   1-21:18.747
+53   1:30.936   1-22:49.683
+54   1:31.253   1-24:20.936
+55   1:32.512   1-25:53.448
+56   1:32.933   1-27:26.381
+57   1:34.748   1-29:01.129
+58   1:33.281   1-30:34.410
+59   1:32.964   1-32:07.374
+60   1:33.399   1-33:40.773
+
+</pre></font></tt>
+</HTML>
+
+Actual total count, at 800BDB74, was 0055C425, or 5620773 thousandths
+of seconds.  So the above is exactly right.
+
+printf("%d\n", 0x55C425);
+
+
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS4)
+
+Spring Rate     7.2   4.1
+Ride Height     100   115   (min, nqmin)
+Dampers          5     5
+Camber          1.8   1.8
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               7
+        1st       3.600
+        2nd       1.950
+        3rd       1.272
+        4th       0.954
+        5th       0.754
+        6th       0.625
+                  -----
+        FD        3.950
+
+Aero           0.66  0.72  (nqmax,max)
+
+</pre></font></tt>
+</HTML>
+
+
+<CODES>
+The settings were almost the same as I used in
+the <html><b>All-night I Race</b></html> with the same car.
+I merely set the stabilizers down by one, front and rear.
+</CODES>
+
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

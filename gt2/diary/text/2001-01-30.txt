@@ -1,0 +1,71 @@
+Tuesday January 30, 2001
+
+A Comparison of Speed 12 Settings
+
+Threads:
+  Tuning Advice
+  Gran Turismo 2
+  Prize Car Information
+
+I still say I'm not a great tuner (nor am I a tuner that tastes great)
+but, I think these Speed 12 settings indicate something fairly fundamental.
+
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+                stock           mine     
+              --------        --------  
+               F    R          F    R  
+spring rate  15.8 13.8        8.0 13.8
+ride height   115  115         85  110    
+damper bound   7    7          6    7    
+   rebound     7    7          6    7    
+camber        2.0  1.0        2.0  1.0  
+toe          0.00 0.00       0.00 0.00 
+stabilizer     4    4          4    4  
+  1st          3.496           3.075       
+  2nd          2.234           2.016      
+  3rd          1.582           1.468     
+  4th          1.178           1.146    
+  5th          0.924           0.745   
+  6th          0.768           0.647  
+               -----           ----- 
+final drive    3.450           3.450         
+auto-set        23              23(default)
+aero         (0.44 0.63)     (0.44 0.63) 
+LSDinitial          6               6
+LSDaccel           36              40
+LSDdecel           26              26
+</pre></font></tt>
+</HTML>
+
+Okay, with the default settings, you spin out all over the place.
+With mine you don't.
+In fact, you almost have trouble holding it in on some of the corners.
+That is understeer.  It allows you to acclerate even on the bumpy
+bankings without spinning around.
+
+The fundamental change I made compared to the default settings was to
+soften the front suspension.
+So I claim, contrary to what many tuning guides say,
+that softening the front suspension causes more understeer, and stiffening
+it causes more oversteer.  And conversely for the rear suspension.
+
+Note, however, that stiffer front stabilizers will cause understeer.
+That is because they actually provoke the front into sliding sooner.
+(Force which would otherwise cause the body to roll instead causes the
+inside wheel to lift).
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

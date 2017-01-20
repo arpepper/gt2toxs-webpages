@@ -1,0 +1,10 @@
+(cached)
+
+<table border bgcolor="white">
+<tr><th></th><th>Manufacturer</th><th>Model Name</th><th>Tuned PWR</th><th>Max HP</th><th>Tuned Wt</th></tr>
+<tr><td align=right>1</td><td>Nissan</td><td>R32 Skyline '89 GT-R</td><td>.341</td><td align=right>913</td><td align=right>2678</td></tr>
+<tr><td align=right>2</td><td>Nissan</td><td>*R32 Skyline '91 GT-R</td><td>.329</td><td align=right>913</td><td align=right>2773</td></tr>
+<tr><td align=right>3</td><td>Nissan</td><td>R32 Skyline '91 GT-R</td><td>.329</td><td align=right>913</td><td align=right>2773</td></tr>
+<tr><td align=right>4</td><td>Nissan</td><td>R33 Skyline '95 GT-R</td><td>.327</td><td align=right>937</td><td align=right>2865</td></tr>
+<tr><td align=right>5</td><td>Nissan</td><td>R33 Skyline GT-R</td><td>.327</td><td align=right>937</td><td align=right>2865</td></tr>
+</table>

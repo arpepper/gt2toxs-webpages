@@ -1,0 +1,112 @@
+Friday, September 28, 2001
+
+I Finally Get Another A License Gold on A-1 in Gran Turismo 1
+
+Threads:
+  License Test Progress
+
+<CODES>
+Well, my driving ability seems to have been getting better lately, so
+I decided to go for all my remaining A License Gold Medals.
+I had previously done <b>A-7</b> (Subaru circle track barely counts),
+<b>A-2</b> (Supra RZ at Autumn Ring) and <b>A-6</b> (MR-2 at Deep Forest).
+
+It took me several days, starting on September 23, but today I finally
+got gold.  I kept saving my best replays and analyzing them when
+I wanted hints as to where I might be losing time, or where I might
+gain more.
+</CODES>
+
+Here are my final standings for my A-1 license test.
+
+<HTML INDENT>
+<FONT FACE="Helvetica, Lucida Sans, Courier">
+<TABLE WIDTH="80%"><TR><TD ALIGN="center">
+<TABLE>
+<TR><TD>1.</TD><TD>ARP28Sep01</TD><TD>0:32.335</TD></TR>
+<TR><TD>2.</TD><TD>G.T.GOLD</TD><TD>0:32.400</TD></TR>
+<TR><TD>3.</TD><TD>ARP27Sep01</TD><TD>0:32.426</TD></TR>
+<TR><TD>4.</TD><TD>ARP24Sep01</TD><TD>0:32.429</TD></TR>
+<TR><TD>5.</TD><TD>ARP23Sep01</TD><TD>0:32.486</TD></TR>
+<TR><TD>6.</TD><TD>ARP01Sep00</TD><TD>0:32.509</TD></TR>
+<TR><TD>7.</TD><TD>ARP24Sep01</TD><TD>0:32.542</TD></TR>
+<TR><TD>8.</TD><TD>ARP23Sep01</TD><TD>0:32.552</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FONT>
+</HTML>
+
+Note that, to keep a fairly wide variety of results, and avoid using up
+too many game days, I reload my game when I have done too many tries
+which get "on the board" without setting a new personal record (silver)
+time.
+Nonetheless, my top two times above were done with no other times
+between them.
+That is 0:32.426 was the closest I got to passing without passing,
+and 0:32.335 was my first pass.  So not only was it a clear pass, it
+was quite a bit faster than my previous best.
+
+Thread: Driving Advice
+
+I couldn't believe how long it took to do this test.  This is probably
+because there are so few places to actually make up time; two corners,
+basically.
+
+I started with a good warmup as usual, but lifted off slightly before the
+start to try and reduce wheel-spin.
+I did not try to ease the first corner, and so did not bother
+moving to the right but drove straight off the line before turning left.
+Based on my replays, I eventually began my first left turn when I
+reached a particular speed (69mph, just after my second upshift),
+without looking much at the road until after that.
+
+On my successful run, I just barely clipped the inside rumble strip
+on my late apex of the corner, but did not touch the outside one,
+although my very smooth corner exit took me over almost to the
+right side wall.
+
+I entered the last corner just inside the rumble strip, braked when I
+reached 136mph (taking a cue slightly before that), and then turned and
+downshifted only twice to third, reaching a minimum of about 60 as I
+tried to go around the corner with a minimum of speed-robbing tire
+squealing, without clipping the inside rumble-strip either.
+A smooth exit caused me to use up the entire road.
+
+My shifting points (mph) were something like:
+<HTML INDENT>
+<FONT FACE="Helvetica, Lucida Sans, Courier">
+<TABLE WIDTH="80%"><TR><TD ALIGN="center">
+<TABLE>
+<TR><TD>39</TD><TD>up to 2nd</TD></TR>
+<TR><TD>67</TD><TD>up to 3rd</TD></TR>
+<TR><TD>86</TD><TD>up to 4th</TD></TR>
+<TR><TD>119</TD><TD>up to 5th</TD></TR>
+<TR><TD>136</TD><TD>down twice to 3rd (while braking)</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FONT>
+</HTML>
+
+A key to both corners on this test, since they come before straights,
+(in fact all such corners on all tests) is to arrange to mash the gas just
+a little early for the exit, so as to maximize your speed on the straight.
+To achieve that, you must apex a little late, which means turning just
+a bit later (going in a bit deeper) for the corner than a perfectly
+symmetrical line would require.
+
+===============================================================================
+Copyright (C) 1999, 2000 the author/owner of
+http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+Monday November 22, 1999
+
+

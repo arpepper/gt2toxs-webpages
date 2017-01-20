@@ -1,0 +1,121 @@
+Monday May 15, 2000
+
+
+(GT2 Version 1.0)  GameShark Code to Set Up Silly Fake Drag Racing
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+
+Here is a code, for North American Gran Turismo 2, version 1.0
+(Simulation Mode)
+
+What it does is arrange that whenever you attempt to enter any race in
+Simulation Mode at any Seattle course (or any other course beginning
+"Se"--I don't think there are any), the race gets hijacked to the
+Max Speed Test course for a 1000m "drag race".
+
+The Max Speed Test track has the property that the start line is
+1000m away from the finish line.  So, if you start on lap 1 of a
+lap 1 race, you will be done as soon as you cross the finish line,
+but that finish line is actually a full 1000m away.
+
+Unfortunately, the cars are not lined up evenly for the start.  I
+have put you on grid spot 3, and the AI car in grid spot 2.  If
+I put the AI car in grid spot 1, it will move across in front of
+or behind you, and spoil the drag race effect, and so therefore
+I used spots 2 and 3 since usually the AI can benefit from a
+slight head start.  8-)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C01D52DC 6553 -- Do no codes unless track name starts "Se"
+ 801D52FC 23D2 -- set track to Max Speed Test
+ 801D52FE 74C8 -- set track, part two
+ 301D53A5 0002 -- you start as #3 on grid
+ 301D5475 0001 -- AI starts as #2 on grid
+ 801FFE7A 0001 -- make race only 1 lap long
+ 801FFE7C 0002 -- have only 2 cars in field (you + 1 AI)
+ D00A99AC 0000 -- when your lap count is zero
+ 800A99AC 0001 -- ... set your lap count to one
+ D00AA4EC 0000 -- when 1st AI lap count is zero
+ 800AA4EC 0001 -- ... set 1st AI lap count to one (ie start on lap 1)
+</pre></font></tt>
+</HTML>
+
+Notes:
+C01D52DC 6553 -- Do no codes unless track name starts "Se"
+The first "global condition" can be set to anything you think is
+appropriate.  Another reasonable thing might be to do this drag
+race thing if the track name is "Te".  The way I have it here, however,
+"Se" causes Seattle races, which often include Muscle Cars in the
+Field, to be hijacked to the Max Speed Test track for a 1000m
+"drag race".  Only one C0 code should be active at once in all
+codes you have "active"; apparently the last one processed by
+the Game Shark will be the one actually in effect.  That is, use
+this code by itself, without any other codes active, or it will
+interfere with those other codes.
+
+While you should be able to play most of the game with these codes on,
+I wouldn't guarantee it, and it makes most sense to me to activate the
+codes, play some drag races, and never save the game with the codes in
+effect.  Don't bother saving any replays; they're liable to screw up,
+unless you view them with this code in effect.
+
+If someone wants to take this principle, and go ahead and work out
+two-player drag racing of the same sort (arguably more interesting)
+go right ahead.  I'd have to be particularly bored to do that, since
+it will need the Arcade disk which I rarely use, and I rarely have
+anyone else to play <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="black">2</font></html> against.
+
+<HTML>
+<HR>
+</HTML>
+If your GameShark does not support C0, but does support D0, you can put
+
+D01D52DC 6553
+
+(Ie. Do next code only if track name starts "Se")
+
+in front of every other code, *except* the four lines at the bottom,
+and then hope for the best.
+
+I.e.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ D01D52DC 6553 -- Do next code only if track name starts "Se"
+ 801D52FC 23D2 -- set track to Max Speed Test
+ D01D52DC 6553 -- Do next code only if track name starts "Se"
+ 801D52FE 74C8 -- set track, part two
+ D01D52DC 6553 -- Do next code only if track name starts "Se"
+ 301D53A5 0002 -- you start as #3 on grid
+ D01D52DC 6553 -- Do next code only if track name starts "Se"
+ 301D5475 0001 -- AI starts as #2 on grid
+ D01D52DC 6553 -- Do next code only if track name starts "Se"
+ 801FFE7A 0001 -- make race only 1 lap long
+ D01D52DC 6553 -- Do next code only if track name starts "Se"
+ 801FFE7C 0002 -- have only 2 cars in field (you + 1 AI)
+ D00A99AC 0000 -- when your lap count is zero
+ 800A99AC 0001 -- ... set your lap count to one
+ D00AA4EC 0000 -- when 1st AI lap count is zero
+ 800AA4EC 0001 -- ... set 1st AI lap count to one (ie start on lap 1)
+</pre></font></tt>
+</HTML>
+
+All the usual cautions with GameShark Codes apply in this case.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

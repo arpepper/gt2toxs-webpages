@@ -1,0 +1,62 @@
+Monday March 20, 2000
+
+
+Some Reports on Colour Codes for GT2 cars
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+
+I had inspiration over the weekend.  I use a <html><b>GS Pro</b></html>
+, and am reasonably familiar with the concepts of what it does.
+Sometime later maybe I'll expand the information here a bit.   8-)
+
+I found a used car lot (Mazda) with a lot of slots for the day I was
+interested in.  I then patched in 32 identical cars (e.g. Lancia
+Stratos).  As a check I patched the prices to be 0 to 31.  Then I could
+patch the  colour codes in batches of 32, and keep track of what value
+they corresponded to.
+
+I discovered that the prize Stratos comes in <html><font color="#FFFF00">yellow</font></html>
+, and that the prize Cerbera LM can be not <html><font color="green">green</font></html>
+(as was all too common in <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font></html> ), but can
+be <html><font color="blue">blue</font></html>
+instead of the apparently now
+common <html><font color="burgundy">burgundy</font></html>.
+(Interestingly,
+in <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font></html>,
+<html><font color="burgundy">burgundy</font></html>
+and <html><font color="blue">blue</font></html> were the two colour
+choices for a race-modded purchased Cerbera).
+
+I did not positively find the second colour combination for the <html><font size="-1" color="green"><B>CASTROL</B></font> <font color="red"><B>SUPRA</B></font> <B>GT</B></html>.
+That is, it looks as though
+in <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html> it
+only comes with red and green trim, not red and blue.  (And not in the black
+colour scheme, either).
+
+Colour codes (hex):
+
+Stratos: 62(red--default), 68(yellow), 6B(green), 6F(light blue), 71(dark blue)
+
+Cerbera LM: 62(burgundy--default), 6C(blue)
+
+Viper GTS-R: 6C(green stripes--default), 71(blue stripes)
+
+1971 240Z: 31(Grand Prix White--default), 62(G.P. Red), 63(G.P. Maroon)
+
+This is
+with <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html> version 1.0     8-)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

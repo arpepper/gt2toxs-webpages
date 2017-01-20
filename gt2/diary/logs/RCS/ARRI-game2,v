@@ -1,0 +1,558 @@
+head	1.4;
+access;
+symbols;
+locks
+	arpepper:1.4; strict;
+comment	@# @;
+
+
+1.4
+date	2008.04.20.05.58.52;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.04.07.03.55.13;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.04.06.06.58.08;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.04.06.06.42.35;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial version seems to verify.
+@
+
+
+1.4
+log
+@Added April 9-18, 2008.
+Days 43 to 104.
+After validation.
+(1 inconsistency spotted...)
+@
+text
+@include ARRI-racedefs
+
+April 04, 2008
+1 race R/XP-1/VenetoS 4th XP536 L+ none
+2 Cr536   L:2 V:0 K:4
+2 race R/XP-1/VenetoS 1st XP865  none
+3 Cr1401   L:2 V:1 K:4
+3 race R/G-1/MilanoS 1st XP1413 rec L+  next
+4 win Gloves(New Drivers Ltd)(R/G-1)
+Note: wear Gloves(New Drivers Ltd)
+4 Cr2813 L:3 V:2 K:4
+4 race R/G-2/ValenciaS 3rd XP815 rec   none
+5 Cr3629 L:3 V:2 K:5
+5 race R/XP-2/ValenciaS 1st XP1340 L+  rec   none
+6 Cr4969 L:4 V:3 K:6
+6 race R/XP-3/MilanoS 1st XP2088 L+ clean rec   none
+7 Cr7057 L:4 V:4 K:6 Sk:4
+Note: XPG 5,000 Hockenheim(short)
+7 win track Hockenheim(short)(XP:5,000)
+7 race R/XP-4/HockenheimS 1st XP1006 L+   goal none
+8 Cr8063 L:5 V:5 K:6 Sk:6
+Note: L:5 => STEEL unlocked
+Note: V5 Suit(Sabelt Futurelook)
+8 win Suit(Sabelt Futurelook)(V:5)
+Note: wear Suit(Sabelt Futurelook)
+8 race R/G-3/VenetoL 2nd   XP796 rec none
+9 Cr8859  L:5 V:5 K:6 Sk:6
+Note: R/T unlocked
+9 race R/T-1/MilanoL  1st  XP  rec goal next
+10 win  Alfa 156 2.5 V6 24V(R/T-1)
+10 Cr13,555  L:6 V:6 K:6 Sk:8-2
+Note: Skill Column 2 Unlocked
+Note: 10,000: Alfa GTV "Racing"
+10 win  Alfa GTV "Racing"(XP:10,000)
+10 license Challenge STEEL/Chase Hockenheim complete
+10 win Boots(Vortex Racing)(STEEL/Chase)
+Note: wear Boots(Vortex Racing)
+10 license Challenge STEEL/Escape MilanoS complete
+10 win Helmet(Wave Adriatic)(STEEL/Escape)
+Note: wear Helmet(Wave Adriatic)
+10 license Challenge STEEL/SpeedTrap MilanoL complete
+10 win Suit(Wave Adriatic)(STEEL/SpeedTrap)
+10 license Challenge STEEL/TopLimit Campanie Complete
+10 win Suit(Vortex Racing)(STEEL/TopLimit)
+10 license Challenge STEEL/CleanDrive ValenciaS Complete
+10 win Helmet(Vortex Racing)(STEEL/CleanDrive)
+Note: STEEL complete
+10 win Suit(Sabelt Top Tech)(STEEL complete)
+10 race R/T-2/ValenciaS  1st  XP4912 L+  rec KO+ next
+11 win  Alfa GTV 3.2 V6 24V(R/T-2)
+11 win Gloves(Vortex Racing)(KO:10)
+11 Cr18,467  L:7 V:7 K:10 Sk:9-2
+Note: Championship unlocked
+Note: wear Gloves(Vortex Racing)
+Note: wear Suit(Sabelt Top Tech)
+11 race R/C-1/HockenheimS 2nd  XP3900  XPG+  none
+Note: XPG 20,000 Hockenheim(long)
+12 Cr22,067  L:7 V:7 K:16 Sk:9-2
+Note: SemiPro Tour unlocked (S)
+12 race R/C-1/HockenheimS 2nd  XP6011  L+  none
+13 Cr28,328  L:8 V:7 K:19 Sk:10-2
+13 race R/C-1/HockenheimS 1st  XP5866  L+ XPG+ goal  none
+14 Cr34,244 L:9 V:8 K:19 Sk:13-2
+Note: Extra Skill Point? Winning Champ?
+Note: XPG 30,000 Alfa GTA Super 2000 '03
+14 win  Alfa GTA Super 2000 '03(XP:30,000)
+14 race R/G-2/ValenciaS 1st XP1966 rec   next
+15 win Boots(New Drivers Ltd)(R/G-2)
+15 Cr36,210 L:9 V:9 K:19 Sk:13-2
+
+April 05, 2008
+15 race R/G-3/VenetoL 1st   XP1361 VL+  next
+16 win Helmet(New Drivers Ltd)(R/G-3)
+16 win Gloves(Sabelt Strike)(V:10)
+16 win Suit(New Drivers Ltd) (R complete)
+16 win  Alfa Giulia TZ2 (R complete)
+16 Cr37,571  L:9 V:10 K:19 Sk:13-2
+16 race R/T-1/MilanoL  2nd  XP2314  K+16 KL+ none
+17 win Boots(Wave Adriatic)(KO:20)
+17 Cr39,885  L:9 V:10 K:35 Sk:13-2
+17 race R/T-1/MilanoL  1st XP4496  K+12  rec L+ XPL+ none
+18 win track Milano(long)(XP:40,000)
+18 Cr44,381  L:10 V:11 K:47 Sk:14-4
+Note:  L:10 => BRONZE unlocked
+18 race R/T-1/MilanoL  6th XP4435  K+37   KL+2 none
+19 win Suit(Semnite)(KO:50)
+19 win Helmet(Semnite)(KO:75)
+19 Cr48,816  L:10 V:11 K:84 Sk:14-4
+19 race S/XP-1/SiciliaS  2nd  XP2914 K+4 rec  none
+20 win  Alfa GT "Racing"(XP:50,000)
+20 Cr51,730  L:10 V:11 K:88 Sk:14-4
+20 race S/XP-2/FirenzeS  1st  XP4796 L+ K+1 rec*3  none
+21 Cr56,526  L:11 V:12 K:89 Sk:15-4
+21 race S/XP-3/VenetoL 2nd  XP5024 K+1 rec*3  none
+22 Cr61,550  L:11 V:12 K:90 Sk:15-4
+22 race S/XP-3/HockenheimL 3rd XP3244 K+2   none
+23 Cr64,794  L:11 V:12 K:92 Sk:15-4
+Note: S/XP complete
+23 race S/G-1/ValenciaL 6th XP4312 K+18 none
+24 win Gloves(Semnite)(KO:100)
+24 Cr69,106  L:11 V:12 K:110 Sk:15-4
+Note: alloc 2Hdl,1Acc
+24 race S/G-1/ValenciaL 3rd XP2408 K+6 L+ none
+25 Cr71,514  L:12 V:12 K:116 Sk:16-7
+Note: L:12 => Skill Column 3 Unlocked
+25 race S/G-2/SiciliaL 2nd XP4573 K+7 XPL+ none
+26 Cr76,087  L:12 V:12 K:123 Sk:16-7
+26 win track VenetoL(XP:75,000)
+26 race S/G-3/FirenzeS 2nd XP3391  rec none
+27 Cr79,478  L:12 V:12 K:123 Sk:16-7
+Note: S/T unlocked
+27 race S/T-1/DoningtonL 2nd  XP8110  K+5 rec L+  none
+28 win Boots(Sabelt Light)(KO:125)
+28 Cr87,588  L:13 V:12 K:128 Sk:17-7
+28 race S/T-1/DoningtonL 1st  XP8065  K+1  goal next
+29 win  Alfa 2000 GT Am(S/T-1)
+29 Cr95,653  L:13 V:13 K:129 Sk:18-7
+29 race S/T-1/ValenciaL 4th  XP5034  K+1  XPL+ none
+30 win  Alfa 156 Super 2000 '04(XP:100,000)
+Note: allocate skilt +2Hdl +1Acc +1Rec +1Foc +1End
+30 Cr100,687  L:13 V:13 K:130 Sk:18-13
+30 race S/T-1/ValenciaL 2nd  XP6276  K+5  L+ none
+31 Cr106,963  L:14 V:13 K:135 Sk:19-13
+Note: S/C unlocked
+31 race S/C-1/StadiumL 1st XP12069 goal next
+32 win skill point (S/C)
+32 Cr119,032 L:14 V:14 K:135 Sk:21-13
+Note: P Tour unlocked
+32 race R/T-1/MilanoL  6th XP3104  K+21 KL+ none
+33 win Helmet(Sabelt Silverstone)(K0:150)
+33 Cr122,136 L:14 V:14 K:156 Sk:21-13
+Note: carnage 56
+Note: accomplishment "Cause 100pts of damage" done  8-)
+
+April 6, 2008
+33 race P/XP-1/SiciliaL 1st XP12297 L+ XPL+ VL+ rec*3 none
+34 win Suit(High Timber)(V:15)
+34 win  Alfa 155 V6 TI 2.5 1993(XP:125,000)
+34 Cr134,433 L:15 V:15 K:156 Sk:22-13
+Note: L:15 => SILVER unlocked
+34 race P/XP-2/MilanoL 1st XP11059 rec none
+35 Cr144,492 L:15 V:16 K:156 Sk:22-13
+35 race P/XP-3/Laguna 2nd XP5124 L+ XPL+ none
+36 win track Campanie(XP:150,000)
+36 Cr150,616 L:16 V:16 K:156 Sk:23-13
+
+
+36 license Challenge SILVER/Chase SiciliaL complete
+36 win Helmet(Pura Fina)(SILVER/Chase)
+36 license Challenge SILVER/Escape Laguna complete
+36 win Boots(Pura Fina)(SILVER/Escape)
+Note: allocate skill +4hdl +1acc
+36 license Challenge SILVER/CleanDrive MilanoL complete
+36 win Suit(Pura Fina)(SILVER/Clean)
+36 license Challenge SILVER/SpeedTrap ValenciaL complete
+36 win Boots(Semnite)(SILVER/SpeedTrap)
+36 license Challenge SILVER/TopLimit MilanoL complete
+36 win Gloves(Pura Fina)(SILVER/TopLimit)
+36 win Gloves(Sabelt Campione)(SILVER/complete)
+
+36 license Challenge BRONZE/Chase SiciliaL complete
+36 win Boots(Mastel Dynamics)(BRONZE/Chase)
+36 license Challenge BRONZE/Escape SiciliaL complete
+36 win Helmet(Mastel Dynamics)(BRONZE/Escape)
+36 license Challenge BRONZE/CleanDrive ValenciaL complete
+36 win Gloves(Mastel Dynamics)(BRONZE/Clean)
+36 license Challenge BRONZE/SpeedTrap SiciliaL complete
+36 win Suit(Mastel Dynamics)(BRONZE/TopLimit)
+36 license Challenge BRONZE/SpeedTrap SiciliaL complete
+36 win Gloves(Wave Adriatic)(BRONZE/TopLimit)
+36 win Suit(Sabelt Diamond)(BRONZE/complete)
+
+36 race P/XP-4/CampaniaS XP3155 none
+37 Cr153,771 L:16 V:16 K:156 Sk:23-18
+37 race P/G-1/CampaniaS XP7266 rec none
+38 Cr161,037 L:16 V:16 K:156 Sk:23-18
+38 race P/G-2/FirenzeS XP2712  none
+39 Cr163,749 L:16 V:16 K:156 Sk:23-18
+
+39 race S/T-1/DoningtonL 1st  XP10970    none
+40 Cr174,719 L:16 V:17 K:156 Sk:23-18
+40 race S/T-1/DoningtonL 1st  XP8575 K+2   none
+41 Cr183,294 L:16 V:18 K:158 Sk:23-18
+41 race S/T-1/DoningtonL 1st  XP12311 L+ none
+42 Cr195,605 L:17 V:19 K:158 Sk:24-18
+42 race S/T-1/DoningtonL 1st  XP12128 XPL+  VL+ K+1 none
+43 win Gloves(High Timber)(V:20)
+43 win Alfa Nuvola(XP:200,000)
+43 Cr207,733 L:17 V:20 K:159 Sk:24-18
+
+April 09, 2008
+43 race S/XP-1/SiciliaS  1st  XP5119 none
+44 Cr212,852 L:17 V:21 K:159 Sk:24-18
+44 race S/XP-3/VenetoL 1st  XP5613 K+1 rec  none
+45 Cr218,465 L:17 V:22 K:160 Sk:24-18
+45 race S/XP-4/HockenheimL 1st XP8085 K+6 rec*2   none
+46 Cr226,550 L:18 V:23 K:166 Sk:25-18
+46 race S/G-1/ValenciaL 4th XP1597 K+3 none
+47 Cr228,147 L:18 V:23 K:169 Sk:25-18
+47 race S/G-1/ValenciaL 2nd XP3444 K+3 none
+48 Cr231,591 L:18 V:23 K:172 Sk:25-18
+48 race S/G-1/ValenciaL 1st XP6259 K+2 rec none
+49 win Suit(Sabelt Driver Plus)(S/G-1)
+49 Cr237,850 L:18 V:24 K:174 Sk:25-18
+49 race S/G-2/SiciliaL 1st XP5446 K+1 goal rec next
+50 win Boots(Sabelt New Racing)(S/G-2)
+50 win Boots(High Timber)(V:25)
+50 win Helmet(Groove TCH)(KO:175)
+50 Cr243,296 L:18 V:25 K:175 Sk:26-18
+50 race S/G-3/FirenzeS 1st XP7276 K+1 XPL+1  rec none
+51 win Helmet(Sabelt Jet)(S/G-3)
+51 win track Toscana(short)(XP:250,000)
+51 Cr250,571 L:18 V:26 K:176 Sk:26-18
+51 race S/T-2/ValenciaL 1st  XP10723 rec  L+ goal next
+52 win Alfasud(S/T-2)
+52 Cr261,254 L:19 V:27 K:176 Sk:28-18
+52 win Gloves(Sabelt Prima)(S complete)
+52 win Alfa 147 GTA Cup (S complete)
+52 race P/G-3/HockenheimL XP8241 goal next
+53 win Boots(Sabelt Fast Track)(P/G-3)
+53 Cr269,535 L:19 V:28 K:176 Sk:29-18
+Note: P/T unlocked
+Note: allocate 1hdl 1acc
+53 Cr269,535 L:19 V:28 K:176 Sk:29-20
+53 race P/T-1/SiciliaL 2nd XP6425 K+1 none
+54 Cr275,960 L:19 V:28 K:177 Sk:29-20
+54 race P/G-2/FirenzeS 2nd XP5695 K+1 none
+55 Cr281,655 L:19 V:28 K:178 Sk29-20
+55 race P/G-1/CampaniaS 1st XP9713 rec none
+56 win Gloves(Sabelt Endurance)(P/G-1)
+56 Cr291,368 L:19 V:29 K:178 Sk29-20
+56 race R/T-1/MilanoL  1st  XP3949 K+34 rec none
+57 Cr295,317 L:19 V:30 K:212 Sk:29-20
+57 win Helmet(High Timber)(V:30)
+57 win Suit(Groove TCH)(KO:200)
+
+April 11, 2008
+57 race P/T-2/ValenciaL 4th XP8048 XPL+ rec none
+58 Cr303,365 L:19 V:30 K:212 Sk:29-20
+58 win track Firenze(long)(XP:300,000)
+Note: allocate 1hdl 1acc
+58 race P/T-2/ValenciaL 2nd XP8162  none
+59 Cr311,547 L:19 V:30 K:212 Sk:29-22
+59 race P/C-1/Laguna 3rd XP12747 L+  none
+60 Cr324,294 L:20 V:30 K:212 Sk:30-22
+Note: Expert Tour unlocked
+60 race P/G-2/FirenzeS 2nd XP5464 K+2 none
+61 Cr329,358 L:20 V:30 K:214 Sk:30-22
+Note: Gold Challenge unlocked
+61 race P/G-2/FirenzeS 1st XP11150 rec none
+62 Cr340,908 L:20 V:31 K:214 Sk:30-22
+62 win Helmet(Sabelt Trophy)(P/G-2)
+
+62 license Challenge GOLD/Chase Campania complete
+62 win Boots(Blueflame Dura)(GOLD/Chase)
+62 license Challenge GOLD/Escape Donington complete
+62 win Helmet(Blueflame Dura)(GOLD/Escape)
+62 license Challenge GOLD/CleanDrive Firenze complete
+62 win Gloves(Blueflame Dura)(GOLD/Clean)
+62 license Challenge GOLD/SpeedTrap Campania complete
+62 win Suit(Blueflame Dura)(GOLD/SpeedTrap)
+62 license Challenge GOLD/TopLimit Sicilia complete
+62 win Suit(Solarwind)(GOLD/TopLimit)
+62 win Gloves(Sabelt Torque)(GOLD/complete)
+
+62 race S/T-1/DoningtonL 1st  XP9190 XPL+ K+5  none
+63 Cr350,098 L:20 V:32 K:219 Sk:30-22
+63 win track Firenze(short)(XP:350,000)
+63 race S/T-1/DoningtonL 1st  XP10245 L+ K+16  none
+64 Cr360,343 L:21 V:33 K:235 Sk:31-22
+64 win Suit(Dark Totem)(KO:225)*
+
+April 12, 2008
+64 race E/XP-1/CampaniaL 2nd XP11515 none
+65 Cr371,858 L:21 V:33 K:235 Sk:31-22
+65 race E/XP-1/CampaniaL 1st XP16184 K+1 none
+66 Cr388,042 L:21 V:34 K:236 Sk:31-22
+66 race E/XP-2/FirenzeL 1st XP18133 L+ XPL+ VL+ goal rec none
+67 Cr406,175 L:22 V:35 K:236 Sk:33-22
+67 win Gloves(Solarwind)(V:35)
+67 win Alfa 33/2 "Daytona" (XP:400,000)
+Note: allocate 1hdl (use Sabelt Campione gloves)
+67 race E/XP-3/DoningtonS 1st XP20104 K+1 rec*2 none
+68 Cr426,279 L:22 V:36 K:237 Sk:33-23
+68 race E/XP-4/Laguna 1st XP22933  rec*3 none
+69 Cr449,212 L:22 V:37 K:237 Sk:33-23
+69 race E/G-1/SiciliaL 3rd XP8047 L+ XPL+ rec none
+70 Cr457,259 L:23 V:37 K:237 Sk:34-23
+70 win track Valencia(short)(XP:450,000)
+70 race E/G-2/ValenciaS 1st XP17902 K+1 rec*2 next
+71 win Boots(Tech-G)(E/G-2)
+71 Cr475,161 L:23 V:38 K:238 Sk:34-23
+71 race E/G-3/CampaniaL 1st XP24370 K+1 rec*3 next
+72 win Suit(Tech-G)(E/G-3)
+72 Cr499,531 L:23 V:39 K:239 Sk:34-23
+Note: "in-game" record now 13084
+Note: E/T unlocked
+72 race E/T-1/DoningtonS 1st XP31016 L+ XPL+ VL+ rec goal next
+73 win Alfa 156 GTA 3.2 V6 24V(E/T-1)
+73 Cr530,547 L:24 V:40 K:239 Sk:36-23
+Note: "in-game" record now 17508
+73 win Helmet(Solarwind)(V:40)
+73 win track Valencia(long)(XP:500,000)
+73 race E/T-2/Laguna 3rd XP7744 none
+74 Cr538,271 L:24 V:40 K:239 Sk:36-23
+Note: E/C unlocked
+74 race E/C-1/DoningtonL 1st XP39552 L+ XPL+ goal rec next
+75 win skill point (E/C)
+75 Cr577,843 L:25 V:41 K:239 Sk:39-23
+Note: "in-game" record now 26385 (accomplishment)
+75 win track Veneto(short) (XP:550,000)
+Note: U tour unlocked
+
+April 13, 2008
+75 race P/XP-3/Laguna 1st XP7557 goal none
+76 Cr585,400 L:25 V:42 K:239 Sk:40-23
+76 race P/XP-4/CampaniaS 1st XP11039 none
+77 Cr596,439 L:25 V:43 K:239 Sk:40-23
+77 race P/T-1/SiciliaL 1st XP15976 XPL+  K+2 goal next
+78 win Alfa 147 GTA 3.2 V6 24V(P/T-1)
+78 Cr612,415 L:25 V:44 K:241 Sk:41-23
+78 win track Donington(short)(XP:600,000)
+Note: allocate 2rec Sk41-25
+78 license Challenge PLATINUM/Chase Toscana complete
+78 win Gloves(Ursa Gear)(PLATINUM/Chase)
+78 Cr612,415 L:25 V:44 K:241 Sk:41-25
+
+78 race P/T-2/ValenciaL 1st XP15808 VL+  next
+79 win Alfa S.Z. (P/T-2)
+79 Cr628,223 L:25 V:45 K:241 Sk:41-25
+79 win Boots(Solarwind)(V:45)
+Note: allocate 1hdl 1acc 1end Sk:41-28
+79 race P/C-1/Laguna 2nd XP10857  none
+80 Cr639,080 L:25 V:45 K:241 Sk:41-28
+80 race P/C-1/Laguna 1st XP23626 L+ XPL+ goal  next
+81 win skill point (P/C)
+81 Cr662,716 L:26 V:46 K:241 Sk:44-28
+81 win Suit(Sabelt Speed)(P complete)("stormed")
+81 win Alfa 8C Competizione(P complete)("stormed")
+81 win Alfa 155 V6 Ti 2.5 1996(XP:650,000)
+
+April 14, 2008
+81 race E/G-1/SiciliaL 2nd XP7327 none
+82 Cr670,043 L:26 V:46 K:241 Sk:44-28
+82 race E/G-1/SiciliaL 1st XP19210 K+2 rec goal none
+83 win Gloves(Tech-G)(E/G-1)
+83 Cr689,753 L:26 V:47 K:243 Sk:45-28
+83 race E/T-2/Laguna 2nd XP15781 none
+84 Cr705,034 L:26 V:47 K:243 Sk:45-28
+84 win track Sicilia(short)(XP:700,000)
+
+April 15, 2008
+84 race E/T-2/Laguna 2nd XP10023 none
+85 Cr715,057 L:26 V:47 K:243 Sk:45-28
+85 race E/T-2/Laguna 2nd XP10608 L+ none
+86 Cr725,665 L:27 V:47 K:243 Sk:46-28
+Note: allocate 1hdl 1acc 1rec Sk:46-31
+86 race E/T-2/Laguna 1st XP30336 XPL+ next
+87 win Alfa GTV "Pro" (E/T-2)
+87 Cr756,001 L:27 V:48 K:243 Sk:46-31
+87 win Helmet(Tech-G)(E/complete)
+87 win track Donington(long)(E/complete)
+87 win Alfa 8C Competizione "Pro" (XP:750,000)
+
+87 race E/C-1/DoningtonL 1st XP49997 XPL+  none
+88 Cr805,978 L:27 V:49 K:243 Sk:46-31
+Note: "in-game" record now 36810
+Note: 6 clean laps accomplished
+88 race E/C-1/DoningtonL 1st XP41758 L+ VL+ K+1 none
+89 Cr847,736 L:28 V:50*K:244Sk:47-31
+89 win Boots(Groove TCH)(V:50)
+
+April 16, 2008
+89 race U/G-1/Laguna 2nd XP15704 XPL+ goal none
+90 Cr863,437 L:28 V:50 K:244 Sk48-31
+90 win track Milano(short)(XP:850,000)
+90 race U/G-1/Laguna 1st XP76942 none
+91 win Gloves(Bolt Thrower)(U/G-1)
+91 Cr890,379 L:28 V:51 K:244 Sk48-31
+91 race U/G-2/VenetoL 5th XP9101 goal none
+92 Cr899,480 L:28 V:51 K:244 Sk49-31
+Note: allocate 1hdl 1acc 1rec Sk49-34
+92 race U/G-2/VenetoL 1st XP25643 L+ XPL+ next
+93 win Helmet(Bolt Thrower)(U/G-2)
+93 Cr925,123 L:29 V:52 K:244 Sk50-34
+93 win track Sicilia(long)(XP:900,000)
+93 race U/G-3/FirenzeL 1st XP38474 goal rec next
+94 win Boots(Bolt Thrower)(U/G-3)
+94 Cr963,597 L:29 V:53 K:244 Sk51-34
+94 race U/XP-2/CampaniaL 1st XP33155 rec*2 none
+95 Cr996,752 L:29 V:54 K:244 Sk51-34
+95 race U/XP-1/ToscanaS 3rd XP9257 XPL+ none
+96 Cr1,006,009 L:29 V:54 K:244 Sk51-34
+96 win track Stadium(short)(XP:1,000,000)
+
+April 17, 2008
+96 race U/XP-3/DoningtonS 2nd XP15851 K+1 none
+97 Cr1,021,863 L:29 V:54 K:245 Sk51-34
+97 race U/XP-4/MilanoL 1st XP34384 L+ rec*2 none
+98 Cr1,056,244 L:30 V:55 K:245 Sk52-34
+Note: U/T unlocked
+Note: allocate 1rec Sk52-35
+98 race U/T-1/HockenheimL 1st XP45825 goal rec next
+99 win Alfa GTV "Pro"(U/T-1)
+99 Cr1,102,069 L:30 V:56 K:245 Sk53-35
+Note: allocate 1foc Sk53-36
+Note: U/T-2 fail
+Note: allocate 6hdl 4acc 1rec 1foc 1end Sk53-49
+99 race U/T-2/ToscanaL 1st XP46016 goal next
+100 win Alfa Guilia T.I. Super(U/T-2)
+100 Cr1,148,085 L:30 V:57 K:245 Sk54-49
+Note: U/C unlocked
+
+April 18, 2008
+100 race P/G-3/HockenheimL XP13023 rec*2 next
+101 Cr1,161,108 L:30 V:58 K:245 Sk54-49
+Note: accomplishment 174mph+
+101 race U/C-1/ValenciaL 7th XP41166 L+ none
+102 Cr1,202,274 L:31 V:58 K:245 Sk60-49
+Note: all accomplishments; +5Sk
+102 race U/XP-1/ToscanaS 1st XP25427 goal rec none
+103 Cr1,227,701 L:31 V:59 K:245 Sk60-49
+103 race U/XP-3/DoningtonS 1st XP27690 XPL+ goal rec*2 none
+104 Cr1,255,391 L:31 V:60 K:245 Sk62-49
+104 win Alfa GT 3.2 V6 24V (XP:1,250,000)
+
+104 license Challenge PLATINUM/Escape VenetoL complete
+104 win Boots(Ursa Gear)(PLATINUM/Escape)
+104 license Challenge PLATINUM/SpeedTrap Laguna complete
+104 win Suit(Ursa Gear)(PLATINUM/SpeedTrap)
+104 license Challenge PLATINUM/TopLimit ValenciaL complete
+104 win Gloves(Groove TCH)(PLATINUM/TopLimit)
+104 license Challenge PLATINUM/CleanDrive DoningtonL complete
+104 win Helmet(Ursa Gear)(PLATINUM/CleanDrive)
+104 win Boots(Seraf Leathers)(PLATINUM/complete)
+104 win +3Sk (Challenges complete)
+104 Cr1,255,391 L:31 V:60 K:245 Sk62-49
+
+@
+
+
+1.3
+log
+@April 06, 2008
+@
+text
+@d191 248
+@
+
+
+1.2
+log
+@Corrections.
+Mostly just for consistency.
+@
+text
+@d135 56
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 1
+a9 1
+4 win Gloves(New Drivers Ltd)
+d19 1
+d24 1
+a24 1
+8 win Suit(Sabelt Futurelook)
+d30 1
+a30 1
+10 win  Alfa 156 2.5 V6 24V
+d34 1
+a34 1
+10 win  Alfa GTV "Racing"
+d36 1
+a36 1
+10 win Boots(Vortex Racing)
+d39 1
+a39 1
+10 win Helmet(Wave Adriatic)
+d42 1
+a42 1
+10 win Suit(Wave Adriatic)
+d44 1
+a44 1
+10 win Suit(Vortex Racing)
+d46 1
+a46 1
+10 win Helmet(Vortex Racing)
+d48 1
+a48 1
+10 win Suit(Sabelt Top Tech)
+d50 2
+a51 2
+11 win  Alfa GTV 3.2 V6 24V
+11 win Gloves(Vortex Racing)(KO)
+d66 1
+a66 1
+14 win  Alfa GTA Super 2000 '03
+d68 1
+a68 1
+15 win Boots(New Drivers Ltd)
+d73 1
+a73 1
+16 win Helmet(New Drivers Ltd)
+d86 1
+a87 1
+19 win Suit(Semnite)(KO:50)
+d116 1
+a116 1
+29 win  Alfa 2000 GT Am
+@

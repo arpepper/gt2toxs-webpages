@@ -1,0 +1,97 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.02.07.22.16.36;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.02.07.22.11.56;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.07.19.27.49;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Another boring garage, documenting obtaining licenses.
+@
+
+
+1.3
+log
+@corrected a silver...
+@
+text
+@    This is a boring game, which generates a very boring garage.
+    It is just a game I saved so I can reload a day 7  S license
+    any time I want.
+
+    I "merged records" from gt2-game1 day 381
+
+    And the first 4 days are the same as gt2-day5ib
+
+February 5, 2000
+   note: 4:25pm
+   1      license obtain B license
+   note: B6B(1),B7B(1),B8B(1),B4B(1),B5S(1),B1B(1),B2B(2),B3S(1),B9B(1),B10B(1)
+   note: not offers to save game, no "license acquired" screen
+   2      license obtain A license
+   note: A3B(1),A4B(1),A1B(1),A2B(1),A5B(1),A6B(1),A7B(2),A8B(1),A9B(2),A10B(1)
+   note: must have set new A10 top5; it noticed and offered to save game
+   note:  and gave "A license acquired" screen
+   note: 4:50pm
+   3      license obtain IC license
+   note: IC1B(3),IC2B(1),IC3B(1),IC4B(1),IC5B(1)
+   note: IC6B(1),IC7B(2),IC8B(1),IC9B(2),IC10B(1)
+   note: no announcement of license
+   4      license obtain IB license
+   note: IB1B(1),IB2B(1),IB3B(2),IB4B(2),IB5B(1)
+   note: IB6B(1),IB7B(1),IB8B(2),IB9B(2),IB10B(2)
+   note: set time, so got announcement and opportunity to save
+   note: 5:27pm
+
+   note: save as day5 IB (on same card as GT 9 day B)
+
+   5      license obtain IA license
+   note: IA1B(1),IA2B(1),IA3B(3),IA4B(1),IA5S(1)
+   note: IA6B(1),IA7B(1),IA8B(1),IA9B(2),IA10B(3)
+   note: 5:50pm
+   6      license obtain S license
+   note: S1B(2),S2B(1),S3S(1),S4B(1),S5B(5)
+   note: S6B(2),S7B(3),S8S(1),S10B(2),S9K(8),S9B(lost count)
+
+   note: save as day7 S (on same card as GT day 17  A)
+   note: 7:40pm
+   7   power off
+@
+
+
+1.2
+log
+@Same stupid typo everyone makes...
+@
+text
+@d32 1
+a32 1
+   note: IA1B(1),IA2B(1),IA3B(3),IA4B(1),IA5B(1)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d31 1
+a31 1
+   5      license obtain AI license
+@

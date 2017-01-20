@@ -1,0 +1,219 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2011.11.14.21.09.06;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.10.02.16.03.35;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.10.02.15.49.23;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.10.02.15.14.53;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.02.15.12.39;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Use psfull for image.
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<meta name="robots" content="noindex,nofollow">
+  <TITLE>My Richard Petty Driving Experience, Orlando, plus Daytona</TITLE>
+</HEAD>
+<BODY BGCOLOR="yellow">
+
+<table width="100%" bgcolor="#30b0ff" border="0">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr color="white">
+<td>
+<center>
+<font color="white">
+<h1>My <font color="red">Richard Petty</font> Driving Experience</h1>
+</font>
+</center>
+</td>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td align="left">
+<font size="-1">
+<a href="nobeard.html">&lt;&lt;-- prev photo</a>
+</font>
+</td>
+<td align="center">
+<center>
+<font size="-1">
+<a href="../">[main page]</a>
+</font>
+</center>
+</td>
+<td align="right">
+<font size="-1">
+<a href="haton.html">next photo &gt;&gt;</a>
+</font>
+</td>
+</tr>
+</table></td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+<hr>
+
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td>
+<img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+<table bgcolor="white" align="right"> <tr><td bgcolor="white"><table>
+<caption><font face="Comic Sans MS, Lucida Sans, Helvetica">Race Prep, Step 2: Just a Moustache!</font></caption>
+<tr><td>
+ <IMG SRC="../psfull/moustache.jpg">
+</td></tr></table> </td></tr></table>
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+This is another intermediate picture in the process of getting to the
+stage of being clean-shaven, except for sort-of Richard Petty 70's
+style sideburns.
+</font>
+</p>
+<p>
+<font face="Comic Sans MS, Lucida Sans, Helvetica">
+My wife had gone to bed already by this time, so I used the timer in
+the camera to take the picture.  This is why the top of my head is cut
+off; I simply put the camera on a counter in the kitchen, and aimed
+it only roughly.   It also explains why I forgot to put anything
+over the undershirt, since I had removed my shirt to prevent messing
+it up while shaving, and my wife was not there to remind me to put
+it on again.  <img src="../../gifs/smile.gif">
+</font>
+</p>
+</td></tr></table>
+</td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td></tr>
+</table>
+<br>
+
+<table border="0" width="100%">
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+<tr><td><table width="85%" border="0"><tr><td width="15%"></td>
+<td align="left">
+<font size="-1">
+<a href="nobeard.html">&lt;&lt;-- prev photo</a>
+</font>
+</td>
+<td align="center">
+<center>
+<font size="-1">
+<a href="../">[main page]</a>
+</font>
+</center>
+</td>
+<td align="right">
+<font size="-1">
+<a href="haton.html">next photo &gt;&gt;</a>
+</font>
+</td>
+</tr>
+</table></td></tr>
+<tr><td><img src="../../bitmaps/oneclearbit.gif" height="1" width="500"><br></td>
+</table>
+<hr>
+
+
+</BODY>
+</HTML>
+@
+
+
+1.4
+log
+@Canonical changes required to allow proper viewing of the text even
+in a narrow Netscape 4.7 window.
+@
+text
+@d60 1
+a60 1
+ <IMG SRC="../xvthird/moustache.jpg">
+@
+
+
+1.3
+log
+@Make the page header obey a minimum width.
+@
+text
+@d23 3
+a25 1
+<table width="85%"><tr><td width="15%"></td>
+d44 2
+d49 5
+a53 1
+<table width="85%"><tr><td width="15%"></td>
+a54 1
+<td>
+d83 3
+d88 3
+a90 1
+<table width="85%"><tr><td width="15%"></td>
+d109 2
+@
+
+
+1.2
+log
+@remove reference to old onepage.html
+@
+text
+@d9 2
+a10 1
+<table width="100%" bgcolor="#30b0ff">
+d19 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d30 1
+a30 1
+<a href="../onepage.html">[main page]</a>
+d85 1
+a85 1
+<a href="../onepage.html">[main page]</a>
+@

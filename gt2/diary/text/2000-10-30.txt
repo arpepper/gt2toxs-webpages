@@ -1,0 +1,93 @@
+Monday October 30, 2000
+
+(GT1 Version 1.1)  GameShark Addresses and Codes for Arcade Mode
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Some time I will probably need to start cataloging all the
+body codes, and what addresses they can be found at in which 
+game modes.  (By mode I don't just mean Arcade and Simulation;
+the contents of memory changes, for example, between when you
+are "car-shopping" and when you are racing).
+
+Nonetheless, I will relate a few addresses I experimented with
+in Arcade Mode.
+
+I started by searching for car body strings, and then worked backward
+to try and find memory locations that pointed to them.
+
+I discovered:
+</CODES>
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   8004DB88 -> 8004B6F4 -> "ccrvn" (Corvette GS)
+   8004DB4C -> 8004B75C -> "hcvon" (Civic 3dr)
+</pre></font></tt>
+</HTML>
+
+
+With the <b>GS Pro</b>, the easiest way to arrange to drive different
+cars is to patch the string you find at those locations to be
+something different.  You won't see the car as any different, but
+when you start your race, you will be driving the car you patched
+in.  Be careful about changing the colour--you can end up with very
+strange results!
+
+For instance, I tried:
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   "mlnnn" (Lancer EvoIV GSR)
+   "sipxr" (Impreza Rally Edition)
+   "tlvon" (Toyota Corolla Levin)
+   "n-15r" (Silvia LM)
+</pre></font></tt>
+</HTML>
+
+You even see those cars if you save the replays!  Selecting something
+like
+
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   "dvpgr" ([R]Dodge Viper GTS)
+</pre></font></tt>
+</HTML>
+
+does not work nicely, however.   You get a sort of gutless Dodge Viper,
+as if they add the race-mod, and the extra drag slows it down too much,
+or something.
+
+It does not matter what car you patch to select your car.  The class you
+compete in is chosen based on the characteristics of the replacement
+car you give.  I even verified that you get the appropriate red dot.
+
+Special Models, such as the Impreza Rally Edition, and the Silvia LM
+count as A class (but overpower all the competition even more than
+the normal Dodge Vipers do!).
+
+The thing I found most fun was driving cars, such as the Lancers,
+Alcyones, and Truenos, which regularly appear in the Arcade Mode fields
+but which are never made available for you to buy.
+
+(You can also, of course, patch in cars which you have not "unlocked"
+yet).
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

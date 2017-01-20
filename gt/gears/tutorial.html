@@ -1,0 +1,70 @@
+<html>
+<head><title>Gran Turismo Gear Calculator Tutorial</title></head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Gear Calculator</h3>
+</font>
+</td>
+</tr>
+</table>
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+</p>
+<p>
+To contact the author by
+<a href="../email.html">email</a>.
+</p>
+
+</center>
+<hr>
+<p>
+Clicking one of the following items will execute a Gear Calculator query as if you
+had filled out the form.
+</p>
+<p>
+(When I fix the Gear Calculator CGI to be like the Car Finder CGI)
+The filled-in form will be shown on the generated page, after the
+results of the query.  Study it to learn how the query is done.  You
+can modify it to try a slightly different query.
+Note that some results look much better if the window is
+reasonably wide.
+</p>
+<ul>
+<!-- would be nice to avoid root-relative reference here... -->
+<li><a href="/~arpepper/cgi-bin/gears?reorder=&final=3.3&tire=26.0&gear=3.6,2.2,1.8,1.4,1.0&rpm=500-8500x500&mph=">
+Normal Case, generate a chart for a given set of gear ratios and final drive.
+</a>
+<li><a href="/~arpepper/cgi-bin/gears?reorder=final&final=2.9-3.501x.1&tire=26.0&gear=3.6,2.2,1.8,1.4,1.0&rpm=500-5500x1500&mph=">
+You can even span several final drives and get multiple charts at once.
+</a>
+<li><a href="/~arpepper/cgi-bin/gears?reorder=final,gear&final=3.3&mph=150&gear=1.0&rpm=6500&tire=">
+But alternatively, you may want to calculate one thing, perhaps tire size.
+</a>
+<br>
+
+
+</ul>
+
+<p>
+Sorry, this tutorial is not great, but it was easy to do.
+<img src="../../bitmaps/happyfrog.gif" alt="8-)">
+
+<p>
+When you have a form, basically fill in at the top of the form the characteristics, and
+the value you want them to match how.
+The tricky part is selecting the fields you want to see in the result.
+This form makes use of "multiple selection" for those selectors, and
+how to do this varies depending upon the version of the browser you are
+using.  The Netscape we have here on UNIX interprets any mouse selection
+in those lists as a "toggle", while Netscape on my PC requires that
+the "control" key be pressed at the same time to work like that.
+IE on my iMac requires that the "apple" key be pressed.
+The "sort" menus work in a similar fashion, but can be ignored for your
+first queries; output will be sorted by the selected fields.
+</p>
+
+</body>
+</html>

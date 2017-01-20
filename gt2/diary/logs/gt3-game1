@@ -1,0 +1,2017 @@
+ Legend:
+         Name1/Name2/Name3 -> usually means League/Series/Race
+         League:
+               B - Beginner
+               A - Amateur
+               P - Professional
+               Rally - Rally
+               Enduro - Enduro
+
+         B-1 -> B license test 1
+         A-2 -> A license test 2
+         IB-4 -> International B license test 4
+         IA-5 -> International A license test 5
+         S-6 -> Super license test 6
+         R-7 -> Rally license test 7
+
+         B,S,G -> Bronze,Silver,Gold (as license test result)
+
+         Rmuff -> Racing muffler and exhaust
+         Smuff -> Sports muffler and exhaust
+         SRmuff -> Semi-Racing muffler and exhaust
+         Rtrans -> transmission "for professionals"
+         WR1 -> Weight Reduction 1 (etc)
+         WR0 -> No weight reduction was applied
+         TS1 -> Turbo Spec 1 (etc)
+         TS0 -> remove all turbo
+         3clu -> triple clutch
+         Rfw -> racing flywheel
+
+include gt3-racedefs
+
+May 16, 2002
+   1-8    license -- obtain B license
+   9   buy car Storia white Diahatsu Storia X4 (Cr13,900)
+   9   Cr4,100
+
+   9      Storia B/Sunday/Super        q1st1st      none
+  10      Storia B/Sunday/Midfield     q1st1st      none
+  11      Storia B/Sunday/TM           q2nd3rd       8-(
+  12   buy parts Storia  TS1
+  12   fit parts Storia  TS1
+  12      Storia B/Sunday/TM           q1st1st      whiteTrueno
+  13   Cr3,150
+  13   power off
+
+May 17, 2002
+  13-20    license -- obtain A license
+  21-28    license -- obtain IB license
+  29-32    license -- IA-2,IA-3,IA-5,IA-6
+
+  33      Storia B/Clubman/Rome             5th      8-(
+  34      Storia B/Sunday/Super        q1st1st      none
+  35      Storia B/Sunday/Super       nq6th1st      none
+  36   Cr5,750
+  36   buy parts Storia  Sp/Sp
+  36   fit parts Storia  Sp/Sp
+  36   Cr750
+
+  36      Storia B/Clubman/Rome         q5th5th      8-(
+  37      Storia B/Clubman/SSR5         q1st1st      none
+  38   Cr2,350
+
+  38      Storia B/Clubman/DFRW         q6th6th      8-(
+  39   Cr2,850
+  39   buy parts Storia  Ric
+  39   fit parts Storia  Ric
+  39   Cr350
+  39      Storia B/Clubman/SSR5         q2nd2nd      8-(
+  40   Cr1,250
+  40   power off
+
+May 19, 2002
+ cardef Trueno        whiteTrueno
+  40   select car Trueno (alias whiteTrueno)
+  40      Trueno B/Sunday/Super       nq6th1st      none
+  41      Trueno B/Sunday/Midfield     q1st1st      none
+  42   change oil Trueno
+  42   Cr3,000
+  42      Trueno B/Sunday/TM           q2nd3rd       8-(
+  43   Cr4,000
+  43      Trueno B/FR/GV               q6th6th       8-(
+  44   Cr4,500
+  44      Trueno B/Clubman/SSR5        q5th2nd       8-(
+  45   Cr5,400
+  45      Trueno B/Sunday/Super       nq6th1st      none
+  46      Trueno B/Sunday/Super       nq6th1st      none
+  47      Trueno B/Sunday/Super       nq6th1st      none
+  48      Trueno B/Sunday/Super       nq6th1st      none
+  49      Trueno B/Sunday/Super       nq6th1st      none
+  50      Trueno B/Sunday/Super       nq6th1st      none
+  51      Trueno B/Sunday/Super       nq6th1st      none
+  52      Trueno B/Sunday/Super       nq6th1st      none
+  53   Cr13,400
+  53   buy parts Trueno TS2 (Cr12,500)
+  53   fit parts Trueno TS2
+  53   Cr900
+  53      Trueno B/Clubman/DFRW        q2nd2nd       8-(
+  54   Cr1,800
+  54      Trueno B/Clubman/RomeL       q2nd1st       none
+  55   Cr2,800
+  55      Trueno B/Turbo/Midfieldii    q6th4th       8-(
+  56   Cr3,800
+  56      Trueno B/Turbo/SSR11         q6th6th       8-(
+  57   Cr4,100
+  57      Trueno B/FR/GV               q6th3rd       8-(
+  58   Cr4,900
+  58      license IA-1
+  59      license IA-4
+  60      Trueno B/80s/SSR5            q2nd2nd       8-(
+  61   Cr5,900
+  61      Trueno B/Sunday/Super       nq6th1st      none
+  62   Cr6,900
+  62      Trueno B/Sunday/Super       nq6th1st      none
+  63      Trueno B/Sunday/Super       nq6th1st      none
+  64      Trueno B/Sunday/Super       nq6th1st      none
+  65      Trueno B/Sunday/Super       nq6th1st      none
+  66   Cr10,900
+  66   buy parts Trueno T2/T2 (Cr10,000)
+  66   fit parts Trueno T2/T2
+  66   Cr900
+  66      Trueno B/Clubman/DFRW        q2nd2nd       8-(
+  67   Cr1,800
+  67      Trueno B/FR/GV               q2nd2nd       8-(
+  68   Cr2,800
+  68      Trueno B/FR/Apricotii        q4th2nd       8-(
+  69   Cr3,800
+  69      Trueno B/FR/SSR5             q1st1st       none
+  70   Cr5,300
+  70   power off
+
+May 20, 2002
+  70      license IA-7 B
+  71      license IA-8 B  - IA license acquired
+  72   perm mod Trueno WR1 (Cr1,000)
+  72   Cr4,300
+  72   buy parts Trueno SpSusp (Cr3,000)
+  72   fit parts Trueno SpSusp
+  72   Cr1,300
+  72      Trueno B/Sunday/Super        q1st1st      none
+  73   Cr2,300
+  73      Trueno B/Clubman/DFRW        q2nd1st      greenMiata
+  74   Cr3,300
+  74   change oil Trueno
+  74   Cr3,050
+  74      Trueno B/FR/GV               q2nd1st       8-(
+  75   Cr4,550
+  75      Trueno B/FR/Apricotii        q4th3rd       8-(
+  76   Cr5,350
+ cardef Miata         greenMiata
+  76   select car Miata (alias greenMiata)
+  76   change oil Miata
+  76   select car Trueno
+  76      Trueno B/Sunday/Super        q1st1st      none
+  77   Cr6,100
+  77      Trueno B/Sunday/Midfield     q1st1st      none
+  78   Cr7,100
+  78      Trueno B/Sunday/TM           q1st1st      none
+  79   Cr8,100
+  79   power off
+  
+May 21, 2002
+  80   select car Storia
+  79      Storia B/Clubman/SSR5         q2nd1st      none
+  80   Cr9,100
+  80   select car Miata
+  80      Miata  B/Sunday/Super       nq6th1st      none
+  81      Miata  B/Sunday/Super       nq6th1st      none
+  82      Miata  B/Sunday/Super       nq6th1st      none
+  83      Miata  B/Sunday/Super       nq6th1st      none
+  84   Cr13,100
+  84   buy parts Miata  TS2 (Cr12,500)
+  84   fit parts Miata  TS2
+  84   Cr600
+  84      Miata  B/Sunday/Super       nq6th1st      none
+  85   Cr1,600
+  85      Miata  B/Spider/DFRW         q1st1st      none
+  86   Cr4,100
+  86      Miata  B/Spider/GVii         q1st1st      none
+  87   Cr6,600
+  87      Miata  B/Spider/Test         q2nd3rd      none
+  88   Cr7,100
+  88      Miata  B/Spider/DFRW        nq6th1st      none
+  89      Miata  B/Spider/DFRW        nq6th1st      none
+  90   Cr12,100
+  90   buy parts Miata  Rtrans (Cr10,000)
+  90   fit parts Miata  Rtrans
+  90   Cr2,100
+  90      Miata  B/Spider/Test         q1st1st      yellowMiataLS
+  91   Cr4,600
+  91      Miata  B/FR/Apricotii        q1st2nd       8-(
+  92   Cr5,600
+  92   change oil Miata
+  92   Cr5,350
+  92      Miata  B/FR/Apricotii        q1st1st      greenSilviaKs
+  93   Cr6,850   5 cars
+  93      Miata  B/Turbo/Test         nq6th1st       none
+  94   Cr11,850
+  94   buy parts Miata  T2/T2 (Cr10,000)
+  94   fit parts Miata  T2/T2
+  94   Cr1,850
+  94      Miata  B/Turbo/Midfieldii    q1st1st       none
+  95   Cr6,850
+  95      Miata  B/80s/SSR5            q1st1st       none
+  96   Cr9,350
+  96      Miata  B/80s/Seattleii       q2nd1st       none
+  97   Cr11,850
+  97   perm mod Miata WR1  (Cr1,000  980kg -> 950kg  8-( )
+  97      Miata  B/Turbo/SSR11         q2nd2nd       8-(
+  98   Cr13,350
+  98   select car Miata
+  98      Miata  B/Turbo/Test         nq6th1st       none
+  99   Cr18,350   FD 2.7
+  99   buy parts Miata  Rsusp (Cr15,000)
+  99   fit parts Miata  Rsusp
+  99      Miata  B/Turbo/SSR11         q2nd2nd       8-(
+ 100   Cr5,850
+ 100   buy parts Miata  SpBr  (Cr4,500)
+ 100   fit parts Miata  SpBr
+ 100      Miata  B/Sunday/Super        q1st1st      none
+ 101   Cr2,350
+ 101      Miata  B/80s/Tokyoii         q1st1st      silverRX7
+ 102   Cr4,850   6cars
+ 102   buy parts Miata  shaft,Rfw (Cr2,500, Cr900)
+ 102   fit parts Miata  shaft,Rfw
+ 102   Cr1,450
+ 102   change oil Miata
+ 102   Cr1,200
+ 102      Miata  B/Turbo/SSR11         q1st2nd       8-(
+ 103   Cr3,700
+ 103      Miata  B/Turbo/SSR11         q1st1st       blackMiraTR
+ 104   Cr8,700  7cars  17.1%   (no 3000GT in SSR11 race 8-( )
+ cardef RX7           silverRX7
+ 104   select car RX7   (alias silverRX7)
+ 104      RX7    B/Sunday/Super        q1st1st      none
+ 105   Cr9,700
+ 105   power off
+
+May 24, 2002
+ 105   select car Miata
+ 105      Miata  A/Turbo/Test          q1st1st      none
+ 106   Cr24,700
+ 106      Miata  A/Turbo/GV            q6th6th      8-(
+ 107   Cr24,700
+ 107   buy parts Miata  Rmuff,chip (Cr4,500, Cr1,000)
+ 107   fit parts Miata  Rmuff,chip
+ 107   Cr19,200
+ 107      Miata  B/Sunday/Super        q1st1st      none
+ 108   Cr20,200
+ 108   perm mod Miata WR2  (Cr5,000  950kg -> 911kg)
+ 108   Cr15,200
+ 108      Miata  A/JP/Super            q1st1st      none
+ 109   Cr22,700
+ 109      Miata  A/FR/TM               q6th4th      8-(
+ 110   Cr23,700
+ 110      Miata  A/US/Super            q1st1st      none
+ 111   Cr31,200
+ 111   change oil Miata
+ 111   Cr30,950
+ 111      Miata  Enduro/Super          q3rd1st      [R]FalconXR8
+ 112   Cr230,950   8cars   17.9%
+ 112   change oil Miata
+ 112   Cr230,700
+
+
+ cardef [R]Tickford   [R]FalconXR8
+ 112   select car [R]Tickford
+ 112   mod car [R]Tickford  (alias [R]FalconXR8)
+ 112      [R]Tickford  B/GTW/Super     q1st1st      none
+ 113   Cr240,700
+ 113   change oil [R]Tickford
+ 113   Cr240,450
+ 113      [R]Tickford  B/GTW/TM        q1st1st      none
+ 114   Cr250,450
+ 114   power off
+
+May 25, 2002
+ 114      [R]Tickford  B/GTW/Midfield  q1st1st      none
+ 115   Cr260,450
+ 115      [R]Tickford  B/GTW/Laguna    q1st1st      none
+ 116   Cr270,450
+ 116   power off
+ 116   change oil [R]Tickford
+ 116   Cr270,200
+ 116      [R]Tickford  B/GTW/Tokyo     q1st1st      none
+ 117   Cr280,200
+ 117      [R]Tickford  B/GTW/Seattle   q1st1st      none
+ 118   Cr290,200
+ 118      [R]Tickford  B/GTW/SSR11     q1st1st      none
+ 119   Cr300,200
+ 119      [R]Tickford  B/GTW/Apricot   q1st1st      none
+ 120   Cr310,200
+ 120      [R]Tickford  B/GTW/TMii      q1st1st      none
+ 121   Cr320,200
+ 121      [R]Tickford  B/GTW/GV        q1st1st      none
+ 122   Cr330,200
+ 122   change oil [R]Tickford
+ 122   Cr329,950
+ 122      [R]Tickford  B/GTW   sw100to58,40,26,18,18  orangeCelicaGT4
+ 123   Cr479,950   9cars   20.0%
+ 123   change oil [R]Tickford
+ 123   Cr479,700
+
+ cardef GT4           orangeCelicaGT4
+ 123   select car GT4 (alias orangeCelicaGT4)
+ 123   change oil GT4
+ 123   Cr479,450
+ 123   buy parts GT4  TS3,Ric  (Cr41,500, Cr2,700)
+ 123   fit parts GT4  TS3,Ric
+ 123   buy parts GT4  T5/T5  (M/M) (Cr22,500)
+ 123   fit parts GT4  T5/T5  (M/M)
+ 123   Cr413,000
+ 123      GT4          B/4WD/Midfield  q1st2nd      8-(
+ 124   Cr414,500
+ 124      GT4          B/4WD/Midfield  q1st1st      none
+ 125   Cr416,500
+ 125      GT4          B/4WD/DFRW      q1st1st      none
+ 126   Cr418,500
+ 126      GT4          B/4WD/SSR11     q1st1st      goldAlto
+ 127   Cr420,500  10cars  20.6%
+ 127   power off
+
+May 26, 2002
+ 127      GT4          A/4WD/Super     q1st1st      none
+ 128   Cr425,500
+ 128   buy parts GT4 3clu,Rfw,shaft,Rtrans (Cr4,600, Cr1,000, Cr2,750, Cr10,200)
+ 128   fit parts GT4 3clu,Rfw,shaft,Rtrans
+ 128   Cr406,900
+ 128   buy parts GT4  T2/T2  (SSl/SSl) (Cr10,250) (don't fit)
+ 128   Cr396,700
+ 128      GT4         A/4WD/Apricotii  q2nd1st      8-(
+ 129   Cr399,700
+ 129      GT4         A/4WD/GV         q1st1st      none
+ 130   Cr404,700
+ 130   buy parts GT4 SpBr (Cr4,600)
+ 130   fit parts GT4 SpBr
+ 130   Cr400,100
+ 130      GT4         A/4WD/Apricotii  q1st1st      champagneLancerEvoVII
+ 131   Cr405,100  11cars  21.1%
+ 131   change oil  GT4
+ 131   Cr404,850
+ 131      GT4    Enduro/Super          q4th1st      [R]F090/S
+ 132   Cr604,850  12cars  21.1%
+ 132   change oil  GT4
+ 132   Cr604,600
+ 132   select car [R]Tickford
+ 132      [R]Tickford  B/GTW   sw100to60,40,26,18,16  yellowLancerEvoVI
+ 133   Cr754,600  13cars  21.1%
+
+ cardef EvoVII        champagneLancerEvoVII
+ 133   select car EvoVII  (alias LancerEvoVII)
+ 133   change oil EvoVII
+ 133   Cr754,350
+ 133      EvoVII      B/Evo/TM         q1st1st      none
+ 134   Cr759,350
+ 134   buy parts EvoVII  T2/T2  (SSl/SSl) (Cr10,500)
+ 134   fit parts EvoVII  T2/T2
+ 134   Cr748,850
+ 134      EvoVII      B/Evo/Laguna     q5th1st      none
+ 135   Cr753,850
+ 135      EvoVII     B/Evo/Midfieldii  q5th1st      yellowLancerEvoIVGSR
+ 136   Cr758,850  14cars 21.7%
+ 136   power off
+
+May 29, 2002
+ 136   buy car Altezza  Red Mica Metallic Toyota Altezza RS200 (Cr24,000)
+ 136   select car Altezza
+ 136   buy parts Altezza  T2/T2  (SSl/SSl) (Cr10,250)
+ 136   fit parts Altezza  T2/T2
+ 136   Cr724,600
+ 136   change oil  Altezza
+ 136   Cr724,350
+ 136   buy parts Altezza  TS2,SpBr  (Cr41,500, Cr4,500)
+ 136   fit parts Altezza  TS2,SpBr
+ 136   buy parts Altezza  3clu,shaft,Rfw  (Cr4,600, Cr2,750, Cr1,000)
+ 136   fit parts Altezza  3clu,shaft,Rfw
+ 136   Cr669,900
+ 136      Altezza    B/Altez/DFRW      q1st1st      none
+ 137   Cr670,900
+ 137      Altezza    B/Altezza   nq6Dq5S1st50to22,16,15,14,13  blackCelicaSSII
+ 138   Cr685,900  16cars 22.9%
+ cardef Celica        blackCelicaSSII
+ 138   select car Celica (alias blackCelicaSSII)
+ 138   change oil  Celica
+ 138   Cr685,650
+ 138      Celica     B/FF/DFRW         q2nd2nd      8-(
+ 139   Cr686,650
+ 139   buy parts Celica  T8/T8  (Cr47,250)
+ 139   fit parts Celica  T8/T8
+ 139   Cr639,400
+ 139   buy parts Celica  SpBr   (Cr4,600)
+ 139   buy parts Celica  NA2,Rmuff   (Cr12,000, Cr4,600)
+ 139   fit parts Celica  SpBr,NA2,Rmuff
+ 139   Cr618,200
+ 139      Celica     B/FF/DFRW         q1st1st      none
+ 140   Cr619,700
+ 140      Celica     B/FF/SSR5         q1st1st      none
+ 141   Cr621,200
+ 141      Celica     B/FF/RomeL        q1st1st      pinkVitz
+ 142   Cr622,700  17cars  23.4%                    Vitz RS 1.5
+ 142   power off
+
+May 30, 2002
+ 142      Celica     B/NA/Apricot      q1st1st      none
+ 143   Cr627,700
+ 143      Celica     B/NA/GV           q1st1st      none
+ 144   Cr632,700
+ 144      Celica     B/NA/Apricotii    q1st1st      silverdelSolSiR
+ 145   Cr637,700  18cars  24.0%
+ 145   buy car NSX-R   Championship White  Acura NSX TypeR  (Cr99,570)
+ 145   Cr538,130
+ 145   select car NSX-R
+ 145   change oil  NSX-R
+ 145   Cr537,880
+ 145   power off
+
+May 31, 2002
+ 145      NSX-R      B/MR/Apricot      q1st1st      none
+ 146   Cr539,880
+ 146      NSX-R      B/MR/TM           q1st1st      none
+ 147   Cr541,880
+ 147      NSX-R      B/MR/DFRWii       q1st1st      blueMR-S-S
+ 148   Cr543,880  20cars  27.4%
+ 148      NSX-R      B/TypeR/TMii      q1st1st      none
+ 149   Cr548,880
+ 149      NSX-R      B/TypeR  sw50to30,17,16,9,8    silverRSX-S
+ 150   Cr583,880  21cars  28.6%
+ 150   change oil  NSX-R
+ 150   Cr583,630
+ 150   power off
+
+June 01, 2002
+ cardef Vitz          pinkVitz
+ 150   select car Vitz (alias pinkVitz)
+ 150   change oil  Vitz
+ 150   buy parts Vitz  TS2,SpBr,T2/T2  (Cr13,500, Cr4,600, Cr10,250)
+ 150   fit parts Vitz  TS2,SpBr,T2/T2
+ 150   Cr555,530
+ 150      Vitz       B/Vitz  q1*T5,1st42to22,21,16,16,13     pinkVitz(dup)
+ 151   Cr585,530  22cars  29.7%                             Vitz RS 1.5
+ cardef Alto          goldAlto
+ 151   select car Alto (alias goldAlto)
+ 151   buy parts Alto  TS2,T2/T2   (Cr12,500, Cr10,000)
+ 151   fit parts Alto  TS2,T2/T2
+ 151   Cr562,780
+ 151      Alto       B/Lwt/TM          q1st1st      none
+ 152   Cr565,280
+ 152      Alto       B/Lwt/Super       q1st1st      none
+ 153   Cr567,780
+ 153      Alto       B/Lwt/Laguna      q1st1st      greenMini
+ 154   Cr570,280  23cars  30.3%
+ 154   buy car Viper  Red/Silver-Stripe Dodge Viper GTS  (Cr78,680)
+ 154   select car Viper
+ 154   Cr491,600
+ 154      Viper      B/S+S/Seattle     q1st1st      none
+ 155   Cr495,100
+ 155   change oil  Viper
+ 155   Cr494,850
+ 155      Viper      B/S+S/Super       q1st1st      none
+ 156   Cr498,350
+ 156      Viper      B/S+S/Laguna      q1st1st      none
+ 157   Cr501,850
+ 157      Viper      B/S+S/Seattleii   q1st1st      redCamaroSS
+ 158   Cr505,350  25cars  31.1%
+ 158   power off
+
+June 02, 2002
+ 158   select car Viper
+ 158   buy car AudiTT  Amulet Red Audi TT 1.8T quattro  (Cr46,580)
+ 158   select car AudiTT
+ 158   Cr458,770
+ 158   buy parts AudiTT  TS2,T2/T2  (Cr13,500, Cr10,500)
+ 158   fit parts AudiTT  TS2,T2/T2
+ 158   Cr434,770
+ 158   change oil  AudiTT
+ 158   Cr434,520
+ 158      AudiTT   B/TT    C2,1st46to?              yellowAudiTT1.8
+ 159   Cr465,520  27cars  32.0%
+ 159   power off
+
+June 04, 2002
+ 159   buy car SLK230  Brilliant Silver Metallic Mercedes-Benz SLK 230 Kompressor (Cr55,310)
+ 159   select car SLK230
+ 159   Cr410,210
+ 159   buy parts SLK230  TS2,T2/T2,Rtrans  (Cr13,500, Cr10,500, Cr10,400)
+ 159   fit parts SLK230  TS2,T2/T2,Rtrans
+ 159   Cr375,810
+ 159   change oil  SLK230
+ 159   Cr375,560
+ 159      SLK230  B/Silv/Test          q1st1st      none
+ 160   Cr385,560
+ 160      SLK230  B/Silv/TMii          q1st1st      none
+ 161   Cr395,560
+ 161      SLK230  B/Silv/Romeii        q6th3rd      8-(
+ 162   Cr396,060
+ 162   buy parts SLK230  T8/T8  (Cr47,500)
+ 162   fit parts SLK230  T8/T8
+ 162   Cr348,560
+ 162      SLK230  B/Silv/Romeii        q5th3rd      8-(
+ 163   Cr349,060
+ 163   buy parts SLK230  SpBr,Rmuff  (Cr4,700, Cr4,800)
+ 163   fit parts SLK230  SpBr,Rmuff
+ 163   Cr339,560
+ 163      SLK230  B/Silv/Romeii        q1st1st      silverSLK230
+ 164   Cr349,560  29cars  32.6%
+ 164   power off
+
+June 05, 2002
+ 164   buy car BeetleRSi  silver Volkswagen New Beetle RSi (Cr70,000)
+ 164   select car BeetleRSi
+ 164   Cr279,560
+ 164   buy parts BeetleRSi  T2/T2,Rtrans  (Cr10,500, Cr10,400)
+ 164   fit parts BeetleRSi  T2/T2,Rtrans
+ 164   Cr258,660
+ 164   change oil  BeetleRSi
+ 164   Cr258,410
+ 164      BeetleRSi  B/Beetle  3rd31to26,(24),19,16,14   8-(
+ 165   Cr270,210
+ 165   buy parts BeetleRSi  T8/T8,TS3,Ric  (Cr47,500, Cr41,500, Cr3,000)
+ 165   buy parts BeetleRSi  SpBr,Rmuff,Chip (Cr4,700, Cr4,800, Cr1,500)
+ 165   fit parts BeetleRSi  T8/T8,TS3,Ric,SpBr,Rmuff,Chip
+ 165   buy parts BeetleRSi  3clu,Rfw,Shaft (Cr4,700, Cr1,050, Cr3,000)
+ 165   fit parts BeetleRSi  3clu,Rfw,Shaft
+ 165   Cr157,460
+ 165      BeetleRSi  B/Beetle  sw50to22,21,15,14,8   silverBeetleRSi
+ 166   win car  EvoVGSR Nayez Blue Pearl Lancer Evolution V GSR (prize, Beginner)
+ 166   Cr192,460  32cars  33.7%
+ 166   power off
+
+June 06, 2002
+ 166   select car EvoVII
+ 166   buy parts EvoVII  TS2,Ric,SpBr    (Cr13,500, Cr3,000, Cr4,700)
+ 166   buy parts EvoVII  3clu,Rfw,Shaft  (Cr4,700, Cr1,050, Cr3,000)
+ 166   fit parts EvoVII  TS2,Ric,SpBr,3clu,Rfw,Shaft
+ 166   Cr162,510
+ 166   buy parts EvoVII  Rtrans  (Cr10,400)
+ 166   fit parts EvoVII  Rtrans
+ 166   Cr152,110
+ 166      EvoVII  A/Evo/Midfieldii     q5th2nd      8-(
+ 167   Cr157,110
+ 167   buy parts EvoVII  T8/T8  (Cr47,500)
+ 167   fit parts EvoVII  T8/T8
+ 167   Cr109,610
+ 167      EvoVII  A/Evo/Midfieldii     q1st1st      none
+ 168   Cr119,610
+ 168      EvoVII  A/Evo/SSR11          q1st1st      none
+ 169   Cr129,610
+ 169      EvoVII  A/Evo/Tokyo          q2nd2nd      8-(
+ 170   Cr134,610
+ 170   buy parts EvoVII  Rmuff,chip,Rsusp  (Cr4,800, Cr1,500, Cr17,000)
+ 170   fit parts EvoVII  Rmuff,chip,Rsusp
+ 170   change oil  EvoVII
+ 170   Cr111,060
+ 170      EvoVII  A/Evo/Tokyo          q1st1st      [R]LancerEvoVI-Rally
+ 171   Cr121,060  33cars  34.3%
+ 171   power off
+
+June 06, 2002
+ 171      EvoVII  A/JP  sw50to25,22,14,13,6  yellowLancerEvoIVGSR(dup)
+ 172   Cr178,560  34cars  35.3%
+ 172  select car NSX-R
+ 172   buy parts NSX-R  T2/T2  T6/T6  (Cr10,500, Cr27,500)
+ 172   fit parts NSX-R  T2/T2
+ 172   change oil  NSX-R
+ 172   Cr140,310
+ 172      NSX-R      Enduro/TM2hr      q3rd2nd      8-(
+ 173   Cr210,310
+ 173   power off
+
+June 08, 2002
+ 173   buy car Speed6   Chameleon Orange TVR Tuscan Speed 6 (Cr80,780)
+ 173  select car Speed6
+ 173   Cr129,530
+ 173   buy parts Speed6  T2/T2  T6/T6  (Cr10,750, Cr27,750)
+ 173   fit parts Speed6  T2/T2
+ 173   change oil  Speed6
+ 173   Cr90,780
+ 173      Speed6     Enduro/TM2hr      q1st1st      [R]ListerStorm
+ 174   Cr240,780  36cars  35.4%
+ 174   change oil  Speed6
+ 174   Cr240,530
+ 174      Speed6   A/FR/TM             q1st1st      none
+ 175   Cr245,530
+ 175      Speed6   A/FR/Laguna         q1st1st      none
+ 176   Cr250,530
+ 176      Speed6   A/FR/Tokyo          q1st1st      TruenoSS
+ 177   Cr255,530  37cars  36.0%  3,480.3mi
+ 177   power off
+
+June 09, 2002
+ cardef MiataLS       yellowMiataLS
+ 177   select car MiataLS  (alias yellowMiataLS)
+ 177   change oil  MiataLS   160hp -> 168hp
+ 177   Cr255,280
+ 177   buy parts MiataLS  T2/T2  T6/T6  (Cr10,250, Cr27,250)
+ 177   fit parts MiataLS  T2/T2
+ 177      MiataLS    Enduro/Apricot200 q2nd1st      yellowMiata
+ 178   Cr317,780  38cars  36.2%  3,633.8mi
+
+ 178   select car Viper
+ 178   buy parts Viper  T6/T6   (Cr27,750)
+ 178   Cr270,030
+ 178   fit parts Viper  T6/T6
+ 178   change oil  Viper
+ 178   Cr287,780
+ 178      Viper  A/US/Seattle       q6th3rd         8-(
+ 179   Cr291,780
+ 179   buy parts Viper  T8/T8,3clu,Rfw  (Cr47,750, Cr4,800, Cr1,100)
+ 179   buy parts Viper  Shaft,Rtrans,Rsusp (Cr3,250, Cr10,500, Cr18,000)
+ 179   buy parts Viper  SpBr,NA2  (Cr4,800, Cr13,500)
+ 179   fit parts Viper  T8/T8,3clu,Rfw,Shaft,Rtrans,Rsusp,SpBr,NA2
+ 179   Cr188,080
+ 179      Viper  A/US   2nd42to(38),17,13,13,7      8-(
+ 180   Cr212,080
+ 180      Viper      A/NA/Apricot     nq6th1st      none
+ 181   Cr227,080
+ 181      Viper      A/NA/Super       nq6th1st      none
+ 182   Cr242,080
+ 182      Viper      A/NA/DFRWii       q1st1st      redMazdaRX8
+ 183   Cr257,080  39cars  37.2%  3,802.5mi
+ 183   power off
+
+June 11, 2002
+ 183      Viper      A/S+S/Seattle    nq6th1st      none
+ 184   Cr264,580
+ 184      Viper      A/S+S/Super      nq6th1st      none
+ 185   Cr272,080
+ 185      Viper      A/S+S/Laguna     nq6th1st      none
+ 186   Cr279,580
+ 186      Viper      A/S+S/Seattleii  nq6th1st      [R]SpoonS2000
+ 187   Cr287,080  40cars  37.9%  3,854.9mi
+ 187   change oil  Viper
+ 187   Cr285,830
+ 187   buy parts Viper  T2/T2  (Cr10,750)
+ 187   fit parts Viper  T2/T2
+ 187   Cr276,080
+ 187      Viper  Enduro/Super          q1st1st    black[R]Clio
+ 188   Cr486,080  41cars  37.9%  4,096.9mi
+ 188   power off
+
+June 12, 2002
+ cardef [R]Clio       black[R]Clio
+ 188   select car   [R]Clio  (alias black[R]Clio)
+ 188   buy parts [R]Clio  TS2  (Cr14,500)
+ 188   fit parts [R]Clio  TS2
+ 188   change oil  [R]Clio
+ 188   Cr461,330
+ 188      [R]Clio  A/Euro  C2,1st46to34,19,16,10,5  [R]Vertigo
+ 189   Cr514,330  42cars  40.0%  4,207.9mi
+ 189   power off
+
+June 13, 2002
+ 189      license R-1  0:17.237  B
+ 190      license R-2  0:30.456  B
+ 191      license R-3  0:23.138  B
+ 192      license R-4  0:23.735  B  only 2 tries
+ 193      license R-5  0:29.209  B
+ 194      license R-6  0:31.428  B
+ 195      license R-7  0:24.478  B
+ 196      license R-8  2:07.643  B   R license acquired
+ 197   Cr514,330  42cars  IA/R  40.0%  4,207.9mi
+
+ 197      [R]Clio    A/MR/Tokyoii      q1st1st      none
+ 198   Cr519,330
+ 198      [R]Clio    A/MR/DFRWii       q1st1st      none
+ 199   Cr524,330
+ 199      [R]Clio    A/MR/GV           q1st1st      blueNSXtypeSzero
+ 200   Cr524,330  43cars  IA/R  42.1%  4,278.1mi   Boulder Opal Blue
+ 200   power off
+
+June 15, 2002
+ 200   select car SLK230
+ 200   buy parts SLK230  Rsusp,TS3  (Cr17,000, Cr42,500)
+ 200   buy parts SLK230  3clu,Rfw,shaft  (Cr4,700, Cr1,050, Cr3,000)
+ 200   fit parts SLK230  Rsusp,TS3,3clu,Rfw,shaft
+ 200   Cr461,080
+ 200   change oil  SLK230
+ 200   Cr460,830
+ 200      SLK230  A/Silv/Romeii        q1st1st      none
+ 201   Cr480,830
+ 201      SLK230  A/Silv/Super         q1st1st      none
+ 202   Cr500,830
+ 202      SLK230  A/Silv/TM           nq6th1st      [R]CLK-DTM
+ 203   Cr520,830  44cars  IA/R  43.8%  4,319.5mi
+ 203   select car [R]CLK-DTM
+ 203   change oil  [R]CLK-DTM
+ 203   Cr520,580                                       Champagne Gold
+ 203      [R]CLK-DTM  A/DTM  L2T2,1st38to26,26,17,16,7  yellowRUF3400S
+ 204   Cr585,580  45cars  IA/R  44.6%  4,483.5mi
+ 204      [R]CLK-DTM  A/GTW/GV         q5th6th      8-(
+ 205   Cr585,580
+
+ 205   select car AudiTT
+ 205   buy parts AudiTT  Ric,TS3,Rmuff  (Cr3,000, Cr42,500, Cr4,800)
+ 205   buy parts AudiTT  T5/T5, T8/T8, chip   (Cr22,500, Cr47,500, Cr1,500)
+ 205   fit parts AudiTT  Ric,TS3,Rmuff,T8/T8,chip
+ 205   Cr463,780
+ 205      AudiTT  A/TT/TM              q6th1st        none
+ 206   Cr473,780
+ 206   buy parts AudiTT  SpBr  (Cr4,700)
+ 206   fit parts AudiTT  SpBr
+ 206   Cr469,080
+ 206   change oil AudiTT
+ 206   Cr468,830                                      Imola Yellow
+ 206      AudiTT  A/TT    sw50to20,18,16,15,11        yellowAudiS4
+ 207   Cr558,830  46cars  IA/R  45.8%  4,631.0mi
+
+ 207   select car Altezza
+ 207   buy parts Altezza  Rmuff,chip,T8/T8  (Cr4,600, Cr1,250, Cr47,250)
+ 207   fit parts Altezza  Rmuff,chip,T8/T8
+ 207   change oil Altezza
+ 207   Cr505,480
+ 207      Altezza  A/Altezza  sw50to23,18,16,13,10  silver[R]AltezzaLM
+ 208   Cr585,480  47cars  IA/R  46.9%  4,792.3mi
+
+ cardef [R]Altezza    silver[R]AltezzaLM
+ 208   select car [R]Altezza  (alias silver[R]AltezzaLM)
+ 208   change oil [R]Altezza
+ 208   Cr585,230
+ 208      [R]Altezza  A/GTW/GV         q4th3rd        8-(
+ 209   Cr587,730
+ 209   buy parts  [R]Altezza  TS2  (Cr14,500)
+ 209   fit parts  [R]Altezza  TS2
+ 209   Cr573,230
+ 209      [R]Altezza  A/GTW/GV         q2nd3rd        8-(
+ 210   Cr575,730
+ 210   buy parts  [R]Altezza  T3/T3  (Cr14,000)
+ 210   fit parts  [R]Altezza  T3/T3
+ 210   Cr561,730
+ 210      [R]Altezza  A/GTW/GV         q2nd4th        8-(
+ 211   Cr562,730
+ 211      [R]Altezza  A/Dream/GVii     q2nd1st        none
+ 212   Cr587,730
+ 212   power off
+
+June 16, 2002
+ cardef RUF3400S      yellowRUF3400S
+ 212   select car RUF3400S  (alias yellowRUF3400S)
+ 212   buy parts RUF3400S  SpBr,Rmuff    (Cr4,800, Cr4,900)
+ 212   buy parts RUF3400S  TS2,T8/T8     (Cr14,000, Cr47,750)
+ 212   fit parts RUF3400S  SpBr,Rmuff,TS2,T8/T8
+ 212   Cr516,280
+ 212   change oil RUF3400S
+ 212   Cr516,030
+ 212      RUF3400S  A/Boxer/DFRW       q1st1st        none
+ 213   Cr526,030
+ 213      RUF3400S  A/Boxer/Seattle   nq6th1st        none
+ 214   Cr536,030                                     Cashmere Yellow
+ 214      RUF3400S  A/Boxer/Midfieldii  nq6th1st      yellowB4Blitzen
+ 215   Cr546,030  48cars  IA/R  49.0%  4,941.2mi
+ 215      RUF3400S  A/Turbo/GV         q1st1st        none
+ 216   Cr561,030                                   Scotia White
+ 216      RUF3400S  A/Turbo/Apricotii  q1st1st    MinesLancerEvoVIGSR
+ 217   Cr576,030  49cars  IA/R  49.4%  4,969.4mi
+
+ 217   select car NSX-R
+ 217   buy parts NSX-R  Rmuff,NA2,chip   (Cr4,800, Cr12,500, Cr1,500)
+ 217   buy parts NSX-R  3clu,Rfw,Rtrans  (Cr4,700, Cr1,050, Cr10,400)
+ 217   fit parts NSX-R  Rmuff,NA2,chip,3clu,Rfw,Rtrans
+ 217   change oil NSX-R      ~387 -> 403
+ 217   Cr540,830                                Flint Black Metallic
+ 217      NSX-R     A/TypeR   sw50to30,20,15,8,7      blackNSXtypeR
+ 218   Cr610,830
+ 218   win car [R]C5R   Chevrolet [R]Corvette C5R (prize, 50%)
+ 218   Cr610,830  51cars  IA/R  50.5%  5,150.0mi
+
+ 218   select car  [R]C5R
+ 218   change oil  [R]C5R
+ 218   Cr610,580
+ 218      [R]C5R    A/US      sw50to21,21,15,15,8     red[R]Camaro
+                               Note: no AI C5R  8-(
+ 219   Cr668,080  52cars  IA/R  51.1%  5,247.9mi
+ 219   select car [R]Altezza
+ 219   change oil  [R]Altezza
+ 219   Cr667,830
+ 219      [R]Altezza  A/Dream  1st70to40,22,20,19,11  white[R]ImprezaLM
+ 220   Cr992,830  53cars  IA/R  52.4%  5,560.1mi
+ 220   power off
+
+June 19, 2002
+ 220   buy parts  [R]Altezza  TS1,T6/T6,TS3  (Cr5,000, Cr28,000, Cr45,000)
+ 220   fit parts  [R]Altezza  TS1,T6/T6,TS3
+ 220   change oil  [R]Altezza   700hp -> 735hp
+ 220   Cr914,580                                        Sonic Orange
+ 220      [R]Altezza  A/GTW  S2G2,1st92to46,37,36,26,23   goldNissanZConcept
+ 221   Cr1,104,580  54cars  IA/R  54.1%  5,870.7mi
+Note: first day with a balance > Cr1,000,000
+ 221   power off
+
+July 03, 2002
+ 221   select car Miata
+ 221      Miata      A/80s/SSR5      q1st2nd          8-(
+ 222   Cr1,108,580
+ 222   buy parts Miata  3clu (Cr4,500)
+ 222   fit parts Miata  3clu
+ 222   Cr1,104,080
+ 222      Miata      A/80s/SSR5      q2nd2nd          8-(
+ 223   Cr1,108,080
+ 223   power off
+
+July 04, 2002
+ 223   select car TruenoSS
+ 223   buy parts TruenoSS  TS3,T8/T8,SpBr   (Cr41,500, Cr47,250, Cr4,600)
+ 223   buy parts TruenoSS  Rmuff,chip,shaft  (Cr4,600, Cr1,250, Cr2,750)
+ 223   fit parts TruenoSS  TS3,T8/T8,SpBr,Rmuff,chip,shaft
+ 223   change oil TruenoSS  358hp -> 376hp
+ 223   Cr1,005,880
+ 223      TruenoSS   A/80s/SSR5      q1st1st          none
+ 224   Cr1,013,880
+ 224      TruenoSS   A/80s/TMii      q1st1st          none
+ 225   Cr1,021,880                                    Black Pearl Metallic
+ 225      TruenoSS   A/80s/Tokyo     q2nd1st          NismoS-tune
+ 226   Cr1,029,880  55cars  IA/R  54.7%  5,935.2mi
+
+ cardef S-tune        NismoS-tune
+ 226   select car S-tune (alias NismoS-tune)
+ 226   buy parts S-tune   SpBr,Rmuff,chip (Cr4,700, Cr4,800, Cr1,500)
+ 226   buy parts S-tune   TS2,T8/T8   (Cr15,000, Cr47,500)
+ 226   fit parts S-tune   SpBr,Rmuff,chip,TS2,T8/T8
+ 226   change oil S-tune    581hp -> 610hp
+ 226   Cr957,630
+ 226      S-tune     A/Red/TM        q1st1st          none
+ 227   Cr987,630
+ 227      S-tune     A/Red/Laguna    q1st1st          none
+ 228   Cr1,017,630                                   Super Clear Red II
+ 228      S-tune     A/Red/SSR11     q1st1st          redNismo400R
+ 229   Cr1,047,630  56cars  IA/R  55.3%  5,973.3mi
+ 229   power off
+
+July 05, 2002
+ 229   select car Celica
+ 229   buy parts Celica  chip,3clu,Rfw   (Cr1,250, Cr4,600, Cr1,000)
+ 229   buy parts Celica  T2/T2,T4/T4,NA3  (Cr10,250, Cr16,250, Cr70,000)
+ 229   fit parts Celica  chip,3clu,Rfw,T4/T4,NA3
+ 229   Cr944,280
+ 229      Celica     A/FF/DFRW       q1st1st          none
+ 230   Cr949,280
+ 230   change oil Celica    308hp -> 308hp
+ 230   Cr949,030
+ 230      Celica     A/FF/Apricotii  q1st1st          none
+ 231   Cr954,030
+ 231   buy parts Celica  Rtrans  (Cr16,000)
+ 231   fit parts Celica  Rtrans
+ 231   Cr938,030                                     Super Red V
+ 231      Celica     A/FF/Romeii     q1st1st          redTRDCelicaM
+ 232   Cr943,030  57cars  IA/R  55.9%  6,031.7mi
+
+ cardef [R]ImprezaLM  white[R]ImprezaLM
+ 232   select car [R]ImprezaLM  (alias white[R]ImprezaLM)
+ 232   buy parts [R]ImprezaLM  TS3,TS4 (Cr45,000, Cr90,000)
+ 232   buy parts [R]ImprezaLM  T2/T2,T4/T4 (Cr11,000, Cr17,000)
+ 232   fit parts [R]ImprezaLM  TS3,T4/T4
+ 232   change oil [R]ImprezaLM   652hp -> 685hp
+ 232   Cr779,780
+ 232      [R]ImprezaLM  A/Stars/GVii  q1st1st         none
+ 233   Cr804,780
+ 233   change oil [R]ImprezaLM                              Active Red
+ 233      [R]ImprezaLM  A/Stars S2T4,1st89to65,37,35,17,17  redNismoGT-R-R-tune
+ 234   Cr1,212,530   58cars  IA/R  57.6%  6,420.4mi        (Cr200,000 champ)
+ 234   power off
+
+July 06, 2002
+ 234   change oil [R]ImprezaLM   652hp -> 685hp
+ 234   Cr1,212,280                                       Nissan
+ 234      [R]ImprezaLM  A/JGT  q4T,1st100to50,46,26,19,19  [R]CalsonicSkyline
+ 235   Cr1,512,530                                         (Cr150,000 champ)
+ 235   win car [R]OrecaViper  Dodge [R]Viper GTS-R Team Oreca (prize, Amateur)
+ 235   Cr1,512,530   60cars  IA/R  59.7%  6,769.4mi
+ 235   power off
+
+July 07, 2002
+July 08, 2002
+ 235   buy car tunedSpeed6  Rosso Pearlescent TVR Tuscan Speed 6 (Cr80,780)
+ 235   select car tunedSpeed6
+ 235   Cr1,431,500
+ 235   buy parts tunedSpeed6  T2/T2, T3/T3   (Cr10,750, Cr13,750)
+ 235   buy parts tunedSpeed6  T4/T4, T5/T5   (Cr16,750, Cr22,750)
+ 235   Cr1,367,500
+ 235   buy parts tunedSpeed6  Rmuff,NA2,chip   (Cr4,900, Cr13,500, Cr1,800)
+ 235   buy parts tunedSpeed6  3clu,Rfw,shift   (Cr4,800, Cr1,100, Cr3,250)
+ 235   buy parts tunedSpeed6  Rtrans,LSDF,NA1  (Cr10,500, Cr6,800, Cr5,000)
+ 235   buy parts tunedSpeed6  Rsusp,SpBr,Bctlr  (Cr18,000, Cr4,800, Cr10,800)
+ 235   Cr1,282,250
+ 235   buy parts tunedSpeed6 T6/T6, T7/T7, T8/T8 (Cr27,750, Cr35,750, Cr47,750)
+ 235   Cr1,171,500
+ 235   fit parts tunedSpeed6  T5/T5, Rmuff,NA2,chip,3clu,Rfw,shaft
+ 235   fit parts tunedSpeed6  Rtrans,LSDF,Rsusp,SpBr,Bctlr
+ 235   change oil tunedSpeed6   513hp -> 538hp
+ 235   Cr1,171,250                                           French Blue
+ 235      tunedSpeed6  P/TVR  sw50to22,16,15,15,12       blueGriffith500
+ 236   Cr1,466,250   62cars  IA/R  60.8%  7,103.8mi     (Cr45,000 bonus?)
+ 236      license S-1   B 1:44.088   about 4 tries
+ 237      license S-3   B 1:54.812   many tries
+ 238   power off
+
+July 09, 2002
+July 10, 2002
+ 238      license S-4   B 1:13.993   a lot of tries
+ 239      license S-5   B 2:03.887   lots of tries
+ 240      license S-6   B 1:21.943   many tries
+ 241      license S-7   B 2:18.072   first clean try
+ 242   select car [R]ImprezaLM
+ 242   change oil [R]ImprezaLM   639hp -> 671hp
+ 242   Cr1,466,000
+ 242      [R]ImprezaLM  Enduro/GV300  q1st1st    blueNissanR390GT1RoadCar
+ 243   Cr1,866,000   63cars  IA/R  62.2%  7,399.5mi
+ 243   power off
+
+July 11, 2002
+ 243   select car [R]Clio
+ 243   buy parts [R]Clio  T2/T2, T3/T3, T4/T4   (Cr11,000, Cr14,000, Cr17,000)
+ 243   fit parts [R]Clio  T4/T4
+ 243   change oil [R]Clio   455hp -> 455hp
+ 243   Cr1,823,750
+ 243      [R]Clio   P/Clio   sw50to26,17,15,12,10    white[R]BeetleCupCar
+ 244   Cr1,958,750   64cars  IA/R  63.3%  7,673.8mi     (Cr50,000 bonus)
+ 244   power off
+
+July 12, 2002
+ 244   select car tunedSpeed6
+ 244   change oil tunedSpeed6   528hp -> 555hp
+ 244   Cr1,958,500
+ 244      tunedSpeed6  P/UK/TM         q1st1st       none
+ 245   Cr1,978,500
+ 245      tunedSpeed6  P/UK/SSR5       q1st1st       none
+ 246   Cr1,998,500                                    Derment Green
+ 246      tunedSpeed6  P/UK/Romeii     q1st1st       greenVanquish
+ 247   Cr2,018,500   65cars  IA/R  63.9%  7,798.7mi
+
+ 247   select car [R]OrecaViper
+ 247   buy parts  [R]OrecaViper   NA1              (Cr5,200)
+ 247   buy parts  [R]OrecaViper   T2/T2, T3/T3  (Cr11,000, Cr14,000)
+ 247   buy parts  [R]OrecaViper   T4/T4         (Cr17,000)
+ 247   Cr1,971,300
+ 247   change oil [R]OrecaViper  711hp -> 746hp
+ 247   Cr1,971,050
+ 247      [R]OrecaViper   P/GTW   retired after 5 races      8-(
+ 248   Cr2,035,550
+ 248   select car tunedSpeed6
+ 248      tunedSpeed6     P/FR/Apricot       q1st2nd         8-(
+ 249   Cr2,043,050
+ 249   power off
+
+July 13, 2002
+ Note: Arcade Single Hard  Midfield,TM,Midfieldii  64.6%
+ Note: Arcade Single Hard  Laguna,TMii,DFRW,Apricot,DFRWii,SSR11
+ Note: Arcade Single Hard  SSR5W,SSR5Wii  66.2%
+ Note: Arcade Single Hard  SSR511ii difficult (used garage SLK230)  66.4%
+ Note: same approach Arcade Single Hard  Tokyo, Rome
+ Note: Arcade Single Hard  SMR(easy)
+ Note: Arcade Single Hard  Alps(learned to beat EvoVII w Impreza) 67.1%
+ 249   power off
+
+July 14, 2002
+July 15, 2002
+ Note: Arcade Single Hard  (garage SLK230) Seattle, Tokyoii, Romeii, Seattleii
+ Note: Arcade Single Hard  (garage SLK230) Cote, SMRii, Tahii     68.5%
+ 249   power off
+
+July 16, 2002
+ 249   buy car MSElise   light green Lotus Motor Sport Elise  (Cr100,000)
+ 249   select car MSElise
+ 249   Cr1,943,050
+ 249   buy parts MSElise  Rsusp,SpBr,Bctlr  (Cr18,000, Cr4,800, Cr10,800)
+ 249   buy parts MSElise  Rmuff,chip        (Cr4,900, Cr1,800)
+ 249   buy parts MSElise  3clu,Rfw,Rtrans,LSDF (Cr4,800, Cr1,100, Cr10,500)
+ 249   buy parts MSElise  LSDF                 (Cr6,800)
+ 249   buy parts MSElise  TS2, T2/T2, T3/T3   (Cr14,000, Cr10,750, Cr13,750)
+ 249   buy parts MSElise  T4/T4, T5/T5        (Cr16,750, Cr22,750)
+ 249   fit parts MSElise  Rsusp,SpBr,Bctlr,Rmuff,chip,3clu,Rfw,Rtrans,LSDF
+ 249   fit parts MSElise  TS2, T3/T3
+ 249   Cr1,801,550
+ 249      MSElise         P/Elise   retired after 2 races    8-(
+ 250   Cr1,801,550
+ 250   buy parts MSElise  WR1,WR2,WR3       (Cr1,300, Cr5,700, Cr23,000)
+ 250   buy parts MSElise  polish, balance   (Cr5,800, Cr14,000)
+ 250   fit parts MSElise  WR1,WR2,WR3, polish, balance
+ 250   Cr1,751,750
+ 250   change oil MSElise   340hp -> 357hp       623kg
+ 250   Cr1,751,500                                 Nostalgic Red Metallic
+ 250      MSElise         P/Elise  1st39to32,27,17,9,6    redElise190
+ 251   Cr1,863,500  67cars IA/R  69.2%  8,729.1mi (Cr60,000 bonus, nice trophy)
+ 251   change oil MSElise   354hp -> 364hp
+ 251   Cr1,863,250
+ 251      MSElise         P/MR/TM            q1st1st         8-(
+ 252   Cr1,864,250
+
+ cardef [R]EvoVI [R]LancerEvoVI-Rally
+ 252   select car [R]EvoVI (alias [R]LancerEvoVI-Rally)
+ 252   buy parts [R]EvoVI   TS2   (Cr14,500)
+ 252   fit parts [R]EvoVI   TS2
+ 252   change oil [R]EvoVI  442hp -> 464hp
+ 252   Cr1,849,500
+ 252      [R]EvoVI        R/Tah/I            1st             none
+ 253   Cr1,854,500
+ Note: used sim mode [R]EvoVI to win Alpsii, Tahii, Maze, Mazeii  70.2%
+ Note: Arcade Mode Single Race mode complete
+ 253   power off
+
+July 17, 2002
+ 253      [R]EvoVI        R/Tah/II           1st             none
+ 254   Cr1,864,500
+ 254      [R]EvoVI        R/Tah/III          1st     Toyota[R]CelicaRally
+ 255   Cr1,884,500   68cars  IA/R  70.6%  8,879.3mi
+ 255      [R]EvoVI        R/Maze/I           1st             none
+ 256   Cr1,889,500
+ 256      [R]EvoVI        R/Maze/II          1st             none
+ 257   Cr1,899,500
+ 257      [R]EvoVI        R/Maze/III         1st     Ford[R]EscortRally
+ 258   Cr1,919,500   69cars  IA/R  71.1%  8,915.8mi
+ Note: [R]EvoVI  FD 4.875
+ 258      [R]EvoVI        R/SMR/I            1st             none
+ 259   Cr1,924,500
+ 259      [R]EvoVI        R/SMR/II           1st             none
+ 260   Cr1,934,500
+ 260      [R]EvoVI        R/SMR/III          1st     Ford[R]FocusRally
+ 261   Cr1,954,500   70cars  IA/R  71.7%  8,971.5mi
+
+ 261   select car [R]Tickford
+ 261      [R]Tickford     R/SSR5W/I          1st             none
+ 262   Cr1,959,500
+ 262      [R]Tickford     R/SSR5W/III        1st             none
+ 263   Cr1,979,500
+ 263      [R]Tickford     R/SSR5Wii/III      1st             none
+ 264   Cr1,999,500
+ 264      [R]Tickford     R/SSR5Wii/II       1st             none
+ 265   Cr2,009,500                                  WR Blue Mica
+ 265      [R]Tickford     R/SSR5Wii/I      1st   Subaru[R]ImprezaRallyPrototype
+ 266   Cr2,014,500   71cars  IA/R  72.7%  9,039.8mi
+ 266      [R]Tickford     R/SSR5W/II         1st     Citroen[R]XsaraRally
+ 267   Cr2,024,500   72cars  IA/R  72.9%  9,051.8mi
+
+ 267   select car [R]EvoVI
+ 267   change oil [R]EvoVI
+ 267   Cr2,024,250
+ 267      [R]EvoVI        R/Alps/I           1st             none
+ 268   Cr2,029,250
+ 268      [R]EvoVI        R/Tahii/I          1st             none
+ 269   Cr2,034,250
+ 269      [R]EvoVI        R/Mazeii/I         1st             none
+ 270   Cr2,039,250
+ 270      [R]EvoVI        R/SMRii/I          1st             none
+ 271   Cr2,044,250
+ 271      [R]EvoVI        R/Alpsii/I         1st             none
+ 272   Cr2,049,250
+ Note: [R]EvoVI  FD 4.500
+ 272      [R]EvoVI        R/SMRii/II         1st             none
+ 273   Cr2,059,250                                    Mitsubishi
+ 273      [R]EvoVI        R/SMRii/III        1st     [R]LancerEvoVI-Rally(dup)
+ 274   Cr2,079,250   73cars  IA/R  74.2%  9,142.6mi
+ 274      [R]EvoVI        R/Tahii/II         1st             none
+ 275   Cr2,089,250
+ Note: [R]EvoVI  FD 4.700
+ 275      [R]EvoVI        R/Tahii/III        1st     Toyota[R]CorollaRally
+ 276   Cr2,109,250   74cars  IA/R  74.6%  9,172mi
+ 276      [R]EvoVI        R/Mazeii/II        1st             none
+ 277   Cr2,119,250                                 555 Sonic Blue Mica
+ 277      [R]EvoVI        R/Mazeii/III       1st     Subaru[R]ImprezaRally
+ 278   Cr2,139,250
+ 278   win car  [R]787B  Mazda [R]787B   (prize, 75%)
+ 278   Cr2,139,250   76cars  IA/R  75.0%  9,202.6mi
+
+ 278      [R]EvoVI        R/Alps/II          1st             none
+ 279   Cr2,149,250
+ 279      [R]EvoVI        R/Alps/III         1st   Peugeot[R]206Rally
+ 280   Cr2,169,250   77cars  IA/R  75.3%  9,242.2mi
+ 280      [R]EvoVI        R/Alpsii/II        1st             none
+ 281   Cr2,179,250
+ 281      [R]EvoVI        R/Alpsii/III       2nd             8-(
+ 282      [R]EvoVI        R/Alpsii/III       2nd             8-(
+ 283   Cr2,179,250
+ 283   change oil [R]EvoVI  452hp -> 464hp           Mitsubishi
+ 283   Cr2,179,000
+ 283      [R]EvoVI        R/Alpsii/III       1st   [R]EvoVIIRallyPrototype
+ 284   Cr2,199,000
+ 284   win car  [R]Escudo  Suzuki [R]Escudo Pikes Peak Version (prize, Rally)
+ 284   Cr2,199,000   79cars  IA/R  75.7%  9,327.1mi
+ 284   power off
+
+July 19, 2002
+ 284   select car [R]787B
+ 284   change oil [R]787B   690hp -> 724hp
+ 284   Cr2,198,750                                           Opel
+ 284      [R]787B         P/GTW    1st73to63,58,36,16,14   [R]CalibraTouring
+ 285   Cr2,664,750   80cars  IA/R  76.7%  10,029.2mi   (Cr250,000 bonus)
+Note: First time over 10,000 miles                     (ugly trophy)
+ 285   power off
+
+July 20, 2002
+ 285   select car tunedSpeed6
+ 285   change oil tunedSpeed6   555hp -> 555hp
+ 285   buy wheels Yokohama  gold 5 spokes
+ 285   fit wheels tunedSpeed6   Yokohama  gold 5 spokes
+ 285   Cr2,664,000                                          Panoz
+ 285      tunedSpeed6     E/Seattle100   q1st1st        [R]EsperanteGTR-1
+ 286   Cr2,814,000   81cars  IA/R  76.9%  10,182.8mi
+ 286   power off
+
+July 21, 2002
+ 286   select car [R]ImprezaLM   640hp -> 671hp
+ 286   change oil [R]ImprezaLM   640hp -> 671hp
+ 286   Cr2,813,750
+ 286   fit parts  [R]ImprezaLM    TS4   946hp
+ 286      [R]ImprezaLM    E/Laguna200   q2nd1st   Nissan[R]CalsonicSkyline(dup)
+ 287   Cr3,113,750   82cars  IA/R  77.0%  10,503.0mi
+ 287   power off
+
+July 22, 2002
+ 287   fit pars [R]ImprezaLM  TS0
+ 287   change oil [R]ImprezaLM   560hp -> 588hp
+ 287   wash car [R]ImprezaLM
+ 287   Cr3,113,450
+ 287      [R]ImprezaLM A/Dream  1st70to35,28,23,15,11  blue[R]RX7LM
+ 288   Cr3,438,450   83cars  IA/R  77.0%  10,742.7mi   (Cr150,000 bonus)
+ 288   power off
+
+July 27, 2002
+ 288      license S-2   B 1:34.935   hours and hours (GT40/Seattleii)
+ 289      license S-8   B 1:34.941   hours (GT-ONE/Cote) -> S license acquired
+ 290   Cr3,438,450   83cars  S/R  77.4%  10,742.7mi
+ 290   power off
+
+July 28, 2002
+ 290   Cr3,438,450                                    Red Metallic
+ 290   select car AudiTT
+ 290      AudiTT   B/TT  sw50to28,18,16,10,8           redAudiTT1.8
+ 291   Cr3,473,450   84cars  S/R  77.6%  10,807.2mi   (Cr10,000 bonus)
+ 291   reset parts AudiTT
+ 291   fit parts AudiTT  TS2, T2/T2
+ 291   change oil AudiTT  287hp -> 287hp
+ 291   Cr3,473,200
+ 291      AudiTT   B/TT/Cote   q1st1st                       none
+ 292   Cr3,478,200
+ 292   select car Vitz
+ 292      Vitz       B/Vitz    sw50to20,19,15,13,13        orangeVitz
+ 293   Cr3,513,200   85cars  S/R  77.8%  10,931.4mi   (Cr10,000 bonus)
+ 293   select car [R]Clio
+ 293   change oil [R]Clio  439hp -> 455hp
+ 293   Cr3,512,950                                    Aurora Effect
+ 293      [R]Clio      A/Euro   sw50to24,22,19,10,5   blueGT-RVspecII
+ 294   Cr3,570,450   86cars  S/R  78.0%  11,014.5mi   (Cr20,000 bonus)
+ 294   select car [R]CLK-DTM
+ 294   buy parts  [R]CLK-DTM   NA1,NA2
+ 294   fit parts  [R]CLK-DTM   NA1
+ 294   change oil [R]CLK-DTM  576hp -> 576hp
+ 294   Cr3,551,000                                   (Opel Team Phoenix)
+ 294      [R]CLK-DTM   A/DTM    sw50to22,22,21,8,7    [R]OpelAstraDTM
+ 295   Cr3,631,000   87cars  S/R  78.4%  11,141.2mi   (Cr30,000 bonus)
+ 295   power off
+
+July 29, 2002
+July 30, 2002
+ 295   select car tunedSpeed6
+ 295   change oil tunedSpeed6   555hp -> 555hp
+ 295   Cr3,630,750                                   Reflex Purple
+ 295      tunedSpeed6  P/TVR  sw50to26,17,15,12,10    purpleSpeed12
+ 296   Cr3,925,750   88cars  S/R  78.4%  11,412.4mi   (Cr45,000 bonus)
+ 296   power off
+
+July 31, 2002
+ 296      select car [R]C5R
+ 296      [R]C5R       P/NA/Apricot      q1st1st             none
+ 297   Cr3,945,750
+ 297   change oil  [R]C5R    640hp -> 640hp
+ 297   Cr3,945,500
+ 297      [R]C5R       P/NA/Seattle      q1st1st             none
+ 298   Cr3,965,500
+ 298      [R]C5R       P/NA/Tokyo        q1st1st       [R]ZondaC12S
+ 299   Cr3,985,500   89cars  S/R  79.0%  11,551.3mi
+
+ 299      [R]C5R       P/FR/Apricot     nq6th1st             none
+ 300   Cr4,000,500
+ 300      [R]C5R       P/FR/Midfieldii  nq6th1st             none
+ 301   Cr4,015,500
+ 301      [R]C5R       P/FR/DFRWii      nq6th1st     silverNismoGT-RLMRoad
+ 302   Cr4,030,500   90cars  S/R  79.5%  11,686.4mi
+ 302   power off
+
+August 1, 2002
+ cardef [R]Xsara      Citroen[R]XsaraRally
+ 302   select car  [R]Xsara   (alias Citroen[R]XsaraRally)
+ 302   buy parts  [R]Xsara     TS2              (Cr14,500)
+ 302   buy parts  [R]Xsara  T2/T2, T3/T3, T4/T4 (Cr11,000, Cr14,000, Cr17,000)
+ 302   fit parts  [R]Xsara  T4/T4
+ 302   change oil [R]Xsara      357hp -> 375hp
+ 302   Cr3,973,750
+ 302      [R]Xsara     P/FF/DFRWii       q1st1st             none
+ 303   Cr3,983,750
+ 303      [R]Xsara     P/FF/Rome         q1st1st             none
+ 304   Cr3,993,750
+ 304      [R]Xsara     P/FF/Cote         q1st1st     yellowSpoonCivic
+ 305   Cr4,003,750   91cars  S/R  80.1%  11,802mi
+ 305   power off
+
+August 2, 2002
+ 305   select car [R]787B
+ 305   change oil [R]787B   676hp -> 710hp
+ 305   Cr4,003,500
+ 305      [R]787B      P/MR/TM           q1st1st             none
+ 306   Cr4,023,500
+ 306      [R]787B      P/MR/Laguna      nq6th1st             none
+ 307   Cr4,043,500                                      Tommy Kaira
+ 307      [R]787B      P/MR/Midfieldii   q1st1st          blackZZII
+ 308   Cr4,063,500   92cars  S/R  80.7%  11,939.5mi
+
+ 308      [R]787B      P/Turbo/Midfield  q1st1st             none
+ 309   Cr4,093,500
+ 309      [R]787B      P/Turbo/Test      q1st1st             none
+ 310   Cr4,123,500
+ 310   change oil [R]787B   682hp -> 710hp
+ 310   Cr4,123,250
+ 310      [R]787B      P/Turbo/Apricot  nq6th1st        blueRUF-CTR2
+ 311   Cr4,153,250   93cars  S/R  81.2%  12,146.3mi
+ 311   power off
+
+August 3, 2002
+August 4, 2002
+ 311   select car [R]ImprezaLM
+ 311   change oil  [R]ImprezaLM   928hp -> 946hp
+ 311   Cr4,153,000
+ 311      [R]ImprezaLM  P/4WD/SSR5ii     q1st1st             none
+ 312   Cr4,183,000
+ 312      [R]ImprezaLM  P/4WD/Laguna    nq6th1st             none
+ 313   Cr4,213,000
+ 313      [R]ImprezaLM  P/4WD/DFRW     nq6th1st [R]LancerEvoVII-RallyPrototype
+ 314   Cr4,243,000   94cars  S/R  81.8%  12,279.8mi
+
+ 314      [R]ImprezaLM  P/Boxer/DFRWii  nq6th1st             none
+ 315   Cr4,258,000
+ 315      [R]ImprezaLM  P/Boxer/Rome    nq6th1st             none
+ 316   Cr4,273,000
+ 316   change oil  [R]ImprezaLM   939hp -> 946hp
+ 316   Cr4,272,750
+ 316      [R]ImprezaLM  P/Boxer/Super   nq6th1st       yellowRUF-RGT
+ 317   Cr4,287,750   95cars  S/R  82.4%  12,413.4mi
+ 317   power off
+
+August 5, 2002
+ cardef [R]Calsonic   Nissan[R]CalsonicSkyline
+ 317   select car [R]Calsonic  (alias Nissan[R]CalsonicSkyline)
+ 317   buy parts  [R]Calsonic  T2/T2, TS2   (Cr11,000, Cr14,500)
+ 317   fit parts  [R]Calsonic  T2/T2, TS2
+ 317   change oil  [R]Calsonic   607hp -> 638hp
+ 317   Cr4,262,000
+ 317      [R]Calsonic   P/Red/GVii       q1st1st             none
+ 318   Cr4,287,000
+ 318      [R]Calsonic   P/Red/SSR11ii   nq6th1st             none
+ 319   Cr4,312,000
+ 319      [R]Calsonic   P/Red/Tokyo      q1st1st  Nissan[R]CalsonicSkyline(dup)
+ 320   Cr4,337,000   96cars  S/R  83.0%  12,571.3mi
+ 320   power off
+
+August 6, 2002
+ 320   select car RUF3400S
+ 320   buy parts RUF3400S  T2/T2, T3/T3, T4/T4  (Cr10,750, Cr13,750, Cr16,750)
+ 320   fit parts RUF3400S  T3/T3
+ 320   buy parts RUF3400S  3clu,Rfw,Rtrans    (Cr4,800, Cr1,100, Cr10,500)
+ 320   buy parts RUF3400S  LSDF,chip,Rsusp    (Cr6,800, Cr1,800, Cr18,000)
+ 320   buy parts RUF3400S  Bctlr,TS3         (Cr10,800, Cr43,500)
+ 320   fit parts RUF3400S  3clu,Rfw,Rtrans,LSDF,chip,Rsusp,Bctlr,TS3
+ 320   change oil RUF3400S   576hp -> 576hp
+ 320   Cr4,198,200
+ 320      RUF3400S      P/Spider/TM      q1st1st             none
+ 321   Cr4,208,200
+ 321      RUF3400S      P/Spider/GV      q1st1st             none
+ 322   Cr4,218,200                                         Red
+ 322      RUF3400S      P/Spider/Cote    q1st1st       redShelbyCobra
+ 323   Cr4,228,200   97cars  S/R  83.5%  12,718.1mi
+ 323   power off
+
+August 7, 2002
+August 8, 2002
+August 9, 2002
+ 323   select car [R]ImprezaLM
+ 323   fit parts  [R]ImprezaLM   TS3  -> 671hp
+ 323      [R]ImprezaLM  A/GTW  sw100to47,36,31,25,21   redToyotaGT-ONEroad
+ 324   Cr4,428,200   98cars  S/R  83.9%  13,074.8mi      (Cr100,000 bonus)
+ 324   power off
+
+August 10, 2002
+ 324   buy parts   [R]ImprezaLM   T3/T3     (Cr14,000)
+ 324   change oil  [R]ImprezaLM   901hp -> 945hp
+ 324   Cr4,413,950                                      Active Red
+ 324      [R]ImprezaLM  A/Stars sw100to54,43,33,18,14 redNismoR-tune(dup)(sold)
+ 325   Cr4,888,950   98cars  S/R  84.3%  13,412.5mi      (Cr200,000 bonus)
+
+ cardef GT-ONEroad    redToyotaGT-ONEroad
+ 325   select car  GT-ONEroad   (alias redToyotaGT-ONEroad)
+ 325   buy parts  GT-ONEroad  Rtrans,LSDF,TS4   (Cr10,500, Cr6,800, Cr90,000)
+ 325   fit parts  GT-ONEroad  Rtrans,LSDF,TS4
+ 325   buy parts  GT-ONEroad  T2/T2             (Cr11,000)
+ 325   fit parts  GT-ONEroad  T2/T2
+ 325   change oil  GT-ONEroad  1068hp -> 1122hp
+ 325   Cr4,770,400
+ 325      GT-ONEroad    P/Wind/Test      q1st1st      Mazda[R]787B(dup)
+ 326   Cr4,780,400   99cars  S/R  84.5%  13,627.0mi
+ 326      GT-ONEroad    E/Mistral        q1st1st    silverJaguarXJ220Road
+ 327   Cr5,280,400  100cars  S/R  84.7%  13,897.6mi
+ 327   power off
+
+August 11, 2002
+ 327   fit parts  GT-ONEroad  stock  T2/T2   -> 600hp
+ 327   change oil  GT-ONEroad  600hp -> 630hp
+ 327   Cr5,280,150                                         Red
+ 327      GT-ONEroad    P/PDC   sw100to60,38,31,18,13  Toyota[R]GT-ONErace
+ 328   Cr6,180,150  101cars  S/R  86.8%  14,754.4mi    (Cr400,000 bonus)
+ 328   power off
+
+August 12, 2002
+August 13, 2002
+August 14, 2002
+ cardef [R]RX7LM      blue[R]RX7LM
+ 328   select car [R]RX7LM  (alias blue[R]RX7LM)
+ 328   buy parts   [R]RX7LM  T2/T2, T3/T3, T4/T4 (Cr11,000, Cr14,000, Cr17,000)
+ 328   buy parts   [R]RX7LM  TS1, TS2            (Cr5,000, Cr14,500)
+ 328   fit parts   [R]RX7LM  T2/T2
+ 328   change oil  [R]RX7LM       572hp -> 600hp
+ 328   Cr6,118,400
+ 328      [R]RX7LM     A/Dream  1st70to33,28,20,19,12  blue[R]RX7LM(dup)(sold)
+ 329   Cr6,443,400  Cr6,630,900  (Cr187,500) 14,996.1mi  (Cr150,000 bonus)
+ 329   power off
+
+August 15, 2002
+August 16, 2002
+ cardef [R]GT-ONE     Toyota[R]GT-ONErace
+ 329   select car [R]GT-ONE  (alias Toyota[R]GT-ONErace)
+ 329   buy parts  [R]GT-ONE  T2/T2, T3/T3, T4/T4 (Cr11,000, Cr14,000, Cr17,000)
+ 329   buy parts  [R]GT-ONE  TS1, TS2            (Cr5,000, Cr14,500)
+ 329   fit parts  [R]GT-ONE  T2/T2, TS1   714hp
+ 329   change oil [R]GT-ONE  714hp -> 750hp
+ 329   Cr6,569,150
+ 329      [R]GT-ONE     P/JGT  T2R2,1st92to49,48,32,25,14   Pagani[R]ZondaRace
+ 330   Cr7,079,150  102cars  S/R  88.5%  15,846.9mi    (Cr250,000 bonus)
+ 330   power off
+
+August 17, 2002
+ 330   change oil [R]GT-ONE  798hp -> 838hp
+ 330   Cr7,078,900
+ 330      [R]GT-ONE     E/SSR11All-night  nq6th1st     green[R]F687/S
+ 331   Cr7,578,900  103cars  S/R  88.7%  16,076.2mi
+ 331   power off
+
+August 18, 2002
+ 331   change oil [R]GT-ONE  826hp -> 838hp
+ 331   Cr7,578,650
+ 331      [R]GT-ONE     P/Stars   retired after 2 races      8-(
+ 332   Cr7,648,650  103cars  S/R  88.9%  16,214.7mi
+ 332   buy parts  [R]GT-ONE  TS3, TS4            (Cr45,000, Cr90,000)
+ 332   fit parts  [R]GT-ONE  TS3
+ 332   change oil [R]GT-ONE  955hp -> 955hp
+ 332   Cr7,513,400
+ 332      [R]GT-ONE     P/JGT/Laguna       q1st1st           none
+ 333   Cr7,543,400
+ 333      [R]GT-ONE     P/JGT/TM           q1st1st           none
+ 334   Cr7,573,400  103cars  S/R  89.3%  16,350.4mi
+ 334   change oil [R]GT-ONE  955hp
+ 334   Cr7,573,150                                         Nissan
+ 334      [R]GT-ONE     E/Tokyo           nq6th1st  [R]C-WestRazaSilviaJGTC
+ 335   Cr7,973,150  104cars  S/R  89.5%  16,864mi
+ 335   power off
+
+August 19, 2002
+ cardef [R]Zonda      Pagani[R]ZondaRace
+ 335   select car [R]Zonda  (alias [R]ZondaRace)
+ 335   buy parts  [R]Zonda   NA1, NA2            (Cr5,200, Cr14,500)
+ 335   buy parts  [R]Zonda   T2/T2, T3/T3, T4/T4 (Cr11,000, Cr14,000, Cr17,000)
+ 335   change oil [R]Zonda   853hp -> 896hp
+ 335   Cr7,911,700
+ 335      [R]Zonda      P/Zonda/Romeii      q1st1st          none
+ 336   Cr7,941,700
+ 336      [R]Zonda      P/Zonda/Rome        q1st1st  Pagani[R]ZondaRace(dup)
+ 337   Cr7,971,700  105cars  S/R  89.8%  16,946.7mi
+
+ 337   buy wheels Bridgestone  x5
+ 337   buy wheels BBS          x14
+ 337   buy wheels Dunlop       x9
+ 337   buy wheels Falken       x2
+ 337   buy wheels Enkei        x44
+ 337   buy wheels OZ           x29
+ 337   buy wheels Rays         x18
+ 337   buy wheels speedline    x36
+ 337   buy wheels Yokohama     x22 -1
+ 337   Cr7,882,700
+ 337   power off
+
+August 20, 2002
+August 21, 2002
+August 22, 2002
+August 23, 2002
+ 337   change oil [R]Zonda   896hp -> 896hp
+ 337   Cr7,882,450                                       Lancia
+ 337      [R]Zonda      E/Rome2hr         nq6th1st [R]DeltaHFIntegraleRally
+ 338   Cr8,182,450
+ 338   win car  [R]F094H       [R]F094/H   (prize, Enduro League)
+ 338   Cr8,182,450  107cars  S/R  90.0%  17,292.3mi
+ 338   power off
+
+August 24, 2002
+ 338   select car [R]GT-ONE
+ 338   change oil [R]GT-ONE  909hp -> 955hp
+ 338   Cr8,182,200                             Red/Silver Stripes  Dodge
+ 338      [R]GT-ONE     P/Stars   1st94to56,50,26,17,17  redViperGTSRconcept
+ 339   Cr9,039,700  108cars  S/R  91.7%  18,183.1mi   (Cr400,000 bonus)
+ 339   buy car [R]R390LM   Nissan [R]R390 GT1 LM Race (prize, P/Stars, trade) (Cr2,000,000)
+ 339   Cr7,039,700  109cars
+ 339   buy car redWRX   Premium Red Subaru Impreza Sedan WRX STi (prize, P/Stars, trade) (Cr31,980)
+ 339   Cr7,007,720  110cars  S/R  91.7%  18,183.1mi
+ 339   power off
+
+August 25, 2002
+ 339   change oil [R]GT-ONE  909hp -> 955hp
+ 339   Cr7,007,470                                           Panoz
+ 339      [R]GT-ONE     P/Dream   sw70to33,29,20,16,14 [R]EsperanteGTR-1(dup)
+ 340   Cr7,537,470  111cars  S/R  93.3%  18,760.9mi   (Cr250,000 bonus)
+ 340   sell car [R]EsperanteGTR-1          (Cr500,000)
+ 340   Cr8,037,470  110cars
+ 340   buy car [R]FTOLM  red Mitsubishi [R]FTO LM (prize, P/Dream, trade) (Cr750,000)
+ 340   Cr7,287,470  111cars  S/R  93.3%  18,760.9mi
+ 340   power off
+
+August 26, 2002
+August 27, 2002
+August 28, 2002
+ 340   change oil  [R]GT-ONE  909 -> 955
+ 340   Cr7,287,220
+ 340      [R]GT-ONE      P/GTW/Apricotii   q2nd1st           none
+ 341   Cr7,322,220  111cars  S/R  93.5%  18,800.2km
+ 341      [R]GT-ONE      P/GTW/TM          q1st1st           none
+ 342   Cr7,357,220  111cars  S/R  93.7%  18,843.0km
+ 342      [R]GT-ONE      P/GTW/DFRW        q1st1st           none
+ 343   Cr7,392,220  111cars  S/R  93.8%  18,880.0km
+ 343      [R]GT-ONE      P/GTW/Tokyo       q1st1st           none
+ 344   Cr7,427,220  111cars  S/R  94.0%  18,933.0km
+ 344      [R]GT-ONE      P/GTW/Cote        q1st1st           none
+ 345   Cr7,462,220  111cars  S/R  94.2%  18,984.9km
+ 345   power off
+
+August 29, 2002
+ 345   select car   orangeVitz
+ 345   buy parts orangeVitz  Rsusp,SpBr,Bctlr (Cr16,000, Cr4,600, Cr10,300)
+ 345   buy parts orangeVitz  Rmuff            (Cr11,000)
+ 345   mod car   orangeVitz  pol,bal          (Cr5,250, Cr11,000)
+ 345   buy parts orangeVitz  chip,3clu,Rfw    (Cr1,250, Cr4,600, Cr1,000)
+ 345   buy parts orangeVitz  Rtrans,LSDF,TS2  (Cr10,200, Cr6,300, Cr13,000)
+ 345   mod car   orangeVitz  WR1,WR2,WR3      (Cr1,100, Cr5,300, Cr21,000)
+Note:                  940   911 874 836
+ 345   buy parts orangeVitz  T2/T2, T3/T3, T4/T4 (Cr10,250, Cr13,250, Cr16,250)
+ 345   buy parts orangeVitz  T5/T5, T6/T6        (Cr22,250, Cr27,250)
+ 345   Cr7,257,470
+ 345   fit parts orangeVitz  Rsusp,SpBr,Bctlr,Rmuff,chip,3clu,Rfw
+ 345   fit parts orangeVitz  Rtrans,LSDF,TS2
+ 345   change oil orangeVitz   280hp -> 294hp
+ 345   Cr7,257,220
+ 345      orangeVitz      P/Vitz/GVii      q1st1st           none
+ 346   Cr7,264,720
+ 346      orangeVitz      P/Vitz/GVii      q1st1st           none
+ 347   Cr7,272,220  111cars  S/R  94.4%  19,086.5km
+ 347   change oil orangeVitz   294hp -> 294hp
+ 347   Cr7,271,970
+ 347      orangeVitz      P/Vitz  1st50to19,18,16,15,12  [R]CastrolTomsSupra
+ 348   Cr7,339,470  112cars  S/R  95.4%  19,430.6km       (Cr30,000 bonus)
+ 348   buy car  greenSupraRZ  Peridot Pearl Mica Toyota Supra RZ (prize, P/Vitz, trade)(Cr44,800)
+ 348   Cr7,294,670  113cars
+ 348   power off
+
+August 30, 2002
+August 31, 2002
+ cardef F687/S        green[R]F687/S
+ 348   select car F687/S (alias [R]F687/S)
+ 348   change oil  F687/S    888hp -> 932hp
+ 348   Cr7,294,420
+ 348      F687/S           P/F1/Midfield    q3rd3rd          8-(
+ 349   Cr7,301,420          Note:  beat by F094/S,  F686/M
+ cardef F094/H        [R]F094H
+ 349   select car F094/H (alias [R]F094/H)
+ 349   change oil  F094/H    790hp -> 829hp
+ 349      F094/H           P/F1/Midfield    q2nd2nd          8-(
+ 350   Cr7,309,670
+ 350   change oil  F094/H    829hp -> 829hp
+ 350   Cr7,309,420
+ 350      F094/H           P/F1/Midfield    q3rd2nd          8-(
+ 351   Cr7,317,920
+ 351      F094/H           P/F1/Midfield    q2nd1st          none
+ 352   Cr7,347,920
+ 352      F094/H           P/F1/GV          q5th3rd          8-(
+ 353   Cr7,354,920
+ 353   power off
+
+Sept 01, 2002
+ 353      F094/H           P/F1/GV          q2nd2nd          8-(
+ 354   Cr7,363,420
+ 354   change oil  F094/H    776hp -> 815hp
+ 354   Cr7,363,170
+ 354   wash car  F094/H
+ 354   Cr7,363,120
+ 354   power off
+
+Sept 02, 2002
+ 354      F094/H           P/F1/GV          q1st1st          none
+ 355   Cr7,393,120
+ cardef orangeSpeed6  Speed6 (Chameleon Orange TVR Tuscan Speed 6(stock))
+ 355   select car orangeSpeed6 (alias Chameleon Orange TVR Tuscan Speed 6)(stock)
+ 355   change oil orangeSpeed6    379hp -> 379hp
+ 355   Cr7,392,870
+ 355   buy parts  orangeSpeed6  T3/T3, T4/T4, T5/T5  (Cr13,750, Cr16,750, Cr22,750)
+ 355   Cr7,339,620
+ 355      orangeSpeed6     P/PDC  sw100to54,41,23,22,20  white/black[R]F094/S
+ 356   Cr8,239,620  114cars  S/R  95.8%  21,207.9km       (Cr400,000 bonus)
+ 356   buy car yellowF094/S  yellow, black and white [R]F094/S (prize, P/PDC, trade)(Cr3,500,000)
+ 356   Cr4,739,620  115cars
+ 356   power off
+
+Sept 03, 2002
+Sept 04, 2002
+ 356   select car yellowF094/S
+ 356   change oil  yellowF094/S   790hp -> 829hp
+ 356   Cr4,739,370
+ 356      yellowF094/S     P/F1/Midfield    q1st1st          none
+ 357   Cr4,769,370
+ 357   change oil  yellowF094/S   829hp -> 829hp
+ 357   Cr4,769,120
+ 357      yellowF094/S     P/F1/Midfield    q1st1st          none
+ 358   Cr4,799,120
+ 358      yellowF094/S     P/F1/GV          q1st1st          none
+ 359   Cr4,829,120  115cars  S/R  95.8%  21,560.3km
+ 359   power off
+
+Sept 05, 2002
+Sept 06, 2002
+Sept 07, 2002
+ 359      yellowF094/S     P/F1/Seattle     q2nd3rd          8-(
+ 360   Cr4,836,120  Note: F094/S  54:21.072, probably slowed at end
+ 360      yellowF094/S     E/Seattle100     q1st1st  silverNismoGT-RLMRoad(dup)(sold)
+ 361   Cr4,986,120   Cr5,061,120   21,865.9km
+ 361   power off
+
+Sept 08, 2002
+ 361   change oil  yellowF094/S  774hp -> 813hp
+ 361   Cr5,060,870
+ 361      yellowF094/S     P/F1    quit after 9/10           8-(
+ 362   Cr5,237,370  115cars  S/R  96.3%  23,338.4km
+Note:  774hp  for  yellowF094/S
+ 362   power off
+
+Sept 09, 2002
+Sept 10, 2002
+Sept 11, 2002
+Sept 12, 2002
+Sept 13, 2002
+ 362   change oil  yellowF094/S  774hp -> 813hp
+ 362   Cr5,237,120
+ 362   power off
+ 
+Sept 14, 2002
+ 362      yellowF094/S     E/Mistral        q1st1st  silver[R]FTOLM
+ 363   Cr5,237,120  116cars  S/R  96.3%  23,602.9km
+ 363   change oil  yellowF094/S  788hp -> 813hp
+ 363   Cr5,237,870
+ 363   wash car yellowF094/S
+ 363   Cr5,237,820
+ 363   power off
+ 
+Sept 15, 2002
+ 363      yellowF094/S     P/F1  1st83to66,41,33,21,16  white/purple[R]F688/S
+ 364   Cr6,214,820    Note: no AI F094/S                  (Cr250,000 bonus)
+ 364   win car  orange[R]F686/M  orange [R]F686/M (prize, Professional League)
+ 364   Cr6,214,820  118cars  S/R  96.9%  25,370.5km
+ 364   power off
+ 
+Sept 16, 2002
+Sept 17, 2002
+Sept 18, 2002
+Sept 19, 2002
+ 364   select car MSElise
+ 364   change oil MSElise   364 -> 364hp
+ 364   Cr6,214,570
+ 364      MSElise          P/Elise/Apricot  q1st1st          none
+ 365   Cr6,229,570  118cars  S/R  97.1%  25,410.5km
+ 365      MSElise          P/Elise/DFRW     q1st3rd          8-(
+ 366   Cr6,232,570
+ 366      MSElise          P/Elise/DFRW     q1st3rd          8-(
+ 367   Cr6,235,570
+ 367      MSElise          P/Elise/DFRW     q1st1st          none
+ 368   Cr6,250,570  118cars  S/R  97.3%  25,518.9km
+ 368   power off
+
+Sept 20, 2002
+Sept 21, 2002
+ 368   select car yellowF094/S  774hp -> 813hp
+ 368   change oil  yellowF094/S  774hp -> 813hp
+ 368   Cr6,250,320
+ 368      yellowF094/S     P/F1/Laguna      q1st1st          none
+ 369   Cr6,280,320  118cars  S/R  97.5%  25,638.2km    Note: no AI F094/S
+ 369   power off
+ 369   change oil  yellowF094/S  813hp -> 813hp
+ 369   Cr6,280,070
+ 369      yellowF094/S     P/F1/Cote        q1st1st          none
+ 370   Cr6,310,070  118cars  S/R  97.7%  25,901.1km    Note: no AI F094/S
+ 370   power off
+ 370   change oil  yellowF094/S  788hp -> 813hp
+ 370   Cr6,309,820
+ 370      yellowF094/S     P/F1/Tokyo       q2nd1st          none
+ 371   Cr6,339,820  118cars  S/R  97.9%  26,030.8km    Note: no AI F094/S
+ 371   power off
+
+Sept 22, 2002
+ 371   change oil  yellowF094/S  813hp -> 813hp
+ 371   Cr6,339,570
+ 371      yellowF094/S  P/Stars   1st94to64,39,23,20,18  Toyota[R]GT-ONErace(dup)
+ 372   Cr7,209,570                                       (Cr400,000 bonus)
+ 372   win car  white/purple[R]F688/S  white/purple[R]F688/S(dup)(prize, Simulation Mode)
+ 372   Cr7,209,570  120cars  S/R  98.0%  26,881.2km
+ 372   power off
+
+Sept 27, 2002
+Note: Midfield TT  1st  1:25.052   98.2%
+
+Sept 28, 2002
+Note: TM TT  1st  1:47.841   98.4%
+
+Sept 29, 2002
+Note: Tokyo TT  1st  2:02.077   98.6%
+
+Oct 01, 2002
+Note: DFRW TT  1st  1:25.348   98.8%
+
+Oct 05, 2002
+Note: TahitiMaze TT  1st  1:59.390   99.0%
+
+Oct 05, 2002
+Note: SwissAlps TT  1st  1:22.557   99.0% (?)
+Note: SwissAlps TT  1st  1:22.261   99.0% (99.2%)
+
+Oct 09, 2002
+Note: ComplexString TT  3rd  5:02.278
+
+Oct 12, 2002
+Note: ComplexString TT  3rd  4:58.102
+
+Oct 13, 2002
+Note: ComplexString TT  2nd  4:57.750 4:57.664 4:57.616 4:56.557 4:54.741
+
+Oct 14, 2002
+Note: ComplexString TT  2nd  4:53.955 4:53.514 4:52.981
+
+Oct 17, 2002
+Note: ComplexString TT  2nd  4:52.793
+
+Oct 20, 2002
+Note: ComplexString TT  3rd  4:52.969  4:52.808
+
+Oct 22, 2002
+Note: ComplexString TT  1st  4:52.656       99.0%  (99.4%)
+
+Oct 25, 2002
+Note: ApricotHill TT    1st  1:17.419       99.0%  (99.6%)
+
+Oct 27, 2002
+Note: LagunaSeca TT     1st  1:22.652       99.0%  (99.8%)
+Note: GrandValley TT    1st  1:48.141      100.0%
+ 372   win car  [R]EsperanteGTR-1 [R]EsperanteGTR-1(prize, Time Trial Mode)
+ 372   win car  blackF094/S     black[R]F094/S (prize, 100%)
+ 372   Cr7,209,570  122cars  S/R 100.0%  26,881.2km
+ 372   power off
+
+Oct 31, 2002
+ 372   select car yellowF094/S
+ 372   change oil  yellowF094/S  -> 813hp
+ 372   wash car yellowF094/S
+ 372   Cr7,209,270
+ 372      yellowF094/S     P/F1/Laguna      q1st2nd          8-(
+ 373   Cr7,217,770   lost to F094/S      27,000.5km
+ 373   power off
+
+Nov 01, 2002
+ 373   change oil  yellowF094/S  813hp -> 813hp
+ 373   Cr7,217,520
+ 373      yellowF094/S     P/F1/Laguna      q1st1st          none
+ 374   Cr7,247,520   beat F094/S         27,118.2km
+ 374   power off
+
+ 374   buy car blueF094/S  light/dark blue and white [R]F094/S (prize, 100%, trade)(Cr3,500,000)
+ 374   Cr3,747,520
+ 374   power off
+ 374   buy car greenF094/S  green, yellow and white [R]F094/S (prize, 100%, trade)(Cr3,500,000)
+ 374   Cr247,520  124cars  S/R 100.0%  27,118.2km
+ 374   power off
+
+Nov 02, 2002
+ 374   select car blueF094/S
+ 374   change oil  blueF094/S  790hp -> 829hp
+ 374   wash car  blueF094/S
+ 374   Cr247,220
+ 374      blueF094/S       P/F1/Laguna      q1st1st          none
+ 375   Cr277,220    beat F094/H        27,238.1km    (74.9mi)
+ 375   change oil  blueF094/S  829hp -> 829hp
+ 375   Cr276,970
+ 375      blueF094/S       P/F1/Laguna      q1st1st          none
+ 376   Cr306,970    beat F094/S+F094/H   27,357.3km    (149.4mi)
+
+ cardef orangeF686/M  orange[R]F686/M
+ 376   select car  orangeF686/M   (alias orange[R]F686/M)
+ 376   change oil  orangeF686/M  926hp->973hp
+ 376   Cr306,720
+ 376      orangeF686/M   E/Super     q1st1st   black[R]Clio(dup)(sold)
+ 377   Cr506,720  Cr581,720
+ 377   change oil  orangeF686/M  954hp->973hp
+ 377   Cr581,720  27,597.9km
+ 377   power off
+
+Nov 03, 2002
+ cardef blueG500      blueGriffith500
+ 377   select car blueG500 (alias blueGriffith500)
+ 377   buy parts  blueG500  T
+ 377   buy parts blueG500  T2/T2  T3/T3    (Cr10,750, Cr13,750)
+ 377   fit parts blueG500  T2/T2
+ 377   change oil  blueG500  340hp -> 357hp
+ 377   fit wheels  blueG500  blue
+ 377   Cr556,470
+ 377      blueG500   Enduro/TM2hr      q1st1st   orange/black[R]F094/H
+ 378   Cr706,470  125cars  S/R 100.0%  27,883.8km
+
+ 378   buy parts blueG500  T4/T4    (Cr16,750)
+ 378   fit parts blueG500  T3/T3
+ 378   Cr689,720
+ 378   change oil  blueG500  343hp -> 357hp
+ 378   Cr689,470
+ 378      blueG500    P/PDC  S2,1st96to64,38,29,23,10    [R]Escudo(dup)(sold)
+ 379   Cr1,539,470  Cr1,789,470  125cars    28,858.2km      (Cr400,000)
+ 379   power off
+
+Nov 06, 2002
+ 379   select car blackF094/S  790hp -> 829hp
+ 379   change oil blackF094/S  790hp -> 829hp
+ 379   Cr1,789,220
+ 379      blackF094/S    E/Super     q1st1st        [R]FalconXR8(dup)(sold)
+ 380   Cr1,989,220  Cr2,364,220  125cars    29,097.9km
+ 380   power off
+
+Nov 07, 2002
+ 380   change oil blackF094/S  790hp -> 829hp
+ 380   Cr2,363,970
+ 380      blackF094/S    E/Super     q1st1st        [R]CorvetteC5R(dup)(sold)
+ 381   Cr2,563,970  Cr2,813,970  125cars    29,337.9km
+ cardef XJ220Road     silverJaguarXJ220Road
+ 381   select car XJ220Road (alias silverJaguarXJ220Road)
+ 381   change oil  XJ220Road    516hp -> 542hp
+ 381   Cr2,813,720
+ 381      XJ220Road  A/Euro  sw50to30,17,15,13,5    [R]Vertigo(dup)(sold)
+ 382   Cr2,871,220  Cr3,171,220  125cars    29,406.7km       (Cr20,000 bonus)
+ 382   power off
+
+Nov 08, 2002
+ 382   select car [R]GT-ONE
+ 382   change oil [R]GT-ONE   944hp -> 955hp
+ 382   Cr3,170,970
+ 382      [R]GT-ONE     E/SSR11All-night   q1st1st       red[R]F687/S
+ 383   Cr3,670,970  126cars    29,636.6km
+ 383   buy car redF094/S  red and white [R]F094/S (prize, P/PDC, trade)(Cr3,500,000)
+ 383   Cr170,970    127cars
+ 383   select car  blackF094/S
+ 383   change oil  blackF094/S   814hp -> 829hp
+ 383   Cr170,720
+ 383      blackF094/S    E/Super    nq6th1st        [R]FalconXR8(dup)(sold)
+ 384   Cr370,720   Cr745,720    127cars   29,876.6km
+ 384   power off
+
+Nov 09, 2002
+ 384   buy car NSXS0  Boulder Opal Blue Honda NSX Type S Zero(prize, A/MR/GV, trade)
+ 384   Cr647,150   128cars
+ 384   select car NSXS0
+ 384   change oil  NSXS0   285hp -> 299hp
+ 384   buy parts NSXS0   T2/T2, T3/T3   (Cr10,500, Cr13,500)
+ 384   buy parts NSXS0   T4/T4, T5/T5   (Cr16,500, Cr22,500)
+ 384   fit parts NSXS0   T3/T3
+ 384   Cr583,900
+ 384      NSXS0      Enduro/TM2hr      q2nd1st     black/red[R]S2000LM  
+ 385   Cr733,900   129cars   30,161.4km
+ 385   select car blackF094/S
+ 385   change oil  blackF094/S   797hp -> 813hp
+ 385   Cr733,650
+ 385      blackF094/S    E/Super    nq6th1st        [R]FalconXR8(dup)(sold)
+ 386   Cr933,650   Cr1,308,650   129cars   30,402.2km
+ 386   select car [R]Escudo
+ 386   buy parts  [R]Escudo  TS4, T2/T2   (Cr90,000, Cr11,000)
+ 386   fit parts  [R]Escudo  TS4, T2/T2
+ 386   change oil  [R]Escudo  1791hp -> 1881hp
+ 386   Cr1,207,400
+ 386      [R]Escudo      E/Super     q1st1st        [R]CorvetteC5R(dup)(sold)
+ 387   Cr1,407,400   Cr1,657,400   129cars   30,642.6km
+ 387   buy parts  [R]Escudo  TS4, T2/T2   (Cr90,000, Cr11,000)
+ 387   power off
+
+Nov 10, 2002
+ 387   select car NSXS0
+ 387   change oil  NSXS0   287hp -> 299hp
+ 387   Cr1,657,150
+ 387      NSXS0      Enduro/TM2hr      q2nd1st      [R]ListerStorm(dup)(sold)
+ 388   Cr1,807,150   Cr2,106,650   129cars   30,929.1km
+
+ 388   select car NSX-R
+ 388   change oil  NSX-R   286hp -> 286hp
+ 388   Cr2,106,400
+ 388      NSX-R          E/Super     q3rd1st        [R]CorvetteC5R(dup)(sold)
+ 389   Cr2,306,400   Cr2,556,400   129cars   31,169.4km
+ 389   power off
+
+Nov 11, 2002
+ 389   change oil  NSX-R   280hp -> 285hp
+ 389   wash car    NSX-R
+ 389   Cr2,556,100
+ 389      NSX-R       Enduro/TM2hr      q2nd1st      MinesR34GT-RN1Vspec
+ 390   Cr2,706,100   130cars   31,455.1km                             269hp
+ 390   power off
+
+Nov 12, 2002
+Nov 13, 2002
+Nov 14, 2002
+ 390   select car blackF094/S
+ 390      blackF094/S    E/Super    nq6th1st  silver[R]Clio
+ 391   Cr2,906,100   131cars   31,694.3km                             774hp
+ 391   power off
+
+Nov 15, 2002
+ 391      blackF094/S    E/Super    nq6th1st        [R]FalconXR8(dup)(sold)
+ 392   Cr3,106,100   Cr3,481,100   131cars   31,933.7km               774hp
+ 392   power off
+ 392      blackF094/S    E/Super    nq6th1st     red[R]F090/S
+ 393   Cr3,681,100   132cars   32,173.6km                             774hp
+ 393      blackF094/S    A/Euro sw50to28,22,15,10,5  orangeMini
+ 394   Cr3,738,600   133cars   32,267.7km                             774hp
+ 394      blackF094/S    E/Super    nq6th1st        [R]CorvetteC5R(dup)(sold)
+ 395   Cr3,938,600   Cr4,188,600   133cars   32,508.0km               774hp
+ 395      blackF094/S    A/Euro sw50to30,18,17,8,7  [R]Vertigo(dup)(sold)
+ 396   Cr4,246,100   Cr4,546,100   133cars   32,594.9km               774hp
+ 396   power off
+
+ 396   buy car blueMini  Tahiti Blue Mini Cooper 1.3i(prize, A/Euro, trade)(Cr16,830)
+ 396   buy car turquoiseMini  Hawaiian Blue Mini Cooper 1.3i(prize, A/Euro, trade)(Cr16,830)
+ 396   buy car brgMini  British Racing Green Mini Cooper 1.3i(prize, A/Euro, trade)(Cr16,830)
+ 396   buy car lblueMini  Surf Blue Mini Cooper 1.3i(prize, A/Euro, trade)(Cr16,830)
+ 396   buy car blackMini  Anthracite Mini Cooper 1.3i(prize, A/Euro, trade)(Cr16,830)
+ 396   buy car purpleMini  Amarath Mini Cooper 1.3i(prize, A/Euro, trade)(Cr16,830)
+ 396   Cr4,445,120   139cars   32,594.9km
+ 396   power off
+
+Nov 16, 2002
+Nov 17, 2002
+ Note: attempted P/F1 with redF094/S, but gave up after 3rd at Seattle
+ 396   buy car orangeEsprit   light green Lotus Motor Sport Elise  (Cr100,000)
+ 396   select car orangeEsprit
+ 396   change oil orangeEsprit   342hp -> 359hp
+ 396   buy parts orangeEsprit  T2/T2, T3/T3   (Cr10,750, Cr13,750)
+ 396   buy parts orangeEsprit  T4/T4, T5/T5   (Cr16,750, Cr22,750)
+ 396   fit parts orangeEsprit  T2/T2
+ 396   wash car  orangeEsprit
+ 396   Cr4,274,820
+ 396      orangeEsprit   P/PDC Se4,1st93to49,46,42,15,15   green[R]F094/S
+ 397   Cr5,124,820   141cars   33,586.1km                            346hp
+ 397   power off
+
+Dec 01, 2003
+ 397      license B-3  0:31.065  G   8-)
+ 398      license B-4  0:29.063  G   8-)
+ 399      license B-5  0:34.422  S   8-(
+ 400   power off   2G 2S 44B
+
+Dec 04, 2003
+ 400      license B-5  0:34.291  G   8-)
+ 401      license B-6  0:33.087  S   8-(
+ 402   power off   3G 2S 43B
+
+Dec 05, 2003
+ 402      license B-6  0:32.873  G   8-)   beat demo 0:32.913
+ 403      license B-7  0:33.445  S   8-(
+ 404   power off   4G 2S 42B
+
+Dec 06, 2003
+ 404      license B-7  0:33.262  G   8-)   way slower than demo
+ 405   power off   5G 1S 42B
+
+Dec 07, 2003
+ 405      license B-8  0:43.387  S   8-(  only one silver run ...
+ 406   power off   5G 2S 41B
+
+Note: Dec 08, 2003   tried B-8  best 0:43.406 B 8-(  did not save
+
+Dec 12, 2003
+ 406   buy car R32VspecII red pearl Nissan Skyline GT-R VspecII (R32.J) (Cr52,600)
+ 406   select car R32VspecII
+ 406   Cr5,072,220
+ 406   buy parts R32VspecII    T2/T2   (Cr10,500)
+ 406   Cr5,061,720
+ 406   change oil R32VspecII     297hp -> 312hp
+ 406   Cr5,061,470
+ 406      R32VspecII  Enduro/TM2hr     q3rd4th                8-(
+ 407   Cr5,106,470   142cars   33,858.7km  541/635=85%               346hp
+ 407   power off
+
+Dec 18, 2003
+Note: tried B-8, got nowhere, best 0:43.676 B 8-(  did not save
+
+Dec 20, 2003
+ 407      license B-8  0:43.351  S   8-/  about 3 silver runs ...
+ 408   power off
+
+Dec 21, 2003
+Note: tried B-8, got nowhere, best 0:43.397 S 8-(  did not save
+ 408      license B-8  0:43.156  S   8-/  also 0:43.284, plus others
+ 409   power off
+
+Dec 22, 2003
+Note: tried B-8, got nowhere, best 0:43.486 B 8-( only chart, did not save
+
+Jan 2, 2004
+Note: tried B-8, got nowhere, best 0:43.232 S 8-(  several silver, did not save
+
+Jan 3, 2004
+ 409      license B-8  0:43.058  S   8-?  lots of silver, but not consistent
+Note: all 6 records now silver
+ 410   power off
+
+Jan 4, 2004
+Note: tried B-8, best 0:43.162 S 8-(  a couple of others silvers, did not save
+
+Jan 11, 2004
+ 410      license B-8  0:43.014  S   8-?  lots of silver
+ 411   power off
+
+Note: some other days warmed up, got silver, but not close to records
+Note: Jan 23, 0:43.045 8-/  a few silver, didn't keep; not bad for 2nd day back
+Note: Jan 24, 0:43.065 8-/  a few silver, didn't keep
+
+Jan 25, 2004
+ 411      license B-8  0:42.854  G   8-)  at last!
+ 412   power off     6G 1S 41B
+
+Jan 26, 2004
+Note: B1 35.096G  B2 25.561 G  (temp)
+ 412   buy car blueMiataLS  Mariner Blue Mazda Miata MX-5 LS(prize, Bgold, trade)(Cr23,280)
+ 412   Cr5,083,190   143cars   6G 1S 41B
+Note: B2 25.542G  B2 34.992 G  (temp)  Mariner Blue Miata LS (dup) boo!
+Note: B1 35.048G(longtime)AT  B2 25.558G AT(quickish) (temp) Mariner Blue BOO!
+ 412   power off     Cr5,083,190   143cars   6G 1S 41B
+
+Jan 27, 2004
+ 412      license B-1  AT  0:35.079 G
+Note: B2 25.596G AT (temp)  Mariner Blue Miata LS (dup) BOO!
+Note: B2 25.383G  (temp)  Mariner Blue Miata LS (dup) BOO!
+Note: B2 25.515G AT (temp)  Mariner Blue Miata LS (dup) BOO!
+Note: tried selling car, and wasting day, still got Mariner Blue  8-(
+Note: tried selling car, winning B/TypeR series, still got Mariner Blue  8-(
+ 413   buy car redRSX-S  Fire Pepper Red Acura RSX Type S(prize, B/TypeR, trade)(Cr30,000)
+ 413   power off     Cr5,053,190   144cars   7G 1S 40B
+
+
+February 14, 2005
+ 413   select car   SLK230
+ 413   change oil  SLK230        364hp -> 369hp
+ 413   mod car   SLK230  pol,bal          (Cr5500, Cr12000)  -> 406hp
+ 413   buy parts SLK230      chip  (Cr1500)
+ 413   fit parts SLK230      chip  -> 422hp
+ 413   buy parts SLK230      LSDF  (Cr6600)
+ 413   fit parts SLK230      LSDF
+ 413   mod car   SLK230  WR3  (Cr1200, Cr5500, Cr2200)
+ 413   buy parts SLK230     T3/T3, T4/T4   (Cr13500, Cr16500)
+ 413   Cr4,968,640
+
+ 413      SLK230  A/Euro/GV            q1st1st      none
+ 414   Cr4,976,140
+ 414   change oil  SLK230        423hp -> 423hp
+ 414   Cr4,975,890
+ 414      SLK230   A/Euro  q2Rii,1st50to30,19,15,11,5  blackMini(dup)
+ 415   Cr5,033,390                          Anthracite Mini Cooper 1.3i
+ 415   power off     Cr5,033,390   145cars   7G 1S 41B
+
+February 17, 2005
+ 415      SLK230   A/Euro  sw50to28,22,14,8,8           blueMini(dup)
+ 416   Cr5,090,890                          Tahiti Blue Mini Cooper 1.3i
+ 416   power off     Cr5,033,390   146cars   7G 1S 41B
+
+February 19, 2005
+ 416      SLK230  A/DTM/Midfield       q3rd1st      none
+ 417   Cr5,100,890
+ 417   change oil  SLK230        414hp -> 423hp (twice, oops)
+ 417   Cr5,100,390
+ 417   buy parts SLK230      Bctlr (Cr10600) (?)
+ 417   fit parts SLK230      Bctlr
+ 417   Cr5,089,790
+ 417      SLK230   A/Euro  sw50to26,24,15,10,5      purpleGT-RVspecII
+ 418   Cr5,147,290         Midnight Purple Pearl Skyline GT-R Vspec II (R34.J)
+ 418   change oil  SLK230        423hp -> 423hp
+ 418   Cr5,147,040
+ 418      SLK230     A/DTM  q61666,53266,4th38to30,27,(14),11,10   8-(
+ 419   Cr5,155,040  147 cars
+ 419   select car [R]CLK-DTM
+ 419   change oil  [R]CLK-DTM    576hp -> 576hp
+ 419   Cr5,154,790
+ 419      [R]CLK-DTM  A/DTM  q3L,q3T3,1st44to28,23,17,9,9  yellowRUF3400S(dup)
+ 420   Cr5,227,790                           Champagne Gold RUF 3400S
+ 420   power off     Cr5,227,790   148cars   7G 1S 41B  34535.7
+
+February 20, 2005
+ 420   select car MSElise
+ 420      MSElise          A/Euro/GV       nq6th3rd            8-(
+ 421   Cr5,229,790
+ 421   fit parts MSElise  T5/T5
+ 421      MSElise          A/Euro/GV       q1st1st            none
+ 422   Cr5,237,290
+ 422  buy parts MSElise  T8/T8  (Cr47,750)
+ 422  fit parts MSElise  T8/T8
+ 422   Cr5,189,540
+ 422   change oil  MSElise    364hp -> 364hp
+ 422   Cr5,189,290
+ 422      MSElise      A/Euro   sw50to24,22,19,10,5   purpleGT-RVspecII(dup)
+ 423   Cr5,246,790  149 cars
+ 423   power off
+

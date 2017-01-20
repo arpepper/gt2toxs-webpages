@@ -1,0 +1,113 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@Sun Jun 13, 1999
+
+Various Thoughts About the Tuned Series, and High-Speed Ring ii
+
+Threads:
+  Driving Advice
+  Tuned Series Results
+
+I won Abnormal with a tuned Normal prize Supra RZ, and Normal with a
+Cerbera.  Actually won at Deep Forest.  8-)  (But came 2nd at Autumn
+Ring-Mini).
+
+Some people have trouble with High Speed Ring ii, and this gives
+them a bad start to the Tuned Car Contest, and they abandon.
+
+Well, you can practise that in the MegaSpeed Cup; concentrate on getting
+good lap times, not (just) winning.  (And use a tuned car, not a racing
+model...)
+
+The key to that course is knowing what speed to enter various corners at.
+
+The first one is the trickiest, especially on laps 2 to 5.  You must
+slow down early, but not too early, just enough to be able to cleanly
+drive through it with a minimum of sliding.  (and a minimum of speed
+loss).
+
+The next most important one is the one leading onto the very high speed
+section.  With an overpowered car you can gain a lot of speed from the
+previous short straight, and can lose a lot of time, or lose control
+completely as you enter that corner.  Learn to slow down and drive
+around it smoothly to get maximum acceleration into the next section.
+In the high-speed section you need to feather a bit on many cars, to
+keep off the wall, and need to watch for when you should and shouldn't
+be in top gear.
+
+That leaves the esses after the straight after the first corner.
+Slowing to a correct speed for the first one can help a lot, but you
+can actually drive those two corners mostly by the seat-of-your-pants,
+just being careful to get a nice smooth exit from the second one.
+(Remember your B-6 and B-7 tests, and also B-8 and IA-1).
+
+Try to ignore the AI cars as much as possible; they seem to try and
+sucker you into braking too early or (usually) too late, and really
+don't drive perfectly.  So, sometimes they might get ahead temporarily,
+but rely on your cleaner line to eventually get and stay ahead.
+
+Every car I have won with in that series has won at the High Speed
+Ring.  I don't know if the other cars will accommodate a loss there,
+or not.
+
+I've never swept the series.  The 2nd place car usually gets 27 points
+points, although on Sunday an AI Supra RZ got 30 points to my Supra's
+33.  (1st,4th,1st,4th.1st).  I think.
+
+The Viper RT/10 won with 42 of possible 45 points, and with less a
+couple of times.
+
+The Cerbera won with only 30 points.
+
+The Japanese monsters generally won with 38 (sweep, but 5th at Autumn
+Ring).  GTO'95MR,GTOtwinturbo,and R32GT-R'89.  But I think they might
+have sometimes got like 34, because they are a bit tricky at Grand
+Valley as well as the Autumn Ring.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 4
+@

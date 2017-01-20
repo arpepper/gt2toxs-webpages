@@ -1,0 +1,154 @@
+Thursday December 9, 1999
+
+Pit and Other Track Weirdness in Gran Turismo, plus Game Shark Codes
+
+Threads:
+  Game Evaluation
+  Game Shark Hints
+
+Since we're all disappointed, unable to play GT2 yet, I thought I'd
+mention something I only just noticed about the tracks in the original
+Gran Turismo.  This all applies to North American version 1.1--I
+don't know about the other versions.
+
+In Simulation Mode, the pits are open at Grand Valley, Special Stage
+R11, Special Stage R11 ii, and Special Stage R5 for all events you
+enter.
+
+I had not noticed this until just recently.  Well, I sort of noticed
+when I used a Game Shark to cycle through all possible tracks (this
+can be done in any of the four Res Time Trial modes,  (Simulation
+or Arcade, Hi-res or normal), either two-player mode (race at the
+Test Track  8-)  or Arcade Race mode (race Arcade AI cars at SSR11
+or the Test Track  8-)  That is, I do not know how to do it in
+Simulation mode AI races.
+
+For some reason while doing that, I noticed in Time Trial mode that the
+Simulation SSR5 pits were open, while at most tracks they are not.
+
+But then, the other day, I noticed that they *are* open in all
+Simulation mode races at SSR5!  Just hang left immediately after the
+last corner, and take this long underpass under the Clubman track, and
+you come out into the pits, and finally go past the line-up of Japanese
+manufacturers' trucks, before rejoining the track.  The trucks aren't
+really very well rendered, actually.
+
+Similarly, the pits are open at Simulation Mode races for Grand Valley
+full-course (clockwise only), and both directions of SSR11.  Now this
+makes sense, because otherwise the enduro events would need some means
+of "opening the pits" on an otherwise identical track.  (That's what
+I had always assumed was done, though, actually).  So this suggests
+that perhaps an SSR5 enduro event had been planned at some time, and
+cancelled.
+
+The reason I didn't notice earlier that the pits were open at Grand
+Valley partly is because the entrance is difficult to spot.  Also,
+early in the game you spend more time at Grand Valley East, where the
+pits are closed.  Not sure what my excuse was at SSR11, though.
+
+Thread: Game Shark Hints
+
+Here is a complete list of the track codes available for Gran Turismo
+(patch in at appropriate times to location $B63EC in the North American
+version 1.1 game).  Okay, maybe it is still not complete, but it is a
+superset of any Web site I found.
+
+<HTML>
+<font face="Courier">
+<table width=85% >
+<tr><td width=15% rowspan=64> &nbsp;</td><td align=right>00</td><td>Grand Valley Speedway I (Sim)</td>
+<tr><td align=right>01</td><td>Grand Valley Speedway II (Sim)</td></tr>
+<tr><td align=right>02</td><td>2p Grand Valley Speedway</td></tr>
+<tr><td align=right>03</td><td>Grand Valley Speedway (Arcade)</td></tr>
+<tr><td align=right>04</td><td>Grand Valley East (Sim)</td></tr>
+<tr><td align=right>05</td><td>Grand Valley East II (Sim)</td></tr>
+<tr><td align=right>06</td><td>Grand Valley East (Arcade)</td></tr>
+<tr><td align=right>07</td><td>2p Grand Valley East</td></tr>
+<tr><td align=right>08</td><td>Autumn Ring (Sim)</td></tr>
+<tr><td align=right>09</td><td>Autumn Ring II (Sim)</td></tr>
+<tr><td align=right>0A</td><td>Autumn Ring (Arcade)</td></tr>
+<tr><td align=right>0B</td><td>2p Autumn Ring</td></tr>
+<tr><td align=right>0C</td><td>Autumn Ring Mini (Sim)</td></tr>
+<tr><td align=right>0D</td><td>Autumn Ring Mini II (Sim)</td></tr>
+<tr><td align=right>0E</td><td>Autumn Ring Mini (Arcade)</td></tr>
+<tr><td align=right>0F</td><td>2p Autumn Ring Mini</td></tr>
+<tr><td align=right>10</td><td>Special Stage R5 (Sim)</td></tr>
+<tr><td align=right>11</td><td>Special Stage R5 II (Sim)</td></tr>
+<tr><td align=right>12</td><td>Special Stage R5 (Arcade)</td></tr>
+<tr><td align=right>13</td><td>2p Special Stage R5</td></tr>
+<tr><td align=right>14</td><td>HiFi Special Stage R5</td></tr>
+<tr><td align=right>15</td><td>Clubman Stage R5 (Sim)</td></tr>
+<tr><td align=right>16</td><td>Clubman Stage R5 II (Sim)</td></tr>
+<tr><td align=right>17</td><td>Clubman Stage R5 (Arcade)</td></tr>
+<tr><td align=right>18</td><td>2p Clubman Stage R5</td></tr>
+<tr><td align=right>19</td><td>HiFi Clubman Stage R5</td></tr>
+<tr><td align=right>1A</td><td>Special Stage R11 (Sim)</td></tr>
+<tr><td align=right>1B</td><td>Special Stage R11 II (Sim)</td></tr>
+<tr><td align=right>1C</td><td>Special Stage R11 (Arcade)</td></tr>
+<tr><td align=right>1D</td><td>Special Stage R11 II (Arcade)</td></tr>
+<tr><td align=right>1E</td><td>2p Special Stage R11</td></tr>
+<tr><td align=right>1F</td><td>HiFi Special Stage R11</td></tr>
+<tr><td align=right>20</td><td>High Speed Ring (Sim)</td></tr>
+<tr><td align=right>21</td><td>High Speed Ring II (Sim)</td></tr>
+<tr><td align=right>22</td><td>Deep Forest Racing Way (Sim)</td></tr>
+<tr><td align=right>23</td><td>Deep Forest Racing Way II (Sim)</td></tr>
+<tr><td align=right>24</td><td>Trial Mountain (Sim)</td></tr>
+<tr><td align=right>25</td><td>Trial Mountain II (Sim)</td></tr>
+<tr><td align=right>26</td><td>Test Course (Sim)</td></tr>
+<tr><td align=right>27</td><td>Max Speed Test (Sim)</td></tr>
+<tr><td align=right>28</td><td>2p High Speed Ring</td></tr>
+<tr><td align=right>29</td><td>2p Deep Forest Racing Way</td></tr>
+<tr><td align=right>2A</td><td>2p Trial Mountain</td></tr>
+<tr><td align=right>2B</td><td>High Speed Ring (Arcade)</td></tr>
+<tr><td align=right>2C</td><td>Deep Forest Racing Way (Arcade)</td></tr>
+<tr><td align=right>2D</td><td>Trial Mountain (Arcade)</td></tr>
+<tr><td align=right>2E</td><td>L_B-1 (cannot be used)</td></tr>
+<tr><td align=right>2F</td><td>L_B-2 (cannot be used)</td></tr>
+<tr><td align=right>30</td><td>L_B-3 (cannot be used)</td></tr>
+<tr><td align=right>31</td><td>L_B-4 (cannot be used)</td></tr>
+<tr><td align=right>32</td><td>L_B-5 (cannot be used)</td></tr>
+<tr><td align=right>33</td><td>L_B-6 (cannot be used)</td></tr>
+<tr><td align=right>34</td><td>L_B-7 (cannot be used)</td></tr>
+<tr><td align=right>35</td><td>L_A-1 (cannot be used)</td></tr>
+<tr><td align=right>36</td><td>L_A-2 (cannot be used)</td></tr>
+<tr><td align=right>37</td><td>L_A-3 (cannot be used)</td></tr>
+<tr><td align=right>38</td><td>L_A-4 (cannot be used)</td></tr>
+<tr><td align=right>39</td><td>L_A-5 (cannot be used)</td></tr>
+<tr><td align=right>3A</td><td>L_A-6 (cannot be used)</td></tr>
+<tr><td align=right>3B</td><td>L_A-7 (cannot be used)</td></tr>
+<tr><td align=right>3C</td><td>L_A-8 (cannot be used)</td></tr>
+<tr><td align=right>3D</td><td>rogo-test (!) neat lighting of Autumn Mini</td></tr>
+<tr><td align=right>3E</td><td>END (do not use)</td></tr>
+</table>
+</font>
+</HTML>
+
+If you use your  Game Shark to scan the part of memory where the track
+names are stored, apparently in the same order as the track numbers,
+you see indications that there are Arcade mode SSR11 and SSR11 ii.  And
+indeed, if you shark in the corresponding track numbers, you end up
+running on versions of those tracks with the pits *closed*.  They seem
+a little more bumpy than the Simulation versions too.  So this suggests
+that there were plans to have those tracks in the Arcade Mode, but
+those plans were changed.  (There's also an Arcade Autumn Mini, but no
+other reverse-direction tracks have Arcade versions).  Saved replays on
+sharked-in tracks do not work.  (Your previous time trial's ghost
+similarly gets very upset and confused, too   8-) )
+
+Two player tracks are different from either Arcade or Simulation mode
+tracks, the same track being used for two-player races in either mode.
+The noticeable differences are that two-player races have the pits
+open, and have no middle-distance scenery.  (E.g. the grandstands
+around the High Speed Ring are not there).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

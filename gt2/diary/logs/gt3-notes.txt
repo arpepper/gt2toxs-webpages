@@ -1,0 +1,121 @@
+Some time I realized that the mileage is actually in km even though the
+Status Display says "mi".  So then I changed my record-keeping.
+From my logs (not here) it looks like it was on about August 25, actually.
+
+...
+
+So I got bored and maybe cheated a little...
+
+July 30, 2002 -  295 tunedSpeed6  P/TVR  sw50to26,17,15,12,10    purpleSpeed12
+July 31, 2002 -  298 [R]C5R P/NA [R]ZondaC12S
+July 31, 2002 -  301 [R]C5R P/FR silverNismoGT-RLMRoad
+Aug 1, 2002 - 304 [R]Xsara P/FF yellowSpoonCivic
+Aug 2, 2002 - 307 [R]787B  P/MR blackZZII
+Aug 2, 2002 - 310 [R]787B  P/Turbo blueRUF-CTR2
+Aug 4, 2002 - 313 [R]ImprezaLM  P/4WD [R]LancerEvoVII-RallyPrototype
+Aug 4, 2002 - 316 [R]ImprezaLM  P/Boxer yellowRUF-RGT
+Aug 5, 2002 - 319 [R]Calsonic  P/RedEmblem Nissan[R]CalsonicSkyline(dup)
+Aug 6, 2002 - 322 RUF3400S  P/Spider redShelbyCobra
+Aug 6, 2002 - 323   Cr4,228,200   97cars  S/R  83.5%  12,718.1km
+
+A little more honest...
+
+Aug 10, 2002 - 325  GT-ONEroad P/Wind/Test   q1st1st      Mazda[R]787B(dup)
+Aug 10, 2002 - 326  GT-ONEroad E/Mistral     q1st1st    silverJaguarXJ220Road
+
+Cheating again...
+
+Aug 11, 2002 - 327  GT-ONEroad  P/PDC sw100to60,38,31,18,13 Toyota[R]GT-ONErace
+Aug 11, 2002 - 328   Cr6,180,150  101cars  S/R  86.8%  14,754.4km
+Aug 16, 2002 - 329  [R]GT-ONE P/JGT 1st92to49,48,32,25,14 Pagani[R]ZondaRace
+Aug 17, 2002 - 330  [R]GT-ONE E/SSR11All-night  nq6th1st     green[R]F687/S
+Aug 17, 2002 - 331   Cr7,578,900  103cars  S/R  88.7%  16,076.2km
+Aug 18, 2002 - 334  [R]GT-ONE E/Tokyo nq6th1st  [R]C-WestRazaSilviaJGTC
+Aug 18, 2002 - 335   Cr7,973,150  104cars  S/R  89.5%  16,864km
+
+So so...
+
+Aug 19, 2002 - 336  [R]Zonda P/Zonda  Pagani[R]ZondaRace(dup)
+Aug 19, 2002 - 337   Cr7,971,700  105cars  S/R  89.8%  16,946.7km
+
+At this point I bought all the wheels from the wheel shop.
+
+Aug 23, 2002 - 337 [R]Zonda E/Rome2hr  nq6th1st [R]DeltaHFIntegraleRally
+Aug 23, 2002 - 338   win car  [R]F094/H   (prize, finishing Enduro League)
+Aug 23, 2002 - 338   Cr8,182,450  107cars  S/R  90.0%  17,292.3km
+
+Aug 24, 2002 - 338 [R]GT-ONE P/Stars 1st94to56,50,26,17,17  redViperGTSRconcept
+Aug 24, 2002 - 339  Cr9,039,700  108cars  S/R  91.7%  18,183.1km
+Aug 24, 2002 - 339  buy car [R]R390LM   Nissan [R]R390 GT1 LM Race (prize, P/Stars, trade)
+Aug 24, 2002 - 339  buy car Premium Red Subaru Impreza Sedan WRX STi (prize, P/Stars, trade)
+Aug 24, 2002 - 339   Cr7,007,720  110cars  S/R  91.7%  18,183.1km
+
+More cheating? ...
+
+Aug 25, 2002 - 339 [R]GT-ONE P/Dream sw70to33,29,20,16,14 [R]EsperanteGTR-1(dup)(sold)
+Aug 25, 2002 - buy car red Mitsubishi [R]FTO LM (prize, P/Dream, trade)
+
+Aug 28, 2002 -  Cleaned up remaining P/GTW races with the [R]GT-ONE.
+Aug 28, 2002 - 345   Cr7,462,220  111cars  S/R  94.2%  18,984.9km
+
+August 29, 2002 - 347 orangeVitz P/Vitz 1st50to19,18,16,15,12  [R]CastrolTomsSupra
+ -- found that easy after all the hype
+August 29, 2002 - 348   buy car  Peridot Pearl Mica Toyota Supra RZ (prize, P/Vitz, trade)
+
+Testing caused me to conclude I needed a F094/S...
+Sept 02, 2002 - 355 orangeSpeed6 P/PDC sw100to54,41,23,22,20  white/black[R]F094/S
+ -- even using a Speed 6 is cheating at this race
+ -- actually I think that F094/S is dark blue, not black
+Sept 02, 2002 - 356   buy car yellow, black and white [R]F094/S (prize, P/PDC, trade)
+ 356   Cr4,739,620  115cars S/R  95.8%  21,207.9km       (Cr400,000 bonus)
+
+Practice...
+
+Sept 14, 2002 - 362 yellowF094/S     E/Mistral        q1st1st  silver[R]FTOLM
+ 
+Finally...
+Sept 15, 2002 - 363 P/F1  1st83to66,41,33,21,16  white/purple[R]F688/S
+ -- Note: no AI F094/S
+Sept 15, 2002 - 364 win car  orange [R]F686/M (prize, Professional League)
+Sept 15, 2002 - 364   Cr6,214,820  118cars  S/R  96.9%  25,370.5km
+ 
+Sept 19, 2002 - finished up P/Elise series
+Sept 19, 2002 - 368   Cr6,250,570  118cars  S/R  97.3%  25,518.9km
+
+Sept 21, 2002 - finished up P/F1 series (with same F094/S against no AI F094/S)
+Sept 21, 2002 - 371  Cr6,339,820  118cars  S/R  97.9%  26,030.8km
+
+Cheating horrifically... 
+
+Sept 22, 2002 - 371 yellowF094/S  P/Stars 1st94to64,39,23,20,18  Toyota[R]GT-ONErace(dup)
+ -- that finished that series, and simulation mode
+ -- I used the F1 car so I could be sure I would win and get a "quick win" save
+ -- I blew the Test Track when I lost the draught at the pit stop
+Sept 22, 2002 - 372  win car white/purple[R]F688/S(dup)(prize, Simulation Mode)
+Sept 22, 2002 - 372   Cr7,209,570  120cars  S/R  98.0%  26,881.2km
+
+"Only the time trials" to do now...
+
+Sept 27, 2002 - Midfield TT  1st  1:25.052   98.2%
+Sept 28, 2002 - TM TT  1st  1:47.841   98.4%
+Sept 29, 2002 - Tokyo TT  1st  2:02.077   98.6%
+Oct 01, 2002 - DFRW TT  1st  1:25.348   98.8%
+Oct 05, 2002 - TahitiMaze TT  1st  1:59.390   99.0%
+Oct 05, 2002 - SwissAlps TT  1st  1:22.557   99.0% (?)
+Oct 05, 2002 - SwissAlps TT  1st  1:22.261   99.0% (99.2%)
+
+Oct 09, 2002 - ComplexString TT  3rd  5:02.278
+Oct 12, 2002 - ComplexString TT  3rd  4:58.102
+Oct 13, 2002 - ComplexString TT  2nd  4:57.750 4:57.664 4:57.616 4:56.557 4:54.741
+Oct 14, 2002 - ComplexString TT  2nd  4:53.955 4:53.514 4:52.981
+Oct 17, 2002 - ComplexString TT  2nd  4:52.793
+Oct 20, 2002 - ComplexString TT  3rd  4:52.969  4:52.808
+Oct 22, 2002 - ComplexString TT  1st  4:52.656       99.0%  (99.4%)
+
+Oct 25, 2002 - ApricotHill TT    1st  1:17.419       99.0%  (99.6%)
+Oct 27, 2002 - LagunaSeca TT     1st  1:17.419       99.0%  (99.8%)
+Oct 27, 2002 - GrandValley TT    1st  1:48.141      100.0%
+Oct 27, 2002 - 372   win car  [R]EsperanteGTR-1(dup)(prize, Time Trial Mode)
+Oct 27, 2002 - 372   win car  black[R]F094/S (prize, 100%)
+
+Oct 27, 2002 - 372   Cr7,209,570  122cars  S/R 100.0%  26,881.2km

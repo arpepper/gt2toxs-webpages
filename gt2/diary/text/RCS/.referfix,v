@@ -1,0 +1,60 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.06.29.20.43.44;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.06.29.19.26.04;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.19.21.23.23;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@oops.  Y2K problem.   8-)
+@
+
+
+1.3
+log
+@Avoid some hrefs which weren't actually diary entries.
+@
+text
+@#!/bin/csh -f
+./.dosome ` cat .new/*.html | grep href | grep '["/][12][0-9][0-9][0-9]-' | sed 's/[>].*//' | sed 's/"[^"]*$//' | sed 's/#.*//' | sed 's/.*[="]//' | sort -u  | sed 's/.html/.txt/'`
+
+@
+
+
+1.2
+log
+@Match dates after 2000   8-)
+(Y2K bug!)
+@
+text
+@d2 1
+a2 1
+./.dosome ` cat .new/*.html | grep href | grep '[12][0-9][0-9][0-9]-' | sed 's/[>].*//' | sed 's/"[^"]*$//' | sed 's/#.*//' | sed 's/.*[="]//' | sort -u  | sed 's/.html/.txt/'`
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+./.dosome ` cat .new/*.html | grep href | grep 1999- | sed 's/[>].*//' | sed 's/"[^"]*$//' | sed 's/#.*//' | sed 's/.*[="]//' | sort -u  | sed 's/.html/.txt/'`
+@

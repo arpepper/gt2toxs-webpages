@@ -1,0 +1,17 @@
+Fri Dec 26 20:51:08 EST 2003
+- "monaco silver" should be "colton red"; fixed Fri Dec 26 20:51:16 EST 2003
+
+
+
+JScript(?) problems:
+- need \r in front of every newline
+- cannot create arbitrary property of element of document
+- apparently cannot use a reference?
+
+- something still fails when a gt1used form is created, even though
+  gt1stats appears to work, and pre-existing gt1used URLs appear to work
+  - those problems appear size/memory related
+  - you can do "quick find" to text-area (or sometimes "new page?"),
+    or you can arrange to cut-and-paste the generated URL into a page
+    as a link, but I guess there's not enough memory to run selana to
+    generate the URL for a new selana to be interpreted

@@ -1,0 +1,124 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.07.04.45.29;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.36.43;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed obsolete email address.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Licenses - A-4</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Simulation - Licenses<BR>
+A-4
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+<I>Reposted with permission from the author
+<A HREF="mailto:jbernhard@@crmse.sdsu.edu">Jamal Bernhard</A>,
+from the rec.games.video.sony
+newsgroup</I>
+<P>
+
+<PRE>
+> And with the A4, I cant seem to hit the first turn after the tunnel
+> without hitting the walla, and that seems to take the few tenths of a
+> second I would need to win.
+
+Make sure you're on the left side of the road, then brake AND turn earlier
+than you want to, to the point where you think you're going to hit the
+rock on the inside of the turn. If you JUST miss it, you're taking the
+corner right.
+</PRE>
+
+<P><BR>
+
+<I>Reposted with permission from the author
+<A HREF="mailto:lavind1@@us.ibm.com">Duane Laviniere</A>,
+from the rec.games.video.sony
+newsgroup</I>
+<P>
+
+<PRE>
+You don't even need to brake for this exam.  I got gold by letting off
+the gas and drifting the first turn.  The second turn needs to be taken
+full bore.  It's a matter of turning real early and maybe feathering the
+gas if you need to.  The last left hand turn into the tunnel needs to be
+initiated EARLY.  As you exit the fast right hander into the tunnel, you
+should be near the right side wall.  Immediately start turning left
+towards the inside of the upcoming turn, and feather the gas about
+midway through the turn.  You should be running in the yellow rumble
+strip area.  After you apex, jump on the gas, and try not to make big
+corrections in your heading down the final straight.  Good luck.
+</PRE>
+
+
+
+<P><BR>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sat Apr  6 23:38:28 EST 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a4 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+d68 1
+a68 1
+Last modified: Tue Jun  2 12:37:21 EDT 1998
+d71 2
+a72 4
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+@

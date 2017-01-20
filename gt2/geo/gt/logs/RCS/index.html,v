@@ -1,0 +1,830 @@
+head	1.21;
+access;
+symbols;
+locks
+	arpepper:1.21; strict;
+comment	@# @;
+
+
+1.21
+date	2007.03.03.02.44.54;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.04.22.23.21.09;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.01.02.25.32;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.04.06.21.06.09;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2002.06.21.02.27.00;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2002.01.22.03.06.34;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2001.12.10.00.41.07;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2001.11.13.05.27.37;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2001.08.19.18.58.19;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2001.07.02.22.58.23;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2001.07.02.22.48.01;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2001.04.22.20.17.34;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2001.04.10.21.25.43;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2001.04.10.21.24.14;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.03.26.20.26.27;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.11.13.22.40.56;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.10.23.20.51.53;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.09.29.21.31.46;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.09.29.21.24.18;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.09.29.21.08.28;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.09.29.21.08.07;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Started with garage.html from my personal pages.
+@
+
+
+1.21
+log
+@Add gt2-mfr.txt.
+@
+text
+@<html>
+<head>
+<meta name="robots" content="nofollow">
+<title>Gran Turismo Game Logs</title></head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Game Logs</h3>
+</font>
+</td>
+</table>
+<table width="85%"><tr><td width="10%"></td>
+<td>
+<center>
+<table><tr>
+<td bgcolor="cyan">
+<font size="-2">
+[<a href="../../index.html">index</a>]
+[<a href="../../about.html">about</a>]
+[<a href="../../albums/">photo albums</a>]
+[<a href="../../gt/results_forms/">results forms</a>]
+[<a href="../../gt/translator/">GT2 translator</a>]
+[<a href="../../gt/">links</a>]
+[<a href="../../gt/diary/">diary</a>]
+[<a href="../../gt/logs/">logs</a>]
+[<a href="../../gt/gt1stats/">car find</a>]
+[<a href="../../gt/gt1used/">used cars</a>]
+[<a href="../../scripts/">scripts</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+<center>
+<p>
+To contact the author by
+<a href="../email.html">email</a>.
+</p>
+<p>
+The video game (videogame) title, "Gran Turismo", and its logos, are trademarks of
+Sony Computer Entertainment Incorporated.
+This site is in no way associated with Sony Computer Entertainment
+Incorporated.
+</p>
+</center>
+<hr>
+
+<p>
+The following is a text file with somewhat detailed results for all the
+Gran Turismo 1,2&3 enduroes I have done:
+<ul>
+<li><a href="gt1enduro.txt">gt1enduro.txt</a>
+<li><a href="gt2enduro.txt">gt2enduro.txt</a>
+<li><a href="gt3enduro.txt">gt3enduro.txt</a>
+</li>
+</ul>
+</p>
+<p>
+The following is a somewhat detailed text file log I have kept for my 
+Gran Turismo 4 game:
+<ul>
+<li><a href="gt4-game1.txt">gt4-game1</a> -
+My first and, so far, only Gran Turismo 4 game.
+</li>
+<li><a href="gt4-racedefs.txt">gt4-racedefs.txt</a> -
+Race definitions used by the my Gran Turismo 4 log program.
+</li>
+</ul>
+</p>
+<p>
+The following is a somewhat detailed text file log I have kept for my 
+Gran Turismo 3 game:
+<ul>
+<li><a href="gt3-game1.txt">gt3-game1</a> -
+My first and, so far, only Gran Turismo 3 game.
+</li>
+<li><a href="gt3-racedefs.txt">gt3-racedefs.txt</a> -
+Race definitions used by the my Gran Turismo 3 log program.
+</li>
+</ul>
+</p>
+<p>
+The following are somewhat detailed text file logs I have kept for a few 
+Gran Turismo 2 games.  At my personal site I actually have a CGI program
+which will analyze these logs and show me the garage contents on a
+particular day of the game.  That is not allowed at this Web site,
+however.
+</p>
+<p>
+So, here are the logs you can examine as text files...
+<ul>
+<li><a href="gt2-game1.txt">gt2-game1</a> -
+My first and main Gran Turismo 2 game.
+</li>
+<li><a href="gt2-v1.2.txt">gt2-v1.2</a> -
+A moderately lengthy game using my version 1.2 disk
+</li>
+<li><a href="gt2-2001.txt">gt2-2001</a> -
+A new game, again using my version 1.2 disk
+</li>
+<li><a href="gt2-proper.txt">gt2-proper</a> -
+An attempt at a "proper" GT2 game, again using my version 1.2 disk
+</li>
+<li><a href="gt2-boom.txt">gt2-boom</a> -
+A quick GT2 game I did just to demonstrate and document the garage delete
+bug.
+</li>
+<li><a href="gt2-tm30.txt">gt2-tm30</a> -
+A second GT2 game I have now finished, based on the strategy of immediately entering
+the Trial Mountain 30 with my starter Supra.  I got 98.20% in 237 days.
+</li>
+<li><a href="gt2-race2pr.txt">gt2-race2pr</a> -
+Branching from the first game, this is just a garage to collect as
+many racing model prize cars as possible.
+</li>
+<li><a href="gt2-normpr.txt">gt2-normpr</a> -
+This is similar, but for collecting normal prizes.
+Given the number of prizes
+in GT2, I may need to create yet another one for normal prizes.
+</li>
+<li><a href="gt2-histcar.txt">gt2-histcar</a> -
+And this is for collecting historical used cars, such as the 1968 Toyota
+2000GT.
+</li>
+<li><a href="gt2-racepr.txt">gt2-racepr</a> -
+This was the game previously used to collect racing models, and
+has now been frozen.  (In fact, the save has probably been deleted by now).
+</li>
+<li><a href="gt2-day5ib.txt">gt2-day5ib</a> -
+This is merely the first four GT2 licenses in four days, ending at day 5.
+Since I bought no cars up till
+then, this is very boring...
+</li>
+<li><a href="gt2-day7s.txt">gt2-day7s</a> -
+This is merely all six GT2 licenses in six days, ending at day 7.
+Since I bought no cars up till then, this is very boring...
+</li>
+<li><a href="gt2-mfr.txt">gt2-mfr</a> -
+A new GT2 game started in February 2007, where I used the manufacturer's
+races to help me choose the cars to use in other events.  Instead of using a
+starter card, I actually redid all my licenses from scratch.
+</li>
+</ul>
+</p>
+<p>
+The following are somewhat detailed text file logs I have kept for several 
+Gran Turismo 1 games:
+<ul>
+<li><a href="main.txt">main</a> -
+A pseudo-log of my main game.  I got tired of not knowing what I had done,
+so faked this log--real records begin on day 5446!
+</li>
+<li><a href="blue.txt">blue</a> -
+I got all race prize cars in 1167 game days.
+</li>
+<li><a href="allstars.txt">allstars</a> -
+Branching off from my main game, I began collecting the stars from various
+"fast" games I had done.
+</li>
+<li><a href="silver.txt">silver</a> -
+I got all race trophies reasonably quickly, in 132 game days.
+</li>
+<li><a href="gold.txt">gold</a> -
+I got all race trophies in the minimum possible time of 100 game days,
+ending on day 101.
+</li>
+<li><a href="platinum.txt">platinum</a> -
+Branching from the gold game,
+I try for all race trophies in the minimum possible time of 100 game days,
+ending on day 101, but buying even fewer cars.
+</li>
+<li><a href="hastings.txt">hastings</a> -
+The legend of Ray Hastings, who used a 1967 Corvette Stingray as his
+starter car.
+With luck, no other cars need be bought, but if one is unlucky, no 4wd
+will be won, necessitating a purchase.
+</li>
+<li><a href="nismo.txt">nismo</a> -
+I use a Nissan Nismo 400R as a starter car.  You get this for all
+golds on your IA license (but I didn't...).  I actually went back
+to  Gran Turismo 1 to finish this game.
+</li>
+<li><a href="fairlady.txt">fairlady</a> -
+I use the Nissan Fairlady Z Type S Twin Turbo 2 Seater as much as possible
+in this minimal (100 day) game.
+</li>
+<li><a href="fiji.txt">fiji</a> -
+I started with the 4WD Fiji Blue Mitsubishi GTO'92 in this minimal
+(100 day) game.  Admitting that I am not a great player, I planned on buying
+a Normal car entry.  Using careful strategy I was able to buy a Griffith; more
+expensive than the Viper RT/10--the cheapest car capable of dominating the
+Normal Series.  I cloned the prize Camaro as an entry for the <b>UKvsUS</b>
+Series, but in theory I could have modified the single car and still kept
+it technically eligible for the <b>FR</b> Series.  After completing
+this game, I played a few more days of it experimenting for the 
+<a href="proper.txt">proper</a> game I later did.
+</li>
+<li><a href="lancer.txt">lancer</a> -
+I use the prize Mitsubishi Lancer Evolution IV GSR as much as possible.
+I didn't make this game minimal, but tried to use the Mitsubishi Lancer
+Evolution IV GSR as much as possible.
+</li>
+<li><a href="proper.txt">proper</a> -
+I finished this minimal (100 day) game in license-test order.
+However, to do so I allowed myself to sell prize cars.
+</li>
+<li><a href="mitsu.txt">mitsu</a> -
+I finished this minimal (100 day) game in license-test order, selling
+some prize cars.  I also used Mitsubishi cars as much as possible.
+</li>
+<li><a href="nissan.txt">nissan</a> -
+I finished this minimal (100 day) game in license-test order, selling
+some prize cars.  I also used Nissan cars as much as possible.
+</li>
+<li><a href="supra.txt">supra</a> -
+I use the 1995 Toyota Supra RZ as much as possible in this
+minimal (100 day) game.  In fact, I used Toyota for all races,
+except for the UKvsUS series.
+After that I went on to try out various other cars, experimenting with
+possible strategies, as well as just having fun.
+</li>
+<li><a href="gt1-24hour.txt">gt1-24hour</a> -
+I tried to do this game quickly, in terms of real time.
+It is not a minimal game for several reasons.
+I tried to finish in one 24-hour period, but did not quite manage that.
+</li>
+<li><a href="gt1-mazda.txt">gt1-mazda</a> -
+I started this as a minimal (100 day) game.
+I used Mazdas as much as possible.
+After completing it, I continued to collect all the cheapest used
+cars available.
+After making checkpoint saves, I race-modified the cheapest instance
+of each used car, and tried every one of them out in at least
+one of the <b>GTI</b> (World Cup), <b>USvsJP</b>, <b>UKvsJP</b> or <b>GT
+Cup</b> series.
+</li>
+<li><a href="gt1-tuned.txt">gt1-tuned</a> -
+In this offshoot of the <b>gt1-mazda</b> game, I began entering every
+model of used car in the <b>Hard-Tuned Series</b>.
+</li>
+<li><a href="starter.txt">starter</a> -
+This is merely all three licenses, ending at day 25.  By resetting the
+game on failed attempts, of course.  Since I bought no cars up till
+then, this is very boring...
+</li>
+</ul>
+</p>
+</td>
+</table>
+
+<hr>
+
+<center>
+<table><tr>
+<td bgcolor="cyan">
+<font size="-2">
+[<a href="../../index.html">index</a>]
+[<a href="../../about.html">about</a>]
+[<a href="../../albums/">photo albums</a>]
+[<a href="../../gt/results_forms/">results forms</a>]
+[<a href="../../gt/translator/">GT2 translator</a>]
+[<a href="../../gt/">links</a>]
+[<a href="../../gt/diary/">diary</a>]
+[<a href="../../gt/logs/">logs</a>]
+[<a href="../../gt/gt1stats/">car find</a>]
+[<a href="../../gt/gt1used/">used cars</a>]
+[<a href="../../scripts/">scripts</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+<table width="100%">
+<tr><td>
+<font size=-1>
+<p>
+Copyright &copy; 1999-2004, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+</p>
+</font>
+<font size=-2>
+<p>
+<a href="../email.html">email</a>
+</p>
+</font>
+</td></tr>
+</table>
+</body>
+</html>
+</body>
+</html>
+@
+
+
+1.20
+log
+@Added gt4-game1, gt4-racedefs.txt and gt3-racedefs.txt.
+@
+text
+@d141 5
+@
+
+
+1.19
+log
+@Added gt1-tuned.
+Modified gt1-mazda.
+Updated copyright date.
+@
+text
+@d63 12
+d79 3
+@
+
+
+1.18
+log
+@Added gt1-24hour and gt1-mazda.
+@
+text
+@d215 8
+d261 1
+a261 1
+Copyright &copy; 1999-2001, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+@
+
+
+1.17
+log
+@Added gt3enduro.txt and gt3-game1.txt
+@
+text
+@d205 11
+@
+
+
+1.16
+log
+@Added gt2-proper.
+Finished playing GT games for a while.
+@
+text
+@d53 1
+a53 1
+Gran Turismo 1&2 enduroes I have done:
+d57 10
+@
+
+
+1.15
+log
+@Added links, fixed copyright dates.
+@
+text
+@d79 3
+@
+
+
+1.14
+log
+@Added mitsu, last GT1 game for a while, then GT2-2001
+@
+text
+@d22 3
+a24 2
+[<a href="../../holiday-2000-06-01">photo album</a>]
+[<a href="../../gt/results_forms">results forms</a>]
+d28 3
+d210 3
+a212 2
+[<a href="../../holiday-2000-06-01">photo album</a>]
+[<a href="../../gt/results_forms">results forms</a>]
+d216 3
+d229 1
+a229 1
+Copyright &copy; 1999,2000, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+@
+
+
+1.13
+log
+@Added nissan game.
+@
+text
+@d72 3
+d172 4
+@
+
+
+1.12
+log
+@Added allstars and proper.
+@
+text
+@d170 4
+@
+
+
+1.11
+log
+@Added fiji a while ago
+@
+text
+@d119 4
+d157 3
+a159 1
+it technically eligible for the <b>FR</b> Series.
+d165 4
+@
+
+
+1.10
+log
+@Added supra log.
+@
+text
+@d146 9
+@
+
+
+1.9
+log
+@Corrected two mistakes.
+@
+text
+@d151 7
+@
+
+
+1.8
+log
+@Added the fairlady game.
+@
+text
+@d142 2
+a143 2
+<li><a href="fairlady.txt">lancer</a> -
+I use the Nisan Fairlady Z Type S Twin Turbo 2 Seater as much as possible
+@
+
+
+1.7
+log
+@Added two more logs.
+@
+text
+@d142 4
+@
+
+
+1.6
+log
+@Added lancer.
+@
+text
+@d69 3
+d112 4
+@
+
+
+1.5
+log
+@Added gt1enduro.txt
+@
+text
+@d135 5
+@
+
+
+1.4
+log
+@Fixed centering.
+@
+text
+@d49 1
+a49 1
+Gran Turismo 2 enduroes I have done:
+d51 1
+@
+
+
+1.3
+log
+@Convert all logs to .txt
+Added a navigation bar.
+@
+text
+@d31 2
+a33 1
+
+d161 1
+a161 1
+<center>
+@
+
+
+1.2
+log
+@Removed invokations of "garage".
+@
+text
+@d14 19
+a32 3
+<p>
+[<a href="../">Gran Turismo Pages</a>&nbsp;]
+</p>
+d64 1
+a64 1
+<li><a href="gt2-game1">gt2-game1</a> -
+d67 1
+a67 1
+<li><a href="gt2-boom">gt2-boom</a> -
+d71 1
+a71 1
+<li><a href="gt2-tm30">gt2-tm30</a> -
+d75 1
+a75 1
+<li><a href="gt2-race2pr">gt2-race2pr</a> -
+d79 1
+a79 1
+<li><a href="gt2-normpr">gt2-normpr</a> -
+d84 1
+a84 1
+<li><a href="gt2-histcar">gt2-histcar</a> -
+d88 1
+a88 1
+<li><a href="gt2-racepr">gt2-racepr</a> -
+d92 1
+a92 1
+<li><a href="gt2-day5ib">gt2-day5ib</a> -
+d97 1
+a97 1
+<li><a href="gt2-day7s">gt2-day7s</a> -
+d107 1
+a107 1
+<li><a href="blue">blue</a> -
+d110 1
+a110 1
+<li><a href="silver">silver</a> -
+d113 1
+a113 1
+<li><a href="gold">gold</a> -
+d117 1
+a117 1
+<li><a href="platinum">platinum</a> -
+d122 1
+a122 1
+<li><a href="hastings">hastings</a> -
+d128 1
+a128 1
+<li><a href="nismo">nismo</a> -
+d133 1
+a133 1
+<li><a href="starter">starter</a> -
+d140 4
+d145 16
+a160 1
+<br>
+d162 16
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+<title>Gran Turismo Garage Contents</title></head>
+d10 1
+a10 1
+<h3><img src="../../../gifs/gtlogo.jpg" alt="Gran Turismo"> Garage Contents</h3>
+d15 1
+a15 1
+[<a href="../../">Gran Turismo Pages</a>&nbsp;]
+a28 1
+<form method="post" action="http://www.math.uwaterloo.ca/cgi-bin/cgiwrap/arpepper/garage">
+d40 7
+a46 1
+Gran Turismo 2 games:
+d48 1
+a48 1
+<li><a href="gt2-game1">gt2-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-game1">gt2-game1</a> -
+a49 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-game1?simday=">garage</a> so far.
+d51 1
+a51 1
+<li><a href="gt2-boom">gt2-boom</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-boom">gt2-boom</a> -
+a53 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-boom?simday=">garage</a> when finished.   <img src="../../../bitmaps/happyfrog.gif" alt="8-)">
+d55 1
+a55 1
+<li><a href="gt2-tm30">gt2-tm30</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-tm30">gt2-tm30</a> -
+a57 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-tm30?simday=">garage</a> when finished.
+d59 1
+a59 1
+<li><a href="gt2-race2pr">gt2-race2pr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-race2pr">gt2-race2pr</a> -
+a61 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-race2pr?simday=">garage</a> so far.
+d63 1
+a63 1
+<li><a href="gt2-normpr">gt2-normpr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-normpr">gt2-normpr</a> -
+a66 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-normpr?simday=">garage</a> so far.
+d68 1
+a68 1
+<li><a href="gt2-histcar">gt2-histcar</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-histcar">gt2-histcar</a> -
+a70 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-histcar?simday=">garage</a> so far.
+d72 1
+a72 1
+<li><a href="gt2-racepr">gt2-racepr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-racepr">gt2-racepr</a> -
+a74 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-racepr?simday=">garage</a> so far.
+d76 1
+a76 1
+<li><a href="gt2-day5ib">gt2-day5ib</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-day5ib">gt2-day5ib</a> -
+d79 1
+a79 2
+then, this is a very boring garage...
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-day5ib?simday=">garage</a> when finished.
+d81 1
+a81 1
+<li><a href="gt2-day7s">gt2-day7s</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-day7s">gt2-day7s</a> -
+d83 1
+a83 2
+Since I bought no cars up till then, this is a very boring garage...
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-day7s?simday=">garage</a> when finished.
+d91 1
+a91 1
+<li><a href="blue">blue</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/blue">blue</a> -
+a92 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=blue?simday=">garage</a> when finished.
+d94 1
+a94 1
+<li><a href="silver">silver</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/silver">silver</a> -
+a95 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=silver?simday=">garage</a> when finished.
+d97 1
+a97 1
+<li><a href="gold">gold</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gold">gold</a> -
+a99 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=gold?simday=">garage</a> when finished.
+d101 1
+a101 1
+<li><a href="platinum">platinum</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/platinum">platinum</a> -
+a104 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=platinum?simday=">garage</a> when finished.
+d106 1
+a106 1
+<li><a href="hastings">hastings</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/hastings">hastings</a> -
+a110 1
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=hastings?simday=">garage</a> when finished.
+d112 1
+a112 1
+<li><a href="nismo">nismo</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nismo">nismo</a> -
+d114 2
+a115 3
+golds on your IA license (but I didn't...).  Now I have Gran Turismo
+2, I will probably never finish this game.
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=nismo?simday=">garage</a> so far.
+d117 1
+a117 1
+<li><a href="starter">starter</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/starter">starter</a> -
+d120 1
+a120 2
+then, this is a very boring garage...
+That <a href="http:/cgi-bin/cgiwrap/arpepper/garage?garage=starter?simday=">garage</a> when finished.
+a124 25
+<hr>
+This form can show the state of the garage at the end of a particular
+day for each of the above games.
+<p>
+Show the contents of the garage from the
+<select name="garage">
+	<option value="gt2-game1">gt2-game1</option>
+	<option value="gt2-tm30">gt2-tm30</option>
+	<option value="gt2-race2pr">gt2-race2pr</option>
+	<option value="gt2-normpr">gt2-normpr</option>
+	<option value="gt2-histcar">gt2-histcar</option>
+	<option value="blue">blue</option>
+	<option value="silver">silver</option>
+	<option value="gold">gold</option>
+	<option value="platinum">platinum</option>
+	<option value="hastings">hastings</option>
+	<option value="nismo">nismo</option>
+	<option value="gt2-racepr">gt2-racepr</option>
+	<option value="starter">starter</option>
+	<option value="gt2-day5ib">gt2-day5ib</option>
+	<option value="gt2-day7s">gt2-day7s</option>
+	<option value="gt2-boom">gt2-boom</option>
+</select>
+game on day
+<input type="text" name="simday" value="" size=7>.
+a125 5
+</p>
+<p><input type="submit" value="Submit"> the request when it's complete.
+</p>
+<hr>
+</form><br>
+@

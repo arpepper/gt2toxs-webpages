@@ -1,0 +1,285 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.14.22.39.03;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.16.00.23.23;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix heading, etc.
+@
+
+
+1.5
+log
+@changes.
+@
+text
+@Mon Jan 11, 1999
+
+Good weekend.
+
+Based on mail to Nick.
+
+Well, at the end of last week, I had all 8 arcade tracks and my
+Toyotas.  During the weekend I finished off the rest of the tracks at
+easy, and got all the cars.
+
+On tracks with good traction and line-of-sight, that Viper ridiculously
+outclasses the competition.  8-)  So I have five tracks done at normal,
+with the A class done at difficult on those five.
+
+Thread: Game Evaluation
+
+Thread: Driving Advice
+
+I discovered another trick.  I have a racing Subaru Legacy in emulation
+mode (You need to buy at least one four-wheel drive car, and my
+nephew's parents have a Legacy, so I thought it would be fun to race
+one...)  I've tuned the engine fully, but am too cheap to buy subtle
+stuff like a racing clutch  8-), and boy are they serious about that
+low-speed torque problem.  I lost control up the hill in Trial Mountain
+II, and the car would not start moving.  I thought, "in real life, I
+might pop the clutch, but I don't have an explicit clutch, so perhaps
+I'd better pit in and lower(raise) the first gear".  But then I
+realized that in real life, before popping the clutch, I'd have to hold
+the car on the handbrake, and, sure enough, if you rev against the
+handbrake and then release it, it sort of lets you emulate popping the
+clutch, and the car gets enough of a jump to start moving fast enough
+to be in efficient first gear range.  Now, one of those triple plate
+clutches might solve this problem; perhaps I'll try it sometime.  When
+I seem to have an excess of Cr.  (I wonder why the races all pay out in
+Chromium?  8-)
+
+Late last night for fun I dug up the Jam Pack demo disk version of
+Gran Turismo, with a Honda NSX, 90's Corvette, and [R]Subaru Impreza on
+the Clubman Route 5, with choice of easy, normal and difficult.  After
+a little practice it was relatively easy to win with all three cars at
+easy and normal.  Almost startlingly so.  Just don't worry about the
+body panel damage.  8-)  (It's not like I drive right along the wall,
+but on most of the corners at least the tail touches the wall at least
+once; I'm sure they clean that up somewhat in the replays) I won with
+the Corvette at difficult, and kept coming second with the other cars.
+That demo sells the game short.  Grand Valley East would be a much
+better demonstration, with its sand traps around the hairpins.
+
+One funny thing is that the back of the racing Impreza says "SURARU",
+not "SUBARU".  Quite clearly, both while driving it from behind, and
+when it is spinning on the display stand.  It says "SUBARU" on the
+sides, though.
+
+Thread:Children
+
+After that I tried the Test Drive 5 Demo.  Test Drive 4 had impressed
+me when my nephew had rented it once when I was over there before I
+got my own Gran Turismo Station, but did the Test Drive 5 demo ever
+seem atrocious.  Not quite as bad as Grand Tour Racing, but it
+seemed mostly easy.  I never used to like slow-moving traffic in race
+games, but it seemed somewhat irrelevant in Test Drive.  My reactions
+had sharpened to accomodate it.  It was difficult to see what would put
+your speeding car out of control.  And while Gran Turismo scenery does
+not seem totally realistic, Test Drive 5 looked like a cartoon.  And
+they don't have proper route maps.  And, if it is like Test Drive 4,
+they don't have circuit races at all.  (Not sure if you can't win the
+demo or if I just kept choosing the wrong forks 8-); if potential
+customers lose a demo game, it is better if they know clearly why).
+
+But based on those two demos, my nephew (and also his mother) seem to
+prefer Test Drive 5 over Gran Turisimo.  One of these days we'll have
+to confess to having Gran Turismo.  8-)  In theory I should be able to
+lend him my disk sometime.  But not until after I, and I, and I...  8-)
+
+Repeatedly failing my A-3 test (I can reliably come within a second
+now...8-) sure helps my high speed straight to low speed cornering
+technique.
+
+When I first tried the GT demo weeks ago the NSX was a pig to drive.
+It seemed to have super excess oversteer.  Drift mode seemed to reduce
+that, but, as far as I can tell, drift mode makes it impossible to win,
+but maybe I should try that again too.  The manual is really vague
+about the purpose of drift mode.  8-)
+
+Similarly I used to have a tendency to induce overcorrection
+oscillation into the Subaru Impreza's movements.   That tendency
+seems to have vanished.
+
+And the Corvette always seemed nice to drive, but now I can hold a
+slide before it turns into a spin and so I actually finish without
+spinning out.  8-)  Actually, I won with it once after I did spin it
+out; it might not even have been easy mode, either.  Those competitors
+are so polite the way they wait for you when you slow down.   8-)  It
+does make it difficult to tell what your target time is for a
+particular course/mode however...  (Though again, that is somewhat
+realistic; Juan Manuel Fangio used to say that to win a race you
+drive just fast enough to win, and no faster).
+
+One interesting game might be to try and set the slowest winning time.
+Try and see how much you can utilize (abuse?) the handicapping
+algorithm and still be able to win with a very fast finish.
+
+Conversely, when I finally did win with a Toyota Soarer in normal on
+the Autumn Ring, it sure seemed like the computer's Eclipse slowed down
+right at the end.  It was right behind me, but dropped from second
+place to fourth place for no apparent reason.  I think perhaps it
+realized it was going to go below the programmed time for normal mode,
+and slowed down because of that.  Usually I botch something after the
+hill climb and cannot stay or get ahead on the finishing straight.  I
+think I saw the same phenomenon with a Civic on Grand Valley East.  I
+had a Civic too, and I was behind at the last corner but passed the
+other Civic into first on the finishing stretch.  It didn't look like
+the other car had botched its exit or anything, and my exit was just
+okay, not great.  It sure looked like the other car slowed down.  That
+might even have been in difficult mode.  But if you've done anything
+wrong and are working on a slow time, the other cars always seem to
+have a strong finish.
+
+Speaking of botching, it is amusing when the competitors try and taunt
+you into a bad turn by braking too late and losing control.  8-)
+(Sometimes a gentle tap from behind can help mess up their calculations,
+but that's not always necessary; they definitely do it all by themselves
+sometimes  8-)
+
+Thread: Game Evaluation
+
+(Rest based on mail to empire)
+Subject: Gran Turismo and stuff
+
+I have owned Gran Turismo for a little while, and played it quite a
+lot.  I can relatively easily win the JamPack Demo now with all three
+cars at easy and normal, and be competitive at difficult.  (Usually
+2nd, have won with the Corvette).  The demo sells the game short,
+especially since it has too many walls.  Better tracks in the real game
+have sand traps you end up in if you corner too fast, where you lose a
+lot of time.
+
+There is a lot of stuff there.  It seems to be the number one
+PlayStation game for young adult males (like me?).  As evidenced by
+its Web Ring.
+
+A certain logic would say that my nephew should have one game, and I the
+other, and we could trade, but Gran Turismo has lots and lots of stuff
+to do and is difficult to give up.  If he had a game, I could give him
+a saved game cartridge with a passed B license (I'm still stuck on test
+3 of my A class license, unable to get closer than a quarter of second
+to the goal time, and then there's International A after that), and a
+bunch of "Emulation mode cars"  (including a racing Legacy and a tuned
+street Legacy 8-) ) but it's probably good for someone to pass their
+own driving tests.  Another alternative is to buy a "Game Shark" and
+patch memory to get what one wants.  8-)  (Several web sites feature
+Game Shark codes for various games, includig Gran Turismo).
+
+But repeatedly failing the A-3 test keeps teaching me more and more
+about low-speed cornering after high-speed straights, for instance.
+As well as persuading me that perhaps it's good that I ended up in
+my career and never tried to race cars.  8-)  Sort of like occasional
+MFCF go-kart expeditions.  8-)  I know enough technique to be
+reasonably competitive, but don't have reactions or feel to be
+outstanding like RJ White (well, and am now way too heavy for
+go-karting  8-()  (RJ White DoD #51112, see
+http://www.dod.no/dod/superfaq.txt)
+
+Also in the separate Arcade mode I have not got all the simple bonus
+items (four more tracks, and four more brands of cars), and a dump of
+my game would include that too.  That's probably slightly easier to do
+than B class license.  Maybe.  The B class tests teach you techniques
+you can use in Arcade mode.  Arcade Mode tracks are the same as some in
+simulation mode, but the bumps on a given track are very much
+exaggerated in Arcade mode.
+
+And I tried the Test Drive 5 demo again last night, and it really did
+seem bad.  Little feedback.  And, while Gran Turismo scenery is not
+totally realistic, the Test Drive demo looks like a cartoon in
+comparison.  The car did not lose control when logically it should
+have done.  And Gran Turismo has race circuits (though only two are
+based on real prototypes 8-( ) and, in emulation mode, you can have
+arbitrary practice sessions and have qualification runs for grid
+position.
+
+And then there are the Gran Turismo tune-up shops.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@more threading
+@
+text
+@a6 5
+Threads:
+  Driving Advice
+  Children
+  Game Evaluation
+
+d15 4
+d54 2
+d124 2
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d7 5
+@
+
+
+1.2
+log
+@fix up title for index
+@
+text
+@d1 1
+a1 1
+Mon Jan 11 12:21:04 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 3
+a5 1
+Good weekend.
+@

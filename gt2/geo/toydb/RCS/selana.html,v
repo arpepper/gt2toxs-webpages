@@ -1,0 +1,68 @@
+head	1.1;
+access;
+symbols;
+locks
+	arpepper:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2005.02.08.22.57.29;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>Gran Turismo Car Finder</TITLE>
+</HEAD>
+<BODY BGCOLOR="yellow" TEXT="#000000">
+<BASEFONT FACE="arial,helvetica,sans-serif,olama">
+
+<NOSCRIPT>
+<p>
+This page will not work unless you have JavaScript running.
+</p>
+</NOSCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" SRC="selanahead.js"> 
+<!--
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" SRC="selana1.js"> 
+<!--
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" SRC="data.js"> 
+<!--
+//
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" SRC="selana2.js"> 
+<!--
+//
+//-->
+</SCRIPT>
+
+<!--
+// This page and all intended attendant scripts,
+// copyright (c) 2001 Adrian Pepper; all rights reserved.
+// Contact arpepper at math.uwaterloo.ca  for more information.
+// -->
+
+</BODY>
+</HTML>
+@

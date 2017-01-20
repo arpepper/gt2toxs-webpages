@@ -1,0 +1,26 @@
+Mon Apr  5, 1999
+
+Claims about Memory Card Capacity, from newsgroup rec.games.video.sony
+
+Threads:
+  Hardware Hints
+
+From nickzman@eskimo.com Mon Apr  5 13:10:59 EDT 1999
+Article: 453872 of rec.games.video.sony
+From: nickzman@eskimo.com (Nick Zitzmann)
+Newsgroups: rec.games.video.sony
+Subject: Re: Memory card capacity question
+
+In article <7e107q$m4f$1@enyo.uwa.edu.au>, Chris Jee Yen Tan
+<techno@cyllene.uwa.edu.au> wrote:
+
+ :) Can someone please tell me what is the size in bytes of a typical Sony
+ :) memory card
+ :) which has 15 blocks of memory slots.
+
+It has 1 megabit of memory, which is 128 kilobytes. The card actually is
+divided into sixteen blocks, but one block is used to store names/icons
+for the other fifteen useable blocks. Therefore, each block has 8K
+available to it.
+
+Nick Zitzmann                         ICQ: 22305512

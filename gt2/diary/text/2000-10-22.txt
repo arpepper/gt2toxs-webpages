@@ -1,0 +1,189 @@
+Sunday October 22, 2000
+
+I drive AI also-ran EXIV 200GT to a Close but Clean Win in the Grand Valley 300
+
+Threads:
+  Car Information
+  Grand Valley 300 Results
+  Race Results
+
+Well, I managed to win the Grand Valley 300 with the Toyota Corona EXIV
+200GT, but it was amazingly close.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: main
+   Day: 5410
+   Date: October 22, 2000
+   Race: Grand Valley 300KM Endurance Race
+   Car: [R]Corona EXIV 200GT
+   Qualified: 6th(+2.359) 1:47.451not
+   Result: 1st
+   Money: Cr300,000
+   Prize-Car: black/green Castrol Supra GT
+
+   1st:* [R]EXIV 200GT         1-41:41.2not
+   2nd:  [R]NSX-R LM GT2         +13.706  (1-41:54.9)
+   3rd:  [R]R32GT-R'91           +48.932  (1-42:30.1)
+   4th:  [R]EXIV 200GT          +253.507  (1-45:54.7)
+   5th:  [R]Lancer EvoIV GSR    +294.532  (1-46:35.7)
+   6th:  [R]LANTIS Type R       +386.868  (1-48:08.1)
+
+   Pits:  15,30,45
+   fl(48): 1:38.350not
+
+   lap 1: 1:47.634
+   slowest  non-pit   (6)  1:42.416
+             next     (9)  1:42.321
+   fastest pit laps   (45in)  1:54.652
+                      (16out) 1:46.938
+   slowest pit laps   (30in)  1:55.746
+                      (31out) 1:48.266
+</pre></font></tt>
+</HTML>
+
+
+After the start, I soon settled into fourth place, ahead of the
+other EXIV 200GT, but worked my way past the Lancer into 3rd 
+before the end of the first lap.  On lap 4 the R32 dropped
+back from the lead a let the NSX pass it, and in the process
+obstructed me a bit.
+
+Because of the AI pit stops, I got into first place by my first pitstop,
+but dropped to 3rd after it.
+
+Similarly, I had gained first place by my second pitstop, but dropped
+to 2nd after the stop.  My time was about 50:55 as I exited the pit,
+on schedule for about 10 seconds under 1-42, and that with the extra
+pitstop included.
+
+Never-the-less, I dropped from first to 3rd on my third pit stop too.
+Each time I had gained the lead, I just had the NSX in sight, and then
+it pitted.  The NSX pitted once again on lap 53, and I got the lead and
+managed to hold on to win.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+This was a very close race.  8-)
+
+Once again I actually recorded all lap times, as follows:
+
+Lucky you!    8-)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ 1   1:47.634      1:47.634
+ 2   1:38.357      3:25.991
+ 3   1:38.763      5:04.754
+ 4   1:40.429      6:45.183
+ 5   1:39.332      8:24.515
+ 6   1:42.416     10:06.931
+ 7   1:39.139     11:46.070
+ 8   1:39.777     13:25.847
+ 9   1:42.321     15:08.168
+10   1:40.380     16:48.548
+11   1:39.931     18:28.479
+12   1:40.889     20:09.368
+13   1:41.556     21:50.924
+14   1:42.027     23:32.951
+15   1:55.180     25:28.131
+16   1:46.938     27:15.069
+17   1:40.274     28:55.343
+18   1:39.872     30:35.215
+19   1:39.254     32:14.469
+20   1:41.054     33:55.523
+21   1:39.583     35:35.106
+22   1:39.686     37:14.792
+23   1:41.344     38:56.136
+24   1:41.083     40:37.219
+25   1:39.663     42:16.882
+26   1:40.558     43:57.440
+27   1:42.272     45:39.712
+28   1:41.589     47:21.301
+29   1:41.684     49:02.985
+30   1:55.746     50:58.731
+31   1:48.266     52:46.997
+32   1:39.867     54:26.864
+33   1:39.708     56:06.572
+34   1:40.810     57:47.382
+35   1:40.633     59:28.015
+36   1:39.176   1-01:07.191
+37   1:39.466   1-02:46.657
+38   1:40.389   1-04:27.046
+39   1:40.096   1-06:07.142
+40   1:40.513   1-07:47.655
+41   1:41.786   1-09:29.441
+42   1:41.570   1-11:11.011
+43   1:41.181   1-12:52.192
+44   1:41.081   1-14:33.273
+45   1:54.652   1-16:27.925
+46   1:48.224   1-18:16.149
+47   1:38.664   1-19:54.813
+48   1:38.350   1-21:33.163
+49   1:39.138   1-23:12.301
+50   1:41.913   1-24:54.214
+51   1:39.579   1-26:33.793
+52   1:39.573   1-28:13.366
+53   1:40.533   1-29:53.899
+54   1:40.171   1-31:34.070
+55   1:40.719   1-33:14.789
+56   1:41.083   1-34:55.872
+57   1:41.553   1-36:37.425
+58   1:40.669   1-38:18.094
+59   1:40.803   1-39:58.897
+60   1:41.362   1-41:40.259
+</pre></font><tt>
+</HTML>
+
+
+Oh my.  It has finally happened.  That total is off by a second and
+I can't find a reasonable explanation.   8-)
+
+Here are the settings I used.  I sure took a long time tweaking them.   8-)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+          My Settings
+  
+          S/S tires
+
+Spring Rate     4.5   3.7
+Ride Height     100   100
+Dampers          5     5
+Camber          0.4   0.4
+Stabilizers      3     3
+Brake Balance   13     11
+Turbo               0
+        1st       3.600
+        2nd       1.920
+        3rd       1.310
+        4th       1.010
+        5th       0.820
+                  -----
+        FD        3.850
+
+Aero            0.49  0.48 
+                (max, much less)
+</pre></font><tt>
+</HTML>
+
+The use of much less than maximum rear downforce really seems to allow
+low-powered FF cars to accelarate and go much faster.  It does not seem
+to adversely affect cornering; in fact, it seems it can even help since
+the physics model pulls the car around the corner by its front wheels,
+and the low rear downforce seems to let the tail come around faster
+after it.  Reducing the front camber seems to help acceleration, too.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

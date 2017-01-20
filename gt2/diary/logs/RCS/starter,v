@@ -1,0 +1,61 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	99.12.06.21.34.34;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@starter cards, a rather boring game.   8-)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@Saturday December 4, 1999
+
+      This game starts with the International Starter card I have now made.
+
+   1      B3 pass 0:28.759 bronze (1 try)
+   2      B4 pass 0:25.856 bronze (1 try)
+   3      B5 oass 0:24.082 silver (1 try)
+   4      B6 pass 0:27.132 bronze (1 try)
+   5      B7 pass 0:26.098 silver (1 try)
+   6      B1 pass 0:35.489 bronze (1 try)
+   7      B2 pass 0:26.406 silver (1 try)
+   8      B8 pass 1:20.307 bronze (1 try)
+   9   B license acquired  4:34.129
+   9   Save this to a card for future reference
+
+   9      A1 pass 0:33.021 bronze (1 try)
+  10      A2 pass 0:25.136 silver (1 try)
+  11      A3 pass 0:43.386 bronze (1 try)
+  12      A4 pass 0:38.736 bronze (4 tries)
+  13      A5 pass 0:31.096 bronze (1 try)
+  14      A6 pass 0:26.962 bronze (1 try)
+  15      A7 pass 0:29.049 gold (1 try)
+  16      A8 pass 1:07.543 bronze (1 try)
+  17   A license  4:54.929
+  17   Save this to a card for future reference
+
+  17       IA1 pass 1:06.026 bronze (1 try)
+  18       IA3 pass 2:01.534 bronze (2 tries)
+  19       IA5 pass 1:23.286 bronze (2 tries)
+  20       IA7 pass 2:12.874 bronze (1 try)
+  21       IA2 pass 1:29.018 bronze (1 try)
+  22       IA4 pass 1:23.716 bronze (1 try)
+  23       IA6 pass 1:32.009 bronze (2 tries)
+  24       IA8 pass 1:58.332 bronze (4 tries)
+  25   IA license  13:06.795
+  25   Save this to a card for future reference
+
+@

@@ -1,0 +1,43 @@
+<b>A Quick Reference Summary of GameShark Code Meanings</b>
+
+The code types listed here are documented to work for
+Action Replay (English, Japanese, French),
+GameShark and Game Buster version 3 cartridges.
+They are also supposed to work for some slightly earlier
+versions, namely GameSharks 2.41 and above,
+UK Action Replay, German GameBuster and French
+Action Replay 2.8 and above, and Japanese Action
+Replay 2.5 and above.
+
+<b>Store Codes</b>
+80 -- Store Word
+30 -- Store Byte
+
+<b>Conditional Codes</b>
+(Skip the single code following them unless their condition is met).
+D0 -- If Equal
+D1 -- If Not Equal
+D2 -- If Less Than
+D3 -- If Greater Than
+E0 -- If Byte Equal
+E1 -- If Byte Not Equal
+E2 -- If Byte Less Than
+E3 -- If Byte Greater Than
+
+<b>Increment (add to) and Decrement (subtract from) Codes</b>
+10 -- Add
+11 -- Subtract
+20 -- Add Byte
+21 -- Subtract Byte
+
+50 -- Serial Code
+
+<b>New Code Types</b>
+D4 -- Do Next Code If Joypad
+D5 -- All Codes ON If Joypad
+D6 -- All Codes OFF If Joypad
+
+<b>More Extended Codes</b>
+C0 -- Enable All Codes If Equal
+C1 -- Code Initial Delay
+C2 -- Block Move

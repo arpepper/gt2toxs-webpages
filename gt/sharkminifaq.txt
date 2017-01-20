@@ -1,0 +1,33 @@
+This is becoming a bit of a FAQ.
+
+I add links to useful reference threads here.  That way I can stick just this one thread instead of several.  I will continue to build it up gradually, and I invite contributions.
+
+[b]Ferrari 308 FAQ[/b]s:
+[list][*][URL="http://forum.granturismo.com/showthread.php?s=&threadid=25573"]GS/Dex/Hybrid FAQ---|Version 2.0|---[/URL]
+[*][URL="http://forum.granturismo.com/showthread.php?s=&threadid=25498http://forum.granturismo.com/showthread.php?s=&threadid=25498"]GS/Dex/Hybrid Information Central---|Version 2.0|---[/URL]
+[/list]
+[b]GT3 and PS2 Stuff (Preliminary)[/b][list][*][url="http://forum.granturismo.com/showthread.php?s=&threadid=57707"]GT3: Buy the unbuyable (NTSC)[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=55100"]PS2: Damn, My Gameshark doesn't work, why???[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=55641"]GT3: Sharkport LM and F1 Collection[/url]
+[/list]
+[b][url="http://forum.granturismo.com/showthread.php?threadid=25553"]Prize Cars with Car Codes[/url] -- for GT2[/b][list][*][url="http://forum.granturismo.com/showthread.php?threadid=25553"]Prize Cars with Car Codes[/url]
+[*][url="http://forum.granturismo.com/showthread.php?threadid=25436"]Example Using Car Codes to Put All License Prizes into Toyota New Lot[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=25439"]How to Use the Prize Car Codes[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=45607"]Buy any car in Toyota New Cars Lot... Version 1.3/Greatest Hits[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=23595"]Where is the CLK-GTR?[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=25361"]Mercedes CLK-GTR?? (Not CLK-DTM or whatever)[/url]
+[/list]
+[b]Versions of Gran Turismo 2[/b][list][*][url="http://forum.granturismo.com/showthread.php?s=&threadid=25336"]How You Can Tell Which Version of the North American Simulation Disk You Have[/url]
+[*][url="http://forum.granturismo.com/showthread.php?s=&threadid=25534"]A GT2 GS Code Translator[/url]
+[/list]
+[b]mk's Fantastic Utilities for Manipulating the Files on the GT2 CD[/b][list][*][url="http://forum.granturismo.com/showthread.php?s=&threadid=49119"][b]mk[/b]'s Fantastic Utilities for Manipulating the Files on the GT2[/url]
+[/list]
+[b]GT2 Used Car and Game Day Correlations[/b]
+<em>This can be useful for locating semi-legitimate base-cars for hybrids</em>
+[list][*][URL="http://forum.granturismo.com/showthread.php?s=&threadid=23746"](GT2) Verified rare car sightings[/URL]
+[*][URL="http://forum.granturismo.com/showthread.php?s=&threadid=48549"]Scientific Research into Rare Used Cars (North American v1.2 for now)[/URL]
+[*][URL="http://forum.granturismo.com/showthread.php?s=&threadid=25292"]&#91;R]Mini Cooper DRAGSTER Car (Hybrid Power)[/URL]
+<em>Actually contains several interesting GT2 v1.0 codes, including day modifier.  (See Translator above to convert them)</em>
+[/list]
+
+So if you have contributions for this please post them to this thread, preferably in a format like I have above, with title and a working URL, and I will move them to this post, and eventually delete your post, okay?

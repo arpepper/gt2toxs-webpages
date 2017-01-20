@@ -1,0 +1,110 @@
+Monday November 27, 2000
+
+
+(GT1 Version 1.1)  Grand Valley 300 Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>Grand Valley 300km Endurance Race</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Grand Valley 300 Event (8008F70C)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E5C</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80091094</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F524</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;80090BFC</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;80090D28</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;3C = 60</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E5C -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6F8</td><td>&nbsp;"circuit"&nbsp;</td><td>(Grand Valley Speedway)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80091094 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q20000, 1st300000, champ0)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090BFC -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C528</td><td>&nbsp;"nr32r"&nbsp;</td><td>[R]Skyline'91 GT-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C500</td><td>&nbsp;"mgntr"&nbsp;</td><td>[R]GTO twinturbo</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5C8</td><td>&nbsp;"hnslr"&nbsp;</td><td>[R]NSX-R LM GT2</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5D0</td><td>&nbsp;"tsplr"&nbsp;</td><td>[R]Castrol Supra GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C530</td><td>&nbsp;"sipxr"&nbsp;</td><td>[R]Impreza Rally Edition</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5C0</td><td>&nbsp;"nl33r"&nbsp;</td><td>[R]NISMO GT-R LM (special model)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5D8</td><td>&nbsp;"tcegr"&nbsp;</td><td>[R]Celica GT-4</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4F0</td><td>&nbsp;"mlnnr"&nbsp;</td><td>[R]Lancer Evolution IV GSR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5B8</td><td>&nbsp;"npror"&nbsp;</td><td>[R]Primera'90 2.0Te</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5A8</td><td>&nbsp;"texvr"&nbsp;</td><td>[R]Corona Exiv 200GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5B0</td><td>&nbsp;"hacsr"&nbsp;</td><td>[R]Accord Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C5A0</td><td>&nbsp;"altsr"&nbsp;</td><td>[R]Lantis Type R 4 door</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090D28 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C690</td><td>&nbsp;"t-plr"&nbsp;</td><td>(black) [R]Castrol Supra GT (w. green)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F524 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001981D</td><td>&nbsp;1:44.477&nbsp;</td><td>(Grand Valley Speedway)</td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

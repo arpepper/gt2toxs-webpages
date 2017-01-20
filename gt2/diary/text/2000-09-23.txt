@@ -1,0 +1,179 @@
+Saturday September 23, 2000
+
+A Lowly 1995 Primera 2.0 Te Manages to Win at Grand Valley
+
+Threads:
+  Car Information
+  Grand Valley 300 Results
+  Race Results
+
+Looking for a further challenge at the Grand Valley 300, I decided to
+enter with the Nissan Primera'95 2.0Te (fully race-modified).
+Time trials suggested it would be slightly slower
+than the Prelude VTEC, which should result in a very close race.
+
+   "real game" day 5389
+   Saturday September 23, 2000
+   [R]Primera'95 2.0Te
+   Grand Valley 300km Endurance Race
+
+   q6th 1:47.787not     none 8-(
+
+   Results:
+
+   1st  [R]Primera'95 2.0 Te   1-41:58.6<--
+   2nd  [R]R32GT-R'91            +12.719   (1-42:11.3)
+   3rd  [R]GTO twinturbo         +17.461   (1-42:16.1)
+   4th  [R]Castrol Supra GT      +20.468   (1-42:19.1)
+   5th  [R]Lantis TypeR         +374.001   (1-48:12.6) (3 laps)
+   6th  [R]Accord Sedan         +413.243   (1-48:51.8) (3 or 4 laps)
+   
+   lap 1   1:47.895
+   pits   15,30,45
+   fl  (48)  1:38.048
+   slowest  non-pit   (50)  1:45.855
+             next     (12)  1:42.638
+   fastest pit laps   (45in)  1:54.895
+                      (46out) 1:47.262
+   slowest pit laps   (15in)  1:56.602
+                      (16out) 1:49.130
+
+I quickly slipped into a solid fourth, but gained ground as the AI
+cars slowed down when their tires wore.  However, even with the AI
+pit stops I had only got to second place by my first stop.  During
+the stop I slipped back to fourth.
+
+AI pit stops helped me to gain first place before my second stop,
+but once again I dropped back to fourth during the stop.  Things
+looked a little tense, but my time exiting the pit was only a
+little over half of 1-42, and that included the second stop.
+
+But at stop 3 I dropped back to fourth again, though not by much,
+and I drove to the lead on the road, passing the Castrol Supra,
+although quite soon after that it took its last pit stop.
+
+I tripped up a bit on lap 50 at the double hairpin near the end of the
+course.  This was while I was dicing with the Castrol Supra, causing
+me to try and cut in too early for the first of those two hairpins.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+My winning time of just under 1-42 would quite likely not be good
+enough to beat the NSX-R LM GT2.
+
+Once again I actually recorded all lap times, as follows:
+
+Lucky you!    8-)
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:47.895      1:47.895
+ 2   1:39.767      3:27.662
+ 3   1:39.783      5:07.445
+ 4   1:40.201      6:47.646
+ 5   1:39.852      8:27.498
+ 6   1:39.738     10:07.236
+ 7   1:39.634     11:46.870
+ 8   1:39.933     13:26.803
+ 9   1:40.875     15:07.678
+10   1:41.166     16:48.844
+11   1:41.307     18:30.151
+12   1:42.638     20:12.789
+13   1:42.176     21:54.965
+14   1:42.542     23:37.507
+15   1:56.602     25:34.109
+16   1:49.130     27:23.239
+17   1:40.414     29:03.653
+18   1:39.232     30:42.885
+19   1:39.237     32:22.122
+20   1:40.083     34:02.205
+21   1:39.696     35:41.901
+22   1:40.820     37:22.721
+23   1:38.778     39:01.499
+24   1:41.588     40:43.087
+25   1:41.006     42:24.093
+26   1:41.992     44:06.085
+27   1:41.479     45:47.564
+28   1:40.858     47:28.422
+29   1:41.046     49:09.468
+30   1:56.112     51:05.580
+31   1:47.635     52:53.215
+32   1:39.607     54:32.822
+33   1:39.272     56:12.094
+34   1:39.606     57:51.700
+35   1:40.143     59:31.843
+36   1:40.144   1-01:11.987
+37   1:40.503   1-02:52.490
+38   1:39.188   1-04:31.678
+39   1:40.504   1-06:12.182
+40   1:42.597   1-07:54.779
+41   1:41.581   1-09:36.360
+42   1:42.557   1-11:18.917
+43   1:41.782   1-13:00.699
+44   1:42.323   1-14:43.022
+45   1:54.895   1-16:37.917
+46   1:47.262   1-18:25.179
+47   1:40.783   1-20:05.962
+48   1:38.048   1-21:44.010
+49   1:39.860   1-23:23.870
+50   1:45.855   1-25:09.725
+51   1:39.029   1-26:48.754
+52   1:39.720   1-28:28.474
+53   1:41.265   1-30:09.739
+54   1:39.217   1-31:48.956
+55   1:40.479   1-33:29.435
+56   1:40.977   1-35:10.412
+57   1:41.774   1-36:52.186
+58   1:42.636   1-38:34.822
+59   1:41.515   1-40:16.337
+60   1:42.313   1-41:58.650
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Not only that, I saved the setting too.  All the parts were maxed, and
+I used soft slicks as I usually do.
+
+           My Settings
+
+Spring Rate     2.9   2.7  (max,max)
+Ride Height     105   105  (not min)
+Dampers          6     6
+Camber          0.6   0.8
+Stabilizers      4     4
+Brake Balance   12     10
+Turbo               0
+        1st       3.063
+        2nd       1.900
+        3rd       1.300
+        4th       0.975
+        5th       0.805
+                  -----
+        FD        3.800
+
+Aero            0.49  0.54 
+                (max, not)
+
+
+After this, I did a few time trials of Grand Valley with this car, but,
+somewhat surprisingly, was not able to beat my previous record with
+this car.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

@@ -1,0 +1,174 @@
+Sunday December 05, 1999
+
+prize Supra RZ wins SSR11 All-Night II in hastings game
+
+Threads:
+  All-Night II Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+Well, I was fairly sure in my <html><a href="logs/hastings">hastings</a></html>
+game that the Supra RZ could win the All-Night II race.  It had already
+won the Mega-Speed Event, and, cleanly, though not comfortably, won
+the Tuned Car Series.
+
+One thing I had done at the end of the Tuned Car Series was switch from
+Turbo Spec 4 to Turbo Spec 3.   This made handling a lot more natural,
+and improve the speed of recoveries after accidents, but did reduce top
+speed.
+
+This prize Supra did a reliable job of winning the All-nightII.
+
+   hastings day 58
+   December 04, 1999
+   tuned Supra RZ (Normal Series prize)
+   SSR11 All-Night II
+
+   q1st 1:56.671new     Cr20,000
+
+   Results:
+
+   1st  Supra RZ             58:23.038<--new hastings time, really bad
+   2nd  FDRX7 TypeRZ           +40.746  (59:03.784)
+   3rd  Lancer Evo III GSR     +69.132  (59:32.170)
+   4th  R33GT-R Nismo         +118.282  (60:21.320)
+   5th  Chaser V              +145.793  (60:48.831)
+   6th  Civic 3door           +225.806  (62:08.844)
+   
+   pits   6,12,18,24
+   lap 1   1:57.696
+   fl   (8) 1:47.837new
+   slowest  non-pit   (16)  2:02.349
+             next     (17)  2:00.342
+   fastest pit laps   (12in)  1:53.823
+                      (19out) 2:06.307
+   slowest pit laps   (24in)  2:04.717
+                      (13out) 2:14.319
+
+Wow, that was very slow.  I did not even lap the field.  Nonetheless,
+I did feel in control of the race the entire time, although I did
+lose control of the car too many times to count.
+
+I basically led from start to finish.  When I exited my first pit stop,
+I had to jostle to keep the lead, losing it momentarily, but continued
+on to set fastest lap on the next lap.
+
+The rest of the three stops were uneventful.
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:57.696      1:57.696
+ 2   1:48.113      3:45.809
+ 3   1:51.521      5:37.330
+ 4   1:49.383      7:26.713
+ 5   1:55.377      9:22.090
+ 6   2:01.269     11:23.359
+ 7   2:08.646     13:32.005
+ 8   1:47.837     15:19.842
+ 9   1:49.323     17:09.165
+10   1:51.526     19:00.691
+11   1:56.081     20:56.772
+12   1:53.823     22:50.595
+13   2:14.319     25:04.914
+14   1:50.079     26:54.993
+15   1:54.749     28:49.742
+16   2:02.349     30:52.091
+17   2:00.342     32:52.433
+18   1:55.866     34:48.299
+19   2:06.307     36:54.606
+20   1:48.260     38:42.866
+21   1:49.522     40:32.388
+22   1:50.504     42:22.892
+23   1:59.492     44:22.384
+24   2:04.717     46:27.101
+25   2:11.431     48:38.532
+26   1:54.844     50:33.376
+27   1:59.372     52:32.748
+28   1:51.572     54:24.320
+29   1:59.363     56:23.683
+30   1:59.355     58:23.038
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+I'm not sure it's worth recounting my settings, but here they are
+anyway.  I used Turbo Spec 3 instead of Turbo Spec 4.
+
+           My Settings
+
+Spring Rate    11.4   5.4
+Ride Height     85    85   (min,min)
+Dampers          4     4
+Camber          2.0   2.1
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               6
+        1st       4.400
+        2nd       2.200
+        3rd       1.478
+        4th       1.102
+        5th       0.898
+        6th       0.790
+                  -----
+        FD        3.500
+
+Aero      (stock)
+
+Thread: Gameplay Hints
+
+This car is adequate for winning both the Tuned Series, and this
+All-night II race.  Fitted with Turbo Spec 4, it is almost
+outstanding in the Mega-Speed Event, however.
+
+Once again I decided to start with the Chaser LM in the UKvsJP Series
+(it usually seems easier than the USvsJP Series).  This time I won
+my favourite car, the Cerbera LM!  8-)  I nearly swept the series,
+qualifying second at the High Speed Ring, and also second at
+Special Stage R11.
+
+The Chaser LM does need patience, care, practise, and a little tuning
+in order to be able to win that series.  I used its setting from the
+<html><a href="1999-09-18.html#Tuning_Advice">Grand Valley 300</a></html>,
+but used stabilizers of 3/3 instead of 4/4.
+
+The Cerbera LM handily swept the USvsUK Series--I thought I might win
+the RX7 Aspec LM and consider entering that in the USvsJP, but
+instead I won the Concept Car.
+
+I wanted to reacquaint myself with the Cerbera LM, and so I entered
+it in the GT-I Cup, and swept the series completely, against an
+NSX-R LM GT2, a GT-R LM, and also a Lancer Evo IV GSR.  Those
+three cars traded positions, and so I won very handily 54 to 29.
+
+I will probably enter the Cerbera LM in the All-Night I and the
+Grand Valley 300, to see how well I can do with it now, and then
+take the Japanese Prize Car I feel happiest about and enter the
+USvsJP.  If I win the FTO LM in that series, I will enter it in
+the 4WD Series.  If not, I will need to purchase one more car.  8-(
+(The real problem is I did not win a Skyline in the Tuned Series...)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

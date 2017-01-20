@@ -1,0 +1,36 @@
+Monday July 12, 1999
+
+
+Would you believe I collected the race prize cars a second time?
+
+Thread: Prize Car Patterns
+
+For the last two or three weeks I spent a lot of time completing a
+second game from scratch, in which I collected all the race prize cars
+in as short a time (in terms of simulation days) as I was able.
+
+It took me longer than I expected, but today I eventually
+did finish.
+
+
+A detailed log of this is at
+<html><a href="logs/blue">logs/blue</a></html>
+
+
+Significantly, I did not race any simulation races in the game,
+nor even do any time trials.  You will notice I enter races
+redundantly in the superstitious (but not unfounded) belief
+that it helps "unlock" new prize cars.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

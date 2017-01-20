@@ -1,0 +1,50 @@
+Thursday June 29, 2000
+
+I Add A Search Facility to this Diary
+
+Threads:
+ Gran Turismo 2
+ Car Information
+ Prize Car Information
+ Real Life
+
+While doing some work for a professor, I learned of a freeware Search
+Engine at <html><a href="http://www.worldwidemart.com/scripts/">
+http://www.worldwidemart.com/scripts/</a></html>.
+
+And so I used it to create this <html><a href="search.html">search</a></html>
+facility for these diary pages.  So now you have an easy way to search
+their entire content.  In addition, you can still search for words in
+the <html><a href="fullindex.html">full index</a></html>, as you could
+before.
+
+Because of that and various other things, I have regenerated all pages
+from their source.  (To suit the Search Engine, I added the title of
+the page to the official title in the header; previously those titles
+used to be the date only).
+
+Thread: Car Information
+Thread: Prize Car Information
+
+<html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html>-wise
+I've been wasting a lot of time recently driving the
+Skyline R30 Silhouette Foumula[sic].  It is a ridiculously good car,
+capable of winning all the premier events, and, since it has only
+555 bhp, can enter a lot of secondary events (such as the GT300 in
+which it annihilates the competition) as well.  This car is the
+prize for winning the Tahiti Road Race of the 80's Series.  You can
+win it in
+either <html><font color="red">red</font> or <font color="blue">blue</font></html>.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

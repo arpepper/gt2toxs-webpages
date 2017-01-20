@@ -1,0 +1,59 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.07.17.20.02.22;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.07.17.19.50.18;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@ Created based on proto-prize.in (proto-prize1.0.in ?)
+@
+
+
+1.2
+log
+@better comments.
+@
+text
+@1CCFB8 to 1D502C 0008 370 -- copies most things
+1CCFC4 to 1D5038 0006 000
+1CCFCE to 1D5042 000C 000
+1CCFFA to 1D506E 001A 000
+1CD018 to 1D508C 0044 000
+
+1CCFCC to 1D5040 0002 000 -- copies engine separately
+
+1CCFCA to 1D503E 0002 000 -- copies L+W+F mod (I later decided this was a bad idea)
+1CCFDA to 1D504E 0004 000 -- copies weight reduction and race-mod
+
+1CCFDE to 1D5052 000A 000 -- copies engine mods separately
+
+1CCFE8 to 1D505C 0010 000 -- copies turbo and some other stuff separately
+1CD014 to 1D5088 0004 000 -- copies turbo gauge separately
+
+1CCFC0 to 1D5034 0004 000 -- copies rims separately
+1CCFF8 to 1D506C 0002 000
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 2
+a10 2
+1CCFCA to 1D503E 0002 000 -- copies weight reduction separately
+1CCFDA to 1D504E 0004 000
+@

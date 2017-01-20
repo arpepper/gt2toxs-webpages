@@ -1,0 +1,80 @@
+Wed Mar 31, 1999
+
+Compact form of braking force ratio chart
+
+Threads:
+  Brake Balance Controller
+
+The following chart gives % of braking force on the front as a function of
+the two settings.
+
+                                        Rear
+  F     1    2    3    4    5    6    7    8    9   10   11   12   13   14   15
+  1:  50.0 33.3 25.0 20.0 16.7 14.3 12.5 11.1 10.0  9.1  8.3  7.7  7.1  6.7  6.2
+  2:  66.7 50.0 40.0 33.3 28.6 25.0 22.2 20.0 18.2 16.7 15.4 14.3 13.3 12.5 11.8
+  3:  75.0 60.0 50.0 42.9 37.5 33.3 30.0 27.3 25.0 23.1 21.4 20.0 18.8 17.6 16.7
+  4:  80.0 66.7 57.1 50.0 44.4 40.0 36.4 33.3 30.8 28.6 26.7 25.0 23.5 22.2 21.1
+  5:  83.3 71.4 62.5 55.6 50.0 45.5 41.7 38.5 35.7 33.3 31.3 29.4 27.8 26.3 25.0
+  6:  85.7 75.0 66.7 60.0 54.5 50.0 46.2 42.9 40.0 37.5 35.3 33.3 31.6 30.0 28.6
+  7:  87.5 77.8 70.0 63.6 58.3 53.8 50.0 46.7 43.8 41.2 38.9 36.8 35.0 33.3 31.8
+  8:  88.9 80.0 72.7 66.7 61.5 57.1 53.3 50.0 47.1 44.4 42.1 40.0 38.1 36.4 34.8
+  9:  90.0 81.8 75.0 69.2 64.3 60.0 56.3 52.9 50.0 47.4 45.0 42.9 40.9 39.1 37.5
+ 10:  90.9 83.3 76.9 71.4 66.7 62.5 58.8 55.6 52.6 50.0 47.6 45.5 43.5 41.7 40.0
+ 11:  91.7 84.6 78.6 73.3 68.8 64.7 61.1 57.9 55.0 52.4 50.0 47.8 45.8 44.0 42.3
+ 12:  92.3 85.7 80.0 75.0 70.6 66.7 63.2 60.0 57.1 54.5 52.2 50.0 48.0 46.2 44.4
+ 13:  92.9 86.7 81.3 76.5 72.2 68.4 65.0 61.9 59.1 56.5 54.2 52.0 50.0 48.1 46.4
+ 14:  93.3 87.5 82.4 77.8 73.7 70.0 66.7 63.6 60.9 58.3 56.0 53.8 51.9 50.0 48.3
+ 15:  93.8 88.2 83.3 78.9 75.0 71.4 68.2 65.2 62.5 60.0 57.7 55.6 53.6 51.7 50.0
+
+One can visually scan this chart, starting from the ratio one has, looking
+for close values in either direction.  In addition, one should look for
+an identical or close ratio to the starting value, and search around there.
+ 
+A good enhancement would be to show the chart in shades of a colour,
+with darkness of the shade corresponding to the size of the number.
+
+Someone good at using a slide rule should be able to accomplish much
+this same effect with a slide rule.  I thought I'd seen a page on the web
+explaining that, but Alta Vista finds no matches for +gran +turismo
++"slide rule" (nor if I say "sliderule", nor "slide-rule").  Looking
+for +gran +turismo +slide +rule finds 17 pages, and the ones I've
+looked at are using "rule" and "slide" separately.
+
+Of course, someone good at using a slide rule might be really good with
+ratios, too, and be able to know that the next highest ratio after
+10/7, using the integers 1..15 is 13/9...
+
+
+Adrian.
+
+The perl script for this table is really dinky.
+
+#!/xhbin/perl5 -w
+
+printf("%44s\n","Rear");
+printf(" F ");
+for ($r = 1; $r <= 15; ++$r) {
+        printf("%5d", $r );
+}
+printf("\n");
+for ( $f = 1; $f <= 15; ++$f) {
+        printf("%2d: ",$f);
+        for ($r = 1; $r <= 15; ++$r) {
+                printf("%5.1f", $f * 100.0  / ($f + $r));
+        }
+        printf("\n");
+}
+-------------------------------------------------------------------------------
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

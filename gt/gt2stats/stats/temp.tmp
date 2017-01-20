@@ -1,0 +1,10 @@
+// Original content copyright (c) 2001 Adrian Pepper, all rights reserved.
+// Contact arpepper at math.uwaterloo.ca  for more information.
+
+var fieldnames =
+new Array( "Type","Day","Slot","Manufacturer","Model Name","Colour","Price","&nbsp;","&nbsp;" );
+var colnames =
+new Array( "Sale Type","Simulation Day","Used Car Slot","Manufacturer","Model Name","Colour","Price","Car Code","Colour Code" );
+
+var cardata = new Array(
+new Array("U","0","1","Toyota","MA70 Supra GT Turbo Limited","white pearl mica","7250","12","64"),

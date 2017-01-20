@@ -1,0 +1,213 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Friday January 05, 2001
+ -- (GT1 Version 1.1)  A Code to Make Cars Appear in the Used Car Lots
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Friday January 05, 2001
+</h3>
+</font>
+<font color="white">
+<h4>(GT1 Version 1.1)  A Code to Make Cars Appear in the Used Car Lots
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-12-08.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2001-01-30.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-12-08.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2001-02-20.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-12-08.html#Gameplay_Hints">&lt;&lt;--</a>
+<a name="Gameplay_Hints">Gameplay Hints
+</a><a href="2001-02-20.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999-2001, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Friday January 05, 2001
+</h3>
+<h4>(GT1 Version 1.1)  A Code to Make Cars Appear in the Used Car Lots
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+All this information is for <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> version 1.1.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The following will make an arbitrary car appear in slot 1 of the Toyota
+Used Car Lot on days 1 to 9 (and 600 to 609):
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+D00C4510  60A8
+300C451A  00??
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+?? should be one of the garage codes as I list in <a href="2000-12-05.html">2000-12-05.html</a>.
+Perhaps read some of my words of advice there, too.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The code overwrites the car normally available in that slot of that used car
+lot (an MA70 Supra), making it unavailable.  The chosen car is available
+instead, for the same low price.  <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Do not use the codes for the Corvette'67 (B0), or the hidden DelSols (6A,6B) or Eunos Roadsters (AF),
+or the game will lock up.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+If you use the codes for the special models the slot disappears
+entirely.  (So you cannot buy the special models this way, although [R]
+prize cars are fine).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Here's a long version of the codes to create an interesting used car
+lineup for the first nine days of the game.  The first five cars
+appear in the Toyota lot, and the rest in the Nissan lot.  (These
+overwrite the cars normally available there).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+GREAT-DAY1-USED-LINEUP
+
+D00C4510  60A8
+300C451A  00A2 -- Viper GTS
+D00C4510  60A8
+300C451E  00AD -- [R]Cerbera LM
+D00C4510  60A8
+300C4522  00A3 -- Concept Car (B license prize)
+D00C4510  60A8
+300C4526  00A5 -- "[R]"Concept Car "LM"
+D00C4510  60A8
+800C452A  D858 -- [R]FTO LM (green)
+
+D00C4510  60A8
+800C4552  D642 -- [R]Silvia LM (green)
+D00C4510  60A8
+800C4556  C448 -- GTO'95 MR (red)
+D00C4510  60A8
+800C455A  C422 -- GT-R'89 (red)
+D00C4510  60A8
+300C455E  001C -- TRD 3000GT
+D00C4510  60A8
+300C4562  003F -- Nismo 400R
+D00C4510  60A8
+300C4566  00A4 -- [R]Viper GTS-R
+D00C4510  60A8
+300C456A  001D -- [R]Castrol Supra GT (prize)
+D00C4510  60A8
+800C456E  C45E -- Acura TypeSzero (red)
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The cars I show are in a sense just examples, although I did test the
+actual literal examples above.  You can change the car codes
+to any valid garage values you want, subject to the same caveats as mentioned
+above.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Note that for the cars with colours shown in parentheses I use an <b>80</b>
+code instead of a <b>30</b>, and specify the colour byte, to change it
+from the often boring default colour for that particular car.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Another thing you could do is change the price associated with each car.
+For example:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+D00C4510  60A8
+800C4518  0001
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+would make the price of the first car 10 Credits.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Many thanks to all the people who enabled me to create this code,
+especially <b>RaysurX</b> who determined the garage codes originally.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Not to mention those who helped me even conceive of the idea of
+putting cars into the used car lots.
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-12-08.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2001-02-20.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-12-08.html#Gameplay_Hints">&lt;&lt;--</a>
+<a href="#Gameplay_Hints">Gameplay Hints
+</a><a href="2001-02-20.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-12-08.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2001-01-30.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999-2001 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

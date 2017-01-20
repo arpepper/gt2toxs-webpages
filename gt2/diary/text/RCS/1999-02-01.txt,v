@@ -1,0 +1,320 @@
+head	1.7;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	99.07.19.18.29.20;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	99.07.14.22.39.03;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.39.17;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.16.00.23.23;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix heading, etc.
+@
+
+
+1.7
+log
+@first pass at threading
+@
+text
+@Mon Feb  1, 1999
+
+Winning a lot of the International Prize LM Cars.
+
+Based on mail to Nick.
+
+Threads:
+  Prize Car Patterns
+  License Test Progress
+  Driving Advice
+
+Well, this weekend I won several of the nifty prize cars, by doing the
+international series.
+
+The first time I tried the UKversusJapan, with my race modified
+(Castrolized?) Cerbera, I lost to an absolutely identical-looking
+Cerbera.  This is the first time I have seen the computer generate
+an identical opponent in a series, although I think occasionally
+back in my days of Spot Races another red Supra MA70 would show up.
+But that's not as distinctive as the two-tone racing Cerbera.
+
+Thread: Prize Car Patterns
+
+Eventually I got my footing, and the Cerbera won a Cerbera.  (green).
+Winning that car is the object of the game, isn't it?  It sure seems
+like it.  Before driving it, I think I humiliated myself with the
+Viper in the Normal Car series.  I humiliated myself with several
+cars in the Normal Car series last weekend.  But I remember driving
+the Cerbera and thinking "this car is on rails"; I think that was
+partly because of the comparison with the Normal Car series.  I
+managed to get the Viper to third in the Normal Car series, but
+other attempts (Griffith, Impreza Mitsubishi GTO 4WD) failed
+miserably.  Notice how the Mitsubishi GTO twin turbo series of
+cars say "276bhp" on the showroom, but "311bhp" after you've bought
+them?  A nice change from the Subarus which seem to lose about
+6bhp after you buy them.
+
+I wish there was a series with cars of the same caliber as the Normal
+Car Series, but which had shorter races.  One observation of the Normal
+Car series which I did make with the Griffith on the Mini Ring was that
+the cars do not try hard to keep you lapped.  (I spun out early and got
+lapped on lap 4, but got back ahead and the leader stayed behind).
+
+In addition, I wish there was a series of 5 lap races which was not
+as intense as the Normal Car Series.  Doing the Normal Car Series
+can literally give me a headache.
+
+I used the prize Cerbera, I think, to win the UK versus US series,
+winning the green Castrol RX7.  (Seems ironic, since it's neither
+American nor English).  I brought out the 900hp Skyline to win the
+Japan vs US series, winning a white Viper with blue stripes.  It's good
+to have a couple of Vipers in your garage.  To vipe your vindshield.
+
+Thread: License Test Progress
+
+Thread: Driving Advice
+
+I think acceleration burbling, noticeable in all LM cars, and large
+American cars, may be the game punishing you for not warming up
+properly before the start.  I now think dutifully doing that warm up
+may be essential to really good license times, etc.  I.e. presumably
+the game punishes you, albeit less dramatically, even with less
+powerful cars.  I did a silver time for B-8, that leaves only B-3 at
+bronze.  I discovered you *can* do a bronze B-3 (Deep Forest Haipin)
+without brakes, but am not sure how that info relates to doing a really
+fast time.  I think B-3 is the hardest B test both to get silver, and
+even to get bronze, and I'm not sure that's great game design, since
+it can make for early discouragement.  I suppose it's a relief when
+the other tests are easier.  And you are allowed to take them early,
+so...
+
+Silly stuff I did included taking the prize Cerbera to put some
+decent records on the Spot Races.  I guess they are easier than
+the Sunday Cup, in terms of times, but I think the other cars
+in the Sunday Cup try a little harder to let you win if you
+are close.  The silliest thing was when I took the 900hp Skyline
+to the High Speed Ring Spot Race, and got the pole even after
+spinning out on the last corner when qualifying.  So I did the
+race over, and demolished the records nicely.  Slightly less
+silly was taking this thoroughbred racing machine to sweep the
+FR series.  It's fun setting decent track records, but I wish
+they were accessible without entering the series.  Also, the info
+from other series should be available in all series.
+
+Speaking of letting you win.  I took the prize Cerbera to the UK/Japan
+series, trying to win for a second time.  I thought I was going to
+lose.  I forgot where I was on Trial Mountain II and wiped out badly on
+the tricky sharp left-hander.  I never recovered, finishing 6th.  I
+cleaned up okay on SS R5 and HSR.  But then I was doing nicely at GVE
+II, but a little worried about the guy right behind me, who wasn't a
+contender anyway, so I lost control on the very last hairpin.  I didn't
+spin, but went off into the gravel, and lost 4 positions finishing
+5th.  So, the series leading RX7 has 22 points to my 21 going into the
+dreaded SS R11.  Even the fact it has so few points is an indication
+they try to help you win.
+
+Anyway, on R11 I have my usual share of minor disasters for that
+course.  Attempting to go slowly through that awful chicane and getting
+spun around by a rear-ending computer car (they have impeccable night
+vision, of course) usually happens at least once.  But I keep
+soldiering on, having learned a reasonable rhythm for the first set of
+twiddlies after turn 2 (the sharpish one with the red barriers) which
+allows me to keep picking off the opposition.  Now I noticed the RX7
+poking around a little near the back of the pack.  That's good, I
+thought.  I just need to finish with one car between him and me, and I
+get two more points and can win the series without even winning the
+race.   I manage to stay calm, and even take second on the finishing
+straight, and sure enough, I win the series.  The RX7 finished 5th
+in the race.
+
+But I win an identical Cerbera.  Not even a purple one.  But, being
+a millionaire now  8-), I don't bother selling the car, but keep it
+for reference.  (I.e. settings).  If I win a purple one, I guess
+I'll sell this second green one.  Or maybe I'll just donate it to
+the Salvation Army.  The tax deduction should be worth more than
+what the TVR dealer will give me.
+
+Probably some weekend I'll take my million and use it to "borrow" the
+$500K Special Models (ie. test drive them, but not save the game).
+
+Actually, one would think you could take cars for a test-drive without
+buying them; perhaps to the test centre and to Autumn Mini time trial.
+(results could be not saved unless you actually own the car).  But
+perhaps that's a North American culture thing.  Perhaps in Japan you
+buy cars without test driving them.  Of course, they'd have to
+decide whether you could test drive cars you didn't have the money
+for.   8-)  Actually I did do some test-driving when trying to
+compare 4wd Normal Cars (in vain, of course), since I didn't want too
+many in my garage and/or to donate too much to the Auto Dealers'
+Charity.  Way back when I first started playing the game I did one set
+of several days using a Toyota Corolla Levin which I never saved.
+After that I bought a Supra MA70 which is apparently one of the good
+choices.  So I guess one does have a test drive option, but it is
+a hassle.
+
+Pole times for Megaspeed Cup seem to be easier to get as event
+progresses, so I think required time is somewhere around 51 seconds,
+versus the 56 which is easy enough to beat in the other direction.
+
+Actually, in several of the series the races seem to get easier as you
+move through the series, as if they've tuned the game for "come from
+behind" excitement.  A big exception, right now, seems to be the
+several series which end with SSR11, but it feels like perhaps that
+track is just difficult to learn, and the competition is not
+difficult, per se.  (Except for their night-vision advantage).
+Besides, you've often got the series wrapped up by then, anyway.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.6
+log
+@more threading
+@
+text
+@d22 2
+d53 4
+@
+
+
+1.5
+log
+@Added threads.
+@
+text
+@d9 2
+@
+
+
+1.4
+log
+@fixed date format, simplifying
+@
+text
+@d7 3
+@
+
+
+1.3
+log
+@minor fixes
+@
+text
+@d1 1
+a1 1
+Mon Feb  1 17:45:25 1999
+@
+
+
+1.2
+log
+@fix up title for index
+@
+text
+@d3 2
+a5 47
+
+In the data for http://www.ent.ohiou.edu/~albrnick/gt/cgi-bin/sim-cars.cgi
+there seem to be some inconsistencies.
+
+I used:
+
+#!/bin/csh -f
+lynx -source http://www.ent.ohiou.edu/~albrnick/gt/cgi-bin/sim-cars.cgi -post_da
+ta <<EOF
+show=manu&show=cdt&show=cshp&show=csw&show=csr&show=cmhp&show=cmw&show=cmr&num_cars=1000&order=0&key=cshp&test1=none&min1=&max1=&test2=none&min2=&max2=&Toyota=-1&Mitsubishi=-1&Aston+Martin=-1&Nissan=-1&Honda%2FAcura=-1&Dodge=-1&Subaru=-1&Chevrolet=-1&TVR=-1&Mazda=-1&Prize+Cars=-1
+EOF
+
+to dump data for all the cars, I believe.  I then edited it into
+"lotus form", sort of.
+
+I then ran it through the following Perl script:
+
+-------------------------------------------------------------------------------
+#!/xhbin/perl5
+while ( <> ) {
+	$_ =~ s/\n//g;
+	@@original = split(/,/);
+	@@fields = @@original;
+	foreach $f (@@fields) {
+		if ( $f =~ /---/) {
+			$f = -1;
+		}
+	}
+# printf ( "%s,%s,%s,%s,%s,%s,%s,%s,%s\n", (@@fields) );
+# print $#fields, ",";
+	($name,$mfr,$drive,$stockbhp,$stocklb,$stockrat,$maxbhp,$maxlb,$maxrat) =
+		 @@fields;
+	$alert1 = "";
+	$alert2 = "";
+	$gsrat = $stockbhp / $stocklb;
+	if ( $stocklb > 0 && abs( $gsrat - $stockrat ) > .001 ) {
+		$alert1 = sprintf(",** stock ratio ** $stockrat should be %0.3f", $gsrat);
+	}
+	$gmrat = $maxbhp / $maxlb;
+	if ( $maxlb > 0 && abs( $gmrat - $maxrat ) > .001 ) {
+		$alert2 = sprintf(",** maxed ratio ** $maxrat should be %0.3f", $gmrat );
+	}
+		
+	printf("%s,%s,%s,%s,%s,%s,%s,%s,%s", (@@original) );
+	printf("%s%s\n", $alert1,$alert2 );
+}
+===============================================================================
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+d21 1
+a21 1
+===============================================================================
+@

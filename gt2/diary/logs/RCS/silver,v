@@ -1,0 +1,316 @@
+head	1.9;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.9
+date	99.11.02.23.00.56;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	99.10.26.21.31.56;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	99.10.25.18.52.09;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	99.10.23.18.06.27;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.10.22.16.27.31;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.10.22.16.15.57;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.10.22.16.04.06;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.10.21.21.12.04;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.10.21.20.09.52;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@"silver" game, trying to win the gold cups only as quickly a possible.
+@
+
+
+1.9
+log
+@Removed 8-( which gets taken as prize.
+I must fix that...
+@
+text
+@October 20, 1999
+       I was trying to get the gold cups in as few days as possible
+
+   1  buy car GTO'92 Fiji blue GTO'92SR, med stab  Cr10,000 -> Cr240
+
+       I thought I would start with the 4wd car since that is the
+       only specialized category car you cannot guarantee to win:
+       Demio is Lwt and FF, while various are FR (though I find it
+       easiest to use the stock Viper used for the Normal Series).
+       However, later I realized you pretty much want to buy a 4wd 
+       GTO or a Skyline to win Tuned and All-Night 2, so the starter
+       car might as well be as cheap as possibly with a reasonable
+       probability of getting Sunday Cup poles after light tuning.
+       This GTO'92 will only be a reasonable investment if I win
+       the Supra in the Normal Series, which I can then use instead
+       of a GTO.   (The GTO'92 could then win the 4wd series, with
+       light tuning).  But it is more probable to win the Impreza,
+       and, although it could be used in the 4wd, it makes more
+       sense to buy a Japanese monster at that point anyway, so that
+       monster might as well be 4wd.
+
+   1      B4 pass 0:25.368 silver
+   2      B5 pass 0:23.977 silver
+   3      B3 oass 0:28.701 bronze
+   4      B1 pass 0:34.836 silver
+   5      B2 fail
+   6      B2 pass 0:26.927 bronze(2)
+   7      B6 pass 0:26.885 silver
+   8      B7 pass 0:25.815 silver
+   9      B8 fail
+  10      B8 pass 1:19.811 silver(2)
+  11  B license acquired  4:32.320
+
+  11      A1 pass 0:33.295 bronze
+  12      A2 pass 0:25.628 bronze
+  13      A3 fail 0:44.122
+  14      A3 pass 0:43.589 bronze(2)
+  15      A4 fail 0:39.887
+  16      A4 fail 0:39.225
+  17      A4 fail 0:39.095
+  18      A4 fail 0:39.540
+  19      A4 fail 0:39.004
+  20      A4 fail 0:39.053
+  21      A4 fail 0:39.626
+  22      A4 fail 0:39.067
+  23      A4 fail 0:38.831 bronze(9)
+  24      A5 pass 0:31.473 bronze
+  25      A6 fail 0:27.783
+  26      A6 fail 0:28.324
+  27      A6 fail 0:27.983
+  28      A6 fail 0:27.360
+  29      A6 fail 0:27.534
+  30      A6 fail 0:27.396
+  31      A6 fail 0:26.962 bronze(7)
+  32      A7 pass 0:29.029 gold
+  33      A8 pass 1:07.718 bronze
+  34  A license acquired  4:56.535
+
+  34      IA1 fail
+  35      IA1 pass 1:06.131 bronze(2)
+  36      IA3 pass 2:00.704 bronze
+  37      IA5 pass 1:23.652 bronze
+  38      IA7 fail
+  39      IA7 fail 2:14.834
+  40      IA7 pass 2:13.314 bronze(3)
+  41      IA2 fail 1:30.409
+  42      IA2 fail 1:30.922
+  43      IA2 fail 1:30.333
+  44      IA2 pass 1:29.995 bronze(4)
+  45      IA4 pass 1:23.375 bronze
+  46      IA6 fail 1:33.125
+  47      IA6 fail 1:33.762
+  48      IA6 fail 1:33.635
+  49      IA6 fail 1:33.499
+  50      IA6 pass 1:32.033 bronze(5)
+  51      IA8 pass 1:58.272 bronze
+  52  IA license acquired  13:07.476
+
+  52-55   GTO'92   Sunday  q6AMq6Hq6GV  27to16                Demio(1/1*)a
+  56  buy parts NA1, S/Stires, racing muffler Cr24,240 -> Cr740
+
+     Either these parts were a bad investment, or I should have perhaps
+     gone straight to the Clubman and maybe 4wd to accumulate cups and
+     cash.  Oh well, the main early strategy is to get enough cash to
+     buy a Viper.  The extra Cr4,500 from Sunday poles does not pay
+     back the Cr23,500 investment.  The Clubman was a little close
+     and tense with only above modifications.
+
+  56-59   GTO'92,lt tune  Sunday  sw27to18                    Demio(dup)(sold)i
+  60-63   GTO'92,lt tune  Clubman q6ARq6CR2q6TM              Camaro(1/1*)a
+  64   buy car RT/10  Viper RT/10   Cr80,240 -> Cr11,440
+  64-67   RT/10  FR  q6DFq2GV  27to18               yellowSilEighty(1/6)a
+  68   Cr37,940
+  68     power off
+
+October 21, 1999
+  68   buy car GTO'95MR   passion red GTO'95MR -> Cr9,880
+  68-73   RT/10  Normal  sw45to30                     purpleSupraRZ(1/6)a
+  74   Cr409,880
+
+     So I won the Supra, but wimped out and max-tuned a GTO'95MR
+     anyway.  So, after starting with the 4wd, and assuming I'd use
+     the Demio for FF and Lwt, I wonder if it might be better to
+     start with 3dr'93si anyway.  But it needs a lot of mods before
+     it can win cash without duplicate.  Trying to get all Gran Turismo
+     Cups without entering any event more than once might be a real
+     challenge.  Europeans, at least, can beat the TRD3000GT in Normal
+     with the prize Camaro to start the cash rolling.  (But need to
+     cheat to avoid an NSX field).
+
+  74   mod car tunedGTO'95MR   max tune -> Cr151,380 (alias esp for [R]events)
+  74-78   tunedGTO'95MR  GTC    sw36to24,14,10,9,7         ChaserLM(1/1*)a
+  79   Cr236,380
+  79-82   tunedGTO'95MR  Mega  sw27to14,14,9,5,6       purpleSoarer(1/6)a
+  83   Cr326,380
+  83-86   tunedGTO'95MR  4wd   sw27to18,11,10,6,3      purpleLancer(1/6)a
+  87   Cr355,880
+  87-92   tunedGTO'95MR  UKvsJP  sw45to24,20,17,14,5   black delSol(1/4)a
+  93   Cr440,880
+  93     power off
+October 23, 1999
+  93-94   tunedGTO'95MR  All-nightI  1st                redSilviaLM(1/2)a
+                                          I wanted the nice green one.    8-(
+  95   mod car red[R]SilviaLM  (alias)
+  95   Cr610,880
+  95     power off
+  95-100  GTO'95MR  Abnormal  sw45to24,21,17,13,5       whiteTrueno(1/6)a
+  101  Cr1,010,880
+  101    power off
+
+October 24, 1999
+ 101-102  red[R]SilviaLM  GV300  q1st1st           black/greenSupra(1/2)a
+  103  Cr1,330,880
+  103    power off
+  103   mod car [R]CastrolSupra  (alias)
+ 103-108 [R]CastrolSupra  USvsJP  1st45to28            ViperWblueSt(1/4)a
+                                  q0TM1st45to28,21,14,11,6
+  109  Cr1,412,880
+  109  power off
+  109  mod car [R]ViperGTS-R   (alias, ie,  WblueSt)
+ 109-114  [R]ViperGTS-R  UKvsUS SS11,3,1st40to30,24,15,10,6 blueRX7(1/4)a
+  115  Cr1,492,880
+  115  mod car Demio  hard-tune DemioAspec  ->  Cr1,320,880
+ 115-118  Demio,tuned  FF  sw27to15,14,10,5,4             yellowCRX(1/6)a
+  119  Cr1,350,380
+ 119-122  Demio,tuned  Lwt  sw27to18,12,9,5,4           yellowCivic(1/6)a
+  123  Cr1,381,380
+ 123-129  [R]ViperGTS-R  GTI  1st44to33,28,27,12,6        hifi+ credits
+                              q4Hq4GV,SSR5,3,q4DF3
+  130  Cr1,551,380
+ 130-131  GTO'95MR  All-nightII  q1st,1st        silverNismoGT-R LM(1/1*)a
+  132  Cr1,721,380
+  132  The End  - all gold race cups won
+@
+
+
+1.8
+log
+@Fixed some results.
+Finsihded the game.   8-)
+@
+text
+@d122 1
+a122 1
+  93-94   tunedGTO'95MR  All-nightI  1st                redSilviaLM(1/2)a 8-(
+@
+
+
+1.7
+log
+@Added results for October 24, 1999
+@
+text
+@d141 1
+a141 1
+ 109-114  [R]ViperGTS-R  UKvsUS  SS11,3,1st40to30           blueRX7(1/4)a
+d148 1
+a148 1
+ 123-129  [R]ViperGTS-R  GTI  1st44to                   hifi+ credits
+d151 3
+@
+
+
+1.6
+log
+@October 23; not many lines, but a lot of racing out of the way...
+@
+text
+@d124 1
+d130 21
+@
+
+
+1.5
+log
+@fixed dumb typo  8-)
+
+Added soliloquy about strategy.
+@
+text
+@d121 8
+@
+
+
+1.4
+log
+@October 21, 1999
+
+Added several cups.
+@
+text
+@d91 1
+a91 1
+  64   buy car RT/10  Viper RT/10   Cr80,240 -> Cr111,440
+d100 11
+@
+
+
+1.3
+log
+@Added date, and power off.
+@
+text
+@d90 1
+a90 1
+  60-63   GTO'92,lt tune  Clubman q6ARq6CR2q6TM               Camaro(1/1*)a
+d95 15
+@
+
+
+1.2
+log
+@Added some more verbose comments.
+@
+text
+@d1 1
+d94 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d16 4
+a19 1
+       light tuning).
+d84 3
+a86 1
+     buy a Viper.
+@

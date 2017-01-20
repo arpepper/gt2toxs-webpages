@@ -1,0 +1,239 @@
+Saturday July 15, 2000
+
+
+(GT2)  Evolution of a GameShark Code, Part II
+
+Threads:
+ Gran Turismo 2
+ Game Shark Hints
+
+I wanted to create a GameShark Code for <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html> which
+would cause you to win as prize cars hybrids constructed from your garage.
+These codes will only possibly work for <html><b>GameShark Version 3.00</b>
+or higher.
+
+In the first step, outlined in my last entry, I developed a short code
+to cause you to win as a prize-car a new copy of the first car in your
+garage.
+
+The next step, not terribly interesting really, was to copy the car in
+pieces, as the first step towards preparing to copy different pieces
+from different garage entries.
+
+The first version is for the
+original 1.0 North American version of <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font></html>:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CCFB8 0008 -- copies most things (1.0)
+ 101D502C 0000
+ C21CCFC4 0006
+ 101D5038 0000
+ C21CCFCE 000C
+ 101D5042 0000
+ C21CCFFA 001A
+ 101D506E 0000
+ C21CD018 0044
+ 101D508C 0000
+
+ C21CCFCC 0002 -- copies engine separately
+ 101D5040 0000
+
+ C21CCFCA 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D503E 0000
+ C21CCFDA 0004 -- copies weight reduction and race-mod
+ 101D504E 0000
+
+ C21CCFDE 000A -- copies engine mods separately
+ 101D5052 0000
+
+ C21CCFE8 0010 -- copies turbo and some other stuff separately
+ 101D505C 0000
+ C21CD014 0004 -- copies turbo gauge separately
+ 101D5088 0000
+
+ C21CCFC0 0004 -- copies rims separately
+ 101D5034 0000
+ C21CCFF8 0002
+ 101D506C 0000
+</pre></font></tt>
+</HTML>
+
+I have worked extensively with later derived versions of the 1.0 code.
+I have not actually test any of the other versions, yet.  I would expect
+them to work, and would not be greatly afraid to try them--I just have
+not got around to it.
+
+For North American Version 1.1:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD328 0008 -- copies most things (1.1)
+ 101D539C 0000
+ C21CD334 0006
+ 101D53A8 0000
+ C21CD33E 000C
+ 101D53B2 0000
+ C21CD36A 001A
+ 101D53DE 0000
+ C21CD388 0044
+ 101D53FC 0000
+
+ C21CD33C 0002 -- copies engine separately
+ 101D53B0 0000
+
+ C21CD33A 0002 -- copies L+W+F mod (I later decided this was a bad idea)
+ 101D53AE 0000
+ C21CD34A 0004 -- copies weight reduction and race-mod
+ 101D53BE 0000
+
+ C21CD34E 000A -- copies engine mods separately
+ 101D53C2 0000
+
+ C21CD358 0010 -- copies turbo and some other stuff separately
+ 101D53CC 0000
+ C21CD384 0004 -- copies turbo gauge separately
+ 101D53F8 0000
+
+ C21CD330 0004 -- copies rims separately
+ 101D53A4 0000
+ C21CD368 0002
+ 101D53DC 0000
+</pre></font></tt>
+</HTML>
+
+For North American Version 1.2:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD558 0008 -- copies most things (1.2)
+ 101D55CC 0000
+ C21CD564 0006
+ 101D55D8 0000
+ C21CD56E 000C
+ 101D55E2 0000
+ C21CD59A 001A
+ 101D560E 0000
+ C21CD5B8 0044
+ 101D562C 0000
+
+ C21CD56C 0002 -- copies engine separately
+ 101D55E0 0000
+
+ C21CD56A 0002 -- copies weight reduction separately
+ 101D55DE 0000
+ C21CD57A 0004
+ 101D55EE 0000
+
+ C21CD57E 000A -- copies engine mods separately
+ 101D55F2 0000
+
+ C21CD588 0010 -- copies turbo and some other stuff separately
+ 101D55FC 0000
+ C21CD5B4 0004 -- copies turbo gauge separately
+ 101D5628 0000
+
+ C21CD560 0004 -- copies rims separately
+ 101D55D4 0000
+ C21CD598 0002
+ 101D560C 0000
+</pre></font></tt>
+</HTML>
+
+For PAL version (should work, based on the known offset):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD588 0008 -- copies most things (PAL)
+ 101D55FC 0000
+ C21CD594 0006
+ 101D5608 0000
+ C21CD59E 000C
+ 101D5612 0000
+ C21CD5CA 001A
+ 101D563E 0000
+ C21CD5E8 0044
+ 101D565C 0000
+
+ C21CD59C 0002 -- copies engine separately
+ 101D5610 0000
+
+ C21CD59A 0002 -- copies weight reduction separately
+ 101D560E 0000
+ C21CD5AA 0004
+ 101D561E 0000
+
+ C21CD5AE 000A -- copies engine mods separately
+ 101D5622 0000
+
+ C21CD5B8 0010 -- copies turbo and some other stuff separately
+ 101D562C 0000
+ C21CD5E4 0004 -- copies turbo gauge separately
+ 101D5658 0000
+
+ C21CD590 0004 -- copies rims separately
+ 101D5604 0000
+ C21CD5C8 0002
+ 101D563C 0000
+</pre></font></tt>
+</HTML>
+
+For Japanese version (I've seen this offset, but it would be nice if
+someone could test it--be warned):
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C21CD9B8 0008 -- copies most things (Japanese?)
+ 101D5A2C 0000
+ C21CD9C4 0006
+ 101D5A38 0000
+ C21CD9CE 000C
+ 101D5A42 0000
+ C21CD9FA 001A
+ 101D5A6E 0000
+ C21CDA18 0044
+ 101D5A8C 0000
+
+ C21CD9CC 0002 -- copies engine separately
+ 101D5A40 0000
+
+ C21CD9CA 0002 -- copies weight reduction separately
+ 101D5A3E 0000
+ C21CD9DA 0004
+ 101D5A4E 0000
+
+ C21CD9DE 000A -- copies engine mods separately
+ 101D5A52 0000
+
+ C21CD9E8 0010 -- copies turbo and some other stuff separately
+ 101D5A5C 0000
+ C21CDA14 0004 -- copies turbo gauge separately
+ 101D5A88 0000
+
+ C21CD9C0 0004 -- copies rims separately
+ 101D5A34 0000
+ C21CD9F8 0002
+ 101D5A6C 0000
+</pre></font></tt>
+</HTML>
+
+I actually did enter and test the 1.0 version of this code.  It worked
+the same as the single instruction code, copying the first entry of my
+garage so that when I won a race which awarded a single prize-car I won
+instead a copy of the first car in my garage.  This prepared me for the
+next step, in which I would actually change the source locations for
+the copy so that different parts would come from different cars, thereby
+creating a hybrid.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

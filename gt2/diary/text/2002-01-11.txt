@@ -1,0 +1,76 @@
+Friday January 11, 2002
+
+Ducati World Racing Challenge Complete Track List
+
+Threads:
+  Ducati World Racing Challenge
+  Gameplay Hints
+  Game Shark Hints
+
+<CODES>
+By various analysis, I determined that the following is the list of
+all tracks available in <b>Ducati World Racing Challenge</b>.  
+
+I have included the zero-origin track number in hex as well as decimal.
+(The hex number can be used in conjunction with some <b>GameShark</b>
+codes and techniques).
+
+Using some codes, you can arrange various types of races on all these
+tracks.  However, the license test tracks, while the game won't crash
+if you use them, result in most cases in a race which cannot be finished.
+</CODES>
+
+<HTML INDENT>
+   <TABLE CELLPADDING="0">
+   <TR><TD ALIGN="RIGHT">0</TD><TD>00</TD><TD>Thunderpass I</TD></TR>
+   <TR><TD ALIGN="RIGHT">1</TD><TD>01</TD><TD>Highland Drive I</TD></TR>
+   <TR><TD ALIGN="RIGHT">2</TD><TD>02</TD><TD>Greenrock TT I</TD></TR>
+   <TR><TD ALIGN="RIGHT">3</TD><TD>03</TD><TD>Arizona Bay I</TD></TR>
+   <TR><TD ALIGN="RIGHT">4</TD><TD>04</TD><TD>Borealis I</TD></TR>
+   <TR><TD ALIGN="RIGHT">5</TD><TD>05</TD><TD>Red Valley I</TD></TR>
+   <TR><TD ALIGN="RIGHT">6</TD><TD>06</TD><TD>Neon City I</TD></TR>
+   <TR><TD ALIGN="RIGHT">7</TD><TD>07</TD><TD>North Star I</TD></TR>
+   <TR><TD ALIGN="RIGHT">8</TD><TD>08</TD><TD>City Heat I</TD></TR>
+   <TR><TD ALIGN="RIGHT">9</TD><TD>09</TD><TD>Aerodrome East I</TD></TR>
+   <TR><TD ALIGN="RIGHT">10</TD><TD>0A</TD><TD>Aerodrome West I</TD></TR>
+   <TR><TD ALIGN="RIGHT">11</TD><TD>0B</TD><TD>Highland Drive II</TD></TR>
+   <TR><TD ALIGN="RIGHT">12</TD><TD>0C</TD><TD>Thunderpass II</TD></TR>
+   <TR><TD ALIGN="RIGHT">13</TD><TD>0D</TD><TD>Greenrock TT II</TD></TR>
+   <TR><TD ALIGN="RIGHT">14</TD><TD>0E</TD><TD>Arizona Bay II</TD></TR>
+   <TR><TD ALIGN="RIGHT">15</TD><TD>0F</TD><TD>Borealis II</TD></TR>
+   <TR><TD ALIGN="RIGHT">16</TD><TD>10</TD><TD>Red Valley II</TD></TR>
+   <TR><TD ALIGN="RIGHT">17</TD><TD>11</TD><TD>Neon City II</TD></TR>
+   <TR><TD ALIGN="RIGHT">18</TD><TD>12</TD><TD>North Star II</TD></TR>
+   <TR><TD ALIGN="RIGHT">19</TD><TD>13</TD><TD>City Heat II</TD></TR>
+   <TR><TD ALIGN="RIGHT">20</TD><TD>14</TD><TD>Aerodrome East II</TD></TR>
+   <TR><TD ALIGN="RIGHT">21</TD><TD>15</TD><TD>Aerodrome West II</TD></TR>
+   <TR><TD ALIGN="RIGHT">22</TD><TD>16</TD><TD>License 1 - drag strip</TD></TR>
+   <TR><TD ALIGN="RIGHT">23</TD><TD>17</TD><TD>License 2 - oval, but AI gets head start</TD></TR>
+   <TR><TD ALIGN="RIGHT">24</TD><TD>18</TD><TD>License 3 - slalom</TD></TR>
+   <TR><TD ALIGN="RIGHT">25</TD><TD>19</TD><TD>License 4 - high speed obstacle course</TD></TR>
+   <TR><TD ALIGN="RIGHT">26</TD><TD>1A</TD><TD>License 5 - obstacle course</TD></TR>
+   <TR><TD ALIGN="RIGHT">27</TD><TD>1B</TD><TD>Test I-2 - Neon City section, can't finish</TD></TR>
+   <TR><TD ALIGN="RIGHT">28</TD><TD>1C</TD><TD>Test I-3 - Highland Drive section, can't finish</TD></TR>
+   <TR><TD ALIGN="RIGHT">29</TD><TD>1D</TD><TD>Test I-4 - Highland Drive section, can finish  8-)  </TD></TR>
+   <TR><TD ALIGN="RIGHT">30</TD><TD>1E</TD><TD>Test II-2 - Red Valley section, can't finish</TD></TR>
+   <TR><TD ALIGN="RIGHT">31</TD><TD>1F</TD><TD>Test II-3 - Arizona Bay section, can't finish</TD></TR>
+   <TR><TD ALIGN="RIGHT">32</TD><TD>20</TD><TD>Test F-3 - Aerodrome section, can't finish</TD></TR>
+   <TR><TD ALIGN="RIGHT">33</TD><TD>21</TD><TD>Test A-1 - City Heat section, can't finish</TD></TR>
+   <TR><TD ALIGN="RIGHT">34</TD><TD>22</TD><TD>Test A-3 - Highland Drive section, can't finish</TD></TR>
+   </TABLE>
+</HTML>
+  
+
+===============================================================================
+Copyright (C) 2002, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+

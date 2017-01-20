@@ -1,0 +1,143 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@Tue Apr 27, 1999
+
+Thoughts About Acquiring Particular Prize Cars in International Series
+
+Threads:
+  Prize Car Patterns
+
+Based on email to Dave.
+
+Previously I never saw a black del Sol.  Now I see them regularly.
+
+If I take a "new" car, win UKvsJP three times in succession, I will
+nearly always win green Cerbera, red del Sol, black del Sol, in that
+order.  After that, it will be stuck on green Cerberas.
+
+It's like something "unlocks" a prize car to become available.  The
+most recent ones appeared, I believe, when I used a tuned car to win
+USvsJP and UKvsJP.  Varieties of cars might be LM(prize), race-mods
+and tuned.  Perhaps it counts nationalities.  I've used race-modded
+cars of all three nationalities to win the two appropriate series
+pf the three.  Similarly, I've used the different nationality
+LM cars to win their appropriate series.  Perhaps I won't get my
+fourth USvsUK and UKvsJP prize cars until I win with American
+and British tuned cars.
+
+On the other hand, the green FTO was one of the early cars I won.  But
+that is not the case with some people.
+
+That suggests that the order in which prize cars become unlocked might
+be semi-random.  Perhaps it depends upon the day number on which you
+complete various license tests, or perhaps the state of your "race
+trophy" collection.
+
+Perhaps it depends upon a machine-readable serial number in your
+PlayStation.  8-)
+
+Well, four successive wins with a new car in USvsJP isn't sufficient to
+win all four prize cars.  Since the dreaded RX-7 Aspec LM is next up
+for GV300 evaluation, I raced it, which meant my results were less than
+perfect.  Although I always won JPvsUS, I lost Trial Mountain ii a
+couple of times, and missed a couple of poles.  I always won "cleanly"
+(ie with 4+ wins, and no reliance on shenanigans from other cars
+exchanging places).
+
+I won, in order:
+   green FTO LM
+   black FTO LM
+   green FTO LM  (this seemed peculiar)
+   white/blue Viper GTS-R
+   white/blue Viper GTS-R
+   white/blue Viper GTS-R
+
+So, although I did recently win the white/green Viper, I did not win it
+in this set.  But I did win a couple of green FTO LM's (sorry!).
+
+And I did win the black FTO LM, which up until recently I had never
+seen.  It now seems quite "common".
+
+So I suspect when someone failed to win the green FTO LM, they probably
+got the game into a state where their set of three cars to win was
+{black FTO LM,white/blue Viper GTS-R,white/green Viper GTS-R}.  This is
+strange.
+
+Another thing, according to my notes, when I won the white/green Viper
+I did so when the tuned '95 GTO MR won the series 45 to 22.  Now the
+points awarded to the second-place car is a difficult thing to control,
+especially with the way that Subaru zips off into the lead every time
+(although the MR can keep up; sub-theme of game; 4wd is superior).  In
+fact, the '95 GTO MR career went:
+
+  UKvsJP  45to??  green Cerbera
+  UKvsJP  45to??  black del Sol
+  USvsJP  45to22  white/green Viper (first and, so far, only)
+  USvsJP  45to27  green FTO LM
+  SSR11ii  won
+  USvsJP  40to28  black FTO LM (first time for that car for me!)
+
+Now, in general it seems that as you enter a series with the same car
+more and more times, fewer exchanges of points take place by the other
+competitors.  So you eventually end up winning 45 to 30 all the time.
+Perhaps the car awarded depends upon the second place points total,
+although I have got both green FTO and white/blue Viper for 45
+to 30.  So perhaps there's a random aspect too.  (vigorous
+handwaving).  Not to mention the points that got me me first black
+FTO above, versus the green one.  (And then there's the speculation
+that the assignment of prize cars to whatever triggers are involved
+differs from game to game for some reason).
+
+Of course, the annoying thing about this is that someone somewhere must
+know how the cars are awarded!!!  (I.e. programmers at Polyphony).
+
+Deliberately arranging to make the second place car get 22 points or
+less would be quite difficult.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+@

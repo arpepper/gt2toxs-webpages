@@ -1,0 +1,181 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Wed Jun 9, 1999
+ -- Thoughts about tuning, when I was asked about NSX bouncing problems
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Wed Jun 9, 1999
+</h3>
+</font>
+<font color="white">
+<h4>Thoughts about tuning, when I was asked about NSX bouncing problems
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="1999-06-08.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="1999-06-10.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="1999-06-08.html#Tuning_Advice">&lt;&lt;--</a>
+<a name="Tuning_Advice">Tuning Advice
+</a><a href="1999-06-10.html#Tuning_Advice">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Wed Jun 9, 1999
+</h3>
+<h4>Thoughts about tuning, when I was asked about NSX bouncing problems
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Ahem.  I play a lot, but don't have a lot of talent and have little
+theoretical knowledge behind my tuning.  That's why I qualify a lot
+of the following with "I think".  <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+You should refer to:
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+<a href="http://home.att.net/~chmilnir/gt/">http://home.att.net/~chmilnir/gt/</a>
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+which features a tuning guide.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+The only NSX I have bought is the special model.  I hated it[*] and did
+badly with it.  Yes, lowering the damping usually prevents the bouncing
+you describe.  Increasing damping doesn't usually seem to work
+properly; I think the game simulation is not so accurate wrt to
+dampers, especially with excessively light cars.  This "bouncing"
+is not a realistic phenomenon (although it arises because of a need to
+visually exagerrate car responses, in order to provide sufficient
+feedback).  And, strangely, the bounce seems to occur when the dampers
+are *higher*.  And it seems the game does not provide enough resolution
+for damper settings; if they had reduced your available gear settings
+by a factor of 10, they might have freed up a lot of bits for use in
+such things.  <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+So, in short, I don't know.   <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+[*]Actually, I sort of like it in the "International" Series; it seemed
+very good at SSR11, with near-stock settings.  Although it would bounce
+horribly if you did hit the kerbs, the steering was so precise you
+could avoid doing so.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I used to use a lot of stabilizer (e.g. 5of5 hard).  The consensus is
+that the numbers in all three stabilizers types are the same; soft is
+just cheaper, while hard gives you the same choice, and more.  Now I
+use less; this generally seems to give cars more grip, making them
+slide less soon and thereby increases cornering speed, even though more
+body roll on the suspension is visible, especially in replays.  (In
+constrast, a car with high stabilizers is like a go-kart, seeming to
+slide early, but when learning I found this gave extra feedback).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+From what I read other places, (e.g. above) it seems that stabilizers
+make suspension "less independent".  But on the other hand, I think
+minor problems with the algorithms for depicting the car motion can
+make the motions caused by too much stabilizer look like those for
+too little.  E.g. with too little stabilizer, you might, in real life,
+get an inside wheel lifting without causing roll of the entire car,
+(although the body may roll a lot on the suspension) but with too much
+stabilizer, an inside wheel lifting will want to make the entire car
+roll (I think).  But I think the game's depiction of both situations is
+pretty similar, making diagnosis difficult.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+So my main hint (in addition to the above URL) is that you,
+counter-intuitively, might want to try reducing dampers but leaving the
+springs high.  High spring values do not seem to cause as much
+oscillation as you would in real-life expect.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+I now have one last race-series prize car to win.  The yellow '91
+Skyline in the Tuned Series (which I like to refer to as the "Abnormal"
+series).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+After that I may investigate NSX's more.  Though the first project
+would probably be trying a TypeSZero in the Normal Series.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+(I don't suppose I'll ever seriously pursue all gold license tests;
+that could be very frustrating experience, I think).
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="1999-06-08.html#Tuning_Advice">&lt;&lt;--</a>
+<a href="#Tuning_Advice">Tuning Advice
+</a><a href="1999-06-10.html#Tuning_Advice">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="1999-06-08.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="1999-06-10.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

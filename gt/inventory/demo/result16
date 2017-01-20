@@ -1,0 +1,21 @@
+
+(cached)
+
+<table border bgcolor="white">
+<tr><th></th><th>Count</th><th>Day</th><th>Slot</th><th>Manufacturer</th><th>Model Name</th><th></th><th>Max HP</th><th>Tuned PWR</th><th>Race PWR</th><th>Colour</th><th>Price</th></tr>
+<tr><td align=right>1</td><td align=right>1</td><td align=right>0001</td><td align=right>08</td><td>Mitsubishi</td><td>GTO '92</td><td>4WD</td><td align=right>381</td><td>.134</td><td>.156</td><td>fiji blue</td><td align=right>8860</td></tr>
+<tr><td align=right>2</td><td align=right>1</td><td align=right>0001</td><td align=right>13</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>gun gray metallic</td><td align=right>9840</td></tr>
+<tr><td align=right>3</td><td align=right>1</td><td align=right>0020</td><td align=right>11</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>grayish blue pearl</td><td align=right>8160</td></tr>
+<tr><td align=right>4</td><td align=right>1</td><td align=right>0020</td><td align=right>12</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>red pearl</td><td align=right>8080</td></tr>
+<tr><td align=right>5</td><td align=right>1</td><td align=right>0030</td><td align=right>12</td><td>Nissan</td><td>R32 Skyline GTS-4</td><td>4WD</td><td align=right>333</td><td>.125</td><td>.148</td><td>dark blue pearl</td><td align=right>9310</td></tr>
+<tr><td align=right>6</td><td align=right>1</td><td align=right>0040</td><td align=right>13</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>dark blue pearl</td><td align=right>9320</td></tr>
+<tr><td align=right>7</td><td align=right>1</td><td align=right>0040</td><td align=right>14</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>black pearl metallic</td><td align=right>9660</td></tr>
+<tr><td align=right>8</td><td align=right>1</td><td align=right>0040</td><td align=right>15</td><td>Nissan</td><td>R32 Skyline GTS-4</td><td>4WD</td><td align=right>333</td><td>.125</td><td>.148</td><td>dark blue pearl</td><td align=right>9810</td></tr>
+<tr><td align=right>9</td><td align=right>1</td><td align=right>0050</td><td align=right>08</td><td>Mitsubishi</td><td>GTO '92</td><td>4WD</td><td align=right>381</td><td>.134</td><td>.156</td><td>fiji blue</td><td align=right>8790</td></tr>
+<tr><td align=right>10</td><td align=right>1</td><td align=right>0050</td><td align=right>15</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>grayish blue pearl</td><td align=right>9250</td></tr>
+<tr><td align=right>11</td><td align=right>1</td><td align=right>0060</td><td align=right>09</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>grayish blue pearl</td><td align=right>9910</td></tr>
+<tr><td align=right>12</td><td align=right>1</td><td align=right>0060</td><td align=right>10</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>red pearl</td><td align=right>7860</td></tr>
+<tr><td align=right>13</td><td align=right>1</td><td align=right>0060</td><td align=right>13</td><td>Nissan</td><td>R32 Skyline GTS-t Type M</td><td>FR</td><td align=right>323</td><td>.137</td><td>.162</td><td>dark blue pearl</td><td align=right>9670</td></tr>
+<tr><td align=right>14</td><td align=right>1</td><td align=right>0090</td><td align=right>12</td><td>Nissan</td><td>R32 Skyline GTS25 Type S</td><td>FR</td><td align=right>336</td><td>.155</td><td>.181</td><td>black pearl metallic</td><td align=right>9960</td></tr>
+<tr><td align=right>15</td><td align=right>1</td><td align=right>0100</td><td align=right>12</td><td>Nissan</td><td>R32 Skyline GTS-4</td><td>4WD</td><td align=right>333</td><td>.125</td><td>.148</td><td>dark blue pearl</td><td align=right>9660</td></tr>
+</table>

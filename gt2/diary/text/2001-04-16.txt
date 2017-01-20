@@ -1,0 +1,221 @@
+Monday April 16, 2001
+
+In Supra Game, [R]Supra '95 RZ Does Reasonably Well in Grand Valley 300
+
+Threads:
+  Grand Valley 300 Results
+  Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/supra">supra</a> game
+(Maybe <a href="../logs/supra.txt">here</a>)
+I used the 1995 Toyota Supra RZ as much as possible, so I entered the
+Grand Valley 300 with the race-mod version; this was the last race left to
+do in "the game".
+</CODES>
+
+It did very well, but not quite as well as I thought it would.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: supra
+   Day: 99
+   Date: April 16, 2001
+   Race: Grand Valley 300KM Endurance Race
+   Car: Toyota [R]Supra '95 RZ
+   Qualified: 1st(+4.506) 1:39.976new
+   Result: 1st
+   Money: Cr300,000
+   Prize-Car: black/green Castrol Supra GT
+
+   Results:
+
+   1st:* [R]Supra '95 RZ        1-35:13.1new
+   2nd:  [R]GTO twinturbo        +411.234  (1-42:04.3) 4 laps
+   3rd:  [R]NSX-R LM GT2         +413.924  (1-42:07.0) 4 laps
+   4th:  [R]Impreza Rly Edition  +499.393  (1-43:32.5) 5(?) laps
+   5th:  [R]Primera'90 2.0Te     +519.935  (1-43:53.0) 5 laps
+   6th:  [R]Lantis TypeR         +778.429  (1-48:11.5) 8 laps
+
+   Pits:  12,24,36,48
+   fl(27): 1:29.686new
+
+   lap 1   1:42.788
+   slowest  non-pit   (60)  1:37.597
+             next     (47)  1:36.380
+   fastest pit laps   (48in)  1:52.202
+                      (13out) 1:38.460
+   slowest pit laps   (24in)  1:55.184
+                      (37out) 1:42.097
+
+</pre></font></tt>
+</HTML>
+
+My fastest lap during pre-race practice was 1:31.332, a mark I broke several
+times during the actual race.
+
+I had a not great start, losing a bit of control as I attempted to
+negotiate the first hairpin in proximity to the first three AI cars.
+I didn't spin out, but did end up in the kitty litter, and had to
+ease my way back on course and had to catch up.
+
+As not infrequently happens in this race, the NSX wiped out on the first
+lap on the run between the first and second hairpins.  My car easily
+regained first place before the end of the first lap.
+
+On lap 8 I lapped the Lantis, and had just lapped the Primera by my first
+stop on lap 12.  Before the next stop (probably on lap 15) I lapped the entire
+field, passing the big guns while they were in the pits, and so had a
+very big lead.
+
+When I took my second stop on lap 24 the Lantis pulled in at the same time.
+
+The race proceeded uneventfully from then, and, somehow, although I saw
+all three other cars, the GTO and the NSX were always in the pits when
+I lapped them.
+
+On lap 57, however I lapped them one last time, as they pulled out of the
+pits just a little bit ahead of me.
+
+My lap times slowed somewhat toward the end of the race.  My time
+was pretty good.  It was slightly better than I had done with the two
+Griffiths, about the same as I managed with the GTO twinturbo and almost
+as good as the Nismo 400R time.   However, I had hoped to do about
+1:30 better.
+
+I had quite a few off-road trips and partial spins during the race but
+no real spin-outs or other extremely time-consuming disasters.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Once again, for your analytical enjoyment, I here present all 60 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:42.788      1:42.788
+ 2   1:31.344      3:14.132
+ 3   1:31.795      4:45.927
+ 4   1:32.002      6:17.929
+ 5   1:31.527      7:49.456
+ 6   1:32.816      9:22.272
+ 7   1:32.608     10:54.880
+ 8   1:33.603     12:28.483
+ 9   1:34.606     14:03.089
+10   1:34.654     15:37.743
+11   1:33.794     17:11.537
+12   1:52.740     19:04.277
+13   1:38.460     20:42.737
+14   1:30.727     22:13.464
+15   1:32.748     23:46.212
+16   1:31.042     25:17.254
+17   1:32.099     26:49.353
+18   1:31.975     28:21.328
+19   1:32.346     29:53.674
+20   1:33.280     31:26.954
+21   1:33.408     33:00.362
+22   1:33.883     34:34.245
+23   1:35.836     36:10.081
+24   1:55.184     38:05.265
+25   1:39.782     39:45.047
+26   1:30.346     41:15.393
+27   1:29.686     42:45.079
+28   1:31.164     44:16.243
+29   1:32.612     45:48.855
+30   1:31.380     47:20.235
+31   1:32.958     48:53.193
+32   1:33.947     50:27.140
+33   1:34.124     52:01.264
+34   1:35.081     53:36.345
+35   1:35.323     55:11.668
+36   1:54.067     57:05.735
+37   1:42.097     58:47.832
+38   1:30.659   1-00:18.491
+39   1:31.022   1-01:49.513
+40   1:31.767   1-03:21.280
+41   1:35.016   1-04:56.296
+42   1:34.114   1-06:30.410
+43   1:33.199   1-08:03.609
+44   1:33.507   1-09:37.116
+45   1:33.762   1-11:10.878
+46   1:36.005   1-12:46.883
+47   1:36.380   1-14:23.263
+48   1:52.202   1-16:15.465
+49   1:40.922   1-17:56.387
+50   1:33.433   1-19:29.820
+51   1:33.730   1-21:03.550
+52   1:31.520   1-22:35.070
+53   1:33.521   1-24:08.591
+54   1:32.579   1-25:41.170
+55   1:35.295   1-27:16.465
+56   1:34.507   1-28:50.972
+57   1:35.216   1-30:26.188
+58   1:35.039   1-32:01.227
+59   1:34.308   1-33:35.535
+60   1:37.597   1-35:13.132
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Actual total count, at 800BDB74, was 00572CEC, or 5713132 thousandths
+of seconds.  So the above is exactly right.
+
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts
+
+Spring Rate    11.3   5.4
+Ride Height     100   100
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               7
+        1st       3.900
+        2nd       2.231
+        3rd       1.568
+        4th       1.206
+        5th       0.958
+        6th       0.793
+                  -----
+        FD        3.100
+
+Aero           0.49  0.72  (max,max)
+</table>
+</font>
+</HTML>
+
+The settings were actually the same as I used in
+the <html><b>All-night I Race</b></html> with the same car.
+
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

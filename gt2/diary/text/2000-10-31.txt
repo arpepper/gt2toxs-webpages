@@ -1,0 +1,74 @@
+Tuesday October 31, 2000
+
+(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Competitor Lists
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+In Simulation Race mode, you can track down the competitors in
+the event structures.   Here is the Normal Series.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   80090A48 -> 8008C228 -> "hnsnn" (Acura NSX TypeSzero)
+   80090A4C -> 8008C4D0 -> "t-rdn" (Toyota TRD3000GT)
+   80090A50 -> 8008C1F0 -> "siphn" (Subaru Impreza)
+   80090A54 -> 8008C1D0 -> "afa7n" (Mazda FD RX-7 Aspec)
+   80090A58 -> 8008C110 -> "nr34n" (Nissan R34 Skyline GT-R)
+   80090A5C -> 8008C178 -> "mlnnn" (Mitsubishi Lancer EvoIII GSR)
+</pre></font></tt>
+</HTML>
+
+<CODES>
+Now you can't use the <b>GS Pro</b> memory editor to patch these
+because by then it is too late.
+
+But you can create a boot code to change some of those values.
+
+When you do that, it is easiest to change the pointers.
+
+For instance, I created a code.
+
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   D0090A48 C228
+   80090A48 C1D0
+   D0090A4C C4D0
+   80090A4C C1F0
+</pre></font></tt>
+</HTML>
+
+This replaced the NSX with the FD RX-7, and the TRD 3000GT with the
+Subaru Impreza.  However, I'm such a rotten driver, I still lost again
+the resulting field (which included two RX-7's) when I entered a Lancer
+Evolution IV GSR.   8-(   I won the first three races easily, but
+got completely destroyed on the third, coming sixth, and then finished
+third in the last race.  I first-lap accident put me behind, and I
+couldn't catch the two RX-7's, but I think I was falling behind them,
+and they finished further ahead of me than the accident itself would
+account for.
+
+Note that you cannot set entrant cars to be things which the game
+does not expect for that event.  If, for instance, you arrange
+that the NSX is replaced by a Viper GTS, you get a strange, 174
+bhp FF Viper GTS weighing about 1700 pounds.  A refugee from the
+FF or Lightweight Series, I think, as the game gets mixed up.  The
+wheels are the wrong size; the car looks sort of like a Honda CRX
+or something running around with a Viper body shell mounted on
+top of it!  8-)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

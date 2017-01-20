@@ -1,0 +1,139 @@
+Thu Mar 25, 1999
+
+Wow, what a concept! (car, that is)
+
+Threads:
+  Prize Car Information
+  Prize Car Patterns
+  Used Car Patterns
+  Tuning Advice
+  Brake Balance Controller
+  Driving Advice
+
+So, a red Viper is good, but last night I gave the Concept Car its
+first real test.  I had read about how badly tuned it was, and never
+got around to trying, and besides, although light, it sounds
+underpowered (in two senses; er, oh.  560hp maybe not, after all; ah
+it's a very different "Concept" from the one I will never win and also
+the Arcade version).  Anyway, it looks funny, and purple has an
+excessive amount of aerodynamic drag, so it had stayed neglected in a
+corner of my garage.  Oh yes, and you see the AI Concept Cars trailing
+around at the end of the USvs series like sick puppies, so you assume
+yours won't do much better...  I hear there is a yellow one to win
+too.  Yellow is a faster colour, but yellow cars are prone to
+breakage.  Not a problem in Gran Turismo, I suppose (though there was
+that time my Barracuda 2 broke during SSR11...)
+
+Well, last night I took it out for its first real test.  I'd been playing
+with various stuff in a "non-real" game (i.e. left blank names in some
+Machine Test records, etc).  So, sorting out the gearing is pretty trivial.
+As a rough approximation, I just cranked the final drive down to a
+lower number, about 3.6 I think.  So it's first time trial of GVEii is
+almost exactly the same as I ever managed with the Viper GTS-R.  That's
+with strange bottoming out or something due to suspension problems.  (I
+had cranked the aero full up, though).
+
+Thread: Tuning Advice
+
+So I tweaked a few things, assuming I would get the Jet Jaguar FAQ
+today.  I actually did things backwards.  I couldn't see why such
+a light car would bottom out, but that was what it looked like.  So
+I raised the rear spring rate and reduced the rear stabilizer to
+1 (to stop the car pissing on trees) and I think reduced the
+dampers, and I jacked the rear end up; I saved the settings so I'll
+restore them and perhaps write them down to send to you).  Anyway, with
+those changes it went out and became the first car I have driven around
+two laps of GEVii in under 1:50, and I felt I couldn't save the record
+because of the mess I'd made of others.
+
+So I guess today I'll try some more records.  I'd actually never
+noticed it had a full 560bhp, about all you can usefully use.  I wonder
+why its wheels don't spin more?
+
+In short, once won, this definitely does seem to be the car to win the
+USvs series, and set records in general.
+
+
+[Now a response to someone who asked me a simple question.  Oops]
+
+I found a fully-tuned, race-modified TVR Cerbera to be good for winning
+UKvsJP and UKvsUS.  If you win UKvsJP a couple of times, you will win a
+Cerbera LM, similar, a little heavier but more powerful (all-round
+better).  Or a fully race-modified Viper can win the USvs series; it's
+perhaps a little harder to control.  But that Viper is better than the
+prize Viper you win for USvsJP.  Or, yeah, the big Japanese monsters
+can win too.  I found a race-modified Supra RZ sufficient; I actually
+used the Normal Car prize car; it specs exactly the same as the for
+sale one, so should be the same.  If you win the GT Cup you get a
+Toyota Chaser LM; nice-looking, but barely enough to win the JPvs
+Series.  I.e. I lost with it last weekend, and think if I practised
+and was lucky I might win.  It's the theoretical fast way to break
+into the International Serieses (which give prize cars which can almost
+win the other series; well the Cerbera LM runs away with its two), but
+in practice you're better to enter lots of other races, save up cash,
+and build yourself a car.
+
+Thread: Driving Advice
+
+Thread: Brake Balance Controller
+
+You actually need to brake quite a lot in Gran Turismo, no two ways
+about it.  I'm not sure how tuning "brake controller" settings will
+interact with a digital controller; with analog brakes I always use
+14F/12R--I've never really noticed serious braking drift problems)  But
+a Cerbera LM with full aero will come off the long straight at Grand
+Valley East ii (e.g.  in FR series), and needs only to drop down to 5th
+if you line it up right.  (That's assuming reasonable gearing, of
+course).  Often you can downshift instead of braking, that will slow
+you down, and, if you steer at the same time, provoke drift.
+
+Thread: Used Car Information
+
+I hate the four wheel drive cars because they go where the wheels are
+steering.  8-)  I.e. it's difficult to control them with the throttle
+since all four wheels get torque.  A fully-tuned '89 Skyline GT-R is
+almost unbeatable, though.  In hard-tuned (ie non-racing) mode, I found
+that and the GTO pretty much equal.  Well, maybe the Skyline had a
+slight advantage.  In racing trim, the Skyline is very close to the the
+Cerbera LM.  Be careful at the Nissan dealership, though; not all
+Skylines are created equal.  They're not even all 4wd!  And that GTS4
+4wd you can get for a bargain price (ie <10000) on a few days can only
+be tuned to 333bhp; probably not enough to win the 4WD series, let
+alone a JPvs series.  Oh, the way I found best to run the Skyline was
+with Turbo Spec 4 but with "normal" intercooler setting, and a
+semi-racing exhaust.  I.e. ignore what the game says about the
+"intercooler being mandatory for a turbo car".  Not having one
+minimizes the "turbo lag" problem, while still giving you over 800
+bhp.  Turbo lag in general seemed less noticeable with the Mitsubishi.
+To get two-wheel drive advantages, try the race-modified Supra RZ.
+
+Similar to the bargain Skyline, the '92 GTO you can get from Mitsubishi
+on day 1 for Cr8860 can only be taken to 381bhp.  To be able to tune
+to 930bhp, you must get one which says "Twin Turbo".
+
+The car I currently have under investigation is the tuned Concept Car
+prize car, 560bhp and 1329lb(!), which you might eventually win if you
+compete enough times in the UKvsUS series.
+
+Probably your next project should be to get a suitable Skyline or GTO
+to near max spec, and win the MegaSpeed Challenge a few times to get
+some cash.
+
+If you buy a Viper GTS, and do the IA Viper tests, and perhaps some
+Viper time trials, you might get good enough to win the "Normal Car"
+contest, which gives you lots of cash.  When I did my IA, I did the
+Griffiths tests first, then went back and finished the Viper tests.
+That minimized the problems with learning two cars.  After doing the
+IA, the Normal Car series seems almost easy with a Viper.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

@@ -1,0 +1,602 @@
+head	1.13;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.13
+date	2003.04.06.19.27.48;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2002.04.28.23.22.57;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2002.04.19.02.58.27;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2002.04.11.02.19.22;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2002.02.19.04.25.25;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2002.02.11.04.42.43;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2002.02.11.03.30.18;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.01.22.03.05.21;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.10.16.03.08.57;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.10.13.19.27.13;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.10.09.02.16.38;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.09.30.18.54.11;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.09.30.18.29.40;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Main GT1 game.
+@
+
+
+1.13
+log
+@We fixed garage program to allow MA70, so changed work-arounds to use
+"MA70" instead of work-around.
+@
+text
+@   1-5445 IA8
+
+   Emulate our garage...
+   5446 buy car MA70  Red Mica Toyota MA70 Supra GT Turbo Limited
+   5446 buy car Demio   Demio(prize, Sunday)
+   5446 buy car GT4   Super Red IV Toyota Celica GT-FOUR
+   5446 buy car Eclipse  Pasadena Red Mitsubishi Eclipse GT
+   5446 buy car [R]Demio   Demio(prize, Sunday)([R] mod)
+   5446 buy car stockCerbera Raspberry Metallic TVR Cerbera
+   5446 buy car [R]Cerbera Raspberry Metallic TVR Cerbera (for [R]-mod)
+   5446 buy car [R]Eclipse  Pasadena Red Mitsubishi Eclipse GT (for [R]-mod)
+   5446 buy car whiteCivic Championship White Honda Civic(Racer)
+   5446 buy car Legacy Gray Opal Subaru Legacy Touring Sedan RS
+   5446 buy car [R]Legacy Gray Opal Subaru Legacy Touring Sedan RS
+   5446 buy car FTOGPvR  Passion Red Mitsubishi FTO GP Version R
+   5446 buy car [R]FTO Passion Red Mitsubishi FTO GP Version R (for [R]-mod)
+   5446 buy car yellowCivic  yellowCivic(prize, Lwt)
+   5446 buy car Camaro Camaro(prize, Clubman)
+   5446 buy car [R]ChaserLM  ChaserLM(prize, GTC)
+   5446 buy car tunedGT-R'89 Red Pearl Metallic Nissan R32 Skyline '89 GT-R
+   5446 buy car [R]GT-R'89 Red Pearl Metallic Nissan R32 Skyline '89 GT-R (for [R]-mod)
+   5446 buy car redDB7  redDB7(prize, Mega)
+   5446 buy car stockViper  Red Dodge Viper GTS
+   5446 buy car green[R]CerberaLM  greenCerbera(prize, UKvsJP)
+   5446 buy car green[R]RX7  greenRX7(prize, UKvsUS)
+   5446 buy car blue[R]Viper ViperWblueSt(prize, USvsJP)
+   5446 buy car Griffith   Pearl Gold TVR Griffith 4.0(stock)
+   5446 buy car red[R]delSol  red delSol(prize, UKvsJP)
+   5446 buy car green[R]FTOLM   greenFTO(prize, USvsJP)
+   5446 buy car [R]MA70  Red Mica Toyota MA70 Supra GT Turbo Limited (for [R]-mod)
+   5446 buy car purple[R]ConceptCar   purpleConceptCar(prize, UKvsUS)
+   5446 buy car whiteAlcyone  whiteAlcyone(prize, 4wd)
+   5446 buy car tunedCerbera  Cooper Green Metallic TVR Cerbera
+   5446 buy car yellowCelica  yellowCelica(prize, FF)
+   5446 buy car stockGT-R'89 Red Pearl Metallic Nissan R32 Skyline '89 GT-R
+   5446 buy car tunedMA70  Red Mica Toyota MA70 Supra GT Turbo Limited (hard-tuned)
+   5446 buy car tunedSupraRZ  orangeSupraRZ(prize, Normal)
+   5446 buy car tunedGTO  Mariana Blue Mitsubishi GTO twin turbo (hard-tuned)
+   5446 buy car tunedGlanza  Purplish Blue Mica Metallic Toyota Starlet Glanza V (hard-tuned)
+   5446 buy car stockSupraRZ  ltBlueSupraRZ(prize, Normal)
+   5446 buy car [R]SupraRZ  orangeSupraRZ(prize, Normal)
+   5446 buy car [R]Viper   Red Dodge Viper GTS (for [R]-mod)
+   5446 buy car blue[R]RX7  blueRX7(prize, UKvsUS)
+   5446 buy car [R]NSX-LM   Red Acura [R]NSX-R LM GT2
+   5446 buy car [R]RX7LM  Red Mazda [R]RX-7 LM Edition
+   5446 buy car [R]GTOLM  Silver Mitsubishi [R]GTO LM Edition
+   5446 buy car [R]NismoLM  White and Pink Nissan [R]Nismo GT-R LM
+   5446 buy car [R]ImprezaRly  Blue Subaru [R]Impreza Rally Edition
+   5446 buy car white[R]CastrolSupra  White and Green Toyota [R]Castrol Supra GT
+   5446 buy car yellowLancer  yellowLancer(prize, 4wd)
+   5446 buy car [R]GTO'95MR  Passion Red Mitsubishi GTO '95 MR (for [R]-mod)
+   5446 buy car black[R]CastrolSupra   black/greenSupra(prize, GV300)
+   5446 buy car yellowSoarer  yellowSoarer(prize, Mega)
+   5446 buy car yellowSilEighty  yellowSilEighty(prize, FR)
+   5446 buy car [R]SilviaLM   greenSilviaLM(prize, All-nightI)
+   5446 buy car [R]Civic'93si  Red Honda Civic 3dr '93 Si (for [R]-mod)
+   5446 buy car [R]PreludeVTEC  Red Honda Prelude '84 VTEC (for [R]-mod)
+   5446 buy car yellowCRX  yellowCRX(prize, FF)
+   5446 buy car goldEunos  goldEunos(prize, Lwt)
+   5446 buy car Galant  Palma Red Mitsubishi Galant VR-4 (hard-tuned)
+   5446 buy car GTO'95MR  Passion Red Mitsubishi GTO '95 MR
+   5446 buy car green[R]Viper  ViperWgreenSt(prize, USvsJP)
+   5446 buy car silverNismo  silverNismoGT-R LM(prize, All-nightII)
+   5446 buy car black[R]FTOLM  blackFTO(prize, USvsJP)
+   5446 buy car red[R]SilviaLM  redSilviaLM(prize, All-nightI)
+   5446 buy car [R]DB7  purpleDB7(prize, Mega)
+   5446 buy car yellowS13  yellowS13Silvia(prize, FR)
+   5446 buy car [R]FCRX7  Mazda Savanna RX-7 FC GT-X (for [R]-mod)
+   5446 buy car [R]G500  Macao Yellow TVR Griffith 500 (for [R]-mod)
+   5446 buy car [R]G4.0  Macao Yellow TVR Griffith 4.0 (for [R]-mod)
+   5446 buy car [R]CerberaLM  purpleCerbera(prize, UKvsJP)
+   5446 buy car [R]Corvette  Red Chevrolet Corvette'96 Coupe (for [R]-mod)
+   5446 buy car [R]CorvetteGS  Chevrolet Corvette'96 Grand Sport (for [R]-mod)
+   5446 buy car yellow[R]ConceptCar   yellowConceptCar(prize, UKvsUS)
+   5446 buy car redOrangeSoarer  redOrangeSoarer(prize, Mega)
+   5446 buy car orangeImpreza  orangeImpreza(prize, Normal)
+   5446 buy car stockG500  Macao Yellow TVR Griffith 500
+   5446 buy car blueTrueno  blueTrueno(prize, Abnormal)
+   5446 buy car blue'91GT-R  blueSkyline(prize, Abnormal)
+   5446 buy car tunedViperRT  Red Dodge Viper RT/10 (hard-tuned)
+   5446 buy car yellow'91GT-R  yellowSkyline(prize, Abnormal)
+   5446 buy car NSXtSzero  Grand Prix Red Acura NSX Type S Zero
+   5446 buy car [R]GT4   Super Red IV Toyota Celica GT-FOUR (for [R]-mod)
+   5446 buy car tunedNSX  Grand Prix Red Acura NSX Type S Zero (hard-tuned)
+   5446 buy car Silvia'88Q  Super Red Nissan S13 Silvia '88 Q's 1800cc
+   5446 buy car redSupraRZ  Super Red IV Toyota Supra RZ (hard-tuned)
+   5446 buy car [R]SupraRZ  Super Red IV Toyota Supra RZ (for [R]-mod)
+   5446 buy car tunedDemio  Demio(prize, Sunday)
+   5446 buy car tunedGTO'92  Fiji Blue Mitsubishi GTO '92 (hard-tuned)
+   5446 buy car [R]GTO'92  Fiji Blue Mitsubishi GTO '92 (for [R]-mod)
+   5446 buy car ImprezaWG'84  Active Red Subaru Impreza '94 Wagon WRX (hard-tuned)
+   5446 buy car [R]ImprezaWG'84  Active Red Subaru Impreza '94 Wagon WRX (for [R]-mod)
+   5446 buy car ConceptCar  orangeConceptCar(prize, B-license)
+   5446 buy car silver400R  silver400R(prize, IA-license)
+   5446 buy car [R]400R  silver400R(prize, IA-license)
+   5446 buy car red400R  red400R(prize, IA-license)
+   5446 buy car yellow400R  yellow400R(prize, IA-license)
+   5446 buy car gray400R  gray400R(prize, IA-license)
+   5446 buy car [R]Primera'95  Nissan Primera '95 2.0Te (for [R]-mod)
+   5446 buy car [R]IntegraR  Acura Integra Type-R (for [R]-mod)
+   5446 buy car [R]EXIV200GT  Toyota Corona EXIV 200GT (for [R]-mod)
+
+March 23, 2001
+5446-5451 tunedMA70     UKvsJP  2nd30to30,23,23,10,9            8-(
+   5452 Cr56,402,332
+5452-5457 [R]CerberaLM  UKvsJP sw45to25,21,16,9,9      black delSol(dup)(sold)
+   5458 Cr56,487,332  Cr56,499,332
+5458-5463 [R]CerberaLM  UKvsJP sw45to25,20,18,11,6     black delSol(dup)(sold)
+   5464 Cr56,584,332  Cr56,596,332
+   5464 power off
+
+March 25, 2001
+5464-5469 tunedMA70      UKvsJP  1st35to24,21,20,18,6  black delSol(dup)(sold)
+   5470 Cr56,659,332  Cr56,671,332
+5470-5475 tunedMA70   Abnormal  1st34to28,25,17,11,5     redSkyline(dup)(sold)
+   5476 Cr56,971,332  Cr56,983,332
+   5476 power off
+
+September 23, 2001
+5476-5493 A1  S  32.486    4:47.762
+   5494 power off
+
+September 24, 2001
+5494-5499 A1  S  32.429    4:47.705
+   5500 power off
+
+September 27, 2001
+5500-5519 A1  S  32.426    4:47.702
+   5520 power off
+
+September 28, 2001
+5520      A1  G  32.335    4:47.611
+5521-5525 A1  S  43.056    4:47.490   (start 43.177)
+5526-5529 A1  S  43.026    4:47.460
+5530-5532 A1  S  42.987    4:47.421
+5533-5536 A1  S  42.832    4:47.266   (N.B. had a 44.000 pass 8-) )
+5537-5541 A1  S  42.815    4:47.249
+5542-5544 A1  G  42.765    4:47.199
+   5545 power off
+
+September 29, 2001
+5545-5551 A8  S  1:05.978  4:47.188
+   5552 power off
+5552-5554 A8  S  1:05.962  4:47.172
+
+5555-5559 [R]Demio  GTC  1st36to22,18,9,9,6                ChaserLM(dup)(sold)
+   5560 Cr57,048,332  Cr57,060,332
+5560-5564 tunedDemio  GTC  2nd30to(30),14,12,10,4                  8-(
+   5565 Cr57,094,332
+5565-5569 tunedDemio  GTC  q6*1st36to24,15,13,7,5          ChaserLM(dup)(sold)
+   5570 Cr57,159,332  Cr57,171,332
+   5570 power off
+
+October 03, 2001
+5570-5576 [R]ChaserLM  GTI  H3T2D4,1st40to37,30,24,12,7          credits
+   5577 Cr57,309,332
+   5577 power off
+
+October 04, 2001
+5577-5580 yellowCRX  Sunday  q4Aq6*,1st27to16,14,9,6,3        Demio(dup)(sold)
+   5581 Cr57,333,332  Cr57,345,332
+   5581 power off
+
+October 05, 2001
+5581-5587 [R]ChaserLM  GTI  H2D4,1st46to33,31,18,15,7            credits
+   5588 Cr57,309,332
+   5588 power off
+
+October 06, 2001
+5588-5623 A8  S  1:05.904  4:47.114 finally below demo 8-), forgot to save 8-(
+5624-5626 A8  S  1:05.877  4:47.087
+5627-5630 A8  S  1:05.854  4:47.064  no non-silver records
+   5631 power off
+   
+October 08, 2001
+5631-5640 A8  S  1:05.841  4:47.051
+5641      A8  S  1:05.728  4:46,938
+5642-5645 A8  S  1:05.689  4:46.899
+   5646 power off
+
+October 12, 2001
+5646-5674 A8  G  1:05.581  4:46.791    gold 1:05.600
+   5675 power off
+
+October 13, 2001
+5675      A5  S  0:30.438  4:46.660    silver 0:30.700  demo 0:30.591
+5676-5678 A5  S  0:30.319  4:46.541
+   5679 power off
+5679-5691 A5  G  0:30.189  4:46.411    gold 0:30.200
+   5692 power off
+
+October 14, 2001
+5692-5701 A4  S  0:37.618  4:46.281    silver 0:38.300  prev P.B. 0:37.748
+   5702 power off
+5702-5704 A4  S  0:37.523  4:46.186    demo 0:37.594
+5705-5712 A4  S  0:37.484  4:46.147
+5713-5732 A4  G  0:37.344  4:46.007    gold 0:37.400
+   5733 buy car TRD3000GT  silverTRD3000GT(prize, Alicense)
+   5733 Cr57,309,332  99cars, 8G, 8G, 8G
+   5733 power off
+
+October 18, 2001
+   5733 mod car TRD (alias TRD3000GT)
+5733-5736 TRD  FR  q6*1st27to15,14,12,6,6           yellowSilEighty(dup)(sold)
+   5737 Cr57,535,332  Cr57,535,332   Note: no Supra
+   5737 power off
+
+October 19, 2001
+5737-5742  TRD   Normal  G2D2q1C1st39to36,19,14,12,5  yellowImpreza(dup)(sold)
+   5743 Cr57,827,332  Cr57,839,332   Note: no R33
+   5743 power off
+
+October 22, 2001
+5743-5748  TRD   Normal  G2D2q1S1st39to36,19,15,l1,5  ltBlueSupraRZ(dup)(sold)
+   5749 Cr58,119,332  Cr58,131,332   Note: no RX7
+   5749 power off
+
+October 27, 2001
+5749-5750 A2  G  0:24.694  4:45.943    gold 0:23.760
+5751-5752 A7  G  0:26.705  4:45.720    gold 0:29.500
+5753-5761 B7  G  0:25.720  4:28.672    gold 0:25.750
+   5762 power off
+5762-5763 B2  G  0:26.336  4:28.672    gold 0:26.400
+   5764 power off
+
+February 09, 2002
+   5764 mod car [R]GTO'92SR (alias [R]GTO'92)
+5764      TT [R]GTO'82SR  GV    1:46.522 + 1:39.784 = 3:26.316
+   5765 Cr58,131,332
+5765-5770 [R]GTO'92SR   UKvsJP  2nd32to29,20,20,13,11           8-(
+   5771 Cr58,161,332
+5771-5776 [R]GTO'92SR   UKvsJP  1st39to25,25,17,11,8    greenCerbera(dup)(sold)
+   5777 Cr58,225,332   Cr58,237,332
+5777      TT [R]GTO'82SR  GV    1:45.558 + 1:39.660 = 3:25.218
+   5778 Cr58,237,332
+   5778 power off
+
+February 10, 2002
+5778-5779 [R]GTO'92SR       GV300   3rd                         8-(
+   5780 Cr58,387,332
+5780      TT [R]GTO'82SR  GV    1:44.969 + 1:38.697 = 3:23.666
+5781-5786 [R]GTO'92SR   USvsJP  1st33to31,25,21,8,7     ViperWblueSt(dup)(sold)
+   5787 Cr58,444,332   Cr58,456,332
+   5787 power off
+
+February 11, 2002
+5787-5792 [R]CorvetteGS  UKvsUS sw45to23,21,20,9,7  purpleConceptCar(dup)(sold)
+   5793 Cr58,541,332   Cr58,553,332
+   5793 power off
+
+February 12, 2002
+   5793 mod car [R]ConceptCar  (alias yellow[R]ConceptCar)
+5793-5798 [R]ConceptCar  UKvsUS sw45to30,19,11,11,9 purpleConceptCar(dup)(sold)
+   5799 Cr58,638,332   Cr58,650,332
+   5799 power off
+
+February 13, 2002
+5799-5805 [R]ConceptCar  GTI  sw54to36,24,15,13,8             credits
+   5806 Cr58,880,332
+   5806 power off
+
+February 14, 2002
+5806-5811 stockG500  Normal  q6S1st45to30,20,14,11,5  ltBlueSupraRZ(dup)(sold)
+   5812 Cr59,270,332   Cr59,282,332
+5812-5815 yellowSilEighty  Sunday  q5H1st27to18,12,9,5,4      Demio(dup)(sold)
+   5816 Cr59,309,332   Cr59,321,332
+   5816 power off
+
+February 17, 2002
+note: Sell cars used for Normal; try to keep total to 98 cars
+   5816 sell entry 79 Grand Prix Red Acura NSX Type S Zero  Cr47,880
+   5816 sell entry 74 Macao Yellow TVR Griffith 500         Cr49,920
+   5816 sell entry 24 Pearl Gold TVR Griffith 4.0           Cr48,024
+   5816 sell entry 20 Red Dodge Viper GTS                   Cr59,142
+   5816 Cr59,526,298   95 cars
+   5816 buy car RX7Aspec  Competition Yellow Mica Mazda efini RX-7 Aspec (Cr45,150)
+   5816 Cr59,481,148   96 cars
+5816-5821 RX7Aspec   Normal  2nd36to(35),22,15,12,5                8-(
+   5822 Cr59,643,148
+   5822 buy car redRX7'91  Vintage Red Mazda RX-7'91 Type R  (Cr17,590)
+   5822 Cr59,625,558
+5822-5828 [R]Cerbera     GTI  q2Hq4T1st54to30,26,22,12,6      credits
+   5829 Cr59,835,558
+   5829 power off
+
+April 7, 2002
+5829-5834 tunedCerbera Abnormal q2G1st45to27,18,17,13,5 blueSkyline(dup)(sold)
+   5835 Cr60,225,558   Cr60,237,558   97cars
+   5835 power off
+
+April 11, 2002
+5835-5836 tunedDemio  Spot/TM        q1st1st                   none
+   5837 Cr60,239,058
+5837-5838 tunedDemio  Spot/TM        q1st1st                   none
+   5839 Cr60,240,558
+5839-5840 tunedDemio  Spot/TM        q1st1st                   none
+   5841 Cr60,242,058
+5841-5842 tunedDemio  Spot/TM        q1st1st                   none
+   5843 Cr60,243,558
+5843-5844 MA70        Spot/TM        q6th1st                   none
+   5845 Cr60,244,558
+   5845 power off
+
+April 14, 2002
+   5845 mod car [R]FTOGPvR (alias [R]FTO)
+5845-5848 [R]FTOGPvR   Lwt  sw27to18,12,8,6,4           yellowCivic(dup)(sold)
+   5849 Cr60,275,558   Cr60,287,558
+5849-5852 [R]FTOGPvR   FF   sw27to18,11,10,6,3              blueCRX(dup)(sold)
+   5853 Cr60,317,058   Cr60,329,058
+   5853 power off
+
+April 16, 2002
+5853-5856 [R]Eclipse   FF   sw27to18,12,9,6,3           greenCelica(dup)(sold)
+   5857 Cr60,358,558   Cr60,370,558
+   5857 power off
+
+April 17, 2002
+5857-5862 [R]Eclipse    USvsJP  q4Tq6H1st45to27,19,18,9,7  blackFTO(dup)(sold)
+   5863 Cr60,449,558   Cr60,461,558
+   5863 power off
+
+April 19, 2002
+   5863 buy car NSXtypeS0  normal Grand Prix Red Acura NSX Type S Zero (Cr98,570)
+   5863 Cr60,362,988
+5863-5868 NSXtypeS0  Normal  1st40to33,21,16,10,5       blueImpreza(dup)(sold)
+                             q4Gq6D3q2S1st40to33,21,16,10,5
+   5869 Cr60,687,988   Cr60,699,988
+   5869 power off
+
+April 20, 2002
+5869-5874 NSXtypeS0  Normal q6D21st42to33,19,16,10,5  orangeImpreza(dup)(sold)
+   5875 Cr61,049,988   Cr61,061,988
+   5875 power off
+
+April 21, 2002
+5875-5880 NSXtypeS0  Normal 1st39to36,20,14,11,5        blueImpreza(dup)(sold)
+                            q4D2S2,1st39to36,20,14,11,5
+   5881 Cr61,371,988   Cr61,383,988
+5881-5884 NSXtypeS0  Clubman  q6*,A3C3,2nd19to(19),17,8,6,6  none 8-(
+   5885 Cr61,397,988
+   5885 power off
+
+April 23, 2002
+5885-5890 NSXtypeS0  Normal q4D2,1st42to33,19,14,12,5   blueImpreza(dup)(sold)
+   5891 Cr61,747,988   Cr61,759,988
+   5891 buy car RT/10    Red Dodge Viper RT/10 (normal)  (Cr68,800)
+   5891 Cr61,691,188
+5891-5896 RT/10     Normal sw45to30,18,15,12,5          blueImpreza(dup)(sold)
+   5897 Cr62,091,188   Cr62,103,188
+   5897 power off
+
+April 25, 2002
+5897-5900 NSXtypeS0  Clubman  q6*,A2C2,2nd22to(21),14,8,6,4  none 8-(
+   5901 Cr62,120,188
+   5901 mod car NSXtypeS0  S/S only
+5901-5904 NSXtypeS0       Clubman sw27to14,14,10,7,3         Camaro(dup)(sold)
+   5905 Cr62,168,688   Cr62,180,688
+   5905 power off
+
+April 26, 2002
+   5905 sell entry 98 Grand Prix Red Acura NSX Type S Zero  Cr47,880
+   5905 Cr62,239,830
+   5905 buy car NSX'93  Formula Red Acura NSX'93 (Cr65,940)
+   5905 Cr62,173,890
+5905-5910 NSX'93     Normal G2D4,2nd36to(36),21,16,11,5      none 8-(
+   5911 Cr62,337,890
+   5911 power off
+
+April 27, 2002
+5911-5916 NSX'93     Normal G2D4,2nd36to(36),21,15,11,6      none 8-(
+   5917 Cr62,521,890
+5917-5922 NSX'93    Normal G2D3,1st37to36,21,14,11,6  purpleSupraRZ(dup)(sold)
+   5923 Cr62,786,890   Cr62,798,890
+   5923 power off
+@
+
+
+1.12
+log
+@Normal races with NSX's.
+@
+text
+@d4 1
+a4 2
+note: stupidity A7 in MA70 is seen as license test...
+   5446 buy car ma70  Red Mica Toyota MA70 Supra GT Turbo Limited
+d30 1
+a30 1
+   5446 buy car [R]ma70  Red Mica Toyota MA70 Supra GT Turbo Limited (for [R]-mod)
+d36 1
+a36 1
+   5446 buy car tunedMa70  Red Mica Toyota MA70 Supra GT Turbo Limited (hard-tuned)
+d104 1
+a104 1
+5446-5451 tunedMa70     UKvsJP  2nd30to30,23,23,10,9            8-(
+d113 1
+a113 1
+5464-5469 tunedMa70      UKvsJP  1st35to24,21,20,18,6  black delSol(dup)(sold)
+d115 1
+a115 1
+5470-5475 tunedMa70   Abnormal  1st34to28,25,17,11,5     redSkyline(dup)(sold)
+d300 1
+a300 1
+5843-5844 ma70        Spot/TM        q6th1st                   none
+@
+
+
+1.11
+log
+@Record-breaking mostly.  8-)
+Plus Stingray hunting.
+@
+text
+@d322 54
+@
+
+
+1.10
+log
+@A Tuned Series with the Cerbera.
+@
+text
+@d289 1
+d291 31
+@
+
+
+1.9
+log
+@A few races.  Also new-style "sell entry" lines.
+@
+text
+@d286 4
+@
+
+
+1.8
+log
+@Didn't go to sleep when I thought I would.  8-)
+@
+text
+@d244 1
+a244 1
+   5787 Cr58,387,332
+d246 40
+@
+
+
+1.7
+log
+@A little more stuff.  Playing with the GTO'92SR.
+@
+text
+@d243 3
+a245 3
+   5781 Cr58,387,332
+   5781 power off
+
+@
+
+
+1.6
+log
+@Finished playing this game, for now.
+@
+text
+@d226 20
+@
+
+
+1.5
+log
+@Finished A license golds.
+Won TRD3000GT  8-)
+@
+text
+@d203 23
+@
+
+
+1.4
+log
+@Gold on A-8 !!!
+@
+text
+@d183 1
+a183 1
+5646-5674 A8  G  1:05.581  4:46.791
+d185 18
+@
+
+
+1.3
+log
+@Some races, some A-8 attempts getting close, but not gold...
+@
+text
+@d181 4
+@
+
+
+1.2
+log
+@Added license tests.
+Added Demio at GTC,
+@
+text
+@d154 27
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d120 34
+@

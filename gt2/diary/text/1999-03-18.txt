@@ -1,0 +1,58 @@
+Thu Mar 18, 1999
+
+Crash Bandicoot 3 Motorcycle Racing Tips
+
+Threads:
+  Other Games
+  Crash Bandicoot
+
+I didn't make any Gran Turismo notes for today, so I'll include these
+tips I wrote for the second Motorcycle Racing level of Crash
+Bandicoot 3.  8-)
+
+I did use the brake to help esse around the barriers without crashing
+through them, and without slowing down too much too soon.  I think I
+even managed to pick up the speeder upper after the barrier without
+crashing through it.  The brakes can help on some of the sharper
+corners, too.  By using the brake you can start slowing down later,
+and are more likely to stay on the road.  I don't think the game
+sends you out of control if you brake in the corner.
+
+If you can't memorize the course (I think it's the same each time, 
+isn't it?) you can watch the cars to tell you which ramp to go around
+instead of up.  You probably figured that out already.
+
+When approaching a "moving" police car, slow down and try and time
+things so you almost hit it, and they will then be moving away when you
+arrive.  This seemed to work better on the right side of the road.
+
+In general, it seems if you have a choice you want the left side of
+the road, in order to have an easier time running over the speeder
+uppers, etc.
+
+Don't panic if you end up in the ditch, but get out as soon as
+possible.  The opponent cars seem to take to the ditch not
+infrequently; going into the ditch  seems to be one way of getting
+around the police cars, but I'm not sure how your time penalty
+for that compares to the opponent cars' penalty.
+
+In general, look a long way down the road to plot your trajectory
+around barricades, holes, police cars, oppenents, over speeder-uppers,
+not to mention around corners, etc.  And modify your speed so you can
+make the maneuvers necessary, but speed up whenever you can.
+
+You can steer in the air, and don't need to worry about the alignment
+of the wheel when you land (contrary to real-life).  So if you seem
+to be jumping into a hole, you might be able to steer away from it.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

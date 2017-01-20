@@ -1,0 +1,502 @@
+head	1.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.10
+date	2003.04.06.18.05.57;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.04.06.17.55.08;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2000.12.18.19.21.31;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2000.11.22.22.49.09;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.11.21.22.27.19;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.11.17.19.08.01;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.11.14.22.22.37;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.11.12.22.03.45;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.11.12.21.58.42;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.11.07.23.46.05;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Up to day 113
+Not much to go...
+@
+
+
+1.10
+log
+@Another mistake.
+@
+text
+@
+November 04, 2000
+       (November 5, 1999)
+       I wanted to get all gold cups, but not necessarily in a minimal game.
+       I started licences over again, and said I would try once, then
+       reset.  I would then try up to 5 times for practise.  If the first
+       of those passed, I would count it, otherwise I would eventually reset
+       again and then accept as many days as it took me.
+
+       I allowed myself to enter races more than once, but tried to avoid
+       it, and I said I would use the Lancer Evolution IV GSR as much as
+       possible.  (I ended up entering the 4WD series 4 times, to get
+       three Lancers)
+
+       I also said that I would allow myself to sell duplicate prize cars.
+       I also decided later to try and use cars I had not used before for
+       various events.  (The Lancer was one of these, of course).
+
+   1      B4 1 try  0:25.390 silver
+   2      B5 1 try  0:24.076 silver
+   3      B3 1 try  0:28.639 bronze
+   4      B6 1 try  0:26.970 silver
+   5      B7 1 try  0:26.630 bronze
+   6      B1 1+1 try 0:35.512 bronze
+   7      B2 1+1 try 0:26.735 bronze
+   8      B8 1 try 1:20.986 bronze
+   9   B license acquired  4:34.938
+
+   9      A1 1+1 try  0:33.047 bronze
+
+  10   buy car Silvia'88 lime green 2tone Nissan '88 Silvia Q's 1800cc(Cr3,450)
+
+  10   Cr6,550   1 car
+  10-13   Silvia'88 Sunday  q6*1st27to15,10,10,10,3           Demio(1/1*)a
+  14   Cr30,550  2 cars
+
+  14   buy car Impreza'94WG light silver metallic 1999 Subaru Impreza Wagon WRX(Cr15,600)
+  14   Cr14,950
+  14   mod car Impreza'94WG  TS2 -> Cr14,000
+  14   Cr950   3 cars
+  
+  14-17   Impreza'94WG   4wd   6th27to17.14,9,7,(4)                   none
+  18   Cr2,050   3 cars
+
+  18      A2 1 try  0:25.394 bronze
+  19      A7 1 try  0:27.719 gold
+  20      A3 1 try  0:43.892 bronze
+  21-22   A4 1+3+2 tries  0:38.740 bronze
+  23      A5 1 try  0:30.988 bronze
+  24      A6 1+2+1 try  0:26.775 bronze
+  25      A8 1 try 1:07.549 bronze
+  26   A license acquired  4:54.104
+
+  26-29   Impreza'94WG  Clubman q6*A6,1st19to15,13,11,11,6   Camaro(1/1*)a
+  30   Cr36,550   4 cars
+  30   power off
+
+  30   mod car Impreza'94WG   S/S,Ri/c,SpBr,Rmuff,Rfw,shaft
+  30   Cr3,350
+  30-33   Impreza'94WG  4wd  sw27to16,13,10,5,4        yellowLancer(1/6)a
+  34   Cr32,850   5 cars
+  34-37   yellowLancer    Sunday  sw27to18,12,9,5,4           Demio(dup)(sold)
+  38   Cr61,350   Cr73,350   5 cars
+
+  38   buy car NSX'91  bayleaf green Acura NSX'91(Cr43,830)
+  38   Cr29,520   6 cars
+  38-43   NSX'91  Normal  2nd39to(32),19,15,15,5                      none
+  44   Cr151,520  6 cars
+
+  44   mod car yellowLancer  S/S,TS3,Ri/c,SpBr,3clu,Rfw,shaft,Rtrans (non-perm)
+  44   Cr62,820
+  44-47   yellowLancer  4wd  q4SS1st27to16,12,10,6,3    greenLancer(2/6)i
+  48   Cr90,820    7 cars
+  48-51   yellowLancer  4wd  TM2,1st24to15,15,10,6,5   whiteAlcyone(3/6)i
+  52   Cr117.320   8 cars
+  52   buy car redNSXzero  grandprix red Acura NSX TyoeSzero(Cr98,570)
+  52-57   redNSXzero   Normal  q*DF2,1st42to33,18,16,10,6  purpleSupraRZ(1/6)a
+note: TRD only, no NSX
+  58   Cr338,750   10 cars
+
+  58   mod car yellowLancer   Bctlr,Rmuff
+  58   Cr323,750
+  58-61   yellowLancer  4wd  q4SS1st27to16,12,10,6,3   purpleLancer(4/6)i
+  62   Cr353,250   11 cars
+  
+  62-65   yellowLancer  Clubman sw27to18,12,8,7,3            Camaro(dup)(sold)
+  66   Cr401.750   Cr413,750   11 cars
+
+  66   mod car yellowLancer  TS4(not fitted),comp
+  66-70   yellowLancer   GTC  g6*1st36to18,18,12,12,4      ChaserLM(1/1*)
+  71   Cr404,750
+
+  71      IA1 HSR  1 try  1:04.968 silver
+  72      IA3 GV   1+1 try  1:59.174 silver
+  73      IA5 Aut  1 try  1:23.176 bronze
+  74      IA7 SS11 1 try  2:12.085 bronze
+  75      IA2 SSR5 1 try  1:28.177 bronze
+  76      IA4 DFRW 1 try  1:22.912 bronze
+  77      IA6 TM   1+1 try 1:31.017 bronze
+  78      IA8 GVii 1 try 1:58.617 bronze
+  79   IA license acquired  12:00.126  8-(
+  79   Cr404,750   12 cars  IA license
+  79   power off
+
+November 05, 2000
+  79   Cr404,750   12 cars  IA license
+  79   mod car [R]Lancer  purpleLancer   Rmod,pol+bal,all muff,Si/c
+  79   Cr269,650
+  79   mod car greenLancer WR3
+  79   Cr215,150   12 cars  IA license
+
+  79-84   [R]Lancer      UKvsJP  sw45to27,19,15,13,6   black delSol(1/4)a
+  85   Cr300,150   13 cars  IA
+  85-88   greenLancer    Mega   g6*H4T2Hii3,3rd27to15,(13),9,6,5     8-(
+  89   Cr317,150   13 cars  IA
+  89-94   [R]Lancer  USvsJP sw45to28,20,13,10,9        ViperWblueSt(1/4)a
+  95   Cr402,150   14 cars  IA
+  95   power off
+
+  95-98   [R]Lancer  Mega q4Hq6T2,1st24to21,12,8,5,5 redOrangeSoarer(1/6)a
+  99   Cr477,150   15 cars  IA
+  99   power off
+
+  99-100   greenLancer    All-nightII   1st      silverNismoGT-R LM(1/1*)a
+  101  Cr647,150   16 cars  IA
+ 101-106   greenLancer   Abnormal q6Hq6G,C3q2A,1st40to23 pinkTrueno(1/6)a
+                                  q6Hq6G,C3q2A,1st40to23,21,19,17,5
+  107  Cr987,150   17 cars  IA
+  107  power off
+
+November 06, 2000
+  107  mod car [R]Camaro  UKvsUS 1st45to22,22,20,9,7
+ 107-112  [R]Camaro  UKvsUS q6Sq4Hst45to22,22,20,9,7  purpleConcept(1/4)a
+  113  Cr864,950   18 cars  IA
+  113  power off
+
+November 07, 2000
+  113  mod car SupraRZ (alias purpleSupraRZ)  S/S only
+  113  Cr849,950
+ 113-116  SupraRZ  FR  q4GEq2G,1st27to16,14,9,5,4      redS13Silvia(1/6)a
+  117  Cr876,450   19 cars   IA
+  117  power off
+
+November 08, 2000
+November 09, 2000
+November 10, 2000
+  117  mod car [R]Lancer n.b. 426bhp only (TS3)
+ 117-118  [R]Lancer  GV300    q1st1st               black/blueSupra(1/2)a
+  119  Cr1,196,450  20 cars  IA
+  119  power off
+
+November 11, 2000
+  119  mod car [R]Lancer TS4 (492bhp)
+ 119-120  [R]Lancer     All-nightI  q1s1st              redSilviaLM(1/2)a
+  121  Cr1,366,450  21 cars  IA
+ 121-127  [R]Lancer   GTI  q4H,1st54to30,28,20,9,9       hifi+ credits
+  128  Cr1,586,450  21 cars  IA  hifi
+  128  power off
+
+November 12, 2000
+Note:  8009B8F0   22 5E 01 00   89634
+  128  buy car FTO'94GPX  Imperial Red Mitsubishi 1994 FTO GPX (Cr12,300)
+  128  Cr1,574,150  22 cars
+  128  mod car FTO'94GPX  S/S NA@@
+  128  Cr1,547,150
+Note:  8009B8F0   did not change, but after entering FF, it seems to be
+Note:  800C4C70   3C 60 01 00   90172  +538
+ 128-131   FTO'94GPX  FF  2nd@@4to(15),12,11,9,4                 8-(
+Note:  800C4C70   did not change during event, but afterwards
+Note:  8009B8F0   40 67 01 00   91968  +1796 (+2334)
+  132  Cr1.555,650
+  132  mod car FTO'94GPX  SpBr,NA3,Rmuff
+  132  Cr1,486,150
+ 132-135  FTO'94GPX  FF  q3G,1st27to16,13,8,7,4            blackCRX(1/6)a
+Note:  800C4C70   CD 68 01 00   92365  +397
+Note:  8009B8F0   B4 70 01 00   94388  +2023 (+2420)
+  136  Cr1,514,150   23 cars  IA  hifi
+
+ 136-139  FTO'94GPX    Lwt  q3Cq4D1st27to18,10,10,6,4     goldEunos(1/6)a
+Note:  800C4C70   95 72 01 00   94869  +481
+  140  Cr1,541,150   24 cars  IA  hifi
+Note:  8009B8F0   46 77 01 00   96070  +1201 (+1682)
+  140  power off
+
+              The game is done now, ie. all gold cups have been collected.
+              But I will continue with this game.  I want to try other
+              cars in the Normal series.  Definitely the Corvette, and
+              perhaps I should embarass myself with the prize Lancer, too.
+
+
+November 13, 2000
+  140  buy car Corvette  Torch Red Chevrolet Corvette '96 (Cr45,350)
+  140  Cr1,495,800
+ 140-145  Corvette  Normal  2nd,37to(27),26,17,12,6       8-(  none
+Note:  800C4C70   00 78 01 00   96256  +186
+  146  Cr1,616,300   25 cars  IA  hifi
+Note:  8009B8F0   D9 89 01 00  100825  +4569 (+4755)
+  146  power off
+
+November 14, 2000
+November 15, 2000
+November 16, 2000
+Note:  8009B8F0   D9 89 01 00  100825  (unchanged)
+  146  buy car NSXtypeS  Formula Red NSX Type S (Cr103,570)
+  146  Cr1,512,730   26 cars  IA  hifi
+ 146-151  NSXtypeS  Normal 1st45to28,22,15,10,5       orangeImpreza(2/6)a
+                           q2Aq2Dq3S,1st45to28,22,15,10,5
+Note:  800C4C70   BD 94 01 00  103613  +2788
+  152  Cr1,882,730   27 cars  IA  hifi
+Note:  8009B8F0   25 AA 01 00  109093  +5480 (+8268)
+  152  power off
+
+November 17, 2000
+  152  buy car redNSX   Grand Prix Red and black NSX (Cr91.970)
+  152  Cr1.791,660  28 cars
+ 152-157  redNSX  Normal  1st42to33,18,15,12,5          blueImpreza(3/6)a
+Note:  800C4C70   3A AB 01 00  109370  +277   (also note, no AI NSX)
+  158  Cr2,101,660  29 cars
+Note:  8009B8F0   A9 Be 01 00  114345  +4975(+5252)
+ 158-163  orangeImpreza  Normal 2nd39to(34),22,12,11,6               8-(
+Note:  800C4C70   2A C0 01 00  114730  +385
+  164  Cr2,236,660
+Note:  8009B8F0   16 D3 01 00  119574  +4844(+5229)
+ 164-169  orangeImpreza  Normal 2nd39to(36),20,13,12,5               8-(
+Note:  800C4C70   30 D5 01 00  120112  +538
+  170  Cr2,386,660
+Note:  8009B8F0   8B E7 01 00  124811  +4699(+5237)
+  170  power off
+
+November 18, 2000
+ 170-175  orangeImpreza  Normal 2nd36to(32),26,14,11,6   8-(         8-(
+Note:  800C4C70   B4 E7 01 00  124852  +41
+  176  Cr2,526,660
+Note:  8009B8F0   6B FA 01 00  129643  +4791(+4832) had control, then lost
+ 176-179  orangeImpreza  Clubman 2nd21to(17),12,11,8,6               8-(
+Note:  800C4C70   CC FD 01 00  130508  +865
+  180  Cr2,526,660
+Note:  8009B8F0   C4 05 02 00  132,548 +2040(+2905)
+
+  180  mod car Corvette  buy S/S
+  180  Cr2,522,660
+Note:  8009B8F0   C4 05 02 00  132,548 (no change)
+ 180-183  Corvette  FR  g3G1st27to18,11,9,7,3       greenS13Silvia(2/6)a
+Note:  entered without S/S, but fitted afterwards
+Note:  800C4C70   7A 07 02 00  132,986 +438
+  184  Cr2,550,660  30 cars IA hifi
+Note:  8009B8F0   C2 0E 02 00  134,850 +18564(+2302)
+
+ 184-189  NSXtypeS  Normal sw45to28,22,15,9,6         purpleSupraRZ(dup)(kaw)a
+Note:  800C4C70   B7 11 02 00  135607  +757
+  190  Cr2,950,660  31 cars IA hifi
+Note:  8009B8F0   F0 21 02 00  139760  +4153(+4910)1039(132E)
+ 190-195  redNSXzero  Normal  q3S1st45to30,19,16,9,6  orangeSupraRZ(dup)a
+Note:  800C4C70   25 22 02 00  139813  +53
+  196  Cr3,340,660  32 cars IA hifi
+Note:  8009B8F0   01 32 02 00  143873  +4060(+4113)FDC(1011)
+  196  power off
+
+November 18, 2000
+ 196-201  orangeImpreza  Normal 1st39to36,19,15,10,6  orangeSupraRZ(dup)(kaw)a
+                        q4G2q6D2q3S,1st39to36,19,15,10,6 
+Note:  800C4C70   47 32 02 00  143943  +70
+  202  Cr3,630,660  33 cars IA hifi
+Note:  8009B8F0   DC 47 02 00  149468  +5525(+5595)1595(15DB)
+  202  mod car NismoGT-R  S/S (not fitted)  (well, fitted for GVii event)
+ 202-205  NismoGT-R  FR  q6*D2,1st24to19,13,8,6,5  yellowS13Silvia(3/6)a
+Note:  800C4C70   4A 54 02 00  152650  +3182  (after a long wait)
+  206  Cr3,637,660  34 cars
+Note:  8009B8F0   17 5E 02 00  155159  +2509(+5691)9CD(163B)
+  206  mod car Soarer  Rmuff,TS1,S/S
+  206  Cr3,612,660
+ 206-209  Soarer  FR  sw27to18,12,9,5,4               blueSilEighty(4/6)a
+Note:  800C4C70   6D 68 02 00  157805  +2646  (after a long wait)
+  210  Cr3,642,160  35 cars  IA hifi
+Note:  8009B8F0   42 6E 02 00  159298  +1493(+4139)5D5(102B)
+
+  210  buy car [R]Sileighty  light blue Sileighty for race-mod (trade)
+  210  Cr3,622,160  36 cars  IA hifi
+  210  mod car [R]Sileighty  max[R]mod, TS3(max), a few extras
+  210  Cr3,403,260
+
+ 210-215  [R]Sileighty  USvsJP  sw45to30,17,15,12,6        blackFTO(2/4)a
+Note:  800C4C70   56 73 02 00  160598  +1300
+  216  Cr3,642,160  35 cars  IA hifi
+Note:  8009B8F0   29 7D 02 00  163113  +2615(+3815)9D3(EE7)
+  216  power off
+
+November 20, 2000
+  216  buy car redImpreza'95  Active Red 1995 Subaru Impreza WRX STiVersion II (Cr20,390)
+  216  Cr3,467,870
+  216  buy car ImprezaTypeR  Sonic Blue Mica Subaru Impreza WRX STi Type R (Cr30,000)
+  216  Cr3,437,870
+ 216-221  ImprezaTypeR   Normal 1st42to33,19,13,12,6  orangeImpreza(dup)(sold)a
+Note:  800C4C70   EE 7F 02 00  163822  +709   (did not get any poles)
+  222  Cr3,467,870  39 cars IA hifi
+Note:  8009B8F0   2E 9D 02 00  171310  +7488(+8197)1D40(2005)  (long phonecall)
+  222  power off
+
+November 21, 2000
+November 22, 2000
+November 23, 2000
+November 24, 2000
+November 25, 2000
+ 222-227  orangeSupraRZ  Normal 1st37to36,22,13,12,5  orangeSupraRZ(dup)(sold)a
+Note:  800C4C70   B4 9E 02 00  171700  +390
+  228  Cr4,034,870 Cr4,046,870  39 cars IA hifi
+Note:  8009B8F0   29 B4 02 00  177193  +5493(+5883)
+  228  power off
+
+November 26, 2000
+  228  buy car redSupraRZ   Super Red IV Toyota Supra RZ (Cr43,900)
+  228  Cr4,002,970  40 cars IA hifi
+ 228-233  redSupraRZ  Normal  2nd39to(36),19,16,10,5             8-(
+Note:  800C4C70   B0 B7 02 00
+  234  Cr4,132,970
+Note:  8009B8F0   0C D1 02 00
+ 234-239  redSupraRZ  Normal  2nd39to(34),20,14,13,5             8-(
+Note:  800C4C70   B0 B7 02 00
+  240  Cr4,267,970
+Note:  8009B8F0   3A E6 02 00
+  240  power off
+
+November 27, 2000
+Note:  8009B8F0   0C D1 02 00
+ 240-245  redSupraRZ Normal q4D2q3S,1st42to33,20,14,11,5 blueImpreza(dup)(sold)
+Note:  800C4C70   04 E7 02 00
+  246  Cr4,607,970  Cr4,619,970  40 cars  IA hifi
+Note:  8009B8F0   03 F9 02 00
+  246  power off
+
+December 01, 2000
+ 246-251  Corvette  Normal  2nd,42to(29),24,13,12,5       8-(  none
+Note:  800C4C70   D8 FA 02 00
+  252  Cr4,699,970
+Note:  8009B8F0   A6 0E 03 00
+  252  power off
+
+Note: Back to GT2 for a while now...
+@
+
+
+1.9
+log
+@Improved log checker program detected a mistake.
+@
+text
+@d253 1
+a253 1
+ 190-195  redNSXzero  Normal  q3S1st45to30,19,16,9,6  orangeSupraRZ(1/6)a
+@
+
+
+1.8
+log
+@Added a bunch of days, up until I got bored again.
+I can only get so good at the Normal...
+@
+text
+@d133 1
+a133 1
+ 107-112  [R]Camaro  UKvsUS q6Sq4Hst45to22,22,20,9,7  purpleConcept(4/4*)a
+@
+
+
+1.7
+log
+@More days.  Up-to-date.
+@
+text
+@d298 41
+@
+
+
+1.6
+log
+@Added a bunch more days.
+@
+text
+@d259 39
+@
+
+
+1.5
+log
+@A Normal Series with the NSX Type S...
+@
+text
+@d212 47
+@
+
+
+1.4
+log
+@Finished the game.
+
+Then began experimenting with normal entries.
+@
+text
+@d196 1
+a196 1
+  146  Cr1,616,300
+d200 12
+@
+
+
+1.3
+log
+@Almost done the game!.
+@
+text
+@d159 41
+@
+
+
+1.2
+log
+@A couple more days progress.
+@
+text
+@d148 1
+a148 1
+ 117-118  [R]Lancer  GV300    q1st1st                black/blueSupra(1/2)a
+d151 8
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d136 15
+@

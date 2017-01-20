@@ -1,0 +1,105 @@
+Wednesday May 17, 2000
+
+
+(GT2 Version 1.1)  GameShark Info about the Toyota New Car Lot
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+There has been interest in a V1.1 Toyota Prize Showroom Code, but
+I have not had the inclination to test the complete version of
+that code.  As far as I am concerned, there are few reasons for
+actually playing the 1.1 version of the game; it still has the Garage
+Delete bug, but no longer has the Vector LM at the Trial Mountain
+Enduro.   8-)
+
+Perhaps I will get around to testing a complete code, but in the
+meantime, here is a transcription of my notes on the addresses
+of the Toyota Page 1 new cars in North
+American <html><font color="red">Gran</font> <font color="blue">Turismo</font></html> 2, version 1.1
+
+(80)1C2E2C - car being reviewed for purchase
+
+That is the address used in the "Buy Anywhere" code.
+
+(80)1C30D8 - car slot #1 (top left)
+
+76 bytes with each slot, mostly zeroes
+
+Although an argument could be made for slot ordering:
+
+<HTML INDENT>
+<pre>
+   1   2
+   3   4
+   5   6
+   7   8
+</pre>
+</HTML>
+
+The most natural numbering for me, and what I have assumed is:
+
+<HTML INDENT>
+<pre>
+   1   5
+   2   6
+   3   7
+   4   8
+</pre>
+</HTML>
+
+After all, manufacturers with fewer than five new cars on a page
+tend to put them in a column.
+
+<HTML INDENT>
+<pre>
+ (80)1C308C - Page 1, B,L (4)
+ (80)1C30D8 - Page 1, T,L  (1)
+ (80)1C3124 - Page 1, T,R  (5)
+ (80)1C3170 - Page 1, T+1,L  (2)
+ (80)1C31BC - Page 1, T+1,R  (6)
+ (80)1C3208 - Page 1, T+2,R  (7)
+ (80)1C3254 - Page 1, T+2,L  (3)
+ (80)1C32EC - Page 1, B,R  (8)  Note the different displacement
+</pre>
+</HTML>
+
+This gives the rather strange apparent fill-in order for the slots of:
+
+<HTML INDENT>
+<pre>
+   2   3
+   4   5
+   7   6
+   1   8
+</pre>
+</HTML>
+
+It's not impossible I made an error in my notes.
+
+A short V1.1 Purchase code is 
+
+<HTML INDENT>
+<pre>
+ D01C32EC D5D8
+ 801C30D8 D758
+ D01C32EC D5D8
+ 801C30DA 120D
+</pre>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

@@ -1,0 +1,1273 @@
+head	1.16;
+access;
+symbols;
+locks
+	arpepper:1.16; strict;
+comment	@# @;
+
+
+1.16
+date	2007.11.05.21.39.53;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.06.24.23.12.28;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.05.16.19.40.17;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.04.05.03.45.18;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.03.30.01.48.21;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.03.26.01.10.08;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.03.26.01.02.11;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.03.26.00.55.02;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.03.12.02.58.31;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.03.03.02.27.53;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.03.03.02.21.02;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.02.25.20.03.55;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.02.18.07.24.46;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.02.17.19.42.05;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2007.02.11.21.42.24;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.02.11.21.34.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Have fun, and try to keep all the Manufacturer's Events cars around.
+@
+
+
+1.16
+log
+@Oct 31 to Nov 4, 2007.
+Pacific League with R34GTR.
+Stars with [R]UnisiaGTR
+GT500 with [R]UnisiaGTR
+@
+text
+@
+ Legend:
+         Name1/Name2 -> usually means Series/Race
+         Stars ->  GT All-Stars Series
+            e.g. Stars/RedRock is Red Rock Valley Speedway race of that series
+         TM -> Trial Mountain course
+         TMI -> first event in "cup" at TM course
+         TMII -> second event in "cup" at TM (reverse course would be TMii)
+             etc...
+         Rally -> A rally course/series
+            e.g.  Rally/GFR-I is race one of Green Forest Raceway series
+         Easy,Norm,Hard,Expert -> Event Generator Events
+
+         80s -> 80's Sports Car Cup
+         Apricot200 -> Apricot Hill 200km Endurance Race
+         DF -> Deep Forest (Racing Way)
+         DFRW -> Deep Forest Racing Way
+         Euro
+         FR -> FR Series, similarly for FF, MR
+         Fr -> French nationals
+         GFR -> Green Forest Raceway
+         GTW -> GT World Cup  (series)
+         Ger -> German nationals
+         Grind -> Grindevald/GrindelVald
+         Grindevald -> is mispelt, I think, you know what it means   8-)
+         GV300 -> Grand Valley 300km Endurance Race
+         Hist -> Historical Car Cup
+         It -> Italian nationals
+         Japan -> Japanese nationals
+         LwtK -> Lightweight "K" Series (whatever K means)
+         Mini -> can mean Mini special manufacturer's series
+         Name1/Name2 -> usually means Series/Race
+         Pacific
+         PikeDown -> Pike's Peak Hillclimb ("rally") downhill
+         PikeUp -> Pike's Peak Hillclimb ("rally") uphill
+         RedRock -> Red Rock Valley Speedway
+         Rome2hr -> "Millenium in Rome" 2hr Endurance Race
+         RomeL -> Rome long course
+         RomeN -> Rome Night course
+         RomeS -> Rome short course
+         SMS -> Smokey Mountain South
+         SMN -> Smokey Mountain Nouth
+         Speed12 ->  TVR Speed 12
+         Stars ->  GT All-Stars Series
+         SuperT -> Super Touring Car Cup
+         GrandT -> Grand Touring Car Cup
+         TM -> Trial Mountain course
+         Tah -> Tahiti Road course
+         TahR3 -> Tahiti Dirt Route 3
+         TahM -> Tahiti Maze
+         UK -> UK/British nationals
+         US -> US/American nationals
+
+         B-1 -> B license test 1
+         A-2 -> A license test 2
+         IC-3 -> International C license test 3
+         IB-4 -> International B license test 4
+         IA-5 -> International A license test 5
+         S-6 -> Super license test 6
+
+         K,B,S,G -> Kiddie,Bronze,Silver,Gold (as license test result)
+
+         Rmuff -> Racing muffler and exhaust
+         Smuff -> Sports muffler and exhaust
+         SRmuff -> Semi-Racing muffler and exhaust
+         Rtrans -> transmission "for professionals"
+         WR1 -> Weight Reduction 1 (etc)
+         WR0 -> No weight reduction was applied
+         TS1 -> Turbo Spec 1 (etc)
+         TS0 -> remove all turbo
+         3clu -> triple clutch
+         Rfw -> racing flywheel
+         Supra -> Supra('93) (I think)
+
+    In this game I'm not going to be fussy about order of entry of events,
+    but will attempt to only enter cars which should be allowed to enter
+    each event.
+
+    I redid all my licenses, since I'd not played this game for a long time.
+
+    But this time I want to try and keep all the cars needed to win the
+    Manufacturer's Events.  That's 90 cars, or pretty close to it.  Since
+    I'd also like to keep cars capable of winning all other events, most
+    cars I choose for the Manufacturer's Events will need to be able to,
+    with alternate modification, win a selection of other events as well.
+    I have other garages with prizes, so I will need to be selective in
+    which prizes I keep, and almost ruthless in selling most of them.
+
+    In honour of the Initial-D connection to Gran Turismo, I started with
+    a 1983 Corolla Levin.  (I discovered, however, that the game is somewhat
+    confused about the identity/year of that car).
+
+    One thing I really wanted to be able to do was buy the gold
+    Toyota 2000GT'68 before it disappeared on day 10.  A way to do that
+    is to win the Trial Mountain 30 in the first few days.
+    
+    I'm also not going to worry about my winning ratio, and there really
+    seems no better way to make Cr10,000 right away than losing the 
+    Trial Mountain 30.  That allowed me to modify my cars enough to place
+    higher, and eventually win.
+
+February 09, 2007
+   1      license obtain B license
+note: B1 39.819F, 39.620B
+note: B2 F, 30.211B
+note: B3 26.690G
+note: B4 F, 25.510B
+note: B5 33.322S
+note: B6 24.967S
+note: B7 21.047S
+note: B8 23.653S
+note: B9 24.682B
+note: B10 21.113B
+Note: B license acquired!
+
+   2      license obtain A license
+note: A1 19.202B
+note: A2 22.545F,23.024F,F,21.782B
+note: A3 20.485B
+note: A4 20.050B
+note: A5 14.438B
+note: A6 15.753F, 13.974B
+note: A7 26.805B
+note: A8 25.315B
+note: A9 16.090B
+note: A10 15.182
+Note: A license acquired!
+
+   3      license obtain IC license
+note: IC1 16.843B
+note: IC2 16.335B
+note: IC3 23.820F,23.852F,22.206B
+note: IC4 22.847B
+note: IC5 13.567B
+note: IC6 24.903F,24.752F,24.323B
+note: IC7 16.950B
+note: IC8 16.314B
+note: IC9 23.211F,21.535B
+note: IC10 27.774F,26.463B
+Note: IC license acquired!
+
+   4      license obtain IB license
+note: IB1 13.404B
+note: IB2 20.583S
+note: IB3 27.637F,27.116B
+note: IB4 25.570B
+note: IB5 18.912B
+note: IB6 F,25.567F,22.713B
+note: IB7 F,21.340
+note: IB8 25.088F,23.961F,22.889F,F,F,22.925F,22.217F,F,F,F,22.166F,
+note:           21.752F,21.782F,21.574B!
+note: IB9 26.301F,25.202B
+note: IB10 F,25.864F,F,26.298F,25.108B
+Note: IB license acquired!
+
+February 10, 2007
+   5   buy car Levin'83   High Flash Two-Tone (red) Toyota Levin GT-APEX (Type 1,J) '83 -> Cr6,177
+   5 power off
+
+   5   Cr3,823
+   5       Levin'83  TM30        6th                                     8-(
+Note: 57:08.323 +3:32.149 fl1:50.682
+   6   Cr13,823
+   6   buy parts Levin'83 TS2 Cr13,500  ->212hp
+   6   Cr323
+   6       Levin'83  TM30        4th                                     8-(
+Note: 54:15.374 +0:57.976 fl1:44.411
+   7   Cr30,323
+   7   buy parts Levin'83 S/S Cr15,000 Rmuff Cr4800 Chip Cr1500 -> 246hp
+   7   mod car  Levin'83 WR1 Cr1200  2039lb -> 1997lb
+   7   buy parts Levin'83 SRsusp Cr7500
+   7   Cr323
+
+   7      Levin'83  TM30        1st  red/white[R]DensoSardSupraGT'99
+Note: 50:29.869 -0:41.208 fl1:36.955
+   8   Cr150,323    2cars
+   8    buy car  2000GT'68   gold Toyota '68 2000GT -> (Cr110,247)
+   8   Cr40,076    3cars   0.45%
+Note: win-ratio 33.33% avg-rank 3.66
+   8 power off
+
+
+February 11, 2007
+   8   buy car Trueno'85   High Metal Two-Tone (silver) Toyota Trueno GT-APEX (TypeII,J) '85 -> Cr6,162
+   8  Cr33,914    4cars   0.45%
+ 
+February 11, 2007
+   8      license obtain IA license
+note: IA1 32.837B
+note: IA2 F,F,F,F,26.025F
+note: IA3 33.729F,32.328B
+note: IA4 31.506F,29.050B,28.310S
+note: IA5 29.851B,28.528S
+note: IA6 40.428S
+note: IA7 19.448F,18.564B
+note: IA8 25.690F,25.046F,25.106F,24.321B
+note: IA9 23.435F,21.999B
+note: IA10 21.036F,19.454B
+Note: IA license acquired!
+
+   9   mod car [R]DensoSupra  (alias)
+   9       [R]DensoSupra   Stars/RedRock  2nd                    8-(
+Note: 6:04.002 +0:02.249 fl1:10.750   (against GT-ONE)
+  10 Cr63,914
+  10      [R]DensoSupra   Stars/Super   1st  whiteMine'sLancerEvol-V
+Note: 2:45.106 -0:11.784 fl0:30.969
+  11 Cr113,914 5cars  0.91%
+  11      [R]DensoSupra   Stars/RedRock  1st         burgundySpeed12
+Note: 5:51.896 -0:02.548 fl1:08.460    (against GT-ONE) 
+  12 Cr163,914 6cars  1.36%
+  12      [R]DensoSupra   Stars/RedRock  1st         burgundySpeed12(sold)
+Note: 5:55.258 -0:01.915 fl1:08.489    (against Venturi LM) 
+  13 Cr213,914 Cr713,914 6cars  1.36%
+
+  13      Levin'83  Japan/MidfieldII     1st            none
+Note: 2:58.596 -0:00.124 fl1:24.680
+  14 Cr718,914 6cars  1.82%
+
+  14      Levin'83  Sunday/Tahiti     1st            none
+Note: 2:50.359 -0:04.616 fl1:19.917
+  15 Cr721,914
+  15      Levin'83  Sunday/HSR        1st            none
+Note: 2:28.829 -0:00.416 fl1:08.560
+  16 Cr725,914 6cars  2.73%
+  16 Power off
+
+February 15, 2007
+  16   mod car Levin'83 WR2->1935lb Cr5500   WR3->1876lb Cr22,500
+  16   buy parts Levin'83 SS/SS Cr17,500
+  16   mod car Levin'83 bal Cr13,500 pol Cr5500 
+  16   buy parts Levin'83 NA2 Cr12,500 Smuff Cr1600 SRmuff Cr2900
+  16   buy parts Levin'83  Rbr Cr4800 Bctlr Cr10,500
+  16   buy parts Levin'83  Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 shaft Cr3000
+  16   buy parts Levin'83  TS1 Cr4500  Rsusp Cr18,000  TD/TD Cr12,500
+  16 Cr574,814
+  16      Levin'83  80s/TM        1st        silverMugenCivicFerio
+Note: 5:06.335 -1.142 fl1:38.269
+  17 Cr581,814
+  17      Levin'83  80s/SSR5     1st             greenMugenCRXpro3
+Note: 4:58.353 -0.272 fl1:35.225
+  18 Cr588,814
+  18      Levin'83    80s/DFRW     1st         silverMugenCivicTypeR
+Note: 4:20.713 -3.203 fl1:23.736
+  19 Cr596,814
+
+February 16, 2007
+  19   buy car NSX'93  Cranberry Red Pearl Acura NSX'93 -> (Cr95,000) 
+  19 Cr501,814    Note: 272hp (<295)
+  19   mod car NSX'93 WR1 3020->2868lb Cr1500
+  19   mod car NSX'93 WR2->2777lb Cr6000   WR3->2687lb Cr25,000
+  19   mod car NSX'93 pol Cr6000 bal Cr16,000 
+  19   buy parts NSX'93  Smuff Cr1800 SRmuff Cr3000 Rmuff Cr5000
+  19   buy parts NSX'93 Rbr Cr5000 Bctlr Cr11,000
+  19   buy parts NSX'93 chip Cr2000 NA1 Cr5000 NA2 Cr13,500
+  19   buy parts  NA3 Cr75,000
+  19   buy parts NSX'93  Rtrans Cr11,000 3clu Cr5000 Rfw Cr1200 LSDF Cr7000
+  19   buy parts NSX'93 Rsusp Cr20,000 SS/SS Cr18,000
+  19 Cr263,814 10cars  4.10%
+  19      NSX'93    Japan/MidfieldIII    1st            none
+Note: 2:49.537 -0.647 fl1:21.631
+  20 Cr270,814
+  20      NSX'93  PureSports/Laguna   1st     redTom'sAngelT01
+Note: 3:07.599 -0.733 fl1:30.828
+  21 Cr277,814
+  
+  21      NSX'93    GrandT/RedRock   1st      gold[R]DajshinSilviaGT'99
+Note: 4:12.796 -2.733 fl1:21.119
+Note: Heavy Susp Tuning may not work elsewhere
+  22 Cr287,814
+  22      NSX'93        TypeR/RedRock     1st         none
+Note: 2:53.784 -1.233 fl1:22.578
+  23 Cr294,814  12cars  5.93%
+  23      NSX'93    MR/GVE        1st                  whiteTRD2000GT
+Note: 2:30.876 -5.848 fl1:11.915
+  24 Cr299,814  13cars  6.39%
+  24 power off
+
+February 17, 2007
+  24      NSX'93    Sunday/RedRock    1st            none
+Note: 2:54.260 -0.661 fl1:23.501
+  25 Cr304,814
+  25      NSX'93    NSX/TMii            1st          none
+Note: 3:21.773 -0.930 fl1:38.000
+Note: NA2+max
+  26 Cr314,814
+  26   buy car  240Z'71   Grand Prix White Datsun 240Z 240Zg(HS30)'71 -> (Cr21,134)
+  26 Cr293,680  14cars
+  26   buy car  Impreza22B  555 Sonic Blue Mica Subaru Impreza Coupe 22B STi Version -> (Cr51,775)
+  26 Cr241,905  15cars
+  26   buy car  R34GTR'99  Active Red Nissan Skyline R34 GT-R Vspec -> (Cr55,980)
+  26 Cr185,925  16cars
+  26      [R]DensoSupra   Stars/RedRock  1st         burgundySpeed12(sold)
+Note: 5:56.425 -0:00.841 fl1:07.844    (against GT-ONE) 
+  27 Cr235,925 Cr735,925 16cars  7.30%
+
+  27   mod car R34GTR'99 WR1 3439->>3267lb Cr1500
+  27   mod car R34GTR'99 WR2->3163lb Cr6000   WR3->3059lb Cr25,000
+  27   mod car R34GTR'99 pol Cr6000 bal Cr16,000 disp Cr8500 ->339hp
+  27   buy parts R34GTR'99  Smuff Cr1800 SRmuff Cr3000 Rmuff Cr5000
+  27   buy parts R34GTR'99 Rbr Cr5000 Bctlr Cr11,000 chip Cr2000
+  27   buy parts R34GTR'99  Rtrans Cr11,000 3clu Cr5000 Rfw Cr1200
+  27   buy parts R34GTR'99 shaft Cr3500 LSDF Cr7000
+  27   buy parts R34GTR'99  TS1 Cr5000  TS2 Cr14,500  TS3 Cr45,000
+  27   buy parts R34GTR'99  TS4 Cr74,000 Sic Cr2000 Ric Cr3500
+  27   buy parts R34GTR'99 Rsusp Cr20,000 SS/SS Cr18,000 TD/TD Cr13,000
+  27 Cr422,425
+  27      R34GTR'99 4WD/SeattleS  1st  GrayOpalLegacyTouringWagonGT-B
+Note: 2:16.194 -0:00.837 fl1:05.550
+  28 Cr427,425
+  28      R34GTR'99  Turbo/TT       1st           whiteMine'sSkylineR33GT-R
+Note: 2:56.501 -0:05.810 fl0:55.226
+  29 Cr477,425
+  29      R34GTR'99  GrandT/Midfield  1st white/red[R]UnisiaJecsSkylineGT-RGT'99
+Note: 3:47.584 -0:02.961 fl1:13.297
+  30 Cr507,425
+  30      R34GTR'99  GrandT/GV    1st   black[R]CastrolMugenNSXGT'98
+Note: 6:02.895 -0:02.438 fl1:57.714
+  31 Cr527,425 20cars 9.13%
+  31 power off
+
+February 21, 2007
+  31      Levin'83   FR/Clubman    1st                 blueSilEighty
+Note: 2:01.632 -0:01.738 fl0:55.271
+  32 Cr532,425
+  32      Levin'83  FR/SSR5       1st              blackNismo270R
+Note: 3:14.350 -0:03.480 fl1:32.542
+  33 Cr538,425
+  33      Levin'83  Japan/MidfieldI     1st            (cheating car) none
+Note: 2:57.633 -0:04.675 fl1:24.482
+  34 Cr542,425  22cars 10.50%
+
+February 22, 2007
+  34   buy car SLK230  Brilliant Silver Mercedes-Benz SLK 230 Kompressor -> (Cr55,380)
+  34 Cr487,115
+  34  mod car SLK230  WR1 Cr1200  2921lb -> 2773lb WR2 -> 2687lb Cr5500  WR3 -> 2599lb Cr22,500
+  34  mod car SLK230 bal Cr13,500 pol Cr5500 
+  34  buy parts SLK230 Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  34  buy parts SLK230 Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  34  buy parts SLK230 Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 shaft Cr3000
+  34  buy parts SLK230 LSDF Cr6500  TS1 Cr4500  TS2 Cr13,500  TS3 Cr40,000
+  34  buy parts SLK230 Rsusp Cr18,000  SS/SS Cr18,000
+  34 Cr293,515
+  34      SLK230  Ger/DFI     1st            none
+Note: 2:54.650 -0:06.896 fl1:23.375
+  35      SLK230  Ger/DFII    1st            none
+Note: 2:52.855 -0:01.643 fl1:22.043
+  36      SLK230  Ger/DFIII    1st            none
+Note: 2:48.824 -0:00.648 fl1:21.681
+  37 Cr309,515
+  37      SLK230  FR/Midfield       1st            blueRX-7GT-C
+Note: 2:40.690 -0:03.262 fl1:16.347
+  38 Cr316,515 24cars 12.32%
+  38 power off
+
+February 23, 2007
+  38      SLK230      SLK/Autumnii               1st          none
+Note: 2:52.279 -0:07.633 fl1:23.622
+  39 Cr321,515
+  39      R34GTR'99        R34/RomeS          1st          none
+Note: 1:52.805 -0:02.859 fl0:53.378
+  40 Cr331,515
+  40      R34GTR'99   GT-R/TT           1st          none
+Note: 2:15.501 -0:10.658 fl1:02.077
+  41 Cr338,515
+
+  41   mod car [R]UnisiaGT-R  alias  white/red[R]UnisiaJecsSkylineGT-RGT'99
+  41      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:56.471 -0:03.774 fl1:09.070    (against VectorLM) 
+  42 Cr388,515  Cr888,515
+  42       [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:48.991 -0:03.670 fl1:08.183    (against GT40) 
+  43 Cr938,515  Cr1,438,515  24cars  13.69%
+  43 power off
+
+February 24, 2007
+  43       [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:51.856 -0:03.143 fl1:08.311    (against GT-ONE) 
+  44 Cr1,488,515  Cr1,988,515  
+  44   mod car RX7-GTC WR1 2821->2680lb Cr1500
+  44   mod car RX7-GTC WR2->2594lb Cr6000   WR3->2511lb Cr25,000
+Note: no pol or bal (295hp limit)
+  44   buy parts RX7-GTC  Smuff Cr1800 SRmuff Cr3000 Rmuff Cr5000
+  44   buy parts RX7-GTC Rbr Cr5000 Bctlr Cr11,000 chip Cr2000
+  44   buy parts RX7-GTC  Rtrans Cr11,000 3clu Cr5000 Rfw Cr1200 shaft Cr3500
+  44   buy parts RX7-GTC  LSDF Cr7000 Sic Cr2000  Ric Cr3500
+  44   buy parts RX7-GTC  TS1 Cr5000  TS2 Cr14,500 (forgot TS3)
+  44   buy parts RX7-GTC TS4 Cr74,000 Rsusp Cr20,000 SS/SS Cr18,000
+Note: 2:49.537 -0.647 fl1:21.631
+  44 Cr1,763,515
+  44       RX7-GTC         PureSports/DFRW     1st            redZZIII
+Note: 2:48.129 -2.280 fl1:21.791
+  45 Cr1,771,515  
+  45       RX7-GTC   PureSports/TM    2nd            8-(
+Note: 3:12.503 +0.530 fl1:30.202
+  46 Cr1,778,515  
+  46    buy parts RX7-GTC  TS3 Cr45,000
+  46 Cr1,733,515  
+  46       RX7-GTC   PureSports/TM    2nd            8-(
+Note: 3:06.901 +0.878 fl1:30.289
+  47 Cr1,740,515  
+  47  buy car  Capcino  Antes Red Suzuki Cappuccino'95
+  47 Cr1,727,846
+  47       RX7-GTC   PureSports/TM    2nd            8-(
+Note: 3:07.161 +0.224 fl1:30.904
+  48 Cr1,734,846
+  48       RX7-GTC   PureSports/TM   1st      burgundyTuscanSpeed6
+Note: 3:06.749 -1.954 fl1:30.033
+  49 Cr1,744,846  (no Motorsports Elise)
+  49       RX7-GTC   RX7/RedRockii              1st         none
+Note: 2:44.587 -6.590 fl1:18.040
+  50 Cr1,754,846
+  50 buy car [R]R34GTR'99  Nissan [R]Skyline R34 GT-R Vspec -> (Cr374,480,trade)
+  50 mod car [R]R34GTR'99 [R]-mod Cr85,000
+Note: accidentally modified first one
+  50 Cr1,300,366
+  50       [R]R34GTR'99  [R]GTR/Autumn      1st         none
+Note: 2:43.263 -0:02.441 fl1:19.518
+  51 Cr1,310,366
+  51       [R]R34GTR'99  Rally/GFR-I  1st   none
+Note: 1:39.893 -0.xxx
+  52 Cr1,315,366
+  52       R34GTR'99  4WD/Laguna 1st     whiteMine'sR32.5SkylineGT-R
+Note: 2:56.364 -2.589 fl1:26.049
+  53 Cr1,330,366
+  53       R34GTR'99  4WD/SeattleL 1st    yellowNismo400Rprecedingmodel
+Note: 3:33.235 -0.946 fl1:43.035
+  54 Cr1,336,366
+  54 power off
+
+
+February 25, 2007
+  54       [R]R34GTR'99   Sunday/RedRock    1st            none
+Note: 2:28.548 -24.504 fl1:11.758
+  55 Cr1,341,366  30cars  16.89%
+  55   mod car Speed6   alias
+  55   buy parts Speed6 SS/SS Cr18,000
+  55 Cr1,323,366
+  55      Speed6  UK/TMIII       1st                      none
+Note: 3:09.111 -1.790 fl1:29.928
+  56 Cr1,330,366  30cars 17.35%
+  56      R34GTR'99  Turbo/SSR5     5th        8-(
+Note: 4:35.333 +4.502 fl1:28.651
+  57 Cr1,332,366
+  57      R34GTR'99  Turbo/SSR5     1st           whiteMine'sSkylineR33GT-R
+Note: 4:21.703 -3.220 fl1:24.778
+  58 Cr1,382,366
+  58      R34GTR'99  Turbo/DFRW    1st                  grayNismo400R
+Note: 3:58.307 -3.366 fl1:17.749
+  59 Cr1,432,366  32cars  18.26%
+  59 power off
+
+February 28/2007
+  59   buy car NeonACR  Alpine Green Dodge Neon ACR -> (Cr14,860)
+  59   mod car NeonACR WR1 2480->2429lb Cr1000
+  59   mod car NeonACR WR2->2354lb Cr5000   WR3->2281lb Cr20,000
+  59   mod car NeonACR pol Cr5000 bal Cr10,000 
+  59   buy parts NeonACR  Smuff Cr1500 SRmuff Cr2800 Rmuff Cr4500
+  59   buy parts NeonACR Rbr Cr4500 Bctlr Cr10,000 chip Cr1000
+  59   buy parts NeonACR  NA1 Cr4000 NA2 Cr11,500  NA3 Cr60,000
+  59   buy parts NeonACR  Rtrans Cr10,000 3clu Cr4500 Rfw Cr900 LSDF Cr6000
+  59   buy parts NeonACR Rsusp Cr10,000 DT/DT Cr12,000  SS/SS Cr17,000
+  59 Cr1,211,306
+  59      NeonACR  FF/Tahiti       1st           redMugenAccordSir-T
+Note: Ruby Red Pearl
+Note: 2:39.962 -1.382 fl1:15.529
+  60 Cr1,216,306
+  60      NeonACR   US/LagunaI    1st                     none
+Note: 3:16.063 -1.956 fl1:34.406
+  61 Cr1,220,306  34cars  19.17%
+  61 power off
+
+March 01, 2007
+  61      NeonACR    Neon/DFRW    1st                     none
+Note: 2:57.285 -6.636 fl1:24.025
+  62 Cr1,225,306
+  62      NeonACR   US/LagunaII    1st                     none
+Note: 3:13.669 -0.927 fl1:32.877
+  63 Cr1,230,306
+
+  63   buy car Mini1.3i  British Racing Green Mini Cooper 1.3i -> Cr16,830
+  63  mod car Mini1.3i  WR1 Cr1200  1587lb -> 1554lb WR2 -> 1507lb Cr5500  WR3 -> 1459lb Cr22,500
+  63  mod car Mini1.3i disp Cr8000 bal Cr13,500 pol Cr5500 
+  63  buy parts Mini1.3i Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  63  buy parts Mini1.3i Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  63  buy parts Mini1.3i Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 LSDF Cr6500
+  63  buy parts Mini1.3i  TS1 Cr4500  TS2 Cr13,500   Rsusp Cr18,000
+  63  buy parts Mini1.3i  SS/SS Cr17,500     DT/DT Cr12,500
+  63 Cr1,042,376
+  63      Mini1.3i  UK/TMI        1st                      none
+Note: 3:23.782 -1.819 fl1:36.509
+  64 Cr1,046,376
+  64      Mini1.3i    Mini/TT               1st          none
+Note: 2:48.558 -45.267 fl1:16.852
+  65 Cr1,049,376
+
+  65      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:55.985 -0:02.648 fl1:08.204    (mishap, against GT40) 
+  66 Cr1,099,376  Cr1,599,376
+  66      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:49.985 -0:03.867 fl1:07.633    (against GT40) 
+  67 Cr1,649,376  Cr2,149,376
+  67       [R]R34GTR'99   Stars/RedRock    2nd            8-(
+Note: 6:04.894 +0:02.359 fl1:10.810
+  68 Cr2,179,376  35cars  21.00%
+  68 power off
+
+March 02, 2007
+  68   buy car MG-F  Volcano (orange) MG-F 1.8i VVC -> Cr36,710
+  68  mod car MG-F  WR1 Cr1200  2447lb -> 2398lb
+  68  mod car MG-F  WR2 -> 2323lb Cr5500  WR3 -> 2250lb Cr22,500
+  68  mod car MG-F pol Cr5500  bal Cr13,500
+  68  buy parts MG-F Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  68  buy parts MG-F Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  68  buy parts MG-F  NA1 Cr4500  NA2 Cr12,500  NA3 Cr65,000
+  68  buy parts MG-F Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 LSDF Cr6500 
+  68  buy parts MG-F Rsusp Cr18,000  SS/SS Cr17,500 DT/DT Cr12,500
+  68 Cr1,915,566
+  68      MG-F     Conv/Tahiti   1st            whiteMX5MiataAspec
+Note: 2:35.912 -4.688 fl1:13.925
+  69 Cr1,922,566
+  69      MG-F     UK/TMII      2nd                      8-(
+Note: 3:36.730 +0.380 fl1:39.741
+  70 Cr1,924,566
+  70      MG-F     UK/TMII      1st                      none
+Note: 3:34.215 -0.037 fl1:40.359
+  71 Cr1,929,566
+  71      MG-F         MGF/SeattleL             1st          none
+Note: 3:37.927 -1.148 fl1:46.185
+  72 Cr1,934,566
+  72  buy car Celica'84  Toyota Celica'84 -> Cr5,844
+  72 Cr1,928,722   38cars   22.37%
+  72 power off
+
+March 04, 2007
+  72  buy car ClioSport  silver Renault Clio Sport V6 24V -> Cr52,440
+  72 Cr1,876,282
+  72      ClioSport  Fr/TahII        1st                     none
+Note: 2:45.588 -0.619 fl1:18.694
+  73 Cr1,881,282
+  73   mod car ClioSport WR1 2755 -> 2616 Cr1500
+  73   mod car ClioSport WR2->2535lb Cr6000   WR3->2451lb Cr25,000
+  73   mod car ClioSport pol Cr6000 bal Cr16,000 disp Cr8500 ->339hp
+  73   buy parts ClioSport  Smuff Cr1800 SRmuff Cr3000 Rmuff Cr5000
+  73   buy parts ClioSport Rbr Cr5000 Bctlr Cr11,000 chip Cr2000
+  73   buy parts ClioSport  Rtrans Cr11,000 3clu Cr5000 Rfw Cr1200  LSDF Cr7000
+  73   buy parts ClioSport Rsusp Cr20,000 SS/SS Cr18,000 DT/DT Cr13,000
+  73 Cr1,657,282
+  73      ClioSport  MR/HSR        1st                  whiteTom'sT020
+Note: 2:06.625 -6.167 fl0:59.057
+  74 Cr1,663,282
+  74      ClioSport        Clio/SeattleLii         1st          none
+Note: 3:42.673 -2.161 fl1:51.131
+  75 Cr1,670,282
+  75      ClioSport   Sunday/RedRock    1st            none
+Note: 2:45.716 -7.633 fl1:19.313 505hp
+  76 Cr1,675,282
+  76      ClioSport    MR/RedRock       1st            blue[R]FordGT40
+Note: 2:44.052 -3.192 fl1:18.181 505hp
+  77 Cr1,690,282
+
+  77  buy car Alfa156-2.0   Alfa Red Alfa Romeo 156 2.0 TS 16V -> Cr34,530
+  77 Cr1,656,752
+  77  mod car Alfa156-2.0  WR1 Cr1200  2755lb -> 2616lb
+  77  mod car Alfa156-2.0  WR2 -> 2535lb Cr5500  WR3 -> 2451lb Cr22,500
+  77  mod car Alfa156-2.0 pol Cr5500 bal Cr13,500 
+  77  buy parts Alfa156-2.0 Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  77  buy parts Alfa156-2.0 Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  77  buy parts Alfa156-2.0 Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 LSDF Cr6500
+  77  buy parts Alfa156-2.0  TS1 Cr4500  TS2 Cr13,500   TS3 Cr40,000
+  77  buy parts Alfa156-2.0 Rsusp Cr18,000  SS/SS Cr17,500     DT/DT Cr12,500
+  77 Cr1,452,652
+  77      Alfa156-2.0  It/RomeS       1st                      none
+Note: 2:12.674 -1.172 fl1:02.570
+  78 Cr1,456,652
+  78      Alfa156-2.0  It/RomeL       1st                      none
+Note: 3:28.225 -1.164 fl1:40.268
+  79 Cr1,461,652
+  79      Alfa156-2.0  FF/Midfield  1st                    yellowTom'sT111
+Note: 2:54.595 -0.963 fl1:23.301
+  80 Cr1,467,652
+  80      Alfa156-2.0      155+156/GVEii         1st          none
+Note: 2:35.961 -1.910 fl1:14.163
+  81 Cr1,472,652
+  81      Alfa156-2.0    FF/TM        1st               redMugenPreludeTypeS
+Note: 3:14.338 -4.xxx fl1:33.539 351hp
+  82 Cr1,479,652
+  82      Alfa156-2.0 Clubman/RomeS      1st      none
+Note: 2:01.750 -3.360 fl0:57.386 351hp
+  83 Cr1,484,652
+
+  83  buy car Peugeot106  Blaze Yellow Peugeot 106 1.6 S16 -> Cr23,500
+  83 Cr1,461,152
+  83  mod car Peugeot106  WR1 Cr1200  2116lb -> 2072lb
+  83  mod car Peugeot106   WR2 -> 2010lb Cr5500  WR3 -> 1946lb Cr22,500
+  83  mod car Peugeot106 pol Cr5500 bal Cr13,500 
+  83  buy parts Peugeot106 Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  83  buy parts Peugeot106 Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  83  buy parts Peugeot106  NA1 Cr4500  NA2 Cr12,500   NA3 Cr65,000
+  83  buy parts Peugeot106 Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 LSDF Cr6500
+  83  buy parts Peugeot106 Rsusp Cr18,000  SS/SS Cr17,500     DT/DT Cr12,500
+  83 Cr1,234,052
+  83      Peugeot106  Fr/TahI      1st                     none
+Note: 2:44.603 -0.854 fl1:18.299
+  84 Cr1,238,052
+  84      Peugeot106      106/Apricotii        1st          none
+Note: 3:21.142 -3.291 fl1:35.540 192hp
+  85 Cr1,243,052  46cars  27.85%
+  85  buy car ViperRT/10 Red Dodge Viper RT/10 -> Cr72,790
+  85 Cr1,170,262  46cars  27.85%
+  85 power off
+
+March 22, 2007
+  85      Speed6  Clubman/Grindevald    1st      none
+Note: 3:11.093 -0.494 fl1:33.016 361h
+Note: beat Chimaera
+  86 Cr1,176,262  46cars  28.31%
+  86      ClioSport  Clubman/RomeL       1st      none
+Note: 3:04.170 -1.423 fl1:29.196 505h
+Note: beat Chimaera
+  87 Cr1,183,262  46cars  28.76%
+  87 power off
+
+March 23, 2007
+  87  buy car Barracuda dark red Plymouth 'Cuda '70
+  87 Cr1,159,122
+  87  mod car Barracuda  WR1 Cr1200  3591 lb -> 3410 lb
+  87  mod car Barracuda  WR2 -> 3302 lb Cr5500  WR3 -> 3194 lb Cr22,500
+  87  mod car Barracuda pol Cr5500 -> 292hp NO bal!
+  87  buy parts Barracuda Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  87  buy parts Barracuda Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  87  buy parts Barracuda  NA1 Cr4500  NA2 Cr12,500  NA3 Cr65,000
+  87  buy parts Barracuda Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 shaft Cr3000
+  87  buy parts Barracuda LSDF Cr6500 Rsusp Cr18,000  SS/SS Cr17,500
+  87 Cr955,022
+
+  87      Barracuda  US/LagunaIII  1st                     none
+Note: 3:06.884 -0.655 fl1:30.108 394h
+Note: beat Series1
+  88 Cr962,022  47cars 29.22%
+  88      Barracuda  Muscle/SeattleS   1st    silverPlymouthPtSpyder
+Note: 2:15.995 -1.139 fl1:04.369 425h
+Note: beat Superbird
+  89 Cr969,022  48cars 29.68%
+  89      Barracuda   Muscle/SeattleL   1st        silverCobra427'67
+Note: 3:26.487 -4.536 fl1:39.941 425h
+Note: beat Challenger
+  90 Cr977,022  49cars 30.13%
+  90      Barracuda  Muscle/Laguna  1st         silverChryslerPhaetonConcept
+Note: 3:04.548 -3.346 fl1:29.454 425h
+Note: beat GT350
+  91 Cr987,022  50cars 30.59%
+  
+  91      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:54.628 -3.325 fl1:09.143
+Note:  beat R390
+  92  Cr1,037,022  Cr1,537,022
+  92      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:51.527 -3.012 fl1:08.527
+Note:  beat Venturi
+  93  Cr1,587,022  Cr2,087,022
+  93  power off
+
+
+March 24, 2007
+  93  mod car Celica'84  WR1 Cr1200  2722 lb -> 2667 lb
+  93  mod car Celica'84  WR2 -> 2585 lb Cr5500  WR3 -> 2504 lb Cr22,500
+  93  mod car Celica'84 pol Cr5500  bal Cr13,500  165 -> 175hp
+  93  buy parts Celica'84 Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+  93  buy parts Celica'84 Rbr Cr4800 Bctlr Cr10,500 chip Cr1500
+  93  buy parts Celica'84  NA1 Cr4500  NA2 Cr12,500  NA3 Cr65,000
+  93  buy parts Celica'84 Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 shaft Cr3000
+  93  buy parts Celica'84 LSDF Cr6500 Rsusp Cr18,000
+  93  buy parts Celica'84  SS/SS Cr17,500  DT/DT Cr12,500
+  93  mod car Celica'84  red/white Enkei 8-spoke rims  Cr2000
+  93 Cr1,854,922
+  93      Celica'84   Celica/RomeLii   1st               none
+Note: 3:22.125 -0.840 fl1:37.228 357h
+Note: beat GT4'95
+  94 Cr1,859,922
+  94      Celica'84  80s/SeattleL   2nd          8-(
+Note: 5:15.487 +0.833 fl1:41.968 357h
+Note: lost to March'89
+  95 Cr1,865,922
+  95      Celica'84  80s/SeattleL   1st        redMugenIntegraTypeR
+Note: 5:11.989 -1.277 fl1:40.517 357h
+Note: beat RX7'83 (and March'89)
+  96 Cr1,873,922
+  96      Celica'84  80s/Tahiti 1st blue[R]SkylineSilhouetteFormula
+Note: 3:47.777 -5.447 fl1:11.789 357h
+Note: beat March'89
+  97 Cr1,883,922  52cars  31.96%
+  97 power off
+
+
+March 25, 2007
+  97  buy car WgnSTiII'95  Active Red Subaru Impreza Wagon WRX STi VersionII '95 -> Cr16,482
+  97 Cr1,867,440
+  97   mod car WgnSTiII'95 WR1 2821->2680lb Cr1500
+  97   mod car WgnSTiII'95 WR2->2594lb Cr6000   WR3->2511lb Cr25,000
+  97   mod car WgnSTiII'95 pol Cr6000 bal Cr16,000  254->264hp 
+  97   buy parts WgnSTiII'95  Smuff Cr1800 SRmuff Cr3000 Rmuff Cr5000
+  97   buy parts WgnSTiII'95 Rbr Cr5000 Bctlr Cr11,000 chip Cr2000
+  97   buy parts WgnSTiII'95  Rtrans Cr11,000 3clu Cr5000 Rfw Cr1200 shaft Cr3500
+  97   buy parts WgnSTiII'95  LSDF Cr7000 Sic Cr2000  Ric Cr3500
+  97   buy parts WgnSTiII'95  TS1 Cr5000  TS2 Cr14,500 Rsusp Cr20,000
+  97   buy parts WgnSTiII'95 SS/SS Cr18,000  DT/DT Cr13,000
+  97 Cr1,681,440
+  97      WgnSTiII'95  Impreza/RomeS 1st        none
+Note: 1:55.098 -1.481 fl0:54.111 343h
+Note: beat STiIV TypeR'97
+  98 Cr1,691,440
+  98      WgnSTiII'95 WG/Super  1st   CaymanWhitePearlMugenAccordWagon
+Note: 1:24.681 -2.890 fl0:37.840 343h
+Note: beat STiV'98
+  99 Cr1,697,440
+  99      WgnSTiII'95 WG/RomeS  1st CoolGrayMetallicImprezaWagonWRXSTiVersionV
+Note: 1:55.878 -0.962 fl0:55.229 343h
+Note: beat Caldina'97
+ 100 Cr1,702,440
+ 100      WgnSTiII'95 WG/SSR5  1st lightningYellowStagea260RSNismoWagon
+Note: 3:08.710 -1.947 fl1:29.888 343h
+Note: beat Legacy'98
+ 101 Cr1,709,440  56cars  33.78%
+ 101 power off
+
+March 29, 2007
+Note:
+Note: Sell most prizes that come in only one colour.
+Note:
+ 101   sell car greenMugenCRXpro3 -> Cr3000
+ 101   sell car redTom'sAngelT01 -> Cr12,500
+ 101   sell car whiteTRD2000GT -> Cr7,500
+ 101   sell car whiteMine'sSkylineR33GT-R -> Cr18,750
+ 101   sell car black[R]CastrolMugenNSXGT'98 -> Cr250,000
+ 101   sell car blueSilEighty -> Cr2000
+ 101   sell car blackNismo270R -> Cr10,000
+ 101   sell car whiteMine'sR32.5SkylineGT-R -> Cr17,500
+ 101   sell car whiteMine'sSkylineR33GT-R -> Cr18,750
+ 101   sell car whiteTom'sT020 -> Cr7500
+ 101   sell car yellowTom'sT111 -> Cr5500
+ 101   sell car redMugenPreludeTypeS -> Cr7500
+ 101   sell car silverChryslerPhaetonConceptCar -> Cr25,000
+ 101   sell car blue[R]SkylineSilhouetteFormula -> Cr125,000
+ 101   sell car lightningYellowStagea260RSNismoWagon -> Cr12,000
+ 101 Cr2,231,940  41cars  33.78%
+ 101 power off
+
+March 30, 2007
+ 101   mod car Capcino WR1 1543lb ->1512lb Cr1000
+ 101   mod car Capcino WR2->1466lb Cr5000   WR3->1419lb Cr20,000
+ 101   mod car Capcino pol Cr5000 bal Cr10,000 
+ 101   buy parts Capcino  Smuff Cr1500 SRmuff Cr2800 Rmuff Cr4500
+ 101   buy parts Capcino Rbr Cr4500 Bctlr Cr10,000 chip Cr1000
+ 101   buy parts Capcino  Rtrans Cr10,000 3clu Cr4500 Rfw Cr900 shaft Cr2500
+ 101   buy parts Capcino   LSDF Cr6000 TS1 Cr4000   TS2 Cr12,500
+ 101   buy parts Capcino Sic Cr1500 Ric Cr2000  Rsusp Cr10,000
+ 101   buy parts Capcino   SS/SS Cr17,000  DT/DT Cr12,000
+ 101 Cr2,078,240
+ 101      Capcino   Capcino/RedRockii              1st         none
+Note:3:06.145 -17.961 fl1:29.027 187h
+ 102 Cr2,081,240
+ 102  mod car Capcino  white OZ spokey rims  Cr2000
+ 102 Cr2,079,240
+ 102      Capcino   LwtK/RomeS    1st             yellowMugenBeat
+Note: 2:16.106 -1.429 fl1:03.468 128h
+Note: beat Capcino
+ 103 Cr2,084,240
+ 103      Capcino    LwtK/SeattleS  2nd       8-(
+Note: 2:45.671 +0.092 fl1:16.671 73h
+Note: lost to Vivio
+ 104 Cr2,087,240
+ 104      Capcino   LwtK/SeattleS  1st                 DemioAspec
+Note: 2:37.438 -0.564 fl1:13.831 73h
+Note: beat Suzuki RR (and Vivio)
+ 105 Cr2,093,240
+ 105      Capcino   LwtK/Tahiti    1st          blackMugenCRXpro2
+Note: 3:08.741 -1.115 fl1:27.375 73h
+Note: beat AZ-1 (and Capcino)
+ 106 Cr2,100,240  44cars  35.61%
+ 106 power off
+
+March 31, 2007
+ 106   buy car [R]Capcino Suzuki [R]Cappuccino'95(trade) -> (Cr166,369,trade)
+ 106   mod car [R]Capcino [R]-mod (green/white) Cr80,000 -> 1375lb
+ 106 Cr1,853,871
+ 106      [R]Capcino     [R]Capcino/Autumn   1st       none
+Note: 2:55.477 -3.709 fl1:24.367 187h
+ 107 Cr1,858,871  45cars  36.07%
+
+ 107   buy car Saxo  Persian Red Citroen Saxo 1.6i VTS -> Cr21,330
+ 107 Cr1,837,541
+ 107   mod car Saxo WR1 2061 lb ->2019 lb Cr1000
+ 107   mod car Saxo WR2->1957lb Cr5000   WR3->1895lb Cr20,000
+ 107   mod car Saxo pol Cr5000 bal Cr10,000   118->126hp
+ 107   buy parts Saxo  Smuff Cr1500 SRmuff Cr2800 Rmuff Cr4500
+ 107   buy parts Saxo Rbr Cr4500 Bctlr Cr10,000 chip Cr1000
+ 107   buy parts Saxo  NA1 Cr4000  NA2 Cr11,500 NA3 Cr60,000
+ 107   buy parts Saxo Rtrans Cr10,000 3clu Cr4500 Rfw Cr900 LSDF Cr6000
+ 107   buy parts Saxo  Rsusp Cr10,000  SS/SS Cr17,000  DT/DT Cr12,000
+ 107 Cr1,631,341
+ 107      Saxo      Compact/RomeS  1st   SilverMetallicToyotaVitzF'99
+Note: 2:05.675 -1.319 fl0:59.014 220h
+Note: beat 106 Rallye
+ 108 Cr1,635,341
+ 108      Saxo      Compact/SeattleS  1st  PearlBlackRenaultClio16V
+Note: 2:18.771 -0.618 fl1:05.714 220h
+Note: beat Clio 16V
+ 109 Cr1,639,341
+ 109      Saxo      Compact/Autumn  1st           YellowVWLupo1.4
+Note: 2:49.440 -2.190 fl1:21.528 264h
+Note: beat Vitz
+ 110 Cr1,643,341
+ 110  mod car Saxo   red/gold Rays 6-spoke rims  Cr2000
+ 110 Cr1,641,341
+ 110      Saxo        Saxo/RomeS     1st          none
+Note: 2:01.411 -9.972 fl0:57.504 264h
+ 111 Cr1,644,341  49cars  37.89%
+ 111   buy car [R]Saxo  Citroen [R]Saxo 1.6i VTS(trade) -> (Cr227,530,trade)
+ 111   mod car [R]Saxo [R]-mod (red) Cr80,000 -> 1838lb
+ 111 Cr1,336,811
+ 111      [R]Saxo     [R]Saxo/RedRockii          1st          none
+Note: 2:53.354 -3.673 fl1:22.895 264h
+ 112 Cr1,341,811  50cars  38.35%
+
+ 112 buy car  [R]Tigra Opel [R]Tigra Ice Race Car -> Cr500,000
+ 112 Cr841,811  51cars
+ 112      [R]Tigra   [R]Tigra/RomeSii  1st      none
+Note: 1:43.849 -19.130 0:48.719
+Note: beat Tigra 1.6i (cheating)
+ 113 Cr846,811  51cars  38.81%
+
+Note: Long break while dealing with family crisis.
+
+May 15, 2007
+ 113   mod car  [R]DaisinSilvia  (alias gold[R]DajshinSilviaGT'99)
+ 113      [R]DaisinSilvia  [R]Silvia/Autumn  1st         none
+Note: 2:41.714 -4.907 1:16.212
+Note: beat Aero S (cheating)
+ 114 Cr853,811  51cars  39.26%
+ 114      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:48.428 -0:03.432 fl1:08.011    (beat GT-ONE) 
+ 115 Cr903,811  Cr1,403,811
+
+ 115 buy car [R]TT-LM  Audi [R]TT LM Edition
+ 115 Cr403,811
+ 115      [R]TT-LM  [R]TT/GVii                 1st          none
+Note: 3:51.331 -0:14.646 fl1:53.569    (beat TT 1.8T) 
+ 116 Cr413,811  52cars  39.72%
+ 116 power off
+
+ 116      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:51.081 -0:03.163 fl1:07.566    (beat GT40) 
+ 117 Cr463,811  Cr963,811
+
+ 117   buy car [R]Civic'93si  Milan Red Honda Civic3dr'93si for [R]mod -> Cr10,042
+ 117 Cr953,769
+ 117   mod car [R]Civic'93si WR1 2094 lb ->2052 lb Cr1200
+ 117   mod car [R]Civic'93si WR2->1988lb Cr5500   WR3->1925lb Cr22,500
+ 117   mod car [R]Civic'93si [R]mod Cr82,000 -> 1867lb
+ 117   mod car [R]Civic'93si disp Cr8,000 pol Cr5500 bal Cr13,500
+ 117   buy parts [R]Civic'93si  Smuff Cr1600 SRmuff Cr2900 Rmuff Cr4800
+ 117   buy parts [R]Civic'93si Rbr Cr4800 Bctlr Cr10,500
+ 117   buy parts [R]Civic'93si  chip Cr1500 NA1 Cr4500  NA2 Cr12,500
+ 117   buy parts [R]Civic'93si Rtrans Cr10,500 3clu Cr4800 Rfw Cr1000 LSDF Cr6500
+ 117   buy parts [R]Civic'93si  Rsusp Cr18,000  SS/SS Cr17,500
+ 117 Cr696,169  53cars
+ 117      [R]Civic'93si SuperT/Apricot 1st           whiteTom'sSupra
+Note: 4:26.509 -0:04.507 fl1:24.927    (beat Peugeot 406) 
+ 118 Cr711,169  54cars 40.18%
+ 118      [R]Civic'93si SuperT/TM 1st           silverTRD3000GT
+Note: 4:41.579 -0:01.337 fl1:30.689    (beat Civic3dr'93si) 
+ 119 Cr726,169  55cars 40.63%
+ 119      [R]Civic'93si SuperT/DFRW 1st           whiteTom'sSupra(dup)(sold)
+Note: 4:08.027 -0:03.371 fl1:19.757    (beat VectraGsi) 
+ 120 Cr741,169  Cr754,919 55cars 41.09%
+ 120      [R]Civic'93si SuperT/Laguna 1st           silverTRD3000GT(dup)(sold)
+Note: 4:32.454 -0:00.991 fl1:26.999    (beat ExivGT)
+Note: 1:35.789 1:26.999 1:29.666 
+ 121 Cr769,919  Cr784,169 55cars 41.55%
+ 121 power off.
+
+May 17, 2007
+ 121      [R]Civic'93si SuperT/RomeL 1st           silverTRD3000GT(dup)(sold)
+Note: 4:42.654 -0:01.150 fl1:31.994    (beat Infiniti'91)
+ 122 Cr799,169 Cr813,419 55cars 42.00%
+ 122      [R]Civic'93si  [R]Civic/SeattleLii         1st          none
+Note: 3:35.515 -3.273 fl1:42.480
+ 123 Cr820,419  55cars 42.46%
+
+ 123      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 6:00.370 -0:00.078 fl1:08.538    (beat GT-ONE(just)) 
+ 124 Cr870,419  Cr1,370,419
+
+June 22, 2007
+ 124      Speed6  Euro/Apricot   1st      white[R]CastrolSupraGT'96
+Note: 4:27.689 -0:01.266 fl1:26.059    (beat Cerbera4.2) 
+ 125 Cr1,380,419  56cars  42.92%
+ 125      Speed6  Euro/GV   1st           white[R]ZexelSkylineGT'97
+Note: 6:05.186 -0:01.223 fl1:57.408    (beat RUF BTR2)
+ 126 Cr1,390,419  57cars  43.37%
+ 126      Speed6  Euro/RomeL   2nd      8-(
+Note: 4:39.758 +0:00.581 fl1:29.534    (lost to Cerbera4.2) 
+ 127 Cr1,397,419
+ 127      Speed6  Euro/RomeL   2nd      8-(
+Note: 4:42.069 +0:00.551 fl1:29.496    (lost to Cerbera4.2) 
+ 128 Cr1,404,419
+ 128      Speed6  Euro/RomeL   1st      black[R]KureR33SkylineGT-R'97
+Note: 4:37.078 -0:00.399 fl1:29.447    (beat RUF BTR2) 
+ 129 Cr1,414,419  58cars  43.83%
+ 129 power off
+
+October 31, 2007
+ 129      R34GTR'99 Pacific/Midfield 1st red/blue[R]Nissan300ZX-GTS
+Note: 3:51.153 -1.171 fl1:14.567    (beat NSX S0) 
+ 130 Cr1,424,419  59cars  44.29%
+ 130      R34GTR'99 Pacific/SeattleL 1st      red[R]RX7LMedition
+Note: 4:51.248 -0.990 fl1:33.684    (beat NSX S0) 
+ 131 Cr1,434,419  60cars  44.74%
+ 131      R34GTR'99 Pacific/Laguna   2nd           8-(
+Note: 4:31.359 +0.569 fl1:28.930    (lost to RX7 RS) 
+ 132 Cr1,441,419  60cars  44.74%
+ 132      R34GTR'99 Pacific/Laguna   1st           [R]HKSDrag180SX
+Note: 4:34.424 -1.969 fl1:25.692 (horrendous; beat Viper GTS)
+ 133 Cr1,451,419  61cars  45.20%
+
+November 03, 2007
+ 133      [R]UnisiaGT-R  Stars/RedRock      1st    burgundySpeed12(sold)
+Note: 5:47.506 -0:04.548 fl1:07.165    (beat VenturiLM) 
+ 134 Cr1,501,419 Cr2,001,419 61cars  45.20%
+ 134      [R]UnisiaGT-R    Stars/SSR5  1st  whiteMine'sSkylineR34GT-R
+Note: 6:35.089 -0:04.215 fl1:16.656    (beat Saleen) 
+ 135 Cr2,051,419  62cars  45.66%
+ 135      license obtain S license
+note: S1  (Mini@@Tahiti) 1:20.236F,1:19.181B
+note: S2  (GT40@@Seattle) 1:39.704B
+note: S3  (Impreza@@SmokeyN) 1:24.762B
+note: S4  (Skyline@@Midfield) 1:07.463B
+note: S5  (Europa@@Grindewald) 1:37.678B 
+note: S6  (Peugeot@@RomeL) 1:35.877B
+note: S7  (Viper@@Laguna) F,F,1:18.776B
+note: S8  (Lancer@@TahitiM) 2:10.350B
+note: S9  (Alfa155@@RomeN) 1:39.551F,1:38.986F,1:38.861,1:36.770B
+note: S10 (GT-ONE@@Apricot) 1:14.698B
+Note: S license acquired!
+ 136      [R]UnisiaGT-R Stars/Laguna 1st  redR390GT1roadCar'97
+Note: 6:26.588 -0:01.599 fl1:14.272    (beat GT40) 
+ 137 Cr2,101,419  63cars  46.11%
+ 137      [R]UnisiaGT-R  Stars/RomeL   1st              silver[R]ZZII
+Note: 6:38.183 -0:02.268 fl1:17.895    (beat  GT40) 
+ 138 Cr2,151,419  64cars  46.57%
+
+November 4, 2007
+ 138      [R]UnisiaGT-R   GT500  1st           white[R]TakataNSXGT'99
+                                    sw40to18,17,16,15,14
+Note: Laguna  6:23.505  -4.792 fl1:14.564    (beat UnisiaGT-R) 
+Note: Super   2:41.326 -14.387 fl0:30.697    (beat CastrolMugenNSX) 
+Note: RomeL   6:34.626  -4.731 fl1:16.978    (beat RaybrigNSX) 
+Note: TM      6:44.278  -5.492 fl1:17.481    (beat KureR33) 
+Note: Apricot 6:19.034  -8.253 fl1:13.923    (beat TaisanViper) 
+ 139 Cr2,601,419  65cars  47.03%
+
+
+@
+
+
+1.15
+log
+@Days 121-129.  Euro with Speed6.
+Plus a correction.
+@
+text
+@d912 50
+@
+
+
+1.14
+log
+@Days 113 to 121 on May 15, 2007.  After a long break.
+A few minor corrections.
+Did most of Super Touring set.
+@
+text
+@d876 1
+a876 1
+ 120      [R]Civic'93si SuperT/DFRW 1st           silverTRD3000GT(dup)(sold)
+d880 32
+a911 1
+ 121 power off
+@
+
+
+1.13
+log
+@A few line length corrections.
+Days 101 to 113.
+March 30-31, 2007.
+@
+text
+@d247 1
+a247 1
+  19   buy car NSX'93  Cranberry Red Pearl Acura NSX'93 (Cr95,000) 
+d412 1
+a412 1
+  50 buy car [R]R34GTR'99  Nissan [R]Skyline R34 GT-R Vspec  (Cr374,480,trade)
+d783 1
+a783 1
+ 106   buy car [R]Capcino Suzuki [R]Cappuccino'95(trade) ->(Cr166,369,trade)
+d818 1
+a818 1
+ 111   buy car [R]Saxo  Citroen [R]Saxo 1.6i VTS(trade) ->(Cr227,530,trade)
+d830 1
+a830 1
+ 113 Cr841,811  51cars  38.64%
+d832 1
+d834 47
+@
+
+
+1.12
+log
+@My first sell-off; sell most prizes which come in only one colour.
+(I.e. which can be easily replaced).
+@
+text
+@d310 1
+a310 1
+  28      R34GTR'99  Turbo/TT       1st                whiteMine'sSkylineR33GT-R
+d648 1
+a648 1
+  90      Barracuda  Muscle/Laguna  1st                     silverChryslerPhaetonConcept
+d748 85
+@
+
+
+1.11
+log
+@Minor corrections.
+@
+text
+@d726 22
+@
+
+
+1.10
+log
+@March 22-25, 2007.
+Days 85-101.
+Finished GT League Nationals.
+@
+text
+@d257 1
+a257 1
+  19   buy parts NSX'93 Rsusp Cr18,000 SS/SS Cr18,000
+d463 1
+a463 1
+  59      NeonACR  FF/Tahiti       1st           redMugenAccordSir-T(new)
+d609 1
+a609 1
+  85 Cr1,179,262  46cars  27.85%
+@
+
+
+1.9
+log
+@Added missed parts purchases.
+s/h$/hp/ for hp used on race times.
+@
+text
+@d611 41
+d653 72
+@
+
+
+1.8
+log
+@March 02 to March 04, 2007.
+Days 68-85.
+Almost finished GT League.
+@
+text
+@d303 2
+d555 1
+a555 1
+Note: 2:45.716 -7.633 fl1:19.313 505h
+d558 1
+a558 1
+Note: 2:44.052 -3.192 fl1:18.181 505h
+d585 1
+a585 1
+Note: 3:14.338 -4.xxx fl1:33.539 351h
+d588 1
+a588 1
+Note: 2:01.750 -3.360 fl0:57.386 351h
+d606 1
+a606 1
+Note: 3:21.142 -3.291 fl1:35.540 192h
+@
+
+
+1.7
+log
+@Date correction.
+@
+text
+@d505 107
+@
+
+
+1.6
+log
+@Feb 24/2007 to Mar01/2007
+Days 54 to 68.
+Neon, Mini1.3i
+@
+text
+@d429 1
+a429 1
+February 24, 2007
+@
+
+
+1.5
+log
+@Feb 21-24, 2007.
+days 31 to 54.
+SLK230, RX7-GTC, R34GTR'99 [R]R34GTR'99
+@
+text
+@d426 1
+d429 75
+@
+
+
+1.4
+log
+@Feb 17, 2007
+Days 24 to 31.
+Maxing an R34Vspec
+@
+text
+@d319 109
+@
+
+
+1.3
+log
+@days 8 to 24.
+Levin'83 and NSX'83
+13cars 6.39%
+@
+text
+@d278 41
+@
+
+
+1.2
+log
+@February 09-10, 2007.
+@
+text
+@d182 97
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d101 81
+@

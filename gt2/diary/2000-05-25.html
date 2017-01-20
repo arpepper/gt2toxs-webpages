@@ -1,0 +1,251 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Thursday May 25, 2000
+ -- Tired of Typing in Car Codes to Get Prize Cars?
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Thursday May 25, 2000
+</h3>
+</font>
+<font color="white">
+<h4>Tired of Typing in Car Codes to Get Prize Cars?
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-05-23.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-06-01.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-05-22.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-07-03.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-05-23.html#Gameplay_Hints">&lt;&lt;--</a>
+<a name="Gameplay_Hints">Gameplay Hints
+</a><a href="2000-06-09.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-05-23.html#Gran_Turismo_2">&lt;&lt;--</a>
+<a name="Gran_Turismo_2">Gran Turismo 2
+</a><a href="2000-06-09.html#Gran_Turismo_2">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Thursday May 25, 2000
+</h3>
+<h4>Tired of Typing in Car Codes to Get Prize Cars?
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Tired of Typing in Car Codes to Get Prize Cars?
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+These GameShark Codes to let you see and buy all colours of all prize
+cars
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+This code combines my discovery of the race prize-list with my
+old "view cars in Toyota New Car Lineup Page 1" code, (which I
+must also post here sometime).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+This code needs a &lt;b>GS&lt;/b> which supports the &lt;b>C2&lt;/b> "memory
+copy" code.  That is, as far as I can tell, a &lt;b>GS&lt;/b> 3.00 or greater.
+I also rely on the &lt;b>10&lt;/b> "add" code with a value of zero working as a
+no-operation.  (i.e. not changing anything).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+With these twelve lines you can get access to all the prize cars for
+purchase.  With the code active, simply enter any event (including
+license tests).  After that, if you go to the first page of the Toyota
+New Car Lineup, the first four cars should be the four prize cars
+from that event.  You can view the different colours, and purchase
+them (if you have enough money).
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+If fewer than four prize cars are awarded for the event, then prize
+cars from earlier events will remain available.  Conversely, if you go
+to the Toyota New Car Lineup Page 1 before having entered an event
+which awards four prize cars, some or all of the changed cars will show
+a price of Cr0.  Do not view those cars.  :)  Doing so will not do
+anything useful, and will probably require resetting the game.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Enjoy!
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><HR>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Show Race Prizes at Toyota for NTSC 1.0
+(garage FB8, offset 0, tested, not double-checked)
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+D01C322C D5D8 -- tests if we are on Toyota New Page 1
+C21D502C 0004 ---- if so, copies  car code from prize list
+101C3018 0000 ---- this has target address for copy, or is no-op
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C322C D5D8 -- same for second prize car
+C21D50D0 0004
+101C3064 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+
+D01C322C D5D8 -- same for third prize car
+C21D5174 0004
+101C30B0 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+
+D01C322C D5D8 -- same for fourth prize car
+C21D5218 0004
+101C30FC 0000
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><HR>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Show Race Prizes at Toyota for NTSC 1.1
+(garage 328, offset 370, tested, not double-checked)
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+D01C32EC D5D8 -- tests if we are on Toyota New Page 1
+C21D539C 0004 ---- if so, copies  car code from prize list
+101C30D8 0000 ---- this has target address for copy, or is  no-op
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- same for second prize car
+C21D5440 0004
+101C3124 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- same for third prize car
+C21D54E4 0004
+101C3170 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C32EC D5D8 -- same for fourth prize car
+C21D5588 0004
+101C31BC 0000
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><HR>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Show Race Prizes at Toyota for NTSC 1.2
+(garage 558, offset 5A0, tested, not double-checked)
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+D01C353C D5D8 -- tests if we are on Toyota New Page 1
+C21D55CC 0004 ---- if so, copies car code from prize list
+101C3328 0000 ---- this has target address for copy, or is no-op
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- same for second prize car
+C21D5670 0004
+101C3374 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- same for third prize car
+C21D5714 0004
+101C33C0 0000
+</pre></font></tt>
+
+<tt><font face="Courier"><pre>
+D01C353C D5D8 -- same for fourth prize car
+C21D57B8 0004
+101C340C 0000
+</pre></font></tt>
+</td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-05-22.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-07-03.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-05-23.html#Gameplay_Hints">&lt;&lt;--</a>
+<a href="#Gameplay_Hints">Gameplay Hints
+</a><a href="2000-06-09.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-05-23.html#Gran_Turismo_2">&lt;&lt;--</a>
+<a href="#Gran_Turismo_2">Gran Turismo 2
+</a><a href="2000-06-09.html#Gran_Turismo_2">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-05-23.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-06-01.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

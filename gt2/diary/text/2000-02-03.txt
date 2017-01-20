@@ -1,0 +1,115 @@
+Wednesday February 2, 2000
+
+Fun with a GameShark Pro and GT v2.0
+
+Threads:
+  Game Shark Hints
+
+I've been too busy to create diary entries recently.  I'll probably
+fill in a few prior to this one, probably by reworking some of my
+usenet postings.
+
+I finally got around to playing with a GameShark and Gran Turismo
+2.  I was curious to try out the secret Mercedes-Benz CLK Race
+Car.  I was still using the buggy North American version 2.0 
+Gran Turismo, since I haven't got around to getting the new
+version yet.
+
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+
+Afterwards I searched for the day counter.  Since I was at day 372,
+and had got hints from the Web about the location of the garage
+information and such, I found it quite quickly.
+
+
+
+<HTML>
+<font face="Courier">
+<table width=90%>
+<tr align=top>
+<td valign=top width=12% rowspan=5> </td>
+<td valign=top>
+$1C9438&nbsp;-
+</td>
+<td>
+<p>
+         simulation day counter - By changing this, you can change the
+	 used car inventory.  However, you must set it, exit to the
+	 main menu, and then select "Start Game" again, to actually
+	 generate the new inventory.
+</p>
+</td>
+</tr>
+
+</table>
+</font>
+</HTML>
+
+By using this, I examined the stock for day 600, 610, day 10,
+and checked day 1 by starting a new game.  I was able to confirm
+that the used car cycle probably repeats on day 600, just like
+in GT1.
+
+<HTML>
+<font face="Courier">
+<table width=90%>
+<font face="Courier">
+<tr align=top>
+<td valign=top width=12% rowspan=5> </td>
+<td valign=top>
+$B9320&nbsp;-
+</td>
+<td>
+<p>
+         This, I learned from the newsgroups, is the start of a table
+         for the Honda used car stock.  Each car has an 8-byte table
+         entry describing its make, model, price, and colour.  You
+         can patch in arbitrary values using the memory editor, and
+         then by them.   This is how you can buy the hidden Mercedes-Benz
+         [R]CLK Race Car.  Here are some values you can put there.
+</p>
+<table>
+<font face="Courier">
+<tr><td>&nbsp;</td><td>$DCE05C11 -</td><td> Mercedes Benz [R] CLK Race Car
+</td></tr>
+<tr><td>&nbsp;</td><td>$D8A18111 -</td><td> Volkswagen Polo
+</td></tr>
+<tr><td>&nbsp;</td><td>$18370D12 -</td><td> B7 License Test Integra
+</td></tr>
+</font>
+</table>
+</td>
+</tr>
+
+</font>
+</table>
+</font>
+</HTML>
+
+
+Disclaimer: Do not use any of these codes unless you know what you are
+doing and understand and are willing to take the risks involved.  Even
+if you do understand the risks, double-check my numbers if possible.
+(E.g. always inspect the value of a location for consistency before
+changing it).
+
+For example, I completely crashed my game and trashed my garage
+when I first put in the Mercedes CLK code with the bytes swapped.
+(I did not overwrite any game save, of course--I always remove
+memory cards when they are not needed while sharking).
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

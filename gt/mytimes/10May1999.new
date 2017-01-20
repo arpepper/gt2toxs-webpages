@@ -1,0 +1,91 @@
+#
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Spot::ARM
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Spot::DFRW
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Spot::GVE
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Spot::HSR
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Spot::TM
+#
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Sunday::ARM
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Sunday::HSR
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Sunday::GVE
+#
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Clubman::AR
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Clubman::CSR5
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::Clubman::TM
+#
+4:44.105::[R]GTO'95 MR::10May1999::total::GT::GV
+1:32.541::[R]GTO'95 MR::10May1999::lap::GT::GV
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT::DFRW
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT::SSR5
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT::TM
+#
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT-I::HSR
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT-I::TM
+4:45.383::[R]GTO'95 MR::10May1999::total::GT-I::GV
+1:33.144::[R]GTO'95 MR::10May1999::lap::GT-I::GV
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT-I::SSR5
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::GT-I::DFRW
+4:45.383::[R]GTO'95 MR::10May1999::total::GT-I::SSR11
+1:40.409::[R]GTO'95 MR::10May1999::lap::GT-I::SSR11
+#
+M:SS.TTT::Eclipse GT::00May1999::total::FF::DFRWii
+M:SS.TTT::Eclipse GT::00May1999::total::FF::GVE
+M:SS.TTT::Eclipse GT::00May1999::total::FF::SSR11
+#
+M:SS.TTT::Cerbera::00May1999::total::FR::GVEii
+M:SS.TTT::Cerbera::00May1999::total::FR::DFRW
+M:SS.TTT::Cerbera::00May1999::total::FR::GVii
+#
+M:SS.TTT::GTO'95 MR::00May1999::total::4WD::TMii
+M:SS.TTT::GTO'95 MR::00May1999::total::4WD::GV
+3:09.334::GTO'95 MR::09May1999::total::4WD::GV
+1:31.787::GTO'95 MR::09May1999::lap::4WD::GV
+3:09.133::GTO'95 MR::10May1999::total::4WD::GV
+M:SS.TTT::GTO'95 MR::00May1999::total::4WD::SSR5ii
+#
+M:SS.TTT::'93 Civic 3dr::00May1999::total::LW::ARMii
+M:SS.TTT::'93 Civic 3dr::00May1999::total::LW::CSR5
+M:SS.TTT::'93 Civic 3dr::00May1999::total::LW::DFRWii
+#
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::USvsJP::TMii
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::USvsJP::SSR5
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::USvsJP::HSR
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::USvsJP::GVEii
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::USvsJP::SSR11
+#
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::UKvsJP::TMii
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::UKvsJP::SSR5
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::UKvsJP::HSR
+2:42.100::[R]GTO'95 MR::10May1999::total::UKvsJP::GVEii
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::UKvsJP::SSR11
+1:39.581::[R]GTO'95 MR::10May1999::lap::UKvsJP::SSR11
+#
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::UKvsUS::TMii
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::UKvsUS::SSR5
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::UKvsUS::HSR
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::UKvsUS::GVEii
+M:SS.TTT::[R]Concept Car 560bhp::00May1999::total::UKvsUS::SSR11
+#
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::Megaspeed::HSR
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::Megaspeed::TT
+M:SS.TTT::[R]GTO'95 MR::00May1999::total::Megaspeed::HSRii
+#
+M:SS.TTT::Viper GTS::00May1999::total::Normal::ARMii
+M:SS.TTT::Viper GTS::00May1999::total::Normal::GVEii
+M:SS.TTT::Viper GTS::00May1999::total::Normal::CSR5ii
+M:SS.TTT::Viper GTS::00May1999::total::Normal::DFRWii
+M:SS.TTT::Viper GTS::00May1999::total::Normal::SSR11
+#
+M:SS.TTT::GTO'95 MR::00May1999::total::Tuned::HSRii
+M:SS.TTT::GTO'95 MR::00May1999::total::Tuned::GVii
+M:SS.TTT::GTO'95 MR::00May1999::total::Tuned::CSR5ii
+M:SS.TTT::GTO'95 MR::00May1999::total::Tuned::ARii
+M:SS.TTT::GTO'95 MR::00May1999::total::Tuned::SSR11ii
+#
+M:SS.TTT::[R]FTO LM::00May1999::total::GV300::GV
+#
+M:SS.TTT::[R]GTO '95 MR::00May1999::total::SSR11::SSR11
+53:06.251::[R]GTO '95 MR::09May1999::total::SSR11::SSR11
+1:40.573::[R]GTO '95 MR::09May1999::lap::SSR11::SSR11
+#
+M:SS.TTT::GTO'95 MR::00May1999::total::SSR11ii::SSR11ii

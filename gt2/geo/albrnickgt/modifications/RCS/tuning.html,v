@@ -1,0 +1,325 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2002.04.21.01.49.32;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.21.01.46.29;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.52.32;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Refer to Jet Jaguar's pages.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation - Modifications, Tuning & Terminology - Tuning</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Modifications, Tuning & Terminology<BR>
+Tuning
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+All this information was taken from the Tuning FAQ by
+<A HREF="mailto:chmilnir@@worldnet.att.net">Bob Chmilnitzky/"Jet Jaguar"</A>, 
+with his permission.
+His own, up-to-date version is at <A HREF="http://home.att.net/~chmilnir/gt/">
+http://home.att.net/~chmilnir/gt/</A>.
+<BR>
+
+<UL>
+  <LI><A HREF="#Introduction">Introduction</A>
+  <LI><A HREF="#Springs">Springs</A>
+  <LI><A HREF="#Ride Height">Ride Height</A>
+  <LI><A HREF="#Dampers">Dampers</A>
+  <LI><A HREF="#Camber">Camber</A>
+  <LI><A HREF="#Stabilizer">Stabilizer</A>
+  <LI><A HREF="#Brakes">Brakes</A>
+  <LI><A HREF="#Gear Ratio">Gear Ratio</A>
+  <LI><A HREF="#Downforce">Downforce</A>
+
+</UL>
+
+<P>
+<HR>
+<P>
+
+<H3>
+<A NAME="Introduction">Introduction:</A>
+</H3>
+<P>
+	The reason I'm writing this FAQ is to help others make
+intelligent, informed decisions concerning car setup.  I've found this
+area of the otherwise excellent Gran Turismo manual is sorely
+deficient.  This FAQ is based on real-life car physics.  This may or
+may not apply to the game, depending on how accurately the game
+depicts car physics.  Any areas that I feel I have found to be
+different are noted in brackets, though the real-world effect is still
+listed for the sake of completeness, since I haven't sat down and
+tried everything out to see if it works (or in case I'm wrong :-) ).
+It should also be noted that my real-world experience is limited to
+rear-wheel drive cars, so any special considerations that need to be
+made for front- and four-wheel drive vehicles is not mentioned, but,
+from what I understand, the basic principles of setup are the same.
+<P>
+[Tip:  Make one adjustment at a time and test it.  If you make several
+adjustments at once, it can be difficult to isolate the effects of
+each adjustment, as one adjustment can cancel out another.]
+<P><BR>
+
+<H3>
+<A NAME="Springs">Springs:</A>
+</H3>
+<P>
+	The purpose of the springs is to control wheel movement and
+keep the tyre in contact with the road over bumps and undulations.
+Stiffening the springs front and rear will reduce body roll and make
+handling more responsive, but cause a loss of traction over bumpy
+surfaces.  Likewise, softening all of the springs will give more grip
+on bumpy tracks, but increase roll and reduce responsiveness.  You can
+also use the springs to affect the car balance.  You can reduce
+oversteer by stiffening the front springs or softening the rear.
+Likewise, you can reduce understeer by softening the front springs or
+stiffening the rear.  However, be advised that changing just one end
+also affects fore/aft weight transfer.  By softening the front
+springs, you'll also get more dive under braking.  Softening the rear
+will give you more rear weight transfer under acceleration, which can
+give you more traction on the rear wheels in straight-line
+acceleration.  
+<P>
+[Tip:  I generally do not use the springs to adjust
+balance, because of its effects on fore/aft weight transfer.  I
+reserve the stabilizers for this purpose.]
+<P><BR>
+
+<H3>
+<A NAME="Ride Height">Ride Height:</A>
+</H3>
+<P>
+	A lower ride height lowers the center of gravity, which
+reduces weight transfer during cornering, acceleration, and braking.
+The reduced weight transfer improves cornering.  A lower ride height
+also lowers drag at high speed because you are presenting a smaller
+frontal profile to the airstream.  Also, by lowering the front end and
+raising the rear, you can improve high speed stability and increase
+downforce by preventing high-pressure air from building up underneath
+the nose of the car.  [Note:  I have not noticed ride height affecting
+aerodynamics at all in the game]  If the car is too low, it can bottom
+out, though this can be eliminated by stiffening the springs.  For
+rear-wheel drive cars, you can improve rear traction under
+acceleration by increasing ride height, since maximum traction can be
+obtained with the maximum amount of weight on the rear tyres.
+Generally, you'll only want to do this in the acceleration tests,
+since it will hurt cornering performance, and never with front-wheel
+drive cars, since the driving wheels will be losing grip.
+<P><BR>
+
+<H3>
+<A NAME="Dampers">Dampers:</A>
+</H3>
+<P>
+	The purpose of the dampers (also called shock absorbers) is to
+dampen the oscillation of the springs.  The shocks not only dampen
+spring oscillations, but they also affect handling during transient
+conditions (such as the entry and exit of turns), but not steady-state
+conditions.  Softening the dampers reduces responsiveness, and
+likewise stiffening the dampers will increase responsiveness.
+However, if they are too stiff, they can lead to a loss of suspension
+sensitivity and increase the harshness and bumpiness of the ride.  If
+they are too soft, it will cause the handling to feel mushy.  You can
+reduce understeer during corner entry and exit by softening the front
+dampers or stiffening the rear.  Conversely, you can reduce oversteer
+in the entries and exits by stiffening the fronts and softening the
+rear dampers.
+<P><BR>
+
+<H3>
+<A NAME="Camber">Camber:</A>
+</H3>
+<P>
+	Camber is the angle the tyres make with the road and is
+measured in degrees.  Tyre grip varies with the camber angle, and
+ideally is maximum when the angle is zero.  However, the maximum grip
+is found with a small amount of negative camber because of tyre
+sidewall deflection (when the top of the tyre is tilted inward it is
+called negative camber.  The game does not allow positive camber, and
+in real life road racing it is never used).  Also, as the body rolls
+in a turn, the suspension movements themselves causes some adverse
+camber change.  These combined effects mean that for maximum cornering
+power you need to have some amount of negative camber.
+<P>
+[Note:  Unfortunately, I have
+not found a reliable way in the game to determine the optimum camber
+settings.  In real life, camber is generally determined by measuring
+tyre temperatures at different points across the tread surface, or by
+monitoring tyre wear.  Generally, I just play around with the settings
+until I come across a setting I think feels best.]
+<P><BR>
+
+<H3>
+<A NAME="Stabilizer">Stabilizer:</A>
+</H3>
+<P>
+	The purpose of the stabilizer (also known as the anti-roll
+bar, or anti-sway bar, although I prefer anti-roll bar because it can
+very well destabilize a car and has nothing to do with sway) is to
+resist body roll in a turn, much like a spring.  However, unlike the
+springs, they do not come into play on two-wheel bumps or on fore/aft
+weight transfer.  Stiffening the stabilizers front and back gives more
+responsive handling and less body roll, but can upset stability on a
+bumpy track by transmitting loads from one-wheel bumps to the opposite
+wheel.  Likewise, softening the bars all around can increase body roll
+and reduce responsiveness, but make the car more stable on bumpy
+tracks.  Because the anti-roll bars are fairly independent of other
+chassis settings, they are ideal for fine-tuning car balance.  You can
+reduce understeer by softening the front bar, or stiffening the rear.
+You can reduce oversteer by stiffening the front bar or by softening
+the rear.
+<P><BR>
+
+<H3>
+<A NAME="Brakes">Brakes:</A>
+</H3>
+<P>
+	The brake balance allows you to adjust the proportion of
+braking power distributed between the front and rear brakes, which
+affects the balance under the car under braking.  Oversteer under
+braking (i.e. the back wants to jump out while braking) can be reduced
+by increasing front brake balance, or reducing rear balance.
+Understeer under braking (the car doesn't turn in) can be reduced by
+decreasing front brakes, or increasing rear.  [Tip:  generally, you
+always want higher front brakes than rear.  This is because of forward
+weight transfer under braking.  As the weight is transferred forward
+off of the rear tyres, they are unloaded and lose grip, which causes
+them to lock up before the front tyres.]
+<P><BR>
+
+<H3>
+<A NAME="Gear Ratio">Gear Ratio:</A>
+</H3>
+<P>
+	The purpose of the gearbox is to keep the engine within it's
+optimum rpm range over a range of road speeds.  Shorter gear ratios
+(bigger ratio numbers) give you more acceleration and rpms.  Taller
+ratios (smaller ratio numbers) give you higher speed before the engine
+redlines, but less acceleration.  The final drive ratio can be thought
+of a sort of "multiplier" that affects all of the gear ratios
+simultaneously, which makes it convenient to fine tune your
+transmission to different tracks.  
+<P>
+	[Tip:  The way I generally set up the gears is to first set
+1st gear so the engine rpm is in the meaty part of the torque curve
+for the exits of the slowest turns on the track.  I then set top gear
+for top speed and space out the rest of the gears evenly between the
+two, except for the top couple gears, which I space a little closer
+together than the lower gears since acceleration is slower at high
+speed due to increased air resistance.  I don't normally change gear
+ratios from one track to the next, I just set a good compromise and
+stick with it.  The only exception is I'll sometimes adjust the final
+drive ratio at certain tracks.  For example, at the Autumn Ring I'll
+bump the final drive to a shorter ratio to get more acceleration since
+you won't be hitting top speed anywhere on the track anyway, and on
+the oval track I'll change to a taller ratio to get more top end
+speed.]
+<P><BR>
+
+<H3>
+<A NAME="Downforce">Downforce:</A>
+</H3>
+<P>
+	Downforce is the aerodynamic force pressing the car down on
+the track and improves cornering grip.  This downforce is dependent on
+forward speed, and increases as you go faster.  Increasing the
+downforce all around increases cornering speed, but also increases
+drag, which gives you slower straightaway speed, and you may also need
+to increase ride height and/or spring stiffness to prevent bottoming.
+Likewise, decreasing downforce gives you lower cornering speeds but
+higher straigtaway speeds, and allows you to run softer springs and/or
+a lower ride height.  [Note:  I find downforce has only a small effect
+on drag.  For example, in the Viper GTS on the top speed test, the
+difference between maximum and minimum downforce top speeds is only
+about 5 mph (8 km/h).]  Also, you can also use downforce to fine-tune
+balance at high speeds.  To reduce understeer, increase front
+downforce or reduce rear.  To reduce oversteer, decrease front
+downforce or increase rear.  Keep in mind that these adjustments are
+dependent on forward speeds and has less effect as speeds drop, so you
+can use this to give the car different handling characteristics for
+different speed ranges.
+<P><BR>
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sat Apr 20 21:49:22 EDT 2002
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B> (quoting
+<A HREF="mailto:chmilnir@@worldnet.att.net">Bob Chmilnitzky/"Jet Jaguar"</A>)
+</P>
+
+</BODY>
+
+</HTML>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d25 2
+d251 1
+a251 1
+Last modified: Sat Apr  6 23:54:15 EST 2002
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a4 1
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+d249 1
+a249 1
+Last modified: Wed Jun 17 09:16:57 EDT 1998
+d252 3
+a254 5
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+
+@

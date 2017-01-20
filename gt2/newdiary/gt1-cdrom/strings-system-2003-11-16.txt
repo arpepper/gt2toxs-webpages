@@ -1,0 +1,908 @@
+Script started on Sun Nov 16 14:25:15 2003
+[arpepper@gt2toxs gt1-cdrom]$ df -k /mnt/cdrom
+Filesystem           1k-blocks      Used Available Use% Mounted on
+/dev/hdc                589854    589854         0 100% /mnt/cdrom
+[arpepper@gt2toxs gt1-cdrom]$ ls -l /mnt/cdrom | cat
+total 590677
+-r-xr-xr-x    1 root     root       241272 Jun  9  1998 arcade.dat
+-r-xr-xr-x    1 root     root       197658 Jun  9  1998 arcade2.dat
+-r-xr-xr-x    1 root     root       204800 Jun 17  1998 bg.dat
+-r-xr-xr-x    1 root     root     16379904 Jun  9  1998 car.dat
+-r-xr-xr-x    1 root     root       919552 Jun  9  1998 carcade.dat
+-r-xr-xr-x    1 root     root       135301 Jun  9  1998 carinf.dat
+-r-xr-xr-x    1 root     root     23969792 Jun 16  1998 course.dat
+-r-xr-xr-x    1 root     root        23077 Mar 30  1998 gamefont.dat
+-r-xr-xr-x    1 root     root       281247 Jun 17  1998 gamemenu.dat
+-r-xr-xr-x    1 root     root       110592 Jun 17  1998 gtend.exe
+-r-xr-xr-x    1 root     root       346112 Jun 17  1998 gtmain.exe
+-r-xr-xr-x    1 root     root       253952 Jun 17  1998 gtmenu.exe
+-r-xr-xr-x    1 root     root       223232 Jun 17  1998 gtos.exe
+-r-xr-xr-x    1 root     root     27648000 Apr  1  1998 measure.qa
+-r-xr-xr-x    1 root     root     121235456 May 21  1998 menu_img.arc
+-r-xr-xr-x    1 root     root       294076 May 21  1998 menu_raw.arc
+-r-xr-xr-x    1 root     root       135168 Apr 13  1998 messages.dat
+-r-xr-xr-x    1 root     root     160251904 Apr 13  1998 music.dat
+-r-xr-xr-x    1 root     root        42165 Jun 17  1998 pitmenu.dat
+-r-xr-xr-x    1 root     root       122880 Apr 13  1998 replay.dat
+-r-xr-xr-x    1 root     root       141312 Jun 17  1998 scus_941.94
+-r-xr-xr-x    1 root     root     13426688 Jun 17  1998 sound.dat
+-r-xr-xr-x    1 root     root     236718080 Apr 10  1998 stream.dat
+-r-xr-xr-x    1 root     root           68 Jun 17  1998 system.cnf
+-r-xr-xr-x    1 root     root        14768 Jun 17  1998 system.dat
+-r-xr-xr-x    1 root     root       326984 Apr 13  1998 title.dat
+[arpepper@gt2toxs gt1-cdrom]$ strings /mnt/cdrom/system.dat
+@(#)GTENV
+circuit
+rev_circuit
+2p_circuit
+arcade_circuit
+short
+rev_short
+arcade_short
+	2p_short
+autumn
+rev_autumn
+arcade_autumn
+2p_autumn
+mini
+	rev_mini
+arcade_mini
+2p_mini
+highway
+rev_highway
+arcade_highway
+2p_highway
+hifi_highway
+	shortway
+rev_shortway
+arcade_shortway
+2p_shortway
+hifi_shortway
+outbahn
+rev_outbahn
+arcade_outbahn
+arcade_rev_outbahn
+2p_outbahn
+hifi_outbahn
+	testline
+rev_testline
+	test_in2
+rev_test_in2
+	mountain
+rev_mountain
+speed
+	maxspeed
+2p_testline
+2p_test_in2
+2p_mountain
+arcade_testline
+arcade_test_in2
+arcade_mountain
+TC_lisence
+TC_lisence
+DF_lisence
+DF_lisence
+DF_lisence
+HSR_lisence
+HSR_lisence
+DF_lisence_2
+autumn_license
+gv1_license
+TMt_lisence
+gv2_license
+DF_lisence_3
+gv4_license
+gv3_license
+	rogotest
+GRAND VALLEY SPEEDWAY I
+GRAND VALLEY SPEEDWAY II
+2P GRAND VALLEY SPEEDWAY
+ARCADE GRAND VALLEY SPEEDWAY
+GRAND VALLEY EAST
+GRAND VALLEY EAST II
+ARCADE GRAND VALLEY EAST
+2P GRAND VALLEY EAST
+AUTUMN RING
+AUTUMN RING II
+ARCADE AUTUMN RING
+2P AUTUMN RING
+AUTUMN RING-MINI
+AUTUMN RING-MINI II
+ARCADE AUTUMN RING-MINI
+2P AUTUMN RING-MINI
+SPECIAL STAGE R5
+SPECIAL STAGE R5 II
+ARCADE SPECIAL STAGE R5
+2P SPECIAL STAGE R5
+HiFi SPECIAL STAGE R5
+CLUBMAN STAGE R5
+CLUBMAN STAGE R5 II
+ARCADE CLUBMAN STAGE R5
+2P CLUBMAN STAGE R5
+HiFi CLUBMAN STAGE R5
+SPECIAL STAGE R11
+SPECIAL STAGE R11 II
+ARCADE SPECIAL STAGE R11
+ARCADE SPECIAL STAGE R11 II
+2P SPECIAL STAGE R11
+HiFi SPECIAL STAGE R11
+HIGH SPEED RING
+HIGH SPEED RING II
+DEEPFOREST
+DEEPFOREST II
+TRIAL MOUNTAIN
+TRIAL MOUNTAIN II
+TEST COURSE
+MAX SPEED TEST
+2P HIGH SPEED RING
+2P DEEPFOREST
+2P TRIAL MOUNTAIN
+ARCADE HIGH SPEED RING
+ARCADE DEEPFOREST
+ARCADE TRIAL MOUNTAIN
+L_B-1
+L_B-2
+L_B-3
+L_B-4
+L_B-5
+L_B-6
+L_B-7
+L_A-1
+L_A-2
+L_A-3
+L_A-4
+L_A-5
+L_A-6
+L_A-7
+L_A-8
+rogo-test
+1:2A4u6
+0logn
+a-a7r
+a-emn
+a-emr
+a-ian
+a-iar
+a-odn
+acoen
+acoer
+acosn
+acosr
+ademn
+ademr
+adgln
+adglr
+adlxn
+adlxr
+afa7n
+afa7r
+afb7n
+afb7r
+afc7n
+afc7r
+afd7n
+afd7r
+afn7r
+afo7n
+afo7r
+afr7n
+afr7r
+afx7n
+afx7r
+altsn
+altsr
+amian
+aminn
+aminr
+amisn
+amisr
+amivn
+amivr
+an16n
+an16r
+arodn
+as16n
+as16r
+av16n
+av16r
+c-30n
+c-30r
+c-67n
+cc67n
+ccamn
+ccamr
+ccrcn
+ccrcr
+ccrvn
+ccrvr
+d-pgr
+d-phr
+dcphn
+dvpgn
+dvpgr
+dvprn
+dvprr
+h-err
+h-rxn
+h-rxr
+h-vrn
+h-vrr
+hacsn
+hacsr
+hacwn
+hacwr
+hcfnn
+hcfnr
+hcfon
+hcfor
+hcrxn
+hcrxr
+hcvnn
+hcvnr
+hcvon
+hcvor
+hcvrn
+hcvrr
+hdegn
+hdegr
+hdeln
+hdelr
+hdern
+hderr
+hdesn
+hdesr
+hinrn
+hinrr
+hinsn
+hinsr
+hnsbn
+hnsbr
+hnslr
+hnsnn
+hnsnr
+hnsrn
+hnsrr
+hnssn
+hnssr
+hnsxn
+hnsxr
+hpnen
+hpner
+hpnvn
+hpnvr
+hpren
+hprer
+hprvn
+hprvr
+l-7cn
+l-7cr
+lcupn
+ld7cn
+ld7cr
+ld7vn
+ld7vr
+lplan
+lplbn
+lplin
+m-nnn
+m-nnr
+m-tor
+mecln
+meclr
+mftgn
+mftgr
+mftnn
+mftnr
+mfton
+mftor
+mftrn
+mftrr
+mftxn
+mftxr
+mgagn
+mgagr
+mgaln
+mgalr
+mgnon
+mgnor
+mgntn
+mgntr
+mgoon
+mgoor
+mgotn
+mgotr
+mgtlr
+mgtmn
+mgtmr
+mgton
+mgtor
+mgttn
+mgttr
+mlnnn
+mlnnr
+mlnon
+mlnor
+mmgon
+mmgor
+mmgrn
+mmgrr
+n-00n
+n-00r
+n-13n
+n-13r
+n-15r
+n-18n
+n-18r
+n-32n
+n-32r
+n-33n
+n-33r
+n180n
+n180r
+n18nn
+n18nr
+n18sn
+n18sr
+n432n
+n432r
+nl33r
+nm32n
+nm32r
+nn32n
+nn32r
+nplon
+nplor
+nprin
+nprir
+npron
+npror
+nq13n
+nq13r
+nq14n
+nq14r
+nq15n
+nq15r
+nq23n
+nq23r
+nr02n
+nr02r
+nr32n
+nr32r
+nr33n
+nr33r
+nr34n
+nr34r
+ns13n
+ns13r
+ns14n
+ns14r
+ns15n
+ns15r
+ns23n
+ns23r
+nt32n
+nt32r
+nt33n
+nt33r
+nv12n
+nv12r
+nv22n
+nv22r
+nv33n
+nv33r
+nv34n
+nv34r
+nzx2n
+nzx2r
+nzx3n
+nzx3r
+nzxsn
+nzxsr
+nzxvn
+nzxvr
+s-pbn
+s-pbr
+s-v4n
+s-v4r
+sipan
+sipar
+sipbn
+sipbr
+sipcn
+sipcr
+sipdn
+sipdr
+siprn
+siprr
+sipsn
+sipsr
+siptn
+siptr
+sipwn
+sipwr
+sipxr
+sipzn
+sipzr
+slgan
+slgar
+slgbn
+slgbr
+slgnn
+slgnr
+slgwn
+slgwr
+ssv4n
+ssv4r
+ssvxn
+ssvxr
+t-eln
+t-elr
+t-hvr
+t-oan
+t-oar
+t-plr
+t-pnn
+t-pnr
+t-rdn
+t-rdr
+t-ron
+t-ror
+tceen
+tceer
+tcegn
+tcegr
+tceln
+tcelr
+tchsn
+tchsr
+tchvn
+tchvr
+texvn
+texvr
+tlevn
+tlevr
+tlvon
+tlvor
+tm2sn
+tm2sr
+tm2vn
+tm2vr
+tmr2n
+tmr2r
+tmrln
+tmrlr
+tsgtn
+tsgtr
+tsoan
+tsoar
+tsonn
+tsonr
+tsoon
+tsoor
+tsorn
+tsorr
+tsplr
+tspnn
+tspnr
+tspon
+tspor
+tsprn
+tsprr
+tstln
+tstlr
+ttrnn
+ttrnr
+ttron
+ttror
+v-rbr
+vcrbn
+vcrbr
+vgr5n
+vgr5r
+vgrfn
+vgrfr
+GRAN TURISMO LOGO
+RX7 Aspec LM
+DEMIO Aspec
+DEMIO Aspec
+	ROADSTER
+ROADSTER
+ROADSTER'98 RS
+COSMO20B TypeE
+COSMO20B TypeE
+COSMO13B TypeS
+COSMO13B TypeS
+DEMIO GL-X 
+DEMIO GL-X
+	DEMIO GL
+DEMIO GL
+	DEMIO LX
+DEMIO LX
+FDRX7 Aspec
+FDRX7 Aspec
+FDRX7 TypeRB
+FDRX7 TypeRB
+FCRX7 efiniIII
+FCRX7 efiniIII
+FDRX7 TypeRZ
+FDRX7 TypeRZ
+RX7 LM Edition
+FDRX7'91 TypeR
+FDRX7'91 TypeR
+FCRX7 GT-X
+FCRX7 GT-X
+FDRX7 TouringX
+FDRX7 TouringX
+LANTIS TypeR
+LANTIS TypeR
+	ROADSTER
+	ROADSTER
+ROADSTER
+ROADSTER Ssp
+ROADSTER Ssp
+ROADSTER Vsp
+ROADSTER Vsp
+ROADSTER'89
+ROADSTER'89
+ROADSTER'98 RS
+ROADSTER'92 Ssp
+ROADSTER'92 Ssp
+ROADSTER'90 Vsp
+ROADSTER'90 Vsp
+CAMARO Z28 30th
+CAMARO Z28 30th
+CORVETTE'67
+CORVETTE'67
+CAMARO Z28
+CAMARO Z28
+CORVETTE'96
+CORVETTE'96
+CORVETTE'96 GS
+CORVETTE'96 GS
+VIPER GTS-R
+Concept Car
+Concept Car
+VIPER GTS
+VIPER GTS
+VIPER RT/10
+VIPER RT/10
+del Sol LM Edition
+CIVIC CRX'91
+CIVIC CRX'91
+CIVIC TypeR
+CIVIC TypeR
+ACCORD Sedan
+ACCORD Sedan
+ACCORD Wagon
+ACCORD Wagan
+CIVIC Sedan
+CIVIC Sedan
+CIVIC Sedan'93
+CIVIC Sedan'93
+CIVIC CRX'91
+CIVIC CRX'91
+CIVIC 3Door
+CIVIC 3Door
+CIVIC 3Door'93 Si
+CIVIC 3Door'93 Si
+CIVIC (Racer)
+CIVIC (Racer)
+del Sol VGi
+del Sol VGi
+del Sol'93 S
+del Sol'93 S
+del Sol'93 Si
+del Sol'93 Si
+del Sol SiR
+del Sol SiR
+INTEGRA TypeR
+INTEGRA TypeR
+INTEGRA GS-R
+INTEGRA GS-R
+NSX-R LM GT2
+NSX TypeSzero
+NSX TypeSzero
+NSX'93
+NSX'93
+NSX TypeS
+NSX TypeS
+NSX'91
+NSX'91
+PRELUDE
+PRELUDE
+PRELUDE TypeSH
+PRELUDE TypeSH
+PRELUDE'93 Si
+PRELUDE'93 Si
+PRELUDE'94 VTEC
+PRELUDE'94 VTEC
+DB7 Coupe
+DB7 Coupe
+TROFFY
+DB7 Coupe
+DB7 Coupe
+DB7 Volante
+DB7 Volante
+LISENCE A
+LISENCE B
+LISENCE IA
+LANCER EvoIV GSR
+LANCER EvoIV GSR
+FTO LM Edition
+ECLIPSE GT
+ECLIPSE GT
+FTO GR
+FTO GR
+FTO GP versionR
+FTO GPversionR
+FTO'94 GPX
+FTO'94 GPX
+FTO'94 GR
+FTO'94 GR
+FTO GPX
+FTO GPX
+GALANT VR-G
+GALANT VR-G
+GALANT VR-4
+GALANT VR-4
+GTO SR
+GTO SR
+GTO twinturbo 
+GTO twinturbo
+GTO'92
+GTO'92
+GTO'92 twinturbo
+GTO'92 twinturbo
+GTO LM Edition
+GTO'95 MR
+GTO'95 MR
+GTO'95 SR
+GTO'95 SR
+GTO'95 twinturbo
+GTO'95 twinturbo
+LANCER EvoIV GSR
+LANCER EvoIV GSR
+LANCER EvoIII GSR
+LANCER EvoIII GSR
+MIRAGE CyborgR
+MIRAGE CyborgR
+MIRAGE ASTI RX
+MIRAGE ASTI RX
+NISMO 400R
+NISMO 400R
+S13SILVIA'88 Q's
+S13SILVIA'88 Q's
+SILVIA LM Edition
+SilEighty
+SilEighty
+R32GT-R'91
+R32GT-R'91
+NISMO GT-R LM
+NISMO GT-R LM
+180SX'94 TypeX
+180SX'94 TypeX
+180SX TypeX
+180SX TypeX
+180SX TypeS
+180SX TypeS
+R32GTS4
+R32GTS4
+GT-R LM
+R32GTS25 TypeS
+R32GTS25 TypeS
+R32GT-R NISMO
+R32GT-R NISMO
+PULSAR GTI-R
+PULSAR GTI-R
+PRIMERA'95 2.0Te
+PRIMERA'95 2.0Te
+PRIMERA'90 2.0Te
+PRIMERA'90 2.0Te
+S13SILVIA'88 Q's
+S13SILVIA'88 Q's
+S14SILVIA'95 Q's
+S14SILVIA'95 Q's
+S14SILVIA Q's
+S14SILVIA Q's
+S13SILVIA'91 Q's
+S13SILVIA'91 Q's
+R32GT-R'89
+R32GT-R'89
+R32GT-R'91
+R32GT-R'91
+R33GT-R'95
+R33GT-R'95
+R33GT-R
+R33GT-R
+S13SILVIA'88 K's
+S13SILVIA'88 K's
+S14SILVIA'95 K's
+S14SILVIA'95 K's
+S14SILVIA K's
+S14SILVIA K's
+S13SILVIA'91 K's
+S13SILVIA'91 K's
+R32GTS-t TypeM
+R32GTS-t TypeM
+R33GTS25t TypeM
+R33GTS25t TypeM
+R32GT-R Vspec
+R32GT-R Vspec
+R32GT-R VspecII
+R32GT-R VspecII
+R33GT-R'95 Vspec
+R33GT-R'95 Vspec
+R33GT-R Vspec
+R33GT-R Vspec
+Z 2by2 turbo
+Z 2by2 turbo
+Z 2seater
+Z 2seater
+Z 2seater turbo 
+Z 2seater turbo
+Z 2by2
+Z 2by2
+IMPREZA'96SD STiIII
+IMPREZA'96SD STiIII
+SVX S4
+SVX S4
+IMPREZA'96SD WRX
+IMPREZA'96SD WRX
+IMPREZA'96SD STiIII
+IMPREZA'96SD STiIII
+IMPREZA'96WG WRX
+IMPREZA'96WG WRX
+IMPREZA'96WG STiIII
+IMPREZA'96WG STiIII
+IMPREZA STi TypeR
+IMPREZA STi TypeR
+IMPREZA'95SD STiII
+IMPREZA'95WG STiII
+IMPREZA'95WG STiII
+IMPREZA'94WG WRX
+IMPREZA'94WG WRX
+IMPREZA'94SD WRX
+IMPREZA RLY Edition
+IMPREZA'94SD WRX
+IMPREZA'95SD STiIII
+LEGACY WG GT-B 
+LEGACY WG GT-B
+LEGACY SD RS 
+LEGACY SD RS
+LEGACY SD'93 RS 
+LEGACY SD'93 RS
+LEGACY WG'93 GT 
+LEGACY WG'93 GT
+SVX S4
+SVX S4
+SVX VersionL
+SVX VersionL
+CELICA SS-II
+CELICA SS-II
+CHASER LM Edition
+SOARER 2.5GT-T
+SOARER 2.5GT-T
+CASTROL SUPRA GT
+	SUPRA RZ
+SUPRA RZ
+TRD 3000GT
+TRD 3000GT
+AE86TRUENO GT-APEX
+AE86TRUENO GT-APEX
+CELICA GT-FOUR
+CELICA GT-FOUR
+CELICA GT-FOUR
+CELICA GT-FOUR
+CELICA SS-II
+CELICA SS-II
+	CHASER S
+CHASER S
+	CHASER V
+CHASER V
+EXIV 200GT
+EXIV 200GT
+LEVIN BZG
+LEVIN BZG
+AE86LEVIN GT-APEX
+AE86LEVIN GT-APEX
+MARK II'92 S
+MARK II'92 S
+MARK II'92 V
+MARK II'92 V
+	MR2 GT-S
+MR2 GT-S
+MR2 G-Limited
+MR2 G-Limited
+70SUPRA 3.0turbo
+70SUPRA 3.0turbo
+SOARER 2.5GT-T
+SOARER 2.5GT-T
+SUPRA'95 RZ
+SUPRA'95 RZ
+SOARER'95 2.5GT-T
+SOARER'95 2.5GT-T
+SUPRA'95 SZ-R
+SUPRA'95 SZ-R
+CASTROL SUPRA GT
+	SUPRA RZ
+SUPRA RZ
+70SUPRA turboR
+70SUPRA turboR
+SUPRA SZ-R
+SUPRA SZ-R
+STARLET GLANZA V
+STARLET GLANZA V
+TRUENO BZG
+TRUENO BZG
+AE86TRUENO GT-APEX
+AE86TRUENO GT-APEX
+CERBERA LM
+CERBERA
+CERBERA
+GRIFFITH 500
+GRIFFITH 500
+GRIFFITH 4.0
+GRIFFITH 4.0
+high
+skel
+gold
+silv
+info
+good
+Garbage: As Heaven Is Wide
+Ash: Lose Control
+Garbage: As Heaven Is Wide
+File: HIGH
+Cubanate: Autonomy
+Cubanate: Oxyacetylene
+Cubanate: Oxyacetylene
+Cubanate: Skeletal
+Cubanate: Autonomy
+Cubanate: Industry
+Start Qualify
+Start Race
+End Qualify
+	End Race
+RETIRE
+	Win Race
+Losing
+RANKING
+Grand Champion
+Result GOLD
+Result SILVER
+Result BRONZE
+Info
+Main And Arcade
+QUICK MENU
+GOODIES
+carspec=carspec.dat
+car.file=car.dat
+arcade.car.file=carcade.dat
+carinf.file=carinf.dat,483784
+course.file=course.dat
+sky.file=bg.dat
+gamemenu.file=gamemenu.dat
+pitmenu.file=pitmenu.dat
+arcade.file=arcade.dat
+arcade2.file=arcade2.dat
+menu.i_data=/menu/menu_img.arc
+menu.h_data=/menu/menu_htm.arc
+menu.i_index=/menu/images.idx
+menu.h_index=/menu/htmls.idx
+menu.cursor=cursor.tim
+menu.shortcut=browsbtn.tim
+menu.scrollarea.color.button=255,255,255
+menu.scrollarea.color.background=32,32,32
+menu.scrollarea.color.arrow=32,32,32
+menu.textbox.color.text=255,255,255
+menu.listbox.color.text=255,255,255
+menu.listbox.color.cursor=255,0,0
+menu.listbox.color.select=255,0,255
+sound=sound.dat
+music.file=music.dat
+stream.file=stream.dat
+game.font=sysfont8.tim
+[arpepper@gt2toxs gt1-cdrom]$ exit
+exit
+
+Script done on Sun Nov 16 14:26:30 2003

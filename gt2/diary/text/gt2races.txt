@@ -1,0 +1,102 @@
+219 Events in Total
+=16 GT Events (no prize cars)
+==16 GT nationals
+===3 Japan
+===3 UK
+===3 US
+===3 German
+===2 Italian
+===2 French
+
+=6 Special Events (no prize cars)
+==6 Special Events (no prize cars)
+===3 Sunday Cup
+===3 Clubman Cup
+
+=27 Rally Events
+==27 Rally Events
+===6 Pike's Peak
+===21 Others
+
+=76 Events with prize cars
+==7 Enduros
+===7 Enduros
+==62 Special Events (with prize cars)
+===3 FR
+===3 FF
+===3 4WD
+===3 MR
+===3 LwtK
+===3 Compact
+===3 Luxury
+===3 Muscle Car
+===3 Convertible
+===3 Historical Car
+===3 Station Wagon
+===5 80's Sports Cars
+===3 Grand Touring Cars
+===3 Pure Sports Cars
+===3 Tuned NA
+===3 Tuned Turbo
+===5 All-Stars
+===5 Super Touring
+===1 GT300
+===1 GT500
+
+==7 GT Events (with prize cars)
+===3 European League
+===3 Pacific League
+===1 GT World League
+
+=4 Event Generator Events (no prize cars)
+==4 Event Generator Events
+===1 Easy
+===1 Nomal
+===1 Hard
+===1 Expert
+
+=90 Boring Manufacturers' Races (no prize cars)
+==46 East City
+===5 Daihatsu
+===7 Honda
+===6 Mazda
+===3 Mitsubishi
+===8 Nissan
+===3 Subaru
+===4 Suzuki
+===2 Tommy Kaira
+===8 Toyota
+
+==23 North City
+===2 Aston Martin
+===2 Audi
+===1 BMW
+===0 Jaguar
+===0 Lister
+===4 Lotus
+===2 Mercedes-Benz
+===4 Mini-MG
+===2 Opel
+===0 RUF
+===2 TVR
+===4 Volkswagen
+
+==9 South City
+===0 Acura
+===2 Chevrolet
+===4 Dodge
+===0 Plymouth
+===0 Shelby
+===3 Ford
+===0 Vector
+
+==12 West City
+===2 Alfa Romeo
+===2 Citroen
+===2 Fiat
+===2 Lancia
+===2 Peugeot
+===2 Renault
+===0 Venturi
+
+

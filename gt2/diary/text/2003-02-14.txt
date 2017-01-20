@@ -1,0 +1,291 @@
+Friday February 14, 2003
+
+tuned FDRX7'91 Wins SSR11 All-Night II in mazda game
+
+Threads:
+  All-Night II Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/mazda">mazda</a> game
+(Maybe <a href="../logs/mazda.txt">here</a>),
+I used the 1991 FD RX-7 efini Type R for many races.
+So I decided to enter the hard-tuned version in
+the All-Night I.
+
+</CODES>
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: mazda
+   Day: 92
+   Date: Feb 14, 2003
+   Car: tuned Vintage Red Mazda FD efini RX-7 '91 Type R
+   Race: SSR11 All-Night II  Endurance Race
+   Qualified: 1st 1:55.502new  (-5.171) Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: silver NISMO GT-R LM
+
+   Results:
+
+   1st:* FDRX7'91 TypeR         56:29.393<--new mazda time, okay
+   2nd:  FDRX7 TypeRZ            +150.975  (59:00.368) 1 lap
+   3rd:  Lancer EvoIII GSR       +189.246  (59:38.639) 1 lap
+   4th:  R32GT-R Nismo           +231.496  (60:20.889) 2 laps
+   5th:  Chaser V                +260.487  (60:49.880) 2 laps
+   6th:  Civic 3door             +336.307  (62:05.700) 3 laps
+   Pits: 10,20
+   fl(12): 1:46.756new
+
+   lap 1   1:57.442
+   slowest  non-pit   (18) 1:54.308
+             next     (29) 1:53.277
+   fastest pit laps   (20in)  1:55.972
+                      (11out) 2:10.854
+   slowest pit laps   (10in)  1:56.517
+                      (21out) 2:16.658
+
+</pre></font></tt>
+</HTML>
+
+I started from pole position, got a good start, and never lost the lead.
+
+I began lapping the cars on lap 12, starting by passing
+the pokey Civic.
+
+I had a very fast second shift, with a mediocre first and last shift.
+I never seemed to keep as consistently fast as practice suggested I could.
+
+I used much stiffer stabilizers than I had in the tuned series, or on
+the race-mod version, but perhaps they were too stiff, since I got
+violent pulling to one side occasionally.
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:57.442      1:57.442
+ 2   1:50.600      3:48.042
+ 3   1:48.980      5:37.022
+ 4   1:50.115      7:27.137
+ 5   1:48.945      9:16.082
+ 6   1:52.643     11:08.725
+ 7   1:51.335     13:00.060
+ 8   1:52.156     14:52.216
+ 9   1:52.330     16:44.546
+10   1:56.517     18:41.063
+11   2:10.854     20:51.917
+12   1:46.756     22:38.673
+13   1:48.602     24:27.275
+14   1:46.978     26:14.253
+15   1:50.524     28:04.777
+16   1:49.382     29:54.159
+17   1:52.169     31:46.328
+18   1:54.308     33:40.636
+19   1:52.263     35:32.899
+20   1:55.972     37:28.871
+21   2:16.658     39:45.529
+22   1:52.951     41:38.480
+23   1:51.428     43:29.908
+24   1:50.695     45:20.603
+25   1:51.274     47:11.877
+26   1:50.086     49:01.963
+27   1:51.442     50:53.405
+28   1:49.621     52:43.026
+29   1:53.277     54:36.303
+30   1:53.090     56:29.393
+
+</pre></font></tt>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are my settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+           My Settings
+
+
+Tires            S     S
+    all parts maxed (TS3)
+
+Spring Rate     7.4   5.4
+Ride Height     109   109
+Dampers          4     4
+Camber          2.0   1.2
+Stabilizers      5     4
+Brake Balance   11    11
+Turbo               6
+        1st       3.550
+        2nd       2.027
+        3rd       1.360
+        4th       1.032
+        5th       0.830
+                  -----
+        FD        3.650
+
+Aero    (0.17,0.28)  (stock)
+
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+=========================================================================
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: mazda
+   Day: NN
+   Date: Feb 14, 2003
+   Car: red/gray Mazda [R]FC RX-7 GT-X
+   Car: orange/green Mazda [R]FD efini RX-7 '91 Type R
+   Race: SSR11 All-Night I  Endurance Race
+   Qualified: 1st 1:53.969new  (+2.549) Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: CCCCC [R]Silvia LM
+
+   Results:
+
+   1st:* [R]FCRX                56:37.129<--new mazda time
+   2nd:  [R]R32GT-R'91            +32.697  (57:09.826)
+   3rd:  [R]NSX-R LM GT2          +48.050  (57:25.179)
+   4th:  [R]EXIV 200GT           +123.047  (58:40.176) 1 lap
+   5th:  [R]Lancer EvoIV GSR     +184.696  (59:41.825) 1 lap
+   6th:  [R]Lantis TypeR         +201.662  (59:58.791) 1 lap
+
+   Pits:  NN
+   fl(LL): 1:48.769new
+
+   lap 1   1:57.XXX
+   slowest  non-pit   (LL) 2:00.XXX
+             next     (LL) 2:00.XXX
+   fastest pit laps   (LLin)  2:13.XXX
+                      (LLout) 1:53.XXX
+   slowest pit laps   (LLin)  2:13.XXX
+                      (LLout) 1:53.XXX
+
+</pre></font></tt>
+</HTML>
+
+
+Although I started in first place, I struggled for the first two laps,
+finally getting a slim lead on the second-place Skyline.
+
+Two bad accidents on lap 9 and 11 greatly reduced my lead, meaning that
+when I went for my pit stop on lap 15 I actually dropped back to 3rd place.
+I managed to regain the lead on the road, however, and after that both
+cars pitted another time.
+
+I had not more outrageous accidents, and eventually won by a healthy
+margin, lapped the EXIV 200GT right near the end of the race, leaving
+only two cars finishing on the same lap.
+
+In contrast to many endurance races in Gran Turismo, this one was almost
+exciting.  For example, I lapped my first car (the Lantis) while I was
+still only in second place.
+
+I won Cr150,000, and a CCCCC Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:57.635      1:57.635
+ 2   1:48.935      3:46.570
+ 3   1:49.207      5:35.777
+ 4   1:49.455      7:25.232
+ 5   1:48.914      9:14.146
+ 6   1:50.238     11:04.384
+ 7   1:52.111     12:56.495
+ 8   1:52.445     14:48.940
+ 9   2:00.741     16:49.681
+10   1:52.818     18:42.499
+11   2:00.028     20:42.527
+12   1:55.603     22:38.130
+13   1:55.768     24:33.898
+14   1:56.448     26:30.346
+15   2:13.320     28:43.666
+16   1:53.873     30:37.539
+17   1:51.449     32:28.988
+18   1:48.966     34:17.954
+19   1:48.769     36:06.723
+20   1:49.911     37:56.634
+21   1:49.177     39:45.811
+22   1:51.077     41:36.888
+23   1:50.664     43:27.552
+24   1:51.815     45:19.367
+25   1:49.873     47:09.240
+26   1:54.280     49:03.520
+27   1:52.792     50:56.312
+28   1:52.785     52:49.097
+29   1:53.825     54:42.922
+30   1:54.207     56:37.129
+
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.  NOT DONE YET
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS3)
+
+Spring Rate     3.6   3.4  (max,max)
+Ride Height     105   105  (min,min)
+Dampers          4     4
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   14    12
+Turbo               6
+        1st       4.400
+        2nd       2.282
+        3rd       1.452
+        4th       1.035
+        5th       0.800
+                  -----
+        FD        3.650
+
+Aero           0.70  0.96  (max,max)
+
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+

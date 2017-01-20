@@ -1,0 +1,73 @@
+Wednesday February 28, 2001
+
+
+(GT2 Version 1.0) Brief Memory Map for GameShark Use
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+ Gameplay Hints
+
+Here is a brief memory map of locations I found by inspecting the
+simulation mode disk from my original copy of Gran Turismo 2.
+
+This version shows 3 different licenses above the Muscle Car Cup on the page
+under Special Events, although the actual requirements are IA for all
+races.
+
+This version spells "Nomal" incorrectly for the Event Generator,
+and shows a Cr5,000 car wash.
+This version has the garage delete bug.
+
+<HTML INDENT>
+<pre>
+801C9438 - A. day counter (as you see in bottom-left corner),4b,273
+801C9440 - B. total races,4b,285
+801C9444 - C. total wins,4b,230
+801C9448 - D. total "positions" or "rankings",4b,403
+801C944C - E. total races not including abandons(?),4b,285
+     D/E does appear to equal "average ranking"
+801C9454 - total prize money,4b
+</pre>
+</HTML>
+
+Following this appears to be various "nybble maps" probably
+representing license status, plus various records, probably
+license and maybe Time Trials, ending with the dreaded
+Machine Test records, including the most deadly Max Speed
+records.
+
+<HTML INDENT>
+<pre>
+801CCF10 - # of max speed records
+801CCF14 - 8 max speed records, 20 bytes each
+              car(4b),speed*100(4b),name(12b)
+         - problem is, sometimes the game thinks there's room for 10  :)
+
+801CCFB4 - garage count (number of cars)
+801CCFB8 - first car of 100 car garage
+</pre>
+</HTML>
+
+Soon after the end of the garage is...
+
+<HTML INDENT>
+<pre>
+801D0FC8 - number of credits in your bank account
+801D0FCC - zero-origin index of current car in garage
+801D0FCF - last name used for records, e.g.  ARP27Feb01
+</pre>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

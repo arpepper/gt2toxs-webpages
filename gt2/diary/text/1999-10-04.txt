@@ -1,0 +1,182 @@
+Monday October 4, 1999
+
+I finally win the Grand Valley 300 with a non-racing tuned GTO'95 MR!
+
+Threads:
+  Used Car Information
+  Grand Valley 300 Results
+  Race Results
+  Tuning Advice
+
+I had come close to winning the Grand Valley 300 with the GTO '95 MR
+once before, but could only have managed second.
+
+So I really hoped to win it this time.  I wanted it to be a good win,
+so when the first field came up with an Impreza as the best car, I
+attempted to qualify (coming 6th with only 1:49.958  8-( ) and
+exited to re-enter and then got a better field.
+
+
+   "real game" day 4417
+   Monday October 4, 1999
+   GTO'95 MR
+   Grand Valley 300km Endurance Race
+
+   q1st 1:41.507        20,000
+
+   Results:
+
+   1st  GTO'95 MR               1-41:10.3<--
+   2nd  [R]GTO twinturbo          +64.026   (1-42:14.3)
+   3rd  [R]Impreza RLY Ed        +141.412   (1-43:31.7)
+   4th  [R]Primera'90 2.0Te      +158.089   (1-43:48.4)
+   5th  [R]Lantis TypeR          +421.835   (1-48:12.1)
+   6th  [R]Accord Sedan          +470.802   (1-49:01.1)
+   
+   lap 1   1:45.619
+   pits   10,20,30,40,50
+   fl  (22)  1:35.859
+   slowest  non-pit   (16)  1:45.970
+             next     (57)  1:42.879
+   fastest pit laps   (40in)  1:54.825
+                      (51out) 1:43.120
+   slowest pit laps   (50in)  1:59.767
+                      (21out) 1:45.563
+
+I jumped to an early lead, but lost the lead at the 2nd hairpin as
+I lost control, but I regained the lead by lap 2.
+
+I dropped to second on my pit stop at lap 10, but soon caught and
+passed the GTO twinturbo.
+
+By lap 15 I lapped the first cars.
+
+I had a very bad second shift, but still lengthened my lead a little,
+so that I was just barely able to retain my lead on the road as I
+exited the pits, and recovered with a really strong next shift.
+
+I lapped the Primera on lap 40, but it didn't stick, though of course
+I lapped it again soon after.
+
+A similar series of events ensued when lapping the Subaru Impreza
+around lap 50.  Of course, I did not lap the GTO twinturbo.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+I saved the setting too.  All the parts were maxed, that is, in
+particular, I used a racing exhaust, not semi-racing (semi-racing
+sometimes seems to help give better pickup to highly-turbocharged
+engines).  Similarly, I also used a racing flywheel.
+
+           My Settings                     Default
+
+Spring Rate     6.6   3.6                 6.6   3.6
+Ride Height     105   105  (min is 100)   123   123
+Dampers          4     4                   4     4
+Camber          1.2   1.2                 2.0   1.0
+Stabilizers      3     3                   3     3
+Brake Balance   12     9                   7     7
+Turbo               7                         7
+        1st       3.266                     3.266
+        2nd       1.904                     1.904
+        3rd       1.241                     1.241
+        4th       0.918                     0.918
+        5th       0.733                     0.733
+        6th       0.589                     0.589
+                  -----                     -----
+        FD        4.200                     4.155
+
+Aero            0.17  0.21 (stock, of course)
+
+
+I did record all sixty lap times, but will not enter
+them at this time, but might do later if I feel like it.  8-)
+
+Actually, I quite likely will, since analysis of the speed
+during various shifts might be interesting.
+
+At least now I can say I'm mostly caught up.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+These are the Eclipse GT times...
+ 1   1:46.768      1:46.768
+ 2   1:38.791      3:25.559
+ 3   1:39.078      5:04.637
+ 4   1:38.558      6:43.195
+ 5   1:39.270      8:22.465
+ 6   1:39.362     10:01.827
+ 7   1:39.528     11:41.355
+ 8   1:39.607     13:20.962
+ 9   1:40.115     15:01.077
+10   1:40.359     16:41.436
+11   1:39.541     18:20.977
+12   1:54.489     20:15.466
+13   1:46.063     22:01.529
+14   1:39.160     23:40.689
+15   1:37.832     25:18.521
+16   1:41.384     26:59.905
+17   1:39.349     28:39.254
+18   1:39.475     30:18.729
+19   1:40.460     31:59.189
+20   1:40.430     33:39.619
+21   1:41.779     35:21.398
+22   1:40.291     37:01.689
+23   1:40.959     38:42.648
+24   1:55.651     40:38.299
+25   1:46.137     42:24.436
+26   1:39.155     44:03.591
+27   1:38.172     45:41.763
+28   1:38.336     47:20.099
+29   1:37.900     48:57.999
+30   1:39.673     50:37.672
+31   1:40.025     52:17.697
+32   1:39.525     53:57.222
+33   1:39.251     55:36.473
+34   1:40.928     57:17.401
+35   1:41.082     58:58.483
+36   1:56.012   1-00:54.495
+37   1:47.088   1-02:41.583
+38   1:39.267   1-04:20.850
+39   1:40.658   1-06:01.508
+40   1:38.878   1-07:40.386
+41   1:38.538   1-09:18.924
+42   1:39.341   1-10:58.265
+43   1:39.283   1-12:37.548
+44   1:40.039   1-14:17.587
+45   1:41.105   1-15:58.692
+46   1:39.767   1-17:38.459
+47   1:40.198   1-19:18.657
+48   1:54.207   1-21:12.864
+49   1:46.325   1-22:59.189
+50   1:40.746   1-24:39.935
+51   1:40.202   1-26:20.137
+52   1:39.278   1-27:59.415
+53   1:40.278   1-29:39.693
+54   1:38.216   1-31:17.909
+55   1:39.839   1-32:57.748
+56   1:39.855   1-34:37.603
+57   1:40.447   1-36:18.050
+58   1:41.119   1-37:59.169
+59   1:40.080   1-39:39.249
+60   1:40.709   1-41:19.958
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+

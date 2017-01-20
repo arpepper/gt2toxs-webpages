@@ -1,0 +1,170 @@
+Sunday May 21, 2000
+
+
+(GT2 Version 1.0)  GameShark Info about the Multi-Race Series Information
+
+Threads:
+ Gran Turismo 2
+ Gameplay Hints
+ Game Shark Hints
+
+
+At a GT2 GameShark (i.e. mostly hybrids) message board I found codes
+which allowed one to generate series in the Code Generator which take
+place on arbitrary tracks.  Those codes also allow you to pick
+arbitrary cars (from the restricted list of about 200 cars available 
+for the Code Generator).
+
+This inspired me to inspect memory at the start of the Grand Turismo
+World Series for evidence of similar in-memory lists of tracks.
+
+And, indeed I found them, and was able to exploit them.   8-)
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+(80)1D5838   89 00 00 00   01 00 00 00
+(80)1D5840   4A 00 00 00   01 00 00 00
+(80)1D5848   01 00 00 00   FF FF FF FF
+(80)1D5850   00 00 00 00   00 00 05 00 -- number of races (5)(?)
+(80)1D5858   BB E5 D7 AF   FC 6B A3 62 -- Track Codes for the 5
+(80)1D5860   9F CA B5 7E   A1 0B Cf 01 -- GTW Tracks
+(80)1D5868   A1 3B 8B 71   00 00 00 00 --
+(80)1D5870   05 00 05 00   05 00 05 00 -- 5 lengths of races(?)
+(80)1D5878   05 00 00 00   47 54 57 30            G T W 0
+(80)1D5880   35 30 31 00   00 00 00 00   5 0 1           
+(80)1D5888   00 00 00 00   47 54 57 30            G T W 0
+(80)1D5890   35 30 32 00   00 00 00 00   5 0 2           
+(80)1D5898   00 00 00 00   47 54 57 30            G T W 0
+(80)1D58A0   35 30 33 00   00 00 00 00   5 0 3           
+(80)1D58A8   00 00 00 00   47 54 57 30            G T W 0
+(80)1D58B0   35 30 34 00   00 00 00 00   5 0 4           
+(80)1D58B8   00 00 00 00   47 54 57 30            G T W 0
+(80)1D58C0   35 30 35 00   00 00 00 00   5 0 5           
+(80)1D58C8   00 00 00 00   00 00 00 00
+(80)1D58D0   00 00 00 00   00 00 00 00
+(80)1D58D8   00 00 00 00   00 00 00 00
+(80)1D58E0   00 00 00 00   00 00 00 00
+(80)1D58E8   01 00 03 00   03 00 02 00
+(80)1D58F0   17 36 01 00   E1 62 00 00
+(80)1D58F8   C0 B7 00 00   D6 04 01 00
+</pre></font></tt>
+</HTML>
+
+As far as I can tell, the first byte above is the event code or number.
+I have a vague feeling I have seen it tabulated somewhere.
+
+As an experiment, I replaced the 5 tracks codes with different  tracks,
+and the numbers ("5") which follow them with different numbers.  (I
+used "2").  Indeed, when I did this I got to race against a GTW field
+in a series of two-lap races on the different tracks.
+
+A caveat was that I needed to patch the track code in the normal locations,
+too.  The above areas of memory actually follows not long after the
+race information which includes the starting-lineup.  Creating a
+GameShark <html><em>code</em></html> to change that location only
+the first time might be tricky, although quite likely one could arrange
+to get the list of tracks set before the first one is copied to the
+other location.
+
+I recorded the locations for a few non-series events.
+(Beware, I haven't double-checked these, or the above yet...)
+
+
+<HTML INDENT>
+<b>Rally/Smokey Mountain South</b><br>
+<br>
+<tt><font face="Courier"><pre>
+(80)1D5838   1F 00 00 00   00 00 00 00
+(80)1D5840   3E 00 00 00   00 00 00 00
+(80)1D5848   01 00 00 00   00 00 00 00 -- zeroes(?)(notes?)
+(80)1D5850   00 00 00 00   00 00 00 00 -- All zeroes from here one
+(80)1D5858   00 00 00 00   00 00 00 00 -- No track codes.
+(80)1D5860   00 00 00 00   00 00 00 00 -- 
+(80)1D5868   00 00 00 00   00 00 00 00 --
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<b>Sunday/HSR</b><br>
+<br>
+<tt><font face="Courier"><pre>
+(80)1D5838   D4 00 00 00   00 00 00 00
+(80)1D5840   3E 00 00 00   01 00 00 00
+(80)1D5848   01 00 00 00   FF FF FF FF
+(80)1D5850   00 00 00 00   00 00 00 00 -- All zeroes from here one
+(80)1D5858   00 00 00 00   00 00 00 00 -- No track codes.
+(80)1D5860   00 00 00 00   00 00 00 00 -- 
+(80)1D5868   00 00 00 00   00 00 00 00 --
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<b>Muscle/SeattleS</b><br>
+<br>
+<tt><font face="Courier"><pre>
+(80)1D5838   89 00 00 00   00 00 00 00
+(80)1D5840   3E 00 00 00   01 00 00 00
+(80)1D5848   01 00 00 00   FF FF FF FF
+(80)1D5850   00 00 00 00   00 00 00 00 -- All zeroes from here one
+(80)1D5858   00 00 00 00   00 00 00 00 -- No track codes.
+(80)1D5860   00 00 00 00   00 00 00 00 -- 
+(80)1D5868   00 00 00 00   00 00 00 00 --
+</pre></font></tt>
+</HTML>
+
+<HTML INDENT>
+<b>Muscle/SeattleL</b><br>
+<br>
+<tt><font face="Courier"><pre>
+(80)1D5838   B8 00 00 00   00 00 00 00
+(80)1D5840   3E 00 00 00   01 00 00 00
+(80)1D5848   01 00 00 00   FF FF FF FF
+(80)1D5850   00 00 00 00   00 00 00 00 -- All zeroes from here one
+(80)1D5858   00 00 00 00   00 00 00 00 -- No track codes.
+(80)1D5860   00 00 00 00   00 00 00 00 -- 
+(80)1D5868   00 00 00 00   00 00 00 00 --
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<b>Euro/Apricot</b><br>
+<br>
+<tt><font face="Courier"><pre>
+(80)1D5838   3F 00 00 00   00 00 00 00
+(80)1D5840   3E 00 58 02   01 00 00 00 -- 600 is bhp limit (591)?
+(80)1D5848   01 00 00 00   FF FF FF FF -- notes did not say FF FF(?)
+(80)1D5850   00 00 00 00   00 00 00 00 -- All zeroes from here one
+(80)1D5858   00 00 00 00   00 00 00 00 -- No track codes.
+(80)1D5860   00 00 00 00   00 00 00 00 -- 
+(80)1D5868   00 00 00 00   00 00 00 00 --
+</pre></font></tt>
+</HTML>
+
+
+<HTML INDENT>
+<b>Stars/RomeL</b><br>
+<br>
+<tt><font face="Courier"><pre>
+(80)1D5838   84 00 00 00   00 00 00 00
+(80)1D5840   3E 00 00 00   01 00 00 00
+(80)1D5848   01 00 00 00   FF FF FF FF -- notes did not say FF FF(?)
+(80)1D5850   00 00 00 00   00 00 00 00 -- All zeroes from here one
+(80)1D5858   00 00 00 00   00 00 00 00 -- No track codes.
+(80)1D5860   00 00 00 00   00 00 00 00 -- 
+(80)1D5868   00 00 00 00   00 00 00 00 --
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

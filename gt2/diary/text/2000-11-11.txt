@@ -1,0 +1,156 @@
+Saturday November 11, 2000
+
+In Lancer Game, [R]Lancer EvoIV  Cleanly Wins Special Stage R11 All-Night I
+
+Threads:
+  All-Night I Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+
+In the <html><a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/lancer">lancer</a></html> game I
+used the Lancer Evolution IV GSR (4WD Series prize) as much as possible, so I entered the
+race-modified version in the All-Night I Endurance race at Special Stage R11.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: lancer
+   Day: 119
+   Date: November 11, 2000
+   Race: SSR11 All-Night I  Endurance Race
+   Car: [R]Lancer EvoIV GSR
+   Qualified: 1st(+4.917) 1:51.571new
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: red [R]Silvia LM
+
+   Results:
+
+   1st:* [R]Lancer EvoIV GSR   53:31.091new
+   2nd:  [R]GTO Twinturbo       +212.735  (57:03.826) 1 lap
+   3rd:  [R]R32GT-R'91          +217.771  (57:08.862) 1 lap
+   4th:  [R]CASTROL Supra GT    +227.579  (57:18.670) 1 lap
+   5th:  [R]Impreza Rly Edition +300.589  (58:31.680) 2 laps
+   6th:  [R]Lantis TypeR        +389.504  (60:00.595) 3 laps?
+
+   Pits:  10,20
+   fl(25): 1:41.883new
+
+   lap 1   1:50.601
+   slowest  non-pit   (25)  1:52.950
+             next     (44)  1:50.664
+   fastest pit laps   (10in)  2:05.286
+                      (21out) 1:49.847
+   slowest pit laps   (20in)  2:06.580
+                      (11out) 1:47.465
+
+</pre></font></tt>
+</HTML>
+
+Oops.  I accidentally used automatic transmission during qualifying.
+Oh well, I managed to com first anyway.
+
+I got the lead by the first corner, and a couple of good laps immediately
+after that gave me a solid lead, out of the traffic which can slow you
+down so much at this course.
+
+I lapped the Lantis before my first pit stop.
+
+I eventually lapped the field (the GTO) on lap 19.
+
+I almost lapped the Supra a second time, but didn't quite manage it, and
+had some bad laps times in the process.  In general, I had quite a few
+mishaps in this race when I encountered traffic.
+
+I won Cr150,000, and a red Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:50.601      1:50.601
+ 2   1:41.931      3:32.532
+ 3   1:42.978      5:15.510
+ 4   1:44.231      6:59.741
+ 5   1:43.787      8:43.528
+ 6   1:44.611     10:28.139
+ 7   1:47.102     12:15.241
+ 8   1:45.816     14:01.057
+ 9   1:46.743     15:47.800
+10   2:05.286     17:53.086
+11   1:49.847     19:42.933
+12   1:44.136     21:27.069
+13   1:43.347     23:10.416
+14   1:45.497     24:55.913
+15   1:52.950     26:48.863
+16   1:44.710     28:33.573
+17   1:46.830     30:20.403
+18   1:50.086     32:10.489
+19   1:45.616     33:56.105
+20   2:06.580     36:02.685
+21   1:47.465     37:50.150
+22   1:43.418     39:33.568
+23   1:43.941     41:17.509
+24   1:42.509     43:00.018
+25   1:41.883     44:41.901
+26   1:42.510     46:24.411
+27   1:45.645     48:10.056
+28   1:46.165     49:56.221
+29   1:44.206     51:40.427
+30   1:50.664     53:31.091
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts, including TS4
+
+Spring Rate     4.2   3.2
+Ride Height     110   110  (min,min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   13    11
+Turbo               6
+        1st       3.400
+        2nd       1.815
+        3rd       1.315
+        4th       1.031
+        5th       0.830
+                  -----
+        FD        3.300
+
+Aero           0.49  0.72  (max,max)
+
+</pre></font><tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

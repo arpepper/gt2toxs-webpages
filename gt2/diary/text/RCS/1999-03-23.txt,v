@@ -1,0 +1,149 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.30.22.40.11;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@1999-03-23.txt
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@Tue Mar 23, 1999
+
+A Personal Comparison of the Prize Viper versus a Built-Up Viper
+
+Threads:
+  Prize Car Information
+
+I had previously found the white prize Viper GTS-R frustrating to
+drive.
+
+So I "put together" a red one by race-modifying a purchased Viper GTS.
+The red one is 578bhp, 2169lb versus 680bhp, 2753lb for the white
+one--almost 600lb lighter.  But the default racing suspension
+adjustment is the same for both, hmm...
+
+Anyway, I have become a less worse driver, and won first USvsUK, almost
+sweeping it.  I got 1st in all races, and pole except at SSR5 where I
+qualified third.  I don't remember why.  I was a fairly long way from
+my Cerbera LM records in all cases.  This won me another RX7 Aspec LM,
+but blue instead of green.  Well, I think it's blue, I wouldn't call
+it purple.
+
+After that I won USvsJP, sweeping the series, with all five poles and
+winning all five races.  I haven't raced that series since becoming
+a less worse driver, so I broke most of my records too.  The red
+Viper won another white Viper.  8-)
+
+Alright, so a day later, I try with the white prize Viper.
+
+UKvsUS, I won, with more difficulty, 4 races, coming 3rd at SSR11 after
+messing up my first lap.  I took pole only at GVEii and HSR(!--by .005)
+I won another blue RX7 Aspec LM which is probably still sitting on
+the Mazda used car lot.  8-)
+
+USvsJP, I won with a little more difficulty, although I did seem to be
+eeking a little more speed out of the car.  Peak power is significantly
+below red line for that car, and my qualifying seemed a little worse.
+I won the first four races again, but SSR11 was a disaster; all five AI
+cars seemed determine to race for a change, and I lost, but, of course,
+still won the series, winning another white Viper.
+
+So, it *seemed* that, even with extra power, the prize car was not as
+good as the red one, although at least now I know how to stay out front
+with it, except on one course  8-).
+
+So I tried a test of truth.  I went to trusty old GVEii time trial, and
+first took the white prize Viper for a spin.  Eventually, with a
+struggle, it beat its ghost down to 1:59.xx
+
+So then I took the red one out.  It easily left the (best) white ghost
+way behind, finishing about 2 seconds faster.  (It must have been close
+on the first lap, because I recall easily outdragging the ghost from
+the last hairpin).  And a couple of tries later, I broke 1:00 on the
+first lap, posting a 1:55.xxx; not only that, the car was comfortably
+to drive.  Rather than struggling to keep control I could ponder where
+to gain more time.  I had previously noticed an excessive tendency
+for the GTS-R to "get stuck", e.g. on inside rumble strips of turns,
+but noticed that less this time.
+
+So, in short, a race-modified Viper GTS seems superior to a GTS-R, and
+could give some drivers the edge they need to win the USvs series with
+an American car.
+
+Some of it might be tuning.  Should a car 25% heavier have spring rates
+pretty close to 25% higher, or is it not directly linear?  I did
+crank the white Viper's spring rates up .2 at both ends, and that did
+seem to help and certainly not hurt (I run with full rear aero and
+backed of slightly on the front on both cars).  But the biggest problem
+seemed to be the weight penalty.  Both cars have 8litre V10 engines,
+so I don't think the GTS-R engine is heavier.  So they should weigh the
+same.  So it makes me wonder if the spec'd the racing modification for
+an empty gas tank, and the GTS-R for a full one.  Or else they were
+over-enthusiastic in spec'ing a "racing modification" for a production
+car which is designed "race-modified".  Actually, the Cerbera LM versus
+a fully-modified Cerbera has the same weight anomaly even though it
+has the same size engine, but in that case the extra power (and handling?)
+of the LM makes up for the weight.
+
+Fuel consumption would be really neat in Gran Turismo.  Try to get too
+much of a weight advantage, and you might not finish.  8-)  During longer
+races, you might notice handling change as fuel is consumed.  And in
+the GV300 you'd need to pit for fuel as well as tires.  The computer
+would need to keep track of fuel consumption and weight changes for
+the other five cars as well, though...
+
+Of course, while white is a pretty good colour for making a car go
+fast, red is way superior.  Jet Jaguar really should have a "colour
+selection guide" section to his Tuning Guide.  8-)
+
+Gees, I run on...
+
+I finally found out how to see power curves for non-turbo engines,
+e.g. GTS-R
+
+In "the pits", you must go to "Change Parts" and select
+"Turbocharger".  It then, I believe, shows you (although faintly) the
+hp and torque curves.  For the GTS-R it appeared to correspond to the
+numbers in the Spec sheet.  It looked like a very spiked power curve,
+and a wide torque curve, with peak bhp much later than peak torque.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 3
+@

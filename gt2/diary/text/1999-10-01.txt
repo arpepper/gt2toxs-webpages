@@ -1,0 +1,195 @@
+Friday October 1, 1999
+
+Race-Modified Toyota MA70 Supra Wins the Grand Valley 300!
+
+Threads:
+  Used Car Information
+  Grand Valley 300 Results
+  Race Results
+
+The Toyota MA70 Supra GT Turbo Limited.  I love this car.  It was the
+one I drove in so many spot races trying to collect a few hundred
+dollars to allow me to get my next upgrade, etc.  Then, when I got
+my B license, I used it to win enough Sunday Cups to finally buy
+my dream car; the TVR Cerbera.  Later I found it in my garage,
+took all extraneous parts off (except the permanent weight-reduction
+stage 1), and found it was still very easy to win the Sunday Cup
+with it.  I bought another one, stock, and discovered I could
+win the Sunday Cup with that.  So this was a revelation of increased
+skill.  That's what makes Gran Turismo so great; it first gives
+you  the means to win the races by overpowering the competition,
+but lets you later come back and set yourself more challenges
+by using less and less modifications, (and worse and worse base
+cars, too).
+
+In some "alternate" games I persisted with the car, and race-modified
+it.  It can win the USvsJP and UKvsJP series fairly easily, and,
+given a weak field, can win the GT-I Cup.  (In GT-Is for warm-ups I won
+fairly easily against an Impreza and an NSX-R, but after that got
+thrashed by a Castrol Supra, NSX-R, '91GT-R and an Impreza).
+
+So I really wanted to win the Grand Valley 300, the jewel of Gran
+Turismo, with this car.
+
+
+   "real game" day 4382
+   Friday October 1, 1999
+   [R]MA70 Supra 3.0 turbo
+   Grand Valley 300km Endurance Race
+
+   q6th 1:46.834not     no prize   8-)
+
+   Results:
+
+   1st  [R]MA70 Supra 3.0 turbo 1-41:01.6<--
+   2nd  [R]GTO twinturbo          +63.816   (1-42:05.4)
+   4th  [R]NSX-R LM GT2           +69.859   (1-42:11.5)
+   5th  [R]Castrol Supra GT       +74.276   (1-42:15.9)
+   5th  [R]Impreza RLY Ed        +155.040   (1-43:36.6)
+   6th  [R]Primera'90 2.0Te      +174.034   (1-43:55.6)
+   
+   lap 1   1:48.223
+   pits   12,24,36,48 
+   fl  (02)  1:36.517
+   slowest  non-pit   (54)  1:43.851
+             next     (58)  1:43.051
+   fastest pit laps   (12in)  2:00.380
+                      (25out) 1:43.803
+   slowest pit laps   (36in)  2:01.144
+                      (49out) 1:46.839
+
+Coming from behind against this strong field, I got the lead by lap 5.
+I dropped to 4th at my first pit stop, but past all the cars while they
+were in the pits, eventually regaining the lead on lap 14.
+
+I barely kept the lead after my pit stop on lap 24, (the Castrol
+Supra rammed me from behind as I came out).
+
+I lapped the Primera on lap 34, but it got unlapped when I pitted on
+lap 36.
+
+So then I lapped first the Subaru Impreza, and then the Primera
+on lap 40.  (I guess the Primera was going for a longer shift and
+therefore stayed ahead of the Subaru).
+
+After my pit stop on lap 48, I had to relap the Subaru, and, as you
+can tell, I lapped no other cars.
+
+I had a few minor mishaps, but, overall, it was a very pleasant win,
+especially against such a strong field.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+I saved the setting too.  All the parts were maxed, that is, in
+particular, I used a racing exhaust, not semi-racing (semi-racing
+sometimes seems to help give better pickup to highly-turbocharged
+engines).  Similarly, I also used a racing flywheel.
+
+           My Settings                     Default
+
+Spring Rate    11.6   5.9                11.6   5.9
+Ride Height     100   100  (min, min)     118   118
+Dampers          4     4                   4     4
+Camber          0.2   1.0                 2.0   1.0
+Stabilizers      3     3                   3     3
+Brake Balance   12     9                   7     7
+Turbo               7                         7
+        1st       3.700                     3.251
+        2nd       2.000                     1.955
+        3rd       1.325                     1.310
+        4th       1.000                     1.000
+        5th       0.800                     0.753
+                  -----                     -----
+        FD        3.400                     3.727
+
+Aero            0.49  0.72 (max, max)      ?      ?
+
+
+I did record all sixty lap times, but will not enter
+them at this time, but might do later if I feel like it.  8-)
+
+At least now I can say I'm mostly caught up.  8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+These are the Eclipse GT times...
+ 1   1:46.768      1:46.768
+ 2   1:38.791      3:25.559
+ 3   1:39.078      5:04.637
+ 4   1:38.558      6:43.195
+ 5   1:39.270      8:22.465
+ 6   1:39.362     10:01.827
+ 7   1:39.528     11:41.355
+ 8   1:39.607     13:20.962
+ 9   1:40.115     15:01.077
+10   1:40.359     16:41.436
+11   1:39.541     18:20.977
+12   1:54.489     20:15.466
+13   1:46.063     22:01.529
+14   1:39.160     23:40.689
+15   1:37.832     25:18.521
+16   1:41.384     26:59.905
+17   1:39.349     28:39.254
+18   1:39.475     30:18.729
+19   1:40.460     31:59.189
+20   1:40.430     33:39.619
+21   1:41.779     35:21.398
+22   1:40.291     37:01.689
+23   1:40.959     38:42.648
+24   1:55.651     40:38.299
+25   1:46.137     42:24.436
+26   1:39.155     44:03.591
+27   1:38.172     45:41.763
+28   1:38.336     47:20.099
+29   1:37.900     48:57.999
+30   1:39.673     50:37.672
+31   1:40.025     52:17.697
+32   1:39.525     53:57.222
+33   1:39.251     55:36.473
+34   1:40.928     57:17.401
+35   1:41.082     58:58.483
+36   1:56.012   1-00:54.495
+37   1:47.088   1-02:41.583
+38   1:39.267   1-04:20.850
+39   1:40.658   1-06:01.508
+40   1:38.878   1-07:40.386
+41   1:38.538   1-09:18.924
+42   1:39.341   1-10:58.265
+43   1:39.283   1-12:37.548
+44   1:40.039   1-14:17.587
+45   1:41.105   1-15:58.692
+46   1:39.767   1-17:38.459
+47   1:40.198   1-19:18.657
+48   1:54.207   1-21:12.864
+49   1:46.325   1-22:59.189
+50   1:40.746   1-24:39.935
+51   1:40.202   1-26:20.137
+52   1:39.278   1-27:59.415
+53   1:40.278   1-29:39.693
+54   1:38.216   1-31:17.909
+55   1:39.839   1-32:57.748
+56   1:39.855   1-34:37.603
+57   1:40.447   1-36:18.050
+58   1:41.119   1-37:59.169
+59   1:40.080   1-39:39.249
+60   1:40.709   1-41:19.958
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+

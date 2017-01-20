@@ -1,0 +1,57 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.03.27.22.46.46;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.15.21.35.39;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@used by the textview cgi
+@
+
+
+1.2
+log
+@Added missing double quotes.
+Added a newline for some reason.
+@
+text
+@<hr>
+<p>
+Copyright &copy; 1999, 2000 the author/owner of http://www.math.uwaterloo.ca/~arpepper
+</p>
+<font size=-2>
+<p>
+<a href="../email.html">email</a>
+</p>
+<p>
+<a href="../disclaimer.html">Disclaimers</a>
+</p>
+</font>
+</body>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d7 1
+a7 1
+<a href=../email.html>email</a>
+d10 1
+a10 1
+<a href=../disclaimer.html>Disclaimers</a>
+@

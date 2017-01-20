@@ -1,0 +1,1 @@
+../gt/gt1stats/selana1.js

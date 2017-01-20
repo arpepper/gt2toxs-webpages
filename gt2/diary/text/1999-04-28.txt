@@ -1,0 +1,102 @@
+Wed Apr 28, 1999
+
+The Much-Maligned Prize RX-7 A spec LM Edition Wins at Grand Valley
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Prize Car Information
+
+It was with some trepidation I took the RX-7 A spec LM Edition
+(the rarer prize in the UKvsUS series; I used the green version)
+to the Grand Valley 300.  I had seen it maligned in several places,
+and certainly its statistics implied it should come up short of
+the excellent special model RX-7 LM Edition.  In my early test
+runs, the car seemed no better than the Chaser LM, or even an
+Eclipse GT.
+
+Well, this is one car which you need to learn to drive specially.
+Even in the early tests this car, unlike the Chaser LM, gave an
+indication that it did have more potential which I was failing
+to unleash.  I ended up doing lots of USvsJP runs with this
+car, partly to see if I could get another green-striped Viper.
+(It won all three other cars, but not the green-striped Viper).
+With all the practice I did, I think the race result represents,
+one might say, a "more than fair" evaluation of the car.
+
+   green RX-7 A spec Lm Edition (prize car)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:43.866not     Cr20,000
+
+   Results:
+
+   1st  RX-7 A spec LM    1-40:07.3<--
+   2nd  NSX-R LM GT2       +120.630   (1-42:07.9)
+   3rd  GTO twinturbo      +134.848
+   4th  R32GT-R'91         +144.380
+   5th  CELICA GT-FOUR     +341.409
+   6th  LANTIS TypeR       +483.021
+   
+   lap 1   1:45.032
+   pits   10.20,30,40,50
+   fl  (42)  1:34.394
+   slowest  non-pit   (38)  1:42.785
+             next     (49)  1:42.118
+   fastest pit laps   (50in)  1:53.882
+                      (41out) 1:42.367
+
+So, all-in-all, this car did quite well.  Its worst problem was that
+it seemed to eat tires quite quickly, necessitating the five stop
+strategy, which worked quite well.
+
+There was an early fight for the lead, but I basically kept the lead
+after lap 3.  I lost the lead briefly after my first pit stop, but
+regained it quickly a couple of laps later, before the competitors
+had even taken their pit stops.  The competitors then took their
+stops (late as usual) and from then on I was in control of the
+race.
+
+I had a couple of disasters, especially when trying to pass stragglers.
+When I accidentally focussed on the competitor rather than my own
+car, I would lapse into habits appropriate for "more generic" cars,
+and, as a result, more than once turned too early.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+Thread: Driving Advice
+
+To reiterate, this car underlines the fact that, in Gran Turismo,
+practising with one car can be "un-practice" for other cars.  This
+cars steering was generally precise and responsive, and that took
+some getting used to when used to cars which I needed to turn 
+early into turns, for instance.
+
+Both before and after the race I substantially improved my time
+trial times with the RX-7 A spec, getting them down to the range
+of the better special models. at 3:14.xxx
+
+The next Grand Valley 300 entrant will be the prize Viper GTS-R.  This
+is not one of my favourite cars.  I much prefer a race-modified normal
+Viper GTS, since it seems to have more spirit.  I adjusted the 7-speed
+on the GTS-R so that all gears are properly in range and will see if I
+can make proper use of it for this race.  (And in preparatory
+International Series warm-ups).  Early time trials do not look
+promising as I'm having difficulty getting below the 3:20 time trial
+which seems to be an indication of the necessary competitiveness to win
+this event.
+
+Oh well, I have taxes to do so I'll not do the GV300 until the weekend
+probably, and concentrate on practice in the meantime.
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

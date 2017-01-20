@@ -1,0 +1,139 @@
+Thursday August 17, 2000
+
+Nismo 400R Does Reasonably Well in SSR11 All-Night I in Nismo Game
+
+Threads:
+  All-Night I Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+
+I decided to go back to my old <html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font></html>
+<html><a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nismo">nismo</a></html> game.
+In this game I had been using the Nismo 400R as much as possible, so I
+entered the race-mod version in the All-night I Event, and did a
+reasonably fast time.  I was surprised, actually, that playing
+<html><font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font> actually seems to have improved
+my <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font></html> skills.
+
+   nismo day 85
+   August 17, 2000
+   yellow [R]Nismo 400R (memory card trade)
+   SSR11 All-Night I
+
+   q1st 1:48.653  +7.851      Cr20,000
+
+   Results:
+
+   1st  [R]Nismo 400R           51:40.061<--new nismo time, pretty good
+   2nd  [R]Primera'90 2.0Te      +370.633  (57:50.694)
+   3rd  [R]Impreza Rly Edition   +408.036  (58:28.097)
+   4th  [R]Exiv 200GT            +425.718  (58:45.779)
+   5th  [R]Lantis TypeR          +510.102  (60:10.163)
+   6th  [R]Accord Sedan          +527.811  (60:27.872)
+   
+   pits   10,20
+   lap 1   1:45.741
+   fl  (22) 1:37.372new
+   slowest  non-pit   (30)  1:47.941
+             next      (9)  1:47.807
+   fastest pit laps   (20in)  2:01.426
+                       (11out) 1:42.423
+   slowest pit laps   (10in)  2:03.912
+                      (21out) 1:42.427
+
+I led from start to finish again, in a fairly uneventful race, lapping
+the field by my first pit stop.
+
+This was only about a ten seconds slower than the Cerbera LM, and I
+lapped the field three times.
+
+I won Cr150,000, and the green Silvia LM.   8-)  The green one looks
+so much nicer than the red one.   8-)
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:45.741      1:45.741
+ 2   1:39.583      3:25.324
+ 3   1:40.955      5:06.279
+ 4   1:39.174      6:45.453
+ 5   1:40.805      8:26.258
+ 6   1:41.372     10:07.630
+ 7   1:42.987     11:50.617
+ 8   1:43.284     13:33.901
+ 9   1:47.807     15:21.708
+10   2:03.912     17:25.620
+11   1:42.423     19:08.043
+12   1:38.027     20:46.070
+13   1:40.366     22:26.436
+14   1:39.789     24:06.225
+15   1:39.769     25:45.994
+16   1:40.487     27:26.481
+17   1:44.029     29:10.510
+18   1:40.767     30:51.277
+19   1:40.576     32:31.853
+20   2:01.426     34:33.279
+21   1:42.427     36:15.706
+22   1:37.372     37:53.078
+23   1:38.867     39:31.945
+24   1:40.691     41:12.636
+25   1:40.386     42:53.022
+26   1:45.450     44:38.472
+27   1:40.198     46:18.670
+28   1:45.954     48:04.624
+29   1:47.496     49:52.120
+30   1:47.941     51:40.061
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+           My Settings
+
+Tires           S    S
+
+Spring Rate    10.5  12.0
+Ride Height     60    60   (min,min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      2     2
+Brake Balance   12     9
+Turbo               7
+        1st       3.214
+        2nd       1.925
+        3rd       1.302
+        4th       1.000
+        5th       0.804
+                  -----
+        FD        3.700
+
+Aero            0.82  0.86  (max,max)
+
+This tuning was how I found the car after using it in the GTI late
+last year.
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+

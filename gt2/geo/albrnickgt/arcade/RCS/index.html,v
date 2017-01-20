@@ -1,0 +1,175 @@
+head	1.4;
+access;
+symbols;
+locks
+	arpepper:1.4; strict;
+comment	@# @;
+
+
+1.4
+date	2003.08.11.00.19.32;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.11.00.15.25;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.08.00.57.27;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.08.00.54.00;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Old version was becoming obsolete.
+@
+
+
+1.4
+log
+@Added link to new tracks section.
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE>The Gran Turismo Pit Stop - Arcade</TITLE>
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Arcade
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+<BR><BR><BR>
+
+Please select from the following:
+
+<DL>
+  <DT><A HREF="extras.html">Extras</A></DT>
+    <DD>How to unlock the extras in Arcade mode.</DD>
+  <DT><A HREF="cars.html">Cars</A></DT>
+    <DD>Cars in Each Category, with Rankings
+  <DT><A HREF="tracks.html">Tracks</A></DT>
+    <DD>Tracks available, with Diagrams
+      </B> </DD>
+</DL>
+
+<P><BR>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sun Aug 10 20:17:53 EDT 2003
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+
+</BODY>
+
+</HTML>
+@
+
+
+1.3
+log
+@Forgot to check in massive changes.
+@
+text
+@d28 2
+d39 1
+a39 1
+Last modified: Wed Apr 10 23:19:45 EDT 2002
+@
+
+
+1.2
+log
+@Switch entire tree to "extras", and make correctiosn.
+@
+text
+@d4 1
+a4 1
+<TITLE>The Gran Turismo Pit Stop - Arcade - Extras</TITLE>
+d13 1
+a13 1
+Arcade - Extras
+d19 3
+a21 3
+<BR><BR>
+<HR>
+<BR>
+d23 7
+a29 13
+<OL>
+  <LI> Win each of the arcade tracks with all 3 classes of cars.  (A, B & C)
+	Doing so on each track opens up an extra track.  The 4 tracks are:
+	Autumn Ring, Deep Forest, Special Stage R5 & Grand Valley.
+  <LI> Win each of the extra arcade tracks with all 3 classes of cars.
+	Doing so on each extra track unlocks a different manufacturer.
+	The 4 manufacturers are: Subaru, Dodge, Toyota & TVR.
+  <LI> By winning all 8 tracks using all 3 classes of cars on the Normal
+	level, the staff credit movie is displayed.  This is now also
+	accessible from the menus.
+  <LI> By winning all 8 tracks using all 3 classes of cars on the Difficult
+	level, the "GT Hi-Res" mode is accessible from the menus. 
+</OL>
+d37 1
+a37 1
+Last modified: Sun Apr  7 20:55:01 EDT 2002
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 2
+<TITLE>The Gran Turismo Pit Stop - Arcade</TITLE>
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+d13 1
+a13 1
+Arcade
+d19 3
+a21 3
+<BR><BR><BR>
+
+Please select from the following:
+d23 13
+a35 7
+<DL>
+  <DT><A HREF="extras.html">Extras</A></DT>
+    <DD>How to unlock the extras in Arcade mode.</DD>
+  <DT>Best Times</DT>
+    <DD>Who has the best time, in which type of car, for which track? 
+      <B>Soon</B> </DD>
+</DL>
+d43 1
+a43 1
+Last modified: Fri May 29 17:52:46 EDT 1998
+d46 2
+a47 4
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+@

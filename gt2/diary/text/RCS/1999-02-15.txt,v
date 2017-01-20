@@ -1,0 +1,391 @@
+head	1.6;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.07.14.22.39.03;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.02.23.02.18.00;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.02.16.00.23.23;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix heading, etc.
+@
+
+
+1.6
+log
+@changes.
+@
+text
+@Mon Feb 15, 1999
+
+I finally got my IA license!!!
+
+Threads:
+  Children
+  License Test Progress
+  Prize Car Information
+  Used Car Patterns
+  Driving Advice
+
+In University, if a guy invited some other guys over to listen to some
+records with the intention of persuading them that these were
+particularly good records, we referred to this as "plying".
+
+Thread: Children
+
+On Saturday I had a pretty successful Gran Turismo "ply session" with
+some relatives.  The 7-year-old was eager to see it, and liked it once
+I rigged things so he could win  8-); the father liked it, and was
+impressed by the InterAct Barracuda 2 controller, too.  The most
+amazing thing was the mother overcame her staunch "I'm not going to be
+impressed by anything" attitude and actually marvelled somewhat at the
+behaviour of the cars.  I think it was the bouncing on the springs that
+impressed her; it's difficult to get the cars to do that on the Clubman
+R5 Arcade Demo.
+
+One interesting thing was that the 7-year-old had heard about the
+licenses I had acquired, and expected to see them attached to the car.
+In general, it would be an improvement if your license status was
+visible in the "Home" screen.
+
+Thread: License Test Progress
+
+So, after that on Sunday I didn't do much Gran Turismo until evening,
+since there was important sleeping and shopping to be done.  But in the
+evening things began really clicking with the final International A
+class test, and, after about three 1:59.XXX in a period when 2:01.xxx
+became a really bad run, I finally squeaked in with a passing
+1:58.844.  Closest non-pass was 1:59.309
+
+I had racked up 1400 simulation days at the point I passed the
+license.  But in reality I had done a lot more days since I would reset
+without saving the game after too many failures of a particular license
+test.
+
+I haven't entered any IA races yet, but, although I actually passed
+relatively early in the evening (by my current standards), I stayed up
+rather late making sure I made appropriate backups of the game, and
+also decided to construct a memory card holder, i.e. an open-top
+"shoebox" type box,  out of a piece of the cardboard they put inside
+calendars.  I used dimensions 4.4cm wide X 5.8cm high X 5.0cm long.
+That comfortably holds 6 cards, but does not allow a single card to
+fall down flat on the bottom.  I put cutouts in the sides and ends,
+leaving sort of pillars on the corners, so you can grab the cards with
+your fingers.  A lid will be a project for another day.  I used
+bondfast glue, but think maybe I should have tried a glueless design
+instead.
+
+Checking the dimensions of memory cards, it seems that one ought to be
+able to have a CD case sized box that would hold siz of them.  That
+might be a convenient storage method.
+
+Earlier on Sunday, while warming up for the License test, and also to
+verify that my Barracuda 2 controller was still in good condition, I
+amused myself by winning the Sunday Cup with an unmodified, used Toyota
+Corolla Levin, and after that a similarly stock '93 Honda CRX.  The
+games' bizarre handicapping formulas failed to allow me to win with a
+used Eunos Roadster, however; I finished only fourth.  With the other
+cars I would sometimes get pipped at the post on the Autumn Mini-Ring,
+but would win the other two races.  It's sort of a relief driving those
+cars, actually; they are very difficult to spin out, even the Levin
+which claims to be FR (although it's so gutless that it's difficult
+to confirm for sure).
+
+I think I've confirmed that, although alleged qualifying times for the
+Sunday Cup are better than those for the Spot Races, when the race
+begins the computer tries slightly harder to let you win the Sunday
+Cup.  I managed to win the Grand Valley East Spot Race with a Corolla
+Levin, but it was not as easy as the race on the same track in the
+Sunday Cup.
+
+After the Saturday session, which took place at someone else's place, I
+was reminded of a factoid about PlayStations.  I took my Barracuda 2
+controller over to show to the adults, since it is more "adult-sized".
+Unfortunately, I switched to that controller in the middle of a game.
+It seemed to malfunction.  Specifically, the brakes seemed to be on
+while the right analog stick was in the neutral position.  (I use
+right analog stick as accelerator/brake).
+
+I guess I got used to pulling out and replacing Commodore 64
+joysticks while the game is running; they are digital so there is no
+problem.  Similarly, the digital aspects of the Barracuda 2 worked fine
+on Saturday even though I had switched to that controller without
+power-cycling or even resetting the game.
+
+The Barracuda 2 documentation explicitly recommends, although without
+dire warnings, that you should change controllers only while the
+station is powered off.
+
+Both Barracuda 2 and the regular Sony Dual Shock Analog controllers are
+"self-calibrating"; I don't think the documentation makes this
+explicit, but that is what the Need For Speed III game (I think it was
+that game) says when you attempt to calibrate them.  So, presumably my
+Barracuda 2 needed different calibration from the Sony controller that
+had been there.  Power cycling, or perhaps even just resetting, the
+game would have almost certainly fixed it.  It's possible that
+switching to pure digital mode and back would have done it.  (BTW one
+neat feature of the Barracuda 2 is that in digital mode both joysticks
+are alternate directional control pads; it would be even better if you
+could put one axis on one, and the other on the other, but you can't).
+
+It seemed that, either because I switched between the two analog modes
+of the Barracuda 2, or because it continually dynamically recalibrates
+to some degree, it did get better on Saturday night anyway.  It's
+barely possible that it did have some physical malfunction which fixed
+itself, but I'm tending away from that theory.
+
+On the other hand, when I attempted to reproduce the problem on Sunday
+evening by deliberately switching from my Sony controller to the
+Barracuda 2, without powering off, I was not able to reproduce the
+extreme behaviour which we had seen on Saturday.  (brake lights going
+on with right joystick in neutral position).
+
+For the first time ever, I examined the "memory car trade" facility
+of simulation mode.  Although I think I've read it elsewhere, I was
+amazed to see that LM cars can be bought for only Cr35000.  The junk
+prize cars are only Cr20000 (whether a Demio or a DB7).
+
+Judging from the pricing, you pay completely for, and only for, the
+parts fitted, not ones laying about the sellers' garage, but then you
+don't get discount for parts you already have anyway, even though you
+could use the "feature" to equip the cars.  Conclusion: have the
+"seller" strip all removeable parts from the car before "selling", and
+buy yourself any parts you need after that.
+
+Thread: Used Car Patterns
+
+Used car stock does still vary if you examine closely, even at 1400days.
+I can think of several possible algorithms;
+   - each car has visibility parameters, (cycle size plus days of cycle?)
+   - total stock rotates on a continual pattern
+      (might be same as above, but without individual cycle size for each car)
+
+Thread:  Driving Advice
+
+I guess I actually have some "tips" for passing the IA-8 test (bronze
+level).  First of all, the first corner (subtle series of corners) can
+be taken a lot faster than you first think.  A gentle brake at the
+right point, and a tug on the wheel and you should stay on after some
+practice.  Although the demo goes down from 4th to 3rd, I eventually
+did not bother to do so.  (The demo is a gold run, so doing the
+downshift may or may not get you closer to gold!)
+
+Now, at the double hairpins following, remember to brake early and
+severely for the first hairpin so you can hold it in tight and,
+as soon as possible, take the next hairpin as wide as possible
+so you can begin accelerating as soon as possible.  Get down to first,
+but not for long; you don't want to lose acceleration through either
+hitting rev-limit or spinning wheels.  In the short straight that
+follows, you should get up into third.  Do not drift that left turn
+through the one-sided tunnel.  Try to cut in and stay reasonably close
+to the left-hand wall, but as soon as you see the rock on the
+right-hand side by the exit, let yourself begin moving to the right so
+you can apply a little more power.  Get into fourth along the bridge
+even though you may think you don't need to, to give yourself more
+potential for engine braking for the next corner.  Leave it to the last
+moment to brake for that left-hander after the bridge.  Throw the car
+left; downshift to 3rd, then 2nd--by now you should be drifting up the
+tunnel, but try not to overdo it.
+
+Stay in 2nd and just drive your way through the esse leading into the
+next tunnel.  I suspect I have room for improvement here, to be honest,
+(obviously I am losing the 4 or 5 seconds over the demo somewhere!) but
+the demo does stay in 2nd gear for this entire section.  You can
+probably glance at the clock here finally.  Better not be above :57 as
+you enter the second tunnel, around which point you get into 3rd gear.
+
+Learn to brake and downshift late, and almost simultaneously, for the
+next right-hander at the end of the tunnel, turning as you do.  You may
+or may not end up dropping to first as you exit that hairpin, but don't
+exit too fast.  Just like the previous two hairpins, the three corners
+after a the tunnel are a combination in which you want to maximize
+final exit speed, to take advantage of the straight leading to the
+hairpin, even though it is short.  Stay slow and tight for the second
+corner; and start the final corner early, and shift up to 3rd on the
+early side to minimize tire slippage, hit the inside apex at about
+the middle, and then follow a path to the left of the road, but
+remember to gradually, not sharply, move back to the right side
+in preparation for the next hairpin.
+
+Brake late for that hairpin, almost simultaneously turning and
+downshifting.  You should threaten to run wide, but kick it down to
+first gear and let that induce oversteer to throw you around the final
+part of the corner.  Logic says maybe this description of what I did is
+actually performing that maneuver too late; the earlier you can finish
+your turn, that is, the later you can apex the corner, the sooner you
+can begin accelerating.  In any case, gather the car in and begin
+accelerating, and shift up to second before the engine whines and the
+tires slip too much.  3rd gear comes naturally, and shift into 4th a
+little early as you begin rounding the downhill left-hander.  A
+timecheck there should show about 1:33.
+
+Remember to come wide out of the right hander, and move back over to
+the right hand side during the straight after that, even though the
+straight is relatively short.  That action, which you see very clearly
+in real-life telecasts, minimizes the braking action caused by turning,
+and allows the extra speed you maintain to compensate for the extra
+distance you travel.   At a point around the grandstands, brake and
+downshift--3rd, pause, 2nd, and start almost drifting around the final
+hairpin.  Gather yourself in, exit the corner, upshift at the natural
+points, and stay on the right side for the final run.  If you catch the
+time just as you are exiting the hairpin, it had better be well under
+1:50 if you are going to pass.  This test features a long agonizing
+finishing straight, so, once you are in 4th gear there's nothing to do
+but watch the clock run out (or not).
+
+So in summary, there is a lot of time to be gained on the Grand Valley
+II circuit in three places; the corners after the main straight, and
+the two sets of tight corners leading to straights, albeit short
+straights.  In addition, you must round the two straight-joining
+hairpins smoothly and efficiently, but not too gingerly.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.5
+log
+@more threading
+@
+text
+@d6 1
+d9 1
+d16 2
+d33 2
+d137 2
+d144 2
+@
+
+
+1.4
+log
+@Added threads.
+@
+text
+@d8 1
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d5 4
+@
+
+
+1.2
+log
+@changed my license test recommendations.  To remove ambiguities?
+@
+text
+@d1 1
+a1 1
+Mon Feb 15 16:34:25 EST 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d132 7
+a138 6
+I guess I actually have some "tips" for passing the IA-8 test.  First
+of all, the first corner (subtle series of corners) can be taken a
+lot faster than you first think.  A gentle brake at the right point,
+and a tug on the wheel and you should stay on after some practice.
+Although the demo goes down from 4th to 3rd, I eventually did not
+bother to do so.
+d150 1
+a150 2
+you can apply a little more power.  Leave it to the last moment to
+begin braking for the left-hander after the bridge.  Get into fourth
+d152 4
+a155 2
+engine braking as you throw yourself left; 3rd, then 2nd by now
+you should be drifting up the tunnel, but try not to overdo it.
+d159 2
+a160 1
+but the demo does stay in 2nd gear for this entire section.  You can
+d162 1
+a162 1
+you enter the second tunnel, around which you get into 3rd gear.
+d164 12
+a175 9
+Learn to brake and downshift just right for the next right-hander at
+the end of the tunnel, turning as you do.  You may or may not end up
+dropping to first as you exit that hairpin, but don't exit too fast.
+Just like the previous two hairpins, the three corners after a the
+tunnel are a combination in which you want to maximize final exit
+speed, to take advantage of the straight leading to the hairpin, even
+though it is short.  Stay slow and tight for the second corner; and
+start the final corner early, and shift up to 3rd on the early side to
+minimize tire slippage.
+d177 1
+a177 1
+Brake late for the next hairpin, almost simultaneously turning and
+d180 8
+a187 5
+part of the corner.  Gather it in and begin accelerating, and shift up
+to second before the engine whines and the tires slip too much.  3rd
+gear comes naturally, and shift into 4th a little early as you begin
+rounding the downhill left-hander.  A timecheck there should show about
+1:33.
+d190 18
+a207 12
+the right hand side after that, even though the following straight is
+relatively short.  That action, which you see very clearly in real-life
+telecasts, minimizes the braking action caused by turning, and allows
+the extra speed you maintain to compensate for the extra distance you
+travel.   At a point around the grandstands, brake and downshift--3rd,
+pause, 2nd, and start almost drifting around the final hairpin.  Gather
+yourself in, exit the corner, upshift at the natural points, and stay
+on the right side for the final run.  If you catch the time just as you
+are exiting the hairpin, it had better be well under 1:50 if you are
+going to pass.  This test features a long agonizing finishing straight,
+so, once you are in 4th gear there's nothing to do but watch the clock
+run out (or not).
+@

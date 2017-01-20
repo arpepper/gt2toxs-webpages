@@ -1,0 +1,83 @@
+Wed Mar  3, 1999
+
+Days 10 to 19 used car inventory, and rambling about winning a 3 race series.
+
+Threads:
+  Used Car Patterns
+  Used Car Information
+
+Last night I discovered that between day 10 and day 19 inclusive you
+can buy a "lime green 2tone" S13 '88 Silvia Q's 1800cc for an
+ultra-cheap Cr3450.  Spend all the extra money on weight reduction, and
+it can win the Sunday Cup, although it has a hard time straight out of
+the box.  After that the only turbo option (sort of annoying that it
+does not have the usual Cr4000 turbo option, but only a "spec 1" for
+Cr12500) turns it into quite a respectable little money-maker able to
+sweep the poles as well as the races in the Sunday Cup.
+
+Strangely, the first I won the Sunday Cup with this car, the
+competitors connived to do the most amazing job of distributing the
+other spoils.  I went into the last race leading 18 to 9, i.e. unable
+to lose, and winning 27 to 15.
+
+I realized that 14 is the minimum number of points needed to win the
+Sunday Cup, but that is extremely unlikely to happen.
+
+e.g.
+  6 4 4 = 14
+  9 3 1 = 13
+  9 3 1 = 13
+  9 3 1 = 13
+  6 4 2 = 12
+  6 2 2 = 10
+Or
+  6 6 2 = 14
+  9 3 1 = 13
+  9 3 1 = 13
+  9 3 1 = 13
+  6 4 2 = 12
+  4 4 2 = 10
+
+Various other combinations are theoretically possible, including ones
+where the winner with 14 wins one race.
+
+The thing is, Gran Turismo usually seems to have one "slowpoke" in
+any series who never gets more than 2 points in a race.  So you
+have to do better than above to have a chance of winning.
+
+It's relatively easy to prove that you cannot win such a 3-race
+series with only 13 points.  In fact, the above charts demonstrate
+it; you could take one point from two of the 13's and give them
+to the last-placed "10", but there's one more 13, plus the point
+you didn't win, so the best you could do is a three-place tie for
+1st at 13, which, I have come to suspect, the game always awards
+to the computer competitor.
+
+E.g.
+  6 4 3 = 13
+  9 3 1 = 13
+  9 3 1 = 13
+  9 2 1 = 12
+  6 4 2 = 12
+  6 4 2 = 12
+
+More simply, the total number of points available is 3*(9+6+4+3+2+1) = 75.
+75/6 is 12.5; competitors can only get integer numbers of points, so,
+for competitors to get less than 13, they must get 12.  12*5 is 60,
+which leaves 15 points required for you to win to stop the other
+competitors exceeding 12.  So if you get only 13, there are two other
+points the other competitors must get so at least one of them must get
+more than 12.  Any mathemeticians out there, feel free to submit a
+rigorous proof.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

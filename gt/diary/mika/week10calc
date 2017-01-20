@@ -1,0 +1,59 @@
+#!/xhbin/perl5 -w
+
+#
+# elapsed - convert total thousandsths to a readable string
+#
+#   bad name for routine
+#
+	sub
+elapsed {
+	local($thous) = @_;
+	local($ttt,$ss,$mm,$hh);
+
+	$ttt = $thous;
+
+	$hh = int($ttt / (60 * 60 * 1000) );
+	$ttt -= $hh * (60 * 60 * 1000);
+	$mm = int($ttt / (60 * 1000) );
+	$ttt -= $mm * (60 * 1000);
+	$ss = int($ttt / 1000 );
+	$ttt -= $ss * 1000;
+
+	if ($hh > 0) {
+		sprintf("%d-%2.2d:%2.2d.%3.3d",$hh,$mm,$ss,$ttt);
+	}
+	else {
+		sprintf("  %2d:%2.2d.%3.3d",$mm,$ss,$ttt);
+	}
+	
+}
+
+
+
+while (<>) {
+	if ( $_ =~ /^(\d+)(\s+.*)((\d):([0-5]\d)[.](\d{3}))$/ ) {
+		$pointsused = $1;
+		$stuff1 = $2;
+		#$time = $3;
+		$mins = $4;
+		$secs = $5;
+		$thous = $6;
+		$thous += ( 1000 * $secs) + ( 60 * 1000 * $mins);
+		
+#printf("%s %d:%2.2d.%3.3d\n", $time, $mins, $secs, $thous);
+		printf("%d%s%s", $pointsused, $stuff1, &elapsed($thous) );
+		for ($points = 0; $points <= 10; ++$points) {
+			$penalty = $points - $pointsused;
+			if ($penalty < 0) {
+				$penalty *= 2;
+			}
+			$penalty *= 1000;
+			printf(" %s", &elapsed($thous-$penalty));
+		}
+		printf("\n");
+
+	}
+	else {
+		print $_;
+	}
+}

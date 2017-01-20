@@ -1,0 +1,161 @@
+Sunday August 12, 2001
+
+In Nissan Game, [R]Silvia'88 K's Wins All-Night I
+
+Threads:
+  All-Night I Results
+  Used Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nissan">nissan</a> game
+(Maybe <a href="../logs/nissan.txt">here</a>)
+I used the race-mod version of the 1988 S13 Silvia K's 1800cc
+in the <b>SSR11 All-Night I Race</b>.
+</CODES>
+
+It won spectacularly, although about a minute short of a personal record
+for this event.  (Although I think I can better it by about another two
+minutes yet with a monster car).
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: nissan
+   Day: 90
+   Date: Aug 12, 2001
+   Race: SSR11 All-Night I  Endurance Race
+   Car: Nissan [R]S13 Silvia K's 1800cc '88 (S/S)
+   Qualified: 1st(+6.138) 1:50.398new
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: red [R]Silvia LM
+
+   Results:
+
+   1st:* [R]S13Silvia'88 K's    52:43.709<--new
+   2nd:  [R]R32GT-R'91           +264.656  (57:08.365) 2 laps
+   3rd:  [R]NSX-R LM GT2         +282.042  (57:25.751) 2 laps
+   4th:  [R]Impreza Rly Edition  +349.167  (58:32.876) 2 laps
+   5th:  [R]EXIV 200GT           +354.623  (58:38.332) 3 laps
+   6th:  [R]Lantis TypeR         +431.995  (59:55.704) 3 laps
+
+   Pits:  10,20
+   fl(22): 1:39.940new
+
+   lap 1   1:52.161
+   slowest  non-pit    (5)  1:46.490
+             next      (7)  1:45.548
+   fastest pit laps   (20in)  2:05.660
+                      (21out) 1:47.613
+   slowest pit laps   (10in)  2:06.008
+                      (11out) 1:48.138
+
+</pre></font></tt>
+</HTML>
+
+
+I dropped back slightly at the start, but got the lead back by the central
+chicane of the first lap.
+
+By my first stop I had lapped two cars (just).  I lapped the field on
+lap 14.
+
+By my second stop I had lapped 2 of the cars yet again, and was way
+in the lead.
+
+On lap 26 I lapped the field a second time, and also lapped the Lantis
+for a third time.
+
+On lap 30 I just barely lapped the EXIV a third time.
+
+It was another very dull race.  I didn't even have any noteable
+mishaps.  This time was relatively good, but perhaps only because I
+have not done this race much since I learned to drive fast.  I'll
+probably try a Skyline soon.  8-)
+
+I won Cr150,000, and a red Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+ 1   1:52.161      1:52.161
+ 2   1:41.579      3:33.740
+ 3   1:41.083      5:14.823
+ 4   1:42.114      6:56.937
+ 5   1:46.490      8:43.427
+ 6   1:44.452     10:27.879
+ 7   1:45.548     12:13.427
+ 8   1:44.227     13:57.654
+ 9   1:45.041     15:42.695
+10   2:06.008     17:48.703
+11   1:48.138     19:36.841
+12   1:41.177     21:18.018
+13   1:43.307     23:01.325
+14   1:44.408     24:45.733
+15   1:40.668     26:26.401
+16   1:43.089     28:09.490
+17   1:43.765     29:53.255
+18   1:42.113     31:35.368
+19   1:42.873     33:18.241
+20   2:05.660     35:23.901
+21   1:47.613     37:11.514
+22   1:39.940     38:51.454
+23   1:44.822     40:36.276
+24   1:42.019     42:18.295
+25   1:44.774     44:03.069
+26   1:43.231     45:46.300
+27   1:43.716     47:30.016
+28   1:44.212     49:14.228
+29   1:45.020     50:59.248
+30   1:44.461     52:43.709
+
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts  (TS3)
+
+Spring Rate     3.1   3.1
+Ride Height     90    100  (min, nq min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               6
+        1st       3.500
+        2nd       1.961
+        3rd       1.322
+        4th       1.000
+        5th       0.838
+                  -----
+        FD        3.300
+
+Aero           0.49  0.72  (max,max)
+
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

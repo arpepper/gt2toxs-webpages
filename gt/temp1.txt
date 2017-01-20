@@ -1,0 +1,16 @@
+
+gt2-game1: 129  VectorM12   Apricot200   1st             blueLanciaStratos
+gt2-game1: 157  Griffith500  Apricot200 1st whiteWblueStripes[R]ViperGTS-R
+gt2-game1: 230  redImprezaWG  Apricot200 1st whiteWgreenStripes[R]ViperGTS-R
+gt2-game1: 263  redImprezaWG  Apricot200  1st i           redLanciaStratos
+gt2-game1: 266  redImprezaWG  Apricot200  1st           greenLanciaStratos
+gt2-game1: 396  Phaeton   Apricot200  1st   whiteWblueStripes[R]ViperGTS-R
+gt2-game1: 414  [R]Mini      Apricot200     1st           redLanciaStratos
+gt2-game1: 420  [R]Mini  Apricot200  1st   whiteWgreenStripes[R]ViperGTS-R
+gt2-game1: 421  [R]Mini  Apricot200  1st   whiteWgreenStripes[R]ViperGTS-R
+gt2-game1: 428  stockMinesEvoV  Apricot200  1st           redLanciaStratos
+gt2-game1: 429  stockMinesEvoV  Apricot200  1st         greenLanciaStratos
+gt2-game1: 506  RX7GTC          Apricot200  1st         greenLanciaStratos
+gt2-game1: 686  [R]Silhouette   Apricot200  1st      DarkBlueLanciaStratos
+gt2-tm30:  13   Mine'sEvoV  Apricot200 1st whiteWgreenStripes[R]ViperGTS-R
+gt2-v1.2:  71   R390road        Apricot200  1st      DarkBlueLanciaStratos

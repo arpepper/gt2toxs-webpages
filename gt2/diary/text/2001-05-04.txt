@@ -1,0 +1,177 @@
+Friday May 04, 2001
+
+tuned prize Supra RZ wins SSR11 All-Night II in Fiji game
+
+Threads:
+  All-Night II Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+  Gameplay Hints
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fiji">fiji</a> game
+(Maybe <a href="../logs/fiji.txt">here</a>)
+I won the Supra RZ from the <b>Mega Speed Cup</b>, so
+I tuned it and used it in the All-nightII Race.
+</CODES>
+
+It won the All-nightII, and this time I seemed to be able to make it
+go reasonably quickly, although my time was still only intermediate
+for this event.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   Game: fiji
+   Day: 82
+   Date: May 04, 2001
+   Car: tuned prize orange Toyota Supra RZ
+
+   Race: SSR11 All-Night II  Endurance Race
+   Qualified: 1st 2:00.184new  Cr20,000
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: silver NISMO GT-R LM
+
+   Results:
+
+   1st:* Supra RZ               56:06.154<--new fiji time, intermediate
+   2nd:  FDRX7 TypeRZ            +182.570  (59:08.724) 1 lap
+   3rd:  Supra RZ                +186.982  (59:13.136) 1 lap
+   4th:  NSX'93                  +189.510  (59:15.664) 1 lap
+   5th:  Lancer EvoIII GSR       +210.373  (59:36.527) 1 lap
+   6th:  R33GT-R Vspec           +234.957  (60:01.111) 2 laps
+
+   Pits: 8,16,23
+   fl(26): 1:43.772new
+
+   lap 1   1:58.068
+   slowest  non-pit   (22)  1:53.414
+             next     (30)  1:52.892
+   fastest pit laps   (23in)  1:52.295
+                      (24out) 2:08.485
+   slowest pit laps   (16in)  1:59.866
+                      (17out) 2:21.486
+
+</pre></font></tt>
+</HTML>
+
+I had a good start and got away to a good lead initially, but then
+I snagged myself on the central chicane and lost several places.
+I still managed to regain the lead by the end of the first lap, however,
+and never lost it from then on.
+
+I had lapped a couple of cars by my second stop, but had a disastrous
+stop.
+My entry lap was not great, and I ran into the wall on the way out, losing
+at least 10 seconds.
+
+By the third lap I had just lapped the field, although I had to pass several
+of them again after my stop.  (One car, however, did pull into the pits
+right behind me).
+
+My final shift was very good, as I had my best pit laps and set my fastest
+lap time on lap 26.
+
+I had quite a few slight mishaps (snagging myself on the wall) in this race,
+but no disastrous time-consuming spin-outs.
+
+My time was significantly better than a previous attempt with this car
+(in the hastings game), and perhaps notably almost identical to the
+time I did once with the Lancer Evolution IV GSR.
+
+My time was also a lot better than my recent run with the 1995 Supra RZ.
+I think the extra downforce on this car makes it a little easier to control
+as the tires wear than the Supra '95 RZ is.
+
+I won Cr150,000, and the silver Nismo GT-R LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:58.068      1:58.068
+ 2   1:45.970      3:44.038
+ 3   1:46.821      5:30.859
+ 4   1:49.646      7:20.505
+ 5   1:50.765      9:11.270
+ 6   1:49.639     11:00.909
+ 7   1:52.475     12:53.384
+ 8   1:55.567     14:48.951
+ 9   2:10.120     16:59.071
+10   1:46.436     18:45.507
+11   1:47.959     20:33.466
+12   1:46.939     22:20.405
+13   1:45.899     24:06.304
+14   1:52.017     25:58.321
+15   1:48.707     27:47.028
+16   1:59.866     29:46.894
+17   2:21.486     32:08.380
+18   1:47.853     33:56.233
+19   1:47.413     35:43.646
+20   1:46.867     37:30.513
+21   1:51.864     39:22.377
+22   1:53.414     41:15.791
+23   1:52.295     43:08.086
+24   2:08.485     45:16.571
+25   1:45.398     47:01.969
+26   1:43.772     48:45.741
+27   1:49.149     50:34.890
+28   1:46.579     52:21.469
+29   1:51.793     54:13.262
+30   1:52.892     56:06.154
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are my settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+           My Settings
+
+
+Tires            S     S
+    all parts maxed (TS4)
+
+Spring Rate    11.0   5.6
+Ride Height      88    92
+Dampers          4     4
+Camber          2.1   2.6
+Stabilizers      3     2
+Brake Balance   12     9
+Turbo               7
+        1st       4.400
+        2nd       2.300
+        3rd       1.478
+        4th       1.102
+        5th       0.898
+        6th       0.780
+                  -----
+        FD        3.350
+
+Aero    (0.17,0.28)  (stock)
+
+</pre></font></tt>
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

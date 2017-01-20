@@ -1,0 +1,116 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.03.03.17.02.39;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.03.03.17.00.52;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Oops.  Forgot to thread in Gran Turismo 2 originally...
+@
+
+
+1.2
+log
+@Added Gran Turismo 2 thread.
+@
+text
+@Thursday December 16, 1999
+
+I Lost My Skill, on Apricot Hill
+
+Threads:
+  Gran Turismo 2
+  Game Evaluation
+  Gameplay Hints
+  License Test Progress
+
+My wife phoned today to say that Electonics Boutique phoned and left
+a message saying that the evil item I requested has arrived, and will
+be held till Saturday if I phone back.
+
+She had it wrong, actually.   I had to phone if I wanted it held
+any longer than Saturday.  Hmm. Let's see.  Two weeks from next Tuesday
+might be about right...
+
+Hee.  Hee.  Special trip to Fairview Mall to pick it up tonight.
+
+I used to think that
+the "Greatest Hits" version of Gran
+Turismo would likely to be complex enough for young children, although the
+"this is old stuff" peer pressure may cause them to ignore the game.
+There is *so* much to Gran Turismo 2 that you could spend the rest of
+your life playing it and not touch it all...   And I've been playing
+Gran Turismo 1 too much for almost exactly a year, and still haven't
+exhaused it.
+
+But <html><a name="fromstar">I</a></html> sort of take that back.  Gran Turismo 2 is probably better for
+youngsters because the license tests (even though there's a lot more of
+them) are doubly easier to learn.  The minimum standards seem lower.
+It seems you pass when you reach the proficiency which in Gran Turismo
+would mean you were close enough to begin working off the last
+half-second or so.<html><a href="#star">[*]</a></html>
+And on top of that, if you come too close too
+many times, you get some sort of (undocumented) "Kiddie's Award" that
+might be sufficient for considering the test passed.  I don't know; the
+people I know who had got these (  8-) ) always kept going and replaced
+them with a proper "bronze".  And in GT1 there were full-lap time
+trials for license tests; there are none such in GT2.  Two laps of a
+skid-pad, yes, but no laps of road courses.  There's a quite nice
+slalom test, and I'm surprised how much fun I found the rally course
+tests.  And climbing the bottom of Pike's Peak in a huge wing with a
+tiny Suzuki attached to it!  Wow!
+
+Besides that, you really do get two (2) two games in one!  It comes
+with two disks, one Arcade and one Simulation, and these could be
+used on different PlayStations at the same time.
+
+I may now just never finish my latest game, playing with Nismo
+400R, in a game in <html><a href="logs/">logs</a></html> which
+I call <html><a href="logs/nismo">nismo</a></html>.
+
+
+<HTML>
+<ul>
+</HTML>
+
+<html><a name="star" href="#fromstar">[*]</a></html>I'm reasonably unco-ordinated, with relatively poor reactions, and
+a creature of habit who learns old things thoroughly and new things
+slowly, but I passed 48/50 GT2 license tests tonight (early morning),
+meaning I've got 4 of 5 possible licenses already, and none of the
+tests use the old courses (excepting the drag race ones).
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d6 1
+@

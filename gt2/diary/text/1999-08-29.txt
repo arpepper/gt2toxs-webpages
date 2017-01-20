@@ -1,0 +1,92 @@
+Sunday August 29, 1999
+
+Castrol Supra GT Improves Time only Slightly at the Grand Valley 300
+
+Threads:
+  Special Model Information
+  Grand Valley 300 Results
+  Race Results
+
+
+Well, although it seemed to live up to its reputation the first time
+I tried it, the Toyota Castrol Supra GT did not improve itst
+time anything like as much as the other cars did.
+
+Prior to running the Grand Valley 300, but not immediately before
+it, I used this car to win the GT-I Cup 46 to 36, coming 2nd
+at Trial Mountain to the GTO twinturbo, and 3rd at Deep Forest.
+
+Thread:  Used Car Patterns
+
+Note that my game is once again at an even multiple of 600 days,
+and, sure enough, the used car stock is the same as on day 1.
+
+   "real game" day 4205
+   Sunday August 29, 1999
+   [R]Toyota Castrol Supra GT (special edition)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:41.950not     Cr20,000
+
+   Results:
+
+   1st  [R]Castrol Supra GT    1-37:58.1<--
+   2nd  [R]NSX-R LM GT2         +245.389   (1-42:03.5)
+   3rd  [R]GTO twinturbo        +250.006   (1-42:08.1)
+   4th  [R]Castrol Supra GT     +257.548   (1-42:15.6)
+   5th  [R]Primera'90 2.0Te     +348.242   (1-43:46.3)
+   6th  [R]Lantis TypeR         +615.928   (1-48:14.0)
+   
+   lap 1   1:42.432
+   pits   8,17,25,34,43,51
+   fl  (45)  1:32.945
+   slowest  non-pit    (7)  1:39.373
+             next     (42)  1:37.899
+   fastest pit laps   (34in)  1:50.718
+                      (44out) 1:40.994
+   slowest pit laps   (25in)  1:54.802
+                       (9out) 1:43.493
+
+I got the lead by the end of the first lap, and, even with my early
+pit-stop strategy, never lost it.  I used lots of pit stops to see
+if that could make up for relatively heavy tire wear, coupled with
+handling unusually sensitive to that wear.
+
+The field was relatively strong, and I didn't lap the last-place
+car until lap 12.  I lapped the field at lap 29, and it stuck.
+
+Several times I had chosen between an 8 or 9 lap shift to avoid
+traffic.
+
+At lap 51, I was coming up on very heavy traffic, so chose the
+early option, instead of waiting until lap 52.  So then I finally
+lapped the entire field twice by about lap 54.
+
+The first three AI cars (including another Castrol Supra--whee!)
+were in a close race throughout the whole race.
+
+I had no major disasters, but a few minor ones.
+
+Most laps were 1:34's and 1:35's, only one 1:32.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+This car is powerful, and relatively predicatable, but has a tendency
+to lose control slightly, resulting in lost speed.
+
+I was disappointed with my result; unlike the three minute or so
+improvement other cars realized, this one only improved its old time by
+about 1:20 (and that had been with only 4 pit stops).
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

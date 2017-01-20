@@ -1,0 +1,118 @@
+Tue Oct 26, 1999
+
+Playing and logging some alternate "fast" games
+
+Threads:
+  Gameplay Hints
+  License Test Progress
+  Tuning Advice
+  Used Car Information
+  Used Car Patterns
+
+<HTML>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+In the directory <a href="logs">logs</a> I keep several text file
+which are detailed logs of various games.  <a href="logs/blue">
+logs/blue</a> is a game in which, perhaps foolishly, I collected
+all the race prize cars as quickly as I was able to.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+For the last several days I played a game of Gran Turismo in which
+I honestly collected all the gold race cups in 132 simulation days.
+The only event I entered twice was the Sunday Cup.  I have a text
+file which is a detailed log of it in <a href="logs/silver">logs/silver</a>.
+The results of
+that game led me to thinking that it must be possible to win all
+the gold race cups without entering any event twice.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+So I am now embarking on a strategy, the detailed results of which
+will be kept in <a href="logs/gold">logs/gold</a>, to legitimately
+create a game card of day 101 with all the gold race cups acquired.
+This requires me to pass all my license tests in one try, and enter
+no event more than once.  Needless to say, it is necessary to
+make use of the "reload" feature to accomplish this.
+</p></font></td></tr></table>
+</HTML>
+
+However, leaving aside arranging to pass license tests in one day,
+this task is otherwise fairly do-able for me.  By reloading the
+game, I got my A license by day 17, and then began racing.  Between
+days 10 and 19 I purchase the captiva blue pearl Civic 3dr'93si for
+Cr8,870.  As with most cars, I can easily win the Sunday Cup with
+this.  In fact, I would advise reloading the game if you do not get the
+pole for the Autumn Ring Mini.
+
+After sweeping the Sunday Cup with one pole, you can use most of the
+money to tune the Civic as detailed in the log.  Using semi-racing
+tires is a good way to save money.  You can then enter the FF or
+Clubman Series as you prefer, and win that (the Lightweight tends to be
+a little harder, and should be saved for later).  After winning one of
+those, tune the Civic some more, being careful to keep enough so that
+after finishing these four series you have the Cr68,800 necessary to
+purchase a Viper RT/10.  You can also consider selling the initial
+Civic, and/or some of your prize cars, but you shouldn't have to and
+it won't make much difference.
+
+After getting the Viper RT/10, you win the Normal Series--that should
+be on day 39.  Day 39 is the last day for a while that a GTO'95MR
+is available, so snap one up and max-tune (weight reduction, but no
+racing modification) it with all the Normal Series winnings.  This is
+probably the last car you need to buy.  So now you can get your IA
+license in 8 days, or go racing, as you prefer.  The GTO'95MR can make
+mince-meat of the GT Cup, and the 4wd series, but it is probably also
+the best bet to win the All-Night I.  The GTO'95MR is also better for
+winning the vsJP series than the other alternative--the Chaser LM.
+
+But my strategy for winning the vsJP series would be first get the
+IA license and then win the All-night I (yes, I) with the tuned
+GTO'95MR.  It can be done fairly easily.  Then, take the nice Silvia
+LM you win for that and win the Grand Valley 300.  I find that Silvia
+one of the most pleasant cars to drive in that race; it is easy on
+tires and does not suffer too much when its tires do get worn.  That
+gets you a pile of money (which you don't really need) and Castrol
+Supra GT to win the vsJP Series with, although you need to be careful
+to keep it pointing in the right direction.  So, as I said, you might
+prefer to just use the tuned GTO'95MR to win those two Series.
+Hopefully you win either a Viper or a Cerbera with which to win the
+UKvsUS Series.  If not, you have enough money to buy and tune any
+of the Vipers or TVRs.  Depending upon your preferences, you could
+race-modify the Viper you used for the Normal, but I prefer to
+keep a car capable of winning each series.  The GTO'95MR can clean up
+the Mega, the All-nightII, and the Tuned Series, and your favourite of
+the LM prize cars you win can win the the GT-I Cup.
+
+Sometime you should win the FR series with the Viper (it can be easily
+done stock)--if you do it before the Normal Series, however, you might
+not be able to get a GTO'95MR.  (But with a probable Cr25,000 to
+Cr29,500 for the FR series, plus the change you probably have,
+you will probably get the approximately Cr29,000 from it, so it might
+be worth the risk).
+
+An alternate strategy would be to use the Normal Series prize in place
+of the GTO'95MR.  The Supra should be able to win all the same events
+as the GTO, but is not eligible for the 4wd event, which then becomes
+problematic.  (The FTO LM, if won, could enter, but some would consider
+that cheating).  The Impreza can easily win the 4wd event, but I'm not
+sure how it would do at the All-nightI or even the Tuned Series.
+
+Another alternate strategy would involve trying a Corvette (the
+cheaper one) in the Normal Series instead of a Viper.  I'm not sure
+how that would work out.  Before trying a game like that, I first
+have to try out the Corvette in the Normal Series.   8-)
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

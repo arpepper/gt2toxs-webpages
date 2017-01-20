@@ -1,0 +1,104 @@
+Thu Feb 11, 1999
+
+PlayStation Cooling, Feet, and trying from Day 1 again...
+
+Threads:
+  Hardware Hints
+  Children
+
+The principal thing I did last night was make some replacement feet
+for my PlayStation.  I cut them out of a tallish cylindrical 500ml
+shampoo bottle made of opaque #2 recyclable plastic.  My workmanship
+wasn't great; I used a hacksaw, and it was difficult to get a
+precise initial purchase and then after you had a start the bottle
+was too flexible to easily cut accurately.  A hot knife plus a pair
+of sharpish utility scissors might have been better.  They support
+the weight alright, but I think the result is somewhat less stable
+than the pieces of toilet roll were.
+
+What is needed, actually, is something to make it impossible to pull
+the PlayStation forward by tugging on the controller wires.
+
+After making the feet I decided to play Simulation Mode from Day 1
+again.  (Not permanently, just as a temporary experiment!)  Initially,
+there is an MA70 Supra available for less than Cr7000.  If you snap
+that up, you can also afford weight reduction 1, and hard stabilizers
+with the initial Cr10000.
+
+For a while I just abandoned race entries to use up one day at a time
+so I could check how dealers' used stock varied with the day.  In
+particular I was curious about the fact that someone claimed to have
+seen a '67 Corvette at the Chevy dealer.  All-in-all, I expect they
+were mistaken, though.  People who compile lists of available cars
+presumably cycle through all possible combinations with a Game Shark
+and would know whether a '67 Corvette could possibly be had in
+simulation mode.
+
+Nonetheless, I certainly did observe that in the first few days of the
+game the game's claim that you must "check back frequently since dealer
+stock varies" is certainly true.  One day when I checked there was not
+even a red MA70 to be had.  8-(  But it came back a few days later.
+8-)  A few days in there is an MA70 for less than Cr6000, so one could
+argue you should start doing license tests and check back until that
+car appears, buy it and perhaps even add turbo spec 1 (Cr4000) rather
+than the other mods.  But for a good player it's not worth buying any
+mods to your first car.  You can win the Sunday Cup with a used MA70
+"straight out of the box" and quite quickly get enough money to start
+real racing.  It seems to me that as your saved game gets more "mature"
+(my "real" game is at 1300+ days now), the stock seems to vary less.
+[Later I realized my observations here were inaccurate; I'm not
+sure what happened to give me the impressions].
+
+Thread: Children
+
+On the other hand, this means of user-controlled handicapping is
+excellent when users are learning the game.  Initially, every race is a
+struggle; it is a relief that you are guaranteed Cr100 every time.  So
+being able to buy your way to easy(er) victory by adding parts to give
+your car an unfair advantage is a nice playability feature.  It might
+even make the game suitable for children.  (Not meaning by that "less
+suitable for adults"; I really cannot tell what the intended target age
+of the Gran Turismo market was).
+
+But gee, in my replays I still seem to have 2nd place Autumn Ring
+Spot Race finish.  At the time it felt like an accomplishment.
+The game presents a certain class of user with a lot to learn, but
+gives them the means to learn most of it.
+
+Eventually last night I decided to actually try a race instead of
+abandoning it.  Then I had a shock, for I had forgotten to reconfigure
+my controller.  I decided to see how long it would take me to win with
+the default controller configuration.  It took me about four races,
+which was certainly a lot fewer races than I had needed when I first
+started playing.
+
+Thread: Gameplay Hints
+
+The custom controller configuration I use is:
+
+    steering    - left joy
+    accelerator - right joy forward
+    brake       - right joy back
+    shift up    - R1
+    shift down  - R2
+    handbrake   - L1
+    rear view   - L2
+    change view - triangle
+    reverse     - square
+
+This leaves X and circle free, so I have a digital mapping which is
+identical but using X for accelerator and circle for brake.  The main
+problem with this configuration is that I have a tendency to hit the
+handbrake when going for "rear view".
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

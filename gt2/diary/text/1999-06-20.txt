@@ -1,0 +1,73 @@
+Sun Jun 20, 1999
+
+[R]R32SkylineGT-R'89 Respectably Wins SSR11 All-Night I
+
+Threads:
+  All-Night I Results
+
+I started another game ("blue" game, after the colour of its memory card).
+I'm trying to use what I've learned to quickly get all prize cars, but
+am not really having all that much luck.  8-(
+
+Anyway, as a diversion from the frustration of entering multiple
+International races, only to get duplicate prize cars, I entered
+the [R]R32SkylineGT-R'89 in the SSR11 All-Night I.  Note that
+the records are for the new game.  This run with this car was
+about 30 seconds slower than the GTO'95MR, but I wasn't in best
+form and think I could do better.
+
+I didn't bother with practice runs, or analysing tire wear, but
+tentatively went with the 8,16,23 strategy.  I would have changed
+it only if wear was obviously much more or much less.
+
+
+   blue day 266
+   June 20, 1999
+   [R]R32SkylineGT-R'89
+   SSR11 All-Night I
+
+   q1st 1:50.159rec     Cr20,000
+
+   Results:
+
+   1st  [R]R32GT-R'89        53:41.969<--(blue record)
+   2nd  [R]GTOtwinturbo       +208.248  (57:10.217)
+   3rd  [R]NSX-R LM GT2       +231.174
+   4th  [R]PRIMERA'90 2.0te   +248.007
+   5th  [R]IMPREZA RLY Ed     +288.698
+   6th  [R]CELICA GT-FOUR     +294.573
+   
+   pits   8,16,23
+   lap 1   1:48.499
+   fl  (19)  1:40.764rec
+   slowest  non-pit   (25)  1:52.197
+             next      (2)  1:48.265
+   fastest pit laps   (23in)  2:02.753
+                      (17out) 1:42.943
+   slowest pit laps   (16in)  2:29.869
+                      (24out) 1:47.485
+
+I led from stat to finish, lapping all but one car twice.  I
+lapped the first car on lap 12, and lapped some just before
+my second pit stop, meaning I had to re-pass them.
+
+I had a couple of minor disasters, and it does take a while to
+recover this car on this course, particularly because of the turbo.
+
+As you can see, this was a very fast field, with lots of depth, 
+and no real "slow-pokes".  (Lancer, Accord, etc)
+
+I won Cr150,000, and a red Silvia LM.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

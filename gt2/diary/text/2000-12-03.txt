@@ -1,0 +1,147 @@
+Sunday December 03, 2000
+
+
+(GT1 Version 1.1)  Deep Forest Racing Way Spot Race Parameters, Primarily for GameShark Use
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+<CODES>
+Continuing to list, one event per day, all the tables
+I tracked down in Simulation Race mode, here are the
+parameters for the <b>Deep Forest Racing Way Spot Race</b>.
+</CODES>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+Deep Forest Spot Event (8008F694)
+</th></tr>
+<tr><td>&nbsp;</td><td>tracks</td><td>&nbsp;80090E94</td></tr>
+<tr><td>&nbsp;</td><td>prizemoney</td><td>&nbsp;80091190</td></tr>
+<tr><td>&nbsp;</td><td>poletimes</td><td>&nbsp;8008F540</td></tr>
+<tr><td>&nbsp;</td><td>entrants</td><td>&nbsp;800908D4 (same as Autumn Mini 8-) )</td></tr>
+<tr><td>&nbsp;</td><td>prizecars</td><td>&nbsp;0</td></tr>
+<tr><td>&nbsp;</td><td>laps</td><td>&nbsp;2</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+tracks
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">80090E94 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C6D4</td><td>&nbsp;"test_in2"&nbsp;</td><td>Deep Forest</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0" width="100%">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="3">
+prizemoney
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="2" align="left">80091190 -></td></tr>
+<tr><td colspan="2" width="10%">&nbsp;</td><td>(q500, 1st1000, champ0)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+entrants
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">800908D4 -> (same as Autumn Mini 8-) )  (45!)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4C8</td><td>&nbsp;"hcvon"&nbsp;</td><td>Civic'93 3door Si</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4C0</td><td>&nbsp;"nm32n"&nbsp;</td><td>Skyline GTS25 TypeS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4B8</td><td>&nbsp;"mftgn"&nbsp;</td><td>FTO GR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4B0</td><td>&nbsp;"texvn"&nbsp;</td><td>Corona Exiv 200GT</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4A8</td><td>&nbsp;"tceln"&nbsp;</td><td>Celica SS-II</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C4A0</td><td>&nbsp;"mftrn"&nbsp;</td><td>FTO'94 GR</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C498</td><td>&nbsp;"hpren"&nbsp;</td><td>Prelude'93 Si</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C490</td><td>&nbsp;"mmgon"&nbsp;</td><td>Mirage'92 Cyborg-R</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C488</td><td>&nbsp;"hcrxn"&nbsp;</td><td>Civic'91 CR-X Si</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C480</td><td>&nbsp;"hcvrn"&nbsp;</td><td>Civic(Racer)</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C478</td><td>&nbsp;"nq14n"&nbsp;</td><td>Silvia'95 Q's Aero</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C470</td><td>&nbsp;"nq15n"&nbsp;</td><td>Silvia Q's Aero (S14)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C468</td><td>&nbsp;"hacsn"&nbsp;</td><td>Accord Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C460</td><td>&nbsp;"nprin"&nbsp;</td><td>Primera'95 2.0Te</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C458</td><td>&nbsp;"mmgrn"&nbsp;</td><td>Mirage Asti RX</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C450</td><td>&nbsp;"hdesn"&nbsp;</td><td>del Sol SiR (hidden)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C448</td><td>&nbsp;"arodn"&nbsp;</td><td>Roadster'98 RS (hidden)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C440</td><td>&nbsp;"aminn"&nbsp;</td><td>Eunos Roadster</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C438</td><td>&nbsp;"amisn"&nbsp;</td><td>Eunos Roadster S Special</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C430</td><td>&nbsp;"altsn"&nbsp;</td><td>Lantis Type R 4 door</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C428</td><td>&nbsp;"npron"&nbsp;</td><td>Primera'90 2.0Te</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C420</td><td>&nbsp;"amivn"&nbsp;</td><td>Eunos Roadster V Special</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C418</td><td>&nbsp;"tlevn"&nbsp;</td><td>Corolla Levin BZ-G</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C410</td><td>&nbsp;"hcfon"&nbsp;</td><td>Civic'93 Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C408</td><td>&nbsp;"tstln"&nbsp;</td><td>Starlet Glanza V</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C400</td><td>&nbsp;"ttrnn"&nbsp;</td><td>Trueno BZ-G</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3F8</td><td>&nbsp;"amian"&nbsp;</td><td>Eunos Roadster, used, no colour names</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3F0</td><td>&nbsp;"tlvon"&nbsp;</td><td>Corolla Levin GT-Apex</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3E8</td><td>&nbsp;"ttron"&nbsp;</td><td>Trueno GT-Apex</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3E0</td><td>&nbsp;"hdern"&nbsp;</td><td>del Sol'93 Si</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D8</td><td>&nbsp;"hcvnn"&nbsp;</td><td>Civic 3 door</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3D0</td><td>&nbsp;"nq23n"&nbsp;</td><td>Silvia'91 Q's 2000cc</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3C8</td><td>&nbsp;"hcfnn"&nbsp;</td><td>Civic Sedan</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3C0</td><td>&nbsp;"hdegn"&nbsp;</td><td>del Sol VGI (hidden)</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3B8</td><td>&nbsp;"mgagn"&nbsp;</td><td>Galant VR-G Touring</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3B0</td><td>&nbsp;"n18sn"&nbsp;</td><td>180SX TypeS</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3A8</td><td>&nbsp;"nq13n"&nbsp;</td><td>Silvia'88 Q's 1800cc</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C3A0</td><td>&nbsp;"hacwn"&nbsp;</td><td>Accord Wagon</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C398</td><td>&nbsp;"an16n"&nbsp;</td><td>Eunos Roadster'89 1600</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C390</td><td>&nbsp;"as16n"&nbsp;</td><td>Eunos Roadster'92 1600 S Special</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C388</td><td>&nbsp;"av16n"&nbsp;</td><td>Eunos Roadster'90 1600 V Special</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C380</td><td>&nbsp;"hdeln"&nbsp;</td><td>del Sol'93 S</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C378</td><td>&nbsp;"ademn"&nbsp;</td><td>Demio GL-X</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C370</td><td>&nbsp;"adgln"&nbsp;</td><td>Demio GL</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>8008C368</td><td>&nbsp;"adlxn"&nbsp;</td><td>Demio LX</td></tr>
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+prizecars
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">0 (none)</td></tr>
+</table>
+
+</HTML>
+
+<HTML INDENT>
+
+<table border="0" cellpadding="0">
+<tr><td width="5%">&nbsp;</td><td width="5%">&nbsp;</td><td width="10%">&nbsp;</td><td width="20%">&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th align="left" colspan="5">
+poletimes
+</th></tr>
+<tr><td>&nbsp;</td><td colspan="4" align="left">8008F540 -></td></tr>
+<tr><td colspan="2">&nbsp;</td><td>0001733F</td><td>&nbsp;1:35.039&nbsp;</td><td></td></tr>
+</table>
+
+</HTML>
+
+
+===============================================================================

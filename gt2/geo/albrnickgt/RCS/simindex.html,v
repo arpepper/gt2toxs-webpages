@@ -1,0 +1,159 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2003.08.11.00.13.45;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.11.00.12.37;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.04.08.00.50.03;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.04.08.00.49.12;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.07.04.23.20;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Originally simulation/index.html
+@
+
+
+1.5
+log
+@Oops.  Corrected Races => Tracks
+@
+text
+@<HTML>
+
+<HEAD>
+<TITLE> The Gran Turismo Pit Stop - Simulation</TITLE>
+<LINK REV="made" HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+</HEAD>
+
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+
+<CENTER>
+<H1> 
+The Gran Turismo Pit Stop<BR>
+Simulation
+</H1>
+<H3>
+</H3>
+</CENTER>
+<P>
+
+Please select from the following sections:
+<DL>
+  <DT><A HREF="cars/">Cars</A></DT>
+    <DD>All the cars available and their stats.</DD>
+  <DT><A HREF="races/">Races</A></DT>
+    <DD>All the races, and their stats.</DD>
+  <DT><A HREF="tracks/">Tracks</A></DT>
+    <DD>All the tracks, complete with diagrams.</DD>
+  <DT><A HREF="licenses/">Licenses</A></DT>
+    <DD>Hints and tips, as well as stats for the licenses</DD>
+  <DT><A HREF="modifications/">Modifications, Tuning & Terminology</A></DT>
+    <DD>What the various modifications actually mean, and defining some of the terms used.</DD>
+</DL>
+
+
+<P><BR>
+
+
+
+<HR>
+<!-- HHMTS START -->
+Last modified: Sun Aug 10 20:11:46 EDT 2003
+<!-- HHMTS END -->
+<P>
+Original author: <B><I>albrnick</I></B>
+</P>
+
+</BODY>
+
+</HTML>
+@
+
+
+1.4
+log
+@Added link to tracks, and finally corrected "following" spelling mistake.
+@
+text
+@d27 1
+a27 1
+  <DT><A HREF="tracks/">Races</A></DT>
+@
+
+
+1.3
+log
+@Set date, for now.
+@
+text
+@d21 1
+a21 1
+Please select from the folowing sections:
+d27 2
+d42 1
+a42 1
+Last modified: Sun Apr  7 20:49:27 EDT 2002
+@
+
+
+1.2
+log
+@Removed cruft.
+@
+text
+@d40 1
+a40 1
+Last modified: Sat Apr  6 23:24:05 EST 2002
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a19 6
+<BR><BR><BR>
+I'm still looking to fill in much of this information.  If you have any 
+information that is not presented, please feel free to e-mail me at:
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu?Subject=GT Info">
+albrnick@@bobcat.ent.ohiou.edu</A>
+<P>
+a30 2
+  <DT><A HREF="best_times/">Best Times</A></DT>
+    <DD>Who has the best time, in which type of car, for which track? </DD>
+d40 1
+a40 1
+Last modified: Tue Jun 16 10:13:28 EDT 1998
+d43 2
+a44 5
+Send any comments or suggestions to: 
+<A HREF="mailto:albrnick@@bobcat.ent.ohiou.edu">
+<I>albrnick@@bobcat.ent.ohiou.edu</I>
+</A>
+
+@

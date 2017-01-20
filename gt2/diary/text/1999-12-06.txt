@@ -1,0 +1,138 @@
+Monday December 6, 1999
+
+Cerbera LM Does Reasonably Well in SSR11 All-Night I in Hastings Game
+
+Threads:
+  All-Night I Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+
+In the <html><a href="logs/hastings">hastings</a></html> game I
+decided to use the Cerbera LM to win the All-night I Event, and
+did a reasonably fast time, though not a Personal Best.
+
+   hastings day 79
+   December 06, 1999
+   grey and green [R]Cerbera LM (UKvsJP prize)
+   SSR11 All-Night I
+
+   q1st 1:46.563       Cr20,000
+
+   Results:
+
+   1st  [R]Cerbera LM           51:29.005<--new hastings time, pretty good
+   2nd  [R]GT-R LM               +360.963  (57:29.968)
+   3rd  [R]Impreza Rly Edition   +421.204  (58:30.209)
+   4th  [R]Celica GT-Four        +425.364  (58:34.369)
+   5th  [R]Lancer Evo IV GSR     +492.026  (59:41.031)
+   6th  [R]Accord Sedan          +528.546  (60:17.551)
+   
+   pits   8,16,23
+   lap 1   1:47.970
+   fl  (27) 1:37.711new
+   slowest  non-pit   (30)  1:44.362
+             next      (7)  1:42.432
+   fastest pit laps   (23in)  1:58.225
+                       (97out) 1:43.330
+   slowest pit laps   (16in)  2:02.899
+                      (17out) 1:46.297
+
+I led from start to finish again, in a fairly uneventful race.
+
+This was about a minute slower than the Concept Car, but I still lapped
+the field three times.
+
+I lapped the first car on lap 7, the second on lap 8, just before
+my first pit stop, but lapped the field by lap 11 or 12.
+
+I had lapped them all a second time before my 2nd pit stop, and finally
+lapped them all a third time by lap 28.
+
+I won Cr150,000, and the green Silvia LM.   8-)  The green one looks
+so much nicer than the red one.   8-)
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:47.970      1:47.970
+ 2   1:40.290      3:28.260
+ 3   1:39.496      5:07.756
+ 4   1:40.674      6:48.430
+ 5   1:41.327      8:29.757
+ 6   1:40.320     10:10.077
+ 7   1:42.432     11:52.509
+ 8   1:59.545     13:52.054
+ 9   1:43.330     15:35.384
+10   1:41.989     17:17.373
+11   1:40.339     18:57.712
+12   1:39.450     20:37.162
+13   1:38.457     22:15.619
+14   1:39.595     23:55.214
+15   1:42.135     25:37.349
+16   2:02.899     27:40.248
+17   1:46.297     29:26.545
+18   1:40.449     31:06.994
+19   1:39.492     32:46.486
+20   1:40.032     34:26.518
+21   1:39.544     36:06.062
+22   1:41.295     37:47.357
+23   1:58.225     39:45.582
+24   1:44.087     41:29.669
+25   1:38.777     43:08.446
+26   1:39.298     44:47.744
+27   1:37.711     46:25.455
+28   1:38.726     48:04.181
+29   1:40.462     49:44.643
+30   1:44.362     51:29.005
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+           My Settings
+
+Spring Rate     4.8   3.9
+Ride Height     85    85   (min,min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               0
+        1st       2.714
+        2nd       1.800
+        3rd       1.384
+        4th       1.088
+        5th       0.936
+        5th       0.822
+                  -----
+        FD        3.602
+
+Aero            0.76  0.96  (max,max)
+
+This gearing has the same range as stock, but is smoothed out a bit.
+Actually, the top three gears overlap so closely that it confuses
+the automatic shifting algorithm in the game...
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

@@ -1,0 +1,52 @@
+<b>Win a Hybrid Combination of the First Nine Cars in Your Garage</b>
+
+HYBRID-PRIZE1.0
+NTSC 1.0 (offset 0, garage FB8, tested, double-checked)
+
+<tt><font face="Courier"><pre>
+C21CCFB8 0008 -- slot #1, most things (car + colour) (1.0)
+101D502C 0000
+C21CCFC4 0008 -- slot #1, brakes,ctlr,L+W+H
+101D5038 0000
+C21CCFCE 0004 -- slot #1, drivetrain, transmission
+101D5042 0000
+C21CCFD4 0002 -- slot #1, differential
+101D5048 0000
+C21CCFFA 0018 -- slot #1, many settings
+101D506E 0000
+C21CD02E 002E -- slot #1, remainder to end
+101D50A2 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD070 0002 -- slot #2, engine
+101D5040 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD122 0002 -- slot #3, weight reduction
+101D504E 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD1C8 0002 -- slot #4, race modification
+101D5050 0000
+C21CD1FE 0002 -- slot #4, down force setting
+101D5086 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD26E 000A -- slot #5, engine mods
+101D5052 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD31C 0010 -- slot #6, turbo plus some running gear
+101D505C 0000
+C21CD348 0006 -- slot #6, turbo gauge and sound
+101D5088 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD3AA 0002 -- slot #7, suspension
+101D5046 0000
+C21CD3F2 0014 -- slot #7, suspension settings
+101D508E 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD452 0004 -- slot #8, F+R tires
+101D504A 0000
+</pre></font></tt><tt><font face="Courier"><pre>
+C21CD4E0 0004 -- slot #9, wheels (rims)
+101D5034 0000
+C21CD518 0002
+101D506C 0000
+</pre></font></tt>
+

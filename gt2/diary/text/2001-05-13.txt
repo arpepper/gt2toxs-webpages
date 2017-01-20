@@ -1,0 +1,104 @@
+Sunday May 13, 2001
+
+I Finished the Fiji Game; an Interesting Minimal Strategy
+
+Threads:
+  Car Information
+  Game Evaluation
+  Gameplay Hints
+  Prize Car Information
+  Prize Car Patterns
+  Tuning Advice
+  Used Car Patterns
+
+<CODES>
+
+I am finished the <font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font> 
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fiji">fiji</a> game
+(Maybe <a href="../logs/fiji.txt">here</a>)
+game which started with the Fiji
+Blue Mitsubishi GTO'92.  While I had stipulated to myself that I should
+sell no cars (this makes it harder to afford the necessary modifications),
+I wanted to buy only one additional car--an entry for the Normal Series,
+and still complete the game (get all gold cups) in just 100 days.
+
+The key to my strategy was using the prise <b>Demio</b> to win the FF, then the LightWeight, and then the Clubman.  I won one pole in the Sunday Cup with the GTO'92,
+
+So I made the following mods to the Demio
+<li>TS2, Rmuff, WR1, S/S sports tires  (Cr25,200)</li>
+
+It was upsetting having to waste the Cr7,000 on the sports tires which
+I would later upgrade, but it seemed a reasonably efficient strategy.
+(If I had won less money, I would have used H/H sports tires, but if I
+do that then I, personally, have a good chance of coming second in the
+Grand Valley East race of the FF series--costing me Cr3,000).
+
+I won the <b>FF</b> Series that way.  I got no poles, but won all races,
+so that was Cr25,000 winnings.
+
+Then I did:
+<li>WR2, S/S racing tires (Cr20,500)</li>
+
+That allowed me to win all races in the <b>LightWeight</b> series (no
+poles, Cr25,000).
+
+I won all races in the Clubman, (after a break to get my <b>A license</b>
+:) ) but got no poles and that was <b>Cr41,000</b> more winnings, for
+a balance of <b>Cr71,940</b>.  I could have bought a <b>Viper RT/10</b>
+at that point, but, instead, I did the following to the Camaro:
+[*] Sport Trans, H/H sports tires, WR1  (Cr12,500)
+I then won the <b>FR</b> series (no poles) for a net profit of Cr12,500,
+giving me a balance of <b>Cr84,440</b>.
+
+I wanted to buy the most expensive car I could which was capable (in my
+hands) of dominating the <b>Normal Series</b>.  A Cerbera was just out of
+reach at Cr84,800, so I bought a <b>Griffith 500</b> for <b>Cr83,200</b>.
+That won all poles and races in the <b>Normal Series</b>, giving me
+<b>Cr401,240</b>.  At that point, of course, the game is basically over.
+
+To conserve funds and avoid over-powering the competition too much,
+I tuned the <b>GTO'92</b> a little conservatively:
+<li>WR2, NA3, Rmuff, sports brakes, S/S racing slicks</li>
+<li>triple clutch, racing flywheel, carbon shaft, H/H stabilizers, computer</li>
+
+I would like to have made no permanent modifications, but found that
+without weight reduction (WR2 takes it from 3637lb (yikes) to 3090),
+this car is relatively sluggish.
+
+With that I won one pole (Grand Valley) and all races in the <b>4WD
+Series</b>, and won all but one race (but no poles) in the <b>GT Cup</b>
+(coming 3rd at <b>DFRW</b>).  So now I had the <b>Chaser LM</b>.
+
+I won the <b>USvsJP</b> and <b>UKvsJP</b> with the <b>Chaser LM</b>
+(missing two poles in the first series).  Unfortunately I won neither
+the <b>Viper GTS-R</b> nor the <b>Cerbera LM</b>, meaning I had to use
+the <b>Camaro</b> again for the <b>UKvsUS</b>.  (Tuning the <b>Supra
+RZ</b> I had won from the <b>Normal Series</b> won me the <b>Soarer</b>
+from the <b>Mega Speed Cup</b>, so I could not try the challenging
+<b>DB7</b>, either.  I actually cloned the <b>Camaro</b> so I could keep
+the lightly-tuned <b>FR</b> winner around.
+
+Once I got to that point, the game just needed to be played out.
+
+The prize Supra won the <b>All-Night II</b> and the <b>Abnormal</b> series.
+
+As a bit of a challenge, I used that [R]Camaro to win the <b>All-Night I</b>
+and the <b>Grand Valley 300</b>.
+
+And, since I'd never tried it before, I used the <b>Silvia LM</b> to win
+the <b>GT-I Cup</b>.
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

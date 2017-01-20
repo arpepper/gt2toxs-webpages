@@ -1,0 +1,3 @@
+#!/bin/csh -f
+./.dosome ` cat .new/*.html | grep href | grep '["/][12][0-9][0-9][0-9]-' | sed 's/[>].*//' | sed 's/"[^"]*$//' | sed 's/#.*//' | sed 's/.*[="]//' | sort -u  | sed 's/.html/.txt/'`
+

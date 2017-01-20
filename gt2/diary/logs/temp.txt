@@ -1,0 +1,39 @@
+Had a go at your codes. Went to Toyota who proved extremely uncooperative
+and somehow hid the first 2 cars on the first page from me(!!!!!!!!). Found
+the car code for the first car which did absolutely nothing. Gave up in
+disgust and went to Nissan who were much more cooperative. Found all eight
+slots for the cars. Needless to say it was not straightforward even then.
+The order of the cars was as follows:
+
+   1   2
+   4   3
+   5   6
+   8   7
+
+Toyota were in a different order again (the ones I found) although the
+addresses I found matched some of the Nissan ones. The addresses at Nissan
+were for 1 to 8:
+
+801c32d0
+801c331c
+801c3368
+801c33b4
+801c3400
+801c344c
+801c3498
+801c34e4
+
+The money code doesn't need anything special because it doesn't cause any
+problems if it is on all the time. Anyway here are the codes  for Nissan:
+
+D01c34e4 4758
+801c32d0 d758
+D01c34e4 4758
+801c32d2 120d
+
+For the Spoon S2000 in slot one. I was interested when testing each of the
+eight locations that the 1991 Celica GT-Four RC came in, amongst other
+colours, two very similar shades of red. (So what??!!!) Stats were fine by
+the way and I had no problem putting some different tyres on a Mine's R32.5
+Skyline GT-R.
+

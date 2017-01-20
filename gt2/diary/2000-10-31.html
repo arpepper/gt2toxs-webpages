@@ -1,0 +1,161 @@
+<html>
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+<title>
+Tuesday October 31, 2000
+ -- (GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Competitor Lists
+</title>
+</head>
+
+<body background="../../bitmaps/yblinedpaper.gif" link="red" vlink="brown" alink="red">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>My <img src="../../gifs/gtlogo.jpg" height="121" width="263" border="0" alt="Gran Turismo"> Diaries</h3>
+</font>
+<font color="white">
+<h4>A Lurid Tale of Obsession, Depravity, Wits and Attempted Wit</h4>
+</font>
+<font color="white">
+<h3>Tuesday October 31, 2000
+</h3>
+</font>
+<font color="white">
+<h4>(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Competitor Lists
+</h4>
+</font>
+</td>
+</table>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-10-30.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-11-01.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<a href="2000-10-30.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a name="Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-11-01.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-10-30.html#Gameplay_Hints">&lt;&lt;--</a>
+<a name="Gameplay_Hints">Gameplay Hints
+</a><a href="2000-11-03.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<font size=-1>
+<p>
+Copyright &copy; 1999,2000, the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+</font>
+<hr>
+<font face="Comic Sans MS">
+<h3>Tuesday October 31, 2000
+</h3>
+<h4>(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Competitor Lists
+</h4>
+</font>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+In Simulation Race mode, you can track down the competitors in
+the event structures.   Here is the Normal Series.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+   80090A48 -> 8008C228 -> "hnsnn" (Acura NSX TypeSzero)
+   80090A4C -> 8008C4D0 -> "t-rdn" (Toyota TRD3000GT)
+   80090A50 -> 8008C1F0 -> "siphn" (Subaru Impreza)
+   80090A54 -> 8008C1D0 -> "afa7n" (Mazda FD RX-7 Aspec)
+   80090A58 -> 8008C110 -> "nr34n" (Nissan R34 Skyline GT-R)
+   80090A5C -> 8008C178 -> "mlnnn" (Mitsubishi Lancer EvoIII GSR)
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Now you can't use the <b>GS Pro</b> memory editor to patch these
+because by then it is too late.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+But you can create a boot code to change some of those values.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+When you do that, it is easiest to change the pointers.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+For instance, I created a code.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><tt><font face="Courier"><pre>
+   D0090A48 C228
+   80090A48 C1D0
+   D0090A4C C4D0
+   80090A4C C1F0
+</pre></font></tt>
+</td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+This replaced the NSX with the FD RX-7, and the TRD 3000GT with the
+Subaru Impreza.  However, I'm such a rotten driver, I still lost again
+the resulting field (which included two RX-7's) when I entered a Lancer
+Evolution IV GSR.   <img src="../../bitmaps/sadfrog.gif" width="30" height="18" border="0" alt="8-(">   I won the first three races easily, but
+got completely destroyed on the third, coming sixth, and then finished
+third in the last race.  I first-lap accident put me behind, and I
+couldn't catch the two RX-7's, but I think I was falling behind them,
+and they finished further ahead of me than the accident itself would
+account for.
+</p></font></td></tr></table>
+<table width="85%"><tr><td width="10%"></td>
+<td><font face="Comic Sans MS"><p>
+Note that you cannot set entrant cars to be things which the game
+does not expect for that event.  If, for instance, you arrange
+that the NSX is replaced by a Viper GTS, you get a strange, 174
+bhp FF Viper GTS weighing about 1700 pounds.  A refugee from the
+FF or Lightweight Series, I think, as the game gets mixed up.  The
+wheels are the wrong size; the car looks sort of like a Honda CRX
+or something running around with a Viper body shell mounted on
+top of it!  <img src="../../bitmaps/happyfrog.gif" width="30" height="18" border="0" alt="8-)">
+</p></font></td></tr></table>
+<hr>
+<font size=-1 color="blue">
+<a href="2000-10-30.html#Game_Shark_Hints">&lt;&lt;--</a>
+<a href="#Game_Shark_Hints">Game Shark Hints
+</a><a href="2000-11-01.html#Game_Shark_Hints">--&gt;&gt;</a>
+<br>
+<a href="2000-10-30.html#Gameplay_Hints">&lt;&lt;--</a>
+<a href="#Gameplay_Hints">Gameplay Hints
+</a><a href="2000-11-03.html#Gameplay_Hints">--&gt;&gt;</a>
+<br>
+</font>
+<hr>
+<font size=-1 color="blue">
+<p>
+[<a href="2000-10-30.html">Previous Entry</a>&nbsp;]
+[<a href=index.html>Thread List</a>&nbsp;]
+[<a href="search.html">Search</a>&nbsp;]
+[<a href="logs/">game logs</a>&nbsp;]
+[<a href="2000-11-01.html">Next Entry</a>&nbsp;]
+[<a href=email.html>email</a>]
+[<a href=disclaimer.html>Disclaimers</a>]
+</p>
+<br>
+</font>
+<p>
+Copyright &copy; 1999,2000 the author/owner of the following ==>
+<a href="../..">page</a> &lt;==.</p>
+<font size=-2>
+<p>
+<a href=email.html>email</a>
+</p>
+<p>
+<a href=disclaimer.html>Disclaimers</a>
+</p>
+</font>
+</body>
+</html>

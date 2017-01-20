@@ -1,0 +1,81 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.04.21.03.28.14;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.04.21.03.17.49;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Added yahoo address.
+Fixed HTML bugs.  8-)
+Added some pleasant(?), identifying touches.
+@
+text
+@<html>
+<head>
+<title>
+GT2toXS - To contact author by email
+</title>
+</head>
+<body bgcolor="#B0FFC0" alink="blue" vlink="red">
+<hr>
+<table width="85%"><tr><td width="5%"></td><td>
+<h4>To contact author by email </h4>
+<p>
+To obtain the email address of the author, look at the URL of his
+home page.
+Take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.
+</p>
+<p>
+Or, you can take his yahoo/geocities ID from his www.geocities.com pages,
+and then append an at-sign and
+<b><em>y</em><em>a</em><em>h</em><em>o</em><em>o</em><em>.</em><em>c</em><em>a</em></b>  (Note: <em>not</em> <em><b>yahoo.com</b></em>).  He currently checks
+that address much less frequently, however.
+</p>
+<p>
+Personal email correspondence is invited;
+commercial solicitation is not.
+</p>
+</td></tr></table>
+<hr>
+</body>
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+To contact author by email
+d6 6
+a11 3
+<h4>To contact author by email
+</h4>
+<body><p>
+d16 10
+a25 1
+between the slashes.  Personal email correspondence is invited;
+d28 2
+@

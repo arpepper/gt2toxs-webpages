@@ -1,0 +1,86 @@
+Wednesday, December 06, 2000
+
+(Gran Turismo 1) Hints for Winning the Gold Medal for B-3
+
+Threads:
+  License Test Progress
+  Gameplay Hints
+
+I had reason to review my replay and formulate advice for this notorious
+licence test.
+
+<CODES>
+For all the time I've put into <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font> and
+<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">2</font>
+I'm only a passable driver.
+8-( But I feel that makes me qualified to describe technique to
+people for whom things do not come naturally.   8-)
+                                      
+It took me ages to find my B-gold replays last night, but eventually I
+did.
+                                      
+To demonstrate my level of persistence, here are my replay titles:
+</CODES>
+			      
+<HTML INDENT>
+<dl><dd>
+Nov 21/99 Hairy B4 Gold! (24.784)<br>
+Nov 27/99 B-3 Gold! (28.143)<br>
+Dec 02/99 B-5 Gold!!! (23.590)<br>
+</dd></dl>
+</HTML>
+   
+<CODES>
+That's playing almost every evening and a lot on weekends. Anyway, the
+description in the earlier posting pretty much describes my replay.
+Now, I used analog gas and brake all the time, with manual
+transmission mapped to R1 and R2. (In one <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">2</font> test with an
+underpowered car on a circle pad I did switch to digital throttle to
+get gold).
+                                      
+In general, it looked like I pinned the tach before the start (after a
+little "warming up" by alternating of revs--I really don't know if the
+game does "warm up" the engine or not). And I always shifted up after
+the redline. I downshifted almost immediately after beginning the
+turn, but did no powerslide, since the car has no power!
+                                      
+I barely touched the outside rumble strip on entrance to the turn (I
+believe the non-gold demo goes right up on it), and stayed just clear
+of the inside rumble-strip at the apex. I hit a peak speed of 87 mph
+before turning, which slowed me down, after which I quickly
+downshifted (at about 80mph). I used all the road on my gradual exit,
+and ran off the road after the finish line. My lowest speed through
+the corner was 63mph. I'm reasonably sure I used no brakes (no
+lights), but can't remember and the replays don't really reveal the
+extent to which I may have feathered the throttle while slowing down.
+                                      
+My actual shift points were:
+</CODES>
+                                      
+<HTML INDENT>
+<dl><dd>
+39mph (up)<br>
+67mph (up)<br>
+(peak speed of 87 mph)<br>
+80mph (down)<br>
+70mph (up)<br>
+(finish line speed was about 73mph)<br>
+</dd></dl><br>
+</HTML>
+   
+<CODES>
+Unlike with a powerful car, your racing line should be almost
+symmetric around the turn (apex in the center). (With a powerful car,
+you want to enter such a turn deep so that you can apex late and
+thereby have more time to accelerate (because of the flatter exit
+curve). It's debateable how much that would help even with a powerful
+car in this particular scenario, since the finishing straight might be
+too short to allow increased acceleration and speed to offset extra
+time spent in the corner).
+
+Oh yes. My biggest gold medal hint.
+                                      
+<font size="+2"><b>Turn the **** Music OFF!!!</b></font>  8-)
+</CODES>
+===============================================================================
+

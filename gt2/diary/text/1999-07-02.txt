@@ -1,0 +1,252 @@
+Fri Jul  2, 1999
+
+Detailed Description of AI in Gran Turismo
+
+Threads:
+  Game Evaluation
+
+Newsgroups: rec.autos.simulators
+
+Subject: (long) Detailed Description of AI in Gran Turismo
+
+People have expressed interest in Gran Turismo as a simulator, and some
+have indicated that the AI cars are reasonably good.  I suggested that,
+at lower levels, it is not so good because the cars try so hard to let
+you win.  I thought people might be interested in more detailed
+qualifications.
+
+First off, Gran Turismo has "Arcade Mode", and "Simulation Mode".
+Forget about Arcade Mode; it's useful for learning the general layout
+of some tracks, but not details (all bumps are exaggerated in Arcade
+Mode).  And the races are all two-laps, and the AI is of the pesky
+and bothersome variety.
+
+Now, in simulation mode, Gran Turismo makes you do a lot of work before
+you can race the races a simulator aficionado will consider "good".
+
+You must earn three "licenses"; B, A and IA, by passing a set of 8
+tests for each.  The IA tests actually take over a minute for each
+trial, because you must complete a whole lap, in an untuned car no
+less.  In addition, you must earn money (Credits) to be able to
+afford to buy cars and tune them.  You start with Cr10,000 which
+lets you buy used cars only.  A '93 Civic 3dr si is a good initial
+choice.  You then race the dreadful Sunday Cup a few times to get
+cash to improve it so you can win the Clubman or GT cup, and buy
+something better to enter other races where you can make real money.
+The series with the best remuneration is the "Normal" series, which
+simulator aficionados may hate because you can use only "untuned"
+cars in it.  A Dodge Viper does well here, but it's an hour or so's
+worth of well timed exaggerated slides to earn up to Cr400,000--about
+enough to build up a car good enough to enter the good races.
+Another approach it to take a really fast tuned car (or cheat and take
+a racing-model) to the fifteen-minute "MegaSpeed Challenge", and get
+close to Cr100,000 for fifteen minutes work.
+
+If you have a GameShark PlayStation, ahem, "enhancer", GameShark web
+sites will show you how to patch around all that, but an easier
+solution would be to obtain the Winter 1998 Playstation Underground
+Jampack CD which has a memory card download which gives you all three
+licenses, a garage full of interesting cars, and about Cr2,000,000,000
+of simulation money.  That turns the game from a sort of "role-playing
+driving game" into more of a pick-and-choose simulator.  The CD
+packaging for the Underground Jampack CD does not explicitly indicate
+the presence of the particular download.  If you have a friend who
+already has downloaded the CD, you can copy his memory card.  There
+might be a copy DexDrived to the Web somewhere, but I can't find it
+off-hand.
+
+The Gran Turismo Manual gives the following ratings for its various series:
+
+ From the Manual (but from memory)  facts           my semi-editorial comments
+         |--------------|            |                     |
+         V              V            V                     V
+Sunday Cup         - beginner      (3 2-lap races; granny's Pinto could win)
+Clubman Cup        - intermediate  (3 2-lap races, good cars, or light tune)
+GT Cup             - intermediate  (4 3-lap races, hard-tuned cars)
+GT World Cup       - advanced      (6 3-lap races, featuring racing models)
+FF Series          - intermediate  (3 2-lap races, front-wheel drive only)
+FR Series          - intermediate  (3 2-lap races, rear-wheel drive only)
+4WD Series         - intermediate  (3 2-lap races, four-wheel drive only)
+Lightweight Series - intermediate  (3 2-lap races, "lightweight" cars only)
+USvsJP             - advanced      (5 3-lap races, featuring racing models) 
+UKvsJP             - advanced      (5 3-lap races,       ")
+UKvsUS             - advanced      (5 3-lap races,       ")
+Megaspeed          - advanced      (3 3-lap races, for really fast tuned cars)
+Normal             - professional  (5 5-lap races, no modifications allowed)
+Tuned              - professional  (5 5-lap races, no racing models allowed)
+Grand Valley 300km - professional  (1 60-lap race, with tire wear)
+All-Night I        - professional  (1 30-lap race, with tire wear)
+All-Night II       - professional  (1 30-lap race, with tire wear)
+
+But, even with my semi-editorial comments, that doesn't give the whole
+story.  Competition in the GT-World Cup is noticeably "stiffer" than in
+the USvsJP(etc) series, and individual races in each series exhibit
+different competition characteristics.  E.g.  USvsJP AI seems to start
+strong and end a bit weak, while UKvsUS starts a little weaker and ends
+a bit stronger.  Many series allow you to cheat and enter a
+racing-model which generally totally dominates.
+
+Essentially, any but the "professional" races seem to have a noticeable
+"handicap" algorithm which causes the AI cars to wait for you.  This is
+very encouraging when you first begin.  8-)  The algorithm is such that
+it gives more help to powerful cars with good acceleration.  This at
+least allows you to set challenges by gradually using weaker and weaker
+cars in those series.  But, in general, it gets annoying after you've
+mastered it.
+
+In any but the "professional" races there seem to be two speed
+thresholds for each race.  Achieve one speed, and no car will attempt to
+pass you, but they will stay right behind you.  There is another
+threshold you must achieve in order to start leaving the cars behind.
+This has the unfortunate effect that if you are driving between the
+thresholds, discretion is really the better part of valour because,
+unless you are trying to set a personal best, you are better to take a
+tricky corner slowly and safely rather than take a little risk to go
+faster; unless you pass the second threshold, that same car is still
+going stay the same time behind you.  And, as I indicated earlier,
+if the cars get ahead of you, they slow down noticeably to wait for
+you.  Study the GT or GT-I Cup demos in the "Replay Theatre" and
+you can see this effect.  Also notice how, to make a good demo, the
+Viper driver in the GT demo deliberately scrubs off speed on every
+corner so as to avoid leaving the AI cars behind).
+
+Anyway, I've not seen a lot of other examples of AI cars, so in some
+sense I'm talking abstractly.  But I can see a lot of good things in
+the AI cars in Gran Turismo.  They really do seem to be governed by
+the same physics model you are (but of course AI finds some things
+you find difficult to be easy, and vice versa).  That is very good.
+
+Contrary to game reviews based on perfunctory playing of the game,
+the AI cars do make mistakes, both small and large.  This makes things
+very exciting at times.  Perhaps the two best races in the game are
+the penultimate races in the "Normal" and "Tuned" series; at
+"Deep Forest Racing Way ii (reverse)" in Normal, and "Autumn Ring ii"
+in Tuned.  In the Normal Series, an AI Honda/Acura NSX usually
+dominates, especially at Deep Forest, but at turn 4 (assuming the
+preceding high speed bend is turn 3), just before the first tunnel, it
+often enters too fast and loses control and time as it slides wide.  It
+will do this in a reckless bid to pass you, and also when it is ahead.
+So you cannot take your driving cues from him; you must drive your own
+race and hope to take advantage of a mistake like this.  (Once I bumped
+the NSX off-course on the very first turn, and it got stuck behind the
+other star, a Toyota TRD3000GT, and finished an unusual 3rd.  I watched
+the whole replay, and, sure enough, the NSX had tried to pass the TRD
+at that corner, but flubbed it).
+
+In other places, the AI cars make mistakes in fine details of their
+line, usually when exiting slow corners.  In contrast, they dominate
+most fast corners since their AI allows them to explicitly calculate
+the optimal speed to reduce slippage.  Exceptions are corners where a
+drift works really well, and, also a particular fast corner after them
+main straight of the two reverse "Grand Valley" courses.  This corner
+does not suit heavy drifting, but they seem to generally take it even
+slower than is reasonable for driving--this might have been done
+deliberately since, even so, early in my playing I found it very
+daunting how deeply they did go into this corner before braking.
+I made it a bit of a mission to learn that corner intimately, actually,
+so maybe that's why my "I" is now better than their "AI".  8-)
+
+The only time the AI driving seems unrealistic is when some "alarm"
+seems to go off and they decide it is time to pass you.  On some
+corners this is done nicely.  At turn 4 (assuming the first slight
+esse is turns 1+2) at Autumn Ring ii, the cars will often nicely
+go by you on the inside as you enter a little too late and wide.
+But at other times they just sort of force their way around your
+outside, often ignoring any contact with you unless you manage to
+nudge them clearly off onto the sand or grass.  That is somewhat
+aggravating.  Before my skill developed, or when I tried slow cars,
+I had seen this happen at all levels of racing.
+
+So, both the Normal and Tuned series provide quite a nice challenge,
+and also the GT World Cup (abbreviated GT-I).  While the Normal Series
+is dominated by one car, forcing you to win almost all races in order
+to win, the Tuned Series is not so dominated, and this allows you the
+challenge of holding things together in one race to gain second instead
+of falling to fourth, so that you can win the series with 30 of a
+possible 45 points.  (In contrast, in the Normal Series, you can really
+only afford to lose one race, so need to risk more to chance first--but,
+in general, the Normal seems "easier" than the "Tuned").  All three
+series end with the challenging but silly "Special Stage Route 11"
+course--a night time maze of twisty passages, made doubly silly by the
+fact that you, as a human, can cheat your way far ahead of the AI cars
+once you learn that you can get far far ahead of the AI cars by making
+severe use of walls.  Slide gently into them and accelerate while
+pulling off them--much faster than taking the corners properly.
+Similar techniques can be applied at the two All-Night 30 laps races,
+since they take place on that same track.
+
+In contrast, the jewel of Gran Turismo has to be the Grand Valley 300.
+This is 60 laps of a 5km (3 mile) road circuit, with many sand traps
+around hairpins and only one "cheat wall", (and a fairly sticky one
+at that, although a well-timed rear-end bounce off it usually helps
+more than it hurts).
+
+As someone coming from the likes of "Superbike Challenge" on the
+Commodore 64, I would have felt I got my moneysworth if Gran Turismo
+consisted of just the Grand Valley 300, together with a set of
+reasonable cars to compete in it.  The downside of the Grand Valley
+300 is that the AI cars run very predictably.  A particular AI car as
+an entrant will motor steadily to a particular time +-10 seconds.
+Sometimes you get good competition between those cars.  With most of
+the good cars (USvsJP etc prizes, Cr500,000 models, and race-modded
+TVRs and Dodges and top-line Japanese models) you can easily win this
+race by a couple of laps or more, by keeping to a schedule.  The AI
+cars are sort of dumb about changing their tires.  I've come to the
+conclusion that changing every 12 laps, or 10 for some cars, is best.
+(15 for a race-modded TVR Cerbera)  Now, obviously it is, in general,
+best to change tires at regularly spaced intervals, (especially since
+tire wear effect consists of a gradual effect followed by a somewhat
+sudden, and, I think, a bit exaggerated severe effect) but the AI cars
+do not do that, and lose time by waiting until they encounter the
+"severe" effect.  They seem quite pathetic sometimes when you lap them
+while their tires have nearly disintegrated.  In addition the AI
+cars probably do not drive quite as fast as you can.  (quite?--not
+nearly!!)  Well, except, in my case, for the NSX-R LM GT2.  I hate
+that car.  The AI one dominates the race, but I couldn't get my copy
+to go nicely.
+
+Finishing a Grand Valley 300 does require mental effort and
+concentration, and leaves you pleasantly exhausted.  (Not so pleasantly
+exhausted in my case when I tried it and lost with the Chaser LM; must
+give it a reprise sometime.  Maybe.  Ick.--That Toyota Chaser LM is
+probably the first "race-modded prize car" you will stumble across,
+since it is awarded for winning the relatively easy GT Cup, and it
+seems nice at first, but is just too heavy and clunky to be pleasant to
+drive, but it does sit there in the game as a "challenge" when you get
+bored).
+
+The predictability of the GV300 finishing time does allow you to set
+challenges; you can run two lap "time trials", or do "practice runs" of
+the GV300 course (the latter gives you "tire wear"), and try and find a
+car with which you appear to be marginally capable of winning.  Racing
+with such a car will be quite exciting because you should pit before
+the AI cars, drop back, and regain placings later.  My wins with the
+special model Mitsubishi GTO (I nickname the "twintubbo"), and the
+prize Viper GTS-R were like that.  I *think* I'd win more cleanly with
+those cars now, though.
+
+I should make an additional note about the GV300 AI racing.  The field
+consists of random entrants, and, if none of the entrants are "strong",
+you can get a very slow race.  In particular, I saw one race in which
+the fastest AI car was the Subaru Impreza, and it finished in
+1-43:32.9, whereas the first AI car usually finishes in 1-42:00 +-10
+seconds).
+
+Oh well, I seem to have rambled on and given an idea of the flavour of
+Gran Turismo, describing things I perceive a racing simulator
+enthusiast would like to know, but did not really stick to my stated
+topic of discussing the Gran Turismo AI.
+
+I guess I'll lose marks for that.   8-)
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

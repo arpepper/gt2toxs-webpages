@@ -1,0 +1,41 @@
+<b>Hints on Getting the Nine Cars You Want Up to the Top</b>
+
+First off, if you are not aware of the secret option of <font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1" color="silver">2</font>, now is the time to learn it.  While viewing your garage list, if you select any car (but without viewing it--just get the flashing highlight visible), and then press the <b>start</b> button, that car gets move to the <em>start</em> of the garage.
+
+So, do this process for the nine cars you want.  After that, use the <b>start</b> key some more, to put the cars in the precise order you want.  Usually you want to do this from the bottom (ninth car) to the top.  A sure-fire way to do this is to go to slot nine, and press start repeatedly until the car you want in the ninth spot gets there, then got to slot eight, and do the same thing to get the car you want in slot eight.  Repeat this until you have done slot 2, at which time all 9 cars should be in the order you want.  :)
+
+Note that, you might need to "clone" several cars.  This is often desirable to make the hybrid more predictable.  For instance, if you want to try a special model Monte Carlo Mini with the only non-stock item being a Cerbera LM engine, then clone eight copies of the Monte Carlo Mini, and line the top nine entries as:
+
+
+<tt><font face="Courier"><pre>
+[R]Mini
+[R]Cerbera LM
+[R]Mini
+[R]Mini
+[R]Mini
+[R]Mini
+[R]Mini
+[R]Mini
+[R]Mini
+</pre></font></tt>
+
+The next single-prize race (ie. most events--I usually use the Laguna Seca race of the Muscle Car Series) you win, you will win a Mini with a Cerbera LM engine.  A rather fearsome and fun beast.   :)
+
+If you can't clone the cars by just buying more of them, you can (as long as you have enough cash; try to arrange to have lots) clone them buy going to <b>Data Transfer</b> under the top-level screen, and using the <b>Trade Cars</b> option to buy copies of the car from your memory card.
+
+Notice that the ninth slot only contributes after-market rims.  For example, to get special rims onto a 328Ci, buy the rims you want for, say, a 1993 Toyota Supra, and arrange the top nine cars:
+
+<tt><font face="Courier"><pre>
+328Ci
+328Ci
+328Ci
+328Ci
+328Ci
+328Ci
+328Ci
+328Ci
+Supra'93
+</pre></font></tt>
+
+You will win a 328Ci fitted with the same after-market rims.  You can, if you really want, use a similar technique to go back to stock rims on any car, by cloning the car into the first eight slots, and putting any car which still had stock rims in slot 9.
+

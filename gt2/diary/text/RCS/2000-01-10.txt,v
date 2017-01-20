@@ -1,0 +1,273 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.06.29.20.54.18;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.03.01.17.29.55;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.01.12.19.55.57;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.12.19.50.00;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@indent the table.
+@
+text
+@Monday January 10, 2000
+
+How I Avoid Finding Enduros Boring
+
+Threads:
+  Gran Turismo 2
+  Tuning Advice
+  Game Evaluation
+  Gameplay Hints
+
+Someone expressed the opinion that Enduros are boring, and said that
+they could not endure, ahem, racing them.
+
+This led me to wondering what I do to avoid being bored by them, and
+I did come to some conclusions.  Perhaps these will help you find
+them more interesting.  But on the other hand, perhaps your life
+be better off if you continue to find them boring.   8-)
+
+Perhaps I find them interesting just because I'm a boring person
+in general.  That's a definite possibility.   8-)
+
+Anyway I must say, most of the new GT2 Enduros are currently a little
+boring.  The GT2 cast-of-characters is not well enough defined for
+me yet to be able to apply the same analysis to them that I was able
+to in GT1.   In GT1, the Grand Valley 300 became my way of finally
+analyzing a car, and I ran it 49 times.  See summarized
+results <html><a name="back1" href="#table">here</a></html>.
+Detailed results are in the following thread.
+
+Thread: Grand Valley 300 Results
+
+The field was fairly consistent.  The best AI car would be
+the NSX-R LM GT2, which could manage about 1-41:50, while the
+Impreza would only do about 1-43, almost 1-44.  That was the
+slowest AI leader I ever saw.  The other major cars were
+in between, mostly doing 1-42's.  The cars which were slower
+than the Impreza I generally considered "filler".  "Moving
+chicanes", perhaps.   8-)  GT2 fields appear to be more varied
+than this.
+
+So I had a reasonable idea of what it took to win the Grand Valley
+300--namely, a sub 1-42 time.  60 laps for the race, implied lap
+times must average below 1:42, with pit stop time included, meaning
+times consistently below 1-41 were actually needed.
+
+When I was racing I very fast car, I was not really racing the field
+at all, but viewed the race as sort of one very long time trial.
+
+So, anyway, what kept it interesting?
+
+Basically, I would try to do each lap as fast as I could, which was
+made tricky by the tire wear.  At the start, or after a pit-stop,
+tires were cold, and the car could not be pushed.  The next couple
+of laps should be the fastest, and after that times would generally
+drop naturally, and then, when trying to push the tire wear to avoid
+extra stops, conscious care was sometimes needed to avoid losing
+control and thereby losing lots of time.  In general, too, lap times
+went up when I got towards the end of the race, as I got tired.
+
+So, watching my lap times was interesting--I had an idea of fast and
+slow times for a particular car, and liked seeing myself do well.  I
+would have an idea of what lap times I needed to achieve my goal for
+the race, which often went beyond winning.  Two things make this even
+more interesting in GT2, actually.  First, the best lap is not
+preserved between races, so you actually see a reasonable goal time
+all the time, since what is shown is your own best lap for this race.
+Secondly, the split times help you realize when you are on your way
+to a new record, and help confirm what sections you may have done
+better or worse than before.  (In fact, I used to observe "split
+times" in the GT1 GV300, too.  For what it's worth, I'd usually note
+the time after the second hairpin, just before the girder bridge, and
+just before entering the final esses.)
+
+Sticking to, or appropriately modifying, my pit strategy occupied my
+mind, too.  Typically, I'd do some tests to determine how long the car
+could last on its tires, and adjust that number up or down so that
+shifts of even lengths could be made.  60 laps is nice, it divides
+evenly by many numbers.  Everything up to five stops (that is, every 10
+laps) could be done evenly.  With cars where I knew I had reduced the
+shift length to make it even, I could employ strategy.  Basically, I
+wanted to avoid passing the same cars twice whenever possible, since
+passing cars usually cost time.  So, if I were coming up behind some
+cars and a scheduled pitstop was a lap or two away, I could pit early
+and make the laps up on some other shift.  Or, if I had just passed
+some cars and a stop was due, staying out another lap or two might
+allow me to get far enough ahead that they would not pass me when I
+stopped.  But I had to be careful to remember my tires were wearing, so
+I could not push it, but had to be careful to go fast enough to open my
+lead.
+
+When passing cars, by-the-way, I used to try and make a game of trying
+to do it as elegantly as possible, with no contact.  Since I usually
+had much better acceleration than them, the easiest way was to pass
+them accelerating out of a corner.  The straight after the second
+hairpin was a favourite.  The AI cars never seemed to get the hang of
+the final hairpin esses--you need to take the first one tight to allow
+a faster exit from the second--so often I would end up with a double
+pass there, as an AI car I had recently passed might temporarily pass
+me going in, while I'd pass them again at the exit.  Sometimes there'd
+even be no contact there.  8-)
+
+I always used soft tires, by-the-way, and pitted just about as soon as
+they turned yellow.  For most cars that would give shifts of 10 to
+12 laps, but some were better and some were worse.
+
+My Gran Turismo screen is beside our other TV screen, and sometimes
+I'd half-watch a program at the same time as doing an Enduro.
+It was often "Law and Order", actually.  But, actually, I think
+my times were slightly better when I was not.
+
+Synthesizing all this, I seem to be saying that to avoid finding
+Enduros boring you must view them as races against yourself and not
+against the AI cars.
+
+Once I got really familiar with the cars I could do both by picking
+cars which I knew I should be able to drive to a very close win.  Those
+can make exciting races, although it's strange how just half-a-second a
+lap speed advantage (i.e. about 30 seconds lead at the end) can
+translate into reasonable domination of the race if you don't make
+major mistakes.  With that margin, for instance, by about your second
+pit stop you usually should be able to keep the lead.
+
+Thread: Grand Valley 300 Results
+
+<HTML INDENT>
+<a name="table" href="#back1"><h3>Summarized Grand Valley 300 Results</h3>
+</a>
+<font face="Courier">
+<pre>
+TVR [R]Cerbera LM             1-42:08.6   (2nd)
+Dodge N.A. Concept Car        1-34:05.4
+TVR [R]Cerbera LM             1-38.03.8
+Subaru [R]Impreza RLY Edition 1-40:24.9
+Mitsubishi [R]Eclipse GT      1-46:31.1  (5th +236.260)
+Mitsubishi [R]FTO LM          1-39:37.3
+Nissan [R]S14 Silvia LM       1-39.05.0
+Acura [R]NSX-R LM GT2         1-44:10.6 (5th +114.659)
+Mazda [R]RX7 LM Ed            1-38:29.4
+Mitsubishi [R]GTO LM Ed       1-41:54.6
+Nissan [R]GT-R LM             1-40:30.4
+Toyota [R]CASTROL SUPRA GT    1-39:20.4
+TVR [R]Cerbera (not LM)       1-40:03.9
+Toyota [R]Chaser LM           1-44:10.5  (4th +120.036)
+Nissan [R]R32SkylineGT-R'89   1-39:54.7
+Mazda [R]RX-7 A spec LM       1-40:07.3
+Dodge [R]Viper GTS-R          1-42:03.7  (1st barely)
+Honda [R]del Sol LM Edition   1-40:01.5
+Toyota [R]SUPRA RZ            1-39:45.1  (prize car, not purchased)
+Dodge [R]VIPER GTS            1-38:59.5
+Mitsubishi [R]GTO'95 MR       1-36:13.9
+Mitsubishi [R]GTO'95 MR       1-35:46.3
+Mitsubishi [R]GTO'95 MR       1-35:15.6
+Mitsubishi GTO'95 MR          1-42:21.3 (3rd, +26.609; purposely threw 2nd)
+Dodge N.A. Concept Car        1-30:42.7
+Nissan [R]S14 Silvia LM       1-39.31.6
+TVR [R]Cerbera (not LM)       1-37:55.1
+Dodge N.A. Concept Car        1-31:28.0
+Acura [R]NSX-R LM GT2         1-40:26.1
+Subaru [R]Impreza'94 Wgn WRX  1-36:47.5
+Subaru [R]Impreza RLY Edition 1-36:00.2
+Nissan [R]GT-R LM             1-37:25.6
+Toyota [R]CASTROL SUPRA GT    1-37:58.1
+Mitsubishi [R]GTO LM Ed       1-39:07.1
+Mazda [R]RX7 LM Edition       1-35:58.3
+Mazda [R]FC RX7 GT-X          1-40:10.3
+TVR [R]Griffith 500           1-35:34.0
+TVR [R]Griffith 4.0           1-35:46.0
+Chevrolet [R]Corvette'96      1-40:02.6
+Toyota [R]Celica GT-Four      1-39:54.1
+Toyota [R]Chaser LM           1-41:21.9
+Mitsubishi [R]Eclipse GT      1-41:19.9
+Toyota [R]MA70 Supra          1-41:01.6
+Mitsubishi GTO'95MR           1-41:10.9   (tuned, no race-modification)
+Nissan [R]S14 Silvia LM       1-37:07.8
+Nissan [R]S14 Silvia LM       1-37:40.8
+Dodge [R]Viper GTS-R          1-39:59.7
+Dodge N.A. Concept Car        1-29:51.8
+TVR [R]Cerbera LM             1-33:48.2
+</pre>
+</font>
+<p><a href="#back1">back</a></p>
+</HTML>
+
+Thread: Grand Valley 300 Results
+
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.3
+log
+@Changes.
+@
+text
+@d125 1
+a125 1
+<HTML>
+@
+
+
+1.2
+log
+@Threaded.
+@
+text
+@d126 1
+a126 2
+<a name="table" href="#back1">
+<h3>Summarized Grand Valley 300 Results</h3>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d28 3
+a30 1
+Detailed results are under the appropriate thread.
+d123 1
+d184 2
+@

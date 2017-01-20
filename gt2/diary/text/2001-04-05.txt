@@ -1,0 +1,160 @@
+Thursday April 05, 2001
+
+In Fairlady Game, [R]Fairlady Z Turbo Cleanly Wins the All-Night I
+
+Threads:
+  All-Night I Results
+  Car Information
+  Tuning Advice
+  Race Results
+
+<CODES>
+In the <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fairlady">fairlady</a> game
+(Maybe <a href="../logs/fairlady.txt">here</a>)
+I used the Fairlady Z 2 seater Turbo (aka 300ZX) as much as possible, so I entered the
+SSR11 All-Night I Race with the race-mod version.
+</CODES>
+
+It won reasonably convincingly, although not spectacularly by my current
+standards.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+   Game: fairlady
+   Day: 79
+   Date: April 06, 2001
+   Race: SSR11 All-Night I  Endurance Race
+   Car: Nissan [R]Fairlady Z Version S Twin Turbo 2 Seater
+   Qualified: 1st(+5.473) 1:51.007new
+   Result: 1st
+   Money: Cr150,000
+   Prize-Car: red [R]Silvia LM
+
+   Results:
+
+   1st:* [R]Z 2seater turbo    53:34.097new
+   2nd:  [R]R32GT-R'91          +214.864  (57:08.961)
+   3rd:  [R]NSX-R LM GT2        +234.816  (57:28.913) 2 laps
+   4th:  [R]Impreza Rly Edition +296.076  (58:30.173) 2 laps
+   5th:  [R]EXIV 200GT          +300.493  (58:34.590) 2 laps
+   6th:  [R]Lancer EvoIV GSR    +365.437  (59:39.534) 3 laps
+
+   Pits:  10,20
+   fl(23): 1:41.875new
+
+   lap 1   1:58.512
+   slowest  non-pit   (30)  1:49.757
+             next     (17)  1:48.491
+   fastest pit laps   (10in)  2:07.177
+                      (21out) 1:47.472
+   slowest pit laps   (20in)  2:09.763
+                      (11out) 1:47.874
+
+</pre></font></tt>
+</HTML>
+
+
+I had a scrappy first lap, and so crossed the line in third place.
+
+By the first corner of the second lap, however, I had gained first place.
+
+I lapped my first car on lap 12, and lapped the field on lap 17.  I ended
+up lapping all but the Skyline twice, and must have lapped the Lancer
+three times.
+
+I clipped the chicanes a couple of times, but had no real wipeouts.
+
+Surprisingly, the time was almost identical to that I did with the Lancer.
+
+I won Cr150,000, and a red Silvia LM.
+
+Once again, for your analytical enjoyment, I here present all 30 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:58.512      1:58.512
+ 2   1:42.454      3:40.966
+ 3   1:42.557      5:23.523
+ 4   1:44.305      7:07.828
+ 5   1:44.487      8:52.315
+ 6   1:43.828     10:36.143
+ 7   1:46.204     12:22.347
+ 8   1:46.531     14:08.878
+ 9   1:47.631     15:56.509
+10   2:07.177     18:03.686
+11   1:47.874     19:51.560
+12   1:43.020     21:34.580
+13   1:44.327     23:18.907
+14   1:46.014     25:04.921
+15   1:44.026     26:48.947
+16   1:44.533     28:33.480
+17   1:48.491     30:21.971
+18   1:46.049     32:08.020
+19   1:47.135     33:55.155
+20   2:09.763     36:04.918
+21   1:47.472     37:52.390
+22   1:42.560     39:34.950
+23   1:41.875     41:16.825
+24   1:43.555     43:00.380
+25   1:42.788     44:43.168
+26   1:43.934     46:27.102
+27   1:45.559     48:12.661
+28   1:45.774     49:58.435
+29   1:45.905     51:44.340
+30   1:49.757     53:34.097
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+
+           My Settings
+
+Tires           S    S
+  max parts
+
+Spring Rate     5.0   4.4
+Ride Height      95   100
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   13    11
+Turbo               7
+        1st       3.214
+        2nd       1.925
+        3rd       1.302
+        4th       0.971
+        5th       0.752
+                  -----
+        FD        3.670
+
+Aero           0.70  0.72  (max,max)
+
+</table>
+</font>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

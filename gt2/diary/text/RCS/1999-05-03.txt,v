@@ -1,0 +1,133 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.12.22.55.51;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check in to add threads
+@
+
+
+1.3
+log
+@changes.
+@
+text
+@Mon May  3, 1999
+
+Viper GTS-R Squeaks to a Win at Grand Valley
+
+Threads:
+  Grand Valley 300 Results
+  Race Results
+  Prize Car Information
+
+Well, I practised a lot for driving the Viper GTS-R in the Grand Valley
+300, but it did not seem to help much.
+
+   April 30, 1999
+   Viper GTS-R (white/blue)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:43.531not     Cr20,000
+
+   Results:
+
+   1st  Viper GTS-R       1-42:03.7<--
+   2nd  GTO twinturbo       +14.353   (1-42:18.1)
+   3rd  GT-R                +50.886
+   4th  IMPREZA RLY Ed      +93.148
+   5th  CELICA GT-FOUR     +229.959
+   6th  LANTIS TypeR       +374.378
+   
+   lap 1   1:45.474
+   pits   12,24,36,48
+   fl  (41)  1:37.418
+   slowest  non-pit   (11)  1:44.006
+             next     (60)  1:43.527
+   fastest pit laps   (48in)  1:53.571
+                      (49out) 1:44.448
+   slowest pit laps   (12in)  2:01.213
+                      (13out) 1:49.541
+
+So, as you can tell from the times, the race was tense.  There have been
+other races where the AI car times would have beat this one.
+
+I jumped to an early second, gaining a brief lead after the first
+pit exchange.  I had dropped to fourth when pitting, but worked back
+to 2nd fairly quickly, and briefly held the lead when the leader
+finally pitted.  But he got by me again.  At one point during the
+race, the GTO rear-ended me into the gravel, and took off,
+gaining several seconds that way.
+
+I had another brief lead from about laps 27 to 30, as I passed the
+GTO while it was in the pits, but once again it caught me, just
+before my pit stop at lap 36.  However, the GTO pitted soon after
+that, and by lap 40 I was in command.  I lost the lead on lap 48,
+but regained it on the track before the GTO's final pit stop,
+which it finally took at lap 53, so then I almost cruised to
+victory.  (This field was relatively weak, with a slowish winning
+time).
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+One interesting thing about the Viper GTS-R was that, perhaps because
+of its relatively heavy weight, it was quite easy to drive well with
+worn tires.  I almost wondered if I should have stretched some of
+my runs, but its handling was such that when duelling close up the
+slippery tires would probably have been a disadvantage, so I decided
+to be cautious.
+
+The next Grand Valley 300 entrant will be the red Honda del Sol LM
+Edition.  This seems to be another car which requires a lot of learning
+in order to drive well.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+@
+
+
+1.2
+log
+@Added threads.
+@
+text
+@d8 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 4
+@

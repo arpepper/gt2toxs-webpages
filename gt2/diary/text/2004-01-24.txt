@@ -1,0 +1,75 @@
+Sunday January 25, 2004
+
+I Actually Finally Get Gold on GT3 B-8
+
+Threads:
+  Driving Advice
+  Gran Turismo 3
+  License Test Progress
+
+<CODES>
+
+Well, I finally managed gold on <font color="blue"><b>G</b></font><font color="red"><b>T</b></font><b>3</b> <b>B-8</b>.
+
+I got <b>0:42.854</b> to the demo <b>0:42.949</b>.
+
+I had seemed to be doing well--silver about every three or four runs, and only infrequent crash failures.
+
+Here's my summary of the technique I tried to apply:
+</CODES>
+<HTML INDENT>
+<ul>
+<li> easy through first left through tunnel, but no lifting or braking necessary--just try to reduce tire squealing, keeping speed close to 69mph
+<li> slow, and brake, but not too much for the first right
+<li> enter the second right a little wide, and cut in
+  (this is the trickiest corner of the test)
+<li> if you're on track for gold, you must lift off the accelerator before the second tunnel
+<li> want to exit tunnel lodged in groove, over hash marks, accelerating early, but somewhat gradually
+</ul>
+</HTML>
+
+<CODES>
+In my successful run, I hit the split-time at <b>0:28.635</b>, well below demo of <b>0:28.771</b>.
+
+"Stay in groove, ease on gas early--don't blow it", I thought.
+
+I got in the groove, but felt a slight burble on my exit.
+
+"Oh well", I thought, "That probably blew it, but your speed is okay--keep it nailed, and away from the edge of the road, and it looks like the upshift will come well before the exit of the tunnel."
+
+I saw the "42" on the stopped clock, and then the "Gold medal" appeared, much to my relief.  I was amazed that I had made it by so large a margin.
+
+"Remember to save replay".
+
+Then I checked the demo once before exiting (although, in fact, you can come back later to do that).  It showed I got an early lead by cutting over the apron in the first tunnel.  I lost a little in the first right-hander, but perhaps gained it back in the next.  The split time shows I lost a little in the last corner, and finished just barely ahead of the demo (under 1/10 sec).
+
+Then I saved my game, and went downstairs to get another memory card to make a second copy.  8-)
+
+My recorded times
+(I did not save sessions which did not improve my best time...)
+
+ARP2004Jan25 0:42.854 25/01/04
+ARP2004Jan11 0:43.014 25/01/04
+ARP2004Jan25 0:43.044 25/01/04
+ARP2004Jan03 0:43.058 25/01/04
+ARP2003Dec21 0:43.156 25/01/04
+ARP2004Jan25 0:43.175 25/01/04
+
+(Actually my name is saved as ARP2003Jan25, etc...  Duh!)
+
+Final speed: 118mph, just barely.
+I had had better finishes (118 clearly for about a second).
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

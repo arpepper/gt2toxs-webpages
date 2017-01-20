@@ -1,0 +1,177 @@
+Sunday October 24, 1999
+
+Silvia LM Knocks Almost Two Minutes Off in another Grand Valley 300 Win!
+
+Threads:
+  Prize Car Information
+  Grand Valley 300 Results
+  Tuning Advice
+  Race Results
+
+Continuing in my "silver" game, I took the Silvia LM awarded in
+the All-Night I, and entered the Grand Valley 300.  I have always
+found this car to be very pleasant and predictable to drive, and
+this time was no exception.  I hoped to use the Castrol Supra I would
+win to win the USvsJP Series, and possibly the GT-I, since it's much
+better than the ChaserLM, and probably better than a tuned GTO'95MR.
+
+   "silver game" day 101
+   Sunday October 24, 1999
+   red [R]Silvia LM
+   Grand Valley 300km Endurance Race
+
+   q1st(just)  1:44.012new     Cr20,000
+
+   Results:
+
+   1st  [R]Silvia LM           1-37:07.8<--
+   2nd  [R]R32GT-R'91           +307.708   (1-42:15.5)
+   3rd  [R]Impreza RLY Ed       +400.477   (1-43:48.3)
+   4th  [R]Celica GT-Four       +528.203   (1-45:56.0)
+   5th  [R]Lantis TypeR         +663.251   (1-48:11.1)
+   6th  [R]Accord Sedan         +705.437   (1-48:53.2)
+   
+   lap 1   1:42.294
+   pits   15,30,45    
+   fl  (48)  1:33.911
+   slowest  non-pit   (27)  1:38.020
+             next     (29)  1:37.931
+   fastest pit laps   (45in)  1:51.290
+                      (31out) 1:41.937
+   slowest pit laps   (30in)  1:51.440
+                      (46out) 1:43.002
+
+I got the lead by the end of the first lap, and lapped the first
+three competitors permanently by my first pit-stop, which I took
+quite late, deciding that this car was so easy on tires, and so
+predicatable even with some tire wear, that three stops would
+suffice.
+
+On lap 18 I came up on the R32 passing the Impreza, and soon after
+that lapped them both.
+
+I lapped the GT-R, and therefore the whole field, a second time
+on lap 38.  I finally lapped the GT-R a third and final time on
+lap 60(!)
+
+This time was almost two minutes faster than my previous best with
+this car in this event.  The field was moderately competitive.
+
+I had no disasters at all, just a few minor off-track excursions.
+
+Only one lap time was less than 1:34, but a lot of them were 1:34's
+and 1:35's.
+
+I won Cr300,000, and a black/green Castrol Supra GT.
+
+Once again I actually recorded all lap times, as follows:
+
+Lucky you!    8-)
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+ 1   1:42.294      1:42.294
+ 2   1:34.928      3:17.222
+ 3   1:34.729      4:51.951
+ 4   1:35.563      6:27.514
+ 5   1:35.134      8:02.648
+ 6   1:35.416      9:38.064
+ 7   1:35.389     11:13.453
+ 8   1:35.800     12:49.253
+ 9   1:34.937     14:24.190
+10   1:36.452     16:00.642
+11   1:35.746     17:36.388
+12   1:36.859     19:13.247
+13   1:37.180     20:50.427
+14   1:37.871     22:28.298
+15   1:51.346     24:19.644
+16   1:42.373     26:02.017
+17   1:35.280     27:37.297
+18   1:34.608     29:11.905
+19   1:35.091     30:46.996
+20   1:34.404     32:21.400
+21   1:35.649     33:57.049
+22   1:35.326     35:32.375
+23   1:35.988     37:08.363
+24   1:36.060     38:44.423
+25   1:35.748     40:20.171
+26   1:35.658     41:55.829
+27   1:38.020     43:33.849
+28   1:37.930     45:11.779
+29   1:37.931     46:49.710
+30   1:51.440     48:41.150
+31   1:41.937     50:23.087
+32   1:34.128     51:57.215
+33   1:34.344     53:31.559
+34   1:35.507     55:07.066
+35   1:35.405     56:42.471
+36   1:34.664     58:17.135
+37   1:34.841     59:51.976
+38   1:35.509   1-01:27.485
+39   1:36.102   1-03:03.587
+40   1:36.897   1-04:40.484
+41   1:35.819   1-06:16.303
+42   1:37.562   1-07:53.865
+43   1:36.896   1-09:30.761
+44   1:37.796   1-11:08.557
+45   1:51.290   1-12:59.847
+46   1:43.002   1-14:42.849
+47   1:34.296   1-16:17.145
+48   1:33.911   1-17:51.056
+49   1:35.230   1-19:26.286
+50   1:37.884   1-21:04.170
+51   1:35.041   1-22:39.211
+52   1:36.501   1-24:15.712
+53   1:35.224   1-25:50.936
+54   1:36.475   1-27:27.411
+55   1:35.587   1-29:02.998
+56   1:37.529   1-30:40.527
+57   1:36.897   1-32:17.424
+58   1:35.659   1-33:53.083
+59   1:36.822   1-35:29.905
+60   1:37.912   1-37:07.817
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread:Tuning Advice
+
+Not only that, I saved the setting too.
+
+           My Settings
+
+Spring Rate     4.5   4.5
+Ride Height      90    90  (min, min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               4
+        1st       2.957
+        2nd       2.037
+        3rd       1.478
+        4th       1.116
+        5th       0.928
+        6th       0.809
+                  -----
+        FD        4.000
+
+Aero            0.82  1.00  (max, max)
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

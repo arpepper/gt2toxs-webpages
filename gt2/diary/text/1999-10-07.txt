@@ -1,0 +1,39 @@
+Thursday October 7, 1999
+
+Finally I Learn...
+
+Threads:
+  Gameplay Hints
+
+Wow, I must have played about 6000 Simulation Game Days of Gran Turismo,
+and only last night did I learn a useful fact...
+
+When I'm sitting there watching 50,000 credits be counted out slowly,
+I can end the process quickly by hitting the triangle button.
+
+Now that seems an illogical button to use, because it usually means
+"go back" or "quit".  Since "X" didn't work, I kept assuming one
+was just simply required to wait for all those credits to be
+added up.  But no, one can probably save aboout two minutes of
+elapsed time in the Normal Series by taking advantage of this.
+
+Somehow I discovered quite early "select" as the means to end replays
+(probably that's in the manual).  Actually, a fun thing about replays
+is that you can map your reverse view button to something not on top of
+the controller, and (easily) get a (temporary) reverse view in the
+middle of a replay.  Or perhaps what I mean is if you map reverse view
+to the top of the controller, you mess up your ability to do that.  I
+can't remember where the default reverse view is right now.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+

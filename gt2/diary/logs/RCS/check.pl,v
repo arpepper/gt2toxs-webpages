@@ -1,0 +1,751 @@
+head	1.15;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.15
+date	2000.01.07.00.33.15;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	99.11.01.16.58.43;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	99.10.25.18.40.58;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	99.10.21.21.11.12;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	99.10.21.20.28.36;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	99.10.21.20.15.46;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	99.08.06.00.12.07;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	99.08.05.23.24.55;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	99.07.31.00.14.45;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	99.07.28.22.37.17;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.07.28.00.52.32;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.27.21.50.21;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.07.27.18.14.00;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.07.27.17.46.19;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.07.24.00.57.57;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@check the log file.
+Initial version rudimentary; just check day sequence only...
+@
+
+
+1.15
+log
+@This is probably redundant and unnecessary now.
+"garage" does checks as well as generating a per-day garage.
+@
+text
+@#!/xhbin/perl5 -w
+
+require 5.002;
+use strict;
+
+sub
+warn {
+	print @@_;
+}
+
+$main::mintoday = 0;
+$main::maxtoday = 1;
+
+@@main::cardata = ();   # now we initialize all data via "mod car" in the log
+
+@@main::racedata = (
+  "Sunday",      3, "Demio", "", "", "", "", "", "", "",
+  "Clubman",     3, "Camaro", "", "", "", "", "", "", "",
+  "GTC",         4, "ChaserLM", "", "", "", "", "", "", "",
+  "GTI",         6, "credits", "", "", "", "", "", "", "",
+  "FF",          3,
+       "CRX", "yellow","blue","black",   "Celica","green","yellow","purple",
+  "FR",          3,
+       "S13Silvia", "green","yellow","red", "SilEighty", "yellow","blue","dkBlue",
+  "4wd",         3,
+       "Lancer", "green","yellow","purple", "Alcyone", "blue","white", "dkBlue",
+  "Lwt",         3,
+       "Civic", "yellow","blue","pink",  "Eunos", "blue","yellow","gold",
+  "USvsJP",      5,
+       "Viper", "WgreenSt","WblueSt","", "FTO", "black", "green", "",
+  "UKvsJP",      5,
+       "Cerbera", "purple", "green","",  "delSol", "black ", "red ", "",
+  "UKvsUS",      5,
+       "RX7","green","blue","",          "ConceptCar", "purple","yellow","",
+  "Mega",        3,
+       "DB7", "white","red","purple",  "Soarer", "yellow","purple","redOrange",
+  "Normal",      5,
+      "Impreza","blue","yellow","orange", "SupraRZ","ltBlue","purple","orange",
+  "Tuned",       5,
+       "Trueno", "white","pink","blue", "Skyline", "red","yellow","blue",
+  "Abnormal",    5,
+       "Trueno", "white","pink","blue", "Skyline", "red","yellow","blue",
+  "GV300",       1, "Supra", "black/blue", "black/green", "", "", "", "", "",
+  "All-nightI",  1, "SilviaLM", "red", "green", "", "", "", "", "",
+  "All-nightII", 1, "NismoGT-R LM", "silver", "", "", "", "", "", "",
+);
+@@main::racelist = ();
+
+sub
+cc {
+	my($colour,$car) = @@_;
+
+	if ($colour =~ /^W/) {
+		$car . $colour;
+	}
+	else {
+		$colour . $car;
+	}
+}
+		
+
+my($name,$length,$car1,$c1,$c2,$c3,$car2,$d1,$d2,$d3,$pstring);
+while (@@main::racedata) {
+	$name = shift @@main::racedata;
+#print "$name\n";
+	$length = shift @@main::racedata;
+	$car1 = shift @@main::racedata;
+	$c1 = shift @@main::racedata;
+	$c2 = shift @@main::racedata;
+	$c3 = shift @@main::racedata;
+	$car2 = shift @@main::racedata;
+	$d1 = shift @@main::racedata;
+	$d2 = shift @@main::racedata;
+	$d3 = shift @@main::racedata;
+	if ( $length =~ /\D/ ) {
+		die "sync error in racedata: $name\n";
+	}
+	$pstring = "," . &cc( $c1 , $car1 ) . ",";
+	if ( $c2 ne "" ) {
+		$pstring .= &cc( $c2 , $car1 ) . ",";
+	}
+	if ( $c3 ne "" ) {
+		$pstring .= &cc( $c3 , $car1 ) . ",";
+	}
+	if ( $d1 ne "" ) {
+		$pstring .= &cc( $d1 , $car2 ) . ",";
+	}
+	if ( $d2 ne "" ) {
+		$pstring .= &cc( $d2 , $car2 ) . ",";
+	}
+	if ( $d3 ne "" ) {
+		$pstring .= &cc( $d3 , $car2 ) . ",";
+	}
+#print "${name}:$pstring\n";
+	
+	push @@main::racelist , $name;
+	$main::racelength{$name} = $length;
+	$main::raceprizes{$name} = $pstring;
+};
+while (@@main::cardata) {
+	$name = shift @@main::cardata;
+	$main::carlist{$name} = $name;
+};
+
+sub
+daycheck {
+	my($day) = @@_;
+
+	if ($day < $main::mintoday || $main::maxtoday < $day) {
+		return 0;
+	}
+	return 1;
+}
+
+sub
+dodateline {
+	my($line) = @@_;
+
+	if ($line !~ /1999/ && $line !~ /2000/) {
+		&warn("Bad date line: $_\n");
+	}
+}
+
+sub
+dolicenseline {
+	my($line,$start,$end) = @@_;
+	my($diff);
+
+#&warn("Good license line:$_\n");
+	if (!&daycheck($start) ) {
+		&warn("Bad license start day(not ${main::maxtoday}): $_\n");
+	}
+	$diff = $end - $start;
+	if ( $diff < 0 ) {
+		&warn("Bad license end day: $_\n");
+	}
+	$main::mintoday = $end + 1;
+	$main::maxtoday = $end + 1;
+
+}
+
+sub
+otherprize {
+	my($prize) = @@_;
+
+	return 1 if ($prize eq "full");
+	return 1 if ($prize eq "none");
+	return 1 if ($prize eq "8-");   #  8-(
+	return 0;
+}
+
+sub
+doseriesline {
+	my($line,$start,$end) = @@_;
+	my($diff);
+	my($rest,$i,$none,$pat,$race,$length,$prev,$after);
+	my($car,$prize);
+
+	if (!&daycheck($start) ) {
+		&warn("Bad start day(not ${main::maxtoday}): $_\n");
+	}
+	$diff = $end - $start;
+	if ( $diff < 0 || 6 < $diff) {
+		&warn("Bad end day: $_\n");
+	}
+	$main::mintoday = $end + 1;
+	$main::maxtoday = $end + 1;
+	$rest = $line;
+	$rest =~ s/^\s*(\d+)-(\d+)\s*//;
+	$none = 1;
+	$length = 6;
+look:
+	foreach $i (@@main::racelist) {
+		if ( $rest =~ /\s${i}\s/ ) {
+			$none = 0;
+			$rest =~ /(.*\s)(${i})(\s.*)/;
+			($prev,$race,$after) = ($1,$2,$3);
+			$length = $main::racelength{$race};
+			last look;
+		}
+	}
+	if ($none) {
+		&warn("Unrecognized race: $_\n");
+	}
+	else {
+		if ($diff != $length) {
+			&warn("Bad end day for series \"$race\": $line\n");
+		}
+		$car = $prev;
+		$car =~ s/^\s*//;
+		$car =~ s/[,\s].*//;
+		if (!defined($main::carlist{$car}) ) {
+			&warn("Unrecognized car ($car): $line\n");
+			$main::carlist{$car} = $car;
+		}
+		
+	}
+	$prize = $rest;
+	$prize =~ s/red /red#/g;
+	$prize =~ s/black /black#/g;
+	$prize =~ s/ LM/#LM/g;
+        $prize =~ s/^.* (\w)/$1/;
+        $prize =~ s/[(].*//;
+        $prize =~ s/[!]//g;
+	if ($prize !~ /ConceptCar/) {
+		$prize =~ s/Concept/ConceptCar/;
+	}
+	$prize =~ s/#/ /g;
+	if ( &otherprize($prize) == 0 &&
+			$main::raceprizes{$race} !~ /,${prize},/ ) {
+		&warn("Unrecognized prize ($prize) for $race: $line\n");
+	}
+	else {
+		$main::carlist{$prize} = $prize;
+	}
+}
+
+sub
+do1dayline {
+	my($line,$day) = @@_;
+
+	&warn("Unknown single day event: $_\n");
+	if (!&daycheck($day) ) {
+		&warn("Bad single day event(not ${main::maxtoday}): $_\n");
+	}
+	$main::mintoday = $day;
+	$main::maxtoday = $day + 1;
+}
+
+sub
+dodaynote {
+	my($line,$day) = @@_;
+	my($stuff);
+
+	$line =~ /^\s*(\d+)/;
+if ( !defined($1) ) {
+print $line,"\n";
+}
+	$day = $1;
+	if (!&daycheck($day) ) {
+		&warn("Bad single day note(not ${main::maxtoday}): $_\n");
+	}
+	$main::mintoday = $day;
+	$main::maxtoday = $day;
+	# grr... seems difficult to undef $1 ...
+	if ($line =~ /^\s*(\d+)\s+buy\s+(.*)/ && defined($2)) {
+		$stuff = $2;
+#print "stuff:$stuff\n";
+		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+			$main::carlist{$1} = $1;
+		}
+		elsif ($stuff =~ /^\s*parts\s+/) {
+			;
+		}
+		else {
+			&warn("Bad purchase: $line\n");
+		}
+	}
+	if ($line =~ /^\s*(\d+)\s+mod\s+(.*)/ && defined($2)) {
+		$stuff = $2;
+#print "stuff:$stuff\n";
+		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+			$main::carlist{$1} = $1;
+		}
+		else {
+			&warn("Bad mod: $line\n");
+		}
+	}
+}
+
+sub
+donote {
+	my($line) = @@_;
+
+}
+
+while (<>) {
+	my($line) = $_;
+	my($license,$r1,$r2);
+
+	$line =~ s/\n//g;
+	$license = $line;
+	$license =~ s/^.{10}//;
+	$license =~ s/(\S+)\s.*/$1/;
+	$r1 = "";
+	$r2 = "";
+	if ( $line =~ /^[A-Z]/) {
+		;
+	}
+	elsif ( $line =~ /^([ \d]{3,3}\d)\-(\d[ \d]{3,3})/ ) {
+		$r1 = $1;
+		$r2 = $2;    # n.b. must grab all $N before doing other subs
+		$r1 =~ s/\s//g;
+		$r2 =~ s/\s//g;
+	}
+	elsif ( $line =~ /^([ \d]{3,3}\d)[ ]{6,6}/ ) {
+		$r1 = $1;
+		$r1 =~ s/\s//g;
+		$r2 = $r1;
+	}
+
+	if ( $line =~ /^[A-Z]/) {
+		&dodateline($line);
+	}
+	elsif ( $r1 ne "" &&
+		( $license =~ /[AB][1-8]/ || $license =~ /IA[1-8]/ ) ) {
+		&dolicenseline($line,$r1,$r2);
+	}
+	elsif ( $line =~ /^[ \d]{3,3}\d-\d[ \d]{3,3}/ ) {
+		&doseriesline($line,$r1,$r2);
+	}
+	elsif ( $line =~ /^[ \d]{4,4}\d[ ]{6,6}/ ) {
+		# this should not occur any more;  all licenses
+		&do1dayline($line,$r1,$r2);
+	}
+	elsif ( $line =~ /^[ ]{2,3}\d{1,5}/ ) {
+		&dodaynote($line);
+	}
+	elsif ( $line =~ /^\s{0,20}\d/ ) {
+		&warn("Unrecognized line: $line\n");
+	}
+	else {
+		&donote($line);
+	}
+}
+@
+
+
+1.14
+log
+@Forced distinction between S13Silvia and SilviaLM
+
+Add prizes to the available car list; avoids need for "mod" kludges.
+@
+text
+@@
+
+
+1.13
+log
+@No longer assume any cars are available for racing; the log should
+contain appropriate "mod" commands to indicate aliases.
+@
+text
+@d24 1
+a24 1
+       "Silvia", "green","yellow","red", "SilEighty", "yellow","blue","dkBlue",
+d205 3
+a207 1
+	$prize =~ s/Concept/ConceptCar/;
+d212 3
+@
+
+
+1.12
+log
+@Remove most pre-initialized names.
+Modify handling of "buy" and "mod" lines, and warn of bad ones.
+@
+text
+@d14 1
+a14 11
+@@main::cardata = (
+	"[R]CerberaLM",
+	"[R]ChaserLM",
+	"[R]FTO",
+	"[R]delSolLM",
+	"blue[R]RX7AspecLM",
+	"greenFTOLM",
+	"purple[R]CerberaLM",
+	"red[R]SilviaLM",
+	"yellowConceptCar",
+);
+@
+
+
+1.11
+log
+@Now interpret a daynote atarting
+
+buy car shortname
+
+Avoids needing to list all cars we might want
+@
+text
+@a14 5
+	"Cerbera",
+	"Civic3dr'93si",
+	"R32Skyline'89GT-R",
+	"RT/10",
+	"[R]Cerbera",
+a15 1
+	"[R]CerberaNOT",
+a17 3
+	"[R]R32GT-R'89",
+	"[R]R32SkylineGT-R'89",
+	"[R]RT/10",
+a18 2
+	"blueRT/10",
+	"blueViperGTS",
+a19 1
+	"goldCerbera",
+a20 1
+	"greenGriffith500",
+a21 8
+	"red3dr'93si",
+	"redCerbera",
+	"redFTOGPvR",
+	"redGTS",
+	"redR32GT-R'89",
+	"redRT/10",
+	"redWRX'94Wgn",
+	"red[R]GT-R'89",
+a22 1
+	"tunedGTO'95MR",
+a23 1
+	"yellowGriffith500",
+d251 1
+a251 2
+	$line =~ /^\s*(\d+)\s+buy\s+(.*)/;
+	if (defined($2)) {
+d254 1
+a254 2
+		$stuff =~ /^\s*car\s+(\S+)/;
+		if (defined($1) ) {
+d256 16
+@
+
+
+1.10
+log
+@Added a new car type, perhaps temporarily; would be nice to
+interpret purchase comments
+@
+text
+@a46 1
+        "GTO'92",
+d261 1
+d273 10
+@
+
+
+1.9
+log
+@rudimentary prize-car check
+@
+text
+@d47 1
+@
+
+
+1.8
+log
+@Added new competing cars.
+@
+text
+@d59 1
+a59 1
+       "Lancer", "green","yellow","purple", "Alcyone", "blue","white", "purple",
+d65 1
+a65 1
+       "Cerbera", "purple", "green","",  "delSol", "black ", "red", "",
+d82 14
+a95 1
+my($name,$length,$car1,$c1,$c2,$c3,$car2,$d1,$d2,$d3);
+d111 17
+d131 1
+d175 9
+d231 13
+a243 1
+	
+@
+
+
+1.7
+log
+@added yellowConceptCar
+@
+text
+@d25 1
+d34 1
+@
+
+
+1.6
+log
+@Added a new car...
+@
+text
+@d43 1
+@
+
+
+1.5
+log
+@Filled in prize table.
+@
+text
+@d39 1
+@
+
+
+1.4
+log
+@begin putting in stuff to check prize car accumulations.
+@
+text
+@d51 24
+a74 15
+        "CRX", "yellow","blue","black", "Celica","green","yellow","purple",
+
+  "FR",          3, "Silvia", "", "", "", "Sileighty", "", "", "",
+  "4wd",         3, "Lancer", "", "", "", "Alcyone", "", "", "",
+  "Lwt",         3, "Civic", "", "", "", "Eunos", "", "", "",
+  "USvsJP",      5, "Viper", "", "", "", "FTO", "", "", "",
+  "UKvsJP",      5, "Cerbera", "", "", "", "del Sol", "", "", "",
+  "UKvsUS",      5, "RX7", "", "", "", "ConceptCar", "", "", "",
+  "Mega",        3, "DB7", "", "", "", "Soarer", "", "", "",
+  "Normal",      5, "Impreza", "", "", "", "SupraRZ", "", "", "",
+  "Tuned",       5, "Trueno", "", "", "", "Skyline", "", "", "",
+  "Abnormal",    5, "Trueno", "", "", "", "Skyline", "", "", "",
+  "GV300",       1, "Supra", "", "", "", "", "", "", "",
+  "All-nightI",  1, "Silvia", "", "", "", "", "", "", "",
+  "All-nightII", 1, "NismoGT-R LM", "", "", "", "", "", "", "",
+@
+
+
+1.3
+log
+@Add per-series length checking.
+@
+text
+@d14 31
+d46 20
+a65 18
+	"Sunday",      3,
+	"Clubman",     3,
+	"GTC",         4,
+	"GTI",         6,
+	"FF",          3,
+	"FR",          3,
+	"4wd",         3,
+	"Lwt",         3,
+	"USvsJP",      5,
+	"UKvsJP",      5,
+	"UKvsUS",      5,
+	"Mega",        3,
+	"Normal",      5,
+	"Tuned",       5,
+	"Abnormal",    5,
+	"GV300",       1,
+	"All-nightI",  1,
+	"All-nightII", 1,
+d69 1
+a69 1
+my($name,$length);
+d74 12
+d89 4
+d136 2
+a137 1
+	my($rest,$i,$none,$pat,$race,$length);
+d156 2
+a157 1
+			$race = $i;
+d165 12
+a176 2
+	elsif ($diff != $length) {
+		&warn("Bad end day for series \"$race\": $_\n");
+d178 1
+@
+
+
+1.2
+log
+@Added more stuff.
+Primarily, pre-parse day range, and recognize license test attempts
+@
+text
+@d14 19
+a32 19
+@@main::racelist = (
+	"Sunday",
+	"Clubman",
+	"GTC",
+	"GTI",
+	"FF",
+	"FR",
+	"4wd",
+	"Lwt",
+	"USvsJP",
+	"UKvsJP",
+	"UKvsUS",
+	"Mega",
+	"Normal",
+	"Tuned",
+	"Abnormal",
+	"GV300",
+	"All-nightI",
+	"All-nightII",
+d34 10
+d87 1
+a87 1
+	my($rest,$i,$none,$pat,$race);
+d101 1
+d107 1
+d113 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d14 21
+d55 19
+d75 3
+a77 2
+	my($line) = @@_;
+	my($start,$end,$diff);
+a78 3
+	$line =~ /^\s*(\d+)-(\d+)/;
+	$start = $1;
+	$end = $2;
+d88 14
+d106 1
+a106 2
+	my($line) = @@_;
+	my($day,$diff);
+d108 1
+a108 2
+	$line =~ /^\s*(\d+)/;
+	$day = $1;
+d110 1
+a110 1
+		&warn("Bad single day: $_\n");
+d118 1
+a118 2
+	my($line) = @@_;
+	my($day,$diff);
+d126 1
+a126 1
+		&warn("Bad single day: $_\n");
+d129 1
+a129 1
+	$main::maxtoday = $day + 1;
+d140 2
+d143 20
+d166 4
+d171 1
+a171 1
+		&doseriesline($line);
+d174 2
+a175 1
+		&do1dayline($line);
+@

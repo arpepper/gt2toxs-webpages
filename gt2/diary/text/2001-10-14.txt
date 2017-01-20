@@ -1,0 +1,133 @@
+Sunday, October 14, 2001
+
+I Finally Get Gold on A-4 and Get the Very Last Prize-Car in Gran Turismo 1
+
+Threads:
+  License Test Progress
+
+<CODES>
+I actually got my last Gold on the remaining A License test, and won the
+<b>TRD 3000GT</b>!
+
+So I was alone Sunday evening, and stayed up later than I intended.
+I'd almost given up on passing the <b>A-4</b> license test that evening.
+So maybe I relaxed a bit, and passed by a clear margin.
+</CODES>
+
+Here are my final standings for my A-4 license test.
+
+<HTML INDENT>
+<FONT FACE="Helvetica, Lucida Sans, Courier">
+<TABLE WIDTH="80%"><TR><TD ALIGN="center">
+<TABLE>
+<TR><TD>1.</TD><TD>ARP14Oct01</TD><TD>0:37.344</TD></TR>
+<TR><TD>2.</TD><TD>G.T.GOLD</TD><TD>0:37.400</TD></TR>
+<TR><TD>3.</TD><TD>ARP14Oct01</TD><TD>0:37.484</TD></TR>
+<TR><TD>4.</TD><TD>ARP14Oct01</TD><TD>0:37.523</TD></TR>
+<TR><TD>5.</TD><TD>ARP14Oct01</TD><TD>0:37.618</TD></TR>
+<TR><TD>6.</TD><TD>ARP04Sep00</TD><TD>0:37.748</TD></TR>
+<TR><TD>7.</TD><TD>ARP14Oct01</TD><TD>0:37.759</TD></TR>
+<TR><TD>8.</TD><TD>ARP01Sep00</TD><TD>0:37.818</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FONT>
+</HTML>
+
+Note that, to keep a fairly wide variety of results, and avoid using up
+too many game days, I reload my game when I have done too many tries
+which get "on the board" without setting a new personal record (silver)
+time.
+Nonetheless, my top two times above were done with no other times
+between them.
+That is 0:37.484 was the closest I got to passing without passing,
+and 0:37.344 was my first pass.  So not only was it a clear pass, it
+was quite a bit faster than my previous best.
+
+Thread: Driving Advice
+
+Key to this test seemed to be the first right-hand corner.
+My gold replay showed I had taken it a lot faster than in my previous
+best silver attempts (which I had also saved; when I didn't seem to be
+driving too well, I would watch them to determine where I had lost time
+and where I might be able to gain more).
+
+I started with a good warmup as usual, and took a wide smooth arc through
+the first left-hander through the tunnel, holding it fairly tight, but
+maintaining 74mph; I shifted to third late, after the exit.  On my exit
+I didn't go all the way to the outside of the road, but pulled myself
+back to prepare for the hard right-hander.  I turned early for that,
+after just dabbing the brakes, and barely went below 66mph, using drift
+to avoid hitting the inside rocks, and just barely missing the outside.
+
+The next sequence was one I had studied hard about a year ago for IA-6,
+which I found to be the hardest IA test.  You don't seem to have time to
+go to the right side to set up for the slight left hander, so I just
+stay on the left make the slight left turn, but turn in a little early
+for the right hander which is a little sharper than it looks.  You must
+feather the throttle to avoid too much tire squeal; go too fast, and
+tire slippage actually reduces your speed.  My minimum touched in the
+corner was 85mph; entry was at just barely 92mph.  (That requires the
+good fast exit from the right-hander).
+
+This took me into the tunnel rather quickly.  I hit 93mph, then began
+turning left sharply, appearing to head for the inside wall, but having
+drift pull me to the right.  I seemed to need no brakes for that turn;
+the action of turning combined with a little fine throttle control slowed
+me enough.  I drove right through the yellow hash lines--this is another
+place where you must feather slightly to avoid the deadly tire squeal.
+The minimum speed touched was 87mph.   I then accelerated as early as
+was safe, used all the road on my exit and sped to the finish line.
+
+A key to all the corners before straights on this test (in fact all
+such corners on all tests) is to arrange to mash the gas just a little
+early for the exit, so as to maximize your speed on the straight.
+To achieve that, you must apex a little late, which means turning just
+a bit later (going in a bit deeper) for the corner than a perfectly
+symmetrical line would require.  But also on this test you have to
+account for a lot of drift which pulls you out from the line you
+might otherwise think you would be taking.
+
+Here's a summary of my A license test standings now:
+<HTML INDENT>
+<FONT FACE="Helvetica, Lucida Sans, Courier">
+<TABLE WIDTH="80%"><TR><TD ALIGN="center">
+<TABLE>
+<TR><TH>&nbsp;</TH><TH>Car & Track</TH><TH>&nbsp;</TH><TH>My Time</TH><TH>Gold</TH></TR>
+<TR><TD>A-1</TD><TD>Supra DFRW</TD><TD>ARP28Sep01</TD><TD>0:32.335</TD><TD>(0:32.400)</TD></TR>
+<TR><TD>A-2</TD><TD>Supra Autumn</TD><TD>ARP22Aug00</TD><TD>0:24.758</TD><TD>(0:24.760)</TD></TR>
+<TR><TD>A-3</TD><TD>RX-7 Grand Vly</TD><TD>ARP28Sep01</TD><TD>0:42.765</TD><TD>(0:42.800)</TD></TR>
+<TR><TD>A-4</TD><TD>R33GT-R Trial Mtn</TD><TD>ARP14Oct01</TD><TD>0:37.344</TD><TD>(0:37.400)</TD></TR>
+<TR><TD>A-5</TD><TD>Prelude Grand Vly</TD><TD>ARP13Oct01</TD><TD>0:30.189</TD><TD>(0:30.200)</TD></TR>
+<TR><TD>A-6</TD><TD>MR2 DFRW</TD><TD>ARP04Sep00</TD><TD>0:26.107</TD><TD>(0:26.150)</TD></TR>
+<TR><TD>A-7</TD><TD>Subaru Dizzy</TD><TD>ARP18Nov99</TD><TD>0:26.928</TD><TD>(0:29.500)</TD></TR>
+<TR><TD>A-8</TD><TD>Supra Grand Vly</TD><TD>ARP12Oct01</TD><TD>1:05.581</TD><TD>(1:05.600)</TD></TR>
+<TR><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>Total Time</TD><TD>4:46.007</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+</FONT>
+</HTML>
+
+The above shows again how I save my name in license tests records.   It indicates
+the date I got gold on each test.
+
+So, as I said before, I use a Dual Shock, with analog gas/brake, manual
+transmission using R1/R2.  Handbrake is L1, but I never use that.  All
+my left hand does is steer with its thumb.  8-)  Or very occasionally
+look back with L2.
+
+===============================================================================
+Copyright (C) 1999, 2000 the author/owner of
+http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+Monday November 22, 1999
+
+

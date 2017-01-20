@@ -1,0 +1,145 @@
+Monday July 03, 2000
+
+
+(GT2)  GameShark Code to Set Up Two Player Drag Racing in Arcade Mode
+
+Threads:
+ Gran Turismo 2
+ Game Shark Hints
+
+
+Here is a code, for North American Gran Turismo 2, (Arcade Mode)
+
+I have a version for each of the two versions of that disk that
+I know of.
+
+It arranges that whenever you attempt to enter any race
+which is one lap long, the race gets hijacked to the Max Speed Test
+course for a 1000m "drag race".
+
+The Max Speed Test track has the property that the start line is
+1000m away from the finish line.  So, if you start on lap 1 of a
+lap 1 race, you will be done as soon as you cross the finish line,
+but that finish line is actually a full 1000m away.  (Setting the
+number of laps to zero does not work, because the game treats that
+as a "free session").
+
+Unfortunately, the cars are not lined up evenly for the start.
+
+Here is the code for Version 1.0, the Arcade Mode Disk I got
+on the first date of issue of the North American version.  It
+requires a GameShark 3.XX, and will interfer with other codes
+and so is best used as the only active code.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C01D52CA 0100 -- Does no codes unless race is one lap long
+ 801D52FC 23D2 -- sets track to Max Speed Test
+ 801D52FE 74C8 -- sets track, part two
+
+ D00A99AC 0000 -- tests if player 1 lap count is zero
+ 800A99AC 0001 ---- if so, sets it to 1
+ D00AA4EC 0000 -- tests if player 2 lap count is zero
+ 800AA4EC 0001 ---- if so, sets it to 1
+</pre></font></tt>
+</HTML>
+
+Notes:
+C01D52CA 0100 -- Does no codes unless race is one lap long
+The first "global condition" can be set to anything you think is
+appropriate.
+
+While you should be able to play most of the game with these codes on,
+I wouldn't guarantee it, and it makes most sense to me to activate the
+codes, play some drag races, and never save the game with the codes in
+effect.  Don't bother saving any replays; they're liable to screw up,
+unless you view them with this code in effect.
+
+The addresses used for this version of the disk are, by semi-coincidence,
+the same as those for the 1.0 version of the Simulation Disk.
+
+
+<HTML>
+<HR>
+</HTML>
+If your GameShark does not support C0, but does support D0, (version
+2.XX, not version 3.XX) you can put
+
+D01D52CA 0100
+
+(Ie. Does next code only if track race is one lap long)
+
+in front of the two track setting codes.  Unfortunately, in that case
+all Arcade Mode races will start with a one lap head start for two of
+the cars.
+
+I.e.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ D01D52CA 0100 -- Tests whether race is one lap long
+ 801D52FC 23D2 ---- if so, sets track to Max Speed Test
+ D01D52CA 0100 -- Tests whether race is one lap long
+ 801D52FE 74C8 ---- if so,  sets track, part two
+
+ D00A99AC 0000 -- tests if player 1 lap count is zero
+ 800A99AC 0001 ---- if so, sets it to 1
+ D00AA4EC 0000 -- tests if player 2 lap count is zero
+ 800AA4EC 0001 ---- if so, sets it to 1
+</pre></font></tt>
+</HTML>
+
+All the usual cautions with GameShark Codes apply in this case.
+
+<HTML>
+<HR>
+</HTML>
+
+Here are the corresponding codes for the other version of the Arcade
+Mode disk.  I got this version with both other copies of Gran Turismo
+2 I bought.  The version of the Simulation Mode Disk you got does not
+guarantee which version of the Arcade Mode Disk you will have got.
+
+For GameShark 3.XX:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ C01D563A 0100 -- Does no codes unless race is one lap long
+ 801D566C 23D2 -- sets track to Max Speed Test
+ 801D566E 74C8 -- sets track, part two
+
+ D00A9A5C 0000 -- tests if player 1 lap count is zero
+ 800A9A5C 0001 ---- if so, sets it to 1
+ D00AA59C 0000 -- tests if player 2 lap count is zero
+ 800AA59C 0001 ---- if so, sets it to 1
+</pre></font></tt>
+</HTML>
+
+For GameShark 2.XX:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ D01D563A 0100 -- Tests whether race is one lap long
+ 801D566C 23D2 ---- if so, sets track to Max Speed Test
+ D01D563A 0100 -- Tests whether race is one lap long
+ 801D566E 74C8 ---- if so,  sets track, part two
+
+ D00A9A5C 0000 -- tests if player 1 lap count is zero
+ 800A9A5C 0001 ---- if so, sets it to 1
+ D00AA59C 0000 -- tests if player 2 lap count is zero
+ 800AA59C 0001 ---- if so, sets it to 1
+</pre></font></tt>
+</HTML>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

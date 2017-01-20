@@ -1,0 +1,2068 @@
+January 25, 2003
+Note:  (Saturday)
+       I hoped to do this game in 100 days.
+       I did not worry too much about license test order, but decided not
+       to sell prize cars (or any car).
+       I also set out to use Mazdas as much as possible, inspired in part
+       by my discovery that I can indeed beat the TRD in the Normal Series
+       by using the better RX-7's.
+       Note that no Mazdas are eligible for the 4WD series, so I hoped
+       to use a prize car.
+
+   1      B4 pass 0:25.280 S (1 try)
+   2      B5 pass 0:24.317 B (1 try)
+   3      B3 pass 0:29.718 B (1 try)
+   4      B6 pass 0:26.158 S (1 try)
+   5      B7 oass 0:25.041 S (1 try)
+   6      B1 pass 0:35.343 B (3 tries)
+   7      B2 pass 0:26.369 B (1 try)
+   8      B8 pass 1:19.947 S (1 try)
+   9   B license acquired  4:33.662
+
+   9   buy car FCRX7   Blaze Red Mazda RX-7 GT-X (Savanna) (Cr8,740)
+Note: can get cheaper, but want time to get both Eunos 20B and RX7'91
+   9   select car FCRX7
+   9   Cr1,260
+   9   buy parts  FCRX7  Rfw  (Cr1,200)
+   9   Cr260
+   9-12   FCRX7      Sunday      q4H,1st27to18,12,9,5,4        Demio(1/1)
+  13   Cr27,260
+
+Note: I blew it here a bit.
+Note: I should have gone for my A license and won the Normal as early as
+Note: possible, so I could pick up several bargain used Mazdas.
+
+  13   select car Demio
+  13   buy parts  Demio   TS2, Rmuff, WR1   (Cr12,500, Cr4,500, Cr1,200)
+  13   buy parts  Demio   SR-S/S            (Cr7,000)
+  13   fit parts  Demio   TS2, Rmuff, WR1, SR-S/S
+  13   Cr2,000
+  13-16   Demio       FF  q646,G3,1st22to21,14,9,5,4    greenCelica(1/6)
+  17   Cr23,560    Note: 1 race not won
+
+  17   buy parts  Demio   S/S, WR2, chip    (Cr15,000, Cr5,500, Cr1,500)
+  17   buy parts  Demio   Rfw               (Cr1,000)
+  17   fit parts  Demio   TS2, Rmuff, chip, WR2, Rfw, S/S
+
+  17      A1 pass 0:33.443 B (1 try)
+  18      A2 pass 0:25.250 B (1 try)
+  19      A3 pass 0:43.224 B (1 try)
+  20      A4 pass 0:38.916 B (2 tries)
+  21      A5 pass 0:31.865 B (1 try)
+  22      A6 pass 0:26.854 B (1 try)
+  23      A7 pass 0:29.253 G (1 try)
+  24      A8 pass 1:06.330 B (2 tries)
+  25   A license acquired  4:55.135 (CHECK)
+Note: 4:44pm - save game again
+  25-28   Demio          Clubman  q6*1st27to16,13,8,7,4      Camaro(1/1*)
+  29   Cr41,560
+  29   buy car FDRX7'91  Vintage Red Mazda '91 efini RX-7 TypeR (Cr16,910)
+  29   buy car  Cosmo20B  Silver Stone Metallic Mazda Eunos Cosmo 20B Type-E CCS (Cr22,490)
+  29   Cr2,160  Note: could have saved Cr400 on RX-7 by waiting a day
+  29   power off
+
+January 26, 2003
+  29-32   Demio       Lwt  q6C,1st27to18,9,9,7,5         yellowCivic(1/6)
+  33   Cr31,160     7 cars
+  33   buy car cheapRX7'91  Vintage Red Mazda '91 efini RX-7 TypeR (Cr16,510)
+  33   Cr14,650     8 cars
+  33   power off
+
+February 01, 2003
+  33   select car cheapRX7'91
+  33-38   cheapRX7'91   Normal 1st42to33,18,16,11,5      blueImpreza(1/6)
+Note:                          q23156D2,1st42to33,18,16,11,5
+  39   Cr334,650     9 cars   Note: no NSX
+  39   buy car tunedRX7'91  Vintage Red Mazda '91 efini RX-7 TypeR (Cr16,510)(trade)
+  39   buy car [R]RX7'91  Vintage Red Mazda '91 efini RX-7 TypeR for [R]mod (Cr16,510)(trade)
+  39   Cr301,630    11 cars
+  39   select car FDRX7'91
+  39   buy parts FDRX7'91     S/S, TS3         (Cr15,000, Cr45,000)
+  39   fit parts FDRX7'91     S/S, TS3     421hp
+  39   Cr241,630    11 cars
+  39-42   FDRX7'91   FR  sw27to18,12,9,6,3              redS13Silvia(1/6)
+  43   Cr271,130    12 cars
+  43   buy parts FDRX7'91    Rsusp, SpBr (Cr20,000, Cr5,000)
+  43   buy parts FDRX7'91    Fstab,Rstab (Cr700,Cr600)
+  43   fit parts FDRX7'91    S/S,TS3,Rsusp,Fstab,Rstab,SpBr
+  43   Cr244,830
+  43-47   FDRX7'91  GTC    q5663,1st36to17,17,15,10,5       ChaserLM(1/1)
+  48   Cr309,830    13 cars
+
+  48   select car [R]RX7'91
+  48   mod car  [R]RX7'91   [R]mod,pol,bal     (Cr85,000, Cr6,000, Cr16,000)
+  48   mod car  [R]RX7'91   chip,Rmuff,Bctlr   (Cr2,000, Cr5,000, C10,000)
+  48   mod car  [R]RX7'91   Rtrans,3clu,Rfw    (Cr10,500, Cr5,000, C1,200)
+  48   mod car  [R]RX7'91   shaft,Ric          (Cr3,500, C3,500)
+  48   fit parts  [R]RX7'91   max [R]mod   527hp  1999lb
+  48   Cr162,130
+
+  48-53   [R]RX7'91  UKvsJP     sw45to28,18,15,12,7    greenCerbera(1/4)
+  54   Cr247,130    14 cars
+  54   power off
+
+February 02, 2003
+  54-59   [R]RX7'91   USvsJP  sw45to27,20,15,13,5      ViperWblueSt(1/4)
+  60   Cr332,130    15 cars
+
+  60   select car  Impreza'96   (alias blueImpreza)
+  60   mod car  Impreza'96   (alias blueImpreza)
+  60   buy parts  Impreza'96   Rmuff,Ric,TS1       (Cr5,000, Cr3,500, Cr5,000)
+  60   buy parts  Impreza'96   S/S                 (Cr15,000)
+  60   Cr303,630
+  60   fit parts  Impreza'96   Rmuff,Ric,TS1,S/S
+  60-63   Impreza'96  4wd  q6S2,1st24to19,14,7,7,4    dkBlueAlcyone(1/6)
+  64   Cr328,630    16 cars
+  64   power off
+
+February 04, 2003
+  64  select car [R]CerberaLM (alias greenCerbera)
+  64  mod car [R]CerberaLM (alias greenCerbera)
+  64-69   [R]CerberaLM  UKvsUS   sw45to23,21,20,11,5        greenRX7(1/4)
+  70   Cr413,630    17 cars
+  70   power off
+
+February 05, 2003
+  70   select car  Cosmo20B  (Silver Stone Metallic)
+  70   mod car  Cosmo20B  WR1,WR2,WR3   (Cr1,500, Cr6,000, Cr25,000)
+  70   mod car  Cosmo20B  pol,bal  (Cr6,000 Cr16,000)
+  70   buy parts Cosmo20B   Rmuff,SpBr,Bctlr   (Cr5,000, Cr5,000, Cr10,000)
+  70   buy parts Cosmo20B   chip,Rtrans,3clu   (Cr2,000, Cr10,500, Cr5,000)
+  70   buy parts Cosmo20B   Rfw,shaft,Ric      (Cr1,200, Cr3,500, Cr3,500)
+  70   buy parts Cosmo20B   TS2,TS3,S/S     (Cr14,000, Cr45,000, Cr15,000)
+  70   buy parts Cosmo20B   Rsusp,Fstab,Rstab  (Cr20,000, Cr700, Cr600)
+  70   Cr218,130
+  70   fit parts Cosmo20B   max-tune  673hp  3073lb
+  70   Note: Passion Red Cosmo20B now available for Cr10,640  8-(
+  70   power off
+
+February 07, 2003
+  70-73   Cosmo20B  Mega  q6*H4,1st21to17,16,10,6,5       whiteDB7(1/6)
+  74   Cr280,130    18 cars
+  74   power off
+
+February 08, 2003
+  74       IA1 HSR    pass 1:04.819 S (1 try)
+  75       IA3 GV     pass 1:59.518 S (1 try)
+  76       IA5 Autumn pass 1:23.735 B (1 try)
+Note: first SSR11 try was a bare pass after a partial spin, so I reloaded
+Note:  77  IA7 SSR11  pass 2:12.989 B
+  77       IA7 SSR11  pass 2:08.790 S (2 tries)
+  78       IA2 SSR5   pass 1:28.755 B (1 try)
+  79       IA4 DFRW   pass 1:21.350 B (1 try)
+  80       IA6 TM     pass 1:32.432 B (1 try)
+  81       IA8 GVii   pass 1:57.423 B (1 try)
+  82   IA license acquired  12:56.822
+
+  82   select car tunedRX7'91
+  82   mod car tunedRX7'91  WR1,WR2,WR3   (Cr1,500, Cr6,000, Cr25,000)
+  82   mod car tunedRX7'91  pol,bal  (Cr6,000 Cr16,000)
+  82   Cr225,630
+  82   fit parts tunedRX7'91  max-tune   527hp  2361hp
+  82-87   tunedRX7'91   Abnormal  1st40to26,19,18,17,5   blueTrueno(1/6)
+Note:                             q26111,1st40to26,19,18,17,5
+  88   Cr575,630    19 cars
+  88   power off
+
+February 09, 2003
+  88   buy car  NSX'93   Formula Red NSX'93  (Cr60,080)
+  88   Cr515,550    20 cars
+  88   select car [R]RX7'91
+  88-89   [R]RX7'91     GV300        q1st1st        black/blueSupra(1/2)
+  90   Cr835,550    21 cars
+  90   buy car  Miata'92S   Classic Red Mazda Eunos Roadster '92 S-Special (Cr8,120)
+  90   Cr827,430   22 cars
+  90   power off
+
+February 12, 2003
+  90-91   [R]RX7'91        All-nightI   q1st1st       greenSilviaLM(1/2)
+  92   Cr997,430   23 cars
+  92   power off
+
+February 14, 2003
+  92   select car tunedRX7'91
+  92-93   tunedRX7'91      All-nightII  q1st1st  silverNismoGT-R LM(1/1*)
+  94   Cr1,167,430   24 cars
+  94   power off
+
+February 16, 2003
+  94   select car [R]RX7'91
+  94-100  [R]RX7'91     GTI  sw54to33,25,20,11,7       hifi+  credits
+  101  Cr1,397,430   24 cars
+  101  power off
+
+February 21, 2003
+  101  buy car  GTO'92tt  Passion Red Mitsubishi GTO'92 twinturbo (Cr14,040)
+  101  buy car  Soarer'95 Dark Blue Mica Phtalocyanine Toyota Soarer'95 2.5GT-T (Cr13,730)
+  101  Cr1,369,660   26 cars
+  101  select car cheapRX7'91
+ 101-106  cheapRX7'91   Normal  q64165,G2D2S2,2nd39to(34),22,13,10,7    8-(
+  107  Cr1,504,660     Note: no Lancer
+  107  power off
+
+February 22, 2003
+ 107-112  cheapRX7'91   Normal q24161,1st37to36,22,11,10,9  orangeImpreza(2/6)
+  113  Cr1,789,660    27 cars   Note: no Lancer
+  113  select car [R]AspecLM (alias greenRX7)
+  113  mod car [R]AspecLM (alias greenRX7)
+ 113-119  [R]AspecLM    GTI   q5D,1st,54to36,24,15,14,7       credits
+  120  Cr2,009,660    27 cars   Note: only Impreza
+  120  buy car  Supra'95SZ-R  Super White ii Toyota Supra'95 SZ-R (Cr18,520)
+  120  buy car  TourerV'92    Super White ii Toyota 2.5 Tourer V'92 Mark II (Cr18,420)
+  120  Cr1,972,720    29 cars
+  120  power off
+
+February 23, 2003
+  120  buy car RX7RZ   Brilliant Black Mazda efini RX-7 Type RZ (Cr40,150)
+  120  Cr1,932,570    30 cars
+  120  select car RX7RZ
+ 120-125  RX7RZ    Normal q24161,G2D3,1st37to36,20,14,13,5  yellowImpreza(3/6)
+  126  Cr2,217,570    31 cars    Note: no Impreza
+  126  select car tunedRX7'91
+ 126-131  tunedRX7'91   Abnormal  sw45to27,19,15,14,5    pinkTrueno(2/6)
+  132  Cr2,617,570    32 cars
+  132  buy car  GTR'89  Black Pearl Metallic Nissan Skyline GT-R'89 (Cr19,880)
+  132  buy car redNSX'91  Formula Red Acura NSX'91 (Cr41,660)
+  132  Cr2,556,030    34 cars
+  132  select car blueImpreza
+ 132-135  blueImpreza  4wd  q5S,1st27to14,11,10,8,5     greenLancer(2/6)
+  136  Cr2,584,030    35 cars
+
+  136  select car yellowImpreza
+  136  buy parts  yellowImpreza  TS2                (Cr14,000)
+  136  buy parts  yellowImpreza  Rsusp,Fstab,Rstab  (Cr20,000,Cr700,Cr600)
+  136  Cr2,548,730
+  136  fit parts  yellowImpreza  Rmuff,Ric,S/S, TS2,Rsusp,Fstab,Rstab
+ 136-140  yellowImpreza  GTC  q6*1st36to17,15,11,10,9       ChaserLM(dup)(sold)
+  141  Cr2,613,730  Cr2,625,730  35 cars
+  141  power off
+
+February 24, 2003
+  141  select car RX7RZ
+ 141-146  RX7RZ   Normal q14161,1st39to36,20,13,11,6   orangeImpreza(dup)(sold)
+Note:                    q14161,G2D2,1st39to36,20,13,11,6
+  147  Cr2,915,730  Cr2,927,730  35 cars   Note: no R33
+  147  power off
+
+March 2, 2003
+ 147-152  RX7RZ   Normal q14161,1st37to36,22,14,10,6   yellowImpreza(dup)(sold)
+Note:                    q14161,G2D3,1st37to36,22,14,10,6
+  153  Cr3,222,730  Cr3,234,730  35 cars   Note: no RX7
+ 153-158  RX7RZ   Normal G2q3D,1st42to33,20,15,8,7     yellowImpreza(dup)(sold)
+  159  Cr3,584,730  Cr3,596,730  35 cars   Note: no Lancer
+ 159-164  RX7RZ   Normal q26144,1st37to36,21,16,9,6    yellowImpreza(dup)(sold)
+Note:                    q26144,G2D3,1st37to36,21,16,9,6
+  165  Cr3,871,730  Cr3,883,730  35 cars   Note: no Impreza
+  165  buy car  redSilvia'88K  Super Red Nissan Silvia'88 K's 1800cc (Cr5,930)
+  165  Cr3,877,800  36 cars
+  165  select car redSilvia'88K
+ 165-168  redSilvia'88K  Sunday  q164,1st27to15,14,10,5,5      Demio(dup)(sold)
+  169  Cr3,903,300  Cr3,915,300
+  169  select car RX7RZ
+ 169-172  RX7RZ          Sunday        sw27to18,12,7,6,5       Demio(dup)(sold)
+  173  Cr3,943,800  Cr3,955,800
+  173  buy car redCosmo20B  Passion Rose Mica Mazda Eunos Cosmo 20B Type-E CCS (Cr10,250)
+  173  buy car wineSoarer   Wine Red Mica Toyota Soarer'95 2.5GT-T (Cr15,370)
+  173  buy car Pulsar Blue Gray Graphite Pearl Nissan Pulsar '91 GTi-R (Cr9,770)
+  173  Cr3,920,410  39cars
+  173  power off
+
+March 5, 2003
+  173  select car Pulsar
+ 173-176  Pulsar         Sunday        sw27to18,12,7,6,5       Demio(dup)(sold)
+  177  Cr3,948,910  Cr3,960,910
+  177  select car Demio
+ 177-180  Demio          Sunday        sw27to18,12,8,6,4       Demio(dup)(sold)
+  181  Cr3,989,410  Cr4,001,410  39 cars
+  181  power off
+
+March 6, 2003
+  181  select car CelicaSSII
+  181  mod car CelicaSSII (alias greenCelica)
+ 181-184  CelicaSSII     Sunday    q166,1st27to18,10,8,8,4     Demio(kaw)
+  185  Cr4,026,910  40 cars
+  185  buy car  yellowEunos'89  J Limited Sunburst Yellow Mazda Eunos Roadster'89 Normal (Cr10,790)
+  185  Cr4,016,120  41 cars
+  185  select car  yellowEunos'89
+ 185-188  yellowEunos'89 Sunday    q266,5H,1st20to16,13,11,8,7 Demio(dup)(sold)
+  189  Cr4,037,420  Cr4,049,420  41cars
+  189  select car  Demio
+ 189-192  Demio       Lwt  q164,1st27to13,11,8,8,8       yellowEunos(2/6)
+  193  Cr4,076,420  42 cars
+  193  buy car  CrimsonLegacyWG'93  Crimson Mica Subaru Legacy '93 Touring Wagon GT (Cr13,440)
+  193  Cr4,062,980  43 cars
+  193  power off
+
+March 9, 2003
+  193  select car  RX7RZ
+ 193-198  RX7RZ   Normal q13141,1st39to36,18,15,11,6   purpleSupraRZ(4/6)
+Note:                    q13141,G2D2,1st39to36,18,15,11,6   Note: no TRD
+  199  Cr4,362,980  44 cars
+ 199-204  RX7RZ   Normal q11261,1st39to36,20,14,10,6   yellowImpreza(dup)(sold)
+Note:                    q11261,G2D2,1st39to36,20,14,10,6   Note: no RX7
+  205  Cr4,662,980  Cr4,674,980
+  205  buy car FCRX7III  Brilliant Black Mazda Savanna RX-7 efini III (Cr8,770)
+  205  Cr4,666,210  45 cars
+  205  select car  purpleSupraRZ
+ 205-210  purpleSupraRZ Normal  1st42to33,19,15,10,6   yellowImpreza(dup)(sold)
+Note:                    q22144,D2,1st42to33,19,15,10,6  Note: no Impreza
+  211  Cr4,986,210  Cr4,998,210
+  211  buy car  redGTR'89  Red Pearl Metallic Nissan Skyline'89 GT-R (Cr20,140)
+  211  Cr4,978,070  46 cars
+  211  power off
+
+March 10, 2003
+  211  buy car  green[R]WRX  Active Red Subaru Impreza'96 WRX for green[R]mod (Cr25,550)
+  211  Cr4,952,520  47 cars
+  211  select car  green[R]WRX
+  211  mod car   green[R]WRX   pol,bal           (Cr6,000 Cr16,000)
+  211  buy parts green[R]WRX   Rmuff,SpBr,Bctlr  (Cr5,000, Cr5,000, Cr10,000)
+  211  buy parts green[R]WRX   chip,Rtrans,3clu  (Cr2,000, Cr10,500, Cr5,000)
+  211  buy parts green[R]WRX   Rfw,shaft,Ric     (Cr1,200, Cr3,500, Cr3,500)
+  211  buy parts green[R]WRX   TS3,TS4,S/S       (Cr45,000, Cr72,000, Cr15,000)
+  211  buy parts green[R]WRX   Rsusp,Fstab,Rstab (Cr20,000, Cr700, Cr600)
+  211  Cr4,731,520
+  211  mod car green[R]WRX     [R]mod            (Cr85,000)
+  211  Cr4,646,520   47 cars
+  211  fit parts green[R]WRX   max-[R]tune    494hp  1984lb
+ 211-216  green[R]WRX  UKvsJP   sw45to28,19,13,13,7    black delSol(2/4)
+  217  Cr4,731,520   48 cars
+  217  power off
+
+March 14, 2003
+ 217-222  green[R]WRX   USvsJP sw45to30,20,15,9,6          blackFTO(2/4)
+  223  Cr4,816,520   49 cars
+  223  buy car Civic'93SD  Herbert Blue Pearl Honda Civic'93 Sedan (Cr9,910)
+  223  buy car EvoIII  Queens Silver Mitsubishi Lancer Evolution III GSR (Cr20,610)
+  223  buy car Impreza'94WG  Light Silver Metallic Subaru Impreza'94 Wagon WRX (Cr13,510)
+  223  Cr4,772,490   52 cars
+  223  power off
+
+March 15, 2003
+ 223-229  green[R]WRX   GTI  sw54to36,24,18,11,7              credits
+  230  Cr5,002,490   52 cars
+  230  buy car  CRX'91  Flint Black Metallic  Honda Civic'91 CR-X Si (Cr4,700)
+  230  buy car  GTS4    Crystal White Nissan R32 Skyline GTS-4 (Cr8,170)
+  230  buy car red180SX  Super Red Nissan 180SX'94 Type X (Cr13,540)
+  230  Cr4,976,080   55 cars
+
+  230  select car EvoIII
+ 230-235  EvoIII   Normal  q36366,G2D3S3,2nd39to(32),24,13,11,6    8-(
+  236  Cr5,096,080   55 cars    Note: no NSX
+ 236-241  EvoIII   Normal  D2S2,1st39to36,18,16,10,6  orangeSupraRZ(5/6)
+Note:                      q26466,D2S2,1st39to36,18,16,10,6  Note: no NSX
+  242  Cr5,366,080   56 cars
+
+  242  select car WRX'95SD
+  242  buy car  WRX'95SD  Feather White Subaru Impreza'95 WRX STi Ver.II (Cr18,400)
+  242  Cr5,347,680   57 cars
+ 242      TT WRX'95SD  GVEii  2:24.093rec  1:07.811rec
+ 243      TT WRX'95SD  SSR11  2:17.049 + 2:07.426rec = 4:24.475rec
+ 244-249  WRX'95SD Normal  G2D3,1st37to36,21,16,9,6   orangeImpreza(dup)(sold)
+Note:                      q44262,G2D3,1st37to36,21,16,9,6  Note: no Impreza
+  250  Cr5,612,680   Cr5,624,680   57 cars
+  250  buy car MkII'92S  Dark Green M.I.O Toyota Mark II'92 Tourer S (Cr12,210)
+  250  Cr5,612,470   58 cars
+ 250-255  WRX'95SD Normal  G2D2,1st39to36,19,16,9,6   orangeImpreza(dup)(sold)
+Note:                      q33161,G2D2,1st39to36,19,16,9,6  Note: no Impreza
+  256  Cr5,902,470   Cr5,914,470   58 cars
+
+  256  select car NSX'93  (Formula Red)
+ 256-261  NSX'93   Normal  D2,1st42to33,20,12,9,9       blueImpreza(dup)(sold)
+Note:                      q13131,D2,1st42to33,20,12,9,9  Nore: no Lancer
+  262  Cr6,254,470   Cr6,266,470   58 cars
+  262  buy car  VspecII  Black Pearl Metallic Nissan R32 Skyline GT-R VspecII (Cr36,830)
+  262  buy car  yellowCyborg  Champagnish Yellow Mitsubishi Mirage'92 Cyborg R (Cr8,180)
+  262  power off
+
+March 17, 2003
+  262  select car green[R]WRX
+ 262-268  green[R]WRX   GTI  sw54to36,24,18,11,7              credits
+  269  Cr6,451,460   60 cars
+  269  power off
+
+March 19, 2003
+ 269       IA1 HSR    FAIL
+ 270       IA1 HSR    pass 1:05.189 B
+ 271       IA3 GV     pass 2:01.552 B
+ 272       IA5 Autumn pass 1:22.549 B  -1.186
+ 273       IA7 SSR11  pass 2:11.994 B
+  274  IA license now 12:55.636
+ 274       IA1 HSR    pass 1:05.208 B
+ 275       IA1 HSR    pass 1:04.571 S -0.248
+ 276       IA1 HSR    pass 1:04.617 B(S)
+ 277       IA1 HSR    pass 1:04.924 B(S)
+ 278       IA1 HSR    pass 1:05.019 B(S)
+ 279       IA1 GV     pass 1:58.861 S -0.657
+ 280       IA1 GV     pass 1:58.609 S -0.252
+ 281       IA1 GV     FAIL
+ 282       IA1 GV     pass 1:58.153 S -0.456
+ 283       IA1 GV     pass 1:58.421 B(S)
+  284  IA license now 12:54.023
+
+  284  buy car  Silvia'88Q  Lime Green 2Tone Nissan S13 Silvia'88 Q's 1800cc (Cr3,330)
+  284  Cr6,448,130   61 cars
+ 284       IA5 Autumn pass 1:23.746 B
+ 285       IA5 Autumn pass 1:21.198 B 8-( -1.351
+ 286       IA5 Autumn pass FAIL
+ 287       IA5 Autumn pass 1:21.593 B
+ 288       IA5 Autumn pass FAIL
+ 289       IA5 Autumn pass 1:22.127 B
+ 290       IA5 Autumn pass 1:20.885 S -0.313
+ 291       IA5 Autumn pass FAIL
+ 292       IA5 Autumn pass 1:20.961 B(S)
+ 293       IA5 Autumn pass FAIL
+ 294       IA5 Autumn pass 1:20.705 S -0.180
+  295  IA license now 12:52.179
+ 295       IA5 Autumn pass 1:21.279 B
+ 296       IA5 Autumn pass 1:20.988 B(S)
+ 297       IA5 Autumn FAIL
+ 298       IA5 Autumn FAIL
+ 299       IA5 Autumn pass 1:20.936 B(S)
+ 300       IA5 Autumn pass 1:21.274 B
+ 301       IA5 Autumn pass 1:21.6xx B
+ 302       IA5 Autumn pass 1:21.266 B
+
+  303  sell  entry 51 Queens Silver Mitsubishi Lancer Evolution III GSR (Cr20,610) -> (Cr12,366)
+  303  Cr6,460,496   60 cars
+
+  303  buy car EvoIII  Scotia White Mitsubishi Lancer Evolution III GSR (Cr20,240)
+  303  buy car  GTO'95tt  Passion Red Mitsubishi GTO'95 twinturbo (Cr22,230)
+  303  buy car  reddelSolSi  Milano Red Honda del Sol'93 Si (Cr6,970)
+  303  Cr6,411,056   63 cars
+  303  power off
+
+March 22, 2003
+  303  select car tuned180SX'94
+  303  buy car tuned180SX'94  hard-tuned Super Red Nissan 180SX'94 Type X (Cr13,540)(trade)
+  303  Cr6,397,516   64 cars
+  303  mod car  tuned180SX'94  WR1,WR2,WR3   (Cr1,200, Cr5,500, Cr22,500)
+  303  mod car  tuned180SX'94  pol,bal  (Cr5,000 Cr13,500)
+  303  buy parts tuned180SX'94  Rmuff,SpBr,Bctlr   (Cr4,500, Cr5,000, Cr10,000)
+  303  buy parts tuned180SX'94  chip,Rtrans,3clu   (Cr1,500, Cr10,500, Cr5,000)
+  303  buy parts tuned180SX'94  Rfw,shaft,Ric      (Cr1,000, Cr3,000, Cr3,000)
+  303  buy parts tuned180SX'94  TS2,TS3,S/S     (Cr12,500, Cr36,000, Cr15,000)
+  303  buy parts tuned180SX'94  Rsusp,Fstab,Rstab  (Cr18,000, Cr700, Cr600)
+  303  fit parts tuned180SX'94   max-tune  479hp  2266lb  val Cr168,840
+  303  Cr6,223,016   64 cars
+ 303-308  tuned180SX'94 Abnormal  1st32to30,27,16,15,5   blueTrueno(dup)(sold)
+Note:                          q23111,G2A3S3,1st32to30,27,16,15,5
+  309  Cr6,523,016   Cr6,535,016   64 cars
+  309  select car redGTR'89   (Red Pearl Metallic)
+ 309-314  redGTR'89 Normal G2D3,1st1st37to36,22,15,9,6  ltBlueSupraRZ(6/6*)
+Note:                      q14441,G2D3,1st37to36,22,15,9,6  Note: no Impreza
+  315  Cr6,820,016   65 cars
+
+  315  sell entry 39 Blue Gray Graphite Pearl Nissan Pulsar '91 GTi-R (Cr9,770) -> (Cr5,862)
+  315  Cr6,825,878   64 cars
+  315  buy car Pulsar Blue Gray Graphite Pearl Nissan Pulsar '91 GTi-R (Cr9,540)
+  315  Cr6,816,878   65 cars
+  315  buy car FTO'94GR Pyrenees Black Mitsubishi FTO'94 GR (Cr10,660)
+  315  Cr6,805,678   66 cars
+  315  select car GTS4  (Crystal White)
+ 315-318  GTS4           Sunday    q166,1st27to16,12,11,5,4    Demio(dup)(sold)
+  319  Cr6,831,178   Cr6,843,178   66 cars
+ 319-322  GTS4           Sunday    q166,1st27to16,12,11,5,4    Demio(dup)(sold)
+  323  Cr6,868,678   Cr6,880,678   66 cars
+  323  buy car redLegacy'93  Matador Red Subaru Legacy '93 Touring Sport RS (Cr12,900)
+  323  Cr6,867,778   67 cars
+
+  
+ 323       IA7 SSR11  pass 2:09.520 B(S)
+ 324       IA7 SSR11  pass 2:07.497 S   -1.293
+ 325       IA7 SSR11  pass 2:07.047 S   -0.450
+ 326       IA7 SSR11  pass 2:06.219 G   -0.828
+
+ 327       IA1 HSR    pass 1:05.315 B
+ 328       IA1 HSR    pass 1:04.933 B(S)
+ 329       IA1 HSR    pass 1:05.248 B
+ 330       IA1 HSR    pass 1:04.932 B(S)
+  331  IA license now 12:49.608
+  331  buy car black180SX  Super Black Nissan 180SX'94 Type X (Cr10,880)
+  331  Cr6,856,898   68 cars
+ 331       IA1 HSR    pass 1:04.686 B(S)
+ 332       IA1 HSR    pass 1:04.713 B(S)
+ 333       IA1 HSR    pass 1:04.714 B(S)
+ 334       IA1 HSR    pass 1:05.199 B(S)
+ 335       IA1 HSR    pass 1:04.853 B(S)
+ 336       IA1 HSR    pass 1:04.773 B(S)
+ 337       IA1 HSR    FAIL
+ 338       IA1 HSR    pass 1:04.965 B(S)
+ 339       IA1 HSR    pass 1:04.750 B(S)
+ 340       IA1 HSR    pass 1:04.711 B(S)
+ 341       IA1 HSR    pass 1:04.785 B(S)
+  342  IA license n/c
+  342  buy car yellowRX7'91  Competition Yellow Mica Mazda '91 efini RX-7 TypeR (Cr19,840)
+
+  342  buy car Legacy'93  Black Mica Subaru Legacy '93 Touring Sport RS (Cr12,800)
+  342  Cr6,824,258   70 cars
+
+ 342       IA3 GV     pass 1:59.268 B(S)
+ 343       IA3 GV     FAIL
+ 344       IA3 GV     pass 1:58.584 B(S)
+ 345       IA3 GV     pass 1:58.536 B(S)
+ 346       IA3 GV     pass 1:58.618 B(S)
+ 347       IA3 GV     pass 1:58.281 B(S)
+ 348       IA3 GV     pass 1:57.901 S -0.252
+ 349       IA3 GV     pass 1:57.608 G -0.293
+  350  IA license now 12:49.063
+  350  buy car  Miata'90V   British Racing Green Mazda Eunos Roadster '90 V-Special (Cr7,840)
+  350  buy car NismoGTR  Gun Gray Metallic Nissan R32 Skyline GT-R Nismo (Cr31,150)
+  350  Cr6,785,268   72 cars
+ 350       IA5 Autumn pass 1:21.509 B  - 1:21.100 is S
+ 351       IA5 Autumn pass 1:21.750 B
+ 352       IA5 Autumn pass 1:20.468 S -0.237
+ 353       IA5 Autumn pass 1:21.333 B
+ 354       IA5 Autumn pass 1:20.683 B(S)
+ 355       IA5 Autumn pass 1:21.282 B
+ 356       IA5 Autumn FAIL
+ 357       IA5 Autumn pass 1:20.691 B(S)
+ 358       IA5 Autumn FAIL
+ 359       IA5 Autumn pass 1:21.173 B
+ 360       IA5 FAIL
+  361  IA license now 12:48.826
+  
+  361  buy car redCivic3dr93  Milano Red Honda Civic'93 3Door Si (Cr9,340)
+  361  buy car GTO'92SR       Fiji Blue Mitsubishi GTO'92 (Cr7,350)
+  361  buy car whiteLevin  High-Tech Two-Tone(white) Toyota AE86 Corolla Levin GT-APEX (Cr6,470)
+  361  Cr6,762,108   75 cars
+  361  power off
+
+March 23, 2003
+  361  select car tuned180SX'94
+ 361-366  tuned180SX'94 Abnormal  sw45to24,21,17,12,6    blueTrueno(dup)(sold)
+  367  Cr7,162,108   Cr7,174,108   75 cars
+  367  select car  reddelSolSi
+ 367-370  reddelSolSi   Sunday  q166,1st27to14,14,9,7,4       Demio(dup)(sold)
+  371  Cr7,199,608   Cr7,211,608   75 cars
+  371  buy car  Silvia'95K  Purplish Blue Nissan S14 Silvia'95 K's (Cr13,680)
+  371  Cr7,197,928   76 cars
+  371  select car yellowCivic
+ 371-374  yellowCivic   Sunday  q162,1st27to16,14,9,5,4       Demio(dup)(sold)
+  375  Cr7,223,428   Cr7,235,428   76 cars
+  375  select car tuned180SX'94
+ 375-380  tuned180SX'94 Abnormal q6G,1st45to23,22,18,12,5 whiteTrueno(3/6)
+  381  Cr7,625,428   77 cars
+
+  381  buy car  redCRX   Torino Red Pearl Honda Civic'91 CR-X Si (Cr5,260)
+  381  buy car  delSolS  Milano Red Honda del Sol'93 S (Cr6,070)
+  381  buy car  NSX'91   Shallot Green Pearl Acura NSX'91 (Cr39,890)
+  381  buy car  MA70Supra  White Pearl Mica Toyota MA70 Supra GT Turbo Limited (Cr6,210)
+  381  Cr7,567,998   81 cars
+  
+  381  select car redCRX
+ 381-384  redCRX        Sunday  q266,1st27to16,13,8,7,4       Demio(dup)(sold)
+  385  Cr7,591,998   Cr7,603,998   81 cars
+  385  select car [R]ChaserLM
+  385  mod car [R]ChaserLM  (alias ChaserLM)
+ 385-390  [R]ChaserLM  UKvsJP q6H,1st45to24,18,17,14,7 greenCerbera(dup)(sold)
+  391  Cr7,685,998   Cr7,697,998   81 cars
+
+  391  buy car yellowEvoIII  Dandelion Yellow Mitsubishi Lancer Evolution III GSR (Cr23,590)
+  391  buy car Primera'90  Raspberry Red Pearl Nissan Primera '90 2.0Te (Cr5,710)
+  391  buy car GTR'91   Dark Blue Pearl Nissan R32 Skyline'91 GT-R (Cr24,310)
+  391  Cr7,644,388   84 cars
+  391  power off
+
+March 26, 2003
+ 391-397  [R]ChaserLM   GTI  q622261,311431,1st38to35,31,28,12,6  credits
+  398  Cr7,777,388   84 cars
+  398  select car  Primera'90  (Raspberry Red Pearl)
+ 398-401  Primera'90    Sunday  q466,1st27to14,12,8,7,7       Demio(dup)(sold)
+  402  Cr7,801,388   Cr7,813,388   84 cars
+  402  buy car Cosmo13B  Creek Blue Mica Mazda Eunos Cosmo 13B TypeS CCS (Cr9,620)
+  402  buy car GTR'95    White Nissan R33 Skyline'95 GT-R (Cr32,970)
+  402  buy car yellow'94GPX  Dandelion Yellow Mitsubishi FTO'94 GPX (Cr12,920)
+  402  Cr7,757,878   87 cars
+  402  power off
+
+March 27, 2003
+  402  select car [R]ChaserLM
+ 402-407  [R]ChaserLM   USvsJP q2H,1st45to25,22,15,11,7    blackFTO(dup)(sold)
+  408  Cr7,839,878   Cr7,851,878
+ 408-413  [R]ChaserLM  UKvsJP   sw45to23,20,16,14,7    black delSol(dup)(sold)
+  414  Cr7,936,878   Cr7,948,878   87 cars
+  414  buy car Silvia'91Q  Purplish Silver 2Tone Nissan S13 Silvia'91 Q's 2000cc (Cr6,320)
+  414  buy car redPrelude'94  Milano Red Honda Prelude'94 VTEC (Cr9,850)
+  414  Cr7,932,708   89 cars
+  414  power off
+
+March 28, 2003
+  414  select car redPrelude'94
+ 414-417  redPrelude'94 Sunday  q5H,1st27to18,11,9,6,4        Demio(dup)(sold)
+  418  Cr7,959,708   Cr7,971,708
+  418  select car GTR'95  (White)
+ 418-421  GTR'95        Sunday    sw1st27to18,12,7,6,5        Demio(dup)(sold)
+  422  Cr8,000,208   Cr8,012,208   89 cars
+  422  buy car GTRVspec   Red Pearl Nissan R32 Skyline GT-R Vspec (Cr34,210)
+  422  Cr7,977,988   90 cars
+  422  select car NSX'93  (Formula Red)
+ 422-427  NSX'93   Normal  D2,1st42to31,20,15,12,5    purpleSupraRZ(dup)(sold)
+Note:                      q46166,D2,1st42to31,20,15,12,5 Note: no NSX  8-(
+  428  Cr8,297,988   Cr8,309,988   90 cars
+  428  power off
+
+March 29, 2003
+ 428-433  NSX'93   Normal  G2D2,1st39to34,22,14,9,7   purpleSupraRZ(dup)(sold)
+Note:                      q12121,G2D2,1st39to34,22,14,9,7 Note: no Impreza
+  434  Cr8,609,988   Cr8,621,988   90 cars   NSX 3rd at AM
+  434  buy car Prelude'94  Phantom Gray Pearl Honda Prelude'94 VTEC (Cr8,470)
+  434  Cr8,613,528   91 cars
+  434  power off
+
+March 30, 2003
+ 434-439  NSX'93   Normal   D2,1st42to33,19,14,11,6   orangeImpreza(dup)(sold)
+Note:                      q44122,D2,1st42to33,19,14,11,6 Note: no TRD
+  440  Cr8,933,528   Cr8,945,528
+  440  buy car  silverWRX'95SD  Light Silver Metallic Subaru Impreza'95 WRX STi Ver.II (Cr18,180)
+  440  Cr8,927,348   92 cars
+ 440-445  NSX'93   Normal G2q6D2,1st39to36,20,14,11,5 orangeSupraRZ(dup)(sold)
+  446  Cr9,237,348   Cr9,249,348   92 cars   Note: no R33GT-R
+ 446-451  NSX'93   Normal  G2D2,1st39to36,20,15,10,5    blueImpreza(dup)(sold)
+Note:                      q24166,G2D2,1st39to36,20,15,10,5  Note: no Impreza
+  452  Cr9,529,348   Cr9,541,348   92 cars
+  452  buy car  SVXL   White Mica Subaru Alcyone SVX Version L (Cr17,480)
+  452  Cr9,523,868   93 cars
+
+  452  select car SVXL
+ 452-455  SVXL          Sunday  q6*,1st27to16,12,11,6,3       Demio(dup)(sold)
+  456  Cr9,547,868   Cr9,559,868
+  456  select car GTO'92tt  (Passion Red)
+ 456-459  GTO'92tt      Sunday  sw27to18,11,10,5,4            Demio(dup)(sold)
+  460  Cr9,588,868   Cr9,600,868
+  460  buy car  Levin    High-Flash Two-tone(red) Toyota AE86 Corolla Levin GT-APEX (Cr5,740)
+  460  Cr9,594,628   94 cars
+  460  power off
+
+March 31, 2003
+ 460       IA5 Autumn pass 1:23.311 B  8-(  1:21.100 is S
+ 461       IA5 Autumn pass 1:21.343 B
+ 462       IA5 Autumn pass 1:20.970 B(S)
+ 463       IA5 Autumn pass 1:20.575 B(S) - chart (3rd)
+ 464       IA5 Autumn pass 1:21.158 B
+ 465       IA5 Autumn pass 1:20.610 B(S)
+ 466       IA5 Autumn pass 1:20.064 G -0.404
+  467  IA license now 12:48.422
+ 467       IA1 HSR    pass 1:04.650 B(S) - chart (5th)
+ 468       IA1 HSR    pass 1:04.368 S -0.203
+ 469       IA1 HSR    pass 1:04.467 B(S)
+ 470       IA1 HSR    pass 1:04.949 B(S)
+ 471       IA1 HSR    pass 1:04.539 B(S)
+  472  IA license now 12:48.219
+  472  buy car redSilvia'88K  Cranberry Red Nissan S13 Silvia'88 K's 1800cc (Cr5,610)
+  472  Cr9,589,018   95 cars
+
+  472  sell entry 54 orangeSupraRZ
+  472  sell entry 48 blackFTO
+  472  sell entry 47 black delSol
+  472  sell entry 43 purpleSupraRZ
+  472  sell entry 39 Demio
+  472  sell entry 36 Super Red Nissan Silvia'88 K's 1800cc -> (Cr3,558)
+  472  sell entry 35 greenLancer
+  472  sell entry 32 pinkTrueno
+  472  sell entry 31 yellowImpreza
+  472  sell entry 27 orangeImpreza
+  472  sell entry 24 silverNismoGT-R LM
+  472  sell entry 21 black/blueSupra
+  472  sell entry 19 blueTrueno
+  472  sell entry 18 whiteDB7
+  472  sell entry 17 greenRX7
+  472  sell entry 16 dkBlueAlcyone
+  472  sell entry 12 redS13Silvia
+  472  sell entry  7 yellowCivic
+  472  sell entry  4 Camaro
+  472  sell entry  3 greenCelica
+
+  472  Cr9,820,576   75 cars
+  472  power off
+
+April 2, 2003
+ 472       IA1 HSR    pass 1:05.013 B(S) - chart (5th) (1:05.200 silver)
+ 473       IA1 HSR    pass 1:05.113 B(S)
+ 474       IA1 HSR    pass 1:04.642 B(S) - (8th)
+ 475       IA1 HSR    pass 1:04.307 S -0.061
+ 476       IA1 HSR    pass 1:04.369 B(S)
+ 477       IA1 HSR    pass 1:04.387 B(S)
+ 478       IA1 HSR    pass 1:04.732 B(S)
+ 479       IA1 HSR    pass 1:04.762 B(S)
+ 480       IA1 HSR    pass 1:04.621 B(S)
+ 481       IA1 HSR    pass 1:05.205 B
+  482  IA license now 12:48.158
+ 482       IA1 HSR    pass 1:04.797 B(S)
+ 483       IA1 HSR    pass 1:04.434 B(S) (6th)
+ 484       IA1 HSR    pass 1:05.003 B(S)
+ 485       IA1 HSR    pass 1:04.499 B(S)
+ 486       IA1 HSR    pass 1:04.438 B(S)
+ 487       IA1 HSR    FAIL
+ 488       IA1 HSR    pass 1:05.005 B(S)
+ 489       IA1 HSR    pass 1:04.761 B(S)
+ 490       IA1 HSR    pass 1:04.594 B(S)
+  491  IA license now 12:48.158 (no change)
+
+  491  buy car  SVXS4  Bright Green Mica Subaru Alcyone SVX S4 (Cr18,270)
+  491  Cr9,802,306   76 cars
+
+ 491       IA1 HSR    pass 1:04.659 B(S)
+ 492       IA1 HSR    pass 1:04.744 B(S)
+ 493       IA1 HSR    pass 1:04.976 B(S)
+ 494       IA1 HSR    pass 1:04.721 B(S)
+ 495       IA1 HSR    pass 1:04.932 B(S)
+ 496       IA1 HSR    pass 1:05.084 B(S)
+ 497       IA1 HSR    pass 1:04.634 B(S)
+ 498       IA1 HSR    FAIL
+ 499       IA1 HSR    pass 1:05.329 B
+ 500       IA1 HSR    pass 1:04.645 B(S)
+ 501       IA1 HSR    pass 1:04.405 B(S) (6th)
+ 502       IA1 HSR    FAIL
+  503  IA license now 12:48.158 (no change)
+
+  503  buy car  Supra'95RZ  Silver Metallic Toyota Supra'95 RZ (Cr22,580)
+  503  buy car redGTR'91   Red Pearl Nissan R32 Skyline'91 GT-R (Cr26,740)
+  503  Cr9,752,986   78 cars
+
+ 503       IA1 HSR    pass 1:04.738 B(S)
+ 504       IA1 HSR    pass 1:04.797 B(S)
+ 505       IA1 HSR    pass 1:04.062 S -0.245
+ 506       IA1 HSR    pass 1:04.043 S -0.019
+ 507       IA1 HSR    pass 1:04.169 B(S)
+ 508       IA1 HSR    pass 1:04.610 B(S)
+ 509       IA1 HSR    pass 1:04.363 B(S)
+ 510       IA1 HSR    pass 1:04.351 B(S)
+ 511       IA1 HSR    pass 1:05.364 B
+ 512       IA1 HSR    pass 1:04.857 B(S)
+ 513       IA1 HSR    pass 1:04.023 S -0.020
+  514  IA license now 12:47.874
+
+ 514       IA1 HSR    pass 1:04.405 B(S)
+ 515       IA1 HSR    pass 1:04.861 B(S)
+ 516       IA1 HSR    pass 1:04.304 B(S)
+ 517       IA1 HSR    pass 1:04.248 B(S)
+ 518       IA1 HSR    pass 1:04.542 B(S)
+ 519       IA1 HSR    pass 1:04.533 B(S)
+ 520       IA1 HSR    pass 1:04.273 B(S)
+ 521       IA1 HSR    pass 1:04.826 B(S)
+ 522       IA1 HSR    pass 1:04.227 B(S) (6th)
+ 523       IA1 HSR    pass 1:04.413 B(S)
+  524  IA license now 12:47.874 (no change)
+
+  524  buy car  GTO'95MR  Passion Red Mitsubishi GTO'95 MR (Cr27,090)
+  524  buy car  Silvia'95Q  Super Clear Red Nissan S14 Silvia'95 Q's (Cr8,930)
+  524  Cr9,716,966   80 cars
+  524  power off
+
+April 3, 2003
+ 524       IA1 HSR    pass 1:04.505 B(S)
+ 525       IA1 HSR    pass 1:04.557 B(S)
+ 526       IA1 HSR    pass 1:04.162 B(S) (5th)
+ 527       IA1 HSR    pass 1:04.147 B(S) (5th)
+ 528       IA1 HSR    pass 1:04.331 B(S)
+ 529       IA1 HSR    pass 1:04.416 B(S)
+ 530       IA1 HSR    FAIL
+ 531       IA1 HSR    pass 1:04.510 B(S)
+ 532       IA1 HSR    pass 1:03.959 G -0.064
+  533  IA license now 12:47.810
+
+  533  buy car blueFCRX7III  Brave Blue Mica Mazda Savanna RX-7 efini III (Cr9,760)
+  533  Cr9,707,206   81 cars
+
+ 533       IA8 GVii   FAIL
+ 534       IA8 GVii   1:55.748 S -1.675 (silver 1:56.600)
+ 535       IA8 GVii   1:55.272 G
+  536  IA license now 12:45.659
+
+ 536       IA6 TM     1:32.515 B
+ 537       IA6 TM     1:30.502 B  3rd -1.930
+ 538       IA6 TM     1:31.024 B
+ 539       IA6 TM     1:31.723 B
+  540  IA license now 12:43.729
+
+  540  buy car  delSolSi  Vogue Silver Metallic Honda del Sol'93 Si (Cr6,800)
+  540  buy car  WRX'94SD  Feather White Subaru Impreza'94 Sedan WRX (Cr21,260)
+  540  buy car  Trueno   High-Flash Two-tone(red) Toyota AE86 Corolla Trueno GT-APEX (Cr5,500)
+  540  Cr9,673,646   84 cars
+  540  buy car  redGTO'95SR  Passion Red Mitsubishi GTO'95 SR (Cr18,490)
+  540  Cr9,655,156   85 cars
+  540  power off
+
+April 4, 2003
+  540  select car Supra'95RZ   (Silver Metallic)
+ 540-545  Supra'95RZ Normal q23132,D2,1st42to31,22,13,12,5 yellowImpreza(sold)
+  546  Cr9,975,156   Cr9,987,156   85 cars   Note: no R33GT-R, NSX 3rd@AMii
+  546  power off
+ 546-551  Supra'95RZ  Normal q2D,1st45to30,20,14,11,5    ltBlueSupraRZ(sold)
+  552  Cr10,377,156  Cr10,389,156   85 cars   Note: no R33GT-R
+  552  select car GTO'92tt  (Passion Red)
+ 552-557  GTO'92tt  Normal  G2D2,1st39to36,20,14,11,5   yellowImpreza(sold)
+Note:                     q26164,G2D2,1st39to36,20,14,11,5  Note: no TRD
+  558  Cr10,669,156  Cr10,681,156   85 cars
+  558  select car WRX'95SD  (Feather White?)
+ 558-563  WRX'95SD  Normal   q66166,1st45to30,16,16,13,5    purpleSupraRZ(sold)
+  564  Cr11,041,156  Cr11,053,156   85 cars   Note: no NSX
+
+  564  sell entry 35 Feather White Subaru Impreza'95 WRX STi Ver.II -> (Cr11,040)
+  564  Cr11,064,196  84 cars
+  564  buy car Civic3dr93  Captiva Blue Pearl Honda Civic'93 3Door Si (Cr8,480)
+  564  buy car  redWRX'95SD  Active Red Subaru Impreza'95 WRX STi Ver.II (Cr18,940)
+  564  Cr11,036,776  86 cars
+  564  power off
+
+April 5, 2003
+  564  select car Supra'95RZ   (Silver Metallic)
+ 564-569  Supra'95RZ Normal  G2D2,1st39to36,20,13,12,5   ltBlueSupraRZ(sold)
+Note:                       q43161,G2D2,1st39to36,20,13,12,5 Note: no R33GT-R
+  570  Cr11,326,776   Cr11,338,776   86 cars
+ 570-575  Supra'95RZ Normal  D2,1st42to33,20,15,10,5  purpleSupraRZ(sold)
+Note:                       q12242,D2,1st2to33,20,15,10,5  Note: no Impreza
+  576  Cr11,658,776   Cr11,670,776   86 cars
+ 576-581  Supra'95RZ Normal q13161,1st45to30,20,14,11,5   orangeSupraRZ(sold)
+  582  Cr12,050,776   Cr12,062,776   86 cars    Note: no NSX
+
+  582  buy car JZA70Supra Dark Green Mica Toyota JZA70 Supra Twin Turbo-R (Cr12,010)
+  582  buy car redPulsar Active Red Pearl Nissan Pulsar '91 GTi-R (Cr9,960)
+  582  Cr12,040,806  88 cars
+
+ 582-587  Supra'95RZ Normal q22164,1st45to30,19,16,10,5   orangeSupraRZ(sold)
+  588  Cr12,400,806   Cr12,412,806   88 cars    Note: no NSX
+  588  select car ltBlueSupraRZ
+ 588-593  ltBlueSupraRZ Normal q2D,1st45to30,20,15,10,5   ltBlueSupraRZ(sold)
+  594  Cr12,802,806   Cr12,814,806   88 cars    Note: no Impreza
+  594  select car tuned180SX'94  (Super Red)
+ 594-599  tuned180SX'94 Abnormal sw1st45to21,21,20,13,5    redSkyline(4/6)(kaw)
+  600  Cr13,214,806  89 cars
+  600  buy car Prelude'93  Cobalt Blue Pearl Honda Prelude'93 Si (Cr7,250)
+  600  Cr13,207,556  90 cars
+  600  power off
+
+April 6, 2003
+  600  select car ltBlueSupraRZ
+ 600-605  ltBlueSupraRZ Normal q2D,1st45to30,19,15,11,5   purpleSupraRZ(sold)
+  606  Cr13,597,556   Cr13,609,556              Note: no Impreza
+
+  606  select car tuned180SX'94  (Super Red)
+ 606-611  tuned180SX'94 Abnormal q26126,1st45to24,20,15,14,7  blueTrueno(sold)
+  612  Cr13,969,556   Cr13,981,556   90 cars
+
+  612  buy car  GTO'95SR  Pyrenees Black Mitsubishi GTO'95 SR (Cr17,890)
+  612  buy car  Silvia'88K  Super Black Nissan Silvia'88 K's 1800cc (Cr5,010)
+  612  Cr13,958,656   92 cars
+
+ 612-617  tuned180SX'94 Abnormal q2G,1st45to24,20,18,12,6 blueSkyline(5/6)(sold)
+  618  Cr14,348,656   Cr14,360,656   92 cars
+  618  power off
+
+April 8, 2003
+ 618-623  tuned180SX'94 Abnormal q4G,1st45to23,20,18,14,5 whiteTrueno(sold)
+  624  Cr14,750,656   Cr14,762,656
+ 624-629  tuned180SX'94 Abnormal sw1st45to24,21,17,13,5   pinkTrueno(dup)(sold)
+  630  Cr15,162,656   Cr15,174,656   92 cars
+ 
+  630  buy car cheapFCRX7   Blaze Red Mazda FC Savanna RX-7 GT-X (Cr8,050)
+  630  buy car Roadster'89  Silver Stone Metallic Mazda Eunos Roadster'89 Normal (Cr9,230)
+  630  buy car Silvia'91K  Super Black Nissan Silvia'91 K's 2000cc (Cr9,560)
+  630  buy car whiteSilvia'91K  Warm White 2tone Nissan Silvia'91 K's 2000cc (Cr9,730)
+  630  buy car  redMA70  Red Mica Toyota MA70 Supra GT Turbo Limited (Cr7,200)
+  630  Cr15,130,886   97 cars
+  630  power off
+
+April 10, 2003
+ 630-635  tuned180SX'94 Abnormal q4A,1st45to25,18,17,15,5  blueTrueno(sold)
+  636  Cr15,520,886   Cr15,532,886   97 cars
+  636  power off
+
+April 11, 2003
+  636  sell entry 89 red Nissan R32 Skyline '91 GT-R -> (Cr12,000)
+  636  sell entry 56 white Toyota AE86 Sprinter Trueno GT-APEX -> (Cr12,000)
+  636  sell entry 43 light blue Toyota Supra RZ -> (Cr12,000)
+  636  sell entry 25 yellow Mazda Eunos Roadster -> (Cr12,000)
+  636  sell entry 19 Brilliant Black Mazda efini RX-7 Type RZ -> (Cr24,090)
+  636  sell entry 11 ViperWblueSt -> (Cr12,000)
+  636  sell entry  9 ChaserLM -> (Cr12,000)
+  636  sell entry  5 Vintage Red Mazda '91 efini RX-7 TypeR -> (Cr9,906)
+  636  Cr15,638,882   89 cars
+
+ 636-641  tuned180SX'94 Abnormal  sw1st45to24,20,17,14,5 whiteTrueno(dup)(sold)
+  642  Cr16,038,882   Cr16,050,882   89 cars
+
+  642  buy car redFTO'94GR Passion Red Mitsubishi FTO'94 GR (Cr11,960)
+  642  Cr16,038,922   90 cars
+  642  power off
+
+April 12, 2003
+  642  select car Supra'95RZ  (Silver Metallic)
+ 642-647  Supra'95RZ Normal q24244,1st42to33,20,13,12,5     blueImpreza(sold)
+Note:                       q24244,D2,1st42to33,20,13,12,5  Note:  no TRD
+  648  Cr16,348,922   Cr16,360,922   90 cars
+ 648-653  Supra'95RZ Normal q12141,1st45to30,20,13,11,5   yellowImpreza(sold)
+  654  Cr16,740,922   Cr16,752,922   90 cars                Note: no RX7
+
+  654  buy car cheapRX7'91  Vintage Red Mazda '91 efini RX-7 TypeR (Cr16,370)
+  654  Cr16,736,552   91 cars
+
+ 654-659  Supra'95RZ Normal  q2D,1st45to28,22,13,11,6     orangeImpreza(sold)
+  660  Cr17,126,552   Cr17,138,552   91 cars  Note: no Lancer, NSX 3rd@AMii
+
+  660  buy car  Cyborg   Grace Silver Mitsubishi Mirage'92 Cyborg R (Cr7,210)
+  660  buy car R32GTS25S  Red Pearl Nissan R32 Skyline GTS25 TypeS (Cr7,860)
+  660  buy car R32GTStM  Dark Blue Pearl Nissan R32 Skyline GTS-t TypeM (Cr9,670)
+  660  Cr17,113,812   94 cars
+  660  buy car redPrelude'93  Cassis Red Pearl Honda Prelude'93 Si (Cr7,770)
+  660  Cr17,106,042   95 cars
+  660  power off
+
+April 13, 2003
+  660  select car GTR'95    (White)
+ 660-665  GTR'95  Normal  q14125,G2D2,1st39to36,19,14,10,7  purpleSupraRZ(sold)
+  666  Cr17,396,042   Cr17,408,042   95 cars    Note: no Impreza
+ 666-671  GTR'95  Normal  q13142,G2D2,1st39to36,19,15,11,5  orangeImpreza(sold)
+  672  Cr17,698,042   Cr17,710,042   95 cars    Note: no R33
+  672  select car GTO'95MR  (Passion Red)
+ 672-677  GTO'95MR Normal q15161,G2D3,1st37to36,21,15,11,5  ltBlueSupraRZ(kaw)
+  678  Cr18,005,042   96 cars    Note: no Impreza
+  678  select car ltBlueSupraRZ
+ 678-683  ltBlueSupraRZ Normal  D2,1st42to33,20,14,11,5   ltBlueSupraRZ(sold)
+Note:                          q13165,D2,1st42to33,20,14,11,5  Note: no RX7
+  684  Cr18,335,042   Cr18,347,042   96 cars
+
+  684  sell entry 96 light blue Toyota Supra RZ -> (Cr12,000)
+  684  Cr18,359,042   95 cars
+
+  684  buy car GTR'95Vspec  Sonic Silver Metallic Nissan R33 Skyline'95 GT-R Vspec (Cr36,660)
+  684  buy car Impreza'95WG  Active Red Subaru Impreza'95 Wagon WRX STi Ver.II (Cr13,290)
+  684  Cr18,309,092   97 cars
+
+  684  select car tunedRX7'91  (Vintage Red)
+ 684-689  tunedRX7'91 Abnormal  q6A,1st45to20,20,19,16,5  redSkyline(dup)(sold)
+  690  Cr18,699,092   Cr18,711,092   97 cars
+  690  buy car  FTO'94GPX  Imperial Red Mitsubishi FTO'94 GPX (Cr10,990)
+  690  Cr18,700,102   98 cars
+  690  power off
+
+April 16, 2003
+  Note: buy all S/S -> Cr17,815,102 = Cr885,000 = 59cars
+  Note:  62 cars - 180SX, RX7'91, Cosmo20B
+  Note: buy all Bctlr -> Cr17,225,102 = Cr590,000 = 59cars
+  690  Cr17,225,102   98cars
+  690  power off
+
+April 17, 2003
+  Note: buy all Hard Stab, F+R  -> Cr17,150,602 = Cr74,500 = 59*1300 - 11*200
+  Note: buy all Rmuff -> Cr16,877,602 = Cr273,000 = 59*5000 - 11*1000 - 22*500
+  Note: buy all SpBr -> Cr16,588,102 = Cr289,500 = 59*5000 - 11*500
+  Note: buy all chip -> Cr16,492,102 = Cr96,000 = 59*2000 - 11*1000 - 22*500
+  690  Cr16,492,102   98cars
+  690  power off
+
+April 18, 2003
+  Note: buy all Rtrans -> Cr15,878,102 = Cr614,000 = 59*10500 - 11*500
+  690  power off
+  Note: buy all 3clu  -> Cr15,588,602 = Cr289,500 = 59*5000 - 11*500
+  Note: buy all Rfw   -> Cr15,526,502 = Cr62,100 = 58*1200 - 11*300 - 21*200
+  Note: already had Rfw(only) for FCRX7 GTX; 59*1200 - 11*300 - 22*200 - 1000
+  Note: buy all Rsusp -> Cr14,445,502 = Cr1,081,000 = 59*20000 - 11*5000 - 22*2000
+  Note: buy all shaft -> Cr14,076,502 = Cr145,500 = 46*3500 - 9*1000 - 13*500
+  Note: 13 w.no shaft (2@3500, 9@3000, 2@2500)
+  Note: buy all NAmax -> Cr13,076,502 = Cr1,223,500; 2*70, 13*60, 4*50, 3*14.5, 6*10
+  690  Cr13,076,502   98cars
+  690  power off
+
+April 18, 2003
+  Note: buy all Ric  -> Cr12,973,502 = Cr103,000; 21*3500, 9*3000, 1*2500
+  Note: buy all TSmax -> Cr10,876,002 = Cr2,097,500; 9*12.5, 21*72, 8*36, 1*65, 2*45, 1*30
+  690  Cr10,876,002   98cars
+  690  power off
+  
+  Note: call this "gt1-parts(690).GME"
+
+October 4, 2003
+  Note: "fork" gt1-tuned
+
+  690  select car NSX'93 (Formula Red)
+  690  mod car NSX'93  WR3  1500+6000+25000
+  690  Cr10,843,002
+  Note: forgot pol+bal
+ 690-695 NSX'93 Tuned  q55166,13151,1st33to28,26,20,12,6  pinkTrueno(dup)(sold)
+  696  Cr11,128,502   Cr11,140,502   98 cars
+  696  mod car NSX'93  pol+bal  6000+16000
+  696  Cr11,118,502
+ 696-701 NSX'93 Tuned  q26121,12161,1st34to33,20,17,15,6  blueTrueno(dup)(sold)
+  702  Cr11,419,502   Cr11,431,502   98 cars
+ 702-707 NSX'93 Tuned  q26132,13361,2nd28to(27),26,21,17,6        8-(
+  708  Cr11,582,502
+  708  select car tuned180SX'94
+ 708-713 tuned180SX'94  Tuned  1st39to30,21,16,13,6    yellowSkyline(6/6)(sold)
+Note:                 q26132,12121,1st39to30,21,16,13,6
+  714  Cr11,922,502   Cr11,934,502   98 cars
+  714  power off
+
+October 5, 2003
+ 714-719 tuned180SX'94  Tuned   q2H,1st45to27,19,16,13,5  blueTrueno(dup)(sold)
+  720  Cr12,324,502   Cr12,336,502   98 cars
+  720  power off
+
+October 8, 2003
+  720  select car NSX'93 (Formula Red)
+ 720      TT NSX'93  GVii     1:45.461 + 1:39.591fl = 3:25.052
+ 721-726 NSX'93 Tuned  q24161,12151,1st35to30,21,21,13,5  pinkTrueno(dup)(sold)
+  727  Cr12,641,502   Cr12,653,502   98 cars
+  727  power off
+
+October 10, 2003
+ 727-732 NSX'93 Tuned  q21161,A3,1st40to27,19,18,16,5  yellowSkyline(dup)(sold)
+  733  Cr13,003,502   Cr13,015,502   98 cars
+
+  733  select car Miata'92S (Classic Red)
+  733  mod car Miata'92S  WR3  1000+5000+20000  pol+bal 5000+10000
+  733  Cr12,974,502
+ 733-738 Miata'92S  Tuned  q66166,56565,5th37to30,23,20,(8),7     8-(
+  739  Cr13,001,502
+ 739-743  Miata'92S    GTC  q6*,1221,1st30to23,21,10,10,6   ChaserLM(dup)(sold)
+  744  Cr13,060,502   Cr13,072,502   98 cars
+  744  power off
+
+October 12, 2003
+ 744-748  Miata'92S    GTC  q6*,4S,1st30to24,18,14,10,4     ChaserLM(dup)(sold)
+  749  Cr13,129,502   Cr13,141,502   98 cars
+
+  749  select car GTO'92tt   (Passion Red)
+  749  mod car GTO'92tt   WR3  1500+6000+25000  pol+bal 6000+16000
+  749  buy parts GTO'92tt   TS3  45000
+  749  Cr13,042,002
+ 749-754  GTO'92tt      Tuned   sw45to24,19,18,13,6       pinkTrueno(dup)(sold)
+  755  Cr13,442,502   Cr13,454,502   98 cars
+Note:  GTO'92tt  Max Speed  257mph
+
+  755  select car  SZ-R'95  (Super White ii)
+  755  mod car  SZ-R'95  (alias Supra'95SZ-R)
+  755  mod car SZ-R'95   WR3  1200+5500+22500  pol+bal 5500+13500 3152lb->2458
+  755  Cr13,405,802
+ 755      TT SZ-R'95  GVii     1:47.525 + 1:41.325fl = 3:28.850
+ 756-761 SZ-R'95 Tuned q66166,14311,1st34to26,23,18,18,6  redSkyline(dup)(sold)
+Note: a bit lucky with the SZ-R (slowish time at Autumn Ring)
+  762  Cr13,695,502   Cr13,707,502   98 cars
+  762  power off
+
+October 13, 2003
+  762  select car TourerV'92 (Super White ii)
+  762  mod car TourerV'92 WR3 1500+6000+25000  pol+bal 6000+16000 3196lb->2716
+  762  buy parts TourerV'92  TS3  45000
+  762  Cr13,608,302
+ 762-767 TourerV'92  Tuned  12131,1st37to30,20,19,14,5   whiteTrueno(dup)(sold)
+Note:                     q66161,12131,1st37to30,20,19,14,5
+  768  Cr13,928,302   Cr13,940,302   98 cars
+
+  768  select car redNSX'91
+  768  mod car redNSX'91  WR3 1500+6000+25000  pol+bal 6000+16000 3009lb->2345
+  768  buy parts redNSX'91   NA2  14500
+  768  Cr13,871,302
+ 768      TT redNSX'91  GVii     1:45.451 + 1:39.326rec = 3:24.777rec
+ 769-774 redNSX'91 Tuned  q45121,22121,2nd36to(35),20,15,13,5     8-(
+
+ 775      TT redNSX'91  GVii 1:45.765 + 1:39.441not = 3:24.206rec  1:39.242rec
+ 776-781 redNSX'91 Tuned   13111,1st40to29,20,16,13,7    whiteTrueno(dup)(sold)
+Note:                     q53161,13111,1st40to29,20,16,13,7
+Note:                       very slow winning time at Autumn Ring
+  782  Cr14,421,302   Cr14,433,302   98 cars
+  782  power off
+
+October 19, 2003
+  782  select car redCosmo20B
+  782  mod car redCosmo20B WR3 1500+6000+25000  pol+bal 6000+16000 3615lb->3073
+  782  Cr14,378,802
+ 782-787 redCosmo20B   Tuned  q14131,G2,1st42to30,19,16,13,5   pinkTrueno(sold)
+  788  Cr14,738,802   Cr14,750,802   98 cars
+  788  power off
+
+October 22, 2003
+  788  select car wineSoarer
+  788  mod car wineSoarer WR3 1500+6000+25000  pol+bal 6000+16000 3461lb->2940
+  788  buy parts wineSoarer  TS3  45000
+  788  Cr14,651,302
+ 788      TT wineSoarer GVii 1:46.557 + 1:38.983rec = 3:25.540not
+  789  Cr14,651,302
+  789  power off
+
+October 23, 2003
+ 789-794 wineSoarer   Tuned  q46166,1st45to22,21,18,14,5 whiteTrueno(dup)(sold)
+  795  Cr15,011,302   Cr15,023,302   98 cars
+  795  power off
+
+October 24, 2003
+  795  select car  Legacy'93WG  (Crimson Mica)
+  795  mod car  Legacy'93WG  (alias CrimsonLegacyWG'93)
+  795  mod car Legacy'93WG WR3 1500+6000+25000  pol+bal 6000+16000 3064lb->2603
+  795  buy parts Legacy'93WG  TS3  45000
+  795  Cr14,923,802
+ 795-800 Legacy'93WG Tuned  q66161,43321,3rd29to28,(26),22,15,5     8-(
+  801  Cr15,073,802
+  801  power off
+
+October 25, 2003
+ 801-806 Legacy'93WG Tuned  21311,1st37to25,23,19,16,5    blueTrueno(dup)(sold)
+Note:                q62112,21311,1st37to25,23,19,16,5    -- no Supra
+  807  Cr15,393,802   Cr15,405,802   98 cars
+  807  select car FCRX7III  (Brilliant Black)
+  807  mod car FCRX7III  WR3  1200+5500+22500  pol+bal 5500+13500 2645lb->2248
+  807  Cr15,357,602
+ 807-812 FCRX7III    Tuned   q4H,1st45to23,21,16,15,5     pinkTrueno(dup)(sold)
+  813  Cr15,747,602   Cr15,759,602   98 cars       Note:  no Supra
+  813  power off
+
+October 26, 2003
+  813  select car redGTR'89   (Red Pearl Metallic)
+  813  mod car redGTR'89   WR3 1500+6000+25000  pol+bal 6000+16000 3152lb->2678
+  813  buy parts redGTR'89   TS3  45000
+  813  Cr15,652,102
+ 813-818  redGTR'89     Tuned   sw45to24,23,14,14,5       redSkyline(dup)(sold)
+  819  Cr16,052,102   Cr16,064,102   98 cars  Note:  blue Supra + purple Civic
+ 819-824  redGTR'89     Tuned   sw45to22,22,19,12,5       blueTrueno(dup)(sold)
+  825  Cr16,464,102   Cr16,476,102   98 cars     Note:  blue Supra + red Civic
+
+  825  select car Civic'93SD  (Herbert Blue Pearl)
+  825  mod car Civic'93SD  WR3 1200+5500+22500  pol+bal 5500+13500 2275lb->1772
+  825  buy parts Civic'93SD   NA2  12000
+  825  Cr16,415,902
+ 825-830 Civic'93SD  Tuned  q66166,55545,5th37to27,26,19,(11),5     8-(
+  831  Cr16,455,102                           Note:  red Supra + purple Civic
+ 831-835  Civic'93SD   GTC  q6*,1st36to20,19,12,8,4         ChaserLM(dup)(sold)
+  836  Cr16,520,902   Cr16,532,902   98 cars
+  836  power off
+
+October 28, 2003
+Note:  Civic'93SD  Tuned  q66166,1st45to22,18,16,13,11   redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door
+  836  power off
+
+November 02, 2003
+  836  select car Impreza'94WG  (Light Silver Metallic)
+  836  mod car Impreza'94WG WR3 1500+6000+25000 pol+bal 6000+16000 2821lb->2398
+  836  buy parts Impreza'94WG   TS3  45000
+  836  Cr16,433,402
+ 836-841  Impreza'94WG  Tuned   sw45to25,19,18,13,5       pinkTrueno(dup)(sold)
+  842  Cr16,833,402   Cr16,845,402   98 cars
+
+  842  select car CRX'91  (Flint Black Metallic)
+  842  mod car CRX'91    WR3 1000+5000+20000  pol+bal 5000+10000  2173lb->1695
+  842  buy parts CRX'91    NA2  10000
+  842  Cr16,794,402
+ 842-847 CRX'91      Tuned  q66166,55455,5th37to27,23,22,(11),5     8-(
+  848  Cr16,834,402                              Note: Supra + Civic
+ 848-852  CRX'91       GTC  q6*,1st36to24,13,12,8,7         ChaserLM(dup)(sold)
+  853  Cr16,899,402   Cr16,911,402   98 cars
+  853  power off
+
+November 04, 2003
+Note:  CRX'91      Tuned  q66166,1st45to21,18,17,14,10   redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door
+  853  power off
+
+November 06, 2003
+  853  select car GTS4    (Crystal  White)
+  853  mod car GTS4      WR3  1200+5500+22500  pol+bal 5500+13500 3130lb->2660
+  853  mod car GTS4      disp Cr8000  121ci -> not reg'd
+  853  buy parts GTS4      TS2  Cr12500
+  853  Cr16,842,702
+ 853      TT GTS4    GVii 1:53.648 + 1:47.251 = 3:40.899  8-(
+  854  power off
+
+November 08, 2003
+ 854-859 GTS4        Tuned  q66166,55555,5th37to31,24,18,(10),5     8-(
+  860  Cr16,877,702                              Note: redSupra + purpleCivic
+ 860-864  GTS4         GTC  q6*,1st36to20,20,11,8,5         ChaserLM(dup)(sold)
+  865  Cr16,942,702   Cr16,954,702   98 cars
+  865  power off
+
+November 09, 2003
+Note:  GTS4      Tuned  q66166,G2,1st42to25,20,13,13,12  redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door
+  865  power off
+
+November 11, 2003
+  865  select car red180SX'94
+  865  mod car red180SX'94 (alias red180SX)
+  865  mod car red180SX'94 WR3 1200+5500+22500  pol+bal 5500+13500 2667lb->2266
+Note: already had TS2
+  865  Cr16,906,502
+ 865-870  red180SX'94 Tuned q34111,1st45to21,21,20,13,5   redSkyline(dup)(sold)
+  871  Cr17,286,502   Cr17,298,502   98 cars   Note: blueSupra + whiteCivic
+  871  power off
+
+November 13, 2003
+  871  select car MkII'92S  (Dark Green M.I.O)
+  871  mod car MkII'92S   WR3  1500+6000+25000  pol+bal 6000+16000 3020lb->2354
+  871  Cr17,244,002
+ 871      TT MkII'92S  GVii 1:54.899 + 1:47.563 = 3:42,462  8-(  1:47.493fl
+  872  power off
+
+November 15, 2003
+ 872-877 MkII'92S    Tuned  q66166,65555,5th36to27,25,22,(9),6      8-(
+  878  Cr17,275,002
+ 878      TT MkII'92S  GVii 1:55.005 + 1:47.464 = 3:42,469  8-(  1:47.464fl
+Note: standard FD 4.2 -> 4.5
+ 879-883  MkII'92S     GTC  q6*,1st36to19,18,15,11,4        ChaserLM(dup)(sold)
+  884  Cr17,337,002   Cr17,349,002   98 cars
+  884  power off
+Note:  MkII'92S  Tuned  q66166,1st45to20,20,18,15,7      redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door
+  884  power off
+
+N0vember 16, 2003
+  884  select car R32VspecII (Black Pearl Metallic)
+  884  mod car R32VspecII  (alias VspecII)
+  884  mod car R32VspecII  WR3 1500+6000+25000  pol+bal 6000+16000 3306lb->2810
+  884  mod car R32VspecII  disp Cr8000  156ci -> not reg'd
+  884  buy parts R32VspecII      TS3  Cr45000
+  884  Cr17,241,502
+ 884-889 R32VspecII  Tuned  q2G,1st45to22,22,19,12,5      blueTrueno(dup)(sold)
+  890  Cr17,631,502   Cr17,643,502   98 cars
+  890  power off
+
+N0vember 23, 2003
+  890  select car Silvia'88Q (Lime Green 2Tone)
+  890  mod car Silvia'88Q  WR3 1000+5000+20000  pol+bal 5000+10000 2403lb->
+ 890      TT Silvia'88Q  GVii 1:55.371 + 1:48.623 = 3:43.994
+  891  power off
+
+January 30, 2004
+  891  select car red180SX'94
+ 891-896  red180SX'94 Tuned q23112,C3,1st40to24,22,19,15,5 pinkTrueno(dup)(sold)
+  897  Cr17,942,502   Cr17,954,502   98 cars
+  897  power off
+
+February 01, 2004
+  897  select car Silvia'88Q
+ 897-902  Silvia'88Q  Tuned q6*,56455,5th37to30,23,18,(10),6     8-(
+  903  Cr17,990,502   98 cars
+  903  power off
+
+February 03, 2004
+Note:  Silvia'88Q Tuned  q66166,G3,1st40to22,20,16,15,12    whiteTrueno(temp)
+Note:  Sharked AI field to be entirely Civic3door
+
+February 07, 2004
+ 903-907  Silvia'88Q   GTC  q6*,3311,2nd27to(26),23,10,8,6       8-(
+  908  Cr18,016,502
+ 908-912  Silvia'88Q   GTC  q6*,3D,1st31to21,18,13,10,7     ChaserLM(dup)(sold)
+  913  Cr18,074,502   Cr18,086,502   98 cars
+  913  power off
+
+February 09, 2004
+  913  select car whiteEvoIII  (Scotia White)
+  913  mod car whiteEvoIII (alias EvoIII)
+  913  mod car whiteEvoIII WR3 1500+6000+25000  pol+bal 6000+16000 2777lb->2361
+  913  buy parts whiteEvoIII      TS3  Cr45000
+  913  Cr17,987,002
+  913  power off
+
+February 11, 2004
+ 913-918  whiteEvoIII Tuned q46151,A2,1st42to24,23,17,14,5 redSkyline(sold) 
+  919  Cr18,337,002   Cr18,349,002
+  919  power off
+
+February 15, 2004
+ 919-924  whiteEvoIII Tuned q36121,1st45to26,17,16,16,5  blueSkyline(dup)(sold) 
+  925  Cr18,719,002   Cr18,731,002   98 cars
+  925  select car GTO'95tt  (Passion Red)
+  925  mod car GTO'95tt   WR3 1500+6000+25000  pol+bal 6000+16000 3769lb->3203
+  925  buy parts GTO'95tt        TS3  Cr45000
+  925  Cr18,631,002
+  925  power off
+
+February 21, 2004
+ 925-930  GTO'95tt      Tuned   sw45to23,22,17,13,5       redSkyline(dup)(sold)
+  931  Cr19,031,502   Cr19,043,502
+  931  select car Pulsar  (Blue Grey Graphite Pearl)
+  931  mod car Pulsar    WR3  1200+5500+22500  pol+bal 5500+13500 2689lb->2286
+  931  Cr18,995,302
+ 931-935  Pulsar       GTC  q1623,1st36to24,13,13,10,4      ChaserLM(dup)(sold)
+  936  Cr19,065,302   Cr19,077,302
+ 936-941 Pulsar Tuned  q66131,34111,1st34to32,25,16,13,5 blueSkyline(dup)(sold)
+  942  Cr19,377,302   Cr19,389,302   98 cars
+  942  power off
+
+February 22, 2004
+  942  select car FTO'94GR  (Pyrenees Black)
+  942  mod car FTO'94GR  WR3  1200+5500+22500  pol+bal 5500+13500 2535lb->1977
+  942  Cr19,341,102
+ 942-946  FTO'94GR     GTC  q1256,1st36to22,17,13,8,4       ChaserLM(dup)(sold)
+  947  Cr19,411,102   Cr19,423,102
+ 947-952 FTO'94GR  Tuned  q66156,23233,3rd34to26,(24),22,14,5    8-(
+  953  Cr19,553,102
+ 953-958 FTO'94GR  Tuned  q66146,23232,2nd30to(26),24,29,19,6    8-(
+  959  Cr19,693,102
+  959  power off
+
+February 27, 2004
+ 959-964 FTO'94GR  Tuned  q66136,43212,3rd33to29,(28),18,13,5    8-(
+  965  Cr19,833,102
+  965  power off
+
+February 28, 2004
+ 965-970 FTO'94GR  Tuned  q66146,23345,5th38to25,19,19,(19),5    8-(  8-(
+  971  Cr19,928,102
+  971  select car redLegacy'93
+  971  mod car redLegacy'93 WR3 1500+6000+25000 pol+bal 6000+16000 3020lb->2566
+  971  buy parts redLegacy'93    TS3  Cr45000
+  971  Cr19,828,602
+ 971-976 redLegacy'93 Tuned  q66163,22131,1st34to32,21,20,13,5 pinkTrueno(sold)
+  977  Cr20,118,602   Cr20,130,602   98 cars
+  977  power off
+
+February 29, 2004
+  977  select car black180SX
+  977  mod car black180SX WR3  1200+5500+22500  pol+bal 5500+13500 2667lb->2266
+ 977-982  black180SX    Tuned   sw45to25,19,18,13,5       pinkTrueno(dup)(sold)
+  983  Cr20,482,402   Cr20,494,402
+  983  power off
+
+March 06, 2004
+  983  select car yellowRX7'91
+  983  mod car yellowRX7'91 WR3 1500+6000+25000 pol+bal 6000+16000 2777lb->2361
+  983  Cr20,439,902
+  983  power off
+ 983-988  yellowRX7'91  Tuned   sw45to23,22,18,12,5      blueSkyline(dup)(sold)
+  989  Cr20,839,902   Cr20,851,902   98 cars
+  989  power off
+
+March 07, 2004
+  989  select car Legacy'93  (Black Mica)
+  989  mod car Legacy'93 WR3 1500+6000+25000 pol+bal 6000+16000 3769lb->3203
+  989  Cr20,797,402
+ 989-994 Legacy'93 Tuned  q66144,22111,1st39to30,20,18,13,5 yellowSkyline(sold)
+  995  Cr21,117,402   Cr21,129,402
+
+  995  select car Miata'90V
+  995  mod car Miata'90V  WR3  1000+5000+20000  pol+bal 5000+10000 2162lb->1701
+  995  Cr21,088,402
+ 995-999  Miata'90V    GTC  q6*,3464,4th30to23,23,(10),7,7       8-(
+  1000 Cr21,094,902
+1000      TT Miata'90V   GV   1:56.794 + 1:49.057rec = 3:45.851rec
+1001-1005 Miata'90V    GTC  q6*,1244,2nd28to(21),19,19,9,4       8-(
+  1006 Cr21,115,902
+1006-1010 Miata'90V    GTC  q6*,2213,2nd28to(25),23,12,7,5       8-(
+  1011 Cr21,142,902
+  1011 power off
+
+March 10, 2004
+1011-1015 Miata'90V    GTC  q6*,2632,4th23to23,21,(17),8,8       8-(
+  1016 Cr21,160,402
+  1016 power off
+
+March 11, 2004
+1016-1019 Miata'90V    Lwt  q3C,1st27to18,11,10,6,3        pinkCivic(3/6)(sold)
+  1020 Cr21,189,402   Cr21,201,402
+1020-1023 Miata'90V    FR  sw27to18,12,7,6,5            redS13Silvia(dup)(sold)
+  1024 Cr21,230,902   Cr21,242,902   98 cars
+  1024 power off
+
+March 13, 2004
+1024-1029 Miata'90V  Tuned  q66166,56555,5th37to30,23,20,(9),6     8-(
+  1030 Cr21,242,902
+Note:  Miata'90V   Tuned  q66166,16131,1st32to26,21,21,13,12   redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr21,554,902(temp)
+  1030 power off
+
+March 14, 2004
+  1030 select car NismoGTR
+  1030 mod car NismoGTR    disp Cr8000  156ci -> not reg'd
+  1030 mod car NismoGTR    WR3 1500+6000+25000  pol+bal 6000+16000 3306lb->2810
+  1030 buy parts NismoGTR        TS3  Cr45000
+  1030 Cr21,166,402
+1030-1035 NismoGTR    Tuned    sw45to27,16,16,16,5       whiteTrueno(dup)(sold)
+  1036 Cr21,566,402   Cr21,578,402   98 cars
+  1036 power off
+
+March 15, 2004
+  1036 select car redCivic3dr93
+  1036 mod car redCivic3dr93 WR3 1200+5500+22500 pol+bal 5500+13500 2094lb->1633
+  1036 Cr21,530,202
+1036-1040 redCivic3dr93 GTC q4666,1st36to24,14,13,8,5       ChaserLM(dup)(sold)
+  1041 Cr21,595,202   Cr21,607,202   98 cars
+
+March 19, 2004
+1041-1046 redCivic3dr93 Tuned  q66166,55455,5th37to30,23,19,(11),5  8-(
+  1047 Cr21,647,202
+  1047 power off
+
+March 20, 2004
+Note:  redCivic3dr93 Tuned q66166,1st45to18,18,17,17,10      blueSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr22,007,202(temp)
+
+  1047 select car GTO'92SR   (Fiji Blue Mitsubishi GTO'92)
+  1047 mod car GTO'92SR  WR3  1200+5500+22500  pol+bal 5500+13500 3637lb->2837
+  1047 buy parts GTO'92SR    NA2  12000
+  1047 Cr21,587,002
+1047-1052 GTO'92SR   Tuned  q66166,55354,5th34to28,25,20,(13),5    8-(
+  1053 Cr21,642,002
+1053-1057 GTO'92SR    GTC   q6636,1st36to24,16,11,7,6       ChaserLM(dup)(sold)
+  1058 Cr21,707,002   Cr21,719,002   98 cars
+  1058 power off
+
+March 21, 2004
+Note: GTO'92SR   Tuned  q66166,1st45to25,18,13,13,11      whiteTrueno(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr22,079,002(temp)
+1058-1061 GTO'92SR     4wd  q6S,1st27to16,11,9,8,4     purpleLancer(3/6)(sold)
+  1062 Cr21,747,002   Cr21,759,002   98 cars
+
+  1062 select car whiteLevin
+  1062 mod car whiteLevin WR3  1000+5000+20000  pol+bal 5000+10000 2039lb->1589
+  1062 Cr21,718,002
+1062-1067 whiteLevin Tuned  q66166,5*,5th36to30,25,19,(10),5       8-(
+  1068 Cr21,753,002
+  1068 power off
+
+March 22, 2004
+1068-1071 whiteLevin   Lwt      sw27to18,11,10,5,4         goldEunos(4/6)(sold)
+  1072 Cr21,784,002   Cr21,796,002   98 cars
+1072-1075 whiteLevin   FR  sw27to18,11,10,6,3        yellowS13Silvia(2/6)(sold)
+  1076 Cr21,825,002   Cr21,837,002   98 cars
+  1076 power off
+
+March 23, 2004
+1076-1080 whiteLevin   GTC  q6*,1122,1st30to23,23,10,10,4   ChaserLM(dup)(sold)
+  1081 Cr21,896,502   Cr21,908,502   98 cars
+  1081 power off
+
+March 24, 2004
+Note: whiteLevin Tuned  q66166,13111,1st40to22,19,18,16,10 redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr22,238,502(temp)
+
+March 30, 2004
+  1081 select car Silvia'95K (purplish blue)
+  1081 mod car Silvia'95K WR3  1200+5500+22500  pol+bal 5500+13500 2733lb->2323
+  1081 Cr21,860,302
+1081-1086 Silvia'95K Tuned q66121,A4,1st39to28,22,18,18,5     blueSkyline(sold)
+  1087 Cr22,190,302   Cr22,202,302   98 cars
+  1087 power off
+
+April 03,2004
+1087-1092 Silvia'95K Tuned q22111,C2,1st42to27,18,18,15,5     blueSkyline(sold)
+  1093 Cr22,562,302   Cr22,574,302   98 cars
+  1093 power off
+
+April 08,2004
+  1093 select car redCRX  ('91  Torino Red Pearl)
+  1093 mod car redCRX    WR3 1000+5000+20000  pol+bal 5000+10000  2173lb->1695
+  1093 Cr22,533,302
+  1093 select car delSolS  ('93  Milano Red)
+  1093 mod car delSolS   WR3  1200+5500+22500  pol+bal 5500+13500 2286lb->1781
+  1093 Cr22,485,102
+
+  1093 select car redCRX
+1093-1096 redCRX      FF    sw27to15,13,11,5,4             blackCRX(2/6)(sold)
+  1097 Cr22,514,602   Cr22,526,602   98 cars
+  1097 select car delSolS
+1097-1100 delSolS     FF    sw27to18,10,10,7,3         purpleCelica(3/6)(sold)
+  1101 Cr22,556,102   Cr22,568,102   98 cars
+  1101 select car redCRX
+1101-1104 redCRX      Lwt      sw27to18,12,8,6,4          blueEunos(5/6)(sold)
+  1105 Cr22,599,102   Cr22,611,102   98 cars
+  1105 select car delSolS
+1105-1108 delSolS      Lwt  q5C,1st27to18,12,9,6,3         blueCivic(6/6)(sold)
+  1109 Cr22,640,102   Cr22,652,102   98 cars
+1109-1113 delSolS      GTC  q6*,1324,2nd33to(22),17,15,8,5       8-(
+  1114 Cr22,674,102
+  1114 power off
+
+April 12, 2004
+1114-1119 delSolS    Tuned  q66166,56555,5th37to27,23,23,(9),6     8-(
+  1120 Cr22,705,102
+
+  1120 select car redCRX
+1120-1125 redCRX     Tuned  q66166,55455,5th37to30,23,19,(11),5    8-(
+  1126 Cr22,745,102
+1126-1130 redCRX       GTC  q6*,1211,1st33to22,20,12,9,4    ChaserLM(dup)(sold)
+  1131 Cr22,807,102   Cr22,819,102   98 cars
+Note: delSolS    Tuned  q66166,35321,3rd26to25,(25),18,17,14       8-(
+Note:  Sharked AI field to be entirely Civic3door  Cr22,954,102(temp)
+Note: redCRX     Tuned  q66166,1st45to22,19,14,13,12       pinkTrueno(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr23,314,102(temp)
+Note: To retry: delSolS  Tuned(sharked)
+  1131 power off
+
+April 15, 2004
+  1131 select car NSX'91  (Shallot Green Pearl)
+  1131 mod car NSX'91      WR3 1500+6000+25000  pol+bal 6000+16000 3009lb->2345
+  1131 Cr22,764,602
+1131-1136 NSX'91     Tuned  q64146,16263,4th30to27,23,(21),16,7    8-(
+  1137 Cr22,876,602
+  1137 power off
+
+April 17, 2004
+1137-1142 NSX'91  Tuned q36161,14131,1st34to26,24,19,17,5 pinkTrueno(dup)(sold)
+  1143 Cr23,176,602   Cr23,188,602   98 cars
+  1143 power off
+
+April 18, 2004
+  1143 select car MA70Supra    (White Pearl Mica)
+  1143 mod car MA70Supra   WR3 1200+5500+22500  pol+bal 5500+13500 3417lb->2903
+  1143 buy parts MA70Supra   TS3  Cr36000
+  1143 Cr23,104,402
+1143-1148 MA70Supra  Tuned  q6G,1st45to24,18,18,14,5      blueTrueno(dup)(sold)
+  1149 Cr23,494,402   Cr23,506,402   98 cars
+  1149 select car yellowEvoIII (Dandelion Yellow)
+  1149 mod car yellowEvoIII WR3 1500+6000+25000 pol+bal 6000+16000 2777lb->2361
+  1149 Cr23,451,902
+  1149 power off
+
+April 21, 2004
+1149-1154 yellowEvoIII Tuned q22121,1st45to24,20,16,15,5  pinkTrueno(dup)(sold)
+  1155 Cr23,821,902   Cr23,833,902   98 cars
+  1155 power off
+
+April 22, 2004
+  1155 select car Primera'90 (Raspberry Red Pearl)
+  1155 mod car Primera'90  WR3 1200+5500+22500  pol+bal 5500+13500 2667lb->2078
+  1155 buy parts Primera'90   NA2  Cr12000
+  1155 Cr23,773,702
+1155      TT Primera'90  GVii 1:49.145 + 1:43.275 = 3:32.420  1:43.079fl
+  1156 power off
+
+April 23, 2004
+1156-1160 Primera'90   GTC  q4666,1st36to16,16,15,11,6      ChaserLM(dup)(sold)
+  1161 Cr23,838,702   Cr23,850,702   98 cars
+  1161 power off
+
+April 25, 2004
+1161-1166 Primera'90 Tuned  q66166,44534,5th37to29,24,15,(15),5    8-(
+  1167 Cr23,915,702
+  1167 power off
+Note: Primera'90 Tuned  q66156,1st45to24,20,,12,12,12      pinkTrueno(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr24,275,702(temp)
+Note: Try Primera'90 non-sharked again?  (4th?)
+  1167 select car GTR'91     (Dark Blue Pearl Nissan R32 Skyline'91 GT-R)
+  1167 mod car GTR'91     WR3 1500+6000+25000  pol+bal 6000+16000 3262lb->2773
+  1167 buy parts GTR'91         TS3  Cr45000
+Note: forgot disp
+  1167 Cr23,816,202
+1167-1172 GTR'91       Tuned   sw45to23,22,17,13,5        redSkyline(dup)(sold)
+  1173 Cr24,216,202   Cr24,228,202   98 cars
+  1173 power off
+
+April 28, 2004
+  1173 select car Cosmo13B    (Creek Blue Mica Mazda Eunos Cosmo 13B TypeS CCS)
+  1173 mod car Cosmo13B   WR3 1200+5500+22500  pol+bal 5500+13500 3350lb->2848
+  1173 buy parts Cosmo13B   TS2  Cr12500
+  1173 Cr24,167,502
+1173      TT Cosmo13B  GVii 1:48.552 + 1:41.660 = 3:30.212   FD3.9
+1174      TT Cosmo13B  ARii 1:17.209 + 1:10.787 = 2:27.990(new)  FD4.4
+  1175 power off
+
+May 02, 2004
+1175-1179 Cosmo13B     GTC  q5661,1st36to21,14,13,12,5      ChaserLM(dup)(sold)
+  1180 Cr24,237,502   Cr24,249,502
+1180-1185 Cosmo13B  Tuned  q66166,22331,1st29to27,22,22,20,5  blueSkyline(sold)
+  1186 Cr24,509,502   Cr24,521,502   98 cars
+  1186 power off
+
+May 03, 2004
+  1186 select car GTR'95     (White Nissan R33 Skyline'95 GT-R)
+  1186 mod car GTR'95     WR3 1500+6000+25000  pol+bal 6000+16000 3373lb->2865
+  1186 mod car GTR'95     disp  Cr8000
+  1186 buy parts GTR'95         TS3  Cr45000
+  1186 Cr24,414,002
+  1186 power off
+1186-1189 GTR'95    Mega  sw27to18,11,8,6,5                 redDB7(2/6)(sold)
+  1190 Cr24,504,002   Cr24,516,002   98 cars
+  1190 power off
+
+May 07, 2004
+1190-1195 GTR'95       Tuned   sw45to24,21,17,13,5       whiteTrueno(dup)(sold)
+  1196 Cr24,916,002   Cr24,928,002   98 cars
+  1196 power off
+
+May 08, 2004
+  1196 select car yellow'94GPX (Dandelion Yellow Mitsubishi FTO'94 GPX)
+  1196 mod car yellow'94GPX WR3 1200+5500+22500 pol+bal 5500+13500 2579lb->2010
+  1196 buy parts yellow'94GPX   NA2  Cr12000
+  1196 Cr24,867,802
+1196-1201 yellow'94GPX Tuned  q66166,23221,2nd35to(31),21,18,14,6    8-(
+  1202 Cr25,047,802
+1202-1207 yellow'94GPX Tuned q66114,24311,1st31to30,23,18,18,5 yellowSkyline(sold)
+  1208 Cr25,327,802   Cr25,339,802   98 cars
+  1208 power off
+
+May 09, 2004
+  1208 select car Silvia'91Q  (Purplish Silver 2Tone S13 Silvia'91 Q's 2000cc)
+  1208 mod car Silvia'91Q WR3 1000+5000+20000  pol+bal 5000+10000  2447lb->1906
+  1208 buy parts Silvia'91Q   NA2  Cr10000
+  1208 Cr25,288,802
+1208-1212 Silvia'91Q   GTC  q5623,1st36to20,15,11,9,9       ChaserLM(dup)(sold)
+  1213 Cr25,353,802   Cr25,365,802   98 cars
+1213-1218 Silvia'91Q   Tuned  q66124,34313,3rd32to30,(24),18,16,5    8-(
+  1219 Cr25,475,802
+  1219 power off
+
+May 12, 2004
+1219-1224 Silvia'91Q  Tuned  q66132,43311,1st29to28,25,22,16,5 blueTrueno(sold)
+  1225 Cr25,755,802   Cr25,767,802   98 cars
+  1225 power off
+
+May 13, 2004
+  1225 select car redPrelude'94  (Milano Red Honda Prelude'94 VTEC)
+  1225 mod car redPrelude'94 WR3 1200+5500+22500 pol+bal 5500+13500 2932lb->2286
+  1225 buy parts redPrelude'94   NA2  Cr12000
+  1225 Cr25,707,602
+1225      TT redPrelude'94  GVii 1:47.793 + 1:41.817 = 3:29.610  1:41.764fl
+  1226 power off
+
+May 14, 2004
+1226-1231 redPrelude'94 Tuned q66126,13211,1st37to27,21,20,15,5 whiteTrueno(sold)
+  1232 Cr26,017,602   Cr26,029,602   98 cars
+  1232 power off
+
+May 15, 2004
+  1232 select car GTRVspec   (Red Pearl Nissan R32 Skyline GT-R Vspec)
+  1232 mod car GTRVspec   WR3 1500+6000+25000  pol+bal 6000+16000 3306lb->2810
+  1232 mod car GTRVspec   disp  Cr8000
+  1232 buy parts GTRVspec       TS3  Cr45000
+  1232 Cr25,922,102
+1232-1237 GTRVspec     Tuned   sw45to22,21,16,16,5        blueTrueno(dup)(sold)
+  1238 Cr26,322,102   Cr26,334,102   98 cars
+  1238 power off
+
+May 16, 2004
+  1238 select car Prelude'94   (Phantom Gray Pearl Honda Prelude'94 VTEC)
+  1238 mod car Prelude'94 WR3 1200+5500+22500 pol+bal 5500+13500 2932lb->2286
+  1238 Cr26,285,902
+  1238 power off
+
+May 19, 2004
+1238-1243 Prelude'94   Tuned  q66133,34311,2nd31to(29),27,18,15,5    8-(
+  1244 Cr26,445,902
+  1244 power off
+
+May 20, 2004
+1244-1249 Prelude'94 Tuned q66146,13212,1st34to33,20,20,15,5 yellowSkyline(sold)
+  1250 Cr26,735,902   Cr26,747,902   98 cars
+  1250 power off
+
+May 21, 2004
+  1250 select car silverWRX'95SD   (Light Silver Metallic Impreza'95 WRX STi Ver.II)
+  1250 mod car silverWRX'95SD WR3 1500+6000+25000 pol+bal 6000+16000 2733lb->2323
+  1250 buy parts silverWRX'95SD       TS3  Cr45000
+  1250 Cr26,648,402
+1250-1255 silverWRX'95SD Tuned 13212,1st34to33,20,20,15,5   yellowSkyline(sold)
+Note:                          q66146,13212,1st34to33,20,20,15,5
+  1256 Cr27,048,402   Cr27,060,402   98 cars
+  1256 power off
+
+May 22, 2004
+  1256 select car  SVXL   (White Mica Subaru Alcyone SVX Version L)
+  1256 mod car  SVXL      WR3 1500+6000+25000  pol+bal 6000+16000  3571lb->2784
+  1256 Cr27,002,902
+1256-1261 SVXL  Tuned  q64122,21311,1st37to25,21,18,18,6 whiteTrueno(dup)(sold)
+  1262 Cr27,315,902   Cr27,327,902   98 cars
+
+  1262 select car  Levin  (High-Flash Two-tone(red) AE86 Corolla Levin GT-APEX)
+  1262 mod car  Levin  WR3  1000+5000+20000  pol+bal 5000+10000   2039lb->1589
+  1262 Cr27,286,902
+1262-1266 Levin        GTC  q6*,2121,1st30to23,22,13,8,4    ChaserLM(dup)(sold)
+  1267 Cr27,345,902   Cr27,357,902   98 cars
+  1267 power off
+
+May 24, 2004
+1267-1270 Levin        Lwt      sw27to18,12,9,5,4        yellowCivic(dup)(sold)
+  1271 Cr27,388,902   Cr27,400,902   98 cars
+1271-1276 Levin Tuned  q66166,55455,5th36to30,23,19,(11),5         8-(
+  1277 Cr27,440,902
+  1277 power off
+Note: Levin    Tuned    q66166,12111,1st42to21,18,16,15,13  redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr27,780,902(temp)
+
+  1277 select car redSilvia'88K (Cranberry Red Nissan S13 Silvia'88 K's 1800cc)
+  1277 mod car redSilvia'88K WR3 1000+5000+20000 pol+bal 5000+10000 2469lb->2098
+  1277 buy parts redSilvia'88K  TS2  Cr10,000
+  1277 Cr27,389,902
+1277-1282 redSilvia'88K Tuned  q6G,1st45to23,22,18,12,5   redSkyline(dup)(sold)
+  1283 Cr27,779,902   Cr27,791,902   98 cars
+
+  1283 select car  SVXS4  (Bright Green Mica Subaru Alcyone SVX S4)
+  1283 mod car  SVXS4     WR3 1500+6000+25000  pol+bal 6000+16000  3505lb->2733
+  1283 buy parts SVXS4     TS2  Cr14000
+  1283 Cr27,723,402
+1283-1288 SVXS4  Tuned  q65111,22311,1st34to30,21,19,16,5 pinkTrueno(dup)(sold)
+  1289 Cr28,033,402   Cr28,045,402   98 cars
+
+  1289 select car  Supra'95RZ  (Silver Metallic Toyota Supra'95 RZ)
+  1289 mod car Supra'95RZ WR3 1500+6000+25000  pol+bal 6000+16000  3284lb->2791
+  1289 buy parts Supra'95RZ           TS3  Cr45000
+  1289 Cr27,945,902
+  1289 power off
+
+May 26, 2004
+1289-1294 Supra'95RZ  Tuned  q4A,1st45to22,22,18,13,5    whiteTrueno(dup)(sold)
+  1295 Cr28,335,902   Cr28,347,902   98 cars
+  1295 power off
+
+May 28, 2004
+1295      TT Supra'95RZ  GVii 1:41.198 + 1:35.388not = 3:16.586rec 1:35.298rec
+  1296 Cr28,347,902
+  1296 power off
+
+May 29, 2004
+1296      TT Supra'95RZ  GVii 1:39.774 + 1:34.620not = 3:14.364rec 1:33.985rec
+  1297 Cr28,347,902
+  1297 power off
+
+May 30, 2004
+1297-1302 Supra'95RZ  Tuned       sw45to24,21,17,13,5    blueSkyline(dup)(sold)
+  1303 Cr28,747,902   Cr28,759,902   98 cars
+
+  1303 select car redGTR'91   (Red Pearl Nissan R32 Skyline'91 GT-R)
+  1303 mod car redGTR'91  WR3 1500+6000+25000  pol+bal 6000+16000 3262lb->2773
+  1303 mod car redGTR'91    disp Cr8000
+  1303 Cr28,597,402
+1303-1308 redGTR'91    Tuned   sw45to26,18,17,14,5       whiteTrueno(dup)(sold)
+  1309 Cr29,097,402   Cr29,109,402   98 cars
+Note: redGTR'91  400M  1st  0:09.091(new)
+
+  1309 select car  GTO'95MR  (Passion Red Mitsubishi GTO'95 MR)
+  1309 mod car GTO'95MR  WR3 1500+6000+25000  pol+bal 6000+16000 3703lb->3148
+  1309 buy parts GTO'95MR             TS3  Cr45000
+  1309 Cr29,009,902
+1309-1314 GTO'95MR     Tuned   sw45to27,20,15,13,5        pinkTrueno(dup)(sold)
+  1315 Cr29,409,902   Cr29,421,902   98 cars
+  1315 power off
+
+June 5, 2004
+1315-1320 GTO'95MR     Tuned   sw45to23,20,16,16,5       blueSkyline(dup)(sold)
+  1321 Cr29,827,902   Cr29,839,902   98 cars
+
+  1321 select car  Silvia'95Q  (Super Clear Red Nissan S14 Silvia'95 Q's)
+  1321 mod car Silvia'95Q WR3 1000+5000+20000 pol+bal 5000+10000 2601lb->2028
+  1321 buy parts Silvia'95Q   NA2  Cr10000
+  1321 Cr29,782,902
+1321-1325 Silvia'95Q   GTC  q6664,1st36to22,16,12,7,7       ChaserLM(dup)(sold)
+  1326 Cr29,847,902   Cr29,859,902   98 cars
+  1326 power off
+
+June 6, 2004
+1326-1331 Silvia'95Q   Tuned  q66156,35345,5th34to29,22,20,(15),5    8-(
+  1332 Cr29,929,902    Note: beat Chaser, no Civic
+  1332 power off
+Note: Silvia'95Q  Tuned  q66166,1st45to24,22,19,8,7    blueTrueno(temp)
+Note:  Sharked AI field to be 3 Chaser and 2 Civic3door  Cr30,289,902(temp)
+
+  1332 select car blueRX7 (Brave Blue Mica Savanna RX-7 efini III)
+  1332 mod car  blueRX7 (alias blueFCRX7III)
+  1332 mod car  blueRX7  WR3  1200+5500+22500  pol+bal 5500+13500 2645lb->2248
+  1332 buy parts blueRX7  TS2   Cr12500
+  1332 Cr29,869,202
+1332-1337 blueRX7 Tuned q66111,23111,1st37to32,20,16,15,5 blueTrueno(dup)(sold)
+  1338 Cr30,199,202   Cr30,211,202   98 cars   Note: Supra, no NSX
+  1338 power off           
+
+June 8, 2004
+1338-1343 blueRX7 Tuned q43114,G2,1st42to24,22,19,13,5 yellowSkyline(dup)(sold)
+  1344 Cr30,561,202   Cr30,573,202   98 cars   Note: Supra, no NSX
+
+June 13, 2004
+  1344 select car  delSolSi  (Vogue Silver Metallic Honda del Sol'93 Si)
+  1344 mod car delSolSi  WR3  1200+5500+22500  pol+bal 5500+13500 2286lb->1781
+  1344 buy parts delSolSi  NA2  Cr12,000
+  1344 Cr30,513,002
+1344-1349 delSolSi  Tuned  q66166,55456,5th37to30,23,19,(10),6     8-(
+  1350 Cr30,553,002
+1350-1354 delSolSi     GTC  q6*,D4,1st30to23,22,9,8,8       ChaserLM(dup)(sold)
+  1355 Cr30,610,002   Cr30,622,002   98 cars
+  1355 power off
+
+July 03, 2004
+  1355 select car  WRX'94SD  (Feather White Subaru Impreza'94 Sedan WRX)
+  1355 mod car WRX'94SD WR3 1500+6000+25000 pol+bal 6000+16000 2799lb->2378
+  1355 buy parts WRX'94SD       TS3  Cr45000
+  1355 Cr30,522,502
+1355-1360 WRX'94SD Tuned q66112,22311,1st34to30,22,18,16,5 blueTrueno(dup)(sold)
+  1361 Cr30,822,502   Cr30,834,502   98 cars
+  1361 power off
+
+July 04, 2004
+Note: delSolSi    Tuned  q66166,1st45to20,17,15,14,14  blueSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr31,194,502(temp)
+  1361 select car Trueno (High-Flash Two-tone(red) AE86 Corolla Trueno GT-APEX)
+  1361 mod car Trueno   WR3  1000+5000+20000  pol+bal 5000+10000 2039lb->1589
+  1361 Cr30,793,502
+  1361 power off
+
+July 16, 2004
+1361-1365 Trueno       GTC  q6*,D2,1st33to21,20,12,9,5      ChaserLM(dup)(sold)
+  1366 Cr30,855,502   Cr30,867,502   98 cars
+1366-1371 Trueno Tuned  q66166,56555,5th36to30,24,20,(9),6         8-(
+  1372 Cr30,898,502
+  1372 power off
+
+July 17, 2004
+Note: Trueno      Tuned  q66166,1st45to22,19,16,12,11  blueSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr31,258,502(temp)
+  1372 select car  redGTO'95SR  (Passion Red Mitsubishi GTO'95 SR)
+  1372 mod car redGTO'95SR WR3 1200+5500+22500  pol+bal 5500+13500 3637lb->2837
+  1372 buy parts redGTO'95SR    NA2  12000
+  1372 Cr30,838,302
+1372-1377 redGTO'95SR   Tuned  q66166,55335,5th36to29,21,20,(14),5    8-(
+  1378 Cr30,903,302                    Note: Chaser and NSX, no Civic or Supra
+  1378 power off
+
+July 18, 2004
+  1378 select car Civic3dr93  (Captiva Blue Pearl Honda Civic'93 3Door Si)
+  1378 mod car Civic3dr93 WR3 1200+5500+22500 pol+bal 5500+13500 2094lb->1633
+  1378 Cr30,855,102                    Note: Chaser and NSX, no Civic or Supra
+1378-1382 Civic3dr93  GTC  q6*,1st36to22,17,12,7,6          ChaserLM(dup)(sold)
+  1383 Cr30,920,102   Cr30,932,102   98 cars
+  1383 power off
+
+July 25, 2004
+1383-1388 Civic3dr93  Tuned  q66166,45355,5th36to30,23,18,(13),5         8-(
+  1389 Cr30,987,102
+  1389 power off
+
+July 29, 2004
+Note: Civic3dr93  Tuned  q66166,44111,1st33to28,26,23,8,7    whiteTrueno(temp)
+Note:  Sharked AI field to be 3 Chaser and 2 Civic3door  Cr31,267,102(temp)
+
+July 30, 2004
+  1389 select car redWRX'95SD   (Active Red Impreza'95 WRX STi Ver.II)
+  1389 mod car redWRX'95SD WR3 1500+6000+25000 pol+bal 6000+16000 2733lb->2323
+  1389 Cr30,932,602
+1389-1394 redWRX'95SD Tuned  sw45to23,20,17,14,6          blueTrueno(dup)(sold)
+  1395 Cr31,332,602   Cr31,344,602   98 cars
+
+  1395 select car JZA70Supra  (Dark Green Mica Toyota JZA70 Supra Twin Turbo-R)
+  1395 mod car JZA70Supra  WR3 1500+6000+25000 pol+bal 6000+16000 3350lb->2848
+  1395 buy parts JZA70Supra  TS3  Cr45,000
+  1395 Cr31,245,102
+  1395 power off
+
+July 31, 2004
+1395-1400 JZA70Supra  Tuned   q2H,1st45to23,22,17,13,5    blueTrueno(dup)(sold)
+  1401 Cr31,635,102   Cr31,647,102   98 cars
+
+  1401 select car redPulsar  (Active Red Pearl Nissan Pulsar '91 GTi-R)
+  1401 mod car redPulsar  WR3  1200+5500+22500  pol+bal 5500+13500 2689lb->2286
+  1401 Cr31,598,902
+1401-1406 redPulsar Tuned  22211,1st36to28,22,18,15,6     blueTrueno(dup)(sold)
+                              q65111,22211,1st36to28,22,18,15,6
+  1407 Cr31,918,902   Cr31,930,902   98 cars
+  1407 power off
+
+August 02, 2004
+  1407 select car Prelude'93  (Cobalt Blue Pearl Honda Prelude'93 Si)
+  1407 mod car Prelude'93  WR3 1200+5500+22500  pol+bal 5500+13500 2865lb->2235
+  1407 buy parts Prelude'93   NA2  12000
+  1407 Cr31,870,702   Cr31,930,902   98 cars
+1407-1412 Prelude'93 Tuned  q66166,46313,4th34to26,22,(21),16,8    8-(
+  1413 Cr31,981,702
+  1413 power off
+
+August 11, 2004
+1413-1417 Prelude'93  GTC  q6664,1st36to24,16,11,7,6        ChaserLM(dup)(sold)
+  1418 Cr32,046,702   Cr32,058,702   98 cars
+  1418 power off
+
+August 14, 2004
+Note: Prelude'93  Tuned  q66146,12111,1st42to33,18,17,8,7     redSkyline(temp)
+Note:  Sharked AI field to be 3 Chaser and 2 Civic3door  Cr32,398,702(temp)
+
+August 15, 2004
+  1418 select car  GTO'95SR  (Pyrenees Black Mitsubishi GTO'95 SR)
+  1418 mod car GTO'95SR WR3 1200+5500+22500  pol+bal 5500+13500 3637lb->2837
+  1418 Cr32,010,502
+1418-1422 GTO'95SR    GTC   q6*,D2,1st33to27,15,12,8,5      ChaserLM(dup)(sold)
+  1423 Cr32,072,502   Cr32,084,502   98 cars
+1423-1428 GTO'95SR   Tuned     q66146,56324,5th39to22,21,20,(16),7    8-(
+  1429 Cr32,160,502                    Note: Chaser and NSX, no Civic or Supra
+Note: GTO'95SR   Tuned  q66166,1st45to28,22,13,9,8           blueTrueno(temp)
+Note:  Sharked AI field to be 2 Chaser and 3 Civic3door  Cr32,398,502(temp)
+  1429 power off
+
+August 17, 2004
+  1429 select car  Silvia'88K (Super Black Nissan Silvia'88 K's 1800cc)
+  1429 mod car Silvia'88K WR3 1000+5000+20000 pol+bal 5000+10000  2469lb->2098
+  1429 Cr32,119,502
+1429-1434 Silvia'88K Tuned  q64121,1st45to25,19,18,13,5  blueSkyline(dup)(sold)
+  1435 Cr32,489,502   Cr32,501,502   98 cars
+  1435 power off
+
+August 19, 2004
+  1435 select car  cheapFCRX7   (Blaze Red Mazda FC Savanna RX-7 GT-X)
+  1435 mod car cheapFCRX7 WR3 1200+5500+22500  pol+bal 5500+13500 2755lb->2341
+  1435 buy parts cheapFCRX7  TS2   Cr12500
+  1435 Cr32,440,802
+1435-1440 cheapFCRX7 Tuned  q66111,1st45to24,21,15,14,6   redSkyline(dup)(sold)
+  1441 Cr32,820,802   Cr32,832,802   98 cars
+  1441 power off
+
+August 20, 2004
+  1441 select car Roadster'89  (Silver Stone Metallic Mazda Eunos Roadster'89 Normal)
+  1441 mod car Roadster'89  WR3 1000+5000+20000 pol+bal 5000+10000 2160lb->1684
+  1441 buy parts Roadster'89  NA1 3000
+  1441 Cr32,788,802
+1441-1445 Roadster'89  GTC  q6*,1331,2nd30to(26),19,13,7,5       8-(
+  1446 Cr32,814,802
+  1446 power off
+
+August 21, 2004
+1446-1449 Roadster'89  FR  sw27to18,12,9,5,4           blueSilEighty(3/6)(sold)
+  1450 Cr32,844,302   Cr32,856,302   98 cars
+1450-1453 Roadster'89  Lwt  q3C,1st27to18,11,8,6,5         blueCivic(dup)(sold)
+  1454 Cr32,885,302   Cr32,897,302   98 cars
+1454-1458 Roadster'89 GTC   q6*,D2,1st33to25,18,10,9,5      ChaserLM(dup)(sold)
+  1459 Cr32,959,302   Cr32,971,302   98 cars
+1459-1464 Roadster'89  Tuned  q66166,56555,5th37to30,24,19,(9),6    8-(
+  1465 Cr33,002,302
+  1465 power off
+
+August 22, 2004
+Note: Roadster'89 Tuned  q66166,G4,1st39to24,20,17,16,7   blueSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr33,322,302(temp)
+  1465 select car Silvia'91K (Super Black Nissan Silvia'91 K's 2000cc)
+  1465 mod car Silvia'91K WR3 1200+5500+22500 pol+bal 5500+12500 2579lb->2191
+  1465 buy parts Silvia'91K  TS2  Cr12,500
+  1465 Cr32,941,602
+1465-1470 Silvia'91K    Tuned  q6G,1st45to27,20,14,14,5  blueSkyline(dup)(sold)
+  1471 Cr33,331,602   Cr33,343,602   98 cars
+  1471 power off
+
+
+August 23, 2004
+  1471 select car whiteSilvia'91K (Warm White 2Tone Nissan Silvia'91 K's 2000cc)
+  1471 mod car whiteSilvia'91K WR3 1200+5500+22500 pol+bal5500+12500 2579lb->2191
+  1471 Cr33,295,402
+  1471 power off
+
+August 24, 2004
+1471-1476 whiteSilvia'91K Tuned q63161,1st45to23,22,17,13,5 redSkyline(sold)
+  1477 Cr33,675,402   Cr33,687,402   98 cars
+  1477 power off
+
+August 25, 2004
+  1477 select car redMA70    (Red Mica Toyota MA70 Supra GT Turbo Limited)
+  1477 mod car redMA70   WR3 1200+5500+22500  pol+bal 5500+13500 3417lb->2903
+  1477 Cr33,639,202
+1477-1482 redMA70    Tuned  q25121,1st45to23,21,15,15,6 whiteTrueno(dup)(sold)
+  1483 Cr34,009,202   Cr34,021,202   98 cars
+  1483 power off
+
+August 27, 2004
+  1483 select car redFTO'94GR  (Passion Red Mitsubishi FTO'94 GR)
+  1483 mod car redFTO'94GR WR3 1200+5500+22500  pol+bal 5500+13500 2535lb->1977
+  1483 Cr33,973,002
+1483-1487 redFTO'94GR  GTC  q6623,1st36to22,17,13,7,5       ChaserLM(dup)(sold)
+  1488 Cr34,038,002   Cr34,050,002   98 cars
+1488-1493 redFTO'94GR  Tuned  q66126,34315,3rd34to26,(24),22,14,5    8-(
+  1494 Cr34,165,202
+  1494 power off
+
+August 28, 2004
+Note: redFTO'94GR  Tuned  q66166,12311,1st37to29,28,13,13,5  blueTrueno(temp)
+Note:  Sharked AI field 2 Lancers, 2 Chasers, 1 Civic3door  Cr34,475,002(temp)
+
+August 29, 2004
+  1494 select car cheapRX7'91  (Vintage Red Mazda '91 efini RX-7 TypeR)
+  1494 mod car cheapRX7'91 WR3  1500+6000+25000 pol+bal 6000+16000 2777lb->2361
+  1494 buy parts cheapRX7'91 TS2  Cr14,000
+  1494 Cr34,096,502
+1494-1499 cheapRX7'91  Tuned  sw45to24,20,16,15,5         blueTrueno(dup)(sold)
+  1500 Cr34,496,502   Cr34,508,502   98 cars
+  1500 power off
+
+  1500 select car  Cyborg  (Grace Silver Mitsubishi Mirage'92 Cyborg R)
+  1500 mod car Cyborg   WR3  1000+5000+20000  pol+bal 5000+10000 2292lb->1787
+  1500 buy parts Cyborg    NA2  10000
+  1500 Cr34,452,502
+1500-1503 Cyborg      FF  q4G,1st27to18,12,9,5,4            blackCRX(dup)(sold)
+  1504 Cr34,485,502   Cr34,497,502   98 cars
+1504-1507 Cyborg      Lwt    sw27to18,12,9,5,4           yellowCivic(dup)(sold)
+  1508 Cr34,528,502   Cr34,540,502   98 cars
+1508-1512 Cyborg      GTC  q6*,1st36to22,16,12,9,5          ChaserLM(dup)(sold)
+  1513 Cr34,605,502   Cr34,617,502   98 cars
+  1513 power off
+
+September 01, 2004
+1513-1518 Cyborg      Tuned  q66166,55335,5th36to29,22,19,(14),5     8-(
+  1519 Cr34,682,502
+  1519 power off
+
+September 03, 2004
+Note: Cyborg       Tuned  q66166,1st45to21,15,15,15,14       redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr35,042,502(temp)
+
+September 06, 2004
+  1519 select car R32GTS25S (Red Pearl Nissan R32 Skyline GTS25 TypeS)
+  1519 mod car R32GTS25S  WR3 1200+5500+22500  pol+bal 5500+13500 2777lb->2164
+  1519 buy parts R32GTS25S  NA2   12000
+  1519 Cr34,622,302
+1519-1523 R32GTS25S    GTC  q4264,1st36to22,18,11,8,5       ChaserLM(dup)(sold)
+  1524 Cr34,687,302   Cr34,699,302   98 cars
+  1524 power off
+
+September 17, 2004
+1524-1528 R32GTS25S    GTC  q4653,1st36to19,17,11,9,8       ChaserLM(dup)(sold)
+  1529 Cr34,764,302   Cr34,776,302   98 cars
+  1529 power off
+
+September 19, 2004
+1529-1534 R32GTS25S   Tuned  q66146,55314,4th31to27,23,(20),19,5     8-(
+  1535 Cr34,876,302
+  1535 power off
+
+September 26, 2004
+Note: R32GTS25S  Tuned  q66166,G4,1st39to30,21,20,9,6        blueTrueno(temp)
+Note:  Sharked AI field to be 3 Chaser and 2 Civic3door  Cr35,196,302(temp)
+
+September 30, 2004
+  1535 select car R32GTStM  (Dark Blue Pearl Nissan R32 Skyline GTS-t TypeM)
+  1535 mod car R32GTStM   WR3 1200+5500+22500  pol+bal 5500+13500 2777lb->2164
+  1535 mod car R32GTStM   disp   8000
+  1535 buy parts R32GTStM   TS2   12500
+  1535 Cr34,807,602
+1535-1539 R32GTStM    GTC   q6*,D2,1st33to23,20,12,8,4      ChaserLM(dup)(sold)
+  1540 Cr34,869,602   Cr34,881,602   98 cars
+  1540 power off
+
+October 18, 2004
+1540-1544 R32GTStM    GTC  q6664,1st36to22,17,13,7,5        ChaserLM(dup)(sold)
+  1545 Cr34,946,602   Cr34,958,602   98 cars
+1545-1550 R32GTStM   Tuned  q66166,55355,5th33to31,22,22,(12),5     8-(
+  1551 Cr35,008,602
+  1551 power off
+
+October 19, 2004
+Note: R32GTStM     Tuned  q66166,1st45to23,17,15,14,11       redSkyline(temp)
+Note:  Sharked AI field to be entirely Civic3door  Cr35,368,602(temp)
+
+  1551 select car GTR'95Vspec (Sonic Silver Metallic R33 Skyline'95 GT-R Vspec)
+  1551 mod car GTR'95Vspec WR3 1500+6000+25000  pol+bal 6000+16000 3395lb->2885
+  1551 mod car GTR'95Vspec disp  8000  321-326hp
+  1551 buy parts GTR'95Vspec   TS3  45000
+  1551 Cr34,901,102
+1551-1556 GTR'95Vspec  Tuned   sw45to25,19,16,14,6     yellowSkyline(dup)(sold)
+  1557 Cr35,301,102   Cr35,313,102   98 cars
+  1557 power off
+
+October 21, 2004
+  1557 select car  Impreza'95WG  (Active Red Impreza'95 Wagon WRX STi Ver.II)
+  1557 mod car Impreza'95WG WR3 1500+6000+25000 pol+bal 6000+16000 2821lb->2398
+  1557 buy parts Impreza'95WG   TS3  45000
+  1557 Cr35,213,602
+1557-1562 Impreza'95WG Tuned  q2H,1st45to26,20,17,12,5    redSkyline(dup)(sold)
+  1563 Cr35,603,602   Cr35,615,602   98 cars
+  1563 power off
+
+October 22, 2004
+  1563 select car redPrelude'93  (Cassis Red Pearl Honda Prelude'93 Si)
+  1563 mod car redPrelude'93 WR3 1200+5500+22500 pol+bal 5500+13500 2865lb->2235
+  1563 Cr35,567,402
+1563-1567 redPrelude'93  GTC  q2345,1st36to22,17,12,9,4     ChaserLM(dup)(sold)
+  1568 Cr35,632,602   Cr35,644,602   98 cars
+1568-1573 redPrelude'93 Tuned  q66156,44311,2nd30to(28),24,22,16,5    8-(
+  1574 Cr35,794,402
+
+  1574 select car  FTO'94GPX  (Imperial Red Mitsubishi FTO'94 GPX)
+  1574 mod car FTO'94GPX  WR3 1200+5500+22500  pol+bal 5500+13500 2579lb->2010
+  1574 Cr35,746,202
+1574-1579 FTO'94GPX  Tuned  q66124,24211,1st33to27,24,17,14,8  blueTrueno(sold)
+  1580 Cr36,026,202   Cr36,038,202   98 cars
+  1580 power off
+
+
+Note: I have now raced every used car.

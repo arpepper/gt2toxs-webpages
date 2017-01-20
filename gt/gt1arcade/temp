@@ -1,0 +1,175 @@
+<html>
+<head><title>Gran Turismo Arcade Car Comparison</title></head>
+<body bgcolor="yellow">
+<table width="100%" bgcolor="black">\n';
+<tr color="white">\n';
+<td>\n';
+<font color="white">\n';
+<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Arcade Car Comparison</h3>\n';
+</font>\n';
+</td>\n';
+</tr>\n';
+</table>\n';
+<table width="85%"><tr><td width="5%"></td><td>\n';
+<center>\n';
+<table><tr><td bgcolor="cyan">\n';
+<font size="-2">\n';
+[<a href="index.html">Tutorial</a>]\n';
+[<a href="../../gt/">Gran Turismo pages</a>]\n';
+[<a href="../../gt/gt1stats/">car find</a>]\n';
+[<a href="../../gt/gt1used/">used cars</a>]\n';
+[<a href="../../gt/diary/">diary</a>]\n';
+</font>\n';
+</td></tr></table>\n';
+</center>\n';
+</td></tr></table>\n';
+<p>\n';
+<font size="-2">\n';
+To contact the author by\n';
+<a href="../email.html">email</a>.\n';
+</font>\n';
+</p>\n';
+
+<hr>
+<table width="85%"><tr><td width="5%"></td><td>
+<p>
+This Used Car Finder will search and display information for all used cars
+available.
+There are 60 line-ups, one for each 10 day period from day 0 to day 590.
+After day 600, the cycle starts over again.
+</p>
+<p>
+Many thanks to the many people who inspired this page, most noticeably
+Nick Albright.
+The data is from the North American version of the game.
+</p>
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<p>
+This page is sort of a tutorial.
+Clicking one of the following items will execute a Used Car Finder query as if you
+had filled out the form.
+</p>
+<p>
+The filled-in form will be shown on the generated page, followed by the
+results of the query.  Study the form to learn how the query is done.  You
+can modify it to try a slightly different query.
+Note that both form and results look much better if the window is
+reasonably wide.
+</p>
+<p>
+Or, if you already know what you're doing, go straight to the
+<a href="selana.html">Used Car Finder</a> to start a brand-new query.
+</td></tr></table>
+<table width="85%"><tr><td width="5%"></td><td>
+<ul>
+<li><a href="selana.html?ls=200&q=3&n=0&op=%3A%3A&v=nissan&t=and&q=1&n=0&op=%3D&v=50&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=3&f=4&f=5&f=6&sr=1&s=6&ot=HTML&od=newpage">
+Show all used Nissans available for days 50 to 59.</a>
+
+<li><a href="selana.html?ls=20&q=4&n=0&op=%3A%3A&v=nismo&t=and&q=0&n=0&op=%3A%3A&v=u&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&ot=HTML&od=newpage">
+Find those hard-to-find used Nismos in the available data.</a>
+
+<li><a href="selana.html?ls=2000&q=4&n=0&op=%3A%3A&v=silvia&t=and&q=0&n=0&op=%3A%3A&v=u&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=1&f=98&sr=0&s=1&s=6&ot=HTML&od=newpage">
+Give a count of all used Silvias available on each day in the available data.</a>
+
+<li><a href="selana.html?ls=2000&q=0&n=0&op=%3A%3A&v=u&t=and&q=4&n=0&op=%3A%3A&v=silvia&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=1&f=4&f=98&sr=0&s=1&s=4&s=6&ot=HTML&od=newpage">
+Give a count of each model of used Silvia available on each day in the available data.</a>
+
+<li><a href="selana.html?ls=20&q=0&n=4&op=%3A%3A&v=.&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=98&sr=0&ot=HTML&od=newpage">
+Give as the count the total number of distinct records in the available data.</a>
+
+<li><a href="selana.html?ls=20&q=0&n=4&op=%3A%3A&v=.&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=3&f=98&sr=0&s=3&s=6&ot=HTML&od=newpage">
+Give the count of used cars for each Manufacturer.</a>
+
+<li><a href="selana.html?ls=20&q=6&n=1&op=%3E&v=10000&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=3&f=98&sr=0&s=3&s=6&ot=HTML&od=newpage&nq=0">
+Give the total number of starter cars for each Manufacturer.</a>
+
+<li><a href="selana.html?ls=6000&q=6&n=1&op=%3E&v=10000&t=and&q=1&n=0&op=%3C&v=10&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=3&f=4&f=5&f=2&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Show all the starter cars available at the beginning of the game, sorted by name.</a>
+
+<li><a href="selana.html?ls=6000&q=6&n=1&op=%3E&v=10000&t=and&q=1&n=0&op=%3C&v=10&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=3&f=4&f=5&f=2&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Sort those same cars by price instead.</a>
+
+<li><a href="selana.html?ls=20&q=6&n=1&op=%3E&v=10000&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Find the twenty cheapest cars in the game.</a>
+
+<li><a href="selana.html?ls=20&q=6&n=1&op=%3E&v=10000&t=and&q=4&n=1&op=%3A%3A&v=silvia&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Exclude Silvias from that search.</a>
+
+<li><a href="selana.html?ls=20&q=6&n=1&op=%3E&v=10000&t=and&q=4&n=1&op=%3A%3A&v=silvia&t=and&q=1&n=1&op=%3E&v=20&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Limit that search to day 20 or lower.</a>
+
+<li><a href="selana.html?ls=20&q=3&n=0&op=%3A%3A&v=subaru&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Find the twenty cheapest Subarus.</a>
+
+<li><a href="selana.html?ls=20&q=4&n=0&op=%3A%3A&v=impreza&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Find the twenty cheapest Imprezas.</a>
+
+<li><a href="selana.html?ls=20&q=4&n=0&op=%3A%3A&v=impreza&t=and&q=4&n=1&op=%3A%3A&v=wagon&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=0&s=6&ot=HTML&od=newpage&nq=0">
+Find the twenty cheapest Imprezas, excluding wagons.</a>
+
+<li><a href="selana.html?ls=20&q=6&n=0&op=%3E&v=20000&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&t=and&q=0&n=0&op=%3A%3A&v=&f=99&f=1&f=2&f=3&f=4&f=5&f=6&sr=1&s=6&ot=HTML&od=newpage&nq=0">
+Find the twenty most expensive used cars.</a>
+
+</ul>
+</td></tr></table>
+
+<table width="85%"><tr><td width="5%"></td><td>
+<p>
+Sorry, this tutorial is not great, but it was easy to do.
+<img src="../../bitmaps/happyfrog.gif" alt="8-)">
+I also found it very useful when doing my own testing.
+</p>
+<p>
+When you see the form, basically fill in at the top of the form the
+characteristics, and the value you want them to match how.
+The tricky part is selecting the fields you want to see in the result.
+This form makes use of "multiple selection" for those selectors, and
+how to do this varies depending upon the version of the browser you are
+using.  The Netscape we have here on UNIX interprets any mouse selection
+in those lists as a "toggle", while Netscape on my PC requires that
+the "control" key be pressed at the same time to work like that.
+IE on my iMac requires that the "apple" key be pressed.
+The "sort" menus work in a similar fashion, but can be ignored for your
+first queries; output will be sorted by the selected fields.
+</p>
+</td></tr></table>
+<hr>
+<table width="85%"><tr><td width="5%"></td>
+<td>
+<center>
+<table><tr>
+<td bgcolor="cyan">
+<font size="-2">
+[<a href="../../index.html">home</a>]
+[<a href="../../holiday-2000-06-01">photo album</a>]
+[<a href="../../gt/results_forms/">results forms</a>]
+[<a href="../../gt/translator/">GT2 translator</a>]
+[<a href="../../gt/">links</a>]
+[<a href="../../gt/diary/">diary</a>]
+[<a href="../../gt/logs/">logs</a>]
+[<a href="../../gt/gt1stats/">car find</a>]
+[<a href="../../gt/gt1used/">used cars</a>]
+</font>
+</td>
+</tr>
+</table>
+</center>
+</td></tr></table>
+
+<table width="85%"><tr><td width="5%"></td><td>
+<font size="-2">
+<p>
+The video game (videogame) title, "Gran Turismo", and its logos, are trademarks of
+Sony Computer Entertainment Incorporated.
+This site is in no way associated with Sony Computer Entertainment
+Incorporated.
+Any errors or omissions are those of the author, and anyone using this
+facility does so on the condition that they realize the results are not
+infallible.
+</p>
+</font>
+</td></tr></table>
+
+</body>
+</html>

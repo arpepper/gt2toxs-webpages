@@ -1,0 +1,111 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.07.14.18.46.16;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.30.22.39.17;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@fix up title for index
+@
+
+
+1.5
+log
+@changes.
+@
+text
+@Wed Mar 17, 1999
+
+Another Level of Crash Bandicoot 3
+
+Threads:
+  Other Games
+  Crash Bandicoot
+
+Monday and Tuesday night I redid FR Series and UKvsJP with a Cerbera
+LM.  With that car I can leave the UKvsJP competitors behind, and can
+leave the FR Series waaay behind,
+
+Earlier Tuesday evening my nephew was over with his CD and memory card
+for Crash Bandicoot 3.  Turns out there was another motorcycle racing
+level he and his mother wanted me to try.  This one was harder; it took
+me five or six tries to complete, maybe even more.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@Added threads.
+@
+text
+@d6 1
+@
+
+
+1.3
+log
+@fixed date format, simplifying
+@
+text
+@d5 3
+@
+
+
+1.2
+log
+@minor fixes
+@
+text
+@d1 1
+a1 1
+Wed Mar 17 21:15:15 EST 1999
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+d13 12
+@

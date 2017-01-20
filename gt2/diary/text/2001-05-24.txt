@@ -1,0 +1,276 @@
+Thursday May 24, 2001
+
+My Almost Total Deconstruction of Gran Turismo 1
+
+Threads:
+  Game Evaluation
+  Gameplay Hints
+
+<CODES>
+
+I am finished the <font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font> 
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> game
+(maybe <a href="../logs/proper.txt">here</a>) and, based on that I feel
+I have almost totally deconstructed the game.
+
+Yes, I verified that if you allow yourself to sell prize cars, it is
+reasonably easy to complete
+<font size="+1" color="blue">G</font><font size="+1"
+color="red">T</font><font size="+1">1</font> 
+simulation mode
+doing all the races in proper license order without entering any race
+twice.
+
+The tricky part is winning the <b>4WD</b> Cup before you've entered the
+big-money races.
+But it's not that difficult.
+In tests done in the 
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fiji">fiji</a> game
+(maybe <a href="../logs/fiji.txt">here</a>) after completion, I found
+I could just barely win the series with a roughly Cr50,000 Impreza.
+(1994 Impreza Wagon tunes up to the highest power when maxed, and
+so is a favourite--it's also one of the cheapest used Subarus available).
+(Cr17,500 plus turbo spec 2, soft racing slicks, and hard stabilizers
+giving Cr47,800 in total), but, since I ended up with more cash in the
+<b>proper</b> game I made the car more than Cr80,000--making it easier
+to win this series and also making it better prepared to win the Clubman
+and even the GT Cup.  (Principally, I used turbo spec 3 instead of turbo
+spec 2; that way I would not need to replace it; I also bought a maxed
+muffler as well as a maxed intercooler as well as hard stabilizers).
+
+The <b>Nissan Pulsar '91 GTI-R</b>,
+seems like another good possibility for the <b>4WD</b> series
+but, although it can be tuned to win the <b>4WD</b> series for about
+the same money, it is pretty well maxed then and has little scope
+for future racing.
+
+Another thing I did was essentially trade the prize Demio for a used
+Mitsubishi FTO GPX.
+The latter is only a little more expensive than the Cr12,000 you get
+for the Demio, but is more powerful and responds better to tuning money.
+
+By starting with a powerful FR car, I had a reasonable car ready to win the
+<b>FR</b> Series.
+Starting with a cheap MA70 Supra, which easily wins the Sunday Cup in
+stock form, I managed to get all the poles as well by using weight reduction
+stage 1 and a racing flywheel.  A further Cr13,500 modifications (Racing
+muffler, Turbo Spec 1 and hard semi-racing tires) allowed it to win the
+<b>FR</b> Series.
+
+In the
+<a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> game
+(maybe <a href="../logs/proper.txt">here</a>)
+I also made extensive use of the
+<b>Subaru Impreza WRX-STi version III</b>
+(prize from the <b>Normal Series</b>) in this game.
+It's a wonderful little car in tuned and also in race-modified form.
+
+Cars to win the <b>Normal</b> series are key.
+
+The <b>Viper RT/10</b> is a shoe-in, and also relatively cheap.
+It's fun to spend more money if you can get it, and use a <b>TVR</b> or
+<b>NSX</b>.  Other options are the <b>Supra '95 RZ</b>, or an <b>Impreza</b>
+of some sort, but many people, myself needed, will usually need to ensure
+the <b>AI</b> <b>NSX</b> is not in the field.
+
+When you win the <b>Normal</b> Series, you should have about <b>Cr300,000</b>
+or more with which to build-up a good car to win the <b>Mega-Speed Cup</b>,
+or the <b>International</b> Series (<b>USvsJP</b>, etc) before going on to
+the <b>IA</b> level events, for which the only new car you might need
+would be one for the <b>Hard-Tuned</b> Series.
+
+In fact, once I've won the <b>Normal</b> Series, I feel like I'm coasting
+through the rest of the game, just finishing it up.  This was especially
+true in the games where I did not bother finishing in license order.
+
+Sticking to license order, you can run short of money through the
+<b>International</b> series, especially if you avoid using prize cars;
+in fact to save money I used a tuned <b>Griffith</b> (without race-mod)
+for the <b>Mega-Speed</b> Cup as well as the <b>UKvsUS</b> Series,
+and later the <b>Hard-Tuned</b> Series and the <b>All-Night I</b>.
+
+On the other hand, if you use the <b>Chaser LM</b> (<b>GT Cup</b> prize)
+for several races, it saves a lot of money.  But once you've mastered this
+seemingly awkward beast, it does get boring using it in every game.
+
+</CODES>
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.
+==============================================================================
+
+May 08, 2001
+May 09, 2001
+  101  buy car Impreza'94WG  Active Red Subaru Impreza Wagon WRX'94 (Cr17,500)
+  101  Cr1,416,240
+  101  mod car Impreza'94WG  TS2, S/S, stabH/H  (Cr47,800 total)
+  101  Cr1,385,940
+ 101-104  Impreza'94WG 4wd q4Tq6*S2,1st24to16,12,10,9,4  dkBlueAlcyone(2/6)a
+  105  Cr1,407,940
+  105  power off
+
+May 10, 2001
+  105  buy car Pulsar  Marble White Pulsar'91 GTI-R  (Cr12,650)
+  105  Cr1,395,290
+  105  mod car Pulsar TS2, Ri/c, Rmuff, S/S, stabH/H
+  105  Cr1,358,990
+ 105-108  Pulsar     4wd  q6*q6G1st27to13,12,11,8,4     greenLancer(3/6)a
+  109  Cr1,383,990
+  109  power off
+
+May 11, 2001
+  109  buy car MA70Supra  Black Mica MA70 Supra 3.0GT Limited  (Cr6,980)
+  109  Cr1,377,010
+  109  mod car MA70Supra  S-RH/H, TS1, Rmuff  (Cr13,500 mods)
+  109  Cr1,363,510
+ 109-112  MA70Supra FR q6*1st27to16,11,9,8,4        yellowSileighty(2/6)a
+  113  Cr1,388,510
+ 113-116  MA70Supra Clubman q6*A2,1st24to16,11,10,10,4       Camaro(dup)(sold)
+  117  Cr1,427,510  Cr1,439,510
+ 117-120  Impreza'94WG  Clubman    sw27to18,12,8,7,3         Camaro(dup)(sold)
+  121  Cr1,488,010  Cr1,500,010
+  121  mod car Impreza'94WG  TS3, Rmuff, Sbr
+  121  Cr1,445,010
+ 121-125  Impreza'94WG  GTC  q6*T2,1st33to20,19,16,8,6     ChaserLM(dup)(sold)
+  126  Cr1,507,010  Cr1,519,010
+  126  Cr1,427,510  Cr1,439,510
+  126  power off
+==============================================================================
+May 13, 2001
+       I hoped to do this game in 100 days.
+       I allowed myself to sell cars, but stipulated that I would not
+       obtain my next license until I had finished all events open to
+       the previous license.
+       It turns out, given licenses obtained in minimal time, possibly
+       by reloading, it's relatively easy to do this if you allow yourself
+       to sell cars.
+
+   1   buy car MA70Supra  White Pearl Mica Toyota MA70 Supra 3.0GT Limited (Cr7,250)
+   1   Cr2,750
+   1   mod car MA70Supra WR1
+   1   Cr1,550
+
+   1      B5 pass 0:24.239 S (1 try)
+   2      B4 pass 0:25.351 S (1 try)
+   3      B6 pass 0:26.715 S (1 try)
+   4      B7 pass 0:26.318 B (1 try)
+   5      B3 oass 0:28.938 B (1 try)  (no save or reset until now)
+   6      B1 pass 0:35.252 B (1 try)
+   7      B2 pass 0:26.903 B (1 try)
+   8      B8 pass 1:20.751 B (1 try)
+   9   B license acquired  4:34.467
+
+   9   Cr26,640  (Cr25,500 winnings)
+   9   mod car MA70Supra Rfw
+   9   Cr550
+   9-12   MA70Supra Sunday          sw27to18,12,7,6,5         Demio(1/1)(sold)
+  13   Cr29,050   Cr41,050
+  13   mod car MA70Supra  Rmuff, TS1, S-RH/H  (Cr13,500)
+  13   Cr27,550
+  13-16   MA70Supra FR q6*1st27to18,11,7,6,6        yellowS13Silvia(1/6)(sold)
+  17   Cr52,550   Cr64,550
+  17   buy car FTO'94GPX   Imperial Red Mitsubishi FTO'94 GPX  (Cr12,580)
+  17   Cr51,970
+  17   mod car FTO'94GPX   S/S, NA2, WR1, Rmuff
+  17   Cr19,270
+  17-20   FTO'94GPX    FF     q6G1st27to15,12,12,6,3       blackCRX(1/6)(sold)
+  21   Cr47,270  Cr59,270
+  21   buy car Impreza'94WG    Light Silver Metallic Subaru Impreza WG'94WRX (Cr14,980)
+  21   Cr44,290
+  21   mod car FTO'94GPX   comp
+  21   Cr42,790
+  21-24   FTO'94GPX  Lwt  q2C1st27to16,12,11,5,4          pinkCivic(1/6)(sold)
+  25   Cr71,790   Cr83,790
+  25   mod car  Impreza'94WG   S/S, TS3, Rmuff, Ri/c, stabH/H
+  25   Cr13,990
+  25-28   Impreza'94WG    4wd    sw27to16,12,9,7,4     purpleLancer(1/6)a
+  29   Cr43,490
+  
+  29      A1 pass 0:33.002 B (1 try)
+  30      A2 pass 0:25.258 B (1 try)
+  31      A3 pass 0:43.510 B (1 try)
+  32      A5 pass 0:31.136 B (1 try)
+  33      A7 pass 0:28.970 G (1 try) (no save or reset until now)
+  34      A6 pass 0:26.676 B (1 try)
+  35      A4 pass 0:38.313 B (1 try)
+  36      A8 pass 1:06.483 B (1 try)
+  37   A license acquired  4:53.348
+
+  37-40   Impreza'94WG  Clubman    sw27to18,12,9,6,3         Camaro(1/1*)
+  41   Cr91,990
+  41   mod car  Impreza'94WG   Rsusp, Sbr, 3clu, shaft
+  41   Cr58,490
+  41-45   Impreza'94WG  GTC     q2T1st33to20,19,16,8,6     ChaserLM(1/1*)
+  46   Cr138,490
+  46   power off
+
+May 14, 2001
+  46   buy car NSXtypeS   Imola Orange Pearl  Acura NSX Type S  (Cr103,570)
+  46   Cr34,920
+  46-51   NSXtypeS  Normal  q3D2,1st45to30,19,16,8,7  orangeImpreza(1/6)a
+  52   Cr384,920
+  52   buy car [R]ImprezaSTi   Subaru Impreza WRX-STi version III (for [R]-mod)  (Cr20,000)
+  52   Cr364,920
+  52   mod car [R]ImprezaSTi   max [R]-mod
+  52   Cr103,920
+  52   power off
+
+May 15, 2001
+  52-57   [R]ImprezaSTi   USvsJP   sw45to30,19,16,8,7      blackFTO(1/4)a
+  58   Cr188,920
+  58-63   [R]ImprezaSTi   UKvsJP sw45to22,17,17,16,8   greenCerbera(1/4)a
+  64   Cr273,920
+  64   buy car tunedGrif4.0   Formula Red Pearl  TVR Griffith 4.0  (Cr79,800)
+  64   Cr194,120
+  64   mod car tunedGrif4.0   max-tune (no [R]-mod)
+  64   Cr46,620
+  64-67   tunedGrif4.0  Mega q6*a2Hii1st27to15,12,10,6,5     redDB7(2/6)i+a
+  68   Cr121,620
+  68-73   tunedGrif4.0  UKvsUS sw45to21,19,18,13,9        greenRX7(1/4)a
+  74   Cr206,620
+  74   power off
+
+May 16, 2001
+  74       IA1 HSR    pass 1:05.259 B (1 try)
+  75       IA3 GV     pass 1:59.409 S (1 try)
+  76       IA5 Autumn pass 1:23.570 B (1 try)
+  77       IA7 SSR11  pass 2:08.052 S (1 try)
+  78       IA2 SSR5   pass 1:28.518 B (1 try)
+  79       IA4 DFRW   pass 1:22.526 B (1 try)
+  80       IA6 TM     pass 1:32.899 B (1 try)
+  81       IA8 GVii   pass 1:57.242 B (1 try)
+  82   IA license acquired  12:57.575
+  82-83   tunedGrif4.0     All-nightII  q1st1st  silverNismoGT-R LM(1/1*)a
+  84   Cr376,620
+  84   power off
+
+May 17, 2001
+  84-89   tunedGrif4.0   Abnormal  sw45to24,19,17,15,5   redSkyline(1/6)a
+  90   Cr776,620
+  90   power off
+  90-91   [R]ImprezaSTi    All-nightI   q1st1st         redSilviaLM(1/2)a
+  92   Cr946,620
+  92   power off
+
+May 20, 2001
+  92-93   [R]ImprezaSTi GV300        q1st1st        black/blueSupra(1/2)a
+  94   Cr1,246,620
+  94   power off
+
+May 21, 2001
+May 22, 2001
+May 23, 2001
+  94-100  [R]ImprezaSTi   GTI  sw54to32,26,19,13,6       hifi+  credits
+  101  Cr1,496,620
+  101  power off

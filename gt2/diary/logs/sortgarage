@@ -1,0 +1,33 @@
+#!/xhbin/perl5
+
+sub
+sortsub {
+	my($c,$d,$e,$f);
+	my($n);
+
+	$c = $a;
+	$d = $b;
+	$c =~ s/... //;
+	$e = $c;
+	if ($e =~ /^[a-z]/ ) {
+		$e =~ s/^...[a-z\/ ]*//;
+	}
+	$d =~ s/... //;
+	$f = $d;
+	if ($f =~ /^[a-z]/ ) {
+		$f =~ s/^...[a-z\/ ]*//;
+	}
+	$n = ($e cmp $f);
+	if ($n == 0) {
+		$n = $c cmp $d;
+	}
+	return $n;
+}
+
+while (<>) {
+	push @p,$_;
+}
+
+@p = sort sortsub @p;
+print @p;
+

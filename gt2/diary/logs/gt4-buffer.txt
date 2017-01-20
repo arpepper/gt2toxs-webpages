@@ -1,0 +1,910 @@
+DDDD---carcarcar  League/Series/Track(A+|B)   Result        A-spec   next
+=====
+
+DDDD  select car ImprezaWG'00  Subaru Impreza Sport Wagon STi '00
+DDDD  buy parts ImprezaWG'00  Rmuff Cr4800 SpBr Bctlr  Cr4700 Cr10,600
+DDDD  mod car ImprezaWG'00  pol+bal Cr5500 Cr12,000
+DDDD  buy parts ImprezaWG'00  chip N2O Cr1500 Cr5000 Rtrans
+DDDD  buy parts ImprezaWG'00  3clu,Rfw,LSDF,shaft Cr4700 Cr1050 Cr6600 Cr3000
+DDDD  buy parts ImprezaWG'00  TS1,TS2,TS3  Cr4800 Cr13,500 Cr42,500
+DDDD  buy parts ImprezaWG'00  NA2, NA3  Cr12,500 Cr75,000  383hp chip Cr1500
+DDDD  buy parts ImprezaWG'00  T-S1 T-S3   Cr5100 Cr6800
+DDDD  buy parts ImprezaWG'00  Spic,Ric  Cr1800 Cr3000
+DDDD  buy parts ImprezaWG'00  Rsusp Cr17,000
+DDDD  buy parts ImprezaWG'00  TS5 Cr38300 Osusp Cr16,200  (Mine's)
+DDDD  buy parts ImprezaWG'00  T-R1,T-R2 Cr8400 Cr10,500
+DDDD  buy parts ImprezaWG'00  T-R3,T-R4,T-R5 Cr22,500 Cr35,000 Cr47,500
+DDDD  mod car ImprezaWG'00 WR1,WR2,WR3 1430-1301-1258-1215 Cr1200 Cr5500 Cr2200
+DDDD  mod car ImprezaWG'00   cage stiff Cr30,000 Cr50,000
+DDDD  buy parts ImprezaWG'00  VCD  Cr10,500
+DDDD Cr2,021,328
+
+=====
+
+2467 +1 buy car M3CSL-2  BMW M3 CSL '03  (Silbergrau Metallic) (Cr98,568,trade)
+2468  select car M3CSL-2
+2468  buy parts M3CSL-2    SpBr Bctlr  Cr4800 Cr10,800
+2468  buy parts M3CSL-2    Rtrans,3clu,Rfw,shaft Cr10,500 Cr4800 Cr1100 Cr3250
+2468  buy parts M3CSL-2    T-N1 T-N2 T-N3 Cr0  T-S1 T-S3   Cr5500 Cr7400
+2468  buy parts M3CSL-2    T-R1 T-R2 T-R3 Cr8700 Cr10,750 Cr22,750
+2468  buy parts M3CSL-2    T-R4 T-R5 Cr35,250 Cr47,750
+2468 Cr18,236,353
+2468 power off
+2468   M3CSL-2         E/Nurb4  nq6th1st                       +43-7A  next
+2469 +1 win car Chaparral2D   Chaparral 2D Race Car '67
+2470 Cr18,436,435  Jan 05  A:22264  473cars  93.3%
+2470 power off
+
+
+December 31, 2007
+2470  mod car M3CSL-2  refresh  Cr50,000
+2470  wash car M3CSL-2  Cr50
+2470 Cr18,366,435
+2470  buy parts M3CSL-2  Smuff SRmuff Rmuff  Cr1700 Cr2950 Cr4900
+2470  buy parts M3CSL-2  NA1,NA2,NA3  Cr5000 Cr13,500 Cr80,000
+2470  buy parts M3CSL-2  chip Cr1800
+2470  buy parts M3CSL-2  Ssusp SRsusp Rsusp  Cr3300 Cr7600 Cr18,600 
+2470 Cr18,247,635
+2470 power off
+2470 +5 M3CSL-2     Mfr/M   q111NN,1st50to23,21,17,14,5    +343A  next
+2475 +1 win car M3GTR'03  BMW M3 GTR '03
+2476 Cr18,332,635  Jan 11  A:22607  474cars  93.3%
+Note:  ElCapitanR    NA1,chip,T-S1  +72-7A
+Note:  Apricot       chip,T-S1      +90-7A
+Note:  OperaR        chip,T-S1      +72-7A
+Note:  Suzuka        chip,T-S1      +72-7A
+Note:  Nurburgring   chip,T-S1      +72-7A
+2476 power off
+
+
+January 03, 2008
+cardef  blackGT-ONE-2 car1397  Toyota GT-ONE Race Car '99 (black)
+2476 select car  blackGT-ONE-2  Toyota GT-ONE Race Car '99 (black)
+2476     blackGT-ONE-2 E/Nurb24     nq6th1st(B)            next
+2477 +1 win car blue/whiteFGT   Formula Gran Turismo '04 (blue/white)(dup)
+2478 Cr19,532,635  Jan 13  A:22607  475cars  93.3%
+2478 power off
+
+January 04, 2008
+2478 select car blackSL600  Mercedes SL600 (R129) '98 (Schwartz)
+2478    blackSL600   Mfr/Silver/Opera        1st         30-1A  none
+Note:  T-R1
+Note:  190E'91, CL600'00, CLK55AMG, E55AMG, A160
+Note:  easy (190E must have got held up)
+2479 Cr19,540,135  Jan 14  A:22636
+2479    blackSL600   Mfr/Silver/Opera        1st       +46-30A  none
+Note:  T-R1
+Note:  190E'91, CLK55AMG, E55AMG, SLK230, A160
+Note:  hard (190E got away, but let me win)
+2480 Cr19,547,635  Jan 15  A:22652
+2480    blackSL600   Mfr/Silver/Fuji90        1st   Cr7,500  none
+Note:  SLK230, 190E'91, E55AMG, CLK55AMG, A160
+Note: not easy
+2481 Cr19,555,135  Jan 16  A:22697
+
+2481    blackSL600   Mfr/Silver/Nurburgring  3rd             0a    8-(
+2482    blackSL600   Mfr/Silver/Nurburgring  1st         +40-1A   next
+Note:  190E,SLK230  not easy; lost first time
+2483 +1 win car  CLK-DTM  Mercedes-Benz CLK Touring Car '00
+2484 Cr19,565,135  Jan 18  A:22736  476cars  93.3%
+2484 power off
+
+
+January 06, 2008
+2484 select car blackSL600  Mercedes SL600 (R129) '98 (Schwartz)
+2484    blackSL600 B/FR/Tsukuba   nq6th1st           (30A)   none
+2485    blackSL600 B/FR/Tsukuba   nq6th1st        +51-37A    none
+2486    blackSL600 B/FR/Tsukuba   nq6th1st        +57-51A    none
+2487    blackSL600 B/FR/Tsukuba   nq6th1st        +62-57A    none
+2488 Cr19,571,135  Jan 23  A:22764  476cars  93.3%
+2488    blackSL600 B/FR/SeattleR  nq6th3rd             0A    8-(
+2489    blackSL600 B/FR/SeattleR  nq6th1st        +61-16A    none
+2490 Cr19,573,035  Jan 25  A:22809  476cars  93.3%
+2490    blackSL600 B/FR/SSR5      nq6th2nd             0A    8-(
+2491    blackSL600 B/FR/SSR5      nq6th1st        +63-51A    none
+2492 Cr19,575,035  Jan 27  A:22821  476cars  93.3%
+2492    blackSL600 B/FR/Laguna    nq6th1st        +57-32A    none
+2493    blackSL600 B/FR/Laguna    nq6th1st        +64-57A    none
+2494 Cr19,578,035  Jan 29  A:22853  476cars  93.3%
+2494    blackSL600 B/FR/MSLii     nq6th1st        +59-33A    next
+2495 +1 win car redSkyline'67  Nissan Skyline 2000GT-B (S54A) '67 (Caroline Red)
+2496 Cr19,579,535  Jan 31  A:22879  477cars  93.3%
+2496 power off
+
+2496 select car blackSL600  Mercedes SL600 (R129) '98 (Schwartz)
+2496    blackSL600    Eu/B/HSRii   nq6th1st              +151-1A   none
+Note: +80kg S1/S2
+Note: SL55AMG'02, E55AMG'02, RS4'01, S4'03, RSGAvant'02
+2497 Cr19,579,535  Feb 01  A:23029
+2497  buy parts blackSL600   NA2 NA3  Cr12,500 Cr25,000
+2497 Cr19,502,035
+2497    blackSL600    Eu/B/Nurb    nq6th1st                +76-1A  none
+Note: +80kg S3/S3   NA1,chip,Rmuff
+Note: E55AMG'02, SL55AMG'02, RS4'01, RSGAvant'02, S4'03
+2498 Cr19,512,535  Feb 02  A:23104
+2498    blackSL600    Eu/B/Suzuka  nq6th2nd                     0A  8-(
+2499    blackSL600    Eu/B/Suzuka  nq6th1st                 +75-1A none
+2500 Cr19,528,035  Feb 04  A:23177
+2500    blackSL600    Eu/B/Fuji90  nq6th1st                 +75-1A none
+2501    blackSL600    Eu/B/Fuji90  nq6th1st                +99-75A none
+2502    blackSL600    Eu/B/Fuji90  nq6th1st               +104-99A none
+2503 Cr19,558,035  Feb 07  A:23280
+Note:  M3'04, RS4'01, S4'03, GolfGTI'05, RS6'02
+2503 +1 buy car SLK230  Mercedes SLK230 Kompressor '98  (Firnweiss) (Cr21,065)
+2504 Cr19,536,970
+2504    blackSL600    Eu/B/Tokyo   nq6th1st                 +57-1A next
+2505 +1 win car [R]AMG'92  AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
+2506 Cr19,546,970  Feb 10  A:23336  479cars  93.3%
+2506 power off
+
+
+January 10, 2008
+2506 +1 buy car  [R]DeltaHF'92  Lancia Delta HF Integrale Rally Car '92
+2507 Cr18,909,471  Feb 11  A:23336  480cars
+2507 power off
+2507 select car [R]787B   Mazda 787B Race Car '91
+2507     [R]787B        SC/Normal/Umbria      nq2nd2nd         0A   8-(
+2508     [R]787B        SC/Normal/Umbria      nq2nd1st         1A  none
+2509 Cr18,919,471  Feb 13  A:23337  480cars  93.5%
+2509     [R]787B        SC/Normal/UmbriaR     nq2nd1st         1A  next
+2510 +1 win car  [R]DeltaHF'92  Lancia Delta HF Integrale Rally Car '92
+2511 Cr18,929,471  Feb 15  A:23338  481cars  93.7%
+2511 power off
+
+
+January 13, 2008
+2511 select car [R]787B   Mazda 787B Race Car '91
+2511     [R]787B        SC/Hard/UmbriaR     nq2nd2nd           0A   8-(
+2512     [R]787B        SC/Hard/UmbriaR     nq2nd2nd           0A   8-(
+2513     [R]787B        SC/Hard/UmbriaR     nq2nd1st           1A  none
+2514 Cr18,919,471  Feb 18
+2514     [R]787B        SC/Hard/Umbria      nq2nd1st           1A  next
+2515 +1 win car  [R]DeltaS4'85  Lancia Delta S4 Rally Car '85
+2516 Cr18,969,475  Feb 20  A:23340  482cars  94.0%
+2516     [R]787B        SC/Hard/GeorgeR     nq2nd1st           1A  none
+2517 +1 win car  [R]205'86  Paugeot 205 Turbo 16 Evolution 2 Rally Car '86
+2518 Cr18,989,471  Feb 22  A:23341  483cars  94.2%
+2518 power off
+cardef  [R]DeltaS4  [R]DeltaS4'85
+2518 select car  [R]DeltaS4   Lancia Delta S4 Rally Car '85
+2518  buy parts [R]DeltaS4   T-DT Cr23,000  T-SN Cr23,000
+2518 Cr18,898,471
+2518 power off
+2518   [R]DeltaS4        SC/Normal/IceArena   nq2nd2nd         0A     8-(
+2519   [R]DeltaS4        SC/Normal/IceArena   nq2nd1st         1A    none
+2520 Cr18,908,471
+2520   [R]DeltaS4        SC/Normal/IceArenaR  nq2nd1st         1A    next
+2521 +1 win car  [R]EvoIV  Mitsubishi Lancer Evolution IV Rally Car '97
+2522 Cr18,918,471  Feb 26  A:23343  484cars  94.5%
+2522   [R]DeltaS4   SC/Normal/Tahiti   nq2nd1st                 2A   none
+2523 Cr18,928,471  Feb 27  A:23345  484cars  94.7%
+2523   [R]DeltaS4   SC/Normal/TahitiR  nq2nd1st                 2A   next
+2524 +1 win car  [R]Escort'98  Ford Escort Rally Car '98
+2525 Cr18,938,471  Feb 29  A:23347  485cars  94.9%
+Note: Leap Year!
+Note: A-spec 17,085mi  B-spec 55,687mi
+2525 power off
+
+
+January 18, 2008
+2525 select car  [R]DeltaS4   Lancia Delta S4 Rally Car '85
+2525   [R]DeltaS4        SC/Hard/IceArena   nq2nd1st         5A    none
+2526   [R]DeltaS4        SC/Hard/IceArenaR  nq2nd1st         5A    next
+2527 +1 win car  [R]Bluebird'69  Nissan Bluebird Rally Car (510) '69
+2528 Cr18,978,471  Mar 03  A:23357  486cars  95.2%
+2528   [R]DeltaS4        SC/Normal/Chamonix   nq2nd1st         1A    none
+2529   [R]DeltaS4        SC/Normal/ChamonixR  nq2nd1st         1A    next
+2530 +1 win car [R]Impreza'01  Subaru Impreza Rally Car '01
+2531 Cr18,998,471  Mar 06  A:23359  487cars  95.5%
+2531   [R]DeltaS4        SC/Hard/Chamonix   nq2nd1st           5A    none
+2532   [R]DeltaS4        SC/Hard/ChamonixR  nq2nd1st           5A    next
+2533 +1 win car [R]Stratos  Lancia Stratos Rally Car '77
+2534 Cr19,038,471  Mar 09  A:23369  488cars  95.9%
+2534 power off
+
+
+January 19, 2008
+2534 select car  [R]DeltaS4   Lancia Delta S4 Rally Car '85
+2534   [R]DeltaS4        SC/Normal/CathedralII    nq2nd1st      1A none
+2535 Cr19,048,471  Mar 10  A:23370  488cars  96.0%
+2535   [R]DeltaS4        SC/Normal/CathedralIIii  nq2nd1st      1A next
+2536 +1 win car [R]GT-FOUR'95  Toyota Celica GT-FOUR Rally Car (ST185) '95
+2537 Cr19,058,471  Mar 12  A:23371  489cars  96.2%
+2537 power off
+
+2537 +1 buy car [R]AbtTT-R-2  Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+2538 Cr18,058,471  Mar 13  A:23371  490cars  96.2%
+2538 power off
+2538 +1 buy car [R]AbtTT-R-3  Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+2539 Cr17,958,471  Mar 14  A:23371  491cars  96.2%
+2539 power off
+2539 select car [R]AbtTT-R-2  Abt Audi TT-R Touring Car '02
+2539 change oil [R]AbtTT-R-2  Cr50  470 -> 494hp
+2539 Cr17,958,421
+2539 buy parts [R]AbtTT-R-2  T-N1,T-N2,T-N3 Cr0
+2539 buy parts [R]AbtTT-R-2  T-S1,T-S2,T-S3  Cr6000 Cr7000 Cr8000 T-R5 Cr48,000
+2539 buy parts [R]AbtTT-R-2  T-R1,T-R2,T-R4  Cr9000 Cr11,000 Cr35,500
+2539 Cr17,833,921
+2539     [R]AbtTT-R-2   E/Nurb24     nq6th1st(B)              next
+2540 +1 win car orangeFGT   Formula Gran Turismo '04 (orange)(dup2)
+2541 Cr19.033,921  Mar 16  A:23371  492cars  96.2%
+2541 power off
+
+
+January 20, 2008
+2541 select car [R]AbtTT-R-3  Abt Audi TT-R Touring Car '02
+2541 buy parts [R]AbtTT-R-3  T-N1,T-N2,T-N3 Cr0
+2541 buy parts [R]AbtTT-R-3  T-S1,T-S2,T-S3  Cr6000 Cr7000 Cr8000 T-R5 Cr48,000
+2541 buy parts [R]AbtTT-R-3  T-R1,T-R2,T-R4  Cr9000 Cr11,000 Cr35,500
+2541 Cr18,909,421
+2541 change oil [R]AbtTT-R-3  Cr50  470 -> 494hp
+2541 Cr18,909,371
+2541     [R]AbtTT-R-3   E/Nurb24     nq6th1st(B+A)            next
+2542 +1 win car red/white/greenFGT   Formula Gran Turismo '04 (red/white/green)(dup2)
+2543 Cr20,109,371  Mar 18  A:23371  493cars  96.2%
+2543 power off
+
+
+January 23, 2008
+2543 +1 buy car [R]AbtTT-R-4  Abt Audi TT-R Touring Car '02 (Cr550,000,new)
+2544 Cr19,559,371  Mar 19  A:23371  494cars  96.2%
+2544 power off
+2544 select car [R]AbtTT-R-4  Abt Audi TT-R Touring Car '02
+2544 change oil [R]AbtTT-R-4  Cr50  470 -> 494hp
+2544 Cr19,559,321
+2544 buy parts [R]AbtTT-R-4  T-N1,T-N2,T-N3 Cr0
+2544 buy parts [R]AbtTT-R-4  T-S1,T-S2,T-S3  Cr6000 Cr7000 Cr8000 T-R5 Cr48,000
+2544 buy parts [R]AbtTT-R-4  T-R1,T-R2,T-R4  Cr9000 Cr11,000 Cr35,500
+2544 Cr19,434,821
+2544 power off
+2544     [R]AbtTT-R-4   E/Nurb24     nq6th1st(B)              next
+2545 +1 win car blue/whiteFGT   Formula Gran Turismo '04 (blue/white)(dup2)
+2546 Cr20,634,821  Mar 21  A:23371  495cars  96.2%
+2546 power off
+
+
+January 24, 2008
+2546     license IA15 G Nurb  9:00.278G (many tries)
+2547 Cr20,634,821  Mar 22  A:23371  495cars  96.2%  16G 60S 4B*
+2547 power off
+Note: A-spec 17,261mi  B-spec 62,281mi
+
+
+January 25, 2008
+2547 license S16 S Nurb   7:20.233S  (many tries)  +12.533G
+Note:  ... 7:28.390S ... 7:23.342S ... 7:22.101S ... 7:20.628S
+Note:  ... 7:20.541S ... 7:20.233S
+2548 Cr20,634,821  Mar 22  A:23371  495cars  96.2%  16G 60S 4B*
+2548 power off
+
+January 25, 2008
+2547     license S16 S Nurb   7:20.233S  (many tries)  +12.533G
+Note:      ... 7:28.390S ... 7:23.342S ... 7:22.101S ... 7:20.628S
+Note:      ... 7:20.541S ... 7:20.233S
+2548 Cr20,634,821  Mar 23  A:23371  495cars  96.2%  16G 60S 4B*
+2548 power off
+
+
+January 26, 2008
+2548     license S16 S Nurb   7:19.650S   +11.950G
+2549     license IA13 G 0:25.904S (many tries)
+2550     license B5  Tsukuba S  1:28.327S
+2551 Cr20,634,821  Mar 26  A:23371  495cars  96.2%  16G 60S 4B*
+2551 power off
+
+
+January 27, 2008
+2551 select car [R]RS200'85  Ford RS200 Rally Car '85
+2551      [R]RS200'85  SC/Normal/Grand   nq2nd1st          1A  none
+2552 Cr20,644,821  Mar 27  A:23372  495cars  96.4%
+2552 power off
+
+
+January 31, 2008
+2552 +1 buy car browSL500  Mercedes SL500 (R129) '98 (Nutria(brown))  (Cr84,045,trade)
+2553 Cr20,560,776  Mar 28  A:23372  496cars  96.4%
+2553 power off
+
+cardef Chap2D-2 car554
+2553 select car Chap2D-2   Chaparral 2D Race Car '67
+2553 buy parts Chap2D-2  T-N1 T-N2 T-N3  Cr0
+2553 buy parts Chap2D-2  T-S1,T-S2,T-S3 Cr6000 Cr7000 Cr8000
+2553 buy parts Chap2D-2  T-R1,T-R2,T-R4,T-R5 Cr9000 Cr11,000 Cr35,500 Cr48,000
+2553 Cr20,436,276
+2553 power off
+
+
+February 01, 2008
+2553 +1 buy car RufRGT  RUF RGT'00 (red)  (Cr143,250,new)
+2554 Cr20,293,026
+2554 power off
+2554 select car RufRGT  RUF RGT'00 (red)
+2554  buy parts RufRGT   T-N1 T-N2 T-N3   Cr0  T-S1 T-S2   Cr5500 Cr6500
+2554  buy parts RufRGT   T-R1 T-R2 T-R3 Cr8700 Cr10,750 Cr22,750
+2554  buy parts RufRGT   T-R4 T-R5 Cr35,250 Cr47,750
+2554 Cr20,110,326
+2554   RufRGT          E/Nurb4  nq6th1st(A+B)                       next
+2555 +1 win car Chaparral2D   Chaparral 2D Race Car '67
+2556 Cr20,310,326  Mar 31  A:23372  498cars
+2556 power off
+
+
+February 02, 2008
+2556 select car [R]RS200'85  Ford RS200 Rally Car '85
+2556      [R]RS200'85  SC/Normal/GrandR  nq2nd1st          1A  next
+2557 +1 win car [R]CZ-3   Mitsubishi CZ-3 Tarmac Rally Car '02
+2558 Cr20,320,326  Apr 02  A:23373  499cars  96.6%
+Note: beat Clio
+Note:  A-spec 17,462mi  B-spec 62,472mi
+
+2558      [R]RS200'85  SC/Hard/Alps      nq2nd1st          6A  none
+2559 Cr20,340,326  Apr 03  A:23379  499cars  96.7%
+Note: beat EvoVI Rally Car
+2559      [R]RS200'85  SC/Hard/AlpsR     nq2nd1st          8A  next
+2560 +1 win car [R]240RS  Nissan 240RS Rally Car '85
+2561 Cr20,360,326  Apr 05  A:23387  500cars  96.9%
+
+2561 select car [R]CZ-3   Mitsubishi CZ-3 Tarmac Rally Car '02
+2561  buy parts [R]CZ-3   TS3,TS4 Cr45,000 Cr90,000
+2561  buy parts [R]CZ-3   T-DT Cr23,000  T-SN Cr23,000
+2561  buy parts [R]CZ-3  T-N1 T-N2 T-N3  Cr0
+2561 Cr20,179,326
+2561 power off
+
+
+February 10, 2008
+2561      [R]CZ-3      SC/Hard/Grand   nq2nd1st          6A  none
+2562 Cr20,199,326  Apr 06  A:23393  500cars  97.1%
+Note: many, many "unofficial practice" tries
+Note:  A-spec 17,493mi  B-spec 62,472mi
+2562 power off
+
+
+February 12, 2008
+2562 select car  [R]Escort'98  Ford Escort Rally Car '98
+2562  buy parts [R]Escort'98   TS3,TS4 Cr45,000 Cr90,000
+2562  buy parts [R]Escort'98   T-DT Cr23,000  T-SN Cr23,000
+2562  buy parts [R]Escort'98  T-N1 T-N2 T-N3  Cr0
+2562 Cr20,018,326
+2562   [R]Escort'98   SC/Hard/Tahiti   nq2nd1st                 58A   none
+2563 Cr20,038,326  Apr 07  A:23451  500cars  97.2%
+Note: beat RS200 (wall-riding)
+2563   [R]Escort'98   SC/Hard/TahitiR  nq2nd1st                 58A   next
+2564 +1 win car  [R]Pajero'85  Mitsubishi Pajero Rally Raid Car '85
+2565 Cr20,058,326  Apr 09  A:23509  501cars  97.4%
+Note: beat RS200 (wall-riding)
+2565 power off
+
+
+February 14, 2008
+2565   [R]Escort'98      SC/Hard/CathedralI     nq2nd2nd      0A  8-(
+2566   [R]Escort'98      SC/Hard/CathedralI     nq2nd1st      8A none
+2567 Cr20,078,326  Apr 11  A:23517  501cars  97.6%
+2567 power off
+
+
+February 15, 2008
+2567   [R]Escort'98      SC/Hard/CathedralII    nq2nd1st      8A next
+2568 Cr20,098,326  Apr 12  A:23525  501cars  97.7%
+Note: beat Evo '03
+Note: A-spec 17,535mi  B-spec 62,472mi
+2568   [R]Escort'98      SC/Hard/CathedralIIii  nq2nd1st      8A next
+2569 +1 win car  [R]Pajero'03  Mitsubishi Pajero Evolution Rally Car '03
+2570 Cr20,118,326  Apr 14  A:23533  502cars  97.9%
+Note: beat Evo '03  A-spec 17,541mi
+2570 power off
+
+
+February 16, 2008
+2570   [R]Escort'98      SC/Hard/CathedralIii   nq2nd1st      8A next
+2571 +1 win car  [R]Escudo'98  Suzuki Escudo Dirt Trial Car '98
+2572 Cr20,138,326  Apr 16  A:23541  503cars  98.1%
+Note: beat Evo '03  A-spec 17,552mi
+2572 power off
+
+
+February 17, 2008
+2572   [R]Escort'98    SC/Hard/GrandR  nq2nd2nd               8-(
+2573   [R]Escort'98    SC/Hard/GrandR  nq2nd2nd               8-(
+Note: lost to Evo'03
+2574 change oil [R]Escort'98  Cr50  461 -> 485hp
+2574 Cr20,138,276
+2574   [R]Escort'98    SC/Hard/GrandR  nq2nd1st          7A  none
+2575 +1 win car  [R]Starion'84  Mitsubishi Starion 4WD Rally Car '84
+2576 Cr20,158,276  Apr 20  A:23548  504cars  98.3%
+Note: beat Evo'03 (by blocking)  A-spec 17,574mi
+2576 power off
+
+
+February 21, 2008
+2576 +1 buy car SkylineHT'83  Nissan Skyline HT 2000 Turbo RS '83 (Gun Gray/Black) (Cr8812,used)
+2577 Cr20,149,464  Apr 21  A:23548  505cars  98.3%
+2577 power off
+
+
+February 23, 2008
+2577     license B15 S  PT@Infineon  2:19.481S  (+0.481G)
+2578 Cr20,149,464  Apr 22  A:23548  505cars  98.3%
+2578 power off
+
+
+February 28, 2008
+2578 +1 buy car SkylineRSX'84  Nissan Skyline HT 2000 RS-X Turbo C '84 (48292.8mi,red/black) (Cr9712,used)
+2579 Cr20,139,752  Apr 23  A:23548  506cars  98.3%
+2579 select car Chap2J   Chaparral 2J Race Car '70
+2579 power off
+
+
+March 01, 2008
+2579  Chap2J           E/Infineon   nq6th2nd                       8-(
+2580 Cr20,259,752  Apr 24  A:23548  506cars  98.3%
+2580 power off
+
+
+March 02, 2008
+2580 +1 buy car Chap2J-2   Chaparral 2J Race Car '70 (Cr1,200,000,new)
+2581 Cr19,059,752  Apr 25  A:23548  507cars  98.3%
+2581 power off
+2581 select car Chap2J-2  Chaparral 2J Race Car '70
+2581 buy parts Chap2J-2  T-N1 T-N2 T-N3  Cr0
+2581 buy parts Chap2J-2  T-R1,T-R2,T-R4,T-R5 Cr9000 Cr11,000 Cr35,500 Cr48,000
+2581 Cr18,956,252
+2581 power off
+
+
+March 03, 2008
+2581  Chap2J-2         E/Infineon   nq6th1st         200-29A      next
+2582 +1 win car [R]FordGT'02   Ford GT LM Race Car '02
+2583 Cr19,456,252  Apr 27  A:23719  508cars  98.3%
+2583 power off
+
+
+March 07, 2008
+2583 +1 skip Mission33  nq6th1st  (Cien@Infineon)  2:04.292 -0.153  250A none
+2584 Cr19,466,252  Apr 28  A:23969  508cars  98.4%
+2584 power off
+Note: Many, many tries (first tried and gave up on Mission 29)
+Note:  A-spec 18,142mi   B-spec 62,472mi
+2584 power off
+
+Note: Long break.  Lots of cycling.  8-)  (Well, some...)
+
+December 13, 2008
+2584 select car yellowS7  Saleen S7 '02  (Speedlab Yellow) (Cr419,130,new)
+2584  yellowS7   Mfr/S7/SSR5ii   nq6th1st T-R2,120KG,(N2O)  +0A(24)  none
+2585 Cr19,476,252  Apr29  A:23969  508cars  98.4%
+2585 yellowS7   Mfr/S7/SSR5ii   nq6th1st T-S3,200KG  +83-46A  none
+2586 Cr19,486,252  Apr30  A:24006  508cars  98.4%
+2586 yellowS7   Mfr/S7/Infineon   nq6th1st T-R1,200KG  +60-24A  none
+2587 Cr19,496,252 May01  A:24042  508cars  98.4%
+2587 yellowS7   Mfr/S7/ElC   nq6th1st T-R1,200KG  +60-24A  none
+2588 Cr19,506,252 May02  A:24078  508cars  98.4%
+2588 yellowS7   Mfr/S7/Suzuka   nq6th1st T-R1,200KG  +60-24A  none
+2589 Cr19,516,252 May03  A:24114  508cars  98.4%
+2589 yellowS7   Mfr/S7/SartheI   nq6th1st T-R3,0KG  +0A(9-24)  next
+2590 +1 win car Nike   Nike One 2022
+2591 Cr19,526,252 May05  A:24114  509cars  98.4%
+2591 power off
+
+
+December 20, 2008
+2591 +1 buy car CooperS-2   Mini Cooper S '02  (Chili Red) (Cr26,790,new)
+2592 Cr19,499,462 May06
+
+2592 select car CooperS-2
+2592  buy parts CooperS-2  T-R4 Cr34,750
+2592  buy parts CooperS-2 SRmuff Cr2850  Ctrans Cr5600  SRsusp Cr7200
+2592 mod car CooperS-2 cage WR1 Cr30,000 Cr1100
+2592 change oil CooperS-2  169->178hp
+2592 Cr19,417,912
+2592 +1 buy parts CooperS-2  "OZ 029" wheels for racing
+2593 Cr19,417,412 May07 A:24114  510cars  98.4%
+2593 power off
+
+December 23, 2008
+2593 select car CooperS   Mini Cooper S '02  (Chili Red)
+2593 CooperS SC/Easy/GeorgeR     nq2nd1st +22-1A Cr5000    next
+2594 Cr19,422,412
+2594  buy parts CooperS  SRtrans Cr5500  SRsusp Cr7200
+2594  buy parts CooperS Rfw Cr1000  3clu Cr2600  T-R4 Cr34,750
+2594 Cr19,371,262
+2594 CooperS SC/Easy/George     nq2nd1st +22-1A Cr5000    next
+2595 +1 win car A310'73  Alpine A310 1600VE '73 (Bleu Alpine)
+2596 Cr19,376,262 May10 A:24156  511cars  98.4%
+2596 power off
+
+December 25, 2008
+2596 CooperS SC/Normal/GeorgeR     nq2nd2nd    none
+2597 CooperS SC/Normal/GeorgeR     nq2nd2nd    none
+2598 CooperS SC/Normal/GeorgeR     nq2nd1st  +154-1A Cr10,000  none
+2599 Cr19,386,262 May13 A:24309  511cars  98.4%
+2599 CooperS SC/Normal/George     nq2nd1st  +139-1A Cr10,000  next
+2600 +1 win car [R]Turbo5'85  Renault 5 Maxi Turbo Rally Car '85
+2601 Cr19,396,262 May15 A:24447  512cars  98.4%
+Note: use +200kg,R1 for SC/Easy
+2601 CooperS SC/Easy/George     nq2nd1st  +81-22A Cr5000  none
+2602 CooperS SC/Easy/GeorgeR     nq2nd1st  +93-22A Cr5000  none
+2603 +1 win car A310'73  Alpine A310 1600VE '73 (Bleu Alpine)
+2604 Cr19,406,262 May18 A:24577  513cars  98.4%
+2604 power off
+
+December 26, 2008
+2604   CooperS  SC/Easy/AmalfiR  1st     +93-42A Cr5,000 none
+2605   CooperS  SC/Easy/Amalfi  1st    +108-42A Cr5,000 next
+2606 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
+2607 Cr19,416,262 May21 A:24694  514'cars  98.4%
+2607 buy parts CooperS Rtrans Cr10,200
+2607 Cr19,406,062
+Note: use NA2,R4 for SC/Normal
+2607   CooperS  SC/Normal/Amalfi  1st    +95-42A Cr10,000 none
+2608   CooperS  SC/Normal/AmalfiR  1st    +95-42A Cr10,000 next
+2609 +1 win car [R]ImprezaRly'01 Subaru Impreza Rally Car Prototype '01
+2610 Cr19,426,062 May24 A:24882  515cars  98.4%
+2610 power off
+
+December 27, 2008
+cardef [R]Turbo5'85  car823
+select car [R]Turbo5'85  Renault 5 Maxi Turbo Rally Car '85 (day823)
+2610 buy parts [R]Turbo5'85  
+2610  buy parts [R]Turbo5'85  T-R2 T-R3  Cr11,000 Cr23,000
+2610  buy parts [R]Turbo5'85  T-R4 T-R5  Cr35,500 Cr48,000
+2610  buy parts [R]Turbo5'85  T-DT Cr23,000  T-SN Cr23,000
+2610  buy parts [R]Turbo5'85  T-DT Cr23,000  T-N1 T-N2 T-N3 Cr0
+2610 Cr19,241,562 May24 A:24882  515cars  98.4%
+
+2610     [R]Turbo5'85    SC/Hard/GeorgeR   nq2nd1st   T-R4         +10-1A  none
+2611     [R]Turbo5'85    SC/Hard/George    nq2nd1st   T-R4         +10-1A  next
+2612 +1 win car  [R]205'86  Paugeot 205 Turbo 16 Evolution 2 Rally Car '86
+2613 Cr19,281,562 May27 A:24900  516cars  98.4%
+2613     [R]Turbo5'85    SC/Hard/GeorgeR     nq2nd1st   T-R3      +27-10A  none
+2614 Cr19,301,562 May28 A:24917  516cars  98.4%
+2614 power off
+
+December 30, 2008
+2614 +1 buy car MiniCooper  Mini Cooper '02 (Silk Green Metallic) (Cr22,190,new)
+2615 Cr19,279,372
+2615 select car MiniCooper
+2615  buy parts MiniCooper  T-N1,T-N2,T-N3  Cr0
+2615  buy parts MiniCooper  T-S1 T-S3   Cr4600 Cr6200
+2615  buy parts MiniCooper  T-R1 T-R2 T-S3   Cr8100 Cr10,250 Cr22,250
+2615  buy parts MiniCooper  T-R4 T-R5 Cr34,750 Cr47,250
+2615  buy parts MiniCooper  T-DT T-SN  Cr22,250 Cr22,250
+2615  buy parts MiniCooper Smuff,SRmuff,Rmuff Cr1550 Cr2850 Cr4600
+2615  buy parts MiniCooper SpBr Bctlr  Cr4600 Cr10,300 chip Cr1250
+2615  buy parts MiniCooper NA1,NA2,NA3  Cr4700,Cr12,000,Cr70,000
+2615  buy parts MiniCooper Rtrans,3clu,Rfw  Cr10,200 Cr4600 Cr1000
+2615  buy parts MiniCooper TS1 Cr4600   TS2 Cr13,000
+2615  buy parts MiniCooper  Ssusp Cr3100 SRsusp Cr7200  Rsusp  Cr16,000
+2615 Cr18,929,922
+
+2615    MiniCooper  Mfr/Mini/Opera   nq6th1st TS1,T-S1,chip,Rmuff   +37-6A none
+2616 Cr18,932,922
+2616    MiniCooper     Mfr/Mini/Opera   nq6th1st  TS1,T-S1  +61-37A none
+2617 Cr18,935,922 May31 A:24972  517cars  98.4%
+2617    MiniCooper    Mfr/Mini/CR5ii   nq6th2nd  200k,NA2,T-S2 8-(
+2618   MiniCooper    Mfr/Mini/CR5ii   nq6th1st  200k,NA2,T-S2    +29-6A none
+2619 Cr18,939,922 Jun02 A:24995  517cars  98.4%
+2619    MiniCooper    Mfr/Mini/Seattle  nq6th1st  200k,NA3,T-S1 +10-4A none
+2620    MiniCooper     Mfr/Mini/Opera   nq6th1st  (7A) none
+2621 Cr18,945,922 Jun04 A:25001  517cars  98.4%
+2621    MiniCooper     Mfr/Mini/Tokyo   nq6th1st 200k,NA3,chip,T-S2 +9-4A none
+2622 Cr18,948,922 Jun05 A:25006  517cars  98.4%
+2622 power off
+
+December 31, 2008
+2622    MiniCooper    Mfr/Mini/NYii    nq6th1st  T-S2chipNA3   +9-4A next
+2623 +1 win car orangeMarcos   Mini Marcos GT '70 (Bahama Yellow)
+2624 Cr18,951,922 Jun07 A:25011  518cars  98.4%
+2624 +1 buy car yellowMarcos  Mini Marcos GT '70 (Mid Chrome Yellow)(Cr21,674,trade)
+2625 +1 buy car whiteMarcos  Mini Marcos GT '70 (Arctic White)(Cr21,674,trade)
+2626 Cr18,908,574 Jun09 A:25011  520cars  98.4%
+
+January 01, 2009
+2626 +1 buy car  redMarcos    Mini Marcos GT '70 (Tartan Red)(Cr21,674,trade)
+2627 +1 buy car  blueMarcos    Mini Marcos GT '70 (Royal Blue)(Cr21,674,trade)
+2628 Cr18,865,226 Jun11 A:25011  522cars  98.4%
+2628 power off
+
+January 01, 2009
+2628   MiniCooper    B/FF/SuzukaE     nq6th2nd                           8-(
+2629   MiniCooper  B/FF/SuzukaE  nq6th1st  200kNA1chipRmuffT-S1  +171-2A  none
+2630 Cr18,867,226 Jun13 A:25180  522cars  98.4%
+2630   MiniCooper   B/FF/MotegiE   nq6th1st  0kNA1chipRmuffT-S1  +143-3A  none
+2631 Cr18,868,726 Jun14 A:25320  522cars  98.4%
+2631   MiniCooper   B/FF/MidfieldR   nq6th1st  0kNA2chipRmuffT-S1  +86-2A  none
+2632 Cr18,870,226 Jun15 A:25404  522cars  98.4%
+2632   MiniCooper    B/FF/HKii     nq6th1st  0kNA2chipRmuffT-S1  +85-1A  none
+2633 Cr18,871,726 Jun16 A:25488  522cars  98.4%
+2633   MiniCooper    B/FF/GVE    nq6th1st  0kNA1chipRmuffT-S1  +145-3A  none
+2634 +1 win car  yellowMazda6'01  Mazda Mazda6 Concept '01  (Fuoco Giallo)
+2635 Cr18,873,226 Jun18 A:25630  523cars  98.4%
+
+January 04, 2009
+2635 +1 buy car yellowCooper  Mini Cooper '02 (Liquid Yellow) (Cr22,190,new)
+2636 Cr18,851,036
+2636 select car yellowCooper
+2636 mod car yellowCooper WR1 Cr1100 WR2 Cr5300 WR3 Cr21,000
+Note: 1115kg -> 1048kg -> 1014kg -> 981kg
+2636  buy parts yellowCooper  T-N1,T- N2,T-N3  Cr0
+2636  buy parts yellowCooper  T-S1 T-S3   Cr4600 Cr6200
+2636  buy parts yellowCooper  T-R1 T-R2 T-S3   Cr8100 Cr10,250 Cr22,250
+2636  buy parts yellowCooper  T-R4 T-R5 Cr34,750 Cr47,250
+2636  buy parts yellowCooper  T-DT T-SN  Cr22,250 Cr22,250
+2636  buy parts yellowCooper Smuff,SRmuff,Rmuff Cr1550 Cr2850 Cr4600
+2636  buy parts yellowCooper SpBr Bctlr  Cr4600 Cr10,300 chip Cr1250
+2636  buy parts yellowCooper NA1,NA2,NA3  Cr4700,Cr12,000,Cr70,000
+2636  buy parts yellowCooper Rtrans,3clu,Rfw  Cr10,200 Cr4600 Cr1000
+2636  buy parts yellowCooper TS1 Cr4600   TS2 Cr13,000
+2636  buy parts yellowCooper  Ssusp Cr3100 SRsusp Cr7200  Rsusp  Cr16,000
+2636 Cr18,474,186 Jun19 A:25630  524cars  98.4%
+
+2636  yellowCooper   Eu/BLW/ApricotR  nq6th1st  NA1chipRmuffT-S2  +101-10A none
+2637 Cr18,477,186 Jun20 A:25721  524cars  98.4%
+2637  yellowCooper   Eu/BLW/Autumn  nq6th1st  NA1chipRmuffT-S3  +83-10A none
+2638 Cr18,480,186 Jun21 A:25804  524cars  98.4%
+2638  yellowCooper   Eu/BLW/SSR5 nq6th1st  NA1chipRmuffT-S3  +95-10A none
+2639 +1 win car greenEuropa  Lotus Europa Special '71  (Pistachio)
+2640 Cr18,483,186 Jun23 A:25889  525cars  98.4%
+
+January 16, 2009
+2615 select car MiniCooper  Mini Cooper '02 (Silk Green Metallic)
+2640 buy parts MiniCooper LSDF Cr6300
+2640 Cr18,476,886 Jun23 A:25889  525cars  98.4%
+2640   MiniCooper    SC/Easy/Chamonix   nq2nd1st       +82-1A none
+2641 Cr18,481,886 Jun24 A:25970 525cars  98.4%
+
+January 18, 2009
+2641 select car Impreza22B-2 Subaru Impreza Coupe 22B-STi '98 (Sonic Blue Mica)
+2641 buy parts Impreza22B-2 Rbr Cr4700 Bctlr Cr10,600
+2641 buy parts Impreza22B-2 Rtrans Cr10,400 3clu Cr4700 Rfw Cr1050
+2641 buy parts Impreza22B-2 LSDF Cr6600 shaft Cr3000 Rsusp Cr17,000
+2641 buy parts Impreza22B-2 T-DT Cr22,500 T-SN Cr22,500 VCD Cr10,500
+2641 Cr18,368,336 
+2641   Impreza22B-2  SC/Easy/ChamonixR  nq2nd1st             +19-1A next
+2642 +1 win car FX45'02  Infiniti FX45 Concept '02 (Golden Sand Pearl Metallic)
+2643 Cr18,373,336 Jun26 A:25988 526cars  98.4%
+
+January 21, 2009
+2643   Impreza22B-2         SC/Normal/Chamonix   nq2nd2nd    8-(
+2644   Impreza22B-2         SC/Normal/Chamonix   nq2nd1st   +73-1A   none
+2645 Cr18,383,336 Jun28 A:26060 526cars  98.4%
+2645   Impreza22B-2     SC/Normal/ChamonixR  nq2nd1st         +22-1A    next
+2646 +1 win car [R]Impreza'01  Subaru Impreza Rally Car '01
+2647 Cr18,393,336 Jun30 A:26081 527cars  98.4%
+
+January 24, 2009
+2647 select car white205T16'85  Peugeot 205 Turbo 16 '85  (white)
+2647  buy parts white205T16'85   Rbr Cr4800   Bctlr  Cr10,800
+2647  buy parts white205T16'85   Rtrans Cr10,500  LSDF  Cr6800 
+2647  buy parts white205T16'85   TS1  Cr4900  TS2 Cr14,000  TS3 Cr43,500
+2647  buy parts white205T16'85   Rsusp Cr18,000  VCD Cr10,700
+2647  buy parts white205T16'85   T-N1 T-N2 T-N3  Cr0
+2647  buy parts white205T16'85   T-S1 Cr5500 T-S3  Cr7400
+2647  buy parts white205T16'85   T-R1 Cr8700 T-R2  Cr10,750 T-R3  Cr22,750
+2647  buy parts white205T16'85   T-R4 Cr33,250 T-R5  Cr47,750
+2647  buy parts white205T16'85  T-DT  Cr22,750  T-SN  Cr22,750
+2647 Cr18,835,736
+2647  mod car white205T16'85  refresh  Cr50,000
+2647 Cr18,035,736
+2647   white205T16'85   SC/Easy/Chamonix   nq2nd1st       +86-82A none
+2648 Cr18,040,736
+2648   white205T16'85   SC/Easy/Chamonix   nq2nd1st       +112-86A none
+2649 Cr18,045,736  Jul02 A:26111 527cars  98.4%
+
+February 15, 2009
+2649 +1 buy car [R]Peugeot905   Peugeot 905 Race Car '92 (Cr3,500,000)
+2650 Cr14,545,736  Jul03 A:26111 528cars  98.4%
+2650 select car [R]Peugeot905
+2650 buy parts [R]Peugeot905  T-N1 T-N2 T-N3  Cr0
+2650 buy parts [R]Peugeot905  T-S1,T-S2,T-S3 Cr6000 Cr7000 Cr8000
+2650 buy parts [R]Peugeot905  T-R1,T-R2,T-R4,T-R5 Cr9000 Cr11,000 Cr35,500 Cr48,000
+2650 Cr14,286,236
+
+2650  [R]Peugeot905 Ex/Stars/HSRii  q1st1st  +31-5A  none
+2651 Cr14,301,236  Jul04 A:26137 528cars  98.4%
+
+February 16, 2009
+2651     [R]Peugeot905     E/Super      nq6th1st(A)  +123-2A    next
+2652 +1 win car [R]NSX-R'02  Honda NSX-R Prototype LM Race Car '02
+2653 Cr14,501,236  Jul06 A:26258 529cars  98.4%
+
+
+
+June 17, 2009
+2653  select car yellowS7  Saleen S7 '02  (Speedlab Yellow) 
+2653   yellowS7   Mfr/S7/SartheI  nq6th1st      T-S3   +48-24A  none
+2654 Cr14,511,236  Jul07 A:26282 529cars  98.4%
+2654   yellowS7   Mfr/S7/Infineon nq6th1st      T-S1   +73-60A  none
+2655 Cr14,521,236  Jul08 A:26295 529cars  98.4%
+2655   yellowS7   Mfr/S7/ElC       nq6th1st      T-51   +73-60A  none
+2656 Cr14,531,236  Jul09 A:26308 529cars  98.4%
+2656   yellowS7   Mfr/S7/Infineon nq6th1st  T-S1+200kg +108-73A  none
+2657 Cr14,541,236  Jul10 A:26343 529cars  98.4%
+
+Sep 22, 2009
+2657     license IA5 G ElCapitan  2:27.859G (many tries)
+2658 Cr14,541,236  Jul11 A:26343 529cars  98.4% 17G 59S 4B*
+
+Sep 23, 2009
+2658     license B15 G Infineon  2:18.925G (many tries)
+2659 Cr14,541,236  Jul12 A:26343 529cars  98.4% 18G 58S 4B*
+2659     license IA15 B HongKong  1:59.310B (new P.B.)
+2660 Cr14,541,236  Jul13 A:26343 529cars  98.4% 18G 58S 4B*
+
+Sep 26, 2009
+2660     license IA15 S HongKong  1:56.657S (new P.B.)
+2661 Cr14,541,236  Jul14 A:26343 529cars  98.4% 18G 59S 3B*
+
+Oct 02, 2009
+2661 +1 buy car BMWZ4'03   BMW Z4'03 (Merlotrot Metallic) (Cr75,610,new)
+2662 Cr14,465,626  Jul15 A:26343 530cars  98.4%
+2662  select car BMWZ4'03
+2662  buy parts BMWZ4'03  T-N1 T-N2 T-N3   Cr0
+2662  buy parts BMWZ4'03  T-S1 T-S3  Cr5100 Cr6800
+2662 Cr14,453,726  Jul15 A:26343 530cars  98.4%
+2662     BMWZ4'03         Eu/A/Autumn   nq6th1st T-S3 114-9A  none
+2663 Cr14,458,726  Jul16 A:26448 530cars  98.4%
+2663     BMWZ4'03         Eu/A/TM   nq6th1st T-S3 113-9A  none
+2664 Cr14,463,726  Jul17 A:26552 530cars  98.4%
+2664  buy parts BMWZ4'03 Rtrans Cr10,400 3clu Cr2200 Rfw Cr2200
+2664  buy parts BMWZ4'03 shaft Cr3000 Rbr Cr3700 Bctlr Cr10,600
+2664  buy parts BMWZ4'03 NA1 Cr4900  chip Cr1500
+2664  buy parts BMWZ4'03  T-R1 Cr8400
+2664 Cr14,414,476 
+
+2664     BMWZ4'03         Eu/A/OperaR   nq6th1st free+T-S3 114-9A  next
+2665+1 win car [R]M3-GTR   BMW M3 GTR Race Car '01
+2666 Cr14,419,476  Jul19 A:26657 531cars  98.4%
+
+Oct 03, 2009
+2666    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S3 49-1A  none
+2667    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S2 58-1A  none
+2668    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S1 68-1A  none
+2669 Cr14,428,476  Jul22 A:26724 531cars  98.4%
+2669    BMWZ4'03     B/Spider/Infineon  nq6th1st  free+T-S1 68-1A  next
+2670    BMWZ4'03     B/Spider/MotegiE   nq6th1st free+T-S2 58-1A  none
+2671 +1 win car  Prowler  Chrylser Prowler '02 (Silver Metallic)(dup)
+2672 Cr14,434,476  Jul25 A:26848 532cars  98.4%
+
+Oct 04, 2009
+2672     license IB7 S slalom 18.532 (many many tries)
+2673 Cr14,434,476 Jul26 A:26848 532cars  98.4% 18G 60S 2B*
+
+Oct 05, 2009
+2673     license IB6 S slalom 18.548 (many tries)
+2674 Cr14,434,476  Jul27 A:26848 532cars  98.4% 18G 61S 1B*
+
+2674 +1 buy car yellowRX8ii  Mazda RX-8 Concept (Type II)'01 (RX-8 yellow)(prize,IB silver)(Cr200,000,trade)
+2675  Cr14,234,476   Jul28 A:26848 533cars  98.4% 18G 61S 1B*
+
+Oct 08, 2009
+2675     BMWZ4'03 P/NA/Infineon          nq6th1st NA1+chip+free+T-S3 151-1A  none
+2676  Cr14,241,976   Jul29 A:26998 532cars  98.4% 18G 61S 1B*
+
+Oct 09, 2009
+2676  buy parts BMWZ4'03 SpMuff Cr1600 SRMuff Cr2900 Rmuff Cr4800
+2676  buy parts BMWZ4'03 NA2 Cr12,500 NA3 Cr75,000 
+2676  buy parts BMWZ4'03 LSDF Cr6600 Rsusp Cr17,000 
+2676  Cr14,121,576
+2676     BMWZ4'03 P/NA/ApricotR          nq6th1st NA3+max+free+T-S3 13-1A  none
+2677     BMWZ4'03 P/NA/ApricotR          nq6th1st NA2+max+free+T-S3 64-13A  none
+2678  Cr14,136,576   Jul31 A:27061 532cars  98.4% 18G 61S 1B*
+2678     BMWZ4'03 P/NA/TM          nq6th1st NA2+max+free+T-S3 64-3A  none
+2679     BMWZ4'03 P/NA/TM          nq6th1st NA1+chip+free+T-S3 151-64A  none
+2680  Cr14,151,576   Aug02 A:27209 533cars  98.4% 18G 61S 1B*
+2680     BMWZ4'03 P/NA/SSR5ii          nq6th1st NA2+max+free+T-S3 64-3A  none
+2681     BMWZ4'03 P/NA/Motegi        nq6th1st NA2+max+free+T-S3 64-1A  next
+2682 +1 win car NSX-R'01  Honda NSX-R Concept '01  (Championship White)
+2683  Cr14,165,576   Aug05 A:27333 534cars  98.4% 18G 61S 1B*
+
+
+2683  +1 buy car D1GPRX7  Mazda BP Falken RX-7 (D1GP) '03 (Cr169,999,trade)
+2684  select car D1GPRX7  Mazda BP Falken RX-7 (D1GP) '03 (Cr169,999,trade)
+2684  buy parts D1GPRX7 Bctlr Cr10,300 Rtrans Cr10,200 LSDF Cr6300
+2684  buy parts D1GPRX7 TS3 Cr41,500  TS4  Cr77,500
+Note:  TS3  410 => 464  TS4 => 586
+2684  buy parts D1GPRX7 Rsusp Cr16,000 T-N1 T-N2 T-N3 Cr0
+2684  buy parts D1GPRX7  T-S1 Cr4600  T-S2  Cr5500  T-R1  Cr8100
+2684  buy parts D1GPRX7   T-R2  Cr10,250  T-R3  Cr22,250
+2684  buy parts D1GPRX7   T-R4  Cr34,750  T-R5  Cr47,250
+2684  Cr13,702,077
+
+Oct 13, 2009
+2684 +5 D1GPRX7     P/Tuning   1st46to28,23,15,13,5 +183A  next
+2689 +1 win car OptionZ  Nissan Option Stream Z '04(dup)
+2690 Cr13,768,077  Aug12  A:27516  536cars  98.4%
+
+=====
+
+=====
+
+DDDD---carcarcar  League/Series/Track(A+|B)   Result        A-spec   next
+
+
+=====
+
+Apr 23, 2010
+2690 +1 skip Mission11  nq6th1st  (2000GT@NY)  6:47.503 -0.047  
+2691 Cr13,778,077  Aug13  A:27766  536cars  98.6%
+
+May 13, 2010
+2691 +1 skip Mission15  nq6th1st  (Stratos@Cote)  6:25.198 -2.xxx  
+2692 Cr13,788,077  Aug14  A:28016  536cars  98.8%
+
+
+December 30, 2010
+2692 select car GTiCup  Volkswagen Lupo GTi Cup Car (J) '03 (orange)
+2692 +5   GTiCup    Mfr/Lupo   sw50to24,22,17,11,6   +123A noN2O  next
+2697+1 win car blueGhia  Volkswagen Karmann Ghia Coupe (Type-1) '68  (Chromblau)' (dup)
+2698 Cr13,838,077  Aug20  A:28139  537cars  98.8%
+2698 power off
+
+
+February 12, 2011
+2698 +1 skip Mission14  nq6th2nd  (Superbird@Seattle)  6:07.113 +4.6  0A none
+2699 +1 skip Mission14  nq6th2nd  (Superbird@Seattle)  6:06.541 +4.0  0A none
+2700 +1 skip Mission14  nq6th1st  (Superbird@Seattle)  6:03.798 -1.129  250A none
+2701 Cr13,848,077  Aug23  A:28389  537cars  98.9%
+2701 power off
+
+
+February 13, 2011
+2701 +1 skip Mission32  nq6th1st  (GT@Seattle)  2:13.646 -0.669  250A none
+2702 Cr13,858,077  Aug24  A:28639  537cars  99.1%
+2702 power off
+
+March 08, 2011
+2702 +1 skip Mission13  nq6th1st  (206@Opera)  4:36.747 -1.413  250A none
+2702 Cr13,868,077  Aug25  A:28889  537cars  99.3%
+Note: Almost one month of attempts
+2703 power off
+
+
+March 23, 2011
+2703 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:21.367 -6.079  250A none
+Note: Sauber glitched on Mulsanne Straight 8-(
+2704 +1 win car      TankCar  Jay Leno Tank Car '03
+2705 Cr13,878,077  Aug27  A:29139  538cars  99.4%
+2705 power off
+
+March 27, 2011
+2705 +1 skip Mission18  nq6th2nd  (R92CP@SartheII)  9:11.871 +0.083   none
+2706 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:12.004 -0.0391  none
+2707 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:10.845 -1.160   none
+2708 license S15 Sarthe S  3:20.799S   +1.799G
+2709 Cr13,898,077  Aug31  A:29139  538cars  99.4%
+2710 power off
+
+
+March 31, 2011
+2709 license S15 Sarthe S  3:20.603S   +1.603G
+2710 Cr13,898,077  Sep01  A:29139  538cars  99.4%
+2710 power off
+
+April 01, 2011
+2710 license S15 Sarthe S  3:19.494S   +0.494G
+2711 Cr13,898,077  Sep02  A:29139  538cars  99.4%
+2711 power off
+
+April 03, 2011
+2711 license S15 Sarthe G  3:18.698G   -0.302G
+2712 Cr13,898,077  Sep03  A:29139  538cars  99.4%  19G 60S 1B*
+2712 power off
+2712 license S15 Sarthe S  3:17.923G   -1.077G
+2713 Cr13,898,077  Sep04  A:29139  538cars  99.4%  19G 60S 1B*
+2713 power off
+
+
+April 17, 2011
+2713 select car black787B#3   Mazda 787B Race Car '91 (black)
+2713   black787B#3   Ex/WC/SartheI   nq6th retired                    none
+2714   black787B#3   Ex/WC/SartheI   nq6th1st                 68A     none
+2715 Cr13,913,077  Sep06  A:29207  538cars  99.4% 
+Note: Speed8, R390, R89C(pits), F1-GTR, Zonda
+2715 power off
+
+=====
+
+*New entries*
+
+

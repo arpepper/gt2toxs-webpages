@@ -1,0 +1,68 @@
+Monday February 14, 2000
+
+Confessions of a Delinquent Diarist
+
+Threads:
+ Gran Turismo 2
+ Car Information
+
+Well, every now-and-then I look at our access logs, and I see a few
+people read these ramblings!
+
+Last week I changed the meta headers, so search engines will only
+examine the indexes, and not any daily entries--trying to reduce my
+hits per day, you see.
+
+Well, I've not been making many diary entries lately, have I?  Though
+for those who truly enjoy boring detail, you might have noticed that
+my game log, <html><a href=/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-tm30">here</a></html> keeps growing.  I finally had to sell
+some of my duplicate prizes in that game!  Note that I am attempting
+to win all the GT League and Special Event races without entering
+any event twice.  Quite do-able, as long as you win the Trial Mountain
+30 on your first racing day.  The<html><a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-tm30&simday=">
+garage</a></html> is getting full, especially
+since I'm picking up nearly every interesting historical used car
+I see.
+
+On the weekend I showed my wife the write-up for the Aston Martin
+DB6.  If you haven't read that yet, and want a chuckle, you should
+read it.  She insisted I try the beast, so I bought one and
+entered it completely stock in the Tahiti race of the Sunday "Cup".
+Its handling was very reminiscent of the 1967 Corvette from GT1.
+I was thankful that the edges of that track are much more forgiving
+than they would be if GT2 was more realistic.
+
+I'm thinking of starting a proper "car review" section.  I think
+I'd back my evaluations up with hard figures derived from a lap
+at Grand Valley.
+
+I also have a prototype<html><a href="../gears/gears.html">
+gear chart</a></html> maybe you'd like to try.  Hmm.  I wonder
+if anyone will be able to figure it out.
+
+I've half-a-mind to start a best-times section, for Enduros only.
+
+Thread: Crash Bandicoot
+
+Last weekend, my wife and I gave her younger nephew Crash Team
+Racing, complete with a Sony multi-tap, and two really cheap
+analog controllers from Wal-Mart.  I won't mention "Bloody Roar II",
+because that's bloody embarassing.  He had actually asked for that,
+and his mother, a little opposed to the addiction of racing games,
+I think, seemed to prefer he get that instead of Crash Team Racing.  We
+ended up giving him both.  Nice costumes and choreography in
+Bloody Roar II, I must say.  Luckily his parents are quite
+open-minded about their children's exposure to such things.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

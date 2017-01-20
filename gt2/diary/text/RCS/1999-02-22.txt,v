@@ -1,0 +1,136 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.03.30.22.51.10;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.03.30.22.39.17;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.03.19.01.13.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.03.16.00.39.16;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@changes.
+@
+text
+@Mon Feb 22, 1999
+
+Great review found at amazon.com
+
+Threads:
+  Game Evaluation
+
+Great review found at amazon.com by
+
+http://www.altavista.com
+
+search for "+gran +turismo +corvette +simulation"
+
+   haavard.fosse@@no.pwcglobal.com from Oslo, Norway , December 9, 1998 , 5 out of 5 stars
+
+   Even my mother seemed a bit impressed
+
+   I bought PlayStation as a gift for my daugther... she was keen on this
+   Spice Girls game. It's a long time to christmas (it was at
+   least at purchase date), so I decided to buy a game for myself to play
+   until the holy day. The choice fell on Gran Turismo and
+   was well worth it. I have played it for "some" hours now, but I still
+   struggle with the A-licence... a good thing though since it
+   means that you will have challenges for a long time ahead. The
+   replay-function is the best thing about the game... incredibly
+   fancy. My girlfriend tried it... and she is as hooked as me. Her female
+   friends thought it was hilarious. Our neighbours
+   "borrowed" it for some days and almost refused to give it back........ need
+   I say more?
+
+
+Thread: Driving Advice
+Thread: Tuning Advice
+Thread: Prize Car Information
+
+When I'm bored I take semi-random, usually unmodified, cars and try and
+win the Sunday Cup.  Usually you can win if you don't make gross
+mistakes.  It took me two tries to win with the Camaro anniversary
+special.  First time I got 3+9+9 to 9+6+6 and it gave the win to the AI
+car.  Grrr!!!  So I tried again and won.  That's one car where you
+might as well pick "AT" over "MT".  It never even gets into fourth
+gear, not even at Grand Valley!!
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.4
+log
+@fixed date format, simplifying
+@
+text
+@d5 3
+d32 3
+@
+
+
+1.3
+log
+@minor fixes
+@
+text
+@d1 1
+a1 1
+Mon Feb 22 19:39:26 EST 1999
+@
+
+
+1.2
+log
+@fix up title for index
+@
+text
+@d3 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 2
+@

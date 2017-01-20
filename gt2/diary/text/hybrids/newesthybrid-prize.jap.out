@@ -1,0 +1,45 @@
+C21CD9B8 0008 -- slot #1, most things (car + colour)
+101D5A2C 0000
+C21CD9C4 0008 -- slot #1, brakes,ctlr,L+W+H
+101D5A38 0000
+C21CD9CE 0004 -- slot #1, drivetrain, transmission
+101D5A42 0000
+C21CD9D4 0002 -- slot #1, differential
+101D5A48 0000
+C21CD9FA 0018 -- slot #1, many settings
+101D5A6E 0000
+C21CDA2E 002E -- slot #1, remainder to end
+101D5AA2 0000
+
+C21CDA70 0002 -- slot #2, engine
+101D5A40 0000
+
+C21CDB22 0002 -- slot #3, weight reduction
+101D5A4E 0000
+
+C21CDBC8 0002 -- slot #4, race modification
+101D5A50 0000
+C21CDBFE 0002 -- slot #4, down force setting
+101D5A86 0000
+
+C21CDC6E 000A -- slot #5, engine mods
+101D5A52 0000
+
+C21CDD1C 0010 -- slot #6, turbo plus some running gear
+101D5A5C 0000
+C21CDD48 0006 -- slot #6, turbo gauge and sound
+101D5A88 0000
+
+C21CDDAA 0002 -- slot #7, suspension
+101D5A46 0000
+C21CDDF2 0014 -- slot #7, suspension settings
+101D5A8E 0000
+
+C21CDE52 0004 -- slot #8, F+R tires
+101D5A4A 0000
+
+C21CDEE0 0004 -- slot #9, wheels (rims)
+101D5A34 0000
+C21CDF18 0002
+101D5A6C 0000
+

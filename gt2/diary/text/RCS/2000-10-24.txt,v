@@ -1,0 +1,222 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2002.04.14.05.04.27;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@Tuesday October 24, 2000
+
+(GT1 Version 1.1)  GameShark Addresses and Codes for Simulation Race Parameters
+
+Threads:
+ Gameplay Hints
+ Game Shark Hints
+
+These next few days contain a lot of useful <html><b>GameShark</b></html> info
+for <html><font color="blue">Gran</font> <font color="red">Turismo</font> 1</html>.
+It's not all concise or simple, so bear with me a bit.  I came back to fix
+errors and remove some of the worst red herrings, but mostly I am
+leaving it as I created it.  Eventually I'll publish a few concise
+codes, but I hope the information I produce here along the way can
+help other <html><b>GameShark</b></html> users, especially
+<html><b>GameShark Pro</b></html> users to develop their own codes,
+or at least understand the ones they do use from here and elsewhere.
+
+<HTML INDENT>
+<hr>
+</HTML>
+
+There is an obvious chart of about $17 (23) numbered entries beginning
+at $8008F8DC.  Analysis suggests it describes the license tests, so
+presumably I mis-counted and there are 24 entries, and this has nothing
+to do with race event setups.
+
+Another table of pointers to race information begins at $8008F544 with
+information for the Sunday Cup
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+   8008F544 - 4 bytes points to Sunday Cup track list ($80090E0C)
+   8008F548 - 4 bytes points to Sunday Cup prize money ($80091004)
+   8008F54C - 4 bytes points to other information ($8008F4E4)
+   8008F550 - 4 bytes points to potential car list ($80090B50)
+   8008F554 - 4 bytes points to prize car list ($80090D0C)
+   8008F558 - 4 bytes points containing number of laps per race (2)
+</pre></font></tt>
+</HTML>
+
+Each event appears to have an entry here like this.  While you are
+racing, locations $8008C0B0 to $8008C6A8 appear to contain a list
+of filenames, nicely aligned on eight-byte boundaries even though
+the names are only 5 bytes long, which seem to describe prize and
+competitor cars.  Each list of prizes and competitors points into
+this list.  Unfortunately, while setting, say, a Spot Race competitor
+list to the Grand Valley 300 list does result in names and body types
+which race in the GV300, the specs and wheels are not correct, so
+soemthing went wrong trying to do it that simply.
+
+The file names for the prize cars can be deduced as follows.
+(Shown in the order they occur in memory).
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
++ means confirmed
+? less than certain of my guess
+
+$8008C4D0 t-rdn - TRD 3000GT +
+$8008C4D8 h-rxn   CRX '91 +
+$8008C4E0 dcphn   Concept Car (B license) +
+$8008C4E8 n-00r   Nissan 400R * no, this is for entry lists
+</pre></font></tt>
+</HTML>
+
+Three of the above four aren't actually prizes, but must be there
+for entry lists in races.  I'm not sure why h-rxn is up there separated
+from the other prizes below.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+  8008C5E0 t-eln   Celica ?
+  8008C5E8 n-13n   Silvia
+  8008C5F0 n-18n   Sileighty ?
+  8008C5F8 m-nnn   Lancer EvoIV
+  8008C600 s-v4n   Alcyone
+  8008C608 t-ron   Trueno
+  8008C610 n-32n   '91 Skyline R32
+  8008C618 s-pbn   Impreza
+  8008C620 t-pnn   Supra RZ
+  8008C628 h-vrn   Civic Racer ?
+  8008C630 a-ian   Eunos
+  8008C638 d-pgr   Viper GTS-R
+  8008C640 m-tor   FTO LM
+  8008C648 v-rbr   Cerbera LM
+  8008C650 h-err   del Sol LM ?
+  8008C658 d-phr   UKvsUS Concept Car +
+  8008C660 a-a7r   RX-7 Aspec LM ?
+  8008C668 l-7cn   DB7 Coupe
+  8008C670 t-oan   Soarer ?
+  8008C678 a-emn   Demio Aspec +
+  8008C680 c-30n   Camaro 30 Anniversary +
+  8008C688 t-hvr   Chaser LM ?
+  8008C690 t-plr   Supra GT ?
+  8008C698 n-15r   Silvia LM +
+  8008C6A0 n-33n   Nismo R33 GT-R LM ?
+</pre></font></tt>
+</HTML>
+
+I later found the following three occurrences of license car strings, and
+confirmed them all with an actual code to win those cars for the GT events.
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+    8008BD00 n-00n Nissan 400R +
+    8008BD08 t-rdn TRD 3000GT +
+    8008BD10 dcphn Concept Car (B license) +
+</pre></font></tt>
+</HTML>
+
+
+First character is clearly:
+
+<HTML INDENT>
+<tt><font face="Courier"><pre>
+ a   Mazda
+ c   Chevrolet
+ d   Dodge
+ l   Aston Martin
+ m   Mitsubishi
+ n   Nissan
+ s   Subaru
+ t   Toyota
+ v   TVR
+</pre></font></tt>
+</HTML>
+
+The terminal "n" or "r" refers to "normal" or "race-mod".
+
+The "-" indicates that this is a prize car.  This may relate to why the
+Concept Car prize has a value of Cr0 and cannot be sold.
+
+What I usually do to win an alternate prize, using a Game Shark Pro,
+is the following:
+
+<HTML INDENT>
+<ol>
+<li> Enter Sunday Cup</li>
+<li> set string at $8008C678 ("a-emn") to a different value</li>
+<li> set 4 bytes at $80090E10 to 0 - this makes the Sunday Cup a single race</li>
+<li> win race</li>
+<li> go see car</li>
+</ol>
+</HTML>
+8-)
+
+In car buying mode there is a list of these sorts of file names from
+approximately $800A9482 to $800A9C88.  Among them I spotted
+
+c-67n, cc67n
+
+which are probably the 1967 Corvette Stringray.  However, if you try and
+use either of those as a prize you do not win one.  Often when a code
+does not work, you win a Toyota Starlet Glanza.  That's because that
+car has garage car body code 0.  When trying to get a 1967 Corvette,
+however, I won a Glanza with the famous "rainbow" colour scheme.  That
+makes me suspect part of the game recognizes the Corvette, and selects
+one of its 7 colours, but some other part detects it as an error and
+sets the car body value to 0.
+
+You seem to be able to win most car codes which end in "n" as prizes,
+but there is a caveat.
+
+texvn - Exiv 200 GT
+
+I won that, in nice dark green, a legitimate colour, and the car had a
+value and I was able to sell it.  But...
+
+nr32n
+
+won be a black '91 Skyline, but its value was 0 and I was unable to
+sell it--oops.
+
+Attempting to change one file name to another so as to try and buy a
+car from a different place does not seem to work.  If the car is
+supposed to be a used car, it does not show up in the inventory
+at all!
+
+While I patch the extra strings using a GameShark Pro, I will probably
+design a code for winning the prize cars ( especially license test cars)
+at the Sunday Cup, and I will probably change the pointer which points
+to the string "a-emn" to point elsewhere instead, since that will be
+shorter.
+
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@

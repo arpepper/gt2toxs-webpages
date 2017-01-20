@@ -1,0 +1,41 @@
+Tue Jun  8, 1999
+
+Another two Abnormal Series wins leave only one race prize car to go!!!
+
+Threads:
+  Race Results
+  Tuning Advice
+  Prize Car Patterns
+
+Well, tonight I won the Abnormal Series once more with a Cerbera.
+Unfortunately, it won a duplicate light blue Trueno.
+
+So I took the R32Skyline GT-R'89 from the back of my garage, and
+raced it in the series.  It turns out I had earlier set camber to
+3.0F/3.5R, which really does seem to help control.  I remember
+springs were 4.1F/4.0R, stabilizers 3/3.
+
+It won all races except Autumn Ring.  It came close to the record
+at the Autumn Ring, and finished fourth again.  It set new records
+at High-Speed Ring, and Grand Valley, and shattered the records at 
+SSR11.  It seemed a little slower on the Clubman R5 track; maybe
+I should add more turbo for that.  Generally I ran spec 4 with
+normal intercooler, but at Autumn Ring I ran spec 3, still with
+no intercooler, and with reduced final drive.  More turbo (intercooler)
+should help go even faster at High Speed Ring, too.
+
+It won the pink Trueno!
+
+So that leaves only the yellow '91 Skyline to go.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

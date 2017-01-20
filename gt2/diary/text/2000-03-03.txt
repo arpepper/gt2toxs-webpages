@@ -1,0 +1,192 @@
+Friday March 03, 2000
+
+
+Analysis of Two Versions of Gran Turismo 2 CD's Using a PC
+
+Threads:
+ Game Shark Hints
+ Gran Turismo 2
+ Gameplay Hints
+
+I am showing listings of Gran Turismo 2 CDs done with an MS-Dos PC, as I
+yesterday said I would.
+
+<HTML>
+<pre>
+Old (Dec 16, 1999) Arcade Mode...
+
+12:18:43 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is 4453-E50C
+ Directory of G:\
+
+GT2      OVL       287,088  10-12-99 10:34p GT2.OVL
+GT2      VOL   213,596,160  10-12-99 10:35p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:36p MUSIC.DAT
+SCUS_944 55        628,736  10-12-99 10:37p SCUS_944.55
+STREAM   DAT   384,740,204  10-26-99  9:48a STREAM.DAT
+SYSTEM   CNF            68  10-12-99 10:34p SYSTEM.CNF
+         6 file(s)    697,170,764 bytes
+         0 dir(s)               0 bytes free
+
+12:18:46 G:\>
+
+12:18:46 G:\>ls -l
+total 50944
+-r--r--r--   1 N:       anonymou   287088 Oct 12 22:34 gt2.ovl
+-r--r--r--   1 N:       anonymou 213596160 Oct 12 22:35 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12 22:36 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12 22:37 scus_944.55
+-r--r--r--   1 N:       anonymou 384740204 Oct 26 09:48 stream.dat
+-r--r--r--   1 N:       anonymou       68 Oct 12 22:34 system.cnf
+
+12:20:40 G:\>
+
+12:20:40 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.55;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+12:21:59 G:\>
+
+Old (Dec 16, 1999) Simulation Mode...
+
+12:06:49 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is 0202-94CA
+ Directory of G:\
+
+FAULTY   PSX    27,648,000  10-12-99 10:43p FAULTY.PSX
+GT2      OVL       287,084  10-12-99 10:39p GT2.OVL
+GT2      VOL   478,357,504  10-12-99 10:41p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:42p MUSIC.DAT
+SCUS_944 88        628,736  10-12-99 10:43p SCUS_944.88
+SYSTEM   CNF            68  10-12-99 10:39p SYSTEM.CNF
+         6 file(s)    604,839,900 bytes
+         0 dir(s)               0 bytes free
+
+12:06:51 G:\>
+
+12:07:55 G:\>ls -al
+total 1682
+-r--r--r--   1 N:       anonymou 27648000 Oct 12 22:43 faulty.psx
+-r--r--r--   1 N:       anonymou   287084 Oct 12 22:39 gt2.ovl
+-r--r--r--   1 N:       anonymou 478357504 Oct 12 22:41 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12 22:42 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12 22:43 scus_944.88
+-r--r--r--   1 N:       anonymou       68 Oct 12 22:39 system.cnf
+
+12:07:58 G:\>
+
+12:07:58 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.88;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+12:08:53 G:\>
+
+New (Purchased from Toys'R US, mid February) Arcade Mode...
+
+2:01:27 N:\>g:
+
+12:12:42 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is 9253-E55A
+ Directory of G:\
+
+GT2      OVL       290,184  10-12-99 10:34p GT2.OVL
+GT2      VOL   213,753,856  10-12-99 10:35p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:36p MUSIC.DAT
+SCUS_944 55        628,736  10-12-99 10:37p SCUS_944.55
+STREAM   DAT   384,740,204  10-26-99  9:48a STREAM.DAT
+SYSTEM   CNF            68  10-12-99 10:34p SYSTEM.CNF
+         6 file(s)    697,331,556 bytes
+         0 dir(s)               0 bytes free
+
+
+12:06:24 G:\>ls -l
+total 51258
+-r--r--r--   1 N:       anonymou   290184 Oct 12 22:34 gt2.ovl
+-r--r--r--   1 N:       anonymou 213753856 Oct 12 22:35 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12 22:36 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12 22:37 scus_944.55
+-r--r--r--   1 N:       anonymou 384740204 Oct 26 09:48 stream.dat
+-r--r--r--   1 N:       anonymou       68 Oct 12 22:34 system.cnf
+
+
+12:14:21 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.55;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+12:15:46 G:\>
+
+
+New Simulation...
+
+12:08:44 G:\>dir
+
+ Volume in drive G is GRANTURISMO
+ Volume Serial Number is 9B02-9463
+ Directory of G:\
+
+FAULTY   PSX    27,648,000  10-12-99 10:43p FAULTY.PSX
+GT2      OVL       290,176  10-12-99 10:39p GT2.OVL
+GT2      VOL   478,668,800  10-12-99 10:41p GT2.VOL
+MUSIC    DAT    97,918,508  10-12-99 10:42p MUSIC.DAT
+SCUS_944 88        628,736  10-12-99 10:43p SCUS_944.88
+SYSTEM   CNF            68  10-12-99 10:39p SYSTEM.CNF
+         6 file(s)    605,154,288 bytes
+         0 dir(s)               0 bytes free
+
+12:08:47 G:\>
+12:09:59 G:\>ls -l
+total 2296
+-r--r--r--   1 N:       anonymou 27648000 Oct 12 22:43 faulty.psx
+-r--r--r--   1 N:       anonymou   290176 Oct 12 22:39 gt2.ovl
+-r--r--r--   1 N:       anonymou 478668800 Oct 12 22:41 gt2.vol
+-r--r--r--   1 N:       anonymou 97918508 Oct 12 22:42 music.dat
+-r--r--r--   1 N:       anonymou   628736 Oct 12 22:43 scus_944.88
+-r--r--r--   1 N:       anonymou       68 Oct 12 22:39 system.cnf
+
+12:08:47 G:\>
+
+12:09:49 G:\>cat system.cnf
+BOOT = cdrom:\SCUS_944.88;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+
+12:09:59 G:\>
+
+</pre>
+</HTML>
+
+I'll leave it at that for now, perhaps commenting on notable differences
+later, and possibly improving the formatting.
+
+As I mentioned, the new version seems to be intermediate.  It does not
+go past 98.20% completed, but has the Muscle Car licenses fixed, and
+also has the correct spelling for the "Normal" Event Generator.
+
+However, the car wash is still shown as costing Cr5,000 (although, like
+my original version, it really costs only Cr50).
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

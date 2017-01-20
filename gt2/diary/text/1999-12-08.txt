@@ -1,0 +1,191 @@
+Wednesday December 8, 1999
+
+In Hastings Game, Cerbera LM Finally Retries Grand Valley 300, Doing Very Well
+
+Threads:
+  Grand Valley 300 Results
+  Prize Car Information
+  Tuning Advice
+  Race Results
+
+In the <html><a href="logs/hastings">hastings</a></html> game I
+decided to use the Cerbera LM to win the Grand Valley 300, and
+did a reasonably fast time, though not a Personal Best.  It now
+ranks as the second fastest car, though.  It's been a long time
+since I raced the Cerbera LM at this race actually, and I was
+glad to have won this car in this game so I had a good excuse
+to see how I could do with it now.
+
+   hastings day 81
+   Wednesday December 08, 1999
+   grey and green [R]Cerbera LM (UKvsJP prize)
+   Grand Valley 300km Endurance Race
+
+   q1st 1:37.703new    Cr20,000
+
+   Results:
+
+   1st  [R]Cerbera LM              1-33:48.2<--new hastings time, very good
+   2nd  [R]GTO twinturbo            +503.498  (1-42:11.7)
+   3rd  [R]CASTROL SUPRA GT         +508.964  (1-42:17.2)
+   4th  [R]Impreze Rally Edition    +587.639  (1-43:35.8)
+   5th  [R]Primera'90 2.0 Te        +603.984  (1-43:52.2)
+   6th  [R]Accord Sedan             +903.185  (1-48:51.4)
+   
+   pits   12,24,36,48
+   lap 1   1:38.946
+   fl  (14) 1:30.185new
+   slowest  non-pit   (35)  1:34.507
+             next     (11)  1:34.400
+   fastest pit laps   (48in)  1:45.654
+                      (49out) 1:38.083
+   slowest pit laps   (36in)  1:49.854
+                      (37out) 1:39.147
+
+I led from start to finish again, in a fairly uneventful race.
+
+This was about four minutes slower than the Concept Car, but I still
+lapped the field four, not quite five, times.
+
+I lapped the first car on lap 7, and was catching the second and
+third place cars when I stopped at lap 12 for my first pit stop.
+I lapped the field by lap 15.
+
+I lapped them twice by lap 24, but, since I had to stop for my second
+pit stop, it didn't stick.  The exact same thing happened with my stops
+on lap 36 and 48; I almost wondered if I could have saved a few seconds
+by stopping early, but then I would have had to have paid for it with
+a long last shift, or something similar.  I did not lose very much
+time repassing the cars anyway.
+
+On lap 60, I did not quite manage to catch the leaders again, and, as
+the finishing intervals indicate, I managed to lap them not quite five
+times.
+
+I won Cr300,000, and a black/blue Castrol Supra GT.
+
+Although 4 minutes slower than what I managed with the Concept Car, this
+time is faster than the <html><em>first</em></html> time I managed with
+the Concept Car, and this is the first car I have managed that with.
+The time was almost two minutes faster than the times I set with
+the two Griffiths, and the RX7 LM.
+
+Once again, for your analytical enjoyment, I here present all 60 lap times...
+
+<HTML>
+<font face="Courier"><table width="85%"><tr><td width="15%">&nbsp;&nbsp;</td>
+<td><font face="courier">
+<pre>
+
+ 1   1:38.946      1:38.946
+ 2   1:30.430      3:09.376
+ 3   1:30.533      4:39.909
+ 4   1:31.184      6:11.093
+ 5   1:30.849      7:41.942
+ 6   1:32.116      9:14.058
+ 7   1:31.630     10:45.688
+ 8   1:31.452     12:17.140
+ 9   1:32.624     13:49.764
+10   1:34.242     15:24.006
+11   1:34.400     16:58.406
+12   1:46.845     18:45.251
+13   1:38.673     20:23.924
+14   1:30.185     21:54.109
+15   1:31.648     23:25.757
+16   1:30.639     24:56.396
+17   1:30.619     26:27.015
+18   1:31.491     27:58.506
+19   1:31.624     29:30.130
+20   1:31.667     31:01.797
+21   1:32.986     32:34.783
+22   1:33.852     34:08.635
+23   1:32.858     35:41.493
+24   1:47.124     37:28.617
+25   1:39.139     39:07.756
+26   1:31.842     40:39.598
+27   1:31.092     42:10.690
+28   1:31.794     43:42.484
+29   1:31.778     45:14.262
+30   1:31.520     46:45.782
+31   1:31.422     48:17.204
+32   1:31.615     49:48.819
+33   1:32.639     51:21.458
+34   1:32.325     52:53.783
+35   1:34.507     54:28.290
+36   1:49.854     56:18.144
+37   1:39.147     57:57.291
+38   1:32.339     59:29.630
+39   1:34.008   1-01:03.638
+40   1:32.689   1-02:36.327
+41   1:31.683   1-04:08.010
+42   1:31.756   1-05:39.766
+43   1:32.088   1-07:11.854
+44   1:33.069   1-08:44.923
+45   1:31.755   1-10:16.678
+46   1:34.078   1-11:50.756
+47   1:33.904   1-13:24.660
+48   1:45.654   1-15:10.314
+49   1:38.083   1-16:48.397
+50   1:31.843   1-18:20.240
+51   1:31.342   1-19:51.582
+52   1:32.300   1-21:23.882
+53   1:32.289   1-22:56.171
+54   1:31.739   1-24:27.910
+55   1:32.931   1-26:00.841
+56   1:33.643   1-27:34.484
+57   1:34.335   1-29:08.819
+58   1:33.167   1-30:41.986
+59   1:33.661   1-32:15.647
+60   1:32.635   1-33:48.282
+
+</pre>
+<br></font></td></tr>
+</table>
+</font>
+</HTML>
+
+Thread: Tuning Advice
+
+Here are the settings.
+
+           My Settings
+
+Spring Rate     4.8   3.9
+Ride Height     85    85   (min,min)
+Dampers          5     5
+Camber          2.0   1.0
+Stabilizers      3     3
+Brake Balance   12     9
+Turbo               0
+        1st       2.714
+        2nd       1.800
+        3rd       1.384
+        4th       1.088
+        5th       0.936
+        5th       0.822
+                  -----
+        FD        3.500
+
+Aero            0.76  0.96  (max,max)
+
+This gearing has the same range as stock, but is smoothed out a bit.
+Actually, the top three gears overlap so closely that it confuses
+the automatic shifting algorithm in the game...
+
+I raised the final drive (lowered its number) at bit.  I forgot
+to smooth out 4th,5th and 6th as I had done the previous night
+actually, when practising in my main game with a Cerbera LM at
+the GT-I Cup.
+
+===============================================================================
+Copyright (C) 1999, the author/owner of
+http://www.math.uwaterloo.ca/~arpepper To obtain the email address of
+the author, take what comes after the squiggle, and append an at-sign
+and the Web server names which appears between the slashes.  Personal
+email correspondence is invited; commercial solicitation is not.  The
+video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.  All views are those of the author.  Much
+information was the author's opinion or musings at the time of writing,
+and apparent advice obviously carries no guarantees or warranties.  If
+you look closely, you'll notice he contradicts himself occasionally,
+anyway.

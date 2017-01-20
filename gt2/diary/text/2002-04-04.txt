@@ -1,0 +1,90 @@
+Thursday April 4, 2002
+
+I Finish V-Rally 2 Again, Fairly Minimally
+
+Threads:
+  Game Evaluation
+  Gameplay Hints
+  Other Games
+
+<CODES>
+I'm sure I read somone else say what I'm about to say about
+<b>V-Rally 2</b>.
+The only two cars you need to use are the <b>Nissan Micra</b> and
+the <b>Audi Quattro</b>.
+
+I kept a reasonably complete log this time, so can verify my strategies
+and results.  The log was on paper, not computer, so I can't right now
+share it directly with you  8-)  but eventually maybe I will type it in!  8-)
+
+The <b>Nissan Micra</b> seems to have a good combination of ease
+of driving speed, and handicap evaluation in the game.  That is, the
+opponents go slower for the <b>Nissan Micra</b> than they do for, say,
+the <b>Peugeot 106</b>.  It seems fairly easy to use it to win the
+first six events (all except the <b>Expert</b> events).
+
+The <b>Nissan</b> has quite a hard time, however, in the <b>Expert</b>
+events, but if you have finished the <b>World Trophy</b> you will have
+unlocked the <b>Audi Quattro</b>.  So the <b>Audi Quattro</b> is good
+to use for those.  It demolishes the <b>Trophy</b> and <b>Championship</b>
+events, although the <b>Expert Arcade</b> event, with its tricky time
+limits, is a little harder.
+
+But one thing I wanted to do in my game was finish with less than 10,000
+points and not win the <b>Peugeot 405 T16</b>.  The <b>Nissan Micra</b>
+helped with that because its is slow, but I wasted time when I could.
+For instance, in Championships you can completely throw all events after
+you have enough points to clinch it.  (That is when the number of events
+remaining times 10 is less than the difference between your score and
+that of the second place AI car).
+
+In fact, in the <b>Expert Championship</b> after I had finished 9 of 12
+races and had a 40 point lead, I drove the remaining three races so 
+slowly (about 12 minutes total each) that my time was well over the
+72 minutes requires to show up in the Championship total time record.
+Although I won with 83 points to 61, my time registered as 59:59:59
+even though it was over 72 minutes.  The game actually gave me no
+performance points; when I checked the records for earlier individual
+rallies they had not registered either.  It's possible the fact I
+had reloaded the series a couple of times caused the individual rally
+records to be lost, but I don't think I've seen that happen before.
+Oh well, that helped me easily finish the game with less than 10,000 points.
+
+I had only 4021 points, and then got to 5977 after winning the <b>Expert
+Trophy</b> (I still threw a bit of time there, too, once I got a
+sufficient lead).  I then entered the <b>Expert Arcade</b> with the
+<b>Audi Quattro</b> which can be difficult, but I was getting used to
+the tricky parts of the tracks and how to meet all the checkpoints.
+I was even able to win most of the rallies which helps since you get
+an extra "credit" or retry for every win.  I took only one try to
+win with the <b>Audi Quattro</b>, using up only 2 or 3 credits
+(2 at Monte Carlo, and maybe 1 at Indonesia).  I had then finished all
+9 of 9 events and got 9 of 10 prize cars with 6749 points--a long way
+from the 10,000 necessary to win the <b>Peugeot 405 T16</b>.
+
+After later redoing the <b>Expert Championship</b>, the <b>World
+Championship</b> and <b>Arcade Level 1</b> I got 10006 points and won
+the <b>Peugeot 405 T16</b>.
+
+And so, although I did a bit of fooling around trying to avoid getting
+the 10,000 points, this still indicates a quick way to finish <b>V-Rally
+2</b> once you have sufficiently mastered the courses.  The important
+thing in all courses is to remember all the tricky bits and learn how
+to use the proper amount of minimal caution to get through them, and
+then try and go as fast as possible for the other parts.
+
+</HTML>
+
+
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.

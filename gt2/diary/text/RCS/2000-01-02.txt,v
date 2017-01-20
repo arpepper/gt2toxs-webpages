@@ -1,0 +1,114 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.01.12.19.56.41;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.11.20.40.14;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@changes.
+@
+text
+@Sunday January 2, 2000
+
+Brief Exciting Enduro Results in Gran Turismo 2
+
+Threads:
+  Race Results
+  Enduro Results
+  Gran Turismo 2
+
+I'm not very good, so here's how I did in the Rome Two Hours.
+
+==>1. [R]Concept Car LM Edition      2-00:09.0       (87 laps completed)
+   2. [R]Venturi Atlantique 600LM       +8.227  (2-00:17.2)
+   3. [R]Toyota GT ONE'99              +16.599  (2-00:25.6)
+   4. [R]Nissan R390 GT1 '97         +1:10.383  (2-01:19.4)
+   5. [R]STP Taiser Viper GT            +6.369  (2-00:15.4)
+   6. Jaguar XJ220 GT Race Car           2laps
+
+As you can imagine, it was a lot of tense fun, especially since I
+spun on lap two and was coming from behind most of the races.
+Pit stops 10,27,45,62,79 (soft/soft slicks).  I spun on lap 79, too
+meaning I lost the lead on the last stop, too, but the GT-ONE
+pitted soon after that.  And I really didn't realize the Venturi
+was so close.  8-)
+
+You though that was close?
+
+I drove the Monte Carlo Mini in the Seattle 100.
+
+
+==>1. [R]Rover Mini 1275S MarkI      1-09:48.5
+   2. Mustang SVT Cobra '98             +0.847  (1-09:49.3)
+   3. Shelby GT350 '66                 +33.268  (1-10:21.8)
+   4. Plymouth Superbird             +2:44.109  (1-12:32.6)
+   5. Plymouth 'Cuda '70             +3:13.335  (1-13:01.8)
+   6. Plymouth GTX                   +5:38.154  (1-15:26.7)
+
+Two pit stops, at 14 and 27 of 40 laps.
+
+Almost makes me believe there is a handicap algorithm in the Enduro
+races.   8-)   There didn't seem to be one in GT1.  I raced the GV300
+49 times, and I both won and lost when the NSX-R LM GT2 managed
+1-41:50, and each model of AI car seemed to finish at very close to
+some time particular to the model.
+
+In the above Seattle race, I was a solid third until the AI cars
+pitted, after which I alternated first and second depending upon the
+pit situation, gaining the lead when the Mustang pitted on lap 34.
+
+I missed a gear change on lap 38, costing me two seconds.  (I was
+a gear down from where I thought I was going into the near-hairpin
+in the centre of the course).  That had the Mustang nipping at my
+heels, and I had to be forceful with it on the last two laps.  8-)
+
+I'll try with a metallic raspberry '70 'Cuda next, because my Dad used
+to own a Valiant.   8-)  It seems to be able to go just a shade faster
+than the Mini.
+
+Interesting that one AI non-muscle car seems to usually show up for the
+race.  In the preview I watched, there was a Griffith 500 lapping at
+about 1:44 (according to my stopwatch), but the Mustang managed faster
+than that, I'm sure.
+===============================================================================
+Copyright (C) 1999, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+To obtain the email address of the author, take what comes after the
+squiggle, and append an at-sign and the Web server names which appears
+between the slashes.  Personal email correspondence is invited;
+commercial solicitation is not.
+The video game title, "Gran Turismo", is a trade mark of Sony Computer
+Entertainment Incorporated.
+All views are those of the author.  Much information was the author's
+opinion or musings at the time of writing, and apparent advice
+obviously carries no guarantees or warranties.  If you look closely,
+you'll notice he contradicts himself occasionally, anyway.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d8 1
+a8 1
+  
+d63 12
+@
