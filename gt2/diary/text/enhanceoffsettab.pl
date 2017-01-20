@@ -1,4 +1,4 @@
-#!/xhbin/perl
+#!/usr/bin/perl
 
 #
 # According to Fiery, deals with enhancement codes

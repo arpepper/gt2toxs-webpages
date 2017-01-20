@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 
 #
 # elapsed - convert total thousandsths to a readable string

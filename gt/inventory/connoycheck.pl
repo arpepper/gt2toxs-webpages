@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 if (!open(CONNOY,"<connoydata")) {
 	die "Cannot open connoydata\n";
 }

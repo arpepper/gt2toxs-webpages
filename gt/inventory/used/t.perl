@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 @mfnames = ("Toyota", "Nissan", "Mitsubishi", "Honda/Acura", "Mazda", "Subaru");
 

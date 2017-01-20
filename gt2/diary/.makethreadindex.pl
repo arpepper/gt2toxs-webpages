@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 
 #
 # tranform - prepare given text to be included in html

@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 # produce award listing, awards.txt, to merge into data.js
 

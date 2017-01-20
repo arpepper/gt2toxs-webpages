@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 while ( <> ) {
 	if ($_ !~ /^=*[0-9]+/ ) {

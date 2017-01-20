@@ -1,4 +1,4 @@
-#!/xhbin/perl
+#!/usr/bin/perl
 $nt10off = 0;
 $nt11off = 0x370;
 $nt12off = 0x5A0;

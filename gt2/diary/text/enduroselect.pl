@@ -1,4 +1,4 @@
-#!/xhbin/perl
+#!/usr/bin/perl
 
 $pat = shift;
 

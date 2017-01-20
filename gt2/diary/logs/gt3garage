@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 
 require 5.002;
 use strict;

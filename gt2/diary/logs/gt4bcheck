@@ -1,4 +1,4 @@
-#!/xhbin/perl -w
+#!/usr/bin/perl -w
 
 $bspec = 0;
 $machine = 0;

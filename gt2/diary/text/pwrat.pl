@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 while (<>) {
 	$line = $_;
 	$hp = $line;

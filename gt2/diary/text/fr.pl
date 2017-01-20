@@ -1,4 +1,4 @@
-#!/xhbin/perl -w
+#!/usr/bin/perl
 
 $string = "15  14  517
 14  13  519

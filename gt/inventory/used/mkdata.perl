@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 # mkdata.perl < used_car.dat > data.js
 

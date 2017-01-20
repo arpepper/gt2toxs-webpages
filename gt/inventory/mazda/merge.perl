@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 if (!defined(open(NEWH,"<./newheaders")) ) {
 	die "Cannot open ./newheaders";
 }

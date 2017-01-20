@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 #
 #
 # Wow, this is a simple greppish field,operator,value tool which is not

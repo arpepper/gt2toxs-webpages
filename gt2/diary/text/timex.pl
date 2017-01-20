@@ -1,4 +1,4 @@
-#!/xhbin/perl5 -w
+#!/usr/bin/perl -w
 sub
 setbasetime {
 	local($line) = @_;

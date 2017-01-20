@@ -1,4 +1,4 @@
-#!/xhbin/perl
+#!/usr/bin/perl
 
 # ./kcolour.perl colour.map > maps.tmp
 # Edit maps.tmp into mkdata.perl (3 hashes).

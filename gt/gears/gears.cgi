@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 {
 $loaded_web ? return 1 : ($loaded_web = 1);
