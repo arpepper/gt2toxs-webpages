@@ -235,6 +235,12 @@ $gcommand = "./garage";
 if ( $garage =~ /^gt2-/ ) {
 	$gcommand = "./gt2garage";
 }
+if ( $garage =~ /^gt3-/ ) {
+	$gcommand = "./gt3garage";
+}
+if ( $garage =~ /^gt4-/ ) {
+	$gcommand = "./gt4garage";
+}
 
 $qstring = "";
 @qargs = ();
