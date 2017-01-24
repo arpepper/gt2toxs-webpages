@@ -327,7 +327,7 @@ print "</form>\n";
 
 
 # We have a "base" directive in our header file which prevents relative...
-print "<form method=POST action=\"/~arpepper/cgi-bin/textview?filename=$filename\">\n";
+print "<form method=POST action=\"./textview.cgi?filename=$filename\">\n";
 print "<p>Enter something to search for in this file:";
 print "<input name=\"grep\" type=\"text\" length=30>\n";
 print "<input type=\"submit\"></p>\n";
