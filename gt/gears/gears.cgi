@@ -215,7 +215,7 @@ $back = &web'submit('form');  # generate the backlink to the request form
 
 }   # end of package; should be a separate file
 
-$title = 'Gran Turismo Gear Chart Results';
+$title = 'Gear Chart Results';
 print "Content-Type: text/html\n\n<html><head><title>\n";
 print "$title</title></head><body bgcolor=\"yellow\">\n";
 
@@ -297,7 +297,7 @@ print <<EOF  ;
 <tr color="white">
 <td>
 <font color="white">
-<h3><img src="../../gifs/gtlogo.jpg" alt="Gran Turismo"> Gear Calculator Results</h3>
+<h3>Automobile Gear Calculator Results</h3>
 </font>
 </td>
 </table>
