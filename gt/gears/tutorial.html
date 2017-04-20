@@ -25,7 +25,7 @@ Clicking one of the following items will execute a Gear Calculator query as if y
 had filled out the form.
 </p>
 <p>
-(When I fix the Gear Calculator CGI to be like the Car Finder CGI)
+<!-- (When I fix the Gear Calculator CGI to be like the Car Finder CGI) -->
 The filled-in form will be shown on the generated page, after the
 results of the query.  Study it to learn how the query is done.  You
 can modify it to try a slightly different query.
@@ -33,7 +33,6 @@ Note that some results look much better if the window is
 reasonably wide.
 </p>
 <ul>
-<!-- would be nice to avoid root-relative reference here... -->
 <li><a href="gears.cgi?reorder=&final=3.3&tire=26.0&gear=3.6,2.2,1.8,1.4,1.0&rpm=500-8500x500&mph=">
 Normal Case, generate a chart for a given set of gear ratios and final drive.
 </a>
@@ -53,17 +52,10 @@ Sorry, this tutorial is not great, but it was easy to do.
 <img src="../../bitmaps/happyfrog.gif" alt="8-)">
 
 <p>
-When you have a form, basically fill in at the top of the form the characteristics, and
-the value you want them to match how.
-The tricky part is selecting the fields you want to see in the result.
-This form makes use of "multiple selection" for those selectors, and
-how to do this varies depending upon the version of the browser you are
-using.  The Netscape we have here on UNIX interprets any mouse selection
-in those lists as a "toggle", while Netscape on my PC requires that
-the "control" key be pressed at the same time to work like that.
-IE on my iMac requires that the "apple" key be pressed.
-The "sort" menus work in a similar fashion, but can be ignored for your
-first queries; output will be sorted by the selected fields.
+Modify existing form values, or fill in appropriate
+values in blank boxes.
+You should leave one, and only one, box blank, and it will be calculated
+for the ranges of the values of the other boxes.
 </p>
 
 </body>
