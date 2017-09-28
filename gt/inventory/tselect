@@ -569,7 +569,14 @@ if ($output_type eq "web") {
 	#
 }
 
-if (defined(%schema)) {
+# When written, the following usage did what I expected.
+#  Nows it generates noise, which causes a CGI to fail. (although it works)
+#if (defined(%schema)) {
+# Possible verbose version, but it's not clear defined(keys will remain valid
+# if (defined(keys(%schema)) && defined((keys(%schema))[0]) ) {
+#
+# As recommended by perl if it sees the old version (probably sufficient)...
+if (%schema) {
 	if ($output_type eq "web") {
 		print "<tr>";
 		for ($f = 0; $f <= $#sel_fields; ++$f) {

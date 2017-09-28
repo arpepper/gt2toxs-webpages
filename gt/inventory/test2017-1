@@ -1,0 +1,1 @@
+cat total.connoy | ./select 0::demio output=web fields=99,98,1,2,3,4
