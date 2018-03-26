@@ -354,6 +354,10 @@ else {
 		$tmin = $hour*60 + $min;
 		$weekday = ("Sun","Mon","Tues","Wed","Thurs","Fri","Sat")[$wday];
 		$weekday .= "day";
+# Around when I moved this from cgi-bin (no cgi-bin in github/~gt2toxs version)
+# I sabotaged the following code by adding "$wday == 7 &&"
+#   which can never happen.
+# However, However I did not remove the time-of-day warnings elsewhere.
 		if ( $wday != 0 && $wday != 6 &&
 			 $wday == 7 &&
 			(8*60 + 30) <= $tmin && $tmin <= (16*60 + 30 )) {
