@@ -1,3 +1,4 @@
+<!--
 <font face="arial, helvetica" size="-2">
 <a href="http://members.aol.com/GrindTeeth/GT/webring.html" target="_top">
 <img src="http://members.aol.com/GrindTeeth/GT/gtw.gif" align="left" width="125" height="80" border="0"></a> 
@@ -15,3 +16,4 @@ This <b> <a href=" http://members.aol.com/GrindTeeth/GT/webring.html" target="_t
 [<a href= "http://www.webring.org/cgibin/webring?ring=grantourismo;id=_SITE_ID_HERE_;next" target="_top">Next</a>] 
 [<a href= "http://www.webring.org/cgibin/webring?ring=grantourismo;id=_SITE_ID_HERE_;skip" target="_top">Skip Next</a>] [<a href="http://www.webring.org/cgi-bin/webring?random;ring=grantourismo" target="_top">Random</a>]
 [<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;id=_SITE_ID_HERE_;next5" target="_top">Next 5</a>] [<a href="http://www.webring.org/cgi-bin/webring?ring=grantourismo;list" target="_top">List Sites</a>]
+-->

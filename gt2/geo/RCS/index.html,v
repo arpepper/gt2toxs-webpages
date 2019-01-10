@@ -1,9 +1,14 @@
-head	1.36;
+head	1.37;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.37
+date	2019.01.10.22.32.47;	author arpepper;	state Exp;
+branches;
+next	1.36;
 
 1.36
 date	2003.08.11.00.08.52;	author arpepper;	state Exp;
@@ -191,10 +196,11 @@ desc
 @
 
 
-1.36
+1.37
 log
-@Added link to maps.
-Corrected copyright date.
+@Remove javascript webring hook.  It's not likely to "come back".
+Update copyright.
+Remove speculative geocities "search links".
 @
 text
 @<!doctype html public "-//IETF//DTD HTML//EN//2.0">
@@ -358,13 +364,12 @@ was even ickier than this one!
 
 <hr>
 
-<script language=javascript src="http://ss.webring.yahoo.com/navbar?f=j&y=gt2toxs&u=99471583610421508"></script>
 
 <table bgcolor="cyan" width="100%" border>
 <tr bgcolor="cyan"><td bgcolor="#D0C030">
 <font size=-1>
 <p>
-Copyright &copy; 1999-2003, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+Copyright &copy; 1999-2019, the author/owner of http://toxs.net/~arpepper
 </p>
 </font>
 <font size=-2>
@@ -373,9 +378,6 @@ Copyright &copy; 1999-2003, the author/owner of http://www.math.uwaterloo.ca/~ar
 </p>
 <p>
 <a href="gt/diary/disclaimer.html">Disclaimers</a>
-</p>
-<p>
-I'm not sure if geocities requires me to make links to <a href="bitmaps/">bitmaps</a> and <a href="gifs/">gifs</a>, or not.
 </p>
 </font>
 </td></tr>
@@ -403,6 +405,24 @@ I'm not sure if geocities requires me to make links to <a href="bitmaps/">bitmap
 
 </body>
 </html>
+@
+
+
+1.36
+log
+@Added link to maps.
+Corrected copyright date.
+@
+text
+@a161 1
+<script language=javascript src="http://ss.webring.yahoo.com/navbar?f=j&y=gt2toxs&u=99471583610421508"></script>
+d167 1
+a167 1
+Copyright &copy; 1999-2003, the author/owner of http://www.math.uwaterloo.ca/~arpepper
+a175 3
+</p>
+<p>
+I'm not sure if geocities requires me to make links to <a href="bitmaps/">bitmaps</a> and <a href="gifs/">gifs</a>, or not.
 @
 
 
