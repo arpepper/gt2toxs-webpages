@@ -22,12 +22,12 @@
 ##############################################################################
 # Define Variables							     #
 
-$basedir = '/u/arpepper/public_html/gt2/diary/';
-$baseurl = 'http://toxs.net/~arpepper/gt2/diary/';
+$basedir = '/home/gt2toxs/public_html/gt2/diary/';
+$baseurl = '/~gt2toxs/gt2/diary/';
 @files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
-$title_url = 'http://toxs.net/~arpepper/gt2/diary/';
-$search_url = 'http://toxs.net/~arpepper/gt2/diary/search.html';
+$title_url = 'http://toxs.net/~gt2toxs/gt2/diary/';
+$search_url = '/~gt2toxs/gt2/diary/search.html';
 
 # Done									     #
 ##############################################################################

@@ -1,9 +1,14 @@
-head	1.8;
+head	1.9;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.9
+date	2019.01.14.22.51.44;	author gt2toxs;	state Exp;
+branches;
+next	1.8;
 
 1.8
 date	2017.01.19.00.26.46;	author arpepper;	state Exp;
@@ -52,10 +57,13 @@ Requires .htaccess to work here.
 @
 
 
-1.8
+1.9
 log
-@Need to change URLs to not go back to www.math.uwaterloo.ca
-(which actually redirects to cs.uwaterloo.ca for me, but still...)
+@Actually removed the features which allow the, um, cross-site scripting.
+(Because I now have a place to have both form and cgi).
+ 
+All URLs are now relative.
+Except for the title.
 @
 text
 @#!/usr/bin/perl
@@ -82,12 +90,12 @@ text
 ##############################################################################
 # Define Variables							     #
 
-$basedir = '/u/arpepper/public_html/gt2/diary/';
-$baseurl = 'http://toxs.net/~arpepper/gt2/diary/';
+$basedir = '/home/gt2toxs/public_html/gt2/diary/';
+$baseurl = '/~gt2toxs/gt2/diary/';
 @@files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
-$title_url = 'http://toxs.net/~arpepper/gt2/diary/';
-$search_url = 'http://toxs.net/~arpepper/gt2/diary/search.html';
+$title_url = 'http://toxs.net/~gt2toxs/gt2/diary/';
+$search_url = '/~gt2toxs/gt2/diary/search.html';
 
 # Done									     #
 ##############################################################################
@@ -264,6 +272,23 @@ sub return_html {
    print "</body>\n</html>\n";
 }
    
+@
+
+
+1.8
+log
+@Need to change URLs to not go back to www.math.uwaterloo.ca
+(which actually redirects to cs.uwaterloo.ca for me, but still...)
+@
+text
+@d25 2
+a26 2
+$basedir = '/u/arpepper/public_html/gt2/diary/';
+$baseurl = 'http://toxs.net/~arpepper/gt2/diary/';
+d29 2
+a30 2
+$title_url = 'http://toxs.net/~arpepper/gt2/diary/';
+$search_url = 'http://toxs.net/~arpepper/gt2/diary/search.html';
 @
 
 
