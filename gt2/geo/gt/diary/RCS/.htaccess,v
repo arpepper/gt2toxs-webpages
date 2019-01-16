@@ -1,0 +1,26 @@
+head	1.1;
+access;
+symbols;
+locks
+	gt2toxs:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2019.01.15.23.32.51;	author gt2toxs;	state Exp;
+branches;
+next	;
+
+
+desc
+@Enable search.cgi
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@AddHandler cgi-script .cgi
+@
