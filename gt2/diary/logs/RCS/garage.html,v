@@ -1,9 +1,14 @@
-head	1.31;
+head	1.32;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.32
+date	2019.04.15.22.50.20;	author arpepper;	state Exp;
+branches;
+next	1.31;
 
 1.31
 date	2019.04.15.22.29.20;	author arpepper;	state Exp;
@@ -167,9 +172,9 @@ the logs.
 @
 
 
-1.31
+1.32
 log
-@Corrected name of gt1-2014 in menu.
+@Correct a couple of cgi references for gt1-2014
 @
 text
 @<html>
@@ -401,10 +406,10 @@ In this offshoot of the <b>gt1-mazda</b> game, I began entering every
 model of used car in the <b>Hard-Tuned Series</b>.
 That <a href="garage.cgi?garage=gt1-tuned?simday=">garage</a> so far.
 </li>
-<li><a href="gt1-2014">gt1-2014</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-2014">gt1-2014</a> -
+<li><a href="gt1-2014">gt1-2014</a> <a href="textview.cgi?filename=gt1-2014">gt1-2014</a> -
 In 2014 I decided to start over again; a brand-new game.
 Sort of a 15th Anniversary celebration.
-That <a href="garage=gt1-2014?simday=">garage</a> so far.
+That <a href="garage.cgi?garage=gt1-2014?simday=">garage</a> so far.
 </li>
 <li><a href="starter">starter</a> <a href="textview.cgi?filename=starter">starter</a> -
 This is merely all three licenses, ending at day 25.  By resetting the
@@ -463,6 +468,20 @@ game on day
 
 </body>
 </html>
+@
+
+
+1.31
+log
+@Corrected name of gt1-2014 in menu.
+@
+text
+@d230 1
+a230 1
+<li><a href="gt1-2014">gt1-2014</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-2014">gt1-2014</a> -
+d233 1
+a233 1
+That <a href="garage=gt1-2014?simday=">garage</a> so far.
 @
 
 

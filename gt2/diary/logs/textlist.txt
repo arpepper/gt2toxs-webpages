@@ -16,6 +16,7 @@ genframes.pl
 gold
 gold-frames.html
 gold-title.html
+gt1-2014
 gt1-24hour
 gt1enduro.txt
 gt1enduro.txt-frames.html
