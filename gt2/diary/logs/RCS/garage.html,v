@@ -1,9 +1,14 @@
-head	1.30;
+head	1.31;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.31
+date	2019.04.15.22.29.20;	author arpepper;	state Exp;
+branches;
+next	1.30;
 
 1.30
 date	2019.04.15.22.00.00;	author arpepper;	state Exp;
@@ -162,12 +167,9 @@ the logs.
 @
 
 
-1.30
+1.31
 log
-@Oops.  I never corrected this RCS file when I changed from /cgiwrap/
-invocation to simply garage.cgi
-
-And today I also added gt1-2014 references.
+@Corrected name of gt1-2014 in menu.
 @
 text
 @<html>
@@ -443,7 +445,7 @@ Show the contents of the garage from the
 	<option value="gt1-mazda">gt1-mazda</option>
 	<option value="gt1-tuned">gt1-tuned</option>
 	<option value="gt2-racepr">gt2-racepr</option>
-	<option value="gt1-2014">gt2-racepr</option>
+	<option value="gt1-2014">gt1-2014</option>
 	<option value="starter">starter</option>
 	<option value="gt2-day5ib">gt2-day5ib</option>
 	<option value="gt2-day7s">gt2-day7s</option>
@@ -461,6 +463,20 @@ game on day
 
 </body>
 </html>
+@
+
+
+1.30
+log
+@Oops.  I never corrected this RCS file when I changed from /cgiwrap/
+invocation to simply garage.cgi
+
+And today I also added gt1-2014 references.
+@
+text
+@d274 1
+a274 1
+	<option value="gt1-2014">gt2-racepr</option>
 @
 
 
