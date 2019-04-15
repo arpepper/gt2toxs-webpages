@@ -2009,3 +2009,61 @@ Pits:  15,30,45
 fl(48): 1:37.370
 
 
+Game: gt1-2014
+Day: 442
+Date: February 16, 2014
+Race: SSR11 All-Night I  Endurance Race
+Car: green [R]Cerbera LM
+Qualified: 1st 1:53.204rec pp Cr20,000
+Result: 1st
+Money: Cr150,000
+Prize-Car: red [R]Silvia LM
+1st:* [R]Cerbera LM        55:27.663rec
+2nd:  [R]GTO twinturbo       +97.753  (57:05.416)
+3rd:  [R]Castrol Supra GT   +101.671  (57:09.334)
+4th:  [R]R32GT-R'91         +102.062  (57:09.725)
+5th:  [R]NSX-R LM GT2       +119.719  (57:27.382) 1 lap
+6th:  [R]IMPREZA RLY Ed     +180.635  (58:28.298) 1 lap
+Pits: 11,22
+fl(4): 1:46.438rec
+
+
+Game: gt1-2014
+Day: 456
+Date: February 22, 2014
+Race: Grand Valley 300KM Endurance Race
+Car: red [R]Silvia LM
+Qualified: 4th 1:45.044rec pp Cr0  8-(
+Result: 1st
+Money: Cr300,000
+Prize-Car: black and green Castrol Supra GT
+1st:* [R]Silvia LM         1-40:19.3
+2nd:  [R]Castrol Supra GT   +116.161  (1-42:15.5) 1 lap?
+3rd:  [R]IMPREZA RLY Ed     +190.143  (1-43:29.4) 1 lap
+4th:  [R]Primera'90 2.0Te   +216.146  (1-43:55.4) 2 laps?
+5th:  [R]Lancer EvoIV GSR   +348.181  (1-46:07.5) 3 laps
+6th:  [R]Accord Sedan       +509.246  (1-48:48.5) 4 laps
+Pits: 16,31,46
+fl(50): 1:35.959rec
+
+
+Game: gt1-2014
+Day: 498
+Date: March 08, 2014
+Race: SSR11 All-Night II  Endurance Race
+Car: Aston Sage Green Pearl Cerbera
+Qualified: 6th 2:06.664rec pp Cr0
+Result: 1st
+Money: Cr150,000
+Prize-Car: red [R]Silvia LM
+Prize-Car: silver NISMO GT-R LM
+1st:* Cerbera           57:55.802rec
+2nd:  FDRX7 TypeRZ        +64.241  (59:00.043)
+3rd:  NSX '93             +71.343  (59:07.145)
+4th:  Lancer EvoIII GSR  +107.813  (59:43.615)
+5th:  R33GT-R Vspec      +126.882  (60:02.684) +1lap
+6th:  Chaser V           +174.169  (60:49.971) +1lap
+Pits: 15
+fl(8): 1:50.193rec
+
+
