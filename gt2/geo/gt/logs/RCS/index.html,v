@@ -1,10 +1,14 @@
-head	1.21;
+head	1.22;
 access;
 symbols;
-locks
-	arpepper:1.21; strict;
+locks; strict;
 comment	@# @;
 
+
+1.22
+date	2019.04.15.21.53.11;	author arpepper;	state Exp;
+branches;
+next	1.21;
 
 1.21
 date	2007.03.03.02.44.54;	author arpepper;	state Exp;
@@ -117,9 +121,10 @@ desc
 @
 
 
-1.21
+1.22
 log
-@Add gt2-mfr.txt.
+@Added 15th anniversary gt1-2014.
+Curiously, this RCS file no longer seems to exist on cs.uwaterloo.ca.
 @
 text
 @<html>
@@ -365,6 +370,10 @@ Cup</b> series.
 In this offshoot of the <b>gt1-mazda</b> game, I began entering every
 model of used car in the <b>Hard-Tuned Series</b>.
 </li>
+<li><a href="gt1-2014.txt">gt1-2014</a> -
+In 2014 I decided to start over again; a brand-new game.
+Sort of a 15th Anniversary celebration.
+</li>
 <li><a href="starter.txt">starter</a> -
 This is merely all three licenses, ending at day 25.  By resetting the
 game on failed attempts, of course.  Since I bought no cars up till
@@ -416,6 +425,15 @@ Copyright &copy; 1999-2004, the author/owner of http://www.math.uwaterloo.ca/~ar
 </html>
 </body>
 </html>
+@
+
+
+1.21
+log
+@Add gt2-mfr.txt.
+@
+text
+@d244 4
 @
 
 
