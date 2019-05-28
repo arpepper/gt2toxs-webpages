@@ -1,0 +1,928 @@
+head	1.23;
+access;
+symbols;
+locks
+	arpepper:1.23; strict;
+comment	@# @;
+
+
+1.23
+date	2014.04.13.03.07.50;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2014.04.04.11.21.19;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2014.03.31.11.55.36;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2014.03.25.11.58.52;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2014.03.17.12.17.42;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2014.03.17.11.40.14;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2014.03.10.02.39.34;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2014.03.04.12.07.38;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2014.02.27.13.22.30;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.02.27.12.56.45;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.02.21.13.04.08;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.02.17.07.45.51;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.02.10.14.00.31;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.02.10.13.21.44;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.02.04.12.33.14;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.02.02.01.13.47;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.01.28.11.25.33;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.01.27.01.07.20;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.01.26.18.25.12;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.01.20.13.18.35;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.01.19.20.57.28;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.01.15.10.20.43;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.01.15.09.46.38;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@We go back to the beginning again!
+
+No detail license test notes, however.
+@
+
+
+1.23
+log
+@April 04, 2014.
+Lwt to get Eunos.
+days 557 to 573.
+Also a correction.
+@
+text
+@January 02, 2014
+   1-128  A8 pass
+   129 power off
+
+Note: Time taken for IA8 was not honest.
+Note: IA1 quick, but first day IA3 -> 185 days (rest)
+Note: Next day IA3 -> 183 days (rest)
+Note: Changed flakey controller.
+January  05, 2014
+ 129-133  IA3 pass (B) 2:01.782/2:03.000  Griffith at GV
+Note: reloaded
+ 134-139  IA5 pass (B) 1:23.464/1:24.000  Griffith at AR
+Note: IA7 
+Note: to +1.x that day, but no pass, so reset
+
+January 07, 2014
+Note: Early morning work day
+ 140-151  IA7 pass (B) 2:12.955/2:14.000  Griffith at SSR11
+ 152      IA1 pass (B)  Griffith at HSR
+
+January 08, 2014
+Note: Tried IA2 (SSR5) but no pass, reset
+
+January 10, 2014
+ 153-181  IA2 pass (B) 1:29.595/1:30.000  Viper at SSR5
+ 182-191  IA4 pass (B) 1:23.573/1:24.000  Viper at DFRW
+ 192-198  IA6 pass (B) 1:32.727/1:33.000  Viper at TM
+   199 power off
+Note: IA8 Viper at GVii to +2.5 => day 227, reset
+
+January 11, 2014
+ 199-214  IA8 pass (B) 1:58.318/1:59.000 Viper at GVii
+Note: IA license acquired
+   215 power off
+
+   215 buy car Cosmo13  Creek Blue Mica Mazda Eunos Cosmo 13B Type S CCS (Cr9,970)
+   215 Cr70
+ 215-218  Cosmo13  Sunday  q666,1st27to18,11,9,6,4          Demio(1/1*)a
+   219   Cr24,030
+   219 power off
+
+January 12, 2014
+   219    buy parts Cosmo13   TS2  Cr12,500
+   219   Cr11,530
+ 219-222  Cosmo13  FR      6th                                   8-(
+   223   Cr12,430
+ 223-226  Cosmo13  Sunday  q131,1st27to18,12,8,7,4          Demio(sold)
+   227   Cr51,430
+   227 power off
+
+January 17, 2014
+   227   select car Demio
+   227   buy parts  Demio   S/S, TS2, Rmuff   (Cr15,000, Cr12,500, Cr4,500)
+   227   fit parts  Demio   S/S, TS2, Rmuff
+   227  Cr19,430
+ 227-230  Demio        FF  q6*,654,5th27to16,11,11,(5),4        8-(
+   231  Cr21,230
+   231   mod car Demio WR1 (Cr1,200)  WR2 (Cr5,500) => 1536lb
+   231  Cr14,530
+ 231-234  Demio        FF q6*,641,3rd24to14(13),11,9,4          8-(
+   235  Cr20,830
+   235   buy parts  Demio   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
+   235   fit parts  Demio   Rsusp, Fstab, Rstab
+   235  Cr1,530
+ 235-238  Demio        FF q6*,661,4th22to14,14,(11),8,6         8-(
+   239  Cr7,130
+   239   buy parts  Demio   SpBr, chip (Cr5,000, Cr1,500)
+   239   fit parts  Demio   SpBr, chip
+   239  Cr630
+ 239-242  Demio        FF q6*,611,1st19to18,14,11,9,4      yellowCelica(1/6)
+   243  Cr20.930    IA  22B,2S,0G   3cars
+   243 power off
+
+January 18, 2014
+ 243-246  Demio        Lwt  q466,536,4th24to21,11,(7),6,6        8-(
+   247  Cr24.930
+   247 select car  Celica   (alias yellowCelica)
+   247 mod car  Celica   (alias yellowCelica)
+ 247-250  Celica   Sunday  q466,1st27to15,14,8,6,5          Demio(sold)
+   251  Cr60.930
+
+   251 select car Cosmo13  (Creek Blue Mica Mazda Eunos Cosmo 13B Type S)
+   251   buy parts  Cosmo13   S/S   (Cr15,000)
+   251   fit parts  Cosmo13   S/S
+   251  Cr45,930
+ 251-254  Cosmo13  FR     q6*,516,4th21,18,12,(12),7,5           8-(
+   255  Cr51,730
+ 255-258  Cosmo13  Clubman  q6*,634,5th27,13,12,9,(8),6            8-(
+   259  Cr55,230
+ 259-262  Cosmo13  Sunday  q116,1st27to18,12,8,5,5           Demio(dup)
+   263  Cr82,230    IA  22B,2S,0G   4cars
+
+   263   buy car ViperGTS  Red Dodge Viper GTS  (Cr80,040)
+   263   select car ViperGTS  Red Dodge Viper GTS
+   263  Cr2,190     IA  22B,2S,0G   5cars
+ 263-268  ViperGTS  Normal  q12166,2nd36to(32),             8-(
+   269  Cr177,690
+   269   power off
+
+January 19, 2014
+   269   buy parts  ViperGTS   S/S   (Cr15,000)
+   269   fit parts  ViperGTS   S/S
+   269  Cr162,690
+ 269-272  ViperGTS   FR   sw27to18,11,10,6,3      yellowS13Silvia(1/6)
+   273  Cr192,190   6 cars
+   273   power off
+ 273-276  ViperGTS   Clubman    sw27to18,12,9,5,4            Camaro(1/1*)
+   277  Cr240,690   7 cars
+   277   power off
+Note: buy '89GTR  Wg'94WRX, Pulsar at day 280.  Also Levin?
+
+January 24, 2014
+ 277-280  ViperGTS   FR   sw27to18,12,9,5,4         redS13Silvia(2/6)
+   281  Cr270,190   8 cars
+   281   buy car GT-R'89  Red Pearl Metallic Nissan R32 Skyline GT-R'89 (Cr21,410)
+   281   buy car Pulsar Blue Gray Graphite Pearl Nissan Pulsar '91 GTi-R (Cr9,790)
+   281   buy car WG'94WRX  Active Red Subaru Impreza '94 Wagon WRX   (Cr15,420)
+   281  Cr223,570  11 cars
+Note: Need to use Machine Test to remove S/S from ViperGTS
+ 281-286  ViperGTS  Normal  q11lll,12264,2nd34to(25),24,16,12,6       8-(
+   287  Cr328,070  11 cars
+ 287-290  ViperGTS Sunday  sw27to15,14,10,5,4                 Demio(sold)
+   291  Cr368,570  11 cars
+   291  power off
+
+January 25, 2014
+   291   buy car GTR'89-2  Red Pearl Metallic Nissan R32 Skyline GT-R'89 (Cr21,410)(trade)
+   291  Cr347,160  12 cars
+   291   select car GTR'89-2  Red Pearl Metallic Nissan R32 Skyline GT-R'89
+   291   mod car GTR'89-2  WR1 WR2  (Cr1500, Cr6000)  3152=>2993=>2837lb
+   291  Cr339,660
+   291   buy parts GTR'89-2  TS2 Cr14,000  S/S Cr15,000
+   291   buy parts GTR'89-2  Rmuf  Cr5000  Ric Cr3500
+   291   buy parts GTR'89-2  Rtrans Cr12,500  3cl Cr5000  shaft Cr3500
+   291   buy parts GTR'89-2  SpBr  Cr5000
+   291  Cr278,160
+ 291-294  GTR'89-2   4wd  q116,612,3rd17to17,(16),12,9,4          8-(
+   295  Cr288,460
+   295   buy parts GTR'89-2  Rsusp Cr20,000  Fstab Cr700  Rstab Cr600
+   295  Cr267,160
+   295   buy parts GTR'89-2  Bctlr Cr10,000
+   295  Cr257,160
+ 295-298  GTR'89-2  Sunday  sw27to18,11,10,5,4                 Demio(sold)
+   299  Cr297,660
+ 299-303  GTR'89-2   GTC q6*,4566,6th29to25,18,12,9,(7)            8-(
+   304  Cr301,660
+   304  buy car  FTO'94GPX  Passion Red Mitsubishi FTO'94 GPX (Cr12,790)
+   304  Cr288,870  13 cars
+ 304      B1 G  34.356  -0.414
+   305  Cr288,870    IA  22B,1S,1G  13 cars
+   305  power off
+Note: day 310  Passion Rose Cosmo 13B
+
+
+January 26, 2014
+   305   select car  FTO'94GPX  Passion Red Mitsubishi FTO'94 GPX (Cr12,790)
+   305   mod car  FTO'94GPX  WR1 WR2  (Cr1200, Cr5500)  2579=>2321=>2191lb
+   305   buy parts  FTO'94GPX   S/S, NA2, Rmuff   (Cr15,000, Cr12,500, Cr4,500)
+   305   fit parts  FTO'94GPX   S/S, NA2, Rmuff
+   305   buy parts  FTO'94GPX   SpBr, Rfw, 3cl   (Cr5000, Cr1000, Cr5000)
+   305   fit parts  FTO'94GPX   SpBr, Rfw, 3cl
+   305  Cr239,670
+ 305-308  FTO'94GPX    Lwt  3rd18to16,(16),13,7,5               8-(
+   309  Cr248,170
+ 309-312  FTO'94GPX    Lwt  3rd21to19,(16),7,7,7                 8-(
+   313  Cr258,670
+   313 buy car roseCosmo13  Passion Rose Mica Mazda Eunos Cosmo 13B Type S CCS (Cr12,590)
+   313  Cr246,080  14 cars
+   313   buy parts  FTO'04GPX   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
+   313   fit parts  FTO'04GPX   Rsusp, Fstab, Rstab
+ 313-316  FTO'94GPX    Lwt  2nd19to(19)                          8-(
+   317  Cr239,280
+Note: reloaded a few times if early failure
+   317   buy parts FTO'94GPX  Bctlr Cr10,000  chip Cr1500
+   317   fit parts FTO'94GPX  Bctlr chip
+   317  Cr227,780
+ 317-320  FTO'94GPX    Lwt  q116,116,1st19to18,17,8,8,5     yellowCivic(1/6)
+   321  Cr252,280  15 cars
+   321  power off
+
+ 321-324  FTO'94GPX    FF   q651,116,1st19to18,17,8,8,5   purpleCelica(2/6)
+   325  Cr275,780  16 cars
+
+   325   select car GTR'89-2  Red Pearl Metallic Nissan R32 Skyline GT-R'89
+   325   mod car GTR'89-2  WR3 WR2  Cr25,000  2837=>2678lb
+   325   buy parts GTR'89-2  TS4 Cr72,000
+   325   fit parts GTR'89-2  TS4
+   325   mod car GTR'89-2  disp Cr8000  port+bal (Cr6000 Cr16,000)
+   325   buy parts GTR'89-2  chip  Cr2000
+   325   fit parts GTR'89-2  chip
+   325  Cr146,780  16 cars
+ 325-328  GTR'89-2       Mega  q611,611,1st19to17,16,11,6,6  purpleSoarer(1/6)
+   329  Cr217,280  17 cars
+   329  power off
+
+
+January 28, 2014
+ 329-332  GTR'89-2       Mega  q611,411,1st21to19,15,9,5,5   yellowSoarer(2/6)
+   333  Cr284,280  18 cars
+ 333-336  GTR'89-2       Mega  qX11,1st27to14.14.9,6,5       yellowSoarer(dup)
+   337  Cr368,280  19 cars
+   337  power off
+
+January 31, 2014
+ 337-340  GTR'89-2       Mega  q511,311,1st22to21,14,9,5,5   yellowSoarer(sold)
+   341  Cr456,280  19 cars
+ 341-344  GTR'89-2       Mega  q311,411,1st21to18,17,9,6,4         redDB7(3/6)
+   345  Cr528,280  20 cars
+ 345-348  GTR'89-2   4wd  q1*,411,1st21to16,16,10,8,4        purpleLancer(1/6)
+   349  Cr553,780  21 cars
+   349   buy car RT/10  Blue with white stripes Dodge Viper RT/10  (Cr68,800)
+   349   select car RT/10  Blue with white stripes Dodge Viper RT/10
+   349  Cr484,980  22 cars
+ 349-354  RT/10        Normal   q1*,6D 1st37to33,21,16,12,6  blueImpreza(1/6)
+   355  Cr825,480  23 cars
+   355  power off
+
+February 01, 2014
+   355   select car GTR'89-2  Red Pearl Metallic Nissan R32 Skyline GT-R'89
+ 355-359  GTR'89-2   GTC q1335,1612,2nd30to(25),16,15,9,5            8-(
+   360  Cr867,980  23 cars
+   360   buy car GTO'95MR  Passion Red Mitsubishi GTO'95 twinturbo MR (Cr27,250)
+   360  Cr840,730  24 cars
+   360   buy car [R]Cerbera Opal White TVR Cerbera (for [R]-mod) (Cr84,800)
+   360   select car [R]Cerbera Opal White TVR Cerbera (for [R]-mod)
+   360   mod car [R]Cerbera  [R]-mod Cr85,000  2425=>1625lb
+   360   buy parts [R]Cerbera  NA1 Cr14,500  Rmuff Cr5000  chip Cr2000
+   360   fit parts [R]Cerbera  NA1 Rmuff chip
+   360   mod car [R]Cerbera  pol+bal  Cr6000 Cr16000
+   360   buy parts [R]Cerbera  SpBr Cr5000  Bctlr Cr10,0000
+   360   buy parts [R]Cerbera  Rtrans Cr10,500  3cl Cr5000  Rfw Cr1200
+   360   buy parts [R]Cerbera  shaft Cr3500  Rsusp Cr20,000
+   360   buy parts [R]Cerbera  Fstab Cr700  Rstab Cr600  S/S Cr15,000
+   360   fit parts [R]Cerbera  SpBr Bctlr
+   360   fit parts [R]Cerbera  Rtrans 3cl Rfw
+   360   fit parts [R]Cerbera  shaft Rsusp
+   360   fit parts [R]Cerbera  Fstab  Rstab  S/S
+   360  Cr555,930  25 cars
+ 360-365  [R]Cerbera  UKvsJP q56111,14111,1st39to25,23,20,9,9 greenCerbera(1/4)
+   366  Cr626,930  26 cars
+Note: AI traded lots; I would have won with 1 less win
+   366  power off
+
+February 02, 2014
+ 366-371  [R]Cerbera  UKvsUS q1*,14111,1st39to28,24,16,10,3 purpleConcept(1/4)
+   372  Cr703,930  27 cars
+   372   select car [R]ConceptCar (alias) purpleConcept
+   372   mod car [R]ConceptCar (alias) purpleConcept
+ 372-377  [R]ConceptCar  USvsJP q2G,25116,3rd31to30,(27),17,14,6       8-(
+   378  Cr744,430  27 cars
+Note: controller might have been somewhat non-responsive (confirmed)
+   378  power off
+ 378-383  [R]ConceptCar  USvsJP  q1*,11116,1st37to30,19,17,12,10  greenFTO(1/4)
+   384  Cr819,930  28 cars
+   384  power off
+
+February 07, 2014
+   384  select car [R]Cerbera
+ 384-389  [R]Cerbera  UKvsJP  sw45to28,15,15,14,8         black delSol(2/4)
+   390  Cr904,930  29 cars     beat dreaded RX7 Aspec, bad lap 1 SSR11
+Note: replaced PSX, back to clear controller, better than ever!
+  390  buy car redCivic3dr93  Milano Red Honda Civic'93 3Door Si (Cr10,250)
+   390  Cr894,680  30 cars  (wanted < Cr10.000, but...)
+Note: Watch for NISMO GT-R
+   390  power off
+
+February 08, 2014
+ 390-395  [R]Cerbera  UKvsUS   sw45to30,17,12,11,10   purpleConcept(dup)(sold)
+   396  Cr991,680  30 cars
+   396  select car [R]FTOLM   (alias greenFTO)
+   396  mod car [R]FTOLM   (alias greenFTO)
+ 396-401  [R]FTOLM    USvsJP   sw45to30,18,17,8,7     ViperWblueSt(2/4)
+   402  Cr1,076,680  31 cars
+   402  power off
+
+February 09, 2014
+   402  select car [R]ViperGTS-R  (alias ViperWblueSt)
+   402  mod car [R]ViperGTS-R   (alias ViperWblueSt)
+ 402-407  [R]ViperGTS-R  UKvsUS  sw45to30,17,12,11,10  purpleConcept(dup)(sold)
+   408  Cr1,167,680  31 cars
+   408  power off
+   408  select car [R]CerberaLM   (alias CerberaLM)
+   408  mod car [R]CerberaLM   (alias CerberaLM)
+ 408-413  [R]CerberaLM   UKvsUS  sw45to30,17,12,11,10  purpleConcept(dup)(sold)
+   414  Cr1,264,680  31 cars
+   414  power off
+
+February 14, 2014
+ 414-419  [R]CerberaLM   UKvsUS  sw45to25,24,13,13,5   yellowConcept(2/4)
+   420  Cr1,349,680  32 cars
+ 420-425  [R]CerberaLM   UKvsUS  q3G,1st45to26,20,17,11,6   blueRX7(3/4)
+   426  Cr1,431,680  33 cars
+   426  power off
+
+February 15, 2014
+   426   select car GTR'89-2  Red Pearl Metallic Nissan R32 Skyline GT-R'89
+   426   fit parts GTR'89-2  TS2
+ 426-430  GTR'89-2   GTC q6*,1412,1st27to23,20,13,11,6     ChaserLM(1/1*)
+   431  Cr1,485,680  34 cars
+ 431-434  GTR'89-2   4wd  q3S,1st27to15,12,8,8,5        yellowLancer(2/6)
+   435  Cr1,513,680  35 cars
+   435  power off
+
+February 16, 2014
+   435  select car [R]CerberaLM   (alias CerberaLM)
+ 435-441  [R]CerberaLM  GTI  q111366,D4,1st48to35,27,19,15.6  hifi+ credits
+   442  Cr1,696,680  35 cars
+   442  power off
+ 442-443  [R]CerberaLM  All-nightI   q1st1st            redSilviaLM(1/2)
+   444  Cr1,866,680  36 cars
+   444  power off
+
+February 17, 2014
+Note: Family Day Monday holiday
+   444   select car  FTO'94GPX  Passion Red Mitsubishi FTO'94 GPX
+ 444-447  FTO'94GPX    FF   q2D,1st27to14,14,9,7,4              blueCRX(3/6)
+   448  Cr1,894,680  37 cars
+ 448-451  FTO'94GPX    Lwt  q5C,1st27to16,14,9,5,4            blueCivic(2/6)
+   452  Cr1,923,680  38 cars
+   452  power off
+
+February 22, 2014
+   452  select car [R]SilviaLM   (alias SilviaLM)
+   452  mod car [R]SilviaLM   (alias SilviaLM)
+ 452-455  [R]SilviaLM  FR   sw27to18,11,10,6,3       greenS13Silvia(3/6)
+   456  Cr1,953,180  39 cars
+ 456-457  [R]SilviaLM   GV300  q4th1st             black/greenSupra(1/2)
+   458  Cr2,253,180  40 cars
+   458  power off
+
+February 23, 2014
+   458 select car Cosmo13  (Creek Blue Mica Mazda Eunos Cosmo 13B Type S)
+ 458-461  Cosmo13  FR     q6*,412,2nd21,(19),14,9,7,5           8-(
+   462  Cr2,261,680
+   462   buy car NismoGTR  Gun Grey Metallic Nismo Skyline GTR (Cr32,870)
+   462  Cr2,228,810  41 cars
+
+   462   buy parts  Cosmo13    Rsusp, Rtrans (Cr10,500, Cr18,000)
+   462   fit parts  Cosmo13    Rsusp, Rtrans
+   462   buy parts  Cosmo13    shaft Cr3000 3cl Cr5000  Rfw Cr1000
+   462   fit parts  Cosmo13    shaft 3cl Rfw
+   462   buy parts  Cosmo13    Fstab, Rstab (Cr700, Cr600)
+   462   fit parts  Cosmo13    Fstab, Rstab
+   462   buy parts  Cosmo13    Rmuff (Cr4500) Ric (Cr3000) chip (Cr1500)
+   462   buy parts  Cosmo13    Rmuff  Ric  chip
+   462   buy parts  Cosmo13    SpBr (Cr5000)  Bctlr (Cr10,000)
+   462   fit parts  Cosmo13    SpBr, Bctlr
+   462  Cr2,166,010
+
+ 462-465  Cosmo13   FR   q416,1st27to13,12,11,7,5    yellowS13Silvia(dup)(kaw)
+   466  Cr2,192,510  42 cars
+ 466-469  Cosmo13   FR  q646,131,1st22to19,16,7,7,4     redS13Silvia(dup)(kaw)
+   470  Cr2,214,010  43 cars
+   470  power off
+ 470-473  Cosmo13   FR   q613,1st27to18,11,9,7,3      greenS13Silvia(dup)(kaw)
+   474  Cr2,240,510  44 cars
+ 474-477  Cosmo13   FR   q436,1st27to13,13,11,7,4    yellowS13Silvia(dup)(kaw)
+   478  Cr2,265,510  45 cars
+ 478-481  Cosmo13   FR   q165,1st27to18,12,7,6,5      greenS13Silvia(dup)(kaw)
+   482  Cr2,292,010  46 cars
+   482  power off
+
+February 28, 2014
+ 482-485  Cosmo13   FR   q216,1st27to18,9,8,7,6         blueSilEighty(!)(4/6)
+   486  Cr2,318,510  47 cars
+ 486-489  Cosmo13   FR   q152,1st27to16,14,9.5.4         yellowSilEighty(5/6)
+   490  Cr2,345,010  48 cars
+
+   490  select car blueSilEighty
+   490  buy parts blueSilEighty  Rmuff Cr4500  SpBr Cr5000  Bctlr Cr10,000
+   490  fit parts blueSilEighty  Rmuff  SpBr  Bctlr
+   490  buy parts blueSilEighty  chip Cr1500
+   490  fit parts blueSilEighty  chip
+   490  mod car blueSilEighty  pol Cr5500  bal Cr13,500
+   490  buy parts blueSilEighty  Rtrans Cr10,500  3cl Cr5000
+   490  fit parts blueSilEighty  Rtrans  3cl
+   490  buy parts blueSilEighty  Rfw Cr1000  shaft Cr3000
+   490  fit parts blueSilEighty  Rfw  shaft
+   490  buy parts blueSilEighty  Rsusp Cr20,000  Fstab Cr700  Rstab Cr600
+   490  fit parts blueSilEighty  Rsusp   Fstab   Rstab
+   490  buy parts blueSilEighty  S/S  Cr15,000
+   490  fit parts blueSilEighty  S/S
+   490  mod car blueSilEighty  WR1 2579lb=>2449lb Cr1200
+   490  mod car blueSilEighty  WR2 =>2321lb Cr5500  WR3 => 2191lb Cr22,500
+   490  Cr2,170,510
+
+   490  select  car blueSileighty  (alias blueSilEighty)
+   490  mod  car blueSileighty  (alias blueSilEighty)
+ 490-493  blueSileighty   FR  sw27to18,11,10,5,4      blueSilEighty(dup)(keep)
+   494  Cr2,200,010  49 cars
+   494  power off
+Note: practised with blueSilEighty in All-nightII, did not save
+
+March 08, 2014
+Note: gave up on using SilEighty for All-nightII or Hard-Tuned, for now
+   494  buy car sageCerbera Aston Sage Green Pearl TVR Cerbera (Cr84,800)
+   494  Cr2,115,210  50 cars
+   494  select car sageCerbera
+   494  mod car sageCerbera  pol Cr6000  bal Cr16,000
+   494  mod car sageCerbera  WR1 2425lb -> 2182lb  Cr1500
+   494  mod car sageCerbera  WR2 2182lb -> 2061lb  Cr6000
+   494  mod car sageCerbera  WR3 2061lb -> 1891lb  Cr25,000
+   494   fit parts sageCerbera  NA1 Rmuff chip
+   494   fit parts sageCerbera  SpBr Bctlr
+   494   fit parts sageCerbera  Rtrans 3cl Rfw
+   494   fit parts sageCerbera  shaft Rsusp
+   494   fit parts sageCerbera  Fstab  Rstab  S/S
+   494  Cr2,060,710  50 cars
+ 494-497  sageCerbera     FR  sw27to16,14,9,6,4       redS13Silvia(dup)(kaw)
+   498  Cr2,090,210  51 cars
+   498    sell excess S13Silvia
+Note: 6 cars sold
+   498  Cr2,162,210  45 cars
+ 498-499  sageCerbera     All-nightII   q6th,1st silverNismoGT-R LM(1/1*)
+   500  Cr2,312,210  46 cars
+   500  power off
+
+March 14, 2014
+ 500-505 sageCerbera Tuned  q16146,12165,4th28to26,24,(24),15,8         8-(
+   506  Cr2,448,210  46 cars
+   506  power off
+
+March 15, 2014
+ 506-511 sageCerbera Tuned  q16111,14151,1st32to28,21,21,17,6   blueTrueno(1/6)
+   512  Cr2,753,210  47 cars
+   512  power off
+
+March 21, 2014
+   512  select  car blueSileighty  (alias blueSilEighty)
+ 512-513 blueSileighty  Spot/HSR   q1st1st -12.832                  none
+ 514-515 blueSileighty  Spot/GVE   q1st1st -11.400                  none
+ 516-517 blueSileighty  Spot/AM    q1st1st  -2.117                  none
+ 518-519 blueSileighty  Spot/TM    q1st1st  -2.007                  none
+ 520-521 blueSileighty  Spot/DFRW  q1st1st -12.666                  none
+   522  Cr2,760,710  47 cars
+   522  buy car redEvoIIIGSR  Monaco Red Mitsubishi Lancer EvoIII GSR (Cr24,430)(used)
+   522  buy car greenDelSol'93Si  Samba Green Pearl Honda del Sol '93 Si  (Cr7,560)(used)
+   522  Cr2,728,720  49 cars
+
+   522  select car redEvoIIIGSR  Monaco Red Mitsubishi Lancer EvoIII GSR (Cr24,430)(used)
+   522  buy parts redEvoIIIGSR  Rmuff Cr5000 SpBr Cr5000 Bctlr Cr10,000
+   522  buy parts redEvoIIIGSR  chip Cr2000
+   522  mod car redEvoIIIGSR  pol Cr6000 296-301  bal Cr16,000 301-307
+   522  buy parts redEvoIIIGSR  Rtrans Cr10,500  3cl Cr5000  Rfw Cr1200
+   522  buy parts redEvoIIIGSR  shaft Cr3500  TS1 Cr5000  TS2 Cr14,000
+   522  buy parts redEvoIIIGSR  TS3 Cr45,000  TS4 Cr72,000  Ric Cr3500
+   522  buy parts redEvoIIIGSR  Rsusp Cr20,000  Fstab Cr700  Rstab Cr600
+   522  buy parts redEvoIIIGSR  S/S  Cr15,000
+   522  mod car redEvoIIIGSR  WR1 Cr1500 2777->2638lb
+   522  mod car redEvoIIIGSR  WR2 Cr6000 2638->2500lb
+   522  mod car redEvoIIIGSR  WR3 Cr25,000 2500->2361lb
+   522  fit parts redEvoIIIGSR  Rmuff SpBr Bctlr chip 
+   522  fit parts redEvoIIIGSR  Rtrans 3cl Rfw shaft Rsusp Fstab Rstab S/S  
+   522  fit parts redEvoIIIGSR  TS4 Ric 
+   522  Cr2,456,220  49 cars
+ 522-525  redEvoIIIGSR  4wd  q5S,1st27to16,14,9,6,3         greenLancer(3/6)
+   526  Cr2,484,220  50 cars
+   526  power off
+
+March 22, 2014
+ 526-531 redEvoIIIGSR  Tuned q46166,25253,4th33to31,21,(20),15,5         8-(
+   532  Cr2,584,220  50 cars
+ 532-535  redEvoIIIGSR  4wd q1*,114,1st21to19,12,11,9,3  purpleLancer(dup)(kaw)
+   536  Cr2,609,720  51 cars
+ 536-539  redEvoIIIGSR  4wd q1*,112,1st24to19,12,11,6,3  purpleLancer(dup)(kaw)
+   540  Cr2,635,720  52 cars
+Note: approximate Cr
+   540  power off
+Note: memory card out when game started
+ 540-543  redEvoIIIGSR  4wd   sw27to15,11,10,8,4         yellowLancer(dup)(kaw)
+   544  Cr2,662,220  53 cars
+Note: approximate Cr
+ 544-547  redEvoIIIGSR  4wd q1*,113,1st22to18,16,8,7,4  dkBlueAlcyone(4/6)
+   548  Cr2,691,720  54 cars
+   548  power off
+
+March 29, 2014
+ 548-552 redEvoIIIGSR  GTC q5661,1411,1st30to23,19,15,8,5    ChaserLM(dup)(kaw)
+   553  Cr2,753,720  55 cars
+   553   select car  FTO'94GPX  Passion Red Mitsubishi FTO'94 GPX
+ 553-556  FTO'94GPX    Lwt q146,115,1st20to17,16,12,6,4   yellowCivic(dup)(kaw)
+   557  Cr2,776,720  56 cars
+   557  power off
+
+April 04, 2014
+ 557-560  FTO'94GPX    Lwt  q135,1st27to15,11,9,8,5         blueCivic(dup)(kaw)
+   561  Cr2,803,720  57 cars
+ 561-564  FTO'94GPX    Lwt  q112,1st27to13,12,10,7,6        blueCivic(dup)(kaw)
+   565  Cr2,832,720  58 cars
+
+   565  select car greenDelSol'93Si    Samba Green Pearl Honda del Sol '93 Si
+   565  mod car greenDelSol'93Si  WR1 2286lb=>2056lb Cr1200
+   565  mod car greenDelSol'93Si  WR2 =>1942lb Cr5500  WR3 => 1781lb Cr22,500
+   565  mod car greenDelSol'93Si pol Cr5500 159=>167hp  bal Cr22,500 167=>169hp
+   565  buy parts greenDelSol'93Si  chip Cr1500  NA3 Cr60,000 175=>229hp
+   565  buy parts greenDelSol'93Si  Rmuff Cr4500  SpBr Cr5000  Bctlr Cr10,000
+   565  buy parts greenDelSol'93Si  Rtrans Cr10,500  3cl Cr5000  Rfw Cr1000
+   565  buy parts greenDelSol'93Si  Rsusp Cr18,000  Fstab Cr700  Rstab Cr600
+   565  buy parts greenDelSol'93Si  S/S Cr15,000
+   565  Cr2,652,720
+
+ 565-568  greenDelSol'93Si  Sunday  sw27to18,11,10,5,4          Demio(dup)(kaw)
+   569  Cr2,681,220  59 cars
+ 569-572  greenDelSol'93Si  Lwt  q166,113,1st22to21,12,10,6,4    blueEunos(3/6)
+   573  Cr2,705,720  60 cars
+   573  power off
+@
+
+
+1.22
+log
+@Corrections to car counts.
+Mar 29, 2014.
+Days 548-552 better win at GTC.
+No luck for Lightweight prize cars.
+@
+text
+@d480 1
+d482 25
+a506 2
+   556  Cr2,776,720  56 cars
+   556  power off
+@
+
+
+1.21
+log
+@Corrected typo.
+
+Documented part fitting to redEvoIIIGSR.
+@
+text
+@d466 1
+a466 1
+   540  Cr2,635,720  53 cars
+d471 1
+a471 1
+   544  Cr2,662,220  52 cars
+d476 7
+@
+
+
+1.20
+log
+@Correct some car details.
+
+Mar 21-22, 2014
+days 512-548
+Spot Races
+Tried and failed with EvoIII at Tuned.
+But at least got Alcyone at 4WD.
+@
+text
+@d18 1
+a18 1
+ 140-151  IA8 pass (B) 2:12.955/2:14.000  Griffith at SSR11
+d452 3
+@
+
+
+1.19
+log
+@Minor but important correction to standings.
+@
+text
+@d211 2
+a212 2
+   349   buy car RT/10  White with blue stripes Dodge Viper RT/10  (Cr68,800)
+   349   select car RT/10  White with blue stripes Dodge Viper RT/10
+d396 1
+a396 1
+   494  buy car sageCerbera Aston Sage Green Pearl Cerbera (Cr84,800)
+d427 46
+@
+
+
+1.18
+log
+@Two Tuned series with Cerbera.  One bad, one mediocre.
+@
+text
+@d419 1
+a419 1
+ 500-505 sageCerbera Tuned  q16146,12146,4th28to26,24,(24),15,8         8-(
+@
+
+
+1.17
+log
+@March 08, 2014.
+Days 494-500.
+Tuned Cerbera practising for Hard-Tuned.  Won All-nightII.
+@
+text
+@d417 10
+@
+
+
+1.16
+log
+@February 28, 2014
+days 482-494  won three Sileighties
+@
+text
+@d390 1
+a390 1
+   494  Cr2,345,010  49 cars
+d393 24
+@
+
+
+1.15
+log
+@Winning FR with Cosmo, but getting duplicate prize cars.
+February 23, 2014   days 458-482
+@
+text
+@d362 31
+@
+
+
+1.14
+log
+@Feb 22, 2014  days 452-458
+Silvia LM GV300 plus FR warmup.
+@
+text
+@d331 31
+@
+
+
+1.13
+log
+@Family day.
+days 444-452.
+Redid FTO races.
+@
+text
+@d322 9
+@
+
+
+1.12
+log
+@Feb14-16, 2014.
+days 414 to 444.
+completed XXvsYY prize cars (not colours)
+GTC mediocre win
+GTI sufficient win
+Another 4wd, different colour Lancer
+GTI
+All-nightI
+@
+text
+@d303 2
+d312 10
+@
+
+
+1.11
+log
+@Feb 07-09, 2014.
+New PlayStation.  Trying to get at least one colour of all XXvsYY prizes.
+@
+text
+@d288 6
+d295 15
+@
+
+
+1.10
+log
+@Corrected name of GTO'95MR.  Oops.
+@
+text
+@d257 32
+@
+
+
+1.9
+log
+@Remove incorrect prize stars.
+Feb 01 to 02, 2014.
+days 355 to 384.
+UKvsJP, UKvsUS, USvsJP.
+@
+text
+@d222 1
+a222 1
+   360   buy car GTO'95MR  Passion Red Mitsubishi GTO'92 twinturbo (Cr27,250)
+@
+
+
+1.8
+log
+@January 28 to 31, 2014.
+Days 329 to 355.
+Mega moneymaking followed by 4wd and Normal success.
+@
+text
+@d70 1
+a70 1
+ 239-242  Demio        FF q6*,611,1st19to18,14,11,9,4      yellowCelica(1/6*)
+d104 1
+a104 1
+ 269-272  ViperGTS   FR   sw27to18,11,10,6,3      yellowS13Silvia(1/6*)
+d113 1
+a113 1
+ 277-280  ViperGTS   FR   sw27to18,12,9,5,4         redS13Silvia(2/6*)
+d177 1
+a177 1
+ 317-320  FTO'94GPX    Lwt  q116,116,1st19to18,17,8,8,5     yellowCivic(1/6*)
+d217 40
+@
+
+
+1.7
+log
+@Finished up Jan 26.
+Redid FF, and squeaked through a Mega.
+@
+text
+@d195 22
+@
+
+
+1.6
+log
+@January 26, 2014.
+Lwt with FTO'94GPX was a lot harder than I expected.
+@
+text
+@d181 14
+@
+
+
+1.5
+log
+@January 24 and 25, 2014.   Days 277 to 305.
+Hardly any progress.  8-(
+@
+text
+@d154 27
+@
+
+
+1.4
+log
+@269-277  Viper breakthroughs
+@
+text
+@d111 43
+@
+
+
+1.3
+log
+@days 227 to 269.
+Some progress...
+@
+text
+@d100 11
+@
+
+
+1.2
+log
+@Added IA license details.
+@
+text
+@d51 49
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 19
+d25 9
+a33 1
+ 129-214  IA8 pass
+d36 1
+a36 2
+January 11, 2014
+   215 buy car Cosmo13  Creek Blue Mica Mazda Eunos Cosmo 13B Type SCCS (Cr9,970)
+d50 1
+@
