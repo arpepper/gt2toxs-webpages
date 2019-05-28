@@ -472,7 +472,7 @@ sub
 dodateline {
 	my($line) = @_;
 
-	if ($line !~ /1999$/ && $line !~ /200[0-9]$/) {
+	if ($line !~ /1999$/ && $line !~ /20[0-9][0-9]$/) {
 		&warn("Bad date line: $_\n");
 	}
 	if ($main::enddate ne "") {

@@ -1,9 +1,19 @@
-head	1.22;
+head	1.24;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.24
+date	2019.05.28.16.49.06;	author gt2toxs;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2019.05.28.16.48.00;	author gt2toxs;	state Exp;
+branches;
+next	1.22;
 
 1.22
 date	2004.04.05.01.35.33;	author arpepper;	state Exp;
@@ -122,13 +132,13 @@ Eventual usage garage file day
 @
 
 
-1.22
+1.24
 log
-@Added, and used, check car routine to require consistency of races with
-"select" directives.
+@Allow us to log our GT1 games until the end of the 21st century.
+Ahem.
 @
 text
-@#!/xhbin/perl5 -w
+@#!/usr/bin/perl -w
 
 require 5.002;
 use strict;
@@ -602,7 +612,7 @@ sub
 dodateline {
 	my($line) = @@_;
 
-	if ($line !~ /1999$/ && $line !~ /200[0-9]$/) {
+	if ($line !~ /1999$/ && $line !~ /20[0-9][0-9]$/) {
 		&warn("Bad date line: $_\n");
 	}
 	if ($main::enddate ne "") {
@@ -1002,6 +1012,29 @@ if ($main::showlist =~ /,prizes,/ ) {
 		}
 	}
 }
+@
+
+
+1.23
+log
+@Oops.  Left switch from /xhbin/perl5 checked out for months or years.
+@
+text
+@d475 1
+a475 1
+	if ($line !~ /1999$/ && $line !~ /200[0-9]$/) {
+@
+
+
+1.22
+log
+@Added, and used, check car routine to require consistency of races with
+"select" directives.
+@
+text
+@d1 1
+a1 1
+#!/xhbin/perl5 -w
 @
 
 
