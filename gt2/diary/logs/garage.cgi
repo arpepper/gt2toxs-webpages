@@ -317,7 +317,7 @@ To contact the author by
 $debug_output
 EOF
 
-print "<p>Contents of the <a href=\"textview?filename=gt/diary/logs/$garage\">$garage</a> game garage, \n";
+print "<p>Contents of the <a href=\"textview.cgi?filename=$garage\">$garage</a> game garage, \n";
 if ($simday =~  /^\d+$/ && $simday > 0) {
 	print "after simulation day $simday was completed"
 }
