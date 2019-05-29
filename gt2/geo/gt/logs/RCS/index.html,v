@@ -1,9 +1,14 @@
-head	1.22;
+head	1.23;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.23
+date	2019.05.29.22.21.16;	author gt2toxs;	state Exp;
+branches;
+next	1.22;
 
 1.22
 date	2019.04.15.21.53.11;	author arpepper;	state Exp;
@@ -121,10 +126,10 @@ desc
 @
 
 
-1.22
+1.23
 log
-@Added 15th anniversary gt1-2014.
-Curiously, this RCS file no longer seems to exist on cs.uwaterloo.ca.
+@Add gt1-2019.
+Complete with an obscure joke.
 @
 text
 @<html>
@@ -374,6 +379,9 @@ model of used car in the <b>Hard-Tuned Series</b>.
 In 2014 I decided to start over again; a brand-new game.
 Sort of a 15th Anniversary celebration.
 </li>
+<li><a href="gt1-2019.txt">gt1-2019</a> -
+In 2019, on the Victoria Day weekend, I decided to start over again; a brand-new game.  I'd just received some new (refurbished) PS1 memory cards from Australia.  Being right-hand drive, these memory cards take some getting used to.
+</li>
 <li><a href="starter.txt">starter</a> -
 This is merely all three licenses, ending at day 25.  By resetting the
 game on failed attempts, of course.  Since I bought no cars up till
@@ -425,6 +433,16 @@ Copyright &copy; 1999-2004, the author/owner of http://www.math.uwaterloo.ca/~ar
 </html>
 </body>
 </html>
+@
+
+
+1.22
+log
+@Added 15th anniversary gt1-2014.
+Curiously, this RCS file no longer seems to exist on cs.uwaterloo.ca.
+@
+text
+@d248 3
 @
 
 

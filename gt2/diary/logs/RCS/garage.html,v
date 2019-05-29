@@ -1,9 +1,14 @@
-head	1.32;
+head	1.33;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.33
+date	2019.05.29.22.28.08;	author gt2toxs;	state Exp;
+branches;
+next	1.32;
 
 1.32
 date	2019.04.15.22.50.20;	author arpepper;	state Exp;
@@ -172,9 +177,10 @@ the logs.
 @
 
 
-1.32
+1.33
 log
-@Correct a couple of cgi references for gt1-2014
+@Add gt1-2019.
+With the same lame joke as in the geocities version.
 @
 text
 @<html>
@@ -411,6 +417,10 @@ In 2014 I decided to start over again; a brand-new game.
 Sort of a 15th Anniversary celebration.
 That <a href="garage.cgi?garage=gt1-2014?simday=">garage</a> so far.
 </li>
+<li><a href="gt1-2019">gt1-2019</a> <a href="textview.cgi?filename=gt1-2019">gt1-2019</a> -
+In 2019, on the Victoria Day weekend, I decided to start over again; a brand-new game.  I'd just received some new (refurbished) PS1 memory cards from Australia.  Being right-hand drive, these memory cards take some getting used to.
+That <a href="garage.cgi?garage=gt1-2019?simday=">garage</a> so far.
+</li>
 <li><a href="starter">starter</a> <a href="textview.cgi?filename=starter">starter</a> -
 This is merely all three licenses, ending at day 25.  By resetting the
 game on failed attempts, of course.  Since I bought no cars up till
@@ -451,6 +461,7 @@ Show the contents of the garage from the
 	<option value="gt1-tuned">gt1-tuned</option>
 	<option value="gt2-racepr">gt2-racepr</option>
 	<option value="gt1-2014">gt1-2014</option>
+	<option value="gt1-2019">gt1-2019</option>
 	<option value="starter">starter</option>
 	<option value="gt2-day5ib">gt2-day5ib</option>
 	<option value="gt2-day7s">gt2-day7s</option>
@@ -468,6 +479,16 @@ game on day
 
 </body>
 </html>
+@
+
+
+1.32
+log
+@Correct a couple of cgi references for gt1-2014
+@
+text
+@d235 4
+d279 1
 @
 
 
