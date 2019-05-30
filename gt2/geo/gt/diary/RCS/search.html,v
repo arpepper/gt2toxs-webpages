@@ -1,9 +1,14 @@
-head	1.4;
+head	1.5;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.5
+date	2019.05.30.23.14.10;	author gt2toxs;	state Exp;
+branches;
+next	1.4;
 
 1.4
 date	2019.01.15.23.40.04;	author gt2toxs;	state Exp;
@@ -32,9 +37,14 @@ Sort of.
 @
 
 
-1.4
+1.5
 log
-@Use action="search.cgi" to go to defaults in new search.cgi (qv)
+@Finally worked out a rationale for the navigation bar.
+ 
+Diary entries are all faked by going to the main ../../../../diary.
+ 
+Other pages allow visitors (perhaps only me) to retain some idea of
+the navigation under the old geocities site.
 @
 text
 @<html>
@@ -60,15 +70,16 @@ My Gran Turismo Diaries Search Engine</title>
 </table>
 <font size=-1 color="blue">
 <p>
-[<a href="1999-01-04.html
+[<a href="../../../../diary/1999-01-04.html
 ">First Entry</a>&nbsp;]
-[<a href="index.html">Thread Index</a>&nbsp;]
-[<a href="fullindex.html">Full Index</a>&nbsp;]
+[<a href="../../../../diary/index.html">Thread Index</a>&nbsp;]
+[<a href="../../../../diary/fullindex.html">Full Index</a>&nbsp;]
 [<a href="search.html">Search</a>&nbsp;]
+[<a href="../../index.html">home</a>]
 [<a href="../">Gran Turismo Pages</a>&nbsp;]
-[<a href="logs/">game logs</a>&nbsp;]
+[<a href="../logs/">game logs</a>&nbsp;]
 [<a href="../email.html">email</a>&nbsp;]
-[<a href="2000-06-09.html
+[<a href="../../../../diary/2004-04-24.html
 ">Most Recent Entry</a>&nbsp;]
 </p>
 </font>
@@ -99,6 +110,28 @@ href="http://www.worldwidemart.com/scripts/">Matt's Script Archive</a>.
 </p>
 </body></html>
 
+@
+
+
+1.4
+log
+@Use action="search.cgi" to go to defaults in new search.cgi (qv)
+@
+text
+@d24 1
+a24 1
+[<a href="1999-01-04.html
+d26 2
+a27 2
+[<a href="index.html">Thread Index</a>&nbsp;]
+[<a href="fullindex.html">Full Index</a>&nbsp;]
+d29 1
+d31 1
+a31 1
+[<a href="logs/">game logs</a>&nbsp;]
+d33 1
+a33 1
+[<a href="2000-06-09.html
 @
 
 
