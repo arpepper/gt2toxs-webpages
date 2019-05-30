@@ -26,7 +26,7 @@ $basedir = '/home/gt2toxs/public_html/gt2/diary/';
 $baseurl = '/~gt2toxs/gt2/diary/';
 @files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
-$title_url = 'http://toxs.net/~gt2toxs/gt2/diary/';
+$title_url = '/~gt2toxs/gt2/diary/';
 $search_url = '/~gt2toxs/gt2/diary/search.html';
 
 # Done									     #
@@ -34,6 +34,9 @@ $search_url = '/~gt2toxs/gt2/diary/search.html';
 
 #
 # arpepper's changes to allow remote use of the search...
+# We had our old geocities site connect to a uwaterloo.ca site,
+#  searching the data at uwaterloo.ca but setting all the links to be
+#  at the geocities site.
 #
 if ( defined($ENV{'QUERY_STRING'}) && $ENV{'QUERY_STRING'} ) {
    my($qstring,@qpairs,$q,$qvar,$qvalue);
@@ -43,6 +46,9 @@ if ( defined($ENV{'QUERY_STRING'}) && $ENV{'QUERY_STRING'} ) {
       next unless (($qvar,$qvalue) = split('=', $q, 2)) == 2;
       if ($qvar =~ /^base$/i ) {
          next if ($qvalue =~ /[<>"']/);  # ignore any possible HTML Trojans!
+	 # Following is not as dangerous as looks
+	 # These are not used to determine the location of data being searched.
+	 # They are essentially passive links in the output page.
          $baseurl = $qvalue;
          $title_url = $qvalue;
          $search_url = $qvalue;
