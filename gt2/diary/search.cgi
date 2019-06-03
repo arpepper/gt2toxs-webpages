@@ -23,11 +23,14 @@
 # Define Variables							     #
 
 $basedir = '/home/gt2toxs/public_html/gt2/diary/';
-$baseurl = '/~gt2toxs/gt2/diary/';
+$basedir = '.';
+# Empty works for the following since it is just prepended to a daily page
+$baseurl = '';
 @files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
-$title_url = '/~gt2toxs/gt2/diary/';
-$search_url = '/~gt2toxs/gt2/diary/search.html';
+# Empty will not work for the following since it is used to form an href
+$title_url = '../diary';
+$search_url = 'search.html';
 
 # Done									     #
 ##############################################################################

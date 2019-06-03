@@ -1,9 +1,14 @@
-head	1.2;
+head	1.3;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.3
+date	2019.06.03.22.46.04;	author gt2toxs;	state Exp;
+branches;
+next	1.2;
 
 1.2
 date	2019.05.30.22.46.04;	author gt2toxs;	state Exp;
@@ -27,9 +32,10 @@ Does sort of hide some of the gt2/geo/ pages, however.
 @
 
 
-1.2
+1.3
 log
-@Sync changes made to gt2/diary/search.cgi
+@I seemed to be able to change all my URL and file references to
+be relative; so user "gt2toxs" is no longer relied upon here.
 @
 text
 @#!/usr/bin/perl
@@ -57,11 +63,12 @@ text
 # Define Variables							     #
 
 $basedir = '/home/gt2toxs/public_html/gt2/diary/';
-$baseurl = '/~gt2toxs/gt2/diary/';
+$basedir = '../../../diary/';
+$baseurl = '../../../diary/';
 @@files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
-$title_url = '/~gt2toxs/gt2/diary/';
-$search_url = '/~gt2toxs/gt2/diary/search.html';
+$title_url = 'search.html';
+$search_url = 'search.html';
 
 # Done									     #
 ##############################################################################
@@ -244,6 +251,21 @@ sub return_html {
    print "</body>\n</html>\n";
 }
    
+@
+
+
+1.2
+log
+@Sync changes made to gt2/diary/search.cgi
+@
+text
+@d26 2
+a27 1
+$baseurl = '/~gt2toxs/gt2/diary/';
+d30 2
+a31 2
+$title_url = '/~gt2toxs/gt2/diary/';
+$search_url = '/~gt2toxs/gt2/diary/search.html';
 @
 
 

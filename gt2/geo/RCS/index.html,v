@@ -1,9 +1,14 @@
-head	1.37;
+head	1.38;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.38
+date	2019.06.03.23.00.05;	author gt2toxs;	state Exp;
+branches;
+next	1.37;
 
 1.37
 date	2019.01.10.22.32.47;	author arpepper;	state Exp;
@@ -196,11 +201,11 @@ desc
 @
 
 
-1.37
+1.38
 log
-@Remove javascript webring hook.  It's not likely to "come back".
-Update copyright.
-Remove speculative geocities "search links".
+@Link to diary/search.html to avoid open directory.
+But I am tending towards index.html -> search.html
+The open directory just helps remind me that this is sort of fake.
 @
 text
 @<!doctype html public "-//IETF//DTD HTML//EN//2.0">
@@ -238,7 +243,7 @@ GT2 to Excess!</title>
 [<a href="gt/results_forms/">results forms</a>]
 [<a href="gt/">GT pages and links</a>]
 [<a href="albrnickgt/">Pit stop</a>]
-[<a href="gt/diary/">diary</a>]
+[<a href="gt/diary/search.html">diary</a>]
 [<a href="gt/logs/">logs</a>]
 [<a href="gt/gt1maps/">maps</a>]
 [<a href="scripts/">scripts</a>]
@@ -330,7 +335,7 @@ fill in your own Gran Turismo and Gran Turismo 2 results.
 <tr>
 <td valign="top">
 <font face="Verdana, Helvetica">
-[<a href="gt/diary/">My GT diaries</a>]
+[<a href="gt/diary/search.html">My GT diaries</a>]
 </font>
 <font face="Verdana, Helvetica">tips about game play and GameShark use,
 as well as detailed results of some races for further game analysis.
@@ -393,7 +398,7 @@ Copyright &copy; 1999-2019, the author/owner of http://toxs.net/~arpepper
 [<a href="gt/results_forms/">results forms</a>]
 [<a href="gt/">GT pages and links</a>]
 [<a href="albrnickgt/">Pit stop</a>]
-[<a href="gt/diary/">diary</a>]
+[<a href="gt/diary/search.html">diary</a>]
 [<a href="gt/logs/">logs</a>]
 [<a href="gt/gt1maps/">maps</a>]
 [<a href="scripts/">scripts</a>]
@@ -405,6 +410,25 @@ Copyright &copy; 1999-2019, the author/owner of http://toxs.net/~arpepper
 
 </body>
 </html>
+@
+
+
+1.37
+log
+@Remove javascript webring hook.  It's not likely to "come back".
+Update copyright.
+Remove speculative geocities "search links".
+@
+text
+@d36 1
+a36 1
+[<a href="gt/diary/">diary</a>]
+d128 1
+a128 1
+[<a href="gt/diary/">My GT diaries</a>]
+d191 1
+a191 1
+[<a href="gt/diary/">diary</a>]
 @
 
 

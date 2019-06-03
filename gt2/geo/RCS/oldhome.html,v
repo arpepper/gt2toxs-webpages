@@ -1,4 +1,36 @@
-<!doctype html public "-//IETF//DTD HTML//EN//2.0">
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2019.06.03.22.58.18;	author gt2toxs;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2019.06.03.22.49.54;	author gt2toxs;	state Exp;
+branches;
+next	;
+
+
+desc
+@Decided we wanted to change history a little bit.
+@
+
+
+1.2
+log
+@I decided to revise history to link the same way index.html does.
+
+Link to diary/search.html to avoid open directory.
+But I am tending towards index.html -> search.html
+The open directory just helps remind me that this is sort of fake.
+@
+text
+@<!doctype html public "-//IETF//DTD HTML//EN//2.0">
 <html>
 <head>
 <title>
@@ -177,3 +209,21 @@ Copyright &copy; 1999-2019, the author/owner of http://toxs.net/~arpepper
 </table>
 </body>
 </html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d27 1
+a27 1
+[<a href="gt/diary/">diary</a>]
+d67 1
+a67 1
+<dt>[<a href="gt/diary/">diary</a>]</dt>
+d144 1
+a144 1
+[<a href="gt/diary/">diary</a>]
+@
