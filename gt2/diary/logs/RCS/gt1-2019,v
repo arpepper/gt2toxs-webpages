@@ -1,10 +1,15 @@
-head	1.3;
+head	1.4;
 access;
 symbols;
 locks
-	arpepper:1.3; strict;
+	arpepper:1.4; strict;
 comment	@# @;
 
+
+1.4
+date	2020.03.10.16.54.01;	author arpepper;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2019.05.26.20.55.40;	author arpepper;	state Exp;
@@ -29,10 +34,9 @@ Started mostly by cloning gt1-2014 log, but threw most away.
 @
 
 
-1.3
+1.4
 log
-@Getting started messing around with Sunday Cup.
-(And failing badly at mis-remembered FR).
+@Fixed mangled final comment.
 @
 text
 @Note: Started in 2019, after getting newish memory cards from Australia.
@@ -105,6 +109,18 @@ Note: ( 1:22.207F 1:23.896F 1:22.087F 1:22.651F 1:22.184F)
   25     Cr9,700  2cars Blicense
 
   25-28  Levin  Sunday  q3G,1st27to16,11,9,8,4                     Demio(dup)
+  29     Cr36,700  3cars Blicense
+@
+
+
+1.3
+log
+@Getting started messing around with Sunday Cup.
+(And failing badly at mis-remembered FR).
+@
+text
+@d71 1
+a71 1
   29     ll36,700  3cars Blicense
 @
 
