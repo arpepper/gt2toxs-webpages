@@ -1,0 +1,1112 @@
+head	1.40;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.40
+date	2004.04.11.04.54.38;	author arpepper;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2001.05.29.02.43.28;	author arpepper;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2001.05.29.01.52.46;	author arpepper;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2001.05.29.01.47.04;	author arpepper;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2001.03.10.02.51.59;	author arpepper;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2001.03.05.21.54.33;	author arpepper;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2000.10.18.21.41.35;	author arpepper;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2000.09.18.18.25.28;	author arpepper;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2000.05.25.23.07.32;	author arpepper;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2000.05.25.22.59.03;	author arpepper;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2000.05.11.22.30.43;	author arpepper;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2000.05.11.22.24.20;	author arpepper;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2000.03.10.17.42.19;	author arpepper;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2000.02.23.16.54.43;	author arpepper;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2000.02.22.23.21.44;	author arpepper;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2000.02.16.00.14.55;	author arpepper;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2000.02.15.23.59.40;	author arpepper;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2000.02.11.22.41.18;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2000.02.11.21.53.40;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2000.01.30.20.09.37;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2000.01.21.20.32.05;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2000.01.11.00.42.26;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	99.11.02.23.13.08;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	99.10.30.00.15.45;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	99.10.30.00.12.05;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	99.10.23.01.09.37;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	99.07.23.19.33.32;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	99.07.12.20.51.23;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	99.07.12.20.49.16;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	99.06.14.17.22.03;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	99.06.14.17.17.40;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	99.06.11.22.25.51;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	99.04.20.18.30.24;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	99.04.20.18.02.32;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	99.03.10.19.18.39;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	99.03.10.19.17.06;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.02.19.16.27.25;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.02.18.21.46.54;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	99.02.05.00.54.40;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.01.29.01.31.45;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.40
+log
+@Minor update.
+Mostly changing www.granturismo.com
+Also noticed a bunch of other old links.
+Sigh.
+@
+text
+@<HTML>
+<HEAD>
+<TITLE>An Anonymous Person's Gran Turismo Links Page</TITLE>
+</HEAD>
+<BODY bgcolor="yellow" link="red" vlink="blue">
+<table width="100%" bgcolor="black">
+<tr color="white">
+<td>
+<font color="white">
+<h3>An Anonymous Person's <img src="../gifs/gtlogo.jpg" alt="Gran Turismo"> Links Page</h3>
+</font>
+</td>
+</table>
+<p>
+To contact the author by
+<a href="email.html">email</a>.
+</p>
+<p><font size="-2"><a name="top" href="#about">About these pages</a></font>
+</p>
+<p>
+Here is a
+collection of links to the fruits of other people's labours,
+plus my Gran Turismo diaries.  And, oh yes, my results forms.
+And my findcar page for GT1.
+<p>
+<UL>
+<LI> <A HREF="http://www.jgtc.net/">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+The All Japan Grand Touring Car Championship League
+which corresponds <em>very</em> closely to the GT300/GT500 of GT2.
+ </A>
+<p>
+If you hunt around, especially in previous years, you should be able to
+find team pictures including the cars, as well as the Race Queens.
+<img src="../bitmaps/happyfrog.gif" alt="8-)">
+</p>
+<LI> <A HREF="http://www.jgtc.net/index_en.htm">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+The English pages for the All Japan Grand Touring Car Championship League.
+ </A>
+<p>
+At the time of writing, these do not include the team lists and photos,
+so you may want to persist with the Japanese version (which has quite
+a lot of English).
+<img src="../bitmaps/happyfrog.gif" alt="8-)">
+</p>
+<LI> <A HREF="http://www.jgtc.net/ex/gtc_team/2000team/gtc_teae.htm">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+The English(?) JGTC Team Cars and Drivers List for 2000.
+ </A>
+<p>
+I probably shouldn't be listing this link, since it will probably break soon.
+<img src="../bitmaps/happyfrog.gif" alt="8-)">
+</p>
+<LI> <A HREF="http://granturismoforum.com">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+granturismoforum.com - message-boards from former <b>granturismo.com</b>
+ </A>
+<LI> <A HREF="http://www.granturismox.net">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+www.granturismox.net - site by former <b>granturismo.com</b> members
+ </A>
+<LI> <A HREF="http://www.granturismobynumbers.com/cgi-bin/Ultimate.cgi">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+Gran Turismo by Numbers
+ </A>
+<LI> <A HREF="http://www.gtplanet.net">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+gtplanet.net - more info, more message-boards
+ </A>
+<LI> <A HREF="http://pub29.ezboard.com/bfollowersofgtrc">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+The Followers of GTRC
+ </A>
+<!--
+<LI> <A HREF="http://www.velocity.net/~pinewood">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+GT Hybrids ...take 2
+ </A>
+<LI> <A HREF="http://www.velocity.net/~pinewood/cgi-bin/ubb-cgi/Ultimate.cgi">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Message Board at GT Hybrids ...take 2
+ </A>
+<LI> <A HREF="http://www.velocity.net/~pinewood/ubb-cgi/Ultimate.cgi">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Old (probably broken) link to GTH...take2 message board, for testing.
+ </A>
+-->
+<LI> <A HREF="http://www.railway.org/gt/gtcars.html">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Gabe's Gran Turismo pages.   Contains some of the earliest attempts to
+document GT2.
+ </A>
+<LI> <A HREF="http://www.tznet.com/wagnerl/luke.html">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Luke Skywalker's GT2 Game Shark pages.
+ </A>
+<LI> <A HREF="http://www.gamefaqs.com/console/psx/file/gran_turismo_2.txt">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+  Early Gran Turismo 2 FAQ (text)
+ </A>
+<!--
+<LI> <A HREF="http://members.xoom.com/_XMCM/gt1central/index.html">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+Gran Turismo Central
+ </A>
+-->
+<!--
+<LI> <A HREF="http://members.xoom.com/_XMCM/gt2central/index.html">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Gran Turismo 2 Central
+ </A>
+-->
+<LI> <A HREF="inventory/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Finally!  I publish something interesting.  Try findcar.html, to search
+for GT1 cars you want.
+ </A>
+<LI> <A HREF="results_forms/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Forms to print for recording your Gran Turismo race results.
+ </A>
+<LI> <A HREF="connoy/gt_cars.txt">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Dave Connoy's incomparably useful complete GT car list
+ </A>
+ -- feel free to download this
+<LI> <A HREF="http://geocities.com/TimesSquare/9593">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  The Gran Turismo Web Circuit (Ring)
+ </A>
+<LI> <A HREF="http://www.webring.org/cgi-bin/webring?ring=grantourismo;list">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  List of Sites on Gran Turismo Web Ring
+ </A>
+<!--
+<LI> <A HREF="http://www.ent.ohiou.edu/~albrnick/gt/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  GT Page I like best--Car comparison is invaluable.
+ </A>
+-->
+<LI> <A HREF="http://www.geocities.com/gt2toxs/albrnickgt/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  GT Page I like best--Car comparison is invaluable.
+ </A>
+<LI> <A HREF="http://www5.50megs.com/gthybridcars/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  James McDaniel's Pages--Probably the best site for Gran Turismo
+  GameShark and Hybrid Car information.
+ </A>
+<LI> <A HREF="http://www5.50megs.com/gthybridcars/introduction.htm">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Try this for James McDaniel if above one does not work properly.
+ </A>
+<LI> <A HREF="http://home.att.net/~chmilnir/gt/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  A tuning guide and more, by the (infamous?) Jet Jaguar.
+ </A>
+<LI> <A HREF="http://www.geocities.com/TimesSquare/Chasm/4983">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+   DickNose's Gran Turismo Site
+ </A>
+<!--
+<LI> <A HREF="http://www.playstation.com/games/categories/racing/granturismo">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+   Official PlayStation Gran Turismo site
+ </A>
+-->
+<LI> <A HREF="http://www.gamesdomain.com/faqdir/Gran_Turismo.txt">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Early Gran Turismo FAQ (text)
+ </A>
+
+<LI> <A HREF="http://www.geocities.com/TimesSquare/Bunker/2098">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Most impressive guestbook I have ever seen!!!
+ </A>
+<img src="../bitmaps/happyfrog.gif" alt="8-)">
+
+<LI> <A HREF="http://www.mit.edu:8001/people/mystery/gtfaq.txt">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  More Recent Gran Turismo FAQ (text)
+ </A>
+<LI> <A HREF="http://www.gamefaqs.com/console/psx/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Somewhere to find yet another Gran Turismo FAQ
+ </A>
+<!--
+<LI> <A HREF="http://members.xoom.com/jlirish/psx/gran_turismo/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  A concise page, not on the ring.
+ </A>
+-->
+<!--
+<LI> <A HREF="http://brighton.ncsa.uiuc.edu/~lrajlich/gt/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  An Okay page, difficult to spot on ring.  Probably going away soon, though.
+ </A>
+-->
+<!--
+<LI> <A HREF="http://headline.gamespot.com/news/98_03/21_gran/index.html">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  A brief review of Gran Turismo and interview with its designer.
+ </A>
+-->
+<LI> <A HREF="diary/">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Last and perhaps least, my rambling diary of Gran Turismo thoughts..
+ </A>
+<LI> <A HREF="diary/logs">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  A side-effect of my diary is my logs directory, which details several
+  of my games, and lets you determine garage contents for any day in
+  those games.
+ </A>
+</UL>
+
+<HR>
+
+<table width="85%"><tr><td width="10%"></td><td>
+<a href="#top" name="about">These pages</a> were initially created
+since I thought Gran Turismo could be a focus
+to help me explore some ideas about using HTML.  Quite clearly, the
+rate at which I am learning anything by creating these pages has
+diminished a lot.  Or, in other words, they have probably got
+out-of-hand.
+</p>
+<p>
+Consequently these pages may soon disappear with little or no notice.
+(Other than this).  Updates have become very sporadic recently.  That
+is not necessarily a totally bad thing.  <img src="../bitmaps/happyfrog.gif" alt="8-)">
+</p>
+<p>
+There is a chance that I would actually manage to go to the
+effort and expense of having them hosted professionally somewhere.
+A very slim chance, though.
+</p>
+<p>
+To learn about HTML, the content, of which I have too much already,
+is inimportant.  Consequently, you might notice these pages in
+future changing more in details of presentation, and less in content.
+</p>
+</td></tr></table>
+
+<HR>
+
+<A HREF="../">
+ <IMG SRC=../bitmaps/adrian.xbm ALT="[Anonymous Person]">
+ <STRONG> My Home Page
+ </A>
+<P>
+<A HREF="../Personal/">
+ <IMG SRC="/icons/back.xbm" ALT="[UW]">
+ <STRONG> My Personal Pages</STRONG>.
+ </A>
+<P>
+<A HREF="http://www.math.uwaterloo.ca/users.html">
+ &lt;--
+ <STRONG> Math Faculty Users' Home Pages</STRONG>.
+ </A>
+<P>
+<A HREF="http://www.math.uwaterloo.ca/index.html">
+ &lt;--
+ <STRONG> Math Faculty Home Page</STRONG>.
+ </A>
+<P>
+<A HREF="http://www.uwaterloo.ca">
+ &lt;--
+ <STRONG> University of Waterloo Home Page</STRONG>.
+ </A>
+<P>
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.39
+log
+@Changed some GT2 to GT logos.
+@
+text
+@d55 1
+a55 1
+<LI> <A HREF="http://www.granturismo.com">
+d57 1
+a57 1
+granturismo.com - sometimes info, usually a message-board
+d59 1
+a59 1
+<LI> <A HREF="http://www.granturismo.com/cgi-ubb/Ultimate.cgi">
+d61 1
+a61 1
+An On-line Gran Turismo Racing League at granturismo.com...
+d75 1
+d88 1
+d102 1
+d107 2
+d113 1
+d136 1
+d141 5
+d163 1
+d168 1
+d188 1
+d193 2
+d199 2
+d205 1
+@
+
+
+1.38
+log
+@Revised JGTC links.
+Added www.gtplanet.net
+@
+text
+@d60 1
+a60 1
+  <IMG SRC=../gifs/gt2tiny.jpg>
+d64 1
+a64 1
+  <IMG SRC=../gifs/gt2tiny.jpg>
+@
+
+
+1.37
+log
+@Added Followers board.
+@
+text
+@d27 1
+a27 1
+<LI> <A HREF="http://www.jgtc.net/gtc_team/2000team/team_idx.htm">
+d32 23
+a54 12
+<LI> <A HREF="http://www.jgtc.net/gtc_team/2000team/gtc_teae.htm">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Hee Hee...  Perhaps you'd prefer this version in English!!!
+ </A>
+<LI> <A HREF="http://www.jgtc.net/gtc_cham/1999/gtc_1999.htm">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+The 1999 All Japan Grand Touring Car Championship League.
+ </A>
+<LI> <A HREF="http://www.jgtc.net/gtc_cham/1998/gtc_1998.htm">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+The 1998 All Japan Grand Touring Car Championship League.
+ </A>
+d66 4
+@
+
+
+1.36
+log
+@Added granturismobynumbers.com
+@
+text
+@d56 4
+@
+
+
+1.35
+log
+@Fixed a bunch of obviously broken links for jgtc...
+@
+text
+@d52 4
+@
+
+
+1.34
+log
+@Change David Ralph to DickNose...
+@
+text
+@d27 1
+a27 1
+<LI> <A HREF="http://gtc.infosim.co.jp/gtc_team/2000team/team_idx.htm">
+d32 1
+a32 1
+<LI> <A HREF="http://gtc.infosim.co.jp/gtc_team/2000team/gtc_teae.htm">
+d36 1
+a36 1
+<LI> <A HREF="http://gtc.infosim.co.jp/gtc_team/1999team/team_idx.htm">
+d38 1
+a38 6
+The 1999 All Japan Grand Touring Car Championship League
+which corresponds <em>very</em> closely to the GT300/GT500 of GT2.
+ </A>
+<LI> <A HREF="http://gtc.infosim.co.jp/gtc_team/1999team/team_ide.htm">
+  <IMG SRC=../gifs/gt2tiny.jpg>
+Hee Hee...  Perhaps you'd prefer this version in English!!!
+d40 1
+a40 2
+<img src="../bitmaps/happyfrog.gif" alt="8-)">
+<LI> <A HREF="http://gtc.infosim.co.jp/gtc_team/1998team/team_ide.htm">
+d42 1
+a42 1
+Strangely, the English support seemed better for 1998...
+a43 1
+<img src="../bitmaps/sadfrog.gif" alt="8-)">
+@
+
+
+1.33
+log
+@GTH links.
+@
+text
+@d133 1
+a133 1
+   David Ralph's Gran Turismo Site
+@
+
+
+1.32
+log
+@Added 2000 GT League links.
+@
+text
+@d63 4
+d69 1
+a69 1
+Message Board at GT Hybrids ...take 2
+@
+
+
+1.31
+log
+@Added GTHt2
+@
+text
+@d27 9
+d38 1
+a38 1
+The All Japan Grand Touring Car Championship League
+@
+
+
+1.30
+log
+@Updated the links for James McDanial
+@
+text
+@d50 8
+@
+
+
+1.29
+log
+@Now we link to my fake diary, which tells humans how to get to the
+real one, but hopefully will not tell crawlers the same thing.
+@
+text
+@d97 1
+a97 1
+<LI> <A HREF="http://community.webtv.net/james1058/GranTuismoHybridCars/">
+d102 1
+a102 1
+<LI> <A HREF="http://community-1.webtv.net/james1058/GranTuismoHybridCars/">
+d104 1
+a104 1
+  Try this for James McDaniel if above one does not connect.
+@
+
+
+1.28
+log
+@Add a potential farewell.
+@
+text
+@a158 4
+<LI> <A HREF="diary/fullindex.html">
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+  Full list of my Gran Turismo Diaries pages.
+ </A>
+@
+
+
+1.27
+log
+@Added English URLs
+@
+text
+@d18 2
+d164 29
+@
+
+
+1.26
+log
+@Added Skywalker's pages...
+@
+text
+@d30 10
+@
+
+
+1.25
+log
+@Changed some logos to GT2.
+@
+text
+@d43 4
+@
+
+
+1.24
+log
+@Added Full list of Gran Turismo pages.
+(for crawlers)
+@
+text
+@d26 1
+a26 1
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+d35 1
+a35 1
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+d39 1
+a39 1
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+d44 1
+a44 1
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+d52 1
+a52 1
+  <IMG SRC=../gifs/gtlogotiny.jpg>
+@
+
+
+1.23
+log
+@Change link colours.
+Using tiny logo.
+@
+text
+@d143 4
+@
+
+
+1.22
+log
+@All Japan GT
+On-line racing.
+Fewer promises.
+@
+text
+@d5 1
+a5 1
+<BODY bgcolor="yellow">
+d26 1
+a26 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d31 1
+a31 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d35 1
+a35 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d39 1
+a39 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d44 1
+a44 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d48 1
+a48 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d52 1
+a52 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d56 1
+a56 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d61 1
+a61 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d65 1
+a65 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d70 1
+a70 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d74 1
+a74 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d78 1
+a78 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d82 1
+a82 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d87 1
+a87 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d91 1
+a91 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d95 1
+a95 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d99 1
+a99 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d103 1
+a103 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d108 1
+a108 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d114 1
+a114 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d118 1
+a118 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d122 1
+a122 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d126 1
+a126 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d130 1
+a130 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d134 1
+a134 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+d138 1
+a138 1
+  <IMG SRC=../gifs/gtlogosm.jpg>
+@
+
+
+1.21
+log
+@Added a few GT2 things.
+@
+text
+@d19 1
+a19 3
+I am working on some proper pages about the Sony video game Gran Turismo.
+<p>
+Until I get some pages of my own ready, I'll just present this
+d22 1
+a22 1
+But now I do have my findcar page at least!
+d25 5
+d33 4
+@
+
+
+1.20
+log
+@A few GT2 pages.
+@
+text
+@d27 4
+d39 8
+@
+
+
+1.19
+log
+@Added McDaniel's shark pages.
+@
+text
+@d27 9
+d39 1
+a39 1
+for cars you want.
+@
+
+
+1.18
+log
+@Added link to diary/logs
+@
+text
+@d53 9
+@
+
+
+1.17
+log
+@Added keywords Sony video and game.   8-)
+@
+text
+@d100 6
+@
+
+
+1.16
+log
+@Added link to findcar.html
+@
+text
+@d19 1
+a19 1
+I am working on some proper Gran Turismo pages.
+d24 1
+@
+
+
+1.15
+log
+@Added David Ralph's site.
+@
+text
+@d26 5
+@
+
+
+1.14
+log
+@shuffled.
+Added a link.
+@
+text
+@d51 4
+@
+
+
+1.13
+log
+@make background yellow, but not lined...
+@
+text
+@d43 8
+d59 7
+a73 4
+<LI> <A HREF="http://www.ent.ohiou.edu/~albrnick/gt/">
+  <IMG SRC=../gifs/gtlogosm.jpg>
+  GT Page I like best--Car comparison is invaluable.
+ </A>
+a76 4
+ </A>
+<LI> <A HREF="http://home.att.net/~chmilnir/gt/">
+  <IMG SRC=../gifs/gtlogosm.jpg>
+  A tuning guide and more, by the (infamous?) Jet Jaguar.
+@
+
+
+1.12
+log
+@Link to Connoy's FAQ.
+@
+text
+@d5 1
+a5 1
+<BODY>
+@
+
+
+1.11
+log
+@New header.
+Shuffled a bit.
+@
+text
+@d30 5
+@
+
+
+1.10
+log
+@Removed dead link, and corrected an ambiguity.
+@
+text
+@d6 8
+a13 1
+<H1>An Anonymous Person's Gran Turismo Links Page</H1>
+d23 1
+a23 1
+plus my Gran Turismo diaries.
+d26 4
+a72 4
+ </A>
+<LI> <A HREF="results_forms/">
+  <IMG SRC=../gifs/gtlogosm.jpg>
+  Forms to print for recording your race results.
+@
+
+
+1.9
+log
+@Added my results_forms
+@
+text
+@d61 1
+a61 5
+  A brief review and interview with the Gran Turismo Designer.
+ </A>
+<LI> <A HREF="http://websrus.simplenet.com/p32.htm">
+  <IMG SRC=../gifs/gtlogosm.jpg>
+  A page of conflicting (aka thought-provoking) reviews with a non-permanent sounding URL name.
+@
+
+
+1.8
+log
+@Added Official PlayStation page
+@
+text
+@d67 4
+@
+
+
+1.7
+log
+@Add my diary.
+@
+text
+@d27 4
+@
+
+
+1.6
+log
+@Explain my page...
+@
+text
+@d12 1
+a12 3
+I am working on some Gran Turismo pages.
+Right now, there is my long-winded diary in
+http://www.math.uwaterloo.ca/~arpepper/gt/diary
+d15 2
+a16 1
+collection of links to the fruits of other people's labours.
+d62 4
+@
+
+
+1.5
+log
+@Added links.
+@
+text
+@d15 4
+@
+
+
+1.4
+log
+@changes, added email reference.
+@
+text
+@d11 4
+d39 8
+@
+
+
+1.3
+log
+@new URL
+@
+text
+@d7 4
+d34 1
+a34 1
+  GT Page I like best.  Car comparison is invaluable.
+d46 1
+a46 1
+  A page of conflicting reviews with a non-permanent sounding URL name.
+@
+
+
+1.2
+log
+@More links.
+@
+text
+@d40 4
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d10 5
+a14 1
+  The Gran Turismo Web Ring
+d28 4
+d36 4
+d44 1
+a44 1
+ <STRONG> My Home Page (really--link fixed recently) </STRONG>.
+@
