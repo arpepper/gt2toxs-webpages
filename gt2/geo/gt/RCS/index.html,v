@@ -1,9 +1,14 @@
-head	1.31;
+head	1.32;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.32
+date	2020.08.26.13.08.47;	author gt2toxs;	state Exp;
+branches;
+next	1.31;
 
 1.31
 date	2006.05.20.00.01.33;	author arpepper;	state Exp;
@@ -166,9 +171,18 @@ desc
 @
 
 
-1.31
+1.32
 log
-@Updated various links, and deaded ac  few.
+@Adequate dead link processing, I think.
+I actually intend to use something like this for the
+top-level gt/index.html gt2/index.html (will need to add CGI links, etc).
+
+Other cosmetic changes included lightening the background colour
+(even seeming to get it "non-glossy"), and also the "link bar" colour.
+
+I rewrote the "These pages" section, but kept its initial gist.
+But finished up with a more accurate current state, and removed
+the "may suddenly vanish" warning.
 @
 text
 @<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -176,7 +190,7 @@ text
 <HEAD>
 <tItle>GT Links to Excess!</title>
 </HEAD>
-<BODY bgcolor="#E8E830" link="blue" alink="blue" vlink="red">
+<BODY bgcolor="#F9F990" link="blue" alink="blue" vlink="red">
 
 &nbsp; <br>
 <table border=0 width="100%">
@@ -204,7 +218,7 @@ to Excess!
 <td>
 <center>
 <table><tr>
-<td bgcolor="cyan">
+<td bgcolor="#0AFFAF">
 <font size="-2">
 [<a name="top" href="../index.html">home</a>]
 [<a href="../index.html">index</a>]
@@ -289,7 +303,8 @@ plus links to the fruits of other people's labours,
 <b><font size="+1">The All Japan Grand Touring Car Championship League (JGTC)
 </font>
 <font size="-1">(<a href="#top">top</a>)</font></b><BR>
-<em>which corresponds very closely to the GT300/GT500 of GT2.</em>
+<em>which corresponds very closely to the GT300/GT500 of GT2.</em><BR>
+<em>(all these links are now effectively dead) (August, 2020)</em>
 <UL>
 <LI> <A HREF="http://www.jgtc.net/">
 The Official JGTC site.</A><BR>
@@ -315,14 +330,21 @@ break soon.  (but it hasn't yet!)</em>
 <H3>Message Boards <font size="-1">(<a href="#top">top</a>)</font></b></H3>
 
 <UL>
+<LI> <A HREF="http://www.gtplanet.net">
+gtplanet.net</A> - <em>more info, more message-boards</em>
+<LI> <A HREF="http://gtxforums.net">gtxforums.net</A>
+<em>A small community, held together by past interest in Gran Turismo</em>
+<LI> <A HREF="http://www.granturismobynumbers.com/cgi-bin/Ultimate.cgi">
+Gran Turismo by Numbers</A><BR>
+<em>Dead, but now a browseable archive at
+<A HREF="http://gtxforums.net/GTBNarchive/">gtxforums.net/GTBNarchive</A></em>
+</UL>
+<em>And several Now Dead Boards... (August, 2020)</em>
+<UL>
 <LI> <A HREF="http://granturismoforum.com/">
 granturismoforum.com</A> - <em>message Boards from old granturismo.com...</em>
 <LI> <A HREF="http://www.granturismox.net/">
 www.granturismox.net</A> - <em>set up by disgruntled members of old granturismo.com community...</em>
-<LI> <A HREF="http://www.granturismobynumbers.com/cgi-bin/Ultimate.cgi">
-Gran Turismo by Numbers</A>
-<LI> <A HREF="http://www.gtplanet.net">
-gtplanet.net</A> - <em>more info, more message-boards</em>
 <LI> <A HREF="http://hgt.themaille.com">
 House of GT</A> - <em>GT message boards with class and style</em>
 <!--
@@ -340,6 +362,8 @@ Message Board at GT Hybrids ...take 2</A>
 
 <table width="85%"><tr><td width="10%"></td><td>
 <H3>One-Person Reference Sites <font size="-1">(<a href="#top">top</a>)</font></b></H3>
+<em>These are now all dead, except for one-or-two I rescued.</em><BR>
+<em>Even webring,org/webring.com itself is now defunct. (August, 2020)</em><BR>
 <UL>
 <LI> <A HREF="http://gtsc.netfirms.com/">
 Gran Turismo Series Center - 
@@ -373,6 +397,16 @@ formulanone.org -
   Early Gran Turismo 2 FAQ (text)</A><BR>
 <em>fails referrer check, or something; go to 
 <A HREF="http://www.gamefaqs.com/console/psx/">http://www.gamefaqs.com/console/psx/</A> and you should still find this</em>
+
+<LI> <A HREF="http://www.gamefaqs.com/console/psx/">
+  Somewhere to find more Gran Turismo <b>FAQ</b>s</A>
+<p><em>
+I think gamefaqs may actually have put work into making their history re-accessible, after having previously made some of it go away.
+</em></p>
+</UL>
+<em>The rest are now all dead. (August, 2020)</em><BR>
+<em>Even webring,org/webring.com itself now appears defunct.</em><BR>
+<UL>
 <LI> <A HREF="http://geocities.com/TimesSquare/9593">
   The Gran Turismo Web Circuit (Ring)</A>
 <LI> <A HREF="http://www.webring.org/cgi-bin/webring?ring=grantourismo;list">
@@ -383,9 +417,6 @@ formulanone.org -
 <LI> <A HREF="http://www.geocities.com/TimesSquare/Bunker/2098">
   Most impressive guestbook I have ever seen!!!</A>
 <img src="../bitmaps/happyfrog.gif" alt="8-)">
-
-<LI> <A HREF="http://www.gamefaqs.com/console/psx/">
-  Somewhere to find more Gran Turismo <b>FAQ</b>s</A>
 </UL>
 </td></tr></table>
 
@@ -393,6 +424,7 @@ formulanone.org -
 
 <table width="85%"><tr><td width="10%"></td><td>
 <H3>Some Official Sony Sites <font size="-1">(<a href="#top">top</a>)</font></b></H3>
+<em>These now all appear to be dead. (August, 2020)</em>
 <UL>
 <LI> <A NAME="SorrySony" HREF="http://www.us.playstation.com/GM/Games/SCUS-94194">
    Official Sony U.S. PlayStation Gran Turismo site</A>
@@ -414,7 +446,7 @@ formulanone.org -
 <td>
 <center>
 <table><tr>
-<td bgcolor="cyan">
+<td bgcolor="#0AFFAF">
 <font size="-2">
 [<a href="../index.html">home</a>]
 [<a href="../index.html">index</a>]
@@ -446,6 +478,10 @@ The Web does not believe in history, but I do.  So I will persist in
 keep this annotated list of sites and pages which used to be very
 interesting, but have vanished for various reasons.
 </p>
+<p>
+However, the demise of sites has become so prevalent
+that I now list most
+vanished sites above in their previous classifications.
 <UL>
 <LI> <A HREF="http://home.att.net/~chmilnir/gt/">
   A tuning guide and more, by the (infamous?) Jet Jaguar.</A><BR>
@@ -507,7 +543,7 @@ The Followers of GTRC</A><BR>
 <td>
 <center>
 <table><tr>
-<td bgcolor="cyan">
+<td bgcolor="#0AFFAF">
 <font size="-2">
 [<a href="../index.html">home</a>]
 [<a href="../index.html">index</a>]
@@ -547,20 +583,22 @@ Consequently these pages may soon disappear with little or no notice.
 is not necessarily a totally bad thing.  <img src="../bitmaps/happyfrog.gif" alt="8-)">
 <p>
 I actually went to the effort of finding semi-professional hosting.
-Until I have everything worked out, you will find some links which
-do not work properly, such some links in the diary.  This is partly
-because the directory structure needed changing for the new site,
-and partly because CGI pages cannot be hosted there.
+But that disappeared (twice! geocities famously died, and then webring).
 </p>
 <p>
-I actually did manage to get the <a href="diary/search.html">Search</a>
-facility for the diary to work.  (It actually searches the original
-"mirror" copy, but returns links to the pages here).
+But I always attempted to make my published sites mirrors of
+pages I kept somewhere else privately.
+Eventually I started running my own "cloud" web servers,
+and recreated the site there.
+Not only that, but if you search "gt2toxs" at 
+<a href="https://github.com/">github.com</a>, you should find a
+repository corresponding to these pages.
 </p>
 <p>
-To learn about HTML, the content, of which I have too much already,
-is inimportant.  Consequently, you might notice these pages in
-future changing more in details of presentation, and less in content.
+I will probably never learn HTML properly, but I attempt to
+maintain this set of pages as a memory of my
+now nearly twenty-year-old previous addiction to
+Gran Turismo.
 </p>
 </td></tr></table>
 
@@ -570,7 +608,7 @@ future changing more in details of presentation, and less in content.
 <td>
 <center>
 <table><tr>
-<td bgcolor="cyan">
+<td bgcolor="#0AFFAF">
 <font size="-2">
 [<a href="../index.html">home</a>]
 [<a href="../index.html">index</a>]
@@ -595,6 +633,62 @@ future changing more in details of presentation, and less in content.
 
 </BODY>
 </HTML>                      
+@
+
+
+1.31
+log
+@Updated various links, and deaded ac  few.
+@
+text
+@d6 1
+a6 1
+<BODY bgcolor="#E8E830" link="blue" alink="blue" vlink="red">
+d34 1
+a34 1
+<td bgcolor="cyan">
+d119 2
+a120 1
+<em>which corresponds very closely to the GT300/GT500 of GT2.</em>
+d146 11
+a160 4
+<LI> <A HREF="http://www.granturismobynumbers.com/cgi-bin/Ultimate.cgi">
+Gran Turismo by Numbers</A>
+<LI> <A HREF="http://www.gtplanet.net">
+gtplanet.net</A> - <em>more info, more message-boards</em>
+d178 2
+d213 10
+a232 3
+
+<LI> <A HREF="http://www.gamefaqs.com/console/psx/">
+  Somewhere to find more Gran Turismo <b>FAQ</b>s</A>
+d240 1
+d262 1
+a262 1
+<td bgcolor="cyan">
+d294 4
+d359 1
+a359 1
+<td bgcolor="cyan">
+d399 1
+a399 4
+Until I have everything worked out, you will find some links which
+do not work properly, such some links in the diary.  This is partly
+because the directory structure needed changing for the new site,
+and partly because CGI pages cannot be hosted there.
+d402 7
+a408 3
+I actually did manage to get the <a href="diary/search.html">Search</a>
+facility for the diary to work.  (It actually searches the original
+"mirror" copy, but returns links to the pages here).
+d411 4
+a414 3
+To learn about HTML, the content, of which I have too much already,
+is inimportant.  Consequently, you might notice these pages in
+future changing more in details of presentation, and less in content.
+d424 1
+a424 1
+<td bgcolor="cyan">
 @
 
 
