@@ -13,4 +13,4 @@ To clone the repository to later push back changes...
 
 I still need to create something to "install" the information by modifying permissions (and possibly modification times) appropriately.  In practice, I tend to update my copies by untarring beside the copy and modifying copy content until
 
-"diff -r --brief gt2tox-webpages public_html" is appropriately quiet.
+"diff -r --brief gt2toxs-webpages public_html" is appropriately quiet.
