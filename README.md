@@ -1,6 +1,6 @@
 # gt2toxs-webpages
 
-Web pages, originally created for th geocities userid gt2toxs.  The tar file should end up as a file hierarchy which, if the top-level is removed, would work under apache (modulo .htaccess permissions of the server).  I resolved that top-level could go right under public_html, but alternatively in a sub-directory several levels below.  Therefore a top-level "public_html" is not part of the hierarchy here.
+Web pages, originally created for the geocities userid gt2toxs.  The tar file should end up as a file hierarchy which, if the top-level is removed, would work under apache (modulo .htaccess permissions of the server).  I resolved that top-level could go right under public_html, but alternatively in a sub-directory several levels below.  Therefore a top-level "public_html" is not part of the hierarchy here.
 
 These are extremely dated fan pages for the Sony Gran Turismo series of games. Dating back to around 2004, they deal primarily with the original game, with a
 smattering of information for the second game (GT2).  GT3 and GT4 are touched upon only in personal "game logs", and that is where the author's following of Gran Turismo ended--his wife never allowed him to purchase another Play Station after the PS2. that is, perhaps, not after the twenty-four hour races of GT4.
