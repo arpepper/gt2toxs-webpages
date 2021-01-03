@@ -1,9 +1,14 @@
-head	1.3;
+head	1.4;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.4
+date	2021.01.02.23.17.59;	author gt2toxs;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2019.06.03.22.46.04;	author gt2toxs;	state Exp;
@@ -32,10 +37,9 @@ Does sort of hide some of the gt2/geo/ pages, however.
 @
 
 
-1.3
+1.4
 log
-@I seemed to be able to change all my URL and file references to
-be relative; so user "gt2toxs" is no longer relied upon here.
+@Fix previously broken results links when accessing as gt/geo/gt/diary
 @
 text
 @#!/usr/bin/perl
@@ -63,8 +67,8 @@ text
 # Define Variables							     #
 
 $basedir = '/home/gt2toxs/public_html/gt2/diary/';
-$basedir = '../../../diary/';
-$baseurl = '../../../diary/';
+$basedir = '../../../../gt2/diary/';
+$baseurl = '../../../../gt2/diary/';
 @@files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
 $title_url = 'search.html';
@@ -251,6 +255,19 @@ sub return_html {
    print "</body>\n</html>\n";
 }
    
+@
+
+
+1.3
+log
+@I seemed to be able to change all my URL and file references to
+be relative; so user "gt2toxs" is no longer relied upon here.
+@
+text
+@d26 2
+a27 2
+$basedir = '../../../diary/';
+$baseurl = '../../../diary/';
 @
 
 
