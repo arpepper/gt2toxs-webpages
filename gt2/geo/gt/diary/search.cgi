@@ -23,8 +23,8 @@
 # Define Variables							     #
 
 $basedir = '/home/gt2toxs/public_html/gt2/diary/';
-$basedir = '../../../diary/';
-$baseurl = '../../../diary/';
+$basedir = '../../../../gt2/diary/';
+$baseurl = '../../../../gt2/diary/';
 @files = ('1999-*.html', '20??-*.html');
 $title = "My Gran Turismo Diaries";
 $title_url = 'search.html';
