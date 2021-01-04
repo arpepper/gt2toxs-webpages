@@ -18,8 +18,10 @@ To clone the repository to later push back changes
 
 Or, to parallel updates via push
 
-   export GIT_SSH_COMMAND='ssh -x -i &lt;path-to-private-key&gt
-   git clone https://github.com/arpepper/gt2toxs-webpages.git
+   export GIT_SSH_COMMAND='ssh -x -i &lt;path-to-private-key><br>
+   git clone ssh://git@github.com/arpepper/gt2toxs-webpages.git
+
+(In fact, "git push" will tend to just work if I have done the above)
 
 I still need to create something to "install" the information by modifying permissions (and possibly modification times) appropriately.  In practice, I tend to update my copies by untarring beside the copy and modifying copy content until
 
