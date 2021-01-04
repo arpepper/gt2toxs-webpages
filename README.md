@@ -16,6 +16,11 @@ To clone the repository to later push back changes
 
    git clone https://github.com/arpepper/gt2toxs-webpages.git
 
+Or, to parallel updates via push
+
+   export GIT_SSH_COMMAND='ssh -x -i &lt;path-to-private-key&gt
+   git clone https://github.com/arpepper/gt2toxs-webpages.git
+
 I still need to create something to "install" the information by modifying permissions (and possibly modification times) appropriately.  In practice, I tend to update my copies by untarring beside the copy and modifying copy content until
 
 "diff -r --brief gt2toxs-webpages public_html" is appropriately quiet.
