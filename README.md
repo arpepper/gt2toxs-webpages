@@ -18,7 +18,7 @@ To clone the repository to later push back changes
 
 Or, to parallel updates via push
 
-   export GIT_SSH_COMMAND='ssh -x -i &lt;path-to-private-key><br>
+   export GIT_SSH_COMMAND='ssh -x -i &lt;path-to-private-key>'<br>
    git clone ssh://git@github.com/arpepper/gt2toxs-webpages.git
 
 (In fact, "git push" will tend to just work if I have done the above)
