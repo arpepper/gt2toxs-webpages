@@ -8,6 +8,10 @@ The CGI "gears" produces numeric tabular results for simplistically modelled aut
 
 "selana.html" is, perhaps yet-another, simple query interface for a single table of data (perhaps a join of other conceptual component tables).  The data can be almost arbitrary; for example I have used this for a personal address book.  "selana" comes from "SELect and ANAlyze"; but also it sounds vaguely like a female name.
 
+For a while, also, the Gran Turismo 2 code translator for the Game Shark was used a little bit. I.e.
+   gt2/translator
+   gt2/geo/gt/translator
+
 Other than that, these are extremely dated fan pages for the Sony Gran Turismo series of games, dating back to around 2004.  They deal primarily with the original game, with a smattering of information for the second game (GT2).  GT3 and GT4 are touched upon only in personal "game logs", and that is where the author's following of Gran Turismo ended--his wife never allowed him to purchase another Play Station after the PS2. that is, perhaps, not after the twenty-four hour races of GT4.
 
 This is my second attempt with an identical repository name, because my first attempt included many gifs which were unnecessary and mildly inappropriate (as in insufficiently public-domain).  I completed deleted the first attempt, to try to make sure no artifacts of those remained.
