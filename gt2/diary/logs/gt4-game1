@@ -6389,11 +6389,11 @@ Sep 22, 2009
 Sep 23, 2009
 2658     license B15 G Infineon  2:18.925G (many tries)
 2659 Cr14,541,236  Jul12 A:26343 529cars  98.4% 18G 58S 4B*
-2659     license IA15 B HongKong  1:59.310B (new P.B.)
+2659     license IB10 B HongKong  1:59.310B (new P.B.)
 2660 Cr14,541,236  Jul13 A:26343 529cars  98.4% 18G 58S 4B*
 
 Sep 26, 2009
-2660     license IA15 S HongKong  1:56.657S (new P.B.)
+2660     license IB10 S HongKong  1:56.657S (new P.B.)
 2661 Cr14,541,236  Jul14 A:26343 529cars  98.4% 18G 59S 3B*
 
 Oct 02, 2009
@@ -6554,5 +6554,12 @@ April 17, 2011
 2715 Cr13,913,077  Sep06  A:29207  538cars  99.4% 
 Note: Speed8, R390, R89C(pits), F1-GTR, Zonda
 2715 power off
+
+December 08, 2012
+2715 license B13G     22,614G
+2716 Cr13,913,077  Sep07  A:29207  538cars  99.4%   20G 59S 1B*
+2716 license B14S 18.145S  prev18,178  +0.045G
+2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
+2717 power off
 
 
