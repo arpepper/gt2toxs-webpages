@@ -1,9 +1,15 @@
-head	1.33;
+head	1.34;
 access;
 symbols;
-locks; strict;
+locks
+	gt2toxs:1.34; strict;
 comment	@# @;
 
+
+1.34
+date	2021.03.22.19.57.47;	author gt2toxs;	state Exp;
+branches;
+next	1.33;
 
 1.33
 date	2019.05.29.22.28.08;	author gt2toxs;	state Exp;
@@ -177,10 +183,11 @@ the logs.
 @
 
 
-1.33
+1.34
 log
-@Add gt1-2019.
-With the same lame joke as in the geocities version.
+@Added gt4-game2.
+ 
+Added gt3 and gt4 games to the garage viewer selection menu.
 @
 text
 @<html>
@@ -226,8 +233,18 @@ Gran Turismo 1,2&3 enduroes I have done:
 </ul>
 </p>
 <p>
+The following is a somewhat detailed text file log I have begun for my
+second Gran Turismo 4 game:
+<ul>
+<li><a href="gt4-game2">gt4-game2</a> <a href="textview.cgi?filename=gt4-game2">gt4-game2</a> -
+I missed the Nurburgring...
+That <a href="garage.cgi?garage=gt4-game2?simday=">garage</a> so far.
+</li>
+</ul>
+</p>
+<p>
 The following is a somewhat detailed text file log I have kept for my
-first and, so far, only Gran Turismo 4 game:
+first Gran Turismo 4 game:
 <ul>
 <li><a href="gt4-game1">gt4-game1</a> <a href="textview.cgi?filename=gt4-game1">gt4-game1</a> -
 My first and, so far, only Gran Turismo 4 game.
@@ -436,6 +453,9 @@ day for each of the above games.
 <p>
 Show the contents of the garage from the
 <select name="garage">
+	<option value="gt4-game2">gt4-game2</option>
+	<option value="gt4-game1">gt4-game1</option>
+	<option value="gt3-game1">gt3-game1</option>
 	<option value="gt2-game1">gt2-game1</option>
 	<option value="gt2-v1.2">gt2-v1.2</option>
 	<option value="gt2-tm30">gt2-tm30</option>
@@ -479,6 +499,20 @@ game on day
 
 </body>
 </html>
+@
+
+
+1.33
+log
+@Add gt1-2019.
+With the same lame joke as in the geocities version.
+@
+text
+@d44 10
+d55 1
+a55 1
+first and, so far, only Gran Turismo 4 game:
+d264 3
 @
 
 
