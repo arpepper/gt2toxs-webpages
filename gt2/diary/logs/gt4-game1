@@ -7,46 +7,46 @@ February 22, 2005
    2     license B2 B   "Apr 3"
    3     license B3 B   "Apr 4"
    4     license B4 B   "Apr 5"
-   5     license B5 F,B   "Apr 6"
+   5     license B5 B   F,B   "Apr 6"
    6     license B6 B   "Apr 7"
-   7     license B7 Many F, B 28.082   "Apr 7"
-   8     license B8 2F, B 15.992   "Apr 8"
-   9     license B-coffee 2F, B 24.999  "Apr 9"
-  10     license B10 2F, B 2:24.328   "Apr 11"
-  11     license B11 F, +0.191,+2.257,+0.058,+1.089  B 18.949  "Apr 12"
-  12     license B12 F+5.389,3F,  B 19.358   "Apr 13"
+   7     license B7 B   Many F, B 28.082   "Apr 7"
+   8     license B8 B  2F, 15.992B   "Apr 8"
+   9     license B-coffee B 2F, B 24.999  "Apr 9"
+  10     license B10 B 2F, B 2:24.328   "Apr 11"
+  11     license B11 B F,+0.191,+2.257,+0.058,+1.089  B 18.949  "Apr 12"
+  12     license B12 B F+5.389,3F,  B 19.358   "Apr 13"
   13     license B13 B 24.093 1st(bad)try(?) "Apr 14"
   14     license B14 B 20,000 1st(bad)try(?) "Apr 15"
 
 Note: Track  Deep Forest Raceway  unlocked
 
   15     license B15 B 2:33.454   "Apr 16"   Infineon 1st Try!
-  16     license B9  F+0.698,  B 13.074   "Apr 17"
-  17     license B16 F+1.691, F+0.932, F+0.898, B 25.530   "Apr 17"
+  16     license B9  B F+0.698,  B 13.074   "Apr 17"
+  17     license B16 B F+1.691, F+0.932, F+0.898, B 25.530   "Apr 17"
 
 Note: B license acquired
   18 +1 win car Lupo Volkswagen Lupo 1.4'02 (yellow; "Fantasiagrun")(prize,BlicenseB)
 
   19     license A1  B 31.487  1 try "Apr 20"
   20     license A2  B 29.420  1 try "Apr 21"
-  21     license A3  F, B 12.388 "Apr 22"
-  22     license A4  F,F,F+1.530 B 23.649  "Apr 23"
-  23     license A5  F,F, B 1:35.645  "Apr 24"
-  24     license A6  F,F,+0.997,+1.138,+0.884,F,+0.030, B 33.194  "Apr 25"
-  25     license A7  +0.347, +0.508, +0.809, F, +0.030, B 18.083  "Apr 26"
-  26     license A8  About 20 F,  B 17.106(finally)  "Apr 27"
+  21     license A3  B F,B 12.388 "Apr 22"
+  22     license A4  B F,F,F+1.530 B 23.649  "Apr 23"
+  23     license A5  B F,F,B 1:35.645  "Apr 24"
+  24     license A6  B F,F,+0.997,+1.138,+0.884,F,+0.030, B 33.194  "Apr 25"
+  25     license A7  B +0.347, +0.508, +0.809, F, +0.030, B 18.083  "Apr 26"
+  26     license A8  B About 20F, B 17.106(finally)  "Apr 27"
   27     license A-coffee  B 1:58.583  "Apr 28"
-  28     license A9  F, B 18.704  "Apr 29"
+  28     license A9  B F,B 18.704  "Apr 29"
 
 Note: Track  Opera Paris  unlocked
 
-  29     license A10  F, +9.486, F(pass car), F, B(just) 2:59.404  "Apr 30"
-  30     license A11  about 10F,  B 13.818   "May 1"
-  31     license A12   B 32.746 1st try(barely)   "May 2"
-  32     license A13   B 47.954 1st try   "May 3"
-  33     license A14 Nurburg +1.529, F, +1.283, +0.024!!!, B 0:34.851  "May 4"
-  34     license A15 TM lap  B 2:11.032 (1st try) (clean, not near S)  "May 5"
-  35     license A16 F, +6.613, F, +0.719, F, B 1:01.370 (clear pass)  "May 6"
+  29     license A10  B F,+9.486, F(pass car), F, B(just) 2:59.404  "Apr 30"
+  30     license A11  B about 10F,  B 13.818   "May 1"
+  31     license A12  B 32.746 1st try(barely)   "May 2"
+  32     license A13  B 47.954 1st try   "May 3"
+  33     license A14  B Nurburg +1.529, F, +1.283,+0.024!!!, 0:34.851B  "May 4"
+  34     license A15  B TM lap  2:11.032 (1st try) (clean, not near S)  "May 5"
+  35     license A16  B F,+6.613,F,+0.719,F, 1:01.370B (clear pass)  "May 6"
 
 Note: A license acquired
   36 +1 win car Sunfire Pontiac Sunfire GXP Concept'02 (Shadow Black)(prize,AlicnseB)
@@ -59,32 +59,32 @@ Note: A license acquired
   39 Cr10,600  May 10
   39    Sunfire B/Sunday/AMii  2nd  Cr500 0pts  none
   40 Cr11,100  May 11
-  40     license IB1  +0.263, B15.064
-  41     license IB2  F, B26.910
-  42     license IB3  F,F, B29.284
-  43     license IB4  +0.997, B20.593(just!)
-  44     license IB5  Costa di Amalfi,F,F,F,F,+1.082,F,F,+1.913, B2:59.676
+  40     license IB1  B +0.263, 15.064B
+  41     license IB2  B F, B26.910
+  42     license IB3  B F,F, B29.284
+  43     license IB4  B +0.997, B20.593(just!)
+  44     license IB5  B Costa di Amalfi,F,F,F,F,+1.082,F,F,+1.913, B2:59.676
 Note: bumped and passed pace car a couple of times...  Grr!!!
-  45     license IB6  about 30F, B 20.731 (finally!)
+  45     license IB6  B about 30F, B 20.731 (finally!)
 
 Note: Track  Tsukuba Circuit  unlocked
 
-  46     license IB7  about 13F, B 20.639
-  47     license IB8  F, +3.083, F, F, +0.112, B 46.211  "May 18"
+  46     license IB7  B about 13F, 20.639B
+  47     license IB8  B F,+3.083, F,F, +0.112, 46.211B  "May 18"
   48     license IB-coffee  B 2:00.583     "May 19"
-  49     license IB9  about40F,  B 23.906
-  50     license IB10  about20F,  B 2:04.223
-  51     license IB11 +1.878,+0.432,+0.094,+0.249,+0.322,+0.291, B 19.388
-  52     license IB12 about20F,  B 26.374
-  53     license IB13  F, 32.430   "May 24"
-  54     license IB14  F,F,F, B 0:38.988   "May 25"
-  55     license IB15  about 10F, +9.488 (goal 2:23.550)
+  49     license IB9  B about40F,  23.906B
+  50     license IB10 B  about20F,  2:04.223B
+  51     license IB11 B +1.878,+0.432,+0.094,+0.249,+0.322,+0.291, 19.388B
+  52     license IB12 B  about20F, 26.374B
+  53     license IB13 B  F 32.430   "May 24"
+  54     license IB14 B  F,F,F, 0:38.988B   "May 25"
+  55     license IB15 B  about 10F, +9.48 (goal 2:23.550)
   56 +1  skip (wasted)
 
 Note: Track  Special Stage Route 5  unlocked
 
-  57     license IB15  about 6F, 2:21.909 (over 1.5sec under!)
-  58     license IB16  about 10F,  B 0:20.954  "May 29"
+  57     license IB15  B about 6F, 2:21.909B (over 1.5sec under!)
+  58     license IB16  B about 10F,  0:20.954B  "May 29"
 
 Note: IB license acquired
   59 +1 win car Nike   Nike One 2022 (prize,IBlicenseB)
@@ -133,30 +133,30 @@ February 24, 2005
   81 +1 skip Mission9  1st  Cr1000  250pts  (3tries) Motegi
   82 Cr18,700  June 22  A:2039
 
-  82     license IA1  B35.241   1st try
-  83     license IA2  B56.866   1st try
-  84     license IA3  F,F,B18.966
+  82     license IA1  B 35.241   1st try
+  83     license IA2  B 56.866   1st try
+  84     license IA3  B F,F,18.966B
 
 Note: Track  Twin Ring Motegi East Short Course  unlocked
 
-  85     license IA4  F,+1.288,+0.413,B36.186
-  86     license IA5  B2:37.514   1st try
-  87     license IA6  +0.199,+0.109,F,F, B33.078
-  88     license IA7  Abort,F, B36.498
-  89     license IA8  B1:13.746  (2nd try)
-  90     license IA9  +3.789,+1.777,+0.671,F, B45.654
-  91     license IA10  F, B2:24.316 (just!)
-  92     license IA11  +2.021,+0.653, B32.721
+  85     license IA4  B F,+1.288,+0.413,B36.186
+  86     license IA5  B 2:37.514B   1st try
+  87     license IA6  B +0.199,+0.109,F,F, 33.078B
+  88     license IA7  B Abort,F, 36.498B
+  89     license IA8  B 1:13.746  (2nd try)
+  90     license IA9  B +3.789,+1.777,+0.671,F, 45.654B
+  91     license IA10 B  F, 2:24.316 (just!)
+  92     license IA11 B  +2.021,+0.653, 32.721
   93 Cr18,700  July 3  A:2039
   93 power off
   
 February 25, 2005
-  93     license IA12  F1:18.729, +13.929, +4.422, +1.686, B1:04.362
-  94     license IA13  Many F, Many just over, B28.052
-  95     license IA14  Many F, B15.038
+  93     license IA12  B F1:18.729, +13.929,+4.422,+1.686, 1:04.362B
+  94     license IA13  B Many F, Many just over, 28.052B
+  95     license IA14  B Many F, 15.038B
 Note: practise in Arcade Mode
-  96     license IA15(!) F13:09.907 (+3:09.907), F10:29.879  B9:59.231  8-P
-  97     license IA16  B1:50.148   1st clean run
+  96     license IA15(!) B  F13:09.907 (+3:09.907), F10:29.879  9:59.231B  8-P
+  97     license IA16  B  1:50.148   1st clean run
 
 Note: IA license acquired
   98 +1 win car 270R  Nismo 270R'94 (prize,IAlicenseB)
@@ -199,9 +199,9 @@ Note: Track  Grand Valley Speedway  unlocked
 
 Note: Track  Hong Kong  unlocked
 
- 114     license S7  B1:36.928 (1try)
- 115     license S3  F,+0.911,F,F,F, B1:31.847
- 116     license S3  Many F, B1:42.705
+ 114     license S7  B 1:36.928 (1try)
+ 115     license S3  B F,+0.911,F,F,F, 1:31.847B
+ 116     license S5  B FordGT'05@Seattle  Many F, 1:42.705B
  117 Cr17,580  July 27  A:2705
  117 power off
   
@@ -1317,7 +1317,7 @@ April 03, 2005
  594 power off
 
 April 04, 2005
- 594     license S2  B2:25.955
+ 594     license S2  B 2:25.955
  595 Cr13,102,970  Nov 17    68B/0S/0G
  595 power off
 
@@ -1798,7 +1798,7 @@ Mar 23, 2005
  819 +1 win car  silverRSC'01  Toyota RSC '01  (silver)
  820 Cr7,270,755  Jun 30   A:7699  158cars    55.0%
 
- 820     license S6  Ice Arena  G0:56.916  (not all that many tries)
+ 820     license S6 G  Ice Arena  0:56.916G  (not all that many tries)
  821 Cr7,370,755  Jul 1   55.0%    68B/0S/1G
  821 select car orangeCerbera  TVR Cerbera Speed Six '97  (Chameleon Orange)
  821     orangeCerbera  SC/Normal/George    nq2nd1st 1A Cr5000    none
@@ -1878,10 +1878,10 @@ June 3, 2005
  857 +1 buy car NSXS0    Honda NSX Type S Zero '99 (Lime Green Metallic) (Cr49,285,used)
  858 Cr5,859,791  Aug  7   167cars
 
- 858     license S1  Motegi B2:26.026 (-0.674)  2 tries
- 859     license S8  Tokyo  F,F,+7.924,+5.095,F,+1.191,F,F,B1:40.407(-1.593)
- 860     license S12 Suzuka +3.472,F,F,+0.493,F,+0.073,F, B2:05.125(-0.605)
- 861     license S13 Infineon +10.953,manyFandOver,(+0.067), B1:22.340(-0.360)
+ 858     license S1  B  Motegi 2:26.026 (-0.674)  2 tries
+ 859     license S8  B  Tokyo  F,F,+7.924,+5.095,F,+1.191,F,F,1:40.407B(-1.593)
+ 860     license S12 B  Suzuka +3.472,F,F,+0.493,F,+0.073,F, 2:05.125B(-0.605)
+ 861     license S13 B  Infineon +10.953,manyFandOver(+0.067),1:22.340B(-0.360)
 Note: about 25 tries in all
  862 Cr5,859,791  Aug 11  72B/0S/1G  56.7%  167cars
  862 power off
@@ -1902,7 +1902,7 @@ June 4, 2005
  868 power off
 
 June 5, 2005
- 868 license S10 GrandCanyon F,+8.xxx,+2.441,F,+1.065,+1.414, B3:00.586(-1.414)
+ 868 license S10 B GrandCanyon F,+8.xxx,+2.441,F,+1.065,+1.414, 3:00.586B(-1.414)
  869 Cr5,843,341  Aug 18  73B/0S/1G
 
  869 select car RX8Concept  Mazda RX-8 Concept (Type-I) '01 (Camelia Red)
@@ -1933,9 +1933,9 @@ June 5, 2005
  877 Cr5,510,491
 Note: Did not seem competitive in BMW/M  8-(
 
- 877 license S9 ElCapitan   F,+5.948,F,  B1:59.677B(-0.333)
- 878 license S4 CostaDiAmalfi  F,F, B2:26.537(-0.943)
- 879 license S11 OperaParis +2.581,+0.943,F,+0.580,+1.088,+0.499,+0.839,F,B1:43.147(-1.083)
+ 877 license S9  B  ElCapitan  F,+5.948,F,  1:59.677B(-0.333)
+ 878 license S4  B  CostaDiAmalfi  F,F, 2:26.537B(-0.943)
+ 879 license S11 B  OperaParis +2.581,+0.943,F,+0.580,+1.088,+0.499,+0.839,F,1:43.147(-1.083)
  880 Cr5,510,491  Aug 29  76B/0S/1G  169cars  58.5%
 
  880 select car [R]RX8   Mazda RX-8 Concept LM Race Car '01
@@ -1950,7 +1950,7 @@ Note: Did not seem competitive in BMW/M  8-(
  886 power off
 
 June 7, 2005
- 886 license S14 Chamonix F,+0.946,F,F,F,F,F,F,+1.396,F,F,  B2:38.755(-1.288)
+ 886 license S14 B  Chamonix F,+0.946,F,F,F,F,F,F,+1.396,F,F, 2:38.755B(-1.288)
  887 Cr5,535,441  Sep  5  77B/0S/1G  170cars   59.4%
 
      cardef NSX-R  NSX-R'01
@@ -1972,13 +1972,13 @@ June 7, 2005
  893 power off
 
 June 9, 2005
- 893 license S15 Sarthe  B3:36.429(-0.171)  (many tries)
+ 893 license S15 B  Sarthe  3:36.429B(-0.171)  (many tries)
 Note:  4F,+21.628,4F,+8.230,F,+7.381,4F,+2.331,18F,+0.213, B3:36.429(-0.171)
  894 Cr5,560,741  Sep 12  78B/0S/1G  171cars   60.2%
  894 power off
 
 June 10, 2005
- 894 license S16 Nurburgring +8.752,+2.734,F,F  B7:53.389(-4.911)
+ 894 license S16 B  Nurburgring +8.752,+2.734,F,F  7:53.389B(-4.911)
  895 +1 win car yellowCougar'67 Mercury Cougar XR-7 '67 (Jamaican Yellow)(prize,SlicenseB)
  896 Cr5,560,741  Sep 14  79B/0S/1G  172cars   60.2%
 Note: sad car becomes happy car when you get a license, even with a bronze
@@ -4068,8 +4068,8 @@ Oct 13, 2005
 1858 power off
 
 Oct 14, 2005
-1858     license IA15   B9:56.148, B9:34.729  (Nurburgring chase)
-Note:    license S16   F8:36.375,F8:07.257, a few offs 8-(
+1858     license IA15  B 9:56.148, B9:34.729  (Nurburgring chase)
+Note:    license S16   F F8:36.375,F8:07.257, a few offs 8-( ?
 1859 power off
 
 
@@ -4687,7 +4687,7 @@ Feb  4, 2006
 2146 Cr11,486,967 Feb 15  A:16152  392cars  90.1%
 
 
-2146     license B1  S  10.349S many tries 10.183 10.182 10.164 10.065G
+2146     license B1  G  10.349S many tries 10.183 10.182 10.164 10.065G
 2147     license B2  G  11.148S many tries 11.065 11.016 10.898G
 2148     license B3  S  31.346S several tries 31.154 30.962 30.928S
 2149     license B4  S  30.301S one try 29.999 many -> 29.940S
@@ -4744,7 +4744,7 @@ Feb  8, 2006
 
 
 Feb 10, 2006
-2176     license A15 TM S  2:08.565  2:08.162  2:06.406S (a few tries) +1.406G
+2176     license A15 S  TM  2:08.565  2:08.162  2:06.406S (a few tries) +1.406G
 2177     license A16 S  0:55.851S (many many tries) +1.701G
 2178     license A10  S  2:52.009   2:50.488S (many tries) +1.406G
 Note:    license A3 G about 5 tries 11.911G +0.022demo in temp game
@@ -4803,7 +4803,7 @@ Note: IA1 S Midfield   33.130S (lots of tries) (temp game)
 Feb 18, 2006
 2210    license S2 B Citta  2:23.080B (many F, but then reliable) +2.080S
 2211    license IB15 B Citta  2:18.786S (1st try, no more progress) +3.856S
-2212    license IB16 B Citta  19.542S (several tries)
+2212    license IB16 S Citta  19.542S (several tries)
 2213 Cr10,657,267 Apr 23  A:16152  397cars  90.1%   14G 43S 23B*
 
 
@@ -4815,7 +4815,7 @@ Feb 19, 2006
 Note: Did Arcade time trials with Duetto'66
 
 2214    license S2 S Citta  2:20.183S (many tries, sudden breakthrough) +3.183G
-2215    license IB15 S Citta  2:14.584S (lots of tries) +3.584S
+2215    license IB15 S Citta  2:14.584S (lots of tries) +3.584G
 2216    license S4 S Amalfi  2:20.587S (not too many tries) +3.587G
 2217 Cr10,621,967 Apr 27  A:16152  398cars  90.1%   14G 46S 20B*
 
@@ -4883,25 +4883,25 @@ Mar 02, 2006
 Mar 03, 2006
 2239     license A-coffee S 29.400S +0.893G another seo to demo
 2240     license S-coffee G 1:32.850  many tries
-2241 license S10 GC S 2:52.413S  many tries  +5.413G
+2241 license S10 S GC  2:52.413S  many tries  +5.413G
 2242 Cr11,867,917 May 22  A:16161  404cars  91.6%   14G 49S 17B*  BSB-G coffee
 
 
 Mar 04, 2006
-2242 license S14 Chamonix B 2:32.482  +1.587S
+2242 license S14 B  Chamonix  2:32.482B  +1.587S
 2243 Cr11,867,917 May 23  A:16161  404cars  91.6%   14G 49S 17B*  BSB-G coffee
 2243 power off
 
 
 Mar 05, 2006
-2243 license S14 Chamonix S 2:30.707  +4.207G  many many tries
+2243 license S14 S  Chamonix  2:30.707S  +4.207G  many many tries
 2244 Cr11,867,917 May 24  A:16161  404cars  91.6%   14G 50S 16B*  BSB-G coffee
 
 2244 +1 buy car blueTT1.8  Audi TT Coupe 1.8T quattro '00 (Denim Blue Pearl Effect) (Cr35,775,used)
 2245 Cr11,832,142 May 25  A:16161  405cars  91.6%   14G 50S 16B*  BSB-G coffee
 2245 power off
 
-2245 license S13 Infineon B  1:18.319  +1.019S  many tries
+2245 license S13 B  Infineon  1:18.319B  +1.019S  many tries
 2246 Cr11,832,142 May 26
 
 2246 select car AudiR8  Audi R8 Race Car '01  (silver/red #1)
@@ -4916,7 +4916,7 @@ Note: Did not clear the WC records
 2249 +1 win car [R]FordGT'02   Ford GT LM Race Car '02
 2250 Cr12,312,092 May 30  A:16234  406cars  91.6%   14G 50S 16B*  BSB-G coffee
 
-2250 license S13 Infineon S  1:16.973S  still very many tries  +0.853G
+2250 license S13 S  Infineon  1:16.973S  still very many tries  +0.853G
 2251 Cr12,312,092 May 31  A:16234  406cars  91.6%   14G 51S 15B*  BSB-G coffee
 2251 power off
 
@@ -4934,7 +4934,7 @@ Note: Pescarola C60'04, XJR-9'88, GT-ONE'99, BMW V12 LMR'99, Speed8'03
 
 
 Mar 08, 2006
-2254 license S15 Sarthe S  3:24.722S  many tries, but steady progress +5.722G
+2254 license S15 S  Sarthe  3:24.722S  many tries, but steady progress +5.722G
 2255 Cr12,307,092 Jun  4  A:16279  406cars  91.6%   14G 52S 14B*  BSB-G coffee
 2255 +1 buy car yellowSileighty   Nissan Sileighty '98  (yellow) (Cr11,440,used)
 2256 Cr12,295,652 Jun  5  A:16279  407cars  91.6%   14G 52S 14B*  BSB-G coffee
@@ -4942,7 +4942,7 @@ Mar 08, 2006
 
 
 Mar 10, 2006
-2256 license S11 Opera S  1:38.420S  many, many tries  +1.800G
+2256 license S11 S  Opera  1:38.420S  many, many tries  +1.800G
 2257 Cr12,295,652 Jun  6  A:16279  407cars  91.6%   14G 53S 13B*  BSB-G coffee
 2257 +1 buy car Chap2J   Chaparral 2J Race Car '70 (Cr1,200,000,new)
 2258 select car Chap2J
@@ -4978,19 +4978,19 @@ Note: finished J/JGT on Mar 12
 
 
 Mar 12, 2006
-2274  license S12 Suzuka B  2:02.417B  (many tries; a wall)
+2274  license S12 B  Suzuka  2:02.417B  (many tries; a wall)
 2275 Cr11,938,301 Jun 24  A:16570  409cars  91.8%   14G 53S 13B*  BSB-G coffee
 2275 power off
 
 
 Mar 15, 2006
-2275  license S12 Suzuka B  2:00.409B  (many many tries; S within reach)
+2275  license S12 B Suzuka  2:00.409B  (many many tries; S within reach)
 2276 Cr11,938,301 Jun 25  A:16570  409cars  91.8%   14G 53S 13B*  BSB-G coffee
 2276 power off
 
 
 Mar 16, 2006
-2276  license S12 Suzuka B  1:59.649B  (many tries; +0.212S)
+2276  license S12 B Suzuka  1:59.649B  (many tries; +0.212S)
 2277 Cr11,938,301 Jun 26  A:16570  409cars  91.8%   14G 53S 13B*  BSB-G coffee
 2277 power off
 
@@ -5008,7 +5008,7 @@ Note: RX8Concept, CeramoSupra'01, PennzoilGT-R'01, TakataNSX'03, 2000FalconXR8
 2279 Cr12,232,801 Jun 28  A:16638  410cars  91.8%   14G 53S 13B*  BSB-G coffee
 2279 power off
 
-2279  license S12 Suzuka S  1:59.425S  (about a dozen tries)
+2279  license S12 S  Suzuka  1:59.425S  (about a dozen tries)
 2280 Cr12,232,801 Jun 29  A:16638  410cars  91.8%   14G 54S 12B*  BSB-G coffee
 2280 +1 buy car orangeCelica'81  Toyota Celica XX 2800 GT '81 (Terracotta) (Cr8130,used)
 2281 Cr12,224,671 Jun 30  A:16638  411cars  91.8%   14G 54S 12B*  BSB-G coffee
@@ -5042,15 +5042,15 @@ Note: 18 missions
 2289 buy parts TakataNSX  T-R1,T-R2,T-R4 Cr9000 Cr11,000 Cr35,500
 2289 buy parts TakataNSX  NA1, TS3,TS4  Cr85,000 Cr45,000 Cr90,000
 2289 Cr10,626,671 Jul 08  A:17388  412cars  92.3%
-2289  license S8  Tokyo S  1:36.308S (+3.308G) (not too too many tries)
+2289  license S8  S Tokyo  1:36.308S (+3.308G) (not too too many tries)
 2290 Cr10,626,671 Jul 09  A:17388  412cars  92.3%   14G 55S 11B*  BSBBG coffee
 Note: got gold on S6 (Ice Arena) again after about 25 tries
 2290 power off
 
 
 Mar 25, 2006
-2290     license S6  Ice Arena G  0:56.274G +0.342demo  0:55.567G -0.365demo
-2291     license S7  TM  B  1:32.124B  +0.124S not reproducible 8-(
+2290     license S6 G  Ice Arena  0:56.274G +0.342demo  0:55.567G -0.365demo
+2291     license S7 B  TM   1:32.124B  +0.124S not reproducible 8-(
 Note: redid Mission10 (Avantimes@Sarthe) with no cheating
 Note: redid Mission6 (Roadsters@Tsukuba) with no penalty or cheating
 2292 Cr10,626,671 Jul 11  A:17388  412cars  92.3%   14G 55S 11B*  BSBBG coffee
@@ -5058,8 +5058,8 @@ Note: redid Mission6 (Roadsters@Tsukuba) with no penalty or cheating
 
 
 Mar 26, 2006
-2292     license S7  TM  S  1:31.736S  +1.236G  (not too many tries)
-2293     license S5  Seattle  S  1:37.436S  +3.236G  (quite a lot of tries)
+2292     license S7 S  TM   1:31.736S  +1.236G  (not too many tries)
+2293     license S5 S  Seattle   1:37.436S  +3.236G  (quite a lot of tries)
 2294 Cr10,626,671 Jul 13  A:17388  412cars  92.3%   14G 57S 9B*  BSBBG coffee
 
 2294 select car Chap2J   Chaparral 2J Race Car '70
@@ -5075,20 +5075,20 @@ Mar 26, 2006
 
 
 Mar 28, 2006
-2301     license S3  SSR5  B  1:27.749B  +0.749S  (many many tries)
+2301     license S3 B  SSR5   1:27.749B  +0.749S  (many many tries)
 Note: forgot to save ghost
 2302 Cr10,670,671 Jul 21  A:17578  413cars  92.3%   14G 57S 9B*  BSBBG coffee
 2302 power off
 
 
 Mar 29, 2006
-2302     license S3  SSR5  S  1:26.942S  +2.242G  (a lot of tries)
+2302     license S3 S  SSR5   1:26.942S  +2.242G  (a lot of tries)
 2303 Cr10,670,671 Jul 22  A:17578  413cars  92.3%   14G 58S 8B*  BSBBG coffee
 2303 power off
 
 
 Mar 30, 2006
-2303     license S1  Motegi  S  2:20.307  +3.307G  (a few tries, but then no better)
+2303     license S1 S  Motegi   2:20.307  +3.307G  (a few tries, but then no better)
 2304 +1 win car Solstice  Pontiac Solstice Coupe Concept '02 (orange) (prize,SlicenseS)
 2305 Cr10,670,671 Jul 24  A:17578  414cars  92.3%   14G 59S 7B*  BSBBG coffee
 
@@ -5109,7 +5109,7 @@ cardef [R]MotulZ'04  car648  Nissan Motul Pitwork Z (JGTC) '04
 2308     license B6  S  0:22.915S (several tries)
 Note: only wanted silver DO NOT GOLD prematurely
 2309 +1 win car Kusabi'03  Mazda Kusabi '03 (silver) (prize,BlicenseS)
-2310 Cr10,994,635 Jul 27  A:17647  417cars  92.3%   14G 59S 7B*  BSBBG coffee
+2310 Cr10,994,635 Jul 27  A:17647  417cars  92.3%   14G 60S 6B*  BSBBG coffee
 2310     license A3  S  0:12.126S (a few tries)
 Note: only wanted silver DO NOT GOLD prematurely
 2311 +1 win car whiteDN-X Acura DN-X'02 (white) (prize,AlicenseS)
@@ -5204,7 +5204,7 @@ Note: 21 Missiona
 Note: Taking a lengthy vacation from GT4 (playing Tourist Trophy casually)
 
 Nov 26, 2006
-2345     license IA5  S ElC  2:31.699S(DFP) (many tries, many fails)
+2345     license IA5 S ElC  2:31.699S(DFP) (many tries, many fails)
 2346 select car orangeCerbera
 2346 change oil  orangeCerbera  494hp to 494hp
 2346 Cr11,460,386 Sep 03  A:18622  424cars  92.8%   14G 62S 4B*  BSBBG coffee
@@ -5232,7 +5232,7 @@ Note:                    10.282S 10.166S 10.149G(just)
 2355     license B3  G  32.546B 31.200S ... 30.981 30.756G
 2356 +1 skip Mission1  1st  Cr1000  DFRW  35.984 (several tries)
 2357     license B4  S ... 30.237S ... 30.225S  no improvement
-2358     license B5  Tsukuba S  1:33.285B 1:29.815B 1:29.265S !;29.300S
+2358     license B5  S  Tsukuba  1:33.285B 1:29.815B 1:29.265S !;29.300S
 Note:          ... 1:28.858(rec) ... 1:28.814S
 2359 power off
 
@@ -5950,8 +5950,8 @@ Note:      ... 7:20.541S ... 7:20.233S
 
 January 26, 2008
 2548     license S16 S Nurb   7:19.650S   +11.950G
-2549     license IA13 G 0:25.904S (many tries)
-2550     license B5  Tsukuba S  1:28.327S
+2549     license IA13 S 0:25.904S (many tries)
+2550     license B5 S Tsukuba S  1:28.327S
 2551 Cr20,634,821  Mar 26  A:23371  495cars  96.2%  16G 60S 4B*
 2551 power off
 
@@ -6383,17 +6383,17 @@ June 17, 2009
 2657 Cr14,541,236  Jul10 A:26343 529cars  98.4%
 
 Sep 22, 2009
-2657     license IA5 G ElCapitan  2:27.859G (many tries)
+2657     license IA5  G ElCapitan  2:27.859G (many tries)
 2658 Cr14,541,236  Jul11 A:26343 529cars  98.4% 17G 59S 4B*
 
 Sep 23, 2009
-2658     license B15 G Infineon  2:18.925G (many tries)
+2658     license B15 G  Infineon  2:18.925G (many tries)
 2659 Cr14,541,236  Jul12 A:26343 529cars  98.4% 18G 58S 4B*
-2659     license IB10 B HongKong  1:59.310B (new P.B.)
+2659     license IB10 B  HongKong  1:59.310B (new P.B.)
 2660 Cr14,541,236  Jul13 A:26343 529cars  98.4% 18G 58S 4B*
 
 Sep 26, 2009
-2660     license IB10 S HongKong  1:56.657S (new P.B.)
+2660     license IB10 S  HongKong  1:56.657S (new P.B.)
 2661 Cr14,541,236  Jul14 A:26343 529cars  98.4% 18G 59S 3B*
 
 Oct 02, 2009
@@ -6428,11 +6428,11 @@ Oct 03, 2009
 2672 Cr14,434,476  Jul25 A:26848 532cars  98.4%
 
 Oct 04, 2009
-2672     license IB7 S slalom 18.532 (many many tries)
+2672     license IB7 S  slalom 18.532 (many many tries)
 2673 Cr14,434,476 Jul26 A:26848 532cars  98.4% 18G 60S 2B*
 
 Oct 05, 2009
-2673     license IB6 S slalom 18.548 (many tries)
+2673     license IB6 S  slalom 18.548 (many tries)
 2674 Cr14,434,476  Jul27 A:26848 532cars  98.4% 18G 61S 1B*
 
 2674 +1 buy car yellowRX8ii  Mazda RX-8 Concept (Type II)'01 (RX-8 yellow)(prize,IB silver)(Cr200,000,trade)
@@ -6523,26 +6523,26 @@ March 27, 2011
 2705 +1 skip Mission18  nq6th2nd  (R92CP@SartheII)  9:11.871 +0.083   none
 2706 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:12.004 -0.0391  none
 2707 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:10.845 -1.160   none
-2708 license S15 Sarthe S  3:20.799S   +1.799G
+2708 license S15 S Sarthe   3:20.799S   +1.799G
 2709 Cr13,898,077  Aug31  A:29139  538cars  99.4%
 2709 power off
 
 
 March 31, 2011
-2709 license S15 Sarthe S  3:20.603S   +1.603G
+2709 license S15 S Sarthe   3:20.603S   +1.603G
 2710 Cr13,898,077  Sep01  A:29139  538cars  99.4%
 2710 power off
 
 April 01, 2011
-2710 license S15 Sarthe S  3:19.494S   +0.494G
+2710 license S15 S Sarthe   3:19.494S   +0.494G
 2711 Cr13,898,077  Sep02  A:29139  538cars  99.4%
 2711 power off
 
 April 03, 2011
-2711 license S15 Sarthe G  3:18.698G   -0.302G
+2711 license S15 G Sarthe   3:18.698G   -0.302G
 2712 Cr13,898,077  Sep03  A:29139  538cars  99.4%  19G 60S 1B*
 2712 power off
-2712 license S15 Sarthe S  3:17.923G   -1.077G
+2712 license S15 G Sarthe  3:17.923G   -1.077G
 2713 Cr13,898,077  Sep04  A:29139  538cars  99.4%  19G 60S 1B*
 2713 power off
 
@@ -6556,9 +6556,9 @@ Note: Speed8, R390, R89C(pits), F1-GTR, Zonda
 2715 power off
 
 December 08, 2012
-2715 license B13G     22,614G
+2715 license B13 G     22,614G
 2716 Cr13,913,077  Sep07  A:29207  538cars  99.4%   20G 59S 1B*
-2716 license B14S 18.145S  prev18,178  +0.045G
+2716 license B14 S 18.145S  prev18,178  +0.045G
 2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
 2717 power off
 

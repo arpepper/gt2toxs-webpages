@@ -46,6 +46,33 @@ while (@main::cardata) {
 };
 
 sub
+lidsub() {  # sort B1..A1..IB1..IA1..S1..S16
+	my($n1, $n2, );
+
+	$n1 = $a;
+	$n1 =~ s/^\D+//;
+	$n1 =~ s/\n//g;
+	$n1 = 0 if ($n1 eq "");  # ?  probably got coffee results?
+	$n1 += 0;
+	$n1 += 100 if ($a =~ /B/);   # Allow for C or IC licenses
+	$n1 += 200 if ($a =~ /A/);
+	$n1 += 1000 if ($a =~ /I/);
+	$n1 += 10000 if ($a =~ /S/);
+
+	$n2 = $b;
+	$n2 =~ s/^\D+//;
+	$n2 =~ s/\n//g;
+	$n2 = 0 if ($n2 eq "");  # ?
+	$n2 += 0;
+	$n2 += 100 if ($b =~ /B/);   # Allow for C or IC licenses
+	$n2 += 200 if ($b =~ /A/);
+	$n2 += 1000 if ($b =~ /I/);
+	$n2 += 10000 if ($b =~ /S/);
+
+	return $n1 <=> $n2;
+}
+
+sub
 caridsub() {
 	my($n1,$m1, $n2, $m2);
 
@@ -498,13 +525,52 @@ doselect{
 	&warn("Bad select: $line\n");
 }
 
+sub
+getgsb { # get Gold, Silver, Bronze (counts)
+	my %h = @_;
+	my ($i, @sorted, %m);
+
+	%m = ();
+	@sorted = sort lidsub keys %h;
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		++$m{$h{$sorted[$i]}};  # create $m{"G"}, $m{"S"}, $m{"B"}
+	}
+
+	return %m;
+}
+	
+
+%main::lresults = ();
+sub
+updatemedal {
+	my($lid,$medal) = @_;
+	my($oldr);
+
+#printf "updatemedal %s %s\n", $lid, $medal;
+	$medal = "F" if !defined($medal);
+	return if ($medal eq "F");
+	if (!defined($main::lresults{$lid})) {
+		$main::lresults{$lid} = $medal;   # know $medal is not F
+	}
+	else {
+		$oldr = $main::lresults{$lid};
+		if ($medal eq "G") {
+			$main::lresults{$lid} = $medal;
+		}
+		elsif ($medal eq "S") {
+			$main::lresults{$lid} = $medal if ($oldr ne "G");
+		}
+		# $medal must be B, and $lresults is defined
+	}
+} 
 
 sub
 dolicenseline {
 	my($line,$start,$end) = @_;
 	my($diff);
+	my($lid,$medal);
 
-#&warn("Good license line:$_\n");
+#&warn("Good license line: $line\n");
 	if (!&daycheck($start) ) {
 		&warn("Bad license start day(not ${main::maxtoday}): $_\n");
 	}
@@ -514,6 +580,55 @@ dolicenseline {
 	}
 	$main::mintoday = $end + 1;
 	$main::maxtoday = $end + 1;
+	# Almost need completely different routine for GT3, but maybe not?
+	return if $main::pragmas !~ /,gt4,/;
+
+	$lid = $line;   # Note, line includes the day number
+	$lid =~ s/\s*\d+\s+//;  # Remove day number
+	$lid =~ s/^licen[^ ]*\s+//;   # Must be a license line
+	$lid =~ s/\s+.*$//;
+	$lid =~ s/\n//g;
+	$lid =~ s/\(.*//;  # Allow a parenthetical (!) or something
+	if ($lid =~ /coffee/) {
+		; # handle coffee later
+	}
+	elsif ($lid !~ /^[I]{0,1}[BAS][\d]{1,2}$/ || $lid =~ /IS/) {
+		&warn("Bad license line (result first?): $line\n");
+	}
+	else {
+		$medal = $line;
+		$medal =~ s/\s*\d+\s+//;  # Remove day number
+		$medal =~ s/^licen[^ ]*\s+//;
+		$medal =~ s/^I{0,1}[BAS]\d+(\([^ ]*){0,1}\s+//;  # Remove $lid; we allow IS!
+		if ( $medal =~ /^([FBSG])\b/ ) {
+			$medal = $1;
+		}
+		else {
+# Probably we should just complain in this case
+			# Comments between $lid and $medal
+#print "S14 medal=$medal\n" if ($lid eq "S14");
+			&warn("License medal not first: $line\n")
+				if ($main::showlist =~ /,licen[sc]e,/ );
+			$medal =~ s/^[A-Za-z]+\s+//;
+			$medal =~ s/[A-Za-z]{3,}//g;   # Seattle
+			$medal =~ s/^[^ ]+\@[^ ]+//;   # FordGT@Seattle
+			$medal =~ s/\bI{0,1}[BAS]\d+\b//g;  # lid can fool us
+#			$medal =~ s/\b[\-\+][\:\.\d]{3,100}[BSG]\b//g;  # ignore +0.001G
+# For some reason \b prevented matches
+			$medal =~ s/[\-\+][\:\.\d]{3,}[BSG]{0,1}//g;  # ignore +0.001G
+#print "S14 medal=$medal\n" if ($lid eq "S14");
+			if ($medal =~ /[0-9\s]([BSG])\b/) { # 1st medal letter
+				$medal = $1;
+			}
+			else {
+				$medal =~ /([BSG])\b/;
+				$medal = $1;
+			}
+		}
+#print "S14 medal=$medal\n" if ($lid eq "S14");
+		$medal = "F" if !defined($medal);
+		updatemedal($lid,$medal);
+	}
 
 }
 
@@ -829,6 +944,54 @@ doinclude {
 }
 
 sub
+dostatusline {
+	my($line,$rest,$r1,$r2) = @_;
+	#my($day,$stuff,$sf,$fullname);
+
+	if (!&daycheck($r1) ) {
+		&warn("Bad single day note(not ${main::maxtoday}): $line\n");
+	}
+	# Assert $rest =~ /^Cr[0-9]/
+	# grr... seems difficult to undef $1 ...
+
+	# Later check Ncars, medal counts perhaps license standing?
+
+	if ( $main::pragmas =~ /,gt4,/ && $rest =~
+	   m:([0-9]{1,2}[GB][ /]{1,3}[0-9]{1,2}[S][ /]{1,3}[0-9]{1,2}[GB]): ) {
+		# Later perhaps license stats for GT3
+		my $licstats = $1;
+		my ($m, $s);
+		my (%gsb);
+		$s = "";
+		%gsb = getgsb(%main::lresults);
+		for $m ("G", "S", "B") {
+			if (!defined($gsb{$m}) ) {
+				$gsb{$m} = 0;
+			}
+			$s .= sprintf("%d%s ", $gsb{$m}, $m);
+		}
+		# Compare %gsb/$s with canonical version of $licstats
+		my ($logresults) = ("");
+		$licstats =~ /\b([0-9]+G)\b/;
+		$logresults .= "$1 " if (defined($1));
+		$licstats =~ /\b([0-9]+S)\b/;
+		$logresults .= "$1 " if (defined($1));
+		$licstats =~ /\b([0-9]+B)\b/;
+		$logresults .= "$1 " if (defined($1));
+		if ($main::showlist =~ /,licen[sc]e,/ ) {
+			printf "%s %s %s - %s\n",
+				$r1, $licstats, $logresults, $s;
+		}
+		if ( $logresults ne $s ) {
+			&warn("$logresults ne $s: $line\n");
+		}
+	}
+
+	$main::mintoday = $r2;
+	$main::maxtoday = $r2;
+}
+
+sub
 dodaynote {
 	my($line,$rest,$r1,$r2) = @_;
 	my($day,$stuff,$sf,$fullname);
@@ -1060,10 +1223,11 @@ while (defined($_ = &getlog())) {
 	}
 	elsif ( $line =~ /^ {9,9}/ ) {
 		# line beginning with 9 spaces assumed to be comment
+		# ORLY?
 		;
 	}
 	elsif ( $rest =~ /^Cr[0-9]/ ) {
-		&dodaynote($line,$rest,$r1,$r2);
+		&dostatusline($line,$rest,$r1,$r2);
 	}
 	elsif ( $rest =~ /^select\b/ ) {
 		&doselect($line,$rest,$r1,$r2);
@@ -1164,4 +1328,13 @@ if ($main::showlist =~ /,garage,/ ) {
 			++$i;
 		}
 	}
+}
+if ($main::showlist =~ /,licen[sc]e,/ ) {
+	my($i,@sorted);
+	@sorted = sort lidsub keys %main::lresults;
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		printf("%s: %s\n", $sorted[$i], $main::lresults{$sorted[$i]} );
+	}
+
+	
 }
