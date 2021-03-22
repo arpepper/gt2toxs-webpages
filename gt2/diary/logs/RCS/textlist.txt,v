@@ -1,4 +1,34 @@
-allstars
+head	1.2;
+access;
+symbols;
+locks
+	gt2toxs:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2021.03.22.19.53.21;	author gt2toxs;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2021.03.22.19.48.27;	author gt2toxs;	state Exp;
+branches;
+next	;
+
+
+desc
+@Access control?
+@
+
+
+1.2
+log
+@Added gt4-game2
+Removed silly things like directories and programs we had put in here.
+@
+text
+@allstars
 ARRI-game2
 ARRI-game2.raw
 blue
@@ -105,3 +135,29 @@ textfoot.html
 texthead.html
 used.d400-590
 v12.tmp
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a7 1
+check.pl
+a11 1
+garage.cgi
+a12 1
+genframes.pl
+d68 1
+a70 1
+gtforums
+a92 2
+RCS
+saved-gt1-garages
+a103 1
+test-gt1-garages
+a105 2
+textview.cgi
+t.pl
+@

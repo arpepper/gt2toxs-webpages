@@ -1,10 +1,20 @@
-head	1.1;
+head	1.3;
 access;
 symbols;
 locks
-	arpepper:1.1; strict;
+	arpepper:1.3; strict;
 comment	@# @;
 
+
+1.3
+date	2021.03.22.18.58.22;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2021.03.22.18.56.44;	author arpepper;	state Exp;
+branches;
+next	1.1;
 
 1.1
 date	2005.08.08.00.55.28;	author arpepper;	state Exp;
@@ -17,12 +27,12 @@ desc
 @
 
 
-1.1
+1.3
 log
-@Initial revision
+@/xhbin/perl => /usr/bin/perl
 @
 text
-@#!/xhbin/perl -w
+@#!/usr/bin/perl -w
 
 $bspec = 0;
 $machine = 0;
@@ -56,9 +66,14 @@ while (<>) {
 			$inccourse = 0;
 			$incbattle = 0;
 		}
+		$t = $newbspec - $bspec;
+		$c = $newmachine - $machine;
+		$m = $newcourse - $course;
+		$b = $newbattle - $battle;
 print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
 	"($incbspec/$incmachine/$inccourse/$incbattle)" .
-	"  B:$bspec/$machine/$course/$battle" . "\n";
+	"  B:$bspec/$machine/$course/$battle" .
+	"  (+$t/+$c/+$m/+$b)" . "\n";
 
 		if ($newbspec != ($bspec + $incbspec) ) {
 			$warn .= " Bspec";
@@ -83,4 +98,27 @@ print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
 	$_ =~ s/$/$warn/;
 	print $_;
 }
+@
+
+
+1.2
+log
+@Add the showing of increments in Bspec stats.
+@
+text
+@d1 1
+a1 1
+#!/xhbin/perl -w
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d35 4
+d41 2
+a42 1
+	"  B:$bspec/$machine/$course/$battle" . "\n";
 @
