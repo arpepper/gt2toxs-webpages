@@ -1,10 +1,115 @@
-head	1.17;
+head	1.38;
 access;
 symbols;
 locks
-	arpepper:1.17; strict;
+	arpepper:1.38; strict;
 comment	@# @;
 
+
+1.38
+date	2021.03.31.02.09.01;	author arpepper;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2021.03.30.22.38.18;	author arpepper;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2021.03.30.22.35.13;	author arpepper;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2021.03.30.14.10.43;	author arpepper;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2021.03.30.01.21.18;	author arpepper;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2021.03.29.22.20.54;	author arpepper;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2021.03.29.22.19.12;	author arpepper;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2021.03.29.22.10.34;	author arpepper;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2021.03.29.22.05.18;	author arpepper;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2021.03.29.21.19.50;	author arpepper;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2021.03.29.21.15.04;	author arpepper;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2021.03.29.02.08.34;	author arpepper;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2021.03.29.01.45.25;	author arpepper;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2021.03.29.01.37.27;	author arpepper;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2021.03.27.01.54.22;	author arpepper;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2021.03.26.22.52.55;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2021.03.26.22.47.04;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2021.03.26.22.25.18;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2021.03.26.22.00.30;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2021.03.24.00.35.59;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2021.03.23.15.46.38;	author arpepper;	state Exp;
+branches;
+next	1.17;
 
 1.17
 date	2021.03.22.10.12.18;	author arpepper;	state Exp;
@@ -98,9 +203,9 @@ Use ======================== markers to track update.
 @
 
 
-1.17
+1.38
 log
-@Burgundy Cougar.
+@Add time differences.
 @
 text
 @
@@ -412,6 +517,553 @@ Note:        Mercury Cougar XR-7 '67 (Burgundy)
  114 Cr621,285   1.0%   1015A 0B  IBlicense  0G 3S 76B  12cars
  114 power off
 
+Note: Notes on S16 repeated finishes - break
+Note: no off  8:01.653  :( (+3.353)
+Note:  then  7:58.260  (-0.040(!))
+Note:        another Mercury Cougar XR-7 '67 (Polar White)
+Note: so reset without purchasing
+Note: silly early off, silly early off then  7:53.821  (-4.479)
+Note:        Mercury Cougar XR-7 '67 (Glacier Blue)
+ 114 +1 buy car iceCougar'67 Mercury Cougar XR-7 '67 (Glacier Blue)(prize,SlicenseB)(Cr40,187,trade)
+ 115 Cr581,098   1.0%   1015A 0B  IBlicense  0G 3S 76B  13cars
+ 115 power off
+
+March 23, 2021
+Note: Notes on S16 repeated finishes
+Note: during meeting, no off 7:51.179  :( (-7.121)
+Note:        Mercury Cougar XR-7 '67 (Lime Frost)
+ 115 +1 buy car limeCougar'67 Mercury Cougar XR-7 '67 (Lime Frost)(prize,SlicenseB)(Cr40,187,trade)
+ 116 Cr540,911   1.0%   1015A 0B  IBlicense  0G 3S 76B  14cars
+ 116 power off
+
+Note: Notes on S16 repeated finishes
+Note: daring off 7:51.025  :( (-7.275)
+Note:        Mercury Cougar XR-7 '67 (Onyx)
+ 116 +1 buy car onyxCougar'67 Mercury Cougar XR-7 '67 (Onyx)(prize,SlicenseB)(Cr40,187,trade)
+ 117 Cr500,724   1.0%   1015A 0B  IBlicense  0G 3S 76B  15cars
+ 117 power off
+
+Note: Notes on S16 repeated finishes
+Note: stupid early off 7:53.705  :( (-4.595)
+Note:        Mercury Cougar XR-7 '67 (Fawn)
+ 117 +1 buy car fawnCougar'67 Mercury Cougar XR-7 '67 (Fawn)(prize,SlicenseB)(Cr40,187,trade)
+ 118 Cr460,537   1.0%   1015A 0B  IBlicense  0G 3S 76B  16cars
+ 118 power off
+
+March 24, 2021
+Note: Notes on S16 repeated finishes
+Note: early off, early off, middle off, 7:50.127 -8.173
+Note:        Mercury Cougar XR-7 '67 (Cinnamon Frost)
+ 118 +1 buy car goldCougar'67 Mercury Cougar XR-7 '67 (Cinnamon Frost)(prize,SlicenseB)(Cr40,187,trade)
+ 119 Cr420,350   1.0%   1015A 0B  IBlicense  0G 3S 76B  17cars
+ 119 power off
+Note: Notes on S16 repeated finishes
+Note: daring off, stupid early off, stupid off, stupid late off, disturbed
+Note: break, stupid middle off, early off   7:47.403 -10.897
+Note:        Mercury Cougar XR-7 '67 (Cinnamon Frost)  (dup, so reload)
+Note: after reset, stupid earlyish off, stupid early off, daring Aremburg off
+Note:  7:51.619 -6.681
+Note:        Mercury Cougar XR-7 '67 (Trafalgar Blue)
+ 119 +1 buy car blueCougar'67 Mercury Cougar XR-7 '67 (Trafalgar Blue)(prize,SlicenseB)(Cr40,187,trade)
+ 120 Cr380,163   1.0%   1015A 0B  IBlicense  0G 3S 76B  18cars
+ 120 power off
+Note: Left: Caspian Blue, Turquoise, Sheffield Silver, Sage Gold
+
+March 25, 2021
+Note: stupid early off, off, stupid early off, stupid early off, off, late off,
+Note:  7:58.036 -0.264(!)
+Note:        Mercury Cougar XR-7 '67 (Sage Gold)
+ 120 +1 buy car sageCougar'67 Mercury Cougar XR-7 '67 (Sage Gold)(prize,SlicenseB)(Cr40,187,trade)
+ 121 Cr339,976   1.0%   1015A 0B  IBlicense  0G 3S 76B  19cars
+ 121 power off
+
+March 26, 2021
+Note: 8:02.554 +4.254  middle off,  7:58.944 +0.644 (lost at end?)
+Note: off flug, 7:53.168  -5.132
+Note:        Mercury Cougar XR-7 '67 (Cumberland Beige) (dup, so reset)
+Note: off after karr, stupid early off,  7:51.803 -6.497
+Note:        Mercury Cougar XR-7 '67 (Jamaican Yellow)  (dup, so reset)
+Note: 7:46.836 -11.464  Mercury Cougar XR-7 '67 (Lime Frost)  (dup, so reset)
+Note: off flug, middle off,  7:44.071 -14.229(PB)
+Note:        Mercury Cougar XR-7 '67 (Turquoise)
+ 121 +1 buy car turqCougar'67 Mercury Cougar XR-7 '67 (Turquoise)(prize,SlicenseB)(Cr40,187,trade)
+ 122 Cr299,789   1.0%   1015A 0B  IBlicense  0G 3S 76B  20cars
+ 122 power off
+
+Note: 7:51.958 -6.342 w. major mishap
+Note:        Mercury Cougar XR-7 '67 (Jamaican Yellow)  (dup, so reset)
+Note: great but middle off,  7:51.237 -7.063  
+Note:        Mercury Cougar XR-7 '67 (Onyx) (dup, so reset)
+Note: good late middle off, silly early off, 7:48.688 -9.612 
+Note:        Mercury Cougar XR-7 '67 (Fawn) (dup, so reset)
+Note: good stupid late middle off,  7:49.409 -8.891
+Note:        Mercury Cougar XR-7 '67 (Inverness Green)  (dup, so reset)
+Note: stupid middle off,  7:48.213 -10.087
+Note:        Mercury Cougar XR-7 '67 (Sage Gold)  (dup, so reset)
+Note: stupid early off, stupid early off, 7:47.416 -10.884
+Note:        Mercury Cougar XR-7 '67 (Cardinal Red)  (dup, so reset)
+Note: stupid early off,  7:44.862 -13.438 
+Note:        Mercury Cougar XR-7 '67 (Trafalgar Blue)  (dup, so reset)
+
+Note: break,  7:57.677 -0.623
+Note:        Mercury Cougar XR-7 '67 (Fawn) (dup, so reset)
+Note: late off, early off,  7:54.630 -3.670 
+Note:        Mercury Cougar XR-7 '67 (Caspian Blue)(!)
+
+ 122 +1 buy car dkblueCougar'67 Mercury Cougar XR-7 '67 (Caspian Blue)(prize,SlicenseB)(Cr40,187,trade)
+ 123 Cr259,602   1.0%   1015A 0B  IBlicense  0G 3S 76B  21cars
+ 123 power off
+Note: Left: Sheffield Silver
+
+March 27, 2021
+Note:  off after kar, 7:47.038 -11.262 
+Note:        Mercury Cougar XR-7 '67 (Cumberland Beige)  (dup, so reset)
+Note:  off Adenau, middle off, daring middle off, 7:44.546 -13.754  
+Note:        Mercury Cougar XR-7 '67 (Polar White)  (dup, so reset)
+Note:  7:43.500 -14.800  (PB)
+Note:        Mercury Cougar XR-7 '67 (Polar White)(again) (dup, so reset)
+Note:  off middle, early off,  7:39.727 -18.573   (PB)(save replay)
+Note:        Mercury Cougar XR-7 '67 (Burgundy)  (dup, so reset)
+Note:  7:38.680 -19.620   (PB)(save replay)
+Note:        Mercury Cougar XR-7 '67 (Cinnamon Frost)  (dup, so reset)
+Note:  7:38.150 -20.150   (PB)(with bad end) (save replay)
+Note:        Mercury Cougar XR-7 '67 (Cumberland Beige)  (dup, so reset)
+Note:  break, silly off, early off, stupid off flug, off into kar,
+Note:     off in esses after kar, 7:39.081 -19.219    
+Note:        Mercury Cougar XR-7 '67 (Lime Frost)  (dup, so reset)
+Note:  7:38.194 -20.106 (close)
+Note:        Mercury Cougar XR-7 '67 (Cardinal Red)  (dup, so reset)
+Note:  early off, stupid early off, same off, off flug, great run off kleiner,
+Note:    7:41.744 -16.556 (great start)
+Note:        Mercury Cougar XR-7 '67 (Cardinal Red)(again)  (dup, so reset)
+Note:  7:39.152 -19.148    
+Note:        Mercury Cougar XR-7 '67 (Cardinal Red)(again)  (dup, so reset)
+Note:    3 Cardinal Red in a row?
+Note:  7:37.532 -20.768   (PB)(save replay)
+Note:        Mercury Cougar XR-7 '67 (Cinnamon Frost)  (dup, so reset)
+Note:  7:34.920 -23.380   (PB)(save replay)
+Note:        Mercury Cougar XR-7 '67 (Jamaican Yellow)  (dup, so reset)
+
+Note: March 27, 2021
+Note: Did a sacrifice game just to get a Lupo
+Note: Was interested to see how quickly I could do it.
+Note:
+Note: 6:34 took a while discovering how to choose my car view
+Note: 6:40
+Note:   License B-1  B 4 tries?  10.999 -0.301
+Note:   License B-2  B  1 try    11.999 -0.201
+Note:   License B-3  B  1 try    31.954 -1.546
+Note:   License B-4  B  1 try    30.279 -1.571
+Note:   License B-5  B Tsukuba lap 1 try  1:29.874 -7.126 +0.574S
+Note:   License B-6  B  1 try    24.681 -0.819
+Note:   License B-7  S 4 tries   27.598 -2.402  +0.598G
+Note:   License B-8  B  1 try    16,547 -0.053
+Note:   License B-9  B 4 tries   13.323 -0.177
+Note:   License B-10 B Laguna lap 2 tries   2:23.382 -5.418
+Note: 7:10pm pause for supper
+Note: 7:36pm
+Note:   License B-11 B 3 tries   19.060 -0.340
+Note:   License B-12 B  1 try    19.452 -0.048
+Note:   License B-13 B  1 try    23.545 -1.455
+Note:   License B-14 B  1 try    19.352 -0.848
+Note:   License B-15 B Infineon lap  1 try    2:25.048 -9.952
+Note: 7:47pm
+Note:   License B-16 B 3 tries   24.858 -0.822
+Note: 7:53pm
+Note:  +1 win car blackLupo Volkswagen Lupo 1.4'02 (black; "Sxhwarz Uni")(prize,BlicenseB)
+Note:  save, trade, then overwrite
+ 
+March 27, 2021
+ 123 +1 buy car blackLupo Volkswagen Lupo 1.4'02 (black; "Schwarz Uni")(prize,BlicenseB)(Cr13,166,trade)
+ 124 +1 buy car greenLupo Volkswagen Lupo 1.4'02 (yellow; "Fantasiagrun")(prize,BlicenseB)(Cr13,166,trade)
+ 125 Cr233,270   1.0%   1015A 0B  IBlicense  0G 3S 76B  23cars
+ 125 power off
+ 
+March 28, 2021
+Note: early off, 7:53.380 -4.920
+Note:        Mercury Cougar XR-7 '67 (Inverness Green)  (dup, so reset)
+Note:   Suzuka Circuit popping up as unlocked
+Note: early off, early off, 7:45.123 -13.177
+Note:        Mercury Cougar XR-7 '67 (Sage Gold)  (dup, so reset)
+Note: good run very late off, 7:45.381 -12.919
+Note:        Mercury Cougar XR-7 '67 (Trafalgar Blue)  (dup, so reset)
+Note: early off, 7:40.923 -17.377
+Note:        Mercury Cougar XR-7 '67 (Trafalgar Blue)(again)  (dup, so reset)
+
+March 29, 2021
+Note: early off, early off, middle off, 7:43.157 -15.143
+Note:        Mercury Cougar XR-7 '67 (Cumberland Beige)  (dup, so reset)
+Note: 2 stupid very early offs, bad late off, stupid early off,
+Note:   7:43.637 -14.663
+Note:        Mercury Cougar XR-7 '67 (Glacier Blue)  (dup, so reset)
+Note: off just before kar,  7:43.031 -15.269
+Note:        Mercury Cougar XR-7 '67 (Inverness Green)  (dup, so reset)
+Note: off just before kar, off Adenau, stupid early off, 7:36.530 -21.770
+Note:        Mercury Cougar XR-7 '67 (Onyx) (dup, so reset)
+
+Note: break, 8:06.184 +7.884?
+soso off after Bergwerk, 7:49.324 -8.976
+Note: if you load ghost replay, it does not set sector times
+Note:        Mercury Cougar XR-7 '67 (Fawn) (dup, so reset)
+
+Note: break, early off,middle off, off after Adenau,
+Note:    7:42.125 -16.175  bad finish
+Note:        Mercury Cougar XR-7 '67 (Trafalgar Blue)(again)  (dup, so reset)
+
+March 30, 2021
+Note: March 30, 2021 (early morning)
+Note: 7:43.659 -14.641
+Note:        Mercury Cougar XR-7 '67 (Onyx) (dup, so reset)
+Note: 7:40.724 -17.576  bad last 1/3
+Note:        Mercury Cougar XR-7 '67 (Fawn) (dup, so reset)
+
+Note: break, early off, off after Adenau, 7:37.370 -20.930
+Note:        Mercury Cougar XR-7 '67 (Inverness Green)  (dup, so reset)
+Note: great run very late off, off after Adenau 7:42.432 -15.868
+Note:        Mercury Cougar XR-7 '67 (Lime Frost)  (dup, so reset)
+Note: break, middle off, 7:37.903 -20.397
+Note:        Mercury Cougar XR-7 '67 (Trafalgar Blue)(again)  (dup, so reset)
+Note: break, off flug, 7:40.045 -18.255
+Note:        Mercury Cougar XR-7 '67 (Onyx) (dup, so reset)
+Note: break, 7:38.038 -20.262
+Note:        Mercury Cougar XR-7 '67 (Cinnamon Frost)  (dup, so reset)
+Note: break, off flug, off after flug, early off, early off, off after kar,
+Note:    7:33.387 -24.913 (PB)(save replay)
+Note:        Mercury Cougar XR-7 '67 (Sheffield Silver)(!)
+
+ 125 +1 buy car silverCougar'67 Mercury Cougar XR-7 '67 (Sheffield Silver)(prize,SlicenseB)(Cr40,187,trade)
+ 126 Cr193,083   1.0%   1015A 0B  IBlicense  0G 3S 76B  24cars
+ 126 power off
+@
+
+
+1.37
+log
+@Corrections.
+@
+text
+@d510 1
+a510 1
+Note: break, early off, off after Adenau, 7:37.370
+d512 1
+a512 1
+Note: great run very late off, off after Adenau 7:42.432
+d514 1
+a514 1
+Note: break, middle off, 7:37.903
+d516 1
+a516 1
+Note: break, off flug, 7:40.045
+d518 1
+a518 1
+Note: break, 7:38.038
+d521 1
+a521 1
+Note:    7:33.387 (PB)(save replay)
+@
+
+
+1.36
+log
+@A few more runs, and I finally got the Sheffield Silver!
+@
+text
+@d524 2
+a525 2
+ 126 +1 buy car silverCougar'67 Mercury Cougar XR-7 '67 (Sheffield Silver)(prize,SlicenseB)(Cr40,187,trade)
+ 126 Cr!93,083   1.0%   1015A 0B  IBlicense  0G 3S 76B  24cars
+@
+
+
+1.35
+log
+@Three more S16 finishes, no Sheffield Silver Cougar
+@
+text
+@d421 1
+a421 1
+Note:  break, silly off, early off, stupid off pflug, off into kar,
+d426 1
+a426 1
+Note:  early off, stupid early off, same off, off pflug, great run off kleiner,
+d509 18
+@
+
+
+1.34
+log
+@Two more attempts Mar 29.
+Finally tried loading ghost after completing a lap, and observed it
+does not seem to set the sector times.
+@
+text
+@d499 10
+@
+
+
+1.33
+log
+@Add time differences for March 29.
+@
+text
+@d494 5
+@
+
+
+1.32
+log
+@time differences for March 28.
+
+March 29 notes without time differences.
+@
+text
+@d484 1
+a484 1
+Note: early off, early off, middle off, 7:43.157
+d487 1
+a487 1
+Note:   7:43.637
+d489 1
+a489 1
+Note: off just before kar,  7:43.031
+d491 1
+a491 1
+Note: off just before kar, off Adenau, stupid early off, 7:36.530
+@
+
+
+1.31
+log
+@March 28 notes before adding time differences.
+@
+text
+@d473 1
+a473 1
+Note: early off 7:53.380
+d476 1
+a476 1
+Note: early off, early off, 7:45.123
+d478 1
+a478 1
+Note: good run very late off, 7:45.381
+d480 1
+a480 1
+Note: early off, 7:40.923
+d482 11
+@
+
+
+1.30
+log
+@Finish up March 27 notes on S16 Cougar attempts.
+@
+text
+@d471 11
+@
+
+
+1.29
+log
+@Use s16time filter to add time differences.
+Found a couple of errors in my notes.
+@
+text
+@d411 1
+a411 1
+7:44.546 -13.754  
+d413 1
+a413 1
+7:43.500 -14.800  
+d415 1
+a415 1
+7:39.727 -18.573   (PB)  
+d417 1
+a417 1
+7:38.680 -19.620   (PB)  
+d419 1
+a419 1
+7:38.150 -20.150   (PB)  
+d421 2
+a422 1
+7:39.081 -19.219    
+d424 1
+a424 1
+7:38.194 -20.106    
+d426 2
+a427 1
+7:41.744 -16.556    
+d429 1
+a429 1
+7:39.152 -19.148    
+d431 2
+a432 1
+7:37.532 -20.768   (PB)  
+d434 1
+a434 1
+7:34.920 -23.380   (PB)  
+@
+
+
+1.28
+log
+@Check in so we can test our time difference indicator script.
+@
+text
+@d411 1
+a411 1
+7:44.546  
+d413 1
+a413 1
+7:43.500  
+d415 1
+a415 1
+7:39.727   (PB)  
+d417 1
+a417 1
+7:38.680   (PB)  
+d419 1
+a419 1
+7:38.150   (PB)  
+d421 1
+a421 1
+7:39.081    
+d423 1
+a423 1
+7:38.194    
+d425 1
+a425 1
+7:41.744    
+d427 1
+a427 1
+7:39.152    
+d429 1
+a429 1
+7:37.532   (PB)  
+d431 1
+a431 1
+7:34.920   (PB)  
+@
+
+
+1.27
+log
+@Document a "sacrifiical game" in which I won the black Lupo.
+@
+text
+@d408 27
+d463 1
+@
+
+
+1.26
+log
+@Just log buying of other Lupo colours, too.
+@
+text
+@d407 28
+@
+
+
+1.25
+log
+@Reformat slightly.
+@
+text
+@d407 5
+@
+
+
+1.24
+log
+@End of March 26, 2021.
+Caspian Blue Cougar!  (Only Sheffield Silver left now)
+@
+text
+@d398 2
+a399 1
+Note: break,  7:57.677 -0.623   Mercury Cougar XR-7 '67 (Fawn) (dup, so reset)
+@
+
+
+1.23
+log
+@Added S16 retries notes.
+@
+text
+@d398 9
+@
+
+
+1.22
+log
+@Corrections.
+@
+text
+@d371 8
+d383 14
+@
+
+
+1.21
+log
+@Add S16 retry notes before March 26.
+At that point we began a session of limited success (as expected)
+@
+text
+@d338 1
+a338 1
+Note:        Mercury Cougar XR-7 '67 (Onyx)
+d365 1
+a365 1
+Note:        Mercury Cougar XR-7 '67 (Sage Gold)  (dup, so reload)
+@
+
+
+1.20
+log
+@March 24 to 26 2021; four more Cougar colours.
+@
+text
+@d344 3
+d350 7
+d360 1
+d363 3
+@
+
+
+1.19
+log
+@Fix last car total.
+ 
+Onyx Cougar (black)
+Fawn Cougar
+@
+text
+@d342 20
+@
+
+
+1.18
+log
+@days 114 to 116
+dup Polar White Cougar
+Glacier Blue Cougar
+Lime Frost Cougar
+@
+text
+@d326 1
+a326 1
+ 116 Cr540,911   1.0%   1015A 0B  IBlicense  0G 3S 76B  13cars
+d328 14
+@
+
+
+1.17
+log
+@Burgundy Cougar.
+@
+text
+@d310 18
 @
 
 

@@ -953,6 +953,7 @@ dostatusline {
 	}
 	# Assert $rest =~ /^Cr[0-9]/
 	# grr... seems difficult to undef $1 ...
+	# If you need to, 'a' =~ /a/   will do it. I.e. a successful match.
 
 	# Later check Ncars, medal counts perhaps license standing?
 

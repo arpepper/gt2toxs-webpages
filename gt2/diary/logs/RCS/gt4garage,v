@@ -1,10 +1,15 @@
-head	1.34;
+head	1.35;
 access;
 symbols;
 locks
-	arpepper:1.34; strict;
+	arpepper:1.35; strict;
 comment	@# @;
 
+
+1.35
+date	2021.03.30.01.22.56;	author arpepper;	state Exp;
+branches;
+next	1.34;
 
 1.34
 date	2021.03.17.17.15.48;	author arpepper;	state Exp;
@@ -182,11 +187,9 @@ desc
 @
 
 
-1.34
+1.35
 log
-@Added some use of "pragmas" to make this still work
-(i.e. not complain incorrectly, but do less checking) for GT3.
-In gt3-game1 we did lots of "   power off  CrNNN ..."
+@Added indicator of how to reset $1
 @
 text
 @#!/usr/bin/perl -w
@@ -1144,6 +1147,7 @@ dostatusline {
 	}
 	# Assert $rest =~ /^Cr[0-9]/
 	# grr... seems difficult to undef $1 ...
+	# If you need to, 'a' =~ /a/   will do it. I.e. a successful match.
 
 	# Later check Ncars, medal counts perhaps license standing?
 
@@ -1529,6 +1533,17 @@ if ($main::showlist =~ /,licen[sc]e,/ ) {
 
 	
 }
+@
+
+
+1.34
+log
+@Added some use of "pragmas" to make this still work
+(i.e. not complain incorrectly, but do less checking) for GT3.
+In gt3-game1 we did lots of "   power off  CrNNN ..."
+@
+text
+@d956 1
 @
 
 
