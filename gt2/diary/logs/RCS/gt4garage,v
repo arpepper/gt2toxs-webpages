@@ -1,10 +1,50 @@
-head	1.35;
+head	1.43;
 access;
 symbols;
 locks
-	arpepper:1.35; strict;
+	arpepper:1.43; strict;
 comment	@# @;
 
+
+1.43
+date	2021.04.07.20.52.43;	author arpepper;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2021.04.06.04.10.38;	author arpepper;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2021.04.06.02.50.36;	author arpepper;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2021.04.06.02.27.06;	author arpepper;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2021.04.05.23.00.57;	author arpepper;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2021.04.05.22.27.26;	author arpepper;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2021.04.05.21.27.50;	author arpepper;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2021.04.03.20.28.27;	author arpepper;	state Exp;
+branches;
+next	1.35;
 
 1.35
 date	2021.03.30.01.22.56;	author arpepper;	state Exp;
@@ -187,9 +227,10 @@ desc
 @
 
 
-1.35
+1.43
 log
-@Added indicator of how to reset $1
+@Throwing gt1 and gt2 logs against this found a few failed assertions
+of sorts.
 @
 text
 @#!/usr/bin/perl -w
@@ -220,6 +261,9 @@ $main::maxserieslen = 6;
 %main::track = ();
 
 %main::carlist = ();  # now carlist is just an error suppressor
+%main::origin = ();  # map carid to line which created it
+%main::carid = ();  # map usual shortform to a carid (can conflict?)
+$main::ncarsnow = 0;  # set to count when changes
 
 #
 # proposed new scheme would just mark things as sold, not shuffle arrays
@@ -267,12 +311,14 @@ lidsub() {  # sort B1..A1..IB1..IA1..S1..S16
 }
 
 sub
-caridsub() {
+caridsub() {  # sort carid1, carid10-2, carid100 ...
 	my($n1,$m1, $n2, $m2);
 
 	$n1 = $a;
 	$n1 =~ s/^car//;
+	$n1 =~ s/ .*$//;  # allow more on the line
 	$m1 = $a;
+	$m1 =~ s/ .*$//;  # allow more on the line
 	if ($m1 !~ /-/) {
 		$m1 = 1;
 	}
@@ -283,7 +329,9 @@ caridsub() {
 
 	$n2 = $b;
 	$n2 =~ s/^car//;
+	$n2 =~ s/ .*$//;  # allow more on the line
 	$m2 = $b;
+	$m2 =~ s/ .*$//;  # allow more on the line
 	if ($m2 !~ /-/) {
 		$m2 = 1;
 	}
@@ -334,15 +382,33 @@ gencarid { # every cars unequivocable ID is carNNN-N where NNN is gameday
 }
 
 sub
+carsnow {  # expensive count of cars today
+# try to call this only when we expect it to have changed
+# $main::ncarsnow = carsnow();
+	my($k,$i);
+	$i = 0;
+	foreach $k (sort caridsub keys %main::carids) {
+		if ($main::carstates{$k} ne "sold") {
+			#printf("%3d %s\n", $i+1, $main::carnames{$k});
+			++$i;
+		}
+	}
+	$i;
+}
+
+sub
 getcar {
-	my($shortform,$fullname) = @@_;
+	my($shortform,$fullname,$line) = @@_;
 	my($newid);
 
 	$newid = &gencarid();
-	$main::carids{$newid} = $shortform;
+	$main::carids{$newid} = $shortform;  # actually see findcarid
 	$main::carnames{$newid} = $fullname;
 	$main::carstates{$newid} = "got";   # s.b. "won" or "new" or "used"?
 	$main::carlist{$shortform} = $shortform;
+	$main::origin{$newid} = $line;
+	$main::carid{$shortform} = $newid;
+	$main::ncarsnow = carsnow();   # expensive?
 }
 
 sub
@@ -446,6 +512,7 @@ sellcarid {
 	if ($main::showlist =~ /,sold,/i ) {
 		print "${main::maxtoday}:$match ($what) sold!\n";
 	}
+	$main::ncarsnow = carsnow();   # expensive?
 }
 
 sub
@@ -455,6 +522,7 @@ sellentry {
 
 	$i = 0;
 	$what = "";
+	$temp = "";
 	foreach $k (sort caridsub keys %main::carids) {
 		if ($main::carstates{$k} ne "sold") {
 			if (++$i == $num) {
@@ -475,10 +543,12 @@ sellentry {
 	else {
 		print "${main::maxtoday}:Entry $num ($temp) doesn't match \/$car\/\n";
 	}
+	$main::ncarsnow = carsnow();   # expensive?
 }
 
 sub
 marksold {
+	# I do not think we use this
 	my($id) = @@_;
 
 	$main::carstates{$id} = "sold";   # I think that's all we need, now
@@ -503,6 +573,7 @@ sellcar {
 		if ($temp eq "$car" && $main::carstates{$ix} ne "sold") {
 			$what = $temp;
 			$main::carstates{$ix} = "sold";
+			$main::ncarsnow = carsnow();   # expensive?
 			return $what;
 		}
 	}
@@ -514,6 +585,7 @@ sellcar {
 		if ($temp eq "$car" && $main::carstates{$ix} ne "sold") {
 			$what = $temp;
 			$main::carstates{$ix} = "sold";
+			$main::ncarsnow = carsnow();   # expensive?
 			return $what;
 		}
 	}
@@ -523,6 +595,7 @@ sellcar {
 				$main::carstates{$ix} ne "sold") {
 			$what = $temp;
 			$main::carstates{$ix} = "sold";
+			$main::ncarsnow = carsnow();   # expensive?
 			return $what;
 		}
 	}
@@ -538,6 +611,7 @@ sellcar {
 				$main::carstates{$ix} ne "sold") {
 			$what = $temp;
 			$main::carstates{$ix} = "sold";
+			$main::ncarsnow = carsnow();   # expensive?
 			return $what;
 		}
 	}
@@ -658,6 +732,7 @@ sell {
 			}
 		}
 	}
+	$main::ncarsnow = carsnow();   # expensive?
 }
 
 sub
@@ -713,6 +788,7 @@ doselect{
 		}
 		if ( findcarid($1,$line) ) {
 			$main::selected = $1;
+			addcarlog($1,$line);		
 			return;
 		}
 	}
@@ -760,7 +836,7 @@ updatemedal {
 
 sub
 dolicenseline {
-	my($line,$start,$end) = @@_;
+	my($line,$rest,$start,$end) = @@_;
 	my($diff);
 	my($lid,$medal);
 
@@ -777,23 +853,27 @@ dolicenseline {
 	# Almost need completely different routine for GT3, but maybe not?
 	return if $main::pragmas !~ /,gt4,/;
 
-	$lid = $line;   # Note, line includes the day number
-	$lid =~ s/\s*\d+\s+//;  # Remove day number
+	$lid = $rest;   # Note, line includes the day number
+	#$lid =~ s/\s*\d+\s+//;  # Remove day number
 	$lid =~ s/^licen[^ ]*\s+//;   # Must be a license line
+	$lid =~ s/^\s+//;
 	$lid =~ s/\s+.*$//;
 	$lid =~ s/\n//g;
 	$lid =~ s/\(.*//;  # Allow a parenthetical (!) or something
 	if ($lid =~ /coffee/) {
 		; # handle coffee later
 	}
-	elsif ($lid !~ /^[I]{0,1}[BAS][\d]{1,2}$/ || $lid =~ /IS/) {
+	# Note Gran Turismo actually uses hyphens in test names, e.g. S-16
+	elsif ($lid !~ /^[I]{0,1}[BAS][\-]{0,1}[\d]{1,2}$/ || $lid =~ /IS/) {
 		&warn("Bad license line (result first?): $line\n");
 	}
 	else {
-		$medal = $line;
-		$medal =~ s/\s*\d+\s+//;  # Remove day number
+		$lid =~ s/[\-]//;  # allow B-1, but use B1 internally
+		$medal = $rest;
+		#$medal =~ s/\s*\d+\s+//;  # Remove day number
 		$medal =~ s/^licen[^ ]*\s+//;
-		$medal =~ s/^I{0,1}[BAS]\d+(\([^ ]*){0,1}\s+//;  # Remove $lid; we allow IS!
+		$medal =~ s/^\s+//;
+		$medal =~ s/^I{0,1}[BAS]\d+[\-]{0,1}(\([^ ]*){0,1}\s+//;  # Remove $lid; we allow IS!
 		if ( $medal =~ /^([FBSG])\b/ ) {
 			$medal = $1;
 		}
@@ -861,9 +941,12 @@ check_event {
 	my($event) = @@_;
 	my($league,$series,$track,$rest);
 
-	$event =~ /([^\/]*)\/(.*)/;
-	($league,$series) = ($1,$2);
-	return 0 if !defined($main::league{$league});
+	return 0 if !defined($event);
+	if ( $event =~ /([^\/]*)\/(.*)/ ) {
+		($league,$series) = ($1,$2);
+	}
+	return 0 if !defined($league) || !defined($main::league{$league});
+	return 0 if !defined($series);
 	if ($series =~ /[\/]/) {
 		$series =~ /([^\/]*)\/(.*)/;
 		($series,$track) = ($1,$2);
@@ -898,8 +981,13 @@ doseriesline {
 	$main::mintoday = $end + 1;
 	$main::maxtoday = $end + 1;
 	$none = 1;
-	$rest =~ /(\S+)\s+(\S+)\s+(.*)/;
-	($car,$event,$after) = ($1,$2,$3);
+	if ($rest =~ /(\S+)\s+(\S+)\s+(.*)/ ) {
+		($car,$event,$after) = ($1,$2,$3);
+	}
+	if ( !defined($event) ) {
+		&warn("event not defined: $line\n");
+		return;
+	}
 	if (&check_event($event) == 0) {
 		&warn("Unrecognized race: $event\n");
 		$event = " ";
@@ -913,7 +1001,7 @@ doseriesline {
 		$car =~ s/^\s*//;
 		$car =~ s/[,\s].*//;
 		checkcar($car,$line);
-	
+		addcarlog($car,$line);
 		
 	}
 	$none = 0;
@@ -972,7 +1060,7 @@ doseriesline {
 	push @@main::events,"${race}: $prize";
 	if ($status ne "(sold)" && $line !~ /[(]sold[)]/ ) {
 		if ($prize !~ /credits/ && &otherprize($prize) == 0) {
-			getcar($prize,"$prize(prize, $race)");
+			getcar($prize,"$prize(prize, $race)",$line);
 		}
 	}
 }
@@ -1056,9 +1144,12 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 				$id = $k;
 			}
 			else {
-				# should we warn here?
+				if ($line ne "") {
+					# should we warn here?
 				&warn("Ambiguous car ($carname): $line\n");
-				return undef;
+					# Use first if $line is not set
+					return undef;
+				}
 			}
 		}
 
@@ -1181,6 +1272,15 @@ dostatusline {
 			&warn("$logresults ne $s: $line\n");
 		}
 	}
+	if ( ( $main::showlist =~ /,warn,/i || $main::showlist !~ /,garage,/)
+		 && $rest =~ m:\b([0-9]{1,4})[ ]{0,3}car[s]{0,1}\b:i ) {
+		# commas?
+		my ($logncars);
+		$logncars = $1;
+		if ($logncars != $main::ncarsnow) {
+			&warn("Car count not ${main::ncarsnow}): $line\n");
+		}
+	}
 
 	$main::mintoday = $r2;
 	$main::maxtoday = $r2;
@@ -1206,17 +1306,18 @@ dodaynote {
 				$fullname =~ s/->\s.*//;
 				$fullname =~ s/\s*$//;
 				$fullname =~ s/^\s*//;
-				&getcar($sf,$fullname);
+				&getcar($sf,$fullname,$line);
 				if ($main::showlist =~ /,buy,/i) {
-					print "${main::maxtoday}:buy $fullname.\n";
+					print "${main::maxtoday}:buy $sf - $fullname.\n";
 				}
 			}
 			else {
-				&getcar($sf,$sf);
+				&getcar($sf,$sf,$line);
 			}
 		}
 		elsif ($stuff =~ /^\s*parts\s+(\S+) /) {
 			checkcar($1,$line);
+			addcarlog($1,$line);
 		}
 		elsif ($stuff =~ /^\s*wheels\s+/) {
 			;
@@ -1228,6 +1329,9 @@ dodaynote {
 	if ($rest =~ /^win\s+(.*)/ && defined($1)) {
 		$stuff = $1;
 #print "stuff:$stuff\n";
+		if ($main::selected ne "") {
+			addcarlog($main::selected,$line);
+		}
 		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
 			$sf = $1;
 			if ($stuff =~ /^\s*car\s+(\S+)\s+(.+)/ && defined($2) ) {
@@ -1236,13 +1340,13 @@ dodaynote {
 				$fullname =~ s/->\s.*//;
 				$fullname =~ s/\s*$//;
 				$fullname =~ s/^\s*//;
-				getcar($sf,$fullname);
+				getcar($sf,$fullname,$line);
 				if ($main::showlist =~ /,buy,/i) {
-					print "${main::maxtoday}:win $fullname.\n";
+					print "${main::maxtoday}:win $sf - $fullname.\n";
 				}
 			}
 			else {
-				getcar($sf,$sf);
+				getcar($sf,$sf,$line);
 			}
 		}
 		else {
@@ -1255,6 +1359,7 @@ dodaynote {
 # this was cheating; eventually identifier will be checked
 		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
 			checkcar($1,$line);
+			addcarlog($1,$line);
 		}
 		else {
 			&warn("Bad mod: $line\n");
@@ -1302,6 +1407,18 @@ getlog {  # get lines, closing includes
 }
 
 my($log,$daylimit);
+
+%main::carlogs = ();
+sub
+addcarlog {
+	my($car,$line) = @@_;
+
+	if (!defined($main::carlogs{$car})) {
+		$main::carlogs{$car} = "";
+	}
+	$main::carlogs{$car} .= $line."\n";
+}
+	
 
 while ( defined($ARGV[0]) ) {
 	my($temp);
@@ -1424,6 +1541,15 @@ while (defined($_ = &getlog())) {
 	elsif ( $rest =~ /^Cr[0-9]/ ) {
 		&dostatusline($line,$rest,$r1,$r2);
 	}
+	elsif ( $rest =~ /^power\b/ ) {
+		$rest =~ s/^power\s*//;  # process stats on power off lines
+		$rest =~ s/^off\s*//;
+		&dostatusline($line,$rest,$r1,$r2);
+	}
+	elsif ( $rest =~ /^reset\b/ ) {
+		$rest =~ s/^reset\s*//;  # process stats on reset lines
+		&dostatusline($line,$rest,$r1,$r2);
+	}
 	elsif ( $rest =~ /^select\b/ ) {
 		&doselect($line,$rest,$r1,$r2);
 	}
@@ -1432,8 +1558,6 @@ while (defined($_ = &getlog())) {
 		$rest =~ /^fit\b/ ||
 		$rest =~ /^mod\b/ ||
 		$rest =~ /^perm\b/ ||
-		$rest =~ /^power\b/ ||
-		$rest =~ /^reset\b/ ||
 		$rest =~ /^sell\b/ ||
 		$rest =~ /^skip\b/ ||
 		$rest =~ /^wash\b/ ||
@@ -1443,11 +1567,11 @@ while (defined($_ = &getlog())) {
 	elsif ( $r1 ne "" && $rest =~ /^licen[sc]e/ ) {
 		if ($line =~ /^\s*\d+\s+\+\d+/ ) {
 			# for historical reasons, use $r2-1
-			&dolicenseline($line,$r1,$r2-1);
+			&dolicenseline($line,$rest,$r1,$r2-1);
 			# at least until we reason it out
 		}
 		else {
-			&dolicenseline($line,$r1,$r2);
+			&dolicenseline($line,$rest,$r1,$r2);
 		}
 	}
 	elsif ( $r1 ne "" && $line =~ /^\s*\d+\-\d+\s+/ ) {
@@ -1533,6 +1657,232 @@ if ($main::showlist =~ /,licen[sc]e,/ ) {
 
 	
 }
+if ($main::showlist =~ /,origin,/ ) {
+	# Shows origins based on carid
+	my($i,@@sorted);
+	@@sorted = sort caridsub keys %main::origin;
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		printf("%s - %s\n", $sorted[$i], $main::origin{$sorted[$i]} );
+	}
+}
+if ($main::showlist =~ /,carlog,/ ) {
+	my($i,@@sorted);
+	@@sorted = sort keys %main::carlogs;
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		my($sf,$ci,$org);
+		$sf = $sorted[$i];
+		#$ci = $main::carid{$sf};
+		$ci = findcarid($sf,"");
+		if (defined($ci) && defined($main::origin{$ci}) ) {
+			$org = $main::origin{$ci}."\n";
+		}
+		else {
+			$org = "";
+		}
+		printf("%s:\n", $sf );
+		printf("%s", $org );
+		printf("%s\n", $main::carlogs{$sorted[$i]} );
+	}
+}
+
+@
+
+
+1.42
+log
+@Usually use the first applicable cardef.
+There is a problem when an explicit cardef occurs after the
+appropriate one for acquisition.
+
+Log prizes won to the currently selected car.
+A problem is that we leave selection selected when doing missions.
+@
+text
+@d31 1
+d150 15
+d176 1
+d280 1
+d290 1
+d311 1
+d316 1
+d341 1
+d353 1
+d363 1
+d379 1
+d500 1
+d709 6
+a714 3
+	$event =~ /([^\/]*)\/(.*)/;
+	($league,$series) = ($1,$2);
+	return 0 if !defined($main::league{$league});
+d749 7
+a755 2
+	$rest =~ /(\S+)\s+(\S+)\s+(.*)/;
+	($car,$event,$after) = ($1,$2,$3);
+d1040 9
+d1452 1
+@
+
+
+1.41
+log
+@Discovered I already had findcarid routine.
+But there is a problem that really you want to evaluate each
+carid at the game day it is selected, not afterwards.
+That is not very easy.
+ 
+But, for instance, if you do
+./gt4garage show=carlog gt4-game1 500
+by limiting days evaluated to 500, you avoid some ambiguities.
+@
+text
+@d878 2
+a879 1
+				# should we warn here?
+d881 3
+a883 1
+				return undef;
+d1054 3
+@
+
+
+1.40
+log
+@Arranged to indicate origin of most cars, but a few don't get any.
+Also I seem to have a bad habit of re-using the shortform, thereby
+overwriting and earlier one with a later one.  E.g. the result
+shows car obtained after being used.
+@
+text
+@d154 1
+a154 1
+	$main::carids{$newid} = $shortform;
+d1390 2
+a1391 1
+		$ci = $main::carid{$sf};
+@
+
+
+1.39
+log
+@Working towards showing the car origin in carlog.
+Can now show the log line which is the origin of each carid.
+@
+text
+@d29 2
+d159 1
+d1388 12
+a1399 1
+		printf("%s:\n%s\n", $sorted[$i], $main::carlogs{$sorted[$i]} );
+@
+
+
+1.38
+log
+@Add short form to "buy" (actually acquisition) output.
+@
+text
+@d76 1
+a76 1
+caridsub() {
+d81 1
+d83 1
+d94 1
+d96 1
+d148 1
+a148 1
+	my($shortform,$fullname) = @@_;
+d156 1
+d791 1
+a791 1
+			getcar($prize,"$prize(prize, $race)");
+d1025 1
+a1025 1
+				&getcar($sf,$fullname);
+d1031 1
+a1031 1
+				&getcar($sf,$sf);
+d1056 1
+a1056 1
+				getcar($sf,$fullname);
+d1062 1
+a1062 1
+				getcar($sf,$sf);
+d1372 8
+@
+
+
+1.37
+log
+@Sudden inspiration to add show=carlog
+Works well except it doesn't show the origins of the car.
+Seems to suggest I only used at most 162 of my 538 cars.
+
+Works for GT3, too.  (51 of 149 were used)
+@
+text
+@d1022 1
+a1022 1
+					print "${main::maxtoday}:buy $fullname.\n";
+d1053 1
+a1053 1
+					print "${main::maxtoday}:win $fullname.\n";
+@
+
+
+1.36
+log
+@Changes to hopefully allow lines like...
+ 135 power off Cr429,209   1.0%   1015A 0B   Slicense  0G 3S 77B  28cars
+Also changes to allow
+ 2547     license S-16 S Nurb   7:20.233S  (many tries)  +12.533G
+I.e. hyphens in license test names.
+@
+text
+@d522 1
+d727 1
+a727 1
+	
+d1031 1
+d1070 1
+d1119 12
+d1367 7
+@
+
+
+1.35
+log
+@Added indicator of how to reset $1
+@
+text
+@d569 1
+a569 1
+	my($line,$start,$end) = @@_;
+d586 2
+a587 2
+	$lid = $line;   # Note, line includes the day number
+	$lid =~ s/\s*\d+\s+//;  # Remove day number
+d589 1
+d596 2
+a597 1
+	elsif ($lid !~ /^[I]{0,1}[BAS][\d]{1,2}$/ || $lid =~ /IS/) {
+d601 3
+a603 2
+		$medal = $line;
+		$medal =~ s/\s*\d+\s+//;  # Remove day number
+d605 2
+a606 1
+		$medal =~ s/^I{0,1}[BAS]\d+(\([^ ]*){0,1}\s+//;  # Remove $lid; we allow IS!
+d1237 9
+a1253 2
+		$rest =~ /^power\b/ ||
+		$rest =~ /^reset\b/ ||
+d1263 1
+a1263 1
+			&dolicenseline($line,$r1,$r2-1);
+d1267 1
+a1267 1
+			&dolicenseline($line,$r1,$r2);
 @
 
 
