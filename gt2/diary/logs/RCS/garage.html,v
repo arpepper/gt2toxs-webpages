@@ -1,38 +1,33 @@
-head	1.35;
+head	1.34;
 access;
 symbols;
 locks
-	gt2toxs:1.35; strict;
+	arpepper:1.34; strict;
 comment	@# @;
 
 
-1.35
-date	2021.03.31.02.47.45;	author gt2toxs;	state Exp;
-branches;
-next	1.34;
-
 1.34
-date	2021.03.22.19.57.47;	author gt2toxs;	state Exp;
+date	2021.04.04.00.55.29;	author arpepper;	state Exp;
 branches;
 next	1.33;
 
 1.33
-date	2019.05.29.22.28.08;	author gt2toxs;	state Exp;
+date	2021.04.04.00.50.36;	author arpepper;	state Exp;
 branches;
 next	1.32;
 
 1.32
-date	2019.04.15.22.50.20;	author arpepper;	state Exp;
+date	2021.03.31.02.31.22;	author arpepper;	state Exp;
 branches;
 next	1.31;
 
 1.31
-date	2019.04.15.22.29.20;	author arpepper;	state Exp;
+date	2021.03.31.02.30.21;	author arpepper;	state Exp;
 branches;
 next	1.30;
 
 1.30
-date	2019.04.15.22.00.00;	author arpepper;	state Exp;
+date	2021.03.22.19.32.12;	author arpepper;	state Exp;
 branches;
 next	1.29;
 
@@ -188,9 +183,10 @@ the logs.
 @
 
 
-1.35
+1.34
 log
-@Correct second mention of "and, so far, only".
+@Correct a left-over ".txt" for gt2-v1.2
+Switch from "post" to "get" action.
 @
 text
 @<html>
@@ -223,7 +219,7 @@ Incorporated.
 </td></tr></table>
 <hr>
 <table width="85%"><tr><td width="10%"></td><td>
-<form method="post" action="garage.cgi">
+<form method="get" action="garage.cgi">
 
 <p>
 The following are text files with somewhat detailed results for all the
@@ -278,7 +274,7 @@ Gran Turismo 2 games:
 My first and main Gran Turismo 2 game.
 That <a href="garage.cgi?garage=gt2-game1?simday=">garage</a> so far.
 </li>
-<li><a href="gt2-v1.2.txt">gt2-v1.2</a> <a href="textview.cgi?filename=gt2-v1.2">gt2-v1.2</a> -
+<li><a href="gt2-v1.2">gt2-v1.2</a> <a href="textview.cgi?filename=gt2-v1.2">gt2-v1.2</a> -
 A moderately lengthy game using my version 1.2 disk
 That <a href="garage.cgi?garage=gt2-v1.2?simday=">garage</a> so far.
 </li>
@@ -505,11 +501,228 @@ game on day
 @
 
 
-1.34
+1.33
 log
-@Added gt4-game2.
- 
-Added gt3 and gt4 games to the garage viewer selection menu.
+@Bring back changes from ~gt2toxs
+Use cgi local to our directory.
+Add gt1-2014 and gt1-2019.
+(Strangely we added gt4-game2 already).
+@
+text
+@d31 1
+a31 1
+<form method="post" action="garage.cgi">
+d86 1
+a86 1
+<li><a href="gt2-v1.2.txt">gt2-v1.2</a> <a href="textview.cgi?filename=gt2-v1.2">gt2-v1.2</a> -
+@
+
+
+1.32
+log
+@Correct second mention of "and, so far, only".
+@
+text
+@d31 1
+a31 1
+<form method="post" action="/cgi-bin/cgiwrap/arpepper/garage">
+d47 1
+a47 1
+<li><a href="gt4-game2">gt4-game2</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt4-game2">gt4-game2</a> -
+d49 1
+a49 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt4-game2?simday=">garage</a> so far.
+d57 1
+a57 1
+<li><a href="gt4-game1">gt4-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt4-game1">gt4-game1</a> -
+d59 1
+a59 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt4-game1?simday=">garage</a> so far.
+d61 1
+a61 1
+<li><a href="gt4-racedefs">gt4-racedefs</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt4-racedefs">gt4-racedefs</a> -
+d70 1
+a70 1
+<li><a href="gt3-game1">gt3-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt3-game1">gt3-game1</a> -
+d72 1
+a72 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt3-game1?simday=">garage</a> so far.
+d74 1
+a74 1
+<li><a href="gt3-racedefs">gt3-racedefs</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt3-racedefs">gt3-racedefs</a> -
+d82 1
+a82 1
+<li><a href="gt2-game1">gt2-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-game1">gt2-game1</a> -
+d84 1
+a84 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-game1?simday=">garage</a> so far.
+d86 1
+a86 1
+<li><a href="gt2-v1.2.txt">gt2-v1.2</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-v1.2">gt2-v1.2</a> -
+d88 1
+a88 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-v1.2?simday=">garage</a> so far.
+d90 1
+a90 1
+<li><a href="gt2-boom">gt2-boom</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-boom">gt2-boom</a> -
+d93 1
+a93 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-boom?simday=">garage</a> when finished.   <img src="../../../bitmaps/happyfrog.gif" alt="8-)">
+d95 1
+a95 1
+<li><a href="gt2-tm30">gt2-tm30</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-tm30">gt2-tm30</a> -
+d98 1
+a98 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-tm30?simday=">garage</a> when finished.
+d100 1
+a100 1
+<li><a href="gt2-race2pr">gt2-race2pr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-race2pr">gt2-race2pr</a> -
+d103 1
+a103 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-race2pr?simday=">garage</a> so far.
+d105 1
+a105 1
+<li><a href="gt2-normpr">gt2-normpr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-normpr">gt2-normpr</a> -
+d109 1
+a109 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-normpr?simday=">garage</a> so far.
+d111 1
+a111 1
+<li><a href="gt2-histcar">gt2-histcar</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-histcar">gt2-histcar</a> -
+d114 1
+a114 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-histcar?simday=">garage</a> so far.
+d116 1
+a116 1
+<li><a href="gt2-racepr">gt2-racepr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-racepr">gt2-racepr</a> -
+d119 1
+a119 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-racepr?simday=">garage</a> so far.
+d121 1
+a121 1
+<li><a href="gt2-day5ib">gt2-day5ib</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-day5ib">gt2-day5ib</a> -
+d125 1
+a125 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-day5ib?simday=">garage</a> when finished.
+d127 1
+a127 1
+<li><a href="gt2-day7s">gt2-day7s</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-day7s">gt2-day7s</a> -
+d130 1
+a130 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-day7s?simday=">garage</a> when finished.
+d138 1
+a138 1
+<li><a href="main">main</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/main">main</a> -
+d141 1
+a141 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=main?simday=">garage</a> right now.
+d143 1
+a143 1
+<li><a href="blue">blue</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/blue">blue</a> -
+d145 1
+a145 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=blue?simday=">garage</a> when finished.
+d147 1
+a147 1
+<li><a href="allstars">allstars</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/allstars">allstars</a> -
+d150 1
+a150 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=allstars?simday=">garage</a> so far.
+d152 1
+a152 1
+<li><a href="silver">silver</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/silver">silver</a> -
+d154 1
+a154 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=silver?simday=">garage</a> when finished.
+d156 1
+a156 1
+<li><a href="gold">gold</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gold">gold</a> -
+d159 1
+a159 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gold?simday=">garage</a> when finished.
+d161 1
+a161 1
+<li><a href="platinum">platinum</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/platinum">platinum</a> -
+d165 1
+a165 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=platinum?simday=">garage</a> when finished.
+d167 1
+a167 1
+<li><a href="hastings">hastings</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/hastings">hastings</a> -
+d172 1
+a172 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=hastings?simday=">garage</a> when finished.
+d174 1
+a174 1
+<li><a href="nismo">nismo</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nismo">nismo</a> -
+d178 1
+a178 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=nismo?simday=">garage</a> so far.
+d180 1
+a180 1
+<li><a href="fairlady">fairlady</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fairlady">fairlady</a> -
+d183 1
+a183 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=fairlady?simday=">garage</a> when finished.
+d185 1
+a185 1
+<li><a href="fiji">fiji</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fiji">fiji</a> -
+d195 1
+a195 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=fiji?simday=">garage</a> when done.
+d197 1
+a197 1
+<li><a href="lancer">lancer</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/lancer">lancer</a> -
+d200 1
+a200 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=lancer?simday=">garage</a> when done.
+d202 1
+a202 1
+<li><a href="proper">proper</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> -
+d205 1
+a205 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=proper?simday=">garage</a> when finished.
+d207 1
+a207 1
+<li><a href="nissan">nissan</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nissan">nissan</a> -
+d209 1
+a209 1
+<li><a href="supra">supra</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/supra">supra</a> -
+d215 1
+a215 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=supra?simday=">garage</a> when finished.
+d217 1
+a217 1
+<li><a href="gt1-24hour">gt1-24hour</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-24hour">gt1-24hour</a> -
+d221 1
+a221 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt1-24hour?simday=">garage</a> when finished.
+d224 1
+a224 1
+<li><a href="gt1-mazda">gt1-mazda</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-mazda">gt1-mazda</a> -
+d233 1
+a233 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt1-mazda?simday=">garage</a> when finished.
+d235 1
+a235 1
+<li><a href="gt1-tuned">gt1-tuned</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-tuned">gt1-tuned</a> -
+d238 1
+a238 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt1-tuned?simday=">garage</a> so far.
+d240 8
+d249 1
+a249 1
+<li><a href="starter">starter</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/starter">starter</a> -
+d253 1
+a253 1
+That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=starter?simday=">garage</a> when finished.
+d291 2
+@
+
+
+1.31
+log
+@Take 1 of addition of gt4-game2
 @
 text
 @d58 1
@@ -518,55 +731,15 @@ My first and, so far, only Gran Turismo 4 game.
 @
 
 
-1.33
-log
-@Add gt1-2019.
-With the same lame joke as in the geocities version.
-@
-text
-@d44 10
-d55 1
-a55 1
-first and, so far, only Gran Turismo 4 game:
-d264 3
-@
-
-
-1.32
-log
-@Correct a couple of cgi references for gt1-2014
-@
-text
-@d235 4
-d279 1
-@
-
-
-1.31
-log
-@Corrected name of gt1-2014 in menu.
-@
-text
-@d230 1
-a230 1
-<li><a href="gt1-2014">gt1-2014</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-2014">gt1-2014</a> -
-d233 1
-a233 1
-That <a href="garage=gt1-2014?simday=">garage</a> so far.
-@
-
-
 1.30
 log
-@Oops.  I never corrected this RCS file when I changed from /cgiwrap/
-invocation to simply garage.cgi
-
-And today I also added gt1-2014 references.
+@Might as well update this, although the cgi is unlikely to work anywhere.
 @
 text
-@d274 1
-a274 1
-	<option value="gt1-2014">gt2-racepr</option>
+@d47 2
+a48 2
+<li><a href="gt4-game2">gt4-game2</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt4-game2">gt4-game1</a> -
+My first and, so far, only Gran Turismo 4 game.
 @
 
 
@@ -575,194 +748,11 @@ log
 @Added gt4-game1, gt4-racedefs and also gt3-rqacedefs.
 @
 text
-@d31 1
-a31 1
-<form method="post" action="/cgi-bin/cgiwrap/arpepper/garage">
-d47 1
-a47 1
-<li><a href="gt4-game1">gt4-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt4-game1">gt4-game1</a> -
-d49 1
-a49 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt4-game1?simday=">garage</a> so far.
-d51 1
-a51 1
-<li><a href="gt4-racedefs">gt4-racedefs</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt4-racedefs">gt4-racedefs</a> -
-d60 1
-a60 1
-<li><a href="gt3-game1">gt3-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt3-game1">gt3-game1</a> -
-d62 1
-a62 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt3-game1?simday=">garage</a> so far.
-d64 1
-a64 1
-<li><a href="gt3-racedefs">gt3-racedefs</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt3-racedefs">gt3-racedefs</a> -
-d72 1
-a72 1
-<li><a href="gt2-game1">gt2-game1</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-game1">gt2-game1</a> -
-d74 1
-a74 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-game1?simday=">garage</a> so far.
-d76 1
-a76 1
-<li><a href="gt2-v1.2.txt">gt2-v1.2</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-v1.2">gt2-v1.2</a> -
-d78 1
-a78 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-v1.2?simday=">garage</a> so far.
-d80 1
-a80 1
-<li><a href="gt2-boom">gt2-boom</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-boom">gt2-boom</a> -
-d83 1
-a83 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-boom?simday=">garage</a> when finished.   <img src="../../../bitmaps/happyfrog.gif" alt="8-)">
-d85 1
-a85 1
-<li><a href="gt2-tm30">gt2-tm30</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-tm30">gt2-tm30</a> -
-d88 1
-a88 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-tm30?simday=">garage</a> when finished.
-d90 1
-a90 1
-<li><a href="gt2-race2pr">gt2-race2pr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-race2pr">gt2-race2pr</a> -
-d93 1
-a93 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-race2pr?simday=">garage</a> so far.
-d95 1
-a95 1
-<li><a href="gt2-normpr">gt2-normpr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-normpr">gt2-normpr</a> -
-d99 1
-a99 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-normpr?simday=">garage</a> so far.
-d101 1
-a101 1
-<li><a href="gt2-histcar">gt2-histcar</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-histcar">gt2-histcar</a> -
-d104 1
-a104 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-histcar?simday=">garage</a> so far.
-d106 1
-a106 1
-<li><a href="gt2-racepr">gt2-racepr</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-racepr">gt2-racepr</a> -
-d109 1
-a109 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-racepr?simday=">garage</a> so far.
-d111 1
-a111 1
-<li><a href="gt2-day5ib">gt2-day5ib</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-day5ib">gt2-day5ib</a> -
-d115 1
-a115 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-day5ib?simday=">garage</a> when finished.
-d117 1
-a117 1
-<li><a href="gt2-day7s">gt2-day7s</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt2-day7s">gt2-day7s</a> -
-d120 1
-a120 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt2-day7s?simday=">garage</a> when finished.
-d128 1
-a128 1
-<li><a href="main">main</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/main">main</a> -
-d131 1
-a131 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=main?simday=">garage</a> right now.
-d133 1
-a133 1
-<li><a href="blue">blue</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/blue">blue</a> -
-d135 1
-a135 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=blue?simday=">garage</a> when finished.
-d137 1
-a137 1
-<li><a href="allstars">allstars</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/allstars">allstars</a> -
-d140 1
-a140 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=allstars?simday=">garage</a> so far.
-d142 1
-a142 1
-<li><a href="silver">silver</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/silver">silver</a> -
-d144 1
-a144 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=silver?simday=">garage</a> when finished.
-d146 1
-a146 1
-<li><a href="gold">gold</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gold">gold</a> -
-d149 1
-a149 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gold?simday=">garage</a> when finished.
-d151 1
-a151 1
-<li><a href="platinum">platinum</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/platinum">platinum</a> -
-d155 1
-a155 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=platinum?simday=">garage</a> when finished.
-d157 1
-a157 1
-<li><a href="hastings">hastings</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/hastings">hastings</a> -
-d162 1
-a162 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=hastings?simday=">garage</a> when finished.
-d164 1
-a164 1
-<li><a href="nismo">nismo</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nismo">nismo</a> -
-d168 1
-a168 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=nismo?simday=">garage</a> so far.
-d170 1
-a170 1
-<li><a href="fairlady">fairlady</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fairlady">fairlady</a> -
-d173 1
-a173 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=fairlady?simday=">garage</a> when finished.
-d175 1
-a175 1
-<li><a href="fiji">fiji</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/fiji">fiji</a> -
-d185 1
-a185 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=fiji?simday=">garage</a> when done.
-d187 1
-a187 1
-<li><a href="lancer">lancer</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/lancer">lancer</a> -
-d190 1
-a190 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=lancer?simday=">garage</a> when done.
-d192 1
-a192 1
-<li><a href="proper">proper</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/proper">proper</a> -
-d195 1
-a195 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=proper?simday=">garage</a> when finished.
-d197 1
-a197 1
-<li><a href="nissan">nissan</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/nissan">nissan</a> -
-d199 1
-a199 1
-<li><a href="supra">supra</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/supra">supra</a> -
-d205 1
-a205 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=supra?simday=">garage</a> when finished.
-d207 1
-a207 1
-<li><a href="gt1-24hour">gt1-24hour</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-24hour">gt1-24hour</a> -
-d211 1
-a211 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt1-24hour?simday=">garage</a> when finished.
-d214 1
-a214 1
-<li><a href="gt1-mazda">gt1-mazda</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-mazda">gt1-mazda</a> -
-d223 1
-a223 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt1-mazda?simday=">garage</a> when finished.
-d225 1
-a225 1
-<li><a href="gt1-tuned">gt1-tuned</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/gt1-tuned">gt1-tuned</a> -
-d228 1
-a228 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=gt1-tuned?simday=">garage</a> so far.
-d230 4
-d235 1
-a235 1
-<li><a href="starter">starter</a> <a href="/cgi-bin/cgiwrap/arpepper/textview?filename=gt/diary/logs/starter">starter</a> -
-d239 1
-a239 1
-That <a href="/cgi-bin/cgiwrap/arpepper/garage?garage=starter?simday=">garage</a> when finished.
-d274 1
+@d44 10
+d55 1
+a55 1
+first and, so far, only Gran Turismo 4 game:
+d256 3
 @
 
 
