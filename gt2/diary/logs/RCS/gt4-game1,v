@@ -1,10 +1,15 @@
-head	1.107;
+head	1.108;
 access;
 symbols;
 locks
-	arpepper:1.107; strict;
+	arpepper:1.108; strict;
 comment	@# @;
 
+
+1.108
+date	2021.04.07.20.17.11;	author arpepper;	state Exp;
+branches;
+next	1.107;
 
 1.107
 date	2021.03.22.20.09.48;	author arpepper;	state Exp;
@@ -549,10 +554,11 @@ Develop incrementally.
 @
 
 
-1.107
+1.108
 log
-@New added license tests were in a terse format unrecognized by 
-new auditing added to gt4garage.  Easiest to modify this file.
+@After eventually getting correct car count auditing into gt4garage
+script, I found a few actual count mistakes in the log.
+(Initial buggy checks found dozens, but most were false alarms).
 @
 text
 @
@@ -2923,7 +2929,7 @@ July  3, 2005
 1080 buy parts  400R     T-S1 T-S2   Cr5100  Cr6000
 1080 select car blue[R]Camaro  Chevrolet Camaro LM Race Car '01 (blue)
 1080  blue[R]Camaro    City/Family/CR5ii      nq6th4th   Cr200  8-(
-1081 Cr6,556,891  Mar 17   B:7936/93/79/78(+13/+0/+0/+0)   208cars  68.4%
+1081 Cr6,556,891  Mar 17   B:7936/93/79/78(+13/+0/+0/+0)   209cars  68.4%
 1081 change oil blue[R]Camaro  601 -> 631hp
 1081  blue[R]Camaro    City/Family/CR5ii     nq6th3rd(B) Cr300  8-(
 1082 select car BeetleCup
@@ -5037,7 +5043,7 @@ cardef  blackR92CP   car697
 2044 +1 buy car PaceCar Nissan Gran Turismo Skyline GT-R (Pace Car) '01 (Cr127,499,trade)
 2045 Cr15,046,742  Nov  6  A:14845  364cars  81.6%
 2045 +1 buy car aqua500F     Fiat 500F '67 (Azzurro Acqua Marina) (Cr7,269,used)
-2046 Cr15,039,473  Nov  7  A:14845  364cars  81.6%
+2046 Cr15,039,473  Nov  7  A:14845  365cars  81.6%
 2046 power off
 
 
@@ -5045,7 +5051,7 @@ Jan 12, 2006
 2046 select car GTiCup  Volkswagen Lupo GTi Cup Car (J) '03 (orange)
 2046 +5   GTiCup    Mfr/Lupo   S2,1st46to24,23,14,13,10   +82A noN2O  next
 2051 +1 win car yellowGhia  Volkswagen Karmann Ghia Coupe (Type-1) '68  (Pirolgelb/yellow) (dup)
-2052 Cr15,085,473  Nov 13  A:14927  365cars  81.6%
+2052 Cr15,085,473  Nov 13  A:14927  366cars  81.6%
 2052 power off
 
 
@@ -6020,7 +6026,7 @@ December 04, 2007
 2416 Cr22,079,789
 2416 +5 redMiataS'95   Mfr/Roadster   sw50to24,20,18,13,5   +542-117A  next
 2421 +1 win car  Crossport  Mazda MX-Crossport '05 (K2 Red)(dup)
-2422 Cr22,104,789  Nov 18  A:20642  449cars  93.3%
+2422 Cr22,104,789  Nov 18  A:20642  450cars  93.3%
 
 2422 +1 buy car yellowMiataJ'91  Mazda MX-5 Miata J-Limited I (J) '91 (Sunburst Yellow) (Cr6649,used,55354.2mi)
 2423 Cr22,098,140
@@ -6997,7 +7003,7 @@ Oct 05, 2009
 
 Oct 08, 2009
 2675     BMWZ4'03 P/NA/Infineon       nq6th1st NA1+chip+free+T-S3 151-1A  none
-2676  Cr14,241,976   Jul29 A:26998 532cars  98.4% 18G 61S 1B*
+2676  Cr14,241,976   Jul29 A:26998 533cars  98.4% 18G 61S 1B*
 
 Oct 09, 2009
 2676  buy parts BMWZ4'03 SpMuff Cr1600 SRMuff Cr2900 Rmuff Cr4800
@@ -7006,7 +7012,7 @@ Oct 09, 2009
 2676  Cr14,121,576
 2676     BMWZ4'03 P/NA/ApricotR         nq6th1st NA3+max+free+T-S3 13-1A  none
 2677     BMWZ4'03 P/NA/ApricotR         nq6th1st NA2+max+free+T-S3 64-13A  none
-2678  Cr14,136,576   Jul31 A:27061 532cars  98.4% 18G 61S 1B*
+2678  Cr14,136,576   Jul31 A:27061 533cars  98.4% 18G 61S 1B*
 2678     BMWZ4'03 P/NA/TM          nq6th1st NA2+max+free+T-S3 64-3A  none
 2679     BMWZ4'03 P/NA/TM          nq6th1st NA1+chip+free+T-S3 151-64A  none
 2680  Cr14,151,576   Aug02 A:27209 533cars  98.4% 18G 61S 1B*
@@ -7119,6 +7125,34 @@ December 08, 2012
 2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
 2717 power off
 
+@
+
+
+1.107
+log
+@New added license tests were in a terse format unrecognized by 
+new auditing added to gt4garage.  Easiest to modify this file.
+@
+text
+@d2369 1
+a2369 1
+1081 Cr6,556,891  Mar 17   B:7936/93/79/78(+13/+0/+0/+0)   208cars  68.4%
+d4483 1
+a4483 1
+2046 Cr15,039,473  Nov  7  A:14845  364cars  81.6%
+d4491 1
+a4491 1
+2052 Cr15,085,473  Nov 13  A:14927  365cars  81.6%
+d5466 1
+a5466 1
+2422 Cr22,104,789  Nov 18  A:20642  449cars  93.3%
+d6443 1
+a6443 1
+2676  Cr14,241,976   Jul29 A:26998 532cars  98.4% 18G 61S 1B*
+d6452 1
+a6452 1
+2678  Cr14,136,576   Jul31 A:27061 532cars  98.4% 18G 61S 1B*
+a6563 1
 
 @
 
