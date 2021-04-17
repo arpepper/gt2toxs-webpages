@@ -113,8 +113,11 @@ Note: Track  Suzuka Circuit  unlocked
   72 +1 win car A112'79  Autobianchi A112 Abarth'79 (Metalized Dark Grey)
   73 Cr9,350  June 12  A:39
 
+  73 select car Sunfire
   73 change oil Sunfire   183hp->192hp
+  73 select car Lupo
   73 change oil Lupo      100hp->105hp
+  73 select car A112'79
   73 change oil A112'79    71hp->74hp
   73 power off
 
@@ -494,7 +497,7 @@ March 8, 2005
  250 Cr969,328  Dec 7  A:2862  B:2891/43/35/12 (+22/+0/+0/+0)   11.2%
  250 +1 buy car SL600  Mercedes SL600 (R129) '98 (Malachit(green))  (Cr136,376,used)
  251 +1 sell car AMG Mercedes CLK-GTR Race Car '98  -> Cr743,749
- 252  change oil  624hp->655hp  +wash
+ 252  change oil CLK-DTM 624hp->655hp  +wash
  252 Cr1,576,302  Dec 9  11.2%
  252 power off
 
@@ -693,8 +696,8 @@ Note: Track  Fuji Speedway 2005 F  unlocked
  336  mod car   DeltaHF  rigid  Cr50,000
  336  select car M3CSL
  336  change oil M3CSL  445hp->477hp +wash
- 336  change oil DeltaHF  205hp->227hp
  336  select car DeltaHF
+ 336  change oil DeltaHF  205hp->227hp
  336 Cr2,006,662
  336 +5 DeltaHF     P/Compact  sw50to26,24,15,9,6 (Aspec)       next
  341 +1 win car  S800RSC  Honda S800 RSC Race Car '68
@@ -725,7 +728,7 @@ Note: Track  Circuit de la Sarthe II (unchicaned)  unlocked
  351  buy parts S800RSC  LSDF  Cr10,500 Cr4800 Cr1100 Cr6800
  351  buy parts S800RSC  TS1,TS2     Cr4900 Cr14,000
  351  buy parts S800RSC  Rsusp   Cr18,000
- 351  change old S800RSC  100hp->
+ 351  change oil S800RSC  100hp->
  351 Cr2,741,137
  351    S800RSC    B/Lwt/Tsukuba    nq6th1st  Cr2000  4pts  none
  352    S800RSC    B/Lwt/Motorland  nq6th2nd  Cr500     8-(
