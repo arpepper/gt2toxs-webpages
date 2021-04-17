@@ -520,6 +520,11 @@ dodateline {
 	if ($main::enddate ne "") {
 		$main::done = $line =~ /$main::enddate/i;
 	}
+	$main::lastdateline = $line."\n";
+	if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
+		# Problem is we really want this in the log not selected yet
+		addcarlog($main::selected,$line);		
+	}
 }
 
 sub
@@ -548,7 +553,11 @@ doselect{
 
 	if ($rest =~ /^select\s*car\s+(\S+)/ && defined($1)) {
 		if ($1 eq "none") {
-			$main::selected = "";
+# Wed Apr 14, 2021
+# Empty selection turns off selection checking
+# We never used this, so change it to be something which cannot match
+			$main::selected = "no car selected";
+# This will be useful to allow "verbose carlog" to include comments and status
 			return;
 		}
 		if ( findcarid($1,$line) ) {
@@ -1007,6 +1016,9 @@ dostatusline {
 
 	# Later check Ncars, medal counts perhaps license standing?
 
+	if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
+		addcarlog($main::selected,$line);		
+	}
 	if ( $main::pragmas =~ /,gt4,/ && $rest =~
 	   m:([0-9]{1,2}[GB][ /]{1,3}[0-9]{1,2}[S][ /]{1,3}[0-9]{1,2}[GB]): ) {
 		# Later perhaps license stats for GT3
@@ -1118,6 +1130,20 @@ dodaynote {
 			&warn("Bad win: $line\n");
 		}
 	}
+	if ($rest =~ /^change\s+(.*)/ && defined($1)) {
+		my ($stuff) = ($1);
+		$stuff =~ s/^\s*oil\s*//;
+		$stuff =~ s/^\s*car\s*//;
+#print "stuff:$stuff\n";
+# this was cheating; eventually identifier will be checked
+		if ($stuff =~ /^(\S+)/ && defined($1) ) {
+			checkcar($1,$line);
+			addcarlog($1,$line);
+		}
+		else {
+			&warn("Bad change: $line\n");
+		}
+	}
 	if ($rest =~ /^mod\s+(.*)/ && defined($1)) {
 		$stuff = $1;
 #print "stuff:$stuff\n";
@@ -1144,6 +1170,9 @@ sub
 donote {
 	my($line) = @_;
 
+	if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
+		addcarlog($main::selected,$line);		
+	}
 }
 
 sub
@@ -1173,15 +1202,24 @@ getlog {  # get lines, closing includes
 
 my($log,$daylimit);
 
+$main::lastdateline = "";
 %main::carlogs = ();
 sub
 addcarlog {
 	my($car,$line) = @_;
 
+	if ($car eq "" || $car eq "no car selected") {
+		return;
+	}
 	if (!defined($main::carlogs{$car})) {
 		$main::carlogs{$car} = "";
+		if ($main::showlist =~ /,verbose,/) {
+			$main::carlogs{$car} = $main::lastdateline;
+		}
 	}
-	$main::carlogs{$car} .= $line."\n";
+	if ($line !~ /^\s*$/) {
+		$main::carlogs{$car} .= $line."\n";
+	}
 }
 	
 
@@ -1353,6 +1391,7 @@ while (defined($_ = &getlog())) {
 		&warn("Unrecognized line: $line\n");
 	}
 	else {
+		# Surprisingly, lines beginning "#' will fall through to here
 		&donote($line);
 	}
 }
