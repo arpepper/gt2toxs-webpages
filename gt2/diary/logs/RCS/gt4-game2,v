@@ -1,10 +1,75 @@
-head	1.61;
+head	1.74;
 access;
 symbols;
 locks
-	arpepper:1.61; strict;
+	arpepper:1.74; strict;
 comment	@# @;
 
+
+1.74
+date	2021.05.01.03.22.10;	author arpepper;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2021.04.29.20.09.28;	author arpepper;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2021.04.29.13.17.45;	author arpepper;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2021.04.28.00.17.15;	author arpepper;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2021.04.27.02.02.18;	author arpepper;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2021.04.26.23.25.11;	author arpepper;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2021.04.25.00.37.39;	author arpepper;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2021.04.24.13.17.27;	author arpepper;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2021.04.23.20.37.34;	author arpepper;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2021.04.21.01.41.08;	author arpepper;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2021.04.21.01.35.02;	author arpepper;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2021.04.20.21.03.23;	author arpepper;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2021.04.20.20.25.08;	author arpepper;	state Exp;
+branches;
+next	1.61;
 
 1.61
 date	2021.04.17.01.06.31;	author arpepper;	state Exp;
@@ -318,9 +383,10 @@ Use ======================== markers to track update.
 @
 
 
-1.61
+1.74
 log
-@Found a note about Cote d'Azur  unlocked
+@CalsonicGTR  E/Nurb24
+Chevelle  Eu/MM
 @
 text
 @
@@ -978,7 +1044,7 @@ Note: Track  Ice Arena  unlocked
  157 +1 skip Mission5 1st Peugeot206@@HSR 1:05.595 -0.637 cleanish 250pts Cr1000
  158  Cr393,711   1.6%   A:2015 B:0   Slicense  2G 16S 62B  32cars
  158 +1 skip Mission6 1st Miata@@Tsukuba  0:28.906 -0.422 (cheat)  250pts Cr1000
- 159  Cr394,711   1,8%   A:2265 B:0   Slicense  2G 16S 62B  32cars
+ 159  Cr394,711   1.8%   A:2265 B:0   Slicense  2G 16S 62B  32cars
 
  159 +1 skip Mission7 1st GolfGTi@@Midfield 43.683 -0.216 cleanish 250pts Cr1000
  160  Cr395,711   2.0%   A:2515 B:0   Slicense  2G 16S 62B  32cars
@@ -1424,6 +1490,531 @@ Note: Track  Circuit de la Sarthe I (chicaned)  unlocked
  276 +1 buy car Cougar'67 Mercury Cougar XR-7 '67 (Fawn) (Cr16,547,used)
  277  Cr3,707,329 12.3%  A:3555 B:2029/25/20/20   68cars
  277  power off
+
+April 17, 2021
+ 277 select car Cerbera  TVR Cerbera Speed Six '97  (Crystal Topaz Pearlescent)
+ 277  mod car Cerbera WR1,WR2,WR3 Cr1300,Cr5700,Cr23,000
+Note:               1130->1062->1028->994   
+ 277  mod car Cerbera cage+stiff Cr30,000 Cr50,000
+ 277  buy parts Cerbera  Rmuff Cr4900 500hp   SpBr Bctlr  Cr4800 Cr10,800
+ 277  buy parts Cerbera  NA2, NA3  Cr13,500 Cr80,000  chip Cr1800
+ 277  buy parts Cerbera  Rtrans,3clu,Rfw Cr10,500 Cr4800 Cr1100
+ 277  buy parts Cerbera  LSDF Cr6800  shaft  Cr3250   Rsusp  Cr18,000 
+ 277  buy parts Cerbera  T-S1 T-S3   Cr5500 Cr7400
+ 277  buy parts Cerbera  T-R1 T-R2 T-R3   Cr8700 Cr10,750 Cr22,750
+ 277  buy parts Cerbera  T-R4   Cr35,250
+ 277  buy parts Cerbera  T-N1 T-N2 T-N3  Cr0
+ 277  Cr3,346,729 12.3%  A:3555 B:2029/25/20/20   68cars
+ 277 change oil  Cerbera
+ 277  Cr3,346,679 12.3%  A:3555 B:2029/25/20/20   68cars
+ 277 +5  Cerbera  Eu/BGT         1st50to22,19,19,13,7        36A  next
+ 282 +1 win car BRGEtype   Jaguar E-Type Coupe '61  (British Racing Green)
+ 283  Cr3,451,679 13.4%  A:3591 B:2029/25/20/20   69cars
+ 283 +1 buy car SLK230  Mercedes SLK230 Kompressor '98  (Magmarot) (Cr27,982,used)
+ 284 +1 buy car greyTT'00  Audi TT Coupe 1.8 quattro '03 (Arrow Grey Pearl Effect) (Cr34,902,used)
+ 285  Cr3,393,291 13.4%  A:3591 B:2029/25/20/20   71cars
+
+ 285    Cerbera     Eu/BLW/Autumn    nq6th1st  Cr3000 1A  none
+ 286    Cerbera     Eu/BLW/ApricotR  nq6th1st  Cr3000 1A  none
+ 287    Cerbera     Eu/BLW/SSR5      nq6th1st  Cr3000 1A  next
+ 288 +1 win car  orangeEuropa  Lotus Europa Special '71  (Colorado Orange)
+ 289  Cr3,402,291 13.9%  A:3594 B:2029/25/20/20   72cars
+Note: I really can't believe I did all this without resetting at least once
+ 289 power off
+
+ 289 select car BRGEtype   Jaguar E-Type Coupe '61  (British Racing Green)
+ 289  buy parts BRGEtype  T-N1 T-N2 T-N3  Cr0
+ 289  buy parts BRGEtype   T-S1 T-S3   Cr5100 Cr6800
+ 289  buy parts BRGEtype  Rtrans Cr10,400
+ 289  Cr3,379,991 13.9%  A:3594 B:2029/25/20/20   72cars
+ 289 +4  BRGEtype   Eu/MM   sw40to24,14,12,10,5 (B)       next
+Note: changed oil three times
+ 293 +1 win car redAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Rosso Alfa)
+ 294  Cr4,279,841 13.9%  A:3594 B:2029/25/20/20   73cars
+ 294 power off
+Note: look at used cars again; redMegane? whiteMGF?
+
+April 18, 2021
+
+Note: Track  Infineon Raceway Stock Car Course  unlocked (day 295)
+
+ 294 +5 BRGEtype  Eu/ECCL  sw50to30,20,15,10,5   5A     next
+ 299 +1 win car Benz1886  Mercedes-Benz Benz Patent Motor Wagen 1886
+ 300  Cr4,359,791 14.9%  A:3599 B:2029/25/20/20   74cars
+Note: Historic cars, also Jensen and Cougar
+ 300 +1 buy car Bluebird'69  Nissan Bluebird 1600 Deluxe (S10) '69 (Jamaican Beige Metallic) (Cr8994,historic)
+ 301 +1 buy car Fairlady'68  Nissan Fairlady 2000 '68 (Red) (Cr19,249,historic)
+ 302  Cr4,331,548
+Note: Then lineup changed :( 
+ 302 +1 buy car Isuzu117  Isuzu 117 Coupe '68 (Salvia Red)(Cr13,614,historic)
+ 303 +1 buy car A160  Mercedes-Benz A160 Avantgarde'98 (African Violet)(Cr16,510,trade)
+ 304  Cr4,301,374    78cars
+ 304 power off
+ 304 +5  BRGEtype    P/WC   sw50to25,21,19,10,5        next
+ 309 +1 win car Daimler1886  Mercedes-Benz Daimler Motor Carriage 1886
+ 310  Cr4,401,374 15.9%  A:3604 B:2029/25/20/20   79cars
+
+Note: Track  Chamonix  unlocked
+
+ 310  power off
+
+April 19, 2021
+ 310 +1 buy car N360'67  Honda N360 '67 (Ivory White)  (Cr12,599,historic)
+ 311  Cr4,388,775 15.9%  A:3604 B:2029/25/20/20   80cars
+ 311 select car Cerbera  TVR Cerbera Speed Six '97  (Crystal Topaz Pearlescent)
+ 311    Cerbera  Mfr/Blackpool/SuzukaE  nq6th1st Cr3000 6A  none
+ 312    Cerbera  Mfr/Blackpool/SSR5     nq6th1st Cr3000 6A (2 tries)  none
+ 313  Cr4,394,775 16.3%  A:3616 B:2029/25/20/20   80cars
+ 313  power off
+
+April 20, 2021
+ 313    Cerbera  Mfr/Blackpool/Laguna   nq6th1st Cr3000 3A T-S3 => T-R3  none
+ 314    Cerbera  Mfr/Blackpool/Opera    nq6th1st Cr3000 3A  none
+ 315    Cerbera  Mfr/Blackpool/Fuji05   nq6th1st Cr3000 3A  next
+ 316 +1 win car Speed12  TVR Cerbera Speed 12 '00  (Chameleon (special))
+ 317  Cr4,403,775 16.8%  A:3625 B:2029/25/20/20   81cars
+ 317  power off
+
+Note: Visually checked the garage up until this point. (day 317, 81 cars)
+
+April 21, 2021
+cardef SL600 car178
+# 178 +1 buy car blackSL600  Mercedes SL600 (R129) '98 (Blau Schwartz)  (Cr105,135,used)
+ 317  select car SL600 Mercedes SL600 (R129) '98 (Blau Schwartz)  (Cr105,135,used)
+ 317  buy parts SL600   T-N1 T-N2 T-N3  Cr0
+ 317  buy parts SL600   T-S1 T-S3   Cr5100 Cr6800
+ 317  buy parts SL600   T-R1 T-R2 T-R3 Cr8400 Cr10,500 Cr22,500
+ 317  buy parts SL600   Rbr Bctlr  Cr4700 Cr10,600
+ 317  Cr4,335,175 16.8%  A:3625 B:2029/25/20/20   81cars
+ 317  power off
+ 317  buy parts SL600   Rmuff Cr4800
+ 317  buy parts SL600   NA2, NA3  Cr12,500 Cr75,000   chip Cr1500
+ 317  mod car   SL600   pol+bal  Cr5,500 Cr12,000
+ 317  buy parts SL600   Rtrans,3clu Cr10,400 Cr4700
+ 317  buy parts SL600   Rfw,LSDF  Cr1050 Cr6600 shaft Cr3000
+ 317  mod car   SL600   WR1 WR2 WR3 Cr1200 Cr5500 Cr22,000
+Note:                  2029=>1785=>1724=>1684
+ 317  mod car   SL600   cage Cr30,000 refresh Cr50,000
+ 317  change oil SL600  388hp->428hp
+ 317  Cr4,089,375 16.8%  A:3625 B:2029/25/20/20   81cars
+ 317  buy parts SL600   Rsusp Cr17,000
+ 317  Cr4,072,375 16.8%  A:3625 B:2029/25/20/20   81cars
+ 317    SL600        Mfr/SL/Apricot      nqth1st  NA3  1A Cr10,000   none
+ 318  Cr4,082,375 16.9%  A:3626 B:2029/25/20/20   81cars
+ 318  power off
+
+
+April 22, 2021
+ 318    SL600        Mfr/SL/ElCapitan    nq6th1st  NA3 1A Cr10,000   none
+ 319    SL600        Mfr/SL/Fuji80       nq6th1st  NA3 1A Cr10,000   next
+Note: check whether Pearl Green or Green Pearl
+ 320 +1 win car  green300SL    Mercedes-Benz 300SL Coupe '54  (Pearl Green)
+ 321  Cr4,102,375 17.3%  A:3628 B:2029/25/20/20   82cars
+ 321    SL600   Mfr/Silver/Opera        nq6th1st  NA3  2A  none
+ 322  Cr4,109,875 17.4%  A:3630 B:2029/25/20/20   82cars
+ 322  power off
+
+Note: Rest of Silver currently too difficult; SLR McLaren runs away
+
+ 322    SL600     P/Clubman/Apricot  nq6th1st    NA3 2A     none
+ 323  Cr4,112,875 17.6%  A:3632 B:2029/25/20/20   82cars
+
+Note: Track  Twin Ring Motegi East Short Course  unlocked
+
+ 323    SL600     P/Clubman/MotegiE  nq6th1st    NA3 1A     none
+ 324  Cr4,115,875 17.8%  A:3633 B:2029/25/20/20   82cars
+ 324    SL600     P/Clubman/CR5      nq6th1st    NA3 3A    none
+ 325    SL600     P/Clubman/DFRW     nq6th1st    NA3 1A    none
+ 326    SL600     P/Clubman/Seoul    nq6th1st    NA3 1A    next
+ 327 +1 win car  Mazdaspeed6  Mazdaspeed 6 '05  (Black Mica)
+ 328  Cr4,124,875 18.3%  A:3638 B:2029/25/20/20   83cars
+ 328  power off
+
+April 23, 2021
+ 328    SL600     P/NA/ApricotR      nq6th1st Cr7500 3A  none
+ 329    SL600     P/NA/TM            nq6th1st Cr7500 4A  none
+ 330  Cr4,139,875 18.6%  A:3645 B:2029/25/20/20   83cars
+ 330    SL600     P/NA/SSR5ii        nq6th1st Cr7500 3A  none
+ 331    SL600     P/NA/Infineon      nq6th1st Cr7500 4A  none
+ 332  Cr4,154,875 19.0%  A:3652 B:2029/25/20/20   83cars
+ 332    SL600    P/NA/Motegi        nq6th1st Cr7500 5A  next
+ 333 +1 win car NSX-R'01  Honda NSX-R Concept '01  (Championship White)
+ 334  Cr4,162,375 19.1%  A:3657 B:2029/25/20/20   84cars
+ 334  power off
+
+April 24, 2021
+ 334 +1 buy car Series1   Shelby Series 1 Super Charged '03 (silver/red stripes) (Cr184,630,new)
+ 335 select car Series1
+ 335  buy parts Series1  T-N1 T-N2 T-N3 Cr0
+ 335  buy parts Series1  T-S1 T-S3 Cr5500 Cr7,400
+ 335  buy parts Series1  T-R1 T-R2 T-R3   Cr8700 Cr10,750 Cr22,750
+ 335  buy parts Series1   NA1,NA2,NA3  Cr5000 Cr13,500 Cr80,000  chip Cr1800
+ 335  buy parts Series1  3clu,Rfw,shaft  Cr4800 Cr1100 Cr3250
+ 335  buy parts Series1  Rbr,Bctlr  Cr4,600,Cr10,300
+ 335  Cr3,797,595 19.1%  A:3657 B:2029/25/20/20   85cars
+ 335    Series1    Mfr/Shelby/TMii  nq6th1st  NA2,T-R3 Cr7500    13A   none
+ 336    Series1    Mfr/Shelby/HSRii nq6th1st  NA2,T-R3 Cr7500    13A   none
+
+Note: Track  Tsukuba Circuit Wet  unlocked
+Note: Cougar, Jensen in Historic
+
+ 337  Cr3,817,595 19.5%  A:3683 B:2029/25/20/20   85cars
+ 337  power off
+
+ 337   Series1    Mfr/Shelby/Laguna  nq6th1st   NA2,T-R3     13A    none
+ 338  power off  Note: 2 tries
+ 338   Series1    Mfr/Shelby/NY       nq6th1st  NA3,T-R3     13A    none
+ 339  Cr3,837,595 19.8%  A:3709 B:2029/25/20/20   85cars
+ 339  power off  Note: 3 tries
+ 339   Series1    Mfr/Shelby/SeattleR nq6th1st  NA3,T-R3     13A    next
+Note: Did not deserve to win
+ 340 +1 win car  GT350R'65  Shelby Mustang G.T. 350R '65
+ 341  Cr3,847,595 20.0%  A:3722 B:2029/25/20/20   86cars
+ 341  power off
+
+cardef GT350R  GT350R'65   Shelby Mustang G.T. 350R '65
+ 341  select car GT350R  Shelby Mustang G.T. 350R '65
+ 341  buy parts GT350R   T-N1,T-N2,T-N3 Cr0
+ 341  buy parts GT350R   T-S1 T-S3   Cr5100 Cr6800
+ 341  buy parts GT350R   Rmuff Cr4800 Rbr Bctlr  Cr4700 Cr10,600
+ 341  buy parts GT350R   Rtrans,3clu Cr10,400 Cr4700 Rfw Cr1050 shaft Cr3000
+ 341  change oil GT350R
+ 341  Cr3,810,195 20.0%  A:3722 B:2029/25/20/20   86cars
+ 341  power off
+
+ 341 +4   GT350R   Eu/MM   sw40to24,14,11,11,4  (B)          next
+Note: did three oil changes
+ 345 +1 win car AlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bluette)
+ 346  Cr4,710,045 20.0%  A:3722 B:2029/25/20/20   87cars
+Note: Historic Mazda Carol '62 ?
+
+ 346  power off
+
+April 25, 2021
+ 335 select car Series1 Shelby Series 1 Super Charged '03 (silver/red stripes)
+ 346    Series1     B/Spider/TMii      nq6th1st  Cr3000 1A  none
+ 347    Series1     B/Spider/MotegiE   nq6th1st  Cr3000 7A  none
+ 348 +1 buy car Carol'62  Mazda Carol 360 Deluxe '62 (Lyon Blue/Pastor Grey) (Cr13,474,used)
+ 349  Cr4,702,571 20.3%  A:3730 B:2029/25/20/20   88cars
+ 349    Series1     B/Spider/Infineon  nq6th1st  Cr3000 4A  next
+ 350 +1 win car  Prowler  Chrylser Prowler '02 (Deep Cranberry Pearl)
+ 351  Cr4,705,571 20.5%  A:3734 B:2029/25/20/20   89cars
+
+Note: Track  Circuit de la Sarthe II (unchicaned)  unlocked
+Note: Historic  500F, Fairlady'65, Galant'70, 500R'72
+
+ 351    Series1     US/Stripes/Laguna   nq6th1st  2tries      9A   none
+ 352  Cr4,715,571 20.7%  A:3743 B:2029/25/20/20   89cars
+ 352  buy parts Series1   Rmuff Cr4900, Rtrans Cr10,500
+ 352  buy parts Series1   Rsusp Cr18,000
+ 352  Cr4,682,171
+ 352    Series1     US/Stripes/InfineonStock  nq6th1st  5 tries     8A   none
+Note:  AI Series1 was there, but did not seem to be playing the last time
+ 353  Cr4,692,171 20.8%  A:3751 B:2029/25/20/20   89cars
+ 353    Series1     US/Stripes/Seattle  nq6th1st  4tries 8A        next
+ 354 +1 win car red[R]Camaro  Chevrolet Camaro LM Race Car '01 (red)
+ 355  Cr4,702,171 21.0%  A:3759 B:2029/25/20/20   90cars
+
+ 355    Series1      US/Hot/ElCapitan nq6th1st       7A           none
+ 356    Series1      US/Hot/Laguna    nq6th1st       3A           none
+ 357    Series1      US/Hot/NYii      nq6th1st       4A           next
+ 358 +1 win car Chevelle  Chevrolet Chevelle SS 454 '70 (Black Cherry Metallic)
+ 359  Cr4,711,171 21.5%  A:3773 B:2029/25/20/20   91cars
+
+Note: Historic  Skyline'63, 500F, Bellet, Galant'70
+
+ 359 +1 buy car Bellett  Isuzu Bellett 1600 GT-R '69 (Solid Gold Metallic) (Cr14,699)
+ 360 +1 buy car orangeGalant'70  Mitsubishi Galant (Colt) GTO MR '70 (Kenya Orange) (Cr7,629,used)
+ 361  Cr4,688,853 21.5%  A:3773 B:2029/25/20/20   93cars
+ 361 +1 buy car  redClio  Renault Clio Sport V6 Phase 2 '03 (Rouge de Mars) (Cr53,720,new)
+ 362  Cr4,635,123 21.5%  A:3773 B:2029/25/20/20   94cars
+
+ 362  select car redClio  Renault Clio Sport V6 Phase 2 '03 (Rouge de Mars)
+ 362  buy parts redClio   Rmuff Cr4800 SpBr Bctlr  Cr4700 Cr10,600
+ 362  buy parts redClio   NA1,NA2,NA3  Cr4900 Cr12,500 Cr75,000 chip Cr1500
+ 362  mod car   redClio   pol+bal  Cr5,500 Cr12,000
+ 362  buy parts redClio   Rtrans,3clu Cr10,400 Cr4700
+ 362  buy parts redClio   Rfw,LSDF  Cr1050 Cr6600 Rsusp  Cr17,000
+ 362  buy parts redClio   T-S1 T-S3   Cr5100 Cr6800
+ 362  buy parts redClio T-R1 T-R2 T-R3  Cr8400 Cr10,500 Cr22,500
+ 362  mod car   redClio   WR1 WR2 WR3 1400-1214-1174-1134 Cr1200 Cr5500 Cr22,000
+ 362  mod car   redClio   WR1 WR2 WR3 1400-Cr1200 Cr5500 Cr22,000
+Note:                   1400->1274->1232->1190
+ 362  buy parts  redClio  T-N1,T-N2,T-N3 Cr0
+ 362  buy parts  redClio  T-DT Cr22,500  T-SN Cr22,500
+ 362  mod car   redClio   cage Cr30,000
+ 362  change oil redClio  278hp->292hp (!)
+ 362  Cr4,306,823
+
+ 362     redClio     B/MR/AutumnR    nq6th1st      6A none
+ 363     redClio     B/MR/ElCapitan  nq6th1st      4A none
+ 364     redClio     B/MR/Beginner   nq6th1st      5A none
+ 365     redClio     B/MR/Fuji90     nq6th1st      3A none
+ 366  Cr4,314,823 22.2%  A:3791 B:2029/25/20/20   94cars
+Note: One game year passed, not at 25% yet
+
+ 366     redClio     B/MR/NYii       nq6th1st      4A next
+ 367 +1 win car  Esprit'87  Lotus Esprit Turbo HC '87 (White)
+ 368  Cr4,316,823 22.4%  A:3795 B:2029/25/20/20   95cars
+Note: No pre-1981 cars in Historic Lot.  Two Diahatsu Move in Lot II.
+ 368  power off
+
+
+April 26, 2021
+ 368 +5  redClio    P/Compact  sw50to26,24,15,9,6        6A     next
+ 373 +1 win car  S800RSC  Honda S800 RSC Race Car '68
+ 374  Cr4,384,323  23.4%  A:3801 B:2029/25/20/20   96cars
+
+ 373 select car  S800RSC  Honda S800 RSC Race Car '68
+ 374  buy parts  S800RSC  T-N1,T-N2,T-N3 Cr0
+ 374  buy parts  S800RSC  T-S1 T-S2 T-S3   Cr5500 Cr6500 Cr7400
+ 374  buy parts  S800RSC  T-R2 T-R3 Cr10,750 Cr22,750
+ 374  power off
+ 374  buy parts  S800RSC  TS2     Cr14,000
+ 374  change oil S800RSC  100hp->105
+ 374  Cr4,317,373
+ 374    S800RSC    B/Lwt/Tsukuba    nq6th1st  Cr2000    1A  none
+ 375    S800RSC    B/Lwt/Beginner   nq6th1st  Cr2000    1A  none
+ 376    S800RSC    B/Lwt/Motorland  nq6th1st  Cr2000    1A  next
+ 377 +1 win car Ginetta  Ginetta G4 '64 (Lotus Yellow)
+ 378  Cr4,323,373  23.9%  A:3795 B:2029/25/20/20   97cars
+ 378 +1 buy car Alfa166'98  Alfa Romeo 166 2.5 V6 24V '98  (Aurora Nuvola Iridescente) (Cr38,161,used)
+ 379  Cr4,285,212  23.9%  A:3795 B:2029/25/20/20   98cars
+
+ 379  select car redClio  Renault Clio Sport V6 Phase 2 '03 (Rouge de Mars)
+ 379 +5  redClio   Eu/Fr        sw50to30,30,15,9,6             16A       next
+ 384 +1 win car 2CV  Citroen 2CV Type A '54 (Gris Bleu)
+ 385  Cr4,370,212  24.9%  A:3820 B:2029/25/20/20   99cars
+
+Note: Mfr/Clio was harder than I thought; I wanted 25% so Bspec'd it
+ 385 +5  redClio  Mfr/Clio  sw50to21.17.16.15.11       (B)    next
+
+ 390 +1 win car [R]Clio  Clio Renault Sport Trophy V6 24V Race Car '00 (blue #55)
+ 391 +1 win car  Nuvolari  Audi Nuvolari quattro '03 (Luna Silver) (prize,25%)
+Note: 25% does not appear during mid-series "save breaks"
+
+ 392  Cr4,470,212  25.9%  A:3820 B:3165/37/32/31  101cars
+
+Note:  day 393 good Historic Cars
+
+Aptil 27, 2021
+ 392 select car Series1 Shelby Series 1 Super Charged '03 (silver/red stripes)
+ 392    Series1       E/ElCapitan   nq6th1st(B)  Cr250,000          next
+ 393 +1 win car MT88C-V   Minolta Toyota 88C-V Race Car '89
+Note: NA3, but beat AI MS Elise
+ 394  Cr4,470,212  26.1%  A:3820 B:3189/37/32/31  102cars
+Note: triple-checked that Bspec total went up, but no components (strange?)
+ 394  power off
+
+April 29, 2021
+ 394  select car  MT88C-V
+ 394  buy parts MT88C-V  TS4 Cr90,000
+ 394  mod car   MT88C-V  cage Cr30,000
+ 394  buy parts MT88C-V  T-R1,T-R3  Cr9000 Cr11,000
+ 394  buy parts MT88C-V  T-R4 T-R5  Cr35,500 Cr48,000
+ 394  buy parts MT88C-V  T-N1,T-N2,T-N3 Cr0
+ 394  buy parts MT88C-V  T-S1 T-S2 T-S3   Cr6000 Cr7000 Cr8000
+ 394  Cr4,475,712
+ 394  change oil MT88C-V  919hp(1164) -> 965hp(1223)
+ 394  Cr4,475,662  26.1%  A:3820 B:3189/37/32/31  102cars
+ 394    MT88C-V        E/Fuji90     nq6th1st(B) TS4 Cr750,000     next
+ 395 +1 win car [R]R92CP   Nissan R92CP Race Car '92
+ 396  Cr5,225,662  26.3%  A:3820 B:3963/50/39/39  103cars
+ 396  power off
+
+ 396 +1 buy car S500'63  Honda S500 '63 (Scarlet)  (Cr21,874,historic)
+ 397 +1 buy car S800'66  Honda S800 '66 (Golden Yellow)  (Cr20,299,historic)
+ 398  Cr5,183,489  26.3%  A:3820 B:3963/50/39/39  105cars
+ 398  power off
+
+ 398 select car Series1 Shelby Series 1 Super Charged '03 (silver/red stripes)
+ 398    Series1       E/Tsukuba9   nq6th1st(B)  T-N1 -> T-N3 Cr150,000   next
+ 399 +1 win car CalsonicGTR  Nissan Calsonic Skyline GT-R Race Car '93
+ 400  Cr5,333,489  26.4%  A:3820 B:3976/50/39/39  106cars
+ 400  power off
+
+ 400 select car CalsonicGTR  Nissan Calsonic Skyline GT-R Race Car '93
+ 400 buy parts CalsonicGTR  T-N1 T-N2 T-N3  Cr0
+ 400 buy parts CalsonicGTR  TS3,TS4  Cr45,000  Cr90,000
+ 400 buy parts CalsonicGTR  T-S1,T-S2,T-S3 Cr6000 Cr7000 Cr8000
+ 400 buy parts CalsonicGTR T-R1,T-R2,T-R4,T-R5 Cr9000 Cr11,000 Cr35,500 Cr48,000
+ 400  mod car  CalsonicGTR  cage Cr30,000
+ 400 change oil CalsonicGTR  550->577hp
+ 400  Cr5,043,939  26.4%  A:3820 B:3976/50/39/39  106cars
+ 400     CalsonicGTR  E/Nurb24   nq6th1st(B)  195laps           next
+ 401 +1 win car green/yellowFGT   Formula Gran Turismo '04 (green/yellow)
+ 402  Cr6,243,939  26.6%  A:3820 B:4866/62/47/48  107cars
+ 402  power off  :)
+
+ 402 select car Chevelle  Chevrolet Chevelle SS 454 '70 (Black Cherry Metallic)
+ 402  buy parts Chevelle  T-N1 T-N2 T-N3  Cr0
+ 402  buy parts Chevelle  T-S1 T-S3   Cr4600 Cr6200
+ 402  buy parts Chevelle  Rtrans Cr10,200
+ 402  buy parts Chevelle  Rmuff Cr4600 chip Cr1250
+ 402  buy parts Chevelle  NA2 Cr12,000
+ 402  Cr6,205,089
+ 402 change oil Chevelle  456->477hp
+ 402  Cr6,205,039
+ 402 +4   Chevelle  Eu/MM   sw40to24,14,12,10,4 (B)       next
+Note: three oil changes, I qualified first
+ 406 +1 win car AlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bianco Gardenia)(dup)
+ 407  Cr7,104,889  26.6%  A:3820 B:4866/62/47/48  108cars
+ 407  power off
+
+@
+
+
+1.73
+log
+@Buy a couple of historic Honda S sports cars.
+ 
+Take the now trusty old Series1 to the Tsukuba 9 hours race and convincingly
+win the Calsonic Skyline.
+@
+text
+@d1442 1
+a1442 1
+ 400  Cr5,225,662  26.4%  A:3820 B:3976/50/39/39  106cars
+d1444 28
+@
+
+
+1.72
+log
+@Some how I'd forgotten to select Series1.
+ 
+Take the MT88C-v it won to the Fuji 1000kms, and perhaps with help,
+win one of the best cars in the game.  (R92CP)
+@
+text
+@d1434 11
+@
+
+
+1.71
+log
+@Bspec'd ElCapitan with the Series1.
+@
+text
+@d1407 1
+a1407 1
+Note:  day 396 good Historic Cars
+d1410 1
+d1417 17
+@
+
+
+1.70
+log
+@redClio B/MR, P/Compact
+prize S800RSC does B/Lwt (not so excellent, really)
+redClio gets us to 25% with Eu/Fr and Mfr/Clio (Bspec for now)
+@
+text
+@d1409 7
+a1415 1
+
+@
+
+
+1.69
+log
+@Do a few more sets with the Series1.
+Not as easy as I thought it would be.
+ 
+Won the Chevelle.  I have MM plans for it.
+ 
+Bought a red Clio.  It should do well in several sets and series.
+@
+text
+@d1339 70
+a1408 1
+ 362  Cr4,635,123
+@
+
+
+1.68
+log
+@Used a Series1 to win the Shelby Set, then took its prize, and near-stock
+won the Mille Miglia (again!)
+@
+text
+@d1301 40
+@
+
+
+1.67
+log
+@P/NA with SL600.  Chip, chip.
+@
+text
+@d1254 47
+a1300 1
+--
+@
+
+
+1.66
+log
+@Fixed some comma-instead-of-period problems.
+ 
+Moderate success using the powerful but not super great SL600.
+@
+text
+@d1240 1
+d1242 11
+d1254 1
+@
+
+
+1.65
+log
+@Check the garage again.
+@
+text
+@d656 1
+a656 1
+ 159  Cr394,711   1,8%   A:2265 B:0   Slicense  2G 16S 62B  32cars
+d1188 53
+@
+
+
+1.64
+log
+@Caught up!
+Sneak Mfr/Blackpool in in off-hours on work day.
+@
+text
+@d1187 2
+@
+
+
+1.63
+log
+@BRGEtype => 15.9%
+@
+text
+@d1171 16
+@
+
+
+1.62
+log
+@Chipping away to 13.9%
+@
+text
+@d1132 1
+d1134 11
+d1146 25
+@
+
+
+1.61
+log
+@Found a note about Cote d'Azur  unlocked
+@
+text
+@d1102 32
 @
 
 
