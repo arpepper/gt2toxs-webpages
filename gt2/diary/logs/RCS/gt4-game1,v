@@ -1,10 +1,20 @@
-head	1.109;
+head	1.111;
 access;
 symbols;
 locks
-	arpepper:1.109; strict;
+	arpepper:1.111; strict;
 comment	@# @;
 
+
+1.111
+date	2021.04.29.12.55.18;	author arpepper;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2021.04.29.11.00.30;	author arpepper;	state Exp;
+branches;
+next	1.109;
 
 1.109
 date	2021.04.14.21.19.13;	author arpepper;	state Exp;
@@ -559,10 +569,10 @@ Develop incrementally.
 @
 
 
-1.109
+1.111
 log
-@Fixes related to increased scrutiny of oil changes.
-Which was done to allow oil changes to show up in show=carlog,verbose
+@Minor correction.
+Added R to R92CP.
 @
 text
 @
@@ -1552,7 +1562,7 @@ March 25, 2005
  440 +1 sell car  Minolta Toyota 88C-V Race Car '89 -> Cr743,749
  441 Cr3,701,210  Jun 16
  441  select car  MT88C-V
- 441  buy parts MT88C-V  TS3 Cr90,000  N2O Cr5000
+ 441  buy parts MT88C-V  TS4 Cr90,000  N2O Cr5000
  441  buy parts MT88C-V  T-R1,T-R3  Cr9000 Cr11,000
  441  mod car MT88C-V  cage Cr30,000
  441     MT88C-V       E/Super      nq6th1st(A)  2Aspec        next
@@ -2830,7 +2840,7 @@ July 01, 2005
 1034 buy parts  [R]Speed8  T-R1 T-R2  Cr9000 Cr11,000
 1034 buy parts  [R]Speed8  TS3 TS4    Cr45,000 Cr90,000
 1034    [R]Speed8      E/Fuji90     nq6th1st(B)            next
-1035 +1 win car [R]R92CP   Nissan 92CP Race Car '92
+1035 +1 win car [R]R92CP   Nissan R92CP Race Car '92
 1036 Cr6,712,313  Feb  1  B:7756/92/78/75 (+4/+0/+0/+0)  200cars 68.0%
 
 1036 select car [R]Civic'87  Honda Mugen Motul Civic Si Race Car '87
@@ -3889,7 +3899,7 @@ August 3, 2005
 1518      [R]350Z'02   World/Family/Nurb  -6 nq6th2nd(B)  TS3   +0B   none
 1519 Cr2,643,311  May 29   B:9998/100/99/99(n/c)
 
-1519 select car [R]R92CP   Nissan 92CP Race Car '92
+1519 select car [R]R92CP   Nissan R92CP Race Car '92
 1519   buy parts  [R]R92CP   T-R1 T-R2  Cr9000 Cr11,000
 1519   change oil [R]R92CP   953->1001hp
 1519 select car [R]Speed8  Bentley Speed 8 Race Car '03
@@ -4424,8 +4434,8 @@ Sep 25, 2005
 1739   change oil [R]Speed8  1047->1097hp  +wash
 1739 Cr7,342,887
 1739    [R]Speed8      E/Fuji90     nq6th1st(B)            next
-1740 +1 win car [R]R92CP   Nissan 92CP Race Car '92
-1741 +1 sell car   Nissan 92CP Race Car '92  -> Cr743,749
+1740 +1 win car [R]R92CP   Nissan R92CP Race Car '92
+1741 +1 sell car   Nissan R92CP Race Car '92  -> Cr743,749
 1742 Cr8,836,636  Jan  7  A:11725  285cars  78.7%
 
 1742 select car orangeCerbera  TVR Cerbera Speed Six '97  (Chameleon Orange)
@@ -5063,7 +5073,7 @@ Jan 12, 2006
 
 
 Jan 14, 2006
-2052 select car [R]R92CP   Nissan 92CP Race Car '92
+2052 select car [R]R92CP   Nissan R92CP Race Car '92
 2052  buy parts  [R]R92CP  TS4 Cr90,000  T-R4 T-R5 Cr35,500  Cr48,000
 2052  buy parts  [R]R92CP  N2O  Cr5000
 2052   change oil [R]R92CP   1215->1215hp
@@ -7132,6 +7142,40 @@ December 08, 2012
 2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
 2717 power off
 
+@
+
+
+1.110
+log
+@Minor correction.
+MT88C-V has no TS3 to buy,
+@
+text
+@d2266 1
+a2266 1
+1035 +1 win car [R]R92CP   Nissan 92CP Race Car '92
+d3325 1
+a3325 1
+1519 select car [R]R92CP   Nissan 92CP Race Car '92
+d3860 2
+a3861 2
+1740 +1 win car [R]R92CP   Nissan 92CP Race Car '92
+1741 +1 sell car   Nissan 92CP Race Car '92  -> Cr743,749
+d4499 1
+a4499 1
+2052 select car [R]R92CP   Nissan 92CP Race Car '92
+@
+
+
+1.109
+log
+@Fixes related to increased scrutiny of oil changes.
+Which was done to allow oil changes to show up in show=carlog,verbose
+@
+text
+@d988 1
+a988 1
+ 441  buy parts MT88C-V  TS3 Cr90,000  N2O Cr5000
 @
 
 
