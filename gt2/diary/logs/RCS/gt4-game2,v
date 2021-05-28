@@ -1,10 +1,85 @@
-head	1.74;
+head	1.89;
 access;
 symbols;
 locks
-	arpepper:1.74; strict;
+	arpepper:1.89; strict;
 comment	@# @;
 
+
+1.89
+date	2021.05.24.00.06.49;	author arpepper;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2021.05.23.23.57.05;	author arpepper;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2021.05.23.22.56.49;	author arpepper;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2021.05.20.01.35.52;	author arpepper;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2021.05.19.18.33.30;	author arpepper;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2021.05.19.18.23.25;	author arpepper;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2021.05.18.20.10.04;	author arpepper;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2021.05.17.23.27.56;	author arpepper;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2021.05.17.23.18.00;	author arpepper;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2021.05.15.17.33.58;	author arpepper;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2021.05.11.01.57.29;	author arpepper;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2021.05.08.22.38.19;	author arpepper;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2021.05.06.14.49.53;	author arpepper;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2021.05.03.00.02.45;	author arpepper;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2021.05.02.01.44.49;	author arpepper;	state Exp;
+branches;
+next	1.74;
 
 1.74
 date	2021.05.01.03.22.10;	author arpepper;	state Exp;
@@ -383,10 +458,9 @@ Use ======================== markers to track update.
 @
 
 
-1.74
+1.89
 log
-@CalsonicGTR  E/Nurb24
-Chevelle  Eu/MM
+@Correction: 100points for all races in P/GTW, not 50!
 @
 text
 @
@@ -1176,8 +1250,8 @@ April 07, 2021
 Note: bone stock, no wash, no oil change
 Note: Nurb                        3:44:00.604   8:29.318  Bspec incident
 Note: at Bspec 3, overshot pit and did a terrble lap; switched to 2
-Note: Opera   q1:46.830  -10.170  2:43:39.590   1:39.129   Dspec 3
-Note: Cote                        3:17:58.047   1:55.723   Dspec 3
+Note: Opera   q1:46.830  -10.170  2:43:39.590   1:39.129   Bspec 3
+Note: Cote                        3:17:58.047   1:55.723   Bspec 3
 
 Note: Track  Tahiti Maze           unlocked
 
@@ -1861,6 +1935,458 @@ Note: three oil changes, I qualified first
  407  Cr7,104,889  26.6%  A:3820 B:4866/62/47/48  108cars
  407  power off
 
+May 01, 2021
+ 407 select car [R]R92CP   Nissan R92CP Race Car '92
+ 407  buy parts [R]R92CP   T-N1 T-N2 T-N3  Cr0
+ 407  buy parts [R]R92CP   TS4   Cr90,000
+ 407  buy parts [R]R92CP  T-R1,T-R2,T-R4,T-R5 Cr9000 Cr11,000 Cr35,500 Cr48,000
+ 407  buy parts [R]R92CP   T-S1,T-S2,T-S3 Cr6000 Cr7000 Cr8000
+ 407  mod car   [R]R92CP   cage Cr30,000
+ 407 change oil [R]R92CP   953->1001hp(1215)
+ 407  Cr6,880,339
+ 407     [R]R92CP   E/SartheI    nq6th1st(B) TS4 410laps Cr1,200,000     next
+ 408 +1 win car AudiR8  Audi R8 Race Car '01  (silver/yellow #2)
+ 409  Cr8,080,339  26.8%  A:3820 B:4879/62/47/48  109cars
+ 409  power off
+
+May 02, 2021
+ 409 +1 buy car SVTF-150  Ford SVT F-150 Lightning '03 (Sonic Blue Clearcoat)(Cr35,050,new)
+ 410 select car SVTF-150  Ford SVT F-150 Lightning '03 (Sonic Blue Clearcoat)
+ 410  buy parts SVTF-150   T-N1 T-N2 T-N3  Cr0 T-S1 T-S3  Cr5100 Cr6800
+ 410  change oil SVTF-150  385->304hp
+ 410 Cr8,013,339   110cars
+Note: could not keep up with Silverado Concept in B/Trk, so I reset the game
+ 410  mod car   SVTF-150  WR1,WR2 Cr1100,Cr5500  2132->1876->1812
+ 410  buy parts SVTF-150  NA2  Cr12,500
+ 410 Cr7,994,139   110cars
+
+ 410    SVTF-150      B/Trk/Laguna      nq6th1st   Cr1,200    4A   none
+ 411    SVTF-150      B/Trk/SeattleR    nq6th1st   Cr1,200    4A   none
+ 412    SVTF-150      B/Trk/Fuji90      nq6th1st   Cr1,200    4A   next
+ 413 +1 win car Silverado  Chevrolet Silverado SST Concept '02 (Nippon Poppy Red)
+ 414  Cr7,997,739  27.3%  A:3832 B:4879/62/47/48  111cars
+Note: Beginner Hall completed, but there's no prize for that...
+ 414  power off
+
+
+May 05, 2021
+ 414 select car [R]M3-GTR   BMW M3 GTR Race Car '01
+ 414  buy parts [R]M3-GTR  T-N1 T-N2 T-N3  Cr0
+ 414  buy parts [R]M3-GTR  T-S1 T-S2 T-S3  Cr600 Cr7000 Cr8000
+ 414  buy parts [R]M3-GTR  T-R1,T-R2 Cr9000 Cr11,000
+ 414  buy parts [R]M3-GTR  TS3  Cr45,000
+ 414  change oil [R]M3-GTR  450->473hp  Cr50
+ 414  Cr7,911,689  27.3%  A:3832 B:4879/62/47/48  111cars
+ 414 +5 [R]M3-GTR   P/Tuning  q1*,sw50to30,19,16,10,5      20Aspec  next
+ 419 +1 win car OptionZ  Nissan Option Stream Z '04
+ 420  Cr7,981,689  28.3%  A:3852 B:4879/62/47/48  112cars
+ 420  power off
+
+May 07, 2021
+ 420    [R]M3-GTR      E/Nurb4  nq6th1st  (A+B)                  next
+ 421 +1 win car Chaparral2D   Chaparral 2D Race Car '67
+ 422  Cr8,181,689  28.5%  A:3852 B:5704/75/57/53  113cars
+ 422  power off
+
+cardef Chap2D Chaparral2D
+ 422  select car Chap2D   Chaparral 2D Race Car '67
+ 422  buy parts Chap2D  T-N1 T-N2 T-N3  Cr0
+ 422  buy parts Chap2D  T-S1,T-S2,T-S3 Cr6000 Cr7000 Cr8000
+ 422  buy parts Chap2D  T-R1,T-R2,T-R4      Cr9000 Cr11,000 Cr35,500
+ 422  buy parts Chap2D  TS3 TS4  Cr45,000 Cr90,000
+ 422  mod car Chap2D  cage  Cr50,000
+ 422  change oil Chap2D  426->447hp
+ 422  Cr7,940,139
+ 422  power off
+ 422 +5  Chap2D  US/AA  q61312,1st50to28,22,14,11,5   (B)    next
+ 427 +1 win car Corvette'54  Chevrolet Corvette Convertible (C1) '54 (Sportsman Red)
+ 428  Cr8,025,139  29.5%  A:3852 B:5764/75/57/53  114cars
+ 428  power off
+
+ 428 select car Corvette'54  Chevrolet Corvette Convertible (C1) '54 (Sportsman Red)
+ 428  buy parts Corvette'54  T-N1,T-N2,T-N3  Cr0
+ 428  buy parts Corvette'54  T-S1 T-S3   Cr4600 Cr6200
+ 428  buy parts Corvette'54  Rmuff Cr4600
+ 428  buy parts Corvette'54  Rbr Bctlr  Cr4600 Cr10,300
+ 428  buy parts Corvette'54  NA1,NA2,NA3  Cr4700,Cr12,000,Cr70,000
+ 428  mod car Corvette'54    pol+bal  Cr5250 Cr11,000
+ 428  buy parts Corvette'54  chip Cr1250
+ 428  buy parts Corvette'54  Rtrans,3clu,Rfw  Cr10,200 Cr4600 Cr1000
+ 428  buy parts Corvette'54  LSDF,shaft  Cr6300 Cr2750
+ 428  buy parts Corvette'54  S/C Cr3000   Rsusp  Cr16,000
+ 428  mod car Corvette'54    cage Cr30,000
+ 428  mod car Corvette'54    WR1 WR2  Cr1100 Cr5300  1309->1191->1151kg
+ 428  change oil Corvette'54  179hp to 188hp
+ 428  Cr7,800,339  29.5%  A:3852 B:5764/75/57/53  114cars
+ 428  power off
+
+ 428 +4  Corvette'54 Eu/MM   q1N11,sw40to24,14,11,11,5 5A+(B)       next
+Note: 3 oil changes
+ 432 +1 win car AlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bianco Gardenia)
+ 433  Cr8,700,189  29.5%  A:3857 B:6495/87/65/60  115cars
+ 433  power off
+
+May 10, 2021
+ 433 select car  [R]R92CP   Nissan R92CP Race Car '92
+ 433  mod car    [R]R92CP  refresh Cr50,000
+ 433  change oil [R]R92CP   1134->1191hp  (TS4)  ? was 1215 above?
+ 433  Cr8,650,139  29.5%  A:3857 B:6495/87/65/60  115cars
+ 433   [R]R92CP        E/SartheII   nq6th1st(B)  TS4   440laps -5laps  next
+ 434 +1 win car [R]Speed8  Bentley Speed 8 Race Car '03
+ 435  Cr9,650,139  29.7%  A:3857 B:6508/87/66/60  116cars
+ 435  power off
+
+May 15, 2021
+ 435 select car OptionZ     Nissan Option Stream Z '04
+ 435  buy parts OptionZ T-N1,T-N2,T-N3 Cr0  T-S1,T-S2 Cr5100 Cr6000
+ 435  buy parts OptionZ  Rbr Bctlr Cr4700 Cr10,600 Rtrans Cr10,400 LSDF Cr6600
+ 435  buy parts OptionZ  Rsusp Cr17,000
+ 435  Cr9,590,739  29.7%  A:3857 B:6508/87/66/60  116cars
+
+ 435     OptionZ    P/Turbo/HSR       nq6th1st  Cr7500 1A          none
+ 436     OptionZ    P/Turbo/Fuji80    nq6th1st  Cr7500 3A          none
+ 437  power off
+ 437     OptionZ    P/Turbo/Midfield  nq6th1st  2tries  Cr7500 1A  none
+ 438  Cr9,612,239  30.2%  A:3862 B:6508/87/66/60  116cars
+ 438  power off
+
+ 438 select car [R]Speed8  Bentley Speed 8 Race Car '03
+ 438 buy parts  [R]Speed8  T-N1,T-N2,T-N3 Cr0
+ 438 buy parts  [R]Speed8  T-S1 T-S2 T-S3 Cr6000 Cr7000 Cr8000
+ 438 buy parts  [R]Speed8  T-R1 T-R2  Cr9000 Cr11,000
+ 438 buy parts  [R]Speed8  TS3 TS4    Cr45,000 Cr90,000
+ 438  Cr9,571,239  30.2%  A:3862 B:6508/87/66/60  116cars
+ 438    [R]Speed8   P/Turbo/TokyoR    nq6th1st     Cr7500 1A   none
+ 439    [R]Speed8   P/Turbo/NYii      nq6th1st     Cr7500 1A   next
+ 440 +1 win car [R]FalkenRX-7'03  Mazda BP Falken RX-7 (D1GP) '03
+ 441  Cr9,586,239  30.5%  A:3864 B:6508/87/66/60  117cars
+ 441 power off
+
+ 441 select car Speed12  TVR Cerbera Speed 12 '00  (Chameleon (special))
+ 441  buy parts Speed12  T-N1,T-N2,T-N3 Cr0
+ 441  buy parts Speed12  T-S1 T-S3   Cr5500 Cr7400  T-R1 Cr8700
+ 441  buy parts Speed12  Bctlr  Cr10,800
+ 441  buy parts Speed12  Rtrans Cr10,500 LSDF Cr6800
+ 441  buy parts Speed12  TS4 Cr85,800  s/c Cr14,000
+ 441  buy parts Speed12  Rsusp  Cr18,000 
+ 441 change oil  Speed12  809hp to 850hp
+ 441  Cr9,428,189  30.5%  A:3864 B:6508/87/66/60  117cars
+ 441 power off
+
+ 441     Speed12    P/SC/MidfieldR    nq6th1st(B) Cr15,000 B+13/0/0/1  none
+ 442  Cr9,443,189  30.7%  A:3864 B:6521/87/66/61  117cars
+ 442     Speed12    P/SC/Fuji90       nq6th1st(B) Cr15,000 B+0         none
+ 443  Cr9,458,189  30.9%  A:3864 B:6521/87/66/61  117cars
+ 443 power off
+
+May 16, 2021
+ 443     Speed12        E/NY     nq6th1st (B) no TS4, T-S3/T-S2         next
+ 444 +1 win car greenSuperBee  Dodge Charger Super Bee 426 Hemi '71 (Medium Green Metallic)
+ 445  Cr9,708,189  31.0%  A:3864 B:6521/87/66/61 (n/c!)  118cars
+ 445 power off
+Note: No progress P/SC/NY
+Note: Eventually I realized in gt4-game1 I had used a wing
+ 445     Speed12    P/SC/Seoul     nq6th1st(B) careful   +12/0/0/0  none
+ 446  Cr9,723,189  31.2%  A:3864 B:6534/87/66/61 (+13/0/0/0)  118cars
+ 446     Speed12    P/SC/Infineon  nq6th1st(B) careful   +13/0/0/0  none
+ 447  Cr9,738,189  31.4%  A:3864 B:6535/87/66/61 (+1/0/0/0?!)  118cars
+ 447 power off
+
+May 17, 2021
+Note: As I said, I realized in gt4-game1 I used a wing for the Speed12
+ 447 +1 mod car    Speed12  wing "3D type DS" (silver) (Cr1200)
+Note: downforce 30/30  perhaps I should have weighted the front even more
+ 448     Speed12    P/SC/NY          nq6th1st(B) Cr7500     +0B  next
+ 449 +1 win car yellowCizeta   Cizeta V16T '94 (Cizeta Canary)
+ 450 Cr9,751,989  31.5%  A:3864 B:6535/87/66/61 (n/c)  119cars
+ 450 power off
+Note: 1970 Celica in Historic lot!
+ 450 +1 buy car  whiteCelica'70  Toyota Celica 1600GT (TA22) '70 (White Spira) (Cr8364)
+ 451 Cr9,743,625  31.5%  A:3864 B:6535/87/66/61        120cars
+ 451 power off
+
+ 451 select car  whiteCelica'70  Toyota Celica 1600GT (TA22) '70 (White Spira) (Cr8364)
+ 451  buy parts whiteCelica'70 (Tom's) Rmuff Cr4600 Rbr Bctlr  Cr4600 Cr10,300
+ 451  buy parts whiteCelica'70   NA1 NA2 NA3 Cr4700 Cr12,000 Cr70,000
+ 451  mod car   whiteCelica'70   pol+bal  Cr5250  Cr11,000
+ 451  buy parts whiteCelica'70   chip Cr1250
+ 451  buy parts whiteCelica'70   Rtrans,3clu,Rfw  Cr10,200 Cr4600 Cr1000
+ 451  buy parts whiteCelica'70   LSDF  Cr10,200  shaft Cr2750
+ 451  buy parts whiteCelica'70   TS1,TS2  Cr4600 Cr13,000
+ 451  buy parts whiteCelica'70   Rsusp  Cr16,000
+ 451  buy parts whiteCelica'70   T-N1 T-N2 T-N3  Cr0
+ 451  buy parts whiteCelica'70   T-S1 T-S2   Cr4600  Cr6200
+ 451  buy parts whiteCelica'70   T-R1,T-R2 T-R3  Cr8100 Cr10,250 Cr22,250
+ 451  buy parts whiteCelica'70   T-DT Cr22,500  T-SN Cr22,500
+ 451  mod car   whiteCelica'70   WR1 WR2 WR3 Cr1100 Cr5300 Cr21,000
+                                940-911-883-855
+ 451  mod car   whiteCelica'70  cage Cr30,000  refresh  Cr50,000
+ 451 Cr9,358,175  31.5%  A:3864 B:6535/87/66/61        120cars
+ 451 change oil whiteCelica'70   112hp->124hp  Cr50
+ 451 Cr9,358,125  31.5%  A:3864 B:6535/87/66/61        120cars
+ 451 power off
+
+May 17-18, 2021
+ 451 +4 whiteCelica'70  Eu/MM   sw40to24,14,12,10,4  Bspec(3) +7A SartheII next
+Note: Nurb      4:01:09.369   9:21.240
+Note: Opera     2:46:45.908   1:41.681
+Note: Cote      3:22:00.084   1:57.578
+Note: SartheII  3:02:22.135   5:04.189
+Note: I actually photo'd close-to-finish Bspec screens for first three events
+Note:  Alfa Guila     6 + 6 + 6 + 6 = 24
+Note:  Mini Marcos    4 + 4 + 2 + 4 = 14
+Note:  Karmann Ghia   3 + 4 + 3 + 2 = 12
+Note:  Honda S800'65  2 + 3 + 2 + 3 = 10
+Note:  Fiat 500F'65   1 + 1 + 1 + 1 =  4
+ 455 +1 win car AlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bianco Gardenia)
+ 456 Cr10,257,975  31.5%  A:3871 B:6568/87/66/62        121cars
+Note: 3 oil changes
+ 456 power off
+
+May 19, 2021
+ 456 +1 buy car  RUFCTR2   RUF  CTR2 '96  (Light Blue)   (Cr297,110)
+ 457 select car  RUFCTR2
+ 457  buy parts RUFCTR2  Rbr Bctlr  Cr4800 Cr10,800
+ 457  buy parts RUFCTR2  Rtrans,LSDF  Cr10,500 Cr6800
+ 457  buy parts RUFCTR2  TS3  Cr43,500   Rsusp  Cr18,000 
+ 457  buy parts RUFCTR2  T-N1,T-N2,T-N3 Cr0   T-S1 T-S2   Cr5500 Cr6500
+ 457  mod car   RUFCTR2  WR1,WR2,WR3 1380-1255-1214-1173 Cr1300,Cr5700,Cr23,000
+ 457  mod car   RUFCTR2  cage Cr30,000
+ 457 Cr9,794,465  31.5%  A:3871 B:6568/87/66/62        122cars
+ 457 change oil  RUFCTR2  522hp to 548hp  Cr50
+ 457 Cr9,794,415  31.5%  A:3871 B:6568/87/66/62        122cars
+ 457     RUFCTR2    P/Boxer/DFRWii    nq6th1st     Cr7500 Bspec careful   none
+ 458 power off
+ 458     RUFCTR2    P/Boxer/Infineon  nq6th1st(B)  Cr7500 Bspec careful   none
+ 459 power off
+ 459     RUFCTR2    P/Boxer/HK        nq6th1st(B)  Cr7500 Bspec careful   next
+ 460 +1 win car YellowBird  RUF CTR "Yellow Bird" '87
+ 461 Cr9,816,915  32.0%  A:3871 B:6678/87/66/64        123cars
+ 461 power off
+
+May 22, 2021
+ 461 select car  [R]R92CP   Nissan R92CP Race Car '92
+ 461  change oil [R]R92CP   1134->1165hp  (TS4)  ? was 1215 above? Cr50
+ 461  mod car    [R]R92CP  refresh Cr50,000
+ 461 Cr9,766,865  32.0%  A:3871 B:6678/87/66/64        123cars
+ 461   [R]R92CP        E/Infineon   nq6th1st(B)  TS4   117laps -1laps  next
+Note:  Race Monitor                   2:45:32                      Lap 117
+Note:                                     Time     Diff.   L  P     Best
+Note:  Nissan R92CP Race Car '92         1:20,466        |117|9|  1:18.108
+Note:  Nissan R89C Race Car '89          1:25.650    1lap|116|8|  1:22.757
+Note:  Sauber Mercedes C9 Race Car '89   1:25.676    1lap|116|8|  1:22.638
+Note:  Nissan R92CP Race Car '92         1:27.204    1lap|116|8|  1:22.294
+Note:  Nissan R390 GT1 Race Car '98      1:27.685   6laps|111|7|  1:26.835
+Note:  Chevrolet Corvette C5R (C5) '00   1:33.803  12laps|104|6|  1:32.347
+ 462 +1 win car [R]FordGT'02   Ford GT LM Race Car '02
+ 463 Cr10,266,865  32.2%  A:3871 B:6678/87/66/64(n/c)   124cars
+Note: Lots of low-mileage used cars, especially in Historic
+ 463  power off
+
+May 22, 2021
+ 463 +1 buy car blueCivic'83  Honda Civic 1500 3door 2Si '83 (Baltic Blue) (Cr10,106,historic)
+ 464 +1 buy car 300ZX'83  Nissan Fairlady Z 300ZX (Z31) '83 (White) (Cr27,199,historic)
+Note: 6.2km cars
+ 465 Cr10,229,560  32.2%  A:3871 B:6678/87/66/64        126cars
+ 465  change oil [R]R92CP   1109->1164hp  (TS4)  ? was 1215 above? Cr50
+ 465 Cr10,229,510  32.2%  A:3871 B:6678/87/66/64        126cars
+Note: ran P/GTW as a series, reloading over losses, over a couple of days
+Note: changed oil between all races
+ 465   [R]R92CP   P/GTW/Tokyo  q1st1st(B) T-R3/T-R2 nopit           none
+Note:                     A:3871 B:6691/87/67/64
+ 466   [R]R92CP   P/GTW/Super  q1st1st  7A  T-R3/T-R2 nopit         none
+ 467   [R]R92CP   P/GTW/HK     q3rd1st(B)  4 tries                  none
+ 468 Cr10,304,410  32.7%  A:3878 B:6704/87/67/64        126cars
+ 468   [R]R92CP   P/GTW/Seoul  q1st1st(B)    T-R3/T-R2  nopit       none
+ 469   [R]R92CP   P/GTW/ElCapitan q6th1st(B)                        none
+ 470 Cr10,354,310  33.1%  A:3878 B:6727/87/67/64        126cars
+ 470   [R]R92CP   P/GTW/NY     q4th1st(B)                           none
+ 471 power off
+May 23, 2021
+Note: Opera seemed particularly tricky, and I actually did it the next day
+ 471   [R]R92CP   P/GTW/OperaR q2nd1st(B)  2 tries                  none
+ 472 Cr10,404,160  33.4%  A:3878 B:6740/87/67/65        126cars
+ 472   [R]R92CP   P/GTW/Suzuka q6th1st(B)   T-R3/T-R2 pit halfway   none
+ 473 Cr10,429,110  33.6%  A:3878 B:6753/87/67/65        126cars
+ 473   [R]R92CP   P/GTW/GVii   q5th1st(B)   T-R3/T-R2 pit halfway   none
+ 474 Cr10,454,060  33.7%  A:3878 B:6766/87/67/65        126cars
+ 474   [R]R92CP   P/GTW/SartheI nq6th1st(B)  T-R2/T-R1   nopit      next
+Note: [R]R92CP P/GTW  q1131642656,sw100to48,44,38,20,10
+ 475 +1 win car FordGT'04  Ford GT LM Race Car Spec II '04 (white)
+ 476 Cr10,729,060  34.1%  A:3878 B:6766/87/67/65        127cars
+ 476 power off
+
+Note: Extreme Hall and Ending Movie now unlocked.
+
+
+
+@
+
+
+1.88
+log
+@Buy a couple of low-mileage historic cars.
+ 
+Do a somewhat detailed account of sweeping P/GTW with the [R]R92CP
+Well, only swept the races, not qualifying.  All Bspec except Super.
+@
+text
+@d1749 1
+a1749 1
+Note: [R]R92CP P/GTW  q1131642656,sw50to48,44,38,20,10
+@
+
+
+1.87
+log
+@Somewhat detailed report of [R]R92CP winning the Infineon Enduro.
+(To skip two days to get low mileage cars in the Historic Lot).
+@
+text
+@d1721 37
+@
+
+
+1.86
+log
+@May 19, 2021
+Bspec P/Boxer with a RUFCTR2.
+@
+text
+@d1702 19
+@
+
+
+1.85
+log
+@Add some Eu/MM stats for whiteCelica'70
+@
+text
+@d1681 21
+@
+
+
+1.84
+log
+@Correct type Dspec to intended Bspec(!)
+@
+text
+@d1666 10
+@
+
+
+1.83
+log
+@Add bare bones of "Bunny" run at Eu/MM with Celica'70.
+@
+text
+@d788 2
+a789 2
+Note: Opera   q1:46.830  -10.170  2:43:39.590   1:39.129   Dspec 3
+Note: Cote                        3:17:58.047   1:55.723   Dspec 3
+d1665 1
+a1665 1
+ 451 +4 whiteCelica'70  Eu/MM   sw40to24,14,12,10,4  Dspec(3) +7A SartheII next
+@
+
+
+1.82
+log
+@May 17
+Finally noticed I used a wing for the Speed12 in gt4-game1 P/SC.
+So I careful Bspec'd a win.
+So now only P/Bpxer and P/GTW to go...
+And I found a Celica I actually hadn't known about in the Historic lot.
+I think I still want to get the green one, though.
+ 
+But I think I deserve a rest.  I.e. mostly Bspec Eu/MM with that Celica.
+@
+text
+@d1643 28
+@
+
+
+1.81
+log
+@Use [R]Speed8 (Bentley) to cheat finish the P/Turbo set.
+Then try to use Speed12(TVR) to Bspec the P/SC set.
+Just about to finish the later. q.v.
+Also did E/NY with Speed12 hoping it would help.
+@
+text
+@d1630 13
+@
+
+
+1.80
+log
+@Feeble start on P/Turbo.
+@
+text
+@d1588 42
+@
+
+
+1.79
+log
+@May 10, 2021  [R]R92CP        E/SartheII won [R]Speed8
+@
+text
+@d1574 14
+@
+
+
+1.78
+log
+@May 07, 2021
+Slightly overpower E/Nurb4 to win a Chaparral.
+Use that to Bspec US/AA and win a Corvette'54.
+Use that to win the Mille Miglia (again!).  Aspec the Nurburgring, though.
+But did get a lot of Bspec points, too...
+@
+text
+@d1564 10
+@
+
+
+1.77
+log
+@Used the ]M3-GTR to mildly overpower the P/Tuning series.
+@
+text
+@d1520 44
+@
+
+
+1.76
+log
+@May 02, 2021
+Bought a Ford SVT F-150 to do the Truck set, and finish up the Beginner Hall.
+@
+text
+@d1506 14
+@
+
+
+1.75
+log
+@Prepare the prize [R]R92CP
+Win E/SartheI with the [R]R92CP
+@
+text
+@d1486 20
+a1505 1
+--
+@
+
+
+1.74
+log
+@CalsonicGTR  E/Nurb24
+Chevelle  Eu/MM
+@
+text
+@d1473 14
 @
 
 
