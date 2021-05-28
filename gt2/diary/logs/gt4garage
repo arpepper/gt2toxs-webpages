@@ -1,5 +1,55 @@
 #!/usr/bin/perl -w
 
+#
+# gt4garage [show=<options>] logname [simday]
+#
+# gt4garage produces a garage listing for optional given simday
+#   But see also show=
+#
+# Audits:
+#   Crudely checks the real "date lines"
+#   lists resultant garage entries (obtained via buy,win,sell)
+#                              win was implied in "old-style" event entries
+#       shows "prize origin" of garage entries
+#       verifies car counts given in status lines
+#   day counter
+#   license test medals (G/S/B)  (requires interpreting license lines)
+#   car selection for events (a biggie for catching mistakes caused by copying)
+#   Events must match definitions listed, usually in included gtN-racedefs
+#       (which then become prize indicators via "next" and "win")
+#
+# Also:
+#   "show=carlog" (optional "show=verbose,carlog")
+#     produces output listed for each recognized car
+#   "show=licen[sc]e" tracks license progress
+#   "show=rawevents"
+#   "show=events"
+#   "show=prizes"
+#     dump stored tables of event/prizes; seem redundant
+#   "show=sold" "show=sell" "show=sales" "show=buy"
+#     somewhat haphazardly attempt to track those car transactions
+#         E.g. "show=sold,sell,sales,buy"
+#   "show=origin" shows origins based on carid table (i.e. shows creating line)
+#   "show=carids" dumps internal table of carids; useful when you need them
+#   "show=warn" tries to add extra warnings
+#   "show=pragmas"  FWIW
+#   "show=garage" is the default
+#
+#
+# Future possibilities (getting few)
+#   Credit sanity (increased or decreased as appropriate).
+#   Percentage sanity; should never decrease.
+#   A: and B:  should only ever increase, but they are gt4-specific
+#   Parts availability for particular cars?  (Would seem to be difficult)
+#   Prize legitimacy could conceivably be defined in gtN-racedefs
+#   Prize origin should be indicated for a "carlog" entry.
+#
+#   It would be nice, but likely not possible, to arrange that
+#     gt1 and gt2 logs could be processed too, with suitable gtN-racedefs
+#  
+#
+
+
 require 5.002;
 use strict;
 
@@ -18,6 +68,7 @@ $main::pragmas = ",";
 @main::cardata = ();   # now we initialize all data via "mod car" in the log
 @main::prizes = ();
 @main::events = ();
+$main::prize_event = ""; # pending event from "next", for "win"
 
 %main::league = ();
 %main::series = ();
@@ -322,7 +373,7 @@ marksold {
 sub
 sellcar {
 	my($car,$oldest) = @_;
-	my($i,$what,$temp);
+	my($i,$what,$temp,$temp2);
 	my($ix,@list);
 
 	# if ($oldest) we want to remove oldest car, else most recent
@@ -335,7 +386,11 @@ sellcar {
 		$temp = $main::carnames{$ix};
 		$temp =~ s/^\s*//;
 		$temp =~ s/\s*$//;
-		if ($temp eq "$car" && $main::carstates{$ix} ne "sold") {
+		$temp2 = $temp;
+		# (prize,B/Sunday) is now an unexpected suffix
+		$temp2 =~ s/\s*\(prize[^\)]*\)\s*$//;
+		if ( ($temp eq "$car" || $temp2 eq "$car")
+			&& $main::carstates{$ix} ne "sold") {
 			$what = $temp;
 			$main::carstates{$ix} = "sold";
 			$main::ncarsnow = carsnow();   # expensive?
@@ -404,6 +459,9 @@ sell {
 	$stuff =~ s/^\s*oldest\b//i;
 	$stuff =~ s/^\s*//;
 	$stuff =~ s/\s*->.*//;
+	# Either need to make sellcar handle optional (prize,...)
+	# Or repeat the attempt here
+	# Actually problem is garage says "(prize" but sell line doesn't
 	if ($sold = &sellcar($stuff, $oldest) ) {
 		# literal sale, usually of purchased car...
 		if ($main::showlist =~ /,sold,/i ) {
@@ -684,9 +742,11 @@ sub
 otherprize {
 	my($prize) = @_;
 
+	$prize =~ s/\s*\(.*//;
+	$prize =~ s/^\s//;
 	return 1 if ($prize eq "full");
 	return 1 if ($prize eq "none");
-	return 1 if ($prize eq "next");
+	return 1 if ($prize eq "next");  # Hmm...
 	return 1 if ($prize eq "1st");
 	return 1 if ($prize =~ /^2nd/);
 	return 1 if ($prize =~ /^3rd/);
@@ -734,6 +794,22 @@ check_event {
 }
 
 sub
+record_race_prize {
+	my ($r,$s) = @_;  # race, prize
+	my ($temp);
+
+	return if ($s =~ /credits/ || &otherprize($s));
+	$temp = $s;
+	$temp =~ s/\s*\(sold\)\s*//;
+	$temp =~ s/\s*\(dup\)\s*//;
+	$temp =~ s/\s*$//;
+	# Perhaps one of these should record some of the above?
+	# Currently they are same info; presumably want to derive from them
+	push @main::prizes,"${r}: $temp";
+	push @main::events,"${r}: $temp";
+}
+
+sub
 doseriesline {
 	my($line,$rest,$start,$end) = @_;
 	my($diff);
@@ -763,7 +839,7 @@ doseriesline {
 		return;
 	}
 	if (&check_event($event) == 0) {
-		&warn("Unrecognized race: $event\n");
+		&warn("Unrecognized event ($event): $line\n");
 		$event = " ";
 		return;
 	}
@@ -822,16 +898,13 @@ doseriesline {
 			$status = $1;
 		}
 	}
-	if ($prize !~ /credits/ && &otherprize($prize) == 0) {
-		$temp = $prize;
-		$temp =~ s/\(sold\)//;
-		$temp =~ s/\(dup\)//;
-		push @main::prizes,"${race}: $prize";
+	if ($prize eq "next") {
+		if (defined($main::prize_event) && $main::prize_event ne "") {
+			 &warn("Next for $main::prize_event never claimed: $line\n");
+		}
+		$main::prize_event = $race;
 	}
-	$temp = $prize;
-	$temp =~ s/\(sold\)//;
-	$temp =~ s/\(dup\)//;
-	push @main::events,"${race}: $prize";
+	record_race_prize($race,$prize);
 	if ($status ne "(sold)" && $line !~ /[(]sold[)]/ ) {
 		if ($prize !~ /credits/ && &otherprize($prize) == 0) {
 			getcar($prize,"$prize(prize, $race)",$line);
@@ -1063,6 +1136,109 @@ dostatusline {
 	$main::maxtoday = $r2;
 }
 
+
+# $e = set_from_race($e);
+sub
+race_to_set {  # derive "set" (event) name from one of its races
+	my($s) = @_;
+# E,g, GT4   B/Sunday/AMii  => B/Sunday
+#   But  SC/Normal/AmalfiR => SC/Normal/Amalfi
+
+	# A prize is for the set, not the race
+	# Perhaps this depends on pragma
+	# Or perhaps we need "prizeevent" defns
+	if ($s !~ m:/(Easy|Normal|Hard)/: ) { # ugh!
+		while ($s =~ m:/.*/: ) {
+			$s =~ s:/[^/]*$:: ;
+		}
+	}
+	else {  # and ugh!
+		$s =~ s/R$//;
+		$s =~ s/ii$//;
+	}
+	return $s;
+}
+
+sub
+dowin {   # Handle  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
+# Note: also   59 +1 win car Nike   Nike One 2022 (prize,IBlicenseB)
+	my($line,$rest,$r1,$r2) = @_;
+	#my($day,$stuff,$sf,$fullname);
+	my($stuff,$sf,$fullname);
+	my($tstuff,$event);
+
+	if ($rest !~ /^win\s+(.*)/ || !defined($1)) {
+		return;
+	}
+	$stuff = $1;
+#print "stuff:$stuff\n";
+	if ($main::selected ne "") {
+		addcarlog($main::selected,$line);
+	}
+	if ($stuff !~ /^\s*car\s+(\S+)/ || !defined($1) ) {
+		&warn("Bad win: $line\n");
+		return;
+	}
+	$event = "";
+	$tstuff = $stuff;
+	while ($tstuff =~ m:\s*\([^\)]*\)\s*$: ) {
+#&warn("Eat parentheses: $line\n");
+		if ($tstuff =~ m:(\(prize[^\)]*)\)\s*$: ) {
+#&warn("Found prize: $line\n");
+			$event = $1;
+			$event =~ s/^\(prize,//;
+			$event =~ s/\)\s*$//;
+			last;
+		}
+# Good candidate for infinite loop here...
+		$tstuff =~ s:\s*\([^\)]*\)\s*$:: ;
+	}
+
+
+	if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+#$main::prize_event = "";
+# Problem: some prize car names include parentheses
+		$sf = $1;
+		if ($stuff =~ /^\s*car\s+(\S+)\s+(.+)/ && defined($2) ) {
+			$fullname = $2;
+			$fullname =~ s/^[^\w\[]*//;
+			$fullname =~ s/->\s.*//;
+			$fullname =~ s/\s*$//;
+			$fullname =~ s/^\s*//;
+			if ($event ne "") {
+				# Actually probably a non-race prize
+				record_race_prize($event,$fullname);
+			}
+			elsif (defined($main::prize_event) && $main::prize_event ne "") {
+				my ($e) = ($main::prize_event);
+				# assert ($event eq "")
+				$e = race_to_set($e);
+				$fullname =~ s/$/ (prize,$e)/;
+				# push event info here...
+				record_race_prize($e,$fullname);
+			}
+			# Need a GOOD way for prize info to be passed
+			getcar($sf,$fullname,$line);
+			if ($main::showlist =~ /,buy,/i) {
+				print "${main::maxtoday}:win $sf - $fullname.\n";
+			}
+		}
+		else {
+			# Need a way for prize info to be passed
+			# I don't think we ever use this form?
+			getcar($sf,$sf,$line);
+		}
+	}
+	if ($event eq "") {
+# Perhaps having $main::prize_event set for a win with event should be an error
+		if (!defined($main::prize_event) || $main::prize_event eq "") {
+			&warn("prize_event not set: $line\n");
+		}
+		$main::prize_event = "";
+	}
+
+}
+
 sub
 dodaynote {
 	my($line,$rest,$r1,$r2) = @_;
@@ -1104,31 +1280,7 @@ dodaynote {
 		}
 	}
 	if ($rest =~ /^win\s+(.*)/ && defined($1)) {
-		$stuff = $1;
-#print "stuff:$stuff\n";
-		if ($main::selected ne "") {
-			addcarlog($main::selected,$line);
-		}
-		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
-			$sf = $1;
-			if ($stuff =~ /^\s*car\s+(\S+)\s+(.+)/ && defined($2) ) {
-				$fullname = $2;
-				$fullname =~ s/^[^\w\[]*//;
-				$fullname =~ s/->\s.*//;
-				$fullname =~ s/\s*$//;
-				$fullname =~ s/^\s*//;
-				getcar($sf,$fullname,$line);
-				if ($main::showlist =~ /,buy,/i) {
-					print "${main::maxtoday}:win $sf - $fullname.\n";
-				}
-			}
-			else {
-				getcar($sf,$sf,$line);
-			}
-		}
-		else {
-			&warn("Bad win: $line\n");
-		}
+		dowin($line,$rest,$r1,$r2);
 	}
 	if ($rest =~ /^change\s+(.*)/ && defined($1)) {
 		my ($stuff) = ($1);
