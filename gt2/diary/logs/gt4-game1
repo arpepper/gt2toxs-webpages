@@ -109,7 +109,7 @@ Note: IB license acquired
 
 Note: Track  Suzuka Circuit  unlocked
 
-  71    Silvia'88K B/Sunday/CR5  1st  Cr600 8pts  none
+  71    Silvia'88K B/Sunday/CR5  1st  Cr600 8pts  next
   72 +1 win car A112'79  Autobianchi A112 Abarth'79 (Metalized Dark Grey)
   73 Cr9,350  June 12  A:39
 
@@ -404,7 +404,7 @@ March 5, 2005
  196 Cr45,242  Oct 14     A:2811
  196    McLarenSLR   Mfr/Silver/Fuji90 (B)    1st   Cr7,500  none
  197 Cr52,742  Oct 15     A:2811  B:389/6/4/1 (+389/+6/+4/+1)
- 197    McLarenSLR   Mfr/Silver/Opera (B)    1st   Cr7,500  none
+ 197    McLarenSLR   Mfr/Silver/Opera (B)    1st   Cr7,500  next
  198 +1 win car  CLK-DTM  Mercedes-Benz CLK Touring Car '00
  199 Cr60,242  Oct 16     A:2811  B:721/9/7/5 (+332/+3/+3/+4)
 
@@ -1012,12 +1012,12 @@ March 25, 2005
  451  change oil AudiA3  250hp->262hp
  451     AudiA3         Mfr/A3/Midfield   nq6th1st  8Aspec   none
  452     AudiA3         Mfr/A3/Laguna     nq6th1st  8Aspec   none
- 453     AudiA3         Mfr/A3/SuzukaE    nq6th1st  8Aspec   none
+ 453     AudiA3         Mfr/A3/SuzukaE    nq6th1st  8Aspec   next
  454 +1 win car AudiPP  Audi Pikes Peak quattro '03 (Polar Silver)
  455 Cr3,679,670  Jun 30  A:6861   29.0%
  455     AudiA3         Eu/RaceA/TM       nq6th1st  9Aspec   none
  456     AudiA3         Eu/RaceA/OperaR   nq6th1st  9Aspec   none
- 457     AudiA3         Eu/RaceA/Autumn   nq6th1st  9Aspec   none
+ 457     AudiA3         Eu/RaceA/Autumn   nq6th1st  9Aspec   next
  458 +1 win car [R]M3-GTR   BMW M3 GTR Race Car '01
  459 Cr3,694,670  Jul  4  A:6888
  
@@ -1136,7 +1136,7 @@ March 29, 2005
 
  514 select car Etype
  514 change oil Etype  -> 468hp   +wash
- 514 +5  Etype      Eu/BGT q12151,56166,5th42to22,19,16,(16),15    next
+ 514 +5  Etype      Eu/BGT q12151,56166,5th42to22,19,16,(16),15    none
  519 Cr9,741,075   Sep 2   A:7180  B:5592/70/56/50  (+15/+0/+0/+0)
  519     Etype      Eu/ECCL/Nurburgring   nq6th2nd   Cr5000   none
  520 Cr9,746,075   Sep 3
@@ -1197,7 +1197,7 @@ March 31, 2005
  542  buy parts Bellett  T-R1  Cr8100
  542  Bellett   Mfr/Isuzu/Tsukuba       nq6th1st   4A  Cr2000  none
  543  Bellett   Mfr/Isuzu/TM            nq6th1st   4A  Cr2000  none
- 544  Bellett   Mfr/Isuzu/Fuji80        nq6th1st   4A  Cr2000  none
+ 544  Bellett   Mfr/Isuzu/Fuji80        nq6th1st   4A  Cr2000  next
  545 +1 win car Isuzu117  Isuzu 117 Coupe '68 (Maple Orange(special))
  546 Cr10,776,412  Sep 29  A:7194
  546 power off
@@ -1263,19 +1263,19 @@ Note:           1130->1062->1028->994
  563 +1 buy parts  orangeCerbera wing 3D type BB (black) (Cr1200)
  564 change oil  orangeCerbera  334hp to 370hp  +wash
  564 Cr12,758,070
- 564    orangeCerbera  Mfr/Blackpool/SuzukaE  nq6th1st Cr3000 1A  next
+ 564    orangeCerbera  Mfr/Blackpool/SuzukaE  nq6th1st Cr3000 1A  none
  565  buy parts orangeCerbera  NA1  Cr5000
- 565    orangeCerbera  Mfr/Blackpool/SSR5     nq6th1st Cr3000 5A  next
- 566    orangeCerbera  Mfr/Blackpool/Laguna   nq6th1st Cr3000 5A  next
- 567    orangeCerbera  Mfr/Blackpool/Opera    nq6th1st Cr3000 6A  next
+ 565    orangeCerbera  Mfr/Blackpool/SSR5     nq6th1st Cr3000 5A  none
+ 566    orangeCerbera  Mfr/Blackpool/Laguna   nq6th1st Cr3000 5A  none
+ 567    orangeCerbera  Mfr/Blackpool/Opera    nq6th1st Cr3000 6A  none
  568    orangeCerbera  Mfr/Blackpool/Fuji05   nq6th1st Cr3000 5A  next
  569 +1 win car Speed12  TVR Cerbera Speed 12 '00  (Chameleon (special))
  570 Cr12,768,070  Oct 23   A:7216   34.8%
- 570    orangeCerbera  P/NA/ApricotR          nq6th1st Cr7500 1A  next
- 571    orangeCerbera  P/NA/TM                nq6th1st Cr7500 3A  next
+ 570    orangeCerbera  P/NA/ApricotR          nq6th1st Cr7500 1A  none
+ 571    orangeCerbera  P/NA/TM                nq6th1st Cr7500 3A  none
  572    orangeCerbera  P/NA/SSR5ii            nq6th4th Cr1000   8-(
- 573    orangeCerbera  P/NA/SSR5ii            nq6th1st Cr7500 3A  next
- 574    orangeCerbera  P/NA/Infineon          nq6th1st Cr7500 1A  next
+ 573    orangeCerbera  P/NA/SSR5ii            nq6th1st Cr7500 3A  none
+ 574    orangeCerbera  P/NA/Infineon          nq6th1st Cr7500 1A  none
  575    orangeCerbera  P/NA/Motegi            nq6th1st Cr7500 1A  next
  576 +1 win car NSX-R'01  Honda NSX-R Concept '01  (Championship White)
  577 Cr12,806,570  Oct 30   A:7225   35.6%
@@ -1469,8 +1469,8 @@ April 23, 2005
  663 Cr16,141,828  Jan 24   B:6826/89/71/61 (+18/+0/+0/+0) 123cars 44.3%
 
  663  select car orangeCerbera
- 663    orangeCerbera  Eu/BLW/Autumn          nq6th1st            next
- 664    orangeCerbera  Eu/BLW/ApricotR        nq6th1st            next
+ 663    orangeCerbera  Eu/BLW/Autumn          nq6th1st            none
+ 664    orangeCerbera  Eu/BLW/ApricotR        nq6th1st            none
  665    orangeCerbera  Eu/BLW/SSR5            nq6th1st            next
  666 +1 win car  redEuropa  Lotus Europa Special '71  (Carnival Red)
  667 Cr16,150,828  Jan 28   124cars
@@ -1690,8 +1690,8 @@ May 10, 2005
  760    Galant'70  J/70s/AMii       nq6th2nd    Cr1000  (B)   8-(
  761    Galant'70  J/70s/AMii       nq6th1st    Cr2000  (B)  none
  762    Galant'70  J/70s/Tsukuba    nq6th1st    Cr2000  (B)  none
- 763    Galant'70  J/70s/MotorlandR nq6th1st    Cr2000  (B)  next
- 764    Galant'70  J/70s/TM         nq6th1st    Cr2000  (B)  none
+ 763    Galant'70  J/70s/MotorlandR nq6th1st    Cr2000  (B)  none
+ 764    Galant'70  J/70s/TM         nq6th1st    Cr2000  (B)  next
  765 +1 win car whiteSkyline'70  Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Metallic Silver)
  766 Cr6,650,344  May 7   B:7254/90/74/69 (+85/+0/+1/+1) 148cars
  766 power off
@@ -1777,7 +1777,7 @@ Mar 23, 2005
  807       EvoVII      Mfr/Evo/CR5     nq6th1st  Cr2000  10A   none
  808 change oil EvoVII    357->394hp
  808       EvoVII      Mfr/Evo/Fuji90  nq6th1st  Cr2000   8A   none
- 809       EvoVII      Mfr/Evo/Tokyo   nq6th1st  Cr2000   8A   none
+ 809       EvoVII      Mfr/Evo/Tokyo   nq6th1st  Cr2000   8A   next
  810 +1 win car [R]Lancer'74  Mitsubishi Lancer 1600 GSR Rally Car '74
  811 Cr7,653,270  Jun 21   A:7691  157cars    54.6%
  811 select car [R]Lancer'74
@@ -1914,7 +1914,7 @@ June 5, 2005
  869 +5 RX8Concept  Mfr/RX8  E2,1st46to34,19,14,9,8   32A       next
  874 +1 win car [R]RX8   Mazda RX-8 Concept LM Race Car '01
  875 Cr5,825,891  Aug 24  A:7897  169cars   58.4%
- 875    RX8Concept  Mfr/RX8/ElC  nq6th1st              8A       next
+ 875    RX8Concept  Mfr/RX8/ElC  nq6th1st              8A       none
  876 Cr5,827,891  Aug 25  A:7905  169cars   58.5%
 
  876 select car 400R
@@ -2081,7 +2081,7 @@ June 18, 2005
  940 +1 skip Mission24 nq6th1st    Cr10,000  250A   TT            none
  941 Cr5,526,548  Oct 29  A:8319
  941 +1 skip Mission23  nq6th1st    Cr10,000 250A   TT(Skylines)  next
- 942 +1 win car [R]Zonda'01  Pagani Zonda LM Race Car '01
+ 942 +1 win car [R]Zonda'01  Pagani Zonda LM Race Car '01 (prize,Missions21-24)
  943 Cr5,536,548  Oct 31  A:8569  181cars  62.8%
  943 select car MT88C-V
  943     MT88C-V     Ex/WC/Motegi   nq6th1st(B)  T-R2 0B          none
@@ -2155,7 +2155,7 @@ June 21, 2005
  977    McLarenSLR    Eu/B/Fuji90  nq6th1st           1A           none
  978    McLarenSLR    Eu/B/Nurb    nq6th1st           1A           none
  979    McLarenSLR    Eu/B/Suzuka  nq6th1st           1A           none
- 980    McLarenSLR    Eu/B/Tokyo   nq6th1st           1A           none
+ 980    McLarenSLR    Eu/B/Tokyo   nq6th1st           1A           next
  981 +1 win car [R]AMG'92  AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
  982 Cr5,698,464  Dec  9  A:8623  187cars  65.3%
 
@@ -2206,13 +2206,13 @@ June 26, 2005
 1004    redZ06'00   Mfr/Vette/Laguna    nq6th1st  NA1etc T-R1 3A   none
 1005    redZ06'00   Mfr/Vette/NYii      nq6th1st  NA1etc T-R1 3A   none
 1006    redZ06'00   Mfr/Vette/Infineon  nq6th1st  NA1etc T-R1 3A   none
-1007    redZ06'00   Mfr/Vette/ElCapitan nq6th1st  NA1etc T-R1 3A   none
+1007    redZ06'00   Mfr/Vette/ElCapitan nq6th1st  NA1etc T-R1 3A   next
 1008 +1 win car [R]Z06'63  Chevrolet Corvette Z06 (C2) Race Car '63
 1009 Cr5,569,765  Jan  5  A:8687  194cars  67.0%
 1009    redZ06'00   US/Stripes/Laguna   nq6th1st  NA1etc T-S3 6A   none
 1010    redZ06'00   US/Stripes/Laguna   nq6th1st(B)  0B            none
 1011    redZ06'00   US/Stripes/Seattle  nq6th1st  NA1etc T-S3 8A   none
-1012    redZ06'00   US/Stripes/InfineonStock  nq6th1st  NA1etc T-S3 7A   none
+1012    redZ06'00   US/Stripes/InfineonStock  nq6th1st  NA1etc T-S3 7A   next
 1013 +1 win car blue[R]Camaro  Chevrolet Camaro LM Race Car '01 (blue)
 1014 Cr5,609,765  Jan 10  A:8708  195cars  67.5%
 1014 power off
@@ -2233,7 +2233,7 @@ July 01, 2005
   cardef pink2CV  car475
 1017 select car pink2CV  Citroen 2CV Type A '54 (peche(special color))
 1017 buy parts  pink2CV  T-N1 T-N2 T-N3  Cr0
-1017    pink2CV        Mfr/2CV/OperaR     q1st4th(B)               next
+1017    pink2CV        Mfr/2CV/OperaR     q1st4th(B)               none
 1018 Cr5,617,466  Jan 14  B:7700/92/77/75 (+13/+0/+0/+0)
 1018 +5 pink2CV        Mfr/2CV    1st50to22,17,16,16,9 (B)      next
 1023 +1 win car pink2CV  Citroen 2CV Type A '54 (peche(special color))
@@ -2347,7 +2347,7 @@ Note: Leap Year!
 1066    240Z'71    J/70s/AMii       nq6th1st(B)   +0B       none
 1067    240Z'71    J/70s/Tsukuba    nq6th1st(B)   +0B       none
 1068    240Z'71    J/70s/MotorlandR nq6th2nd(B)   +0B       8-(
-1069    240Z'71    J/70s/MotorlandR nq6th1st(B) T-S3  +0B   none
+1069    240Z'71    J/70s/MotorlandR nq6th1st(B) T-S3  +0B   next
 1070 +1 win car silverSkyline'70  Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Silver Metallic)
 1071 select car RSC'02
 1071 +5    RSC'02    J/JC   BBBBA,2S,1st44to34,16,14,12,8  +0B  next
@@ -2514,13 +2514,13 @@ Note: Bspec InfineonStock Family Cup races
 1140  mod car   Vantage  stiff Cr50,000
 1140  buy parts Vantage  Rtrans,LSDF,shaft  Cr10,500 Cr6800 Cr3250
 1140  buy parts Vantage  Rsusp  Cr18,600 
-1140     Vantage       Mfr/Aston/Autumn       nq6th1st   48A      next
+1140     Vantage       Mfr/Aston/Autumn       nq6th1st   48A      none
 1141  buy parts Vantage  N2O Cr5000
-1141     Vantage       Mfr/Aston/Fuji90       nq6th1st   50A      next
+1141     Vantage       Mfr/Aston/Fuji90       nq6th1st   50A      none
 1142 change oil Vantage  512->565hp
 1142  buy parts Vantage  3clu Cr4800
-1142     Vantage       Mfr/Aston/Autumn    nq6th4th(B)   +13B     next
-1143     Vantage       Mfr/Aston/Fuji90    nq6th2nd(B)    +0B     next
+1142     Vantage       Mfr/Aston/Autumn    nq6th4th(B)   +13B     none
+1143     Vantage       Mfr/Aston/Fuji90    nq6th2nd(B)    +0B     none
 1144 Cr6,000,485  May 19   B:8425/99/84/83(+13/+0/+0/+0)  219cars 70.1%
 
 1144 select car stockLupo
@@ -3338,7 +3338,7 @@ August 3, 2005
 1520  buy parts Vanquish'04    NA2, NA3  Cr13,500 Cr80,000  shaft Cr3250
 1520  buy parts Vanquish'04  Rsusp  Cr18,600 
 1520 change oil Vanquish'04  480->504hp
-1520     Vanquish'04   Mfr/Aston/Autumn    nq6th1st       (8A)    next
+1520     Vanquish'04   Mfr/Aston/Autumn    nq6th1st       (8A)    none
 1521 Cr2,156,361  May 31   A:8979    239cars
 1521     Vanquish'04   Mfr/Aston/HK        nq6th1st       +8A     next
 1522 +1 win car DB9'03   Aston Martin DB9 Coupe '03 (Super Gold)special color))
@@ -3753,7 +3753,7 @@ cardef HT2000'70  car1070
 1702    HT2000'70  J/70s/Fuji80     nq6th1st Rtrans+T-S1,N2O   31-4A  none
 1703    HT2000'70  J/70s/Tsukuba    nq6th1st Rtrans+N2O,KG     41-3A  none
 1704    HT2000'70  J/70s/AMii       nq6th1st Rtrans+N2O,T-S3   10-4A  none
-1705    HT2000'70  J/70s/MotorlandR nq6th1st Rtrans+N2O,T-S3    9-4A  none
+1705    HT2000'70  J/70s/MotorlandR nq6th1st Rtrans+N2O,T-S3    9-4A  next
 1706 +1 win car silverSkyline'70  Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Silver Metallic)(dup)
 1707 Cr2,469,472  Dec  3  A:11597  282cars  78.7%
 1707 power off
@@ -3821,8 +3821,8 @@ Sep 20, 2005
 1726 Cr6,294,238  Dec 22  A:11597  284cars  78.7%
 
 1726 select car yellowS7  Saleen S7 '02  (Speedlab Yellow)
-1726   yellowS7   Mfr/S7/SartheI  nq6th1st      T-R3        +0A  next
-1727   yellowS7   Mfr/S7/SartheI  nq6th1st      T-R3        +0A  next
+1726   yellowS7   Mfr/S7/SartheI  nq6th1st      T-R3        +0A  none
+1727   yellowS7   Mfr/S7/SartheI  nq6th1st      T-R3        +0A  none
 1728 Cr6,314,238  Dec 24  A:11597  284cars  78.7%
 1728 power off
 
@@ -4475,7 +4475,7 @@ cardef  blackR92CP   car697
 2041 Cr15,144,241  Nov  2  A:14845  362cars  81.3%
 2041  blackR92CP     Ex/WC/Fuji05GT nq6th1st(B)          1 try    none
 2042 Cr15,159,241  Nov  3  A:14845  362cars  81.4%
-2042  blackR92CP     Ex/WC/Nurb     nq6th1st(B)          1 try    none
+2042  blackR92CP     Ex/WC/Nurb     nq6th1st(B)          1 try    next
 2043 Cr15,174,241
 2043 +1 win car PaceCar Nissan Gran Turismo Skyline GT-R (Pace Car) '01
 2044 Cr15,174,241  Nov  5  A:14845  363cars  81.6%
@@ -4562,7 +4562,7 @@ Jan 19, 2006
 Jan 20, 2006
 2088 +1 buy car  redFordGT'05  Ford GT '05 (Mark IV Red Clearcoat)  (Cr127,397,trade)
 2089 Cr15,724,265
-2089   McLarenSLR  Ex/Prem/NYii  nq6th1st                       5A none
+2089   McLarenSLR  Ex/Prem/NYii  nq6th1st                       5A next
 2090 +1 win car  whiteFordGT'05  Ford GT '05 (Centennial White Clearcoat)
 2091 Cr15,736,265  Dec 22  A:15373  375cars  85.9%
 2091 +1 buy car  blackFordGT'05  Ford GT '05 (Mark II Black Clearcoat)  (Cr127,397,trade)
@@ -4672,7 +4672,7 @@ Jan 29, 2006
 Jan 30, 2006
 2139   whiteFGT  Ex/FGT/Fuji05   q1st1st(B)                           none
 2140 Cr8,311,967  Feb  9  A:16151  391cars  89.1%
-2140   whiteFGT  Ex/FGT/Suzuka   q6th1st(B)                           none
+2140   whiteFGT  Ex/FGT/Suzuka   q6th1st(B)                           next
 Note:  whiteFGT  Ex/FGT  1st150to56,54,47,43,40
 2141 +1 win car SauberC9  Sauber Mercedes C9 Race Car '89
 2142 Cr11,411,967 Feb 11  A:16151  392cars  89.4%
@@ -5365,7 +5365,7 @@ Note: 57.048 miles
 
 2388    SpiritRX7  SC/Normal/TsukubaWet    1st TS2,Rmuff,T-R5    96-26A  none
 2389    SpiritRX7  SC/Normal/TsukubaWet    1st TS1,Rmuff,T-R5   189-96A  none
-2390    SpiritRX7  SC/Normal/TsukubaWet    1st TS2,Rmuff,T-R1  200-189A  none
+2390    SpiritRX7  SC/Normal/TsukubaWet    1st TS2,Rmuff,T-R1  200-189A  next
 Note: beat Saleen S7
 2391 +1 win car [R]Mazda6  Mazda Mazda 6 Touring Car '02  (yellow/blue #82)(dup)
 2392 Cr22,511,217  Oct 19  A:19182  441cars
@@ -5834,7 +5834,7 @@ January 13, 2008
 2514     [R]787B        SC/Hard/Umbria      nq2nd1st           1A  next
 2515 +1 win car  [R]DeltaS4'85  Lancia Delta S4 Rally Car '85
 2516 Cr18,969,475  Feb 20  A:23340  482cars  94.0%
-2516     [R]787B        SC/Hard/GeorgeR     nq2nd1st           1A  none
+2516     [R]787B        SC/Hard/GeorgeR     nq2nd1st           1A  next
 2517 +1 win car  [R]205'86  Paugeot 205 Turbo 16 Evolution 2 Rally Car '86
 2518 Cr18,989,471  Feb 22  A:23341  483cars  94.2%
 2518 power off
@@ -6050,7 +6050,7 @@ February 14, 2008
 
 
 February 15, 2008
-2567   [R]Escort'98      SC/Hard/CathedralII    nq2nd1st      8A next
+2567   [R]Escort'98      SC/Hard/CathedralII    nq2nd1st      8A none
 2568 Cr20,098,326  Apr 12  A:23525  501cars  97.7%
 Note: beat Evo '03
 Note: A-spec 17,535mi  B-spec 62,472mi
@@ -6075,7 +6075,7 @@ February 17, 2008
 Note: lost to Evo'03
 2574 change oil [R]Escort'98  Cr50  461 -> 485hp
 2574 Cr20,138,276
-2574   [R]Escort'98    SC/Hard/GrandR  nq2nd1st          7A  none
+2574   [R]Escort'98    SC/Hard/GrandR  nq2nd1st          7A  next
 2575 +1 win car  [R]Starion'84  Mitsubishi Starion 4WD Rally Car '84
 2576 Cr20,158,276  Apr 20  A:23548  504cars  98.3%
 Note: beat Evo'03 (by blocking)  A-spec 17,574mi
@@ -6169,7 +6169,7 @@ December 20, 2008
 
 December 23, 2008
 2593 select car CooperS   Mini Cooper S '02  (Chili Red)
-2593 CooperS SC/Easy/GeorgeR     nq2nd1st +22-1A Cr5000    next
+2593 CooperS SC/Easy/GeorgeR     nq2nd1st +22-1A Cr5000    none
 2594 Cr19,422,412
 2594  buy parts CooperS  SRtrans Cr5500  SRsusp Cr7200
 2594  buy parts CooperS Rfw Cr1000  3clu Cr2600  T-R4 Cr34,750
@@ -6189,7 +6189,7 @@ December 25, 2008
 2601 Cr19,396,262 May15 A:24447  512cars  98.4%
 Note: use +200kg,R1 for SC/Easy
 2601 CooperS SC/Easy/George     nq2nd1st  +81-22A Cr5000  none
-2602 CooperS SC/Easy/GeorgeR     nq2nd1st  +93-22A Cr5000  none
+2602 CooperS SC/Easy/GeorgeR     nq2nd1st  +93-22A Cr5000  next
 2603 +1 win car A310'73  Alpine A310 1600VE '73 (Bleu Alpine)
 2604 Cr19,406,262 May18 A:24577  513cars  98.4%
 2604 power off
@@ -6425,8 +6425,8 @@ Oct 03, 2009
 2667    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S2 58-1A  none
 2668    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S1 68-1A  none
 2669 Cr14,428,476  Jul22 A:26724 531cars  98.4%
-2669    BMWZ4'03     B/Spider/Infineon  nq6th1st  free+T-S1 68-1A  next
-2670    BMWZ4'03     B/Spider/MotegiE   nq6th1st free+T-S2 58-1A  none
+2669    BMWZ4'03     B/Spider/Infineon  nq6th1st  free+T-S1 68-1A  none
+2670    BMWZ4'03     B/Spider/MotegiE   nq6th1st free+T-S2 58-1A  next
 2671 +1 win car  Prowler  Chrylser Prowler '02 (Silver Metallic)(dup)
 2672 Cr14,434,476  Jul25 A:26848 532cars  98.4%
 
@@ -6518,7 +6518,7 @@ Note: Almost one month of attempts
 March 23, 2011
 2703 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:21.367 -6.079  250A none
 Note: Sauber glitched on Mulsanne Straight 8-(
-2704 +1 win car      TankCar  Jay Leno Tank Car '03
+2704 +1 win car      TankCar  Jay Leno Tank Car '03 (prize,Mission11-20)
 2705 Cr13,878,077  Aug27  A:29139  538cars  99.4%
 2705 power off
 
