@@ -1,10 +1,20 @@
-head	1.112;
+head	1.114;
 access;
 symbols;
 locks
-	arpepper:1.112; strict;
+	arpepper:1.114; strict;
 comment	@# @;
 
+
+1.114
+date	2021.06.05.20.19.45;	author arpepper;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2021.06.03.12.05.40;	author arpepper;	state Exp;
+branches;
+next	1.112;
 
 1.112
 date	2021.05.21.22.54.07;	author arpepper;	state Exp;
@@ -574,12 +584,9 @@ Develop incrementally.
 @
 
 
-1.112
+1.114
 log
-@Approximately 37 corrections triggered by new garage feature where
-we add to garage entries an indication of how a prize was obtained.
-
-I.e. we audied "none" versus "next" on event lines.
+@Oops.  Needed to correct two "Guilia" => "Giulia".
 @
 text
 @
@@ -2029,7 +2036,7 @@ April 18, 2005
  649  change oil Etype       468->468hp  +wash
  649 Cr15,011,254
  649 +4   Etype      Eu/MM   sw40to24,14,12,10,5 (B)       next
- 653 +1 win car AlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bianco Gardenia)
+ 653 +1 win car AlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bianco Gardenia)
  654 Cr15,911,104  Jan 15   B:6808/89/71/61 (+30/+0/+0/+0) 122cars 43.8%
  654 power off
  
@@ -2975,7 +2982,7 @@ July  3, 2005
 1089      GTA'02    Mfr/GTA/GVEii       nq6th1st  chip,N2O,T-R1 8A   none
 1090      GTA'02    Mfr/GTA/Apricot     nq6th1st  chip,T-R1 8A   none
 1091      GTA'02    Mfr/GTA/Tsukuba     nq6th1st  chip,T-R1 8A   next
-1092 +1 win car redGTA'65  Alfa Romeo Guilia Sport GTA 1600 '65 (Rosso Alfa)
+1092 +1 win car redGTA'65  Alfa Romeo Giulia Sprint GTA 1600 '65 (Rosso Alfa)
 1093 Cr6,508,901  Mar29   A:8849   212cars   68.9%
 1093      GTA'02    Mfr/GTA/GVEii       nq6th2nd(B)  chip,T-R1      8-(
 1094      GTA'02    Mfr/GTA/GVEii       nq6th1st(B)  NA2,T-R1      none
@@ -2983,7 +2990,7 @@ July  3, 2005
 1095      GTA'02    Mfr/GTA/Tsukuba     nq6th2nd(B) chip,T-R1  +0B 8-(
 1096      GTA'02    Mfr/GTA/Tsukuba     nq6th1st(B)  NA2,T-R1  +0B none
 1097      GTA'02    Mfr/GTA/Apricot     nq6th1st(B)  NA2,T-R1  +0B next
-1098 +1 win car redGTA'65  Alfa Romeo Guilia Sport GTA 1600 '65 (Rosso Alfa)
+1098 +1 win car redGTA'65  Alfa Romeo Giulia Sprint GTA 1600 '65 (Rosso Alfa)
 1099 Cr6,515,901  Apr  4   B:7964/93/80/78(n/c)            213cars  68.9%
 1099      GTA'02     City/Family/SSR5 -6   nq6th1st(B) NA2,T-R1  none
 1100 Cr6,516,401  Apr  5   B:7977/93/80/78(+13/+0/+0/+0)   213cars  68.9%
@@ -4662,11 +4669,11 @@ Note:    license S16   F F8:36.375,F8:07.257, a few offs 8-( ?
 
 Oct 15-21, 2005
 1859 +4   BRGEtype    Eu/MM   sw40to24,14,12,10,5 +200KG +23A        next
-1863 +1 win car blueAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bluette)
+1863 +1 win car blueAlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
 1864 Cr12,217,357  May  9  A:13002  319cars  79.1%
 1864 +1 buy car S600'64  Honda S600 '64 (Scarlet)  (Cr50,999,used)
 1865 Cr12,166,358
-1865 +1 buy car redAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Rosso Alfa) (Cr52,733,trade)
+1865 +1 buy car redAlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Rosso Alfa) (Cr52,733,trade)
 1866 Cr12,113,625  May 11  A:13002  321cars  79.1%
 1866 power off
 
@@ -4953,7 +4960,7 @@ Dec 25, 2005
 Dec 25-31, 2005
 1995 select car  red300SL    Mercedes-Benz 300SL Coupe '54  (Fire Engine Red)
 1995 +4   red300SL    Eu/MM   sw40to24,16,11,9,4 20KGchipT-S2 +13A  next
-1999 +1 win car blueAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bluette)
+1999 +1 win car blueAlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
 2000 Cr15,282,846  Sep 22  A:14372  355cars  80.8%
 
 
@@ -7149,6 +7156,43 @@ December 08, 2012
 2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
 2717 power off
 
+@
+
+
+1.113
+log
+@Spelling correction.  "Guila" -> "Giulia".
+@
+text
+@d2394 1
+a2394 1
+1092 +1 win car redGTA'65  Alfa Romeo Guilia Sport GTA 1600 '65 (Rosso Alfa)
+d2402 1
+a2402 1
+1098 +1 win car redGTA'65  Alfa Romeo Guilia Sport GTA 1600 '65 (Rosso Alfa)
+@
+
+
+1.112
+log
+@Approximately 37 corrections triggered by new garage feature where
+we add to garage entries an indication of how a prize was obtained.
+
+I.e. we audied "none" versus "next" on event lines.
+@
+text
+@d1448 1
+a1448 1
+ 653 +1 win car AlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bianco Gardenia)
+d4081 1
+a4081 1
+1863 +1 win car blueAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bluette)
+d4085 1
+a4085 1
+1865 +1 buy car redAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Rosso Alfa) (Cr52,733,trade)
+d4372 1
+a4372 1
+1999 +1 win car blueAlfaGuila Alfa Romeo Guila Sprint Speciale '63 (Bluette)
 @
 
 
