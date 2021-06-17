@@ -1,10 +1,15 @@
-head	1.56;
+head	1.57;
 access;
 symbols;
 locks
-	arpepper:1.56; strict;
+	arpepper:1.57; strict;
 comment	@# @;
 
+
+1.57
+date	2021.06.11.22.42.31;	author arpepper;	state Exp;
+branches;
+next	1.56;
 
 1.56
 date	2021.05.25.22.21.54;	author arpepper;	state Exp;
@@ -295,12 +300,10 @@ updates copied to ~gt2toxs and eventually to gt2toxs-webpages.git
 @
 
 
-1.56
+1.57
 log
-@Add comments indicating what this program does.
-Also indicate its options.
-And also suggest future possibilities for what this program might do,
-although the marginal utility of new features is decreasing.
+@Crucial changes to allow log author to make "sell" work in cases
+where the car name contains pattern characters (specifically "()")
 @
 text
 @#!/usr/bin/perl -w
@@ -625,13 +628,15 @@ sellcarid {
 		return;
 	}
 	$what = $main::carnames{$carid};
+	$match =~ s/\s*->.*$//;
+	$match =~ s/$/.*/;
 	if ($what !~ /$match/) {
 		&warn("Carid $carid ($what) does not match /$match/\n");
 		return;
 	}
 	$main::carstates{$carid} = "sold";
 	if ($main::showlist =~ /,sold,/i ) {
-		print "${main::maxtoday}:$match ($what) sold!\n";
+		print "${main::maxtoday}:$carid ($what) sold!\n";
 	}
 	$main::ncarsnow = carsnow();   # expensive?
 }
@@ -1946,6 +1951,21 @@ if ($main::showlist =~ /,carlog,/ ) {
 	}
 }
 
+@
+
+
+1.56
+log
+@Add comments indicating what this program does.
+Also indicate its options.
+And also suggest future possibilities for what this program might do,
+although the marginal utility of new features is decreasing.
+@
+text
+@d323 2
+d331 1
+a331 1
+		print "${main::maxtoday}:$match ($what) sold!\n";
 @
 
 

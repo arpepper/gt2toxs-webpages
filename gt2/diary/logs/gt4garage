@@ -320,13 +320,15 @@ sellcarid {
 		return;
 	}
 	$what = $main::carnames{$carid};
+	$match =~ s/\s*->.*$//;
+	$match =~ s/$/.*/;
 	if ($what !~ /$match/) {
 		&warn("Carid $carid ($what) does not match /$match/\n");
 		return;
 	}
 	$main::carstates{$carid} = "sold";
 	if ($main::showlist =~ /,sold,/i ) {
-		print "${main::maxtoday}:$match ($what) sold!\n";
+		print "${main::maxtoday}:$carid ($what) sold!\n";
 	}
 	$main::ncarsnow = carsnow();   # expensive?
 }
