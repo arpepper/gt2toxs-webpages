@@ -1,0 +1,176 @@
+head	1.4;
+access;
+symbols;
+locks
+	arpepper:1.4; strict;
+comment	@# @;
+
+
+1.4
+date	2021.06.23.02.02.41;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2021.06.23.01.53.47;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.04.06.06.59.45;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.04.06.06.18.36;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Add some new "setvar" statements that (now) allow gt4garage to
+work with this log file.
+@
+text
+@#pragma gt4
+pragma ARRI
+
+setvar minlicenseinc = 0
+setvar maxlicenseinc = 1
+setvar minseriesinc = 0
+setvar maxseriesinc = 1
+setvar allowanyprize = 1
+
+define league R
+define league S
+define league P
+define league E
+define league U
+
+define series R/XP-1
+define series R/XP-2
+define series R/XP-3
+define series R/XP-4
+define series R/G-1
+define series R/G-2
+define series R/G-3
+define series R/T-1
+define series R/T-2
+define series R/C-1
+
+define series S/XP-1
+define series S/XP-2
+define series S/XP-3
+define series S/XP-4
+define series S/G-1
+define series S/G-2
+define series S/G-3
+define series S/T-1
+define series S/T-2
+define series S/C-1
+
+define series P/XP-1
+define series P/XP-2
+define series P/XP-3
+define series P/XP-4
+define series P/G-1
+define series P/G-2
+define series P/G-3
+define series P/T-1
+define series P/T-2
+define series P/C-1
+
+define series E/XP-1
+define series E/XP-2
+define series E/XP-3
+define series E/XP-4
+define series E/G-1
+define series E/G-2
+define series E/G-3
+define series E/T-1
+define series E/T-2
+define series E/C-1
+
+define series U/XP-1
+define series U/XP-2
+define series U/XP-3
+define series U/XP-4
+define series U/G-1
+define series U/G-2
+define series U/G-3
+define series U/T-1
+define series U/T-2
+define series U/C-1
+
+
+define track VenetoS
+define track VenetoL
+define track MilanoS
+define track MilanoL
+define track ValenciaS
+define track ValenciaL
+define track HockenheimS
+define track HockenheimL
+define track SiciliaS
+define track SiciliaL
+define track FirenzeS
+define track FirenzeL
+define track DoningtonS
+define track DoningtonL
+define track StadiumS
+define track StadiumL
+define track ToscanaS
+define track ToscanaL
+define track CampaniaS
+define track CampaniaL
+define track Laguna
+
+
+Note: following allows us to pretend "race" is an operation
+1 win car race Alfa 147 Twin Spark (prize,Initial)
+Note: also list all cars and tracks, in acquire order
+1 win track Laguna Seca
+
+@
+
+
+1.3
+log
+@Old forgotten checkin of tracks CampaniaS CampaniaL and Laguna
+Plus adding pragma.
+And Tweaking dummy "win" line to avoid diagnostics.
+@
+text
+@d4 6
+@
+
+
+1.2
+log
+@Complete?
+@
+text
+@d2 1
+d84 3
+d90 1
+a90 1
+1 win car race Alfa 147 Twin Spark
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d20 45
+d73 10
+d88 1
+a88 1
+1 win Laguna Seca
+@
