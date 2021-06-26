@@ -17,6 +17,7 @@
 #   car selection for events (a biggie for catching mistakes caused by copying)
 #   Events must match definitions listed, usually in included gtN-racedefs
 #       (which then become prize indicators via "next" and "win")
+#   Verifies that "buy parts" and "mod car" have balanced items and Cr entries.
 #
 # Also:
 #   "show=carlog" (optional "show=verbose,carlog")
@@ -25,16 +26,30 @@
 #   "show=rawevents"
 #   "show=events"
 #   "show=prizes"
-#     dump stored tables of event/prizes; seem redundant
+#       dump stored tables of event/prizes; seem redundant
 #   "show=sold" "show=sell" "show=sales" "show=buy"
 #     somewhat haphazardly attempt to track those car transactions
 #         E.g. "show=sold,sell,sales,buy"
 #   "show=origin" shows origins based on carid table (i.e. shows creating line)
 #   "show=carids" dumps internal table of carids; useful when you need them
+#
+#   "show=rawparts" dumps processed version of all "buy parts" and "mod" lines
+#   "show=mods" really debugging; shows extracted power and weight mod notes
+#   "show=carprices" dumps carprices table (also "show=prices")
+#   "show=carparts" dumps carparts table (also "show=parts")
+#   "show=carpartstotals" gives per-car parts cost (also "show=partstotals")
+#
 #   "show=warn" tries to add extra warnings
-#   "show=pragmas"  FWIW
+#   "show=pragmas"  FWIW - some "pragma" evaluation will in future
+#                              be replaced by use of "setvar"
 #   "show=garage" is the default
 #
+# Now also:
+#   setvar variable = value
+#      - just numbers for now?
+#   Primarily to allow "gt4garage ARRI-game2" to work
+#       setvar minlicenseinc = 0
+#       setvar maxlicenseinc = 1
 #
 # Future possibilities (getting few)
 #   Credit sanity (increased or decreased as appropriate).
@@ -46,6 +61,7 @@
 #
 #   It would be nice, but likely not possible, to arrange that
 #     gt1 and gt2 logs could be processed too, with suitable gtN-racedefs
+#   define recognized cars before win/buy ?  (working towards gt1/gt2)
 #  
 #
 
@@ -58,6 +74,13 @@ warn {
 	print @_;
 }
 
+%main::var = ();	# variables to set along with racedefs
+$main::var{'minlicenseinc'} = 1;
+$main::var{'maxlicenseinc'} = 1;
+$main::var{'minseriesinc'} = 1;
+$main::var{'maxseriesinc'} = 1;
+$main::var{'allowanyprize'} = 0;
+
 $main::done = 0;
 $main::enddate = "";
 $main::mintoday = 0;
@@ -65,7 +88,7 @@ $main::maxtoday = 1;
 $main::selected = "";
 $main::pragmas = ",";
 
-@main::cardata = ();   # now we initialize all data via "mod car" in the log
+@main::cardata = ();   # now we initialize all data via "buy" or "win" in log
 @main::prizes = ();
 @main::events = ();
 $main::prize_event = ""; # pending event from "next", for "win"
@@ -81,6 +104,16 @@ $main::maxserieslen = 6;
 %main::carid = ();  # map usual shortform to a carid (can conflict?)
 $main::ncarsnow = 0;  # set to count when changes
 
+# Discovered following defined only by use
+%main::carids = ();  # see findcarid
+%main::carnames = ();
+%main::cardefs = ();  # special names created via "cardef" command
+%main::carstates = ();
+%main::carlist = (); # shortforms
+%main::carprices = ();
+
+%main::carmodels = ();  # Devoid of colour, price, etc
+
 #
 # proposed new scheme would just mark things as sold, not shuffle arrays
 #
@@ -95,12 +128,13 @@ $main::ncarsnow = 0;  # set to count when changes
 		
 my($name);
 while (@main::cardata) {
+# This (i.e. cardata) is empty for later games
 	$name = shift @main::cardata;
 	$main::carlist{$name} = $name;
 };
 
 sub
-lidsub() {  # sort B1..A1..IB1..IA1..S1..S16
+lidsub() {  # sort license test names B1..A1..IB1..IA1..S1..S16
 	my($n1, $n2, );
 
 	$n1 = $a;
@@ -124,6 +158,65 @@ lidsub() {  # sort B1..A1..IB1..IA1..S1..S16
 	$n2 += 10000 if ($b =~ /S/);
 
 	return $n1 <=> $n2;
+}
+
+sub
+caridcolonsub() { # Compare  car123:T-R2  car234-2:T-R5
+	my($n1,$m1, $n2, $m2);
+	my($suf1, $suf2);
+
+	$suf1 = $a;
+	if ($suf1 =~ /:/ ) {
+		$suf1 =~ s/^[^:]*://;
+	}
+	else {
+		$suf1 = "";
+	}
+	$n1 = $a;
+	$n1 =~ s/:.*//;
+	$n1 =~ s/^car//;
+	$n1 =~ s/ .*$//;  # allow more on the line
+	$m1 = $a;
+	$m1 =~ s/:.*//;
+	$m1 =~ s/ .*$//;  # allow more on the line
+	if ($m1 !~ /-/) {
+		$m1 = 1;
+	}
+	else {
+		$m1 =~ s/.*-//;
+		$n1 =~ s/-.*//;
+	}
+
+	$suf2 = $b;
+	if ($suf2 =~ /:/ ) {
+		$suf2 =~ s/^[^:]*://;
+	}
+	else {
+		$suf2 = "";
+	}
+	$n2 = $b;
+	$n2 =~ s/:.*//;
+	$n2 =~ s/^car//;
+	$n2 =~ s/ .*$//;  # allow more on the line
+	$m2 = $b;
+	$m2 =~ s/:.*//;
+	$m2 =~ s/ .*$//;  # allow more on the line
+	if ($m2 !~ /-/) {
+		$m2 = 1;
+	}
+	else {
+		$m2 =~ s/.*-//;
+		$n2 =~ s/-.*//;
+	}
+	if ( $n1 == $n2 ) {
+		if ( $m1 == $m2 ) {
+			return $suf1 cmp $suf2;
+		}
+		return $m1 <=> $m2;
+	}
+	else {
+		return $n1 <=> $n2;
+	}
 }
 
 sub
@@ -198,6 +291,24 @@ gencarid { # every cars unequivocable ID is carNNN-N where NNN is gameday
 }
 
 sub
+getcarprice {
+	my($id,$line) = @_;
+	my($price);
+
+	$price = "Cr0";
+	if ($line =~ m/\(Cr[0-9][0-9,]*/ ) {
+		$line =~ s/,([^0-9])/, $1/;
+		while ($line =~ m/Cr[0-9][0-9]*,/ ) {
+			$line =~ s/(Cr[0-9][0-9]*),/$1/;
+		}
+		if ( $line =~ m/\((Cr[0-9][0-9]*)/ ) {
+			$price = $1;
+		}
+	}
+	$price;
+}
+
+sub
 carsnow {  # expensive count of cars today
 # try to call this only when we expect it to have changed
 # $main::ncarsnow = carsnow();
@@ -223,8 +334,25 @@ getcar {
 	$main::carstates{$newid} = "got";   # s.b. "won" or "new" or "used"?
 	$main::carlist{$shortform} = $shortform;
 	$main::origin{$newid} = $line;
-	$main::carid{$shortform} = $newid;
+	$main::carprices{$newid} = getcarprice($newid,$line);
+	$main::carid{$shortform} = $newid;  # stupid names carids vs carid
 	$main::ncarsnow = carsnow();   # expensive?
+	my($model) = ($fullname);
+	if ($model =~ /['][0-9][0-9]\b/) {
+		$model =~ s/(['][0-9][0-9]\b).*$/$1/;
+	}
+	else {
+		while ($model =~ /[(].*[)]\s*$/) {
+			# (prize)  (dup) (Cr10.000,new)  (colour)
+			if ( $model =~ /[)]\s*[)]\s*$/ ) {
+				# (Malachit (green))
+				$model =~ s/\s*[(][^)]*[)]\s*[)]\s*$/)/;
+			}
+			$model =~ s/\s*[(][^()]*[)]\s*$//;
+		}
+	}
+	$main::carmodels{$newid} = $model;
+		
 }
 
 sub
@@ -682,8 +810,8 @@ dolicenseline {
 	if ( $diff < 0 ) {
 		&warn("Bad license end day: $_\n");
 	}
-	$main::mintoday = $end + 1;
-	$main::maxtoday = $end + 1;
+	$main::mintoday = $end + $main::var{'minlicenseinc'};
+	$main::maxtoday = $end + $main::var{'maxlicenseinc'};
 	# Almost need completely different routine for GT3, but maybe not?
 	return if $main::pragmas !~ /,gt4,/;
 
@@ -830,8 +958,8 @@ doseriesline {
 	if ( $diff < 0 || $main::maxserieslen < $diff) {
 		&warn("Bad end day: $_\n");
 	}
-	$main::mintoday = $end + 1;
-	$main::maxtoday = $end + 1;
+	$main::mintoday = $end + $main::var{'minseriesinc'};
+	$main::maxtoday = $end + $main::var{'maxseriesinc'};
 	$none = 1;
 	if ($rest =~ /(\S+)\s+(\S+)\s+(.*)/ ) {
 		($car,$event,$after) = ($1,$2,$3);
@@ -974,17 +1102,40 @@ douncardef {
 }
 
 sub
+dosetvar {
+	my($line) = @_;
+	my($what,$value,$carid);
+
+	if ( !($line =~ /^\s*setvar\s+(\S+)\s*\=\s*([\S]+)/) ) {
+		&warn("Bad setvar: $line\n");
+		return;
+	}
+	$what = $1;
+	$value = $2;
+	# assert defined($what) && defined($value)
+
+	$main::var{$what} = $value;
+}
+
+sub
 findcarid { # given explicit cardef or carid, or unique shortform, return carid
 	    # warn (first time) about unresolvable names
 	my($carname,$line) = @_;
 	my($k,$id);
 
 	if (defined($main::carids{$carname})) {
+		# We were given a carid; just return it (NOT carids{$carname})
 		return $carname;
+	}
+# We have both %carids and %carid
+	if (defined($main::carid{$carname})) {
+		# quick map of short forms to carid
+		return $main::carid{$carname};
 	}
 	if (defined($main::cardefs{$carname} )) {
 		return $main::cardefs{$carname};
 	}
+	# Did not find via above; search all $carids{}
 	$id = "";
 	foreach $k (sort caridsub keys %main::carids) {
 		if ($main::carids{$k} eq $carname &&
@@ -1008,6 +1159,7 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 	}
 	if (!defined($main::carlist{$carname})) {
 		&warn("Unrecognized car ($carname): $line\n");
+		# Reduce diagnostics by defining here
 		$main::carlist{$carname} = $carname;
 	}
 	return undef;
@@ -1178,7 +1330,13 @@ dowin {   # Handle  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
 		addcarlog($main::selected,$line);
 	}
 	if ($stuff !~ /^\s*car\s+(\S+)/ || !defined($1) ) {
-		&warn("Bad win: $line\n");
+		if (!$main::var{'allowanyprize'} ) {
+			&warn("Bad win: $line\n");
+		}
+		else {
+			getcar($stuff,$stuff,$line);
+			$main::prize_event = "";
+		}
 		return;
 	}
 	$event = "";
@@ -1242,6 +1400,240 @@ dowin {   # Handle  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
 }
 
 sub
+normalizeparts {
+	my($car,$line) = @_;
+	my($stuff, $dayno, $op);
+	my ($tok);
+	my ($mod);
+
+# 208  mod car   CivicTypeR WR1 WR2 WR3  -805-780-755  Cr1000 Cr5000 Cr20,000
+# 451  buy parts whiteCelica'70 (Tom's) Rmuff Cr4600 Rbr Bctlr  Cr4600 Cr10,300
+# 451  mod car   whiteCelica'70   pol+bal  Cr5250  Cr11,000
+# 451  mod car   whiteCelica'70   WR1 WR2 WR3 Cr1100 Cr5300 Cr21,000
+	$stuff = $line;
+	$stuff =~ s/\n//g;
+	$stuff =~ s/^\s*//;  # Had had obscure bug ctrl\ instead of "^\"
+	$stuff =~ s/^\s*$//;   # Can't hurt
+	$dayno = $stuff;
+	$dayno =~ s/\s+.*$//;
+	$stuff =~ s/^\S+\s*//;
+	$op = $stuff;
+	if ($op =~ /^\+\d/) {
+		# In GT4, this actually implies wheels
+		$stuff =~ s/^\S+\s*//;
+		$op = $stuff;
+	}
+	$op =~ s/\s.*$//;  #  s.b. "buy" or "mod"
+			# Will later make into "parts" or "mod"
+	$stuff =~ s/^\S+\s*//;
+	$tok = "";
+	for ( ; ; ) {
+		last if ($stuff eq "");
+		$tok = $stuff;
+		$tok =~ s/\s+.*$//;
+		$op = $tok if ($tok eq "parts");
+		$stuff =~ s/^\S+\s*//;
+		last if ($tok eq $car);
+	}
+	if ($tok ne $car) {
+		# Perhaps this will be redundant noise given "select"
+		&warn("Could not find $car: $line\n");
+	}
+	while ($stuff =~ /,\s*Cr/i ) {
+		# Ensure prices are separated by spaces, not commas
+		$stuff =~ s/,\s*Cr/ Cr/ig;
+	}
+	while ($stuff =~ /Cr\d+,\d/i ) {
+		# Reomve optional commas from Cr10,000
+		$stuff =~ s/(Cr\d+),(\d)/$1$2/;
+	}
+	while ($stuff =~ /Cr\d+[.]\d/i ) {
+		&warn("Period instead of comma: $line\n");
+		$stuff =~ s/(Cr\d+)[.](\d)/$1$2/;
+	}
+	# Now for things like
+        # 117 mod car   Silvia'88K  WR1  Cr1000  ->1071kg
+        # 120 buy parts Silvia'88K  Rmuff  ->257hp
+        # 706  mod car  March  WR1 WR2 WR3 -805-780-755  Cr1000 Cr5000 Cr20,000
+	# Appears we only did 805 -> 780 in comments
+	# Recently we usually use only "-" with no spaces
+	# We cannot safely remove spaces before "-".
+	$stuff =~ s/(\d)to(\d)/$1-$2/g;  # probably should've just changed log
+	my($p) = $stuff;
+	$mod = "";
+	while ( $stuff =~ m/(\d*-[\d\-\>]+(hp|kg){0,1})/ ) {
+		$mod .= $1;
+		$stuff =~ s/\d*-[\d\-\>]+(hp|kg){0,1}//;
+		 # remove anything with digits and "->"
+		# avoid T-S3 changing to TS3
+	}
+# Maybe later we can use such mod information somehow
+	if ($main::showlist =~ /,mods,/ && $p ne $stuff) {
+		print " B:",$p,"\n A:",$stuff,"\n";
+		print " mod:$mod\n";
+	}
+
+	# Back in gt3-game1 I tended to put prices in parentheses
+	#  But they do not seem semantically significant
+	while ($stuff =~ /\((Cr\d+[^()]*)\)/ ) {
+		#  72   buy parts Trueno SpSusp (Cr3,000)
+		#  72   buy parts Trueno SpSusp (Cr3000)
+		# Add space in case parenthesis was used as token separator
+		$stuff =~ s/\((Cr\d+[^()]*)\)/ $1/;
+		#  72   buy parts Trueno SpSusp  Cr3000
+	}
+	$stuff =~ s/\(\?\)//g;  # FWIW
+	$stuff =~ s/,/ /g;  # Any remaining commas could be spaces
+	$stuff =~ s/\+/ /g; # I use "pol+bal" a lot; also "cage+refresh"
+	$stuff =~ s/\s+/ /g;   # Multiple spaces not semantically significant
+	$stuff =~ s/\s*$//;  # just to be sure
+	$stuff =~ s/^\s*//;  # just to be sure
+	#  Note in GT3 you bought tire combinations e.g. T-R3/T-R3
+  	#  66   buy parts Trueno T2/T2 (Cr10,000)
+
+	#return ($op, $tok. $stuff);  # Sure I assigned funcs to arrays before
+	return $op . " " . $tok . " " . $stuff;
+}
+
+sub
+doparts {
+	my($car,$line) = @_;
+
+
+	my($buf);
+	my($stuff, $op);
+	my ($tok);
+
+	#($op, $tok, $stuff) = normalizeparts($car,$line);
+	$buf = normalizeparts($car,$line);
+# A question becomes, what should be left after normalize ?
+#  For now we leave anything left in parentheses, and also NNNkg and NNNhp
+#	print "$buf\n"  if ($main::showlist =~ /,rawparts,/ );
+	($op, $tok, $stuff) = split(/\s/,$buf,3);
+# N.B. if you don't specify ",3" you get only the first solitted element
+	print "$op $tok :$stuff\n"  if ($main::showlist =~ /,rawparts,/ );
+
+# Mostly gt3-game1 use of parentheses...
+# Old "alias" throwback
+#   (alias [R]FalconXR8)
+# Tuner names
+#   (Trial)
+#   (HKS)
+#   (Mine's)
+#   (Amuse)
+#   (from Blitz)
+# "Daily wheels"
+#   (daily)
+# Colours (for wings and wheels)
+#   (silver)
+#   (Black)
+#   (black)
+#   (yellow)
+#   (red)
+#   (red 4x2 spokes)
+# Asides
+#   (don't fit)
+# Alternate GT3 tire designations
+#   (SSl/SSl)
+#   (M/M)
+#
+# Also brief attempt in gt4-game2 to track the "codenames"
+# I will simply remove those, however.
+# buy Cougar :Rtrans("FC") 3clu("TR") Cr10000 Cr4600
+
+# So...
+#  buy Crossfire :NA1 NA2 Cr4700 Cr12000 chip N2O Cr1250 Cr5000
+#  becomes $parts{"Crossfire:NA1"} = "Cr4700";
+#  becomes $parts{"Crossfire:NA2"} = "Cr12000";
+#  becomes $parts{"Crossfire:chip"} = "Cr4700";
+#  becomes $parts{"Crossfire:N2O"} = "Cr5000";
+#
+# Assume Cr0 applies to all everything before it, i.e.
+# buy redSkyline'67 :T-N1 T-N2 T-N3 Cr0 T-S1 T-S3 Cr4100 Cr5600
+# becomes $parts{"redSkyline'67:T-N1"} = "Cr0";
+# becomes $parts{"redSkyline'67:T-N2"} = "Cr0";
+# becomes $parts{"redSkyline'67:T-N3"} = "Cr0";
+# becomes $parts{"redSkyline'67:T-S1"} = "Cr4100";
+# becomes $parts{"redSkyline'67:T-S3"} = "Cr5600";
+#
+# Except we want to use   car2495 redSkyline'67 Nissan Skyline 2000GT-B ...
+# So...  $parts{"car2495:T-N1"} = "Cr0";
+# etc...
+#
+	my($id);
+	my(@prices);
+	my(@parts);
+	my(@tokens);
+	my($t,$p);
+
+	@prices = ();
+	@parts = ();
+	$id = findcarid($tok);
+	if (!defined($id)) {  # probably can't happen
+		&warn("Cannot find carid for $tok, $line\n");
+		return;
+	}
+	if ($stuff =~ /\bwheel/ || $stuff =~ /\bwing/ ) {
+		# This test is very data dependent
+		$t = "Cr0";
+		if ( $stuff =~ /\b(Cr\d+)\b/ ) {
+			$t = $1;
+			$stuff =~ s/\bCr\d+\b//;
+			$stuff =~ s/\s+/ /g;
+		}
+		$p = $id.":".$stuff;
+		$main::carparts{$p} = $t;
+		return;
+	}
+	$stuff =~ s/\s+\([^\)]*\)\s+/ /g;  # till we figure out how to process
+	$stuff =~ s/\s+\([^\)]*\)/ /g;  # till we figure out how to process
+	$stuff =~ s/\([^\)]*\)\s+/ /g;  # till we figure out how to process
+	# Any remaining parentheses must be embedded in a "token"...
+	$stuff =~ s/\([^\)]*\)//g;  # till we figure out how to process
+	$stuff =~ s/\s+/ /g;
+	$stuff =~ s/^\s+//g;  # sigh.  split will return empty tokens...
+	$stuff =~ s/\s+$//g;
+	@tokens = split(/\s+/,$stuff);
+	for $t (@tokens) {
+		if ($t =~ /^\d+hp$/i || $t =~ /\d+kg/i ||
+			$t =~ /^\(/ || $t =~ /\)$/ ) {
+			; # skip these "comments"
+			# problem: we handle "(this comment)"
+			#            but not "(this is a comment)"
+			# Except that we removed them earlier...
+		}
+		elsif ($t eq "Cr0") {
+			while (defined($p = shift(@parts)) ) {
+				$p = $id.":".$p;
+				$main::carparts{$p} = $t;
+			}
+		}
+		elsif ($t =~ /^Cr\d/) {
+			if (!defined($p = shift(@parts)) ) {
+				&warn("No part for $t, $line\n");
+			}
+			else {
+				$p = $id.":".$p;
+				$main::carparts{$p} = $t;
+			}
+		}
+		else {
+			$t =~ s/\s*\(.*\)\s*//;
+			push @parts, $t;
+		}
+	}
+	while (defined($p = shift(@parts)) ) {
+		$p = $id.":".$p;
+		if ($main::showlist =~ /,carparts,/ ||
+			  $main::showlist =~ /,warn,/ ) {
+			&warn("No price for $p, $line\n");
+			# currently a problem with "wheels" purchases
+		}
+		$main::carparts{$p} = "Cr0";
+	}
+}
+
+sub
 dodaynote {
 	my($line,$rest,$r1,$r2) = @_;
 	my($day,$stuff,$sf,$fullname);
@@ -1273,8 +1665,10 @@ dodaynote {
 		elsif ($stuff =~ /^\s*parts\s+(\S+) /) {
 			checkcar($1,$line);
 			addcarlog($1,$line);
+			doparts($1,$line);
 		}
 		elsif ($stuff =~ /^\s*wheels\s+/) {
+			# In gt4, wheels are really a part
 			;
 		}
 		else {
@@ -1305,6 +1699,7 @@ dodaynote {
 		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
 			checkcar($1,$line);
 			addcarlog($1,$line);
+			doparts($1,$line);
 		}
 		else {
 			&warn("Bad mod: $line\n");
@@ -1382,6 +1777,13 @@ while ( defined($ARGV[0]) ) {
 	if ( $ARGV[0] =~ /^show=/i ) {
 		$temp = $ARGV[0];
 		$temp =~ s/^show=//i;	
+		$temp = ",$temp,";
+		$temp =~ s/,+/,/g;
+		# Expand a few lazy alternatives we allow
+		$temp =~ s/,partstotals,/,carpartstotals,/;
+		$temp =~ s/,parts,/,carparts,/;
+		$temp =~ s/,prices,/,carprices,/;
+		# Would be nice to make plurals optional
 		$main::showlist .= ",$temp,";
 	}
 	elsif (!defined($log)) {
@@ -1490,6 +1892,9 @@ while (defined($_ = &getlog())) {
 	elsif ( $line =~ /^\s*uncardef/i ) {
 		&douncardef($line);
 	}
+	elsif ( $line =~ /^\s*setvar/i ) {
+		&dosetvar($line);
+	}
 	elsif ( $line =~ /^ {9,9}/ ) {
 		# line beginning with 9 spaces assumed to be comment
 		# ORLY?
@@ -1596,6 +2001,85 @@ if ($main::showlist =~ /,carids,/ ) {
 			$main::carnames{$k}, $main::carstates{$k});
 	}
 }
+if ($main::showlist =~ /,prices,/ || $main::showlist =~ /,carprices,/ ) {
+	my($k);
+	foreach $k (sort caridsub keys %main::carprices) {
+		printf("%s %s %s\n", $k, $main::carids{$k},
+			$main::carprices{$k});
+	}
+}
+
+sub
+tocredits {  # N.B. money, not attributions/accolades
+	my ($num) = @_;
+	my ($portion,$remain);
+	my ($sign,$s);
+
+	$sign = "";
+	$remain = $num;
+	if ($remain < 0) {
+		$sign = "-";
+		$remain = 0 - $remain;
+	}
+	$s = "";
+	for ( ;; ) {
+		$portion = $remain;
+		$remain = int ( $remain / 1000);
+		$portion -= $remain * 1000;
+		if ($remain > 0) {
+			$s = sprintf(",%3.3d", $portion) . $s;
+		}
+		else {
+			$s = sprintf("Cr%d", $portion) . $s;
+		}
+		last if ($remain <= 0);
+	}
+	return $sign . $s;
+}
+sub
+fromcredits {  # N.B. money, not attributions/accolades
+	my ($s) = @_;
+	my ($num);
+
+	$s =~ s/^Cr//i;
+	$s =~ s/,//g;
+	$num = 0 + $s;
+	return $num;
+}
+	
+if ( $main::showlist =~ /,carparts,/ ||
+		$main::showlist =~ /,carpartstotals,/ ) {
+	my($k,$cark,$car);
+	my($prevk,$total,$prevcar);
+	$prevk = "";
+	$prevcar = "";
+	$total = 0;
+	foreach $k (sort caridcolonsub keys %main::carparts) {
+		$cark = $k;
+		$cark =~ s/:.*//;
+		$car = $main::carids{$cark};
+		$car = "WHAT?" if (!defined($car));
+		if ( $cark ne $prevk ) {
+			if ($prevk ne "" &&
+				   $main::showlist =~ /,carpartstotals,/ ) {
+				printf("%s %s:Total %s\n", $prevcar, $prevk,
+					&tocredits($total) );
+			}
+			$prevk = $cark;
+			$prevcar = $car;
+			$total = 0;
+		}
+		if ( $main::showlist =~ /,carparts,/ ) {
+			printf("%s %s %s\n", $car, $k, $main::carparts{$k});
+		}
+		$total += &fromcredits($main::carparts{$k});
+	}
+	if ($prevk ne "" && $main::showlist =~ /,carpartstotals,/ ) {
+		printf("%s %s:Total %s\n", $prevcar, $prevk,
+			&tocredits($total) );
+	}
+	
+}
 if ($main::showlist =~ /,garage,/ ) {
 	my($k,$i);
 	$i = 0;
@@ -1621,6 +2105,14 @@ if ($main::showlist =~ /,origin,/ ) {
 	@sorted = sort caridsub keys %main::origin;
 	for ($i = 0; $i <= $#sorted; ++$i) {
 		printf("%s - %s\n", $sorted[$i], $main::origin{$sorted[$i]} );
+	}
+}
+if ($main::showlist =~ /,models,/ ) {
+	# Shows models based on carid
+	my($i,@sorted);
+	@sorted = sort caridsub keys %main::carmodels;
+	for ($i = 0; $i <= $#sorted; ++$i) {
+	      printf("%s - %s\n", $sorted[$i], $main::carmodels{$sorted[$i]} );
 	}
 }
 if ($main::showlist =~ /,carlog,/ ) {
