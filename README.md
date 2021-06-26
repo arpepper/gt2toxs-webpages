@@ -12,6 +12,12 @@ For a while, also, the Gran Turismo 2 code translator for the Game Shark was use
    gt2/translator
    gt2/geo/gt/translator
 
+And recently I came to realize that in the directory where I keep game logs, I have specialized log interpreting programs.   Originally there was "garage" (for GT1), then "gt2garage","gt3garage" and "gt4garage".
+
+Recently I have been adding lots of features (and options) to "gt4garage".  It currently handles GT3 game logs as well as GT4 logs, and eventually I would like to make it handle the older versions too.  In fact, it handles one log I created for the game "Alfa Romeo Racing Italiano", producing sort of a garage, although it is really more of an inventory, consisting not only of cars, but also the clothing items which are an important part of that game.  Handling of multiple games is done by using the "include" facility access files containing race definitions specific to the game in question.
+
+Conceivably, someone else could make use of the "gt4garage" program, if they chose to prepare logs using the same syntax and semantics I do.
+
 Other than that, these are extremely dated fan pages for the Sony Gran Turismo series of games, dating back to around 2004.  They deal primarily with the original game, with a smattering of information for the second game (GT2).  GT3 and GT4 are touched upon only in personal "game logs", and that is where the author's following of Gran Turismo ended--his wife never allowed him to purchase another Play Station after the PS2. that is, perhaps, not after the twenty-four hour races of GT4.
 
 This is my second attempt with an identical repository name, because my first attempt included many gifs which were unnecessary and mildly inappropriate (as in insufficiently public-domain).  I completed deleted the first attempt, to try to make sure no artifacts of those remained.
