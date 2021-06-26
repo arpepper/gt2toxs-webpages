@@ -1,10 +1,35 @@
-head	1.102;
+head	1.107;
 access;
 symbols;
 locks
-	arpepper:1.102; strict;
+	arpepper:1.107; strict;
 comment	@# @;
 
+
+1.107
+date	2021.06.24.15.48.36;	author arpepper;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2021.06.24.12.03.43;	author arpepper;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2021.06.21.00.20.42;	author arpepper;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2021.06.20.23.26.05;	author arpepper;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2021.06.19.12.02.01;	author arpepper;	state Exp;
+branches;
+next	1.102;
 
 1.102
 date	2021.06.15.23.32.54;	author arpepper;	state Exp;
@@ -523,9 +548,9 @@ Use ======================== markers to track update.
 @
 
 
-1.102
+1.107
 log
-@NSX-RLM seems to have a colour.
+@Fixed typos isolated by "gt4garage show=parts"
 @
 text
 @
@@ -1201,13 +1226,13 @@ April 04, 2021
 
 cardef Cougar car127  Mercury Cougar XR-7 '67 (Trafalgar Blue)(prize,SlicenseB)
  165 select car Cougar
- 165  buy parts Cougar  Rtrans("FC"),3clu("TR")  Cr10,000 Cr4600
- 165  buy parts Cougar  Rfw("RC"),LSDF("FL")  Cr1000 Cr6300
- 165  buy parts Cougar  Rsusp("RC") Cr16,000
+ 165  buy parts Cougar  Rtrans,3clu  Cr10,000 Cr4600
+ 165  buy parts Cougar  Rfw,LSDF  Cr1000 Cr6300
+ 165  buy parts Cougar  Rsusp Cr16,000
  165  buy parts Cougar  shaft  Cr2750
  165  buy parts Cougar  Rmuff  Cr4600
  165  mod car   Cougar  WR1,WR2,WR3 Cr1100,Cr5300,Cr21,000
- 165  mod car   Cougar  -> 1290 -> 1257 -> 1205
+Note:                   -> 1290 -> 1257 -> 1205
  165  mod car   Cougar   cage Cr30,000
  165  mod car   Cougar   pol+bal  Cr5250  Cr11,000 
  165  buy parts Cougar  chip  Cr1250  NA2  Cr12000 supercharger Cr13000
@@ -1273,16 +1298,16 @@ Note: Came 2nd with Cougar in B/FR/SeattleR so reset
 
  188 select car redSkyline'67  Nissan Skyline 2000GT-B (S54A) '67 (Caroline Red)
  188  buy parts redSkyline'67  NA1 NA2 NA3 Cr4600 Cr11,500 Cr65,000
- 188  mod car   redSkyline'67  pol Cr500 cal Cr10000
- 188  buy parts redSkyline'67  chip Cr1000 Rsusp("RC") Cr15,000
+ 188  mod car   redSkyline'67  pol Cr500 bal Cr10000
+ 188  buy parts redSkyline'67  chip Cr1000 Rsusp Cr15,000
  188  buy parts redSkyline'67  TS1 Cr4500  TS2 Cr12,500
- 188  buy parts redSkyline'67  Rmuff  Cr4500 ("RC")
+ 188  buy parts redSkyline'67  Rmuff  Cr4500 
  188  buy parts redSkyline'67  Rbr Cr4500 Bctlr Cr10,000
  188  buy parts redSkyline'67  Rtrans Cr10,000
  188  buy parts redSkyline'67  3clu Cr4500 Rfw Cr900 LSDF Cr6000 shaft Cr2500
  188  mod car   redSkyline'67  cage Cr30,000
  188  mod car   redSkyline'67  WR1,WR2,WR3 Cr1000,Cr5000,Cr20,000
- 188  mod car   redSkyline'67   1095 -> 1029 -> 996 -> 963
+Note:           redSkyline'67   1095 -> 1029 -> 996 -> 963
  188  buy parts redSkyline'67  T-N1,T-N2,T-N3 Cr0   T-S1 T-S3  Cr4100 Cr5600
  188  buy parts redSkyline'67  T-R1 T-R2 Cr7900 Cr10,000
  188  buy parts redSkyline'67  T-R3 T-R4 Cr22,000 Cr34,500
@@ -1362,11 +1387,11 @@ Note: Tuned at "Spoon"
  208  buy parts CivicTypeR Rsusp Cr15,000 OrgSusp Cr14,300
  208  buy parts CivicTypeR T-N1 T-N2 T-N3 Cr0
  208  buy parts CivicTypeR T-S1 T-S3   Cr4100 Cr5600
- 208  buy parts CivicTypeR T-R1 T-R2 T-R3 T-R4   Cr7900 Cr10,000 Cr22,000
+ 208  buy parts CivicTypeR T-R1 T-R2 T-R3 Cr7900 Cr10,000 Cr22,000
  208  buy parts CivicTypeR T-R4 T-R5  Cr34,500 Cr47,000
  208  buy parts CivicTypeR T-SN T-DT  Cr22,000 Cr22,000
  208  mod car   CivicTypeR WR1 WR2 WR3  -805-780-755  Cr1000 Cr5000 Cr20,000
-Note:                 1050 -> 987 -> 955 -> 824
+Note:           CivicTypeR   1050 -> 987 -> 955 -> 824
  208  mod car   CivicTypeR cage Cr30,000 stiff Cr50,000
  208  Cr2,470,702  5.0%  A:3314 B:2029/25/20/20   Slicense  2G 16S 62B  49cars
 
@@ -1876,8 +1901,7 @@ Note: Historic  Skyline'63, 500F, Bellet, Galant'70
  362  buy parts redClio   Rfw,LSDF  Cr1050 Cr6600 Rsusp  Cr17,000
  362  buy parts redClio   T-S1 T-S3   Cr5100 Cr6800
  362  buy parts redClio T-R1 T-R2 T-R3  Cr8400 Cr10,500 Cr22,500
- 362  mod car   redClio   WR1 WR2 WR3 1400-1214-1174-1134 Cr1200 Cr5500 Cr22,000
- 362  mod car   redClio   WR1 WR2 WR3 1400-Cr1200 Cr5500 Cr22,000
+ 362  mod car   redClio   WR1 WR2 WR3  Cr1200 Cr5500 Cr22,000
 Note:                   1400->1274->1232->1190
  362  buy parts  redClio  T-N1,T-N2,T-N3 Cr0
  362  buy parts  redClio  T-DT Cr22,500  T-SN Cr22,500
@@ -2059,7 +2083,8 @@ cardef Chap2D Chaparral2D
  422  buy parts Chap2D  T-S1,T-S2,T-S3 Cr6000 Cr7000 Cr8000
  422  buy parts Chap2D  T-R1,T-R2,T-R4      Cr9000 Cr11,000 Cr35,500
  422  buy parts Chap2D  TS3 TS4  Cr45,000 Cr90,000
- 422  mod car Chap2D  cage  Cr50,000
+Note: probable mistake cage Cr50,000 in gt4-game1
+ 422  mod car Chap2D  cage  Cr30,000
  422  change oil Chap2D  426->447hp
  422  Cr7,940,139
  422  power off
@@ -2505,7 +2530,7 @@ June 14, 2021
  541  buy parts BRGEtype  Rmuff Cr4800 chip Cr1500
  541  buy parts BRGEtype  Rbr Bctlr  Cr4700 Cr10,600
  541  buy parts BRGEtype  NA1, NA2, NA3  Cr4900 Cr12,500 Cr75,000
- 541  buy parts BRGEtype  3clu Cr4700 Rfw  Cr1050  shaft
+ 541  buy parts BRGEtype  3clu Cr4700 Rfw  Cr1050  shaft Cr3000
  541  mod car   BRGEtype  refresh  Cr50,000
  541 Cr12,695.677  34.6%  A:4039 B:6827/87/68/65        134cars
  541 power off
@@ -2522,7 +2547,109 @@ Note: beat Amuse S2000; was not easy
  543 Cr12,769,977  34.8%  A:4039 B:6827/87/68/65(n/c)   135cars
  543 power off
 
+June 18, 2021
+ 543 +1 buy car Duetto'66  Alfa Romeo Spider 1600 Duetto '66 (Celeste) (Cr35,300,classic)
+ 544 select car Duetto'66  Alfa Romeo Spider 1600 Duetto '66 (Celeste)
+ 544  buy parts Duetto'66  T-N1 T-N2 T-N3  Cr0  T-S1 T-S3  Cr4100 Cr5600
+ 544  buy parts Duetto'66   T-R1 T-R2 T-R3  Cr7900 Cr10,000 Cr22,000
+ 544  buy parts Duetto'66   T-DT T-SN  Cr22,000 Cr22,000
+ 544  buy parts Duetto'66   Smuff SRmuff Rmuff Cr1500 Cr2800 Cr4500
+ 544  buy parts Duetto'66   Rbr Bctlr  Cr4500 Cr10,000
+ 544  buy parts Duetto'66   NA1,NA2,NA3  Cr4600 Cr11,500 Cr65,000
+ 544  buy parts Duetto'66   chip Cr1000  Rtrans Cr10,000
+ 544  buy parts Duetto'66   3clu Rfw Cr4500 Cr900   LSDF shaft  Cr6000 Cr2500
+ 544  buy parts Duetto'66   TS1,TS2  Cr4500 Cr12,500
+ 544  buy parts Duetto'66   Rsusp Cr15,000
+ 544  mod car   Duetto'66   cage Cr30,000
+ 544 change oil Duetto'66   110hp->116hp
+ 544 Cr12,449,727  34.8%  A:4039 B:6827/87/68/65(n/c)   136cars
 
+ 544 +4  Duetto'66  Eu/MM  qN111,sw40to24,14,10,9,7 (B)  NA1,Rmuff,chip   next
+Note: 3 oil changes, saved after each race but never reloaded
+ 548 +1 win car AlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
+ 549 Cr13,349,577  34.8%  A:4039 B:6827/87/68/65(n/c)   137cars
+ 549 power off
+
+@
+
+
+1.106
+log
+@Corrections to parts lists prompted by new auditing by gt4garage program.
+@
+text
+@d746 1
+a746 1
+ 188  mod car   redSkyline'67  pol Cr500 cal Cr10000
+d1531 2
+a1532 1
+ 422  mod car Chap2D  cage  Cr50,000
+@
+
+
+1.105
+log
+@As we try to begin interpreting "mod" lines, it does not make
+sense to merely list the weight reduction from previous line.
+@
+text
+@d835 1
+a835 1
+ 208  buy parts CivicTypeR T-R1 T-R2 T-R3 T-R4   Cr7900 Cr10,000 Cr22,000
+d1349 1
+a1349 2
+ 362  mod car   redClio   WR1 WR2 WR3 1400-1214-1174-1134 Cr1200 Cr5500 Cr22,000
+ 362  mod car   redClio   WR1 WR2 WR3 1400-Cr1200 Cr5500 Cr22,000
+d1977 1
+a1977 1
+ 541  buy parts BRGEtype  3clu Cr4700 Rfw  Cr1050  shaft
+@
+
+
+1.104
+log
+@Remove our short-lived attempt to track the (non-unique) "code names"
+for parts.
+@
+text
+@d680 1
+a680 1
+ 165  mod car   Cougar  -> 1290 -> 1257 -> 1205
+d755 1
+a755 1
+ 188  mod car   redSkyline'67   1095 -> 1029 -> 996 -> 963
+d839 1
+a839 1
+Note:                 1050 -> 987 -> 955 -> 824
+@
+
+
+1.103
+log
+@June 18, 2021  days 543 to 6549
+Bspec Eu/MM with Duetto'66
+@
+text
+@d674 3
+a676 3
+ 165  buy parts Cougar  Rtrans("FC"),3clu("TR")  Cr10,000 Cr4600
+ 165  buy parts Cougar  Rfw("RC"),LSDF("FL")  Cr1000 Cr6300
+ 165  buy parts Cougar  Rsusp("RC") Cr16,000
+d747 1
+a747 1
+ 188  buy parts redSkyline'67  chip Cr1000 Rsusp("RC") Cr15,000
+d749 1
+a749 1
+ 188  buy parts redSkyline'67  Rmuff  Cr4500 ("RC")
+@
+
+
+1.102
+log
+@NSX-RLM seems to have a colour.
+@
+text
+@d1995 22
 @
 
 
