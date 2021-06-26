@@ -219,7 +219,7 @@ February 26, 2005
  119 Cr3,480
  119 +1 skip Mission22  1st  Cr7500  TT
  120 Cr10,980
- 120 buy parts Silvia'88K  Rmuff  ->257hp
+ 120 buy parts Silvia'88K  Rmuff  Cr4500  ->257hp
  120 Cr6,480
  120    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  8-(
  121    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  8-(
@@ -259,7 +259,7 @@ Note: Track  Suzuka Circuit West Course  unlocked
 Note: Track  Fuji Circuit 2005 GT Course  unlocked
 
  141 Cr98,980  Aug 20   A:2733
- 141 buy parts Silvia'88K  HKSsusp
+ 141 buy parts Silvia'88K  HKSsusp  Cr99999
  141 Cr84,680
  141 buy parts Silvia'88K  Rbr,Bctlr(HKS)  Cr4,500,Cr10,000
  141 buy parts Silvia'88K  chip(HKS)  Cr1,000  257->267hp
@@ -631,7 +631,7 @@ Note: Track  Infineon Raceway Stock Car Course  unlocked
 
 March 12, 2005
  307  select car HSR-II'89    Mitsubishi HSR-II Concept '89
- 307  buy parts HSR-II'89   Bctlr  Cr4700 Cr10,600
+ 307  buy parts HSR-II'89   Bctlr  Cr10,600
  307  buy parts HSR-II'89   N2O Cr5000  T-S1,T-S3  Cr5100 Cr6800
  307  change oil HSR-II'89  350hp->367hp
  307  mod car HSR-II'89    WR1,WR2  Cr1200,Cr5500  1200->1128->1092
@@ -725,7 +725,7 @@ Note: Track  Circuit de la Sarthe II (unchicaned)  unlocked
  351  select car S800RSC   Honda S800 RSC Race Car '68
  351  buy parts S800RSC  SpBr Bctlr  Cr4800 Cr10,800
  351  buy parts S800RSC  NA2,NA3     Cr13,500 Cr80,000 N2O Cr5000
- 351  buy parts S800RSC  LSDF  Cr10,500 Cr4800 Cr1100 Cr6800
+ 351  buy parts S800RSC  LSDF  Cr6800
  351  buy parts S800RSC  TS1,TS2     Cr4900 Cr14,000
  351  buy parts S800RSC  Rsusp   Cr18,000
  351  change oil S800RSC  100hp->
@@ -787,10 +787,10 @@ March 16, 2005
  373  select car ImprezaWG'00  Subaru Impreza Sport Wagon STi '00
  373  buy parts ImprezaWG'00  Rmuff Cr4800 SpBr Bctlr  Cr4700 Cr10,600
  373  mod car ImprezaWG'00  pol+bal Cr5500 Cr12,000
- 373  buy parts ImprezaWG'00  chip N2O Cr1500 Cr5000 Rtrans
+ 373  buy parts ImprezaWG'00  chip N2O Cr1500 Cr5000 Rtrans Cr10,400
  373  buy parts ImprezaWG'00  3clu,Rfw,LSDF,shaft Cr4700 Cr1050 Cr6600 Cr3000
  373  buy parts ImprezaWG'00  TS1,TS2,TS3  Cr4800 Cr13,500 Cr42,500
- 373  buy parts ImprezaWG'00  NA2, NA3  Cr12,500 Cr75,000  383hp chip Cr1500
+ 373  buy parts ImprezaWG'00  NA2, NA3  Cr12,500 Cr75,000  383hp
  373  buy parts ImprezaWG'00  T-S1 T-S3   Cr5100 Cr6800
  373  buy parts ImprezaWG'00  Spic,Ric  Cr1800 Cr3000
  373  buy parts ImprezaWG'00  Rsusp Cr17,000
@@ -1112,9 +1112,11 @@ March 27, 2005
  503 Cr8,541,176   Aug 17
 
  503 select car pink2CV   Citroen 2CV Type A '54 (peche(special color))
+Note: This parts list was a real mess, I really should check paper
  503  buy parts  pink2CV  Bctlr NA1 N2O  Cr10,000 Cr4600  Cr5000
- 503  buy parts  pink2CV  T-R1 Cr7900   TS1 Cr4500
- 503  buy parts  pink2CV  T-R1 NA1 N2O TS3 SpBr Bctlr  Cr4500 Cr10,000
+ 503  buy parts  pink2CV  T-R1 Cr7900
+Note: 503  buy parts  pink2CV  TS3 Cr40,000   (?) (Cr totals do not agree)
+ 503  buy parts  pink2CV  SpBr Bctlr  Cr4500 Cr10,000
  503  buy parts  pink2CV  TS1  Cr4500
  503 change oil  pink2CV   15hp -> 16hp
  503 +1 buy parts  pink2CV  "Yokohama 024" wheels for T-R
@@ -1219,7 +1221,7 @@ April 01, 2005
  552 power off
 
 April 02, 2005
- 552  mod car   MSElise  rigid  Cr50,000  2503.9mi
+ 552  mod car   MSElise  rigid  Cr50,000  (2503.9mi)
  552 change oil MSElise  330 -> 345hp   +wash
  552     MSElise       E/Laguna nq6th abandon 4th           8-(
  553 Cr12,663,610  Oct 6   B:5942/78/62/53  (+4/+0/+1/+0)
@@ -1366,12 +1368,14 @@ April 08, 2005
  609  buy parts Cien'02  N2O Cr5000 LSDF Cr6800  SC Cr14000
  609  buy parts Cien'02  Rsusp  Cr18,000 
  609  buy parts Cien'02  T-S1 T-S3   Cr5500 Cr7400  T-R1 Cr8700
- 609  mod car   Cien'02  WR1,WR2,WR3 1450-1319 Cr1300
+Note:  609  mod car   Cien'02  WR1,WR2,WR3 1450-1319 Cr1300
+Note: Cr difference suggests I did not do WR2, WR3 nor much else; check paper
+ 609  mod car   Cien'02  WR1 1450-1319 Cr1300
  609  mod car   Cien'02  cage Cr30,000
  609 +1 buy parts  Cien'02  wing 3D type DS (silver) (Cr1200)
  610 change oil  Cien'02  760hp to 798hp
 Note: Cannot enter Cien'02 in SuperCar !!!
- 610 Cr12,673,210
+ 610 Cr12,673,210  (?)
  610 select car Speed12  TVR Cerbera Speed 12 '00  (Chameleon (special))
  610 +1 buy parts  Speed12  wing Straight CB (black) (Cr1200)
  611  buy parts Speed12  Bctlr  Cr10,800
@@ -1506,7 +1510,7 @@ April 23, 2005
  686 Cr15,891,478  Feb 16    A:7444  127cars 46.1%
  686  buy parts Lupo   Rsusp Cr15,000
  686  mod car   Lupo   WR3 877-849   Cr20,000
- 686 +1 buy parts Lupo   Straight AS (silver) (Cr1200)
+ 686 +1 buy parts Lupo  wing Straight AS (silver) (Cr1200)
  687 Cr15,855,278
  687       Lupo     Mfr/Lupo/Nurburgring   nq6th1st  4A         none
  688 Cr15,860,278  Feb 18    A:7448  127cars 46.3%
@@ -1753,7 +1757,7 @@ May 22, 2005
  800  select car A310'73
  800  buy parts A310'73   Rmuff Cr4600 SpBr Bctlr  Cr4600 Cr10,300
  800  buy parts A310'73   NA1,NA2 chip,N2O Cr4700 Cr12,000 Cr1250 Cr5000
- 800  buy parts A310'73   Rtrans,LSDF  Cr10,200 Cr4600 Cr1000 Cr6300
+ 800  buy parts A310'73   Rtrans,LSDF  Cr10,200 Cr6300
  800  buy parts A310'73   TS1,TS2  Cr4600 Cr13,000
  800  buy parts A310'73   Rsusp  Cr16,000
  800  buy parts A310'73   T-R1,T-R2 T-R3  Cr8100 Cr10,250 Cr22,250
@@ -2033,10 +2037,10 @@ June 12, 2005
  919 +1 buy car blueRX7'01   Mazda RX-7 Type R Bathurst R (FD) '01 (Innocent Blue Mica) (Cr22,086,used)
  920 Cr5,477,724  Oct  8
  920 select car blueRX7'01
- 920  buy parts blueRX7'01  RE  Rmuff chip  Cr4700 Cr1500
- 920  buy parts blueRX7'01  RE  T-R3  Cr22,500
- 920  buy parts blueRX7'01  RE  Ric  Cr5000
- 920  buy parts blueRX7'01  RE  3clu Rfw shaft  Cr4700 Cr1050 Cr3000
+ 920  buy parts blueRX7'01 (RE) Rmuff chip  Cr4700 Cr1500
+ 920  buy parts blueRX7'01 (RE) T-R3  Cr22,500
+ 920  buy parts blueRX7'01 (RE) Ric  Cr5000
+ 920  buy parts blueRX7'01 (RE) 3clu Rfw shaft  Cr4700 Cr1050 Cr3000
  920  change oil blueRX7'01  262hp->294hp
  920 Cr5,376,401(?)
  920       blueRX7'01  Mfr/RE/Laguna    nq6th1st  5-1A TS2etc   none
@@ -3477,7 +3481,7 @@ August 21, 2005
 1577  buy parts blue300SL  NA1, NA2, NA3  Cr4900 Cr12,500 Cr75,000
 1577  mod car   blue300SL  pol+bal  Cr5500  Cr12,000
 1577  buy parts blue300SL  chip Cr1500  N2O Cr5000
-1577  buy parts blue300SL  Rtrans,3clu Cr10,400 Rfw,LSDF Cr1050 Cr6600
+1577  buy parts blue300SL  Rtrans,3clu Cr10,400 Cr4700 Rfw,LSDF Cr1050 Cr6600
 1577  buy parts blue300SL  shaft,Rsusp Cr3000 Cr17,000
 1577 change oil blue300SL  230->242hp
 1577 Cr2,309,331  Jul 26
@@ -3557,7 +3561,7 @@ Sep 01, 2005
 1619  buy parts Series1  T-N1 T-N2 T-N3 Cr0
 1619  buy parts Series1  T-S1 T-S3 Cr5500 Cr7,400
 1619  buy parts Series1  T-R1 T-R2 T-R3   Cr8700 Cr10,750 Cr22,750
-1619  buy parts Series1   NA1,NA2,NA3  Cr5000 Cr13,500  chip N2O  Cr1800 Cr5000
+1619  buy parts Series1   NA1,NA2,NA3  Cr5000 Cr13,500 Cr80,000 chip N2O  Cr1800 Cr5000
 1619 Cr2,959,120
 1619    Series1    Mfr/Shelby/TMii  nq6th1st  T-R3,N2O    135A    none
 1620 Cr2,888,720  Sep  7  A:9957  257cars  72.8%
@@ -3565,11 +3569,11 @@ Sep 01, 2005
 1620 Cr2,879,570
 1620   Series1    Mfr/Shelby/Laguna  nq6th1st  3clu+,T-R3,N2O    135A    none
 1621 Cr2,889,570  Sep  8  A:10092  257cars  73.0%
-1621   Series1    Mfr/Shelby/SeattleR nq6th1st  3clu+,NA!,T-R3,N2O  91A   none
+1621   Series1    Mfr/Shelby/SeattleR nq6th1st  3clu+,NA1,T-R3,N2O  91A   none
 1622 Cr2,899,570  Sep  9  A:10183  257cars  73.1%
-1622   Series1    Mfr/Shelby/HSRii    nq6th1st  3clu+,NA!,T-R3,N2O  91A   none
+1622   Series1    Mfr/Shelby/HSRii    nq6th1st  3clu+,NA1,T-R3,N2O  91A   none
 1623 Cr2,909,570  Sep 10  A:10274  257cars  73.3%
-1623   Series1    Mfr/Shelby/NY       nq6th1st  3clu+,NA!,T-R3,N2O  91A   next
+1623   Series1    Mfr/Shelby/NY       nq6th1st  3clu+,NA1,T-R3,N2O  91A   next
 1624 +1 win car  GT350R'65  Shelby Mustang G.T. 350R '65
 1625 Cr2,919,570  Sep 12  A:10365  258cars  73.5%
 1625 power off
@@ -4097,7 +4101,7 @@ Oct 23, 2005
 1867 Cr12,083,625  May 12
 
 1867 +1 buy car whiteRX7'85   Mazda RX-7 GT-Limited (FC,J) '85 (Dover White) (Cr14,364,used)
-1868 +1 buy car lmTrueno'83   Toyota Sprinter Trueno GT-Apex '83  (High-Tech Two-Tone(white)) 6.2mi (Cr13,055,used)
+1868 +1 buy car lmTrueno'83   Toyota Sprinter Trueno GT-Apex '83  (High-Tech Two-Tone(white)) (6.2mi) (Cr13,055,used)
 1869 Cr12,056,051  May 14  A:13002  323cars  79.1%
 
 1869 select car Bluebird'69  Nissan Bluebird 1600 Deluxe (S10) '69
@@ -4211,7 +4215,7 @@ Nov 06, 2005
 1911  buy parts red300SL  SpMuff SRmuff Rmuff Cr1600 Cr2900 Cr4800
 1911  buy parts red300SL  SpBr Bctlr  Cr4700 Cr10,600  NA1 Cr4900
 1911  buy parts red300SL  chip Cr1500  N2O Cr5000
-1911  buy parts red300SL  Rtrans,3clu Cr10,400 Rfw,shaft Cr1050 Cr3000
+1911  buy parts red300SL  Rtrans,3clu Cr10,400 Cr4700  Rfw,shaft Cr1050 Cr3000
 1911  buy parts red300SL  Rsusp Cr17,000   T-S1 T-S3 Cr5100 Cr6800
 1911  buy parts red300SL  T-N1 T-N2 T-N3   Cr0
 1911 Cr10,562,731
@@ -4579,7 +4583,7 @@ Note: Merry Christmas!
 2098 Cr7,172,775
 
 2098 +1 buy car red300ZX'83  Nissan Fairlady Z 300ZX (Z31) '83 (Red) (Cr11,199,used)
-2099 +1 buy car blackS2000V'01  Honda S2000 Type V '01 (Berlina Black) (Cr27.075,used)
+2099 +1 buy car blackS2000V'01  Honda S2000 Type V '01 (Berlina Black) (Cr27,075,used)
 2100 Cr7,134,501
 2100 +1 buy car EvoVITME'00  Mitsubishi Lancer Evolution VI GSR T.M.E. '00 (Satellite Silver Metallic) (Cr16,390,used)
 Note: T.M.E. -> Tommi Makinen Edition
@@ -5103,7 +5107,7 @@ Mar 30, 2006
 Mar 31, 2006
 cardef [R]MotulZ'04  car648  Nissan Motul Pitwork Z (JGTC) '04
 2306 select car [R]MotulZ'04   Nissan Motul Pitwork Z (JGTC) '04
-2306 mod car [R]MotulZ'04   refresh  Cr50,000 +wash
+2306 mod car [R]MotulZ'04   refresh  Cr50,000 (+wash)
 2306 Cr10,594,635 Jul 25
 2306     [R]MotulZ'04  E/GV300   nq6th1st                        69A  next
 2307 +1 win car  Streamliner  Auto Union V16 Type C Streamliner '37
@@ -5446,7 +5450,7 @@ December 01, 2007
 2414  buy parts redMiataS'95  Rmuff Cr4500  Rbr Cr4500 Bctlr Cr10,000
 2414  buy parts redMiataS'95  NA1 Cr4600  chip Cr1000
 2414  buy parts redMiataS'95  Rtrans Cr10,000 3clu Cr4500 Rfw Cr900 LSDF Cr6000
-2414  buy parts redMiataS'95  shaft Cr2500 Rsusp Cr15,000 Osusp Cr14.300 (Trial)
+2414  buy parts redMiataS'95  shaft Cr2500 Rsusp Cr15,000 Osusp Cr14,300 (Trial)
 2414  buy parts redMiataS'95  T-N1,T-N2,T-N3  Cr0
 2414  buy parts redMiataS'95  T-S1 T-S3  Cr4100 Cr5600
 2414 Cr22,190,489
@@ -5483,7 +5487,7 @@ December 04, 2007
 2426  buy parts yellowMiataJ'91  NA1 NA2 Cr4600 Cr11,500  Rtrans Cr10,000
 2426  buy parts yellowMiataJ'91  3clu Cr4500 Rfw Cr900 LSDF shaft Cr6000 Cr2500
 2426  buy parts yellowMiataJ'91  TS1 Cr4500  TS2 Cr12,500 Sc Cr12,500
-2426  buy parts yellowMiataJ'91  Rsusp Cr15,000 Osusp Cr14.300 (Trial)
+2426  buy parts yellowMiataJ'91  Rsusp Cr15,000 Osusp Cr14,300 (Trial)
 2426  buy parts yellowMiataJ'91  T-N1,T-N2,T-N3 Cr0   T-S1 T-S3  Cr4100 Cr5600
 2426  buy parts yellowMiataJ'91  T-R1 T-R2 T-S3   Cr7900 Cr10,000 Cr22,000
 2426  buy parts yellowMiataJ'91  T-R4 T-R5 Cr34,500 Cr47,000
@@ -5496,7 +5500,7 @@ December 04, 2007
 2426  buy parts redMiata'89  NA1 NA2 Cr4600 Cr11,500  Rtrans Cr10,000
 2426  buy parts redMiata'89  3clu Cr4500 Rfw Cr900 LSDF shaft Cr6000 Cr2500
 2426  buy parts redMiata'89  TS1 Cr4500  TS2 Cr12,500 Sc Cr12,500
-2426  buy parts redMiata'89  Rsusp Cr15,000 Osusp Cr14.300 (Trial)
+2426  buy parts redMiata'89  Rsusp Cr15,000 Osusp Cr14,300 (Trial)
 2426  buy parts redMiata'89  T-N1,T-N2,T-N3 Cr0   T-S1 T-S3  Cr4100 Cr5600
 2426  buy parts redMiata'89  T-R1 T-R2 T-S3   Cr7900 Cr10,000 Cr22,000
 2426  buy parts redMiata'89  T-R4 T-R5 Cr34,500 Cr47,000
@@ -5509,7 +5513,7 @@ December 04, 2007
 2426  buy parts greenMiataSR'97  NA1 NA2 Cr4600 Cr11,500  Rtrans Cr10,000
 2426  buy parts greenMiataSR'97  3clu Cr4500 Rfw Cr900 LSDF shaft Cr6000 Cr2500
 2426  buy parts greenMiataSR'97  TS1 Cr4500  TS2 Cr12,500 Sc Cr12,500
-2426  buy parts greenMiataSR'97  Rsusp Cr15,000 Osusp Cr14.300 (Trial)
+2426  buy parts greenMiataSR'97  Rsusp Cr15,000 Osusp Cr14,300 (Trial)
 2426  buy parts greenMiataSR'97  T-N1,T-N2,T-N3 Cr0   T-S1 T-S3  Cr4100 Cr5600
 2426  buy parts greenMiataSR'97  T-R1 T-R2 T-S3   Cr7900 Cr10,000 Cr22,000
 2426  buy parts greenMiataSR'97  T-R4 T-R5 Cr34,500 Cr47,000
@@ -5522,7 +5526,7 @@ December 04, 2007
 2426  buy parts whiteMiataNRA'04  NA1 NA2 Cr4600 Cr11,500  Rtrans Cr10,000
 2426  buy parts whiteMiataNRA'04  3clu Cr4500 Rfw Cr900 LSDF shaft Cr6000 Cr2500
 2426  buy parts whiteMiataNRA'04  TS1 Cr4500  TS2 Cr12,500 Sc Cr12,500
-2426  buy parts whiteMiataNRA'04  Rsusp Cr15,000 Osusp Cr14.300 (Trial)
+2426  buy parts whiteMiataNRA'04  Rsusp Cr15,000 Osusp Cr14,300 (Trial)
 2426  buy parts whiteMiataNRA'04  T-N1,T-N2,T-N3 Cr0   T-S1 T-S3  Cr4100 Cr5600
 2426  buy parts whiteMiataNRA'04  T-R1 T-R2 T-S3   Cr7900 Cr10,000 Cr22,000
 2426  buy parts whiteMiataNRA'04  T-R4 T-R5 Cr34,500 Cr47,000
@@ -5545,7 +5549,7 @@ December 07, 2007
 2429  buy parts blueMiataNRA'04  NA1 NA2 Cr4600 Cr11,500  Rtrans Cr10,000
 2429  buy parts blueMiataNRA'04  3clu Cr4500 Rfw Cr900 LSDF shaft Cr6000 Cr2500
 2429  buy parts blueMiataNRA'04  TS1 Cr4500  TS2 Cr12,500 Sc Cr12,500
-2429  buy parts blueMiataNRA'04  Rsusp Cr15,000 Osusp Cr14.300 (Trial)
+2429  buy parts blueMiataNRA'04  Rsusp Cr15,000 Osusp Cr14,300 (Trial)
 2429  buy parts blueMiataNRA'04  T-N1,T-N2,T-N3 Cr0   T-S1 T-S3  Cr4100 Cr5600
 2429  buy parts blueMiataNRA'04  T-R1 T-R2 T-S3   Cr7900 Cr10,000 Cr22,000
 2429  buy parts blueMiataNRA'04  T-R4 T-R5 Cr34,500 Cr47,000
@@ -5900,7 +5904,7 @@ January 19, 2008
 2539 Cr17,833,921
 2539     [R]AbtTT-R-2   E/Nurb24     nq6th1st(B)              next
 2540 +1 win car orangeFGT   Formula Gran Turismo '04 (orange)(dup2)
-2541 Cr19.033,921  Mar 16  A:23371  492cars  96.2%
+2541 Cr19,033,921  Mar 16  A:23371  492cars  96.2%
 2541 power off
 
 
@@ -6291,7 +6295,7 @@ January 04, 2009
 2636 select car yellowCooper
 2636 mod car yellowCooper WR1 Cr1100 WR2 Cr5300 WR3 Cr21,000
 Note: 1115kg -> 1048kg -> 1014kg -> 981kg
-2636  buy parts yellowCooper  T-N1,T- N2,T-N3  Cr0
+2636  buy parts yellowCooper  T-N1,T-N2,T-N3  Cr0
 2636  buy parts yellowCooper  T-S1 T-S3   Cr4600 Cr6200
 2636  buy parts yellowCooper  T-R1 T-R2 T-S3   Cr8100 Cr10,250 Cr22,250
 2636  buy parts yellowCooper  T-R4 T-R5 Cr34,750 Cr47,250
