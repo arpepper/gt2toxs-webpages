@@ -1,1 +1,2032 @@
-../text/gt2enduro.txt
+
+Game: gt2-game1
+Day: 26
+Date: December 18, 1999
+Race: Trial Mountain 30
+Car: red Supra (Turbo) '93, modified
+Result: 2nd
+Prize-Car: none
+1st:   [R]Vector M12 LM Edition  44:07.381
+2nd:*  Toyota Supra(Turbo)'93    +5:47.309  (49:54.690)
+3rd:   Lotus Elise 111S          +6:59.769  (51:07.150)
+4th:   MGF 1.8i VVC              +8:14.547  (52:21.928)
+5th:   Toyota Celica MS Ver'99   +8:33.461  (52:40.842)
+6th:   BMW 323ti Compact         +9:28.692  (53:36.073)
+Lap1: 
+fl: 1:35.736(26)
+Pits: 7,15,23
+
+
+Game: gt2-game1
+Day: 27
+Date: December 18, 1999
+Race: Trial Mountain 30
+Car: red Supra (Turbo) '93, modified
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Toyota Supra(Turbo)'93       48:58.690
+2nd:   Ford Focus Ghia 2.0i Zetec   +4:15.055  (53:13.745)
+3rd:   Opel Vectra GSI 2.5 V6       +4:29.975  (53:28.665)
+4th:   Ford Focus Ghia 2.0i Zetec   +4:32.527  (53:31.217)
+5th:   BMW 323ti Compact            +4:58.098  (53:56.788)
+6th:   BMW 328Ci                    +5:12.267  (54:10.957)
+Lap1: 
+fl: 1:34.430(25)
+Pits: 7,15,23
+
+
+Game: gt2-game1
+Day: 44
+Date: December 19, 1999
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]Denso Sard Supra
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]Denso Sard Supra GT        1-06:44.1
+2nd:   [R]Toyota GT-ONE '98          +1:36.484  (1-08:20.6)
+3rd:   [R]Nissan R390 GT1 '97        +2:37.424  (1-09:21.5)
+4th:   [R]Ford GT40 Race Car         +3:22.201  (1-10:06.3)
+5th:   [R]Jaguar XJ-220 GT Race Car  +5:18.479  (1-12:02.6)
+6th:   Citroen Xantria 3.0i V6      +22:48.474  (1-29:32.6)
+Lap1: 1:24.594
+fl: 1:15.031(36)
+Pits: 10,20,30,40
+
+
+Game: gt2-game1
+Day: 55
+Date: December 19, 1999
+Race: Grand Valley 300km Endurance Race
+Car: [R]Denso Sard Supra
+Result: 1st
+Prize-Car: black [R]R390GT-LM
+1st:*  [R]Denso Sard Supra GT        1-47:42.4
+2nd:   Venturi Atlantique 400 GT    +11:29.191  (1-59:11.6)
+3rd:   TVR Cerbera 4.5              +16:32.859  (2-04:15.3)
+4th:   Lotus Esprit V8 SE           +18:09.559  (2-05:52.0)
+5th:   Viper GTS                    +18:51.440  (2-06:33.8)
+6th:   Shelby GT500'68              +33:28.775  (2-21:11.2)
+Lap1: 1:56.913
+fl: 1:42.080(51)
+Pits: 8,16,24,32,40,47,54
+
+
+Game: gt2-game1
+Day: 129
+Date: December 26, 1999
+Race: Apricot Hill 200km Endurance Race
+Car: Vector M12 (heavily modified, S/S)
+Result: 1st
+Prize-Car: blue Lancia Stratos
+1st:*  Vector M12                   1-10:19.5   
+2nd:   Ford GT40 (red)              +4:11.533  (1-14:31.0) 2 laps
+3rd:   Acura NSX Type S Zero       +10:34.730  (1-20:54.2) 6 laps
+4th:   Jaguar XK8 Coupe            +10:53.733  (1-21:13.2) 6 laps
+5th:   Toyota Supra RZ'97          +11:00.851  (1-21:20.4) 6 laps
+6th:   BMW 840Ci                   +16:40.721  (1-27:00.2) 9 laps
+Lap1: 1:26.493
+fl: 1:18.919
+Pits: 8,15,22,29,36,43
+
+
+Game: gt2-game1
+Day: 157
+Date: December 28, 1999
+Race: Apricot Hill 200km Endurance Race
+Car: yellow TVR Griffith 500 (heavily modified, S/S)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with blue stripes
+1st:*  TVR Griffith 500             1-11:45.0   
+2nd:   Ford GT40                    +2:45.178  (1-14:30.2) 1 lap
+3rd:   Ford GT40                    +3:39.539  (1-15:24.5) 2 laps
+4th:   RUF BTR2                     +4:05.907  (1-15:50.9) 2 laps
+5th:   Corvette Grand Sport '96     +9:13.310  (1-20:58.3) 5 laps
+6th:   Shelby GT350'66             +10:42.655  (1-22:27.7) 6 laps
+Lap1: 1:29.775
+fl: 1:20.645(42)
+Pits: 8,15,23,31,38,44
+
+
+Game: gt2-game1
+Day: 169
+Date: December 28, 1999
+Race: Rome 2 Hour
+Car: [R]Concept Car LM Edition  (S/S)
+Result: 1st
+Prize-Car: white [R]Altezza LM Edition
+1st:*  [R]Concept Car LM Edition     2-00:09.0  87 laps
+2nd:   [R]Venturi Atlantique 600LM      +8.227  87 laps-  (2-00:17.2)
+3rd:   [R]Toyota GT-ONE '99            +16.599  87 laps-  (2-00:25.6)
+4th:   [R]Nissan R390 GT1 '97        +1:10.383  87 laps-  (2-01:19.4)
+5th:   [R]STP Taisan Viper GT           -6.369  86 laps+  (2-00:02.6)
+6th:   Jaguar XJ220 Race Car            2 laps  85 laps
+Lap1: 1:28.117
+fl: 1:18.683(83)
+Pits: 10,27,45,62,79
+
+
+Game: gt2-game1
+Day: 174
+Date: December 30, 1999
+Race: Seattle 100
+Car: [R]Monte Carlo Mini (S/S)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]Rover Mini 1275S MarkI    1-09:48.5
+2nd:   Mustang SVT Cobra '98           +0.847  (1-09:49.3)
+3rd:   Shelby GT350'66                +33.268  (1-10:21.8)
+4th:   Plymouth Superbird           +2:44.109  (1-12:32.6) 1 lap
+5th:   Plymouth 'Cuda '70           +3:13.335  (1-13:01.8) 1 lap
+6th:   Plymouth GTX                 +5:38.154  (1-15:26.7) 2 laps
+Lap1: 1:50.462
+fl: 1:41.620(35)
+Pits: 14,27
+
+
+Game: gt2-game1
+Day: 193
+Date: January 02, 2000
+Race: Seattle 100
+Car: 1970 Barracuda (mostly modified, S/S)
+Result: 2nd
+Prize-Car: 8-(
+1st:   Shelby Series 1              1-08:38.8
+2nd:*  Plymouth 'Cuda '70              +9.483  (1-08:48.3)
+3rd:   Camaro Z28 30th Anv.'96        +18.647  (1-08:57.4)
+4th:   TVR Griffith 500               +38.091  (1-09:16.9)
+5th:   Plymouth Superbird           +3:49.444  (1-12:28.2) 1 lap
+6th:   Plymouth GTX                 +7:53.837  (1-16:32.6) 3 laps
+Lap1: --------
+fl: 1:39.378
+Pits: 10,20,30
+
+
+Game: gt2-game1
+Day: 203
+Date: January 03, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]GT40
+Result: 1st
+Prize-Car: burgundy [R]Cerbera LM Edition 8-)
+1st:*  [R]GT40 Race Car              1-08:13.2
+2nd:   [R]Nissan R390 GT1 '97        +1:11.037  (1-09:24.2)
+3rd:   [R]Nissan R390 GT1 '98        +2:07.100  (1-10:20.3) 1 lap
+4th:   [R]Opel Calibra Touring Car   +2:56.073  (1-11:09.3) 1 lap
+5th:   [R]Jaguar XJ-220 GT Race Car  +3:58.267  (1-12:11.5) 2 laps
+6th:   Citroen Xantria 3.0i V6      +21:06.571  (1-29:19.8) 11 laps
+Lap1: 1:29.297
+fl: 1:16.360(2)
+Pits: 10,20,30,40
+
+
+Game: gt2-game1
+Day: 207
+Date: January 03, 2000
+Race: Laguna Seca 200
+Car: [R]Cultus PPV
+Result: 1st
+Prize-Car: [R]Celica Rally Car (S/S)
+1st:*  [R]Cultus Pike's Peak Version 1-58:29.7
+2nd:   [R]Zexel Skyline GT '97       +1:40.139  (2-00:09.8) 1 lap
+3rd:   [R]Calsonic Skyline GT'99     +1:40.139  (2-00:09.8) 1 lap
+4th:   [R]Takata NSX GT'99           +2:41.279  (2-01:11.0) 1 lap
+5th:   [R]Castrol Mugen NSX GT'99    +2:59.762  (2-01:29.5) 2 laps
+6th:   Viper GTS                    +24:37.834  (2-23:07.5) 15 laps
+Lap1: 1:22.892
+fl: 1:15.079(86)
+Pits: 12,24,35,46,57,68,79
+
+
+Game: gt2-game1
+Day: 211
+Date: January 04, 2000
+Race: Seattle 100
+Car: 1970 Barracuda (fully modified, S/S)
+Result: 1st
+Prize-Car: white/blue [R]Ford Escort Rally Car
+1st:   Plymouth 'Cuda '70           1-07:47.2
+2nd:   TVR Griffith 500               +54.944  (1-08:42.1)
+3rd:   Shelby GT500'68              +3:48.129  (1-11:35.3) 1 lap
+4th:   Plymouth Superbird           +4:49.652  (1-12:36.9) 2 laps
+5th:   Dodge Charger                +6:40.625  (1-14:27.8) 3 laps
+6th:   Plymouth GTX                 +7:59.860  (1-15:47.1) 3 laps
+Lap1: 1:44.651
+fl: 1:37.438(33)
+Pits: 10,20,30
+
+
+Game: gt2-game1
+Day: 227
+Date: January 27, 2000
+Race: Trial Mountain 30
+Car: red Impreza Wagon (heavily modified, S/S)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Impreza Wagon WRX STi Ver V'98 48:21.247
+2nd:   Toyota Celica MS Ver'99        +4:10.173  (52:31.420) 2 laps
+3rd:   MGF 1.8i VVC                   +4:54.982  (53:16.229) 2 laps
+4th:   BMW 328Ci                      +5:15.634  (53:36.881) 2 laps
+5th:   Alfa 156 2.0 TS 16V            +5:32.554  (53:53.801) 2 laps
+6th:   Renault Laguna V6              +5:55.803  (54:17.050) 3 laps
+Lap1: 1:39.718
+fl: 1:33.945
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 230
+Date: January 07, 2000
+Race: Apricot Hill 200
+Car: red Impreza Wagon (heavily modified, S/S)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with green stripes
+1st:*  Impreza Wagon WRX STi Ver V'98 1-11:23.7
+2nd:   Mazda RX-7 Type RS'98          +8:45.814  (1-20:09.5) 5 laps
+3rd:   Toyota Supra RZ'97             +8:57.086  (1-20:20.8) 5 laps
+4th:   Acura NSX Type S Zero          +9:16.072  (1-20:39.8) 5 laps
+5th:   3000GT Turbo MR               +10:20.458  (1-21:44.2) 6 laps
+6th:   Subaru Legacy B4 RSK '98      +12:03.709  (1-23:27.4) 7 laps
+Lap1: 1:28.578
+fl: 1:21.704(42)
+Pits: 10,20,30,40
+
+
+Game: gt2-game1
+Day: 231
+Date: January 08, 2000
+Race: Grand Valley 300km Endurance Race
+Car: red Impreza Wagon (heavily modified, S/S)
+Result: 1st
+Prize-Car: blue [R]Subaru Impreza Rally Car
+1st:*  Impreza Wagon WRX STi Ver V'98  1-58:17.5
+2nd:   RUF RCT                         +5:18.807  (2-03:36.3) 2 laps
+3rd:   TVR Cerbera 4.5                 +6:24.914  (2-04:42.4) 2 laps
+4th:   Lotus Esprit V8 SE              +7:17.458  (2-05:35.0) 3 laps
+5th:   Jaguar XJR Vehicle              +9:58.658  (2-08:16.2) 4 laps
+6th:   Shelby GT500'68                +22:44.842  (2-21:02.3) 9 laps
+Lap1: 2:02.387
+fl: 1:53.089(55)
+Pits: 7,15,23,31,38,46,53
+
+
+Game: gt2-game1
+Day: 263
+Date: January 09, 2000
+Race: Apricot Hill 200
+Car: red Impreza Wagon (heavily modified, S/S)
+Result: 1st
+Prize-Car: red Lancia Stratos
+1st:*  Impreza Wagon WRX STi Ver V'98 1-11:27.5
+2nd:   Mazda RX-7 Type RS'98          +8:07.343  (1-19:34.8) 5 laps
+3rd:   Acura NSX Type S Zero          +8:59.443  (1-20:26.9) 5 laps
+4th:   Toyota Supra RZ'97             +9:08.682  (1-20:36.2) 5 laps
+5th:   Skyline GT-R V-spec (R34)      +9:39.215  (1-21:06.7) 5 laps
+6th:   BMW 840Ci                     +14:31.225  (1-25:58.7) 8 laps
+Lap1: 1:29.658
+fl: 1:21.687
+Pits: 10,20,30,40
+
+
+Game: gt2-game1
+Day: 266
+Date: January 11, 2000
+Race: Apricot Hill 200
+Car: red Impreza Wagon (heavily modified, S/S)
+Result: 1st
+Prize-Car: red Lancia Stratos
+1st:*  Impreza Wagon WRX STi Ver V'98 1-12:18.3
+2nd:   Ford GT40                      +2:23.429  (1-14:41.7) 1 lap
+3rd:   Acura NSX Type S Zero          +7:33.573  (1-19:51.9) 4 laps
+4th:   Toyota Supra RZ'97             +8:07.574  (1-20:25.9) 4 laps
+5th:   3000GT Turbo MR                +9:24.697  (1-21:43.0) 5 laps
+6th:   BMW 840Ci                     +14:10.182  (1-26:28.5) 7 laps
+Lap1: 1:30.224
+fl: 1:22.840
+Pits: 9,20,30,40
+
+
+Game: gt2-game1
+Day: 290
+Date: January 15, 2000
+Race: Rome 2 Hour
+Car: [R]GT-ONE'98
+Result: 1st
+Prize-Car: Toyota [R]Corolla Rally Car '97
+1st:*  [R]Toyota GT-ONE'98            2-00:00.5  90 laps
+2nd:   [R]Toyota GT-ONE'99              +57.242  1lap->0 90 laps? (2-00:57.7)
+3rd:   [R]Toyota GT-ONE'98            +1:18.404  1lap->0 90 laps? (2-01:18.9)
+4th:   [R]Ford GT40 Race Car            2 laps
+5th:   [R]Nissan R390 GT1'97            3 laps
+6th:   [R]STP Taisan Viper GT           3 laps
+Lap1: 1:27.570
+fl: 1:15.227
+
+
+Game: gt2-game1
+Day: 305
+Date: January 16, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]GT-ONE'98
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]Toyota GT-ONE '98          1-04:25.4
+2nd:   [R]Toyota GT-ONE '99          +3:50.998  (1-08:16.4) 2 laps
+3rd:   [R]Nissan R390 GT1 '97        +4:44.825  (1-09:10.2) 3 laps
+3rd:   [R]Nissan R390 GT1 '98        +5:44.630  (1-10:10.0) 4 laps
+5th:   [R]Jaguar XJ-220 GT Race Car  +7:35.802  (1-12:01.2) 4 laps
+6th:   Citroen Xantria 3.0i V6      +25:04.509  (1-29:29.9) 13 laps
+Lap1: 1:22.395
+fl: 1:13.168(42)
+Pits: 10,20,30,40
+
+
+Game: gt2-game1
+Day: 311
+Date: January 21, 2000
+Race: Trial Mountain 30
+Car: red Supra (Turbo) '93, WR1, TS1 only (Cr9,925)
+Result: 2nd
+Prize-Car: none
+1st:   [R]Vector M12 LM Edition     44:09.006
+2nd:*  Toyota Supra(Turbo)'93       +8:29.931  (52:38.937)
+3rd:   Peugeot 306 S16              +8:53.724  (53:02.730)
+4th:   Volkswagen Golf GTi 1.8T     +9:17.376  (53:26.382)
+5th:   Renault Megane 2.0 16V       +9:27.367  (53:36.373)
+6th:   Opel Vectra GSI 2.5 V6       +9:45.231  (53:54.237)
+Lap1: 1:50.002
+fl: 1:41.731(23)
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 320
+Date: January 21, 2000
+Race: Trial Mountain 30
+Car: red Supra (Turbo) '93, WR1, TS1 only (Cr9,925)
+Result: 2nd
+Prize-Car: none
+1st:   Lotus Elise 111S             52:04.403
+2nd:*  Toyota Supra(Turbo)'93          +8.575  (52:12.978)
+3rd:   BMW 323ti Compact            +1:19.271  (53:23.674)
+4th:   Opel Vectra GSI 2.5 V6       +1:43.038  (53:47.441)
+5th:   Renault Laguna V6            +2:11.063  (54:15.466)
+4th:   Alfa 166 2.5 V6 24V          +2:48.197  (54:52.600)
+Lap1: 1:47.848
+fl: 1:41.302(2)
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 321
+Date: January 21, 2000
+Race: Trial Mountain 30
+Car: [R]Lotus Europa
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Lotus Europa              48:37.509
+2nd:   Lotus Elise 111S             +2:20.386  (50:57.895)
+3rd:   Peugeot 306 S16              +3:44.929  (52:22.438)
+4th:   BMW 323ti Compact            +4:48.410  (53:25.919)
+5th:   BMW 328Ci                    +5:15.166  (53:52.675)
+6th:   Alfa 166 2.5 V6 24V          +6:05.679  (54:43.188)
+Lap1: 1:39.921
+fl: 1:32.355
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 324
+Date: January 21, 2000
+Race: Trial Mountain 30
+Car: [R]Supra'93
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Toyota Supra(Turbo) '93     46:27.639
+2nd:   Lotus Elise 111S               +4:39.521  (51:07.160) 2 laps
+3rd:   MGF 1.8i VVC                   +5:58.946  (52:26.585) 3 laps
+4th:   MGF 1.8i VVC                   +6:23.031  (52:50.670) 3 laps
+4th:   BMW 323ti Compact              +7:11.250  (53:38.889) 3 laps
+5th:   Alfa 156 2.0 TS 16V            +7:27.619  (53:55.258) 4 laps
+Lap1: 1:36.208
+fl: 1:29.877
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 325
+Date: January 23, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]Cerbera LM
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]TVR Cerbera LM Edition     1-05:24.5
+2nd:   [R]Toyota GT-ONE '98          +3:01.740  (1-08:26.2) 2 laps
+3rd:   [R]Nissan R390 GT1 '98        +4:43.080  (1-10:07.6) 3 laps
+4th:   [R]Jaguar XJ-220 GT Race Car  +6:45.337  (1-12:09.8) 4 laps
+5th:   Citroen Xantria 3.0i V6      +24:00.051  (1-29:24.6) 13 laps
+6th:   Citroen Xantria 3.0i V6      +24:30.719  (1-29:55.2) 13 laps
+Lap1: 1:23.918
+fl: 1:114.295
+Pits: 7,16,25,34,42
+
+
+Game: gt2-game1
+Day: 327
+Date: January 23, 2000
+Race: Laguna Seca 200
+Car: [R]Cerbera LM
+Result: 1st
+Prize-Car: [R]Celica Rally Car (S/S)
+1st:*  [R]TVR Cerbera LM Edition     1-58:36.0
+2nd:   [R]Calsonic Skyline GT'99     +1:36.216  (2-00:12.2) 1 lap
+3rd:   [R]Unisia Jecs Skyline GT'99  +1:57.924  (2-00:33.9) 1 lap
+4th:   [R]Castrol Tom's Supra GT     +2:28.489  (2-01:04.5) 1 lap
+4th:   [R]Takata NSX GT'99           +2:41.677  (2-01:17.7) 1 lap
+4th:   [R]Mobil NSX GT'99            +3:06.166  (2-01:42.2) 2 laps
+Lap1: 1:32.553
+fl: 1:15.303
+Pits: 11,23,35,46,57,68,79
+
+
+Game: gt2-game1
+Day: 337
+Date: January 25, 2000
+Race: Trial Mountain 30
+Car: white[R]240Z'71
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Datsun 240Z 240ZG(J)'71     45:58.677
+2nd:   Lotus Elise 111S               +4:56.132  (50:54.809) 2 laps
+3rd:   Lotus Elise 111S               +5:19.248  (51:17.925) 2 laps
+4th:   Peugeot 306 S16                +6:28.983  (52:27.660) 3 laps
+5th:   Alfa 156 2.0 TS 16V            +7:30.910  (53:29.587) 4 laps
+6th:   Alfa 166 2.5 V6 24V            +8:39.727  (54:38.404) 4 laps
+Lap1: 1:34.506
+fl: 1:28.071
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 338
+Date: January 24, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: white with green stripes [R]Viper GTS-R
+Result: 1st
+Prize-Car: burgundy [R]Cerbera LM
+1st:*  [R]Viper GTS-R                1-08:12.0
+2nd:   [R]Toyota GT-ONE '99            +29.305  (1-08:41.3)
+3nd:   [R]Toyota GT-ONE '99            +47.876  (1-08:59.9)
+4th:   [R]Nissan R390 GT1 '97        +1:34.812  (1-09:46.8)
+5th:   [R]Ford GT40 Race Car         +1:50.074  (1-10:02.1)
+6th:   [R]Ford GT40 Race Car         +2:13.545  (1-10:25.5) 1 lap
+Lap1: 1:23.520
+fl: 1:16.842
+Pits: 7,16,26,35,43
+
+
+Game: gt2-game1
+Day: 346
+Date: January 25, 2000
+Race: Trial Mountain 30
+Car: yellow[R]240Z'71
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Datsun 240Z 240ZG(J)'71   45:26.048
+2nd:   BMW 323ti Compact            +7:44.843  (53:10.891)
+3rd:   Peugeot 306 S16              +7:45.982  (53:12.030)
+4th:   Fiat Barchetta               +7:46.294  (53:12.342)
+5th:   Renault Laguna V6            +8:28.644  (53:54.692)
+6th:   Alfa 166 2.5 V6 24V          +9:17.237  (54:43.285)
+Lap1: 1:34.561
+fl: 1:27.938
+Pits: 10,20
+
+
+=======
+Game: gt2-game1
+Day: 354
+Date: January 26, 2000
+Race: Trial Mountain 30
+Car: [R]Stratos
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Lancia Stratos              46:53.164
+2nd:   Lotus Elise 111S               +3:59.887  (50:53.051) 2 laps
+3rd:   Volkswagen Golf GTi 1.8T       +5:56.525  (52:49.689) 3 laps
+4th:   Peugeot 306 S16                +6:11.938  (53:05.102) 3 laps
+5th:   Renault Laguna V6              +7:13.508  (54:06.672) 3 laps
+6th:   BMW 328Ci                      +7:23.844  (54:17.008) 3 laps
+Lap1: 1:36.044
+fl: 1:28.935(22)
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 367
+Date: January 29, 2000
+Race: Laguna Seca 200
+Car: [R]Denso Sard Supra GT
+Result: 1st
+Prize-Car: white [R]3000GT LM'99
+1st:*  [R]Denso Sard Supra GT        2-01:10.8
+2nd:   [R]Denso Sard Supra GT           +4.583  (2-01:15.4)
+3rd:   [R]Pennzoil Nismo GT-R GT'99    +10.787  (2-01:21.6)
+4th:   [R]Calsonic Skyline GT'99       +22.781  (2-01:33.6)
+5th:   [R]Mobil NSX GT'99              +36.682  (2-01:47.5)
+6th:   [R]Castrol Mugen NSX GT'99      +54.156  (2-02:05.0)
+Lap1: 1:22.924
+fl: 1:16.372
+Pits: 10,20,30,40,50,60,70,80
+=======
+
+
+
+
+Game: gt2-tm30
+Day: 5
+Date: February 5, 2000
+Race: Trial Mountain 30
+Car: red Supra (Turbo) '93, WR1, TS1 only (Cr9,925)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Toyota Supra(Turbo)'93       52:13.765
+2nd:   Ford Focus Ghia 2.0i Zetec     +42.825  (52:56.590)
+3rd:   Renault Megane 2.0 16V       +1:01.750  (53:15.515)
+4th:   Alfa 156 2.0 TS 16V          +1:35.946  (53:49.711)
+5th:   BMW 323ti Compact            +1:48.112  (54:01.877)
+6th:   Opel Vectra GSI 2.5 V6       +1:57.876  (54:11.641)
+Lap1: 1:49.377
+fl: 1:41.544(24)
+Pits: 10,20
+
+
+Game: gt2-tm30
+Day: 7
+Date: February 5, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]Denso Sard Supra  (S/S)
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]Denso Sard Supra GT        1-05:41.3
+2nd:   [R]Toyota GT-ONE '99          +2:39.526  (1-08:20.8) 1 lap
+3rd:   [R]Ford GT40 Race Car         +4:08.401  (1-09:49.7) 2 laps
+4th:   [R]Opel Calibra Touring Car   +5:19.317  (1-11:00.6) 3 laps
+5th:   [R]Jaguar XJ-220 GT Race Car  +6:25.834  (1-12:07.1) 3 laps
+6th:   Citroen Xantria 3.0i V6      +23:43.291  (1-29:24.6) 12 laps
+Lap1: 1:21.784
+fl: 1:15.068(45)
+Pits: 10,20,30,41
+
+
+Game: gt2-tm30
+Day: 13
+Date: February 06, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: Mine's Lancer Evolution V (modified, SS/SS)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with green stripes
+1st:*  Mine's Lancer Evolution V    1-08:09.2   
+2nd:   RUF BTR2                     +7:23.576  (1-15:32.8) 4 laps
+3rd:   Corvette Grand Sport '96    +12:56.517  (1-21:05.7) 7 laps
+4th:   Jaguar XK8 Coupe            +13:28.655  (1-21:37.9) 8 laps
+5th:   3000GT Turbo MR             +13:57.328  (1-22:06.5) 8 laps
+6th:   Aston Martin DB7 COUPE       oops       (oops) 9 laps
+Lap1: 1:25.115
+fl: 1:17.598
+Pits: 12,25,38
+
+
+Game: gt2-tm30
+Day: 22
+Date: February 07, 2000
+Race: Grand Valley 300km Endurance Race
+Car: TVR Tuscan Speed 6 (heavily modified, S/S)
+Result: 1st
+Prize-Car: black [R]Subaru Impreza Rally Car
+1st:*  TVR Tuscan Speed 6         1-56:39.2   
+2nd:   RUF RCT (blue)             +6:47.994  (2-03:27.2) 3 laps
+3rd:   RUF RCT (red)              +7:13.441  (2-03:52.6) 3 laps
+4th:   Viper GTS                  +9:03.505  (2-05:42.7) 4 laps
+5th:   Jaguar XJR Vehicle        +11:41.914  (2-08:21.1) 5 laps
+6th:   Shelby GT500'68           +24:12.361  (2-20:51.6) 10 laps
+Lap1: 1:57.640
+fl: 1:50.224
+Pits: 7,15,23,31,39,47,54
+
+
+
+Game: gt2-tm30
+Day: 93
+Date: February 14, 2000
+Race: Seattle 100
+Car: Camaro Z28 30th Anniversary Edition (heavily modified, S/S)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  Camaro Z28 30th Anv. '96     1-04:33.8
+2nd:   TVR Griffith 500 (green)     +4:14.506  (1-08:48.3) 2 laps
+3rd:   Mustang SVT Cobra '98        +4:25.830  (1-08:59.6) 2 laps
+4th:   Plymouth 'Cuda '70           +7:54.315  (1-12:28.1) 4 laps
+5th:   Plymouth 'Cuda '70           +8:26.189  (1-13:00.0) 4 laps
+6th:   Plymouth Muscle Car          +9:11.285  (1-13:45.1) 4 laps
+Lap1: 1:37.547
+fl: 1:30.708(37)
+Pits: 6,13,20,27,34
+
+
+Game: gt2-tm30
+Day: 103
+Date: February 15, 2000
+Race: Laguna Seca 200
+Car: white [R] Zexel Skyline '97 (S/S)
+Result: 1st
+Prize-Car: [R]Celica Rally Car
+1st:*  [R]Zexel Skyline GT '97       2-00:01.7
+2nd:   [R]Arta Zexel Skyline GT'99     +25.996  (2-00:27.7)
+3rd:   [R]Castrol Tom's Supra GT       +48.778  (2-00:50.5)
+4th:   [R]Calsonic Skyline GT'99       +57.482  (2-00:59.2)
+6th:   [R]Takata NSX GT'99           +1:27.419  (2-01:29.1)
+6th:   [R]Raybrig NSX GT'99          +1:50.337  (2-01:52.0) 1 lap
+Lap1: 1:22.009
+fl: 1:16.272
+Pits: 10,20,30,40,50,60,70,80
+
+
+Game: gt2-tm30
+Day: 104
+Date: February 18, 2000
+Race: Rome 2 Hour
+Car: [R]300ZX GTS GT'97
+Result: 1st
+Prize-Car: Toyota [R]Corolla Rally Car '97
+1st:*  [R]Nissan 300ZX GTS GT'97     2-00:19.9  89 laps
+2nd:   [R]Toyota GT-ONE '99            +56.772  89 laps+  (2-01:16.7)
+3rd:   [R]STP Taisan Viper GT        2 laps     87 laps
+4th:   [R]Nissan R390 GT1 '98        2 laps     87 laps
+5th:   Jaguar XJ220 Race Car         4 laps     85 laps
+6th:   [R]Lister Storm V12           7 laps     82 laps
+Lap1: 1:30.471
+fl: 1:15.777
+Pits: 11,23,35,47,58,69,79
+
+
+Game: unofficial
+Day: unofficial
+Date: March 3, 2000
+Race: Seattle 100
+Car: Phaeton
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  Chrysler Phaeton             1-06:04.8
+2nd:   Shelby Series 1              +1:03.359  (1-07:08.2)
+3rd:   Camaro Z28 30th Anv.'96      +1:55.188  (1-08:00.0)
+4th:   Mustang SVT Cobra '98        +2:33.756  (1-08:38.6)
+5th:   Plymouth Superbird           +6:19.565  (1-12:24.4)
+6th:   Plymouth Muscle Car          +7:21.605  (1-13:26.4)
+Lap1: 1:43.917
+fl: 1:33.402
+Pits: 6,13,21,28,34
+ 
+
+======
+Game: gt2-game1
+Day: 392
+Date: March 5, 2000
+Race: Seattle 100
+Car: Phaeton (S/S)
+Result: 1st
+Prize-Car: white/blue [R]Ford Escort Rally Car
+1st:*  Chrysler Phaeton             1-05:10.6
+2nd:   Shelby Series 1              +1:16.039  (1-06:26.6)
+3rd:   Camaro Z28 30th Anv.'96      +2:43.126  (1-07:53.7) 1 lap
+4th:   TVR Griffith 500             +3:26.559  (1-08:37.2) 1 lap
+5th:   Dodge Challenger             +5:35.969  (1-10:46.6) 3 laps
+6th:   Plymouth Superbird           +7:22.196  (1-12:32.8) 3 laps
+Lap1: 1:37.872
+fl: 1:33.228
+Pits: 6,13,20,27,34
+======
+
+
+Game: unofficial
+Day: unofficial
+Date: March 6, 2000  (date?)
+Race: Trial Mountain 30
+Car: yellow[R]240Z'71(hybrid; Midget wt, Cerbera LM motor; 1119hp, 1119lb)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Datsun 240Z 240ZG(J)'71   41:39.957
+2nd:   [R]Vector M12 LM Edition       +57.825  (42:37.782)
+3rd:   Toyota Celica MS Ver'99     +10:37.049  (52:17.006)
+4th:   Peugeot 306 S16             +11:14.787  (52:54.744)
+5th:   BMW 328Ci                   +11:57.510  (53:37.467)
+6th:   Alfa 156 2.0 TS 16V         +12:14.623  (53:54.580)
+Lap1: 1:22.900
+fl: 1:18.389(22)
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 394
+Date: March 10, 2000
+Race: Grand Valley 300km Endurance Race
+Car: Phaeton
+Result: 1st
+Prize-Car: black [R]Subaru Impreza Rally Car
+1st:*  Chrysler Phaeton           1-59:21.6   
+2nd:   Venturi Atlantique 400 GT    +38.090  (1-59:59.7)
+3rd:   RUF RCT                    +4:08.543  (2-03:30.1)
+4th:   TVR Cerbera 4.5            +5:20.725  (2-04:42.3)
+5th:   Jaguar XJR Vehicle         +8:56.707  (2-08:18.3)
+6th:   Shelby GT500'68           +21:13.707  (2-20:35.3)
+Lap1: 1:59.148
+fl: 1:53.018(56)
+Pits: 6,12,18,24,30,36,42,48,54
+
+
+Game: gt2-game1
+Day: 396
+Date: March 12, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: Phaeton
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with blue stripes
+1st:*  Chrysler Phaeton             1-11:04.6   
+2nd:   Ford GT40                    +3:52.623  (1-14:57.2)
+3rd:   RUF BTR2                     +4:35.591  (1-15:40.2)
+4th:   Impreza WRX STi Ver VI       +9:25.172  (1-20:29.8)
+5th:   Lancer Evolution VI GSR'99  +10:08.262  (1-21:12.9)
+6th:   3000GT Turbo MR             +10:43.101  (1-21:47.7)
+Lap1: 1:26.003
+fl: 1:20.208
+Pits: 6,14,22,30,37,44
+
+
+Game: gt2-game1
+Day: 414
+Date: March 15, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: [R]Mini Cooper
+Result: 1st
+Prize-Car: red Lancia Stratos
+1st:*  [R]Rover Mini 1275S Mark I   1-13:06.0   
+2nd:   RUF BTR2                     +2:32.841  (1-15:38.8)
+3rd:   Lancer Evolution VI GSR'99   +7:19.599  (1-20:25.6)
+4th:   Shelby GT350'66              +8:47.488  (1-21:53.5)
+5th:   Subaru Legacy B4 RSK '98    +10:43.696  (1-23:49.7)
+6th:   BMW 840Ci                   +13:44.075  (1-26:50.1)
+Lap1: 1:31.838
+fl: 1:23.841
+Pits: 10,21,31,41
+
+
+===============================================================================
+Game: gt2-game1
+Day: 416
+Date: March 16, 2000
+Race: Seattle 100
+Car: [R]Monte Carlo Mini (S/S)
+Result: 1st
+Prize-Car: white/blue [R]Ford Escort Rally Car
+1st:*  [R]Rover Mini 1275S MarkI    1-07:00.5
+2nd:   Plymouth Superbird           +5:19.867  (1-12:20.4) 2 laps
+3rd:   Shelby GT500'68              +5:33.494  (1-12:34.0) 2 laps
+4th:   Plymouth 'Cuda '70           +6:04.050  (1-13:04.6) 3 laps
+5th:   Plymouth Muscle Car          +6:47.338  (1-13:47.8) 3 laps
+6th:   Plymouth GTX                +11:15.200  (1-18:15.7) 5 laps
+Lap1: 1:44.956
+fl: 1:38.039
+Pits: 14,27
+
+
+Game: gt2-game1
+Day: 417
+Date: March 17, 2000
+Race: Seattle 100
+Car: [R]Monte Carlo Mini (S/S)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]Rover Mini 1275S MarkI    1-07:25.0
+2nd:   Camaro SS '97                  +53.884  (1-08:18.9)
+3rd:   Dodge Challenger             +3:25.446  (1-10:50.4) 1 lap
+4th:   Shelby Series 1              +5:09.947  (1-12:34.9) 2 laps (got stuck!)
+5th:   Plymouth Muscle Car          +5:53.796  (1-13:18.8) 2 laps
+6th:   Dodge Charger                +7:04.963  (1-14:30.0) 3 laps
+Lap1: 1:45.505
+fl: 1:37.923
+Pits: 14,27
+
+
+Game: gt2-game1
+Day: 420
+Date: March 17, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: [R]Mini Cooper (S/S)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with green stripes
+1st:*  [R]Rover Mini 1275S Mark I     1-13:07.0   
+2nd:   Ford GT40                      +1:44.194  (1-14:51.2) 1 lap
+3rd:   Acura NSX Type S Zero          +6:42.416  (1-19:49.4) 4 laps
+4th:   Mazda RX-7 Type RS'98          +7:16.335  (1-20:23.3) 4 laps
+5th:   Toyota Supra RZ'97             +7:32.080  (1-20:39.1) 4 laps
+6th:   Lancer Evolution VI GSR'99     +7:59.395  (1-21:06.4) 4 laps
+Lap1: 1:34.612
+fl: 1:24.853
+Pits: 13,26,39
+
+
+Game: gt2-game1
+Day: 421
+Date: March 18, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: [R]Mini Cooper (S/S)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with green stripes
+1st:*  [R]Rover Mini 1275S Mark I     1-11:59.9   
+2nd:   Ford GT40 (blue)               +2:42.566  (1-14:42.5) 1 lap
+3rd:   Toyota Supra RZ'97             +7:52.782  (1-19:52.7) 4 laps
+4th:   Jaguar XK8 Coupe               +9:14.613  (1-21:14.5) 5 laps
+5th:   Corvette Grand Sport '96       +9:37.116  (1-21:37.0) 5 laps
+6th:   Aston Martin DB7 COUPE        +13:04.744  (1-25:04.6) 7 laps
+Lap1: 1:31.113
+fl: 1:22.985(42)
+Pits: 13,26,39
+
+
+Game: gt2-game1
+Day: 428
+Date: March 19, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: Mine's Lancer Evolution V (S/S only)
+Result: 1st
+Prize-Car: red Lancia Stratos(dup)(sold)
+1st:*  Mine's Lancer Evolution V      1-11:06.4   
+2nd:   Toyota Supra RZ'97             +8:42.251  (1-19:48.7) 5 laps
+3rd:   Lancer Evolution VI GSR'99     +9:35.018  (1-20:41.4) 5 laps
+4th:   Jaguar XK8 Coupe              +10:10.111  (1-21:16.5) 6 laps
+5th:   Shelby GT350'66               +11:19.468  (1-22:25.9) 6 laps
+6th:   Subaru Legacy B4 RSK '98      +12:38.436  (1-23:44.8) 7 laps
+Lap1: 1:27.798
+fl: 1:21.329
+Pits: 10,20,30,40
+
+
+Game: gt2-game1
+Day: 429
+Date: March 19, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: Mine's Lancer Evolution V (stock)
+Result: 1st
+Prize-Car: red Lancia Stratos(dup)(sold)
+1st:*  Mine's Lancer Evolution V      1-13:40.3   
+2nd:   Ford GT40                      +1:19.338  (1-14:59.6)
+3rd:   Ford GT40                      +1:38.626  (1-15:18.9)
+4th:   Jaguar XK8 Coupe               +7:29.116  (1-21:09.4) 4 laps
+5th:   3000GT Turbo MR                +8:09.334  (1-21:49.6) 4 laps
+6th:   BMW 840Ci                     +12:15.618  (1-25:55.9) 6 laps
+Lap1: 1:32.518
+fl: 1:24.781
+Pits: 12,25,38
+
+
+===============================================================================
+
+
+Game: gt2-game1
+Day: 434
+Date: March 19, 2000
+Race: Trial Mountain 30
+Car: yellow Spoon Civic Type-R
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Spoon Civic Type-R        50:44.775
+2nd:   Lotus Elise 111S            +38.350  (51:23.125)
+3rd:   Peugeot 306 S16           +1:45.564  (52:30.339)
+4th:   Peugeot 306 S16           +2:08.567  (52:53.342)
+5th:   Alfa 156 2.0 TS 16V       +2:51.139  (53:35.914)
+6th:   Alfa 156 2.5 V6 24V       +3:53.527  (54:38.302)
+Lap1: 1:47.495
+fl: 1:38.882(21)
+Pits: 15
+
+
+Game: gt2-game1
+Day: 457
+Date: March 24, 2000
+Race: Trial Mountain 30
+Car: yellow Tom's T111  (stock)
+Result: 3rd
+Prize-Car: none
+1st:   MGF 1.8i VVC                 53:32.916
+2nd:   Ford Focus Ghia 2.0i Zetec      +6.843  (53:39.759)
+3rd:*  Tom's T111                     +31.018  (54:03.934)
+4th:   BMW 323ti Compact              +41.142  (54:14.058)
+5th:   Alfa 156 2.0 TS 16V            +44.125  (54:17.041)
+6th:   Renault Laguna V6              +58.722  (54:31.638)
+Lap1: 1:55.385
+fl: 1:43.860
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 458
+Date: March 24, 2000
+Race: Trial Mountain 30
+Car: yellow Tom's T111  (S/S only)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Tom's T111                   52:08.334
+2nd:   Fiat Barchetta                 +40.978  (52:49.312)
+3rd:   MGF 1.8i VVC                   +57.183  (53:05.517)
+4th:   Ford Focus Ghia 2.0i Zetec   +1:05.432  (53:13.766)
+5th:   Volkswagen Golf GTi 1.8T     +1:24.442  (53:32.776)
+6th:   BMW 328Ci                    +1:50.183  (53:58.517)
+Lap1: 1:51.827
+fl: 1:41.269
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 462
+Date: March 25, 2000
+Race: Trial Mountain 30
+Car: Mugen Prelude (stock)
+Result: 2nd
+Prize-Car: none
+1rd:   Toyota Celica MS Ver'99      53:06.452
+2nd:*  Mugen Prelude Type-S           +13.520  (53:19.972)
+3rd:   MGF 1.8i VVC                   +14.758  (53:21.210)
+4th:   Ford Focus Ghia 2.0i Zetec     +23.446  (53:29.898)
+5th:   Volkswagen Golf GTi 1.8T       +36.270  (53:42.722)
+6th:   Alfa 166 2.5 V6 24V          +1:31.642  (54:38.094)
+Lap1: 1:52,851
+fl: 1:42.136
+Pits: 10,20
+
+
+Game: gt2-game1
+Day: 463
+Date: March 25, 2000
+Race: Trial Mountain 30
+Car: Mugen Prelude (stock)
+Result: 2nd
+Prize-Car: none
+1st:   MGF 1.8i VVC                 53:16.761
+2nd:*  Mugen Prelude Type-S            +9.020  (53:25.781)
+3rd:   Ford Focus Ghia 2.0i Zetec     +16.730  (53:33.491)
+4th:   Volkswagen Golf GTi 1.8T       +30.584  (53:47.345)
+5th:   BMW 323ti Compact              +48.794  (54:05.555)
+6th:   BMW 328Ci                      +59.676  (54:16.437)
+Lap1: 1:52,588
+fl: 1:42.975
+Pits: 15
+
+
+Game: gt2-game1
+Day: 464
+Date: March 25, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]Tuscan Speed 6
+Result: 1st
+Prize-Car: blue [R]Cerbera LM
+1st:*  [R]TVR Tuscan Speed 6         1-08:42.1
+2nd:   [R]Toyota GT-ONE '98            +10.118  (1-08:52.2)
+3rd:   [R]Toyota GT-ONE '99            +20.548  (1-09:02.6)
+4th:   [R]Ford GT40 Race Car         +1:11.246  (1-09:53.3)
+5th:   [R]Opel Calibra Touring Car   +2:08.735  (1-10:50.8)
+6th:   [R]Jaguar XJ-220 GT Race Car  +3:17.851  (1-12:00.0)
+Lap1: 1:26.797
+fl: 1:18,789(3)
+Pits: 13,26,38
+
+
+Game: gt2-game1
+Day: 466
+Date: March 25, 2000
+Race: Trial Mountain 30
+Car: red Mugen Integra (stock)
+Result: 2nd
+Prize-Car: none
+1st:   Lotus Elise 111S             52:31.377
+2nd:*  Mugen Integra Type-R           +24.716  (52:56.093)
+3rd:   Toyota Celica MS Ver'99        +29.199  (53:00.576)
+4th:   Renault Megane 2.0 16V         +52.559  (53:23.936)
+5th:   Alfa 156 2.0 TS 16V          +1:14.035  (53:45.412)
+6th:   Opel Vectra GSI 2.5 V6       +1:33.490  (54:04.867)
+Lap1: 1:51.232
+fl: 1:43.302(22)
+Pits: 15
+
+
+Game: gt2-game1
+Day: 467
+Date: March 26, 2000
+Race: Trial Mountain 30
+Car: white/black Spoon Integra Type-R
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Spoon Integra Type-R         50:37.090
+2nd:   Lotus Elise 111S               +39.880  (51:16.970)
+3rd:   Fiat Barchetta               +1:45.998  (52:23.088)
+4th:   Volkswagen Golf GTi 1.8T     +2:29.980  (53:07.070)
+5th:   BMW 323ti Compact            +3:06.140  (53:43.230)
+6th:   Opel Vectra GSI 2.5 V6       +3:21.303  (53:58.393)
+Lap1: 1:47.001
+fl: 1:38.473
+Pits: 15
+
+
+Game: gt2-game1
+Day: 470
+Date: March 26, 2000
+Race: Trial Mountain 30
+Car: red Mugen Integra (stock)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Mugen Integra Type-R         52:35.287
+2rd:   Fiat Barchetta                 +23.493  (52:58.780)
+3rd:   MGF 1.8i VVC                   +37.879  (53:13.166)
+4th:   Volkswagen Golf GTi 1.8T       +48.693  (53:23.980)
+5th:   Opel Vectra GSI 2.5 V6       +1:14.120  (53:49.407)
+6th:   Alfa 156 2.0 TS 16V          +1:33.134  (54:08.421)
+Lap1: 1:51.884
+fl: 1:42.458
+Pits: 15
+
+
+Game: gt2-game1
+Day: 478
+Date: March 29, 2000
+Race: Trial Mountain 30
+Car: red Prelude SiR S spec (stock)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Honda Prelude SiR S spec     52:54.550
+2nd:   Toyota Celica MS Ver'99         +2.960  (52:57.510)
+3rd:   Ford Focus Ghia 2.0i Zetec     +22.812  (53:17.362)
+4th:   Volkswagen Golf GTi 1.8T       +39.644  (53:34.194)
+5th:   Opel Vectra GSI 2.5 V6         +58.877  (53:53.427)
+6th:   Alfa 166 2.5 V6 24V          +1:46.348  (54:40.898)
+Lap1: 1:49.738
+fl: 1:43.076(18)
+Pits: 15
+
+
+Game: gt2-game1
+Day: 479
+Date: March 31, 2000
+Race: Trial Mountain 30
+Car: Taurus SHO(stock)
+Result: 3rd
+Prize-Car: none
+1st:   Toyota Celica MS Ver'99      53:15.119
+2nd:   MGF 1.8i VVC                    +9.225  (53:24.344)
+3rd:*  Ford Taurus SHO'99             +13.103  (53:28.222)
+4th:   Ford Focus Ghia 2.0i Zetec     +14.768  (53:29.887)
+5th:   Alfa 156 2.0 TS 16V            +40.214  (53:55.333)
+6th:   Alfa 166 2.5 V6 24V          +1:27.056  (54:42.175)
+Lap1: 1:49.952
+fl: 1:42.777
+Pits: 12,21
+
+
+Game: gt2-game1
+Day: 480
+Date: April 1, 2000
+Race: Trial Mountain 30
+Car: Subaru 360(maxed)
+Result: 6th
+Prize-Car: none
+1st:   Renault Megane 2.0 16V       53:39.896
+2nd:   Volkswagen Golf GTi 1.8T       +11.263  (53:51.159)
+3rd:   Peugeot 306 S16                +25.972  (54:05.868)
+4th:   Renault Laguna V6            +1:33.614  (55:13.510)
+5th:   Renault Laguna V6            +2:00.872  (55:40.768)
+6th:*  Subaru 360                   +3:01.998  (56:41.894)
+Lap1: 1:54.442
+fl: 1:48.190(23)
+Pits: 15
+
+
+Game: gt2-game1
+Day: 482
+Date: April 1, 2000
+Race: Trial Mountain 30
+Car: silver Toyota Celica XYR'99 (prize, Hist/Grind)
+Result: 2nd
+Prize-Car: none
+1st:   Fiat Barchetta               53:32.784
+2nd:*  XYR Detroit Show Ver. '99      +10.311  (53:43.095)
+3rd:   MGF 1.8i VVC                   +11.637  (53:44.421)
+4th:   Renault Megane 2.0 16V         +16.050  (53:48.834)
+5th:   Alfa 156 2.0 TS 16V            +36.993  (54:09.777)
+6th:   BMW 328Ci                      +51.441  (54:24.225)
+Lap1: 1:53.009
+fl: 1:43.780
+Pits: 15
+
+
+
+Game: gt2-game1
+Day: 506
+Date: April 9, 2000
+Race: Apricot Hill 200
+Car: blue Mazdaspeed RX-7 GT-C'99(prize, FR/Midfield)(stock, except tires)
+Result: 1st
+Prize-Car: green Lancia Stratos
+1st:*  Mazdaspeed RX-7 GT-C'99      1-17:05.9
+2nd:   Mazda RX-7 Type RS'98        +2:58.088  (1-20:04.0)
+3rd:   Toyota Supra RZ'97           +3:14.189  (1-20:20.1)
+4th:   Impreza WRX STi Ver VI       +3:55.124  (1-21:01.0)
+5th:   Jaguar XK8 Coupe             +4:39.928  (1-21:45.8)
+6th:   3000GT Turbo MR              +5:01.691  (1-22:07.6)
+Lap1: 1:32.595
+fl: 1:26.408(45)
+Pits: 8,17,26,25,43
+
+
+
+Game: gt2-game1
+Day: 514
+Date: April 13, 2000
+Race: Seattle 100
+Car: silver[R]DodgeConceptCarLMedition(prize, Conv/TM)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]Concept Car LM Edition    59:23.255
+2nd:   Shelby Series 1              +7:16.607  (66:39.862)
+3rd:   Camaro Z28 30th Anv.'96      +8:14.892  (67:38.147)
+4th:   Shelby GT350'66             +10:47.682  (70:10.937)
+5th:   Dodge Challenger            +11:35.157  (70:58.412)
+6th:   Plymouth GTX                +18:15.365  (77:38.620)
+Lap1: 1:50.617
+fl: 1:24.258
+Pits: 10,20,30
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial
+Date: April 21, 2000
+Race: Trial Mountain 30
+Car: [R]Daisin Silvia GT'99 (sharked in)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  [R]Daisin Silvia GT'99       43:40.161
+2nd:   [R]Vector M12 LM Edition        +0.454  (43:40.615)
+3rd:   Volkswagen Golf GTi 1.8T     +9:02.337  (52:42.498) 4 laps
+4th:   BMW 328Ci                    +9:58.370  (53:38.531) 4 laps
+5th:   BMW 328ti Compact           +10:15.075  (53:55.236) 4 laps
+6th:   Opel Vectra GSI 2.5 V6      +10:24.804  (54:04.965) 5 laps
+Lap1: 1:31.284
+fl: 1:24.217
+Pits: 15
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (544)
+Date: April 30, 2000
+Race: 50 Laps at Midfield (sharked Apricot 200)
+Car: near-stock TVR Tuscan Speed 6
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with green stripes
+1st:*  TVR Tuscan Speed 6           1-05:43.6
+2nd:   Impreza WRX STi Ver. VI      +4:21.312  (1-10:04.9) 2 laps
+3rd:   Corvette Grand Sport '96     +5:06.026  (1-10:49.6) 3 laps
+4th:   Lancer Evolution VI GSR'99   +5:18.125  (1-11:01.7) 3 laps
+5th:   Aston Martin DB7 COUPE       +9:54.328  (1-15:37.9) 6 laps
+6th:   Mazda RX-7 Type RS'98       +15:47.401  (1-21:31.0) 11 laps
+Lap1: 1:22.256
+fl: 1:15.259
+Pits: 13,26,39
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (553)
+Date: April 30, 2000
+Race: 50 Laps at Midfield (sharked Apricot 200)
+Car: near-stock TVR Tuscan Speed 6
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with blue stripes
+1st:*  TVR Tuscan Speed 6           1-04:29.3
+2nd:   RUF BTR2                     +3:14.476  (1-07:43.8) 2 laps
+3rd:   Ford GT40                    +3:17.918  (1-07:47.2) 2 laps
+4th:   Aston Martin DB7 COUPE       +9:25.532  (1-13:54.8) 6 laps
+5th:   Shelby GT350'66             +10:34.843  (1-15:04.1) 7 laps
+6th:   Corvette Grand Sport '96    +16:23.999  (1-20:53.3) 9 laps
+Lap1: 1:21.141
+fl: 1:14.705
+Pits: 13,26,39
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (552)
+Date: May 4, 2000
+Race: 50 Laps at Tahiti Maze (sharked Apricot 200)
+Car: Mine's Lancer Evolution V, with H/H only
+Result: 1st
+Prize-Car: red Lancia Stratos
+1st:*  Mine's Lancer Evolution V    1-43:26.4
+2nd:   Lancer Evolution VI GSR'99   +8:44.852  (1-52:11.3)  3 laps
+3rd:   Aston Martin DB7 COUPE      +12:16.452  (1-55:42.9)  5 laps
+4th:   BMW 840Ci                   +13:42.336  (1-57:08.7)  5 laps
+5th:   Ford GT40                   +15:36.024  (1-59:02.4)  6 laps
+6th:   Acura NSX Type S Zero       +22:22.639  (2-05:49.0)  8 laps
+Lap1: 2:07.688
+fl: 2:01.053
+Pits: N/A
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (562)
+Date: May 5, 2000
+Race: 50 Laps at Rome Night  (sharked SSR5 All-Night)
+Car: burgundy [R]Cerbera LM
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]TVR Cerbera LM            1-17:45.9
+2nd:   [R]Toyota GT-ONE '99            +28.973  (1-18:14.9)
+3rd:   [R]Nissan R390 GT1 '97        +1:02.807  (1-18:48.7)
+4th:   [R]Nissan R390 GT1 '98        +1:24.411  (1-19:10.3)
+5th:   [R]Opel Calibra Touring Car   +2:27.278  (1-20:13.2)  1 lap
+6th:   Citroen Xantria 3.0i V6        stuck     (32 laps)
+Lap1: 1:36.440
+fl: 1:29.056
+Pits: 13,26,39
+
+
+Game: gt2-game1
+Day: 602
+Date: May 13, 2000
+Race: Rome 2 Hour
+Car: red [R]ZZ II
+Result: 3rd
+Prize-Car: 8-(
+1st:   [R]Toyota GT-ONE '99          2-00:51.5  86 laps
+2nd:   [R]Venturi Atlantique 600LM     +27.771  86 laps  (2-01:19.3)
+3rd:*  TommyKaira [R] ZZII              -8.940  85 laps  (2-00:42.6)
+4th:   [R]Nissan R390 GT1 '98           -2.620  85 laps  (2-00:48.9)
+5th:   [R]STP Taisan Viper GT           -1.628  85 laps  (2-00:49.9)
+6th:   [R]Lister Storm V12               3laps
+Lap1: 1:28.029
+fl: 1:20.931
+Pits: 15,29,43,57,72
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (621)
+Date: May 18, 2000
+Race: 60 Laps at Deep Forest Racing Way  (sharked GV300)
+Car: redR390GT1RoadCar'97
+Result: 1st
+Prize-Car: blue[R]SubaruImprezaRallyCar
+1st:*  Nissan R390 GT1 Road Car '97  1-15:33.4
+2nd:   RUF RCT                       +7:07.629  (1-22:41.0) 4 laps
+3rd:   Viper GTS                    +10:41.270  (1-26:14.7) 7 laps
+4th:   Jaguar XJR Vehicle           +12:13.907  (1-27:47.3) 8 laps
+5th:   Shelby GT500'68              +13:13.433  (1-28:46.8) 8 laps
+6th:   TVR Cerbera 4.5              +14:06.745  (1-29:40.1) 10 laps
+Lap1: 1:20.436
+fl: 1:11.970
+Pits: 12,24,36,48
+
+
+Game: gt2-game1
+Day: 627
+Date: May 21, 2000
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: [R]Castrol Mugen NSX GT'98
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]Castrol Mugen NSX GT       1-08:22.3
+2nd:   [R]Toyota GT-ONE '99            +24.441  (1-08:46.7)
+3rd:   [R]Nissan R390 GT1 '97          +57.977  (1-09:20.3)
+4th:   [R]Opel Calibra Touring Car   +2:31.714  (1-10:54.0) 1 lap
+5th:   [R]Jaguar XJ-220 GT Race Car  +3:39.903  (1-12:02.2) 2 laps
+6th:   Citroen Xantria 3.0i V6      +20:48.705  (1-29:11.0) 11 laps
+Lap1: 1:22.834
+fl: 1:16.904(46)
+Pits: 8,17,26,34,42
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (643)
+Date: May 27, 2000
+Race: 50 Laps at Laguna Seca (sharked Apricot 200)
+Car: stock gray Nismo 400R Preceiding Model, with H/H only
+Result: 4th
+Prize-Car: 8-(
+lst:   Ford GT40                    1-14:27.8
+2nd:   RUF BTR2                     +1:34.030  (1-16:01.8)
+3rd:   RUF BTR2                     +2:08.223  (1-16:36.0)
+4th:*  Nismo 400R Preceiding Model  +4:31.715  (1-18:59.5)
+5th:   Mazda RX-7 Type RS'98        +4:38.378  (1-19:06.2)
+6th:   3000GT Turbo MR              +4:44.497  (1-19:12.3)
+Lap1: 1:37,119
+fl: 1:30.988
+Pits: 17,34
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (645)
+Date: May 28, 2000
+Race: 90 Laps at Red Rock Valley (sharked Laguna 200)
+Car: burgundy [R]Cerbera LM
+Result: 1st
+Prize-Car: [R]Celica Rally Car
+1st:*  [R]TVR Cerbera LM Edition     1-43:29.5
+2nd:   [R]Pennzoil Nismo GT-R GT'99  +9:49.025  (1-53:18.5) 7 laps
+3rd:   [R]Cdma One Ceruma Supra GT   +9:59.465  (1-53:29.0) 7 laps
+4th:   [R]Castrol Tom's Supra GT    +10:15.345  (1-53:44.8) 8 laps
+5th:   [R]Calsonic Skyline GT'99    +10:40.729  (1-54:10.2) 8 laps
+6th:   [R]Raybrig NSX GT'99         +10:55.671  (1-54:25.2) 8 laps
+Lap1: 1:12.512
+fl: 1:03.919(4)
+Pits: 13,26,40,53,66,78
+
+
+Game: gt2-game1
+Day: 662
+Date: June 10, 2000
+Race: Trial Mountain 30
+Car: yellow Spoon S2000 (B license prize)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Spoon S2000                  50:58.931
+2nd:   Lotus Elise 111S               +26.816  (51:25.747)
+2nd:   Toyota Celica MS Ver'99      +1:50.376  (52:49.307) 1 lap
+4th:   Volkswagen Golf GTi 1.8T     +2:04.461  (53:03.392) 1 lap
+5th:   Alfa 166 2.5 V6 24V          +2:42.657  (53:41.588) 1 lap
+6th:   Renault Laguna V6            +3:16.321  (54:15.252) 1 lap
+Lap1: 1:45.563
+fl: 1:39.157(4)
+Pits: 16
+
+
+Game: gt2-game1
+Day: 686
+Date: June 28, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: blue[R]R30 Silhouette Foumula (SS/SS)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with blue stripes
+1st:*  [R]R30 Silhouette Foumula    1-02:33.0   
+2nd:   Ford GT40                   +12:32.734  (1-15:05.7)  7 laps
+3rd:   RUF BTR2                    +13:03.295  (1-15:36.3)  8 laps
+4th:   Impreza WRX STi Ver VI      +18:40.720  (1-21:13.7)  11 laps
+5th:   Corvette Grand Sport '96    +18:57.149  (1-21:30.1)  11 laps
+6th:   Subaru Legacy B4 RSK '98    +20:57.207  (1-23:30.2)  12 laps
+Lap1: 1:19.901
+fl: 1:10.992(42)
+Pits: 13,26,39
+
+
+Game: gt2-game1
+Day: 687
+Date: June 30, 2000
+Race: Laguna Seca 200
+Car: blue [R]R30 Silhouette Foumula (SS/SS)
+Result: 1st
+Prize-Car: [R]Celica Rally Car
+1st:*  [R]R30 Silhouette Foumula     1-55:31.8
+2nd:   [R]Unisia Jecs Skyline GT'99  +4:28.429  (2-00:00.2) 3 laps
+3rd:   [R]Denso Sard Supra GT        +5:00.155  (2-00:32.0) 3 laps
+4th:   [R]Pennzoil Nismo GT-R GT'99  +5:12.487  (2-00:44.3) 3 laps
+5th:   [R]Arta Zexel Skyline GT'99   +5:33.348  (2-01:05.1) 4 laps
+6th:   [R]Takata NSX GT'99           +5:59.168  (2-01:31.0) 4 laps
+Lap1: 1:26.334
+fl: 1:13.834
+Pits: 11,25,38,51,64,77
+
+
+Game: gt2-game1
+Day: 688
+Date: July 02, 2000
+Race: Rome 2 Hour
+Car: blue [R]R30 Silhouette Foumula (SS/SS)
+Result: 1st
+Prize-Car: Toyota [R]Corolla Rally Car '97
+1st:*  [R]R30 Silhouette Foumula     2-00:25.1  92 laps
+2nd:   [R]Toyota GT-ONE '99          3 laps->2  90 laps+
+3rd:   [R]Venturi Atlantique 600LM   3 laps     89 laps-
+4th:   [R]Ford GT40 Race Car         4 laps     88 laps-
+5th:   [R]Nissan R390 GT1 '97        5 laps->4  88 laps+
+6th:   [R]Nissan R390 GT1 '98        5 laps     87 laps-
+Lap1: 1:24.518
+fl: 1:14.617
+Pits: 12,24,36,48,60,72,83
+
+
+Game: gt2-game1
+Day: 693
+Date: July 06, 2000
+Race: Seattle 100
+Car: [R]Lancia Stratos (SS/SS)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]Lancia Stratos            1-06:59.6
+2nd:   Camaro Z28 30th Anv.'96        +51.097  (1-07:50.7)
+3rd:   Mustang SVT Cobra '98        +1:32.190  (1-08:31.8)
+4th:   Dodge Challenger             +3:52.211  (1-10:51.8) 1 lap
+5th:   Plymouth Muscle Car          +6:19.664  (1-13:19.3) 3 laps
+6th:   Dodge Charger                +7:26.570  (1-14:26.2) 3 laps
+Lap1: 1:40.660
+fl: 1:33.033
+Pits: 10,22,31
+
+
+Game: gt2-game1
+Day: 704
+Date: July 08, 2000
+Race: Rome 2 Hour
+Car: red[R]ZZ-II (adjusted) (SS/SS)
+Result: 1st
+Prize-Car: gray [R]Altezza LM Edition(new)
+1st:*  TommyKaira [R] ZZII             2-00:13.7  87 laps
+2nd:   [R]Toyota GT-ONE '98               +7.841  87 laps-  (2-00:21.5)
+2nd:   [R]Ford GT40 Race Car             +20.987  87 laps-  (2-00:34.7)
+4th:   [R]Nissan R390 GT1 '97            +56.290  87 laps-  (2-01:10.0)
+5th:   Jaguar XJ220 Race Car           2 laps     85 laps
+6th:   [R]Lister Storm V12             5 laps->4  83 laps
+Lap1: 1:25.668
+fl: 1:19.242
+Pits: 15,20,45,59,74
+
+
+Game: gt2-game1
+Day: 706
+Date: July 09, 2000
+Race: Rome 2 Hour
+Car: [R]GT-ONE'98 (SS/SS)
+Result: 1st
+Prize-Car: Toyota [R]Corolla Rally Car '97
+1st:*  [R]Toyota GT-ONE '98          3-03:38.6  96 laps  8-)
+2nd:   [R]Venturi Atlantique 600LM   7 laps
+3rd:   [R]Toyota GT-ONE '99          7 laps
+4th:   [R]Ford GT40 Race Car         7 laps
+5th:   [R]Nissan R390 GT1 '97        8 laps
+6th:   [R]Lister Storm V12           13 laps
+Lap1: 1:19.446
+fl: 1:11.392
+Pits: 16,33,49,65,81,92
+
+
+Game: gt2-game1
+Day: 707
+Date: July 10, 2000
+Race: Rome 2 Hour
+Car: [R]EscudoPPV (SS/SS)
+Result: 1st
+Prize-Car: white [R]Altezza LM Edition (dup)
+1st:*  [R]Escudo Pikes Peak Version  1-56:25.1  99 laps  8-)
+2nd:   [R]Toyota GT-ONE '98          12 laps   8-(
+3rd:   [R]Toyota GT-ONE '99          13 laps
+4th:   [R]Venturi Atlantique 600LM   13 laps
+5th:   [R]Ford GT40 Race Car         14 laps
+6th:   Jaguar XJ220 Race Car         17 laps
+Lap1: 1:16.673
+fl: 1:06.630
+Pits: 18,35,52,68,84
+
+
+Game: unofficial
+Day: unofficial (399)
+Date: July 22, 2000
+Race: Laguna Seca 200
+Car: [R]MiniCooper hybrid (CerberaLM eng, ViperGTS WR, Cerbera SS/SS, +aero)
+Result: 1st
+Prize-Car: [R]Celica Rally Car
+1st:*  [R]Rover Mini 1275S Mark I    1-55:16.3
+2nd:   [R]Calsonic Skyline GT'99     +4:30.856  (1-59:47.2) 3 laps
+3rd:   [R]Zexel Skyline GT'97        +4:55.205  (2-00:11.5) 3 laps
+4th:   [R]Castrol Tom's Supra GT     +5:31.155  (2-00:47.5) 4 laps
+5th:   [R]Unisia Jecs Skyline GT'99  +5:38.193  (2-00:54.5) 4 laps
+6th:   [R]Mobil NSX GT'99            +6:12.711  (2-01:29.0) 4 laps
+Lap1: 1:23.673
+fl: 1:12.629
+Pits: 15,30,45,60,75
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (713)
+Date: July 23, 2000
+Race: 50 Laps at Rome Night  (sharked SSR5 All-Night)
+Car: [R]155 Touring Car, stock with SS/SS only
+Result: 4th
+Prize-Car: 8-(
+1st:   [R]Toyota GT-ONE '99          1-19:59.6
+2nd:   [R]Ford GT40 Race Car           +34.072  (1-20:33.7)
+3rd:   [R]Nissan R390 GT1 '98          +51.404  (1-20:51.0)
+4th:*  [R]Alfa 155 Touring Car       +1:16.803  (1-21:16.4)
+5th:   [R]Jaguar XJ-220 GT Race Car  +1:30.238  (1-21:29.8)
+6th:   Citroen Xantria 3.0i V6      +20:31.570  (1-40:31.2) 9 laps
+Lap1: 1:39.540
+fl: 1:33.016
+Pits: 16,33
+
+
+
+Game: gt2-game1 (unofficial)
+Day: unofficial (721)
+Date: July 29, 2000
+Race: 50 Laps at Midfield  (sharked SSR5 All-Night)
+Car: [R]Daisin Silvia GT'99
+Result: 1st
+Prize-Car: blue [R]Cerbera LM
+1st:*  [R]Daisin Silvia GT'99        57:28.531
+2nd:   [R]Toyota GT-ONE '99          +1:13.230  (58:41.761)
+3rd:   [R]Toyota GT-ONE '99          +1:31.766  (59:00.297) 1 lap
+4th:   [R]Nissan R390 GT1 '98        +2:17.888  (59:46.419) 1 lap
+5th:   [R]Ford GT40 Race Car         +3:08.257  (60:36.788) 2 laps
+6th:   [R]Jaguar XJ-220 GT Race Car  +4:49.562  (62:18.093) 3 laps
+Lap1: 1:13.576
+fl: 1:06.205(46)
+Pits: 16,33
+
+
+Game: gt2-game1
+Day: 726
+Date: August 06, 2000
+Race: Rome 2 Hour
+Car: [R]GT-ONE'98 (SS/SS)
+Result: 1st
+Prize-Car: Toyota [R]Corolla Rally Car '97
+1st:*  [R]Toyota GT-ONE '98          2-01:10.8  88 laps  8-)
+2nd:   [R]Venturi Atlantique 600LM      +5.010  88 laps  (2-01:15.8)
+3rd:   [R]Nissan R390 GT1 '97          -16.471  87 laps  (2-00:54.3)
+4th:   [R]STP Taisan Viper GT           +1.669  87 laps  (2-01:12.5)
+5th:   [R]Nissan R390 GT1 '98            1 lap
+6th:   [R]Lister Storm V12               5 laps
+Lap1: 1:24,768
+fl: 1:12.028
+Pits: 6,12,18,24,30,36,42,47,54,60,67,75,82
+
+
+Game: gt2-game1
+Day: 727
+Date: August 11, 2000
+Race: Laguna Seca 200
+Car: [R]GT-ONE'98 (SS/SS)
+Result: 1st
+Prize-Car: [R]Celica Rally Car
+1st:*  [R]Toyota GT-ONE '98          1-49:55.2
+2nd:   [R]Denso Sard Supra GT       +10:06.164  (2-00:01.4) 7 laps
+3rd:   [R]Cdma One Ceruma Supra GT  +10:51.818  (2-00:47.0) 7 laps
+4th:   [R]Raybrig NSX GT'99         +11:06.552  (2-01:01.8) 8 laps
+5th:   [R]Takata NSX GT'99          +11:27.778  (2-01:23.0) 8 laps
+6th:   [R]Mobil NSX GT'99           +11:53.283  (2-01:48.5) 8 laps
+Lap1: 1:15.916
+fl: 1:08.942
+Pits: 12,26,41,54,64,77
+
+
+Game: gt2-v1.2
+Day: 7
+Date: September 29, 2000
+Race: Trial Mountain 30
+Car: purplish silver two-tone Nissan Silvia K'2 2000cc '91 (WR1,Rfw only)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Nissan Silvia K's 2000cc '91  52:12.642
+2nd:   Fiat Barchetta                  +40.372  (52:53.014)
+3rd:   Peugeot 306 S16                 +49.740  (53:02.382)
+4th:   Ford Focus Ghia 2.0i Zetec    +1:04.363  (53:17.005)
+5th:   Volkswagen Golf GTi 1.8T      +1:20.772  (53:33.414)
+6th:   Citroen Xantia 3.0i V6        +2:24.843  (54:37.485)   1 lap
+Lap1: 1:49.898
+fl: 1:40.476(22)
+Pits: 10,20
+
+
+Game: gt2-v1.2
+Day: 64
+Date: Dec 15, 2000
+Race: Trial Mountain 30
+Car: stock Ford Cougar (N/N)
+Result: 6th
+Prize-Car: none
+1st:   MGF 1.8i VVC                  53:29.918
+2nd:   Peugeot 306 S16                  +5.190  (53:35.108)
+3rd:   Ford Focus Ghia 2.0i Zetec      +40.929  (54:10.847)
+4th:   Alfa 156 2.0 TS 16V           +1:29.931  (54:59.849)
+5th:   Citroen Xantia 3.0i V6        +2:05.480  (55:35.398)
+6th:*  Ford Cougar                   +2:10.927  (55:40.845)
+Lap1: 1:56.512
+fl: 1:47.737
+Pits: 15
+
+
+Game: gt2-v1.2
+Day: 71
+Date: December 16, 2000
+Race: Apricot Hill 200km Endurance Race
+Car: stock Nissan R390 Road Car '97 (N/N)
+Result: 1st
+Prize-Car: dark blue Lancia Stratos
+1st:*  Nissan R390 GT1 Road Car'97    1-11:33.0   
+2nd:   Ford GT40 (red)                +3:07.901  (1-14:40.9) 1 lap
+3rd:   3000GT Turbo MR                +9:59.838  (1-21:32.8) 5 laps
+4th:   Shelby GT350'66               +10:45.140  (1-22:18.1) 6 laps
+5th:   Subaru Legacy B4 RSK '98      +11:57.903  (1-23:30.9) 6 laps
+6th:   Aston Martin DB7 COUPE        +14:33.472  (1-26:06.5) 8 laps
+Lap1: 1:31.486
+fl: 1:22.876
+Pits: 13,26,38
+
+
+Game: gt2-v1.2
+Day: 81
+Date: December 17, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, my settings)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 59:29.555
+2nd:   Mustang SVT Cobra '98        +8:42.006  (68:11.561) 5 laps
+3rd:   Camaro SS '97                +9:04.015  (68:33.570) 5 laps
+4th:   Camaro Z28 30th Anv.'96      +9:24.597  (68:54.152) 5 laps
+5th:   Camaro SS '97                +9:40.928  (69:10.483) 5 laps
+6th:   Shelby GT500 '68            +12:00.634  (71:30.189) 6 laps
+Lap1: 1:35.731
+fl(5): 1:25.906@158.96mph
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 84
+Date: December 25, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, my settings)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:57.238
+2nd:   Shelby GT350'66             +13:32.535  (72:29.773) 7 laps
+3rd:   Plymouth 'Cuda '70          +13:46.087  (72:43.325) 7 laps
+4th:   Plymouth Superbird          +14:11.585  (73:08.823) 7 laps
+5th:   Plymouth Muscle Car         +14:51.084  (73:48.322) 8 laps
+6th:   Dodge Charger               +15:43.513  (74:40.751) 8 laps
+Lap1: 1:31.850
+fl: 1:25.441@160.30
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 99
+Date: December 26, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, my settings)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:57.238
+2nd:   Camaro Z28 30th Anv.'96      +8:51.951  (67:49.189) 5 laps
+3rd:   Camaro Z28 Coupe '97         +9:19.847  (68:17.085) 5 laps
+4th:   Shelby GT350'66             +10:31.888  (69:29.126) 5 laps
+5th:   Dodge Challenger            +12:11.405  (71:08.643) 6 laps
+6th:   Plymouth Muscle Car         +14:44.958  (73:42.196) 7 laps
+Lap1: 1:32.067
+fl: 1:24.893@161.74
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 101
+Date: December 27, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (Sp/Sp, my settings)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 1-03:21.2
+2nd:   Camaro SS '97                +4:45.063  (1-08:06.3) 2 laps
+3rd:   Viper GTS                    +6:52.663  (1-10:13.9) 3 laps
+3rd:   Plymouth 'Cuda '70           +9:12.210  (1-12:33.4) 5 laps
+5th:   Plymouth Muscle Car         +10:06.152  (1-13:27.4) 5 laps
+6th:   Plymouth GTX                +11:18.649  (1-14:39.8) 6 laps
+Lap1: 1:37.718
+fl(6): 1:29.752@159.05
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 102
+Date: December 27, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, my final settings)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:53.986
+2nd:   Shelby Series 1              +7:48.318  (66:42.304) 4 laps
+3rd:   Shelby GT350'66             +12:30.339  (71:24.325) 6 laps
+4th:   Shelby GT500 '68            +13:17.009  (72:10.995) 7 laps
+5th:   Dodge Charger               +15:33.245  (74:27.231) 8 laps
+6th:   Plymouth GTX                +17:38.934  (76:32.920) 9 laps
+Lap1: 1:31.899
+fl(6): 1:25.165@158.59
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 103
+Date: December 27, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, official Seattle 1500)
+Result: 1st
+Prize-Car: white/blue [R]Ford Escort Rally Car
+1st:*  [R]RE Amemiya Matsukiyo RX-7 59:01.150
+2nd:   Shelby Series 1              +7:55.810  (66:56.960) 4 laps
+3rd:   Camaro Z28 Coupe '97         +8:46.351  (67:47.501) 5 laps
+4th:   Camaro SS '97                +9:16.715  (68:17.865) 5 laps
+5th:   Mustang SVT Cobra '98        +9:48.203  (68:49.353) 5 laps
+6th:   Dodge Challenger            +11:45.814  (70:46.964) 6 laps
+Lap1: 1:29.995
+fl(2): 1:24.732@161.76
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 105
+Date: December 29, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, official Seattle 1500, maybe)
+Result: 1st
+Prize-Car: white/blue [R]Ford Escort Rally Car
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:30.581
+2nd:   Shelby Series 1              +7:45.810  (66:16.391) 4 laps
+3rd:   Camaro Z28 Coupe '97         +9:09.495  (67:40.076) 5 laps
+4th:   Mustang SVT Cobra '98        +9:56.292  (68:26.873) 5 laps
+5th:   Camaro SS '97               +10:18.917  (68:49.498) 5 laps
+6th:   Plymouth Superbird          +13:56.898  (72:27.479) 7 laps
+Lap1: 1:30.917
+fl(30): 1:24.760@164.69
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 106
+Date: December 29, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, official Seattle 1500, maybe)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:36.122
+2nd:   Camaro Z28 Coupe '97         +9:07.600  (67:43.722) 5 laps
+3rd:   Mustang SVT Cobra '98        +9:53.075  (68:29.197) 5 laps
+4th:   Camaro SS '97               +10:15.979  (68:52.101) 6 laps
+5th:   Shelby GT350'66             +11:43.562  (70:19.684) 6 laps
+6th:   Plymouth GTX                +17:54.358  (76:30.480) 6 laps
+Lap1: 1:31.769
+fl(4): 1:25.252@160.82
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 107
+Date: December 30, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, official Seattle 1500, maybe)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:20.700
+2nd:   Shelby GT350'66             +10:56.605  (69:17.305) 6 laps
+3rd:   Shelby GT500 '68            +13:08.998  (71:29.698) 7 laps
+4th:   Plymouth Superbird          +14:25.691  (72:46.391) 7 laps
+5th:   Dodge Charger               +16:02.687  (74:23.387) 8 laps
+6th:   Plymouth GTX                +19:19.882  (77:40.582) 9 laps
+Lap1: 1:31.529
+fl(5): 1:24.381@160.03 (n.b. shows 160.3)
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 108
+Date: December 30, 2000
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, official Seattle 1500, maybe)
+Result: 1st
+Prize-Car: white [R]Ford GT90
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:26.373
+2nd:   Camaro Z28 30th Anv.'96      +9:15.535  (67:42.235) 5 laps
+3rd:   Shelby GT350'66             +11:36.087  (70:02.787) 6 laps
+4th:   Viper GTS                   +11:57.079  (70:23.779) 6 laps
+5th:   Shelby GT500 '68            +13:21.023  (71:47.723) 7 laps
+6th:   Plymouth Superbird          +14:12.178  (72:38.878) 7 laps
+Lap1: 1:31.618
+fl: 1:24.134@164.75
+Pits: 13,27
+
+
+Game: gt2-v1.2
+Day: 110
+Date: December 30, 2000
+Race: Laguna Seca 200
+Car: [R]Oreca Viper GTS-R  (SS/SS)
+Result: 1st
+Prize-Car: turquoise [R]3000GT LM'99
+1st:*  [R]Viper GTS-R Team Oreca      1-55:08.2
+2nd:   [R]Castrol Tom's Supra GT      +5:25.616  (2-00:33.8) 4 laps
+3rd:   [R]Raybrig NSX GT'99           +5:41.212  (2-00:49.4) 4 laps
+4th:   [R]Calsonic Skyline GT'99      +5:57.046  (2-01:05.2) 4 laps
+5th:   [R]Mobil 1 NSX GT'99           +6:13.619  (2-01:21.8) 4 laps
+6th:   [R]Castrol Mugen NSX GT'99     +6:32.231  (2-01:40.4) 4 laps
+Lap1: 1:16.879
+fl: 1:11.948@168.81
+Pits: 12,25,38,52,65,79
+
+
+Game: gt2-v1.2
+Day: 173
+Date: January 14, 2001
+Race: Grand Valley 300km Endurance Race
+Car: Mine's R34 Skyline GT-R
+Result: 1st
+Prize-Car: black [R]R390GT-LM
+1st:*  Mine's R34 Skyline GT-R         1-58:24.3
+2nd:   Venturi Atlantique 400 GT       +1:01.173  (1-59:25.5) Running...
+3rd:   RUF RCT                         +5:08.211  (2-03:32.5) 2 laps
+4th:   TVR Cerbera 4.5                 +6:24.136  (2-04:48.4) 2 laps
+5th:   Lotus Esprit V8 SE              +7:17.588  (2-05:41.9) 3 laps
+6th:   Jaguar XJR Vehicle              +9:54.600  (2-08:18.9) 4 laps
+Lap1: 1:59.772
+fl(8to17): 1:52,503
+Pits: 8,17,26,35,44,52
+
+
+Game: gt2-v1.2
+Day: 174
+Date: January 18, 2001
+Race: Seattle 100
+Car: [R]Ameniya RX-7 (SS/SS, official Seattle 1500, maybe)
+Result: 1st
+Prize-Car: white/blue [R]Ford Escort Rally Car
+1st:*  [R]RE Amemiya Matsukiyo RX-7 58:47.016
+2nd:   Shelby Series 1              +8:00.561  (66:47.577) 4 laps
+3rd:   Mustang SVT Cobra '98        +9:30.356  (68:17.372) 5 laps
+4th:   Camaro Z28 Coupe '97         +9:48.365  (68:35.381) 5 laps
+5th:   Viper GTS                   +11:36.690  (70:23.706) 6 laps
+6th:   Plymouth Muscle Car         +14:31.598  (73:18.614) 7 laps
+Lap1: 1:30.755
+fl: 1:24.917@162.48
+Pits: 13,27
+
+
+Game: gt2-v1.2 (unofficial)
+Day: unofficial (217)
+Date: February 03, 2001
+Race: 60 Laps at Midfield   (sharked GV300)
+Car: tuned Tommy Kaira Type R
+Result: 1st
+Prize-Car: black [R]R390GT-LM
+1st:*  Tommy Kaira R '99             1-12:28.1
+2nd:   TVR Cerbera 4.5               +7:51.712  (1-20:19.8) 5 laps
+3rd:   Viper GTS                    +10:52.004  (1-23:20.1) 8 laps
+4th:   Lotus Esprit V8 SE           +11:28.302  (1-23:56.4) 8 laps
+5th:   Jaguar XJR Vehicle           +19:29.814  (1-31:57.9) 10 laps
+6th:   RUF BTR2                     +22:49.212  (1-35:17.3) 16 laps
+Lap1: 1:14.969
+fl: 1:08.387@181.05mph
+Pits: 15,25oops,43
+
+
+Game: gt2-v1.2
+Day: 272
+Date: February 27, 2001
+Race: Special Stage All-Night 50 Laps (SSR5)
+Car: blue Jaguar [R]XJR15 GT Race Car
+Result: 1st
+Prize-Car: red [R]Lancer Evolution VI Rally Car
+1st:*  [R]Jaguar XJR15 GT Race Car   1-06:15.6
+2nd:   [R]Nissan R390 GT1 '97        +2:45.418  (1-09:01.0) 1+ laps
+3nd:   [R]Toyota GT-ONE '98          +2:56.463  (1-09:12.1) 1+ laps
+4th:   [R]Toyota GT-ONE '99          +3:05.014  (1-09:20.6) 2 laps
+5th:   [R]Nissan R390 GT1 '98        +3:53.086  (1-10:08.7) 2 laps
+6th:   [R]Ford GT40 Race Car         +4:11.328  (1-10:26.9) 2 laps
+Lap1: 1:21.708
+fl: 1:15.466@177.01mph
+Pits: 10,20,30,40
+
+
+Game: gt2-v1.2 (unofficial)
+Day: unofficial (282)
+Date: March 04, 2001
+Race: Grindewald 2 Hour (sharked Rome 2 Hour)
+Car: [R]Tigra Ice Race Car
+Result: 1st
+Prize-Car: yellow [R]Altezza LM Edition (new 8-(, could not keep )
+1st:*  [R]Opel Tigra Ice Race Car    2-00:24.0  97 laps
+2nd:   [R]Ford GT40 Race Car            25 laps
+3rd:   [R]Toyota GT-ONE '99             78 laps
+4th:   [R]Nissan R390 GT1 '97           79 laps
+5th:   [R]Nissan R390 GT1 '98           82 laps
+6th:   [R]Lister Storm V12              86 laps
+Lap1: 1:16.194
+fl: 1:10.096@172.0
+Pits: 13,25,37,50,62,75,87
+
+
+Game: gt2-v1.2
+Day: 284
+Date: March 11, 2001
+Race: Rome 2 Hour
+Car: [R]Tigra Ice Race Car
+Result: 1st
+Prize-Car: Toyota [R]Corolla Rally Car '97
+1st:*  [R]Opel Tigra Ice Race Car    2-00:54.8  88 laps
+2nd:   [R]Venturi Atlantique 600LM     +21.151  88 laps-  (2-01:16.0)
+3rd:   [R]Toyota GT-ONE '99            -48.638  87 laps+  (2-00:06.2)
+4th:   [R]Vector M12 LM Edition        -24.430  87 laps+  (2-00:30.4)
+5th:   [R]Nissan R390 GT1 '98           2 laps  86 laps
+6th:   Jaguar XJ220 Race Car            3 laps  85 laps
+Lap1: 1:24.415
+fl: 1:17.490(82)@162.27
+Pits: 12,26,39,52,65,78
+
+
+Game: gt2-2001
+Day: 15
+Date: November 04, 2001
+Race: Trial Mountain 30
+Car: blaze red Mazda RX-7 infini III'90 (SS/SS and TS1)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:*  Mazda RX-7 Infini III'90      50:03.501
+2nd:   Volkswagen Golf GTi 1.8T      +2:46.392  (52:49.893) 1 lap
+3rd:   Fiat Barchetta                +2:56.417  (52:59.918) 1 lap
+4th:   Ford Focus Ghia 2.0i Zetec    +1:05.432  (51:08.933) 1 lap
+5th:   Opel Vectra GSI 2.5 V6        +3:39.372  (53:42.873) 1 lap
+6th:   Renault Laguna V6             +4:08.952  (54:12.453) 2 laps
+Lap1: 1:42,528
+fl: 1:36.332@130.39
+Pits: 10,20
+
+
+Game: gt2-2001
+Day: 52
+Date: November 10, 2001
+Race: Apricot Hill 200
+Car: Mine's Lancer Evolution V (stock)
+Result: 1st
+Prize-Car: white [R]Viper GTS-R with green stripes
+1st:*  Mine's Lancer Evolution V      1-14:04.7   
+2nd:   Mazda RX-7 Type RS'98          +5:27.373  (1-19:32.1) 3 laps
+3rd:   Acura NSX Type S Zero          +5:59.921  (1-20:04.6) 3 laps
+4th:   Impreza WRX STi VerVI          +6:47.128  (1-20:51.8) 4 laps
+5th:   Shelby GT350'66                +8:11.196  (1-22:15.9) 4 laps
+6th:   BMW 840Ci                     +12:38.647  (1-26:43.3) 6 laps
+Lap1: 1:32.317
+fl: 1:25.008(43)
+Pits: 11,21,31,41
+
+===============================================================================
+
+Game: gt2-mfr
+Day: 5
+Date: February 10, 2007
+Race: Trial Mountain 30
+Car: High Flash Two-Tone (red) Toyota Levin GT-APEX (stock)
+Result: 6th
+Prize-Car: none 8-(
+1st:   Toyota Toyota Celica MS Ver'99       53:36.474
+2nd:   BMW 323ti Compact                    +0:48.375  (54:24.849)
+3rd:   Alfa 156 2.0 TS 16V                  +0:50.856  (54:27.330)
+4th:   Volkswagen Golf GTi 1.8T             +1:00.439  (54:36.913)
+5th:   Alfa 166 2.5 V6 24V                  +2:37.838  (56:14.312) +1 lap
+6th:  *Toyota Corolla Levin'85(sic)         +3:32.149  (57:08.623) +1 lap
+Lap1: 2:01.401
+fl: 1:50.692 (<15)
+Pits: 15
+ 
+
+Game: gt2-mfr
+Day: 6
+Date: February 10, 2007
+Race: Trial Mountain 30
+Car: High Flash Two-Tone (red) Toyota Levin GT-APEX (stock)
+Result: 4th
+Prize-Car: none 8-(
+1st:   Toyota Toyota Celica MS Ver'99       53:17.398
+2nd:   Peugeot 306 S16                      +0:31.909  (53:49.307)
+3rd:   Opel Vectra GSi 2.5 V6               +0:57.887  (54:15.285)
+4th:  *Toyota Corolla Levin'85(sic)         +0:57.976  (54:15.374)
+5th:   Renault Laguna V6                    +1:12.427  (54:29.825)
+6th:   Alfa 166 2.5 V6 24V                  +1:38.446  (54:55.844)
+Lap1: 1:53.247
+fl: 1:44.411 (<15)
+Pits: 15
+Notes: Did get to 2nd, "Should have" managed 3rd
+
+
+Game: gt2-mfr
+Day: 7
+Date: February 10, 2007
+Race: Trial Mountain 30
+Car: High Flash Two-Tone (red) Toyota Levin GT-APEX (stock)
+Result: 1st
+Prize-Car: [R]Denso Sard Supra GT
+1st:    *Toyota Corolla Levin'85(sic)      50:29.869
+2nd:     Lotus Elise 111S                  +0:41.208  (51:11.077)
+3rd:     Fiat Barchetta                    +1:50.723  (52:20.592)
+4th:     Volkswagen Golf GTi 1.8T          +2:33.251  (53:03.120)
+5th:     BMW 323ti Compact                 +3:11.891  (53:41.760)
+6th:     Alfa 156 2.0 TS 16V               +3:27.921  (53:57.790)
+Lap1: 1:45.056
+fl: 1:36.955 (<15)
+Pits: 15
+Note: Lead by tunnel, led to finish
+ 
+

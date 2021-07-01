@@ -1,4 +1,282 @@
+head	1.52;
+access;
+symbols;
+locks; strict;
+comment	@# @;
 
+
+1.52
+date	2021.07.01.22.00.58;	author arpepper;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2007.02.11.22.02.51;	author arpepper;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2007.02.11.22.02.51;	author arpepper;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2002.04.21.00.37.01;	author arpepper;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2002.01.12.06.48.04;	author arpepper;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2001.11.11.20.53.03;	author arpepper;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2001.11.07.03.40.26;	author arpepper;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2001.03.16.04.17.48;	author arpepper;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2001.03.05.04.09.55;	author arpepper;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2001.03.01.02.46.52;	author arpepper;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2001.02.06.03.47.22;	author arpepper;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2001.01.21.00.45.05;	author arpepper;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2001.01.14.23.35.13;	author arpepper;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2001.01.08.23.24.29;	author arpepper;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2000.12.30.17.55.45;	author arpepper;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2000.12.29.03.40.23;	author arpepper;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2000.12.18.19.16.28;	author arpepper;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2000.09.30.19.06.37;	author arpepper;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2000.08.10.00.27.58;	author arpepper;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2000.07.30.21.26.07;	author arpepper;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2000.07.26.21.08.30;	author arpepper;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2000.07.26.21.05.37;	author arpepper;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2000.07.24.23.36.31;	author arpepper;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2000.07.21.23.39.57;	author arpepper;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2000.07.11.02.43.30;	author arpepper;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2000.07.06.22.03.53;	author arpepper;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2000.07.06.15.09.17;	author arpepper;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2000.07.05.23.58.16;	author arpepper;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2000.07.03.22.48.53;	author arpepper;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2000.07.03.20.43.26;	author arpepper;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2000.07.03.18.12.52;	author arpepper;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2000.06.29.16.30.28;	author arpepper;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2000.06.29.16.29.19;	author arpepper;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2000.06.14.23.31.06;	author arpepper;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2000.05.28.19.43.06;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2000.05.19.20.14.45;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2000.05.17.00.14.22;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2000.05.07.21.16.23;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2000.05.05.22.01.20;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2000.05.02.22.17.37;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2000.04.23.19.37.13;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2000.04.14.22.01.28;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2000.04.10.21.36.18;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2000.04.10.21.31.25;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2000.04.08.00.55.25;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2000.03.30.23.10.22;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.03.27.23.34.36;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.03.27.23.25.19;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.03.26.22.36.06;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.03.24.18.39.08;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.24.18.08.19;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.03.24.01.04.41;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@might become a data base
+@
+
+
+1.52
+log
+@mv'd from diary/text to diary/logs Thu Jul  1, 2021.
+@
+text
+@
 Game: gt2-game1
 Day: 26
 Date: December 18, 1999
@@ -1645,7 +1923,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Camaro SS '97                +9:40.928  (69:10.483) 5 laps
 6th:   Shelby GT500 '68            +12:00.634  (71:30.189) 6 laps
 Lap1: 1:35.731
-fl(5): 1:25.906@158.96mph
+fl(5): 1:25.906@@158.96mph
 Pits: 13,27
 
 
@@ -1663,7 +1941,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Plymouth Muscle Car         +14:51.084  (73:48.322) 8 laps
 6th:   Dodge Charger               +15:43.513  (74:40.751) 8 laps
 Lap1: 1:31.850
-fl: 1:25.441@160.30
+fl: 1:25.441@@160.30
 Pits: 13,27
 
 
@@ -1681,7 +1959,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Dodge Challenger            +12:11.405  (71:08.643) 6 laps
 6th:   Plymouth Muscle Car         +14:44.958  (73:42.196) 7 laps
 Lap1: 1:32.067
-fl: 1:24.893@161.74
+fl: 1:24.893@@161.74
 Pits: 13,27
 
 
@@ -1699,7 +1977,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Plymouth Muscle Car         +10:06.152  (1-13:27.4) 5 laps
 6th:   Plymouth GTX                +11:18.649  (1-14:39.8) 6 laps
 Lap1: 1:37.718
-fl(6): 1:29.752@159.05
+fl(6): 1:29.752@@159.05
 Pits: 13,27
 
 
@@ -1717,7 +1995,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Dodge Charger               +15:33.245  (74:27.231) 8 laps
 6th:   Plymouth GTX                +17:38.934  (76:32.920) 9 laps
 Lap1: 1:31.899
-fl(6): 1:25.165@158.59
+fl(6): 1:25.165@@158.59
 Pits: 13,27
 
 
@@ -1735,7 +2013,7 @@ Prize-Car: white/blue [R]Ford Escort Rally Car
 5th:   Mustang SVT Cobra '98        +9:48.203  (68:49.353) 5 laps
 6th:   Dodge Challenger            +11:45.814  (70:46.964) 6 laps
 Lap1: 1:29.995
-fl(2): 1:24.732@161.76
+fl(2): 1:24.732@@161.76
 Pits: 13,27
 
 
@@ -1753,7 +2031,7 @@ Prize-Car: white/blue [R]Ford Escort Rally Car
 5th:   Camaro SS '97               +10:18.917  (68:49.498) 5 laps
 6th:   Plymouth Superbird          +13:56.898  (72:27.479) 7 laps
 Lap1: 1:30.917
-fl(30): 1:24.760@164.69
+fl(30): 1:24.760@@164.69
 Pits: 13,27
 
 
@@ -1771,7 +2049,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Shelby GT350'66             +11:43.562  (70:19.684) 6 laps
 6th:   Plymouth GTX                +17:54.358  (76:30.480) 6 laps
 Lap1: 1:31.769
-fl(4): 1:25.252@160.82
+fl(4): 1:25.252@@160.82
 Pits: 13,27
 
 
@@ -1789,7 +2067,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Dodge Charger               +16:02.687  (74:23.387) 8 laps
 6th:   Plymouth GTX                +19:19.882  (77:40.582) 9 laps
 Lap1: 1:31.529
-fl(5): 1:24.381@160.03 (n.b. shows 160.3)
+fl(5): 1:24.381@@160.03 (n.b. shows 160.3)
 Pits: 13,27
 
 
@@ -1807,7 +2085,7 @@ Prize-Car: white [R]Ford GT90
 5th:   Shelby GT500 '68            +13:21.023  (71:47.723) 7 laps
 6th:   Plymouth Superbird          +14:12.178  (72:38.878) 7 laps
 Lap1: 1:31.618
-fl: 1:24.134@164.75
+fl: 1:24.134@@164.75
 Pits: 13,27
 
 
@@ -1825,7 +2103,7 @@ Prize-Car: turquoise [R]3000GT LM'99
 5th:   [R]Mobil 1 NSX GT'99           +6:13.619  (2-01:21.8) 4 laps
 6th:   [R]Castrol Mugen NSX GT'99     +6:32.231  (2-01:40.4) 4 laps
 Lap1: 1:16.879
-fl: 1:11.948@168.81
+fl: 1:11.948@@168.81
 Pits: 12,25,38,52,65,79
 
 
@@ -1861,7 +2139,7 @@ Prize-Car: white/blue [R]Ford Escort Rally Car
 5th:   Viper GTS                   +11:36.690  (70:23.706) 6 laps
 6th:   Plymouth Muscle Car         +14:31.598  (73:18.614) 7 laps
 Lap1: 1:30.755
-fl: 1:24.917@162.48
+fl: 1:24.917@@162.48
 Pits: 13,27
 
 
@@ -1879,7 +2157,7 @@ Prize-Car: black [R]R390GT-LM
 5th:   Jaguar XJR Vehicle           +19:29.814  (1-31:57.9) 10 laps
 6th:   RUF BTR2                     +22:49.212  (1-35:17.3) 16 laps
 Lap1: 1:14.969
-fl: 1:08.387@181.05mph
+fl: 1:08.387@@181.05mph
 Pits: 15,25oops,43
 
 
@@ -1897,7 +2175,7 @@ Prize-Car: red [R]Lancer Evolution VI Rally Car
 5th:   [R]Nissan R390 GT1 '98        +3:53.086  (1-10:08.7) 2 laps
 6th:   [R]Ford GT40 Race Car         +4:11.328  (1-10:26.9) 2 laps
 Lap1: 1:21.708
-fl: 1:15.466@177.01mph
+fl: 1:15.466@@177.01mph
 Pits: 10,20,30,40
 
 
@@ -1915,7 +2193,7 @@ Prize-Car: yellow [R]Altezza LM Edition (new 8-(, could not keep )
 5th:   [R]Nissan R390 GT1 '98           82 laps
 6th:   [R]Lister Storm V12              86 laps
 Lap1: 1:16.194
-fl: 1:10.096@172.0
+fl: 1:10.096@@172.0
 Pits: 13,25,37,50,62,75,87
 
 
@@ -1933,7 +2211,7 @@ Prize-Car: Toyota [R]Corolla Rally Car '97
 5th:   [R]Nissan R390 GT1 '98           2 laps  86 laps
 6th:   Jaguar XJ220 Race Car            3 laps  85 laps
 Lap1: 1:24.415
-fl: 1:17.490(82)@162.27
+fl: 1:17.490(82)@@162.27
 Pits: 12,26,39,52,65,78
 
 
@@ -1951,7 +2229,7 @@ Prize-Car: [R]Denso Sard Supra GT
 5th:   Opel Vectra GSI 2.5 V6        +3:39.372  (53:42.873) 1 lap
 6th:   Renault Laguna V6             +4:08.952  (54:12.453) 2 laps
 Lap1: 1:42,528
-fl: 1:36.332@130.39
+fl: 1:36.332@@130.39
 Pits: 10,20
 
 
@@ -2030,3 +2308,848 @@ Pits: 15
 Note: Lead by tunnel, led to finish
  
 
+@
+
+
+1.51
+log
+@mv'd from diary/text to diary/logs Thu Jul  1, 2021.
+@
+text
+@@
+
+
+1.50
+log
+@Three TM30s from new gt2-mfr game started February, 2007.
+@
+text
+@@
+
+
+1.49
+log
+@Corrected a couple of erroneous dates.
+@
+text
+@d1974 59
+@
+
+
+1.48
+log
+@Corrections to fairly gross errors made in gt2-v1.2 enduro record.
+@
+text
+@d256 1
+a256 1
+Date: January 08, 1999
+d327 1
+a327 1
+Date: December 19, 1999
+@
+
+
+1.47
+log
+@A new Apricot 200.
+@
+text
+@d1922 1
+a1922 1
+Game: gt2-game1
+d1924 1
+a1924 1
+Date: December 28, 1999
+d1929 1
+a1929 1
+1st:*  [R]Concept Car LM Edition     2-00:54.8  88 laps
+@
+
+
+1.46
+log
+@Added another TM30.
+@
+text
+@d1956 18
+@
+
+
+1.45
+log
+@Rome 2 Hour with Tigra
+correction
+@
+text
+@d1938 18
+@
+
+
+1.44
+log
+@Fixed a 2000.
+Added a sharked Enduro.
+@
+text
+@d664 1
+a664 1
+4th:   [R]]Nissan R390 GT1 '98       2 laps     87 laps
+d1920 18
+@
+
+
+1.43
+log
+@An SSR5 All-Night in gt2-v1.2, practising with the Jaguar XJR15
+@
+text
+@d1888 1
+a1888 1
+Date: February 27, 2000
+d1902 18
+@
+
+
+1.42
+log
+@Added sharked 60 lap race at Midfield.
+@
+text
+@d1884 18
+@
+
+
+1.41
+log
+@Another Seattle 100.
+@
+text
+@d1866 18
+@
+
+
+1.40
+log
+@GV300, Jan 14.
+@
+text
+@d1848 18
+@
+
+
+1.39
+log
+@Two last Seattle 100's for the 1500, and a Laguna Seca 200
+@
+text
+@d1831 17
+@
+
+
+1.38
+log
+@Two more Seattle runs, probably.
+@
+text
+@d530 1
+a530 1
+Prize-Car: [R]Celica Rally Car (S/S)
+d1776 54
+@
+
+
+1.37
+log
+@A buncha Seattle 100's for that insane 1500 mile race.
+@
+text
+@d1741 36
+@
+
+
+1.36
+log
+@3 assorted gt2-v1.2 races...
+@
+text
+@d1651 90
+@
+
+
+1.35
+log
+@Added a forgotten Laguna 200 from August, and a starter TM30 from
+a version 1.2 game.
+@
+text
+@d1596 55
+a1650 1
+ 
+@
+
+
+1.34
+log
+@Added a funnish Rome 2 hour where I proved you can win on the last lap
+after the time limit.
+@
+text
+@d1560 37
+@
+
+
+1.33
+log
+@A sharked Midfield 50 laps GT1 race.
+fixed a dat.
+@
+text
+@d1543 17
+@
+
+
+1.32
+log
+@Oops.  I forgot two "Result:" lines...
+@
+text
+@d1509 1
+a1509 1
+Date: May 5, 2000
+d1522 19
+@
+
+
+1.31
+log
+@Finally filled in all the gaps, I think.
+@
+text
+@d677 1
+d696 1
+@
+
+
+1.30
+log
+@A fun weekend.  8-)
+@
+text
+@d417 1
+a417 1
+Date: Januarty 23, 2000
+d435 1
+a435 1
+Date: Januarty 23, 2000
+d471 1
+a471 1
+Date: Januarty 24, 2000
+a485 1
+===============================================================================
+d505 39
+d689 19
+d780 112
+d1510 1
+a1510 1
+Result: 3rd
+@
+
+
+1.29
+log
+@Added two unofficial races.  A Phaeton at Seattle 100, and a
+Cerbera LM in a sharked 90 lap Red Rock event.
+@
+text
+@d1317 36
+@
+
+
+1.28
+log
+@Some in the middle.
+Four at the end, including three neat Rome2hr
+@
+text
+@d636 17
+d1004 4
+a1007 4
+3rd:   Volkswagen Golf GTi 1.8T     +9:02.337  (52:42.498)
+4th:   BMW 328Ci                    +9:58.370  (53:38.531)
+5th:   BMW 328ti Compact           +10:15.075  (53:55.236)
+6th:   Opel Vectra GSI 2.5 V6      +10:24.804  (54:04.965)
+d1155 17
+@
+
+
+1.27
+log
+@Three more races.
+Beginning to close the gaps.  8-)
+@
+text
+@d398 91
+d1210 72
+@
+
+
+1.26
+log
+@Corrected silly mistakes.
+@
+text
+@d308 53
+a360 1
+===============================================================================
+@
+
+
+1.25
+log
+@chipping away at the early gt2-game1 races...
+@
+text
+@d587 1
+a587 1
+Prize-Car: [R]Denso Sard Supra GT
+d623 1
+a623 1
+Prize-Car: [R]Denso Sard Supra GT
+d641 1
+a641 1
+Prize-Car: [R]Denso Sard Supra GT
+d950 1
+a950 1
+1st:*  [R]TVR Cerbera LM             1-15:33.4
+@
+
+
+1.24
+log
+@Added lots of early games from gt2-game1
+@
+text
+@d254 54
+@
+
+
+1.23
+log
+@Added all the tm30 races...
+@
+text
+@d75 181
+@
+
+
+1.22
+log
+@Added lap number for fastest lap.
+Added the two premier Enduros, annihilated by the unbeatable Silhouette.
+@
+text
+@d147 109
+d280 1
+a280 1
+Prize-Car: white/blue [R]Escort Rally Car
+d784 1
+a784 1
+Car: blue[R]R30 Silhouette Foumula
+d802 1
+a802 1
+Car: blue [R]R30 Silhouette Foumula
+d820 1
+a820 1
+Car: blue [R]R30 Silhouette Foumula
+@
+
+
+1.21
+log
+@Oops.  Forgot laps down.
+@
+text
+@d685 1
+a685 1
+fl: 1:10.992
+d687 36
+@
+
+
+1.20
+log
+@Silly annihilating Apricot 200.
+@
+text
+@d679 5
+a683 5
+2nd:   Ford GT40                   +12:32.734  (1-15:05.7)
+3rd:   RUF BTR2                    +13:03.295  (1-15:36.3)
+4th:   Impreza WRX STi Ver VI      +18:40.720  (1-21:13.7)
+5th:   Corvette Grand Sport '96    +18:57.149  (1-21:30.1)
+6th:   Subaru Legacy B4 RSK '98    +20:57.207  (1-23:30.2)
+@
+
+
+1.19
+log
+@Added win by my B license prize car.   8-)
+@
+text
+@d669 19
+@
+
+
+1.18
+log
+@Added a couple of training races for GT2MKSWR1  10
+@
+text
+@d652 17
+@
+
+
+1.17
+log
+@Added a DFRW 60 lap race.   8-)
+@
+text
+@d41 1
+a41 1
+Race: Special Stage All-Night 50 Laps
+d312 1
+a312 1
+Race: Special Stage All-Night 50 Laps
+d615 36
+@
+
+
+1.16
+log
+@Added a Rome 2 Hour loss, complete with its cryptic results.  8-)
+@
+text
+@d598 18
+@
+
+
+1.15
+log
+@Rome All-Night Race.
+@
+text
+@d580 18
+@
+
+
+1.14
+log
+@Added two more "sharked" races.
+@
+text
+@d562 18
+@
+
+
+1.13
+log
+@Added sharked Midfield Race from April 30.
+Added a space after all headers titles.
+@
+text
+@d522 1
+a522 1
+Lap1: 1;22.256
+d525 36
+@
+
+
+1.12
+log
+@Added sharked-in Daisin Silvia entry.
+@
+text
+@d15 3
+a17 3
+Lap1:
+fl:1:35.736(26)
+Pits:7,15,23
+d33 3
+a35 3
+Lap1:
+fl:1:34.430(25)
+Pits:7,15,23
+d51 3
+a53 3
+Lap1:1:24.594
+fl:1:15.031(36)
+Pits:10,20,30,40
+d69 3
+a71 3
+Lap1:1:56.913
+fl:1:42.080(51)
+Pits:8,16,24,32,40,47,54
+d87 3
+a89 3
+Lap1:1:47.848
+fl:1:41.302(2)
+Pits:10,20
+d105 3
+a107 3
+Lap1:1:39.921
+fl:1:32.355
+Pits:10,20
+d123 3
+a125 3
+Lap1:1:34.561
+fl:1:27.938
+Pits:10,20
+d142 3
+a144 3
+Lap1:1:49.377
+fl:1:41.544(24)
+Pits:10,20
+d147 1
+a147 1
+Game: gt2-game1
+d160 3
+a162 3
+Lap1:1:22.900
+fl:1:18.389(22)
+Pits:10,20
+d178 3
+a180 3
+Lap1:1:59.148
+fl:1:53.018(56)
+Pits:6,12,18,24,30,36,42,48,54
+d196 3
+a198 3
+Lap1:1:26.003
+fl:1:20.208
+Pits:6,14,22,30,37,44
+d214 3
+a216 3
+Lap1:1:31.838
+fl:1:23.841
+Pits:10,21,31,41
+d232 3
+a234 3
+Lap1:1:47.495
+fl:1:38.882(21)
+Pits:15
+d250 3
+a252 3
+Lap1:1:55.385
+fl:1:43.860
+Pits:10,20
+d268 3
+a270 3
+Lap1:1:51.827
+fl:1:41.269
+Pits:10,20
+d286 3
+a288 3
+Lap1:1:52,851
+fl:1:42.136
+Pits:10,20
+d304 3
+a306 3
+Lap1:1:52,588
+fl:1:42.975
+Pits:15
+d322 3
+a324 3
+Lap1:1:26.797
+fl:1:18,789(3)
+Pits:13,26,38
+d340 3
+a342 3
+Lap1:1:51.232
+fl:1:43.302(22)
+Pits:15
+d358 3
+a360 3
+Lap1:1:47.001
+fl:1:38.473
+Pits:15
+d376 3
+a378 3
+Lap1:1:51.884
+fl:1:42.458
+Pits:15
+d394 3
+a396 3
+Lap1:1:49.738
+fl:1:43.076(18)
+Pits:15
+d412 3
+a414 3
+Lap1:1:49.952
+fl:1:42.777
+Pits:12,21
+d430 3
+a432 3
+Lap1:1:54.442
+fl:1:48.190(23)
+Pits:15
+d448 3
+a450 3
+Lap1:1:53.009
+fl:1:43.780
+Pits:15
+d467 3
+a469 3
+Lap1:1:32.595
+fl:1:26.408(45)
+Pits:8,17,26,25,43
+d486 3
+a488 3
+Lap1:1:50.617
+fl:1:24.258
+Pits:10,20,30
+d491 1
+a491 1
+Game: gt2-game1
+d504 22
+a525 3
+Lap1:1:31.284
+fl:1:24.217
+Pits:15
+@
+
+
+1.11
+log
+@A Seattle 100 slaughter.
+@
+text
+@d491 16
+@
+
+
+1.10
+log
+@Corrected date for yellow 240Z win.
+Had previously fixed hybrid/non-hybrid indications for 240Z...
+@
+text
+@d455 1
+a455 1
+Day: 482
+d470 19
+@
+
+
+1.9
+log
+@Added April 9, Apricot Hill.
+Added prize cars summary.
+@
+text
+@d112 1
+a112 1
+Date: January 21, 2000  (date?)
+a125 2
+
+
+@
+
+
+1.8
+log
+@Various dismal results.
+@
+text
+@d8 1
+d26 1
+d44 1
+d62 1
+d80 1
+d98 1
+d112 1
+a112 1
+Date: January 21, 2000
+d116 9
+a124 8
+1st:*  [R]Datsun 240Z 240ZG(J)'71   41:39.957
+2nd:   [R]Vector M12 LM Edition       +57.825  (42:37.782)
+3rd:   Toyota Celica MS Ver'99     +10:37.049  (52:17.006)
+4th:   Peugeot 306 S16             +11:14.787  (52:54.744)
+5th:   BMW 328Ci                   +11:57.510  (53:37.467)
+6th:   Alfa 156 2.0 TS 16V         +12:14.623  (53:54.580)
+Lap1:1:22.900
+fl:1:18.389(22)
+d137 1
+d149 1
+a149 1
+Game: unofficial
+d151 1
+a151 1
+Date: March 6, 2000
+d155 9
+a163 8
+1st:*  [R]Datsun 240Z 240ZG(J)'71   45:26.048
+2nd:   BMW 323ti Compact            +7:44.843  (53:10.891)
+3rd:   Peugeot 306 S16              +7:45.982  (53:12.030)
+4th:   Fiat Barchetta               +7:46.294  (53:12.342)
+5th:   Renault Laguna V6            +8:28.644  (53:54.692)
+6th:   Alfa 166 2.5 V6 24V          +9:17.237  (54:43.285)
+Lap1:1:34.561
+fl:1:27.938
+d173 1
+d191 1
+d209 1
+d227 1
+d245 1
+d263 1
+d281 1
+d299 1
+d317 1
+d335 1
+d353 1
+d371 1
+d389 1
+d407 1
+d425 1
+d443 1
+d453 19
+@
+
+
+1.7
+log
+@March 29 TM30
+@
+text
+@d378 52
+@
+
+
+1.6
+log
+@Oops.  Corrected a bad propagated error.
+@
+text
+@d361 17
+@
+
+
+1.5
+log
+@Added a second TM30 on March 26.
+
+Mugen Integra got weaker field, and so won.
+@
+text
+@d219 2
+a220 2
+5th:   Alfs 156 2.0 TS 16V       +2:51.139  (53:35.914)
+6th:   Alfs 156 2.5 V6 24V       +3:53.527  (54:38.302)
+d236 1
+a236 1
+5th:   Alfs 156 2.0 TS 16V            +44.125  (54:17.041)
+d321 1
+a321 1
+5th:   Alfs 156 2.0 TS 16V          +1:14.035  (53:45.412)
+d356 1
+a356 1
+6th:   Alfs 156 2.0 TS 16V          +1:33.134  (54:08.421)
+@
+
+
+1.4
+log
+@Added March 25 weekend; "productive"  8-)
+@
+text
+@d330 1
+a330 1
+Date: March 19, 2000
+d342 17
+@
+
+
+1.3
+log
+@Added 5 races.
+@
+text
+@d225 119
+@
+
+
+1.2
+log
+@Reordered.
+@
+text
+@d37 34
+d156 51
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a2 17
+Day: 434
+Date: March 19, 2000
+Race: Trial Mountain 30
+Car: yellow Spoon Civic Type-R
+Result: 1st
+1st:*  Spoon Civic Type-R        50:44.775
+2nd:   Lotus Elise 111S            +38.350  (51:23.125)
+3rd:   Peugeot 306 S16           +1:45.564  (52:30.339)
+4th:   Peugeot 306 S16           +2:08.567  (52:53.342)
+5th:   Alfs 156 2.0 TS 16V       +2:51.139  (53:35.914)
+6th:   Alfs 156 2.5 V6 24V       +3:53.527  (54:38.302)
+Lap1:1:47.495
+fl:1:38.882(21)
+Pits:15
+
+
+Game: gt2-game1
+a35 17
+Game: gt2-tm30
+Day: 5
+Date: February 5, 2000
+Race: Trial Mountain 30
+Car: red Supra (Turbo) '93, WR1, TS1 only (Cr9,925)
+Result: 1st
+1st:*  Toyota Supra(Turbo)'93       52:13.765
+2nd:   Ford Focus Ghia 2.0i Zetec     +42.825  (52:56.590)
+3rd:   Renault Megane 2.0 16V       +1:01.750  (53:15.515)
+4th:   Alfa 156 2.0 TS 16V          +1:35.946  (53:49.711)
+5th:   BMW 323ti Compact            +1:48.112  (54:01.877)
+6th:   Opel Vectra GSI 2.5 V6       +1:57.876  (54:11.641)
+Lap1:1:49.377
+fl:1:41.544(24)
+Pits:10,20
+
+
+d70 37
+d125 2
+a126 2
+Day: 346
+Date: January 21, 2000
+d128 1
+a128 1
+Car: yellow[R]240Z'71
+d130 9
+a138 12
+1st:*  [R]Datsun 240Z 240ZG(J)'71   41:39.957
+2nd:   [R]Vector M12 LM Edition       +57.825  (42:37.782)
+3rd:   Toyota Celica MS Ver'99     +10:37.049  (52:17.006)
+4th:   Peugeot 306 S16             +11:14.787  (52:54.744)
+5th:   BMW 328Ci                   +11:57.510  (53:37.467)
+6th:   Alfa 156 2.0 TS 16V         +12:14.623  (53:54.580)
+Lap1:1:22.900
+fl:1:18.389(22)
+Pits:10,20
+
+
+
+@

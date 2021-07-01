@@ -1,4 +1,66 @@
+head	1.9;
+access;
+symbols;
+locks; strict;
+comment	@# @;
 
+
+1.9
+date	2021.07.01.22.00.58;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2002.11.11.03.25.05;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2002.11.11.03.25.05;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.11.06.03.59.54;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.09.22.17.17.51;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.08.25.22.10.33;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.08.13.02.49.43;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.30.03.06.46;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.06.15.06.20.22;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@mv'd from diary/text to diary/logs Thu Jul  1, 2021.
+@
+text
+@
 Game: gt3-game1
 Day: 111
 Date: May 24, 2002
@@ -455,3 +517,74 @@ fl: 0:40.447
 Pits: 25,50,75
 
 
+@
+
+
+1.8
+log
+@mv'd from diary/text to diary/logs Thu Jul  1, 2021.
+@
+text
+@@
+
+
+1.7
+log
+@Tested my endurance a bit.  8-)  (to make lotsa cash)
+@
+text
+@@
+
+
+1.6
+log
+@A Super Speedway walkover, and a reasonably close TM2hr.
+@
+text
+@d325 132
+@
+
+
+1.5
+log
+@A couple of practice runs with the F094/S
+@
+text
+@d287 37
+@
+
+
+1.4
+log
+@3 more Enduros in gt3-game1; finishes Enduro League in that game.
+@
+text
+@d249 40
+@
+
+
+1.3
+log
+@Added Aug 10 Mistral
+@
+text
+@d192 57
+@
+
+
+1.2
+log
+@3 more.
+@
+text
+@d173 19
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d116 57
+@

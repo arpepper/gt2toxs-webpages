@@ -1,4 +1,116 @@
-Game: main
+head	1.18;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.18
+date	2021.07.01.22.11.37;	author arpepper;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2021.07.01.22.00.58;	author arpepper;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2019.07.15.17.34.12;	author arpepper;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2019.07.15.17.34.12;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.01.05.21.28.04;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2002.05.13.02.42.19;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2002.04.21.21.31.21;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2002.04.21.00.33.43;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2002.04.21.00.30.30;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2002.01.27.04.16.32;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2001.09.15.05.00.09;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.08.13.03.50.54;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.08.11.17.09.06;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.05.07.02.27.33;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.05.05.05.18.21;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.04.07.07.25.20;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.07.07.15.21;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.01.08.23.25.59;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@RCS for safe-keeping...
+@
+
+
+1.18
+log
+@Added an omitted 3 entries from the gt1-mazda game, documented
+in diary pages.
+ 
+Also determined from the log for the "gold" game that one race
+attributed to "Game: silver" was actually "Game: gold".
+@
+text
+@Game: main
 Day: ??
 Date: April 3, 1999
 Race: Grand Valley 300KM Endurance Race
@@ -1097,7 +1209,7 @@ Pits: 15,31,46
 fl(48): 1:34.172
 
 
-Game: silver
+Game: gold
 Day: 95
 Date: November 01, 1999
 Car: tuned GTO'95MR (maxed parts)
@@ -2009,6 +2121,65 @@ Pits:  15,30,45
 fl(48): 1:37.370
 
 
+
+Game: mazda
+Day: 88
+Date: Feb 09, 2003
+Race: Grand Valley 300KM Endurance Race
+Car: orange/green Mazda [R]FD efini RX-7 '91 Type R
+Qualified: 1st 1:41.166new  (-3.312) Cr20,000
+Result: 1st
+Money: Cr300,000
+Prize-Car: black/blue Castrol Supra GT
+1st: *[R]FRRX7'91 TypeR        1-35:38.0
+2nd:  [R]GT-R LM                +437.462  (1-42:55.5)  prob 4 laps
+3rd:  [R]IMPREZA RLY Ed         +477.870  (1-43:35.9)  4 laps
+4th:  [R]Celica GT-Four         +620.853  (1-45:58.9)  prob 6 laps
+5th:  [R]Lancer EvoIV GSR       +650.504  (1-46:28.5)  6 laps
+6th:  [R]Accord Sedan           +804.880  (1-49:02.9)  7 maybe 8 laps
+Pits:  12,25,37,49
+fl(55): 1:31.525
+
+
+Game: mazda
+Day: 90
+Date: Feb 12, 2003
+Car: orange/green Mazda [R]FD efini RX-7 '91 Type R
+Race: SSR11 All-Night I  Endurance Race
+Qualified: 1st 1:47,967new  (-8.539) Cr20,000
+Result: 1st
+Money: Cr150,000
+Prize-Car: green [R]Silvia LM
+1st:* [R]FDRX7'91 TypeR      51:51.846<--new mazda time
+2nd:  [R]Castrol Supra GT     +324.626  (57:16.472) 2 or 3 laps
+3rd:  [R]NSX-R LM GT2         +334.979  (57:26.825) 2 or 3 laps
+4th:  [R]GT-R LM              +341.169  (57:33.015) 2 or 3 laps
+5th:  [R]Lancer EvoIV GSR     +468.609  (59:40.455) 3 or 4 laps
+6th:  [R]Lantis TypeR         +496.554  (60:08.400) 3 or 4 laps
+Pits:  10,20
+fl(22): 1:39.006new
+
+
+Game: mazda
+Day: 92
+Date: Feb 14, 2003
+Car: tuned Vintage Red Mazda FD efini RX-7 '91 Type R
+Race: SSR11 All-Night II  Endurance Race
+Qualified: 1st 1:55.502new  (-5.171) Cr20,000
+Result: 1st
+Money: Cr150,000
+Prize-Car: silver NISMO GT-R LM
+1st:* FDRX7'91 TypeR         56:29.393<--new mazda time, okay
+2nd:  FDRX7 TypeRZ            +150.975  (59:00.368) 1 lap
+3rd:  Lancer EvoIII GSR       +189.246  (59:38.639) 1 lap
+4th:  R32GT-R Nismo           +231.496  (60:20.889) 2 laps
+5th:  Chaser V                +260.487  (60:49.880) 2 laps
+6th:  Civic 3door             +336.307  (62:05.700) 3 laps
+Pits: 10,20
+fl(12): 1:46.756new
+
+
+
 Game: gt1-2014
 Day: 442
 Date: February 16, 2014
@@ -2067,3 +2238,192 @@ Pits: 15
 fl(8): 1:50.193rec
 
 
+@
+
+
+1.17
+log
+@mv'd from diary/text to diary/logs Thu Jul  1, 2021.
+@
+text
+@d1100 1
+a1100 1
+Game: silver
+d2010 59
+@
+
+
+1.16
+log
+@mv'd from diary/text to diary/logs Thu Jul  1, 2021.
+@
+text
+@@
+
+
+1.15
+log
+@SSR11 All-Night I, GV300 and SSR11 All-Night II from gt1-2014.
+@
+text
+@@
+
+
+1.14
+log
+@GT1 24hour game.
+@
+text
+@d2012 58
+@
+
+
+1.13
+log
+@Pulsar in GV300
+@
+text
+@d1954 58
+@
+
+
+1.12
+log
+@Corrected a mistake, according to written notes.
+@
+text
+@d1934 20
+@
+
+
+1.11
+log
+@Corrections.
+@
+text
+@d1447 1
+a1447 1
+Qualified: 1st(+54.881 8-)   Cr20,000
+d1454 1
+a1454 1
+4th:  [R]R32GT-R'91           +123.537  (51:26.895) 1 lap
+@
+
+
+1.10
+log
+@Correction.
+Added GTO'92SR GV300 loss.  8-(
+@
+text
+@d1311 1
+a1311 1
+Date: September 17, 1999
+d1408 1
+a1408 1
+Race: tuned Grand Valley 300 (sharked SSR11 All-Night I  Endurance Race)
+d1425 1
+a1425 1
+Date: October 28, 1999
+d1444 1
+a1444 1
+Date: November 03, 1999
+@
+
+
+1.9
+log
+@Corrected old mistake, and added a GTO'92 result.
+@
+text
+@d1882 1
+a1882 1
+Car: Nissan [R]GTO'92 twinturbo (S/S)
+d1915 18
+@
+
+
+1.8
+log
+@Extra nissan enduroes, and first 2 mitsu ones.
+@
+text
+@d19 1
+a19 1
+Car: green [R]Cerbera LM
+d1895 19
+@
+
+
+1.7
+log
+@Added nissan game [R] enduroes.
+@
+text
+@d1802 95
+@
+
+
+1.6
+log
+@Added proper races, also 1 nissan race.
+Ancient correction.
+@
+text
+@d1762 40
+@
+
+
+1.5
+log
+@More fiji races.
+@
+text
+@d73 1
+a73 1
+Car: green [R]Cerbera LM
+d1688 74
+@
+
+
+1.4
+log
+@supra races.
+1 fiji race
+@
+text
+@d1649 39
+@
+
+
+1.3
+log
+@Two fairlady races, a few corrections.
+@
+text
+@d1575 74
+@
+
+
+1.2
+log
+@All Night I from fairlady
+@
+text
+@d303 1
+a303 1
+1st:  [R]S14 Silvia LM Ed  56:27.691
+d1470 1
+a1470 1
+1st:* Lancer EvoIV GSR       56:04.918<--new nismo time, not great
+d1535 38
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1518 19
+@
