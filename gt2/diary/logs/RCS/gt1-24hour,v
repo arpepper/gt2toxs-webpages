@@ -1,9 +1,14 @@
-head	1.7;
+head	1.8;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.8
+date	2021.06.30.19.57.28;	author arpepper;	state Exp;
+branches;
+next	1.7;
 
 1.7
 date	2003.04.06.18.09.11;	author arpepper;	state Exp;
@@ -45,9 +50,10 @@ desc
 @@
 
 
-1.7
+1.8
 log
-@Improved log checker found an arguable mistake.
+@gt4garage, which actually would not have found the nitpick in the
+previous revision, found "Cr1.200" instead of "Cr1,200".
 @
 text
 @December 28, 2001
@@ -114,7 +120,7 @@ Note: 6:00pm
   28-31   FTO'94GPX   FF  q6G1st27to14,11,10,7,6           blackCRX(1/6)(sold)
   32   Cr32,440   Cr44,440
 
-  32   mod car FTO'94GPX   WR1,WR2  (Cr1.200, Cr5,500)  2579 -> 2191lb
+  32   mod car FTO'94GPX   WR1,WR2  (Cr1,200, Cr5,500)  2579 -> 2191lb
   32   Cr37,740
   32-35   FTO'94GPX  Lwt  q4cq4D,1st27to18,12,9,5,4       blueCivic(1/6)(sold)
   36   Cr64,740   Cr76,740
@@ -363,6 +369,17 @@ January 24, 2003
   193  Note: tunedCosmo20B   0-400  11.008    0-1000  18.662
  193      TT tunedCosmo20B  HSR  0:57.692 + 0:50.931 = 1:48.623
   194  power off
+@
+
+
+1.7
+log
+@Improved log checker found an arguable mistake.
+@
+text
+@d65 1
+a65 1
+  32   mod car FTO'94GPX   WR1,WR2  (Cr1.200, Cr5,500)  2579 -> 2191lb
 @
 
 

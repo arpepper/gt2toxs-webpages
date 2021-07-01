@@ -1,10 +1,15 @@
-head	1.117;
+head	1.118;
 access;
 symbols;
 locks
-	arpepper:1.117; strict;
+	arpepper:1.118; strict;
 comment	@# @;
 
+
+1.118
+date	2021.06.27.20.19.43;	author arpepper;	state Exp;
+branches;
+next	1.117;
 
 1.117
 date	2021.06.24.15.38.59;	author arpepper;	state Exp;
@@ -599,9 +604,10 @@ Develop incrementally.
 @
 
 
-1.117
+1.118
 log
-@Fixed audited typo T- N2
+@Minor correct noted while testing gt4garage changes to allow more
+flexible event names.
 @
 text
 @
@@ -655,7 +661,7 @@ Note: Track  Opera Paris  unlocked
   35     license A16  B F,+6.613,F,+0.719,F, 1:01.370B (clear pass)  "May 6"
 
 Note: A license acquired
-  36 +1 win car Sunfire Pontiac Sunfire GXP Concept'02 (Shadow Black)(prize,AlicnseB)
+  36 +1 win car Sunfire Pontiac Sunfire GXP Concept'02 (Shadow Black)(prize,AlicenseB)
 
   37 select car Lupo
   37    Lupo    B/Sunday/AMii  6th  Cr100  0pts  none
@@ -7175,6 +7181,17 @@ December 08, 2012
 2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
 2717 power off
 
+@
+
+
+1.117
+log
+@Fixed audited typo T- N2
+@
+text
+@d52 1
+a52 1
+  36 +1 win car Sunfire Pontiac Sunfire GXP Concept'02 (Shadow Black)(prize,AlicnseB)
 @
 
 

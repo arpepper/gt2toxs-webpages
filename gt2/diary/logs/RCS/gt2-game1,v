@@ -1,9 +1,15 @@
-head	1.101;
+head	1.102;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.102; strict;
 comment	@# @;
 
+
+1.102
+date	2021.06.30.21.46.41;	author arpepper;	state Exp;
+branches;
+next	1.101;
 
 1.101
 date	2001.07.02.22.30.10;	author arpepper;	state Exp;
@@ -226,9 +232,10 @@ desc
 @
 
 
-1.101
+1.102
 log
-@June 2001 a few races preparing for the GTFONT meet.
+@Gave up and corrected sloppy mod/parts notation.
+Besides, gt4garage also found two car count corrections which I have now fixed.
 @
 text
 @ Legend:
@@ -317,7 +324,7 @@ December 17, 1999
   12      Supra Sunday/HSR           1st      none
   13      Supra Sunday/RedRock       1st      none
   14   Cr19,275
-  14   soft tires, -> Cr4,275
+  14   mod car Supra   soft tires, -> Cr4,275
   14      Supra Clubman/RomeL     2nd   8-(
   15   Cr9,275
   15      Supra Clubman/RomeS      1st      none
@@ -582,7 +589,7 @@ December 25, 1999
  105    Cr5,143,193
 
  105    buy car Mustang'98  Laser red tinted clearcoat Mustang GT'98
- 105    some parts ->  Cr4,955,603
+ 105    mod car Mustang'98  some parts ->  Cr4,955,603
  105       Mustang'98  US/LagunaI    1st                none
  106    Cr4,959,603
  106       Mustang'98  US/LagunaII   2nd
@@ -1354,7 +1361,7 @@ January 17, 2000
  311   mod car redSupra1     .lt. 295bhp parts, WR1 -> Cr18,904,716
  311   mod car whiteSupra2   .lt. 295bhp parts, WR2 -> Cr18,756,716
 
- 311   Cr19,202,549   91 cars
+ 311   Cr19,202,549   94 cars
        note: did time trial tests with some of those cars at Trial Mountain
  311   power off
 
@@ -1859,7 +1866,7 @@ March 20, 2000
  439   Cr37,817,446  Cr37,942,446   98cars
  439   mod car [R]Speed6   polish+balance
  439      [R]Speed6     Stars/Super   1st    whiteMine'sLancerEvol-V(dup)(sold)
- 440   Cr??,???,??? Cr37,984,196
+ 440   Cr37,???,??? Cr37,984,196
  440      [R]Speed6     Stars/SSR5    4th           8-(
  441   Cr37,994,196
  441      [R]Speed6     Stars/SSR5    1st  whiteMine'sSkylineR34GT-R(dup)(sold)
@@ -2731,7 +2738,7 @@ July 06, 2000
  691      [R]Stratos  Pacific/Laguna    1st          [R]HKSDrag180SX(dup)(sold)
  692   Cr64,085,988   Cr64,335,988  98 cars
  692      [R]Stratos   80s/SeattleL   1st    silverMugenIntegraTypeR(new)
- 693   Cr64,343,988  98 cars
+ 693   Cr64,343,988  99 cars
  693      [R]Stratos      Seattle100   1st          white[R]FordGT90(dup)(sold)
  694   Cr64,493,988   Cr64,618,988  99 cars
  694   power off
@@ -2930,6 +2937,29 @@ June 09, 2001
  736      [R]Speed12   Stars/RedRock     1st         burgundySpeed12(dup)(sold)
  737   Cr74,299,988   Cr74,799,988
  737   power off
+@
+
+
+1.101
+log
+@June 2001 a few races preparing for the GTFONT meet.
+@
+text
+@d87 1
+a87 1
+  14   soft tires, -> Cr4,275
+d352 1
+a352 1
+ 105    some parts ->  Cr4,955,603
+d1124 1
+a1124 1
+ 311   Cr19,202,549   91 cars
+d1629 1
+a1629 1
+ 440   Cr??,???,??? Cr37,984,196
+d2501 1
+a2501 1
+ 693   Cr64,343,988  98 cars
 @
 
 

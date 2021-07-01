@@ -1,9 +1,15 @@
-head	1.17;
+head	1.18;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.18; strict;
 comment	@# @;
 
+
+1.18
+date	2021.06.30.21.55.11;	author arpepper;	state Exp;
+branches;
+next	1.17;
 
 1.17
 date	2000.01.21.18.56.29;	author arpepper;	state Exp;
@@ -96,9 +102,9 @@ desc
 @
 
 
-1.17
+1.18
 log
-@Added final note of finality.
+@As with gt2-game1, I gave up and corrected sloppy mod/parts notation.
 @
 text
 @   In this "game" garage we will collect race-mod ("[R]") prize cars.
@@ -116,7 +122,7 @@ December 17, 1999
   12      Supra Sunday/HSR           1st      none
   13      Supra Sunday/RedRock       1st      none
   14   Cr19,275
-  14   soft tires, -> Cr4,275
+  14   mod car Supra   soft tires, -> Cr4,275
   14      Supra Clubman/RomeL     2nd   8-(
   15   Cr9,275
   15      Supra Clubman/RomeS      1st      none
@@ -381,7 +387,7 @@ December 25, 1999
  105    Cr5,143,193
 
  105    buy car Mustang'98  Laser red tinted clearcoat Mustang GT'98
- 105    some parts ->  Cr4,955,603
+ 105    mod car Mustang'98  some parts ->  Cr4,955,603
  105       Mustang'98  US/LagunaI    1st                none
  106    Cr4,959,603
  106       Mustang'98  US/LagunaII   2nd
@@ -819,6 +825,20 @@ note: At this point we stopped collecting the race cars, if there
            are going to be any more, in this game and started gt2-race2pr
 
 note: That is, we will soon overwrite this memory card!!!  8-)
+@
+
+
+1.17
+log
+@Added final note of finality.
+@
+text
+@d16 1
+a16 1
+  14   soft tires, -> Cr4,275
+d281 1
+a281 1
+ 105    some parts ->  Cr4,955,603
 @
 
 

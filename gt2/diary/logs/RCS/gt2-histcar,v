@@ -1,9 +1,14 @@
-head	1.19;
+head	1.20;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.20
+date	2021.06.30.21.58.32;	author arpepper;	state Exp;
+branches;
+next	1.19;
 
 1.19
 date	2000.06.29.19.43.10;	author arpepper;	state Exp;
@@ -106,9 +111,9 @@ desc
 @
 
 
-1.19
+1.20
 log
-@Another colour Statos!
+@As with gt2-game1, I gave up and corrected sloppy mod/parts notation.
 @
 text
 @  In this "game" garage we collect Historical Cars.  We'll keep the Cobras
@@ -128,7 +133,7 @@ December 17, 1999
   12      Supra Sunday/HSR           1st      none
   13      Supra Sunday/RedRock       1st      none
   14   Cr19,275
-  14   soft tires, -> Cr4,275
+  14   mod car Supra   soft tires, -> Cr4,275
   14      Supra Clubman/RomeL     2nd   8-(
   15   Cr9,275
   15      Supra Clubman/RomeS      1st      none
@@ -393,7 +398,7 @@ December 25, 1999
  105    Cr5,143,193
 
  105    buy car Mustang'98  Laser red tinted clearcoat Mustang GT'98
- 105    some parts ->  Cr4,955,603
+ 105    mod car Mustang'98  some parts ->  Cr4,955,603
  105       Mustang'98  US/LagunaI    1st                none
  106    Cr4,959,603
  106       Mustang'98  US/LagunaII   2nd
@@ -925,6 +930,20 @@ June 29, 2000
  218   power off
 
 
+@
+
+
+1.19
+log
+@Another colour Statos!
+@
+text
+@d18 1
+a18 1
+  14   soft tires, -> Cr4,275
+d283 1
+a283 1
+ 105    some parts ->  Cr4,955,603
 @
 
 

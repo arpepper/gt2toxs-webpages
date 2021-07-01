@@ -1,9 +1,14 @@
-head	1.10;
+head	1.11;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.11
+date	2021.06.30.20.49.54;	author arpepper;	state Exp;
+branches;
+next	1.10;
 
 1.10
 date	2003.04.06.18.05.57;	author arpepper;	state Exp;
@@ -62,9 +67,10 @@ Not much to go...
 @
 
 
-1.10
+1.11
 log
-@Another mistake.
+@Correct car count error found by gt4garage.
+But the rest of the pasted line might have incorrect credits.
 @
 text
 @
@@ -350,7 +356,8 @@ Note:  8009B8F0   42 6E 02 00  159298  +1493(+4139)5D5(102B)
 
  210-215  [R]Sileighty  USvsJP  sw45to30,17,15,12,6        blackFTO(2/4)a
 Note:  800C4C70   56 73 02 00  160598  +1300
-  216  Cr3,642,160  35 cars  IA hifi
+  216  Cr3,642,160  37 cars  IA hifi
+Note: above credit total is probably incorrect, see day 210
 Note:  8009B8F0   29 7D 02 00  163113  +2615(+3815)9D3(EE7)
   216  power off
 
@@ -405,6 +412,17 @@ Note:  8009B8F0   A6 0E 03 00
   252  power off
 
 Note: Back to GT2 for a while now...
+@
+
+
+1.10
+log
+@Another mistake.
+@
+text
+@d284 2
+a285 1
+  216  Cr3,642,160  35 cars  IA hifi
 @
 
 

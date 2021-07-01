@@ -1,10 +1,14 @@
-head	1.23;
+head	1.24;
 access;
 symbols;
-locks
-	arpepper:1.23; strict;
+locks; strict;
 comment	@# @;
 
+
+1.24
+date	2021.06.30.21.02.21;	author arpepper;	state Exp;
+branches;
+next	1.23;
 
 1.23
 date	2014.04.13.03.07.50;	author arpepper;	state Exp;
@@ -129,15 +133,19 @@ No detail license test notes, however.
 @
 
 
-1.23
+1.24
 log
-@April 04, 2014.
-Lwt to get Eunos.
-days 557 to 573.
-Also a correction.
+@Actually retrieved the RCS log from an xsbook2 backup.
+Fixed a typo found by gt4garage; "FTO'04GPX" should have been "FTO'94GPX".
+Contemplated "setvar checkparts = 1", but it was not done consistently.
+Also I used => where in later logs I used -> and I'm not sure if there
+are other convention differences.
 @
 text
-@January 02, 2014
+@Note: setvar checkparts = 1
+Note: did not give prices consistently
+
+January 02, 2014
    1-128  A8 pass
    129 power off
 
@@ -305,8 +313,8 @@ January 26, 2014
    313  Cr258,670
    313 buy car roseCosmo13  Passion Rose Mica Mazda Eunos Cosmo 13B Type S CCS (Cr12,590)
    313  Cr246,080  14 cars
-   313   buy parts  FTO'04GPX   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
-   313   fit parts  FTO'04GPX   Rsusp, Fstab, Rstab
+   313   buy parts  FTO'94GPX   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
+   313   fit parts  FTO'94GPX   Rsusp, Fstab, Rstab
  313-316  FTO'94GPX    Lwt  2nd19to(19)                          8-(
    317  Cr239,280
 Note: reloaded a few times if early failure
@@ -643,6 +651,22 @@ April 04, 2014
  569-572  greenDelSol'93Si  Lwt  q166,113,1st22to21,12,10,6,4    blueEunos(3/6)
    573  Cr2,705,720  60 cars
    573  power off
+@
+
+
+1.23
+log
+@April 04, 2014.
+Lwt to get Eunos.
+days 557 to 573.
+Also a correction.
+@
+text
+@d1 3
+d172 2
+a173 2
+   313   buy parts  FTO'04GPX   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
+   313   fit parts  FTO'04GPX   Rsusp, Fstab, Rstab
 @
 
 

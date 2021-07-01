@@ -1,10 +1,14 @@
-head	1.16;
+head	1.17;
 access;
 symbols;
-locks
-	arpepper:1.16; strict;
+locks; strict;
 comment	@# @;
 
+
+1.17
+date	2021.06.30.21.22.18;	author arpepper;	state Exp;
+branches;
+next	1.16;
 
 1.16
 date	2007.11.05.21.39.53;	author arpepper;	state Exp;
@@ -92,12 +96,13 @@ desc
 @
 
 
-1.16
+1.17
 log
-@Oct 31 to Nov 4, 2007.
-Pacific League with R34GTR.
-Stars with [R]UnisiaGTR
-GT500 with [R]UnisiaGTR
+@gt4garage found an incorrect car count.
+Probably because I copied a line from a little bit later and
+modified it.
+
+But I changed gt4garage to recognize "Power" as "power".
 @
 text
 @
@@ -706,7 +711,7 @@ Note: 2:44.603 -0.854 fl1:18.299
   84 Cr1,238,052
   84      Peugeot106      106/Apricotii        1st          none
 Note: 3:21.142 -3.291 fl1:35.540 192hp
-  85 Cr1,243,052  46cars  27.85%
+  85 Cr1,243,052  45cars  27.85%
   85  buy car ViperRT/10 Red Dodge Viper RT/10 -> Cr72,790
   85 Cr1,170,262  46cars  27.85%
   85 power off
@@ -1062,6 +1067,20 @@ Note: Apricot 6:19.034  -8.253 fl1:13.923    (beat TaisanViper)
  139 Cr2,601,419  65cars  47.03%
 
 
+@
+
+
+1.16
+log
+@Oct 31 to Nov 4, 2007.
+Pacific League with R34GTR.
+Stars with [R]UnisiaGTR
+GT500 with [R]UnisiaGTR
+@
+text
+@d607 1
+a607 1
+  85 Cr1,243,052  46cars  27.85%
 @
 
 

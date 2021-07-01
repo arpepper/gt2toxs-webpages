@@ -1,9 +1,15 @@
-head	1.17;
+head	1.18;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.18; strict;
 comment	@# @;
 
+
+1.18
+date	2021.06.30.21.55.11;	author arpepper;	state Exp;
+branches;
+next	1.17;
 
 1.17
 date	2001.01.25.04.11.58;	author arpepper;	state Exp;
@@ -96,9 +102,10 @@ desc
 @
 
 
-1.17
+1.18
 log
-@bought the remaining 5 B license test cars.
+@As with gt2-game1, I gave up and corrected sloppy mod/parts notation.
+Besides, gt4garage also found a car count correction which I have now fixed.
 @
 text
 @
@@ -119,7 +126,7 @@ December 17, 1999
   12      Supra Sunday/HSR           1st      none
   13      Supra Sunday/RedRock       1st      none
   14   Cr19,275
-  14   soft tires, -> Cr4,275
+  14   mod car Supra   soft tires, -> Cr4,275
   14      Supra Clubman/RomeL     2nd   8-(
   15   Cr9,275
   15      Supra Clubman/RomeS      1st      none
@@ -384,7 +391,7 @@ December 25, 1999
  105    Cr5,143,193
 
  105    buy car Mustang'98  Laser red tinted clearcoat Mustang GT'98
- 105    some parts ->  Cr4,955,603
+ 105    mod car Mustang'98  some parts ->  Cr4,955,603
  105       Mustang'98  US/LagunaI    1st                none
  106    Cr4,959,603
  106       Mustang'98  US/LagunaII   2nd
@@ -1051,7 +1058,7 @@ January 17, 2000
  311   mod car redSupra1     < 295bhp parts, WR1 -> Cr18,904,716
  311   mod car whiteSupra2   < 295bhp parts, WR2 -> Cr18,756,716
 
- 311   Cr19,202,549   91 cars
+ 311   Cr19,202,549   94 cars
        note: did time trial tests with some of those cars at Trial Mountain
  311   power off
 
@@ -1335,6 +1342,23 @@ January 24, 2001
  316   buy car silverSpoonS2000  SilverStoneMetallicSpoonS2000(prize, Blicense)(trade)
  316   buy car whiteSpoonS2000  GrandPrixWhiteSpoonS2000(prize, Blicense)(trade)
  316   Cr8,535,099    65cars
+@
+
+
+1.17
+log
+@bought the remaining 5 B license test cars.
+@
+text
+@d19 1
+a19 1
+  14   soft tires, -> Cr4,275
+d284 1
+a284 1
+ 105    some parts ->  Cr4,955,603
+d951 1
+a951 1
+ 311   Cr19,202,549   91 cars
 @
 
 

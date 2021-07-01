@@ -1,3 +1,6 @@
+Note: setvar checkparts = 1
+Note: did not give prices consistently
+
 January 02, 2014
    1-128  A8 pass
    129 power off
@@ -166,8 +169,8 @@ January 26, 2014
    313  Cr258,670
    313 buy car roseCosmo13  Passion Rose Mica Mazda Eunos Cosmo 13B Type S CCS (Cr12,590)
    313  Cr246,080  14 cars
-   313   buy parts  FTO'04GPX   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
-   313   fit parts  FTO'04GPX   Rsusp, Fstab, Rstab
+   313   buy parts  FTO'94GPX   Rsusp, Fstab, Rstab (Cr18,000, Cr700, Cr600)
+   313   fit parts  FTO'94GPX   Rsusp, Fstab, Rstab
  313-316  FTO'94GPX    Lwt  2nd19to(19)                          8-(
    317  Cr239,280
 Note: reloaded a few times if early failure

@@ -1,9 +1,14 @@
-head	1.25;
+head	1.26;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.26
+date	2021.06.30.21.30.08;	author arpepper;	state Exp;
+branches;
+next	1.25;
 
 1.25
 date	2001.11.07.03.21.46;	author arpepper;	state Exp;
@@ -136,10 +141,11 @@ desc
 @
 
 
-1.25
+1.26
 log
-@A few days.
-Corrected an old mistake in position in second attempt at Japan/MidfieldII.
+@gt4garage found some periods instead of commas, so I fixed them.
+ 
+I wonder what " 1.65 " means in status lines?
 @
 text
 @
@@ -281,7 +287,7 @@ December 10, 2000
   50      RX7'83       80s/TM        1st        silverMugenCivicFerio
   51   Cr626,416
 
-  51   mod car RX7'83 TS2,Ric,Rmuff.comp -> Cr588.116 (SS/SS?) -> Cr588,116
+  51   mod car RX7'83 TS2,Ric,Rmuff,comp -> Cr588,116 (SS/SS?) -> Cr588,116
   51      RX7'83       80s/SSR5     1st             greenMugenCRXpro3
   52   Cr593,116
   52      RX7'83       80s/DFRW     1st         silverMugenCivicTypeR
@@ -1143,6 +1149,18 @@ March 19, 2001
  298   sell car whiteMine'sSkylineR33GT-R -> Cr18,750
  298   Cr16,573,560  99 cars
  298   power off
+@
+
+
+1.25
+log
+@A few days.
+Corrected an old mistake in position in second attempt at Japan/MidfieldII.
+@
+text
+@d140 1
+a140 1
+  51   mod car RX7'83 TS2,Ric,Rmuff.comp -> Cr588.116 (SS/SS?) -> Cr588,116
 @
 
 

@@ -1,9 +1,15 @@
-head	1.30;
+head	1.31;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.31; strict;
 comment	@# @;
 
+
+1.31
+date	2021.06.30.21.55.11;	author arpepper;	state Exp;
+branches;
+next	1.30;
 
 1.30
 date	2002.01.22.03.05.21;	author arpepper;	state Exp;
@@ -161,9 +167,9 @@ desc
 @
 
 
-1.30
+1.31
 log
-@Finished playing this game, for now.
+@As with gt2-game1, I gave up and corrected sloppy mod/parts notation.
 @
 text
 @  In this "game" garage we collect "Normal" prize cars, as space permits.
@@ -181,7 +187,7 @@ December 17, 1999
   12      Supra Sunday/HSR           1st      none
   13      Supra Sunday/RedRock       1st      none
   14   Cr19,275
-  14   soft tires, -> Cr4,275
+  14   mod car Supra   soft tires, -> Cr4,275
   14      Supra Clubman/RomeL     2nd   8-(
   15   Cr9,275
   15      Supra Clubman/RomeS      1st      none
@@ -446,7 +452,7 @@ December 25, 1999
  105    Cr5,143,193
 
  105    buy car Mustang'98  Laser red tinted clearcoat Mustang GT'98
- 105    some parts ->  Cr4,955,603
+ 105    mod car Mustang'98  some parts ->  Cr4,955,603
  105       Mustang'98  US/LagunaI    1st                none
  106    Cr4,959,603
  106       Mustang'98  US/LagunaII   2nd
@@ -1055,6 +1061,20 @@ December 02, 2001
  219      DemioAspec   Sunday/Tahiti     1st            none
  220   Cr15,787,823     90cars  1:40.314+1:27.865=3:08.179(+0.7xx?)
  220   power off
+@
+
+
+1.30
+log
+@Finished playing this game, for now.
+@
+text
+@d16 1
+a16 1
+  14   soft tires, -> Cr4,275
+d281 1
+a281 1
+ 105    some parts ->  Cr4,955,603
 @
 
 

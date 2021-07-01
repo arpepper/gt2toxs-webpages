@@ -1,9 +1,15 @@
-head	1.24;
+head	1.25;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.25; strict;
 comment	@# @;
 
+
+1.25
+date	2021.06.30.20.46.07;	author arpepper;	state Exp;
+branches;
+next	1.24;
 
 1.24
 date	99.10.28.23.50.32;	author arpepper;	state Exp;
@@ -17,10 +23,9 @@ desc
 @
 
 
-1.24
+1.25
 log
-@Finally spotted a "sold" instead of "sell" which was the
-basic cause of our major inconsistencies.
+@Corrected an alleged car count error found by gt4garage.
 @
 text
 @   1      B4 br
@@ -228,7 +233,7 @@ June 26, 1999
  511-516  greenGriffith500  Normal q4SS11  1st45to30    blueImpreza(3/6)a
                              N.B no NSX
  517-520  greenGriffith500  FR q4GVEq6DFq6GV 1st27to18 yellowS13Silvia(dup)a
-   521  power off,   71 cars
+   521  power off,   72 cars
 June 27, 1999
    521  buy car redFTOGPvR passion red FTO GPversionR and max tune
  521-524  redFTOGPvR  Sunday  sw27to18                        Demio(dup)i(kaw)
@@ -495,4 +500,16 @@ July 12, 1999
 
    1167     62prizes,18bought,1extra red'91Skyline -> 81cars,Cr27,541,920
 
+@
+
+
+1.24
+log
+@Finally spotted a "sold" instead of "sell" which was the
+basic cause of our major inconsistencies.
+@
+text
+@d206 1
+a206 1
+   521  power off,   71 cars
 @
