@@ -872,3 +872,12 @@ if ($main::showlist =~ /,prizes,/ ) {
 		}
 	}
 }
+
+if ($main::showlist =~ /,fullprizes,/ ) {
+# simply dump internal %main::fullprizes{}
+	my($i,$prev,@sorted);
+	@sorted = sort keys %main::fullprizes;
+	foreach $i (@sorted) {
+		printf("%s %s\n", $i, $main::fullprizes{$i} );
+	}
+}

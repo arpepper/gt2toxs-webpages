@@ -1,9 +1,19 @@
-head	1.11;
+head	1.13;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.13
+date	2021.07.01.02.10.36;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2021.04.03.20.15.54;	author arpepper;	state Exp;
+branches;
+next	1.11;
 
 1.11
 date	2005.04.19.01.52.40;	author arpepper;	state Exp;
@@ -68,18 +78,13 @@ Want to add formal buy parts and fit parts.
 @
 
 
-1.11
+1.13
 log
-@Fairly massive changes to accomodate gt4.
-Some cleaning up.
-Implement "include".
-Implement "pragma", but not using get.
-Implement standard carids based on day of purchase.
-Implement day +inc form of entry.
-cardef/uncardef and "select" should allow more formal checking of car.
+@Fixed the stupid bug where alleged keywords were not anchored
+to the start of a line...
 @
 text
-@#!/xhbin/perl5 -w
+@#!/usr/bin/perl -w
 
 require 5.002;
 use strict;
@@ -1117,32 +1122,32 @@ while (defined($_ = &getlog())) {
 	}
 	$rest =~ s/^\s*//;
 
-	if ( $line =~ /\s*note/i ) {
+	if ( $line =~ /^\s*note/i ) {
 		&donote($line);
 	}
-	elsif ( $line =~ /\s*pragma/i ) {
+	elsif ( $line =~ /^\s*pragma\b/i ) {
 		&dopragma($line);
 	}
-	elsif ( $line =~ /\s*include/i ) {
+	elsif ( $line =~ /^\s*include\b/i ) {
 		&doinclude($line);
 	}
-	elsif ( $line =~ /\s*define/i ) {
+	elsif ( $line =~ /^\s*define\b/i ) {
 		&dodefine($line);
 	}
 	elsif ( $line =~ /^[A-Z]/) {
 		&dodateline($line);
 	}
-	elsif ( $line =~ /\s*cardef/i ) {
+	elsif ( $line =~ /^\s*cardef\b/i ) {
 		&docardef($line);
 	}
-	elsif ( $line =~ /\s*uncardef/i ) {
+	elsif ( $line =~ /^\s*uncardef\b/i ) {
 		&douncardef($line);
 	}
 	elsif ( $line =~ /^ {9,9}/ ) {
 		# line beginning with 9 spaces assumed to be comment
 		;
 	}
-	elsif ( $rest =~ /^Cr[0-9]/ ) {
+	elsif ( $rest =~ /^Cr[0-9]/i ) {
 		&dodaynote($line,$rest,$r1,$r2);
 	}
 	elsif ( $rest =~ /^select\b/ ) {
@@ -1245,6 +1250,54 @@ if ($main::showlist =~ /,garage,/ ) {
 		}
 	}
 }
+@
+
+
+1.12
+log
+@/xhbin/perl5 => /usr/bin/perl
+ 
+Actually, gt4garage continues to work for gt3 (with pragmas)
+@
+text
+@d1039 1
+a1039 1
+	if ( $line =~ /\s*note/i ) {
+d1042 1
+a1042 1
+	elsif ( $line =~ /\s*pragma/i ) {
+d1045 1
+a1045 1
+	elsif ( $line =~ /\s*include/i ) {
+d1048 1
+a1048 1
+	elsif ( $line =~ /\s*define/i ) {
+d1054 1
+a1054 1
+	elsif ( $line =~ /\s*cardef/i ) {
+d1057 1
+a1057 1
+	elsif ( $line =~ /\s*uncardef/i ) {
+d1064 1
+a1064 1
+	elsif ( $rest =~ /^Cr[0-9]/ ) {
+@
+
+
+1.11
+log
+@Fairly massive changes to accomodate gt4.
+Some cleaning up.
+Implement "include".
+Implement "pragma", but not using get.
+Implement standard carids based on day of purchase.
+Implement day +inc form of entry.
+cardef/uncardef and "select" should allow more formal checking of car.
+@
+text
+@d1 1
+a1 1
+#!/xhbin/perl5 -w
 @
 
 

@@ -1,9 +1,15 @@
-head	1.23;
+head	1.24;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.24; strict;
 comment	@# @;
 
+
+1.24
+date	2021.06.28.00.53.58;	author arpepper;	state Exp;
+branches;
+next	1.23;
 
 1.23
 date	2002.02.21.02.47.28;	author arpepper;	state Exp;
@@ -126,13 +132,12 @@ desc
 @
 
 
-1.23
+1.24
 log
-@Added "sell entry" facility, brought forward from GT1.
-Good for when picky garage cleaning is done.
+@Finally noticed the bad perl line.
 @
 text
-@#!/xhbin/perl5 -w
+@#!/usr/bin/perl -w
 
 require 5.002;
 use strict;
@@ -968,6 +973,18 @@ if ($main::showlist =~ /,garage,/ ) {
 		printf("%3d %s\n", $i+1, $main::garage[$i]);
 	}
 }
+@
+
+
+1.23
+log
+@Added "sell entry" facility, brought forward from GT1.
+Good for when picky garage cleaning is done.
+@
+text
+@d1 1
+a1 1
+#!/xhbin/perl5 -w
 @
 
 

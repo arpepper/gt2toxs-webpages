@@ -1,9 +1,15 @@
-head	1.24;
+head	1.25;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.25; strict;
 comment	@# @;
 
+
+1.25
+date	2021.06.30.02.33.42;	author arpepper;	state Exp;
+branches;
+next	1.24;
 
 1.24
 date	2019.05.28.16.49.06;	author gt2toxs;	state Exp;
@@ -132,10 +138,10 @@ Eventual usage garage file day
 @
 
 
-1.24
+1.25
 log
-@Allow us to log our GT1 games until the end of the 21st century.
-Ahem.
+@Added show=fullprizes
+Was useful for generating gt1-racedefs
 @
 text
 @#!/usr/bin/perl -w
@@ -1012,6 +1018,25 @@ if ($main::showlist =~ /,prizes,/ ) {
 		}
 	}
 }
+
+if ($main::showlist =~ /,fullprizes,/ ) {
+# simply dump internal %main::fullprizes{}
+	my($i,$prev,@@sorted);
+	@@sorted = sort keys %main::fullprizes;
+	foreach $i (@@sorted) {
+		printf("%s %s\n", $i, $main::fullprizes{$i} );
+	}
+}
+@
+
+
+1.24
+log
+@Allow us to log our GT1 games until the end of the 21st century.
+Ahem.
+@
+text
+@d875 9
 @
 
 

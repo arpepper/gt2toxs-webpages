@@ -1,10 +1,14 @@
-head	1.3;
+head	1.4;
 access;
 symbols;
-locks
-	arpepper:1.3; strict;
+locks; strict;
 comment	@# @;
 
+
+1.4
+date	2021.07.01.02.12.19;	author arpepper;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2021.06.22.12.14.25;	author arpepper;	state Exp;
@@ -27,10 +31,10 @@ desc
 @
 
 
-1.3
+1.4
 log
-@Finally found this from xsbook2.
-But I needed to fix the interpreter.
+@Terminate the keywords.
+We had already anchored them to '^' in this version.
 @
 text
 @#!/usr/bin/perl -w
@@ -1080,22 +1084,22 @@ while (defined($_ = &getlog())) {
 	if ( $line =~ /^\s*note/i ) {
 		&donote($line);
 	}
-	elsif ( $line =~ /^\s*pragma/i ) {
+	elsif ( $line =~ /^\s*pragma\b/i ) {
 		&dopragma($line);
 	}
-	elsif ( $line =~ /^\s*include/i ) {
+	elsif ( $line =~ /^\s*include\b/i ) {
 		&doinclude($line);
 	}
-	elsif ( $line =~ /^\s*define/i ) {
+	elsif ( $line =~ /^\s*define\b/i ) {
 		&dodefine($line);
 	}
 	elsif ( $line =~ /^[A-Z]/) {
 		&dodateline($line);
 	}
-	elsif ( $line =~ /^\s*cardef/i ) {
+	elsif ( $line =~ /^\s*cardef\b/i ) {
 		&docardef($line);
 	}
-	elsif ( $line =~ /^\s*uncardef/i ) {
+	elsif ( $line =~ /^\s*uncardef\b/i ) {
 		&douncardef($line);
 	}
 	elsif ( $line =~ /^ {9,9}/ ) {
@@ -1205,6 +1209,30 @@ if ($main::showlist =~ /,garage,/ ) {
 		}
 	}
 }
+@
+
+
+1.3
+log
+@Finally found this from xsbook2.
+But I needed to fix the interpreter.
+@
+text
+@d1048 1
+a1048 1
+	elsif ( $line =~ /^\s*pragma/i ) {
+d1051 1
+a1051 1
+	elsif ( $line =~ /^\s*include/i ) {
+d1054 1
+a1054 1
+	elsif ( $line =~ /^\s*define/i ) {
+d1060 1
+a1060 1
+	elsif ( $line =~ /^\s*cardef/i ) {
+d1063 1
+a1063 1
+	elsif ( $line =~ /^\s*uncardef/i ) {
 @
 
 
