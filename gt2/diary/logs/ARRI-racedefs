@@ -1,6 +1,8 @@
 #pragma gt4
 pragma ARRI
 
+setvar includesdone = 1
+
 setvar minlicenseinc = 0
 setvar maxlicenseinc = 1
 setvar minseriesinc = 0

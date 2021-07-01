@@ -1,5 +1,11 @@
 pragma gt3
 
+Note: setvar processed by ./gt3garage will be assumed to be a comment.
+setvar includesdone = 1
+
+Note: Following should be effective default, but for some GT1 and GT2 logs. 
+setvar commentspacecount = 9
+
 define league B
 define league A
 define league P

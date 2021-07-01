@@ -1,10 +1,15 @@
-head	1.28;
+head	1.29;
 access;
 symbols;
 locks
-	arpepper:1.28; strict;
+	arpepper:1.29; strict;
 comment	@# @;
 
+
+1.29
+date	2021.06.30.22.41.37;	author arpepper;	state Exp;
+branches;
+next	1.28;
 
 1.28
 date	2006.02.25.05.30.26;	author arpepper;	state Exp;
@@ -153,12 +158,14 @@ Develop incrementally.
 @
 
 
-1.28
+1.29
 log
-@Added CathedralI&II, Chamonix and reverse tracks.
+@Add "setvar includesdone = 1"
 @
 text
 @pragma gt4
+
+setvar includesdone = 1
 
 define league B
 define league P
@@ -417,6 +424,15 @@ define track Umbria
 define track UmbriaR
 
 
+@
+
+
+1.28
+log
+@Added CathedralI&II, Chamonix and reverse tracks.
+@
+text
+@d3 2
 @
 
 

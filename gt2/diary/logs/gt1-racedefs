@@ -1,0 +1,137 @@
+setvar seriesdelim = ""
+
+setvar includesdone = 1
+
+setvar autocarids = 1
+setvar autoselectcarids = 1
+
+setvar commentspacecount = 4
+setvar noincserieslines = 0
+setvar checkparts = 0
+
+setvar seriescarcruft = ",\S*#,[^,]*,# [^ ]*tune[^ ]* # [^ ,]*,#\(perm[^()]*\)"
+setvar licensepatterns = "(((A|B|IA)(-){0,1}[1-8])|TT)"
+Note: without outside set of parentheses the following line matched...
+Note:  89-92   [R]Fairlady  Mega  q6TT,1st27to14,14,9,6,5    redDB7(1/6)a
+
+Note: must add one to number of races for qualifying(?)
+define series Sunday 4
+define series Clubman 4
+define series GTC 5
+define series GTI 7
+
+define series 4wd 4
+define series FF  4
+define series FR  4
+define series Lwt 4
+
+define series UKvsJP  6
+define series UKvsUS  6
+define series USvsJP  6
+
+define series Mega      4
+define series Normal    6
+define series Abnormal  6
+define series Tuned     6
+
+define series GV300 2
+define series All-nightI 2
+define series All-nightII 2
+
+Note: length here is irrelevant; events such as Spot/DFRW are not in table
+define series Spot  2
+Note: Following allows range of 0 to 1 days (plus 1) for unknown events...
+setvar maxunknownracedays = 1
+
+Note: Mostly for Spot races
+define track HSR
+define track GVE
+define track AM
+define track TM
+define track DFRW
+
+Note: Normal/AutumnR is an imaginable possibility.
+
+Note: *** Currently implementation of fullprizename prevents sales!
+define fullprizename credits  credits
+define fullprizename orangeConceptCar   orange-red Dodge Concept Car
+define fullprizename TRD3000GT  silver Toyota TRD 3000GT
+
+Note: We sort of cheated and added show=fullprizes so we could say
+Note: ./garage show=fullprizes /dev/null
+Note: (./garage being ./gt1garage effectively)
+Note: Resulting in...
+
+define fullprizename Camaro white Chevrolet Camaro Z28 30th Anniversary with orange stripes
+define fullprizename ChaserLM black Toyota [R]Chaser LM Edition
+define fullprizename Demio silver Mazda Demio A spec
+define fullprizename TRD3000GT silver Toyota TRD 3000GT
+define fullprizename ViperWblueSt white Dodge [R]Viper GTS-R with blue stripes
+define fullprizename ViperWgreenSt white Dodge [R]Viper GTS-R with green stripes
+Note: # for space kludge supported by "define fullprizename"
+define fullprizename black#delSol black Honda [R]del Sol LM Edition
+define fullprizename black/blueSupra black Toyota [R]Castrol Supra GT with red and blue trim
+define fullprizename black/greenSupra black Toyota [R]Castrol Supra GT with red and green trim
+define fullprizename blackCRX black Honda CR-X EF-8 Si-R
+define fullprizename blackFTO black Mitsubishi [R]FTO LM Edition
+define fullprizename blueAlcyone blue Subaru Alcyone SVX S4
+define fullprizename blueCRX blue Honda CR-X EF-8 Si-R
+define fullprizename blueCivic blue Honda EK Civic Type R
+define fullprizename blueEunos blue Mazda Eunos Roadster
+define fullprizename blueImpreza blue Subaru Impreza Sedan WRX-STi ver.III
+define fullprizename blueRX7 blue Mazda [R]RX-7 A spec LM Edition
+define fullprizename blueSilEighty blue Nissan Sil Eighty
+define fullprizename blueSkyline blue Nissan R32 Skyline '91 GT-R
+define fullprizename blueTrueno blue Toyota AE86 Sprinter Trueno GT-APEX
+define fullprizename credits credits
+define fullprizename dkBlueAlcyone dark blue Subaru Alcyone SVX S4
+define fullprizename dkBlueSilEighty dark blue Nissan Sil Eighty
+define fullprizename goldEunos gold Mazda Eunos Roadster
+define fullprizename gray400R gray Nissan Nismo 400R
+define fullprizename greenCelica green Toyota Celica SS-II
+define fullprizename greenCerbera silver-grey TVR [R]Cerbera LM Edition with green trim
+define fullprizename greenFTO green Mitsubishi [R]FTO LM Edition
+define fullprizename greenLancer green Mitsubishi Lancer EvolutionIV GSR
+define fullprizename greenRX7 green Mazda [R]RX-7 A spec LM Edition
+define fullprizename greenS13Silvia green Nissan S13 Silvia Q's 1800cc
+define fullprizename greenSilviaLM ectoplasm green Nissan [R]S14 Silvia LM Edition
+define fullprizename ltBlueSupraRZ light blue Toyota Supra RZ
+define fullprizename orangeConceptCar orange-red Dodge Concept Car
+define fullprizename orangeImpreza orange Subaru Impreza Sedan WRX-STi ver.III
+define fullprizename orangeSupraRZ orange Toyota Supra RZ
+define fullprizename pinkCivic pink Honda EK Civic Type R
+define fullprizename pinkTrueno pink Toyota AE86 Sprinter Trueno GT-APEX
+define fullprizename purpleCelica purple Toyota Celica SS-II
+define fullprizename purpleCerbera silver-grey TVR [R]Cerbera LM Edition with purple trim
+define fullprizename purpleConceptCar purple Dodge [R]Concept Car
+define fullprizename purpleDB7 purple Aston Martin DB7 Coupe
+define fullprizename purpleLancer purple Mitsubishi Lancer EvolutionIV GSR
+define fullprizename purpleSoarer purple Toyota Soarer 2.5GT-T VVT-i
+define fullprizename purpleSupraRZ purple Toyota Supra RZ
+define fullprizename red#delSol red Honda [R]del Sol LM Edition
+define fullprizename red400R red Nissan Nismo 400R
+define fullprizename redConceptCar orange-red Dodge Concept Car
+define fullprizename redDB7 red Aston Martin DB7 Coupe
+define fullprizename redOrangeSoarer red-orange Toyota Soarer 2.5GT-T VVT-i
+define fullprizename redS13Silvia red Nissan S13 Silvia Q's 1800cc
+define fullprizename redSilviaLM red Nissan [R]S14 Silvia LM Edition
+define fullprizename redSkyline red Nissan R32 Skyline '91 GT-R
+define fullprizename silver400R silver Nissan Nismo 400R
+define fullprizename silverNismoGT-R#LM silver Nissan Nismo GT-R LM
+define fullprizename silverTRD3000GT silver Toyota TRD 3000GT
+define fullprizename whiteAlcyone white Subaru Alcyone SVX S4
+define fullprizename whiteDB7 white Aston Martin DB7 Coupe
+define fullprizename whiteTrueno white Toyota AE86 Sprinter Trueno GT-APEX
+define fullprizename yellow400R yellow Nissan Nismo 400R
+define fullprizename yellowCRX yellow Honda CR-X EF-8 Si-R
+define fullprizename yellowCelica yellow Toyota Celica SS-II
+define fullprizename yellowCivic yellow Honda EK Civic Type R
+define fullprizename yellowConceptCar yellow Dodge [R]Concept Car
+define fullprizename yellowEunos yellow Mazda Eunos Roadster
+define fullprizename yellowImpreza yellow Subaru Impreza Sedan WRX-STi ver.III
+define fullprizename yellowLancer yellow Mitsubishi Lancer EvolutionIV GSR
+define fullprizename yellowS13Silvia yellow Nissan S13 Silvia Q's 1800cc
+define fullprizename yellowSilEighty yellow Nissan Sil Eighty
+define fullprizename yellowSkyline yellow Nissan R32 Skyline '91 GT-R
+define fullprizename yellowSoarer yellow Toyota Soarer 2.5GT-T VVT-i
+

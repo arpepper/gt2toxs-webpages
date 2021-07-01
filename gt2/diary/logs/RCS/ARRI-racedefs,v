@@ -1,10 +1,14 @@
-head	1.4;
+head	1.5;
 access;
 symbols;
-locks
-	arpepper:1.4; strict;
+locks; strict;
 comment	@# @;
 
+
+1.5
+date	2021.06.30.22.40.12;	author arpepper;	state Exp;
+branches;
+next	1.4;
 
 1.4
 date	2021.06.23.02.02.41;	author arpepper;	state Exp;
@@ -31,14 +35,15 @@ desc
 @@
 
 
-1.4
+1.5
 log
-@Add some new "setvar" statements that (now) allow gt4garage to
-work with this log file.
+@Add "setvar includesdone = 1"
 @
 text
 @#pragma gt4
 pragma ARRI
+
+setvar includesdone = 1
 
 setvar minlicenseinc = 0
 setvar maxlicenseinc = 1
@@ -136,6 +141,16 @@ Note: following allows us to pretend "race" is an operation
 Note: also list all cars and tracks, in acquire order
 1 win track Laguna Seca
 
+@
+
+
+1.4
+log
+@Add some new "setvar" statements that (now) allow gt4garage to
+work with this log file.
+@
+text
+@d4 2
 @
 
 

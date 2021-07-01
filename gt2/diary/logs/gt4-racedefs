@@ -1,5 +1,10 @@
 pragma gt4
 
+setvar includesdone = 1
+
+Note: Following should be effective default, but for some GT1 and GT2 logs. 
+setvar commentspacecount = 9
+
 define league B
 define league P
 Note: E - Enduro, Eu - Europe, Ex - Extreme
