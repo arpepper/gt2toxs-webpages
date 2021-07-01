@@ -1,9 +1,14 @@
-head	1.41;
+head	1.42;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.42
+date	2021.06.23.22.51.22;	author arpepper;	state Exp;
+branches;
+next	1.41;
 
 1.41
 date	2005.04.19.01.46.47;	author arpepper;	state Exp;
@@ -216,11 +221,12 @@ desc
 @
 
 
-1.41
+1.42
 log
-@Make it work with new garage program.
-Use "cardef" and "select".
-Use "include", for new type of series definitions.
+@Finally audited some things which required changes.
+Guess at some part prices based on similar models.
+Delete a probable couple of errors.
+Use Cr99999 as a flag for parts we should get prices for "some time"
 @
 text
 @ Legend:
@@ -262,7 +268,7 @@ May 16, 2002
    9      Storia B/Sunday/Super        q1st1st      none
   10      Storia B/Sunday/Midfield     q1st1st      none
   11      Storia B/Sunday/TM           q2nd3rd       8-(
-  12   buy parts Storia  TS1
+  12   buy parts Storia  TS1  Cr99999
   12   fit parts Storia  TS1
   12      Storia B/Sunday/TM           q1st1st      whiteTrueno
   13   Cr3,150
@@ -277,7 +283,7 @@ May 17, 2002
   34      Storia B/Sunday/Super        q1st1st      none
   35      Storia B/Sunday/Super       nq6th1st      none
   36   Cr5,750
-  36   buy parts Storia  Sp/Sp
+  36   buy parts Storia  Sp/Sp  Cr99999
   36   fit parts Storia  Sp/Sp
   36   Cr750
 
@@ -287,7 +293,7 @@ May 17, 2002
 
   38      Storia B/Clubman/DFRW         q6th6th      8-(
   39   Cr2,850
-  39   buy parts Storia  Ric
+  39   buy parts Storia  Ric   Cr99999
   39   fit parts Storia  Ric
   39   Cr350
   39      Storia B/Clubman/SSR5         q2nd2nd      8-(
@@ -1187,7 +1193,7 @@ July 16, 2002
  249   Cr1,943,050
  249   buy parts MSElise  Rsusp,SpBr,Bctlr  (Cr18,000, Cr4,800, Cr10,800)
  249   buy parts MSElise  Rmuff,chip        (Cr4,900, Cr1,800)
- 249   buy parts MSElise  3clu,Rfw,Rtrans,LSDF (Cr4,800, Cr1,100, Cr10,500)
+ 249   buy parts MSElise  3clu,Rfw,Rtrans     (Cr4,800, Cr1,100, Cr10,500)
  249   buy parts MSElise  LSDF                 (Cr6,800)
  249   buy parts MSElise  TS2, T2/T2, T3/T3   (Cr14,000, Cr10,750, Cr13,750)
  249   buy parts MSElise  T4/T4, T5/T5        (Cr16,750, Cr22,750)
@@ -1364,7 +1370,7 @@ July 28, 2002
  293      [R]Clio      A/Euro   sw50to24,22,19,10,5   blueGT-RVspecII
  294   Cr3,570,450   86cars  S/R  78.0%  11,014.5mi   (Cr20,000 bonus)
  294   select car [R]CLK-DTM
- 294   buy parts  [R]CLK-DTM   NA1,NA2
+ 294   buy parts  [R]CLK-DTM   NA1,NA2   (Cr5,200, Cr14,500)
  294   fit parts  [R]CLK-DTM   NA1
  294   change oil [R]CLK-DTM  576hp -> 576hp
  294   Cr3,551,000                                   (Opel Team Phoenix)
@@ -1935,7 +1941,6 @@ Nov 02, 2002
 Nov 03, 2002
  cardef blueG500      blueGriffith500
  377   select car blueG500 (alias blueGriffith500)
- 377   buy parts  blueG500  T
  377   buy parts blueG500  T2/T2  T3/T3    (Cr10,750, Cr13,750)
  377   fit parts blueG500  T2/T2
  377   change oil  blueG500  340hp -> 357hp
@@ -2186,7 +2191,7 @@ February 14, 2005
  413   fit parts SLK230      chip  -> 422hp
  413   buy parts SLK230      LSDF  (Cr6600)
  413   fit parts SLK230      LSDF
- 413   mod car   SLK230  WR3  (Cr1200, Cr5500, Cr2200)
+ 413   mod car   SLK230  WR1 WR2 WR3  (Cr1200, Cr5500, Cr22,000)
  413   buy parts SLK230     T3/T3, T4/T4   (Cr13500, Cr16500)
  413   Cr4,968,640
 
@@ -2240,6 +2245,36 @@ February 20, 2005
  423   Cr5,246,790  149 cars
  423   power off
 
+@
+
+
+1.41
+log
+@Make it work with new garage program.
+Use "cardef" and "select".
+Use "include", for new type of series definitions.
+@
+text
+@d40 1
+a40 1
+  12   buy parts Storia  TS1
+d55 1
+a55 1
+  36   buy parts Storia  Sp/Sp
+d65 1
+a65 1
+  39   buy parts Storia  Ric
+d965 1
+a965 1
+ 249   buy parts MSElise  3clu,Rfw,Rtrans,LSDF (Cr4,800, Cr1,100, Cr10,500)
+d1142 1
+a1142 1
+ 294   buy parts  [R]CLK-DTM   NA1,NA2
+a1712 1
+ 377   buy parts  blueG500  T
+d1963 1
+a1963 1
+ 413   mod car   SLK230  WR3  (Cr1200, Cr5500, Cr2200)
 @
 
 
