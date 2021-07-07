@@ -1,10 +1,15 @@
-head	1.29;
+head	1.30;
 access;
 symbols;
 locks
-	arpepper:1.29; strict;
+	arpepper:1.30; strict;
 comment	@# @;
 
+
+1.30
+date	2021.07.06.15.43.45;	author arpepper;	state Exp;
+branches;
+next	1.29;
 
 1.29
 date	2021.06.30.22.41.37;	author arpepper;	state Exp;
@@ -158,14 +163,17 @@ Develop incrementally.
 @
 
 
-1.29
+1.30
 log
-@Add "setvar includesdone = 1"
+@Set commentspacecount to 9  with a comment about it.
 @
 text
 @pragma gt4
 
 setvar includesdone = 1
+
+Note: Following should be effective default, but for some GT1 and GT2 logs. 
+setvar commentspacecount = 9
 
 define league B
 define league P
@@ -424,6 +432,15 @@ define track Umbria
 define track UmbriaR
 
 
+@
+
+
+1.29
+log
+@Add "setvar includesdone = 1"
+@
+text
+@d5 3
 @
 
 

@@ -1,10 +1,15 @@
-head	1.107;
+head	1.108;
 access;
 symbols;
 locks
-	arpepper:1.107; strict;
+	arpepper:1.108; strict;
 comment	@# @;
 
+
+1.108
+date	2021.07.06.15.42.21;	author arpepper;	state Exp;
+branches;
+next	1.107;
 
 1.107
 date	2021.06.24.15.48.36;	author arpepper;	state Exp;
@@ -548,9 +553,9 @@ Use ======================== markers to track update.
 @
 
 
-1.107
+1.108
 log
-@Fixed typos isolated by "gt4garage show=parts"
+@Minor correction.  Price of "port polish" for redSkyline'67
 @
 text
 @
@@ -1298,7 +1303,7 @@ Note: Came 2nd with Cougar in B/FR/SeattleR so reset
 
  188 select car redSkyline'67  Nissan Skyline 2000GT-B (S54A) '67 (Caroline Red)
  188  buy parts redSkyline'67  NA1 NA2 NA3 Cr4600 Cr11,500 Cr65,000
- 188  mod car   redSkyline'67  pol Cr500 bal Cr10000
+ 188  mod car   redSkyline'67  pol Cr5000 bal Cr10000
  188  buy parts redSkyline'67  chip Cr1000 Rsusp Cr15,000
  188  buy parts redSkyline'67  TS1 Cr4500  TS2 Cr12,500
  188  buy parts redSkyline'67  Rmuff  Cr4500 
@@ -2570,6 +2575,17 @@ Note: 3 oil changes, saved after each race but never reloaded
  549 Cr13,349,577  34.8%  A:4039 B:6827/87/68/65(n/c)   137cars
  549 power off
 
+@
+
+
+1.107
+log
+@Fixed typos isolated by "gt4garage show=parts"
+@
+text
+@d746 1
+a746 1
+ 188  mod car   redSkyline'67  pol Cr500 bal Cr10000
 @
 
 
