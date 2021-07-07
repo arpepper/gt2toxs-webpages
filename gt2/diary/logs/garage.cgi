@@ -231,14 +231,20 @@ $showflags = ",garage,";
 $garage = (defined($q'garage)? $q'garage : $garage);
 $simday = (defined($q'simday)? $q'simday : $simday);
 $showflags = (defined($q'showflags)? $q'showflags : $showflags);
-$gcommand = "./garage";
+# In future we hope all logs can be processed by gt4garage, but
+#   retain the analysis for historical interest and possible
+#   future, um, diversion.
+$gcommand = "./gt4garage";
 if ( $garage =~ /^gt2-/ ) {
-	$gcommand = "./gt2garage";
+	$gcommand = "./gt4garage";
 }
 if ( $garage =~ /^gt3-/ ) {
-	$gcommand = "./gt3garage";
+	$gcommand = "./gt4garage";
 }
 if ( $garage =~ /^gt4-/ ) {
+	$gcommand = "./gt4garage";
+}
+if ( $garage =~ /^ARRI-/ ) {
 	$gcommand = "./gt4garage";
 }
 

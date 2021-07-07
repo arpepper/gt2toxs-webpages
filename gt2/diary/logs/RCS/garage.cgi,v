@@ -1,9 +1,19 @@
-head	1.3;
+head	1.5;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.5
+date	2021.07.06.15.37.34;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2021.07.05.22.07.20;	author arpepper;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2019.05.29.22.42.58;	author gt2toxs;	state Exp;
@@ -27,10 +37,10 @@ gt2/diary/logs directory.  But was not RCS'd until now.
 @
 
 
-1.3
+1.5
 log
-@Similarly, the filename reference must change to relative to this directory.
-That seems alright as long as we don't add ../ type things to the checklist.
+@Use gt4garage to process all logs.
+But leave an option open for future differences.
 @
 text
 @#!/usr/bin/perl
@@ -266,14 +276,20 @@ $showflags = ",garage,";
 $garage = (defined($q'garage)? $q'garage : $garage);
 $simday = (defined($q'simday)? $q'simday : $simday);
 $showflags = (defined($q'showflags)? $q'showflags : $showflags);
-$gcommand = "./garage";
+# In future we hope all logs can be processed by gt4garage, but
+#   retain the analysis for historical interest and possible
+#   future, um, diversion.
+$gcommand = "./gt4garage";
 if ( $garage =~ /^gt2-/ ) {
-	$gcommand = "./gt2garage";
+	$gcommand = "./gt4garage";
 }
 if ( $garage =~ /^gt3-/ ) {
-	$gcommand = "./gt3garage";
+	$gcommand = "./gt4garage";
 }
 if ( $garage =~ /^gt4-/ ) {
+	$gcommand = "./gt4garage";
+}
+if ( $garage =~ /^ARRI-/ ) {
 	$gcommand = "./gt4garage";
 }
 
@@ -468,6 +484,35 @@ if (open(SELECTION,"< ./garage.html")) {
 
 &web'exit();
 @
+
+
+1.4
+log
+@As with other scripts and files, this one should be prototyped with
+RCS'd changes under ~arpepper and then transferred to ~gt2toxs and
+eventually to gt2toxs-webpages (git repository).
+@
+text
+@d234 4
+a237 1
+$gcommand = "./garage";
+d239 1
+a239 1
+	$gcommand = "./gt2garage";
+d242 1
+a242 1
+	$gcommand = "./gt3garage";
+d245 3
+@
+
+
+1.3
+log
+@Similarly, the filename reference must change to relative to this directory.
+That seems alright as long as we don't add ../ type things to the checklist.
+@
+text
+@@
 
 
 1.2
