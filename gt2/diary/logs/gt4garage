@@ -28,6 +28,10 @@
 #   Events must match definitions listed, usually in included gtN-racedefs
 #       (which then become prize indicators via "next" and "win")
 #   Verifies that "buy parts" and "mod car" have balanced items and Cr entries.
+#   Immediately sold prizes on same line (pre-GT4) now get a carid
+#        previously they were "unknown"
+#        their carids will shift daycounter (old games buy used no days)
+#             can assert such (other) carids were never used in practice
 #
 # Also:
 #   "show=carlog" (optional "show=verbose,carlog")
@@ -62,10 +66,12 @@
 #
 # Now also:
 #   setvar variable = value
-#      - just numbers for now?
-#   Primarily to allow "gt4garage ARRI-game2" to work
+#   Allow "gt4garage" to work on gt1, gt2 and ARRI logs
 #       setvar minlicenseinc = 0
 #       setvar maxlicenseinc = 1
+#   Also enhanced to allow pattern definition
+#       setvar seriesdelim = ""
+#       setvar licensepatterns = "(((A|B|IA)(-){0,1}[1-8])|TT)"
 #
 # Future possibilities (getting few)
 #   Validate, fix if necessary, autoinclude wrt nested includes
@@ -404,7 +410,7 @@ getcar {
 		}
 	}
 	$main::carmodels{$newid} = $model;
-		
+	return $newid;
 }
 
 sub
@@ -577,10 +583,11 @@ sellentry {  # sell the given $num garage slot, if it matches $car
 
 sub
 marksold {
-	# I do not think we use this; see sellcarid
+	# Began to use this when we began generating carids for sold prizes
 	my($id) = @_;
 
 	$main::carstates{$id} = "sold";   # I think that's all we need, now
+	$main::ncarsnow = carsnow();   # expensive?
 }
 
 sub
@@ -1223,15 +1230,17 @@ doseriesline {
 		$main::prize_event = $race;
 	}
 	record_race_prize($race,$prize);
-	if ($status ne "(sold)" && $line !~ /[(]sold[)]/ ) {
-# It really would be more pure to record the prize and then sell it
-		if ($prize !~ /credits/ && &otherprize($prize) == 0) {
-			my ($fullprize);
-			$fullprize = $prize;
-			if (defined($main::fullprizenames{$prize}) ) {
-				$fullprize = $main::fullprizenames{$prize};
-			}
-			getcar($prize,"$fullprize(prize, $race)",$line);
+	# N.B. $prize has everything after opening parenthesis removed
+	if ($prize !~ /credits/ && &otherprize($prize) == 0) {
+		my ($fullprize, $id);
+		$fullprize = $prize;
+		if (defined($main::fullprizenames{$prize}) ) {
+			$fullprize = $main::fullprizenames{$prize};
+		}
+		$id = getcar($prize,"$fullprize(prize, $race)",$line);
+		if ($status eq "(sold)" || $line =~ /[(]sold[)]/ ) {
+# It really would be  more pure to match $status or $line more precisely
+			marksold($id);
 		}
 	}
 }
