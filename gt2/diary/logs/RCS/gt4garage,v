@@ -1,10 +1,15 @@
-head	1.104;
+head	1.105;
 access;
 symbols;
 locks
-	arpepper:1.104; strict;
+	arpepper:1.105; strict;
 comment	@# @;
 
+
+1.105
+date	2021.07.17.20.50.33;	author arpepper;	state Exp;
+branches;
+next	1.104;
 
 1.104
 date	2021.07.11.19.56.32;	author arpepper;	state Exp;
@@ -535,13 +540,10 @@ updates copied to ~gt2toxs and eventually to gt2toxs-webpages.git
 @
 
 
-1.104
+1.105
 log
-@Fix bug in previous revision.
-Actually in the "marksold" routine we had created but not previously used.
-Because the car count had not been re-evaluated, some logs reported
-spurious errors after (sold) on seriesline until something else 
-re-evaluated carsnow().
+@Found a "findcarid" use which was missing the "$line" argument.
+Some comments about it.
 @
 text
 @#!/usr/bin/perl -w
@@ -1976,6 +1978,7 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 		}
 		else {
 			$id = &newautocarid($carname,$line);
+			# Still return undef, however...
 		}
 			
 	}
@@ -2455,7 +2458,7 @@ doparts {
 
 	@@prices = ();
 	@@parts = ();
-	$id = findcarid($tok);
+	$id = findcarid($tok,$line);
 	if (!defined($id)) {  # probably can't happen
 		&warn("Cannot find carid for $tok, $line\n");
 		return;
@@ -3104,7 +3107,7 @@ if ($main::showlist =~ /,carlog,/ ) {
 		my($sf,$ci,$org);
 		$sf = $sorted[$i];
 		#$ci = $main::carid{$sf};
-		$ci = findcarid($sf,"");
+		$ci = findcarid($sf,"");  # Using "" instead of $line?
 		if (defined($ci) && defined($main::origin{$ci}) ) {
 			$org = $main::origin{$ci}."\n";
 		}
@@ -3124,6 +3127,25 @@ if ($main::showlist =~ /,vars,/ ) {
 	      printf("%s - %s\n", $sorted[$i], $main::var{$sorted[$i]} );
 	}
 }
+@
+
+
+1.104
+log
+@Fix bug in previous revision.
+Actually in the "marksold" routine we had created but not previously used.
+Because the car count had not been re-evaluated, some logs reported
+spurious errors after (sold) on seriesline until something else 
+re-evaluated carsnow().
+@
+text
+@d1433 1
+d1913 1
+a1913 1
+	$id = findcarid($tok);
+d2562 1
+a2562 1
+		$ci = findcarid($sf,"");
 @
 
 
