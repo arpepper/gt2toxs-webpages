@@ -1,10 +1,30 @@
-head	1.108;
+head	1.112;
 access;
 symbols;
 locks
-	arpepper:1.108; strict;
+	arpepper:1.112; strict;
 comment	@# @;
 
+
+1.112
+date	2021.07.19.00.50.01;	author arpepper;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2021.07.18.23.08.32;	author arpepper;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2021.07.17.20.52.40;	author arpepper;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2021.07.12.12.56.30;	author arpepper;	state Exp;
+branches;
+next	1.108;
 
 1.108
 date	2021.07.06.15.42.21;	author arpepper;	state Exp;
@@ -553,9 +573,10 @@ Use ======================== markers to track update.
 @
 
 
-1.108
+1.112
 log
-@Minor correction.  Price of "port polish" for redSkyline'67
+@Finished Mfr/GTI.
+July 18, 2021  day 562
 @
 text
 @
@@ -2336,7 +2357,7 @@ Note: maybe gt4garage should accept "buy wheels"
  482 Cr11,578,260  34.1%  A:3889 B:6766/87/67/65        128cars
  482 power off
 
-Note: selected P/WC lineup  2000GT, Marcos, SkDelux, Sk'62
+Note: selected P/WC lineup  2000GT, Ginetta, Elan, SkDelux, Sk'62
 Note: I was prepared to reload as necessary,
 Note:   but notes indicate I swept it honestly.
  482 +5  whiteCelica'70 P/WC   q11N11,sw50to26,20,19,10,5  +13A      next
@@ -2575,6 +2596,88 @@ Note: 3 oil changes, saved after each race but never reloaded
  549 Cr13,349,577  34.8%  A:4039 B:6827/87/68/65(n/c)   137cars
  549 power off
 
+July 17, 2021
+ 549 +1 buy car GTiCup  Volkswagen Lupo GTi Cup Car (J) '03 (green,#17) (Cr50,000,new)
+ 550 select car GTiCup  Volkswagen Lupo GTi Cup Car (J) '03 (green,#17)
+ 550  buy parts GTiCup    SRmuff Rmuff Cr2950 Cr4900  N2O Cr5000
+ 550  buy parts GTiCup    NA1,NA2,NA3  Cr5000 Cr13,500 Cr80,000
+ 550  buy parts GTiCup    LSDF  Cr6800
+ 550  buy parts GTiCup    TS1,TS2   Cr4900 Cr14,000
+ 550  buy parts GTiCup    T-N1 T-N2 T-N3   Cr0
+ 550  buy parts GTiCup    T-S1 T-S2 T-S3   Cr5500 Cr6500 Cr7400
+ 550 Cr13,130,127  34.8%  A:4039 B:6827/87/68/65        138cars
+ 550 change oil GTiCup    135hp->142hp
+ 550 Cr13,130,077  34.8%  A:4039 B:6827/87/68/65        138cars
+ 550 +5   GTiCup  Mfr/Lupo   sw50to24,22,16,12,6  (DpsecS)     +129A    next
+Note: 2 tries Suzuka and Infineon
+ 555 +1 win car redGhia  Volkswagen Karmann Ghia Coupe (Type-1) '68  (Kirshrot)
+ 556 Cr13,180,077  35.8%  A:4168 B:6838/87/68/65(+11)        139cars
+ 556 power off
+ 556  buy parts GTiCup    3clu,Rfw  Cr4800 Cr1100
+ 556 Cr13,174,177  35.8%  A:4168 B:6838/87/68/65             139cars
+ 556 power off
+
+July 18, 2021
+Note: neglected to check Used Car Lots before or after previous and next events
+Note: Notes suggest there was nothing interesting.
+ 556    GTiCup  Mfr/GTI/Tsukuba        nq6th1st  4A         none
+ 557    GTiCup  Mfr/GTI/MidfieldR      nq6th1st  4A         none
+ 558    GTiCup  Mfr/GTI/DFRWii         nq6th1st  4A         none
+ 559    GTiCup  Mfr/GTI/Opera          nq6th1st  4A         none
+Note: reset power after each race
+ 560 Cr13,182,177  36.5%  A:4184 B:6838/87/68/65             139cars
+ 560 power off
+
+July 18, 2021
+ 560    GTiCup  Mfr/GTI/HKii           nq6th1st  4A         next
+ 561 +1 win car GTI'76   Volkswagen Golf I GTI '76 (Schwarz)
+ 562 Cr13,184,177  36.6%  A:4188 B:6838/87/68/65             140cars
+
+@
+
+
+1.111
+log
+@Did most of the GTI Cup set.   (N.B. diary does say "GTi").
+@
+text
+@d2050 5
+@
+
+
+1.110
+log
+@Finally got a little race in on July 17, 2021.
+Did the Lupo cup.  So so skill level.  Won a Karmann Ghia...
+@
+text
+@d2030 1
+a2030 1
+ 550 +5   GTiCup  Mfr/Lupo   sw50o24,22,16,12,6  (DpsecS)     +129A    next
+d2033 1
+a2033 1
+ 556 Cr13,180,077  34.8%  A:4168 B:6838/87/68/65(+11)        139cars
+d2035 14
+@
+
+
+1.109
+log
+@Fixed from paper notes apparent error in lineup description for a P/WC.
+@
+text
+@d2018 18
+@
+
+
+1.108
+log
+@Minor correction.  Price of "port polish" for redSkyline'67
+@
+text
+@d1779 1
+a1779 1
+Note: selected P/WC lineup  2000GT, Marcos, SkDelux, Sk'62
 @
 
 

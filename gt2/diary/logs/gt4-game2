@@ -1776,7 +1776,7 @@ Note: maybe gt4garage should accept "buy wheels"
  482 Cr11,578,260  34.1%  A:3889 B:6766/87/67/65        128cars
  482 power off
 
-Note: selected P/WC lineup  2000GT, Marcos, SkDelux, Sk'62
+Note: selected P/WC lineup  2000GT, Ginetta, Elan, SkDelux, Sk'62
 Note: I was prepared to reload as necessary,
 Note:   but notes indicate I swept it honestly.
  482 +5  whiteCelica'70 P/WC   q11N11,sw50to26,20,19,10,5  +13A      next
@@ -2014,4 +2014,41 @@ Note: 3 oil changes, saved after each race but never reloaded
  548 +1 win car AlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
  549 Cr13,349,577  34.8%  A:4039 B:6827/87/68/65(n/c)   137cars
  549 power off
+
+July 17, 2021
+ 549 +1 buy car GTiCup  Volkswagen Lupo GTi Cup Car (J) '03 (green,#17) (Cr50,000,new)
+ 550 select car GTiCup  Volkswagen Lupo GTi Cup Car (J) '03 (green,#17)
+ 550  buy parts GTiCup    SRmuff Rmuff Cr2950 Cr4900  N2O Cr5000
+ 550  buy parts GTiCup    NA1,NA2,NA3  Cr5000 Cr13,500 Cr80,000
+ 550  buy parts GTiCup    LSDF  Cr6800
+ 550  buy parts GTiCup    TS1,TS2   Cr4900 Cr14,000
+ 550  buy parts GTiCup    T-N1 T-N2 T-N3   Cr0
+ 550  buy parts GTiCup    T-S1 T-S2 T-S3   Cr5500 Cr6500 Cr7400
+ 550 Cr13,130,127  34.8%  A:4039 B:6827/87/68/65        138cars
+ 550 change oil GTiCup    135hp->142hp
+ 550 Cr13,130,077  34.8%  A:4039 B:6827/87/68/65        138cars
+ 550 +5   GTiCup  Mfr/Lupo   sw50to24,22,16,12,6  (DpsecS)     +129A    next
+Note: 2 tries Suzuka and Infineon
+ 555 +1 win car redGhia  Volkswagen Karmann Ghia Coupe (Type-1) '68  (Kirshrot)
+ 556 Cr13,180,077  35.8%  A:4168 B:6838/87/68/65(+11)        139cars
+ 556 power off
+ 556  buy parts GTiCup    3clu,Rfw  Cr4800 Cr1100
+ 556 Cr13,174,177  35.8%  A:4168 B:6838/87/68/65             139cars
+ 556 power off
+
+July 18, 2021
+Note: neglected to check Used Car Lots before or after previous and next events
+Note: Notes suggest there was nothing interesting.
+ 556    GTiCup  Mfr/GTI/Tsukuba        nq6th1st  4A         none
+ 557    GTiCup  Mfr/GTI/MidfieldR      nq6th1st  4A         none
+ 558    GTiCup  Mfr/GTI/DFRWii         nq6th1st  4A         none
+ 559    GTiCup  Mfr/GTI/Opera          nq6th1st  4A         none
+Note: reset power after each race
+ 560 Cr13,182,177  36.5%  A:4184 B:6838/87/68/65             139cars
+ 560 power off
+
+July 18, 2021
+ 560    GTiCup  Mfr/GTI/HKii           nq6th1st  4A         next
+ 561 +1 win car GTI'76   Volkswagen Golf I GTI '76 (Schwarz)
+ 562 Cr13,184,177  36.6%  A:4188 B:6838/87/68/65             140cars
 
