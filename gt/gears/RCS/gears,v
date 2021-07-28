@@ -1,31 +1,101 @@
-head	1.2;
+head	1.15;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
 
+1.15
+date	2016.09.13.22.41.19;	author arpepper;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2000.02.21.21.46.00;	author arpepper;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2000.02.21.20.41.50;	author arpepper;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2000.02.21.20.26.38;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2000.02.04.23.17.15;	author arpepper;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2000.02.04.21.30.45;	author arpepper;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2000.02.04.21.21.07;	author arpepper;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2000.02.04.01.15.20;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2000.02.04.00.57.53;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.02.03.23.27.47;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.02.03.00.51.55;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.02.02.23.36.51;	author arpepper;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.01.30.23.06.26;	author arpepper;	state Exp;
+branches;
+next	1.2;
+
 1.2
-date	2016.09.13.22.48.05;	author arpepper;	state Exp;
+date	2000.01.30.22.55.36;	author arpepper;	state Exp;
 branches;
 next	1.1;
 
 1.1
-date	2016.09.13.22.40.53;	author arpepper;	state Exp;
+date	2000.01.30.22.11.48;	author arpepper;	state Exp;
 branches;
 next	;
 
 
 desc
-@As used for years in xhier environment.
+@Early version, enough that I don't want to lose it.
 @
 
 
-1.2
+1.15
 log
 @Use real location for perl.
  
 Well, I guess we could have instead created /xhbin ...
+ 
+ 
+Old history was actually retrieved from CSCF.CS
+ 
+Actually checked in at   Wed Jul 28 12:47:40 EDT 2021
 @
 text
 @#!/usr/bin/perl -w
@@ -522,12 +592,485 @@ if ($main::output eq "web" && $main::intable) {
 @
 
 
-1.1
+1.14
 log
-@Initial revision
+@Added default steps for each value.
 @
 text
 @d1 1
 a1 1
 #!/xhbin/perl5 -w
+@
+
+
+1.13
+log
+@Force at least two values to be ranges.
+This makes Web output consistent, though a little silly.
+@
+text
+@d92 1
+a92 1
+	my($s) = @@_;
+d98 3
+d266 1
+a266 1
+				my(@@myrange) = &expand($myvalues[$i]);
+d275 1
+a275 1
+			my(@@myrange) = &expand($myvalues[$i]);
+d388 1
+@
+
+
+1.12
+log
+@Lots of changes, yipes.
+Mostly web output, which still has a bug.
+@
+text
+@d461 2
+d465 11
+@
+
+
+1.11
+log
+@Format improvements.
+Comments.
+@
+text
+@d136 2
+a137 2
+	my($fillpad);
+	my($centrepad) = int(((1 + $#range+1)*7 - length($title))/2);
+d140 2
+a141 1
+	if ($output eq "web") {
+d143 9
+a152 2
+	printf("%9.9s%*s%s\n","",$centrepad,"",$title);
+	printf("%9.9s","");
+d154 1
+a154 1
+		printf($main::format[$which1], $range[$i]);
+d158 16
+a173 10
+	$centrepad = int((1 + 9 - length($title))/2);
+	$centrepad = 0 if ($centrepad < 0);
+	$fillpad = 9-length($title)-$centrepad;
+	$fillpad = 0 if ($fillpad < 0);
+	printf("\n%*s%s%*s",$centrepad,"", $title, $fillpad,"");
+	$s = sprintf($main::format[$which1], 0.0);
+	$s =~ s/./-/g;
+	$s =~ s/^./ /;
+	for ($i = 0; $i <= $#range; ++$i) {
+		printf("%s", $s);
+d186 7
+d197 9
+a205 2
+			printf("%6s= " . $main::format[$i] . "\n",
+				$main::names[$i], $myvalues[$i]);
+d208 3
+d214 22
+d274 2
+a275 1
+				printf($main::format[$valuei]. ": ", $value);
+d279 1
+a279 1
+					printf($main::format[$i]. ": ", $v);
+d288 3
+d300 1
+a300 1
+			printf($main::format[$i], $x);
+d376 4
+d381 1
+a381 1
+$main::reorder_set = 0;
+d468 1
+d470 4
+@
+
+
+1.10
+log
+@Simple implementation of symbolic reorder list...
+@
+text
+@d126 5
+a130 1
+# &print_range($which,@@range);
+d133 1
+a133 1
+	my($which,@@range) = @@_;
+d135 4
+d140 4
+d146 1
+a146 1
+		printf($main::format[$which], $range[$i]);
+d148 8
+a155 2
+	printf("\n%9.9s","");
+	$s = sprintf($main::format[$which], 0.0);
+d172 1
+d180 1
+d189 1
+a189 1
+	my($rawi,$i,$f,$v,$x);
+d196 10
+d211 1
+a211 1
+				print_range($i,@@myrange);
+d249 4
+d274 1
+a274 7
+#   Currently string should consist of numbers 0..$#main::names,
+#   separated by commas.
+#
+#   We really should accept symbolic names for them instead...
+#
+#   And finally realized easiest way to do that is base it on order
+#    we see the parameters in!!!  (No good for web, though...)
+d304 1
+a304 1
+print "reorder = @@v\n";
+@
+
+
+1.9
+log
+@Added ability to reorder parameters.
+Cannot use order of parameters on commandline for the web, though...
+@
+text
+@d259 5
+a263 1
+		$v[$i] = 0 if (!defined($v[$i]));
+@
+
+
+1.8
+log
+@Fixed bug where floating point steps were not recognized.
+@
+text
+@d12 3
+d22 3
+d152 1
+a152 1
+	my($i,$f,$v,$x);
+d154 2
+a155 1
+	for ($i = 0; $i <= $#main::names; ++$i) {
+d169 1
+a169 1
+	my($i,$f,$v,$x);
+d177 2
+a178 1
+		for ( $i=$#main::names; $i >= 0; --$i) {
+d186 2
+a187 1
+	for ( $i=0; $i <= $#main::names; ++$i) {
+d208 2
+a209 1
+	for ( $i=0; $i <= $#main::names; ++$i) {
+d219 57
+a281 12
+#$x = &give_mph(144, 6000, 24.0, 0.9, 3.3);
+#printf("mph=%.1f\n", $x);
+#$x = &give_final(144, 6000, 24.0, 0.9, 3.3);
+#printf("final=%.3f\n", $x);
+#$x = &give_gear(144, 6000, 24.0, 0.9, 3.3);
+#printf("gear=%.3f\n", $x);
+#$x = &give_rpm(144, 6000, 24.0, 0.9, 3.3);
+#printf("rpm=%.0f\n", $x);
+#$x = &give_tire(144, 6000, 24.0, 0.9, 3.3);
+#printf("tire=%.2f\n", $x);
+
+@@main::solvers = (\&give_mph,\&give_rpm,\&give_tire,\&give_gear,\&give_final);
+a284 7
+#foreach $f ( @@solvers ) {
+#	my($x);
+#
+#	printf("%s:\n", $f);
+#	$x = &{$f}(@@vector);
+#	printf("%s=%.2f\n", $f, $x);
+#}
+d287 3
+d292 1
+d309 1
+d314 10
+a323 1
+	if ( $temp =~ /=/ ) {
+d327 6
+a332 7
+		for ( $i=0; $i <= $#main::names; ++$i) {
+			if ($main::names[$i] eq $param) {
+				$seen[$i] = &mytype($value);
+				$values[$i] = $value;
+				$vector[$i] = $value;
+				last;
+			}
+d334 1
+a334 1
+		if ($i > $#main::names) {
+d351 9
+a376 16
+
+
+#for ( $i=0; $i <= $#main::names; ++$i) {
+#	if ($seen[$i] == 0) {
+#		$f = $main::solvers[$i];
+#		$x = &{$f}(@@vector);
+#		printf("%s = %.3f\n", $main::names[$i], $x);
+#		last;
+#	}
+#}
+#if ($i > $#main::names) {
+#	&warn("Leave something for me to do!!!\n");
+#}
+#for ( $i=0; $i <= $#names; ++$i) {
+#	printf("%d:%s:%.3f\n",$seen[$i],$names[$i],$vector[$i]);
+#}
+@
+
+
+1.7
+log
+@This basically works, except for...
+
+headings...
+HTML...
+@
+text
+@d96 2
+a97 1
+			$step =~ s/\D//;
+d105 1
+@
+
+
+1.6
+log
+@Fixed big bug.  8-)
+@
+text
+@d28 1
+a28 1
+print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+d38 1
+a38 1
+print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+d48 1
+a48 1
+print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+d58 1
+a58 1
+print "give_mph($mph,$rpm,$tire,$gear,$final)\n";
+d68 1
+a68 1
+printf("give_tire($mph,$rpm,$tire,$gear,$final);\n");
+d113 1
+a113 1
+print("expand $s to @@v\n");
+d118 37
+a154 1
+# &solve(@@seen,@@values);
+d157 1
+a157 1
+	my(@@vector) = @@_;
+d163 13
+d179 3
+d183 3
+d188 4
+a191 1
+				&solve(@@myseen,@@myvalues);
+d193 1
+d201 1
+a201 1
+			printf("%s = %.3f\n", $main::names[$i], $x);
+a204 8
+#for ( $i=0; $i <= $#main::names; ++$i) {
+#	if ($seen[$i] == 0) {
+#		$f = $solvers[$i];
+#		$x = &{$f}(@@vector);
+#		printf("%s = %.3f\n", $main::names[$i], $x);
+#		last;
+#	}
+#}
+d237 2
+a238 1
+@@main::names = ("mph","rpm","tire","gear","final");
+d295 1
+a295 6
+#
+# Following is up wrong tree?
+#
+my(@@ranges) = ();
+my(@@consts) = ();
+my(@@unknowns) = ();
+d298 1
+a298 7
+		push @@ranges, $i;
+	}
+	elsif ($seen[$i] == 1) {
+		push @@consts, $i;
+	}
+	else {
+		push @@unknowns, $i;
+d302 2
+a303 1
+&solve(@@seen,@@values);
+@
+
+
+1.5
+log
+@Handles ranges, but doesn't tabulate output.
+@
+text
+@d113 2
+a114 1
+	@@v;
+a133 1
+				return;
+d135 1
+@
+
+
+1.4
+log
+@commented out debugging...
+Does the single solution case...
+@
+text
+@d28 1
+d38 1
+d48 1
+d58 1
+d68 1
+a68 1
+#printf("give_tire($mph,$rpm,$tire,$gear,$final);\n");
+d74 85
+d172 1
+a172 1
+my(@@solvers) = (\&give_mph,\&give_rpm,\&give_tire,\&give_gear,\&give_final);
+d185 15
+a199 1
+my(@@names) = ("mph","rpm","tire","gear","final");
+d201 1
+d210 4
+a213 3
+		for ( $i=0; $i <= $#names; ++$i) {
+			if ($names[$i] eq $param) {
+				$seen[$i] = 1;
+d218 1
+a218 1
+		if ($i > $#names) {
+d228 10
+d242 15
+a256 6
+for ( $i=0; $i <= $#names; ++$i) {
+	if ($seen[$i] == 0) {
+		$f = $solvers[$i];
+		$x = &{$f}(@@vector);
+		printf("%s = %.3f\n", $names[$i], $x);
+		last;
+d259 16
+a274 3
+if ($i > $#names) {
+	&warn("Leave something for me to do!!!\n");
+}
+@
+
+
+1.3
+log
+@Works for one equation, with lots of debuggin.
+@
+text
+@d21 2
+a22 2
+$main::wheel_const = 88;    # 336.X for circumference in feet
+$main::wheel_const = 336;    # 336.X for circumference in feet
+d64 1
+a64 1
+printf("give_tire($mph,$rpm,$tire,$gear,$final);\n");
+d72 10
+a81 10
+$x = &give_mph(144, 6000, 24.0, 0.9, 3.3);
+printf("mph=%.1f\n", $x);
+$x = &give_final(144, 6000, 24.0, 0.9, 3.3);
+printf("final=%.3f\n", $x);
+$x = &give_gear(144, 6000, 24.0, 0.9, 3.3);
+printf("gear=%.3f\n", $x);
+$x = &give_rpm(144, 6000, 24.0, 0.9, 3.3);
+printf("rpm=%.0f\n", $x);
+$x = &give_tire(144, 6000, 24.0, 0.9, 3.3);
+printf("tire=%.2f\n", $x);
+d87 7
+a93 7
+foreach $f ( @@solvers ) {
+	my($x);
+
+	printf("%s:\n", $f);
+	$x = &{$f}(@@vector);
+	printf("%s=%.2f\n", $f, $x);
+}
+d123 3
+a125 3
+for ( $i=0; $i <= $#names; ++$i) {
+	printf("%d:%s:%.3f\n",$seen[$i],$names[$i],$vector[$i]);
+}
+d138 3
+a140 3
+for ( $i=0; $i <= $#names; ++$i) {
+	printf("%d:%s:%.3f\n",$seen[$i],$names[$i],$vector[$i]);
+}
+@
+
+
+1.2
+log
+@An almost working single equation version...
+@
+text
+@d64 1
+d83 1
+a83 1
+my(@@solvers) = (\&give_mph,\&give_final,\&give_gear,\&give_rpm,\&give_tire);
+d96 1
+a96 1
+my(@@names) = ("mph","final","gear","rpm","tire");
+d137 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 8
+d21 2
+a22 2
+$wheel_const = 88;    # 336.X for circumference in feet
+$wheel_const = 336;    # 336.X for circumference in feet
+d29 1
+a29 1
+	$mph *= $tire / $wheel_const;
+d38 1
+a38 1
+	$final *= $tire / $wheel_const;
+d47 1
+a47 1
+	$gear *= $tire / $wheel_const;
+d55 1
+a55 1
+	$rpm = $mph * $final * $gear * $wheel_const;
+d64 1
+a64 1
+	$tire = $mph * $final * $gear * $wheel_const;
+d69 2
+d81 56
 @
