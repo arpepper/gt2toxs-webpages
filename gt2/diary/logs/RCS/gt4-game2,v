@@ -1,10 +1,19 @@
-head	1.112;
+head	1.114;
 access;
 symbols;
-locks
-	arpepper:1.112; strict;
+locks; strict;
 comment	@# @;
 
+
+1.114
+date	2021.09.05.10.14.52;	author arpepper;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2021.08.31.20.45.21;	author arpepper;	state Exp;
+branches;
+next	1.112;
 
 1.112
 date	2021.07.19.00.50.01;	author arpepper;	state Exp;
@@ -573,10 +582,9 @@ Use ======================== markers to track update.
 @
 
 
-1.112
+1.114
 log
-@Finished Mfr/GTI.
-July 18, 2021  day 562
+@A slightly better silver run of S16 (Nurburgring).
 @
 text
 @
@@ -2632,7 +2640,38 @@ July 18, 2021
  560    GTiCup  Mfr/GTI/HKii           nq6th1st  4A         next
  561 +1 win car GTI'76   Volkswagen Golf I GTI '76 (Schwarz)
  562 Cr13,184,177  36.6%  A:4188 B:6838/87/68/65             140cars
+ 562 power off
 
+August 31, 2021
+
+Note: Basically only occasionally trying S16 for last 6 weeks...
+ 562 license S16 S  Nurburgring  7:29.889 -0.111S            none
+ 563 Cr13,184,177  36.6%  A:4188 B:6838/87/68/65    2G 17S 61B       140cars
+ 563 power off
+ 563 license S16 S  Nurburgring  7:28.858 -1.142S            none
+ 564 Cr13,184,177  36.6%  A:4188 B:6838/87/68/65    2G 17S 61B       140cars
+ 564 power off
+@
+
+
+1.113
+log
+@August 31, 2021 - day 562
+Silver on S16 license test (Nurburgring lap)
+@
+text
+@d2062 3
+@
+
+
+1.112
+log
+@Finished Mfr/GTI.
+July 18, 2021  day 562
+@
+text
+@d2054 1
+d2056 6
 @
 
 
