@@ -1,9 +1,20 @@
-head	1.114;
+head	1.116;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.116; strict;
 comment	@# @;
 
+
+1.116
+date	2021.10.27.18.14.07;	author arpepper;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2021.10.25.17.38.04;	author arpepper;	state Exp;
+branches;
+next	1.114;
 
 1.114
 date	2021.09.05.10.14.52;	author arpepper;	state Exp;
@@ -582,9 +593,10 @@ Use ======================== markers to track update.
 @
 
 
-1.114
+1.116
 log
-@A slightly better silver run of S16 (Nurburgring).
+@Win E/Nurb24 with [R]AMG'92 (also lost in unsaved game)
+Complete with a Bspec Race Monitor just before the finish.
 @
 text
 @
@@ -2651,6 +2663,77 @@ Note: Basically only occasionally trying S16 for last 6 weeks...
  563 license S16 S  Nurburgring  7:28.858 -1.142S            none
  564 Cr13,184,177  36.6%  A:4188 B:6838/87/68/65    2G 17S 61B       140cars
  564 power off
+
+October 25, 2021
+ 564 +1 buy car McLarenSLR Mercedes-Benz SLR McLaren '03 (Crystal Galaxit Silver) (Cr610,000,new)
+ 565  select car McLarenSLR
+ 565 Cr12,574,177  36.6%  A:4188 B:6838/87/68/65    2G 17S 61B       141cars
+
+ 565    McLarenSLR    Eu/B/HSRii   nq6th1st           4A           none
+ 566 power off
+ 566    McLarenSLR    Eu/B/Fuji90  nq6th1st           4A           none
+ 567 Cr12,594,177  37.0%  A:4196 B:6838/87/68/65    2G 17S 61B       141cars
+ 567 power off
+
+ 567    McLarenSLR    Eu/B/Tokyo   nq6th1st           4A           next
+ 568 power off
+ 568    McLarenSLR    Eu/B/Nurb    nq6th1st           4A           none
+ 569 Cr12,614,177  37.3%  A:4204 B:6838/87/68/65    2G 17S 61B       141cars
+ 569 power off
+Note: reset between events to get "standard" lineup
+
+Note: Bspec does better at Suzuka than I can (also at Nurb)
+
+ 569    McLarenSLR    Eu/B/Suzuka  nq6th1st           1A           none
+Note: I drove steady for first lap, but good car was trapped back in field
+ 570 +1 win car [R]AMG'92  AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
+ 571 Cr12,624,177  37.5%  A:4208 B:6838/87/68/65    2G 17S 61B       142cars
+ 571 power off
+
+October 25, 2021
+ 571 select car [R]AMG'92  AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
+ 571 buy parts [R]AMG'92  T-R1,T-R2,T-R4 Cr9000 Cr11,000 Cr35,500
+ 571 Cr12,568,677  37.5%  A:4208 B:6838/87/68/65    2G 17S 61B       142cars
+ 571 change oil [R]AMG'92   382hp -> 401hp
+Note: tried [R]AMG'92 in Nurb24, B+Aspec
+Note: Would have won, but stupidly ran out of fuel near the end
+Note:  when I tried Aspec with T-R1 tires.
+Note: Would be a hassle to create a "fresh" [R]AMG'92 so I reloaded.
+ 571 power off
+
+October 26, 2021
+ 571     [R]AMG'92     E/Nurb24     nq6th1st(B+A)               next
+ 572 +1 win car redFGT   Formula Gran Turismo '04 (red)
+Note:  Race Monitor                           24:00:38                 Lap 190
+Note:                                           Time     Diff.   L  P    Best
+Note:  Mercedes 190E EvoIII Touring Car '92    7:49.195       |190|53| 7:16.657
+Note:  Opel Calibra Touring Car'94             7:29.551   6:35|190|35| 7:27.308
+Note:  Mercedes 190E EvoIII Touring Car '92    8:02.591  2laps|188|31| 7:33.146
+Note:  Toyota SUPERAUTOBACS APEX MR-S(JGTC)'00 7:49.219  8laps|182|25| 7:48.087
+Note:  CUSCO SUBARU ADVAN IMPREZA (JGTC) '03   7:52.165  9laps|180|24| 7:50.661
+Note:  SPOON S2000 Race Car '00                8:55.076 21laps|169|21| 8:24.960
+ 573 Cr13,768,627  37.5%  A:4208 B:6838/87/68/65    2G 17S 61B       143cars
+ 573 power off
+
+
+@
+
+
+1.115
+log
+@Buy stock SLR McLaren, enter Eu/B and win [R]AMG'92
+@
+text
+@d2091 27
+@
+
+
+1.114
+log
+@A slightly better silver run of S16 (Nurburgring).
+@
+text
+@d2065 26
 @
 
 
