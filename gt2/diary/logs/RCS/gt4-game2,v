@@ -1,10 +1,15 @@
-head	1.117;
+head	1.118;
 access;
 symbols;
 locks
-	arpepper:1.117; strict;
+	arpepper:1.118; strict;
 comment	@# @;
 
+
+1.118
+date	2021.12.02.06.22.27;	author arpepper;	state Exp;
+branches;
+next	1.117;
 
 1.117
 date	2021.11.22.23.11.37;	author arpepper;	state Exp;
@@ -598,12 +603,9 @@ Use ======================== markers to track update.
 @
 
 
-1.117
+1.118
 log
-@Buy a Mercedes-Benz 190E 2,5 - 16 Evolution II '91.
-I do not believe I ever (permanently) bought that before.
-It's not clear how useful it is, but it does allow using it
-in Arcade Time Trials.
+@Got IA15 silver (Mercedes-Benz @@ Nurb).
 @
 text
 @
@@ -2730,6 +2732,25 @@ November 21, 2021
  574 Cr13,688,817  37.5%  A:4208 B:6838/87/68/65    2G 17S 61B       144cars
  574 power off
 
+December 1, 2021
+Note: In previous days about 5 complete IA15 laps, many offs
+ 574     license IA15   S  MB190E2.5@@Nurb  9:16.883  -6.117S
+ 575 Cr13,688,817  37.5%  A:4208 B:6838/87/68/65    2G 18S 60B       144cars
+Note: This days, 3 complete laps, perhaps 10 offs, maybe much fewer
+ 575 power off
+
+@
+
+
+1.117
+log
+@Buy a Mercedes-Benz 190E 2,5 - 16 Evolution II '91.
+I do not believe I ever (permanently) bought that before.
+It's not clear how useful it is, but it does allow using it
+in Arcade Time Trials.
+@
+text
+@d2125 7
 @
 
 
