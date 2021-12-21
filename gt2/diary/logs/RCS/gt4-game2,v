@@ -1,10 +1,20 @@
-head	1.118;
+head	1.120;
 access;
 symbols;
 locks
-	arpepper:1.118; strict;
+	arpepper:1.120; strict;
 comment	@# @;
 
+
+1.120
+date	2021.12.21.02.22.56;	author arpepper;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2021.12.18.19.14.24;	author arpepper;	state Exp;
+branches;
+next	1.118;
 
 1.118
 date	2021.12.02.06.22.27;	author arpepper;	state Exp;
@@ -603,9 +613,12 @@ Use ======================== markers to track update.
 @
 
 
-1.118
+1.120
 log
-@Got IA15 silver (Mercedes-Benz @@ Nurb).
+@Dec 18 to 19, 2021
+days 575 to 580
+orangeGalant'70 wins Eu/MM, including Aspec Nurburgring
+helps for IA15, but no gold yet...
 @
 text
 @
@@ -617,7 +630,7 @@ February 15, 2021
    2     license B2 B  Mitsubishi 3000GT  11.564   1 try
    3     license B3 B  Prelude@@DFRW  33.164   several tries
    4     license B4 B  Silvia@@DFRW   30.984   1 try
-   5     license B5 B  Mini@@Tsukuba B  1:35,630  1 try
+   5     license B5 B  Mini@@Tsukuba B  1:35.630  1 try
    6     license B6 B  Megane       24.998  2 tries
    7     license B7 S  Viper        27.749  5 tries
    8     license B8 B  Miata@@Motegi   16.162   1try
@@ -659,7 +672,7 @@ Note: Track  Opera Paris  unlocked
 
 February 18, 2021
   29     license A10  B  IntegraTypeR@@Suzuka  2:58.161, 3:04.161 3:00.213 +about 5
-  30     license A11  B  LanciaHF@@GrandC  13,887   -0.113  about 15tries
+  30     license A11  B  LanciaHF@@GrandC  13.887   -0.113  about 15tries
   31     license A12  B  SubaruSTi@@TahitiMaze  32.668 -0.102  about 10 tries
   32     license A13  B  VspecII@@TM   47.256 -1.004  1st try
   33     license A14  B  AudiTT@@Nurb  36.047  -0.443   about 4 tries
@@ -673,7 +686,7 @@ Note: A license acquired
 
 February 18, 2021
   37     license IB1   B Tiburon@@Tsukuba   15.557  -0.013   1 try
-  38     license IB2   B MBSL500@@Nurb   26,969 -0.331,  29.446 27.721 +4 offs
+  38     license IB2   B MBSL500@@Nurb   26.969 -0.331,  29.446 27.721 +4 offs
   39     license IB3   B PreludeS@@Suzuka  29.074 -1.256  
   40     license IB4   B AudiS4@@DFRW  30.461  -0.219  3 tries
   41     license IB5   B Peugeot206@@Amalfia  2:59.217  -3.283(!)  1try(!)
@@ -713,11 +726,11 @@ February 24, 2021
 
 Note: Track  Special Stage Route 5  unlocked
 
-  57     license IA2  B  AlfaSpider@@Suzuka  57,364 -0.636 about 6 tries after practice
+  57     license IA2  B  AlfaSpider@@Suzuka  57.364 -0.636 about 6 tries after practice
   58     license IA3  B  GTR34@@Fuji'90  18.626 -0.174 first after practice
-  59     license IA4  B  FPV'94@@Apricot  35,536 -0.464  2nd clean after practice
-  60     license IA5  B  SeatIbizaCupra@@ElC  2:41,840 -1.140 first try
-  61     license IA1  B  JagXJ220@@Midfield  34,993 -0,687 3or4 tries after practice
+  59     license IA4  B  FPV'94@@Apricot  35.536 -0.464  2nd clean after practice
+  60     license IA5  B  SeatIbizaCupra@@ElC  2:41.840 -1.140 first try
+  61     license IA1  B  JagXJ220@@Midfield  34.993 -0.687 3or4 tries after practice
   62     license IA6  B  S2000TypeV@@Autumn  33.416 -0.184 about 7
   63     license IA7  B  RUFYellowbird@@TM 36.540 -0.460 about 4 tries
   64     license IA8  B  Alfa156@@HK  1:12.096 -2.804  2 tries
@@ -735,7 +748,7 @@ Note: Track  Suzuka Circuit  unlocked
 
 
 February 24, 2021
-  71     license IA15(!)  B  MB190E2.5@@Nurb  9:52.678 -7,322  1off 1try!
+  71     license IA15(!)  B  MB190E2.5@@Nurb  9:52.678 -7.322  1off 1try!
   72     license IA16  B R92CP@@Sarthe  1:52.160 -0.140  2 clean, many offs
 Note: IA license acquired
   73 +1 win car 270R  Nismo 270R'94 (prize,IAlicenseB)
@@ -805,7 +818,7 @@ March 8, 2021
   90 Cr311,159   1.0%   A:1015 B:0  IAlicense  0G 3S 66B 6cars
   90  license S6 B  Hyundai@@IceArena 1:00.314 -0.585  3 finishes
   91 Cr311,159   1.0%   A:1015 B:0  IAlicense  0G 3S 67B 6cars
-  91  license S7 B  McLarenSLR@@TM  1:37,640 -0.660  3 finishes
+  91  license S7 B  McLarenSLR@@TM  1:37.640 -0.660  3 finishes
   92 Cr311,159   1.0%   A:1015 B:0  IAlicense  0G 3S 68B 6cars
   92 power off
 Note: reconnoiter Tokyo (S8)
@@ -1143,7 +1156,7 @@ March 31, 2021
 
 Note: Track  Suzuka Circuit West Course  unlocked
 
- 128    RSC'02    SC/Easy/AmalfiR  nq2nd 1st 4:51.013 -6,374 0pts  Cr5,000 none
+ 128    RSC'02    SC/Easy/AmalfiR  nq2nd 1st 4:51.013 -6.374 0pts  Cr5,000 none
 Note: Lancia Delta HF Integrale '91 again
  129    RSC'02    SC/Easy/Amalfi   nq2nd 1st 4:24.206 ->20secs  Cr5,000 next
 Note: beat Celica GT-Four
@@ -2736,9 +2749,97 @@ December 1, 2021
 Note: In previous days about 5 complete IA15 laps, many offs
  574     license IA15   S  MB190E2.5@@Nurb  9:16.883  -6.117S
  575 Cr13,688,817  37.5%  A:4208 B:6838/87/68/65    2G 18S 60B       144cars
-Note: This days, 3 complete laps, perhaps 10 offs, maybe much fewer
+Note: This day, 3 complete laps, perhaps 10 offs, maybe much fewer
  575 power off
+Note: In previous days about 5 complete IA15 laps, many offs
 
+December 12, 2021
+Note:    license IA15   S  MB190E2.5@@Nurb  9:12.293
+December 15, 2021
+Note:    license IA15   S  MB190E2.5@@Nurb  9:11.081  +8.481G
+
+December 18, 2021
+ 575 select car orangeGalant'70  Mitsubishi Galant (Colt) GTO MR '70
+ 575  buy parts orangeGalant'70   SpMuff SRmuff Rmuff Cr1500 Cr2800 Cr4500
+ 575  buy parts orangeGalant'70   Rbr Bctlr  Cr4500 Cr10,000
+ 575  buy parts orangeGalant'70   chip  Cr1000   TS1,TS2  Cr4500 Cr12,500
+ 575  buy parts orangeGalant'70   Rtrans 3clu Cr10,000 Cr4500 Rfw Cr900
+ 575  buy parts orangeGalant'70   shaft LSDF  Cr2500 Cr6000  Rsusp Cr15,000
+ 575  buy parts orangeGalant'70   T-N   Cr0
+ 575  buy parts orangeGalant'70   T-S1 T-S3   Cr4100 Cr5600
+ 575  buy parts orangeGalant'70   T-DT T-SN   Cr22,000 Cr22,000
+ 575  mod car   orangeGalant'70    WR1 WR2 WR3   Cr1000 Cr5000 Cr20,000
+                                 980-950-921-891
+ 575  mod car   orangeGalant'70   refresh Cr50,000
+Note: no oil change
+ 575 Cr13,389,917  37.5%  A:4208 B:6838/87/68/65    2G 18S 60B       144cars
+
+ 575 +4  orangeGalant'70 Eu/MM  q1111sw40to24,14,12,10,4 (ABBB) +9-5A     next
+Note: Started practicing Nurb, but decided I could win...
+Note: Aspec Nurb, oil change before others Bspec
+Note: Nurb      4:00:59.516    9:15.688 -2:56   A.S. 10  T-N1 => T-N3
+Note: Opera     2:48:24.894(B) 1:35.981 5laps   A.S. 10  T-S3 => T-S1 (+pace 2)
+Note: Cote      3:25:11.746(B) 2:01.260 8laps   A.S. 10  T-S3
+Note: SartheII  2:58:35.991(B) 4:58.257 2laps   A.S. 10  T-N1
+Note:  Mitsubishi GALANT GTO MR'70    6 + 6 + 6 + 6 = 24
+Note:  Mini Marcos GT '70             4 + 2 + 4 + 4 = 14
+Note:  VW Karmann Ghia Coupe '68      3 + 4 + 3 + 2 = 12
+Note:  Honda S800 '66?                2 + 3 + 2 + 3 = 10
+Note:  Fiat 500F'65                   1 + 1 + 1 + 1 =  4
+ 579 +1 win car AlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bianco Gardenia)
+ 580 Cr14,289,767  37.5%  A:4212 B:6838/87/68/65    2G 18S 60B       145cars
+
+December 19, 2021
+Note:    license IA15   S  MB190E2.5@@Nurb  9:08.859  +6.259G
+Note:    license IA15   S  MB190E2.5@@Nurb  9:07.653  +5.053G
+@
+
+
+1.119
+log
+@Added IA15 license test notes, and changes a lot of commas to periuds.
+@
+text
+@d2137 35
+@
+
+
+1.118
+log
+@Got IA15 silver (Mercedes-Benz @@ Nurb).
+@
+text
+@d10 1
+a10 1
+   5     license B5 B  Mini@@Tsukuba B  1:35,630  1 try
+d52 1
+a52 1
+  30     license A11  B  LanciaHF@@GrandC  13,887   -0.113  about 15tries
+d66 1
+a66 1
+  38     license IB2   B MBSL500@@Nurb   26,969 -0.331,  29.446 27.721 +4 offs
+d106 1
+a106 1
+  57     license IA2  B  AlfaSpider@@Suzuka  57,364 -0.636 about 6 tries after practice
+d108 3
+a110 3
+  59     license IA4  B  FPV'94@@Apricot  35,536 -0.464  2nd clean after practice
+  60     license IA5  B  SeatIbizaCupra@@ElC  2:41,840 -1.140 first try
+  61     license IA1  B  JagXJ220@@Midfield  34,993 -0,687 3or4 tries after practice
+d128 1
+a128 1
+  71     license IA15(!)  B  MB190E2.5@@Nurb  9:52.678 -7,322  1off 1try!
+d198 1
+a198 1
+  91  license S7 B  McLarenSLR@@TM  1:37,640 -0.660  3 finishes
+d536 1
+a536 1
+ 128    RSC'02    SC/Easy/AmalfiR  nq2nd 1st 4:51.013 -6,374 0pts  Cr5,000 none
+d2129 1
+a2129 1
+Note: This days, 3 complete laps, perhaps 10 offs, maybe much fewer
+d2131 1
+d2133 4
 @
 
 
