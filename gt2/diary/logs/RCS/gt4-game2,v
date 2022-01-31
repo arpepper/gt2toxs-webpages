@@ -1,10 +1,20 @@
-head	1.122;
+head	1.124;
 access;
 symbols;
 locks
-	arpepper:1.122; strict;
+	arpepper:1.124; strict;
 comment	@# @;
 
+
+1.124
+date	2022.01.31.18.57.02;	author arpepper;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2022.01.30.17.35.37;	author arpepper;	state Exp;
+branches;
+next	1.122;
 
 1.122
 date	2022.01.04.18.21.01;	author arpepper;	state Exp;
@@ -623,11 +633,9 @@ Use ======================== markers to track update.
 @
 
 
-1.122
+1.124
 log
-@Non-saved IA-15 license test attempts.
-And then finally the Gold run after trying for much of the
-Christmas 2021 holidays.
+@January 20, 2022   days 590 to 603  GTR'89 at J/80s and Mfr/Red.
 @
 text
 @
@@ -2831,6 +2839,87 @@ Note: (But I had lots of offs, and a couple of slow runs before...)
  581     license IA15   G  MB190E2.5@@Nurb  9:00.622  -1.978G
  582 Cr14,439,767  37.5%  A:4219 B:6838/87/68/65    3G 17S 60B       145cars
  582 power off
+
+January 30, 2022
+Note: power off  is sort of meaningless now; I often reset between races
+Note: Now it sort of indicates the end of a gaming session
+ 582 orangeGalant'70  J/70s/Fuji80  nq6th1st NA1+,S3           Cr2000  8A  none
+ 583 orangeGalant'70  J/70s/Fuji80  nq6th1st NA0+,S3         Cr2000 10-8A  none
+ 584 orangeGalant'70  J/70s/Fuji80  nq6th1st chip,S3/S1      Cr2000 40-10A none
+ 585 Cr14,445,767  37.6%  A:4259 B:6838/87/68/65    3G 17S 60B       145cars
+ 585 orangeGalant'70  J/70s/Tsukuba  nq6th1st chip+Rmuff,S3/S1 Cr2000 27A  none
+ 586 orangeGalant'70  J/70s/TM      nq6th1st S3/S1            Cr2000  51A  none
+ 587 orangeGalant'70  J/70s/AMii    nq6th1st S3/S3chip+Rmuff  Cr2000  10A  none
+ 588 orangeGalant'70  J/70s/MotorlandR nq6th1st chip+Rmuff,S3/1 Cr2000 10A next
+ 589 +1 win car whiteSkyline'70  Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (White)
+ 590 Cr14,445,767  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       146cars
+
+ 590 +1 buy car redGTR'89  Nissan Skyline GT-R (R32) '89 (Red Pearl Mica) (Cr15,574,used)
+ 591 Cr14,438,193  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       147cars
+
+ 591 select car redGTR'89  Nissan Skyline GT-R (R32) '89 (Red Pearl Mica) (Cr15,574,used)
+ 591  buy parts redGTR'89  T-N1 T-N2 T-N3  Cr0   T-S1,T-S3   Cr5100 Cr6800
+ 591  buy parts redGTR'89  T-R1  Cr8400
+ 591  buy parts redGTR'89  T-DT Cr22,500  T-SN Cr22,500
+ 591  buy parts redGTR'89  SpBr Bctlr  Cr4700 Cr10,600
+ 591  buy parts redGTR'89  Rtrans Cr10,400 3clu,Rfw Cr4700 Cr1050
+ 591  buy parts redGTR'89  shaft Cr3000  Rsusp Cr17,000
+ 591  buy parts redGTR'89  Smuff,SRmuff,Rmuff Cr1600, Cr2900, Cr4800
+ 591  buy parts redGTR'89  chip Cr1500
+ 591  buy parts redGTR'89  TS1,TS2,TS3  Cr4800 Cr13,500 Cr42,500
+ 591  buy parts redGTR'89  TS4 Cr80,000  Spic,Ric  Cr1800 Cr3000
+Note: no oil change
+ 591 Cr14,165,043  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       147cars
+
+ 591    redGTR'89  J/80s/Apricot  nq6th1st  Rtrans+             Cr3000 74A none
+Note:  2nd lineup HT2000RS'83,Trueno'83,SilviaK'88,CelicaGT4'86,City'83
+ 592 Cr14,168,043  38.5%  A:4431 B:6838/87/68/65    3G 17S 60B       147cars
+ 592    redGTR'89 J/80s/ElC  nq6th1st                           Cr3000 74A none
+Note: as previous (following also)
+ 593    redGTR'89 J/80s/Tsukuba  nq6th1st                       Cr3000 74A none
+ 594    redGTR'89 J/80s/CR5ii    nq6th1st                       Cr3000 74A none
+Note: practised about five tries, with different lineups
+ 595    redGTR'89 J/80s/Suzuka   nq6th1st                       Cr3000 74A next
+Note: almost a race; cheated a little on last chicane, but won on 1st try!
+ 596 +1 win car HSR-II'89  Mitsubishi HSR-II Concept '89
+ 597 Cr14,180,043  39.2%  A:4727 B:6838/87/68/65    3G 17S 60B       148cars
+
+Note: stock-ish redGTR'89 does well in Red Emblem races (except NY)
+ 597    redGTR'89 Mfr/Red/Fuji80 nq6th1st Ric,R1             Cr12000 113A none
+Note: first lineup
+ 598    redGTR'89 Mfr/Red/TMii   nq6th1st Ric,R1             Cr12000 109A none
+Note: second lineup (beat Mspec)
+ 599    redGTR'89 Mfr/Red/Motegi nq6th1st Rmuff,chip,Ric,R1  Cr12000  47A none
+Note: harder; 3 tries could not do much more Aspec (is 10 laps!)
+ 600    redGTR'89 Mfr/Red/NYii   nq6th1st TS2,chip,Ric,R1    Cr12000  13A none
+Note: I had real problems with previous; I'd forgotten much of the track
+ 601    redGTR'89 Mfr/Red/Suzuka nq6th1st Rmuff,chip,Ric,R1  Cr12000  47A next
+Note:several tries could not do much more Aspec
+ 602 +1 win car GTRLMroad  Nismo GT-R LM Road Going Version (silver)
+ 603 Cr14,240.043  40.0%  A:5056 B:6838/87/68/65    3G 17S 60B       149cars
+ 603 power off
+
+@
+
+
+1.123
+log
+@January 30, 2022  days 582-590  Galant'70 @@ J/70
+@
+text
+@d2204 2
+d2217 44
+@
+
+
+1.122
+log
+@Non-saved IA-15 license test attempts.
+And then finally the Gold run after trying for much of the
+Christmas 2021 holidays.
+@
+text
+@d2202 14
 @
 
 
