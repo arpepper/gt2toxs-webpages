@@ -2282,3 +2282,43 @@ Note:
  608 +1 win car [R]350Z'02   Nissan 350Z Concept LM Race Car '02
  609 Cr14,312,543  41.0%  A:5361 B:6851/87/68/65(+13/+0/+0/+1)   150cars
 
+February 6, 2022
+ 609 +1 buy car MR2'86  Toyota MR2 1600 G '86 (Sparkle Wave Toning) (Cr5918,Historic)
+ 610 +1 buy car MR2GL'86  Toyota MR2 1600 G-Limited SC '86 (Super Red II) (Cr7349,Historic)
+ 611 Cr14,306,625  41.0%  A:5361 B:6851/87/68/65(+13/+0/+0/+1)   152cars
+
+ 611 +1 buy car GlanzaV'97  Toyota Starlet Glanza V '97 (Bluish Silver Metallic) (Cr9294,UsedII)
+ 612 Cr14,289,982  41.0%  A:5361 B:6851/87/68/65(+13/+0/+0/+1)   153cars
+ 612 +1 buy car Impreza22B   Subaru Impreza Coupe 22B-STi '98  (Sonic Blue Mica) (Cr32,499,UsedII)
+ 613 Cr14,257,483  41.0%  A:5361 B:6851/87/68/65(+13/+0/+0/+1)   154cars
+
+ 613 select car MR2'86  Toyota MR2 1600 G '86 (Sparkle Wave Toning)
+ 613  buy parts MR2'86  T-N1 T-N2 T-N3 Cr0
+ 613  buy parts MR2'86  T-S1 T-S3 Cr4600 Cr6200
+ 613  buy parts MR2'86  NA1,NA2,NA3  Cr4700,Cr12,000,Cr70,000
+ 613  buy parts MR2'86  chip  Cr1250
+ 613  buy parts MR2'86  SpMuff SRmuff Rmuff Cr1550 Cr2850 Cr4600
+ 613  buy parts MR2'86  SpBr Bctlr  Cr4600 Cr10,300
+ 613  buy parts MR2'86  Rtrans,3clu,Rfw  Cr10,200 Cr4600 Cr1000
+ 613  buy parts MR2'86  TS1 TS2  Cr4600 Cr13,000
+ 613  buy parts MR2'86  Rsusp  Cr16,000 
+ 613 Cr14,085,433  41.0%  A:5361 B:6851/87/68/65(+13/+0/+0/+1)   154cars
+
+Note: MR2'86 J/Compact/MotegiE q1st,1st  NA2+,$3       1:52.700  -6sec  9A none
+Note: MR2'86 J/Compact/AutumnR q1st,1st  NA1+,S2/$3    0:47.368 -10sec 24A none
+Note: MR2'86 J/Compact/Tsukuba q1st,1st NA1only,$1/S2 1:15.556 -0.7sec 56A none
+Note: MR2'86 J/Compact/DFRWii  q1st,1st  Rmf,chpS2/S3  1:44.527  -7sec 59A none
+Note: MR2'86 J/Compact/SuzukaE q1st,1st  NA2+,S1/S2   1:07.757 -4.5sec 68A next
+Note:
+Note: 1. Toyota MR2 1600 G '86                10 +10 +10 +10 +10 = 50
+Note: 2. Toyota Vitz RS Turbo '02              6 + 4 + 4 + 6 + 6 = 26
+Note: 3. Honda Fit W '01                       4 + 6 + 6 + 4 + 3 = 23
+Note: 4. Toyota Vitz F '99                     3 + 3 + 3 + 3 + 2 = 14
+Note: 5. Mitsubishi COLT 1.5 Spirit X Ver '02  2 + 2 + 2 + 2 + 4 = 12
+Note: 6. Mazda DEMIO Sport '03                 1 + 1 + 1 + 1 + 1 =  5
+
+ 613 +5  MR2'86    J/Compact  sw50to26,23,14,12,5              216A     next
+ 618 +1 win car Life'72  Honda Life Step Van '72 (Epoch White)
+ 619 Cr14,110,433  42.1%  A:5577 B:6851/87/68/65(+13/+0/+0/+1)   155cars
+ 619 power off
+
