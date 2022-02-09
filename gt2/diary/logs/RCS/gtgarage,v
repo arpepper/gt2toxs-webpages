@@ -1,0 +1,71 @@
+head	1.2;
+access;
+symbols;
+locks
+	arpepper:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2022.02.09.15.35.49;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2021.06.30.22.08.00;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Crude cover to let me easily test logs before I have either
+modified them all to include gtN-racedefs, or kludged gt4garage
+to heuristically do the appropriate include.
+@
+
+
+1.2
+log
+@Looks like I arranged for ARRI to be recognized by gt4garage
+@
+text
+@#!/usr/bin/perl -w
+
+$w="show=warn,garage";
+if ($ARGV[0] =~ /^show=/) {
+	$w=$ARGV[0];
+	shift;
+}
+
+foreach $a (@@ARGV) {
+	if ( $a =~ /^gt4/ ) {
+		system("./gt4garage $w $a");
+	}
+	elsif ($a =~ /^gt3/ ) {
+		system("./gt4garage $w $a");
+	}
+	elsif ($a =~ /^gt2/ ) {
+		# Really want to check for "include" or possibly "setvar"
+		system("cat gt2-racedefs $a | ./gt4garage  $w /dev/stdin");
+	}
+	elsif ($a =~ /^ARRI/ ) {
+		# Really want to check for "include" or possibly "setvar"
+		system("./gt4garage $w $a");
+	}
+	else {
+		system("cat gt1-racedefs $a | ./gt4garage  $w /dev/stdin");
+	}
+}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d22 1
+a22 1
+		system("cat ARRI-racedefs $a | ./gt4garage  $w /dev/stdin");
+@

@@ -1,0 +1,28 @@
+#!/usr/bin/perl -w
+
+$w="show=warn,garage";
+if ($ARGV[0] =~ /^show=/) {
+	$w=$ARGV[0];
+	shift;
+}
+
+foreach $a (@ARGV) {
+	if ( $a =~ /^gt4/ ) {
+		system("./gt4garage $w $a");
+	}
+	elsif ($a =~ /^gt3/ ) {
+		system("./gt4garage $w $a");
+	}
+	elsif ($a =~ /^gt2/ ) {
+		# Really want to check for "include" or possibly "setvar"
+		system("cat gt2-racedefs $a | ./gt4garage  $w /dev/stdin");
+	}
+	elsif ($a =~ /^ARRI/ ) {
+		# Really want to check for "include" or possibly "setvar"
+		system("./gt4garage $w $a");
+	}
+	else {
+		system("cat gt1-racedefs $a | ./gt4garage  $w /dev/stdin");
+	}
+}
+
