@@ -1,9 +1,14 @@
-head	1.6;
+head	1.7;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.7
+date	2022.02.13.13.52.50;	author arpepper;	state Exp;
+branches;
+next	1.6;
 
 1.6
 date	2003.04.06.19.24.27;	author arpepper;	state Exp;
@@ -41,12 +46,9 @@ desc
 @
 
 
-1.6
+1.7
 log
-@Corrected prize error previously masked by the "MA70 looks like a license
-test" bug.
-It seems we must have had a previously unnoticed extra car in our garage,
-also.
+@Delete accidentally retained copied line so as to pass show=audit.
 @
 text
 @April 29, 2001
@@ -222,8 +224,20 @@ May 11, 2001
   121  Cr1,445,010
  121-125  Impreza'94WG  GTC  q6*T2,1st33to20,19,16,8,6     ChaserLM(dup)(sold)
   126  Cr1,507,010  Cr1,519,010
-  126  Cr1,427,510  Cr1,439,510
   126  power off
+@
+
+
+1.6
+log
+@Corrected prize error previously masked by the "MA70 looks like a license
+test" bug.
+It seems we must have had a previously unnoticed extra car in our garage,
+also.
+@
+text
+@a173 1
+  126  Cr1,427,510  Cr1,439,510
 @
 
 

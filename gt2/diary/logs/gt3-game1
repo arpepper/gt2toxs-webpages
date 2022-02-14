@@ -204,7 +204,7 @@ May 21, 2002
   96   Cr9,350
   96      Miata  B/80s/Seattleii       q2nd1st       none
   97   Cr11,850
-  97   perm mod Miata WR1  (Cr1,000  980kg -> 950kg  8-( )
+  97   perm mod Miata WR1  (Cr1,000)  (980kg -> 950kg  8-( )
   97      Miata  B/Turbo/SSR11         q2nd2nd       8-(
   98   Cr13,350
   98   select car Miata
@@ -240,7 +240,8 @@ May 24, 2002
  105      Miata  A/Turbo/Test          q1st1st      none
  106   Cr24,700
  106      Miata  A/Turbo/GV            q6th6th      8-(
- 107   Cr24,700
+# Note: sixth place does get zero...
+ 107   Cr24,800
  107   buy parts Miata  Rmuff,chip (Cr4,500, Cr1,000)
  107   fit parts Miata  Rmuff,chip
  107   Cr19,200
@@ -598,10 +599,10 @@ June 09, 2002
 
  178   select car Viper
  178   buy parts Viper  T6/T6   (Cr27,750)
- 178   Cr270,030
+ 178   Cr290,030
  178   fit parts Viper  T6/T6
  178   change oil  Viper
- 178   Cr287,780
+ 178   Cr289,780
  178      Viper  A/US/Seattle       q6th3rd         8-(
  179   Cr291,780
  179   buy parts Viper  T8/T8,3clu,Rfw  (Cr47,750, Cr4,800, Cr1,100)
@@ -629,7 +630,7 @@ June 11, 2002
  186      Viper      A/S+S/Seattleii  nq6th1st      [R]SpoonS2000
  187   Cr287,080  40cars  37.9%  3,854.9mi
  187   change oil  Viper
- 187   Cr285,830
+ 187   Cr286,830
  187   buy parts Viper  T2/T2  (Cr10,750)
  187   fit parts Viper  T2/T2
  187   Cr276,080
@@ -1316,7 +1317,8 @@ August 14, 2002
  328   change oil  [R]RX7LM       572hp -> 600hp
  328   Cr6,118,400
  328      [R]RX7LM     A/Dream  1st70to33,28,20,19,12  blue[R]RX7LM(dup)(sold)
- 329   Cr6,443,400  Cr6,630,900  (Cr187,500) 14,996.1mi  (Cr150,000 bonus)
+ 329   Cr6,443,400  Cr6,630,900
+Note:  (Cr187,500) 14,996.1mi  (Cr150,000 bonus)
  329   power off
 
 August 15, 2002
@@ -1554,9 +1556,9 @@ Sept 14, 2002
  362      yellowF094/S     E/Mistral        q1st1st  silver[R]FTOLM
  363   Cr5,237,120  116cars  S/R  96.3%  23,602.9km
  363   change oil  yellowF094/S  788hp -> 813hp
- 363   Cr5,237,870
+ 363   Cr5,237,070
  363   wash car yellowF094/S
- 363   Cr5,237,820
+ 363   Cr5,236,820
  363   power off
  
 Sept 15, 2002
@@ -1975,11 +1977,12 @@ February 14, 2005
 February 17, 2005
  415      SLK230   A/Euro  sw50to28,22,14,8,8           blueMini(dup)
  416   Cr5,090,890                          Tahiti Blue Mini Cooper 1.3i
- 416   power off     Cr5,033,390   146cars   7G 1S 41B
+ 416   power off     Cr5,090,890   146cars   7G 1S 41B
 
 February 19, 2005
  416      SLK230  A/DTM/Midfield       q3rd1st      none
  417   Cr5,100,890
+ 417   change oil  SLK230        414hp -> 423hp
  417   change oil  SLK230        414hp -> 423hp (twice, oops)
  417   Cr5,100,390
  417   buy parts SLK230      Bctlr (Cr10600) (?)

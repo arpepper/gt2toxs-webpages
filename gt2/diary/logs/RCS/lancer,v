@@ -1,9 +1,14 @@
-head	1.11;
+head	1.12;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.12
+date	2022.02.13.18.00.35;	author arpepper;	state Exp;
+branches;
+next	1.11;
 
 1.11
 date	2021.06.30.20.49.54;	author arpepper;	state Exp;
@@ -67,10 +72,12 @@ Not much to go...
 @
 
 
-1.11
+1.12
 log
-@Correct car count error found by gt4garage.
-But the rest of the pasted line might have incorrect credits.
+@Guess at what an audit-detected incorrect total was.
+
+And I really do not know what the obvious Game Shark inspections
+are all about!
 @
 text
 @
@@ -309,7 +316,8 @@ Note:  800C4C70   B4 E7 01 00  124852  +41
 Note:  8009B8F0   6B FA 01 00  129643  +4791(+4832) had control, then lost
  176-179  orangeImpreza  Clubman 2nd21to(17),12,11,8,6               8-(
 Note:  800C4C70   CC FD 01 00  130508  +865
-  180  Cr2,526,660
+# 180  Cr2,526,660
+  180  Cr2,537,660
 Note:  8009B8F0   C4 05 02 00  132,548 +2040(+2905)
 
   180  mod car Corvette  buy S/S
@@ -412,6 +420,18 @@ Note:  8009B8F0   A6 0E 03 00
   252  power off
 
 Note: Back to GT2 for a while now...
+@
+
+
+1.11
+log
+@Correct car count error found by gt4garage.
+But the rest of the pasted line might have incorrect credits.
+@
+text
+@d237 2
+a238 1
+  180  Cr2,526,660
 @
 
 

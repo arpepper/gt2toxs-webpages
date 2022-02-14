@@ -6,6 +6,9 @@ setvar includesdone = 1
 Note: Following should be effective default, but for some GT1 and GT2 logs. 
 setvar commentspacecount = 9
 
+# Verified that A/Turbo gives Cr0 for 6th
+setvar minprizecredits = 0
+
 define league B
 define league A
 define league P

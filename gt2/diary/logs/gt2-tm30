@@ -225,9 +225,8 @@ February 10, 2000
   33   Cr1,382,253
 
    note: day30 GrandPrixMaroon240Z'71, whiteRS-X'84, redRS-X'84
-  33   buy car  240Z'71   Grand Prix White Datsun 240Z 240Zg(HS30)'71
-  33   buy car redSkyline'84 red Nissan Skyline Turbo RS-X (DR30)'84
-  33   -> Cr23,702, Cr7,123
+  33   buy car  240Z'71  Grand Prix White Datsun 240Z 240Zg(HS30)'71 (Cr23,702)
+  33   buy car redSkyline'84 red Nissan Skyline Turbo RS-X (DR30)'84 (Cr7,123)
   33   Cr1,351,428    35 cars
 
   33      whiteGT4'88   PureSports/Laguna   1st     redTom'sAngelT01
@@ -294,9 +293,9 @@ February 11, 2000
 note: colour claims to be "Jetliner silver metallic" but is green  (Cr3,740)
 note: no turbo uprgrades available, only "NA tune",  hmm...
 note: day50 redRX-7'83, redSkyline'84, whiteSkyline'71
-  54   buy car redRX7'83  red Mazda RX-7 GT-turbo'83
-  54   buy car whiteSkyline'71 white Nissan Skyline GT-R'71(KPGC10)
-  54   (Cr5,387) (Cr34,653) Cr1,379,698 (?)
+  54   buy car redRX7'83  red Mazda RX-7 GT-turbo'83 (Cr5,387)
+  54   buy car whiteSkyline'71 white Nissan Skyline GT-R'71(KPGC10) (Cr34,653)
+  54   Cr1,379,698 (?)
 
   54   mod car Starlet'82  S/S,SS/SS,WR2
   54      Starlet'82   LwtK/RomeS    1st             yellowMugenBeat(new)
@@ -413,10 +412,11 @@ note: S10(RomeN)(Kin6,Bin9)
   89   Cr1,053,182
 
   89      [R]DensoSupra   Stars/SSR5  1st  whiteMine'sSkylineR34GT-R
-  90   Cr1,053,182  78 cars
+  90   Cr1,103,182  78 cars
 note: day90 redGT4'88,redCelica'84,blueImpreza22B
   90   buy car redCelica'84  red two-tone Celica'84 -> (Cr5,844)
-  90   Cr1,103,896  79 cars
+# 90   Cr1,103,896  79 cars
+  90   Cr1,097,338  79 cars
 
   90      [R]DensoSupra   Stars/RedRock  1st         burgundySpeed12
   91   Cr1,153,896  80 cars
@@ -752,13 +752,14 @@ note: lost at Tahiti completely stock   8-(
  167   mod car  R34-2.5GT'98   SS/SS TS1
  167   Cr172,796
  167      R34-2.5GT'98        R34/SSR5ii          1st          none
+#168   Cr195,796
  168   Cr182,726
  168   sell car  Active Red Nissan R34 Skyline GT-turbo'98 -> (Cr7,282)
  168   Cr190,078    97 cars    71.30%
 
 
  168   buy car  March'89   Active Green Nissan March Super Turbo '89  -> (Cr3,337)
- 168   Cr195,796
+ 168   Cr186,741
  168   mod car  March'89   WR3,SS/SS,TS1
  168   Cr139,796
  168      March'89           March/RomeSii        1st          none

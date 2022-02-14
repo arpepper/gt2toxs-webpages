@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/xhbin/perl5
 
 sub
 sortsub {

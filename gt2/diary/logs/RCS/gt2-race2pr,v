@@ -1,10 +1,15 @@
-head	1.18;
+head	1.19;
 access;
 symbols;
 locks
-	arpepper:1.18; strict;
+	arpepper:1.19; strict;
 comment	@# @;
 
+
+1.19
+date	2022.02.13.17.52.04;	author arpepper;	state Exp;
+branches;
+next	1.18;
 
 1.18
 date	2021.06.30.21.55.11;	author arpepper;	state Exp;
@@ -102,10 +107,11 @@ desc
 @
 
 
-1.18
+1.19
 log
-@As with gt2-game1, I gave up and corrected sloppy mod/parts notation.
-Besides, gt4garage also found a car count correction which I have now fixed.
+@Fixed error detected by show=audit
+Sort of compromise between old-style -> annotation and back-calculation
+from the next win.
 @
 text
 @
@@ -1058,7 +1064,8 @@ January 17, 2000
  311   mod car redSupra1     < 295bhp parts, WR1 -> Cr18,904,716
  311   mod car whiteSupra2   < 295bhp parts, WR2 -> Cr18,756,716
 
- 311   Cr19,202,549   94 cars
+#311   Cr19,202,549   94 cars
+ 311   Cr18,756,216   94 cars
        note: did time trial tests with some of those cars at Trial Mountain
  311   power off
 
@@ -1342,6 +1349,18 @@ January 24, 2001
  316   buy car silverSpoonS2000  SilverStoneMetallicSpoonS2000(prize, Blicense)(trade)
  316   buy car whiteSpoonS2000  GrandPrixWhiteSpoonS2000(prize, Blicense)(trade)
  316   Cr8,535,099    65cars
+@
+
+
+1.18
+log
+@As with gt2-game1, I gave up and corrected sloppy mod/parts notation.
+Besides, gt4garage also found a car count correction which I have now fixed.
+@
+text
+@d951 2
+a952 1
+ 311   Cr19,202,549   94 cars
 @
 
 

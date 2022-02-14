@@ -1,9 +1,19 @@
-head	1.6;
+head	1.8;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.8
+date	2022.02.13.14.27.19;	author arpepper;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2022.02.13.14.13.10;	author arpepper;	state Exp;
+branches;
+next	1.6;
 
 1.6
 date	2001.11.27.05.17.45;	author arpepper;	state Exp;
@@ -41,9 +51,11 @@ desc
 @
 
 
-1.6
+1.8
 log
-@Corrected some dots.
+@One audit complaint might have been because you can get zero for sixth.
+But for the other, you don't LOSE money for 6th place, so assume it
+was a transcription error.
 @
 text
 @Note: gt2-2001 a v1.2 game I finally started in GT2
@@ -377,7 +389,7 @@ November 18, 2001
  113      Punto  It/RomeS        1st                      none
  114   Cr549,229      Note: stock
  114      Punto  It/RomeL        6th                     8-(
- 115   Cr533,529
+ 115   Cr549,229
  115   mod car Punto   SS/SS -> Cr532,029
  115      Punto  It/RomeL        4th                     8-(
  116   Cr533,029
@@ -577,7 +589,8 @@ November 25, 2001
  175      Mines32.5      Turbo/TT     1st            yellowNismo400R(dup)(sold)
  176   Cr705,931   Cr735,931   88 cars
  176      MinesEvoV      Turbo/DFRW   1st  whiteMine'sSkylineR33GT-R
- 177   Cr634,931  Note: no AI EvoV
+#177   Cr634,931  Note: no AI EvoV
+ 177   Cr785,931   Note: no AI EvoV
  177      MinesEvoV      Turbo/DFRW   2nd                8-(
  178   Cr795,931
  178      MinesEvoV      Turbo/DFRW   1st  whiteMine'sSkylineR33GT-R(dup)(sold)
@@ -586,6 +599,30 @@ November 25, 2001
  179      [R]300ZX        GTW  1st40to28,22,14,9,7   credits+ [R]R390GT1LM'98
  180   Cr1,128,681   90 cars
  180   power off
+@
+
+
+1.7
+log
+@One correction of apparent transcription error to quiten show=audit
+
+Another two errors seem to arise because 6th place sometimes gives zero?
+@
+text
+@d332 1
+a332 1
+ 115   Cr533,529
+@
+
+
+1.6
+log
+@Corrected some dots.
+@
+text
+@d532 2
+a533 1
+ 177   Cr634,931  Note: no AI EvoV
 @
 
 

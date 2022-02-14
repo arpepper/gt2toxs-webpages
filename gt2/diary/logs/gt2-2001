@@ -329,7 +329,7 @@ November 18, 2001
  113      Punto  It/RomeS        1st                      none
  114   Cr549,229      Note: stock
  114      Punto  It/RomeL        6th                     8-(
- 115   Cr533,529
+ 115   Cr549,229
  115   mod car Punto   SS/SS -> Cr532,029
  115      Punto  It/RomeL        4th                     8-(
  116   Cr533,029
@@ -529,7 +529,8 @@ November 25, 2001
  175      Mines32.5      Turbo/TT     1st            yellowNismo400R(dup)(sold)
  176   Cr705,931   Cr735,931   88 cars
  176      MinesEvoV      Turbo/DFRW   1st  whiteMine'sSkylineR33GT-R
- 177   Cr634,931  Note: no AI EvoV
+#177   Cr634,931  Note: no AI EvoV
+ 177   Cr785,931   Note: no AI EvoV
  177      MinesEvoV      Turbo/DFRW   2nd                8-(
  178   Cr795,931
  178      MinesEvoV      Turbo/DFRW   1st  whiteMine'sSkylineR33GT-R(dup)(sold)

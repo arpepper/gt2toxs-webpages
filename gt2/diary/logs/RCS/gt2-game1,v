@@ -1,10 +1,25 @@
-head	1.102;
+head	1.105;
 access;
 symbols;
 locks
-	arpepper:1.102; strict;
+	arpepper:1.105; strict;
 comment	@# @;
 
+
+1.105
+date	2022.02.13.09.39.18;	author arpepper;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2022.02.13.08.50.26;	author arpepper;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2022.02.13.08.22.47;	author arpepper;	state Exp;
+branches;
+next	1.102;
 
 1.102
 date	2021.06.30.21.46.41;	author arpepper;	state Exp;
@@ -232,10 +247,10 @@ desc
 @
 
 
-1.102
+1.105
 log
-@Gave up and corrected sloppy mod/parts notation.
-Besides, gt4garage also found two car count corrections which I have now fixed.
+@Finally fix the last problem detected by the current
+gt4garage show=audit
 @
 text
 @ Legend:
@@ -1202,7 +1217,7 @@ January 12, 2000
  272       [R]Stratos  Hist/RomeL    2nd                   none
  273   Cr15,191,149
  273       [R]Stratos  Hist/RomeL    1st              redLotusEuropa(dup)(sold)
- 274   Cr15,198,149  cr15,218,149
+ 274   Cr15,198,149  Cr15,218,149
  274   sell car  silverLotusEuropa
  274   sell car  greenLanciaStratos
  274   Cr15,313,149
@@ -1361,7 +1376,7 @@ January 17, 2000
  311   mod car redSupra1     .lt. 295bhp parts, WR1 -> Cr18,904,716
  311   mod car whiteSupra2   .lt. 295bhp parts, WR2 -> Cr18,756,716
 
- 311   Cr19,202,549   94 cars
+ 311   Cr18,756,216   94 cars
        note: did time trial tests with some of those cars at Trial Mountain
  311   power off
 
@@ -1597,22 +1612,24 @@ January 31, 2000
  370   Cr28,296,646  92 cars
  370   mod car red[R]RX7LM  (alias)
  370      red[R]RX7LM GT300 sw40to26,24,14,11,5  [R]Wed'sCelicaGT'99(dup)(sold)
- 371   Cr28,606,646  Cr28,731,646  92 cars
+#371   Cr28,606,646  Cr28,731,646  92 cars   # long-time bad audit
+ 371   Cr28,476,646  Cr28,601,646  92 cars
  371      redImprezaWG  PureSports/TM    1st    burgundyTuscanSpeed6(dup)(sold)
- 372   Cr28,606,646  Cr28,731,646  92 cars
+#372   Cr28,739,646  Cr28,731,646  92 cars   # long-time bad audit
+ 372   Cr28,616,646  Cr28,731,646  92 cars
  372   power off
 
 February 01, 2000
 February 02, 2000
 February 03, 2000
  372      redImprezaWG  SuperT/TM    1st   CamaroZ28-30thAnniversary(dup)
- 373   Cr28,746,646  93 cars                          Cr7,000
+ 373   Cr28,746,646  93 cars                          (Cr7,000)
  373      redImprezaWG  SuperT/Laguna  1st           whiteTom'sSupra(dup)
- 374   Cr28,761,646  94 cars                          Cr13,750
+ 374   Cr28,761,646  94 cars                          (Cr13,750)
  374      redImprezaWG  SuperT/DFRW  1st             silverTRD3000GT
- 375   Cr28,776,646  95 cars                          Cr14,250
+ 375   Cr28,776,646  95 cars                          (Cr14,250)
  375      redImprezaWG  SuperT/RomeL  1st            silverTRD3000GT
- 376   Cr28,791,646  96 cars                          Cr14,250
+ 376   Cr28,791,646  96 cars                          (Cr14,250)
  376   sell CamaroZ28-30thAnniversary
  376   sell whiteTom'sSupra
  376   sell 2 silverTRD3000GT
@@ -1633,7 +1650,7 @@ note: not seen before *redSkyline'71
  381   power off
 
 February 04, 2000
- 381   Cr28,893,896  95 cars
+ 381   Cr28,911,896  95 cars
 note: a litte confusion here...
  381   mod car Speed6  Rtrans,Rfw,3clu,Rsusp,shaft,LSD,WR1,2,3 -> Cr28,813,896
  381      Speed6  TunedNA/Autumn  1st         redMazdaMX-5MiataBspec(dup)(sold)
@@ -1825,7 +1842,7 @@ March 18, 2000
  427   mod car stockMinesEvoV (alias whiteMine'sLancerEvol-V)  S/S (not fitted)
  427   Cr36,081,696
  427      stockMinesEvoV  Euro/Apricot 1st white[R]CastrolSupraGT'96(dup)(sold)
- 428   Cr36,091,696  cr36,341,696
+ 428   Cr36,091,696  Cr36,341,696
  428   mod car stockMinesEvoV fit S/S, buy OZ wheels   8-)
  428   Cr36,339,696
  428      stockMinesEvoV  Apricot200  1st           redLanciaStratos(dup)(sold)
@@ -1923,7 +1940,7 @@ March 24, 2000
 
 March 25, 2000
  459      SpoonIntegra TunedNA/Autumn 2nd           8-(
- 460   Cr40,033,696
+ 460   Cr40,053,696
  460      SpoonIntegra TunedNA/Autumn 1st white/blackSpoonIntegraTypeR
  461   Cr40,103,696
  461   sell car redMugenBeat  -> (Cr2,000)
@@ -2206,7 +2223,7 @@ note: day 530 redGT4'88, whiteGT4'88, yellowRX-7'83, redRS-X'84, red240Z'71
  539       Alfa156   PikeUpI                   2nd                    8-(
  540    mod car Alfa156   TS3  -> Cr48,032,656
  540       Alfa156   PikeUpI                   1st                   none
- 541   Cr48,0037,656   98cars
+ 541   Cr48,037,656   98cars
 note: day 540  redGT4'88, mgmGT4'88, red2000GT'68, redRS-X'84, whiteRS-X'84
  541   power off
 
@@ -2588,7 +2605,7 @@ June 10, 2000
 
  663   buy car redViperGTS  red with silver stripes Viper GTS
  663   sell car yellowNismoGT-R4door
- 663   Cr55,363,848   99 cars
+ 663   Cr56,363,848   99 cars
  663   mod car [R]ViperGTS  (alias red with silver stripes Viper GTS)
                               race max, some extras
  663   Cr55,987,038
@@ -2689,7 +2706,7 @@ June 27, 2000
  681      [R]Silhouette Stars/RomeL   1st               black[R]ZZII(new)(sold)
  682   Cr61,077,238   Cr61,327,238 
  682      [R]Silhouette Stars/RedRock   1st          burgundySpeed12(dup)
- 683   Cr61,777,238
+ 683   Cr61,377,238
  683      [R]Silhouette Stars/Super   1st             garage full 8-(
  684   Cr61,427,238
  684   sell car burgundySpeed12 -> Cr500,000
@@ -2937,6 +2954,78 @@ June 09, 2001
  736      [R]Speed12   Stars/RedRock     1st         burgundySpeed12(dup)(sold)
  737   Cr74,299,988   Cr74,799,988
  737   power off
+@
+
+
+1.104
+log
+@Changes which fix most show=audit complaints.
+(Most were obviously mistakes; a few were typos)
+@
+text
+@d1360 2
+a1361 1
+ 371   Cr28,606,646  Cr28,731,646  92 cars
+d1363 2
+a1364 1
+ 372   Cr28,739,646  Cr28,731,646  92 cars
+@
+
+
+1.103
+log
+@Fix a simple type ("cr") which audit detected.
+Modify syntax slightly to conform to a reasonable audit syntax.
+@
+text
+@d1124 1
+a1124 1
+ 311   Cr19,202,549   94 cars
+d1362 1
+a1362 1
+ 372   Cr28,606,646  Cr28,731,646  92 cars
+d1396 1
+a1396 1
+ 381   Cr28,893,896  95 cars
+d1588 1
+a1588 1
+ 428   Cr36,091,696  cr36,341,696
+d1686 1
+a1686 1
+ 460   Cr40,033,696
+d1969 1
+a1969 1
+ 541   Cr48,0037,656   98cars
+d2351 1
+a2351 1
+ 663   Cr55,363,848   99 cars
+d2452 1
+a2452 1
+ 683   Cr61,777,238
+@
+
+
+1.102
+log
+@Gave up and corrected sloppy mod/parts notation.
+Besides, gt4garage also found two car count corrections which I have now fixed.
+@
+text
+@d965 1
+a965 1
+ 274   Cr15,198,149  cr15,218,149
+d1369 1
+a1369 1
+ 373   Cr28,746,646  93 cars                          Cr7,000
+d1371 1
+a1371 1
+ 374   Cr28,761,646  94 cars                          Cr13,750
+d1373 1
+a1373 1
+ 375   Cr28,776,646  95 cars                          Cr14,250
+d1375 1
+a1375 1
+ 376   Cr28,791,646  96 cars                          Cr14,250
 @
 
 

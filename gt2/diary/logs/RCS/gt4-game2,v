@@ -1,10 +1,20 @@
-head	1.127;
+head	1.129;
 access;
 symbols;
 locks
-	arpepper:1.127; strict;
+	arpepper:1.129; strict;
 comment	@# @;
 
+
+1.129
+date	2022.02.14.08.50.53;	author arpepper;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2022.02.13.10.18.38;	author arpepper;	state Exp;
+branches;
+next	1.127;
 
 1.127
 date	2022.02.08.22.15.27;	author arpepper;	state Exp;
@@ -648,9 +658,11 @@ Use ======================== markers to track update.
 @
 
 
-1.127
+1.129
 log
-@Add event details for J/Compact.
+@February 13, 2022
+buy parts for Impreza 22B, and win J/90s with it.
+Also buy a turquoise Celica'70
 @
 text
 @
@@ -812,7 +824,7 @@ March 2, 2021
   78    270R        SC/Easy/AmalfiR  2nd 2:35.541 (best lap)    none
   79    270R        SC/Easy/AmalfiR  1st 5:01.890 -1.155  7A  Cr5,000 next
   80 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
-  81 Cr30,535    1.0%   A:1015 B:0  IAlicense  0G 3S 61B 6cars
+  81 Cr35,535    1.0%   A:1015 B:0  IAlicense  0G 3S 61B 6cars
   81 power reset
 
   81 select car RSC'02
@@ -1456,7 +1468,7 @@ Note:  Fiat 500F'65   1 + 1 + 1 + 1 =  4
  199  Cr3,320,326  5.0%  A:3314 B:2029/25/20/20   Slicense  2G 16S 62B  40cars
  199  power off
  199 +1 buy car MidgetII  Daihatsu Midget II D-type '98 (Red) (Cr2870,used)
- 200  Cr3,320,326  5.0%  A:3314 B:2029/25/20/20   Slicense  2G 16S 62B  41cars
+ 200  Cr3,317,456  5.0%  A:3314 B:2029/25/20/20   Slicense  2G 16S 62B  41cars
 
  200 +1 buy car Capcino  Suzuki Cappuccino (EA21R) '95 (Antares Red) (Cr5102,used)
  201 +1 buy car greenCamaro'97  Chevrolet Camaro Z28 Coupe '97 (Bright Green Metallic) (Cr12,055,used)
@@ -1721,21 +1733,21 @@ Note: a Fiat 500L was available, FWIW
 
 April 15, 2021
  257    blueA3      B/4WD/GVE         nq6th1st   Cr1,500  6A none
- 258  Cr3,671,226 10.1%  A:3437 B:2029/25/20/20   61cars
+ 258  Cr3,672,726 10.1%  A:3437 B:2029/25/20/20   61cars
  258 +1 buy car Piazza  Izuza Piazza XE '81 (grey:Cannon)(Cr8627,historic)
- 259  Cr3,672,726 10.1%  A:3437 B:2029/25/20/20   62cars
+ 259  Cr3,664,099 10.1%  A:3437 B:2029/25/20/20   62cars
  259    blueA3      B/4WD/AMii        nq6th1st   Cr1,500  6A(reset) none
  260    blueA3      B/4WD/ElCapitanR  nq6th1st   Cr1,500  31A none
  261    blueA3      B/4WD/SuzukaE     nq6th1st   Cr1,500  6A lousy none
  262    blueA3      B/4WD/Fuji90      nq6th1st   Cr1,500  9A should lost next
  263 +1 win car Triathlon  Toyota Motor Triathlon Race Car '04  (Chrome)
- 264  Cr3,672,726 10.8%  A:3489 B:2029/25/20/20   63cars
+ 264  Cr3,670,099 10.8%  A:3489 B:2029/25/20/20   63cars
  264  power off
 
 April 16, 2021
  264 +5 blueA3     Eu/HotHatch   sw50to25,22,12,10,11(3 tries) 39A   next
  269 +1 win car  greenVolvoWG  Volvo 240 GLT Estate '88 (Blue Green Metallic)
- 270  Cr3,672,726 11.8%  A:3528 B:2029/25/20/20   64cars
+ 270  Cr3,775,099 11.8%  A:3528 B:2029/25/20/20   64cars
  270  power off
 
 Note: Track  Circuit de la Sarthe I (chicaned)  unlocked
@@ -2065,7 +2077,7 @@ Aptil 27, 2021
  392    Series1       E/ElCapitan   nq6th1st(B)  Cr250,000          next
  393 +1 win car MT88C-V   Minolta Toyota 88C-V Race Car '89
 Note: NA3, but beat AI MS Elise
- 394  Cr4,470,212  26.1%  A:3820 B:3189/37/32/31  102cars
+ 394  Cr4,720,212  26.1%  A:3820 B:3189/37/32/31  102cars
 Note: triple-checked that Bspec total went up, but no components (strange?)
  394  power off
 
@@ -2867,7 +2879,7 @@ Note: Now it sort of indicates the end of a gaming session
  587 orangeGalant'70  J/70s/AMii    nq6th1st S3/S3chip+Rmuff  Cr2000  10A  none
  588 orangeGalant'70  J/70s/MotorlandR nq6th1st chip+Rmuff,S3/1 Cr2000 10A next
  589 +1 win car whiteSkyline'70  Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (White)
- 590 Cr14,445,767  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       146cars
+ 590 Cr14,451,767  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       146cars
 
  590 +1 buy car redGTR'89  Nissan Skyline GT-R (R32) '89 (Red Pearl Mica) (Cr15,574,used)
  591 Cr14,438,193  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       147cars
@@ -2977,6 +2989,77 @@ Note: 6. Mazda DEMIO Sport '03                 1 + 1 + 1 + 1 + 1 =  5
  619 Cr14,110,433  42.1%  A:5577 B:6851/87/68/65(+13/+0/+0/+1)   155cars
  619 power off
 
+February 13, 2022
+ 619 select car Impreza22B   Subaru Impreza Coupe 22B-STi '98
+ 619  buy parts Impreza22B  T-N1 T-N2 T-N3  Cr0   T-S1,T-S3   Cr5100 Cr6800
+ 619  buy parts Impreza22B  T-R1 T-R2 T-R3 Cr8400 Cr10,500 Cr22,500
+ 619  buy parts Impreza22B  T-R4 Cr35,000 T-DT Cr22,500  T-SN Cr22,500
+ 619  buy parts Impreza22B  Smuff,SRmuff,Rmuff Cr1600, Cr2900, Cr4800
+ 619  buy parts Impreza22B  SpBr Bctlr  Cr4700 Cr10,600 chip Cr1500
+ 619  buy parts Impreza22B  Rtrans Cr10,400 3clu,Rfw Cr4700 Cr1050
+ 619  buy parts Impreza22B  LSDF,shaft  Cr6600 Cr3000
+ 619  buy parts Impreza22B  TS1,TS2,TS3  Cr4800 Cr13,500 Cr42,500
+ 619  buy parts Impreza22B  TSOrg Cr36,500  Spic,Ric  Cr1800 Cr3000
+ 619  buy parts Impreza22B  Rsusp Cr17,000  VCD Cr10,500
+ 619 Cr13,832,183  42.1%  A:5577 B:6851/87/68/65(+13/+0/+0/+1)   155cars
+ 619  buy parts Impreza22B  (from Blitz)
+ 619  buy parts Impreza22B  TS5(Org) Cr36,500 Osusp Cr16,200
+ 619 Cr13,777,683  42.1%  A:5577 B:6851/87/68/65(+13/+0/+0/+1)   155cars
+
+ 619 +1 buy car  Celica'70  Toyota Celica 1600GT (TA22) '70 (Orion Turquoise Metallic) (Cr8364,Historic)
+ 620 Cr13,769,319  42.1%  A:5577 B:6851/87/68/65(+13/+0/+0/+1)   156cars
+
+ 620  Impreza22B   J/90s/Apricot    nq6th1st                   44A  none
+ 621 Cr13,772,319  42.2%  A:5621 B:6851/87/68/65(+13/+0/+0/+1)   156cars
+ 621  Impreza22B   J/90s/GVEii      nq6th1st                   63A  none
+ 622  Impreza22B   J/90s/MotegiE    nq6th1st                   44A  none
+ 623  Impreza22B   J/90s/SSR5ii     nq6th1st 2tries            44A  none
+ 624  Impreza22B   J/90s/Fuji90     nq6th1st                   64A  next
+ 625 +1 win car red400R   Nismo 400R '96 (Super Clear Red II)
+ 626 Cr13,784,319  42.9%  A:5836 B:6851/87/68/65(+13/+0/+0/+1)   157cars
+Note: lineup 3 good for J/90
+ 626 power off
+@
+
+
+1.128
+log
+@Fixed a few errors detected by the current show=audit
+@
+text
+@d2325 30
+@
+
+
+1.127
+log
+@Add event details for J/Compact.
+@
+text
+@d160 1
+a160 1
+  81 Cr30,535    1.0%   A:1015 B:0  IAlicense  0G 3S 61B 6cars
+d804 1
+a804 1
+ 200  Cr3,320,326  5.0%  A:3314 B:2029/25/20/20   Slicense  2G 16S 62B  41cars
+d1069 1
+a1069 1
+ 258  Cr3,671,226 10.1%  A:3437 B:2029/25/20/20   61cars
+d1071 1
+a1071 1
+ 259  Cr3,672,726 10.1%  A:3437 B:2029/25/20/20   62cars
+d1077 1
+a1077 1
+ 264  Cr3,672,726 10.8%  A:3489 B:2029/25/20/20   63cars
+d1083 1
+a1083 1
+ 270  Cr3,672,726 11.8%  A:3528 B:2029/25/20/20   64cars
+d1413 1
+a1413 1
+ 394  Cr4,470,212  26.1%  A:3820 B:3189/37/32/31  102cars
+d2215 1
+a2215 1
+ 590 Cr14,445,767  38.3%  A:4357 B:6838/87/68/65    3G 17S 60B       146cars
 @
 
 

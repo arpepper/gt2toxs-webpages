@@ -1,14 +1,9 @@
-head	1.3;
+head	1.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
-
-1.3
-date	2021.07.06.15.46.46;	author gt2toxs;	state Exp;
-branches;
-next	1.2;
 
 1.2
 date	2000.03.27.22.47.35;	author arpepper;	state Exp;
@@ -26,14 +21,13 @@ desc
 @
 
 
-1.3
+1.2
 log
-@No longer set base href to www.math.uwaterloo.ca
-Doing for ~gt2toxs explicitly for now; probably do "everywhere" later.
+@Added a newsline for som reason.
 @
 text
 @<head><title>View Gran Turismo Log Files</title>
-<!-- <base href="http://www.math.uwaterloo.ca/~arpepper/gt/diary/logs/"> -->
+<base href="http://www.math.uwaterloo.ca/~arpepper/gt/diary/logs/">
 </head>
 <body bgcolor="yellow">
 <table width="100%" bgcolor="black">
@@ -59,17 +53,6 @@ This site is in no way associated with Sony Computer Entertainment
 Incorporated.
 </p>
 <hr>
-@
-
-
-1.2
-log
-@Added a newsline for som reason.
-@
-text
-@d2 1
-a2 1
-<base href="http://www.math.uwaterloo.ca/~arpepper/gt/diary/logs/">
 @
 
 

@@ -1,9 +1,14 @@
-head	1.5;
+head	1.6;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.6
+date	2022.02.13.14.00.02;	author arpepper;	state Exp;
+branches;
+next	1.5;
 
 1.5
 date	99.12.07.19.44.36;	author arpepper;	state Exp;
@@ -38,9 +43,9 @@ Hmm.  check.pl reported nothing for me to correct yet.  8-?
 @
 
 
-1.5
+1.6
 log
-@finished up.
+@Reconstruct a couple of Cr totals so we now pass show=audit
 @
 text
 @October 26, 1999
@@ -95,6 +100,7 @@ October 27, 1999
   39   Cr406,430
   39   buy car GTO'95MR  passion red GTO'95MR  -> Cr377,350
   39   mod car tunedGTO'95MR  max and some non-max  ->  Cr101,850
+  39   Cr101,050
   39   power off
   39   play Crash Team Racing   8-)
 
@@ -113,9 +119,11 @@ October 28, 1999
   47   play more Crash Team Racing   8-)
 
 October 29, 1999
+  47   Cr101,050
   47-50   tunedGTO'95MR  4wd  sw27to18,11,10,5,4        greenLancer(1/6)a
   51-52   tunedGTO'95MR  All-nightI  q1st1st            redSilviaLM(1/2)a
-  53   Cr391,350
+# 53   Cr391,350
+  53   Cr306,350
   53-56   tunedGTO'95MR  Mega  sw27to16,12,9,6,5          purpleDB7(1/6)a
   57   Cr391,350
   57-61   tunedGTO'95MR  GTC  sw36to24.15.10,9,6           ChaserLM(1/1*)a
@@ -149,6 +157,19 @@ November 1, 1999
   97   Cr1,848,350
   97-100  RT/10  FR  q2DFq2GV  1st27to18,12,19,5,4  yellowS13Silvia(1/6)a
   101  Cr1,874,850  3 purchased cars + 16 prizes = 19 cars
+@
+
+
+1.5
+log
+@finished up.
+@
+text
+@d53 1
+d72 1
+d75 2
+a76 1
+  53   Cr391,350
 @
 
 

@@ -163,7 +163,8 @@ October 04, 2001
 
 October 05, 2001
 5581-5587 [R]ChaserLM  GTI  H2D4,1st46to33,31,18,15,7            credits
-   5588 Cr57,309,332
+#  5588 Cr57,309,332
+   5588 Cr57,535,332  (Cr190,000 winnings?)
    5588 power off
 
 October 06, 2001
@@ -195,14 +196,16 @@ October 14, 2001
 5702-5704 A4  S  0:37.523  4:46.186    demo 0:37.594
 5705-5712 A4  S  0:37.484  4:46.147
 5713-5732 A4  G  0:37.344  4:46.007    gold 0:37.400
-   5733 buy car TRD3000GT  silverTRD3000GT(prize, Alicense)
-   5733 Cr57,309,332  99cars, 8G, 8G, 8G
+   5733 buy car TRD3000GT  silverTRD3000GT(prize, Alicense) (Cr20,000)
+#  5733 Cr57,309,332  99cars, 8G, 8G, 8G
+   5733 Cr57,515,332  99cars, 8G, 8G, 8G
    5733 power off
 
 October 18, 2001
    5733 mod car TRD (alias TRD3000GT)
 5733-5736 TRD  FR  q6*1st27to15,14,12,6,6           yellowSilEighty(dup)(sold)
-   5737 Cr57,535,332  Cr57,535,332   Note: no Supra
+#  5737 Cr57,535,332  Cr57,535,332   Note: no Supra
+   5737 Cr57,535,332  Cr57,547,332   Note: no Supra
    5737 power off
 
 October 19, 2001
@@ -226,7 +229,7 @@ October 27, 2001
 February 09, 2002
    5764 mod car [R]GTO'92SR (alias [R]GTO'92)
 5764      TT [R]GTO'82SR  GV    1:46.522 + 1:39.784 = 3:26.316
-   5765 Cr58,131,332
+#  5765 Cr58,131,332
 5765-5770 [R]GTO'92SR   UKvsJP  2nd32to29,20,20,13,11           8-(
    5771 Cr58,161,332
 5771-5776 [R]GTO'92SR   UKvsJP  1st39to25,25,17,11,8    greenCerbera(dup)(sold)

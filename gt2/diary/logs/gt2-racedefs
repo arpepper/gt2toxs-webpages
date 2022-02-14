@@ -1,10 +1,15 @@
 setvar includesdone = 1
 
+pragma gt2
+
 setvar seriesdelim = ""
 
 setvar checkparts = 0
 
 setvar autocarids = 1
+
+# I am not convinced that, except for rallies, you can get zero for a race
+setvar minprizecredits = 0
 
 
 define series 4WD

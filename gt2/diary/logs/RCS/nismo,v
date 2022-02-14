@@ -1,9 +1,14 @@
-head	1.9;
+head	1.10;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.10
+date	2022.02.13.13.46.41;	author arpepper;	state Exp;
+branches;
+next	1.9;
 
 1.9
 date	2003.04.06.18.19.19;	author arpepper;	state Exp;
@@ -57,9 +62,9 @@ a sharked Nismo 400R
 @
 
 
-1.9
+1.10
 log
-@Improved log checcker found to mistakes.
+@change free-style notes to pass show=audit
 @
 text
 @Saturday December 4, 1999
@@ -108,12 +113,17 @@ Sunday December 12, 1999
   29   400R s/s racing tires, racing i/c, racing muff -> cr7,000
   29-32   400R  Clubman  sw27to18,12,9,6,3                   Camaro(1/1*)a
   33   Cr55,500
-  33   400R TS2,racing susp,brakes,controller,drv shaft,computer -> Cr1,000
+# 33   400R TS2,racing susp,brakes,controller,drv shaft,computer -> Cr1,000
+  33   mod car 400R TS2,racing susp,brakes,controller,drv shaft,computer
+  33   Cr1,000
   33-36   400R  4wd  sw27to16,11,11,7,3                 greenLancer(1/6)a
   37   Cr30,500
   37   400R R flywheel,3ple clutch,R gears,H/H stab -> Cr12,500
   37-41   400R  GTC  q3DF 1st36to20,19,9,9,7               ChaserLM(1/1*)a
-  42   Cr92,500  400R TS4 -> Cr20,500
+# 42   Cr92,500  400R TS4 -> Cr20,500
+  42   Cr92,500
+  42   buy parts 400R TS4
+  42   Cr20,500
   42   max speed 224mph; remove parts
   42-47   400R  Normal  q4DF 1st45to30,19,16,10,5       blueImpreza(1/6)a
                     NSX was there, but TRD was not
@@ -130,10 +140,11 @@ Monday December 13, 1999
   60   power off
 
 Wednesday December 15, 1999
-  60   memory card trade in two 400R, yellow to max-tune, one  to [R]mod
-  60   Cr489,500
+# 60   memory card trade in two 400R, yellow to max-tune, one  to [R]mod
+Note:  memory card trade in two 400R, yellow to max-tune, one  to [R]mod
   60   buy car yellow400R  yellow Nismo 400R to tune
   60   buy car [R]400R     Nissan [R]Nismo 400R
+  60   Cr489,500
   60   mod car yellow400R  max-tune, including WR3, engine mods -> Cr435,000
   60   mod car [R]400R  max-racemod, including  engine mods -> Cr328,000
   60-63   yellow400R  Mega  sw27to18,12,8,5,5             purpleDB7(1/6)a
@@ -183,6 +194,25 @@ Saturday August 19, 2000
   101  Cr1,573,400  3 purchased cars + 16 prizes = 19 cars
 
         So I did complete it, after all.
+@
+
+
+1.9
+log
+@Improved log checcker found to mistakes.
+@
+text
+@d47 3
+a49 1
+  33   400R TS2,racing susp,brakes,controller,drv shaft,computer -> Cr1,000
+d54 4
+a57 1
+  42   Cr92,500  400R TS4 -> Cr20,500
+d74 2
+a75 2
+  60   memory card trade in two 400R, yellow to max-tune, one  to [R]mod
+  60   Cr489,500
+d78 1
 @
 
 

@@ -1,9 +1,19 @@
-head	1.5;
+head	1.7;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.7
+date	2022.02.13.14.29.16;	author arpepper;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2022.02.13.09.03.31;	author arpepper;	state Exp;
+branches;
+next	1.5;
 
 1.5
 date	2021.06.30.22.41.06;	author arpepper;	state Exp;
@@ -40,18 +50,23 @@ And yet we are a long way from sensibly handling all the diagnostics.
 @
 
 
-1.5
+1.7
 log
-@Add "setvar includesdone = 1"
+@Set minprizecredits to be zero, with a skeptical comment.
 @
 text
 @setvar includesdone = 1
+
+pragma gt2
 
 setvar seriesdelim = ""
 
 setvar checkparts = 0
 
 setvar autocarids = 1
+
+# I am not convinced that, except for rallies, you can get zero for a race
+setvar minprizecredits = 0
 
 
 define series 4WD
@@ -287,6 +302,27 @@ define series [R]Vitz
 define series VitzF
 define series ZZ-S
 
+@
+
+
+1.6
+log
+@Decided to use a pragma for gt2 fallies which can win Cr0.
+@
+text
+@d3 2
+d11 3
+a13 1
+pragma gt2
+@
+
+
+1.5
+log
+@Add "setvar includesdone = 1"
+@
+text
+@d9 1
 @
 
 

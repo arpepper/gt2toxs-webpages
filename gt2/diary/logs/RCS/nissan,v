@@ -1,9 +1,14 @@
-head	1.10;
+head	1.11;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.11
+date	2022.02.13.17.28.03;	author arpepper;	state Exp;
+branches;
+next	1.10;
 
 1.10
 date	2003.04.06.18.25.24;	author arpepper;	state Exp;
@@ -60,9 +65,10 @@ desc
 @@
 
 
-1.10
+1.11
 log
-@Improved log checker found an apparent error.
+@Rearrange old-style Cr line to be correctly evaluated by
+show=audit (even though it currently didn't trigger an error)
 @
 text
 @July 29, 2001
@@ -279,7 +285,8 @@ August 26, 2001
   181  buy car Cyborg  Grace Silver Mitsubishi Mirage Cyborg '92 (Cr8,790)
   181  Cr3,802,310
  181-184  Cyborg     Sunday   q3Aq6*1st27to16,12,11,6,3        Demio(dup)(sold)
-  185  Cr3,826,310  (Cr24,000 profit)  Cr3,838,310
+# 185  Cr3,826,310  (Cr24,000 profit)  Cr3,838,310
+  185  Cr3,838,310  (Cr24,000 profit)
   185  mod car  Cyborg WR1  2292lb->2063lb
   185  Cr3,837,310
  185-188  Cyborg     Sunday   q1Aq6*1st27to16,14,9,5,4         Demio(dup)(sold)
@@ -341,6 +348,17 @@ September 03, 2001
  239-244  RT/10     Normal  sw45to30,19,16,10,5         blueImpreza(dup)(sold)
   245  Cr5,218,680  Cr5,230,680  Note: no RX-7
   245  power off
+@
+
+
+1.10
+log
+@Improved log checker found an apparent error.
+@
+text
+@d215 2
+a216 1
+  185  Cr3,826,310  (Cr24,000 profit)  Cr3,838,310
 @
 
 

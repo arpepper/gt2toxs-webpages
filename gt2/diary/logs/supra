@@ -158,13 +158,13 @@ April 21, 2001
   107  mod car Demio WR1 (TS2, SR S/S, SRmuff)  (Cr23,700 mods)
   107  Cr1,407,770
  107-110  Demio        FF  g6*G2,1st24to17,12,9,9,4    purpleCelica(dup)(kaw)
-  111  Cr1,429,770   ie Cr22,000 winnings
+  111  Cr1,429,770   (Cr22,000 winnings)
   111  mod car Demio WR2 (TS2, R S/S, SRmuff)  (+Cr20,500 mods)
  111-114  Demio        Lwt  q6*A4,1st24to16,12,10,8,5     goldEunos(2/6)i+a
-  115  Cr1,447,270   ie Cr23,000 winnings
+  115  Cr1,447,270   (Cr23,000 winnings)
   115  mod car Demio (WR2 TS2, R S/S, Rmuff)  (+Cr4,500 mods)
  115-118  Demio          Clubman  q6*1st27to15,14,8,7,4      Camaro(dup)(kaw)
-  119  Cr1,488,270   ie Cr41,000 winnings
+  119  Cr1,488,270   (Cr41,000 winnings)
  119-124  Camaro         Normal   3rd42to26,(21),16,13,7           8-(
   125  Cr1,554,270
   125  buy car RT/10   red Dodge Viper RT/10  (Cr68,800)
@@ -175,10 +175,13 @@ April 21, 2001
  131-136  NSX           Normal 2nd39to(34),21,15,5                 8-(   
   137  buy car NSXtypeS   Indy Yellow Pearl Acura NSX Type S (Cr103,570)
  137-142  NSXtypeS      Normal  1st37to36,21,16,10,5  ltBlueSupraRZ(4/6)a
-  143  Cr2,130,830
+# 143  Cr2,130,830
+# Back-calculated from day 143
+  143  Cr2,136,330
   143  power off
 
 April 22, 2001
+# Note following should cost only Cr5500 for WR2
   143  mod car Demio (WR2, TS2, S/S, SRmuff)
   143  Cr2,130,830
  143-146  Demio          Clubman  q6*C2,1st24to18,10,9,8,6   Camaro(dup)(kaw)
@@ -203,28 +206,33 @@ April 23, 2001
   167  Cr2,565,670  (Cr24,000 winnings)
   167  mod car Demio2  (TS2, SR S/S, Rmuff)  (Cr24,000)
  167-170  Demio2       FF  g6*G2,1st24to21,10,9,6,5    purpleCelica(dup)(sold)
-  171  Cr2,587,670  (Cr22,000 winnings)  Cr2,599,670
+# 171  Cr2,587,670  (Cr22,000 winnings)  Cr2,599,670
+  171  Cr2,599,670  (Cr22,000 winnings)
   171  buy car Civic'93  Granada Black Pearl Honda Civic '93 3dr si (Cr10,300)
-  171  Cr2,589,370  (Cr22,000 winnings)  Cr2,599,670
+# 171  Cr2,589,370  (Cr22,000 winnings)  Cr2,599,670
+  171  Cr2,589,370
  171-174  Civic'93 Sunday  q4H1st27,18,12,9,5,4               Demio(dup)
   175  Cr2,616,370  (Cr27,000 winnings)
   175  mod car Demio3  WR1 (TS2, SR H/H, Rmuff)  (Cr23,200)
+# Following looks high; but I got all but WR on day 107 (still Cr100 off?)
   175  Cr2,615,170
  175-178  Demio3    FF q4Dq6G2q6S1st24to16,15,10,7,3    purpleCelica(dup)(sold)
-  179  Cr2,637,170  (Cr22,000 winnings)  Cr2,649,170
+  179  Cr2,649,170  (Cr22,000 winnings)
   179  power off
 
 April 27, 2001
  179-182  Camaro    FR q6*D4,1st21to18,13,12,6,5     yellowSilEighty(dup)(sold)
         Note: Rtrans only, easy field (no Supra, no RX7 RZ)
-  183  Cr2,670,170  (Cr21,000 winnings)  Cr2,682,170
+# 183  Cr2,670,170  (Cr21,000 winnings)  Cr2,682,170
+  183  Cr2,682,170  (Cr21,000 winnings)
   183  mod car Camaro  all tires, trans
              Strans 6,000  SRtrans 6,000
              S-R  H/H 5,000  H/S 6,000  S/H 6,000  S/S 7,000
   183  Cr2,646,170
  183-186  Camaro    FR q6*D2,G21st21to19,16,8,7,4    yellowSilEighty(dup)(sold)
         Note: S-R H/H, SRtrans, RX7RZ + Supra
-  187  Cr2,665,170  (Cr19,000 winnings)  Cr2,677,170
+# 187  Cr2,665,170  (Cr19,000 winnings)  Cr2,677,170
+  187  Cr2,677,170  (Cr19,000 winnings)
   187  power off
 
 April 28, 2001
@@ -233,13 +241,15 @@ April 28, 2001
         Note: S-R H/H, Sptrans, RX7RZ + Supra
  191-194  Camaro    FR q6*1st27to14,12,9,7,6           blueSilEighty(dup)(sold)
         Note: S-R H/H, Sptrans, way easy field
-  195  Cr2,710,670  (Cr25,000 winnings)  Cr2,722,670
+# 195  Cr2,710,670  (Cr25,000 winnings)  Cr2,722,670
+  195  Cr2,722,670  (Cr25,000 winnings)
   195  power off
 
   195  mod car Camaro  NA1   stabS/S
   195  Cr2,716,970
  195-198  Camaro    FR q6*1st27to18,11,10,5,4        yellowSilEighty(dup)(sold)
         Note: NA1, S-R H/H, Sptrans, easy field
-  199  Cr2,741,970  (Cr25,000 winnings)  Cr2,753,970
+# 199  Cr2,741,970  (Cr25,000 winnings)  Cr2,753,970
+  199  Cr2,753,970  (Cr25,000 winnings)
   199  power off
 

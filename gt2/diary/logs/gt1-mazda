@@ -941,6 +941,8 @@ April 16, 2003
   Note: buy all S/S -> Cr17,815,102 = Cr885,000 = 59cars
   Note:  62 cars - 180SX, RX7'91, Cosmo20B
   Note: buy all Bctlr -> Cr17,225,102 = Cr590,000 = 59cars
+  690   buy parts tunedRX7'91 (and all)  S/S
+  690   buy parts tunedRX7'91 (and all)  Bctlr
   690  Cr17,225,102   98cars
   690  power off
 
@@ -949,25 +951,38 @@ April 17, 2003
   Note: buy all Rmuff -> Cr16,877,602 = Cr273,000 = 59*5000 - 11*1000 - 22*500
   Note: buy all SpBr -> Cr16,588,102 = Cr289,500 = 59*5000 - 11*500
   Note: buy all chip -> Cr16,492,102 = Cr96,000 = 59*2000 - 11*1000 - 22*500
+  690   buy parts tunedRX7'91 (and all) Hard Stab, F+R  -> Cr17,150,602 = Cr74,500 = 59*1300 - 11*200
+  690   buy parts tunedRX7'91 (and all) Hll Rmuff -> Cr16,877,602 = Cr273,000 = 59*5000 - 11*1000 - 22*500
+  690   buy parts tunedRX7'91 (and all) Hll SpBr -> Cr16,588,102 = Cr289,500 = 59*5000 - 11*500
+  690   buy parts tunedRX7'91 (and all) Hll chip -> Cr16,492,102 = Cr96,000 = 59*2000 - 11*1000 - 22*500
   690  Cr16,492,102   98cars
   690  power off
 
 April 18, 2003
   Note: buy all Rtrans -> Cr15,878,102 = Cr614,000 = 59*10500 - 11*500
+  690   buy parts tunedRX7'91 (and all)  Rtrans -> Cr15,878,102 = Cr614,000 = 59*10500 - 11*500
   690  power off
   Note: buy all 3clu  -> Cr15,588,602 = Cr289,500 = 59*5000 - 11*500
+  690   buy parts tunedRX7'91 (and all)  3clu  -> Cr15,588,602 = Cr289,500 = 59*5000 - 11*500
+
   Note: buy all Rfw   -> Cr15,526,502 = Cr62,100 = 58*1200 - 11*300 - 21*200
+  690   buy parts tunedRX7'91 (and all) Rfw   -> Cr15,526,502 = Cr62,100 = 58*1200 - 11*300 - 21*200
   Note: already had Rfw(only) for FCRX7 GTX; 59*1200 - 11*300 - 22*200 - 1000
   Note: buy all Rsusp -> Cr14,445,502 = Cr1,081,000 = 59*20000 - 11*5000 - 22*2000
+  690   buy parts tunedRX7'91 (and all) Rsusp -> Cr14,445,502 = Cr1,081,000 = 59*20000 - 11*5000 - 22*2000
   Note: buy all shaft -> Cr14,076,502 = Cr145,500 = 46*3500 - 9*1000 - 13*500
   Note: 13 w.no shaft (2@3500, 9@3000, 2@2500)
+  690   buy parts tunedRX7'91 (and all) shaft -> Cr14,076,502 = Cr145,500 = 46*3500 - 9*1000 - 13*500
   Note: buy all NAmax -> Cr13,076,502 = Cr1,223,500; 2*70, 13*60, 4*50, 3*14.5, 6*10
+  690   buy parts tunedRX7'91 (and all) NAmax -> Cr13,076,502 = Cr1,223,500; 2*70, 13*60, 4*50, 3*14.5, 6*10
   690  Cr13,076,502   98cars
   690  power off
 
 April 18, 2003
   Note: buy all Ric  -> Cr12,973,502 = Cr103,000; 21*3500, 9*3000, 1*2500
+  690   buy parts tunedRX7'91 (and all) Ric  -> Cr12,973,502 = Cr103,000; 21*3500, 9*3000, 1*2500
   Note: buy all TSmax -> Cr10,876,002 = Cr2,097,500; 9*12.5, 21*72, 8*36, 1*65, 2*45, 1*30
+  690   buy parts tunedRX7'91 (and all) TSmax -> Cr10,876,002 = Cr2,097,500; 9*12.5, 21*72, 8*36, 1*65, 2*45, 1*30
   690  Cr10,876,002   98cars
   690  power off
   
@@ -980,6 +995,7 @@ April 20, 2003
   Note: now starting "gt1-parts(690).GME"
   Note: buy [R]one (1st [R]mod) for all cheapest (except cheapRX7'91)
   Note: -> Cr5,746,002 = Cr5,130,000 = 61*85000 - 11*5000
+  690  buy parts tunedRX7'91 (and all) [R]one (1st [R]mod) for all cheapest (except cheapRX7'91)
   690  Cr5,746,002   98cars
   690  power off
 
@@ -987,6 +1003,7 @@ April 21, 2003
   Note: buy pol, bal, disp  for all cheapest (except cheapRX7'91)
   Note: 9 used cars take displacement increase
   Note: -> Cr4,478,002 = Cr1,268,000 = 61*22000 + 11*7000 + 23*3000 + 9*8000
+  690  buy parts tunedRX7'91 (and all) pol, bal, disp  for all cheapest (except cheapRX7'91)
   690  Cr4,478,002   98cars
   690  power off
   
@@ -1056,7 +1073,7 @@ May 25, 2003
   766  mod car  [R]FCRX7III   (alias FCRX7III)  [R]max
  766      TT  [R]FCRX7III  GV  1:40.195 + 1:33.827rec = 3:14.191rec
  767      TT  [R]FCRX7III  HSR 0:54.552 + 0:48.394rec = 1:42.946rec  (new)
-  768  Cr6,175,002   98cars
+# 768  Cr6,175,002   98cars
   768  power off
 
 May 27, 2003
@@ -1068,7 +1085,7 @@ May 30, 2003
   775  mod car  [R]Civic'93SD  (alias FCRX7III)  [R]max
  775      TT  [R]Civic'93SD  GVEii 1:05.976 + 0:59.728 = 2:05.704 NA3
  776      TT  [R]Civic'93SD  GV    1:50.439 + 1:43.431 = 2:33.870
-  777  Cr6,360,002   98cars
+# 777  Cr6,360,002   98cars
   777  power off
 
 May 31, 2003
@@ -1300,7 +1317,7 @@ Sep 01, 2003
 Note: [R]Supra'95RZ  Max Speed  258mph
   1087 mod car [R]GTO'95MR  (alias GTO'95MR)  [R]max
 1087-1093 [R]GTO'95MR   GTI  sw54to36,22,20,12,6                 credits
-  1094 Cr13,808,002   98cars
+  1094 Cr12,808,002   98cars
   1094 power off
 
 Sep 05, 2003
@@ -1308,7 +1325,7 @@ Sep 05, 2003
   1101 Cr13,038,002   98cars
   1101 mod car [R]Silvia'95Q  (alias Silvia'95Q)  [R]max
 1101      TT  [R]Silvia'95Q  GVEii  1:02.906 + 0:56.360 = 1:59.266
-  1102 Cr13,038,002   98cars
+# 1102 Cr13,038,002   98cars
   1102 power off
 
 Sep 06, 2003
