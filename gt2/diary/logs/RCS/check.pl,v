@@ -1,9 +1,14 @@
-head	1.15;
+head	1.16;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.16
+date	2022.02.14.19.45.48;	author arpepper;	state Exp;
+branches;
+next	1.15;
 
 1.15
 date	2000.01.07.00.33.15;	author arpepper;	state Exp;
@@ -87,13 +92,12 @@ Initial version rudimentary; just check day sequence only...
 @
 
 
-1.15
+1.16
 log
-@This is probably redundant and unnecessary now.
-"garage" does checks as well as generating a per-day garage.
+@Finally changed from #!/xhbin/perl
 @
 text
-@#!/xhbin/perl5 -w
+@#!/usr/bin/perl -w
 
 require 5.002;
 use strict;
@@ -418,6 +422,18 @@ while (<>) {
 		&donote($line);
 	}
 }
+@
+
+
+1.15
+log
+@This is probably redundant and unnecessary now.
+"garage" does checks as well as generating a per-day garage.
+@
+text
+@d1 1
+a1 1
+#!/xhbin/perl5 -w
 @
 
 

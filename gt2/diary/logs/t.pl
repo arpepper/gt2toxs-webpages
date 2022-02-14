@@ -1,4 +1,4 @@
-#!/xhbin/perl5
+#!/usr/bin/perl
 
 $maxd = 0;
 $maxn = 0;

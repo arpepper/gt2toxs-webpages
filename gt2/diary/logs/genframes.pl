@@ -1,4 +1,4 @@
-#!/xhbin/perl
+#!/usr/bin/perl
 $gt1string = '<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">1</font>';
 $gt2string = '<font size="+1" color="blue">G</font><font size="+1" color="red">T</font><font size="+1">2</font>';
 
