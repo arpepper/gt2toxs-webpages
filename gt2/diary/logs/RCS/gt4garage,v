@@ -1,10 +1,30 @@
-head	1.105;
+head	1.109;
 access;
 symbols;
 locks
-	arpepper:1.105; strict;
+	arpepper:1.109; strict;
 comment	@# @;
 
+
+1.109
+date	2022.02.13.03.48.36;	author arpepper;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2022.02.13.03.21.16;	author arpepper;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2022.02.13.02.42.01;	author arpepper;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2022.02.12.17.50.00;	author arpepper;	state Exp;
+branches;
+next	1.105;
 
 1.105
 date	2021.07.17.20.50.33;	author arpepper;	state Exp;
@@ -540,10 +560,12 @@ updates copied to ~gt2toxs and eventually to gt2toxs-webpages.git
 @
 
 
-1.105
+1.109
 log
-@Found a "findcarid" use which was missing the "$line" argument.
-Some comments about it.
+@Handle car washes too.
+ 
+Begin thinking about handling multiple Cr on one line, but we've not
+got it right yet.
 @
 text
 @#!/usr/bin/perl -w
@@ -600,6 +622,7 @@ text
 #   "show=carids" dumps internal table of carids; useful when you need them
 #
 #   "show=trace"  debugging print of all lines, and partial walkthrough of many
+#   "show=heuristic"  debugging related to heuristic includes
 #   "show=rawparts" dumps processed version of all "buy parts" and "mod" lines
 #   "show=mods" really debugging; shows extracted power and weight mod notes
 #   "show=carprices" dumps carprices table (also "show=prices")
@@ -1061,6 +1084,7 @@ sellcarid {
 	my($carid,$match) = @@_;
 	my($what);
 
+	$main::maxaudit = $main::MAXAUDIT;  # for now
 	if (!defined($main::carstates{$carid})) {
 		&warn("Attempt to sell bad carid: $carid $match\n");
 		return;
@@ -1244,7 +1268,8 @@ sell {
 	@@count = ();
 	@@name = ();
 
-	
+	# $main::minaudit = $main::minaudit - 1;  # can sell for zero?
+	$main::maxaudit = $main::MAXAUDIT;
 	if ($main::showlist =~ /,sell,/ ) {
 		print "${main::maxtoday}:sell: $stuff\n";
 	}
@@ -1680,6 +1705,7 @@ doseriesline {
 	my($i,$none,$pat,$race,$event,$mindays,$maxdays,$suff,$prev,$after);
 	my($car,$prize,$count,$status,$temp);
 
+
 	if ($start eq "") {
 		print " ${main::maxtoday} Series: $line (empty)\n" if ($main::showlist =~ /,trace,/ );
 		return;		# assume a harmless comment?
@@ -1713,6 +1739,20 @@ doseriesline {
 		return;
 	}
 	else {
+		if ( $main::pragmas =~ /,gt4,/ && 
+			($event =~ /^World/ ||
+			 $event =~ /^Original/ ||
+			 $event =~ /^Dirt/ ||
+			 $event =~ /^City/ ||
+			 $event =~ /^Park/ ) ) {
+			# costs you Cr to run some of the events
+			$main::minaudit = 0;
+			$main::maxaudit = $main::maxaudit + 50000;
+		}
+		else {
+			$main::minaudit = $main::minaudit + 1;
+			$main::maxaudit = $main::MAXAUDIT;
+		}
 		$mindays = &event_mindays($event);
 		$maxdays = &event_maxdays($event);
 		if ($diff < $mindays || $maxdays < $diff) {
@@ -1882,7 +1922,7 @@ dosetvar {
 	my($line) = @@_;
 	my($what,$value,$carid);
 
-print " Setvar: $line\n" if ($main::showlist =~ /,trace,/ );
+	print " Setvar: $line\n" if ($main::showlist =~ /,trace,/ );
 	if ( $line =~ /^\s*setvar\s+(\S+)\s*\=\s*\"([^"]*)\"/ ) {  # quoted
 		# can of worms
 		$what = $1;
@@ -2115,6 +2155,33 @@ heuristicinclude {
 	&doinclude("include $includefile");
 }
 
+#
+# doaudit - attempt to keep track of what Cr total should be
+#
+#$main::auditracelast = 1;        # we might not need this
+$main::MAXAUDIT = 100000000000;  # 100 billion for now
+$main::minaudit = 0;
+$main::maxaudit = $main::MAXAUDIT;
+$main::knownaudit = 0;
+$main::minourtotal = 0;
+$main::minourtotal = 0;
+sub
+doaudit {
+	my($line,$rest,$r1,$r2, $estimate) = @@_;
+	# $estimate is recorded total from statusline
+
+	if ($estimate < $main::minaudit && $main::showlist=~/,audit,/) {
+		&warn("Audit Cr should be more than ${main::minaudit}: $line\n");
+	}
+	if ($main::maxaudit < $estimate && $main::showlist=~/,audit,/) {
+		&warn("Audit Cr should be less than ${main::maxaudit}: $line\n");
+	}
+	# In some cases we might want to believe our total instead?
+	$main::knownaudit = $estimate;
+	$main::minaudit = $main::knownaudit;
+	$main::maxaudit = $main::knownaudit;
+}
+
 sub
 dostatusline {
 	my($line,$rest,$r1,$r2) = @@_;
@@ -2171,6 +2238,20 @@ dostatusline {
 		if ($logncars != $main::ncarsnow) {
 			&warn("Car count not ${main::ncarsnow}): $line\n");
 		}
+	}
+	if ( $rest =~ /^Cr/ ) {
+		my ($credits) = ($rest);
+		$credits =~ s/ .*//;
+		$credits = fromcredits($credits);
+		doaudit( $line,$rest,$r1,$r2, $credits);
+	}
+	elsif ( $rest =~ /Cr/ ) {
+		# Prior to gt3, though, we'd put actions on status lines
+		my ($credits) = ($rest);
+		$credits =~ s/.*Cr//;  # potential bugs
+		$credits =~ s/ .*//;
+		$credits = fromcredits($credits);
+		doaudit( $line,$rest,$r1,$r2, $credits);
 	}
 
 	$main::mintoday = $r2;
@@ -2394,6 +2475,10 @@ doparts {
 
 	# Not sure why we didn't break out $rest for this case
 	print " ${main::maxtoday} Parts: $line\n" if ($main::showlist =~ /,trace,/ );
+# later do better; keep track of max expenses and max gains since known
+	$main::minaudit = 0;  # should be able to refine this later
+	$main::maxaudit = $main::maxaudit - 1;
+
 	#($op, $tok, $stuff) = normalizeparts($car,$line);
 	$buf = normalizeparts($car,$line);
 # A question becomes, what should be left after normalize ?
@@ -2533,6 +2618,8 @@ dobuy {
 	my($day,$sf,$fullname);
 
 	print " ${main::maxtoday} Buy: $rest\n" if ($main::showlist =~ /,trace,/ );
+	$main::minaudit = 0;
+	$main::maxaudit = $main::maxaudit - 1;
 	if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
 		$sf = $1;
 		if ($stuff =~ /^\s*car\s+(\S+)\s+(.+)/ && defined($2) ) {
@@ -2596,10 +2683,13 @@ dodaynote {
 	if ($rest =~ /^win\s+(.*)/ && defined($1)) {
 		dowin($line,$rest,$r1,$r2);
 	}
-	if ($rest =~ /^change\s+(.*)/ && defined($1)) {
-		my ($stuff) = ($1);
+	if ($rest =~ /^(change|wash)\s+(.*)/ && defined($1)) {
+		my ($what) = ($1);
+		my ($stuff) = ($2);
 		$stuff =~ s/^\s*oil\s*//;
 		$stuff =~ s/^\s*car\s*//;
+		$main::minaudit -=
+			$main::pragmas =~ /,gt3,/ ? 250 : 50;
 #print "stuff:$stuff\n";
 # this was cheating; eventually identifier will be checked
 		if ($stuff =~ /^(\S+)/ && defined($1) ) {
@@ -2607,16 +2697,28 @@ dodaynote {
 			addcarlog($1,$line);
 		}
 		else {
-			&warn("Bad change: $line\n");
+			&warn("Bad $what: $line\n");
 		}
 	}
-	if ($rest =~ /^mod\s+(.*)/ && defined($1)) {
-		$stuff = $1;
+#print "rest:$rest\n";
+	if ($rest =~ /^(perm\s+|){0,1}mod\s+(.*)/ && defined($2)) {
+		# In gt3 we used "perm mod"
+  		# 72   perm mod Trueno WR1 (Cr1,000)
+		$stuff = $2;
 #print "stuff:$stuff\n";
 # this was cheating; eventually identifier will be checked
 		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
+			# 117 mod car   Silvia'88K  WR1  Cr1000  ->1071kg
 			checkcar($1,$line);
 			addcarlog($1,$line);
+			# Should we route this through buy?
+			doparts($1,$line);
+		}
+		# try next token as car identifier
+		elsif ($stuff =~ /^\s*(\S+)/ && defined($1) ) {
+			checkcar($1,$line);
+			addcarlog($1,$line);
+			# Should we route this through buy?
 			doparts($1,$line);
 		}
 		else {
@@ -2630,7 +2732,11 @@ dodaynote {
 		&sell($stuff);
 	}
 	# Unrecognized lines are effectively comments
-
+	if ( $main::pragmas =~ /,gt4,/ &&
+		$rest =~ /skip.*Mission/ ) {
+		# Missions might win some Cr
+		$main::maxaudit = $main::MAXAUDIT;
+	}
 	$main::mintoday = $r2;
 	$main::maxtoday = $r2;
 }
@@ -2761,7 +2867,8 @@ while (defined($_ = &getlog())) {
 	my($license,$r1,$r2,$rest);
 	my($sp);
 
-	print "$line" if ($main::showlist =~ /,trace,/ );
+	print "$line" if ($main::showlist =~ /,trace,/ ||
+			$main::showlist =~ /,echo,/ );
 
 	last if ($main::done);
 	last if ($daylimit > 0 && $main::mintoday > $daylimit);
@@ -3026,6 +3133,7 @@ fromcredits {  # N.B. money, not attributions/accolades
 
 	$s =~ s/^Cr//i;
 	$s =~ s/,//g;
+	$s =~ s/\D+//;   # tolerate Cr12,673,210  (?)
 	$num = 0 + $s;
 	return $num;
 }
@@ -3127,6 +3235,88 @@ if ($main::showlist =~ /,vars,/ ) {
 	      printf("%s - %s\n", $sorted[$i], $main::var{$sorted[$i]} );
 	}
 }
+@
+
+
+1.108
+log
+@Sort of hacks just to allow three old-style gt3-game1 "perm mod" lines to work.
+
+Also stopped Setvar from looking like a debugging printf.
+@
+text
+@d1678 2
+a1679 1
+	if ( $rest =~ /Cr/ ) {
+d2116 3
+a2118 2
+	if ($rest =~ /^change\s+(.*)/ && defined($1)) {
+		my ($stuff) = ($1);
+d2130 1
+a2130 1
+			&warn("Bad change: $line\n");
+@
+
+
+1.107
+log
+@Finally implemented crude show=audit.
+Works amazingly well even without detailed quantities.
+In fact, makes lots of work to fix up gt4-game1
+@
+text
+@d1355 1
+a1355 1
+print " Setvar: $line\n" if ($main::showlist =~ /,trace,/ );
+d1678 7
+d2119 2
+a2120 1
+		$main::minaudit -= 100;  # until we do better details
+d2131 5
+a2135 2
+	if ($rest =~ /^mod\s+(.*)/ && defined($1)) {
+		$stuff = $1;
+d2139 8
+@
+
+
+1.106
+log
+@Add "showlist=echo".
+This is just the simple part of "trace", and might combine in future
+with our tentative "show=audit"  (assess credit totals).
+So "show=trace" effectively assumes "show=echo".  I wonder if it should not?
+@
+text
+@d517 1
+d701 2
+a702 1
+	
+d1138 1
+d1172 14
+d1588 27
+d1672 6
+d1900 4
+d2043 2
+d2112 1
+d2130 1
+d2144 5
+a2148 1
+
+d2545 1
+@
+
+
+1.105
+log
+@Found a "findcarid" use which was missing the "$line" argument.
+Some comments about it.
+@
+text
+@d55 1
+d2217 2
+a2218 1
+	print "$line" if ($main::showlist =~ /,trace,/ );
 @
 
 
