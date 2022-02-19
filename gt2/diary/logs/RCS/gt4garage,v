@@ -1,10 +1,15 @@
-head	1.109;
+head	1.110;
 access;
 symbols;
 locks
-	arpepper:1.109; strict;
+	arpepper:1.110; strict;
 comment	@# @;
 
+
+1.110
+date	2022.02.19.13.26.14;	author arpepper;	state Exp;
+branches;
+next	1.109;
 
 1.109
 date	2022.02.13.03.48.36;	author arpepper;	state Exp;
@@ -560,12 +565,10 @@ updates copied to ~gt2toxs and eventually to gt2toxs-webpages.git
 @
 
 
-1.109
+1.110
 log
-@Handle car washes too.
- 
-Begin thinking about handling multiple Cr on one line, but we've not
-got it right yet.
+@Tweaks to show=audit
+Mostly for other games and other unusual cases.
 @
 text
 @#!/usr/bin/perl -w
@@ -675,6 +678,11 @@ $main::var{'minseriesinc'} = 1;
 $main::var{'maxseriesinc'} = 1;
 
 $main::var{'maxunknownracedays'} = 0;  # set to 1 for GT1
+
+# For show=audit
+$main::var{'minprizecredits'} = 1;  # most games you get credits even for 6th
+#$main::var{'maxprizecredits'} = 5000000;   # Eventually use this...
+
 
 # This set allow flexibility in data
 # But in some cases could be argued to reflect chosen log style
@@ -1749,8 +1757,16 @@ doseriesline {
 			$main::minaudit = 0;
 			$main::maxaudit = $main::maxaudit + 50000;
 		}
+		elsif ( $main::pragmas =~ /,gt2,/ && 
+			 $event =~ /^Rally/ ) {
+			# No money for second place
+			# $main::minaudit = $main::minaudit;
+			$main::maxaudit = $main::maxaudit + 50000;
+		}
 		else {
-			$main::minaudit = $main::minaudit + 1;
+			# Assume always get money for last place
+			$main::minaudit = $main::minaudit + 
+				$main::var{'minprizecredits'};
 			$main::maxaudit = $main::MAXAUDIT;
 		}
 		$mindays = &event_mindays($event);
@@ -2171,10 +2187,10 @@ doaudit {
 	# $estimate is recorded total from statusline
 
 	if ($estimate < $main::minaudit && $main::showlist=~/,audit,/) {
-		&warn("Audit Cr should be more than ${main::minaudit}: $line\n");
+		&warn("Audit Cr$estimate should be more than ${main::minaudit}: $line\n");
 	}
 	if ($main::maxaudit < $estimate && $main::showlist=~/,audit,/) {
-		&warn("Audit Cr should be less than ${main::maxaudit}: $line\n");
+		&warn("Audit Cr$estimate should be less than ${main::maxaudit}: $line\n");
 	}
 	# In some cases we might want to believe our total instead?
 	$main::knownaudit = $estimate;
@@ -2239,16 +2255,27 @@ dostatusline {
 			&warn("Car count not ${main::ncarsnow}): $line\n");
 		}
 	}
-	if ( $rest =~ /^Cr/ ) {
+	if ( $rest =~ /Cr\d.*Cr\d/ ) {
+		# Prior to gt3, we'd put actions on status lines
+		my ($credits) = ($rest);
+		# assume the second credit total is more significant
+		# Should we look for [-=]> ?
+		$credits =~ s/\(Cr\d[^)]*\)/ /;  # diffs sometimes
+		$credits =~ s/.*(Cr\d)/$1/;  # potential bugs
+		$credits =~ s/ .*//;
+		$credits = fromcredits($credits);
+		doaudit( $line,$rest,$r1,$r2, $credits);
+	}
+	elsif ( $rest =~ /^Cr\d/ ) {
 		my ($credits) = ($rest);
 		$credits =~ s/ .*//;
 		$credits = fromcredits($credits);
 		doaudit( $line,$rest,$r1,$r2, $credits);
 	}
-	elsif ( $rest =~ /Cr/ ) {
+	elsif ( $rest =~ /Cr\d/ ) {
 		# Prior to gt3, though, we'd put actions on status lines
 		my ($credits) = ($rest);
-		$credits =~ s/.*Cr//;  # potential bugs
+		$credits =~ s/.*Cr\d//;  # potential bugs
 		$credits =~ s/ .*//;
 		$credits = fromcredits($credits);
 		doaudit( $line,$rest,$r1,$r2, $credits);
@@ -3235,6 +3262,37 @@ if ($main::showlist =~ /,vars,/ ) {
 	      printf("%s - %s\n", $sorted[$i], $main::var{$sorted[$i]} );
 	}
 }
+@
+
+
+1.109
+log
+@Handle car washes too.
+ 
+Begin thinking about handling multiple Cr on one line, but we've not
+got it right yet.
+@
+text
+@d109 5
+d1187 6
+d1194 3
+a1196 1
+			$main::minaudit = $main::minaudit + 1;
+d1617 1
+a1617 1
+		&warn("Audit Cr should be more than ${main::minaudit}: $line\n");
+d1620 1
+a1620 1
+		&warn("Audit Cr should be less than ${main::maxaudit}: $line\n");
+d1685 12
+a1696 1
+	if ( $rest =~ /^Cr/ ) {
+d1702 1
+a1702 1
+	elsif ( $rest =~ /Cr/ ) {
+d1705 1
+a1705 1
+		$credits =~ s/.*Cr//;  # potential bugs
 @
 
 

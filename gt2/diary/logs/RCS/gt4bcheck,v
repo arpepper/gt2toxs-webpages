@@ -1,10 +1,25 @@
-head	1.3;
+head	1.6;
 access;
 symbols;
 locks
-	arpepper:1.3; strict;
+	arpepper:1.6; strict;
 comment	@# @;
 
+
+1.6
+date	2022.02.19.09.11.31;	author arpepper;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2022.02.18.17.36.32;	author arpepper;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2022.02.18.17.23.57;	author arpepper;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2021.03.22.18.58.22;	author arpepper;	state Exp;
@@ -27,9 +42,9 @@ desc
 @
 
 
-1.3
+1.6
 log
-@/xhbin/perl => /usr/bin/perl
+@Add line number to Note.
 @
 text
 @#!/usr/bin/perl -w
@@ -46,6 +61,10 @@ while (<>) {
 		$newmachine = $2;
 		$newcourse = $3;
 		$newbattle = $4;
+		$lineno = "";
+		if ($_ =~ /^\s*(\d+)\s+/ ) {
+			$lineno = " ".$1;
+		}
 		if ($_ =~ /B:\d+\/\d+\/\d+\/\d+ *\(n\/c\)/ ) {
 			$incbspec = 0;
 			$incmachine = 0;
@@ -60,7 +79,7 @@ while (<>) {
 			$incbattle = $4;
 		}
 		else {
-			$warn .= " NoInc";
+#			$warn .= " NoInc";
 			$incbspec = 0;
 			$incmachine = 0;
 			$inccourse = 0;
@@ -70,11 +89,14 @@ while (<>) {
 		$c = $newmachine - $machine;
 		$m = $newcourse - $course;
 		$b = $newbattle - $battle;
-print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
-	"($incbspec/$incmachine/$inccourse/$incbattle)" .
-	"  B:$bspec/$machine/$course/$battle" .
-	"  (+$t/+$c/+$m/+$b)" . "\n";
+		$note =
+			"Note:$lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"($incbspec/$incmachine/$inccourse/$incbattle)" .
+# Seems we should use new in following also; not clear what we are checking
+			"  B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"(+$t/+$c/+$m/+$b)" . "\n";
 
+# Should check for inc < 0 duh!
 		if ($newbspec != ($bspec + $incbspec) ) {
 			$warn .= " Bspec";
 		}
@@ -96,8 +118,57 @@ print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
 		$battle = $newbattle;
 	}
 	$_ =~ s/$/$warn/;
+	if ($warn ne "") {
+		print $note;
+	}
 	print $_;
 }
+@
+
+
+1.5
+log
+@For apparent clarity, use new (proposed) totals in each case.
+Comment that a basic check is to check for any -ve increment.
+@
+text
+@d15 4
+d44 1
+a44 1
+			"Note: B:$newbspec/$newmachine/$newcourse/$newbattle" .
+@
+
+
+1.4
+log
+@Produce no output when there are no errors.
+No longer encourage the use of spaces.
+Looks like we should change Note to use predicted totals instead of previous.
+Might be easy or not.
+@
+text
+@d42 2
+a43 1
+			"  B:$bspec/$machine/$course/$battle" .
+d46 1
+@
+
+
+1.3
+log
+@/xhbin/perl => /usr/bin/perl
+@
+text
+@d29 1
+a29 1
+			$warn .= " NoInc";
+d39 5
+a43 4
+print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
+	"($incbspec/$incmachine/$inccourse/$incbattle)" .
+	"  B:$bspec/$machine/$course/$battle" .
+	"  (+$t/+$c/+$m/+$b)" . "\n";
+d66 3
 @
 
 

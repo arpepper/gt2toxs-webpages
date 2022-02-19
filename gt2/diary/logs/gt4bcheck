@@ -12,6 +12,10 @@ while (<>) {
 		$newmachine = $2;
 		$newcourse = $3;
 		$newbattle = $4;
+		$lineno = "";
+		if ($_ =~ /^\s*(\d+)\s+/ ) {
+			$lineno = " ".$1;
+		}
 		if ($_ =~ /B:\d+\/\d+\/\d+\/\d+ *\(n\/c\)/ ) {
 			$incbspec = 0;
 			$incmachine = 0;
@@ -26,7 +30,7 @@ while (<>) {
 			$incbattle = $4;
 		}
 		else {
-			$warn .= " NoInc";
+#			$warn .= " NoInc";
 			$incbspec = 0;
 			$incmachine = 0;
 			$inccourse = 0;
@@ -36,11 +40,14 @@ while (<>) {
 		$c = $newmachine - $machine;
 		$m = $newcourse - $course;
 		$b = $newbattle - $battle;
-print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
-	"($incbspec/$incmachine/$inccourse/$incbattle)" .
-	"  B:$bspec/$machine/$course/$battle" .
-	"  (+$t/+$c/+$m/+$b)" . "\n";
+		$note =
+			"Note:$lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"($incbspec/$incmachine/$inccourse/$incbattle)" .
+# Seems we should use new in following also; not clear what we are checking
+			"  B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"(+$t/+$c/+$m/+$b)" . "\n";
 
+# Should check for inc < 0 duh!
 		if ($newbspec != ($bspec + $incbspec) ) {
 			$warn .= " Bspec";
 		}
@@ -62,5 +69,8 @@ print "Note: B:$newbspec/$newmachine/$newcourse/$newbattle " .
 		$battle = $newbattle;
 	}
 	$_ =~ s/$/$warn/;
+	if ($warn ne "") {
+		print $note;
+	}
 	print $_;
 }
