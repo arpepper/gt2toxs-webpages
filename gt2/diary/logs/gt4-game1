@@ -111,7 +111,7 @@ Note: Track  Suzuka Circuit  unlocked
 
   71    Silvia'88K B/Sunday/CR5  1st  Cr600 8pts  next
   72 +1 win car A112'79  Autobianchi A112 Abarth'79 (Metalized Dark Grey)
-  73 Cr9,350  June 12  A:39
+  73 Cr9,950  June 12  A:39
 
   73 select car Sunfire
   73 change oil Sunfire   183hp->192hp
@@ -123,6 +123,8 @@ Note: Track  Suzuka Circuit  unlocked
 
 February 24, 2005
   73 select car Silvia'88K  175hp->     +wash
+  73 change oil Silvia'88K  175hp->
+  73 wash Silvia'88K
   73 Cr9,700
   73 +1 skip Mission1  1st  Cr1000  250pts  DFRW
   74 +1 skip Mission1  1st  Cr1000  (250pts==0)  DFRW
@@ -212,7 +214,8 @@ February 26, 2005
  117 select car Silvia'88K
  117 buy parts Silvia'88K  TS2,Ric Cr12500,Cr2500 (HKS)
  117 mod car   Silvia'88K  WR1  Cr1000  ->1071kg
- 117 change oil Silvia'88K +wash
+ 117 change oil Silvia'88K
+ 117 wash Silvia'88K
  117 Cr1,480
  117    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  none
  118    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  none
@@ -281,7 +284,8 @@ Note: Track  Fuji Circuit 2005 GT Course  unlocked
 
 February 28, 2005
  148 select car Silvia'88K
- 148 change oil Silvia'88K +wash
+ 148 change oil Silvia'88K
+ 148 wash Silvia'88K
  148    Silvia'88K  SC/Easy/Amalfi   1st  4:56.849  5pts  Cr5,000 none
  149    Silvia'88K  SC/Easy/AmalfiR  1st    5pts  Cr5,000 next
  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
@@ -298,7 +302,8 @@ Note: Track  Ice Arena  unlocked
 
  155 +1 sell car Toyota RSC Rally Raid Car '02  -> Cr265,624
  156 Cr341,544  Sep 4
- 156  change oil RSC'02 +wash   424->444hp
+ 156  change oil RSC'02 424->444hp
+ 156  wash RSC'02
  156 +1 buy parts RSC'02  "ENKEI 02" wheels
  157  buy parts RSC'02  T-S3  Cr8,000  T-DT Cr23,000  T-SN Cr23,000
  157    RSC'02       J/JC/Fuji90   1st   6pts   none
@@ -469,14 +474,16 @@ Note: Track  George V Paris  unlocked
  231 Cr824,849  Nov 18  A:2859
  
  231  select car greyEtype
- 231  change oil greyEtype +wash
+ 231  change oil greyEtype
+ 231  wash greyEtype
  231 Cr824,749
  231 +5  greyEtype    P/WC   q12211,22221,2nd46to(34),19,16,10,5   none
  236 Cr858,749  Nov 23  A:2860  B:2552/38/30/12 (+551/+7/+6/+4)
  236  mod car greyEtype  WR1,WR2,WR3 1219-1145-1109-1072 Cr1200,Cr5500,Cr22,000
  236  mod car greyEtype  stiff  Cr30,000
  236  mod car greyEtype  pol+bal  Cr5500  Cr12,000   438->451->468hp
- 236  change oil greyEtype +wash
+ 236  change oil greyEtype
+ 236  wash greyEtype
  236 Cr782,449
  236 +5  greyEtype    P/WC   sw50to26,24,12,12,5        next
  241 +1 win car Daimler1886  Mercedes-Benz Daimler Motor Carriage 1886
@@ -497,7 +504,8 @@ March 8, 2005
  250 Cr969,328  Dec 7  A:2862  B:2891/43/35/12 (+22/+0/+0/+0)   11.2%
  250 +1 buy car SL600  Mercedes SL600 (R129) '98 (Malachit(green))  (Cr136,376,used)
  251 +1 sell car AMG Mercedes CLK-GTR Race Car '98  -> Cr743,749
- 252  change oil CLK-DTM 624hp->655hp  +wash
+ 252  change oil CLK-DTM 624hp->655hp
+ 252  wash CLK-DTM
  252 Cr1,576,302  Dec 9  11.2%
  252 power off
 
@@ -523,7 +531,7 @@ Note: Track  Costa di Amalfi  unlocked
  255    redRAM      B/Trk/Laguna    nq6th1st   Cr1,200  200pts none
  256 Cr1,040,507  Dec 13  A:3062
  256    redRAM      B/Trk/SeattleR    nq6th1st   Cr1,200  200pts none
- 257 Cr1,051,707  Dec 14  A:3262
+ 257 Cr1,041,707  Dec 14  A:3262
  257 change oil redRAM  453->476hp
  257    redRAM      B/Trk/Fuji90      nq6th1st   Cr1,200  200pts next
  258 +1 win car Silverado  Chevrolet Silverado SST Concept '02 (Nippon Poppy Red)
@@ -898,6 +906,7 @@ March 19, 2005
  413    [R]350Z'02    E/GV300  nq6th2nd(A+B)   Cr100,000    8-(
  414 Cr1,845,402  May 20  B:4692/59/47/41 (+267/+0/+0/+8)
  414 change oil [R]350Z'02   509hp->533hp  +wash
+ 414 wash [R]350Z'02
  414 Cr1,845,302
  414    [R]350Z'02    E/GV300  nq6th1st(B+A) 0Aspec Cr400,000   next
  415 +1 win car  Streamliner  Auto Union V16 Type C Streamliner '37
@@ -938,7 +947,8 @@ March 22, 2005
 March 23, 2005
   cardef DeLorean car360
  428  select car DeLorean
- 428  change oil DeLorean  200hp -> 210hp +wash
+ 428  change oil DeLorean  200hp -> 210hp
+ 428  wash DeLorean
  428 Cr2,279,502
  428     DeLorean    World/TT/Laguna   1:46.970            none
  429 Cr2,279,502  Jun 4  B:5084/66/52/43 (+313/+7/+5/+0)
@@ -1039,10 +1049,11 @@ March 26, 2005
  465 change oil MSElise  249hp -> 249hp  +wash
  465     MSElise       E/ElCapitan  nq6th1st(B)            next
  466 +1 win car MT88C-V   Minolta Toyota 88C-V Race Car '89
- 467 Cr4,937,719  Jul  12
+#467 Cr4,937,719  Jul  12
+ 467 Cr5,187,719  Jul  12
  467 +1 sell car  Minolta Toyota 88C-V Race Car '89 -> Cr743,749
  468 +1 sell car  Minolta Toyota 88C-V Race Car '89 -> Cr743,749
- 469 Cr4,937,719  Jul  14
+ 469 Cr6,675,217  Jul  14
 
  469  select car 2CV    Citroen 2CV Type A '54 (Gris Bleu)
  469  buy parts  2CV  SpBr Bctlr  Cr4500 Cr10,000
@@ -1152,12 +1163,14 @@ March 29, 2005
 March 30, 2005
  522 select car MSElise
  522 change oil MSElise   +wash   331hp -> 348hp
+ 522 wash MSElise
  522     MSElise       E/ElCapitan  nq6th1st(B)            next
  523 +1 win car MT88C-V   Minolta Toyota 88C-V Race Car '89
  524 +1 sell car  Minolta Toyota 88C-V Race Car '89 -> Cr743,749
  525 Cr10,541,724   Sep 8
 
- 525 change oil MSElise   +wash   331hp -> 348hp
+ 525 change oil MSElise  331hp -> 348hp
+ 525 wash MSElise
  525 Cr10,541,624
  525 +5  MSElise    Eu/BGT (B)  q12461,1st50to25,24,12,12,7        next
  530 +1 win car  greenEtype  Jaguar E-Type Coupe '61  (Opalescent Dark Green Metallic)
@@ -1180,7 +1193,7 @@ March 30, 2005
  537 Cr10,587,561  Sep 20  A:7182  32.9%
  537     Subaru360      Mfr/Sub360/Tsukuba     nq6th1st(B)        next
  538 +1 win car blueSub360  Subaru 360 '58  (WR Blue Mica)
- 539 Cr10,587,561  Sep 20  B:5938/78/61/53  (+76/+1/+0/+2)
+ 539 Cr10,590,561  Sep 20  B:5938/78/61/53  (+76/+1/+0/+2)
  539 power off
 
 March 31, 2005
@@ -1434,7 +1447,8 @@ Note: 6:38.405(helping)  6:40.xxx(B)
  
 April 17, 2005
  638 select car [R]350Z'02   Nissan 350Z Concept LM Race Car '02
- 638  change oil [R]350Z'02    771->810hp  +wash
+ 638  change oil [R]350Z'02    771->810hp
+ 638  wash [R]350Z'02
  638 Cr14,869,054
  638  mod car [R]350Z'02  stiffen Cr50,000
  638 Cr14,819,054
@@ -1536,7 +1550,7 @@ April 24, 2005
  705 Cr7,602,645  Mar 7    B:7143/90/73/68 (n/c)  134cars
 
  705 +1 buy car March  Nissan March G# '99 (Sparkling Orange)  (Cr8501,used)
- 706 Cr7,602,645  Mar 8     135cars
+ 706 Cr7,594,144  Mar 8     135cars
  706 select car March
  706  buy parts March  Rmuff Cr4500 SpBr Bctlr  Cr4500 Cr10,000
  706  buy parts March  NA1,NA2,NA3  Cr4600 Cr11,500 Cr65,000
@@ -1551,8 +1565,8 @@ April 24, 2005
  706  mod car   March  stiff Cr50,000
  706 Cr7,213,044
  706 change oil March     76hp->84hp
- 706 Cr7,212,944
  706 change oil March     105hp->105hp
+ 706 Cr7,212,944
  706       March    Mfr/March/AM           nq6th1st  3A         none
  707       March    Mfr/March/SuzukaE      nq6th1st  7A         none
  708       March    Mfr/March/GVEii        nq6th1st  14A        next
@@ -1596,7 +1610,8 @@ April 30, 2005
 
 May 1, 2005
  720  select car blackClio  Renault Clio Sport V6 24V '00 (black)
- 720  change oil blackClio  416hp->416hp  +wash
+ 720  change oil blackClio  416hp->416hp
+ 720  wash blackClio
  720 +5  blackClio  Mfr/Clio  BBBBA,sw50to18,18,18,13,13  9A   next
  725 +1 win car [R]Clio  Clio Renault Sport Trophy V6 24V Race Car '00 (red #5)
  726 Cr8,096,544  Mar 28  A:7522   B:7169/90/73/68 (+26/+0/+0/+0) 139cars 48.0%
@@ -1605,7 +1620,8 @@ May 1, 2005
  727 select car BeetleCup
  727  buy parts BeetleCup   NA1,NA2  Cr5000 Cr13,500   N2O Cr5000
  727  buy parts BeetleCup   T-R2,T-R3  Cr10,750 Cr22,750  SpBr Cr4800
- 727  change oil BeetleCup  305hp->320hp  +wash
+ 727  change oil BeetleCup  305hp->320hp
+ 727  wash BeetleCup
  727 Cr7,979,694  Mar 29
  727 +5  BeetleCup  Mfr/Beetle  sw50to23,18,16,15,8      35A   next
  732 +1 win car VW'49   Volkswagen Beetle 1100 Standard (Type-11) '49 (Schwarz)
@@ -1619,7 +1635,8 @@ May 1, 2005
  734  buy parts GolfGTI  Rsusp  Cr16,000
  734  buy parts GolfGTI  T-R1,T-R2 T-R3  Cr8100 Cr10,250 Cr22,250
  734  mod car   GolfGTI  WR1 WR2 1336-1215-1175 Cr1100 Cr5300
- 734  change oil GolfGTI    204hp->214hp  +wash
+ 734  change oil GolfGTI    204hp->214hp
+ 734  wash GolfGTI
  734 Cr7,869,144  Apr 5
  734       GolfGTI  Mfr/GTI/DFRWii         nq6th1st  1A         none
  735       GolfGTI  Mfr/GTI/MidfieldR      nq6th1st  1A         none
@@ -1697,7 +1714,7 @@ May 10, 2005
  763    Galant'70  J/70s/MotorlandR nq6th1st    Cr2000  (B)  none
  764    Galant'70  J/70s/TM         nq6th1st    Cr2000  (B)  next
  765 +1 win car whiteSkyline'70  Nissan Skyline Hard Top 2000 GT-R (KPGC10) '70 (Metallic Silver)
- 766 Cr6,650,344  May 7   B:7254/90/74/69 (+85/+0/+1/+1) 148cars
+ 766 Cr6,661,344  May 7   B:7254/90/74/69 (+85/+0/+1/+1) 148cars
  766 power off
 
 May 11, 2005
@@ -1725,7 +1742,8 @@ May 16, 2005
  777 +1 win car yellowGhia  Volkswagen Karmann Ghia Coupe (Type-1) '68  (Pirolgelb/yellow)
  778 Cr7,516,870  May 19   A:7628  151cars
  778       Lupo     Mfr/Lupo/Nurburgring   nq6th1st    (6A)     none
- 779 Cr7,516,870  May 20
+#779 Cr7,516,870  May 20
+ 779 Cr7,521,870  May 20
  779 power off
 
 May 19, 2005
@@ -1803,7 +1821,7 @@ Mar 23, 2005
  817   [R]ImprezaRly'01  SC/Easy/IceArenaR  nq2nd2nd  0A       none
  818   [R]ImprezaRly'01  SC/Easy/IceArenaR  nq2nd1st  4A       next
  819 +1 win car  silverRSC'01  Toyota RSC '01  (silver)
- 820 Cr7,270,755  Jun 30   A:7699  158cars    55.0%
+ 820 Cr7,370,755  Jun 30   A:7699  158cars    55.0%
 
  820     license S6 G  Ice Arena  0:56.916G  (not all that many tries)
  821 Cr7,370,755  Jul 1   55.0%    68B/0S/1G
@@ -2065,9 +2083,9 @@ June 15, 2005
  931    SL600        Mfr/SL/Apricot      nqth2nd(B)                8-(
  932 Cr5,445,548  Oct 20  B:7510/91/76/72 (+13/+0/+0/+0)
  932    SL600        Mfr/SL/Apricot      nqth1st(B)               none
- 933 Cr5,445,548  Oct 20  B:7510/91/76/72 (n/c)
+ 933 Cr5,455,548  Oct 20  B:7510/91/76/72 (n/c)
  933    SL600        Mfr/SL/Apricot      nqth2nd(B)                8-(
- 934 Cr5,445,548  Oct 20  B:7522/91/76/73 (+12/+0/+0/+1)
+ 934 Cr5,461,548  Oct 20  B:7522/91/76/73 (+12/+0/+0/+1)
  934    SL600        Mfr/SL/Fuji80       nqth1st(B)               none
  935    SL600        Mfr/SL/ElCapitan    nqth1st(B)               next
  936 +1 win car  blue300SL    Mercedes-Benz 300SL Coupe '54  (Light Blue)
@@ -2361,7 +2379,7 @@ Note: Leap Year!
 1078 Cr6,561,491  Mar 14                         209cars  68.2%
 1078 select car Eclipse  Mitsubishi Eclipse GT '95
 1078 +1 buy parts Eclipse  wing Type AB (Black)  Cr1200
-1079 Cr6,561,491  Mar 14                         209cars  68.2%
+1079 Cr6,560,291  Mar 14                         209cars  68.2%
 1079 select car ImprezaWG'00  Subaru Impreza Sport Wagon STi '00
 1079   ImprezaWG'00  J/JC/Suzuka   1st   97A    none
 1080 Cr6,567,491  Mar16   A:8825   209cars   68.4%
@@ -2807,7 +2825,7 @@ July 21, 2005
 1269 +1 sell car  Minolta Toyota 88C-V Race Car '89 -> Cr743,749
 1270 Cr9,873,215  Sep 22   B:8996/99/89/89(n/c)
 1270 +1 buy car Supra'90  Toyota Supra 2.5GT Twinturbo R '90 (Red Mica) (Cr11,458,used)
-1271 Cr9,873,215  Sep 23   222cars
+1271 Cr9,861,757  Sep 23   222cars
 1271 power off
 
 Note: Bspec HSR and HSRii Family Cup races  (High Speed Ring)
@@ -3393,8 +3411,8 @@ August 11, 2005
 1534     MGF'97       Mfr/MG/Suzuka    nq6th1st  T-R1RsuspNA2(N2O) +7A none
 1535 Cr2,014,371  Jun 14   A:9039   242cars  71.9%
 1535  buy parts MGF'97   T-R3  Cr22,250
-1535 Cr1,995,121
-1535     MGF'97       Mfr/MG/HKii      nq6th1st  T-R3RsuspNA2N2O   +7A next
+1535 Cr1,992,121
+1535     MGF'97       Mfr/MG/HKii      nq6th1st  T-R3RsuspNA2N2O   +6A next
 1536 +1 win car yellowMGF   MG MGF '97  (Yellow(special color))
 1537 Cr1,995,121  Jun 16   A:9045   243cars  72.1%
 
@@ -3562,7 +3580,8 @@ Sep 01, 2005
 1619  buy parts Series1  T-S1 T-S3 Cr5500 Cr7,400
 1619  buy parts Series1  T-R1 T-R2 T-R3   Cr8700 Cr10,750 Cr22,750
 1619  buy parts Series1   NA1,NA2,NA3  Cr5000 Cr13,500 Cr80,000 chip N2O  Cr1800 Cr5000
-1619 Cr2,959,120
+#1619 Cr2,959,120  # following calculates from above, but seems low
+1619 Cr2,808,720
 1619    Series1    Mfr/Shelby/TMii  nq6th1st  T-R3,N2O    135A    none
 1620 Cr2,888,720  Sep  7  A:9957  257cars  72.8%
 1620  buy parts Series1  3clu,Rfw,shaft  Cr4800 Cr1100 Cr3250
@@ -3817,7 +3836,8 @@ Note: blueMSElise frame is still stiff
 
 Sep 20, 2005
 1723 select car [R]Speed8  Bentley Speed 8 Race Car '03
-1723 change oil [R]Speed8  1047->1100   +wash
+1723 change oil [R]Speed8  1047->1100
+1723 wash [R]Speed8
 1723  mod car   [R]Speed8  rigid  Cr50,000
 1723    [R]Speed8      E/Infineon   nq6th1st(B)   TS4 T-R2/T-R1    next
 1724 +1 win car [R]FordGT'02   Ford GT LM Race Car '02
@@ -3858,7 +3878,8 @@ Note: presence of a Speed12 changes Aspec points greatly
 
 Sep 25, 2005
 1739 select car [R]Speed8  Bentley Speed 8 Race Car '03
-1739   change oil [R]Speed8  1047->1097hp  +wash
+1739   change oil [R]Speed8  1047->1097hp
+1739   wash [R]Speed8
 1739 Cr7,342,887
 1739    [R]Speed8      E/Fuji90     nq6th1st(B)            next
 1740 +1 win car [R]R92CP   Nissan R92CP Race Car '92
@@ -3927,7 +3948,8 @@ Oct 01, 2005
 Oct 02, 2005
 1780 select car greyEtype   Jaguar E-Type Coupe '61 (Mist Grey)
 1780  mod car greyEtype  refresh  Cr50,000
-1780   change oil greyEtype  443->465hp  +wash
+1780   change oil greyEtype  443->465hp
+1780   wash greyEtype
 1780 Cr10,097,671
 1780 select car orangeCerbera
 1780 +5  orangeCerbera  Eu/BGT    1st50to23,20,20,12,5          +0A  next
@@ -3943,7 +3965,8 @@ Oct 02, 2005
 1786  buy parts  V8S   T-S1 T-S3   Cr5100 Cr6800
 1786  buy parts  V8S   T-N1 T-N2 T-N3  Cr0
 1786  mod car    V8S     refresh  Cr50,000
-1786   change oil  V8S    218->242hp  +wash
+1786   change oil  V8S    218->242hp
+1786   wash  V8S
 1786 Cr9,978,971
 1786 +5     V8S         Eu/BGT    1st50to23,22,18,9,8          +29A  next
 1791 +1 win car ClaretEtype   Jaguar E-Type Coupe '61  (Claret)
@@ -4012,7 +4035,8 @@ Oct 08, 2005
 Oct 09, 2005
 1831 select car orangeCerbera
 1831  mod car orangeCerbera  refresh  Cr50,000
-1831 change oil  orangeCerbera  352hp to 370hp  +wash
+1831 change oil  orangeCerbera  352hp to 370hp
+1831 wash  orangeCerbera
 1831 Cr10,405,434
 1831  orangeCerbera    E/ElCapitan  nq6th1st      T-S2   107-9A  next
 1832 +1 win car MT88C-V   Minolta Toyota 88C-V Race Car '89
@@ -4025,7 +4049,8 @@ Oct 09, 2005
 
 Oct 10, 2005
 1835 select car orangeCerbera
-1835 change oil  orangeCerbera  352hp to 370hp  +wash
+1835 change oil  orangeCerbera  352hp to 370hp
+1835 wash  orangeCerbera
 
 1835 +1 skip Mission19  nq6th1st  (S2000@SuzukaE)  many tries     none
 1836 Cr11,375,496  Apr 11  A:12738  313cars  79.1%
@@ -4052,7 +4077,8 @@ Oct 10, 2005
 1850  buy parts [R]RS200'85  T-DT  T-SN  Cr23,000  Cr23,000
 1850  buy parts [R]RS200'85  T-N1 T-N2 T-N3  Cr0
 1850 Cr11,439,194
-1850 change oil [R]RS200'85   ->448hp  +wash
+1850 change oil [R]RS200'85   ->448hp
+1850 wash [R]RS200'85
 1850 Cr11,439,094
 1850 power off
 
@@ -4096,7 +4122,8 @@ Oct 23, 2005
 1866  buy parts  ClaretEtype  SpMuff Cr1600  NA1 Cr4900
 1866  buy parts  ClaretEtype  Rtrans Cr10,400  3clu Cr4700  Rfw Cr1050
 1866  buy parts  ClaretEtype  SpSusp  Cr7400
-1866  change oil ClaretEtype   293 -> 308hp +wash
+1866  change oil ClaretEtype   293 -> 308hp
+1866  wash ClaretEtype
 1866   ClaretEtype  Original/TT/DFRW       1:32.210         none
 1867 Cr12,083,625  May 12
 
@@ -4160,7 +4187,7 @@ Oct 30, 2005
 1890    BMW120I   Mfr/BMW1/MotegiE  nq6th1st  T-S1,100KG,3clu+N2O +95-4A   none
 1891 Cr11,962,052  Jun  5  A:13465
 1891    BMW120I   Mfr/BMW1/Infineon nq6th1st  T-S1,50KG,3clu+N2O  +90-8A   none
-1892 Cr11,962,052  Jun  6  A:13547
+1892 Cr11,965,052  Jun  6  A:13547
 1892 +1 buy car 240RS'83  Nissan 240 RS '83 (White) (Cr25,269,used)
 1893 Cr11,939,783  Jun  7  A:13547  331cars  79.1%
 1893    BMW120I   Mfr/BMW1/GV       nq6th1st  T-S1,150KG,3clu+   +101-1A   next
@@ -4199,7 +4226,8 @@ Nov 06, 2005
 1904  buy parts blackSL600   T-N1 T-N2 T-N3  Cr0
 1904  buy parts blackSL600   T-R1 T-R2 T-R3 Cr8400 Cr10,500 Cr22,500
 1904  mod car   blackSL600   refresh Cr50,000
-1904  change oil blackSL600  356hp->393hp +wash
+1904  change oil blackSL600  356hp->393hp
+1904  wash blackSL600
 1904 Cr11,044,547
 1904   blackSL600  Mfr/SL/Apricot   nqth1st  NA1chip3clu+N20-R1  +34-10A none
 1905   blackSL600  Mfr/SL/ElCapitan nqth1st  chip3clu+N20-R1      +46-9A none
@@ -4244,7 +4272,8 @@ Nov 13, 2005
 1922 buy parts black787B  N2O Cr5000  TS4 Cr90,000
 1922 buy parts black787B  T-R1 T-R2  Cr9000 Cr11,000  T-R4 Cr35,500
 1922 mod car black787B  refresh  Cr50,000
-1922 change oil black787B  725->801hp  +wash
+1922 change oil black787B  725->801hp
+1922 wash black787B
 1922 Cr10,717,755
 1922 +10 black787B Ex/Dream  E2,1st96to56,48,29,21,10  T-R3     9A  next
 1932 +1 win car [R]GTR'02  Nissan GT-R Concept LM Race Car '02
@@ -4611,7 +4640,8 @@ Jan 21, 2006
 2108  Speedster   Mfr/Speedster/Infineon nq6th4th(B)  maxed R5/R5         none
 2109  Speedster   Mfr/Speedster/Infineon nq6th2nd(B)  maxed               none
 2110  Speedster   Mfr/Speedster/Infineon nq6th1st(B)  maxed+LSDF retries  none
-2111 Cr6,805,817  Jan  8  A:15373  387cars  86.5%
+#2111 Cr6,805,817  Jan  8  A:15373  387cars  86.5%
+2111 Cr6,818,817  Jan  8  A:15373  387cars  86.5%
 2111  Speedster   Mfr/Speedster/Seattle  nq6th1st(B)   +DF 1try           next
 2112 +1 win car [R]Calibra'94  Opel Calibra Touring Car '94
 2113 Cr6,828,317  Jan 13  A:15373  388cars  86.7%
@@ -4975,7 +5005,8 @@ Mar 11, 2006
 2263 buy parts [R]MotulZ'04  T-N1 T-N2 T-N3  Cr0
 2263  mod car  [R]MotulZ'04  refresh  Cr50,000
 2263 buy parts [R]MotulZ'04  TS3,TS4 Cr45,000 Cr90,000
-2263  change oil  [R]MotulZ'04  484-509hp  +wash
+2263  change oil  [R]MotulZ'04  484-509hp
+2263  wash  [R]MotulZ'04
 2263 Cr11,688,301
 2263 +10  [R]MotulZ'04 J/JGT sw100to56,39,31,21,11(A)          +185A  next
 2273 +1 win car [R]MotulZ'04   Nissan Motul Pitwork Z (JGTC) '04
@@ -5107,7 +5138,8 @@ Mar 30, 2006
 Mar 31, 2006
 cardef [R]MotulZ'04  car648  Nissan Motul Pitwork Z (JGTC) '04
 2306 select car [R]MotulZ'04   Nissan Motul Pitwork Z (JGTC) '04
-2306 mod car [R]MotulZ'04   refresh  Cr50,000 (+wash)
+2306 mod car [R]MotulZ'04   refresh  Cr50,000
+2306 wash [R]MotulZ'04
 2306 Cr10,594,635 Jul 25
 2306     [R]MotulZ'04  E/GV300   nq6th1st                        69A  next
 2307 +1 win car  Streamliner  Auto Union V16 Type C Streamliner '37
@@ -5691,11 +5723,13 @@ December 29, 2007
 
 December 30, 2007
 2465    [R]787B      Ex/WC/Nurb     nq6th1st          +104-32A    none
-2466 Cr18,476,353  Jan 01  A:22136  471cars
+#2466 Cr18,476,353  Jan 01  A:22136  471cars
+2466 Cr18,491,353  Jan 01  A:22136  471cars
 
 2466 select car Chap2J   Chaparral 2J Race Car '70
 2466     Chap2J      Ex/WC/Tsukuba  nq6th1st     +14kg  +200-108A none
-2467 Cr18,476,353  Jan 02  A:22228  471cars
+#2467 Cr18,476,353  Jan 02  A:22228  471cars
+2467 Cr18,506,353  Jan 02  A:22228  471cars
 2467 power off
 
 2467 +1 buy car M3CSL-2  BMW M3 CSL '03  (Silbergrau Metallic) (Cr98,568,trade)
@@ -5792,8 +5826,9 @@ January 06, 2008
 2496    blackSL600    Eu/B/HSRii   nq6th1st              +151-1A   none
 Note: +80kg S1/S2
 Note: SL55AMG'02, E55AMG'02, RS4'01, S4'03, RSGAvant'02
-2497 Cr19,579,535  Feb 01  A:23029
+2497 Cr19,589,535  Feb 01  A:23029
 2497  buy parts blackSL600   NA2 NA3  Cr12,500 Cr25,000
+Note: perhaps we bought more?  Total below looks low...
 2497 Cr19,502,035
 2497    blackSL600    Eu/B/Nurb    nq6th1st                +76-1A  none
 Note: +80kg S3/S3   NA1,chip,Rmuff
@@ -5834,7 +5869,7 @@ January 13, 2008
 2511     [R]787B        SC/Hard/UmbriaR     nq2nd2nd           0A   8-(
 2512     [R]787B        SC/Hard/UmbriaR     nq2nd2nd           0A   8-(
 2513     [R]787B        SC/Hard/UmbriaR     nq2nd1st           1A  none
-2514 Cr18,919,471  Feb 18
+2514 Cr18,949,471  Feb 18
 2514     [R]787B        SC/Hard/Umbria      nq2nd1st           1A  next
 2515 +1 win car  [R]DeltaS4'85  Lancia Delta S4 Rally Car '85
 2516 Cr18,969,475  Feb 20  A:23340  482cars  94.0%
@@ -6077,8 +6112,9 @@ February 17, 2008
 2572   [R]Escort'98    SC/Hard/GrandR  nq2nd2nd               8-(
 2573   [R]Escort'98    SC/Hard/GrandR  nq2nd2nd               8-(
 Note: lost to Evo'03
+Note: No credits for 2nd place
 2574 change oil [R]Escort'98  Cr50  461 -> 485hp
-2574 Cr20,138,276
+Note: 2574 Cr20,138,276
 2574   [R]Escort'98    SC/Hard/GrandR  nq2nd1st          7A  next
 2575 +1 win car  [R]Starion'84  Mitsubishi Starion 4WD Rally Car '84
 2576 Cr20,158,276  Apr 20  A:23548  504cars  98.3%
@@ -6353,7 +6389,7 @@ January 24, 2009
 2647  buy parts white205T16'85   T-R1 Cr8700 T-R2  Cr10,750 T-R3  Cr22,750
 2647  buy parts white205T16'85   T-R4 Cr33,250 T-R5  Cr47,750
 2647  buy parts white205T16'85  T-DT  Cr22,750  T-SN  Cr22,750
-2647 Cr18,835,736
+2647 Cr18,085,336
 2647  mod car white205T16'85  refresh  Cr50,000
 2647 Cr18,035,736
 2647   white205T16'85   SC/Easy/Chamonix   nq2nd1st       +86-82A none
