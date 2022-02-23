@@ -1,28 +1,37 @@
 #!/usr/bin/perl -w
 
-$bspec = 0;
-$machine = 0;
-$course = 0;
-$battle = 0;
+require 5.002;
+use strict;
 
-while (<>) {
+$main::bspec = 0;
+$main::machine = 0;
+$main::course = 0;
+$main::battle = 0;
+
+sub
+doauditb {
+	my($line,$rest,$r1,$r2) = @_;
+
+	my ($warn, $newbspec, $newmachine, $newcourse, $newbattle);
+	my ($incbspec, $incmachine, $inccourse, $incbattle);
+	my ($lineno,$note);
 	$warn = "";
-	if ( $_ =~ /B:(\d+)\/(\d+)\/(\d+)\/(\d+)/ ) {
+	if ( $rest =~ /B:(\d+)\/(\d+)\/(\d+)\/(\d+)/ ) {
 		$newbspec = $1;
 		$newmachine = $2;
 		$newcourse = $3;
 		$newbattle = $4;
 		$lineno = "";
-		if ($_ =~ /^\s*(\d+)\s+/ ) {
+		if ($line =~ /^\s*(\d+)\s+/ ) {
 			$lineno = " ".$1;
 		}
-		if ($_ =~ /B:\d+\/\d+\/\d+\/\d+ *\(n\/c\)/ ) {
+		if ($rest =~ /B:\d+\/\d+\/\d+\/\d+ *\(n\/c\)/ ) {
 			$incbspec = 0;
 			$incmachine = 0;
 			$inccourse = 0;
 			$incbattle = 0;
 		}
-		elsif ($_ =~
+		elsif ($rest =~
 		  /B:\d+\/\d+\/\d+\/\d+ *\(\+{0,1}(\d+)\/\+{0,1}(\d+)\/\+{0,1}(\d+)\/\+{0,1}(\d+)\)/ ) {
 			$incbspec = $1;
 			$incmachine = $2;
@@ -36,41 +45,53 @@ while (<>) {
 			$inccourse = 0;
 			$incbattle = 0;
 		}
-		$t = $newbspec - $bspec;
-		$c = $newmachine - $machine;
-		$m = $newcourse - $course;
-		$b = $newbattle - $battle;
+		my( $t, $c, $m, $b);
+		$t = $newbspec - $main::bspec;
+		$c = $newmachine - $main::machine;
+		$m = $newcourse - $main::course;
+		$b = $newbattle - $main::battle;
 		$note =
-			"Note:$lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"Audit:$lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
 			"($incbspec/$incmachine/$inccourse/$incbattle)" .
 # Seems we should use new in following also; not clear what we are checking
 			"  B:$newbspec/$newmachine/$newcourse/$newbattle" .
 			"(+$t/+$c/+$m/+$b)" . "\n";
 
 # Should check for inc < 0 duh!
-		if ($newbspec != ($bspec + $incbspec) ) {
+		if ($newbspec != ($main::bspec + $incbspec) ) {
 			$warn .= " Bspec";
 		}
-		if ($newmachine != ($machine + $incmachine) ) {
+		if ($newmachine != ($main::machine + $incmachine) ) {
 			$warn .= " Mac";
 		}
-		if ($newcourse != ($course + $inccourse) ) {
+		if ($newcourse != ($main::course + $inccourse) ) {
 			$warn .= " C";
 		}
-		if ($newbattle != ($battle + $incbattle) ) {
+		if ($newbattle != ($main::battle + $incbattle) ) {
 			$warn .= " Bat";
 		}
 		if ($warn ne "") {
 			$warn = " WARN -" . $warn;
 		}
-		$bspec = $newbspec;
-		$machine = $newmachine;
-		$course = $newcourse;
-		$battle = $newbattle;
+		$main::bspec = $newbspec;
+		$main::machine = $newmachine;
+		$main::course = $newcourse;
+		$main::battle = $newbattle;
 	}
-	$_ =~ s/$/$warn/;
 	if ($warn ne "") {
 		print $note;
+		#warn("$warn: $line");
+		print("Audit: $warn: $line\n");
 	}
+}
+
+while (<>) {
+	my ($line) = ($_);
+	my ($rest);
+
+	$line =~ s/\n//g;
+	$rest = $line;
+	$rest =~ s/\s*\d+\s+//;
+	doauditb($line, $rest, 0,0);
 	print $_;
 }

@@ -37,32 +37,37 @@
 #   "show=carlog" (optional "show=verbose,carlog")
 #     produces output listed for each recognized car
 #   "show=licen[sc]e" tracks license progress
-#   "show=rawevents"
-#   "show=events"
-#   "show=prizes"
+#   "show=rawevent"
+#   "show=event"
+#   "show=prize"
 #       dump stored tables of event/prizes; seem redundant
 #   "show=sold" "show=sell" "show=sales" "show=buy"
 #     somewhat haphazardly attempt to track those car transactions
-#         E.g. "show=sold,sell,sales,buy"
+#         E.g. "show=sold,sell,sale,buy"
 #         Not so haphazard?
 #         sell => show intended sell lines  e.g.  sell excess DB7 excess Demio
 #         sales => show parsed portions of those lines  e.g. sell -1 DB7
 #         sold => track actual transitions (sold!)
 #   "show=origin" shows origins based on carid table (i.e. shows creating line)
-#   "show=carids" dumps internal table of carids; useful when you need them
+#   "show=carid" dumps internal table of carids; useful when you need them
 #
 #   "show=trace"  debugging print of all lines, and partial walkthrough of many
 #   "show=heuristic"  debugging related to heuristic includes
-#   "show=rawparts" dumps processed version of all "buy parts" and "mod" lines
-#   "show=mods" really debugging; shows extracted power and weight mod notes
-#   "show=carprices" dumps carprices table (also "show=prices")
-#   "show=carparts" dumps carparts table (also "show=parts")
-#   "show=carpartstotals" gives per-car parts cost (also "show=partstotals")
+#   "show=rawpart" dumps processed version of all "buy parts" and "mod" lines
+#   "show=mod" really debugging; shows extracted power and weight mod notes
+#   "show=carprice" dumps carprices table (also "show=prices")
+#   "show=carpart" dumps carparts table (also "show=parts")
+#   "show=carpartstotal" gives per-car parts cost (also "show=partstotals")
 #
-#   "show=vars" dumps the "setvar" variable values (debugging)
+#   "show=var" dumps the "setvar" variable values (debugging)
 #   "show=warn" tries to add extra warnings
-#   "show=pragmas"  FWIW - some "pragma" evaluation will in future
+#   "show=pragma"  FWIW - some "pragma" evaluation will in future
 #                              be replaced by use of "setvar"
+#
+#   Note: "s" will be ignored on any option, so plurals are optional
+#       E.g. pragmas, carparts, prizes, heuristics
+#       But also: solds, sells, traces, warns, buys, verboses
+#
 #   "show=garage" is the default
 #
 # Now also:
@@ -81,6 +86,7 @@
 #   A: and B:  should only ever increase, but they are gt4-specific
 #      Patterns could possibly be specified by setvar
 #      Difficult for %
+#       For now see also:  gt4bcheck
 #   Parts availability for particular cars?  (Would seem to be difficult)
 #   Prize legitimacy could conceivably be defined in gtN-racedefs
 #   Prize origin should be indicated for a "carlog" entry.
@@ -169,6 +175,10 @@ $main::ncarsnow = 0;  # set to count when changes
 %main::carprices = ();
 
 %main::carmodels = ();  # Devoid of colour, price, etc
+
+$main::cardefs{"game"} = "the default car";  # kludge to make game look like a car name
+# N.B. gt1-mazda had used "none" to turn off selection checking entirely
+
 
 #
 # proposed new scheme would just mark things as sold, not shuffle arrays
@@ -774,7 +784,7 @@ sell {
 		}
 	}
 	for ($i = 0; defined($name[$i]); ++$i) {
-		if ($main::showlist =~ /,sales,/ ) {
+		if ($main::showlist =~ /,sale,/ ) {
 			print "${main::maxtoday}:Sell $count[$i] $name[$i].\n";
 		}
 		$tname = $name[$i];
@@ -877,9 +887,17 @@ doselect{
 # Empty selection turns off selection checking
 # We never used this, so change it to be something which cannot match
 # Actually we used it in gt1-mazda
-			$main::mentioned = "";
+			#$main::carids{"none"} = "none";  # hope no trouble
+			$main::mentioned = "none";
 			$main::selected = "no car selected";
+			return;
+		}
+		if ($car eq "game") {
+# Indicate use of the "non-garage car" in e.g. licenses and Missions.
+			$main::mentioned = "game";
+			$main::selected = "game";
 # This will be useful to allow "verbose carlog" to include comments and status
+			addcarlog($car,$line);
 			return;
 		}
 		if ( findcarid($car,$line) ) {
@@ -946,6 +964,7 @@ dolicenseline {
 
 	print " ${main::maxtoday} License: $rest\n" if ($main::showlist =~ /,trace,/ );
 #&warn("Good license line: $line\n");
+	addcarlog($main::mentioned, $line);
 	if (!&daycheck($start) ) {
 		&warn("Bad license start day(not ${main::maxtoday}): $_\n");
 	}
@@ -1598,6 +1617,121 @@ heuristicinclude {
 	&doinclude("include $includefile");
 }
 
+$main::lastaspec = 0;
+sub
+doaudita {
+	my($line,$rest,$r1,$r2) = @_;
+
+	my $aspec;
+	if ($rest =~ /A:(\d+)/) {
+		my ($a) = ($1);
+		my ($car) = ($main::mentioned);  # $main::selected  ?
+		if (!defined($main::caraspecs{$car})) {
+			$main::caraspecs{$car} = 0;
+		}
+		if ($a >= $main::lastaspec) {
+			$main::caraspecs{$car} += ($a - $main::lastaspec);
+			$main::lastaspec = $a;
+		}
+		else {
+			if ( $main::showlist=~/,audita,/ ) {
+	&warn("Audit A$a: should be >= ${main::lastaspec}: $line\n");
+			}
+		}
+	}
+}
+
+$main::bspec = 0;
+$main::machine = 0;
+$main::course = 0;
+$main::battle = 0;
+sub
+doauditb {
+	my($line,$rest,$r1,$r2) = @_;
+
+	my ($warn, $newbspec, $newmachine, $newcourse, $newbattle);
+	my ($incbspec, $incmachine, $inccourse, $incbattle);
+	my ($lineno,$note);
+	$warn = "";
+	if ( $rest =~ /B:(\d+)\/(\d+)\/(\d+)\/(\d+)/ ) {
+		$newbspec = $1;
+		$newmachine = $2;
+		$newcourse = $3;
+		$newbattle = $4;
+		$lineno = "";
+		if ($line =~ /^\s*(\d+)\s+/ ) {
+			$lineno = " ".$1;
+		}
+		if ($rest =~ /B:\d+\/\d+\/\d+\/\d+ *\(n\/c\)/ ) {
+			$incbspec = 0;
+			$incmachine = 0;
+			$inccourse = 0;
+			$incbattle = 0;
+		}
+		elsif ($rest =~
+		  /B:\d+\/\d+\/\d+\/\d+ *\(\+{0,1}(\d+)\/\+{0,1}(\d+)\/\+{0,1}(\d+)\/\+{0,1}(\d+)\)/ ) {
+			$incbspec = $1;
+			$incmachine = $2;
+			$inccourse = $3;
+			$incbattle = $4;
+		}
+		else {
+#			$warn .= " NoInc";
+			$incbspec = 0;
+			$incmachine = 0;
+			$inccourse = 0;
+			$incbattle = 0;
+		}
+		my( $t, $c, $m, $b);
+		$t = $newbspec - $main::bspec;
+		$c = $newmachine - $main::machine;
+		$m = $newcourse - $main::course;
+		$b = $newbattle - $main::battle;
+		my($car) = ($main::mentioned);
+		$main::carbspecs{$car} = 0
+				if (!defined($main::carbspecs{$car}));
+		$main::carbmachines{$car} = 0
+				if (!defined($main::carbmachines{$car}));
+		$main::carbcourses{$car} = 0
+				if (!defined($main::carbcourses{$car}));
+		$main::carbbattles{$car} = 0
+				if (!defined($main::carbbattles{$car}));
+		$main::carbspecs{$car} += $t;
+		$main::carbmachines{$car} += $m;
+		$main::carbcourses{$car} += $c;
+		$main::carbbattles{$car} += $b;
+		$note =
+			"Audit $lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"($incbspec/$incmachine/$inccourse/$incbattle)" .
+# Seems we should use new in following also; not clear what we are checking
+			"  B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"(+$t/+$c/+$m/+$b)" . "\n";
+
+# Should check for inc < 0 duh!
+		if ($newbspec != ($main::bspec + $incbspec) ) {
+			$warn .= " Bspec";
+		}
+		if ($newmachine != ($main::machine + $incmachine) ) {
+			$warn .= " Mac";
+		}
+		if ($newcourse != ($main::course + $inccourse) ) {
+			$warn .= " C";
+		}
+		if ($newbattle != ($main::battle + $incbattle) ) {
+			$warn .= " Bat";
+		}
+		$main::bspec = $newbspec;
+		$main::machine = $newmachine;
+		$main::course = $newcourse;
+		$main::battle = $newbattle;
+	}
+	if ($warn ne "" && $main::showlist =~ /,auditb,/) {
+		&warn($note);
+		#warn("$warn: $line");
+		&warn("Audit - $warn: $line\n");
+	}
+}
+
 #
 # doaudit - attempt to keep track of what Cr total should be
 #
@@ -1613,16 +1747,39 @@ doaudit {
 	my($line,$rest,$r1,$r2, $estimate) = @_;
 	# $estimate is recorded total from statusline
 
-	if ($estimate < $main::minaudit && $main::showlist=~/,audit,/) {
+	# I think we have forced A: and B: to always have Cr on same line...
+	# This is auditc (credits)
+	if ($estimate < $main::minaudit && $main::showlist=~/,auditc,/) {
 		&warn("Audit Cr$estimate should be more than ${main::minaudit}: $line\n");
 	}
-	if ($main::maxaudit < $estimate && $main::showlist=~/,audit,/) {
+	if ($main::maxaudit < $estimate && $main::showlist=~/,auditc,/) {
 		&warn("Audit Cr$estimate should be less than ${main::maxaudit}: $line\n");
+	}
+	# Assessing earned credits is harder than Aspec or Bspec points
+	$main::carcredits{$main::mentioned} = 0
+		if (!defined($main::carcredits{$main::mentioned})) ;
+	$main::cardebits{$main::mentioned} = 0
+		if (!defined($main::cardebits{$main::mentioned})) ;
+	# Really, buy car should...
+	# Deduct price from $main::knownaudit
+	#     and add it to $main::cardebits{$car}
+	#     perhaps add it to $main::cardebits{"game"}   ?
+	# Note: $main::cardebits will not be seen if the car has no carlog
+	my($diff) = ($estimate - $main::knownaudit);
+	if ($diff >= 0) {
+		$main::carcredits{$main::mentioned} += $diff;
+	}
+	else {
+		$main::cardebits{$main::mentioned} += 0 - $diff; 
 	}
 	# In some cases we might want to believe our total instead?
 	$main::knownaudit = $estimate;
 	$main::minaudit = $main::knownaudit;
 	$main::maxaudit = $main::knownaudit;
+	
+	# Note doaudita and doauditb assign totals to current car
+	doaudita( $line,$rest,$r1,$r2);  # audita; Aspec points
+	doauditb( $line,$rest,$r1,$r2);  # auditb; Bspec points
 }
 
 sub
@@ -1749,9 +1906,9 @@ dowin {   # Handle  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
 	}
 	$stuff = $1;
 #print "stuff:$stuff\n";
-	if ($main::mentioned ne "") {
-		addcarlog($main::mentioned,$line);
-	}
+	#if ($main::mentioned ne "") {
+	addcarlog($main::mentioned,$line);
+	#}
 	if ($stuff !~ /^\s*car\s+(\S+)/ || !defined($1) ) {
 		if (!$main::var{'allowanyprize'} ) {
 			&warn("Bad win: $line\n");
@@ -1891,7 +2048,7 @@ normalizeparts {
 		# avoid T-S3 changing to TS3
 	}
 # Maybe later we can use such mod information somehow
-	if ($main::showlist =~ /,mods,/ && $p ne $stuff) {
+	if ($main::showlist =~ /,mod,/ && $p ne $stuff) {
 		print " B:",$p,"\n A:",$stuff,"\n";
 		print " mod:$mod\n";
 	}
@@ -1940,7 +2097,7 @@ doparts {
 #	print "$buf\n"  if ($main::showlist =~ /,rawparts,/ );
 	($op, $tok, $stuff) = split(/\s/,$buf,3);
 # N.B. if you don't specify ",3" you get only the first solitted element
-	print "$op $tok :$stuff\n"  if ($main::showlist =~ /,rawparts,/ );
+	print "$op $tok :$stuff\n"  if ($main::showlist =~ /,rawpart,/ );
 
 # Mostly gt3-game1 use of parentheses...
 # Old "alias" throwback
@@ -2055,7 +2212,7 @@ doparts {
 	}
 	while (defined($p = shift(@parts)) ) {
 		$p = $id.":".$p;
-		if ($main::showlist =~ /,carparts,/ ||
+		if ($main::showlist =~ /,carpart,/ ||
 			  $main::showlist =~ /,warn,/ ) {
 			if ($main::var{'checkparts'}) {
 				&warn("No price for $p, $line\n");
@@ -2186,11 +2343,22 @@ dodaynote {
 		&sell($stuff);
 	}
 	# Unrecognized lines are effectively comments
+	# Basic problem is a daynote is not in general logged to carlog.
+	# But most instances are.
+	# But, for instance, skip never is.
 	if ( $main::pragmas =~ /,gt4,/ &&
 		$rest =~ /skip.*Mission/ ) {
 		# Missions might win some Cr
 		$main::maxaudit = $main::MAXAUDIT;
 	}
+	# So, log skip...
+	if ($rest =~ /^skip/ ) {
+		if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
+			addcarlog($main::mentioned,$line);		
+		}
+	}
+	# Remaining oddity "buy" goes to carlog for bought car
+	# game: carlog can end up with successive status lines.
 	$main::mintoday = $r2;
 	$main::maxtoday = $r2;
 }
@@ -2241,13 +2409,20 @@ my($log,$daylimit);
 
 $main::lastdateline = "";
 %main::carlogs = ();
+%main::carcredits = ();
+%main::cardebits = ();
+%main::caraspecs = ();
+%main::carbspecs = ();
+%main::carbmachines = ();
+%main::carbcourses = ();
+%main::carbbattles = ();
 sub
 addcarlog {
 	my($car,$line) = @_;
 
-	if ($car eq "" || $car eq "no car selected") {
-		return;
-	}
+	# if ($car eq "" || $car eq "no car selected") {
+	#	return;
+	#}
 	if (!defined($main::carlogs{$car})) {
 		$main::carlogs{$car} = "";
 		if ($main::showlist =~ /,verbose,/) {
@@ -2267,10 +2442,14 @@ while ( defined($ARGV[0]) ) {
 		$temp =~ s/^show=//i;	
 		$temp = ",$temp,";
 		$temp =~ s/,+/,/g;
+		# Note $temp can have several options in it
+		# Eventually we decided "s" can be added to all options
+		$temp =~ s/s,/,/g;
 		# Expand a few lazy alternatives we allow
-		$temp =~ s/,partstotals,/,carpartstotals,/;
-		$temp =~ s/,parts,/,carparts,/;
-		$temp =~ s/,prices,/,carprices,/;
+		$temp =~ s/,partstotal,/,carpartstotal,/;
+		$temp =~ s/,part,/,carpart,/;
+		$temp =~ s/,price,/,carprice,/;
+		$temp =~ s/,audit,/,audita,auditb,auditc,/;
 		# Would be nice to make plurals optional
 		$main::showlist .= ",$temp,";
 	}
@@ -2305,7 +2484,7 @@ if (!defined($daylimit)) {
 if (!defined($main::showlist)) {
 	$main::showlist = ",garage,";
 }
-$main::showlist =~ s/all/pragmas,buy,sell,sales,sold,carids,garage,/;
+$main::showlist =~ s/all/pragma,buy,sell,sale,sold,carid,garage,/;
 
 {
 	no strict 'refs';
@@ -2507,16 +2686,16 @@ expand {
 	$s;
 }
 
-if ($main::showlist =~ /,pragmas,/ ) {
+if ($main::showlist =~ /,pragma,/ ) {
 	printf("%s\n", $main::pragmas);
 }
-if ($main::showlist =~ /,rawevents,/ ) {
+if ($main::showlist =~ /,rawevent,/ ) {
 	my($i);
 	for ($i = 0; $i <= $#main::events; ++$i) {
 		printf("%s\n", &expand($main::events[$i]) );
 	}
 }
-if ($main::showlist =~ /,events,/ ) {
+if ($main::showlist =~ /,event,/ ) {
 	my($i,$prev,@sorted);
 	@sorted = sort @main::events;
 	$prev = "";
@@ -2527,7 +2706,7 @@ if ($main::showlist =~ /,events,/ ) {
 		}
 	}
 }
-if ($main::showlist =~ /,prizes,/ ) {
+if ($main::showlist =~ /,prize,/ ) {
 	my($i,$prev,@sorted);
 	@sorted = sort @main::prizes;
 	$prev = "";
@@ -2538,14 +2717,14 @@ if ($main::showlist =~ /,prizes,/ ) {
 		}
 	}
 }
-if ($main::showlist =~ /,carids,/ ) {
+if ($main::showlist =~ /,carid,/ ) {
 	my($k);
 	foreach $k (sort caridsub keys %main::carids) {
 		printf("%s %s %s (%s)\n", $k, $main::carids{$k},
 			$main::carnames{$k}, $main::carstates{$k});
 	}
 }
-if ($main::showlist =~ /,prices,/ || $main::showlist =~ /,carprices,/ ) {
+if ($main::showlist =~ /,price,/ || $main::showlist =~ /,carprices,/ ) {
 	my($k);
 	foreach $k (sort caridsub keys %main::carprices) {
 		printf("%s %s %s\n", $k, $main::carids{$k},
@@ -2592,8 +2771,8 @@ fromcredits {  # N.B. money, not attributions/accolades
 	return $num;
 }
 	
-if ( $main::showlist =~ /,carparts,/ ||
-		$main::showlist =~ /,carpartstotals,/ ) {
+if ( $main::showlist =~ /,carpart,/ ||
+		$main::showlist =~ /,carpartstotal,/ ) {
 	my($k,$cark,$car);
 	my($prevk,$total,$prevcar);
 	$prevk = "";
@@ -2606,7 +2785,7 @@ if ( $main::showlist =~ /,carparts,/ ||
 		$car = "WHAT?" if (!defined($car));
 		if ( $cark ne $prevk ) {
 			if ($prevk ne "" &&
-				   $main::showlist =~ /,carpartstotals,/ ) {
+				   $main::showlist =~ /,carpartstotal,/ ) {
 				printf("%s %s:Total %s\n", $prevcar, $prevk,
 					&tocredits($total) );
 			}
@@ -2614,12 +2793,12 @@ if ( $main::showlist =~ /,carparts,/ ||
 			$prevcar = $car;
 			$total = 0;
 		}
-		if ( $main::showlist =~ /,carparts,/ ) {
+		if ( $main::showlist =~ /,carpart,/ ) {
 			printf("%s %s %s\n", $car, $k, $main::carparts{$k});
 		}
 		$total += &fromcredits($main::carparts{$k});
 	}
-	if ($prevk ne "" && $main::showlist =~ /,carpartstotals,/ ) {
+	if ($prevk ne "" && $main::showlist =~ /,carpartstotal,/ ) {
 		printf("%s %s:Total %s\n", $prevcar, $prevk,
 			&tocredits($total) );
 	}
@@ -2654,7 +2833,7 @@ if ($main::showlist =~ /,origin,/ ) {
 		printf("%s - %s\n", $sorted[$i], $main::origin{$sorted[$i]} );
 	}
 }
-if ($main::showlist =~ /,models,/ ) {
+if ($main::showlist =~ /,model,/ ) {
 	# Shows models based on carid
 	my($i,@sorted);
 	@sorted = sort caridsub keys %main::carmodels;
@@ -2662,12 +2841,30 @@ if ($main::showlist =~ /,models,/ ) {
 	      printf("%s - %s\n", $sorted[$i], $main::carmodels{$sorted[$i]} );
 	}
 }
+# %main::carbspecs = ();
+# %main::carbmachines = ();
+# %main::carbcourses = ();
+# %main::carbbattles = ();
+sub
+bspecstring {
+	my ($car) = @_;
+	my ($t, $m, $c, $b) = ("", 0, 0, 0);
+	$t = $main::carbspecs{$car} if (defined($main::carbspecs{$car}));
+	$m = $main::carbmachines{$car} if (defined($main::carbmachines{$car}));
+	$c = $main::carbcourses{$car} if (defined($main::carbcourses{$car}));
+	$b = $main::carbbattles{$car} if (defined($main::carbbattles{$car}));
+	if ($t ne "") {
+		return $t."/".$m."/".$c."/".$b ;
+	}
+	return "";
+}
 if ($main::showlist =~ /,carlog,/ ) {
 	my($i,@sorted);
 	@sorted = sort keys %main::carlogs;
 	for ($i = 0; $i <= $#sorted; ++$i) {
 		my($sf,$ci,$org);
 		$sf = $sorted[$i];
+		next if ($sf eq "");  # Ignore logs to empty car name
 		#$ci = $main::carid{$sf};
 		$ci = findcarid($sf,"");  # Using "" instead of $line?
 		if (defined($ci) && defined($main::origin{$ci}) ) {
@@ -2676,13 +2873,25 @@ if ($main::showlist =~ /,carlog,/ ) {
 		else {
 			$org = "";
 		}
-		printf("%s:\n", $sf );
+# %main::caraspecs = ();
+		my ($c, $d, $a, $b) = ("","","","");
+		if (defined($main::carcredits{$sorted[$i]} ) ) {
+			$c = " " . tocredits($main::carcredits{$sorted[$i]});
+			# Assert cardebits entry must have been defined
+			$d = " (".tocredits($main::cardebits{$sorted[$i]}).")";
+		}
+		if (defined($main::caraspecs{$sorted[$i]} ) ) {
+			$a = " A:" . $main::caraspecs{$sorted[$i]};
+		}
+		$b = bspecstring($sorted[$i]);
+		$b = " B:".$b if ($b ne "");
+		printf("%s:%s%s%s%s\n", $sf, $c, $d, $a, $b );
 		printf("%s", $org );
 		printf("%s\n", $main::carlogs{$sorted[$i]} );
 	}
 }
 
-if ($main::showlist =~ /,vars,/ ) {
+if ($main::showlist =~ /,var,/ ) {
 	my($i,@sorted);
 	@sorted = sort keys %main::var;
 	for ($i = 0; $i <= $#sorted; ++$i) {
