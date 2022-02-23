@@ -2,6 +2,7 @@
 include gt4-racedefs
 
 February 22, 2005
+   1  select car game
 
    1     license B1 B   "Apr 2"
    2     license B2 B   "Apr 3"
@@ -59,6 +60,7 @@ Note: A license acquired
   39 Cr10,600  May 10
   39    Sunfire B/Sunday/AMii  2nd  Cr500 0pts  none
   40 Cr11,100  May 11
+  40  select car game
   40     license IB1  B +0.263, 15.064B
   41     license IB2  B F, B26.910
   42     license IB3  B F,F, B29.284
@@ -115,10 +117,13 @@ Note: Track  Suzuka Circuit  unlocked
 
   73 select car Sunfire
   73 change oil Sunfire   183hp->192hp
+  73 Cr9,900
   73 select car Lupo
   73 change oil Lupo      100hp->105hp
+  73 Cr9,850
   73 select car A112'79
   73 change oil A112'79    71hp->74hp
+  73 Cr9,800
   73 power off
 
 February 24, 2005
@@ -126,6 +131,8 @@ February 24, 2005
   73 change oil Silvia'88K  175hp->
   73 wash Silvia'88K
   73 Cr9,700
+
+  73 select car game
   73 +1 skip Mission1  1st  Cr1000  250pts  DFRW
   74 +1 skip Mission1  1st  Cr1000  (250pts==0)  DFRW
   75 +1 skip Mission3  1st  Cr1000  250pts  (2tries) Cote d'Azur
@@ -180,10 +187,12 @@ Note: Track  Grand Valley Speedway  unlocked
  103    270R       B/FR/Tsukuba   2nd  0pts    none
  104 Cr21,745  July 14  A:2090
 
+ 104 select car game
  104 +1 skip Mission21  1st  Cr7500  250pts  TT
  105 +1 skip Mission22  1st  Cr7500  250pts  TT
  106 Cr36,745  July 16  A:2590
 
+ 106 select car 270R
  106  mod car 270R  WR1,WR2  Cr1,100,Cr5,300  1240->1165->1128
  106  buy parts 270R  Rsusp Cr16,000
  106  fit parts 270R  Rsusp
@@ -204,6 +213,7 @@ Note: Track  Grand Valley Speedway  unlocked
 
 Note: Track  Hong Kong  unlocked
 
+ 114 select car game
  114     license S7  B 1:36.928 (1try)
  115     license S3  B F,+0.911,F,F,F, 1:31.847B
  116     license S5  B FordGT'05@Seattle  Many F, 1:42.705B
@@ -220,15 +230,19 @@ February 26, 2005
  117    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  none
  118    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  none
  119 Cr3,480
+ 119 select car game
  119 +1 skip Mission22  1st  Cr7500  TT
  120 Cr10,980
+ 120 select car Silvia'88K
  120 buy parts Silvia'88K  Rmuff  Cr4500  ->257hp
  120 Cr6,480
  120    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  8-(
  121    Silvia'88K Mfr/Silvia/SSR5  2nd  0pts  8-(
  122 Cr8,480
+ 122 select car game
  122 +1 skip Mission22  1st  Cr7500  TT
  123 Cr15,980
+ 123 select car Silvia'88K
  123 buy parts Silvia'88K  T-R2 Cr18000 (HKS)
  123 buy parts Silvia'88K  shaft,Rfw Cr2,500,Cr900  (HKS)
  123 Cr2,580
@@ -246,6 +260,7 @@ Note: Track  Suzuka Circuit West Course  unlocked
  129 buy parts Silvia'88K  T-S3 Cr5,600
  129 Cr8,980  Aug 8   A:2733
 
+ 129 select car game
  129 +1 skip Mission22  1st  Cr7500  TT
  130 +1 skip Mission22  1st  Cr7500  TT
  131 +1 skip Mission22  1st  Cr7500  TT
@@ -262,6 +277,7 @@ Note: Track  Suzuka Circuit West Course  unlocked
 Note: Track  Fuji Circuit 2005 GT Course  unlocked
 
  141 Cr98,980  Aug 20   A:2733
+ 141 select car Silvia'88K
  141 buy parts Silvia'88K  HKSsusp  Cr99999
  141 Cr84,680
  141 buy parts Silvia'88K  Rbr,Bctlr(HKS)  Cr4,500,Cr10,000
@@ -286,6 +302,7 @@ February 28, 2005
  148 select car Silvia'88K
  148 change oil Silvia'88K
  148 wash Silvia'88K
+ 148 Cr76,475  Aug 27   A:2760
  148    Silvia'88K  SC/Easy/Amalfi   1st  4:56.849  5pts  Cr5,000 none
  149    Silvia'88K  SC/Easy/AmalfiR  1st    5pts  Cr5,000 next
  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
@@ -650,6 +667,7 @@ March 12, 2005
 
 Note: Track  Chamonix  unlocked
 
+ 313 select car game
  313 +1 skip Mission6  1st (cheat) 0:30.263  Cr1000  250pts   Tsukuba
  314 Cr1,025,418  Feb  9  A:6330
  314 power off
@@ -754,6 +772,7 @@ Note: Track  Circuit de la Sarthe II (unchicaned)  unlocked
  359 power off
 
 March 15, 2005
+ 359 select car game
  359 +1 skip Mission10  1st (cheat) Cr1000  250pts   SartheI
  360 +1 win car DeLorean  DMC DeLorean S2 '04 (prize,Missions1-10)
  361 Cr2,751,641  Mar 28  A:6626  19.1%
@@ -867,7 +886,7 @@ March 18, 2005
  398 Cr1,929,002  May  4
  398 +5 greenMegane  Eu/Fr  q23112,32111,1st40to36,24,14,11,5(A+B)  12pts  next
  403 +1 win car 2CV  Citroen 2CV Type A '54 (Gris Bleu)
- 404 Cr2,004,002  May 10  A:6394  B:4366/59/46/33 (+338/+0/+0/+9)  24.1%
+ 404 Cr2,004,002  May 10  A:6794  B:4366/59/46/33 (+338/+0/+0/+9)  24.1%
 
  404  select car CLK-GTR   AMG Mercedes CLK-GTR Race Car '98
  404  buy parts CLK-GTR  T-S1,T-S2,T-S3  Cr6000 Cr7000 Cr8000
@@ -1335,11 +1354,13 @@ April 03, 2005
  594 power off
 
 April 04, 2005
+ 594 select car game
  594     license S2  B 2:25.955
  595 Cr13,102,970  Nov 17    68B/0S/0G
  595 power off
 
 April 05, 2005
+ 595  select car  orangeCerbera
  595     orangeCerbera  SC/Easy/Umbria      nq2nd1st 1A Cr5000    none
  596     orangeCerbera  SC/Easy/UmbriaR     nq2nd1st 1A Cr5000    next
  597 +1 win car Cien'02  Cadillac Cien '02
@@ -1823,6 +1844,7 @@ Mar 23, 2005
  819 +1 win car  silverRSC'01  Toyota RSC '01  (silver)
  820 Cr7,370,755  Jun 30   A:7699  158cars    55.0%
 
+ 820 select car game
  820     license S6 G  Ice Arena  0:56.916G  (not all that many tries)
  821 Cr7,370,755  Jul 1   55.0%    68B/0S/1G
  821 select car orangeCerbera  TVR Cerbera Speed Six '97  (Chameleon Orange)
@@ -1903,6 +1925,7 @@ June 3, 2005
  857 +1 buy car NSXS0    Honda NSX Type S Zero '99 (Lime Green Metallic) (Cr49,285,used)
  858 Cr5,859,791  Aug  7   167cars
 
+ 858 select car game
  858     license S1  B  Motegi 2:26.026 (-0.674)  2 tries
  859     license S8  B  Tokyo  F,F,+7.924,+5.095,F,+1.191,F,F,1:40.407B(-1.593)
  860     license S12 B  Suzuka +3.472,F,F,+0.493,F,+0.073,F, 2:05.125B(-0.605)
@@ -1927,6 +1950,7 @@ June 4, 2005
  868 power off
 
 June 5, 2005
+ 868 select car game
  868 license S10 B GrandCanyon F,+8.xxx,+2.441,F,+1.065,+1.414, 3:00.586B(-1.414)
  869 Cr5,843,341  Aug 18  73B/0S/1G
 
@@ -1958,6 +1982,7 @@ June 5, 2005
  877 Cr5,510,491
 Note: Did not seem competitive in BMW/M  8-(
 
+ 877 select car game
  877 license S9  B  ElCapitan  F,+5.948,F,  1:59.677B(-0.333)
  878 license S4  B  CostaDiAmalfi  F,F, 2:26.537B(-0.943)
  879 license S11 B  OperaParis +2.581,+0.943,F,+0.580,+1.088,+0.499,+0.839,F,1:43.147(-1.083)
@@ -1975,6 +2000,7 @@ Note: Did not seem competitive in BMW/M  8-(
  886 power off
 
 June 7, 2005
+ 886 select car game
  886 license S14 B  Chamonix F,+0.946,F,F,F,F,F,F,+1.396,F,F, 2:38.755B(-1.288)
  887 Cr5,535,441  Sep  5  77B/0S/1G  170cars   59.4%
 
@@ -1997,6 +2023,7 @@ June 7, 2005
  893 power off
 
 June 9, 2005
+ 893 select car game
  893 license S15 B  Sarthe  3:36.429B(-0.171)  (many tries)
 Note:  4F,+21.628,4F,+8.230,F,+7.381,4F,+2.331,18F,+0.213, B3:36.429(-0.171)
  894 Cr5,560,741  Sep 12  78B/0S/1G  171cars   60.2%
@@ -2100,6 +2127,7 @@ June 15, 2005
  940 power off
 
 June 18, 2005
+ 940 select car game
  940 +1 skip Mission24 nq6th1st    Cr10,000  250A   TT            none
  941 Cr5,526,548  Oct 29  A:8319
  941 +1 skip Mission23  nq6th1st    Cr10,000 250A   TT(Skylines)  next
@@ -2141,7 +2169,7 @@ June 19, 2005
  956 Cr5,499,898
  956 +5 M3CSL       Mfr/M   q1NN1N,1st50to28,20,14,11,7       next
  961 +1 win car M3GTR'03  BMW M3 GTR '03
- 962 Cr5,584,898  Nov 19  A:8572  185cars  64.0%
+ 962 Cr5,584,898  Nov 19  A:8602  185cars  64.0%
  962 +1 sell car BMW M3 GTR '03 -> Cr72,466
  963 Cr5,657,364  Nov 20  184cars
  963 power off
@@ -2240,6 +2268,7 @@ June 26, 2005
 1014 power off
 
 June 28, 2005
+1014 select car game
 1014 +1 skip Mission23  nq6th1st   7:03.322  TT(Skylines) several tries  none
 1015 Cr5,619,765  Jan 11  A:8708  195cars  67.5%
 1015 power off
@@ -4052,6 +4081,7 @@ Oct 10, 2005
 1835 change oil  orangeCerbera  352hp to 370hp
 1835 wash  orangeCerbera
 
+1835 select car game
 1835 +1 skip Mission19  nq6th1st  (S2000@SuzukaE)  many tries     none
 1836 Cr11,375,496  Apr 11  A:12738  313cars  79.1%
 
@@ -4101,12 +4131,14 @@ Oct 13, 2005
 1858 power off
 
 Oct 14, 2005
+1858 select car game
 1858     license IA15  B 9:56.148, B9:34.729  (Nurburgring chase)
 Note:    license S16   F F8:36.375,F8:07.257, a few offs 8-( ?
 1859 power off
 
 
 Oct 15-21, 2005
+1859  select car  BRGEtype
 1859 +4   BRGEtype    Eu/MM   sw40to24,14,12,10,5 +200KG +23A        next
 1863 +1 win car blueAlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
 1864 Cr12,217,357  May  9  A:13002  319cars  79.1%
@@ -4724,6 +4756,7 @@ Feb  4, 2006
 2146 Cr11,486,967 Feb 15  A:16152  392cars  90.1%
 
 
+2146 select car game
 2146     license B1  G  10.349S many tries 10.183 10.182 10.164 10.065G
 2147     license B2  G  11.148S many tries 11.065 11.016 10.898G
 2148     license B3  S  31.346S several tries 31.154 30.962 30.928S
@@ -4736,6 +4769,7 @@ Note:    license B6 easy enough to "save" for later
 
 
 Feb  5, 2006
+2153 select car game
 2153     license B9  S  12.865S several tries 12.664S (+0.114)
 2154     license B10 S  2:20.737B  2:16.972S (next clean)
 2155     license B11 G  17.958S several tries 17.611G (not many tries)
@@ -4760,6 +4794,7 @@ Note:    license A3  looks like easy gold
 
 
 Feb  7, 2006
+2167 select car game
 2167     license A7  G  17.297S (dozen tries) 17.171G- (a few more tries)
 2168     license A8  S  16.154S (quite a lot of tries) 16.012S (lots of tries) (+0.132)
 2169     license A9  G  17.495S (3 tries) 17.152G- (many tries) (+0.016 demo)
@@ -4771,8 +4806,10 @@ Note: 2170     license A10 B  Suzuka  2:55.143B (1st clean)
 
 
 Feb  8, 2006
+2172 select car game
 2172 +1 buy car redV8S  TVR V8S '91 (Rosso Pearlescent) (Cr20,700,used)
 2173 Cr11,257,267 Mar 14  A:16152  394cars  90.1%   11G 15S 54B*
+2173 select car game
 2173     license A12 S  30.310S (lots of tries, no real improvement)
 2174     license A13 S  45.207S (lots of tries)  +0.807
 2175     license A14 S  37.808S (many many tries)  +0.458
@@ -4781,6 +4818,7 @@ Feb  8, 2006
 
 
 Feb 10, 2006
+2176 select car game
 2176     license A15 S  TM  2:08.565  2:08.162  2:06.406S (a few tries) +1.406G
 2177     license A16 S  0:55.851S (many many tries) +1.701G
 2178     license A10  S  2:52.009   2:50.488S (many tries) +1.406G
@@ -4792,6 +4830,7 @@ Note:    license A3 G about 5 tries 11.911G +0.022demo in temp game
 
 
 Feb 11, 2006
+2181 select car game
 Note:    license IB1 14.760S (1 try)  Easy silver, hard gold
 2181     license IB2  S  25.987S (rather a lot of tries)
 2182     license IB3  S  28.134S(2 tries) 28.124S(a few more) 27.994S
@@ -4811,6 +4850,7 @@ Note:    license IB1 14.760S (1 try)  Easy silver, hard gold
 
 
 Feb 12, 2006
+2194 select car game
 2194     license IA15 S Nurb  9:16.468S(1st clean about 5) +13.868G +26.468demo
 2195     license IA10 S Fuji05  2:15.454S(many many tries)
 2196     license IA5  S ElC  2:31.586S(1st clean)  2:31.114S(about it)
@@ -4828,6 +4868,7 @@ Feb 12, 2006
 
 
 Feb 15, 2006
+2206 select car game
 2206     license IA13 S Nurb  26.885S(many F) 26.621S  +1.041G
 2207     license IA14 S Motegi  14.468S(a lot of tries) no repeat +0.268G
 2208     license IA16 S Sarthe  1:46.933S(many many tries)
@@ -4838,6 +4879,7 @@ Note: IA1 S Midfield   33.130S (lots of tries) (temp game)
 
 
 Feb 18, 2006
+2210 select car game
 2210    license S2 B Citta  2:23.080B (many F, but then reliable) +2.080S
 2211    license IB15 B Citta  2:18.786S (1st try, no more progress) +3.856S
 2212    license IB16 S Citta  19.542S (several tries)
@@ -4851,6 +4893,7 @@ Feb 19, 2006
 2214 Cr10,621,967 Apr 24  A:16152  398cars  90.1%   14G 43S 23B*
 Note: Did Arcade time trials with Duetto'66
 
+2214 select car game
 2214    license S2 S Citta  2:20.183S (many tries, sudden breakthrough) +3.183G
 2215    license IB15 S Citta  2:14.584S (lots of tries) +3.584G
 2216    license S4 S Amalfi  2:20.587S (not too many tries) +3.587G
@@ -4884,12 +4927,14 @@ Note: Did Arcade time trials with Duetto'66
 
 
 Feb 23, 2006
+2231 select car game
 2231    license S9 S ElC  1:50.722S (many tries) +2.922G
 2232 Cr10,676,967 May 12  A:16161  403cars  91.6%   14G 47S 19B*
 2232 power off
 
 
 Feb 25, 2006
+2232 select car game
 2232 license S16 B Nurb   7:43.019B +13.019S several tries, 2 clean, 1 over
 2233 select car [R]AMG'92  AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
 2233 buy parts [R]AMG'92  T-R1 Cr9,000
@@ -4899,18 +4944,21 @@ Feb 25, 2006
 Note: paused game to sleep 5 hours
 2234 +1 win car yellowFGT   Formula Gran Turismo '04 (yellow/black)
 2235 Cr11,867,917 May 15  A:16161  404cars  91.6%   14G 47S 19B*
+2235 select car game
 2235 license S16 B Nurb   7:36.084B +6.084S many F
 2236 Cr11,867,917 May 16  A:16161  404cars  91.6%   14G 47S 19B*
 2236 power off
 
 
 Feb 27, 2006
+2236 select car game
 2236 license S16 S Nurb   7:29.454S one B, a few F  +21.754G
 2237 Cr11,867,917 May 17  A:16161  404cars  91.6%   14G 48S 18B*
 2237 power off
 
 
 Mar 02, 2006
+2237 select car game
 2237     license B-coffee B 14.065B +0.865S +2.265G
 2238     license A-coffee S 29.533S +1.023G another seo to demo
 2239 Cr11,867,917 May 19  A:16161  404cars  91.6%   14G 48S 18B*  BSB-- coffee
@@ -4918,6 +4966,7 @@ Mar 02, 2006
 
 
 Mar 03, 2006
+2239 select car game
 2239     license A-coffee S 29.400S +0.893G another seo to demo
 2240     license S-coffee G 1:32.850  many tries
 2241 license S10 S GC  2:52.413S  many tries  +5.413G
@@ -4925,12 +4974,14 @@ Mar 03, 2006
 
 
 Mar 04, 2006
+2242 select car game
 2242 license S14 B  Chamonix  2:32.482B  +1.587S
 2243 Cr11,867,917 May 23  A:16161  404cars  91.6%   14G 49S 17B*  BSB-G coffee
 2243 power off
 
 
 Mar 05, 2006
+2243 select car game
 2243 license S14 S  Chamonix  2:30.707S  +4.207G  many many tries
 2244 Cr11,867,917 May 24  A:16161  404cars  91.6%   14G 50S 16B*  BSB-G coffee
 
@@ -4938,6 +4989,7 @@ Mar 05, 2006
 2245 Cr11,832,142 May 25  A:16161  405cars  91.6%   14G 50S 16B*  BSB-G coffee
 2245 power off
 
+2245 select car game
 2245 license S13 B  Infineon  1:18.319B  +1.019S  many tries
 2246 Cr11,832,142 May 26
 
@@ -4953,6 +5005,7 @@ Note: Did not clear the WC records
 2249 +1 win car [R]FordGT'02   Ford GT LM Race Car '02
 2250 Cr12,312,092 May 30  A:16234  406cars  91.6%   14G 50S 16B*  BSB-G coffee
 
+2250 select car game
 2250 license S13 S  Infineon  1:16.973S  still very many tries  +0.853G
 2251 Cr12,312,092 May 31  A:16234  406cars  91.6%   14G 51S 15B*  BSB-G coffee
 2251 power off
@@ -4971,6 +5024,7 @@ Note: Pescarola C60'04, XJR-9'88, GT-ONE'99, BMW V12 LMR'99, Speed8'03
 
 
 Mar 08, 2006
+2254 select car game
 2254 license S15 S  Sarthe  3:24.722S  many tries, but steady progress +5.722G
 2255 Cr12,307,092 Jun  4  A:16279  406cars  91.6%   14G 52S 14B*  BSB-G coffee
 2255 +1 buy car yellowSileighty   Nissan Sileighty '98  (yellow) (Cr11,440,used)
@@ -4979,6 +5033,7 @@ Mar 08, 2006
 
 
 Mar 10, 2006
+2256 select car game
 2256 license S11 S  Opera  1:38.420S  many, many tries  +1.800G
 2257 Cr12,295,652 Jun  6  A:16279  407cars  91.6%   14G 53S 13B*  BSB-G coffee
 2257 +1 buy car Chap2J   Chaparral 2J Race Car '70 (Cr1,200,000,new)
@@ -5016,18 +5071,21 @@ Note: finished J/JGT on Mar 12
 
 
 Mar 12, 2006
+2274 select car game
 2274  license S12 B  Suzuka  2:02.417B  (many tries; a wall)
 2275 Cr11,938,301 Jun 24  A:16570  409cars  91.8%   14G 53S 13B*  BSB-G coffee
 2275 power off
 
 
 Mar 15, 2006
+2275 select car game
 2275  license S12 B Suzuka  2:00.409B  (many many tries; S within reach)
 2276 Cr11,938,301 Jun 25  A:16570  409cars  91.8%   14G 53S 13B*  BSB-G coffee
 2276 power off
 
 
 Mar 16, 2006
+2276 select car game
 2276  license S12 B Suzuka  1:59.649B  (many tries; +0.212S)
 2277 Cr11,938,301 Jun 26  A:16570  409cars  91.8%   14G 53S 13B*  BSB-G coffee
 2277 power off
@@ -5046,11 +5104,13 @@ Note: RX8Concept, CeramoSupra'01, PennzoilGT-R'01, TakataNSX'03, 2000FalconXR8
 2279 Cr12,232,801 Jun 28  A:16638  410cars  91.8%   14G 53S 13B*  BSB-G coffee
 2279 power off
 
+2279 select car game
 2279  license S12 S  Suzuka  1:59.425S  (about a dozen tries)
 2280 Cr12,232,801 Jun 29  A:16638  410cars  91.8%   14G 54S 12B*  BSB-G coffee
 2280 +1 buy car orangeCelica'81  Toyota Celica XX 2800 GT '81 (Terracotta) (Cr8130,used)
 2281 Cr12,224,671 Jun 30  A:16638  411cars  91.8%   14G 54S 12B*  BSB-G coffee
 
+2281 select car game
 2281 +1 skip Mission16  nq6th1st  (Beetles@Suzuka)  many tries 7:36.172   none
 Note: -1.573  (cut chicane)
 2282 Cr12,234,671 Jul 01  A:16888  411cars  92.0%   14G 54S 12B*  BSB-G coffee
@@ -5061,6 +5121,7 @@ Note: -1.573  (cut chicane)
 
 
 Mar 22, 2006
+2283 select car game
 2283 +1 skip Mission17  retire
 2284 +1 skip Mission17  retire
 2285 +1 skip Mission17  retire
@@ -5070,6 +5131,7 @@ Note: -0.381 off road a bit
 
 
 Mar 23, 2006
+2287 select car game
 2287 +1 skip Mission25  nq6th1st  (Z's@Fuji80)  methodical 1:50.628 -0.526 none
 2288 Cr12,252,171 Jul 07  A:17388  411cars  92.3%   14G 54S 12B*  BSBBG coffee
 Note: 18 missions
@@ -5080,6 +5142,7 @@ Note: 18 missions
 2289 buy parts TakataNSX  T-R1,T-R2,T-R4 Cr9000 Cr11,000 Cr35,500
 2289 buy parts TakataNSX  NA1, TS3,TS4  Cr85,000 Cr45,000 Cr90,000
 2289 Cr10,626,671 Jul 08  A:17388  412cars  92.3%
+2289 select car game
 2289  license S8  S Tokyo  1:36.308S (+3.308G) (not too too many tries)
 2290 Cr10,626,671 Jul 09  A:17388  412cars  92.3%   14G 55S 11B*  BSBBG coffee
 Note: got gold on S6 (Ice Arena) again after about 25 tries
@@ -5087,6 +5150,7 @@ Note: got gold on S6 (Ice Arena) again after about 25 tries
 
 
 Mar 25, 2006
+2290 select car game
 2290     license S6 G  Ice Arena  0:56.274G +0.342demo  0:55.567G -0.365demo
 2291     license S7 B  TM   1:32.124B  +0.124S not reproducible 8-(
 Note: redid Mission10 (Avantimes@Sarthe) with no cheating
@@ -5096,6 +5160,7 @@ Note: redid Mission6 (Roadsters@Tsukuba) with no penalty or cheating
 
 
 Mar 26, 2006
+2292 select car game
 2292     license S7 S  TM   1:31.736S  +1.236G  (not too many tries)
 2293     license S5 S  Seattle   1:37.436S  +3.236G  (quite a lot of tries)
 2294 Cr10,626,671 Jul 13  A:17388  412cars  92.3%   14G 57S 9B*  BSBBG coffee
@@ -5113,6 +5178,7 @@ Mar 26, 2006
 
 
 Mar 28, 2006
+2301 select car game
 2301     license S3 B  SSR5   1:27.749B  +0.749S  (many many tries)
 Note: forgot to save ghost
 2302 Cr10,670,671 Jul 21  A:17578  413cars  92.3%   14G 57S 9B*  BSBBG coffee
@@ -5120,12 +5186,14 @@ Note: forgot to save ghost
 
 
 Mar 29, 2006
+2302 select car game
 2302     license S3 S  SSR5   1:26.942S  +2.242G  (a lot of tries)
 2303 Cr10,670,671 Jul 22  A:17578  413cars  92.3%   14G 58S 8B*  BSBBG coffee
 2303 power off
 
 
 Mar 30, 2006
+2303 select car game
 2303     license S1 S  Motegi   2:20.307  +3.307G  (a few tries, but then no better)
 2304 +1 win car Solstice  Pontiac Solstice Coupe Concept '02 (orange) (prize,SlicenseS)
 2305 Cr10,670,671 Jul 24  A:17578  414cars  92.3%   14G 59S 7B*  BSBBG coffee
@@ -5145,6 +5213,7 @@ cardef [R]MotulZ'04  car648  Nissan Motul Pitwork Z (JGTC) '04
 2307 +1 win car  Streamliner  Auto Union V16 Type C Streamliner '37
 2308 Cr10,994,635 Jul 27  A:17647  416cars  92.3%   14G 59S 7B*  BSBBG coffee
 
+2308 select car game
 2308     license B6  S  0:22.915S (several tries)
 Note: only wanted silver DO NOT GOLD prematurely
 2309 +1 win car Kusabi'03  Mazda Kusabi '03 (silver) (prize,BlicenseS)
@@ -5176,6 +5245,8 @@ Note: R92CP, C9, CLK-GTR, R390, RX7LM
 2315   black787B#3   Ex/WC/Laguna   nq6th1st            +162-91A  none
 Note: Speed8, R390, GT-ONE, R8, R92CP
 2316 Cr10,919,135 Aug 04
+
+2316 select car game
 2316 +1 skip Mission27  nq6th2nd  (Mazda's@Laguna)   2:11.575          none
 2317 +1 skip Mission27  nq6th2nd  (Mazda's@Laguna)   2:10.889          none
 2318 +1 skip Mission27  nq6th1st  (Mazda's@Laguna)   2:09.336  -0.432  none
@@ -5211,6 +5282,7 @@ Apr 08, 2006
 
 
 Apr 09, 2006
+2330 select car game
 2330 +1 skip Mission12  nq6th2nd  (GT@Laguna)   4:11.089          none
 2331 +1 skip Mission12  nq6th1st  (GT@Laguna)   4:09.962  -0.037  none
 Note: Days and days trying, really.  I.e since day 2319, maybe earlier
@@ -5234,6 +5306,7 @@ Note: needed refresh by end (contributed to SartheII loss)
 
 
 Apr 16, 2006
+2344 select car game
 2344 +1 skip Mission20  nq6th1st  (mm-R@Tsukuba) 3tries 3:29.442  -1.360  none
 2345 Cr11,460,436 Sep 02  A:18622  424cars  92.8%   14G 62S 4B*  BSBBG coffee
 Note: Mission 30 to +0.099
@@ -5243,6 +5316,7 @@ Note: 21 Missiona
 Note: Taking a lengthy vacation from GT4 (playing Tourist Trophy casually)
 
 Nov 26, 2006
+2345 select car game
 2345     license IA5 S ElC  2:31.699S(DFP) (many tries, many fails)
 2346 select car orangeCerbera
 2346 change oil  orangeCerbera  494hp to 494hp
@@ -5265,6 +5339,7 @@ Note: started Mfr/Lupo with DFP, but gave up
 2353 Cr11,485,386 Sep 10  425cars
 
 Note: Trying licenses with DFP
+2353 select car game
 2353     license B1  G  10.849B 10.831B 10.814B F 10.752B 10.466B 10.282S
 Note:                    10.282S 10.166S 10.149G(just)
 2354     license B2  G  11.248B ... 11.815B 11.149S ... 11.049S 10.983G
@@ -5452,6 +5527,7 @@ Note: beat GT-R Vspec II Nur '02
 
 
 November 28, 2007
+2402 select car game
 2402 +1 skip Mission30  (Subaru@Tsukuba) nq6th2nd  1:57.407         8-(
 2403 +1 skip Mission30  (Subaru@Tsukuba) nq6th2nd  1:56.993         8-(
 2404 +1 skip Mission30  (Subaru@Tsukuba) nq6th1st  1:56.805 -0.103  none
@@ -5460,6 +5536,7 @@ November 28, 2007
 
 
 November 30, 2007
+2406 select car game
 2405 +1 skip Mission30  (Lotii@HSR)  nq6th2nd  1:46.406             8-(
 2406 +1 skip Mission30  (Lotii@HSR)  nq6th2nd  1:44.834             8-(
 2407 +1 skip Mission30  (Lotii@HSR)  nq6th1st  1:44.566  -0.093    none
@@ -5471,6 +5548,7 @@ November 30, 2007
 2411 +1 buy car redMiataVR'95  Mazda MX-5 Miata VR-Limited (J) '95 (Combination A Artvin Red Mica) (Cr7279,used)
 2412 Cr22,270,489  Nov 08  A:19888  448cars  93.2%
 
+2412 select car game
 2412 +1 skip Mission28  (Celicas@Fuji90)  nq6th2nd  2:32.518             8-(
 2413 +1 skip Mission28  (Celicas@Fuji90)  nq6th1st  2:29.987  -0.758    none
 2414 Cr22,277,989  Nov 10  A:20138  448cars  93.3%
@@ -5976,6 +6054,7 @@ January 23, 2008
 
 
 January 24, 2008
+2546 select car game
 2546     license IA15 G Nurb  9:00.278G (many tries)
 2547 Cr20,634,821  Mar 22  A:23371  495cars  96.2%  16G 60S 4B*
 2547 power off
@@ -5983,6 +6062,7 @@ Note: A-spec 17,261mi  B-spec 62,281mi
 
 
 January 25, 2008
+2547 select car game
 2547     license S16 S Nurb   7:20.233S  (many tries)  +12.533G
 Note:      ... 7:28.390S ... 7:23.342S ... 7:22.101S ... 7:20.628S
 Note:      ... 7:20.541S ... 7:20.233S
@@ -5991,6 +6071,7 @@ Note:      ... 7:20.541S ... 7:20.233S
 
 
 January 26, 2008
+2548 select car game
 2548     license S16 S Nurb   7:19.650S   +11.950G
 2549     license IA13 S 0:25.904S (many tries)
 2550     license B5 S Tsukuba S  1:28.327S
@@ -6129,6 +6210,7 @@ February 21, 2008
 
 
 February 23, 2008
+2577 select car game
 2577     license B15 S  PT@Infineon  2:19.481S  (+0.481G)
 2578 Cr20,149,464  Apr 22  A:23548  505cars  98.3%
 2578 power off
@@ -6166,6 +6248,7 @@ March 03, 2008
 
 
 March 07, 2008
+2583 select car game
 2583 +1 skip Mission33  nq6th1st  (Cien@Infineon)  2:04.292 -0.153  250A none
 2584 Cr19,466,252  Apr 28  A:23969  508cars  98.4%
 2584 power off
@@ -6426,16 +6509,19 @@ June 17, 2009
 2657 Cr14,541,236  Jul10 A:26343 529cars  98.4%
 
 Sep 22, 2009
+2657 select car game
 2657     license IA5  G ElCapitan  2:27.859G (many tries)
 2658 Cr14,541,236  Jul11 A:26343 529cars  98.4% 17G 59S 4B*
 
 Sep 23, 2009
+2658 select car game
 2658     license B15 G  Infineon  2:18.925G (many tries)
 2659 Cr14,541,236  Jul12 A:26343 529cars  98.4% 18G 58S 4B*
 2659     license IB10 B  HongKong  1:59.310B (new P.B.)
 2660 Cr14,541,236  Jul13 A:26343 529cars  98.4% 18G 58S 4B*
 
 Sep 26, 2009
+2660 select car game
 2660     license IB10 S  HongKong  1:56.657S (new P.B.)
 2661 Cr14,541,236  Jul14 A:26343 529cars  98.4% 18G 59S 3B*
 
@@ -6461,6 +6547,7 @@ Oct 02, 2009
 2666 Cr14,419,476  Jul19 A:26657 531cars  98.4%
 
 Oct 03, 2009
+2666  select car BMWZ4'03
 2666    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S3 49-1A  none
 2667    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S2 58-1A  none
 2668    BMWZ4'03     B/Spider/TMii      nq6th1st   free+T-S1 68-1A  none
@@ -6471,10 +6558,12 @@ Oct 03, 2009
 2672 Cr14,434,476  Jul25 A:26848 532cars  98.4%
 
 Oct 04, 2009
+2672 select car game
 2672     license IB7 S  slalom 18.532 (many many tries)
 2673 Cr14,434,476 Jul26 A:26848 532cars  98.4% 18G 60S 2B*
 
 Oct 05, 2009
+2673 select car game
 2673     license IB6 S  slalom 18.548 (many tries)
 2674 Cr14,434,476  Jul27 A:26848 532cars  98.4% 18G 61S 1B*
 
@@ -6482,10 +6571,12 @@ Oct 05, 2009
 2675  Cr14,234,476   Jul28 A:26848 533cars  98.4% 18G 61S 1B*
 
 Oct 08, 2009
+2675  select car BMWZ4'03
 2675     BMWZ4'03 P/NA/Infineon       nq6th1st NA1+chip+free+T-S3 151-1A  none
 2676  Cr14,241,976   Jul29 A:26998 533cars  98.4% 18G 61S 1B*
 
 Oct 09, 2009
+2676  select car BMWZ4'03
 2676  buy parts BMWZ4'03 SpMuff Cr1600 SRMuff Cr2900 Rmuff Cr4800
 2676  buy parts BMWZ4'03 NA2 Cr12,500 NA3 Cr75,000 
 2676  buy parts BMWZ4'03 LSDF Cr6600 Rsusp Cr17,000 
@@ -6518,10 +6609,12 @@ Oct 13, 2009
 2690 Cr13,768,077  Aug12  A:27516  536cars  98.4%
 
 Apr 23, 2010
+2690 select car game
 2690 +1 skip Mission11  nq6th1st  (2000GT@NY)  6:47.503 -0.047  
 2691 Cr13,778,077  Aug13  A:27766  536cars  98.6%
 
 May 13, 2010
+2691 select car game
 2691 +1 skip Mission15  nq6th1st  (Stratos@Cote)  6:25.198 -2.xxx  
 2692 Cr13,788,077  Aug14  A:28016  536cars  98.8%
 
@@ -6535,6 +6628,7 @@ December 30, 2010
 
 
 February 12, 2011
+2698 select car game
 2698 +1 skip Mission14  nq6th2nd  (Superbird@Seattle)  6:07.113 +4.6  0A none
 2699 +1 skip Mission14  nq6th2nd  (Superbird@Seattle)  6:06.541 +4.0  0A none
 2700 +1 skip Mission14  nq6th1st  (Superbird@Seattle)  6:03.798 -1.129  250A none
@@ -6543,12 +6637,14 @@ February 12, 2011
 
 
 February 13, 2011
+2701 select car game
 2701 +1 skip Mission32  nq6th1st  (GT@Seattle)  2:13.646 -0.669  250A none
 2702 Cr13,858,077  Aug24  A:28639  537cars  99.1%
 2702 power off
 
 
 March 08, 2011
+2702 select car game
 2702 +1 skip Mission13  nq6th1st  (206@Opera)  4:36.747 -1.413  250A none
 2703 Cr13,868,077  Aug25  A:28889  537cars  99.3%
 Note: Almost one month of attempts
@@ -6556,6 +6652,7 @@ Note: Almost one month of attempts
 
 
 March 23, 2011
+2703 select car game
 2703 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:21.367 -6.079  250A none
 Note: Sauber glitched on Mulsanne Straight 8-(
 2704 +1 win car      TankCar  Jay Leno Tank Car '03 (prize,Mission11-20)
@@ -6563,6 +6660,7 @@ Note: Sauber glitched on Mulsanne Straight 8-(
 2705 power off
 
 March 27, 2011
+2705 select car game
 2705 +1 skip Mission18  nq6th2nd  (R92CP@SartheII)  9:11.871 +0.083   none
 2706 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:12.004 -0.0391  none
 2707 +1 skip Mission18  nq6th1st  (R92CP@SartheII)  9:10.845 -1.160   none
@@ -6572,16 +6670,19 @@ March 27, 2011
 
 
 March 31, 2011
+2709 select car game
 2709 license S15 S Sarthe   3:20.603S   +1.603G
 2710 Cr13,898,077  Sep01  A:29139  538cars  99.4%
 2710 power off
 
 April 01, 2011
+2710 select car game
 2710 license S15 S Sarthe   3:19.494S   +0.494G
 2711 Cr13,898,077  Sep02  A:29139  538cars  99.4%
 2711 power off
 
 April 03, 2011
+2711 select car game
 2711 license S15 G Sarthe   3:18.698G   -0.302G
 2712 Cr13,898,077  Sep03  A:29139  538cars  99.4%  19G 60S 1B*
 2712 power off
@@ -6599,6 +6700,7 @@ Note: Speed8, R390, R89C(pits), F1-GTR, Zonda
 2715 power off
 
 December 08, 2012
+2715 select car game
 2715 license B13 G     22,614G
 2716 Cr13,913,077  Sep07  A:29207  538cars  99.4%   20G 59S 1B*
 2716 license B14 S 18.145S  prev18,178  +0.045G
