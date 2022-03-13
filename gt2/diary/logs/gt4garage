@@ -28,6 +28,11 @@
 #   Events must match definitions listed, usually in included gtN-racedefs
 #       (which then become prize indicators via "next" and "win")
 #   Verifies that "buy parts" and "mod car" have balanced items and Cr entries.
+#   Optionally:
+#     show=audita - Aspec - should not decrease
+#     show=auditb - Bspec - should not decrease
+#     show=auditc - Credits (and debits); crude checks for expected plus/minus
+#     All three are assigned to current car and shown by show=carlog
 #   Immediately sold prizes on same line (pre-GT4) now get a carid
 #        previously they were "unknown"
 #        their carids will shift daycounter (old games buy used no days)
@@ -49,9 +54,15 @@
 #         sales => show parsed portions of those lines  e.g. sell -1 DB7
 #         sold => track actual transitions (sold!)
 #   "show=origin" shows origins based on carid table (i.e. shows creating line)
-#   "show=carid" dumps internal table of carids; useful when you need them
+#   "show=carid"  dumps internal table of carids; useful when you need them
+#   "show=audit" does all three of the following
+#       "show=audita" - Aspec
+#       "show=auditb" - Bspec
+#       "show=auditc" - Credits (and debits)
 #
 #   "show=trace"  debugging print of all lines, and partial walkthrough of many
+#   "show=echo"   prints all input lines
+#                     useful with "show=audit"
 #   "show=heuristic"  debugging related to heuristic includes
 #   "show=rawpart" dumps processed version of all "buy parts" and "mod" lines
 #   "show=mod" really debugging; shows extracted power and weight mod notes
@@ -81,15 +92,51 @@
 #
 # Future possibilities (getting few)
 #   Validate, fix if necessary, autoinclude wrt nested includes
-#   Credit sanity (increased or decreased as appropriate).
+#   Credit sanity (increased or decreased as appropriate). (partially done)
 #   Percentage sanity; should never decrease.
 #   A: and B:  should only ever increase, but they are gt4-specific
 #      Patterns could possibly be specified by setvar
 #      Difficult for %
-#       For now see also:  gt4bcheck
 #   Parts availability for particular cars?  (Would seem to be difficult)
 #   Prize legitimacy could conceivably be defined in gtN-racedefs
 #   Prize origin should be indicated for a "carlog" entry.
+#   carlog entries should be indexed by carid, not shortforms
+#      Currently should be from %main::carlis; # shortforms
+#   I.e. all of following should be changed from shortform to carid...
+#                 %main::carlogs = ();
+#                 %main::carcredits = ();
+#                 %main::cardebits = ();
+#                 %main::caraspecs = ();
+#                 %main::carbspecs = ();
+#                 %main::carbmachines = ();
+#                 %main::carbcourses = ();
+#                 %main::carbbattles = ();
+#   Also
+#                 sub bspecstring  should take carid
+#   Note
+#		  findcarid(carid,"")  # should return itself
+#   Mystery
+#        Can car0-56 "[R]KureR33 [R]KureR33 (alias)" be mapped to a true carid?
+#        Looks like no; alias is too flexible (e.g. you cannot sell by alias)
+#   Possibilities re: initial car purchase price
+#     1) assign all purchases to "game"
+#     2) instead assign to individual car
+#          (assign as debit to carid, and decrease known credit tally)
+#          But...
+#             Either have lots of carlog entries with purchase/acquisition only
+#             Or Credits to purchase unused cars
+#                   will disappear from balance sheet
+#   I had thought e.g. gt2-mfr would have had lots of failures
+#      I had thought sold cars would not show up in final carlog.
+#      But, in fact, they do.  They even get an origin which is even weirder.
+#      A possibility is that the car raced is not the one sold, sort of.
+# 
+#      In fact, one thing to watch when switching to carigs is that THAT
+#      does not cause similar problems (car being detected as no longer
+#      existing).
+#         But it should be possible to avoid that, and it might even be
+#         possible and nice to log the "sold car" lines.
+#         (Though for old logs like gt2-mfr, usually the sale won't be traced).
 #
 
 
@@ -143,8 +190,11 @@ $main::done = 0;
 $main::enddate = "";
 $main::mintoday = 0;
 $main::maxtoday = 1;
+# Feb2022 - selected and mentioned should use carids; currently use shortform
 $main::selected = "";    # track current car, explicitly set using "select"
 $main::mentioned = "";   # allow carlog,verbose to work even if select not used
+$main::selectedid = "";  # try doing carid in addition
+$main::mentionedid = ""; #    ditto
 $main::pragmas = ",";
 
 @main::cardata = ();   # now we initialize all data via "buy" or "win" in log
@@ -176,7 +226,10 @@ $main::ncarsnow = 0;  # set to count when changes
 
 %main::carmodels = ();  # Devoid of colour, price, etc
 
-$main::cardefs{"game"} = "the default car";  # kludge to make game look like a car name
+# Previously we put this further down, causing a re-allocation
+$main::autocaridcount = 0;
+#$main::cardefs{"game"} = "the default car";  # kludge to make game look like a car name
+&newautocarid("game","");  # better kludge?
 # N.B. gt1-mazda had used "none" to turn off selection checking entirely
 
 
@@ -190,6 +243,17 @@ $main::cardefs{"game"} = "the default car";  # kludge to make game look like a c
 #@main::sold = ();
 #$main::lastid = 0;
 #%main::aliases = ();     # returns "carid", index into above arrays
+
+sub
+publish {
+	my($car,$line) = @_;
+#	my($id);
+
+	print $line; 
+	print "\n" if ($line !~ /\n/);	# sigh
+	$line =~ s/\n//;      # sigh
+	addcarlog($car,"",$line);
+}
 
 		
 my($name);
@@ -328,10 +392,16 @@ caridsub() {  # sort carid1, carid10-2, carid100 ...
 sub
 checkcar {
 	my($car,$line) = @_;
+	my($id);
 
+	# Following probably happened when we
+	#  called with $main::mentioned or $main::mentionedid ?
+	return 1 if ($car eq "none");
 	if ($main::selected eq "" || $main::selected eq "no car selected") {
-		if (findcarid($car,$line)) {
+		$id = findcarid($car,$line);
+		if ($id) {
 			$main::mentioned = $car;
+			$main::mentionedid = $id;
 			return 1;
 		}
 		return 0;
@@ -364,13 +434,14 @@ getcarprice {
 	my($id,$line) = @_;
 	my($price);
 
-	$price = "Cr0";
+	#$price = "Cr0";
+	$price = 0;
 	if ($line =~ m/\(Cr[0-9][0-9,]*/ ) {
 		$line =~ s/,([^0-9])/, $1/;
 		while ($line =~ m/Cr[0-9][0-9]*,/ ) {
 			$line =~ s/(Cr[0-9][0-9]*),/$1/;
 		}
-		if ( $line =~ m/\((Cr[0-9][0-9]*)/ ) {
+		if ( $line =~ m/\(Cr([0-9][0-9]*)/ ) {
 			$price = $1;
 		}
 	}
@@ -396,7 +467,7 @@ carsnow {  # expensive count of cars today
 sub
 getcar {
 	my($shortform,$fullname,$line) = @_;
-	my($newid);
+	my($newid,$price);
 
 # shortform could be from old GT1, i.e. greenSilviaLM
 # Should we lookup a fullname table here, or should caller?
@@ -408,8 +479,35 @@ getcar {
 	$main::carstates{$newid} = "got";   # s.b. "won" or "new" or "used"?
 	$main::carlist{$shortform} = $shortform;
 	$main::origin{$newid} = $line;
-	$main::carprices{$newid} = getcarprice($newid,$line);
-	$main::carid{$shortform} = $newid;  # stupid names carids vs carid
+	$price = getcarprice($newid,$line);
+	$main::carprices{$newid} = "Cr" . $price;
+	$main::carcredits{$newid} = 0;
+	$main::cardebits{$newid} = $price;
+	#$main::carcredits{$shortform} = 0;       # for now...
+	#$main::cardebits{$shortform} = $price;   # for now...
+	$main::knownaudit -= $price;  # Avoid charging price to current car
+	if ( !defined($main::carid{$shortform}) ) {
+		$main::carid{$shortform} = $newid;
+		$main::cardebits{$shortform} = $price;
+	}
+	else {
+		# Only replace carid for shortform if previous has been sold
+		if (defined($main::carstates{$main::carid{$shortform}} ) ) {
+			if ("sold" eq
+				$main::carstates{$main::carid{$shortform}} ) {
+				$main::carid{$shortform} = $newid;
+				$main::cardebits{$shortform} = $price;
+			}
+		}
+		# else quick map for shortform remains the old value
+	}
+	#$main::carid{$newid} = $newid;  # ?
+	if (defined($main::carid{$newid}) ) {
+		&warn("carid{$newid} already defined (should not happen): $line\n");
+	}
+	else {
+		$main::carid{$newid} = $newid;  # facilitate carid reference
+	}
 	$main::ncarsnow = carsnow();   # expensive?
 	my($model) = ($fullname);
 	if ($model =~ /['][0-9][0-9]\b/) {
@@ -849,7 +947,7 @@ dodateline {
 	$main::lastdateline = $line."\n";
 	if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
 		# Problem is we really want this in the log not selected yet
-		addcarlog($main::mentioned,$line);		
+		addcarlog($main::mentioned,$main::mentionedid,$line);		
 	}
 }
 
@@ -877,11 +975,12 @@ dopragma {
 sub
 doselect{
 	my($line,$rest,$r1,$r2) = @_;
-	my($car);
+	my($car,$id);
 
 	print " ${main::maxtoday} Select: $rest\n" if ($main::showlist =~ /,trace,/ );
 	if ($rest =~ /^select\s*car\s+(\S+)/ && defined($1)) {
 		$car = $1;
+#print "|$car|\n";
 		if ($car eq "none") {
 # Wed Apr 14, 2021
 # Empty selection turns off selection checking
@@ -890,28 +989,45 @@ doselect{
 			#$main::carids{"none"} = "none";  # hope no trouble
 			$main::mentioned = "none";
 			$main::selected = "no car selected";
+			$main::mentionedid = "";  # ?
+			$main::selectedid = "";
 			return;
 		}
 		if ($car eq "game") {
 # Indicate use of the "non-garage car" in e.g. licenses and Missions.
 			$main::mentioned = "game";
 			$main::selected = "game";
+			if (!defined(findcarid("game",$line)) || 
+				findcarid("game",$line) eq "" ) {
+				# Don't think this will ever happen now
+				&newautocarid("game",$line);
+			}
+			$id = findcarid("game",$line);
+			$main::mentionedid = $id;
+			$main::selectedid = $id;
 # This will be useful to allow "verbose carlog" to include comments and status
-			addcarlog($car,$line);
+			addcarlog($car,$id,$line);
 			return;
 		}
-		if ( findcarid($car,$line) ) {
+		$id = findcarid($car,$line);
+		if ( $id ) {
 			$main::selected = $car;
 			$main::mentioned = $car;
-			addcarlog($car,$line);		
+			$main::mentionedid = $id;
+			$main::selectedid = $id;
+			addcarlog($car,$id,$line);		
 			return;
 		}
 	}
-	if ($main::var{'autoselectcarids'} && defined($car) && $car ne "" ) {
+	if ($main::var{'autoselectcarids'} && defined($car) && $car ne "" 
+		&& $car ne "none" ) {
 		&newautocarid($car,$line);
 		$main::selected = $car;
 		$main::mentioned = $car;
-		addcarlog($car,$line);		
+		$id = findcarid($car,$line);
+		$main::mentionedid = $id;
+		$main::selectedid = $id;
+		addcarlog($car,$id,$line);		
 		return;
 	}
 	&warn("Bad select: $line\n");
@@ -964,7 +1080,9 @@ dolicenseline {
 
 	print " ${main::maxtoday} License: $rest\n" if ($main::showlist =~ /,trace,/ );
 #&warn("Good license line: $line\n");
-	addcarlog($main::mentioned, $line);
+	#addcarlog($main::mentioned,$main::mentionedid, $line);
+	# Perhaps in a future game licenses will be ascribed to a car?
+	addcarlog("game","", $line);
 	if (!&daycheck($start) ) {
 		&warn("Bad license start day(not ${main::maxtoday}): $_\n");
 	}
@@ -1224,7 +1342,7 @@ doseriesline {
 		$car =~ s/^\s*//;
 		$car =~ s/[,\s].*//;
 		checkcar($car,$line);
-		addcarlog($car,$line);
+		addcarlog($car,"",$line);
 		
 	}
 	$none = 0;
@@ -1335,6 +1453,8 @@ docardef {
 		return;
 	}
 	$main::cardefs{$what} = $carid;
+	# Feb 2022; realized $what should become new default shortname
+	$main::carids{$carid} = $what;
 }
 
 sub
@@ -1408,12 +1528,12 @@ dosetvar {
 	}
 }
 
-$main::autocaridcount = 0;
 sub
 newautocarid {
 	my($carname,$line) = @_;
 	my($newid);
 
+#print "$carname: $line\n" if ($carname eq "none");
 	# Almost no reason we couldn't generate a real carid
 	#  But it will be nice to be able to distinguish
 	++$main::autocaridcount;
@@ -1426,6 +1546,12 @@ newautocarid {
 	$main::origin{$newid} = $line;
 	$main::carprices{$newid} = "Cr0";   # Not sure what to do here
 	$main::carid{$carname} = $newid;  # stupid names carids vs carid
+	if (defined($main::carid{$newid}) ) {
+		&warn("carid{$newid} already defined (should not happen): $line\n");
+	}
+	else {
+		$main::carid{$newid} = $newid;  # facilitate carid reference
+	}
 	# $main::ncarsnow = carsnow();   # expensive?
 	# Problem: this increases the car count
 	return $newid;
@@ -1437,11 +1563,14 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 	my($carname,$line) = @_;
 	my($k,$id);
 
+# Problem: we end up calling this with value "none"
 	if (defined($main::carids{$carname})) {
 		# We were given a carid; just return it (NOT carids{$carname})
 		return $carname;
+		# $carids{} is shortform, indexed by carid
 	}
 # We have both %carids and %carid
+# Hmm...  $carid{$c} should eq $c  if $c is a carid
 	if (defined($main::carid{$carname})) {
 		# quick map of short forms to carid
 		return $main::carid{$carname};
@@ -1450,11 +1579,15 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 		return $main::cardefs{$carname};
 	}
 	# Did not find via above; search all $carids{}
+	# I wonder if this happens a lot?  (expensive)
 	$id = "";
 	foreach $k (sort caridsub keys %main::carids) {
+		# keys sorted to prefer earliest match?
 		if ($main::carids{$k} eq $carname &&
 				$main::carstates{$k} ne "sold") {
 			# N.B. In this case we must match aliases
+			# Might be situations to match "sold" also...
+			# Note that quick lookup table ignores sold...
 			if ($id eq "") {
 				$id = $k;
 			}
@@ -1472,6 +1605,7 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 	if ( $id ne "" ) {
 		return $id;
 	}
+	# Rest is just to reduce diagnostics by defining undefined
 	if (!defined($main::carlist{$carname})) {
 		# Reduce diagnostics by defining here
 		$main::carlist{$carname} = $carname;
@@ -1622,21 +1756,53 @@ sub
 doaudita {
 	my($line,$rest,$r1,$r2) = @_;
 
-	my $aspec;
+	my ($aspec,$diff);
 	if ($rest =~ /A:(\d+)/) {
 		my ($a) = ($1);
 		my ($car) = ($main::mentioned);  # $main::selected  ?
+		my ($id) = ($main::mentionedid);  # $main::selected  ?
 		if (!defined($main::caraspecs{$car})) {
 			$main::caraspecs{$car} = 0;
 		}
-		if ($a >= $main::lastaspec) {
+		if (!defined($main::caraspecs{$id})) {
+			$main::caraspecs{$id} = 0;
+		}
+		$diff = $a - $main::lastaspec;
+		if ($diff >= 0) {
 			$main::caraspecs{$car} += ($a - $main::lastaspec);
+			$main::caraspecs{$id} += ($a - $main::lastaspec)
+					if ($car ne $id);
 			$main::lastaspec = $a;
 		}
 		else {
 			if ( $main::showlist=~/,audita,/ ) {
-	&warn("Audit A$a: should be >= ${main::lastaspec}: $line\n");
+	publish($car,"Audit A:$a should be >= ${main::lastaspec}: $line\n");
 			}
+		}
+		my $w = "";
+		if ( $main::caraspecs{$main::mentioned} !=
+			$main::caraspecs{$main::mentionedid} ) {
+			$w = " *";
+		}
+		if ($main::showlist=~/,diffa,/) {
+			publish($car,
+				"Audit A: ".$diff." ".$main::mentionedid." ".
+				$main::mentioned." ".
+				$main::carids{$main::mentionedid}.$w."\n");
+		}
+		if ($main::showlist=~/,diffan,/) {
+			publish($car,
+				"Audit ".$diff." ".$main::mentioned." "."A:".
+				#$main::carids{$main::mentionedid}." ".
+				$main::caraspecs{$main::mentioned}.
+				$w."\n");
+		}
+		if ($main::showlist=~/,diffai,/) {
+			publish($car,
+				"Audit ".$diff." ".$main::mentionedid." ".
+				$main::carids{$main::mentionedid}." A:".
+				$main::caraspecs{$main::mentionedid}.
+				$w."\n");
 		}
 	}
 }
@@ -1687,6 +1853,12 @@ doauditb {
 		$c = $newmachine - $main::machine;
 		$m = $newcourse - $main::course;
 		$b = $newbattle - $main::battle;
+		$note =
+			"Audit $lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"($incbspec/$incmachine/$inccourse/$incbattle)" .
+# Seems we should use new in following also; not clear what we are checking
+			"  B:$newbspec/$newmachine/$newcourse/$newbattle" .
+			"(+$t/+$c/+$m/+$b)" . "\n";
 		my($car) = ($main::mentioned);
 		$main::carbspecs{$car} = 0
 				if (!defined($main::carbspecs{$car}));
@@ -1700,12 +1872,62 @@ doauditb {
 		$main::carbmachines{$car} += $m;
 		$main::carbcourses{$car} += $c;
 		$main::carbbattles{$car} += $b;
-		$note =
-			"Audit $lineno B:$newbspec/$newmachine/$newcourse/$newbattle" .
-			"($incbspec/$incmachine/$inccourse/$incbattle)" .
-# Seems we should use new in following also; not clear what we are checking
-			"  B:$newbspec/$newmachine/$newcourse/$newbattle" .
-			"(+$t/+$c/+$m/+$b)" . "\n";
+		my($id) = findcarid($car,$line);
+		if ($car ne $id) {
+			# $car eq $id would be pathological
+			$main::carbspecs{$id} = 0
+				if (!defined($main::carbspecs{$id}));
+			$main::carbmachines{$id} = 0
+				if (!defined($main::carbmachines{$id}));
+			$main::carbcourses{$id} = 0
+				if (!defined($main::carbcourses{$id}));
+			$main::carbbattles{$id} = 0
+				if (!defined($main::carbbattles{$id}));
+			$main::carbspecs{$id} += $t;
+			$main::carbmachines{$id} += $m;
+			$main::carbcourses{$id} += $c;
+			$main::carbbattles{$id} += $b;
+		}
+		my ($w, $bcar, $bid) = ("","","");
+		$bid =  $main::carbspecs{$id}."/".
+			$main::carbmachines{$id}."/".
+			$main::carbcourses{$id}."/".
+			$main::carbbattles{$id};
+		$bcar =  $main::carbspecs{$car}."/".
+			$main::carbmachines{$car}."/".
+			$main::carbcourses{$car}."/".
+			$main::carbbattles{$car};
+		if ( $bid ne $bcar) {
+			$w = " *";
+		}
+		my ($diff) = ( $t."/". $m."/". $c."/". $b );
+		if ($main::showlist=~/,diffb,/) {
+			publish($car,
+				"Audit B: ".$diff." ".$main::mentionedid." ".
+				$main::mentioned." ".
+				$main::carids{$main::mentionedid}.
+				$w,"\n");
+		}
+		if ($main::showlist=~/,diffbn,/) {
+			publish($car,
+				"Audit ".$diff." ".$main::mentioned." "."B:".
+				#$main::carids{$main::mentionedid}." ".
+					$main::carbspecs{$car}."/".
+					$main::carbmachines{$car}."/".
+					$main::carbcourses{$car}."/".
+					$main::carbbattles{$car}.
+				$w,"\n");
+		}
+		if ($main::showlist=~/,diffbi,/) {
+			publish($car,
+				"Audit ".$diff." ".$main::mentionedid." ".
+				$main::carids{$main::mentionedid}." B:".
+					$main::carbspecs{$id}."/".
+					$main::carbmachines{$id}."/".
+					$main::carbcourses{$id}."/".
+					$main::carbbattles{$id}.
+				$w,"\n");
+		}
 
 # Should check for inc < 0 duh!
 		if ($newbspec != ($main::bspec + $incbspec) ) {
@@ -1746,20 +1968,33 @@ sub
 doaudit {
 	my($line,$rest,$r1,$r2, $estimate) = @_;
 	# $estimate is recorded total from statusline
+	my($logto,$logtoid);
 
+	$logto = $main::mentioned;
+	$logtoid = $main::mentionedid;
+	if ($logto eq "" || $logto eq "none") {
+		$logto = "game";
+		$logtoid = $main::carid{$logto};
+	}
 	# I think we have forced A: and B: to always have Cr on same line...
-	# This is auditc (credits)
+	# This is auditc (credidts)
 	if ($estimate < $main::minaudit && $main::showlist=~/,auditc,/) {
 		&warn("Audit Cr$estimate should be more than ${main::minaudit}: $line\n");
 	}
 	if ($main::maxaudit < $estimate && $main::showlist=~/,auditc,/) {
 		&warn("Audit Cr$estimate should be less than ${main::maxaudit}: $line\n");
 	}
+	# if $main::mentioned is "none", we want to assume "game"
+	# Perhaps when selected is set to "none", set mentioned to "game"
 	# Assessing earned credits is harder than Aspec or Bspec points
-	$main::carcredits{$main::mentioned} = 0
-		if (!defined($main::carcredits{$main::mentioned})) ;
-	$main::cardebits{$main::mentioned} = 0
-		if (!defined($main::cardebits{$main::mentioned})) ;
+	$main::carcredits{$logto} = 0
+		if (!defined($main::carcredits{$logto})) ;
+	$main::cardebits{$logto} = 0
+		if (!defined($main::cardebits{$logto})) ;
+	$main::carcredits{$logtoid} = 0
+		if (!defined($main::carcredits{$logtoid})) ;
+	$main::cardebits{$logtoid} = 0
+		if (!defined($main::cardebits{$logtoid})) ;
 	# Really, buy car should...
 	# Deduct price from $main::knownaudit
 	#     and add it to $main::cardebits{$car}
@@ -1767,10 +2002,49 @@ doaudit {
 	# Note: $main::cardebits will not be seen if the car has no carlog
 	my($diff) = ($estimate - $main::knownaudit);
 	if ($diff >= 0) {
-		$main::carcredits{$main::mentioned} += $diff;
+		$main::carcredits{$logto} += $diff;
+		if ($logto ne $logtoid) {
+			# Pathologically might say "select car <carid>"
+			$main::carcredits{$logtoid} += $diff;
+		}
 	}
 	else {
-		$main::cardebits{$main::mentioned} += 0 - $diff; 
+		$main::cardebits{$logto} += 0 - $diff; 
+		if ($logto ne $logtoid) {
+			$main::cardebits{$logtoid} += 0 - $diff;
+		}
+	}
+	my $w = "";
+	if ( $main::carcredits{$logto} !=
+		$main::carcredits{$logtoid} ||
+		$main::cardebits{$logto} !=
+		$main::cardebits{$logtoid} ) {
+		$w = " *";
+	}
+	my $car = $logto;
+	if ($main::showlist=~/,diffc,/) {
+		publish($car,
+			"Audit ".$diff." ".$logtoid." ".
+			$logto." ".
+			$main::carids{$logtoid}.$w."\n");
+	}
+	if ($main::showlist=~/,diffcn,/) {
+		publish($car,
+			"Audit ".$diff." ".$logto." ".
+			#$main::carids{$logtoid}." ".
+			tocredits($main::carcredits{$logto}). " ".
+			"(".tocredits($main::cardebits{$logto}).
+			")".
+			$w."\n");
+	}
+	if ($main::showlist=~/,diffci,/) {
+		publish($car,
+			"Audit ".$diff." ".$logtoid." ".
+			$main::carids{$logtoid}." ".
+			tocredits($main::carcredits{$logtoid}). " ".
+			"(".tocredits($main::cardebits{$logtoid}).
+			")".
+			$w."\n");
 	}
 	# In some cases we might want to believe our total instead?
 	$main::knownaudit = $estimate;
@@ -1798,7 +2072,7 @@ dostatusline {
 	# Later check Ncars, medal counts perhaps license standing?
 
 	if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
-		addcarlog($main::mentioned,$line);		
+		addcarlog($main::mentioned,$main::mentionedid,$line);		
 	}
 	if ( $main::pragmas =~ /,gt4,/ && $rest =~
 	   m:([0-9]{1,2}[GB][ /]{1,3}[0-9]{1,2}[S][ /]{1,3}[0-9]{1,2}[GB]): ) {
@@ -1907,7 +2181,7 @@ dowin {   # Handle  150 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
 	$stuff = $1;
 #print "stuff:$stuff\n";
 	#if ($main::mentioned ne "") {
-	addcarlog($main::mentioned,$line);
+	addcarlog($main::mentioned,$main::mentionedid,$line);
 	#}
 	if ($stuff !~ /^\s*car\s+(\S+)/ || !defined($1) ) {
 		if (!$main::var{'allowanyprize'} ) {
@@ -2094,7 +2368,7 @@ doparts {
 	$buf = normalizeparts($car,$line);
 # A question becomes, what should be left after normalize ?
 #  For now we leave anything left in parentheses, and also NNNkg and NNNhp
-#	print "$buf\n"  if ($main::showlist =~ /,rawparts,/ );
+#	print "$buf\n"  if ($main::showlist =~ /,rawpart,/ );
 	($op, $tok, $stuff) = split(/\s/,$buf,3);
 # N.B. if you don't specify ",3" you get only the first solitted element
 	print "$op $tok :$stuff\n"  if ($main::showlist =~ /,rawpart,/ );
@@ -2265,7 +2539,7 @@ dobuy {
 	}
 	elsif ($stuff =~ /^\s*parts\s+(\S+) /) {
 		checkcar($1,$line);
-		addcarlog($1,$line);
+		addcarlog($1,"",$line);
 		doparts($1,$line);
 	}
 	elsif ($stuff =~ /^\s*wheels\s+/) {
@@ -2305,7 +2579,7 @@ dodaynote {
 # this was cheating; eventually identifier will be checked
 		if ($stuff =~ /^(\S+)/ && defined($1) ) {
 			checkcar($1,$line);
-			addcarlog($1,$line);
+			addcarlog($1,"",$line);
 		}
 		else {
 			&warn("Bad $what: $line\n");
@@ -2321,14 +2595,14 @@ dodaynote {
 		if ($stuff =~ /^\s*car\s+(\S+)/ && defined($1) ) {
 			# 117 mod car   Silvia'88K  WR1  Cr1000  ->1071kg
 			checkcar($1,$line);
-			addcarlog($1,$line);
+			addcarlog($1,"",$line);
 			# Should we route this through buy?
 			doparts($1,$line);
 		}
 		# try next token as car identifier
 		elsif ($stuff =~ /^\s*(\S+)/ && defined($1) ) {
 			checkcar($1,$line);
-			addcarlog($1,$line);
+			addcarlog($1,"",$line);
 			# Should we route this through buy?
 			doparts($1,$line);
 		}
@@ -2354,7 +2628,8 @@ dodaynote {
 	# So, log skip...
 	if ($rest =~ /^skip/ ) {
 		if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
-			addcarlog($main::mentioned,$line);		
+			# Some skips might relate to selected car (not "game")
+			addcarlog($main::mentioned,$main::mentionedid,$line);		
 		}
 	}
 	# Remaining oddity "buy" goes to carlog for bought car
@@ -2369,7 +2644,7 @@ donote {
 
 	print " ${main::maxtoday} Note: $line\n" if ($main::showlist =~ /,trace,/ );
 	if ($main::showlist =~ /,carlog,/ && $main::showlist =~ /,verbose,/ ) {
-		addcarlog($main::mentioned,$line);		
+		addcarlog($main::mentioned,$main::mentionedid,$line);		
 	}
 }
 
@@ -2409,6 +2684,7 @@ my($log,$daylimit);
 
 $main::lastdateline = "";
 %main::carlogs = ();
+%main::carlogsi = ();   # Our future "proper" carlogs, by carid
 %main::carcredits = ();
 %main::cardebits = ();
 %main::caraspecs = ();
@@ -2418,19 +2694,45 @@ $main::lastdateline = "";
 %main::carbbattles = ();
 sub
 addcarlog {
-	my($car,$line) = @_;
-
+	my($car,$id,$line) = @_;
 	# if ($car eq "" || $car eq "no car selected") {
 	#	return;
 	#}
+	# Arguably should use carid of $car...
+
+	# Migrate towards providing both arguments explicitly...
+	if (!defined($car) || $car eq "") {
+		if (!defined($id) || $id eq "") {
+			# This probably cannot happen
+			&warn("Must define car or id: ".$line."\n");
+			return;
+		}
+		$car = $main::carids{$id};  # optimized findcarid()
+	}
+	elsif ($car eq "none") {  # this happens in old games
+		$car = "game";   # assume game log is correct
+		$id = "";
+	}
+	if (!defined($id) || $id eq "") {
+		$id = findcarid($car,$line);
+	}
 	if (!defined($main::carlogs{$car})) {
 		$main::carlogs{$car} = "";
 		if ($main::showlist =~ /,verbose,/) {
 			$main::carlogs{$car} = $main::lastdateline;
 		}
 	}
+	#$id = findcarid($car,$line);
+	# Turns out we try to verbose log lots of lines to non-existent car
+	if (defined($id) && !defined($main::carlogsi{$id})) {
+		$main::carlogsi{$id} = "";
+		if ($main::showlist =~ /,verbose,/) {
+			$main::carlogsi{$id} = $main::lastdateline;
+		}
+	}
 	if ($line !~ /^\s*$/) {
 		$main::carlogs{$car} .= $line."\n";
+		$main::carlogsi{$id} .= $line."\n" if defined($id);
 	}
 }
 	
@@ -2476,7 +2778,7 @@ while ( defined($ARGV[0]) ) {
 	shift @ARGV;
 }
 if (!defined($log)) {
-	$log = "log";
+	$log = "/dev/stdin";
 }
 if (!defined($daylimit)) {
 	$daylimit = -1;
@@ -2484,7 +2786,36 @@ if (!defined($daylimit)) {
 if (!defined($main::showlist)) {
 	$main::showlist = ",garage,";
 }
-$main::showlist =~ s/all/pragma,buy,sell,sale,sold,carid,garage,/;
+$main::showlist =~ s/,all,/pragma,buy,sell,sale,sold,carid,garage,/;
+
+$main::showvalid =
+	",all" . ",audit" . ",audita" . ",auditb" . ",auditc" .
+	",buy" . ",carid" . ",carlog" . ",caridlog" .
+	",carpart" . ",carpartstotal" . ",carprice" .
+	",diffa" .  ",diffan" .  ",diffai" .
+	",diffb" .  ",diffbn" .  ",diffbi" .
+	",diffc" .  ",diffcn" .  ",diffci" .
+	",echo" .  ",event" .  ",garage" .  ",heuristic" .
+	",licence" . ",license" .
+	",mod" . ",model" .
+	",origin" . ",pragma" .
+	",price" . ",prize" .  ",rawevent" . ",rawpart" .
+	",sale" . ",sell" . ",sold" .
+	",trace" . ",var" . ",verbose" . ",warn" .
+	",";
+
+my ($opt, $c);
+$c = 0;
+for $opt (split(/,/, $main::showlist)) {
+#print "opt=$opt\n";
+	next if ($opt eq "");
+	if ($main::showvalid !~ /,$opt,/) {
+		&warn("Invalid show= option: $opt\n");
+		++$c
+	}
+}
+exit 2 if ($c > 0);
+
 
 {
 	no strict 'refs';
@@ -2494,6 +2825,15 @@ $main::showlist =~ s/all/pragma,buy,sell,sale,sold,carid,garage,/;
 }
 
 
+# emulate initial "select car game"
+$main::mentioned = "game";
+$main::selected = "game";
+if (!defined(findcarid("game","")) || 
+	findcarid("game","") eq "" ) {
+	&newautocarid("game","");
+}
+$main::mentionedid = findcarid("game","");
+$main::selectedid = findcarid("game","");
 #while ($main::mintoday <= $daylimit && <LOG>) {
 while (defined($_ = &getlog())) {
 	my($line) = $_;
@@ -2718,13 +3058,15 @@ if ($main::showlist =~ /,prize,/ ) {
 	}
 }
 if ($main::showlist =~ /,carid,/ ) {
+# Would really like to see what $main::carid{$k} is...
+# Sigh.  Might really like ,carid, versus ,carids,
 	my($k);
 	foreach $k (sort caridsub keys %main::carids) {
 		printf("%s %s %s (%s)\n", $k, $main::carids{$k},
 			$main::carnames{$k}, $main::carstates{$k});
 	}
 }
-if ($main::showlist =~ /,price,/ || $main::showlist =~ /,carprices,/ ) {
+if ($main::showlist =~ /,price,/ || $main::showlist =~ /,carprice,/ ) {
 	my($k);
 	foreach $k (sort caridsub keys %main::carprices) {
 		printf("%s %s %s\n", $k, $main::carids{$k},
@@ -2858,36 +3200,91 @@ bspecstring {
 	}
 	return "";
 }
-if ($main::showlist =~ /,carlog,/ ) {
+if ($main::showlist =~ /,carlog,/ && $main::showlist !~ /,caridlog,/ ) {
 	my($i,@sorted);
 	@sorted = sort keys %main::carlogs;
+	# Eventually carlogs should be looked up by actual carid
 	for ($i = 0; $i <= $#sorted; ++$i) {
-		my($sf,$ci,$org);
+		my($sf,$ci,$org,$price);
 		$sf = $sorted[$i];
 		next if ($sf eq "");  # Ignore logs to empty car name
 		#$ci = $main::carid{$sf};
 		$ci = findcarid($sf,"");  # Using "" instead of $line?
 		if (defined($ci) && defined($main::origin{$ci}) ) {
+			# This can be the wrong origin
+			# (if a cardef matches a shortname?)
+			# That will be fixed if carlog is by carids...
 			$org = $main::origin{$ci}."\n";
+			$price = 0;
+#			if (defined($main::carprices{$ci})) {
+#				# Duh.  Why does prices have Cr?
+#				$price = $main::carprices{$ci};
+#				$price =~ s/,//g;
+#				$price =~ s/Cr//;
+#			}
 		}
 		else {
+			$ci = "";
 			$org = "";
+			$price = 0;
 		}
 # %main::caraspecs = ();
 		my ($c, $d, $a, $b) = ("","","","");
 		if (defined($main::carcredits{$sorted[$i]} ) ) {
 			$c = " " . tocredits($main::carcredits{$sorted[$i]});
 			# Assert cardebits entry must have been defined
-			$d = " (".tocredits($main::cardebits{$sorted[$i]}).")";
+			$d = " (".tocredits($price +
+					$main::cardebits{$sorted[$i]}).")";
 		}
 		if (defined($main::caraspecs{$sorted[$i]} ) ) {
 			$a = " A:" . $main::caraspecs{$sorted[$i]};
 		}
 		$b = bspecstring($sorted[$i]);
 		$b = " B:".$b if ($b ne "");
-		printf("%s:%s%s%s%s\n", $sf, $c, $d, $a, $b );
+		$ci = " ".$ci if ($ci ne "");
+		printf("%s:%s%s%s%s%s\n", $sf, $ci, $c, $d, $a, $b );
 		printf("%s", $org );
 		printf("%s\n", $main::carlogs{$sorted[$i]} );
+	}
+}
+if ($main::showlist =~ /,caridlog,/ ) {
+	my($i,@sorted);
+	# Sorted by carid, i.e. acquisition order (not quite?)
+	@sorted = sort caridsub keys %main::carlogsi;
+	# Eventually carlogs should be looked up by actual carid
+	for ($i = 0; $i <= $#sorted; ++$i) {
+		my($sf,$id,$org,$price);
+		$id = $sorted[$i];
+		$sf = $main::carids{$id};  # should be defined?
+		if (!defined($sf) || $sf eq "") {
+			&warn("No carlist entry for ".$id."\n");
+			next;
+		}
+		$org = "";
+		$org = $main::origin{$id}."\n" if(defined($main::origin{$id}));
+# %main::caraspecs = ();
+		$price = 0;
+#		if (defined($main::carprices{$id})) {
+#			# Duh.  Why does prices have Cr?
+#			$price = $main::carprices{$id};
+#			$price =~ s/,//g;
+#			$price =~ s/Cr//;
+#		}
+		my ($c, $d, $a, $b) = ("","","","");
+		if (defined($main::carcredits{$id} ) ) {
+			$c = " " . tocredits($main::carcredits{$sorted[$i]});
+			# Assert cardebits entry must have been defined
+			$d = " (". tocredits($price+$main::cardebits{$id}).")";
+		}
+		if (defined($main::caraspecs{$id} ) ) {
+			$a = " A:" . $main::caraspecs{$id};
+		}
+		$b = bspecstring($id);
+		$b = " B:".$b if ($b ne "");
+		#printf("%s:%s%s%s%s\n", $sf, $c, $d, $a, $b );
+		printf("%s: %s%s%s%s%s\n", $sf, $id, $c, $d, $a, $b );
+		printf("%s", $org );
+		printf("%s\n", $main::carlogsi{$id} );
 	}
 }
 
