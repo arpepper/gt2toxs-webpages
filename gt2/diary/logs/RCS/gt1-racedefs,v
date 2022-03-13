@@ -1,9 +1,20 @@
-head	1.10;
+head	1.12;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.12; strict;
 comment	@# @;
 
+
+1.12
+date	2022.03.07.18.33.45;	author arpepper;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2022.03.07.13.23.54;	author arpepper;	state Exp;
+branches;
+next	1.10;
 
 1.10
 date	2021.06.30.22.40.42;	author arpepper;	state Exp;
@@ -61,9 +72,10 @@ desc
 @
 
 
-1.10
+1.12
 log
-@Add "setvar includesdone = 1"
+@Record the initial Cr10,000
+>
 @
 text
 @setvar seriesdelim = ""
@@ -203,6 +215,29 @@ define fullprizename yellowSilEighty yellow Nissan Sil Eighty
 define fullprizename yellowSkyline yellow Nissan R32 Skyline '91 GT-R
 define fullprizename yellowSoarer yellow Toyota Soarer 2.5GT-T VVT-i
 
+ 1 Cr10,000
+ 1 select car none
+@
+
+
+1.11
+log
+@Changes to gt4garage now require explicit "select car none".
+Perhaps we should make gt4garage do that by default.
+And/or have gt4-racedefs do explicit "select car game".
+("select car none" because we use autoselectcarids)
+@
+text
+@d138 1
+@
+
+
+1.10
+log
+@Add "setvar includesdone = 1"
+@
+text
+@d138 1
 @
 
 

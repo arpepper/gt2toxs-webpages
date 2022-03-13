@@ -1,9 +1,14 @@
-head	1.4;
+head	1.5;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.5
+date	2022.03.07.18.21.24;	author arpepper;	state Exp;
+branches;
+next	1.4;
 
 1.4
 date	99.12.07.19.44.36;	author arpepper;	state Exp;
@@ -31,9 +36,9 @@ desc
 @
 
 
-1.4
+1.5
 log
-@finished up.
+@Add initial credits.
 @
 text
 @October 26, 1999
@@ -55,6 +60,7 @@ text
 
    9      A1 pass 0:33.232 bronze
 
+  10 Cr10,000
   10   buy car 3dr'93si  captiva blue pearl Civic '93  3dr si
 
     This is a cheap price for the Civic 3 door, and, with light
@@ -167,6 +173,15 @@ November 14, 1999
   101  Cr1,536,530
   101  done
   101  Cr1,536,530  2 purchased cars + 16 prizes = 18 cars
+@
+
+
+1.4
+log
+@finished up.
+@
+text
+@d20 1
 @
 
 

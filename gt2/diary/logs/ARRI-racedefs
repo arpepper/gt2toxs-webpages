@@ -98,4 +98,5 @@ Note: following allows us to pretend "race" is an operation
 1 win car race Alfa 147 Twin Spark (prize,Initial)
 Note: also list all cars and tracks, in acquire order
 1 win track Laguna Seca
+select car race
 

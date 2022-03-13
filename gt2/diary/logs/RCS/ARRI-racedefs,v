@@ -1,9 +1,15 @@
-head	1.5;
+head	1.6;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.6; strict;
 comment	@# @;
 
+
+1.6
+date	2022.03.07.13.04.04;	author arpepper;	state Exp;
+branches;
+next	1.5;
 
 1.5
 date	2021.06.30.22.40.12;	author arpepper;	state Exp;
@@ -35,9 +41,10 @@ desc
 @@
 
 
-1.5
+1.6
 log
-@Add "setvar includesdone = 1"
+@Changes to overall defaults require "select car race".
+"select car none" might work just as well, or better.
 @
 text
 @#pragma gt4
@@ -140,7 +147,17 @@ Note: following allows us to pretend "race" is an operation
 1 win car race Alfa 147 Twin Spark (prize,Initial)
 Note: also list all cars and tracks, in acquire order
 1 win track Laguna Seca
+select car race
 
+@
+
+
+1.5
+log
+@Add "setvar includesdone = 1"
+@
+text
+@d101 1
 @
 
 

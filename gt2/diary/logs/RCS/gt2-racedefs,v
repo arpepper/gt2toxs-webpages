@@ -1,9 +1,15 @@
-head	1.7;
+head	1.8;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.8; strict;
 comment	@# @;
 
+
+1.8
+date	2022.03.07.20.07.58;	author arpepper;	state Exp;
+branches;
+next	1.7;
 
 1.7
 date	2022.02.13.14.29.16;	author arpepper;	state Exp;
@@ -50,9 +56,10 @@ And yet we are a long way from sensibly handling all the diagnostics.
 @
 
 
-1.7
+1.8
 log
-@Set minprizecredits to be zero, with a skeptical comment.
+@select car none.
+log initial credits.
 @
 text
 @setvar includesdone = 1
@@ -302,6 +309,17 @@ define series [R]Vitz
 define series VitzF
 define series ZZ-S
 
+ 1 select car none
+ 1 Cr10,000
+@
+
+
+1.7
+log
+@Set minprizecredits to be zero, with a skeptical comment.
+@
+text
+@d248 2
 @
 
 
