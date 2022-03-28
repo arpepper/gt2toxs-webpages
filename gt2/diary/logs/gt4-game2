@@ -2092,7 +2092,7 @@ Note: reset between events to get "standard" lineup
 
 Note: Bspec does better at Suzuka than I can (also at Nurb)
 
- 569    McLarenSLR    Eu/B/Suzuka  nq6th1st           1A           none
+ 569    McLarenSLR    Eu/B/Suzuka  nq6th1st           4A           none
 Note: I drove steady for first lap, but good car was trapped back in field
  570 +1 win car [R]AMG'92  AMG Mercedes 190E 2.5 - I6 Evo II Touring Car '92
  571 Cr12,624,177  37.5%  A:4208 B:6838/87/68/65    2G 17S 61B       142cars
@@ -2167,11 +2167,12 @@ Note: Nurb      4:00:59.516    9:15.688 -2:56   A.S. 10  T-N1 => T-N3
 Note: Opera     2:48:24.894(B) 1:35.981 5laps   A.S. 10  T-S3 => T-S1 (+pace 2)
 Note: Cote      3:25:11.746(B) 2:01.260 8laps   A.S. 10  T-S3
 Note: SartheII  2:58:35.991(B) 4:58.257 2laps   A.S. 10  T-N1
-Note:  Mitsubishi GALANT GTO MR'70    6 + 6 + 6 + 6 = 24
-Note:  Mini Marcos GT '70             4 + 2 + 4 + 4 = 14
-Note:  VW Karmann Ghia Coupe '68      3 + 4 + 3 + 2 = 12
-Note:  Honda S800 '66?                2 + 3 + 2 + 3 = 10
-Note:  Fiat 500F'65                   1 + 1 + 1 + 1 =  4
+Note: following had been wrong; must have been the Alfa?
+Note:  Alfa Romeo Giulia Sprint GTA 1600 '65  6 + 6 + 6 + 6 = 24
+Note:  Mini Marcos GT '70                     4 + 2 + 4 + 4 = 14
+Note:  VW Karmann Ghia Coupe '68              3 + 4 + 3 + 2 = 12
+Note:  Honda S800 '66?                        2 + 3 + 2 + 3 = 10
+Note:  Fiat 500F'65                           1 + 1 + 1 + 1 =  4
  579 +1 win car AlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bianco Gardenia)
  580 Cr14,289,767  37.5%  A:4212 B:6838/87/68/65    2G 18S 60B       145cars
  580 power off
@@ -2454,3 +2455,70 @@ Note: beat Saleen S7
  655 Cr13,653,019  45.1%  A:7526 B:6915/87/69/66                 163cars
  655 power off
 
+March 23, 2022
+ 655 select car MT88C-V   Minolta Toyota 88C-V Race Car '89
+ 655 +10   MT88C-V J/JGT (B) q1111N11NNN,1st100to46,45,34,22,13     next
+ 665 +1 win car [R]MotulZ'04   Nissan Motul Pitwork Z (JGTC) '04
+ 666 Cr13,903,019  47.0%  A:7526 B:6964/87/69/67(+49/0/0/+1)          164cars
+Note: later perhaps display this as 10 races
+ 666 power off
+
+March 26, 2022
+ 666     MT88C-V     Ex/LTW/TT      nq6th1st(B)                   next
+ 667 +1 win car  Nardo'01  Volkswagen W12 Nardo Concept '01
+ 668 Cr13,923,019  47.1%  A:7607 B:6964/87/69/67                      165cars
+
+ 490 select car GTA'02  Alfa Romeo 147 GTA '02 (Rosso Alfa)
+ 668    GTA'02    Eu/Ita/Infineon  nq6th1st NA1chipRmuffS3      39A   none
+ 669    GTA'02    Eu/Ita/AutumnR   nq6th1st NA1chipRmuffS3      39A   none
+ 670    GTA'02    Eu/Ita/Cote      nq6th1st NA2chipRmuffS3      10A   next
+Note: about 5 tries for last one
+ 671 +1 win car Alfa155'93  Alfa Romeo 155 2.5 V6 TI '93
+ 672 Cr13,938,019  47.7%  A:7695 B:6964/87/69/67                      166cars
+ 672 power off
+
+March 27, 2022
+ 672  select car McLarenSLR    Mercedes-Benz SLR McLaren '03
+ 672    McLarenSLR   Mfr/Silver/Fuji90       1st S3  Cr7,500 4A none
+ 673    McLarenSLR   Mfr/Silver/Nurburgring  1st S3  Cr7,500 2A next
+ 674 +1 win car  CLK-DTM  Mercedes-Benz CLK Touring Car '00
+Note: no SLR at Nurburgring (about lineup 12)
+ 675 Cr13,953,019  48.0%  A:7701 B:6964/87/69/67                      167cars
+
+ 675  select car McLarenSLR
+ 675  buy parts McLarenSLR  T-N1 T-N2 T-N3 Cr0  T-S1 T-S3  Cr5500 Cr7400
+ 675  buy parts McLarenSLR  Rbr Bctlr Cr4800 Cr10,800
+ 675  buy parts McLarenSLR  Rtrans  Cr10,500
+ 675  buy parts McLarenSLR  3clu Rfw  Cr4800 Cr1100
+ 675  buy parts McLarenSLR  shaft Cr3250  Rsusp Cr18,000
+Note: Should have bought a little power (or maybe weight) insurance
+Note: Rsusp default tuning seems bad
+ 675 +5 McLarenSLR  Eu/Pan  sw50to27,20,18,10,5         +8+9+7+7+7A  next
+Note: Changed oil after end of second race
+Note: Opera  GVS  SartheI  Cote  and Nurburgring
+Note: long RL break after SartheI
+ 680 +1 win car  XJ220LM  Jaguar XJ220 LM Race Car '01
+Note:  Mercedes-Benz SLR McLaren '03        6 + 6 + 6 + 3 + 6 = 27
+Note:  Audi Nuvolari quattro '    03        3 + 4 + 3 + 6 + 4 = 20
+Note:  TVR Tamora '02                       4 + 3 + 4 + 4 + 3 = 18
+Note:  Mercedes-Benz SL65 AMG (R230) '04    2 + 2 + 2 + 2 + 2 = 10
+Note:  Audi RS 6 '02                        1 + 1 + 1 + 1 + 1 =  5
+Note: Nurburgring seemed like a race towards the end (2nd lap), but
+Note:  the other SLR probably "let me win"  (by 0.478)
+ 681 Cr13,991,819  49.0%  A:7739 B:6964/87/69/67                      168cars
+ 681 power off
+
+ 681 select car  CLK-DTM  Mercedes-Benz CLK Touring Car '00
+ 681  buy parts  CLK-DTM T-N1 T-N2 T-N3 Cr0 T-S1 T-S2 T-S3 Cr6000 Cr7000 Cr8000
+ 681  buy parts  CLK-DTM  T-R1 T-R2 T-R4 Cr9000 Cr11,000 Cr35,500
+ 681  buy parts  CLK-DTM  T-R5 Cr48,000   NA3 Cr85,000
+ 681  buy parts  CLK-DTM  TS3,TS4 Cr45,000 Cr90,000
+ 681 Cr13,647,319  49.0%  A:7739 B:6964/87/69/67                      168cars
+ 681 +5 CLK-DTM   Eu/DTM    sw50to23,33,19,10,5   4+3+11+2+3A           next
+Note: oil change after first race
+Note: Tried Nurb with qualifying, then Bspec, finally used extra power
+Note;   (but no qualifying)
+ 686 +1 win car CLK-GTR  AMG Mercedes CLK-GTR Race Car '98
+ 687 +1 win car  [R]XJR-9  Jaguar XJR-9 Race Car '88 (prize,50%)
+ 688 Cr13,797,269  50.0%  A:7762 B:6964/87/69/67                      170cars
+ 688 power off
