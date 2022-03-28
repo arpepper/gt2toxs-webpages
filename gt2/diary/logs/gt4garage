@@ -218,6 +218,8 @@ $main::ncarsnow = 0;  # set to count when changes
 
 # Discovered following defined only by use
 %main::carids = ();  # see findcarid
+@main::keycarids = ();    # optimize; retain sorted keys
+@main::revkeycarids = ();    # optimize; retain reversed sorted keys
 %main::carnames = ();
 %main::cardefs = ();  # special names created via "cardef" command
 %main::carstates = ();
@@ -475,6 +477,8 @@ getcar {
 
 	$newid = &gencarid();
 	$main::carids{$newid} = $shortform;  # actually see findcarid
+	@main::keycarids = sort caridsub keys %main::carids;    # optimize
+	@main::revkeycarids = reverse (@main::keycarids);    # optimize
 	$main::carnames{$newid} = $fullname;
 	$main::carstates{$newid} = "got";   # s.b. "won" or "new" or "used"?
 	$main::carlist{$shortform} = $shortform;
@@ -547,7 +551,9 @@ carvariants {  # obtain variants of a token in a "sell" line
 	$car1 =~ s/es$//;
 	$car2 = $car1;
 	$car1 =~ s/s$//;
-	@list = (reverse sort caridsub keys %main::carids);
+	# Should optimize the following, saving sorted keys each change
+	#@list = (reverse sort caridsub keys %main::carids);
+	@list = (@main::revkeycarids);
 	foreach $i (@list) {
 		if ($main::carstates{$i} ne "sold" &&
 				$main::carnames{$i} =~ /\(prize/ ) {
@@ -584,7 +590,8 @@ carcount {
 		# suitable for results of carvariants
 		#  avoids blueSilEighty matching dkBlueSileighty -- sheesh
 		# Probably here we should match carids table only...
-		@list = (reverse sort caridsub keys %main::carids);
+		#@list = (reverse sort caridsub keys %main::carids);
+		@list = (@main::revkeycarids);
 		foreach $i (@list) {
 			if ($main::carstates{$i} ne "sold" &&
 			    $main::carstates{$i} ne "alias" &&
@@ -600,7 +607,8 @@ carcount {
 		$car1 =~ s/es$//;
 		$car2 = $car1;
 		$car1 =~ s/s$//;
-		@list = (reverse sort caridsub keys %main::carids);
+		#@list = (reverse sort caridsub keys %main::carids);
+		@list = (@main::revkeycarids);
 		foreach $i (@list) {
 			if ($main::carstates{$i} ne "sold" &&
 			    $main::carstates{$i} ne "alias" &&
@@ -665,7 +673,9 @@ sellentry {  # sell the given $num garage slot, if it matches $car
 	$what = "";
 	$temp = "";
 	$temp2 = "";
-	foreach $k (sort caridsub keys %main::carids) {
+	my @list = (@main::keycarids);
+	#foreach $k (sort caridsub keys %main::carids) {
+	foreach $k (@list) {
 		if ($main::carstates{$k} ne "sold" &&
 		    $main::carstates{$k} ne "alias") {
 			if (++$i == $num) {
@@ -715,8 +725,10 @@ sellcar {
 
 	$car =~ s/^\s*//;
 	$car =~ s/\s*$//;
-	@list = (sort caridsub keys %main::carids);
-	@list = reverse @list if not ($oldest);
+	#@list = (sort caridsub keys %main::carids);
+	@list = (@main::keycarids);
+	#@list = reverse @list if not ($oldest);
+	@list = @main::revkeycarids if not ($oldest);
 	foreach $ix (@list) {
 		# Sell the first exact match of $car against fullname
 		$temp = $main::carnames{$ix};
@@ -1455,6 +1467,9 @@ docardef {
 	$main::cardefs{$what} = $carid;
 	# Feb 2022; realized $what should become new default shortname
 	$main::carids{$carid} = $what;
+	# Following probably is not necessary since we create no new key
+	@main::keycarids = sort caridsub keys %main::carids;    # optimize
+	@main::revkeycarids = reverse (@main::keycarids);    # optimize
 }
 
 sub
@@ -1540,6 +1555,8 @@ newautocarid {
 	$newid = "car0-"."$main::autocaridcount";
 	# Following replicates a bit of getcar()
 	$main::carids{$newid} = $carname;  # actually see findcarid
+	@main::keycarids = sort caridsub keys %main::carids;    # optimize
+	@main::revkeycarids = reverse (@main::keycarids);    # optimize
 	$main::carnames{$newid} = $carname;
 	$main::carstates{$newid} = "alias";   # s.b. "won" or "new" or "used"?
 	$main::carlist{$carname} = $carname;
@@ -1581,7 +1598,8 @@ findcarid { # given explicit cardef or carid, or unique shortform, return carid
 	# Did not find via above; search all $carids{}
 	# I wonder if this happens a lot?  (expensive)
 	$id = "";
-	foreach $k (sort caridsub keys %main::carids) {
+	#foreach $k (sort caridsub keys %main::carids) {
+	foreach $k (@main::keycarids) {
 		# keys sorted to prefer earliest match?
 		if ($main::carids{$k} eq $carname &&
 				$main::carstates{$k} ne "sold") {
@@ -2692,6 +2710,11 @@ $main::lastdateline = "";
 %main::carbmachines = ();
 %main::carbcourses = ();
 %main::carbbattles = ();
+# To assign credits earned by prize sales to car which won the prize...
+#%main::acquirer();   # indexed by carid gives carid of winner
+#%main::carsalecredits();   # indexed by carid is total sales credits
+## (Could add to %main::carcredits(), but maintain as separate "account")
+## Problem: currently carcredits are maintained for both $sf and $id
 sub
 addcarlog {
 	my($car,$id,$line) = @_;
@@ -3061,6 +3084,7 @@ if ($main::showlist =~ /,carid,/ ) {
 # Would really like to see what $main::carid{$k} is...
 # Sigh.  Might really like ,carid, versus ,carids,
 	my($k);
+# Could optimize this, but perhaps it is a check?
 	foreach $k (sort caridsub keys %main::carids) {
 		printf("%s %s %s (%s)\n", $k, $main::carids{$k},
 			$main::carnames{$k}, $main::carstates{$k});
