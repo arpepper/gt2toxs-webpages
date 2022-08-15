@@ -1,9 +1,19 @@
-head	1.32;
+head	1.34;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.34
+date	2022.08.15.19.53.30;	author gt2toxs;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2022.08.15.19.48.07;	author gt2toxs;	state Exp;
+branches;
+next	1.32;
 
 1.32
 date	2020.08.26.13.08.47;	author gt2toxs;	state Exp;
@@ -171,18 +181,9 @@ desc
 @
 
 
-1.32
+1.34
 log
-@Adequate dead link processing, I think.
-I actually intend to use something like this for the
-top-level gt/index.html gt2/index.html (will need to add CGI links, etc).
-
-Other cosmetic changes included lightening the background colour
-(even seeming to get it "non-glossy"), and also the "link bar" colour.
-
-I rewrote the "These pages" section, but kept its initial gist.
-But finished up with a more accurate current state, and removed
-the "may suddenly vanish" warning.
+@Correct some links into the "non-geocities" site.
 @
 text
 @<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -362,8 +363,25 @@ Message Board at GT Hybrids ...take 2</A>
 
 <table width="85%"><tr><td width="10%"></td><td>
 <H3>One-Person Reference Sites <font size="-1">(<a href="#top">top</a>)</font></b></H3>
-<em>These are now all dead, except for one-or-two I rescued.</em><BR>
+<UL>
+<LI> <A HREF="http://www.gtcarreviews.com/">
+  GT car reviews (and event summaries) by Parnelli Bone</A>
+</UL>
+<em>The rest are now all dead, except for one-or-two I rescued.</em><BR>
 <em>Even webring,org/webring.com itself is now defunct. (August, 2020)</em><BR>
+<UL>
+<LI> <A HREF="../../../gt/richardnose/mirror/">
+   DickNose's Gran Turismo Site</A>
+<LI> <A HREF="../albrnickgt/">
+  GT Page I like best--Car comparison is invaluable.</A><BR>
+<em>formerly http://www.ent.ohiou.edu/~albrnick/gt/</em>
+</UL>
+Also...
+<UL>
+<LI> <A HREF="../../../gt/connoy/gt_cars.txt">
+  Dave Connoy's incomparably useful complete GT car list</A>
+</UL>
+<em>And now dead link versions...</em>
 <UL>
 <LI> <A HREF="http://gtsc.netfirms.com/">
 Gran Turismo Series Center - 
@@ -633,6 +651,44 @@ Gran Turismo.
 
 </BODY>
 </HTML>                      
+@
+
+
+1.33
+log
+@Update to include Parnelli Bone www.gtcarreviews.com and more closely
+match ~/public_html/gt/index.html
+
+Oops.  I see that creates bad links for several pages.
+@
+text
+@d185 1
+a185 1
+<LI> <A HREF="richardnose/mirror/">
+d193 1
+a193 1
+<LI> <A HREF="connoy/gt_cars.txt">
+@
+
+
+1.32
+log
+@Adequate dead link processing, I think.
+I actually intend to use something like this for the
+top-level gt/index.html gt2/index.html (will need to add CGI links, etc).
+
+Other cosmetic changes included lightening the background colour
+(even seeming to get it "non-glossy"), and also the "link bar" colour.
+
+I rewrote the "These pages" section, but kept its initial gist.
+But finished up with a more accurate current state, and removed
+the "may suddenly vanish" warning.
+@
+text
+@d178 5
+a182 1
+<em>These are now all dead, except for one-or-two I rescued.</em><BR>
+d184 13
 @
 
 

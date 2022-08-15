@@ -1,9 +1,14 @@
-head	1.23;
+head	1.24;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.24
+date	2022.08.15.20.04.31;	author gt2toxs;	state Exp;
+branches;
+next	1.23;
 
 1.23
 date	2019.05.29.22.21.16;	author gt2toxs;	state Exp;
@@ -126,10 +131,12 @@ desc
 @
 
 
-1.23
+1.24
 log
-@Add gt1-2019.
-Complete with an obscure joke.
+@Note that this index rots somewhat.
+The logs themselves are symlinks, but new logs in the target directory
+will be overlooked.
+The problem is I could not do CGI processing at geocities.
 @
 text
 @<html>
@@ -434,6 +441,15 @@ Copyright &copy; 1999-2004, the author/owner of http://www.math.uwaterloo.ca/~ar
 </body>
 </html>
 @
+
+
+1.23
+log
+@Add gt1-2019.
+Complete with an obscure joke.
+@
+text
+@@
 
 
 1.22

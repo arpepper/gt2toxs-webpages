@@ -1,9 +1,14 @@
-head	1.43;
+head	1.44;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.44
+date	2022.08.15.20.18.22;	author gt2toxs;	state Exp;
+branches;
+next	1.43;
 
 1.43
 date	2020.08.26.20.58.47;	author gt2toxs;	state Exp;
@@ -225,9 +230,12 @@ desc
 @@
 
 
-1.43
+1.44
 log
-@Oops.  Added a missing </A>
+@Add Parnelli Bone reference site
+http://www.gtcarreviews.com/
+ 
+And cleanup wording slightly.
 @
 text
 @<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -416,7 +424,11 @@ Message Board at GT Hybrids ...take 2</A>
 
 <table width="85%"><tr><td width="10%"></td><td>
 <H3>One-Person Reference Sites <font size="-1">(<a href="#top">top</a>)</font></b></H3>
-<em>These are now all dead, except for one-or-two I rescued.</em><BR>
+<UL>
+<LI> <A HREF="http://www.gtcarreviews.com/">
+  GT car reviews (and event summaries) by Parnelli Bone</A>
+</UL>
+<em>The rest are now all dead, except for one-or-two I rescued.</em><BR>
 <em>Even webring,org/webring.com itself is now defunct. (August, 2020)</em><BR>
 <UL>
 <LI> <A HREF="richardnose/mirror/">
@@ -702,6 +714,17 @@ Gran Turismo.
 
 </BODY>
 </HTML>                      
+@
+
+
+1.43
+log
+@Oops.  Added a missing </A>
+@
+text
+@d187 5
+a191 1
+<em>These are now all dead, except for one-or-two I rescued.</em><BR>
 @
 
 
