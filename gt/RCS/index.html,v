@@ -1,9 +1,20 @@
-head	1.44;
+head	1.46;
 access;
 symbols;
-locks; strict;
+locks
+	gt2toxs:1.46; strict;
 comment	@# @;
 
+
+1.46
+date	2022.09.05.16.08.14;	author gt2toxs;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2022.09.05.15.52.47;	author gt2toxs;	state Exp;
+branches;
+next	1.44;
 
 1.44
 date	2022.08.15.20.18.22;	author gt2toxs;	state Exp;
@@ -230,12 +241,9 @@ desc
 @@
 
 
-1.44
+1.46
 log
-@Add Parnelli Bone reference site
-http://www.gtcarreviews.com/
- 
-And cleanup wording slightly.
+@Oops fixed a formatting error in the previous.
 @
 text
 @<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -427,6 +435,8 @@ Message Board at GT Hybrids ...take 2</A>
 <UL>
 <LI> <A HREF="http://www.gtcarreviews.com/">
   GT car reviews (and event summaries) by Parnelli Bone</A>
+<LI> <A HREF="https://pupik-gt2.tripod.com/">
+  Pupik's GT2 Spot
 </UL>
 <em>The rest are now all dead, except for one-or-two I rescued.</em><BR>
 <em>Even webring,org/webring.com itself is now defunct. (August, 2020)</em><BR>
@@ -714,6 +724,29 @@ Gran Turismo.
 
 </BODY>
 </HTML>                      
+@
+
+
+1.45
+log
+@Add Pupik's GT2 Spot
+https://pupik-gt2.tripod.com/
+@
+text
+@a189 1
+</UL>
+@
+
+
+1.44
+log
+@Add Parnelli Bone reference site
+http://www.gtcarreviews.com/
+ 
+And cleanup wording slightly.
+@
+text
+@d191 3
 @
 
 
