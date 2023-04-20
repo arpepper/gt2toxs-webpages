@@ -1,0 +1,384 @@
+
+include gt4-racedefs
+
+December 5, 2022
+
+#
+# I decided to try to get all licenses using
+#  my Logitech Driving Force Pro
+#
+#
+#
+
+
+   1 select car game
+   1     license B1 B  Mazda    11.265   1 try(fluke)   "Apr 2"
+   2     license B2 B  Mitsubishi 3000GT  11.615   1.5 tries (setting up)
+   3     license B3 B  Prelude@DFRW  32.007   2 tries
+   4     license B4 B  Silvia@DFRW   32.264   1 try
+   5     license B5 B  Mini@Tsukuba B  1:35.884  1 try
+   6     license B6 B  Megane       25.031  1 try
+   7     license B7 B  Viper        28.082  3 tries
+   8     license B8 B  Miata@Motegi   16.563   2tries close
+   9     license B9 B  BMWC3@Motegit  13.471  about 18tries, close
+  10     license B10 B CitroenC3@Laguna  2:39.537F yikes 2F 2:24.112 -4+ seconds
+  11     license B11 B CelicaGT4@GrandC  19.295   about 10 tries
+  12     license B12 B Peugeot205@SwissAlps  19.295  2tries
+  13     license B13 B FiatBarchetta@Tsukuba  24.790  1 try
+  14     license B14 B InfinitG35@ElCapitan   19.527  2 tries
+  15     license B15 B PTCruiser@Infineon  2:28.588 -6.412B 1stclean about 10tries
+  16     license B16 B BMW120d@Tsukuba  25.367  about 10tries, 4complete
+
+Note: B license acquired
+  17 +1 win car redLupo Volkswagen Lupo 1.4'02 (red; "Tornadorot Uni")(prize,BlicenseB)
+Note: Track  Deep Forest Raceway  unlocked
+  18 Cr10,000  Apr 19  0.0%   A:0 B:0  Blicense  0G 0S 16B
+
+
+  18     license A10  B  IntegraTypeR@Suzuka  2:57.808B 1st try (maybe 1 off?)
+  19 save game
+
+  19     license A1  B   FTO'94@HSR  31.566    1 try
+  20     license A2  B   Eclipse111R@HSR  30.032   1 try
+  21     license A3  B   Eclipse@DFRW  12.569   3 tries
+  22     license A4  B   LegacyB4@Suzuka   23.343   3 tries
+  23     license A5  B   AudiA3@GVE   1:34.458   1st try
+  24     license A6  B   SLK230@Motegi   33.151   1st try, hairy
+  25     license A7  B   VWGolf@Nurb   18.025   2 tries
+  26     license A8  B   RX8@ElCapitan   16.863   3rd try
+  27     license A9  B   CivicTypeR@Suzuka   18.307  3 tries
+  28     license A11  B  LanciaHF@GrandC  13.715  2nd try(?)
+  29     license A12  B  SubaruSTi@TahitiMaze  32.671(close)  3tries, 1st finish
+  30     license A13  B  VspecII@TM   46.825 1try (missed a shift, too)
+  31     license A14  B  AudiTT@Nurb  36.269(close) 1try, sloppy
+  32     license A15  B  Mazda5dr@TM lap  2:12.812 1st try, so so
+  33     license A16  B  RX7@Nurb   1:01.943  -0.957  2tries, 1st finish
+Note: A license acquired
+  34 +1 win car Sunfire Pontiac Sunfire GXP Concept'02 (Shadow Black)(prize,AlicenseB)
+Note: Track  Opera Paris  unlocked
+  35 Cr10,000    0.0%   A:0 B:0  Alicense  0G 0S 32B
+  35 power off
+
+
+December 6, 2022
+
+  35     license IB1   B Tiburon@Tsukuba   15.529B(close)   3 tries
+  36     license IB2   B MBSL500@Nurb   26.216 5tries (kept gear lower)
+  37     license IB3   B PreludeS@Suzuka  29.437  1 try
+  38     license IB4   B AudiS4@DFRW  29.757  4 tries
+  39 Cr10,000    0.0%   A:0 B:0  Alicense  0G 0S 36B
+  39 power off
+
+  39     license IB6   B  BMWZ4@Slalom  20.361 (dozens of tries)  [20.890]
+  40 save game
+  40     license IB7   B  BMWZ4@Slalom  20.766B (dozens of tries, then a fluke)
+  41 save game
+  41     license IB8   B  Crossfire@NY  45.400B about 7 tries, but learned it
+  42     license IB9   B  VWBora@Aria  23.801B  dozens of tries, semi-fluke end
+Note:  Fuji Speedway 80's unlocked
+  43 Cr10,000    0.0%   A:0 B:0  Alicense  0G 0S 40B
+  43 save game
+ 
+December 7, 2022
+  43     license IB10  B  MGF@HKlap  2:04.229B about a dozen tries, learning
+  44 save game
+  44     license IB11  B  LancerEvoVIII@GrandC  19.178B about 4 tries, learning
+  45     license IB12  B  CelicaGT4@IceArena  26.033B about 20, not intuitive
+  46 save game
+  46     license IB13  B  FocusRS@ElCapitan  32.880B 1 try
+  47 save game
+  47     license IB14  B  MBSL600@ElCapitan  39.274 about 10 tries, 3rd finish
+  48 Cr10,000    0.0%   A:0 B:0  Alicense  0G 0S 45B
+  48 save game
+  48 power off
+
+
+  48     license IB5   B Peugeot206@Amalfia  3:01.156B about 7 tries, fluked 2nd finish
+  49 save game
+  49     license IB15  B  AlfaGiulia@Aria  2:22.617  not super many tries
+Note: started 2:42.805 +19.306 driving sanely
+Note: then several offs then +10.820 then  2;28.092 +4.807
+Note: then 2;28.077   2;25.487   2;23.567 +0.017!
+Note:      2;26.045   2;23.736(had been ahead)   2;24.953
+Note:      2;25.632   2;23.632  2;24.541(blew it!)  2;22.617!
+  50 Cr10,000    0.0%   A:0 B:0  Alicense  0G 0S 47B
+  50 save game
+
+  50     license IB16  B  LotusEsprit@Aria  21.184 about two dozen tries
+Note:   31.799 +10.499
+Note:   then 24.531 +3.231 many many tries, then 21.722 +0.422
+Note:   then 25.656 ThEN 25.056 +0.056
+Note:   after many more tries(?) finally flukey 21.184 -0.116
+
+  51 +1 win car Nike   Nike One 2022 (prize,IBlicenseB)
+  52 Cr10,000    0.0%   A:0 B:0  IBlicense  0G 0S 48B   3cars
+  52 power off
+
+December 8, 2022
+  52     license IA1  B JagXJ220@Midfield  35.670B about 6 tries 2 finishes
+  53     license IA2  B AlfaSpider@Suzuka  57.632 1 try
+  54     license IA3  B GTR34@Fuji'90  19.202 2 tries 1 finish
+  55     license IA4  B FPV'94@Apricot  36.103 3 tries 2 finishes
+  56 save game
+  56     license IA5  B SeatIbizaCupra@ElC(Lap)  2:35.262 2 tries 1 finish
+  57     license IA6  B S2000TypeV@Autumn  33.225  6 tries 3 finishes
+  58     license IA7  B RUFYellowbird@TM 35.667  5 tries 1 finish
+  59 save game
+Note: Track  Special Stage Route 5  unlocked
+
+Note: 59     license IA8 F  Alfa156@HK  1:12.854  (sluggish, reloaded)
+  59     license IA8  B Alfa156@HK  1:11.029  2 tries  1 finish
+  60     license IA9  B CitroenXsara@Opera  45.459  about 10 tries, learning
+  61 save game
+  61     license IA10 B  ToyotaCaldian@Fuji90 2:23.449  1st sloppy try
+  62 save game
+
+  62     license IA11 B  Pajero@SwissAlps  32.246  3 tries, learning
+  63 save game
+  63     license IA12  B CelicaGT4@Chamonix  1:04.134  3 tries  1 finish
+  64 save game
+
+  64     license IA13  B BMWM@Nurb  28.081  4 tries  2 finishes
+  65     license IA14  B TVRTampora@Motegi  15.338   2 tries
+  66 save game
+
+  66     license IA15(!)  B  MB190E2.5@Nurb  9:39.003  2nd try, 1st finish
+  67 save game
+
+  67     license IA16  B R92CP@Sarthe  1:50.541
+Note:  start 1:57.457 +5.167, about 6 offs then  1:50.541
+Note: IA license acquired
+  68 +1 win car 270R  Nismo 270R'94 (prize,IAlicenseB)
+  69 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 64B  4cars
+
+  69     license S1  B GaitherCivic@Motegi 2:25.975 about two dozen tries
+Note:  start 2:34.342  offs  2:32.543  offs 2:29.054
+Note:      2:32.639 2:29.030 2:31.546  +offs
+Note:      2:31.546 2:28.391 2:28.202  +offs
+Note:      2:28.722?    2:25.975B
+  70 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 65B  4cars
+  70 power off
+
+December 10, 2022
+Note:       start 2:50.`65 +23.715  off   2:46.601
+  70    license S2 B Alfa@Aria 2:26.313   many tries but learning
+Note:   2:33.558 2:34.415 2:36.407 2:33.511
+Note:   2:35.742 2:34.567 2:33.773 2:31.626 +5.126
+Note:   2:33.193 had been ahead   2:32.724
+Note:      break
+Note:   2:36.195 2:32.258  2:28.354 +1.914B (mostly in last sector)
+Note:   2:30.914 2:29.862 2:29.301 2:31.968(lost at end)
+Note:   2:28.639(lost at end) 2:28.886 2:30.532 2:31.577
+Note:   2:27.823 +1.283 2:29.783 2:27.386(not great start)
+Note:   2:32.558?  2:28.043messy 2:29.683 2:28.558(lost at end)
+Note:   2:33.007(sloppy finish) 2:27.557(lost 2 seconds at end!)
+Note:   2:27.855(blew 2 seconds again) 2:28.275 2:29.330
+Note:   2:28.647(lost at end again) 2:31.798
+Note:   2:26.313(messy flukey finish)
+  71 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 66B  4cars
+Note: Track  Suzuka Circuit  unlocked
+  71 power off
+
+December 11, 2022
+  71    license S3  B Saleen@SSR5  1:33.339 -0.061B  about 2 dozen tries
+Note:    start 1:46.199 +12.799  then  1:40.655 +7.255
+Note:    1:38.314 1:38.027 1:34.902
+Note:    1:36.336 1:35.768 1:35.987 1:35.398 1:36.895
+Note:    1:34.791(gained at end) 1:37.201 1:36.627 1:34.558 1:34.657
+Note:    1:37.459 1:34.629 1:34.171 +0.771(not clean) 1:33.339 -0.061B
+  72 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 67B  4cars
+  72 power off
+
+December 12, 2022
+Note:  72    license S4 F  Stratos@Amalfi  2:37.380F +9.880
+Note: ADD DETAILS
+  72 power off
+
+December 13, 2022
+Note: reload and retry S4
+  72    license S4 B  Stratos@Amalfi  2:27.316B -0.184  many many many tries
+Note: ADD DETAILS
+  73 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 68B  4cars
+  73 save game
+
+  73  license S5 B  FordGT'05@Seattle  1:41.831 -1.269  about two dozen tries
+Note: ADD DETAILS
+  74 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 69B  4cars
+  74 save game
+
+  74  license S6 B  Hyundai@IceArena 1:00.616 -0.289  about two dozen tries
+Note: ADD DETAILS
+  75 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 70B  4cars
+  75 power off
+
+December 14, 2022
+  75  license S7 B  McLarenSLR@TM  1:37.347 -0.953  3 finishes
+Note: 2 offs  1:41.965 +3.665  several offs  1:38.806 +0.506  1:37.347 -0.953
+  76 +1 skip
+Note: somehow I created a blank diary entry; darn!
+  77 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 71B  4cars
+  77 save game
+
+  77  license S8 B  TakataNSX@Tokyo 1:41.791 -0.209   many tries
+Note: ADD DETAILS
+  78 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 72B  4cars
+  78 save game
+
+  78 license S9 B Viper@ElCapitan  1:59.612 -0.394
+Note: several offs  2:00.141 +0.141  2:00.824  more offs  1:59.612 -0.394
+  79 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 73B  4cars
+  79 save game
+
+Note: Tried Grand Canyon; gave up to try again tomorrow
+Note: ADD DETAILS
+
+December 15, 2022
+  79 license S10 B  Starion@GrandCanyon 3:01.992 -0.008  many tries, two days
+Note: ADD DETAILS
+  80 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 74B  4cars
+  80 save game
+
+  80 license S11 B  Clio@OperaParis  1:44.098 -0.132  not too too many tries
+Note: ADD DETAILS
+  81 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 75B  4cars
+  81 power off
+
+  81 license S12 B  Motul350Z@Suzuka  2:05.011 -0.619 about 8 finishes
+Note: ADD DETAILS
+  82 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 76B  4cars
+  82 save game
+
+  82 license S13 B  AudiR8@Infineon  1:21.506 -1.194 about 3 dozen tries
+Note: ADD DETAILS
+  83 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 77B  4cars
+  83 save game
+
+  83 license S14 B  Paugeot@Chamonix  2:39.798 -0.245 about a dozen finishes
+Note: ADD DETAILS
+  84 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 78B  4cars
+  84 save game
+  84 power off
+
+December 17, 2022
+  84 license S15 B  Bentley@Sarthe 3:36.510 -0.090  4th finish, several offs
+Note: ADD DETAILS
+  85 Cr10,000    0.0%   A:0 B:0  IAlicense  0G 0S 79B  4cars
+Note: Track  Twin Ring Motegi East Short Course  unlocked
+  85 save game
+  85 license S16 B  Nurburgring  early off, 7:55.110 -3.190  next
+Note:  start 8:33.238 +34.988  several offs  8:08.191 +9.891
+Note:   a few offs   7:55.110 -3.190B
+Note:
+Note: Super License Acquired
+  86 +1 win car turquoiseCougar'67 Mercury Cougar XR-7 '67 (Turquoise)(prize,SlicenseB)
+  87 Cr10,000    0.0%   A:0 B:0  Slicense  0G 0S 80B  5cars
+  87 power off
+
+December 18, 2022
+cardef Cougar car86  Mercury Cougar XR-7 '67 (Turquoise)(prize,SlicenseB)
+  87 select car Cougar
+  87  buy parts Cougar  T-N1,T-N2,T-N3 Cr0   T-S1 Cr4600
+  87  buy parts Cougar  SpBr  Cr4600
+  87 Cr800    0.0%   A:0 B:0  Slicense  0G 0S 80B  5cars
+  87 save game
+
+December 18, 2022
+Note: did Eu/MM as a series
+  87    Cougar   Eu/MM/Nurb      q1st1stA)             1A     none
+  88    Cougar   Eu/MM/Opera    nq6th1stA)             1A     none
+  89    Cougar   Eu/MM/Cote      q1st1stA)             1A     none
+  90    Cougar   Eu/MM/SartheII  q1st1stA)             1A     next
+###   87 +4   Cougar   Eu/MM   sw40to24,14,11,11,4  (A)     4A   next
+### Note: Nurb      3:51:27.451   8:57.300   +1 lap   1A
+### Note: Opera     2:52:56.294   1:43.991   +3 iaps  1A
+### Note: Cote      3:30:05.534   2:00.929   +6 laps  1A
+### Note: SartheII  3:04:54.340   5:03.256   +1 lap   1A
+### Note:  Alfa Giulia    6 + 6 + 6 + 6 = 24
+### Note:  Mini Marcos    4 + 2 + 4 + 4 = 14
+### Note:  Honda S800'65  3 + 3 + 2 + 3 = 11
+### Note:  Karmann Ghia   2 + 4 + 3 + 2 = 11
+### Note:  Fiat 500F'65   1 + 1 + 1 + 1 =  4
+  91 +1 win car AlfaGiulia Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
+  92 Cr900,800    0.8%   A:4 B:0  Slicense  0G 0S 80B  6cars  976mi
+  92  buy parts Cougar  "CL" Cr5600  "SC" Cr5600
+Note: "CL" and "SC" are "close" and "super-close" transmissions
+Note: Old Rtrans is "FC"
+  92  buy parts Cougar  Rtrans  Cr10,000
+Note: Indeed, the "close" and "super-close" are as advertised; no easter eggs
+  92 Cr879,400    0.8%   A:4 B:0  Slicense  0G 0S 80B  6cars  976mi
+  92 power off
+
+january 2, 2023
+cardef Alfa'63 car91  Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
+  92 select car Alfa'63  Alfa Romeo Giulia Sprint Speciale '63 (Bluette)
+  92  buy parts Alfa'63   T-N1 T-N2 T-N3  Cr0 T-S1 T-S3  Cr4100 Cr5600
+  92  buy parts Alfa'63   T-R1 T-R2 T-R3  Cr7900 Cr10,000 Cr22,000
+  92  buy parts Alfa'63   Rmuff Cr4500
+  92  buy parts Alfa'63   Rbr Bctlr  Cr4500 Cr10,000
+  92  buy parts Alfa'63   NA1,NA2,NA3  Cr4600 Cr11,500 Cr65,000
+  92  buy parts Alfa'63   chip Cr1000  Rsusp Cr15,000
+  92  buy parts Alfa'63   Rtrans 3clu Rfw  Cr10,000 Cr4500 Cr900
+  92  buy parts Alfa'63   shaft  Cr2500
+  92  buy parts Alfa'63   TS1,TS2  Cr4500 Cr12,500
+  92 Cr678,800
+  92 +5  Alfa'63  Eu/ECCL  sw50to28,18,15,12,7  (A)  +5A   next
+  97 +1 win car Benz1886  Mercedes-Benz Benz Patent Motor Wagen 1886
+  98 Cr758,800    1.8%   A:9 B:0  Slicense  0G 0S 80B  7cars  1010mi
+  98 power off
+
+
+january 9, 2023
+Note: WCC lineup about 21
+Note: Ran WC as a series
+  98    Alfa'63    P/WC/Fuji80 q1st1st                            1A none
+  99    Alfa'63    P/WC/ElCapitanR q1st1st                        1A none
+ 100    Alfa'63    P/WC/Nurb   q1st1st                            1A none
+ 101    Alfa'63    P/WC/Cote   q1st1st                            1A none
+ 102    Alfa'63    P/WC/Laguna q1st1st                            1A next
+Note:                sw50to30,19,16,10,5
+ 103 +1 win car Daimler1886  Mercedes-Benz Daimler Motor Carriage 1886
+ 104 Cr858,800    2.8%   A:14 B:0  Slicense  0G 0S 80B  8cars  1046mi
+
+January 30, 2023
+ 104 +1 buy car Elise'98   Lotus Elise Sport 190 '98 (Titanium Metallic) (Cr42,425,usedII)
+ 105 +1 buy car Tuscan  TVR Tuscan Speed 6 '00 (Pathfinder Blue Pearlescent) (Cr94,050,new)
+ 106 Cr722,325    2.8%   A:14 B:0  Slicense  0G 0S 80B  10cars  1046mi
+
+ 106 select car Tuscan  TVR Tuscan Speed 6 '00 (Pathfinder Blue Pearlescent)
+ 106  mod car Tuscan          WR1     WR2     WR3    Cr1300 Cr5700 Cr23,000
+Note:                     1100 -> 1034 -> 1001 -> 968
+ 106  buy parts Tuscan  T-N1 T-N2 T-N3  Cr0   T-S1,T-S3   Cr5500 Cr7400
+ 106  buy parts Tuscan  T-R1,T-R2   Cr8700  Cr10750
+ 106  buy parts Tuscan  Rsusp  Cr18,000  Rtrans Cr10,500 
+ 106  buy parts Tuscan  3clu,Rfw,shaft  Cr4800 Cr1100 Cr3250
+ 106  buy parts Tuscan  LSDF Cr6800  chip Cr1800
+ 106  buy parts Tuscan  NA1 Cr500  NA2 Cr13,500  NA3 Cr80,000
+ 106  buy parts Tuscan  SpBr Bctlr  Cr4800 Cr10,800
+ 106  buy parts Tuscan  Smuff,SRmuff,Rmuff Cr1700 Cr2950 Cr4900 
+ 106 Cr490,075    2.8%   A:14 B:0  Slicense  0G 0S 80B  10cars  1046mi
+
+ 106 +5  Tuscan   Eu/BGT    sw50to23,23,15,15,5  NA2+      45A  next
+ 111 +1 win car  blueEtype   Jaguar E-Type Coupe '61  (Opalescent Silver Blue Metallic)
+ 112 Cr595,075    3.9%   A:59 B:0  Slicense  0G 0S 80B  11cars  "22 Jul"
+ 112 power off
+
+April 01, 2023
+ 112    Tuscan      Eu/BLW/ApricotR  nq6th1st         Cr3000 1A  none
+Note: Track  Hong Kong  unlocked
+ 113    Tuscan      Eu/BLW/Autumn    nq6th1st 2tries  Cr3000 1A  none
+ 114    Tuscan      Eu/BLW/SSR5      nq6th1st         Cr3000 1A  next
+ 115 +1 win car  purpleEuropa  Lotus Europa Special '71  (Roman Purple)
+ 116 Cr604,075    4.4%   A:62 B:0  Slicense  0G 0S 80B  12cars  "26 Jul"
+ 116    Tuscan      Mfr/Blackpool/Fuji05   nq6th1st S3 2tries Cr3,000 6A  none
+ 117    Tuscan      Mfr/Blackpool/SuzukaE  nq6th1st R1        Cr3,000 5A  none
+Note: Actually blew that last lap, but had too big a lead
+ 118 Cr610,075    4.7%   A:73 B:0  Slicense  0G 0S 80B  12cars  "28 Jul"
+ 118 power off
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++s+++++++++++++++++++++++++++++++++
+
+
+
+============================================================================
