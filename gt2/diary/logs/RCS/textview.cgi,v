@@ -1,4 +1,34 @@
-#!/usr/bin/perl
+head	1.2;
+access;
+symbols;
+locks
+	arpepper:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2023.04.22.14.47.15;	author arpepper;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.02.13.18.15.42;	author arpepper;	state Exp;
+branches;
+next	;
+
+
+desc
+@Apparently this was never RCS'd.
+Checked in Sat Apr 22, 2023.
+@
+
+
+1.2
+log
+@Remove ominous-looking pwd output from end of file contents.
+@
+text
+@#!/usr/bin/perl
 
 {
 $loaded_web ? return 1 : ($loaded_web = 1);
@@ -28,13 +58,13 @@ $filemode = 0644;
 
 # global constants
 $linebreak = '_' x 33 . '__ _ _ __' . '_' x 33;
-@ewn = ('Sunday', 'Monday', 'Tuesday', 'Wednesday',
+@@ewn = ('Sunday', 'Monday', 'Tuesday', 'Wednesday',
         'Thursday', 'Friday', 'Saturday');
-@emn = ('January', 'February', 'March', 'April', 'May', 'June',
+@@emn = ('January', 'February', 'March', 'April', 'May', 'June',
         'July', 'August', 'September', 'October', 'November', 'December');
-@fwn = ('dimanche', 'lundi', 'mardi', 'mercredi',
+@@fwn = ('dimanche', 'lundi', 'mardi', 'mercredi',
         'jeudi', 'vendredi', 'samedi');
-@fmn = ('janvier', 'f&eacute;vrier', 'mars', 'avril', 'mai', 'juin', 'juillet',
+@@fmn = ('janvier', 'f&eacute;vrier', 'mars', 'avril', 'mai', 'juin', 'juillet',
         'ao&ucirc;t', 'septembre', 'octobre', 'novembre', 'd&eacute;cembre');
 %mth = ('jan', 0, 'feb', 1, 'fev', 1, 'mar', 2, 'apr', 3, 'avr', 3,
         'may', 4, 'mai', 4, 'jun', 5, 'jul', 6, 'aug', 7, 'aou', 7,
@@ -92,7 +122,7 @@ $errtarget = "web'errmsg";
 sub urlencode  # escape spaces with '+', other specials with %xx
     {
     local($_) = $_[0];
-    s/([\x00-\x1f!-*,:-?@\\\^`{-\xff])/'%'.unpack('H2', $1)/eg; s/ /\+/g; $_;
+    s/([\x00-\x1f!-*,:-?@@\\\^`{-\xff])/'%'.unpack('H2', $1)/eg; s/ /\+/g; $_;
     # }  This comment lets vi % work...
     }
 
@@ -152,7 +182,7 @@ sub hidden  # generate form elements containing all of the current form data
 #
 sub stash
 	{
-	local($var,$value) = @_;
+	local($var,$value) = @@_;
 	local($qval) = &urldecode("$value");
 	local($hval) = &htmlencode("$qval");
 	
@@ -190,8 +220,8 @@ if (defined($ENV{'QUERY_STRING'}))
 
 if ($query =~ /=/)
     {
-    @fields = split(/[&\?]/, $query);
-    foreach $f (@fields)
+    @@fields = split(/[&\?]/, $query);
+    foreach $f (@@fields)
 	{
 	#
 	# Problem: Submit will give the same var multiple times
@@ -219,7 +249,7 @@ $back = &web'submit('form');  # generate the backlink to the request form
 
 sub
 mayview {
-	my($name) = @_;
+	my($name) = @@_;
 
 	$checklist = "./textlist.txt";
 
@@ -347,3 +377,15 @@ else {
 
 
 
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d318 1
+a318 1
+	system("/bin/pwd");
+@

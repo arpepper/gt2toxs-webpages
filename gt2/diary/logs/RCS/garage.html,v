@@ -1,10 +1,15 @@
-head	1.35;
+head	1.36;
 access;
 symbols;
 locks
-	arpepper:1.35; strict;
+	arpepper:1.36; strict;
 comment	@# @;
 
+
+1.36
+date	2023.04.22.14.51.18;	author arpepper;	state Exp;
+branches;
+next	1.35;
 
 1.35
 date	2023.04.20.22.49.43;	author arpepper;	state Exp;
@@ -188,9 +193,9 @@ the logs.
 @
 
 
-1.35
+1.36
 log
-@Crudely insert gt4-2022w1
+@Correct a couple of mistakes re: gt4-2022w1
 @
 text
 @<html>
@@ -239,7 +244,7 @@ Gran Turismo 1,2&3 enduroes I have done:
 The following is a somewhat detailed text file log I have begun for a
 third Gran Turismo 4 game:
 <ul>
-<li><a href="gt4-2022w1">gt4-2022w1</a> <a href="textview.cgi?filename=gt4-game2">gt4-2022w1</a> -
+<li><a href="gt4-2022w1">gt4-2022w1</a> <a href="textview.cgi?filename=gt4-2022w1">gt4-2022w1</a> -
 I was planning to sell my <b>Logitech Driving Force Pro</b> force-feedback wheel to a used game store.  But it turns out they do not deal in used wheels anymore because they do not sell.  (People who want one buy a new one).<br />It also turned out I sort of like driving with the wheel now.<br />
 That <a href="garage.cgi?garage=gt4-2022w1?simday=">garage</a> so far.
 </li>
@@ -466,6 +471,7 @@ day for each of the above games.
 <p>
 Show the contents of the garage from the
 <select name="garage">
+	<option value="gt4-2022w1">gt4-2022w1</option>
 	<option value="gt4-game2">gt4-game2</option>
 	<option value="gt4-game1">gt4-game1</option>
 	<option value="gt3-game1">gt3-game1</option>
@@ -512,6 +518,18 @@ game on day
 
 </body>
 </html>
+@
+
+
+1.35
+log
+@Crudely insert gt4-2022w1
+@
+text
+@d47 1
+a47 1
+<li><a href="gt4-2022w1">gt4-2022w1</a> <a href="textview.cgi?filename=gt4-game2">gt4-2022w1</a> -
+d274 1
 @
 
 

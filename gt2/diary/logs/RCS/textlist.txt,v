@@ -1,10 +1,15 @@
-head	1.3;
+head	1.4;
 access;
 symbols;
 locks
-	arpepper:1.3; strict;
+	arpepper:1.4; strict;
 comment	@# @;
 
+
+1.4
+date	2023.04.22.14.48.39;	author arpepper;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2021.04.04.01.02.26;	author arpepper;	state Exp;
@@ -27,9 +32,9 @@ desc
 @
 
 
-1.3
+1.4
 log
-@Brought over from ~gt2toxs version to help with producing updates.
+@Add new gt4-2022w1
 @
 text
 @allstars
@@ -100,6 +105,7 @@ gt4-buffer.txt
 gt4-game1
 gt4-game1-garage.txt
 gt4-game2
+gt4-2022w1
 gt4garage
 gt4-racedefs
 hastings
@@ -139,6 +145,15 @@ textfoot.html
 texthead.html
 used.d400-590
 v12.tmp
+@
+
+
+1.3
+log
+@Brought over from ~gt2toxs version to help with producing updates.
+@
+text
+@d69 1
 @
 
 
