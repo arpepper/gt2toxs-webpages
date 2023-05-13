@@ -3478,6 +3478,7 @@ August 14, 2005
 cardef new2CV   car1542
 1551 select car new2CV  Citroen 2CV Type A '54 (Gris Bleu)
 1551  buy parts new2CV     T-N1 T-N2 T-N3   Cr0  T-S1 Cr4100 N2O  Cr5000
+1551 Cr2,573,721
 1551 +5  new2CV        Mfr/2CV     sw50to26,22,14,10,8 stock+N2O +197A  next
 1556 +1 win car pink2CV  Citroen 2CV Type A '54 (peche(special color))
 1557 Cr2,593,721  Jul  6  A:9244  246cars  72.6%

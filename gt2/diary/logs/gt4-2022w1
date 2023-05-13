@@ -340,7 +340,7 @@ Note:                sw50to30,19,16,10,5
  104 Cr858,800    2.8%   A:14 B:0  Slicense  0G 0S 80B  8cars  1046mi
 
 January 30, 2023
- 104 +1 buy car Elise'98   Lotus Elise Sport 190 '98 (Titanium Metallic) (Cr42,425,usedII)
+ 104 +1 buy car Elise'98   Lotus Elise Sport 190 '98 (Titanium Metallic) (Cr42,425,UsedII)
  105 +1 buy car Tuscan  TVR Tuscan Speed 6 '00 (Pathfinder Blue Pearlescent) (Cr94,050,new)
  106 Cr722,325    2.8%   A:14 B:0  Slicense  0G 0S 80B  10cars  1046mi
 
@@ -374,6 +374,324 @@ Note: Track  Hong Kong  unlocked
 Note: Actually blew that last lap, but had too big a lead
  118 Cr610,075    4.7%   A:73 B:0  Slicense  0G 0S 80B  12cars  "28 Jul"
  118 power off
+
+April 26, 2023
+ 118    Tuscan    Mfr/Blackpool/Laguna   nq6th1st R2   3tries Cr3,000 4A  none
+ 119    Tuscan    Mfr/Blackpool/Opera    nq6th1st R2   2tries Cr3,000 4A  none
+ 120    Tuscan    Mfr/Blackpool/SSR5     nq6th1st R2   1 try  Cr3,000 4A  next
+ 121 +1 win car Speed12  TVR Cerbera Speed 12 '00  (Chameleon (special))
+ 122 Cr619,075    5.2%   A:85 B:0  Slicense  0G 0S 80B  13cars  "1 Aug"
+ 122 power off
+
+April 27, 2023
+ 122    Tuscan  B/Sunday/AMii       1try      nq6th1st  Cr600 1A  none
+ 123    Tuscan  B/Sunday/Beginner   1try      nq6th1st  Cr600 1A  none
+ 124    Tuscan  B/Sunday/HSR        1try      nq6th1st  Cr600 1A  none
+ 125    Tuscan  B/Sunday/CR5ii      1try      nq6th1st  Cr600 1A  none
+ 126    Tuscan B/Sunday/MotegiW     1try      nq6th1st  Cr600 1A  next
+ 127 +1 win car A112'79  Autobianchi A112 Abarth'79 (Black)
+ 128 Cr622,075    6.1%   A:90 B:0  Slicense  0G 0S 80B  14cars  "7 Aug"
+
+ 128    Tuscan     B/Spider/MotegiE   nq6th1st  Cr3000 1A  none
+Note: Track  Suzuka Circuit West Course  unlocked
+ 129    Tuscan     B/Spider/TMii      nq6th1st  Cr3000 1A  none
+ 130    Tuscan     B/Spider/Infineon  nq6th1st  Cr3000 1A  next
+ 131 +1 win car  Prowler  Chrylser Prowler '02 (Inca Gold Pearl Coat)
+ 132 Cr631,075    6.6%   A:93 B:0  Slicense  0G 0S 80B  15cars  "11 Aug"
+ 132 power off
+
+ 132    Tuscan     B/FR/SSR5      nq6th1st  1try  Cr1500 1A none
+ 133    Tuscan     B/FR/Laguna    nq6th1st  1try  Cr1500 1A none
+ 134    Tuscan     B/FR/SeattleR  nq6th1st  1try  Cr1500 1A none
+ 135    Tuscan     B/FR/Tsukuba   nq6th1st  1try  Cr1500 1A none
+ 136    Tuscan     B/FR/MSLii     nq6th1st  1try(just!)  Cr1500 1A next
+ 137 +1 win car redSkyline'67  Nissan Skyline 2000GT-B (S54A) '67 (Caroline Red)
+ 138 Cr638,575    7.4%   A:98 B:0  Slicense  0G 0S 80B  16cars  "17 Aug"
+
+
+ 138    Tuscan     P/Clubman/Apricot  nq6th1st  1try    Cr3000  1A    none
+ 139    Tuscan     P/Clubman/MotegiE  nq6th1st  1try    Cr3000  1A    none
+ 140    Tuscan     P/Clubman/CR5      nq6th1st  1try    Cr3000  1A    none
+Note: Track  Fuji Circuit 2005 GT Course  unlocked
+ 141    Tuscan     P/Clubman/DFRW     nq6th1st  1try    Cr3000  1A    none
+ 142    Tuscan     P/Clubman/Seoul    nq6th1st  1try    Cr3000  1A    next
+ 143 +1 win car  Mazdaspeed6  Mazdaspeed 6 '05  (Radiant Ebony Mica)
+ 144 Cr653,575    8.3%   A:103 B:0  Slicense  0G 0S 80B  17cars  "23 Aug"
+ 144 power off
+
+April 29, 2023
+ 144 select car game
+ 144 +1 skip Mission1  Fiat500@DFRW   nq2nd1st 5tries Cr1000  250A none
+ 145 +1 skip Mission2  BMW330i@@GV    nq2nd1st 3tries Cr1000  250A none
+ 146 +1 skip Mission3 Alfa'63@Cote    nq2nd1st 4tries=cheat Cr1000 250A none
+ 147 +1 skip Mission4 Mustang@Seattle nq2nd1st 4tries Cr1000 250A none
+ 148 +1 skip Mission5 Peugeot206@HSR  nq2nd1st ~10tries Cr1000 250A none
+ 149 +1 skip Mission6 Miata'00@Tsukuba nq2nd1st ~10tries Cr1000 250A none
+ 150 +1 skip Mission7 GolfGTI@Midfield nq2nd1st many tries,fluke Cr1000 250A none
+ 151 +1 skip Mission8 350Z@TM         nq2nd1st ~5tries Cr1000 250A none
+ 152 +1 skip Mission9 MotulNSX@Motegi nq2nd1st ~6tries Cr1000 250A none
+ 153 +1 skip Mission10 Avantime@Sarthe nq4th1st many tries Cr1000 250A next
+Note: semi-fluke, mostly clean
+ 154 +1 win car DeLorean  DMC DeLorean S2 '04 (prize,Missions1-10)
+Note: Track  Ice Arena  unlocked
+ 155 Cr663,575   10.0%   A:2603 B:0  Slicense  0G 0S 80B  18cars  "3 Sep"
+ 155 power off
+
+ 155 +1 skip Mission24 AmuseS2000@TT nq6th1st 1try  Cr10,000  250A none
+ 156 +1 skip Mission22 Odyssey@TT    nq6th1st ~5tries  Cr7500  250A none
+Note: no success trying Mission 23
+ 157 +1 skip Mission22 NissanCube@TT nq6th1st many tries -.003 Cr7500 250A none
+ 158 Cr688,575   10.5%   A:3353 B:0  Slicense  0G 0S 80B  18cars  "6 Sep"
+ 158 power off
+
+May 01, 2023
+ 158 select car Tuscan  TVR Tuscan Speed 6 '00 (Pathfinder Blue Pearlescent)
+ 158  Tuscan     SC/Easy/TsukubaWet  nq2nd1st  1try   Cr5000  1A  next
+ 159 +1 win car RX8Concept  Mazda RX-8 Concept (Type-I) '01 (Camelia Red)
+ 160 Cr693,575   10.6%   A:3354 B:0  Slicense  0G 0S 80B  19cars  "8 Sep"
+ 160  buy parts Tuscan  T-R3   T-SN,T-DT  Cr22,750 Cr22,750 Cr22,750
+ 160 Cr625,325
+
+ 160     Tuscan  SC/Easy/George      nq2nd1st Cr5000  ~5tries 1A  none
+ 161     Tuscan  SC/Easy/GeorgeR     nq2nd1st Cr5000  ~4tries 1A  next
+ 162 +1 win car A310'73  Alpine A310 1600VE '73 (Bleu Alpine)
+ 163  Tuscan     SC/Normal/TsukubaWet nq2nd1st  1try   Cr10000 9A  next
+Note: beat SLR McLaren
+ 164 +1 win car [R]Mazda6  Mazda Mazda 6 Touring Car '02 (yellow/blue #82)
+Note: check number
+ 165 Cr645,325   11.2%   A:3365 B:0  Slicense  0G 0S 80B  21cars  "13 Sep"
+
+ 165     Tuscan     SC/Easy/Amalfi  nq2nd1st  2tries ASM:1 Cr5000 1A  none
+ 166     Tuscan     SC/Easy/AmalfiR nq2nd1st 2tries?       Cr5000 1A  next
+ 167 +1 win car  RSC'02  Toyota RSC Rally Raid Car '02
+ 168 Cr655,325   11.5%   A:3367 B:0  Slicense  0G 0S 80B  22cars  "16 Sep"
+Note: SC/Normal/Amalfi is doable, but hard
+ 168 power off
+
+May 3, 2023
+ 168 +1 buy car EmeraldMidget  Daihatsu Midget II D-type '98 (Emerald Green Metallic) (Cr2870,UsedII)
+Note: Track  Apricot Hill Raceway  unlocked
+ 169 Cr652,455                            23 cars  "17 Sep"
+
+ 169 +1 buy car Megane  Renault Megane 2.0 16V '03 (Vert Vertigo) (Cr26,390,new)
+ 170 +1 buy car  ClioV6  Renault Clio Sport V6 Phase 2 '03 (Rouge de Mars) (Cr53,720,new)
+ 171  select car ClioV6
+ 171  buy parts ClioV6   Rmuff Cr4800 SpBr Bctlr  Cr4700 Cr10,600
+ 171  buy parts ClioV6   NA1,NA2  Cr4900 Cr12,500  chip Cr1500
+ 171  buy parts ClioV6   Rtrans,3clu Cr10,400 Cr4700 Rfw
+ 171  buy parts ClioV6   LSDF  Cr6600
+ 171  buy parts ClioV6   Rfw,LSDF  Cr1050 Cr6600
+ 171  buy parts  ClioV6  T-N1,T-N2,T-N3 Cr0
+ 171  buy parts ClioV6   T-S1 T-S3   Cr5100 Cr6800
+ 171  buy parts ClioV6   T-R1 T-R2 T-R3  Cr8400 Cr10,500 Cr22,500
+ 171  buy parts ClioV6   T-DT Cr22,500  T-SN Cr22,500
+ 171  buy parts ClioV6   Rsusp  Cr17,000   T-R4  Cr35,000
+ 171  mod car   ClioV6   WR1 WR2 WR3 1335-1214-1174-1134 Cr1200 Cr5500 Cr22,000
+ 171  buy parts ClioV6   NA3  Cr75,000
+ 171  +1 buy parts  ClioV6   wing 3D type AS (silver) (Cr1200)
+ 172  change oil ClioV6  Cr50
+ 172 Cr245,345                            25 cars  "20 Sep"
+Note: Mfr/Clio race is very difficult
+ 172     ClioV6     B/MR/Fuji90     nq6th1st      Cr2000  7A none
+ 173     ClioV6     B/MR/AutumnR    nq6th1st      Cr2000  6A none
+ 174 Cr259,345   11.8%   A:3380 B:0  Slicense  0G 0S 80B  25cars  "22 Sep"
+ 174     ClioV6     B/MR/ElCapitan  nq6th1st      Cr2000  7A none
+ 175 Cr261,345   12.0%   A:3387 B:0  Slicense  0G 0S 80B  25cars  "23 Sep"
+
+ 175 +5  ClioV6     Eu/HotHatch   sw50to26,23,14,11,6   26A   next
+ 180 +1 win car  greenVolvoWG  Volvo 240 GLT Estate '88 (Blue Green Metallic)
+ 181 Cr366,345   13.0%   A:3413 B:0  Slicense  0G 0S 80B  26cars  "29 Sep"
+ 181 power off
+
+May 4, 2023
+ 181 +5  ClioV6    Eu/Fr     sw50to26,24,15,10,5           15A     next
+ 186 +1 win car 2CV  Citroen 2CV Type A '54 (Gris Bleu)
+ 187 Cr451,345   14.0%   A:3428 B:0  Slicense  0G 0S 80B  27cars  "5 Oct"
+Note: Track  Cote d'Azur  unlocked
+ 187 +5  ClioV6    P/Compact  sw50to26,24,15,9,6 (Aspec)   23A     next
+ 192 +1 win car  S800RSC  Honda S800 RSC Race Car '68 (yellow #25)
+ 193 Cr518,845   15.0%   A:3451 B:0  Slicense  0G 0S 80B  28cars  "11 Oct"
+
+ 197 select car Megane  Renault Megane 2.0 16V '03 (Vert Vertigo)
+ 193  buy parts Megane  Rmuff Cr4600 SpBr Bctlr  Cr4600 Cr10,300
+ 193  buy parts Megane  Rtrans,3clu,Rfw  Cr10,200 Cr4600 Cr1000
+ 193  buy parts Megane  LSDF  Cr6300
+ 193  buy parts Megane  TS1,TS2  Cr4600 Cr13,000  Rsusp  Cr16,000
+ 193  buy parts Megane  T-N1 T-N2 T-N3   Cr0
+ 193  buy parts Megane  T-S1,T-S3  Cr4600 Cr6200
+ 193  buy parts Megane  T-R1,T-R2,T-R3 Cr8100 Cr10,250 Cr22,250
+Note: I should try to look up weight sometime...
+ 193  mod car   Megane  WR1 WR2   Cr1100 Cr5300
+ 193 Cr367,895
+
+ 193    Megane  B/FF/GVE        nq6th1st    Cr1500       19A  none
+ 194 Cr369,395   15.2%   A:3470 B:0  Slicense  0G 0S 80B  28cars  "12 Oct"
+
+ 194 +5 Megane   Mfr/Megane  sw50to27,21,15,9,8     15A    next
+Note: Track  Tahiti Maze           unlocked
+ 199 +1 win car Avantime  Renault Avantime '02 (Jaune(special color))
+ 200 Cr441,895   16.2%   A:3485 B:0  Slicense  0G 0S 80B  29cars  "18 Oct"
+
+ 200    Megane    B/FF/Midfield    nq6th1st     Cr1500  10A   none
+ 201 Cr443,395   16.4%   A:3495 B:0  Slicense  0G 0S 80B  29cars  "19 Oct"
+ 201    Megane    B/FF/SuzukaE     nq6th1st     Cr1500  22A   none
+ 202 Cr444,895   16.6%   A:3517 B:0  Slicense  0G 0S 80B  29cars  "20 Oct"
+ 202    Megane    B/FF/MotegiE     nq6th1st     Cr1500  10A   none
+ 203 Cr446,395   16.8%   A:3527 B:0  Slicense  0G 0S 80B  29cars  "21 Oct"
+ 203 power off
+
+May 8, 2023
+ 203 select car Megane  Renault Megane 2.0 16V '03 (Vert Vertigo)
+ 203    Megane    B/FF/HKii     nq6th1st 2tries    Cr1500  19A   next
+ 204 +1 win car  Mazda6'01  Mazda Mazda6 Concept '01  (Pacifico Azzuro)
+ 205 Cr447,895   16.9%   A:3546 B:0  Slicense  0G 0S 80B  30cars  "23 Oct"
+ 205 +1 buy car EKCivicR  Honda Civic Type R (EK) '98 (Sunlight Yellow) (Cr9990,UsedII)
+ 206 Cr437,905   16.9%   A:3546 B:0  Slicense  0G 0S 80B  31cars  "24 Oct"
+ 206 select car EKCivicR  Honda Civic Type R (EK) '98 (Sunlight Yellow)
+Note: Tuned at "Opera"
+ 206  buy parts EKCivicR T-N1 T-N2 T-N3 Cr0   T-S1 T-S3   Cr4100 Cr5600
+ 206  buy parts EKCivicR Rmuff Cr4500 SpBr Bctlr  Cr4500 Cr10,000
+ 206  buy parts EKCivicR NA1,NA2  Cr4600 Cr11,500
+ 206  buy parts EKCivicR chip Cr1000  Rtrans Cr10,000 3clu Cr4500 Rfw Cr900
+ 206  mod car   EKCivicR WR1 WR2  1050-805-780-755  Cr1000 Cr5000
+Note:           EKCivicR   1050 -> 987 -> 955
+ 206  change oil EKCivicR  Cr50  165hp->180hp
+ 206 Cr348,655
+
+ 206    EKCivicR  Mfr/Civic/AMii      nq6th1st 1try   -2.492   4A    none
+ 207    EKCivicR  Mfr/Civic/DFRW      nq6th1st 1try   -1.681   4A    none
+ 208    EKCivicR  Mfr/Civic/SuzukaE   nq6th1st 1try   -6.439   4A    none
+ 209    EKCivicR  Mfr/Civic/MotegiE   nq6th1st 2tries -10.095  4A    none
+ 210    EKCivicR  Mfr/Civic/MidfieldR nq6th1st 1try   -3.974   4A    next
+ 211 +1 win car [R]Civic'87  Honda Mugen Motul Civic Si Race Car '87
+Note: Track  Twin Ring Motegi Road Course  unlocked
+ 212 Cr373,655   17.8%   A:3566 B:0  Slicense  0G 0S 80B  32cars  "30 Oct"
+
+Note: Must do TypeR set on field 2, with no NSX, even then it is hard
+ 212    EKCivicR  Mfr/TypeR/Tsukuba    nq6th1st  -11.070 Cr10,000   59A   none
+ 213    EKCivicR  Mfr/TypeR/ARii       nq6th1st  -13.077 Cr10,000   59A   none
+ 214    EKCivicR  Mfr/TypeR/Motegi nq6th1st 2tries, cheat -0.795 Cr10K 59A none
+ 215    EKCivicR  Mfr/TypeR/Suzuka nq6th1st 1.5tries -2.019 Cr10,000  59A  none
+ 216    EKCivicR  Mfr/TypeR/MotorlandR nq6th1st -10.461 1.5tries Cr10K 59A next
+ 217 +1 win car HSC'04  Acura HSC '04  (silver)
+ 218 Cr423,655   18.6%   A:3861 B:0  Slicense  0G 0S 80B  33cars  "5 Nov"
+ 218 power off
+
+May 9, 2023
+ 218 +1 buy car blackCyborg  Mitsubishi Mirage Cyborg ZR '97  (Pyrenees Black Pearl) (Cr9540,UsedII)
+ 219  select car blackCyborg
+ 219  buy parts blackCyborg   T-N1 T-N2 T-N3 Cr0
+ 219  buy parts blackCyborg   T-S1 T-S3   Cr4600 Cr6200
+ 219  buy parts blackCyborg   T-R3 Cr22,250
+ 219  buy parts blackCyborg   Rmuff Cr4600 SpBr Bctlr  Cr4600 Cr10,300
+ 219  buy parts blackCyborg   NA1, NA2  Cr4700 Cr12,000   chip Cr1250
+ 219  mod car   blackCyborg   WR1 WR2 1060-996-964  Cr1100 Cr5300
+ 219 Cr337,215   18.6%   A:3861 B:0  Slicense  0G 0S 80B  34cars  "6 Nov"
+ 219 change oil blackCyborg   158hp->175hp  Cr50
+ 219 Cr337,165
+ 219  buy parts blackCyborg   3clu Frw Cr4600 Cr1000
+ 219 Cr331,565
+ 219  select car blackCyborg
+ 219 +5 blackCyborg  Mfr/Mirage   sw50to26,23,14,10,8 no reload       42A next
+ 224 +1 win car i'03  Mitsubishi i '03  (i Concept Purple)
+Note: Track  George V Paris  unlocked
+ 225 Cr356,565   19.6%   A:3903 B:0  Slicense  0G 0S 80B  35cars  "12 Nov"
+Note: no Cyborg in UsedII now
+ 225 +5 blackCyborg  J/Compact  sw50to30,20,14,11,5  NA0-             31A next
+ 230 +1 win car Life'72  Honda Life Step Van '72 (Ural Gray)
+ 231 Cr381,565   20.7%   A:3934 B:0  Slicense  0G 0S 80B  36cars  "18 Nov"
+
+ 231 select car HSC'04  Acura HSC '04 (silver)
+ 231     HSC'04     B/MR/NYii       nq6th1st  1try -5.135      Cr2000 6A none
+ 232 Cr383,565   20.8%   A:3940 B:0  Slicense  0G 0S 80B  36cars  "19 Nov"
+
+ 232 select car game
+ 232 +1 buy car GTR'89  Nissan Skyline GT-R (R32) '89 (Jet Silver Metallic) (Cr15,574,Historic)
+ 233 Cr367,991   20.8%   A:3940 B:0  Slicense  0G 0S 80B  37cars  "20 Nov"
+Note:  red Cyborg in UsedII
+
+ 233 select car HSC'04  Acura HSC '04 (silver)
+ 233     HSC'04     B/MR/Beginner   nq6th1st  1try -0.835      Cr2000 5A next
+ 234 +1 win car  Esprit'87  Lotus Esprit Turbo HC '87 (White)
+ 235 Cr369,991   21.0%   A:3945 B:0  Slicense  0G 0S 80B  38cars  "22 Nov"
+
+ 235 select car 2CV  Citroen 2CV Type A '54 (Gris Bleu)
+ 235  buy parts  2CV  T-N1 T-N2 T-N3  Cr0
+ 235  buy parts  2CV  T-S1 Cr4100  T-S3 Cr5600
+ 235  buy parts  2CV  TS1  Cr4500
+ 235 change oil  2CV     15hp -> 16hp Cr50
+ 235 Cr351,941
+ 235 +5 2CV      Mfr/2CV   sw50to24,22,13,12.9                       61A  next
+Note: Track  Cathedral Rocks Trail I  unlocked
+ 240 +1 win car pink2CV  Citroen 2CV Type A '54 (peche(special color))
+ 241 Cr371,941   22.0%   A:4106 B:0  Slicense  0G 0S 80B  39cars  "28 Nov"
+Note: need Rtrans for 2CV
+Note: Fiat'69 in Historic
+ 241 power off
+
+May 10, 2023
+ 241 select car GTR'89  Nissan Skyline GT-R (R32) '89 (Jet Silver Metallic)
+Note: tuned at Mine's
+ 241  buy parts GTR'89  T-N1 T-N2 T-N3  Cr0   T-S1,T-S3   Cr5100 Cr6800
+ 241  buy parts GTR'89  T-R1 Cr8400   T-R3 Cr22,500
+ 241  buy parts GTR'89  Rmuff Cr4800   SpBr Bctlr  Cr4700 Cr10,600
+ 241  buy parts GTR'89  chip Cr1500   Rtrans Cr10,400 3clu,Rfw Cr4700 Cr1050
+ 241  buy parts GTR'89  3clu,Rfw Cr4700 Cr1050  shaft Cr3000
+ 241 Cr288,391
+Note: no oil change
+ 241  buy parts GTR'89  TS1 Cr4800   Ric Cr3000
+ 241 Cr280,591
+
+ 241    GTR'89  B/4WD/GVE    nq6th1st 3tries Ric lineup2 Cr1,500 -.998 89A none
+ 242 Cr282,091   22.2%   A:4106 B:0  Slicense  0G 0S 80B  39cars  "28 Nov"
+ 242    GTR'89  B/4WD/AMii   nq6th1st 1try Ric lineup4  Cr1,500 -7.692 44A none
+ 243    GTR'89  B/4WD/SuzukaE nq6th1st 1try lineup2 Ric T-S3  Cr1,500  79A none
+ 244    GTR'89  B/4WD/ElCii  nq6th1st 1try lineup2 Ric Cr1,500 -5.144 89A none
+Note: ford RS200 gave a good mock race
+ 245    GTR'89  B/4WD/Fuji90 nq6th1st 1try RicS1 lineup2 Cr1,500 -.061 99A next
+Note: actually cheated
+ 246 +1 win car Triathlon  Toyota Motor Triathlon Race Car '04  (Chrome)
+ 247 Cr288,091   22.9%   A:4506 B:0  Slicense  0G 0S 80B  40cars  "4 Dec"
+ 247    GTR'89  Mfr/Red/Fuji80 nq6th1st 1try Ric,R3 rndlineup  Cr12000 83A none
+ 248 Cr300,091   23.0%   A:4589 B:0  Slicense  0G 0S 80B  40cars  "5 Dec"
+ 248 power off
+
+May 11, 2023
+ 248    GTR'89  J/80s/Apricot  nq6th1st 1try  -9.214 lineup2 Cr3000 8A none
+ 249    GTR'89 J/80s/Tsukuba  nq6th1st  1try -14.074 lineup3 Cr3000 10A none
+ 250    GTR'89 J/80s/CR5ii    nq6th1st  1try  -3.025 lineup2 Cr3000 35A none
+ 251    GTR'89 J/80s/ElC  nq6th1st      1try -18:    lineup3 Cr3000 28A none
+ 252    GTR'89 J/80s/Suzuka   nq6th1st  1try  -0.957 lineup4 Cr3000 43A next
+ 253 +1 win car HSR-II'89  Mitsubishi HSR-II Concept '89
+ 254 Cr315,091   23.0%   A:4713 B:0  Slicense  0G 0S 80B  40cars  "11 Dec"
+Note: Track  Costa di Amalfi  unlocked
+ 254    GTR'89   Mfr/Red/TMii nq6th1st -10.683 1try lineup5? Cr12000 31A none
+ 255 Cr327,091   24.1%   A:4744 B:0  Slicense  0G 0S 80B  41cars  "12 Dec"
+ 255 power off
+
+ 255  buy parts GTR'89  TS2 Cr13,500  at Mine's
+ 255 Cr313,591
+Note: Did J/JC as a series, but show individual races
+ 255   GTR'89     J/JC/Fuji90     nq6th1st  1try lineup1 TS2+    59A none
+ 256   GTR'89     J/JC/Tsukuba    q1sth1st  1try                 59A none
+Note: gave up and changed oil for Tokyo after first qualifying session
+ 257   GTR'89     J/JC/Tokyo      q1st1st 2tries qual           21A none
+ 258   GTR'89     J/JC/Motegi     q1st1st 2tries                21A none
+ 259   GTR'89     J/JC/Suzuka  nq6th1st   3tries                21A next
+ 260 +1 win car [R]350Z'02   Nissan 350Z Concept LM Race Car '02
+ 261 +1 win car  Nuvolari  Audi Nuvolari quattro '03 (Luna Silver) (prize,25%)
+ 262 Cr386,041   25.1%   A:4925 B:0  Slicense  0G 0S 80B  43cars  "19 Dec"
+Note: 123/124 races won (Also some Missions)
+
+Note: hoped to get following with dirty oil, and it seems to work
+ 262 +1 buy car tradeGTR'89  Nissan Skyline GT-R (R32) '89 (Jet Silver Metallic) (Cr15,574,trade)
+ 263 Cr370,467   25.1%   A:4925 B:0  Slicense  0G 0S 80B  44cars  "20 Dec"
+ 263 +1 buy car spareGTR'89  Nissan Skyline GT-R (R32) '89 (Jet Silver Metallic) (Cr15,574,Historic)
+Note: Used car lot also has another silver GTR'89
+ 264 Cr354,893   25.1%   A:4925 B:0  Slicense  0G 0S 80B  45cars  "21 Dec"
+ 264 power off
+
+Note: personal crisis may intervene here, if good weather does not...
 
 
 

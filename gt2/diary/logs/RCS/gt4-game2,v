@@ -1,9 +1,20 @@
-head	1.146;
+head	1.148;
 access;
 symbols;
-locks; strict;
+locks
+	arpepper:1.148; strict;
 comment	@# @;
 
+
+1.148
+date	2023.05.13.11.55.15;	author arpepper;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2023.05.08.15.06.45;	author arpepper;	state Exp;
+branches;
+next	1.146;
 
 1.146
 date	2022.03.28.02.58.26;	author arpepper;	state Exp;
@@ -742,10 +753,11 @@ Use ======================== markers to track update.
 @
 
 
-1.146
+1.148
 log
-@Aspec DTM using CLK-DTM.  Yay!
-Also got to 50%!!!:wq
+@Correct two apparent transcription errors in the /Civic/ set.
+Actually one was a strict transcription error, and the other appeared
+to be wrong in both paper logs also.
 @
 text
 @
@@ -1608,11 +1620,14 @@ Note:           CivicTypeR   1050 -> 987 -> 955 -> 824
 Note: Track  Twin Ring Motegi Road Course  unlocked
 Note: new car lineups
 
+Note: we should not need to do the following...
+ 211 select car game
  211 +1 buy car JagXKR'99  Jaguar XKR Coupe'99 (Sapphire Metallic) (Cr83,199,used)
  212  Cr2,392,003        A:3323 B:2029/25/20/20   Slicense  2G 16S 62B  50cars
  212 +1 buy car STiProdrive'01  Subaru Impreza STi Prodrive Style '01 (Pure White) (Cr23,587,used)
  213  Cr2,368,416        A:3323 B:2029/25/20/20   Slicense  2G 16S 62B  51cars
 
+ 208 select car CivicTypeR  Honda Civic Type R (EK) '98 (Sunlight Yellow)
  213    CivicTypeR  B/FF/MotegiE    nq6th1st  Cr1500  4A  none
  214  Cr2,369,916        A:3327 B:2029/25/20/20   Slicense  2G 16S 62B  51cars
  214    CivicTypeR  B/FF/HKii       nq6th1st  Cr1500  3A  next
@@ -1622,9 +1637,9 @@ Note: actually took three tries
 
  216    CivicTypeR  Mfr/Civic/MotegiE   nq6th1st              none
  217    CivicTypeR  Mfr/Civic/Suzuka  E nq6th1st              none
- 218    CivicTypeR  Mfr/Civic/MidfieldR nq6th1st              none
+ 218    CivicTypeR  Mfr/Civic/DFRW      nq6th1st              none
  219  Cr2,386,416        A:3333 B:2029/25/20/20   Slicense  2G 16S 62B  52cars
- 219    CivicTypeR  Mfr/Civic/AM        nq6th1st              none
+ 219    CivicTypeR  Mfr/Civic/AMii      nq6th1st              none
  220    CivicTypeR  Mfr/Civic/MidfieldR nq6th1st              next
  221 +1 win car [R]Civic'87  Honda Mugen Motul Civic Si Race Car '87
  222  Cr2,396,416  6.7%  A:3335 B:2029/25/20/20   Slicense  2G 16S 62B  53cars
@@ -1645,6 +1660,8 @@ Note: Track  George V Paris  unlocked
  228  power off
 
 April 12, 2021
+Note: we should not need to do the following...
+ 228 select car game
  228 +1 buy car Cerbera  TVR Cerbera Speed Six '97  (Crystal Topaz Pearlescent) (Cr39,940,used)
  229  Cr2,406,476  7.6%  A:3364 B:2029/25/20/20   55cars
  229 +1 buy car RX8S  Mazda RX-8 Type S  (Velocity Red Mica)(Cr27,500,new)
@@ -3272,6 +3289,35 @@ Note;   (but no qualifying)
  687 +1 win car  [R]XJR-9  Jaguar XJR-9 Race Car '88 (prize,50%)
  688 Cr13,797,269  50.0%  A:7762 B:6964/87/69/67                      170cars
  688 power off
+@
+
+
+1.147
+log
+@Added some explicit "select car game", but in fact it seems that
+we really did spend a lot of cash on the EK Civic Type R.
+It cleans up the logs a little to not have totals after purchase
+lines included in the CivicTypeR log entry.
+@
+text
+@d878 1
+a878 1
+ 218    CivicTypeR  Mfr/Civic/MidfieldR nq6th1st              none
+d880 1
+a880 1
+ 219    CivicTypeR  Mfr/Civic/AM        nq6th1st              none
+@
+
+
+1.146
+log
+@Aspec DTM using CLK-DTM.  Yay!
+Also got to 50%!!!:wq
+@
+text
+@d861 2
+d868 1
+d901 2
 @
 
 

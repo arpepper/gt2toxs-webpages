@@ -1,10 +1,15 @@
-head	1.121;
+head	1.122;
 access;
 symbols;
 locks
-	arpepper:1.121; strict;
+	arpepper:1.122; strict;
 comment	@# @;
 
+
+1.122
+date	2023.05.08.15.08.20;	author arpepper;	state Exp;
+branches;
+next	1.121;
 
 1.121
 date	2022.02.23.00.24.03;	author arpepper;	state Exp;
@@ -619,13 +624,10 @@ Develop incrementally.
 @
 
 
-1.121
+1.122
 log
-@Added lots of selects to avoid crediting Aspec and Credits
-to a semi-random car.  (I.e. for Missions and licenses)
-
-So  "gt4garage show=verbose,carlog,warn,audit" had all Missions
-and license tests ascribed to "game",
+@Add a status line to get income/expenses more properly indicated
+for the new2CV.
 @
 text
 @
@@ -4108,6 +4110,7 @@ August 14, 2005
 cardef new2CV   car1542
 1551 select car new2CV  Citroen 2CV Type A '54 (Gris Bleu)
 1551  buy parts new2CV     T-N1 T-N2 T-N3   Cr0  T-S1 Cr4100 N2O  Cr5000
+1551 Cr2,573,721
 1551 +5  new2CV        Mfr/2CV     sw50to26,22,14,10,8 stock+N2O +197A  next
 1556 +1 win car pink2CV  Citroen 2CV Type A '54 (peche(special color))
 1557 Cr2,593,721  Jul  6  A:9244  246cars  72.6%
@@ -7337,6 +7340,19 @@ December 08, 2012
 2717 Cr13,913,077  Sep08  A:29207  538cars  99.4%   20G 59S 1B*
 2717 power off
 
+@
+
+
+1.121
+log
+@Added lots of selects to avoid crediting Aspec and Credits
+to a semi-random car.  (I.e. for Missions and licenses)
+
+So  "gt4garage show=verbose,carlog,warn,audit" had all Missions
+and license tests ascribed to "game",
+@
+text
+@d3481 1
 @
 
 
