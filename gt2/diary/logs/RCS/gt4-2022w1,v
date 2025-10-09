@@ -1,10 +1,15 @@
-head	1.25;
+head	1.26;
 access;
 symbols;
 locks
-	arpepper:1.25; strict;
+	arpepper:1.26; strict;
 comment	@# @;
 
+
+1.26
+date	2025.10.09.17.52.55;	author arpepper;	state Exp;
+branches;
+next	1.25;
 
 1.25
 date	2023.05.13.21.21.13;	author arpepper;	state Exp;
@@ -139,12 +144,11 @@ Including previous game for edit fodder for now.
 @
 
 
-1.25
+1.26
 log
-@May 11, 2023.
-Pushed a little to get 25% complete, in a reasonably small number of days.
-Little, if any, even repetition.
-days 241 to 264 (actually started on May 10).
+@A few corrections, probably encouraged by gt4garage.
+Tweaks to prices in parts lists, etc.
+Added June 24, 2023.  Must have snuck in during crisis time.
 @
 text
 @
@@ -627,7 +631,7 @@ Note: Track  Apricot Hill Raceway  unlocked
  171  select car ClioV6
  171  buy parts ClioV6   Rmuff Cr4800 SpBr Bctlr  Cr4700 Cr10,600
  171  buy parts ClioV6   NA1,NA2  Cr4900 Cr12,500  chip Cr1500
- 171  buy parts ClioV6   Rtrans,3clu Cr10,400 Cr4700 Rfw
+ 171  buy parts ClioV6   Rtrans,3clu Cr10,400 Cr4700 Rfw Cr1050
  171  buy parts ClioV6   LSDF  Cr6600
  171  buy parts ClioV6   Rfw,LSDF  Cr1050 Cr6600
  171  buy parts  ClioV6  T-N1,T-N2,T-N3 Cr0
@@ -812,13 +816,13 @@ May 11, 2023
  251    GTR'89 J/80s/ElC  nq6th1st      1try -18:    lineup3 Cr3000 28A none
  252    GTR'89 J/80s/Suzuka   nq6th1st  1try  -0.957 lineup4 Cr3000 43A next
  253 +1 win car HSR-II'89  Mitsubishi HSR-II Concept '89
- 254 Cr315,091   23.0%   A:4713 B:0  Slicense  0G 0S 80B  40cars  "11 Dec"
+ 254 Cr315,091   23.0%   A:4713 B:0  Slicense  0G 0S 80B  41cars  "11 Dec"
 Note: Track  Costa di Amalfi  unlocked
  254    GTR'89   Mfr/Red/TMii nq6th1st -10.683 1try lineup5? Cr12000 31A none
  255 Cr327,091   24.1%   A:4744 B:0  Slicense  0G 0S 80B  41cars  "12 Dec"
  255 power off
 
- 255  buy parts GTR'89  TS2 Cr13,500  at Mine's
+ 255  buy parts GTR'89  TS2 Cr13,500  (at Mine's)
  255 Cr313,591
 Note: Did J/JC as a series, but show individual races
  255   GTR'89     J/JC/Fuji90     nq6th1st  1try lineup1 TS2+    59A none
@@ -842,6 +846,25 @@ Note: Used car lot also has another silver GTR'89
 
 Note: personal crisis may intervene here, if good weather does not...
 
+Note: tested GT-R'89 at E/ElCapitan; will not work
+ 264 select car Tuscan  TVR Tuscan Speed 6 '00 (Pathfinder Blue Pearlescent)
+Note: tested Tuscan at E/ElCapitan; will not work in Aspec
+June 24,2023
+ 264 select car RSC'02  Toyota RSC Rally Raid Car '02
+Note: tested RSC'02 at E/ElCapitan; did not seem right in Aspec
+Note: tried a few other cars in Arcade Mode
+
+June 24,2023
+ 264 select car [R]350Z'02   Nissan 350Z Concept LM Race Car '02
+ 264 buy parts [R]350Z'02   T-S1 T-S2 T-S3   Cr6000 Cr7000 Cr8000
+ 264 buy parts [R]350Z'02   T-N1 T-N2 T-N3   Cr0
+ 264 Cr333,893   25.1%   A:4925 B:0  Slicense  0G 0S 80B  45cars  "21 Dec"
+ 264  [R]350Z'02   E/ElCapitan   nq6th1st   T-S3=>T-S1 2:08:27.254  5A  next
+Note: lineup 2, no Elise
+ 265 +1 win car MT88C-V   Minolta Toyota 88C-V Race Car '89
+ 266 Cr583,893   25.2%   A:4930 B:0  Slicense  0G 0S 80B  46cars  "23 Dec"
+ 266 power off
+
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++s+++++++++++++++++++++++++++++++++
@@ -849,6 +872,27 @@ Note: personal crisis may intervene here, if good weather does not...
 
 
 ============================================================================
+@
+
+
+1.25
+log
+@May 11, 2023.
+Pushed a little to get 25% complete, in a reasonably small number of days.
+Little, if any, even repetition.
+days 241 to 264 (actually started on May 10).
+@
+text
+@d481 1
+a481 1
+ 171  buy parts ClioV6   Rtrans,3clu Cr10,400 Cr4700 Rfw
+d666 1
+a666 1
+ 254 Cr315,091   23.0%   A:4713 B:0  Slicense  0G 0S 80B  40cars  "11 Dec"
+d672 1
+a672 1
+ 255  buy parts GTR'89  TS2 Cr13,500  at Mine's
+d695 19
 @
 
 
